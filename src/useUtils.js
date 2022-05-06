@@ -1,3 +1,4 @@
+import abcjs from "abcjs";
 var useUtils = () => {
     /**
      *  Load a local storage key and parse it as JSON 
@@ -48,7 +49,117 @@ var useUtils = () => {
             return (Math.random() * 16 | 0).toString(16);
         }).toLowerCase();
     }
+    
+    const hash = function(str, seed = 0) {
+      //cyrb53 
+        let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+        for (let i = 0, ch; i < str.length; i++) {
+            ch = str.charCodeAt(i);
+            h1 = Math.imul(h1 ^ ch, 2654435761);
+            h2 = Math.imul(h2 ^ ch, 1597334677);
+        }
+        h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+        h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+        return 4294967296 * (2097151 & h2) + (h1>>>0);
+    };
 
-    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId}
+
+    function saveLastPlayed(tuneId) {
+      var lastPlayeds =  {}
+      try {
+          lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
+      } catch (e) {}
+      if (!lastPlayeds) lastPlayeds = {}
+      lastPlayeds[tuneId] = new Date().getTime()
+      localStorage.setItem('bookstorage_lastplayed',JSON.stringify(lastPlayeds))
+    }
+    
+    function hasPlayedInLast24Hours(tuneId) {
+      var lastPlayeds =  {}
+      try {
+          lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
+      } catch (e) {}
+      
+      var now = new Date().getTime()
+      if (lastPlayeds && lastPlayeds[tuneId] && now - lastPlayeds[tuneId] < 86400000) {
+        return true
+      } else {
+        return false
+      }
+    }
+    
+  function nextNumber(current, max) {
+    var val = current > 0 ? parseInt(current) + 1 : 1
+    if (max > 0) val = val % max
+    return val
+  }
+  
+  function previousNumber(current, max) {
+    if (current == 0) return (max - 1)
+    else return (current > 0 ? parseInt(current) - 1 : 0)
+    
+  }
+  
+  function download(filename, text) {
+      var element = document.createElement('a');
+      element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      element.setAttribute('download', filename);
+
+      element.style.display = 'none';
+      document.body.appendChild(element);
+
+      element.click();
+
+      document.body.removeChild(element);
+  }
+    
+  function copyText(text) {
+      const cb = navigator.clipboard;
+      cb.writeText(text).then(function() {
+         alert('Copied!')
+      }).catch(function(e) {
+          console.log(e)
+      });
+  }  
+     
+    function uniquifyArray(a) {
+        ////console.log(['UNIQARRAY',a])
+        if (Array.isArray(a)) {
+            var index = {}
+            a.map(function(value) {
+                index[value] = true 
+                return null
+            })
+            return Object.keys(index)
+        } else {
+            return []
+        }
+    } 
+    
+    
+  function primeAudio(audioCallback, setReady) {
+    return new Promise(function(resolve,reject) {
+      if (setReady) setReady(false)
+      //setMidiBuffer(null)
+      //setTimingCallbacks(null)          
+      var audioContext = null
+      if (abcjs.synth.supportsAudio()) {
+        if (audioCallback) audioCallback('startaudio')
+        window.AudioContext = window.AudioContext ||
+          window.webkitAudioContext ||
+          navigator.mozAudioContext ||
+          navigator.msAudioContext;
+        audioContext = new window.AudioContext();
+        audioContext.resume().then(function () {
+          resolve(audioContext)
+        })
+      } else {
+        reject()
+      }
+    })
+  }
+  
+    
+    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, primeAudio}
 }
 export default useUtils;

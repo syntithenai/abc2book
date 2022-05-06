@@ -1,4 +1,6 @@
 import {Fraction} from './Fraction'
+import abcjs from "abcjs";
+
 var useAbcTools = () => {
     
     var requiredHeaders = ['X','K','M','L','T','R','B']
@@ -13,11 +15,18 @@ var useAbcTools = () => {
     }
     
     function isNoteLine(line) {
-        return (line.startsWith('% abcbook-'))
+        return (!isCommentLine(line) && !isDataLine(line) && !isMetaLine(line))
+    }
+    
+    function justNotes(text) {
+        return text.split("\n").filter(function(line) {
+            return isNoteLine(line)
+        }).join("\n")
     }
     
     function isMetaLine(line) {
-        return (line.length > 1 && line[1] === ":")
+        //console.log('ismeta', line[0],line[1])
+        return (line.length > 1 && line[1] === ":" && line[0] !=='|')
     }
     
     function pushMeta(meta,key,line) {
@@ -29,112 +38,102 @@ var useAbcTools = () => {
         return meta
     }
     
+    
+    function renderOtherHeaders(tune) {
+        //console.log('RNoTER',tune.meta,tune)
+      if (tune && tune.meta) {
+        return Object.keys(tune.meta).map(function(key) {
+          // exclude required headers
+          if (Array.isArray(tune.meta[key])) {
+            return tune.meta[key].map(function(metaLine) {
+              return key + ": "+metaLine + "\n"
+            }).join("")
+          } else return ""
+        }).join("")
+      } else {
+         return "" 
+      }
+    }
+
+    function renderWordHeaders(tune) {
+      if (tune && tune.words && Array.isArray(tune.words)) {
+        return tune.words.map(function(wordLine) {
+              return "W: "+wordLine + "\n"
+        }).join("")
+      } else {
+         return "" 
+      }
+    }
+
+    
     function abc2json(abc) {
-        
+        //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,book:null, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
+        var tune = {id: null, name: null,books:[], tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
          abc.split("\n").forEach(function(line) {
-            if (isCommentLine(line) {
-                tune.abccomments.push(line.slice(2))
-            } else if (isMetaLine(line) {
+             //console.log('LINE', line)
+            if (isCommentLine(line)) {
+                tune.abccomments.push(line)
+            } else if (isMetaLine(line)) {
                 var key = line[0]
-                switch key {
-                    case: "W"
-                        tune.words.push(line.slice(2))
+                switch (key) {
+                    case "W":
+                        tune.words.push(line.slice(2).trim())
                         break
-                    case: "T"
+                    case "T":
                         // only the first one, subsequent go into meta arrays
                         if (!tune.name) {
-                            tune.name = line.slice(2)
+                            tune.name = line.slice(2).trim()
                         } else {
-                            tune.meta = pushMeta(tune.meta, "T", line.slice(2))
+                            tune.meta = pushMeta(tune.meta, "T", line.slice(2).trim())
                         }
                         break
-                    case: "B"
-                        if (!tune.book) {
-                            tune.book = line.slice(2)
-                        } else {
-                            tune.meta = pushMeta(tune.meta, "B", line.slice(2))
-                        }
+                    case "B":
+                        //if (!Array.isArray(tune.books)) tune.books = []
+                        tune.books.push(line.slice(2).trim().toLowerCase())
                         break
-                    case: "M"
+                    case "M":
                         // only the first one
                         if (!tune.meter) {
-                            tune.meter = line.slice(2)
+                            tune.meter = line.slice(2).trim()
                         }
                         break
-                    case: "R"
+                    case "R":
                         if (!tune.rhythm) {
-                            tune.rhythm = line.slice(2)
+                            tune.rhythm = line.slice(2).trim()
                         }
                         break
-                    case: "L"
+                    case "L":
                         if (!tune.noteLength) {
-                            tune.noteLength = line.slice(2)
+                            tune.noteLength = line.slice(2).trim()
                         }
                         break
-                    case: "K"
-                        if (!tune.key) tune.key = line.slice(2)
+                    case "K":
+                        if (!tune.key) tune.key = line.slice(2).trim()
+                        break
+                    case "Q":
+                        if (!tune.key) tune.tempo = line.slice(2).trim()
                         break
                     default:
-                        tune.meta = pushMeta(tune.meta, key, line.slice(2))
+                        tune.meta = pushMeta(tune.meta, key, line.slice(2).trim())
                         break
                 }
-            } else if (isDataLine(line) {
+            } else if (isDataLine(line)) {
                 if (line.startsWith('% abcbook-tune-id')) {
-                    tune.id = line.slice(18)
+                    tune.id = line.slice(18).trim()
                 } else  if (line.startsWith('% abcbook-boost')) {
-                    tune.boost = parseInt(line.slice(16))
+                    tune.boost = parseInt(line.slice(16).trim())
                 }
-            } else if (isNoteLine(line) {
-                tune.notes.push(line)
+            } else if (isNoteLine(line)) {
+                //console.log('LINE ISNOTE', line)
+                
+                if (line.trim().length > 0) {
+                    tune.notes.push(line.trim())
+                }
             } 
-        }
+        })
         
-        //var meter = ensureText(getMetaValueFromAbc("M",abc))
-        ////var noteLength = getMetaValueFromAbc("L",abc)
-        //var key = ensureText(getMetaValueFromAbc("K",abc))
-        //var type = ensureText(getMetaValueFromAbc("R",abc))
-        //var sessionId = ensureText(getKeyedCommentFromAbc('sessionorg_id',abc))
-        //var id = ensureText(getKeyedCommentFromAbc('tune_id',abc))
-        //var setting = getKeyedCommentFromAbc('sessionorg_setting',abc)
-        //var settingId = getKeyedCommentFromAbc('sessionorg_setting_id',abc)
-        //var boost = ensureInteger(getKeyedCommentFromAbc('boost',abc))
-        //var name = ensureText(getMetaValueFromAbc("T",abc))
-        //// remove song number from title
-        //var aliases = getAliasesFromAbc(abc)
-        //var tune = {
-          //"format": "json",
-          //"perpage": "50",
-          //"name": name,
-          //"type": type,
-          //"aliases": aliases,
-          //"meta": getMetaFromAbc(abc),
-          //"abccomments": getCommentsFromAbc(abc),
-          //"settings": [
-              //{
-                  //"key": key,
-                  //"abc": getNotesFromAbc(abc),
-                  //"member": {
-                  //},
-                  
-              //}
-            //]
-          //}
-            
-          //if (sessionId) {
-            //tune.sessionId = sessionId
-            //tune.url = "https://thesession.org/tunes/"+sessionId
-            //if (settingId) {
-              //tune.settings[0].id = settingId
-              //tune.settings[0].url = "https://thesession.org/tunes/"+sessionId+"#setting"+settingId
-            //}
-          //}
-          //tune.id = id
-          //tune.useSetting = 0
-          //tune.boost = boost
-          ////tune.songNumber = ensureText(getMetaValueFromAbc("X",abc))
-          console.log('ABC2JSON single',tune)
+          //console.log('ABC2JSON single',tune)
           return tune
       }
       return {}
@@ -152,53 +151,91 @@ var useAbcTools = () => {
     function json2abc(tune) {
       //console.log('json2abc',tune)
       if (tune) {
-        //var setting = settingFromTune(tune)
-        //var abc = setting.abc
-        //var aliasText = ''
-        //var useSetting = parseInt(tune.useSetting) > 0 ? parseInt(tune.useSetting) : 0
-        
+          var aliasText = ''
         if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
            var aliasChunks = sliceIntoChunks(tune.aliases,5)
            aliasChunks.forEach(function(chunk) {
             aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
           })
         }
-        
-        //var settings = Array.isArray(tune.settings) ? tune.settings.map(function(setting,sk) {
-            //return '% abc-setting-'+sk+'-key '+setting.key + "\n" + '% abc-setting-'+sk+'-notes '+setting.abc.replace(/(\r\n|\n|\r)/gm,"")
-        //}).join("\n") : ''
-        
         var boost = tune.boost > 0 ? tune.boost : 0
-        var tweaked = "\nX: "+songNumberForDisplay(tune) + "\n" 
-                    + "T: " + getTuneName(tune) + "\n" 
-                    + (getTuneBookName(tune) ? "B: " + getTuneBookName(tune) + "\n" : '')
-                    + "M:"+getTuneMeter(tune)+ "\n" 
-                    + "L:" + getTuneNoteLength(tune) + "\n" 
-                    + "R: "+  getTuneType(tune) + "\n" 
+        var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
+        var books = Array.isArray(tune.books) && tune.books.length > 0 ? tune.books.map(function(book) {
+          return  'B: '+ensureText(book).toLowerCase()
+        }).join("\n") + "\n": ''
+        var finalAbc = "\nX: "+tuneNumber + "\n" 
+                    + "T: " + ensureText(tune.name) + "\n" 
+                    + books
+                    + "M:"+ensureText(tune.meter)+ "\n" 
+                    + "L:" + ensureText(tune.noteLength) + "\n" 
+                    + "R: "+  ensureText(tune.rhythm) + "\n" 
+                    + "Q: "+  ensureText(tune.tempo) + "\n" 
                     + renderOtherHeaders(tune)
                     + aliasText 
-                    + "K:"+setting.key+ "\n" 
-                    + abc  + "\n" 
-                    // add song number to title
+                    + "K:"+ensureText(tune.key)+ "\n" 
+                    + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
                     + renderWordHeaders(tune)
                     +
                     "% abc-tune_id " + tune.id + "\n" + 
-                    "% abc-sessionorg_id " + tune.sessionorgId + "\n" + 
-                    "% abc-sessionorg_setting " + useSetting + "\n" + 
-                    "% abc-sessionorg_setting_id " + setting.id + "\n" + 
-                    //"% abc-force_title " + tune.forceTitle + "\n" +
                     "% abc-boost " +  boost + "\n" +
-                    settings + 
-                    ensureText(tune.abccomments) + "\n"
+                    ensureText((Array.isArray(tune.abcomments) ? tune.abcomments.join("\n")  + "\n" : '')) 
         
         
-        //console.log('ABC OUT', tune, tweaked)
-        return tweaked
+        //console.log('ABC OUT', finalAbc)
+        return finalAbc
       } else {
         return ''
       }
     }
+    
+     function json2abc_print(tune) {
+      if (tune) {
+        var aliasText = ''
+        if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
+           var aliasChunks = sliceIntoChunks(tune.aliases,5)
+           aliasChunks.forEach(function(chunk) {
+            aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
+          })
+        }
+        var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
+        var finalAbc = "\nX: "+tuneNumber + "\n" 
+                    + "T: " + ensureText(tune.name) + "\n" 
+                    + "M:"+ensureText(tune.meter)+ "\n" 
+                    + "L:" + ensureText(tune.noteLength) + "\n" 
+                    + "R: "+  ensureText(tune.rhythm) + "\n" 
+                    + aliasText 
+                    + "K:"+ensureText(tune.key)+ "\n" 
+                    + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
+                    + renderWordHeaders(tune)
+        
+        
+        //console.log('ABC OUT', finalAbc)
+        return finalAbc
+      } else {
+        return ''
+      }
+    }
+    
 
+     function json2abc_cheatsheet(tune) {
+      if (tune) {
+        
+        var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
+        var finalAbc = "\nX: "+tuneNumber + "\n" 
+                    + "T: " + ensureText(tune.name) + "\n" 
+                    + "M:"+ensureText(tune.meter)+ "\n" 
+                    + "L:" + ensureText(tune.noteLength) + "\n" 
+                    + "R: "+  ensureText(tune.rhythm) + "\n" 
+                    + "K:"+ensureText(tune.key)+ "\n" 
+                    + (Array.isArray(tune.notes) ? tune.notes[0]  + "\n" : '')
+                   
+        
+        //console.log('ABC OUT', finalAbc)
+        return finalAbc
+      } else {
+        return ''
+      }
+    }
 
     //// JUST FIRST THREE BARS AND NO CHORDS
     //function json2shortabc(tune) { 
@@ -269,48 +306,14 @@ var useAbcTools = () => {
 
 
 
-    function settingFromTune(tune) {
-        var useSetting = parseInt(tune.useSetting) > 0 ? parseInt(tune.useSetting) : 0
-        if (tune && tune.settings && tune.settings.length > useSetting) {
-          return tune.settings[useSetting]
-        } else {
-            return {key:'', abc: ''}
-        }
-    }
-
-    function renderOtherHeaders(tune) {
-      if (tune && tune.meta) {
-        return Object.keys(tune.meta).map(function(key) {
-          // exclude required headers
-          if (requiredHeaders.indexOf(key) === -1 && key !== "W") {
-            return tune.meta[key].split("\n").map(function(metaLine) {
-              return key + ": "+metaLine + "\n"
-            }).join("")
-          } else {
-            return ''
-          }
-        }).join("")
-      } else {
-         return "" 
-      }
-    }
-
-    function renderWordHeaders(tune) {
-      if (tune && tune.meta) {
-        return Object.keys(tune.meta).map(function(key) {
-          // exclude required headers
-          if (key === 'W') {
-            return tune.meta[key].split("\n").map(function(metaLine) {
-              return key + ": "+metaLine + "\n"
-            }).join("")
-          } else {
-            return ''
-          }
-        }).join("")
-      } else {
-         return "" 
-      }
-    }
+    //function settingFromTune(tune) {
+        //var useSetting = parseInt(tune.useSetting) > 0 ? parseInt(tune.useSetting) : 0
+        //if (tune && tune.settings && tune.settings.length > useSetting) {
+          //return tune.settings[useSetting]
+        //} else {
+            //return {key:'', abc: ''}
+        //}
+    //}
 
 
     function getTextFromSongline(songline) {
@@ -323,8 +326,8 @@ var useAbcTools = () => {
         }
     }
 
-    function timeSignatureFromTuneType(type) {
-      var types = {
+    function getRhythmTypes() {
+        return {
         'jig': '6/8',
         'reel':  '4/4',
         'slip jig':  '9/8',
@@ -337,6 +340,10 @@ var useAbcTools = () => {
         'three-two':  '3/2',
         'mazurka':  '3/4'
       }
+    }
+
+    function timeSignatureFromTuneType(type) {
+      var types = getRhythmTypes()
       if (types.hasOwnProperty(type)) {
         return types[type]
       } else {
@@ -381,45 +388,45 @@ var useAbcTools = () => {
       return final
     }
 
-    function isAliasLine(line) {
-        return (line.startsWith("N: AKA: "))
-    }
+    //function isAliasLine(line) {
+        //return (line.startsWith("N: AKA: "))
+    //}
 
-    function isMetaLine(line) {
-        if (line[1] === ":" && line[0] !== "|" && line[2] !== "|" ) {
-            // avoid alias lines
-            return isAliasLine(line) ? false : true
+    //function isMetaLine(line) {
+        //if (line[1] === ":" && line[0] !== "|" && line[2] !== "|" ) {
+            //// avoid alias lines
+            //return isAliasLine(line) ? false : true
             
-        } else {
-            return false
-        }
-    }
+        //} else {
+            //return false
+        //}
+    //}
 
 
-    function getMetaFromAbc(abc) {
-      var parts = abc.split("\n")
-      var meta = {}
-      function stashMeta(key,val) {
-          if (meta.hasOwnProperty(key)) {
-              meta[key] = meta[key] + "\n" + val
-          } else {
-              meta[key] = val
-          }
-      }
+    //function getMetaFromAbc(abc) {
+      //var parts = abc.split("\n")
+      //var meta = {}
+      //function stashMeta(key,val) {
+          //if (meta.hasOwnProperty(key)) {
+              //meta[key] = meta[key] + "\n" + val
+          //} else {
+              //meta[key] = val
+          //}
+      //}
       
-      parts.map(function(part) {
-        if (isMetaLine(part) && !isAliasLine(part)) {
-            if (part[0] === 'T') {
-                stashMeta(part[0],stripLeadingNumber(part.slice(2).trim()))
-            } else {
-                stashMeta(part[0],part.slice(2).trim())
-            }
+      //parts.map(function(part) {
+        //if (isMetaLine(part) && !isAliasLine(part)) {
+            //if (part[0] === 'T') {
+                //stashMeta(part[0],stripLeadingNumber(part.slice(2).trim()))
+            //} else {
+                //stashMeta(part[0],part.slice(2).trim())
+            //}
            
-        }
-      })
-      return meta
+        //}
+      //})
+      //return meta
       
-    }
+    //}
 
 
     function getCommentsFromAbc(abc) {
@@ -435,12 +442,14 @@ var useAbcTools = () => {
         }).join("")
     }
 
-    function getNotesFromAbc(abc, parseNotes = false) {
+    function getNotesFromAbc(abc, parseNotes = false, barsPerLine = 0) {
+        var useBarsPerLine = (barsPerLine > 0) ? parseInt(barsPerLine) : 4
+        
         if (!abc || !abc.split) return ''
         var parts = abc.split("\n")
         var noteLines = []
         parts.forEach(function(line) { 
-            if (line !== undefined && line !== null && !line.startsWith('% ') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
+            if (isNoteLine(line) && (line.trim().length > 0)) {
                 noteLines.push(line+"\n")
             }    
         })
@@ -448,14 +457,14 @@ var useAbcTools = () => {
         if (parseNotes) {
            //  try parse and rejoin notes to standardise (but lose force line breaks)
             try {
-                var tunes = window.ABCJS.extractMeasures(abc)
+                var tunes = abcjs.extractMeasures(abc)
                 if (tunes.length > 0) {
                     notes = tunes[0].measures.map(function(measure,measureNumber) {
                         var nl = ''
                         var offset = 0
                         if (tunes[0].hasPickup) offset = 1
-                        console.log('3 for nl ',((measureNumber - offset) % 4))
-                        if (((measureNumber - offset) % 4) === 3 ) nl="\n" 
+                        console.log('3 for nl ',((measureNumber - offset) % useBarsPerLine))
+                        if (((measureNumber - offset) % useBarsPerLine) === (useBarsPerLine - 1) ) nl="\n" 
                         return measure.abc + nl
                     })
                 }
@@ -531,9 +540,10 @@ var useAbcTools = () => {
     }
 
     function removeAbcInnerStrings(abc) {
-      if (abc) {
+        //console.log('removeinner',abc)
+      if (abc ) {
             // remove strings from abc notes
-          abc = abc.trim()
+          abc = new String(abc).trim()
           var next = abc.indexOf('"')
           while (next !== -1) {
             var nextClose = abc.indexOf('"', next+1)
@@ -546,9 +556,21 @@ var useAbcTools = () => {
             next = abc.indexOf('"')
           }
       }
-      return abc
+      return abc ? abc : ''
     }
-
+    
+    function hasChords(abc) {
+      var chords = getInnerStrings(abc)
+      var haveChords = false;
+      // any match success
+      chords.map(function(chord,k) {
+         if (isChord(chord)) {
+            haveChords = true;
+         }
+      })
+      return haveChords
+    }
+    
     function getInnerStrings(abc) {
         var s = []
       if (abc) {
@@ -595,9 +617,20 @@ var useAbcTools = () => {
     function isOctaveModifier(letter) {
         return (letter === ',' || letter === "'") 
     }
+  
+    function fixNotes(abc, barsPerLine= 0) {
+          return getNotesFromAbc(abc,true, barsPerLine)
+    }
 
+
+    function fixNotesBang(abc) {
+          return  getNotesFromAbc(abc).replace(/!/g,"\n")
+    }
+
+    
     function multiplyAbcTiming(multiplier,abc) {
-        var measures = window.ABCJS.extractMeasures(abc)[0].measures
+        var measures = abcjs.extractMeasures(abc)[0].measures
+        console.log('mult',measures)
         var newMeasures = measures.map(function(m) {
           var abc = m.abc
           var c = 0
@@ -650,12 +683,10 @@ var useAbcTools = () => {
                     } else {
                         if (c < abc.length + 2) {
                             nextNextSymbol = abc[c+2]
-                            
                             if (c < abc.length + 3) {
                                 nextNextNextSymbol = abc[c+3]
                             }
                         }
-                        
                         var result = symbolsToFraction(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
                         var asFraction = new Fraction(parseInt(result.number.top),parseInt(result.number.bottom))
                         var m = decimalToFraction(multiplier)
@@ -668,7 +699,6 @@ var useAbcTools = () => {
                     newAbc.push(symbol)
                     c++
                 }
-                
             } else {
                 newAbc.push(symbol)
                 c++
@@ -787,40 +817,37 @@ var useAbcTools = () => {
     }
 
 
-    function getTuneId(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("X")) {
-            return ensureText(tune.meta["X"],tune.id)
-        } else return tune.id
-    }
+    //function getTuneId(tune) {
+        //if (tune && tune.meta && tune.meta.hasOwnProperty("X")) {
+            //return ensureText(tune.meta["X"],tune.id)
+        //} else return tune.id
+    //}
 
-    function getTuneName(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("T")) {
-            return ensureText(tune.meta["T"],tune.name)
-        } else return tune.name
-    }
+    //function getTuneName(tune) {
+        //if (tune && tune.meta && tune.meta.hasOwnProperty("T")) {
+            //return ensureText(tune.meta["T"],tune.name)
+        //} else return tune.name
+    //}
     
-    function getTuneBookName(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("B")) {
-            return ensureText(tune.meta["B"],tune.book)
-        } else return tune.book
-    }
+    //function getTuneBookName(tune) {
+        //if (tune && tune.meta && tune.meta.hasOwnProperty("B")) {
+            //return ensureText(tune.meta["B"],tune.book)
+        //} else return tune.book
+    //}
     
-    function getTuneType(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("R")) {
-            return ensureText(tune.meta["R"],tune.type)
-        } else return tune.type
-    }
+    //function getTuneType(tune) {
+        //if (tune && tune.meta && tune.meta.hasOwnProperty("R")) {
+            //return ensureText(tune.meta["R"],tune.type)
+        //} else return tune.type
+    //}
 
-    function getTuneNoteLength(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("L")) {
-            return ensureText(tune.meta["L"],'1/8')
-        } else return '1/8'
-    }
+    //function getTuneNoteLength(tune) {
+        //if (tune && tune.meta && tune.meta.hasOwnProperty("L")) {
+            //return ensureText(tune.meta["L"],'1/8')
+        //} else return '1/8'
+    //}
     function getTuneMeter(tune) {
-        if (tune && tune.meta && tune.meta.hasOwnProperty("M")) {
-            var meter = ensureText(tune.meta["M"],timeSignatureFromTuneType(tune.type))
-            return meter
-        } else return timeSignatureFromTuneType(tune.type)
+        return ensureText(tune.meter,timeSignatureFromTuneType(tune.type))
     }
 
     function cleanMetaData(meta) {
@@ -880,28 +907,11 @@ var useAbcTools = () => {
       return 4
     }
     
-    function removeAbcInnerStrings(abc) {
-      if (abc) {
-            // remove strings from abc notes
-          abc = abc.trim()
-          var next = abc.indexOf('"')
-          while (next !== -1) {
-            var nextClose = abc.indexOf('"', next+1)
-            if ((nextClose !== -1) && (nextClose > next)) {
-              // strip string
-              abc = abc.slice(0,next) + abc.slice(nextClose+1)
-            } else {
-              abc = abc.slice(0,next) + abc.slice(next + 1)
-            }
-            next = abc.indexOf('"')
-          }
-      }
-      return abc
-    }
 
     function getTempo(tune) {
+        //console.log('gettempo',tune)
         var tempo = 120
-        var tempoString = tune.meta && tune.meta["Q"] ? tune.meta["Q"] : '1/8=120 "fast"'
+        var tempoString = tune && tune.tempo ? tune.tempo : '1/8=120 "fast"'
         var tempoStringParts = removeAbcInnerStrings(tempoString).split("=")
         if (tempoStringParts.length > 1) {
             tempo = parseInt(tempoStringParts[1])
@@ -910,7 +920,7 @@ var useAbcTools = () => {
             tempo = parseInt(tempoStringParts[0])
             if (!tempo > 0) tempo = 120
         }
-        console.log('GET TEMPO',tempoString,tempoStringParts,tempo)
+        //console.log('GET TEMPO',tempoString,tempoStringParts,tempo)
         return tempo
     }
 
@@ -973,7 +983,8 @@ var useAbcTools = () => {
       return chordMatches.indexOf(chord.trim()) !== -1
     }
     
+      
 
-    return {abc2json, json2abc, settingFromTune, getMilliSecondsPerMeasure, ensureText, ensureInteger}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, getMilliSecondsPerMeasure, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords}
 }
 export default useAbcTools;

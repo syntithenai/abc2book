@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import LocalSearchSelectorModal from './LocalSearchSelectorModal'
 import TheSessionSearchSelectorModal from './TheSessionSearchSelectorModal'
-
+// NOT USED ???
 function SearchModal(props) {
   const [show, setShow] = useState(false);
 

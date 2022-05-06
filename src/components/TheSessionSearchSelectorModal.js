@@ -13,7 +13,7 @@ function TheSessionSearchSelectorModal(props) {
   const handleClose = () => setShow(false);
   const handleShow = (e) => setShow(true);
   const [settings, setSettings] = useState(null)
-  
+  const [foundTune, setFoundTune] = useState(null)
   
   var filterChangeTimeout = null
   function filterChange(e) {
@@ -49,6 +49,8 @@ function TheSessionSearchSelectorModal(props) {
 
   useEffect(function() {
     setSettings(null)
+    console.log('ini searc',props.value)
+    searchOptions(props.value).then(function(opts) {console.log('ini done',opts); setOptions(opts)})
   },[])
   
   useEffect(function() {
@@ -56,11 +58,15 @@ function TheSessionSearchSelectorModal(props) {
   },[show])
   
   function selectSetting(setting) {
-    console.log('select setting ', setting)
-    var tune = props.tunebook.abcTools.abc2json(setting)
-    tune.id = props.currentTune.id
-    props.tunebook.saveTune(tune)
-    props.forceRefresh()
+    console.log('select setting ', setting, foundTune)
+    var tune = foundTune
+    if (tune) {
+      tune.notes = setting.abc.split("\n")
+      tune.key = setting.key
+      tune.id = props.currentTune.id
+      props.tunebook.saveTune(tune)
+      //props.forceRefresh()
+    }
   }
     
   function selectTune(tuneId) {
@@ -70,8 +76,10 @@ function TheSessionSearchSelectorModal(props) {
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.settings ) {
           var tune = searchRes.data
+          
           var abc = props.tunebook.abcTools.json2abc(tune)
           setSettings(searchRes.data.settings)
+          setFoundTune(tune)
           //if (window.confirm('Do you really want to replace this tune with information from thesession.org ?')) {
             //var newTune = searchRes.data
             //newTune.id = props.currentTune.id
@@ -130,7 +138,7 @@ function TheSessionSearchSelectorModal(props) {
                 }
                 setShow(false)
               }} > Select</Button>
-              <Abc abc={setting} />
+              <Abc abc={setting.abc} />
             </div>
           })}</ListGroup>
           </Modal.Body>   

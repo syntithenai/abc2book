@@ -4,3 +4,7 @@
 scrape/LAST_SEARCH_folktunefinder.txt
 
 node_modules/
+
+old/
+
+build/

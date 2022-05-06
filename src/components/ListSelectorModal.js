@@ -5,7 +5,10 @@ function ListSelectorModal(props) {
   const [show, setShow] = useState(false);
   const [filter, setFilter] = useState(props.value);
   const [options, setOptions] = useState(props.defaultOptions());
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    if (props.closeParent) props.closeParent()
+  }
   const handleShow = () => setShow(true);
   
   var filterChangeTimeout = null
@@ -29,6 +32,10 @@ function ListSelectorModal(props) {
           <Modal.Title>{props.title}</Modal.Title>
           
         </Modal.Header>
+        {props.message !== null && <div>
+          {props.message}
+        </div>}
+        {props.message == null && <>
         <Modal.Body>
           <input type='text' value={filter} onChange={filterChange}  autoFocus />
           {props.extraButtons && <span>{props.extraButtons}</span>}
@@ -39,7 +46,7 @@ function ListSelectorModal(props) {
               return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); setShow(false)}} >{options[option]}</ListGroup.Item>
             })}
           </ListGroup>
-        </Modal.Footer>
+        </Modal.Footer></>}
       </Modal>
     </>
   );

@@ -1,72 +1,163 @@
-import {Link  } from 'react-router-dom'
-import {Button} from 'react-bootstrap'
+import {Link , useParams , useNavigate} from 'react-router-dom'
+import {Button, ListGroup} from 'react-bootstrap'
 import {useEffect, useState} from 'react'
-
-function shuffleArray(array) {
-  let currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle.
-  while (currentIndex != 0) {
-
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
-function hasPlayedInLast24Hours(tuneId) {
-  var lastPlayeds =  {}
-  try {
-      lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
-  } catch (e) {}
-  
-  var now = new Date().getTime()
-  if (lastPlayeds && lastPlayeds[tuneId] && now - lastPlayeds[tuneId] < 86400000) {
-    return true
-  } else {
-    return false
-  }
-}
-
-function saveLastPlayed(tuneId) {
-var lastPlayeds =  {}
-  try {
-      lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
-  } catch (e) {}
-  if (!lastPlayeds) lastPlayeds = {}
-  lastPlayeds[tuneId] = new Date().getTime()
-  localStorage.setItem('bookstorage_lastplayed',JSON.stringify(lastPlayeds))
-}
+import useUtils from '../useUtils'
+import BoostSettingsModal from '../components/BoostSettingsModal'
+import ReviewNavigationModal from '../components/ReviewNavigationModal'
+import Abc from '../components/Abc'
+import BookSelectorModal from '../components/BookSelectorModal'
 
 export default function ReviewPage(props) {
-    const [reviewList, setReviewList] = useState([])
-    const [currentItem, setCurrentItem] = useState(0)
-    useEffect(function() {
-        
-    })
+  var utils = useUtils()  
+  let params = useParams()
+  let navigate = useNavigate()
+  const [reviewItems, setReviewItems] = useState(null)
+  const [isPlaying, setIsPlaying] = useState(false)
+  let [isWaiting, setIsWaiting] = useState(false)
+  var [ready, setReady] = useState(false)
+  let [seekTo, setSeekTo] = useState(false)
+    
+  function audioCallback(event) {
+        console.log('cab',event) 
+        //return 
+        if (event ==='ended' || event ==='error' || event === 'stop') {
+            setIsPlaying(false)
+            setIsWaiting(false)
+        } else if (event === 'started') {
+            setIsWaiting(false)
+        } else if (event === 'ready') {
+            setReady(true)
+        } 
+    }
+  
+  function getReviewTempo(tune) {
+      var final = 100
+      if (tune) {
+        var boost = tune.boost > 0 ? tune.boost : 0
+        var useBoost = boost > 20 ? 20 : boost
+        //Math.min(boost,50)
+        var tempo = 30 + useBoost * 5
+        //tempo+= 300 // testing
+        final = tempo;
+      } else {
+        final = 100
+      }
+      //console.log('get review tempo ',final)
+      return final
+  } 
+
+  function getCurrentReviewIndex() {
+    let currentReviewItem = params.tuneId > 0 ? params.tuneId : 0
+    //currentReviewItem = currentReviewItem % reviewItems.length
+    return parseInt(currentReviewItem) !== NaN ? parseInt(currentReviewItem) : 0;
+  }
+  
+  //function getReviewItemNumber(index) {
+      //var count = 0
+      //var item = null
+      //if (reviewItems) {
+          //Object.values(reviewItems).forEach(function(reviewBand) {
+              //reviewBand.forEach(function(itemId) {
+                //if (count === index) {
+                    //item = props.tunebook.tunes[itemId]
+                //}
+                //count += 1
+              //})
+          //})
+      //}
+      //console.log('gri',index,item, reviewItems)
+      //return item ? item : {abc:'',title:''}
+  //}
+      
+  function shuffleArray(array) {
+    let currentIndex = array.length,  randomIndex;
+    while (currentIndex != 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+    return array;
+  }
+
+  function generateReviewList() {
+      //console.log('gen review',props.currentTuneBook)
     var reviewable = {}
    //var counter = 0
     Object.keys(props.tunebook.tunes).forEach(function(tuneKey) {
       var tune = props.tunebook.tunes[tuneKey]
       var boost = tune ? tune.boost : 0
-      if (boost > 0 && !hasPlayedInLast24Hours(tune.id)) {
+      if (boost > 0 && !utils.hasPlayedInLast24Hours(tune.id)) {
         if (!Array.isArray(reviewable[boost]))  reviewable[boost] = []
-        reviewable[boost].push(tuneKey)
+        if (!props.currentTuneBook || Array.isArray(tune.books) && tune.books.indexOf(props.currentTuneBook) !== -1) {
+            reviewable[boost].push(tuneKey)
+        }
       }
     })
     Object.keys(reviewable).forEach(function(boost) {
       // randomise from this boost band
       shuffleArray(reviewable[boost])
     })
-    console.log('rev',reviewable)
-    return <div className="App-review">
-    review
-        {props.children}
-    </div>
+    var final = []
+    var count = 0
+    Object.values(reviewable).forEach(function(reviewIds) {
+        reviewIds.forEach(function(itemId) {
+            //console.log('ff',itemId, props.tunebook.tunes[itemId] )
+           final[count] = props.tunebook.tunes[itemId] 
+           count ++
+        });
+    })
+    setReviewItems(final)
+  }
+  
+  
+    useEffect(function() {
+        
+       //if (!Array.isArray(reviewItems)) {
+           //setReviewItems(
+           generateReviewList()
+           //console.log('caaa INI',currentReviewItem)
+       //}
+       //setMusicItem(getReviewItemNumber(currentReviewItem))
+    },[props.currentTuneBook])
+    
+    //useEffect(function() {
+        //console.log('caaa',currentReviewItem)
+        //setMusicItem(getReviewItemNumber(currentReviewItem))
+    //},[currentReviewItem])
+    
+    console.log('rev',getCurrentReviewIndex(), reviewItems) //, currentReviewItem,getReviewItemNumber(currentReviewItem))
+    //if (reviewItems && reviewItems.length > 0) {
+        
+        var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : {abc:'',title:''}
+        return <div className="App-review">
+           <span style={{float:'right'}}>
+             {!ready && <>
+                    {!isPlaying && <Button  className='btn-secondary' style={{float:'right'}} >{props.tunebook.icons.timer}{props.tunebook.icons.start}</Button>}
+                    {isPlaying && <Button className='btn-secondary' style={{float:'right'}}  >{isWaiting && <span  >{props.tunebook.icons.timer}</span>} {props.tunebook.icons.stop}</Button>}
+                </>}
+                {ready && <>
+                    {!isPlaying && <Button  className='btn-success' style={{float:'right'}} onClick={function(e) {console.log(e.detail);setIsWaiting(true); setIsPlaying(true); }} >{props.tunebook.icons.start}</Button>}
+                    {isPlaying && <Button className='btn-danger' style={{float:'right'}} onClick={function(e) {setIsPlaying(false)}} >{isWaiting && <span  >{props.tunebook.icons.timer}</span>} {props.tunebook.icons.stop}</Button>}
+                </>}
+           </span>
+           <ReviewNavigationModal reviewItems={reviewItems} currentReviewItem={getCurrentReviewIndex()} tunebook={props.tunebook} />
+           <Link to={'/editor/'+tune.id}><Button className='btn-secondary' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
+           <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+           <div style={{ float:'left',backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}    >
+           {props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook(''); props.forceRefresh();  }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
+           </div>
+           
+           
+           {<Abc tunebook={props.tunebook} seekTo={seekTo} setSeekTo={setSeekTo}   audioContext={props.audioContext} setAudioContext={props.setAudioContext} midiBuffer={props.midiBuffer} setMidiBuffer={props.setMidiBuffer} timingCallbacks={props.timingCallbacks} setTimingCallbacks={props.setTimingCallbacks}  setReady={setReady} abc={props.tunebook.abcTools.json2abc_print(tune)} isPlaying={isPlaying}  audioCallback={audioCallback} tempo={getReviewTempo(tune)} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, getReviewTempo(tune)))} />}
+            
+        </div>
+    //} else {
+        //return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
+        //<br/>
+        //Boost more tunes to add them to your list.
+        
+        //</div>
+    //}
 }
+//audioCallback={audioCallback} tempo={props.tunebook.tempo} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, props.tunebook.tempo))}

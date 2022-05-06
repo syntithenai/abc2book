@@ -1,7 +1,8 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import Abc from './Abc'
-import axios from 'axios'           
+import axios from 'axios'        
+   
 function LocalSearchSelectorModal(props) {
   const [show, setShow] = useState(false);
   const [filter, setFilter] = useState(props.value);
@@ -27,6 +28,7 @@ function LocalSearchSelectorModal(props) {
   
   useEffect(function() {
     setSettings(null)
+    searchOptions(props.value, function(opts) {setOptions(opts)})
   },[])
   
   useEffect(function() {
@@ -38,7 +40,7 @@ function LocalSearchSelectorModal(props) {
     var tune = props.tunebook.abcTools.abc2json(setting)
     tune.id = props.currentTune.id
     props.tunebook.saveTune(tune)
-    props.forceRefresh()
+    //props.forceRefresh()
   }
   
   function selectTune(key,value) {
@@ -49,7 +51,7 @@ function LocalSearchSelectorModal(props) {
       console.log('select tune ',tuneIds)
       if (Array.isArray(tuneIds)) {
         tuneIds.forEach(function(tuneId) {
-          var a='http://localhost:4000/'
+          var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
           var p = a + 'scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
           promises.push(axios.get(p))
         })
@@ -61,7 +63,7 @@ function LocalSearchSelectorModal(props) {
               //return {key: props.tunebook.abcTools.settingFromTune(tune).key, abc: props.tunebook.abcTools.settingFromTune(tune).abc}
               return text && text.data ? text.data : ''
             })
-            console.log('UPABC loaded all',abcTexts,s)
+            //console.log('UPABC loaded all',abcTexts,s)
             
             setSettings(s)
           }
@@ -118,7 +120,7 @@ function LocalSearchSelectorModal(props) {
       //console.log('sesarch tokens',parts)
       parts.forEach(function(part) {
         //console.log('sesarch tokens P',part, index.tokens)
-        if (props.tunebook.textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(props.tunebook.textSearchIndex.tokens[part])) {
+        if (props.tunebook.textSearchIndex && props.tunebook.textSearchIndex.tokens && props.tunebook.textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(props.tunebook.textSearchIndex.tokens[part])) {
           props.tunebook.textSearchIndex.tokens[part].forEach(function(matchItem) {
             //console.log('handlepart',part,matchItem,matches,matches[matchItem])
             if (matches[matchItem] > 0) {

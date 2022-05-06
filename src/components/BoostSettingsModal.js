@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
 
 function BoostSettingsModal(props) {
@@ -7,7 +7,7 @@ function BoostSettingsModal(props) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const boostUp = () => {
-      let newBoost = parseInt(boost) + 1
+      let newBoost = parseInt(boost > 0 ? boost : 0) + 1
       setBoost(newBoost)
       props.onChange(newBoost)
   }
@@ -16,7 +16,9 @@ function BoostSettingsModal(props) {
       setBoost(newBoost > 0 ? newBoost : 0)
       props.onChange(newBoost > 0 ? newBoost : 0)
   }
-  
+  useEffect(function() {
+      setBoost(props.value)
+  },[props.value])
   return (
     <>
       <Button style={{float:'left', marginLeft:'1em'}} variant="secondary" onClick={handleShow}>
@@ -27,17 +29,17 @@ function BoostSettingsModal(props) {
         <Modal.Header closeButton>
           <Modal.Title>Confidence</Modal.Title>
         </Modal.Header>
-        <Modal.Footer>
-          <Button variant="primary" onClick={boostDown}>
-            {props.tunebook.icons.arrowdown}
-          </Button>
-          
-          <input type="text" value={boost} onChange={function(e) {setBoost(e.target.value)}}  onBlur={function(e) {props.onChange(boost) }} />
-          
+        <Modal.Body>
           <Button variant="primary" onClick={boostUp}>
             {props.tunebook.icons.arrowup}
           </Button>
-        </Modal.Footer>
+          &nbsp;&nbsp;
+          <input size="6" type="text" value={boost} onChange={function(e) {setBoost(e.target.value)}}  onBlur={function(e) {props.onChange(boost) }} />
+          &nbsp;&nbsp;
+          <Button variant="primary" onClick={boostDown}>
+            {props.tunebook.icons.arrowdown}
+          </Button>
+        </Modal.Body>
       </Modal>
     </>
   );

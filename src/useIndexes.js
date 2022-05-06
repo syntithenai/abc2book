@@ -1,25 +1,31 @@
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
+import {useState} from 'react'
 
-
+ 
 var useIndexes = () => {
         
     var utils = useUtils()
     var abcTools = useAbcTools()
+    var [bookIndex, setBookIndex] = useState(utils.loadLocalObject('bookstorage_index_books'))
+    
     
     function indexTune(tune) {
         //console.log('index', tune, tune.id, tune.meta)
         // book index
-        var bookIndex = utils.loadLocalObject('bookstorage_index_books')
-        bookIndex = removeTune(tune,bookIndex)
-        if (tune && tune.id && tune.meta && tune.meta['B']) {
-            if (Array.isArray(bookIndex[tune.meta['B']])) {
-                bookIndex[tune.meta['B']].push(tune.id)
-            } else {
-                bookIndex[tune.meta['B']] = [tune.id]
-            }
+        var bookIndexNew = utils.loadLocalObject('bookstorage_index_books')
+        bookIndexNew = removeTune(tune,bookIndexNew)
+        if (tune && tune.id && Array.isArray(tune.books) && tune.books.length > 0) {
+            tune.books.forEach(function(book) {
+                if (Array.isArray(bookIndexNew[book])) {
+                    bookIndexNew[book].push(tune.id)
+                } else {
+                    bookIndexNew[book] = [tune.id]
+                }
+            })
         }
-        utils.saveLocalObject('bookstorage_index_books', bookIndex)
+        setBookIndex(bookIndexNew)
+        utils.saveLocalObject('bookstorage_index_books', bookIndexNew)
     }
     
     function removeTune(tune, bookIndex) {
@@ -43,7 +49,20 @@ var useIndexes = () => {
         utils.saveLocalObject('bookstorage_index_books',{})
     }
 
+    function addBookToIndex(book) {
+        if (!Array.isArray(bookIndex[book])) {
+            let newBookIndex = bookIndex
+            newBookIndex[book] = []
+            setBookIndex(newBookIndex)
+        }
+    }
     
-    return {indexTune , resetBookIndex}
+    function removeBookFromIndex(book) {
+        let newBookIndex = bookIndex
+        delete newBookIndex[book] 
+        setBookIndex(newBookIndex)
+    }
+    
+    return {indexTune , resetBookIndex, bookIndex, addBookToIndex, removeBookFromIndex}
 }
 export default useIndexes;

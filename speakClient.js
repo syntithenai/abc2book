@@ -55,7 +55,7 @@ function speak(text, args) {
       return ret;
     }
 
-    document.getElementById("audio").innerHTML=("<audio id=\"player\" src=\"data:audio/x-wav;base64,"+encode64(wav)+"\">");
+    document.getElementById("speech_audio").innerHTML=("<audio id=\"player\" src=\"data:audio/x-wav;base64,"+encode64(wav)+"\">");
     document.getElementById("player").play();
   }
 
@@ -103,3 +103,4 @@ function speak(text, args) {
   }
 }
 
+window.speak = speak

@@ -6,6 +6,6 @@ import IndexLayout from '../components/IndexLayout'
 export default function MusicPage(props) {
     return <div className="music-page">
        <Outlet/>
-       <IndexLayout tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+       <IndexLayout tunebook={props.tunebook} forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
     </div>
 }

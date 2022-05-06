@@ -1,26 +1,36 @@
 import {useState} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
-import ListSelectorModal from './ListSelectorModal'
+import BookSelectorModal from './BookSelectorModal'
 function AddSongModal(props) {
   const [show, setShow] = useState(false);
   const [songTitle, setSongTitle] = useState('')
-
+  const [songWords, setSongWords] = useState('')
+  const [songNotes, setSongNotes] = useState('')
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const boostUp = () => {}
   const boostDown = () => {}
   
-  function getOptions() {
-    return {}
+  function addTune() {
+    var cleanNotes = songNotes.split("\n").filter(function(line) {
+        if (props.tunebook.abcTools.isNoteLine(line)) {
+          return true
+        } else {
+          return false
+        }
+    })
+    props.tunebook.saveTune({name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), notes: cleanNotes, words: songWords.trim().split("\n")}); 
+    props.setFilter(songTitle) ; 
+    setSongTitle('')
+    setSongWords('')
+    setSongNotes('')
+    //props.updateList(songTitle,props.currentTuneBook)
+    handleClose() 
   }
-  
-  function getSearchOptions() {
-    return {}
-  }
-  
+
   return (
     <>
-      <Button variant="secondary" onClick={handleShow}>
+      <Button variant="success" onClick={handleShow}>
         {props.tunebook.icons.fileadd}
       </Button>
 
@@ -29,12 +39,16 @@ function AddSongModal(props) {
           <Modal.Title>Add a song</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-           <div>Add song to <ListSelectorModal title={'Select a Book'} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={getOptions} searchOptions={getSearchOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}  extraButtons={[<Button key="newbook" >New Book</Button>, <Button key="collections" >Collections</Button>]}  />
+           <div>Add song to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
           <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} />
-          <Button variant="primary" onClick={function(e) {
-            props.tunebook.saveTune({title:songTitle, book :props.currentTuneBook}); props.setFilter(songTitle) ; handleClose() }} >Add</Button>
+          <span style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button variant="success" onClick={addTune} >Add</Button>}
+          {(songTitle.length === 0) &&<Button variant="secondary" >Add</Button>}
+          </span>
+          <label>Lyrics<textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
+          <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
+          
         </Modal.Body>
       </Modal>
     </>

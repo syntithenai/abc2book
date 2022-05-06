@@ -1,32 +1,80 @@
 import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
-import ListSelectorModal from './ListSelectorModal'
+import BookSelectorModal from './BookSelectorModal'
 function ImportAbcModal(props) {
   const [show, setShow] = useState(false);
   const [list, setList] = useState('');
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+      setMessage(null)
+      setList('')
+      setDuplicates(null)
+      setShow(false);
+      props.closeParent()
+      props.forceRefresh()
+  }
   const handleShow = () => setShow(true);
   var [filter, setFilter] = useState('')
   var [tuneBook, setTuneBook] = useState('')
+  var [duplicates, setDuplicates] = useState([])
+  var [message, setMessage] = useState(null)
   
-  function getOptions() {
-      return {'a':'a ver a ','b is a nother key': 'bbbbbbbbbbbbbbbbbs'}
+  function doImport(list) {
+    //console.log('import')
+    var [inserts, updates, duplicates] = props.tunebook.importAbc(list, props.currentTuneBook)
+    //console.log('imported',inserts,updates,duplicates)
+    setMessage(null)
+    
+    if (duplicates.length > 0) {
+      setDuplicates(duplicates)
+      setMessage(<div>
+        {inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+        {updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
+        Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates)}}>Import Duplicates</Button></div>
+      )
+    } else {
+      setList('')
+      props.forceRefresh()
+      setMessage(<>
+        {inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+        {updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
+        
+      </>)
+    }
   }
   
-  function getSearchOptions(filter) {
-      var opts = getOptions()
-      var filtered = {}
-      Object.keys(opts).forEach(function(key) {
-          var val = opts[key]
-          if (val && val.indexOf(filter) !== -1) {
-              filtered[key] = val
+  function forceImport(duplicates) {
+    var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), props.currentTuneBook, true)
+    //console.log('FFimported',inserts,updates,duplicates,d)
+     setMessage(<>
+      {<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+    </>)
+    //setTimeout(,2000)
+   
+  }
+      
+  function fileSelected (event) {
+      //console.log('FILESel',event,event.target.files[0]);
+      
+      //const fileList = event.target.files;
+      function readFile(file){
+          var reader = new FileReader();
+          reader.onloadend = function(){
+            //console.log("read"+reader.result.length )
+            if (reader.result.trim().length > 0) {
+              setList(reader.result)
+              doImport(reader.result)
+            }
           }
-      })
-      return filtered
+          if(file){
+              reader.readAsText(file);
+          }
+      }
+      readFile(event.target.files[0])
   }
+   
   return (
     <>
-      <Button  style={{color:'black'}}  variant="secondary" onClick={handleShow}>
+      <Button  style={{color:'black'}}  variant="primary" onClick={handleShow}>
         {props.tunebook.icons.folderin} ABC
       </Button>
 
@@ -34,17 +82,30 @@ function ImportAbcModal(props) {
         <Modal.Header closeButton>
           <Modal.Title>Import ABC music</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        {(!message) ? <Modal.Body>
           <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'7em'}} >
           <div style={{borderBottom:'1px solid black', marginBottom:'1em', padding:'0.3em'}} > 
             Import into &nbsp;&nbsp;
-            <ListSelectorModal title={'Select a Book'} value={tuneBook} onChange={function(val) {console.log('sel',val) ;props.setCurrentTuneBook(val)}} defaultOptions={getOptions} searchOptions={getSearchOptions} triggerElement={<Button variant="primary" >Book {props.currentTuneBook && <b>{props.currentTuneBook}</b>}</Button>} extraButtons={[<Button>New Book</Button>]} />
+            <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={tuneBook} onChange={function(val) { ;props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions}   triggerElement={<Button variant="primary" >Book {props.currentTuneBook ? <b>{props.currentTuneBook}</b> : ''}</Button>}  />
           </div>
-          <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={handleClose}>Import</Button>
-          <span style={{marginLeft:'0.5em',width:'30%', float:'left'}} ><input style={{float:'left'}} className='btn' variant="primary" type="file" onClick={handleClose} /></span>
+          {(list.trim().length > 0) ? <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={function() {doImport(list)}}>Import</Button> : <Button style={{float:'left', marginBottom:'0.5em'}} variant="secondary" >Import</Button>}
+          <span style={{marginLeft:'0.5em',width:'30%', float:'left'}} >
+            <input  style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} />
+          </span>
           </div>
-          <textarea value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
-        </Modal.Body>
+          <textarea placeholder="Paste ABC text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
+        </Modal.Body> : ''}
+        
+        
+        {message &&
+        <>
+        <Modal.Body> 
+          {message}
+        </Modal.Body> 
+        <Modal.Footer>
+          <Button  variant="success" onClick={handleClose} >OK</Button>
+        </Modal.Footer>
+        </>}
       </Modal>
     </>
   );
