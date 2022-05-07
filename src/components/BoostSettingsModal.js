@@ -22,7 +22,7 @@ function BoostSettingsModal(props) {
   return (
     <>
       <Button style={{float:'left', marginLeft:'1em'}} variant="secondary" onClick={handleShow}>
-        {props.tunebook.icons.review} <Badge>{props.value}</Badge>
+        {props.tunebook.icons.reviewsmall} <Badge>{props.value}</Badge>
       </Button>
 
       <Modal show={show} onHide={handleClose}>

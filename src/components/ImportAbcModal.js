@@ -10,7 +10,7 @@ function ImportAbcModal(props) {
       setDuplicates(null)
       setShow(false);
       props.closeParent()
-      props.forceRefresh()
+      //props.forceRefresh()
   }
   const handleShow = () => setShow(true);
   var [filter, setFilter] = useState('')

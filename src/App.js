@@ -11,7 +11,7 @@ import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
 
 import useTuneBook from './useTuneBook'
-
+import axios from 'axios'
 import useUtils from './useUtils'
 
 import {useState, useEffect} from 'react';
@@ -21,7 +21,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
-import AbcAudio from './components/AbcAudio'
+//import AbcAudio from './components/AbcAudio'
 
 function Footer(props) {
   var location = useLocation()
@@ -36,17 +36,15 @@ function Footer(props) {
 
 function App(props) {
   let params = useParams();
+  let dbTunes = {}
   let utils = useUtils();
-  var [midiBuffer, setMidiBuffer] = useState(null)
-  var [timingCallbacks, setTimingCallbacks] = useState(null)
-  var [audioContext, setAudioContext] = useState(null)
-  const [waiting, setWaiting] = useState(false)
-  const [refreshHash, setRefreshHash] = useState(false)
+  const [refreshHash, setRefreshHash] = useState(utils.generateObjectId())
   function forceRefresh() {
     setRefreshHash(utils.generateObjectId())
   }
   const [pageMessage, setPageMessageInner] = useState('')  
   var messageTimeout = null
+  const [waiting, setWaiting] = useState('') 
   function startWaiting() {
     setWaiting(true)
   }
@@ -71,72 +69,103 @@ function App(props) {
     localStorage.setItem('bookstorage_current_tunebook', val)
   }
   
-  var tunebook = useTuneBook({startWaiting, stopWaiting, setPageMessage,isMobile, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh})
-  
-  
-  function primeAudio(e) {
-    //console.log('prime audio')
-    if (!audioContext) {
-      //console.log('prime audio  real')
-      utils.primeAudio().then(function(audioContext) {
-        //console.log('prime audio done')
-        setAudioContext(audioContext)
-      })
+   
+  const [beatsPerBar, setBeatsPerBar] = useState(4) 
+  const [textSearchIndex, setTextSearchIndex] = useState({}) 
+  function getTextSearchIndex(index, callback) {
+    if (index.tokens && Object.keys(index.tokens).length > 0) {
+      callback(index)
+    } else {
+      // load the index from online
+        axios.get('/textsearch_index.json').then(function(index) {
+          if (callback) callback(index.data)
+        }).catch(function(e) {
+          console.log(["ERR",e])
+        })
+        
     }
   }
+ 
+   
+  //var tunesFrom = {}
+  //try {
+    //tunesFrom = JSON.parse(localStorage.getItem('bookstorage_tunes'))
+  //} catch (e) {}
   
   
-  function AppPageContent(props) {
-     return <div>
-          <div>
+  
+  const [tempo, setTempo] = useState('') //localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
+  //function setTempo(val) {
+    //setTempoInner(val)
+    //localStorage.setItem('bookstorage_tempo', val)
+  //}
+  
+  
+  const [tunesHash, setTunesHashInner] = useState(utils.loadLocalObject('bookstorage_tunes_hash')) 
+  function setTunesHash(val) {
+    setTunesHashInner(val)
+    utils.saveLocalObject('bookstorage_tunes_hash', val)
+  }
+  
+  const [tunes, setTunesInner] = useState(null);
+  function setTunes(val) {
+    setTunesInner(val)
+    localStorage.setItem('bookstorage_tunes', JSON.stringify(val))
+  }
+  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar})
+  
+  useEffect(function() {
+    var t = tunebook.utils.loadLocalObject('bookstorage_tunes')
+    setTunesInner(t)
+    console.log('loaded tunes',t)
+    getTextSearchIndex(textSearchIndex, function(loadedIndex) { setTextSearchIndex(loadedIndex)})
+    tunebook.buildTunesHash()
+  },[])
+  
+  
+  return (
+  
+    <div id="topofpage" className="App" >
+        {(tunes !== null) && <div>
             <input type='hidden' value={refreshHash} />
             <Router >
                 
-              <Header tunebook={tunebook} currentTune={currentTune}   />
+              <Header tunebook={tunebook} currentTune={currentTune} beatsPerBar={beatsPerBar} setBeatsPerBar={setBeatsPerBar}  tempo={tempo} setTempo={setTempo} />
               <div className="App-body">
                 
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`cheatsheet`} >
-                      <Route index element={<CheatSheetPage  tunebook={tunebook}    />}  />
-                      <Route  path={`:tuneBook`} element={<CheatSheetPage   tunebook={tunebook}    />} />
+                      <Route index element={<CheatSheetPage  tunes={tunes}  tunebook={tunebook}    />}  />
+                      <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   tunebook={tunebook}    />} />
                     </Route>
                     <Route  path={`print`} >
-                      <Route index element={<PrintPage  tunebook={tunebook}    />}  />
-                      <Route  path={`:tuneBook`} element={<PrintPage   tunebook={tunebook}    />} />
+                      <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}    />}  />
+                      <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook}    />} />
                     </Route>
                     <Route  path={`review`} >
-                      <Route index element={<ReviewPage audioContext={audioContext} setAudioContext={setAudioContext} midiBuffer={midiBuffer} setMidiBuffer={setMidiBuffer} timingCallbacks={timingCallbacks}  setTimingCallbacks={setTimingCallbacks}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh} tunebook={tunebook}    />}  />
-                      <Route  path={`:tuneId`} element={<ReviewPage audioContext={audioContext} setAudioContext={setAudioContext} midiBuffer={midiBuffer} setMidiBuffer={setMidiBuffer} timingCallbacks={timingCallbacks}  setTimingCallbacks={setTimingCallbacks}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh}  tunebook={tunebook}    />} />
+                      <Route index element={<ReviewPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />}  />
+                      <Route  path={`:tuneId`} element={<ReviewPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh}  tunebook={tunebook}   tempo={tempo} setTempo={setTempo}   />} />
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
+                        element={<MusicPage setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle audioContext={audioContext} setAudioContext={setAudioContext} midiBuffer={midiBuffer} setMidiBuffer={setMidiBuffer} timingCallbacks={timingCallbacks}  setTimingCallbacks={setTimingCallbacks} forceRefresh={forceRefresh} tunebook={tunebook}    />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle  tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
                     </Route>
                     
                     <Route  path={`editor`}     >
-                      <Route  path={`:tuneId`} element={<MusicEditor audioContext={audioContext} setAudioContext={setAudioContext} midiBuffer={midiBuffer} setMidiBuffer={setMidiBuffer} timingCallbacks={timingCallbacks}  setTimingCallbacks={setTimingCallbacks}   isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    />} />
+                      <Route  path={`:tuneId`} element={<MusicEditor  tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />} />
                     </Route>
                       
                   </Routes>
               </div>
              
             </Router>
-          </div>
-        </div>
-  }
-  
-  return (
-  
-    <div id="topofpage" className="App" onClick={primeAudio} >
-      <AbcAudio  tunebook={tunebook} tempo={tunebook.tempo} >
-        <AppPageContent />
-      </AbcAudio >  
+          </div>}
     </div>
   );
 }

@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-tag-autocomplete": "^6.3.0",
     "use-double-click": "^1.0.5",
+    "waveform-playlist": "^4.3.3",
     "web-vitals": "^2.1.4",
     "workerize": "^0.1.8"
   },

@@ -12,7 +12,7 @@ export default function MusicEditor(props) {
     let [seekTo, setSeekTo] = useState(false)
     let params = useParams();
     var navigate = useNavigate()
-    let tune = props.tunebook.tunes[params.tuneId]
+    let tune = props.tunes ? props.tunes[params.tuneId] : null
     let abc = props.tunebook.abcTools.json2abc(tune)
     return <div className="music-editor" style={{width:'100%'}}>
         <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
@@ -32,7 +32,7 @@ export default function MusicEditor(props) {
             <Button className='btn-secondary' style={{float:'right'}}   >{props.tunebook.icons.play}</Button>
             
         </div>
-        <AbcEditor seekTo={seekTo} setSeekTo={setSeekTo}   audioContext={props.audioContext} setAudioContext={props.setAudioContext} midiBuffer={props.midiBuffer} setMidiBuffer={props.setMidiBuffer} timingCallbacks={props.timingCallbacks} setTimingCallbacks={props.setTimingCallbacks}  ready={ready} setReady={setReady} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
+        <AbcEditor audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
         
     </div>
 }

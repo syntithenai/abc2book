@@ -985,6 +985,6 @@ var useAbcTools = () => {
     
       
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, getMilliSecondsPerMeasure, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, getMilliSecondsPerMeasure, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar}
 }
 export default useAbcTools;

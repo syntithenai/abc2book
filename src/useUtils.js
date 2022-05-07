@@ -136,30 +136,9 @@ var useUtils = () => {
         }
     } 
     
-    
-  function primeAudio(audioCallback, setReady) {
-    return new Promise(function(resolve,reject) {
-      if (setReady) setReady(false)
-      //setMidiBuffer(null)
-      //setTimingCallbacks(null)          
-      var audioContext = null
-      if (abcjs.synth.supportsAudio()) {
-        if (audioCallback) audioCallback('startaudio')
-        window.AudioContext = window.AudioContext ||
-          window.webkitAudioContext ||
-          navigator.mozAudioContext ||
-          navigator.msAudioContext;
-        audioContext = new window.AudioContext();
-        audioContext.resume().then(function () {
-          resolve(audioContext)
-        })
-      } else {
-        reject()
-      }
-    })
-  }
+ 
   
     
-    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, primeAudio}
+    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray}
 }
 export default useUtils;

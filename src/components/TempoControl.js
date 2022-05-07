@@ -4,7 +4,7 @@ import {Button, Modal, ButtonGroup} from 'react-bootstrap'
   
 export default function TempoControl(props) {
     
-    var metronome = new Metronome(props.value, props.tunebook.beatsPerBar, 0, function() {console.log('done')});
+    var metronome = new Metronome(props.value, props.beatsPerBar, 0, function() {console.log('done')});
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const [started, setStarted] = useState(false)
@@ -12,12 +12,8 @@ export default function TempoControl(props) {
     
     return <span className="tempo-control">
        
-        <ButtonGroup >
-            <Button onClick={function(e) {metronome.startStop()}} >{props.tunebook.icons.metronome}</Button>
-           
-            <Button   onClick={handleShow}>
-             <span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}
-            </Button>
+        <ButtonGroup size="sm">
+            <Button onClick={function(e) {metronome.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
         </ButtonGroup>
       
       <Modal show={show} onHide={handleClose}>
@@ -44,9 +40,7 @@ export default function TempoControl(props) {
               </select>
              <input type='number' onChange={function(e) { props.onChange(e.target.value)}} value={props.value} />
             </label>
-             
-           
-            <label>Metronome Beats Per Bar<input type='number' value={props.tunebook.beatsPerBar} onChange={function(e) {props.tunebook.setBeatsPerBar(e.target.value)}} /></label>
+            <label>Metronome Beats Per Bar<input type='number' value={props.beatsPerBar} onChange={function(e) {props.setBeatsPerBar(e.target.value)}} /></label>
             
         </Modal.Body>
         <Modal.Footer>

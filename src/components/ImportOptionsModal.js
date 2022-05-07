@@ -101,7 +101,7 @@ function ImportOptionsModal(props) {
         </Modal.Header>
         <Modal.Footer>
             <ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
-            <ImportListModal forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
+            <ImportListModal tunesHash={props.tunesHash} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportCollectionModal forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
         </Modal.Footer>
       </Modal>

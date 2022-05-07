@@ -7,7 +7,10 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
-var useTuneBook = ({currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh}) => {
+
+
+var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar}) => {
+  //console.log(setTunesHash)
   const utils = useUtils()
   const abcTools = useAbcTools()
   const indexes = useIndexes()
@@ -19,50 +22,7 @@ var useTuneBook = ({currentTune, setCurrentTune, currentTuneBook, setCurrentTune
     //indexes.indexTune(tune)
     //dbTunes[tune.id] = tune
   //})
-  const [beatsPerBar, setBeatsPerBar] = useState(4) 
-  const [textSearchIndex, setTextSearchIndex] = useState({}) 
-  function getTextSearchIndex(index, callback) {
-    if (index.tokens && Object.keys(index.tokens).length > 0) {
-      callback(index)
-    } else {
-      // load the index from online
-        axios.get('/textsearch_index.json').then(function(index) {
-          if (callback) callback(index.data)
-        }).catch(function(e) {
-          console.log(["ERR",e])
-        })
-        
-    }
-  }
-  useEffect(function() {
-    getTextSearchIndex(textSearchIndex, function(loadedIndex) { setTextSearchIndex(loadedIndex)})
-    buildTunesHash()
-  },[])
-   
-  var tunesFrom = {}
-  try {
-    tunesFrom = JSON.parse(localStorage.getItem('bookstorage_tunes'))
-  } catch (e) {}
   
-  const [tunes, setTunesInner] = React.useState(tunesFrom ? tunesFrom : dbTunes);
-  function setTunes(val) {
-    setTunesInner(val)
-    localStorage.setItem('bookstorage_tunes', JSON.stringify(val))
-  }
-  //setTunes(tunes)
-  //const [currentTune, setCurrentTuneInner] = React.useState(localStorage.getItem('book_current_tune') ? localStorage.getItem('book_current_tune') : 0);
-  //function setCurrentTune(val) {
-    //setCurrentTuneBookInner(val)
-    //localStorage.setItem('book_current_tune', val)
-  //}
-  
-
-  
-  const [tempo, setTempoInner] = React.useState(localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
-  function setTempo(val) {
-    setTempoInner(val)
-    localStorage.setItem('bookstorage_tempo', val)
-  }
   
   function saveTune(tune) {
     if (tune) {
@@ -82,17 +42,11 @@ var useTuneBook = ({currentTune, setCurrentTune, currentTuneBook, setCurrentTune
   }
   
   
-  const [tunesHash, setTunesHashInner] = useState(utils.loadLocalObject('bookstorage_tunes_hash')) 
-  function setTunesHash(val) {
-    setTunesHashInner(val)
-    utils.saveLocalObject('bookstorage_tunes_hash', val)
-  }
-  
   
   function buildTunesHash() {
     var hashes = {}
     var ids = {}
-    Object.values(tunes).forEach(function(tune) {
+    if (tunes) Object.values(tunes).forEach(function(tune) {
       if (tune.id && tune.notes) {
         //console.log('BTHBB',tune.notes)
         var hash = utils.hash(tune.notes.join("\n"))
@@ -296,6 +250,6 @@ var useTuneBook = ({currentTune, setCurrentTune, currentTuneBook, setCurrentTune
 
   }
 
-  return { tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, importAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons, indexes, textSearchIndex, curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, tunesHash, beatsPerBar, setBeatsPerBar};
+  return { importAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setTempo, setCurrentTune, setCurrentTuneBook, setTunesHash, setBeatsPerBar, forceRefresh};
 }
 export default useTuneBook

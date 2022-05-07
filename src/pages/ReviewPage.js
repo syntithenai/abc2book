@@ -84,8 +84,8 @@ export default function ReviewPage(props) {
       //console.log('gen review',props.currentTuneBook)
     var reviewable = {}
    //var counter = 0
-    Object.keys(props.tunebook.tunes).forEach(function(tuneKey) {
-      var tune = props.tunebook.tunes[tuneKey]
+    if (props.tunes) Object.keys(props.tunes).forEach(function(tuneKey) {
+      var tune = props.tunes[tuneKey]
       var boost = tune ? tune.boost : 0
       if (boost > 0 && !utils.hasPlayedInLast24Hours(tune.id)) {
         if (!Array.isArray(reviewable[boost]))  reviewable[boost] = []
@@ -103,10 +103,11 @@ export default function ReviewPage(props) {
     Object.values(reviewable).forEach(function(reviewIds) {
         reviewIds.forEach(function(itemId) {
             //console.log('ff',itemId, props.tunebook.tunes[itemId] )
-           final[count] = props.tunebook.tunes[itemId] 
+           final[count] = props.tunes[itemId] 
            count ++
         });
     })
+    console.log('gen review items',final)
     setReviewItems(final)
   }
   
@@ -131,16 +132,7 @@ export default function ReviewPage(props) {
         
         var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : {abc:'',title:''}
         return <div className="App-review">
-           <span style={{float:'right'}}>
-             {!ready && <>
-                    {!isPlaying && <Button  className='btn-secondary' style={{float:'right'}} >{props.tunebook.icons.timer}{props.tunebook.icons.start}</Button>}
-                    {isPlaying && <Button className='btn-secondary' style={{float:'right'}}  >{isWaiting && <span  >{props.tunebook.icons.timer}</span>} {props.tunebook.icons.stop}</Button>}
-                </>}
-                {ready && <>
-                    {!isPlaying && <Button  className='btn-success' style={{float:'right'}} onClick={function(e) {console.log(e.detail);setIsWaiting(true); setIsPlaying(true); }} >{props.tunebook.icons.start}</Button>}
-                    {isPlaying && <Button className='btn-danger' style={{float:'right'}} onClick={function(e) {setIsPlaying(false)}} >{isWaiting && <span  >{props.tunebook.icons.timer}</span>} {props.tunebook.icons.stop}</Button>}
-                </>}
-           </span>
+          
            <ReviewNavigationModal reviewItems={reviewItems} currentReviewItem={getCurrentReviewIndex()} tunebook={props.tunebook} />
            <Link to={'/editor/'+tune.id}><Button className='btn-secondary' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
            <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
@@ -149,7 +141,8 @@ export default function ReviewPage(props) {
            </div>
            
            
-           {<Abc tunebook={props.tunebook} seekTo={seekTo} setSeekTo={setSeekTo}   audioContext={props.audioContext} setAudioContext={props.setAudioContext} midiBuffer={props.midiBuffer} setMidiBuffer={props.setMidiBuffer} timingCallbacks={props.timingCallbacks} setTimingCallbacks={props.setTimingCallbacks}  setReady={setReady} abc={props.tunebook.abcTools.json2abc_print(tune)} isPlaying={isPlaying}  audioCallback={audioCallback} tempo={getReviewTempo(tune)} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, getReviewTempo(tune)))} />}
+           <Abc tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getReviewTempo()} meter={tune.meter}   />
+                
             
         </div>
     //} else {

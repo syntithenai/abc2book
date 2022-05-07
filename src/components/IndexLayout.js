@@ -8,7 +8,7 @@ import IndexSearchForm from './IndexSearchForm'
 export default function IndexLayout(props) {
     var [filter, setFilter] = useState('')
     //var [bookFilter, setBookFilter] = useState('')
-    const [tunes, setTunes] = useState(props.tunebook.tunes ? Object.values(props.tunebook.tunes) : {})
+    //const [tunes, setTunes] = useState(props.tunes ? Object.values(props.tunes) : {})
     
     function filterSearch(tune) {
         var filterOk = false
@@ -45,9 +45,9 @@ export default function IndexLayout(props) {
     //}
     
     return <div className="index-layout"  >
-        <IndexSearchForm filter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
+        <IndexSearchForm  tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
         <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
-        {props.tunebook.tunes && Object.values(props.tunebook.tunes)
+        {props.tunes && Object.values(props.tunes)
         .filter(filterSearch)
         //function(tune) {
             //if (props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1)  {
@@ -57,7 +57,7 @@ export default function IndexLayout(props) {
             //}
         //})
         .map(function(tune,tk) {
-            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} ><Link to={"/tunes/"+tune.id} onClick={function() {props.tunebook.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}</Link></ListGroup.Item>
+            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} ><Link to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}</Link></ListGroup.Item>
         })}
         </ListGroup>
         
