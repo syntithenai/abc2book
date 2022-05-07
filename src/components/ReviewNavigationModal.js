@@ -33,14 +33,21 @@ function ReviewNavigationModal(props) {
     //flattenItems()
   //},[props.reviewItems])
   
+  var prevNum = props.currentReviewItem > 0 ? props.currentReviewItem - 1 : null
+  var nextNum = (props.currentReviewItem + 1) 
+  if (nextNum > props.reviewItems.length) nextNum = null
+  //props.tunebook.utils.nextNumber(props.currentReviewItem, (props.reviewItems ? props.reviewItems.length : 0))
+  
+  
   return (
     <>
-      <Link to={"/review/" + props.tunebook.utils.previousNumber(props.currentReviewItem, (props.reviewItems ? props.reviewItems.length : 1))} ><Button variant="primary" >{props.tunebook.icons.arrowlefts}</Button></Link>
+      {prevNum ? <Link to={"/review/" + props.tunebook.utils.previousNumber(props.currentReviewItem, (props.reviewItems ? props.reviewItems.length : 1))} ><Button variant="primary" >{props.tunebook.icons.arrowlefts}</Button></Link> : null}
+      {!prevNum ? <Button variant="primary" >{props.tunebook.icons.arrowlefts}</Button> : null}  
       <Button  variant="primary" onClick={handleShow}>
         {props.tunebook.icons.filelist}
       </Button>
-      <Link to={"/review/" + props.tunebook.utils.nextNumber(props.currentReviewItem, (props.reviewItems ? props.reviewItems.length : 1))} ><Button variant="primary" >{props.tunebook.icons.arrowrights}</Button></Link>
-      
+      {nextNum ? <Link to={"/review/" + props.tunebook.utils.nextNumber(props.currentReviewItem, (props.reviewItems ? props.reviewItems.length : 1))} ><Button variant="primary" >{props.tunebook.icons.arrowrights}</Button></Link> : null}
+      {!nextNum ? <Button variant="primary" >{props.tunebook.icons.arrowrights}</Button> : null}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Select a review tune</Modal.Title>

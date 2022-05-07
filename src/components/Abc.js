@@ -34,7 +34,7 @@ export default function Abc(props) {
     var [repeat,setRepeat] = useState(null)
     var [milliSecondsPerMeasure,setMilliSecondsPerMeasure] = useState(null)
     var [audioContext, setAudioContext] = useState(null)
-  
+    var [playCount, setPlayCount] = useState(0)
 
   function createCursor() {
     var svg = document.querySelector("#abc_music_viewer svg");
@@ -49,8 +49,32 @@ export default function Abc(props) {
     return cursor;
   }
   
+  
   function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
-    //console.log('BC',currentBeat,totalBeats,lastMoment,position, debugInfo, getMidiBuffer())
+    console.log('BC',currentBeat,totalBeats,lastMoment,position, debugInfo)
+     // FINISHED PLAYBACK
+     if (currentBeat === totalBeats) {
+       console.log('end tune', playCount, props.repeat)
+       if (parseInt(props.repeat) === -1) {
+         setForceSeekTo(0)
+       } else if (parseInt(props.repeat) === 0) {
+         stopPlaying()
+         if (props.onEnded) props.onEnded()
+       } else if (parseInt(props.repeat) > 0 ) {
+         if (playCount < props.repeat) {
+           setForceSeekTo(0)
+           setPlayCount(playCount + 1)
+         } else {
+            stopPlaying()
+            if (props.onEnded) props.onEnded()
+         }  
+       } else {
+          stopPlaying()
+          if (props.onEnded) props.onEnded()
+       }
+      
+     }
+     
       var x1, x2, y1, y2;
       if (currentBeat === totalBeats) {
         x1 = 0;
@@ -93,11 +117,11 @@ export default function Abc(props) {
     if (!ev) {
       return;
     }
-    //console.log('evcb',midiBuffer,m, ev.milliseconds, ev)
+    console.log('evcb', ev.milliseconds, ev)
     if (midiBuffer && midiBuffer.duration > 0) {
       var newSeek = ev.milliseconds/(midiBuffer.duration * 1000)
       //console.log('UPDATE SEEK',newSeek)
-      setSeekTo(newSeek)
+      setForceSeekTo(newSeek)
     }
     colorElements(ev.elements);
   }
@@ -176,13 +200,14 @@ export default function Abc(props) {
   }
 
   function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
+    
       return new Promise(function(resolve,reject) {
           console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
           var midiBuffer
-          if (midiBuffer) {
-             console.log('STOP BUFFER')
-              midiBuffer.stop();
-          } else {
+          if (!midiBuffer) {
+             //console.log('STOP BUFFER')
+              //midiBuffer.stop();
+          //} else {
             console.log('CREATE BUFFER')
               midiBuffer = new abcjs.synth.CreateSynth()
           }
@@ -191,20 +216,15 @@ export default function Abc(props) {
             console.log('startok')
             var count = 0
             
-            function onEnded(d) {
-              console.log('END')
-              if (props.onEnded) {
-                  
-              }
-            }
+            
             var mpm = milliSecondsPerMeasure ? milliSecondsPerMeasure  : visualObj.millisecondsPerMeasure()
             var initOptions = {
               visualObj: visualObj,
               audioContext: audioContext,
               millisecondsPerMeasure:  mpm,
-              options: {
-                onEnded: onEnded
-              }
+              //options: {
+                //onEnded: onEnded
+              //}
             }
             if (midiBuffer) {
                 return midiBuffer.init(initOptions).then(function (response) {
@@ -338,12 +358,15 @@ export default function Abc(props) {
         synth: {
             el: "#audio"
         },
+        //soundFontUrl: 'soundfont/'
         clickListener:clickListener,
         //selectTypes: true
       });
       var o = res && res.length > 0 ? res[0] : null
       console.log('RENDERED TUNE',o)
       if (o) {
+          if (props.onWarnings) props.onWarnings(o.warnings)
+          setReady(false)
           //props.audioProps.
           setVisualObj(o)
           createPlayer(o, props.tempo, props.meter).then(function(p) {
@@ -357,12 +380,13 @@ export default function Abc(props) {
   }
   
   
-  function clickInit() {
+  function clickInit(playing) {
       console.log('CLICK INIT', visualObj)
       if (visualObj) {
         createPlayer(visualObj, props.tempo, props.meter).then(function(p) {
           var [audioContext, midiBuffer, timingCallbacks, cursor] = p
            assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor, visualObj)
+           if (playing) setIsPlaying(true)
         })
       }
   }
@@ -402,12 +426,15 @@ export default function Abc(props) {
    // COMPONENT RENDER and UPDATE
   var renderActive = false 
   useEffect(() => {
-    if (lastAbc != props.abc || props.tempo != lastTempo) {
+    if (visualObj ===null || lastAbc != props.abc || props.tempo != lastTempo) {
+      stopPlaying()
+      // TODO if tempo is empty and current tune has tempo, set the tempo OTHERWISE per below
       console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo)
       setLastAbc(props.abc)
       setLastTempo(props.tempo)
       setAbcTune(props.abc);
       setSeekTo(0)
+      setPlayCount(0)
       renderTune()
     }
    }, [props.abc, props.tempo])
@@ -425,13 +452,14 @@ export default function Abc(props) {
   return (
    <ReactNoSleep>
         {({ isOn, enable, disable }) => (
-          <div onClick={function(e) {bodyClick(enable)}} >
+          <span onClick={function(e) {bodyClick(enable)}} >
              <span style={{float:'right'}} >
-              <AbcPlayButton started={started} ready={ready} isPlaying={isPlaying} clickInit={clickInit} clickPlay={clickPlay} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
+              <AbcPlayButton started={started} ready={ready} isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span>
             {audioContext && <input type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
+           {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(playCount + 1)}</Button>}
             <div id="abc_music_viewer" ref={inputEl}></div>
-          </div>
+          </span>
         )}
     </ReactNoSleep>
   );

@@ -166,13 +166,13 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + "T: " + ensureText(tune.name) + "\n" 
                     + books
-                    + "M:"+ensureText(tune.meter)+ "\n" 
-                    + "L:" + ensureText(tune.noteLength) + "\n" 
+                    + tune.meter ? "M:"+ensureText(tune.meter)+ "\n" : '' 
+                    + "L:" + ensureText(tune.noteLength,'1/8') + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
-                    + "Q: "+  ensureText(tune.tempo) + "\n" 
+                    + tune.tempo ? "Q: "+  ensureText(tune.tempo) + "\n" : ''
                     + renderOtherHeaders(tune)
                     + aliasText 
-                    + "K:"+ensureText(tune.key)+ "\n" 
+                    + tune.key ? "K:"+ensureText(tune.key)+ "\n" : ''
                     + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
                     + renderWordHeaders(tune)
                     +

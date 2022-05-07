@@ -1,5 +1,5 @@
 import {Link , useParams , useNavigate} from 'react-router-dom'
-import {Button, ListGroup} from 'react-bootstrap'
+import {Button, ButtonGroup, ListGroup} from 'react-bootstrap'
 import {useEffect, useState} from 'react'
 import useUtils from '../useUtils'
 import BoostSettingsModal from '../components/BoostSettingsModal'
@@ -16,6 +16,7 @@ export default function ReviewPage(props) {
   let [isWaiting, setIsWaiting] = useState(false)
   var [ready, setReady] = useState(false)
   let [seekTo, setSeekTo] = useState(false)
+  const [playCount, setPlayCount] = useState(0)
     
   function audioCallback(event) {
         console.log('cab',event) 
@@ -127,24 +128,45 @@ export default function ReviewPage(props) {
         //setMusicItem(getReviewItemNumber(currentReviewItem))
     //},[currentReviewItem])
     
+    function onEnded(progress, start, stop ,seek) {
+        console.log('review ended')
+        //if (playCount < 3) {
+            //setPlayCount(playCount + 1)
+            //seek(0)
+            //start()
+        //} else {
+            //setPlayCount(playCount + 1)
+        //}
+    }
+    
     console.log('rev',getCurrentReviewIndex(), reviewItems) //, currentReviewItem,getReviewItemNumber(currentReviewItem))
     //if (reviewItems && reviewItems.length > 0) {
         
-        var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : {abc:'',title:''}
+    var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : null
+   
+   console.log('RR FOUND TUNE', tune , abc)
+    if (!tune) {
+        return null
+    } else  {
+        var abc = props.tunebook.abcTools.json2abc(tune)
         return <div className="App-review">
           
            <ReviewNavigationModal reviewItems={reviewItems} currentReviewItem={getCurrentReviewIndex()} tunebook={props.tunebook} />
            <Link to={'/editor/'+tune.id}><Button className='btn-secondary' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
            <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
-           <div style={{ float:'left',backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}    >
-           {props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook(''); props.forceRefresh();  }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
-           </div>
+           
+           <ButtonGroup variant="primary" style={{ marginLeft:'1em',float:'left', width: 'fit-content'}}    >
+           {props.currentTuneBook ? 
+                <Button  onClick={function(e) {props.setCurrentTuneBook(''); props.forceRefresh();  }} >{props.tunebook.icons.closecircle}</Button>
+            : ''}
+            <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
+           </ButtonGroup>
            
            
-           <Abc tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getReviewTempo()} meter={tune.meter}   />
-                
+           <Abc repeat={3} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo()} meter={tune.meter}   onEnded={onEnded} />
             
         </div>
+    }
     //} else {
         //return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
         //<br/>

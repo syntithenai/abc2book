@@ -3,11 +3,16 @@ import {useParams} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Tabs, Tab, Form} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
+import Abc from './Abc'
 
 export default function AbcEditor(props) {
-  const [abcTune, setAbcTuneInner] = useState(props.abc);
+  //const [abcTune, setAbcTuneInner] = useState(props.abc);
+  var abcTune = props.abc
+  let params = useParams();
+  const inputEl = useRef(null);
+  
   function setAbcTune(abc) {
-    setAbcTuneInner(abc)
+    //setAbcTuneInner(abc)
     var tune = props.tunebook.abcTools.abc2json(abc)
     setAbcTuneNotes(Array.isArray(tune.notes) ? tune.notes.join("\n") : '')
     setAbcTuneComments(Array.isArray(tune.abcomments) ? tune.abcomments.join("\n") : '')
@@ -37,47 +42,50 @@ export default function AbcEditor(props) {
   }
   const [otherMeta, setOtherMeta] = useState('')
   const [errorCount,setErrorCount] = useState(0)
-  
+  const [warnings, setWarnings] = useState([])
   function updateErrorCount() {
     var warnings = parseInt(document.getElementById('warnings').children.length / 2)
     setErrorCount(warnings)
   }
-  useEffect(function() {
-    updateErrorCount()
-  },[abcTuneNotes])
+  //useEffect(function() {
+    //updateErrorCount()
+  //},[abcTuneNotes])
   
-  useEffect(function() {
-    updateErrorCount()
-  },[])
-  const inputEl = useRef(null);
-  let params = useParams();
-  useEffect(() => {
+  //useEffect(function() {
+    //updateErrorCount()
+  //},[])
+  
+  //useEffect(() => {
     
-      //abcjs.renderAbc(inputEl.current, abcTune, {
-        //add_classes: true,
-        //responsive: "resize",
-        //generateDownload: true
-      //});
-      inputEl && new abcjs.Editor('abc', {
-          canvas_id: "paper",
-          warnings_id: "warnings",
-          synth: {
-            el: "#audio",
-            //options: { displayLoop: true, displayRestart: true, displayPlay: true, displayProgress: true, displayWarp: true }
-          },
-          abcjsParams: {
-            add_classes: true,
-            scale: props.isMobile ? '0.4' : '1.2',
-            //clickListener: clickListener
-          },
-          //selectionChangeCallback: selectionChangeCallback
-        });
-        updateErrorCount()
-  }, [abcTune]);
+      ////abcjs.renderAbc(inputEl.current, abcTune, {
+        ////add_classes: true,
+        ////responsive: "resize",
+        ////generateDownload: true
+      ////});
+      //inputEl && new abcjs.Editor('abc', {
+          //canvas_id: "paper",
+          //warnings_id: "warnings",
+          //synth: {
+            //el: "#audio",
+            ////options: { displayLoop: true, displayRestart: true, displayPlay: true, displayProgress: true, displayWarp: true }
+          //},
+          //abcjsParams: {
+            //add_classes: true,
+            //scale: props.isMobile ? '0.4' : '1.2',
+            ////clickListener: clickListener
+          //},
+          ////selectionChangeCallback: selectionChangeCallback
+        //});
+        //updateErrorCount()
+  //}, [abcTune]);
 
-  useEffect(() => {
-    setAbcTune(props.abc);
-  }, [props.abc]);
+  //useEffect(() => {
+    //setAbcTune(props.abc);
+  //}, [props.abc]);
+  function onWarnings(warnings) {
+    console.log('wwww',warnings)
+    setWarnings(warnings)
+  }
 
 
 //onBlur={handleBlur}
@@ -120,8 +128,7 @@ export default function AbcEditor(props) {
                   <textarea  id="abc" ref={inputEl} value={abcForDisplay.join("\n")} style={{fontSize:(props.isMobile?'0.5em':'1em'), width:'100%', minHeight: '25em'}} onChange={function(e) {var v = props.tunebook.abcTools.justNotes(e.target.value); setAbcTuneNotes(v); tune.notes = v.split("\n"); setAbcTune(props.tunebook.abcTools.json2abc(tune)) ; tune.id = params.tuneId; props.tunebook.saveTune(tune) }}   />
                 </div>
                 <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
-                  <div style={{height:'1.4em', fontSize:'0.6em'}}  >Key: <b>{tune.key}</b> Time Signature: <b>{tune.meter}</b></div>
-                  <div id="paper" style={{width:'100%' }}></div>
+                   <Abc tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={tune.tempo > 0 ? tune.tempo : 100} meter={tune.meter} onWarnings={onWarnings} />
                 </div>
                 <div id="lyrics" >{tune.words ? tune.words.map(function(wordLine) {
                   return <div>{wordLine}</div> 
@@ -185,8 +192,13 @@ export default function AbcEditor(props) {
               <Tab eventKey="comments" title="Comments" >
                 <textarea value={abcTuneComments} onBlur={handleBlur} onChange={function(e) {setAbcTuneComments(e.target.value);  tune.abccomments = e.target.value.split("\n"); setAbcTune(props.tunebook.abcTools.json2abc(tune)); tune.id = params.tuneId; props.tunebook.saveTune(tune)  }} style={{width:'100%', height:'20em'}}  />
               </Tab>
-              <Tab eventKey="errors" title={<span>Errors {(errorCount > 0 ? errorCount+' !!' : '')} </span>} >
-                <div style={{maxHeight:'4em', overflow: 'scroll'}} id="warnings"></div>
+              <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
+                <div style={{}} id="warnings">
+                {warnings ? warnings.map(function(warning) {
+                  var pos = warning.indexOf('<span')
+                  return <div>{warning.slice(0,pos)}</div>
+                }) : null}
+                </div>
               </Tab>
               <Tab eventKey="abc" title="ABC">
                 <textarea value={abcTune} onChange={function(e) {setAbcTune(e.target.value); tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune)}} style={{width:'100%', height:'20em'}}  />

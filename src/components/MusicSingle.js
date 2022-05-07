@@ -31,6 +31,12 @@ export default function MusicSingle(props) {
         return (props.tempo > 0 ? props.tempo : (props.tunebook.abcTools.getTempo(tune) > 0 ? props.tunebook.abcTools.getTempo(tune) : 100))
     }
  
+    function onEnded(progress, start, stop,seek) {
+        console.log("ON ENDfED", progress, start, stop, seek)
+        ////stop()
+        //seek(0)
+        //start()
+    }
     
     if (tune) {
        return <div className="music-single">
@@ -40,7 +46,7 @@ export default function MusicSingle(props) {
 
                 <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
                 
-                <Abc tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}   />
+                <Abc repeat={-1} tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
                 
             </div>
             

@@ -16,8 +16,8 @@ export default function MusicEditor(props) {
     let abc = props.tunebook.abcTools.json2abc(tune)
     return <div className="music-editor" style={{width:'100%'}}>
         <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
-            <Link to={'/tunes/'+params.tuneId} ><Button className='btn-secondary' style={{ marginRight:'0.1em'}} >{props.tunebook.icons.close}</Button></Link>
-               
+            
+            <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {window.history.back()}} >{props.tunebook.icons.close}</Button>
             
             <span style={{marginLeft:'0.1em'}} >
                 <LocalSearchSelectorModal  value={tune.name} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
@@ -29,8 +29,7 @@ export default function MusicEditor(props) {
             
             <span style={{marginLeft:'0.2em'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             
-            <Button className='btn-secondary' style={{float:'right'}}   >{props.tunebook.icons.play}</Button>
-            
+           
         </div>
         <AbcEditor audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
         
