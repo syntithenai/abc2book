@@ -152,7 +152,7 @@ function TheSessionSearchSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}  autoFocus />
+          <input type='text' value={filter} onChange={filterChange}   />
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>

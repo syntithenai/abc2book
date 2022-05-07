@@ -39,7 +39,7 @@ function BookSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='search' value={filter} onChange={filterChange}  autoFocus />
+          <input type='search' value={filter} onChange={filterChange}   />
           <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>
         </Modal.Body>
         <Modal.Footer>

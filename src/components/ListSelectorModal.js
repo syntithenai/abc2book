@@ -37,7 +37,7 @@ function ListSelectorModal(props) {
         </div>}
         {props.message == null && <>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}  autoFocus />
+          <input type='text' value={filter} onChange={filterChange}   />
           {props.extraButtons && <span>{props.extraButtons}</span>}
         </Modal.Body>
         <Modal.Footer>

@@ -6,6 +6,7 @@ import CheatSheetPage from './pages/CheatSheetPage'
 import ReviewPage from './pages/ReviewPage'
 import MenuPage from './pages/MenuPage'
 import MusicPage from './pages/MusicPage'
+import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
@@ -77,7 +78,7 @@ function App(props) {
       callback(index)
     } else {
       // load the index from online
-        axios.get('/textsearch_index.json').then(function(index) {
+        axios.get('abc2book/textsearch_index.json').then(function(index) {
           if (callback) callback(index.data)
         }).catch(function(e) {
           console.log(["ERR",e])
@@ -159,6 +160,11 @@ function App(props) {
                     
                     <Route  path={`editor`}     >
                       <Route  path={`:tuneId`} element={<MusicEditor  tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />} />
+                    </Route>
+                    
+                    <Route  path={`import`} >
+                      <Route index element={<ImportPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
+                      <Route  path={`:curation`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                     </Route>
                       
                   </Routes>

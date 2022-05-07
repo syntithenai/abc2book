@@ -163,16 +163,23 @@ var useAbcTools = () => {
         var books = Array.isArray(tune.books) && tune.books.length > 0 ? tune.books.map(function(book) {
           return  'B: '+ensureText(book).toLowerCase()
         }).join("\n") + "\n": ''
+        function ensure(test,text) {
+            if (test) {
+                return text
+            } else {
+                return ''
+            }
+        }
         var finalAbc = "\nX: "+tuneNumber + "\n" 
-                    + "T: " + ensureText(tune.name) + "\n" 
+                    + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
                     + books
-                    + tune.meter ? "M:"+ensureText(tune.meter)+ "\n" : '' 
-                    + "L:" + ensureText(tune.noteLength,'1/8') + "\n" 
-                    + "R: "+  ensureText(tune.rhythm) + "\n" 
-                    + tune.tempo ? "Q: "+  ensureText(tune.tempo) + "\n" : ''
+                    + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
+                    + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
+                    + ensure(tune.rhythm, "R: "+  ensureText(tune.rhythm) + "\n" )
+                    + ensure(tune.tempo, "Q: "+  ensureText(tune.tempo) + "\n" )
                     + renderOtherHeaders(tune)
                     + aliasText 
-                    + tune.key ? "K:"+ensureText(tune.key)+ "\n" : ''
+                    + ensure(tune.key, "K:"+ensureText(tune.key)+ "\n" )
                     + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
                     + renderWordHeaders(tune)
                     +
@@ -181,7 +188,7 @@ var useAbcTools = () => {
                     ensureText((Array.isArray(tune.abcomments) ? tune.abcomments.join("\n")  + "\n" : '')) 
         
         
-        //console.log('ABC OUT', finalAbc)
+        console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
         return ''

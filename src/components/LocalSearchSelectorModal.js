@@ -207,7 +207,7 @@ function LocalSearchSelectorModal(props) {
           <Modal.Title>Search the collection</Modal.Title>
         </Modal.Header>
           <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}  autoFocus style={{width:'50%'}} />
+          <input type='text' value={filter} onChange={filterChange}   style={{width:'50%'}} />
          </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>

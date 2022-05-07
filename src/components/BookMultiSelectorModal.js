@@ -67,7 +67,7 @@ function BookMultiSelectorModal(props) {
               return <Button style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectBook(selectedBook)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedBook}</Button>
             })}</div>
             
-          <input type='search' value={filter} onChange={filterChange}  autoFocus />
+          <input type='search' value={filter} onChange={filterChange}   />
           <Button key="newbook" onClick={function() {newBook(filter)}}  >New Book</Button>
         </Modal.Body>
         <Modal.Footer>

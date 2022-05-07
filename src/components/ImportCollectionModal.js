@@ -1,11 +1,11 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 
 function ImportCollectionModal(props) {
   
   
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(props.autoStart ? props.autoStart : '');
   var [filter, setFilter] = useState('')
   var [list, setList] = useState('')
   var [tuneBook, setTuneBook] = useState('')
@@ -18,8 +18,8 @@ function ImportCollectionModal(props) {
       setFilter('')
       setDuplicates(null)
       setShow(false);
-      props.closeParent()
-      props.forceRefresh()
+      if (props.closeParent) props.closeParent()
+      if (props.forceRefresh) props.forceRefresh()
   }
   const handleShow = () => setShow(true);
   
@@ -109,6 +109,10 @@ function ImportCollectionModal(props) {
       }
       readFile(event.target.files[0])
   }
+  
+  useEffect(function() {
+    if (props.autoStart)  doImport(props.autoStart)
+  },[props.autoStart])
    
   return (
     <>
@@ -125,7 +129,7 @@ function ImportCollectionModal(props) {
         </div>
           : <>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}  autoFocus />
+          <input type='text' value={filter} onChange={filterChange}   />
           {props.extraButtons && <span>{props.extraButtons}</span>}
         </Modal.Body>
         <Modal.Footer>
