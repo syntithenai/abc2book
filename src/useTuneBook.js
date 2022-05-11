@@ -43,28 +43,32 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   
   
   
-  function buildTunesHash() {
+  function buildTunesHash(forceTunes) {
     var hashes = {}
     var ids = {}
-    if (tunes) Object.values(tunes).forEach(function(tune) {
-      if (tune.id && tune.notes) {
-        //console.log('BTHBB',tune.notes)
-        var hash = utils.hash(tune.notes.join("\n"))
-        if (!Array.isArray(hashes[hash])) hashes[hash] = []
-        hashes[hash].push(tune.id)
-        ids[tune.id] = hash
+    var useTunes = forceTunes ? forceTunes : tunes;
+    if (Array.isArray(useTunes) && useTunes.length > 0) {
+      Object.values(useTunes).forEach(function(tune) {
+        if (tune.id && tune.notes) {
+          //console.log('BTHBB',tune.notes)
+          var hash = utils.hash(tune.notes.join("\n"))
+          if (!Array.isArray(hashes[hash])) hashes[hash] = []
+          hashes[hash].push(tune.id)
+          ids[tune.id] = hash
+        }
+      })
+      console.log('BTH',{ids, hashes})
+        setTunesHash({ids, hashes})
       }
-    })
-    //console.log('BTH',{ids, hashes})
-    setTunesHash({ids, hashes})
+    
   }
   
   function updateTunesHash(tune) {
     //console.log('update tune hash',tunesHash)
-     if (tune.id) {
-        var oldHash = tunesHash.ids[tune.id]
+     if (tune.id ) {
+        var oldHash = tunesHash && tunesHash.ids ? tunesHash.ids[tune.id] : null
         if (oldHash) {
-          console.log('update tune hash have old', oldHash, tunesHash.hashes[oldHash])
+          //console.log('update tune hash have old', oldHash, tunesHash.hashes[oldHash])
           if (Array.isArray(tunesHash.hashes[oldHash])) {
             tunesHash.hashes[oldHash] = tunesHash.hashes[oldHash].filter(function(ids) {
               if (Array.isArray(ids) && ids.indexOf(tune.id) === -1) {
@@ -73,14 +77,17 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
                 return false
               }
             })
-            if (tunesHash.hashes[oldHash].length === 0) {
+            if (tunesHash && tunesHash.hashes && tunesHash.hashes[oldHash].length === 0) {
               delete tunesHash.hashes[oldHash]
             }
           }
-          delete tunesHash.ids[tune.id]
+          if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
         }
         var hash = utils.hash(tune.notes.join("\n"))
         //console.log('update tune hash have new', hash)
+        if (!tunesHash)  tunesHash = {}
+        if (!tunesHash.hashes)  tunesHash.hashes = {}
+        if (!tunesHash.ids)  tunesHash.ids = {}
         tunesHash.hashes[hash] = true
         tunesHash.ids[tune.id] = hash
         setTunesHash(tunesHash)
@@ -122,7 +129,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
             } else {
               var hash = utils.hash(tune.notes.join("\n"))
               //console.log("tryhash",hash,tunesHash.hashes[hash]   )
-              if (tunesHash.hashes[hash] === true) {
+              if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] === true) {
                 duplicates.push(tune)
               } else {
                 if (forceBook) {
@@ -192,7 +199,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     indexes.removeBookFromIndex(book)
     console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
-    buildTunesHash()
+    buildTunesHash(final)
     forceRefresh()
   }
   

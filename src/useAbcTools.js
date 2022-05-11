@@ -64,6 +64,37 @@ var useAbcTools = () => {
          return "" 
       }
     }
+    
+    function getBeatLength(meter) {
+          switch (meter) {
+            case '2/2':
+              return '1/2'
+            case '3/2':
+              return '1/2'
+            case '4/2':
+              return '1/2'
+            case '3/8':
+              return '3/8'
+            case '6/8':
+              return '3/8'
+            case '9/8':
+              return '3/8'
+            case '12/8':
+              return '3/8'
+            case '2/4':
+              return '1/4'
+            case '3/4':
+              return '1/4'
+            case '4/4':
+              return '1/4'
+            case '6/4':
+              return '3/4'
+            case '9/4':
+              return '3/4'
+          }
+          return '1/4'
+        
+    }
 
     
     function abc2json(abc) {
@@ -112,7 +143,7 @@ var useAbcTools = () => {
                         if (!tune.key) tune.key = line.slice(2).trim()
                         break
                     case "Q":
-                        if (!tune.key) tune.tempo = line.slice(2).trim()
+                        tune.tempo = cleanTempo(line.slice(2).trim())
                         break
                     default:
                         tune.meta = pushMeta(tune.meta, key, line.slice(2).trim())
@@ -123,6 +154,8 @@ var useAbcTools = () => {
                     tune.id = line.slice(18).trim()
                 } else  if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
+                } else  if (line.startsWith('% abcbook-tablature')) {
+                    tune.tablature = line.slice(20).trim()
                 }
             } else if (isNoteLine(line)) {
                 //console.log('LINE ISNOTE', line)
@@ -170,22 +203,27 @@ var useAbcTools = () => {
                 return ''
             }
         }
+        var tempoLine = ''
+        if (cleanTempo(tune.tempo) > 0) {
+             tempoLine = "Q: "+ getBeatLength(tune.meter)+'='+ cleanTempo(tune.tempo) + "\n" 
+        }
+        console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
                     + ensure(tune.rhythm, "R: "+  ensureText(tune.rhythm) + "\n" )
-                    + ensure(tune.tempo, "Q: "+  ensureText(tune.tempo) + "\n" )
+                    + tempoLine
                     + renderOtherHeaders(tune)
                     + aliasText 
                     + ensure(tune.key, "K:"+ensureText(tune.key)+ "\n" )
                     + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
                     + renderWordHeaders(tune)
-                    +
-                    "% abc-tune_id " + tune.id + "\n" + 
-                    "% abc-boost " +  boost + "\n" +
-                    ensureText((Array.isArray(tune.abcomments) ? tune.abcomments.join("\n")  + "\n" : '')) 
+                    + "% abcbook-tune_id " + tune.id + "\n" 
+                    + "% abcbook-boost " +  boost + "\n" 
+                    + "% abcbook-tablature " +  tune.tablature + "\n" 
+                    + ensureText((Array.isArray(tune.abcomments) ? tune.abcomments.join("\n")  + "\n" : '')) 
         
         
         //console.log('ABC OUT', finalAbc)
@@ -195,6 +233,17 @@ var useAbcTools = () => {
       }
     }
     
+    function cleanTempo(tempoIn) {
+        var tempo = new String(tempoIn)
+        if (tempo && tempo.trim)  {
+            var parts = tempo.trim().split('=')
+            if (parts.length > 0) {
+                var t = parseInt(parts[parts.length-1])
+                if (t !== NaN) return t
+                else return 100 
+            } else return ''
+        } else return ''
+    }
      function json2abc_print(tune) {
       if (tune) {
         var aliasText = ''
@@ -210,6 +259,7 @@ var useAbcTools = () => {
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
+                    + (cleanTempo(tune.tempo) > 0 ?  "Q: "+ getBeatLength(tune.meter)+'='+ ensureText(cleanTempo(tune.tempo)) + "\n"  : "")
                     + aliasText 
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
@@ -232,6 +282,7 @@ var useAbcTools = () => {
                     + "T: " + ensureText(tune.name) + "\n" 
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
+                    + (cleanTempo(tune.tempo) > 0 ?  "Q: "+ getBeatLength(tune.meter)+'='+ ensureText(cleanTempo(tune.tempo)) + "\n"  : "")
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + (Array.isArray(tune.notes) ? tune.notes[0]  + "\n" : '')
@@ -937,15 +988,15 @@ var useAbcTools = () => {
 
     function getTempo(tune) {
         //console.log('gettempo',tune)
-        var tempo = 120
-        var tempoString = tune && tune.tempo ? tune.tempo : '1/8=120 "fast"'
+        var tempo = 100
+        var tempoString = tune && tune.tempo ? tune.tempo : '1/4=100'
         var tempoStringParts = removeAbcInnerStrings(tempoString).split("=")
         if (tempoStringParts.length > 1) {
             tempo = parseInt(tempoStringParts[1])
-            if (!tempo > 0) tempo = 120
+            if (!tempo > 0) tempo = 100
         } else {
             tempo = parseInt(tempoStringParts[0])
-            if (!tempo > 0) tempo = 120
+            if (!tempo > 0) tempo = 100
         }
         //console.log('GET TEMPO',tempoString,tempoStringParts,tempo)
         return tempo
@@ -1011,8 +1062,18 @@ var useAbcTools = () => {
       return chordMatches.indexOf(chord.trim()) !== -1
     }
     
-      
+    
+    const tablatureConfig = {
+    'violin': {
+      instrument: "violin",
+      tuning: ["G,", "D", "A", "e"],
+    },
+    'guitar': {
+      instrument: "guitar",
+      tuning: ["E,", "A,", "D", "G", "B", "e"]
+    }
+  }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig}
 }
 export default useAbcTools;

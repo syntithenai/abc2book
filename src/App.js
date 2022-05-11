@@ -157,7 +157,7 @@ function App(props) {
                         index 
                         element={<MusicPage setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle  tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle setBeatsPerBar={setBeatsPerBar} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
                     </Route>
                     
                     <Route  path={`editor`}     >

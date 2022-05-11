@@ -24,7 +24,7 @@ export default function AbcEditor(props) {
     //setRhythmInner(tune.rhythm)
     ////updateErrorCount()
   //}
-  var tune = props.tunebook.abcTools.abc2json(props.abc)
+  
   //const [abcTuneNotes, setAbcTuneNotes] = useState(Array.isArray(tune.notes) ? tune.notes.join("\n") : '')
   //const [abcTuneComments, setAbcTuneComments] = useState(Array.isArray(tune.abccomments) ? tune.abccomments.join("\n") : '');
   //const [abcTuneWords, setAbcTuneWords] = useState(Array.isArray(tune.words) ? tune.words.join("\n") : '');
@@ -42,6 +42,7 @@ export default function AbcEditor(props) {
   //}
   
   const [warnings, setWarnings] = useState([])
+  //const [tune, setTune] = useState(null)
   //function updateErrorCount() {
     //var warnings = parseInt(document.getElementById('warnings').children.length / 2)
     //setErrorCount(warnings)
@@ -81,6 +82,7 @@ export default function AbcEditor(props) {
   useEffect(() => {
     console.log('EDITRO UPDATE ABC')
     setAbcText(props.abc);
+    
   }, [props.abc]);
   
   function onWarnings(warnings) {
@@ -119,20 +121,22 @@ export default function AbcEditor(props) {
   //if (tune.key) abcForDisplay.push('K: '+tune.key)
   //if (tune.meter) abcForDisplay.push('M: '+tune.meter)
   //if (tune.noteLength) abcForDisplay.push('L: '+tune.noteLength)
+  var tune = props.tune
   abcForDisplay.push(Array.isArray(tune.notes) ? tune.notes.join("\n") : '')
-  
   var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
   function tuneNotesChanged(e) {
     var v = props.tunebook.abcTools.justNotes(e.target.value); 
     console.log('SAVE NOTES',e.target.value, v)
     //setAbcTuneNotes(v); 
-    tune.notes = v.split("\n") 
-    tune.id = params.tuneId
-    //setAbcTune(props.tunebook.abcTools.json2abc(tune)) ; 
-    //if (noteSaveTimeout) clearTimeout(noteSaveTimeout)
-    //setNoteSaveTimeout(setTimeout(function() {
-      //console.log('SAVE NOTES TIMEOUT')
-      props.tunebook.saveTune(tune) 
+    if (tune) {
+      tune.notes = v.split("\n") 
+      tune.id = params.tuneId
+      //setAbcTune(props.tunebook.abcTools.json2abc(tune)) ; 
+      //if (noteSaveTimeout) clearTimeout(noteSaveTimeout)
+      //setNoteSaveTimeout(setTimeout(function() {
+        //console.log('SAVE NOTES TIMEOUT')
+        props.tunebook.saveTune(tune) 
+      }
     //}, 500))
   }
   //<span style={{fontSize:'0.5em'}} >{tune.key ? <>Key: <b>{tune.key}</b></> : null} {tune.meter ? <>Time Signature: <b>{tune.meter}</b></> : null}</span>
@@ -149,7 +153,7 @@ export default function AbcEditor(props) {
                 </div>
                 <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
                    
-                   <Abc tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} />
+                   <Abc tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune.tempo > 0 ? tune.tempo : 100} meter={tune.meter} />
                 </div>
                 <div id="lyrics" >{tune.words ? tune.words.map(function(wordLine) {
                   return <div>{wordLine}</div> 
@@ -202,6 +206,16 @@ export default function AbcEditor(props) {
                       <option value="1/12">1/12</option>
                       <option value="1/16">1/16</option>
                      </Form.Select> 
+                   
+                  </Form.Group>
+                  
+                  <Form.Group className="mb-3" controlId="tab">
+                    <Form.Label>Tablature</Form.Label>
+                    <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                      <option value=""></option>
+                      <option value="guitar" >Guitar</option>
+                      <option value="violin">Violin</option>
+                      </Form.Select> 
                    
                   </Form.Group>
                   

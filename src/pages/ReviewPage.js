@@ -132,6 +132,7 @@ export default function ReviewPage(props) {
     
     function onEnded(progress, start, stop ,seek) {
         console.log('review ended')
+        navigate('/review/'+props.tunebook.utils.nextNumber(getCurrentReviewIndex(), (reviewItems ? reviewItems.length : 1)))
         //if (playCount < 3) {
             //setPlayCount(playCount + 1)
             //seek(0)
@@ -145,10 +146,14 @@ export default function ReviewPage(props) {
     //if (reviewItems && reviewItems.length > 0) {
         
     var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : null
-   
+   const [autoStart,setAutoStart] = useState(false)
    console.log('RR FOUND TUNE', tune , abc)
     if (!tune) {
-        return null
+        return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
+        <br/>
+        Boost more tunes to add them to your list.
+        
+        </div>
     } else  {
         var abc = props.tunebook.abcTools.json2abc(tune)
         return <div className="App-review">
@@ -165,16 +170,12 @@ export default function ReviewPage(props) {
            </ButtonGroup>
            
            
-           <Abc repeat={3} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo()} meter={tune.meter}   onEnded={onEnded} />
+           <Abc repeat={1} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo()} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
             
         </div>
     }
     //} else {
-        //return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
-        //<br/>
-        //Boost more tunes to add them to your list.
         
-        //</div>
     //}
 }
 //audioCallback={audioCallback} tempo={props.tunebook.tempo} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, props.tunebook.tempo))}

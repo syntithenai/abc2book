@@ -26,11 +26,62 @@ export default function MusicSingle(props) {
     let tune = props.tunes ? props.tunes[params.tuneId] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
 
+    
+    
+    
+    function getBeatsPerBar(meter) {
+          switch (meter) {
+            case '2/2':
+              return 2
+            case '3/2':
+              return 3
+            case '4/2':
+              return 4
+            case '3/8':
+              return 1
+            case '6/8':
+              return 2
+            case '9/8':
+              return 3
+            case '12/8':
+              return 4
+            case '2/4':
+              return 2
+            case '3/4':
+              return 3
+            case '4/4':
+              return 4
+            case '6/4':
+              return 2
+            case '9/4':
+              return 3
+          }
+          return 4
+        
+    }
+    
+
+    useEffect(function() {
+       let tune = props.tunes ? props.tunes[params.tuneId] : null
+       // props.tempo is an integer
+       // tune tempo includes beat length eg 3/8=100
+       if (tune) {
+           var tempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
+           if (tune.meter) {
+             var bpb = getBeatsPerBar(tune.meter)
+             props.setBeatsPerBar(bpb)
+           }
+           if (tempo != props.tempo) {
+               props.setTempo(tempo)
+           }
+        }
+    },[params.tuneId])
+
     function getTempo() {
-        // use page tempo or fallback to tune tempo
-        var tempo = (props.tempo > 0 ? props.tempo : (props.tunebook.abcTools.getTempo(tune) > 0 ? props.tunebook.abcTools.getTempo(tune) : 100))
-        if (tempo > 200) tempo = 200
-        if (tempo < 30) tempo = 30
+        // use page tempo that has been updated from tune
+        var tempo = (props.tempo > 0 ? props.tempo :  100)
+        if (tempo > 400) tempo = 400
+        if (tempo < 1) tempo = 1
         return tempo
     }
  
