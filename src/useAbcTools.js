@@ -205,7 +205,7 @@ var useAbcTools = () => {
         }
         var tempoLine = ''
         if (cleanTempo(tune.tempo) > 0) {
-             tempoLine = "Q: "+ getBeatLength(tune.meter)+'='+ cleanTempo(tune.tempo) + "\n" 
+             tempoLine = "Q: "+ getBeatLength(tune.meter)+'='+ (cleanTempo(tune.tempo) > 0 ? cleanTempo(tune.tempo) : '100') + "\n" 
         }
         console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
@@ -264,7 +264,7 @@ var useAbcTools = () => {
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + (Array.isArray(tune.notes) ? tune.notes.join("\n")  + "\n" : '')
                     + renderWordHeaders(tune)
-        
+                    + "% abcbook-tablature " +  tune.tablature + "\n" 
         
         //console.log('ABC OUT', finalAbc)
         return finalAbc

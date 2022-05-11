@@ -36,10 +36,20 @@ export default function ReviewPage(props) {
       if (tune) {
         var boost = tune.boost > 0 ? tune.boost : 0
         var useBoost = boost > 20 ? 20 : boost
+        var boostPercent = (1 + (useBoost - 15)/useBoost)
+        // 15 = tune speed
+        // 20 = 50% faster
+        // 10 = half speed
+        // 5 = quarter speed
+        var cleanTempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
+        var useTempo = 100 * boostPercent
+        if (cleanTempo > 0) {
+            useTempo = cleanTempo * boostPercent
+        }
         //Math.min(boost,50)
-        var tempo = 30 + useBoost * 5
+        //var tempo = 30 + useBoost * 5
         //tempo+= 300 // testing
-        final = tempo;
+        final = useTempo;
       } else {
         final = 100
       }
@@ -132,6 +142,9 @@ export default function ReviewPage(props) {
     
     function onEnded(progress, start, stop ,seek) {
         console.log('review ended')
+        props.tunebook.utils.saveLastPlayed(tune.id)
+        tune.boost = tune.boost + 1
+        props.tunebook.saveTune(tune)
         navigate('/review/'+props.tunebook.utils.nextNumber(getCurrentReviewIndex(), (reviewItems ? reviewItems.length : 1)))
         //if (playCount < 3) {
             //setPlayCount(playCount + 1)
