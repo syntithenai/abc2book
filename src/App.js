@@ -23,19 +23,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
-
 function Footer(props) {
   var location = useLocation()
   if (location.pathname.startsWith('/print')) return null
   
-   return <div style={{backgroundColor:'#e8f8fe', height:'6em'}} >
+   return <div style={{display:'block',clear:'both',backgroundColor:'#e8f8fe', height:'6em'}} >
           <Link to='/help' ><Button>Help</Button></Link>
           <div style={{textAlign:'center', fontSize:'0.7em'}}>(CopyLeft 2022)    Steve Ryan <a href='mailto:syntithenai@gmail.com'>syntithenai@gmail.com</a></div>
           <div style={{textAlign:'center', fontSize:'0.7em'}}>Source code on <a href='https://github.com/syntithenai/abc2book'>Github</a></div>
         </div>
 }
 
+
 function App(props) {
+  
   let params = useParams();
   let dbTunes = {}
   let utils = useUtils();
@@ -78,7 +79,8 @@ function App(props) {
       callback(index)
     } else {
       // load the index from online
-        axios.get('abc2book/textsearch_index.json').then(function(index) {
+        var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/textsearch_index.json' : '/abc2book/textsearch_index.json'
+        axios.get(a).then(function(index) {
           if (callback) callback(index.data)
         }).catch(function(e) {
           console.log(["ERR",e])
@@ -119,7 +121,7 @@ function App(props) {
     var t = tunebook.utils.loadLocalObject('bookstorage_tunes')
     setTunesInner(t)
     console.log('loaded tunes',t)
-    getTextSearchIndex(textSearchIndex, function(loadedIndex) { setTextSearchIndex(loadedIndex)})
+    if (!textSearchIndex || !textSearchIndex.tokens) getTextSearchIndex(textSearchIndex, function(loadedIndex) { console.log('loaded search index', loadedIndex);setTextSearchIndex(loadedIndex)})
     tunebook.buildTunesHash()
   },[])
   
@@ -168,10 +170,11 @@ function App(props) {
                     </Route>
                       
                   </Routes>
+                  
               </div>
-             
             </Router>
           </div>}
+      
     </div>
   );
 }

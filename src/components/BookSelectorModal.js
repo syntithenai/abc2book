@@ -23,6 +23,7 @@ function BookSelectorModal(props) {
   
     function newBook(filter) {
         if(filter && filter.trim()) {
+          console.log(props.tunebook)
             props.tunebook.indexes.addBookToIndex(filter); 
             props.setCurrentTuneBook(filter); 
             props.forceRefresh()

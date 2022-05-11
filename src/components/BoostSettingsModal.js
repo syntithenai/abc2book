@@ -21,8 +21,8 @@ function BoostSettingsModal(props) {
   },[props.value])
   return (
     <>
-      <Button style={{float:'left', marginLeft:'1em'}} variant="secondary" onClick={handleShow}>
-        {props.tunebook.icons.reviewsmall} <Badge>{props.value}</Badge>
+      <Button style={{float:'left', marginLeft:'1em'}} variant="secondary">
+        <span onClick={function(e) {boostUp()}} >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={handleShow}>{props.value}</Badge>
       </Button>
 
       <Modal show={show} onHide={handleClose}>

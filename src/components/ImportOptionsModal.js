@@ -6,7 +6,7 @@ import ImportCollectionModal from './ImportCollectionModal'
 import ImportListModal from './ImportListModal'
 
 function ImportOptionsModal(props) {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(props.show);
   const [duplicates, setDuplicates] = useState([])
   const [message, setMessage] = useState(null)
   //const [list, setList] = useState('');

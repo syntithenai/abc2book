@@ -34,6 +34,7 @@ function TheSessionSearchSelectorModal(props) {
   
   async function searchOptions(filter) {
     return new Promise(function(resolve,reject) {
+      console.log('SEARCH',filter)
       axios.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+filter).then(function(searchRes) {
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.tunes) {
@@ -49,16 +50,16 @@ function TheSessionSearchSelectorModal(props) {
 
   useEffect(function() {
     setSettings(null)
-    console.log('ini searc',props.value)
-    searchOptions(props.value).then(function(opts) {console.log('ini done',opts); setOptions(opts)})
-  },[])
+    //console.log('ini searc',props.value)
+    if (show) searchOptions(props.value).then(function(opts) {setOptions(opts)})
+  },[show])
   
   useEffect(function() {
     setSettings(null)
   },[show])
   
   function selectSetting(setting) {
-    console.log('select setting ', setting, foundTune)
+    //console.log('select setting ', setting, foundTune)
     var tune = foundTune
     if (tune) {
       tune.notes = setting.abc.split("\n")
@@ -138,7 +139,7 @@ function TheSessionSearchSelectorModal(props) {
                 }
                 setShow(false)
               }} > Select</Button>
-              <Abc abc={setting.abc} />
+              <Abc abc={setting.abc} tunebook={props.tunebook} />
             </div>
           })}</ListGroup>
           </Modal.Body>   

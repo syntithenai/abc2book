@@ -64,7 +64,7 @@ function BookMultiSelectorModal(props) {
         <Modal.Body>
           <Button onClick={handleClose} variant="success" style={{float:'right', marginBottom:'0.3em'}}>OK</Button>
           <div>{Array.isArray(props.value) && props.value.map(function(selectedBook) {
-              return <Button style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectBook(selectedBook)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedBook}</Button>
+              return <Button key={selectedBook} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectBook(selectedBook)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedBook}</Button>
             })}</div>
             
           <input type='search' value={filter} onChange={filterChange}   />

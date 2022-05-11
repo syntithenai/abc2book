@@ -21,7 +21,7 @@ function LocalSearchSelectorModal(props) {
           final[result.ids.join(",")] = result.name
         })
       }
-      //console.log('sesarch index',text,final)
+      console.log('sesarch index',text,final)
       callback(final)
     }) 
   }  
@@ -111,9 +111,8 @@ function LocalSearchSelectorModal(props) {
   }
 
   function searchIndex(text, callback) {
-    //console.log('sesarch index',text, props.tunebook)
+    console.log('sesarch index',text, props.tunebook,props.tunebook.textSearchIndex)
     
-      //console.log('sesarch index loaded',index)
       var matches = {}
       var cleanText = stripText(text)
       var parts = cleanText.split(" ")
@@ -187,6 +186,8 @@ function LocalSearchSelectorModal(props) {
          <Modal.Body>
           <ListGroup  style={{clear:'both', width: '100%'}}>
           {settings.map(function(setting) {
+            var tune = props.tunebook.abcTools.abc2json(setting)
+            var useSetting = props.tunebook.abcTools.json2abc_cheatsheet(tune)
             return <div>
               <Button  style={{float:'right'}} onClick={function(e) {
                 if (window.confirm('Do you really want to replace this tune with information from the collection?')) {
@@ -194,7 +195,7 @@ function LocalSearchSelectorModal(props) {
                 }
                 setShow(false)
               }} > Select</Button>
-              <Abc abc={setting} />
+              <Abc abc={useSetting}  tunebook={props.tunebook} />
             </div>
           })}</ListGroup>
           </Modal.Body>   

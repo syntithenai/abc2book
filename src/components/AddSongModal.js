@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 function AddSongModal(props) {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(props.show ==="addTune");
   const [songTitle, setSongTitle] = useState('')
   const [songWords, setSongWords] = useState('')
   const [songNotes, setSongNotes] = useState('')
@@ -36,10 +36,10 @@ function AddSongModal(props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Add a song</Modal.Title>
+          <Modal.Title>Add a tune</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-           <div>Add song to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
+           <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
           <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} />

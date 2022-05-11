@@ -4,7 +4,7 @@ import axios from 'axios'
 import BookSelectorModal from './BookSelectorModal'
 function ImportListModal(props) {
   const [show, setShow] = useState(false);
-  const [list, setList] = useState('drowsy maggie');
+  const [list, setList] = useState("drowsy maggie\nthe high reel");
   const handleClose = () => {
       //setMessage(null)
       //setErrors('')

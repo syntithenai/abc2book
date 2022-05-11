@@ -43,7 +43,9 @@ export default function ReviewPage(props) {
       } else {
         final = 100
       }
-      //console.log('get review tempo ',final)
+      if (final > 200) final = 200
+      if (final < 30) final = 30
+      console.log('get review tempo ',final)
       return final
   } 
 

@@ -1,19 +1,20 @@
 import Metronome from '../Metronome'
-import {useState} from 'react'
+import {useState, useRef} from 'react'
 import {Button, Modal, ButtonGroup} from 'react-bootstrap'
   
 export default function TempoControl(props) {
-    
-    var metronome = new Metronome(props.value, props.beatsPerBar, 0, function() {console.log('done')});
+    var metronome = useRef(null)
+    metronome.current = new Metronome(props.value, props.beatsPerBar, 0, function() {console.log('done')});
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const [started, setStarted] = useState(false)
     const [show, setShow] = useState(false)
+    var options = {30:'Grave',42:'Lento', 47:'Largo', 60: 'Adagio', 67: 'Adagietto', 75: 'Andante', 91: 'Moderato', 104: 'Allegretto', 120: 'Allegro', 136:'Vivace', 170: 'Presto', 180:'Prestissimo'}
     
     return <span className="tempo-control">
        
         <ButtonGroup size="sm">
-            <Button onClick={function(e) {metronome.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
+            <Button onClick={function(e) {metronome.current.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
         </ButtonGroup>
       
       <Modal show={show} onHide={handleClose}>
@@ -22,23 +23,19 @@ export default function TempoControl(props) {
         </Modal.Header>
         <Modal.Body>
            <label  id="tempo"  style={{float: 'left', marginRight: "0.2em"}} >
-              <Button style={{float:'right'}}  variant="danger" onClick={function(e) { props.onChange('')}} >Clear</Button>
-              Tempo <select id="tempovalue" onChange={function(e) { props.onChange(e.target.value)}} value={props.value} >
-                <option value=""></option>
-                <option value="30">Grave</option>
-                <option value="42">Lento</option>
-                <option value="47">Largo</option>
-                <option value="60">Adagio</option>
-                <option value="67">Adagietto</option>
-                <option value="75">Andante</option>
-                <option value="91">Moderato</option>
-                <option value="104">Allegretto</option>
-                <option value="120">Allegro</option>
-                <option value="136">Vivace</option>
-                <option value="170">Presto</option>
-                <option value="180">Prestissimo</option>
-              </select>
+              <Button style={{float:'right'}}  variant="danger" onClick={function(e) { props.onChange(''); handleClose()}} >Clear</Button>
+              Tempo 
              <input type='number' onChange={function(e) { props.onChange(e.target.value)}} value={props.value} />
+            <div style={{marginTop:'1em', marginBottom:'1em'}} >
+                {Object.keys(options).map(function(key) {
+                    return <Button key={key} onClick={function() {
+                                        props.onChange(key)
+                                        handleClose()
+                                }} >
+                                {options[key]}
+                            </Button>
+                })}
+            </div>
             </label>
             <label>Metronome Beats Per Bar<input type='number' value={props.beatsPerBar} onChange={function(e) {props.setBeatsPerBar(e.target.value)}} /></label>
             

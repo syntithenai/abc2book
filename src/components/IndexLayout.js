@@ -57,7 +57,7 @@ export default function IndexLayout(props) {
             //}
         //})
         .map(function(tune,tk) {
-            return <Link style={{textDecoration:'none'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}</ListGroup.Item></Link>
+            return <Link key={tk} style={{textDecoration:'none'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}</ListGroup.Item></Link>
         })}
         </ListGroup>
         

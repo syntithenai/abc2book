@@ -12,7 +12,7 @@ export default function PrintPage(props) {
     return <div className="App-print">
         {props.tunebook.fromBook(params.tuneBook).map(function(tune) {
             
-            return <div  ><Abc abc={props.tunebook.abcTools.json2abc_print(tune)} /></div>
+            return <div  ><Abc abc={props.tunebook.abcTools.json2abc_print(tune)} tunebook={props.tunebook} /></div>
         })}
     </div>
 }

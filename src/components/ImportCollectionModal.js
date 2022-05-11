@@ -6,11 +6,11 @@ function ImportCollectionModal(props) {
   
   
   const [show, setShow] = useState(props.autoStart ? props.autoStart : '');
-  var [filter, setFilter] = useState('')
-  var [list, setList] = useState('')
-  var [tuneBook, setTuneBook] = useState('')
-  var [duplicates, setDuplicates] = useState([])
-  var [message, setMessage] = useState(null)
+  const [filter, setFilter] = useState('')
+  const [list, setList] = useState('')
+  const [tuneBook, setTuneBook] = useState('')
+  const [duplicates, setDuplicates] = useState([])
+  const [message, setMessage] = useState(null)
   const [options, setOptions] = useState(getOptions());
   
   const handleClose = () => {
@@ -100,7 +100,7 @@ function ImportCollectionModal(props) {
             //console.log("read"+reader.result.length )
             if (reader.result.trim().length > 0) {
               setList(reader.result)
-              doImport(reader.result)
+              //doImport(reader.result)
             }
           }
           if(file){
@@ -116,7 +116,7 @@ function ImportCollectionModal(props) {
    
   return (
     <>
-      <Button style={{color:'black'}} variant='primary' onClick={handleShow} >{props.tunebook.icons.folderin} Book</Button>
+      <Button id="loadtunebookbutton" style={{color:'black'}} variant='primary' onClick={handleShow} >{props.tunebook.icons.folderin} Book</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

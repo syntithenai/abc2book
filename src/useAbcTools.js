@@ -7,7 +7,7 @@ var useAbcTools = () => {
 
     
     function isCommentLine(line) {
-        return (line.startsWith('% ') && !isDataLine(line))
+        return ((line.startsWith('% ') || line.startsWith('%%')) && !isDataLine(line))
     }
     
     function isDataLine(line) {
@@ -20,7 +20,7 @@ var useAbcTools = () => {
     
     function justNotes(text) {
         return text.split("\n").filter(function(line) {
-            return isNoteLine(line)
+            return line.trim() === "" || isNoteLine(line)
         }).join("\n")
     }
     
@@ -83,9 +83,9 @@ var useAbcTools = () => {
                     case "T":
                         // only the first one, subsequent go into meta arrays
                         if (!tune.name) {
-                            tune.name = line.slice(2).trim()
+                            tune.name = line.slice(2)
                         } else {
-                            tune.meta = pushMeta(tune.meta, "T", line.slice(2).trim())
+                            tune.meta = pushMeta(tune.meta, "T", line.slice(2))
                         }
                         break
                     case "B":
@@ -188,7 +188,7 @@ var useAbcTools = () => {
                     ensureText((Array.isArray(tune.abcomments) ? tune.abcomments.join("\n")  + "\n" : '')) 
         
         
-        console.log('ABC OUT', finalAbc)
+        //console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
         return ''
@@ -893,26 +893,46 @@ var useAbcTools = () => {
     }
 
 
-
-    function getBeatsPerBar(meter) {
-      switch (meter) {
-        case '4/4':
-          return 4
-        case '3/4':
-          return 3
-        case '2/4':
-          return 2
-        case '6/8':
-          return 2
-        case '9/4':
-          return 3
-        case '12/8':
-          return 4
-        case '3/2':
-          return 3
-      }
-      return 4
+    function getBeatDuration(meter) {
+        var parts = meter ? meter.split("/") : null
+        var duration = parts && parts.length > 1 && parts[1] > 0 ? parseInt(parts[1]) : 0
+        return duration
     }
+    
+    function getBeatsPerBar(meter) {
+        var parts = meter ? meter.split("/") : null
+        var bpb = parts && parts.length > 1 ? parseInt(parts[0]) : 0
+        return bpb
+    }
+      //switch (meter) {
+        //case '2/2':
+          //return 2
+        //case '3/2':
+          //return 3
+        //case '4/2':
+          //return 4
+        //case '3/8':
+          //return 3
+        //case '6/8':
+          //return 2
+        //case '9/8':
+          //return 3
+        //case '12/8':
+          //return 4
+        //case '2/4':
+          //return 2
+        //case '3/4':
+          //return 3
+        //case '4/4':
+          //return 4
+        //case '6/4':
+          //return 6
+        //case '9/4':
+          //return 3
+        
+      //}
+      //return 4
+    //}
     
 
     function getTempo(tune) {
@@ -931,13 +951,14 @@ var useAbcTools = () => {
         return tempo
     }
 
-    function getMilliSecondsPerMeasure(tune, forceTempo) {
-       var meter = ensureText(getTuneMeter(tune), '4/4')
-       var beats = getBeatsPerBar(meter)
-       var tempo = forceTempo ? forceTempo : getTempo(tune)
-       //console.log('beats',beats, meter, tempo, tune)
-       return 60000/tempo * beats
-    }
+    //function getM
+    //function getMilliSecondsPerMeasure(tune, forceTempo) {
+       //var meter = ensureText(getTuneMeter(tune), '4/4')
+       //var beats = getBeatsPerBar(meter)
+       //var tempo = forceTempo ? forceTempo : getTempo(tune)
+       ////console.log('beats',beats, meter, tempo, tune)
+       //return 60000/tempo * beats
+    //}
 
     //function getReviewTempo(tune) {
       //console.log('get tempo ',tune)
@@ -992,6 +1013,6 @@ var useAbcTools = () => {
     
       
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, getMilliSecondsPerMeasure, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration}
 }
 export default useAbcTools;

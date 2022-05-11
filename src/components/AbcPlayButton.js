@@ -1,8 +1,9 @@
 import {Button} from 'react-bootstrap'
 
 export default function AbcPlayButton({started, ready, isPlaying, clickInit, clickPlay, clickStopPlaying, tunebook}) {
+    //console.log('button',tunebook)
     if (!started) {
-      return  <Button  className='btn-secondary' style={{float:'right'}} onClick={clickInit}  >
+      return  <Button  className='btn-secondary' style={{float:'right'}} onClick={function(e) { e.stopPropagation();  clickInit(e)}}  >
         {tunebook.icons.start}
       </Button>
              

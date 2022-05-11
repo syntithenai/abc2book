@@ -7,19 +7,25 @@ import BookSelectorModal from './BookSelectorModal'
 import AddSongModal from './AddSongModal'
 import ImportOptionsModal from './ImportOptionsModal'
 import TuneBookOptionsModal from './TuneBookOptionsModal'
-
+import {useParams} from 'react-router-dom'
 export default function IndexSearchForm(props) {
     //console.log('BOOKINDEX',props.tunebook.indexes.bookIndex)
     var [filter, setFilter] = useState('')
     //var [tuneBook, setTuneBook] = useState('')
-    
-    
+    function getShowParam() {
+        if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
+            return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
+        }
+        return ''
+    }
+    //console.log("SP",getShowParam())
 // props.updateList(e.target.value)
-    
+    const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     return <div id="tunesearchform" style={{padding:'0.3em', minHeight:'4em', clear:'both', backgroundColor: '#d3d3d385'}} >
+        
         <span style={{float:'right', backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
-            <AddSongModal forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-            <ImportOptionsModal  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+            <AddSongModal show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+            <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
         </span>
         <input  style={{width:'30%'}} type='search' value={props.filter} onChange={function(e) {props.setFilter(e.target.value);   }} />
         <div style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}   id="tunesearchextras" >

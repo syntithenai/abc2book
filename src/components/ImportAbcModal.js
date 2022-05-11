@@ -62,7 +62,7 @@ function ImportAbcModal(props) {
             //console.log("read"+reader.result.length )
             if (reader.result.trim().length > 0) {
               setList(reader.result)
-              doImport(reader.result)
+              //doImport(reader.result)
             }
           }
           if(file){
