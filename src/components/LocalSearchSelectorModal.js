@@ -21,7 +21,7 @@ function LocalSearchSelectorModal(props) {
           final[result.ids.join(",")] = result.name
         })
       }
-      console.log('sesarch index',text,final)
+      //console.log('sesarch index',text,final)
       callback(final)
     }) 
   }  
@@ -36,7 +36,7 @@ function LocalSearchSelectorModal(props) {
   },[show])
   
   function selectSetting(setting) {
-    console.log('select setting ', setting)
+    //console.log('select setting ', setting)
     var tune = props.tunebook.abcTools.abc2json(setting)
     tune.id = props.currentTune.id
     props.tunebook.saveTune(tune)
@@ -44,11 +44,11 @@ function LocalSearchSelectorModal(props) {
   }
   
   function selectTune(key,value) {
-    console.log('select tune ',key,value)
+    //console.log('select tune ',key,value)
     return new Promise(function(resolve,reject) {
       var tuneIds = key.split(",")
       var promises = []
-      console.log('select tune ',tuneIds)
+      //console.log('select tune ',tuneIds)
       if (Array.isArray(tuneIds)) {
         tuneIds.forEach(function(tuneId) {
           var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
@@ -111,7 +111,7 @@ function LocalSearchSelectorModal(props) {
   }
 
   function searchIndex(text, callback) {
-    console.log('sesarch index',text, props.tunebook,props.tunebook.textSearchIndex)
+    //console.log('sesarch index',text, props.tunebook,props.tunebook.textSearchIndex)
     
       var matches = {}
       var cleanText = stripText(text)

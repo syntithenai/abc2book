@@ -18,7 +18,7 @@ export default function ImportPage(props) {
     }
     
     function onClose() {
-        console.log('onClose')
+        //console.log('onClose')
         props.setCurrentTuneBook(params.curation)
         navigate("/tunes")
     }

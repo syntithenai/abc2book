@@ -31,22 +31,22 @@ function isMetaLine(line) {
 
 
 function getNotesFromAbc(abc) {
-    console.log("GET NOTES FROM ABC",abc)
+    //console.log("GET NOTES FROM ABC",abc)
     if (!abc) return ''
     var parts = abc.split('\n')
     var noteLines = []
     parts.forEach(function(line) { 
         //console.log('try',line)
-        if (line !== undefined && line !== null && !line.startsWith('% ') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
+        if (line !== undefined && line !== null && !line.startsWith('%') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
             //console.log('try OK', line.startsWith('% ') , isMetaLine(line), isAliasLine(line))
             noteLines.push(line)
         }    
     })
     var notes = noteLines
-    console.log('GET ABC',noteLines)
+    //console.log('GET ABC',noteLines)
     try {
-        notes = abcjs.extractMeasures(noteLines.join("\n"))
-        console.log('GET ABC',m)
+        notes = abcjs.extractMeasures("X:9\nK:G\n"+noteLines.join("\n"))
+        //console.log('GET ABC',m)
         if (notes.trim().length === 0) {
             notes = noteLines
         }
@@ -143,4 +143,4 @@ for (var filenameKey in fileNames)  {
 index.settings = settings
 fs.writeFileSync(__dirname.split("/").slice(0,-1).join("/") + "/textsearch_index.json"  , JSON.stringify(index));
 
-console.log('index', index)
+//console.log('index', index)

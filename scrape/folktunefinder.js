@@ -111,7 +111,7 @@ function generateFileName(id) {
                         return
                       }
                       //file written successfully
-                      console.log('OK '+ a)
+                      //console.log('OK '+ a)
                     })
                     
                     continuousEmpty = 0

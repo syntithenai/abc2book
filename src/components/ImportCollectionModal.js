@@ -61,13 +61,13 @@ function ImportCollectionModal(props) {
     }
   
   function doImport(collection) {
-    console.log('import')
+    //console.log('import')
     var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, props.currentTuneBook)
-    console.log('imported',inserts,updates,duplicates)
+    //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
     
     if (duplicates.length > 0) {
-          console.log('import dup', duplicates)
+          //console.log('import dup', duplicates)
 
       setDuplicates(duplicates)
       setMessage(<div>
@@ -76,7 +76,7 @@ function ImportCollectionModal(props) {
         Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates)}}>Import Duplicates</Button></div>
       )
     } else {
-      console.log('import ok', inserts, updates)
+      //console.log('import ok', inserts, updates)
       //setList('')
       //props.forceRefresh()
       setMessage(<>

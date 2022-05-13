@@ -31,7 +31,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
       indexes.indexTune(tune)
       updateTunesHash(tune)
       setTunes(tunes)
-      console.log('saved and indexed tune', tune.id, tune)
+      //console.log('saved and indexed tune', tune.id, tune)
     }
     return tune
   }
@@ -49,15 +49,16 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     var useTunes = forceTunes ? forceTunes : tunes;
     if (Array.isArray(useTunes) && useTunes.length > 0) {
       Object.values(useTunes).forEach(function(tune) {
-        if (tune.id && tune.notes) {
+        if (tune.id && tune.voices) {
           //console.log('BTHBB',tune.notes)
-          var hash = utils.hash(tune.notes.join("\n"))
+          var hash = abcTools.getTuneHash(tune) 
+          //utils.hash(tune.notes.join("\n"))
           if (!Array.isArray(hashes[hash])) hashes[hash] = []
           hashes[hash].push(tune.id)
           ids[tune.id] = hash
         }
       })
-      console.log('BTH',{ids, hashes})
+      //console.log('BTH',{ids, hashes})
         setTunesHash({ids, hashes})
       }
     
@@ -83,7 +84,8 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
           }
           if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
         }
-        var hash = utils.hash(tune.notes.join("\n"))
+        var hash = hash = abcTools.getTuneHash(tune) 
+        //utils.hash(tune.notes.join("\n"))
         //console.log('update tune hash have new', hash)
         if (!tunesHash)  tunesHash = {}
         if (!tunesHash.hashes)  tunesHash.hashes = {}
@@ -127,7 +129,8 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
               var newTune = saveTune(tune)
               inserts.push(newTune.id)
             } else {
-              var hash = utils.hash(tune.notes.join("\n"))
+              var hash = hash = abcTools.getTuneHash(tune)
+              //utils.hash(tune.notes.join("\n"))
               //console.log("tryhash",hash,tunesHash.hashes[hash]   )
               if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] === true) {
                 duplicates.push(tune)
@@ -148,7 +151,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   
   
   function importCollection(title) {
-    console.log('impo col',title,curatedTuneBooks[title])
+    //console.log('impo col',title,curatedTuneBooks[title])
     return importAbc(curatedTuneBooks[title], title)
   }
   
@@ -186,7 +189,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     Object.values(tunes).map(function(tune) {
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
         if (tune.books.length > 1) {
-          console.log('update books lose '+book,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
+          //console.log('update books lose '+book,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
           tune.books=tune.books.splice(tune.books.indexOf(book),1)
           final[tune.id] = tune
         } else {
@@ -197,7 +200,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
       }
     })
     indexes.removeBookFromIndex(book)
-    console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
+    //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
     forceRefresh()

@@ -18,25 +18,26 @@ export default function ReviewPage(props) {
   let [seekTo, setSeekTo] = useState(false)
   const [playCount, setPlayCount] = useState(0)
     
-  function audioCallback(event) {
-        console.log('cab',event) 
-        //return 
-        if (event ==='ended' || event ==='error' || event === 'stop') {
-            setIsPlaying(false)
-            setIsWaiting(false)
-        } else if (event === 'started') {
-            setIsWaiting(false)
-        } else if (event === 'ready') {
-            setReady(true)
-        } 
-    }
+  //function audioCallback(event) {
+        //console.log('cab',event) 
+        ////return 
+        //if (event ==='ended' || event ==='error' || event === 'stop') {
+            //setIsPlaying(false)
+            //setIsWaiting(false)
+        //} else if (event === 'started') {
+            //setIsWaiting(false)
+        //} else if (event === 'ready') {
+            //setReady(true)
+        //} 
+    //}
   
   function getReviewTempo(tune) {
+      //console.log('RT',tune)
       var final = 100
       if (tune) {
         var boost = tune.boost > 0 ? tune.boost : 0
         var useBoost = boost > 20 ? 20 : boost
-        var boostPercent = (1 + (useBoost - 15)/useBoost)
+        var boostPercent = 1 + ((useBoost - 15)/30)
         // 15 = tune speed
         // 20 = 50% faster
         // 10 = half speed
@@ -55,7 +56,7 @@ export default function ReviewPage(props) {
       }
       if (final > 200) final = 200
       if (final < 30) final = 30
-      console.log('get review tempo ',final)
+      //console.log('get review tempo ',boost, useBoost, boostPercent, cleanTempo, useTempo, final)
       return final
   } 
 
@@ -120,7 +121,7 @@ export default function ReviewPage(props) {
            count ++
         });
     })
-    console.log('gen review items',final)
+    //console.log('gen review items',final)
     setReviewItems(final)
   }
   
@@ -141,7 +142,7 @@ export default function ReviewPage(props) {
     //},[currentReviewItem])
     
     function onEnded(progress, start, stop ,seek) {
-        console.log('review ended')
+        //console.log('review ended')
         props.tunebook.utils.saveLastPlayed(tune.id)
         tune.boost = tune.boost + 1
         props.tunebook.saveTune(tune)
@@ -155,12 +156,12 @@ export default function ReviewPage(props) {
         //}
     }
     
-    console.log('rev',getCurrentReviewIndex(), reviewItems) //, currentReviewItem,getReviewItemNumber(currentReviewItem))
+    //console.log('rev',getCurrentReviewIndex(), reviewItems) //, currentReviewItem,getReviewItemNumber(currentReviewItem))
     //if (reviewItems && reviewItems.length > 0) {
         
     var tune = reviewItems && reviewItems.length > getCurrentReviewIndex() ? reviewItems[getCurrentReviewIndex()] : null
    const [autoStart,setAutoStart] = useState(false)
-   console.log('RR FOUND TUNE', tune , abc)
+   //console.log('RR FOUND TUNE', tune , abc)
     if (!tune) {
         return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
         <br/>
@@ -183,7 +184,7 @@ export default function ReviewPage(props) {
            </ButtonGroup>
            
            
-           <Abc repeat={1} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo()} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
+           <Abc metronomeCountIn={true} speakTitle={true} repeat={3} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo(tune)} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
             
         </div>
     }

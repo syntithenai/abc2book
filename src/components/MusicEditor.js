@@ -14,7 +14,7 @@ export default function MusicEditor(props) {
     var navigate = useNavigate()
     let tune = props.tunes ? props.tunes[params.tuneId] : null
     let abc = props.tunebook.abcTools.json2abc(tune)
-    console.log('EDIT',tune,abc)
+    //console.log('EDIT',tune,abc)
     return <div className="music-editor" style={{width:'100%'}}>
         <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
             

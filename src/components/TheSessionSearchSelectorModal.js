@@ -34,7 +34,7 @@ function TheSessionSearchSelectorModal(props) {
   
   async function searchOptions(filter) {
     return new Promise(function(resolve,reject) {
-      console.log('SEARCH',filter)
+      //console.log('SEARCH',filter)
       axios.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+filter).then(function(searchRes) {
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.tunes) {
@@ -62,7 +62,7 @@ function TheSessionSearchSelectorModal(props) {
     //console.log('select setting ', setting, foundTune)
     var tune = foundTune
     if (tune) {
-      tune.notes = setting.abc.split("\n")
+      tune.voices = {'default': {meta:'',notes:setting.abc.split("\n")}}
       tune.key = setting.key
       tune.id = props.currentTune.id
       props.tunebook.saveTune(tune)
@@ -73,7 +73,7 @@ function TheSessionSearchSelectorModal(props) {
   function selectTune(tuneId) {
     return new Promise(function(resolve,reject) {
       axios.get('https://thesession.org/tunes/'+tuneId+'?format=json&perpage=50').then(function(searchRes) {
-        console.log('res',searchRes)
+        //console.log('res',searchRes)
         var final = {}
         if (searchRes && searchRes.data && searchRes.data.settings ) {
           var tune = searchRes.data

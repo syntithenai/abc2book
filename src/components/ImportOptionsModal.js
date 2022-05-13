@@ -4,6 +4,7 @@ import ListSelectorModal from './ListSelectorModal'
 import ImportAbcModal from './ImportAbcModal'
 import ImportCollectionModal from './ImportCollectionModal'
 import ImportListModal from './ImportListModal'
+import ImportXmlModal from './ImportXmlModal'
 
 function ImportOptionsModal(props) {
   const [show, setShow] = useState(props.show);
@@ -12,7 +13,7 @@ function ImportOptionsModal(props) {
   //const [list, setList] = useState('');
 
   const handleClose = () => {
-    console.log('close')
+    //console.log('close')
     setShow(false);
   }
   const handleShow = () => setShow(true);
@@ -51,7 +52,7 @@ function ImportOptionsModal(props) {
   function importCuratedCollection(val) {
     props.setCurrentTuneBook(val);
     var [inserts, updates, duplicates] = props.tunebook.collection(val, props.currentTuneBook)
-    console.log('impcur', {inserts, updates, duplicates})
+    //console.log('impcur', {inserts, updates, duplicates})
     setMessage(null)
     setDuplicates(duplicates)
     //setList('')
@@ -101,6 +102,7 @@ function ImportOptionsModal(props) {
         </Modal.Header>
         <Modal.Footer>
             <ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
+            <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportListModal tunesHash={props.tunesHash} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportCollectionModal forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
         </Modal.Footer>

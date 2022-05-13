@@ -27,10 +27,12 @@ function Footer(props) {
   var location = useLocation()
   if (location.pathname.startsWith('/print')) return null
   
-   return <div style={{display:'block',clear:'both',backgroundColor:'#e8f8fe', height:'6em'}} >
-          <Link to='/help' ><Button>Help</Button></Link>
-          <div style={{textAlign:'center', fontSize:'0.7em'}}>(CopyLeft 2022)    Steve Ryan <a href='mailto:syntithenai@gmail.com'>syntithenai@gmail.com</a></div>
-          <div style={{textAlign:'center', fontSize:'0.7em'}}>Source code on <a href='https://github.com/syntithenai/abc2book'>Github</a></div>
+   return <div style={{position:'fixed', bottom: 0, left: 0, width:'100%',display:'block',clear:'both',backgroundColor:'#e8f8fe', height:'1.2em'}} >
+          <Link style={{float:'left'}} to='/' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{fontSize:'0.6em'}} size="sm" >Home</Button></Link>
+          <Link style={{float:'right'}} to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{fontSize:'0.6em'}} size="sm" >Help</Button></Link>
+          <div style={{textAlign:'center', fontSize:'0.4em'}}>(CopyLeft 2022)    Steve Ryan <a href='mailto:syntithenai@gmail.com'>syntithenai@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;
+           Source code on <a href='https://github.com/syntithenai/abc2book'>Github</a></div>
+          
         </div>
 }
 
@@ -120,8 +122,8 @@ function App(props) {
   useEffect(function() {
     var t = tunebook.utils.loadLocalObject('bookstorage_tunes')
     setTunesInner(t)
-    console.log('loaded tunes',t)
-    if (!textSearchIndex || !textSearchIndex.tokens) getTextSearchIndex(textSearchIndex, function(loadedIndex) { console.log('loaded search index', loadedIndex);setTextSearchIndex(loadedIndex)})
+    //console.log('loaded tunes',t)
+    if (!textSearchIndex || !textSearchIndex.tokens) getTextSearchIndex(textSearchIndex, function(loadedIndex) {setTextSearchIndex(loadedIndex)})
     tunebook.buildTunesHash()
   },[])
   
@@ -172,6 +174,7 @@ function App(props) {
                   </Routes>
                   
               </div>
+              <Footer tunebook={tunebook} />
             </Router>
           </div>}
       

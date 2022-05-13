@@ -86,7 +86,7 @@ export default function MusicSingle(props) {
     }
  
     function onEnded(progress, start, stop,seek) {
-        console.log("ON ENDfED", progress, start, stop, seek)
+        //console.log("ON ENDfED", progress, start, stop, seek)
         ////stop()
         //seek(0)
         //start()

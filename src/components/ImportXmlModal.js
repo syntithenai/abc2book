@@ -1,7 +1,9 @@
 import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
-function ImportAbcModal(props) {
+import vertaal from '../xml2abc'
+
+function ImportXmlModal(props) {
   const [show, setShow] = useState(false);
   const [list, setList] = useState('');
   const handleClose = () => {
@@ -19,8 +21,13 @@ function ImportAbcModal(props) {
   var [message, setMessage] = useState(null)
   
   function doImport(list) {
-    //console.log('import')
-    var [inserts, updates, duplicates] = props.tunebook.importAbc(list, props.currentTuneBook)
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(list, 'text/xml');
+    const res = vertaal(xml,{ p:'f' })
+    const abc = res[0]
+    //console.log('import',xml,abc)
+    
+    var [inserts, updates, duplicates] = props.tunebook.importAbc(abc, props.currentTuneBook)
     //console.log('imported',inserts,updates,duplicates)
     setMessage(null)
     
@@ -75,12 +82,12 @@ function ImportAbcModal(props) {
   return (
     <>
       <Button  style={{color:'black'}}  variant="primary" onClick={handleShow}>
-        {props.tunebook.icons.folderin} ABC
+        {props.tunebook.icons.folderin} XML
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Import ABC music</Modal.Title>
+          <Modal.Title>Import Music XML</Modal.Title>
         </Modal.Header>
         {(!message) ? <Modal.Body>
           <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'7em'}} >
@@ -93,7 +100,7 @@ function ImportAbcModal(props) {
             <input  style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} />
           </span>
           </div>
-          <textarea placeholder="Paste ABC text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
+          <textarea placeholder="Paste XML text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
         </Modal.Body> : ''}
         
         
@@ -110,4 +117,4 @@ function ImportAbcModal(props) {
     </>
   );
 }
-export default ImportAbcModal
+export default ImportXmlModal

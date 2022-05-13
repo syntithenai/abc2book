@@ -2,21 +2,12 @@ import React, { useEffect, useState, useRef } from "react";
 import abcjs from "abcjs";
 import {Button } from 'react-bootstrap'
 import useAbcTools from '../useAbcTools'
-// TODO multiple clicks on play/stop then leaving state in playing results in multiple playback
 import ReactNoSleep from 'react-no-sleep';
 import AbcPlayButton from './AbcPlayButton'
-//<AbcAudio  tunebook={props.tunebook} tempo={getTempo()} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, getTempo()))} >
-//import workerize from 'workerize'
-  
-//import { create, all } from 'mathjs'
-
-//const config = { }
-//const math = create(all, config)
-
-//console.log(math)
-//math.add(math.bignumber(0.1), math.bignumber(0.2))     // BigNumber, 0.3
-//math.divide(math.bignumber(0.3), math.bignumber(0.2))
-
+import Metronome from '../Metronome'
+import * as localForage from "localforage";
+const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
+const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
              
 export default function Abc(props) {
     const [abcTune, setAbcTune] = useState(props.abc);
@@ -43,14 +34,7 @@ export default function Abc(props) {
     //console.log('ABC',props)
     
     var tune = props.tunebook.abcTools.abc2json(props.abc)
-    //console.log('ABC',tune)
-   
-    //var [audioContext, setAudioContext] = useState(null)
-    //var [midiBuffer, setMidiBuffer] = useState(null)
-    //var [visualObj, setVisualObj] = useState(null)
-    //var [timingCallbacks, setTimingCallbacks] = useState(null)
-    //var [cursor,setCursor] = useState(null)
-    
+
     var gaudioContext = useRef(null)
     var gmidiBuffer = useRef(null)
     var gvisualObj = useRef(null)
@@ -93,7 +77,7 @@ export default function Abc(props) {
       playCountRef.current = v
     }
     function incrementPlayCount() {
-      console.log('increment', playCountRef.current + 1)
+      //console.log('increment', playCountRef.current + 1)
       setPlayCount(playCountRef.current + 1)
     }
 
@@ -125,7 +109,7 @@ export default function Abc(props) {
         }
      }
      if (currentBeat === totalBeats) {
-       console.log('end tune', playCountRef.current, props.repeat)
+       //console.log('end tune', playCountRef.current, props.repeat)
        if (parseInt(props.repeat) === -1) {
          restart()
        } else if (parseInt(props.repeat) === 0) {
@@ -231,9 +215,56 @@ export default function Abc(props) {
           if (seekTo > 0) {
             gmidiBuffer.current.seek(seekTo)
             gtimingCallbacks.current.setProgress(seekTo)
+            gmidiBuffer.current.start()
+            gtimingCallbacks.current.start()
+          } else {
+            //console.log('start',gvisualObj)
+            if (gvisualObj && gvisualObj.current)
+            var o = gvisualObj.current
+            //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
+            
+            var metronomeBeats = o.getBeatsPerMeasure() - parseInt(o.getPickupLength()/o.getBeatLength())
+            var beatOverflow = o.getPickupLength()/o.getBeatLength() % 1
+            var beatDuration = o.millisecondsPerMeasure()/o.getBeatsPerMeasure()
+            var delay = beatDuration
+            //console.log('timer delay', delay, beatOverflow)
+            if (beatOverflow > 0) {
+              var pickupPercent = o.getPickupLength()/o.getBarLength()
+              delay = delay - beatOverflow * beatDuration
+              //if (pickupPercent
+              //console.log('adjust for pickup', pickupPercent, delay)
+            }
+            
+            //console.log('metro beats',metronomeBeats,beatDuration)
+            function startWithMetronome() {
+              if (props.metronomeCountIn) {
+                var metronome = new Metronome(props.tunebook.abcTools.cleanTempo(props.tempo), o.getBeatsPerMeasure(), metronomeBeats, function() {
+                  // settime after residual delay if not even beat anacrusis
+                  //console.log('done')
+                  // wait one more beat
+                  setTimeout(function() {
+                    gmidiBuffer.current.start()
+                    gtimingCallbacks.current.start()
+                  },delay)
+                });
+                metronome.start()
+              } else {
+                  gmidiBuffer.current.start()
+                  gtimingCallbacks.current.start()
+              }
+            }
+            //var tune = props.tunebook.abcTools.abc2json(props.abc)
+            //console.log('speak',props.speakTitle,tune)
+            if (props.speakTitle && tune) {
+              //console.log('speak',tune)
+              window.speak(tune.name)
+              setTimeout(function() {
+                startWithMetronome()
+              }, 1000)
+            } else {
+              startWithMetronome()
+            }
           }
-          gmidiBuffer.current.start()
-          gtimingCallbacks.current.start()
       }
       //console.log('started primed tune')
     } else {
@@ -241,9 +272,8 @@ export default function Abc(props) {
     }
   }
 
-   
   function startPlaying() {
-      console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
+      //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
       setForceStop(false)
       //if (audioContext.current && midiBuffer.current) {
           ////console.log('start ok - tune primed')
@@ -253,7 +283,7 @@ export default function Abc(props) {
   }
     
   function stopPlaying()  {
-    console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
+    //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.pause();
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.pause();
     //console.log('stopPlaying')
@@ -308,10 +338,14 @@ export default function Abc(props) {
                 //midiBuffer.stop();
             //} else {
               //console.log('CREATE BUFFER')
+                //var synthOptions = {synth:{}}
+                //if (tune) synthOptions.synth.options = {options:{midiTranspose:parseInt(tune.transpose)}}
+                ////renderOptions.synth.options = {midiTranspose:parseInt(tune.transpose)}
+      
                 midiBuffer = new abcjs.synth.CreateSynth()
             //}
           
-            //console.log('startok')
+            //console.log('startok', visualObj,visualObj.visualTranspose)
             var count = 0
             
             
@@ -321,11 +355,21 @@ export default function Abc(props) {
               visualObj: visualObj,
               //audioContext: audioContext,
               //qpm: props.tempo,
+              //midiTranspose: 7
+              //synth: {{options:{midiTranspose:9}}
+              options:{}
+              
             //  millisecondsPerMeasure:  milliSecondsPerMeasure ,
             }
-            //initOptions.sequence = visualObj.setUpAudio(initOptions)
-           
-            //console.log('sqe',initOptions.sequence)
+            //if (tune) synthOptions.synth.options = {options:{midiTranspose:parseInt(tune.transpose)}}
+                ////renderOptions.synth.options = {midiTranspose:parseInt(tune.transpose)}
+      
+            //if (tune) {
+              if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
+                initOptions.options.midiTranspose = parseInt(visualObj.visualTranspose)
+              }
+            //}
+            //console.log('sqe',initOptions)
             //const piWorker = new Worker(new URL("../audioWorker.js", import.meta.url))
 
  
@@ -337,22 +381,81 @@ export default function Abc(props) {
             //console.log('mididniT',initOptions)
             
             //if (midiBuffer) {
-                midiBuffer.init(initOptions).then(function (response) {
-                  //console.log('prime tune inited', response)
+            
+            function getAudioHash(tune) {
+              return tune.id + "-" + props.tunebook.abcTools.cleanTempo(props.tempo)+'-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+            }
+            
+             var tune = props.tunebook.abcTools.abc2json(props.abc)
+             //console.log("tune", tune,props.abc);
+             
+             function primeAndResolve() {
+                midiBuffer.init(initOptions).then(function (response) { 
                   midiBuffer.prime()
                   .then(function(presponse) {
-                    //console.log('prime tune primed', presponse)
+                    //console.log('prime tune primed', presponse, midiBuffer)
+                    if (tune && tune.id) { 
+                      saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
+                        resolve(midiBuffer)
+                      })
+                    } else {
                       resolve(midiBuffer)
+                    }
                   })
                   .catch(function (error) {
                     //console.log("prime synth error", error);
-                    reject(null)
+                    resolve(null)
                   })
-                  
                 }).catch(function (error) {
-                  //console.log("init synth error", error);
-                  reject(null)
-                });
+                  resolve(null)
+                })
+             }
+
+
+             if ((tune && tune.id)) {
+                getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {
+                    //console.log('GOT',audioResult)
+                    if (audioResult) {
+                      
+                      const [duration, audioBuffers] = audioResult
+                      if (audioBuffers) {
+                        //console.log('GOT BUF',audioBuffers, duration)
+                         //primeAndResolve()
+                         midiBuffer.init(initOptions).then(function (response) { 
+                            midiBuffer.audioBuffers = audioBuffers
+                            midiBuffer.duration = duration 
+                            
+                            var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
+                              beatCallback: beatCallback,
+                              eventCallback: function(ev) {eventCallback(ev)},
+                              qpm: props.tempo,
+                              //lineEndCallback	: function() {
+                                //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                              //},
+                              //lineEndAnticipation: 500
+                            })
+                            var cursor = createCursor()
+                            setTimingCallbacks(timingCallbacks)
+                            setCursor(cursor)
+                            resolve(midiBuffer)
+                        })
+                      } else {
+                        primeAndResolve()
+                      }
+                    } else {
+                      primeAndResolve()
+                    } 
+                })
+              } else {
+                primeAndResolve()
+              }
+                //}).catch(function (error) {
+                  ////console.log("init synth error", error);
+                  //reject(null)
+                //});
+                
+                
+                  
             //} else {
                 //resolve(null)
             //}
@@ -362,37 +465,66 @@ export default function Abc(props) {
       })
   }
   
-    function applyHack(meter, millisecondsPerMeasure) {
-      //if (meter === '3/4' || meter === '4/4') {
-        //return millisecondsPerMeasure * 2
-      //}
-      return millisecondsPerMeasure
+       //console.log('ABC',tune)
+    var store = localForage.createInstance({
+        name: "abcaudiocache"
+      });
+    
+    async function saveAudioToCache(tuneId,audioBuffers, duration) {
+      //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers)
+      let encoder = new Encoder();
+      var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
+      store.setItem(tuneId, [duration, serialized] ).then(function () {
+        return store.getItem(tuneId);
+      })
     }
     
-    function numerator(val) {
-      var parts = val.split("/")
-      if (parts.length > 0) return parts[0]
+    async function getAudioFromCache(tuneId) {
+      //console.log('getaudio',tuneId)
+      let decoder = new Decoder();
+      return store.getItem(tuneId).then(function (val) {
+        if (val && Array.isArray(val)) {
+          //console.log('getaudio',tuneId,val)
+          const [duration, buffers] = val;
+          return [duration, buffers.map(function(buffer) {return decoder.execute(buffer)})]
+        } else {
+          //console.log('getaudio noval',tuneId)
+          return
+        }
+      })
     }
-    function denominator(val) {
-      var parts = val.split("/")
-      return (parts.length > 1) ? parts[1] : 1
-    }
+    
+    //function applyHack(meter, millisecondsPerMeasure) {
+      ////if (meter === '3/4' || meter === '4/4') {
+        ////return millisecondsPerMeasure * 2
+      ////}
+      //return millisecondsPerMeasure
+    //}
+    
+    //function numerator(val) {
+      //var parts = val.split("/")
+      //if (parts.length > 0) return parts[0]
+    //}
+    //function denominator(val) {
+      //var parts = val.split("/")
+      //return (parts.length > 1) ? parts[1] : 1
+    //}
 
     
-    function getMilliSecondsPerMeasure(meter, tempo) {
-         var meter = props.tunebook.abcTools.ensureText(meter, '4/4')
-         var beats = numerator(meter) //props.tunebook.abcTools.getBeatsPerBar(meter) > 0 ? props.tunebook.abcTools.getBeatsPerBar(meter) : 4
-         var duration = denominator(meter) //props.tunebook.abcTools.getBeatDuration(meter) > 0 ? props.tunebook.abcTools.getBeatDuration(meter) : 0
-         var useTempo = parseInt(tempo) > 0 ? parseInt(tempo) : 100
-         var final = (60000/useTempo) * 4 // (beats/duration)  * 4 
-         console.log('MPM',final,meter, tempo, beats, duration , useTempo, 60000/useTempo)
-         return applyHack(meter, final)
-    }
+    //function getMilliSecondsPerMeasure(meter, tempo) {
+         //var meter = props.tunebook.abcTools.ensureText(meter, '4/4')
+         //var beats = numerator(meter) //props.tunebook.abcTools.getBeatsPerBar(meter) > 0 ? props.tunebook.abcTools.getBeatsPerBar(meter) : 4
+         //var duration = denominator(meter) //props.tunebook.abcTools.getBeatDuration(meter) > 0 ? props.tunebook.abcTools.getBeatDuration(meter) : 0
+         //var useTempo = parseInt(tempo) > 0 ? parseInt(tempo) : 100
+         //var final = (60000/useTempo) * 4 // (beats/duration)  * 4 
+         //console.log('MPM',final,meter, tempo, beats, duration , useTempo, 60000/useTempo)
+         //return applyHack(meter, final)
+    //}
   const primeTimerRef = useRef(null);
   //var primeTuneCallback = null
   
   function createPlayer(visualObj, tempo, meter) {
-      var milliSecondsPerMeasure = getMilliSecondsPerMeasure(meter, tempo)
+      var milliSecondsPerMeasure = 0 //getMilliSecondsPerMeasure(meter, tempo)
       return new Promise(function(resolve, reject) {
         //console.log('CREATE PLAYER', visualObj)
             
@@ -413,15 +545,15 @@ export default function Abc(props) {
                       primeTune(audioContext, visualObj, milliSecondsPerMeasure).then(function(midiBuffer) {
                           //renderActive = false
                           //setReady(true)
-                          console.log('CREATE TIMEING',tempo)
+                          //console.log('CREATE TIMEING',tempo)
                           var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
                             beatCallback: beatCallback,
                             eventCallback: function(ev) {eventCallback(ev)},
                             qpm: tempo,
-                            lineEndCallback	: function() {
-                              if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
-                            },
-                            lineEndAnticipation: 500
+                            //lineEndCallback	: function() {
+                              //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                            //},
+                            //lineEndAnticipation: 500
                           })
                           var cursor = createCursor()
                           
@@ -431,7 +563,7 @@ export default function Abc(props) {
                           resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
                       }).catch(function(e) {
                           console.log(e)
-                          reject(e.message)
+                          reject(e)
                       })
                     },1500)
                 } else reject('No audio context')
@@ -481,6 +613,9 @@ export default function Abc(props) {
     if (inputEl) { // && !renderActive) {
       //console.log('RENDER TUNE')
       //console.log('render abc', abcTune, inputEl.current)
+      
+      
+      
       var renderOptions = {
         add_classes: true,
         responsive: "resize",
@@ -489,22 +624,34 @@ export default function Abc(props) {
             el: "#audio",
             
         },
-        
         //soundFontUrl: 'soundfont/'
         clickListener:clickListener,
         //selectTypes: true
       }
       var tune = props.tunebook.abcTools.abc2json(abcTune)
-      console.log('use tab?', tune.tablature, props.tunebook.abcTools.tablatureConfig)
+      if (tune.transpose > 0 || tune.transpose < 0 ) {
+        renderOptions.visualTranspose= tune.transpose
+      }
+      //console.log("OPT",tune.transpose,'f',renderOptions)
+      //abcjsParams: {"selectTypes":false,"visualTranspose":0},
+  //synth: {
+    //el: "#audio",
+    //options: {
+      //displayRestart: true, displayPlay: true, displayProgress: true,
+      //options: {"midiTranspose":0}
+    //}
+  //},
+      
+      //console.log('use tab?', tune.tablature, props.tunebook.abcTools.tablatureConfig)
       if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
         
         renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
       } 
-      
-      var res = abcjs.renderAbc(inputEl.current, abcTune, renderOptions );
+      if (props.tempo > 0) tune.tempo = props.tempo 
+      var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
           
       var o = res && res.length > 0 ? res[0] : null
-      //console.log('RENDERED TUNE',props.tempo,o)
+      //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
       if (o) {
           if (props.onWarnings) props.onWarnings(o.warnings)
           if (props.tempo) {
@@ -512,7 +659,7 @@ export default function Abc(props) {
             //props.audioProps.
              setVisualObj(o)
              setStarted(true)
-             var hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength)
+             var hash = props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
              if (hash !== audioChangedHash) {
               //console.log('RENDER TUNE AUDIODDD')
               setAudioChangedHash(hash)

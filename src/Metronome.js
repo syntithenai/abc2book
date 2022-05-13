@@ -57,7 +57,7 @@ export default class Metronome
         if (this.maxBeats <= 0 || this.currentBeat < this.maxBeats) {
             // while there are notes that will need to play before the next interval, schedule them and advance the pointer.
             while ((this.maxBeats <= 0 || this.currentBeat < this.maxBeats) && this.nextNoteTime < this.audioContext.currentTime + this.scheduleAheadTime ) {
-                console.log('s',this.maxBeats,this.currentBeat)
+                //console.log('s',this.maxBeats,this.currentBeat)
                 this.scheduleNote(this.currentBeatInBar, this.nextNoteTime);
                 this.nextNote();
             }
