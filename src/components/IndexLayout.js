@@ -3,7 +3,7 @@ import {Button} from 'react-bootstrap'
 import {ListGroup} from 'react-bootstrap'
 import {useState, useEffect} from 'react'
 import IndexSearchForm from './IndexSearchForm'
-
+import BoostSettingsModal from './BoostSettingsModal'
 
 export default function IndexLayout(props) {
     var [filter, setFilter] = useState('')
@@ -57,7 +57,11 @@ export default function IndexLayout(props) {
             //}
         //})
         .map(function(tune,tk) {
-            return <Link key={tk} style={{textDecoration:'none'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}</ListGroup.Item></Link>
+            var l = (tune.name ? tune.name.length : 0) + (tune.type ? tune.type.length : 0)
+            var pad = <>{''.padStart(40 - - l,'&nbsp;_')}</>
+            return <Link key={tk} style={{textDecoration:'none' }} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
+                <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={false} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
+                <span >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/></span></ListGroup.Item></Link>
         })}
         </ListGroup>
         

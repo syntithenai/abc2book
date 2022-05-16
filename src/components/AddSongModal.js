@@ -19,11 +19,17 @@ function AddSongModal(props) {
           return false
         }
     })
-    props.tunebook.saveTune({name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), notes: cleanNotes, words: songWords.trim().split("\n")}); 
-    props.setFilter(songTitle) ; 
+    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n")}
+    //console.log('ADD TUNE',t)
+    props.tunebook.saveTune(t); 
+    props.setFilter('') ; 
     setSongTitle('')
     setSongWords('')
     setSongNotes('')
+    props.forceRefresh()
+    setTimeout(function() {
+      props.tunebook.utils.scrollTo('bottomofpage')
+    },300)
     //props.updateList(songTitle,props.currentTuneBook)
     handleClose() 
   }

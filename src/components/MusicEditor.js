@@ -1,6 +1,6 @@
 import {Link , useParams, useNavigate } from 'react-router-dom'
 import {Button, Tabs, Tab} from 'react-bootstrap'
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import AbcEditor from './AbcEditor'
 import SearchModal from './SearchModal'
 import WizardOptionsModal from './WizardOptionsModal'
@@ -14,6 +14,14 @@ export default function MusicEditor(props) {
     var navigate = useNavigate()
     let tune = props.tunes ? props.tunes[params.tuneId] : null
     let abc = props.tunebook.abcTools.json2abc(tune)
+    
+    
+      
+      
+    useEffect(function() {
+      //pushHistory(tune)  
+    },[])
+    
     //console.log('EDIT',tune,abc)
     return <div className="music-editor" style={{width:'100%'}}>
         <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
@@ -28,11 +36,13 @@ export default function MusicEditor(props) {
             
             <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal  abc={abc} tune={tune} tunebook={props.tunebook}  /></span>
             
-            <span style={{marginLeft:'0.2em'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
+            
+            <span style={{marginLeft:'0.2em'}} ><   Button variant="warning" className='btn-secondary' onClick={function(e) {props.popHistory()}} >{props.tunebook.icons.arrowgoback}</Button></span>
+            <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             
            
         </div>
-        <AbcEditor audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
+        <AbcEditor pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
         
     </div>
 }

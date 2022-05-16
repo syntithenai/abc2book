@@ -84,12 +84,14 @@ export default function Abc(props) {
   function createCursor() {
     var svg = document.querySelector("#abc_music_viewer svg");
     var cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    cursor.setAttribute("class", "abcjs-cursor");
-    cursor.setAttributeNS(null, 'x1', 0);
-    cursor.setAttributeNS(null, 'y1', 0);
-    cursor.setAttributeNS(null, 'x2', 0);
-    cursor.setAttributeNS(null, 'y2', 0);
-    svg.appendChild(cursor);
+    if (cursor) {
+      cursor.setAttribute("class", "abcjs-cursor");
+      cursor.setAttributeNS(null, 'x1', 0);
+      cursor.setAttributeNS(null, 'y1', 0);
+      cursor.setAttributeNS(null, 'x2', 0);
+      cursor.setAttributeNS(null, 'y2', 0);
+      svg.appendChild(cursor);
+    }
     setCursor(cursor)
     return cursor;
   }
@@ -357,7 +359,8 @@ export default function Abc(props) {
               //qpm: props.tempo,
               //midiTranspose: 7
               //synth: {{options:{midiTranspose:9}}
-              options:{}
+              options:{soundFontUrl: 'http://localhost:4000/midi-js-soundfonts/abcjs',
+              }
               
             //  millisecondsPerMeasure:  milliSecondsPerMeasure ,
             }
@@ -390,10 +393,13 @@ export default function Abc(props) {
              //console.log("tune", tune,props.abc);
              
              function primeAndResolve() {
+               //logtime('preinit primresolve')
                 midiBuffer.init(initOptions).then(function (response) { 
+                  //logtime('preinit pr inited')
                   midiBuffer.prime()
                   .then(function(presponse) {
-                    //console.log('prime tune primed', presponse, midiBuffer)
+                    //logtime('preinit prime tune primed AAA')
+                    //console.log('preinit prime tune primed', presponse, midiBuffer)
                     if (tune && tune.id) { 
                       saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
                         resolve(midiBuffer)
@@ -411,8 +417,12 @@ export default function Abc(props) {
                 })
              }
 
-
+              var timer = new Date().getTime()
+              function logtime(a) {
+                //console.log("LOGTIME",a,new Date().getTime() - timer)
+              }
              if ((tune && tune.id)) {
+               //logtime('preget audio')
                 getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {
                     //console.log('GOT',audioResult)
                     if (audioResult) {
@@ -421,7 +431,9 @@ export default function Abc(props) {
                       if (audioBuffers) {
                         //console.log('GOT BUF',audioBuffers, duration)
                          //primeAndResolve()
+                         //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
+                           //logtime('inited for buffer')
                             midiBuffer.audioBuffers = audioBuffers
                             midiBuffer.duration = duration 
                             
@@ -565,7 +577,7 @@ export default function Abc(props) {
                           console.log(e)
                           reject(e)
                       })
-                    },1500)
+                    },props.audioRenderTimeout > 0 ? props.audioRenderTimeout : 1500)
                 } else reject('No audio context')
             }).catch(function(e) {
                 console.log(e)
@@ -580,7 +592,17 @@ export default function Abc(props) {
   
 
   function clickListener(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
-    //console.log('CLICK ELEM',drag)
+    
+    var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
+    //console.log('CLICK ELEM',ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
+    
+    if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(ms/1000,'seconds')
+    if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(ms/1000,'seconds')
+    if (gmidiBuffer.duration > 0) setSeekTo(ms/1000/gmidiBuffer.duration)
+    
+    
+    if (props.onClick)  props.onClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
+    
     //function getMeasureNumber(abcNotes, line,lineMeasure) {
     //var tally = 0
     //var lines = abcNotes.split("\n")
@@ -588,10 +610,10 @@ export default function Abc(props) {
   //}
   //abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
     ////  drag.index/drag.max, analysis, abcelem, 'M',midiBuffer,'T',timingCallbacks)
-    var toProgress = drag.index/drag.max
+    //var toProgress = drag.index/drag.max
     //console.log('cclick',toProgress)
-    //setSeekTo(toProgress)
-    var notes = abcjs.extractMeasures(props.abc)
+    //setForceSeekTo(toProgress)
+    //var notes = abcjs.extractMeasures(props.abc)
     //console.log('notes',notes[0].measures, analysis.line, analysis.line, analysis.measure)
     ////var tally = notes.measures.map(function() 
     ////var measureNumber = analysis.line

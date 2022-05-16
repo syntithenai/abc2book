@@ -62,9 +62,10 @@ function TheSessionSearchSelectorModal(props) {
     //console.log('select setting ', setting, foundTune)
     var tune = foundTune
     if (tune) {
-      tune.voices = {'default': {meta:'',notes:setting.abc.split("\n")}}
+      tune.voices = {'1': {meta:'',notes:setting.abc.split("\n")}}
       tune.key = setting.key
       tune.id = props.currentTune.id
+      tune.books = props.currentTune.books
       props.tunebook.saveTune(tune)
       //props.forceRefresh()
     }
@@ -131,8 +132,8 @@ function TheSessionSearchSelectorModal(props) {
           </Modal.Header>
          <Modal.Body>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-          {settings.map(function(setting) {
-            return <div>
+          {settings.map(function(setting, sk) {
+            return <div key={sk} >
               <Button  style={{float:'right'}} onClick={function(e) {
                 if (window.confirm('Do you really want to replace this tune with information from the collection?')) {
                   selectSetting(setting); 

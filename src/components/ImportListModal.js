@@ -25,6 +25,15 @@ function ImportListModal(props) {
    */
   let [importQueue, setImportQueue] = useState([])
   
+  function bulkCreate() {
+    console.log('bulkCreate',list)
+    var [inserts, updates, d] = props.tunebook.importAbc(list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d }).join("\n"), props.currentTuneBook, true)
+    setList('')
+    setTunes([])
+    setErrorHistory ([])
+    handleClose()
+  }
+  
   function importTuneList(list) {
     if (list && list.trim && list.trim() === '') {
       setTunes([])
@@ -70,7 +79,7 @@ function ImportListModal(props) {
                   while (count >= 0) {
                     if (tune.settings[count] && tune.settings[count].abc && props.tunebook.abcTools.hasChords(tune.settings[count].abc)) {
                       found = tune
-                      found.voices = {default: {meta:'', notes: tune.settings[count].abc.split("\n")}}
+                      found.voices = {'1': {meta:'', notes: tune.settings[count].abc.split("\n")}}
                       count = -1
                     } else {
                       count --
@@ -79,18 +88,18 @@ function ImportListModal(props) {
                   // fallback to first setting
                   if (!found) {
                     found = tune
-                    found.voices = {default: {meta:'', notes: tune.settings[0].abc.split("\n")}}
+                    found.voices = {'1': {meta:'', notes: tune.settings[0].abc.split("\n")}}
                   }
                   var hash = props.tunebook.abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash(found.notes.join("\n"))
                   //console.log("tryhash",hash,tunesHash.hashes[hash]   )
-                  if (props.tunesHash.hashes[hash] === true) {
+                  if (props.tunesHash && props.tunesHash.hashes && props.tunesHash.hashes[hash] === true) {
                     //console.log('dup ',found)
                     errorHistory.push('Duplicate tune '+songTitle)
                     setErrorHistory(errorHistory)
                     props.forceRefresh()
                     nextImportItem()
                   } else {
-                    //console.log('imported ',found)
+                    //console.log('imported ',found) 
                     props.tunebook.saveTune(found)
                     tunes.push(found)
                     setTunes(tunes)
@@ -232,6 +241,7 @@ function ImportListModal(props) {
               <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={tuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button variant="primary" >TuneBook {props.currentTuneBook ? <b>{props.currentTuneBook}</b> : ''}</Button>} />
             </div>
             <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={importList}>Import</Button>
+            <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={bulkCreate}>Create</Button>
             <span style={{marginLeft:'0.5em',width:'30%', float:'left'}} ><input id="fileselector" style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} /></span>
           </div>
           <div>{message ? message : ''}</div>

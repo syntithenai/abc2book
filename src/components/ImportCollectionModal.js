@@ -62,10 +62,10 @@ function ImportCollectionModal(props) {
   
   function doImport(collection) {
     //console.log('import')
-    var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, props.currentTuneBook)
+    var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
     //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
-    
+    props.setCurrentTuneBook(collection)
     if (duplicates.length > 0) {
           //console.log('import dup', duplicates)
 
@@ -73,7 +73,7 @@ function ImportCollectionModal(props) {
       setMessage(<div>
         {inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
         {updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates)}}>Import Duplicates</Button></div>
+        Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates,collection)}}>Import Duplicates</Button></div>
       )
     } else {
       //console.log('import ok', inserts, updates)
@@ -86,8 +86,8 @@ function ImportCollectionModal(props) {
     }
   }
   
-  function forceImport(duplicates) {
-    var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), props.currentTuneBook, true)
+  function forceImport(duplicates, collection) {
+    var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), collection, true)
      setMessage(<>
       {<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
     </>)

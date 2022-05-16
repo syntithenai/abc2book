@@ -9,8 +9,8 @@ import curatedTuneBooks from './CuratedTuneBooks'
 
 
 
-var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar}) => {
-  //console.log(setTunesHash)
+var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet}) => {
+  console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
   const indexes = useIndexes()
@@ -22,15 +22,18 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     //indexes.indexTune(tune)
     //dbTunes[tune.id] = tune
   //})
-  
+    
   
   function saveTune(tune) {
-    if (tune) {
+    //console.log('save tune', tune, tunes)
+    if (tune && tunes) {
       if (!tune.id) tune.id = utils.generateObjectId()
+      tune.lastUpdated = new Date().getTime() 
       tunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
       setTunes(tunes)
+      updateSheet() // to google
       //console.log('saved and indexed tune', tune.id, tune)
     }
     return tune
@@ -39,6 +42,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   function deleteTune(tuneId) {
     delete tunes[tuneId]
     setTunes(tunes)
+    updateSheet(0)
   }
   
   
@@ -58,9 +62,11 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
           ids[tune.id] = hash
         }
       })
-      //console.log('BTH',{ids, hashes})
-        setTunesHash({ids, hashes})
-      }
+      console.log('BTH',{ids, hashes})
+      setTunesHash({ids, hashes})
+    } else {
+      setTunesHash({ids:{}, hashes:{}})
+    }
     
   }
   
@@ -99,26 +105,26 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   /** 
    * import songs to a tunebook from an abc file 
    */
-  function importAbc(abc, forceBook = null, forceDuplicates = false) {
-      //console.log('importabc', abc)
+  function importAbc(abc, forceBook = null, forceDuplicates = false, onlyLastUpdated = false) {
+      console.log('importabc', forceBook, forceDuplicates, onlyLastUpdated)
       var duplicates=[]
       var inserts=[]
       var updates=[]
       if (abc) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
-        //console.log('havetunes', tunes, tunesHash)
+        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
           // existing tunes are updated
           if (tune.id && intunes[tune.id]) {
             if (forceBook) {
               tune.books.push(forceBook)
               tune.books = utils.uniquifyArray(tune.books)
-              saveTune(tune)
-              updates.push(tune.id)
             }
             // preserve boost
             tune.boost = tunes[tune.id].boost
+            saveTune(tune)
+            updates.push(tune.id)
           // new tunes 
           } else {
             if (forceDuplicates) {
@@ -146,9 +152,11 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
           }
         })
       }
+      updateSheet(0)
       return [inserts, updates, duplicates]
   }
   
+ 
   
   function importCollection(title) {
     //console.log('impo col',title,curatedTuneBooks[title])
@@ -203,6 +211,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
+    updateSheet(0)
     forceRefresh()
   }
   
@@ -210,6 +219,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     resetTuneBook()
     indexes.resetBookIndex()
     buildTunesHash()
+    updateSheet(0)
   }
   
   function copyTuneBookAbc(book) {
@@ -260,6 +270,6 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
 
   }
 
-  return { importAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setTempo, setCurrentTune, setCurrentTuneBook, setTunesHash, setBeatsPerBar, forceRefresh, indexes, textSearchIndex};
+  return { importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setTempo, setCurrentTune, setCurrentTuneBook, setTunesHash, setBeatsPerBar, forceRefresh, indexes, textSearchIndex};
 }
 export default useTuneBook

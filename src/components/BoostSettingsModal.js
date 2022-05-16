@@ -4,14 +4,27 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 function BoostSettingsModal(props) {
   const [show, setShow] = useState(false);
   const [boost, setBoost] = useState(props.value > 0 ? props.value : 0);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-  const boostUp = () => {
+  const handleClose = (e) => {
+    e.preventDefault(); 
+    e.stopPropagation();
+    setShow(false);
+  }
+  const handleShow = (e) => {
+    e.preventDefault(); 
+    e.stopPropagation();
+    setShow(true);
+  }
+  const boostUp = (e) => {
+      e.preventDefault(); 
+      e.stopPropagation();
+      
       let newBoost = parseInt(boost > 0 ? boost : 0) + 1
       setBoost(newBoost)
       props.onChange(newBoost)
   }
-  const boostDown = () => {
+  const boostDown = (e) => {
+      e.preventDefault(); 
+      e.stopPropagation();
       let newBoost = parseInt(boost) - 1
       setBoost(newBoost > 0 ? newBoost : 0)
       props.onChange(newBoost > 0 ? newBoost : 0)
@@ -22,7 +35,15 @@ function BoostSettingsModal(props) {
   return (
     <>
       <Button style={{float:'left', marginLeft:'1em'}} variant="secondary">
-        <span onClick={function(e) {boostUp()}} >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={handleShow}>{props.value}</Badge>
+        <span onClick={function(e) {boostUp(e); return false;}} >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={function(e) {
+            e.preventDefault(); 
+            e.stopPropagation();
+            if (props.badgeClickable !== false) {
+               handleShow(e)
+            } else {
+              boostUp(e);
+            }
+          }}>{props.value}</Badge>
       </Button>
 
       <Modal show={show} onHide={handleClose}>

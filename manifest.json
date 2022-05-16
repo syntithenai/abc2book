@@ -3,21 +3,21 @@
   "name": "Tune Book",
   "icons": [
     {
-        "src": "/abc2book/home-small.png",
+        "src": "/home-small.png",
         "sizes": "48x48",
         "type": "image/png"
     },
     {
-        "src": "/abc2book/home-appicon.png",
+        "src": "/home-appicon.png",
         "sizes": "144x144",
         "type": "image/png",
         "purpose": "any"
     }  
   ],
-  "start_url": "/abc2book/",
+  "start_url": "",
   "background_color": "#3367D6",
   "display": "fullscreen",
-  "scope": "/abc2book/",
+  "scope": "",
   "theme_color": "#3367D6",
   "shortcuts": [
     

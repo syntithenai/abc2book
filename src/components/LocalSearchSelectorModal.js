@@ -39,9 +39,25 @@ function LocalSearchSelectorModal(props) {
     //console.log('select setting ', setting)
     var tune = props.tunebook.abcTools.abc2json(setting)
     tune.id = props.currentTune.id
+    tune.books = props.currentTune.books
     props.tunebook.saveTune(tune)
     //props.forceRefresh()
   }
+  
+  function selectSettingAsVoice(settingAbc, tune) {
+    var setting = props.tunebook.abcTools.abc2json(settingAbc)
+    var settingNotes = props.tunebook.abcTools.justNotes(settingAbc)
+    //var tune = props.tunebook.abcTools.abc2json(setting)
+    //tune.id = props.currentTune.id
+    //tune.books = props.currentTune.books
+    var tune = props.currentTune
+    tune.voices[('s-'+setting.id).slice(0,4)] = {meta:'key='+setting.key, notes:settingNotes.split("\n")}
+    props.tunebook.saveTune(tune)
+    //console.log('select setting ', props.tunebook, setting, tune, tune.voices)
+    
+    //props.forceRefresh()
+  }
+  
   
   function selectTune(key,value) {
     //console.log('select tune ',key,value)
@@ -185,16 +201,22 @@ function LocalSearchSelectorModal(props) {
           </Modal.Header>
          <Modal.Body>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-          {settings.map(function(setting) {
+          {settings.map(function(setting, sk) {
             var tune = props.tunebook.abcTools.abc2json(setting)
             var useSetting = props.tunebook.abcTools.json2abc_cheatsheet(tune)
-            return <div>
+            return <div key={sk} >
               <Button  style={{float:'right'}} onClick={function(e) {
                 if (window.confirm('Do you really want to replace this tune with information from the collection?')) {
                   selectSetting(setting); 
                 }
                 setShow(false)
-              }} > Select</Button>
+              }} > Replace Tune</Button>
+              
+              <Button  style={{float:'right'}} onClick={function(e) {
+                selectSettingAsVoice(setting, tune); 
+                setShow(false)
+              }} > Import Voices</Button>
+              
               <Abc abc={useSetting}  tunebook={props.tunebook} />
             </div>
           })}</ListGroup>

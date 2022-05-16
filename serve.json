@@ -5,8 +5,13 @@
       "headers" : [{
         "key" : "Access-Control-Allow-Origin",
         "value" : "*"
+      },
+      {
+        "key" : "Service-Worker-Allowed",
+        "value" : "/"
       }]
     },
+    
     {
       "source" : "**/*.@(jpg|jpeg|gif|png)",
       "headers" : [{

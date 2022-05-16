@@ -7,7 +7,7 @@ export default function HelpPage(props) {
     <br/>
     <div style={{paddingTop:'2em',clear: "both"}} >This tool helps you to find, collect, print and memorise tunes. It includes features to
     <ul>
-      <li>Import ABC format music notation.</li>
+      <li>Import ABC and Music XML format music notation.</li>
       <li>Search and import tunes from thesession.org.</li>
       <li>Search and import tunes from the included database of abc format tunes scraped from the web.</li>
       <li>Listen to the tunes and set the tempo.</li>

@@ -1,7 +1,7 @@
 # abc2book
 lookup  a list of  tunes on thesession.org and generate a printable book
 
-[Try it out](https://syntithenai.github.io/abc2book/)
+[Try it out](https://tunebook.syntithenai.com/)
 
 ## Resources
 
