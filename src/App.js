@@ -146,7 +146,7 @@ function App(props) {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="danger" onClick={closeWarning} >Stop Loading Updates</Button>
+              <Button variant="danger" onClick={closeWarning} >Override with Local Copy</Button>
               <Button variant="primary" onClick={acceptChanges} >Load Updates</Button>
             </Modal.Footer>
           </Modal.Dialog>

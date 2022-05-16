@@ -352,6 +352,7 @@ export default function Abc(props) {
             
             
             var mpm = milliSecondsPerMeasure ? milliSecondsPerMeasure  : gvisualObj.current.millisecondsPerMeasure()
+            var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
             var initOptions = {
               //debugCallback: function(a) {console.log("DEBUG",a)},
               visualObj: visualObj,
@@ -359,7 +360,7 @@ export default function Abc(props) {
               //qpm: props.tempo,
               //midiTranspose: 7
               //synth: {{options:{midiTranspose:9}}
-              options:{soundFontUrl: 'http://localhost:4000/midi-js-soundfonts/abcjs',
+              options:{soundFontUrl: a + '/midi-js-soundfonts/abcjs',
               }
               
             //  millisecondsPerMeasure:  milliSecondsPerMeasure ,
