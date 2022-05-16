@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; ", 
+    "build": "react-scripts build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; node hackSw.js ", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
