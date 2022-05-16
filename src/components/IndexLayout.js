@@ -45,7 +45,10 @@ export default function IndexLayout(props) {
     //}
     
     return <div className="index-layout"  >
-        <IndexSearchForm  tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
+        <IndexSearchForm  tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
+        {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
+        {Object.values(props.tunes).filter(filterSearch).length} matching tunes
+        </div>}
         <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
         {props.tunes && Object.values(props.tunes)
         .filter(filterSearch)

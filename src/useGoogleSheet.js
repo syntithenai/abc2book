@@ -263,8 +263,8 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
              inserts[tune.id] = tune
           }
         })
-        console.log(ids)
-        console.log(Object.keys(tunes))
+        //console.log(ids)
+        //console.log(Object.keys(tunes))
         Object.keys(tunes).forEach(function(tuneId) {
           if (ids.indexOf(tuneId) === -1) {
             deletes[tuneId] = tunes[tuneId]

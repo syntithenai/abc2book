@@ -10,7 +10,7 @@ import curatedTuneBooks from './CuratedTuneBooks'
 
 
 var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet}) => {
-  console.log('usetuneook',typeof tunes)
+  //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
   const indexes = useIndexes()
