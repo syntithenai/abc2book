@@ -6,6 +6,7 @@ import BoostSettingsModal from '../components/BoostSettingsModal'
 import ReviewNavigationModal from '../components/ReviewNavigationModal'
 import Abc from '../components/Abc'
 import BookSelectorModal from '../components/BookSelectorModal'
+import {useSwipeable} from 'react-swipeable'
 
 export default function ReviewPage(props) {
   var utils = useUtils()  
@@ -17,7 +18,14 @@ export default function ReviewPage(props) {
   var [ready, setReady] = useState(false)
   let [seekTo, setSeekTo] = useState(false)
   const [playCount, setPlayCount] = useState(0)
-    
+  const handlers = useSwipeable({
+      onSwipedRight: (eventData) => {
+          navigate('/review/'+props.tunebook.utils.nextNumber(getCurrentReviewIndex(), (reviewItems ? reviewItems.length : 1)))
+      },
+      onSwipedLeft: (eventData) => {
+          navigate('/review/'+props.tunebook.utils.previousNumber(getCurrentReviewIndex(), (reviewItems ? reviewItems.length : 1)))
+      }
+    });  
   //function audioCallback(event) {
         //console.log('cab',event) 
         ////return 
@@ -183,9 +191,9 @@ export default function ReviewPage(props) {
             <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
            </ButtonGroup>
            
-           
+           <div {...handlers} >
            <Abc metronomeCountIn={true} speakTitle={true} repeat={3} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo(tune)} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
-            
+            </div>
         </div>
     }
     //} else {

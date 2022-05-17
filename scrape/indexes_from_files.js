@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const tools = require('../abc2book.converters.js')
+//const tools = require('../abc2book.converters.js')
 //console.log('tools',tools)
 const abcjs = require('abcjs');
 //console.log('abcjs',abcjs)
@@ -117,9 +117,9 @@ for (var filenameKey in fileNames)  {
             if (!seenNotesHash[hash] && title && title.length > 0 && id && id.length > 0) {
                 seenNotesHash[hash] = true
                 index.lookups[id] = title
-                var titleParts = title.split(' ')
+                var titleParts = stripText(title).split(' ')
                 titleParts.forEach(function(tokenDirty) {
-                    var token  = stripText(tokenDirty)
+                    var token  = tokenDirty
                     //console.log(tokenDirty,"R", token)
                     var existing = index.tokens[token]
                     if (!Array.isArray(existing)) {

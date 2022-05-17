@@ -138,9 +138,15 @@ export default function utilsFunctions(props) {
         }
     } 
     
- 
-  
+    function stripText(text) {
+        var result = ''
+        if (text && text.trim) {
+            result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
+        }
+       return result
+    }
     
-    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray}
+    
+    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText}
     
 }

@@ -14,26 +14,35 @@ export default function IndexLayout(props) {
         var filterOk = false
         var bookFilterOk = false
         var bookFilter = props.currentTuneBook
-        if (!filter || filter.trim().length === 0) {
-            filterOk = true
-        } else {
-            if (tune && tune.name && tune.name.length > 0 && filter.length > 0 && props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1) {
+        // no filters means show tunes with NO book selected
+        if (!filter && !bookFilter) {
+            if (tune.books && tune.books.length > 0) {
+                return false
+            } else {
+                return true
+            }
+        }  else {
+            if (!filter || filter.trim().length === 0) {
                 filterOk = true
-            } 
+            } else {
+                if (tune && tune.name && tune.name.length > 0 && filter.length > 0 && props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1) {
+                    filterOk = true
+                } 
+            }
+            if (!bookFilter || bookFilter.trim().length === 0) {
+                bookFilterOk = true
+            } else {
+                if (tune && tune.books && tune.books.length > 0 && bookFilter.length > 0) {
+                    tune.books.forEach(function(book) {
+                        if (props.tunebook.utils.toSearchText(book).indexOf(bookFilter) !== -1) {
+                            bookFilterOk = true
+                        }
+                    })
+                } 
+            }
+            //console.log('FILTER',tune,filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
+            return (filterOk && bookFilterOk)
         }
-        if (!bookFilter || bookFilter.trim().length === 0) {
-            bookFilterOk = true
-        } else {
-            if (tune && tune.books && tune.books.length > 0 && bookFilter.length > 0) {
-                tune.books.forEach(function(book) {
-                    if (props.tunebook.utils.toSearchText(book).indexOf(bookFilter) !== -1) {
-                        bookFilterOk = true
-                    }
-                })
-            } 
-        }
-        //console.log('FILTER',tune,filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
-        return (filterOk && bookFilterOk)
     }
     
     //function updateList(filterIn, bookIn) {

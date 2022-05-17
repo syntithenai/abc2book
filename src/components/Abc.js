@@ -226,6 +226,8 @@ export default function Abc(props) {
             //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
             
             var metronomeBeats = o.getBeatsPerMeasure() - parseInt(o.getPickupLength()/o.getBeatLength())
+            // 2 bars where there is a pickup
+            if (o.getPickupLength() > 0)  metronomeBeats += o.getBeatsPerMeasure()
             var beatOverflow = o.getPickupLength()/o.getBeatLength() % 1
             var beatDuration = o.millisecondsPerMeasure()/o.getBeatsPerMeasure()
             var delay = beatDuration

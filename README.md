@@ -22,3 +22,5 @@ lookup  a list of  tunes on thesession.org and generate a printable book
 - https://paulrosen.github.io/abcjs/
 
 - https://github.com/peterkhayes/pitchfinder
+
+- https://www.qrcode-monkey.com/#

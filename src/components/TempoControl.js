@@ -1,6 +1,7 @@
 import Metronome from '../Metronome'
-import {useState, useRef} from 'react'
+import {useState, useRef, useEffect} from 'react'
 import {Button, Modal, ButtonGroup} from 'react-bootstrap'
+import {isMobile} from 'react-device-detect';
   
 export default function TempoControl(props) {
     var metronome = useRef(null)
@@ -11,18 +12,29 @@ export default function TempoControl(props) {
     const [show, setShow] = useState(false)
     var options = {30:'Grave',42:'Lento', 47:'Largo', 60: 'Adagio', 67: 'Adagietto', 75: 'Andante', 91: 'Moderato', 104: 'Allegretto', 120: 'Allegro', 136:'Vivace', 170: 'Presto', 180:'Prestissimo'}
     
+    useEffect(function() {
+      return function cleanup() {
+          if (metronome.current) metronome.current.stop()
+      }  
+    },[])
+     
+//{isMobile && <Button onClick={handleShow} >{props.tunebook.icons.metronome}</Button>}
+      
     return <span className="tempo-control">
        
-        <ButtonGroup size="sm">
+        {!isMobile && <ButtonGroup size="sm">
             <Button onClick={function(e) {metronome.current.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
-        </ButtonGroup>
-      
+        </ButtonGroup>}
+       
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
+          
           <Modal.Title>Tempo Control</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            <Button style={{marginBottom:'0.2em'}}  variant={started ? "danger" : "success"} onClick={started ? function(e) { metronome.current.stop(); setStarted(false)} : function(e) { metronome.current.start(); setStarted(true)}  } >{started ? "Stop Metronome" : "Start Metronome"}</Button>
            <label  id="tempo"  style={{float: 'left', marginRight: "0.2em"}} >
+              
               <Button style={{float:'right'}}  variant="danger" onClick={function(e) { props.onChange(''); handleClose()}} >Clear</Button>
               <Button onClick={function () {props.onChange(props.value + 5)}}>+</Button>&nbsp;&nbsp;&nbsp;Tempo&nbsp;&nbsp;&nbsp;<Button onClick={function () {props.onChange(Math.max((props.value - 5),1))}} >-</Button>
              <input type='number' onChange={function(e) { props.onChange(e.target.value)}} value={props.value} />
