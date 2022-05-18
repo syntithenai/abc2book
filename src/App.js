@@ -69,6 +69,7 @@ function App(props) {
     if (localUpdates && Object.keys(localUpdates).length > 0) {
       updateSheet(0, accessToken)
     }
+    
     buildTunesHash()
     indexes.resetBookIndex()
     indexes.indexTunes(tunes)
@@ -154,7 +155,7 @@ function App(props) {
     console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
-      console.log('onmerge set results')
+      console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
       forceRefresh()
     } else { 
@@ -162,8 +163,8 @@ function App(props) {
       //forceRefresh()
     }
   }
-
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge}) 
+  var recurseLoadSheetTimeout = useRef(null)
+  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge,recurseLoadSheetTimeout}) 
   
   var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
@@ -201,6 +202,8 @@ function App(props) {
   } 
      
   function showWarning() {
+    if (sheetUpdateResults) return true
+    return false 
     //console.log('showWarning')
     if (sheetUpdateResults !== null) {
       if (sheetUpdateResults.deletes && Object.keys(sheetUpdateResults.deletes).length > 0) {

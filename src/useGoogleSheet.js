@@ -7,7 +7,7 @@ import useUtils from './useUtils'
     
 export default function useGoogleSheet(props) {
   const {tunes, pollingInterval, onLogin, onMerge} = props
-  //console.log(props)
+  console.log('useGoogleSheet',props)
     var client;
   // google login
   var googleSheetId = useRef(null)
@@ -18,7 +18,7 @@ export default function useGoogleSheet(props) {
   var [accessToken, setAccessToken] = useState(null)
   let abcTools = useAbcTools();
   var utils = useUtils()
-  var recurseLoadSheetTimeout = useRef(null)
+  var recurseLoadSheetTimeout = props.recurseLoadSheetTimeout
 
   function updateSheetById(id,data,callback, accessToken) {
     //console.log('trigger sheet update ', id,data, accessToken)
@@ -42,7 +42,7 @@ export default function useGoogleSheet(props) {
   
   function updateSheet(delay=1000) {
       //console.log('trigger sheet update',recurseLoadSheetTimeout.current )
-      if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
+      //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       
       if (googleSheetId.current) { 
         if (updateSheetTimer.current) clearTimeout(updateSheetTimer.current)
@@ -97,23 +97,30 @@ export default function useGoogleSheet(props) {
     }
     
     
-    function loadSheet(recurseDelay = 0, forceSheet = false) {
-      if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
-      //console.log('load sheet',recurseDelay)
-      getGoogleSheetDataById(googleSheetId.current, function(fullSheet) {
-        
-          if (forceSheet) {
-            onLogin(fullSheet)
-          } else {
+    function doLoad() {
+        getGoogleSheetDataById(googleSheetId.current, function(fullSheet) {
+          console.log('load sheet dotimeout got sheet',fullSheet.length)
+          //if (recurseDelay > 0) loadSheet( recurseDelay)
+          //if (forceSheet) {
+            //onLogin(fullSheet)
+          //} else {
             onMerge(fullSheet)
-          }
-          if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
-          recurseLoadSheetTimeout.current = setTimeout(function() {
-              //console.log('load sheet dotimeout',recurseDelay)
-              if (recurseDelay > 0) loadSheet( recurseDelay)
-          },recurseDelay)
-          
-      })
+          //}
+        })
+    }
+    
+    function setupInterval() {
+      console.log('setup interval')
+      if (recurseLoadSheetTimeout.current) clearInterval(recurseLoadSheetTimeout.current)
+      recurseLoadSheetTimeout.current = setInterval(function() {
+         console.log('load sheet dotimeout')  
+         doLoad()
+      },props.pollingInterval > 1000 ? props.pollingInterval : 10000)
+    }
+    function loadSheet() {
+      console.log('load sheet')
+      doLoad()
+      setupInterval()
     }
     function findTuneBookInDrive() {
         var xhr = new XMLHttpRequest();
@@ -124,10 +131,11 @@ export default function useGoogleSheet(props) {
               // load whole file
               googleSheetId.current = response.files[0].id
               // start polling for changes
-              loadSheet(pollingInterval, true)
+              loadSheet(0, true)
             } else {
               // create file
               createTuneSheet()
+              setupInterval()
             }
           }
         };
@@ -202,7 +210,7 @@ export default function useGoogleSheet(props) {
     }
    
     
-    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken}
+    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, setupInterval}
     
     //mergeLoadedSheet, getGoogleSheetDataById, createTuneSheet, loadSheet, findTuneBookInDrive, handleCredentialResponse, initClient, getToken, revokeToken, googleSheetId, loginUser, access_token, accessToken,updateSheetById, 
     

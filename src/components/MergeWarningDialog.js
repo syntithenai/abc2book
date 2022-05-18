@@ -20,7 +20,7 @@ return <Modal.Dialog
        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
           <Button variant="danger" onClick={props.closeWarning} >Logout</Button>
-          &nbsp;<Button variant="warning" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Changes</Button>
+          &nbsp;{Object.keys(props.sheetUpdateResults.localUpdates).length > 0 && <Button variant="warning" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Changes</Button>}
           &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>
           
         </div>
