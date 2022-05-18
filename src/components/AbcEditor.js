@@ -190,6 +190,11 @@ export default function AbcEditor(props) {
                         <Form.Control type="text" placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
+                      <Form.Group className="mb-3" controlId="tempo">
+                        <Form.Label>Repeats</Form.Label>
+                        <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : '1'} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                      </Form.Group>
+                      
                       <Form.Group className="mb-3" controlId="noteLength">
                         <Form.Label>ABC Note Length</Form.Label>
                         <Form.Select value={tune.noteLength ? tune.noteLength : ''} onChange={function(e) { tune.noteLength = e.target.value; tune.id = params.tuneId; saveTune(tune)  }} >

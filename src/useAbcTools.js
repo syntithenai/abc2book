@@ -174,6 +174,8 @@ var useAbcTools = () => {
                     tune.lastUpdated = line.slice(22).trim()
                 } else  if (line.startsWith('% abcbook-soundfonts')) {
                     tune.soundFonts = line.slice(21).trim()
+                } else  if (line.startsWith('% abcbook-repeats')) {
+                    tune.repeats = line.slice(21).trim()
                 }
                 
             } else if (isNoteLine(line)) {
@@ -274,6 +276,7 @@ var useAbcTools = () => {
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-lastupdated " +  ensureInteger(tune.lastUpdated) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
+                    + "% abcbook-repeats " +  ensureText(tune.repeats) + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : '')) 
         

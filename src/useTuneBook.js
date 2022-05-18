@@ -34,7 +34,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
       updateTunesHash(tune)
       setTunes(tunes)
       updateSheet(0,function() {
-        pauseSheetUpdates.current = true
+        pauseSheetUpdates.current = false
       }) // to google
       //console.log('saved and indexed tune', tune.id, tune)
     }

@@ -165,7 +165,7 @@ function App(props) {
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
+  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
   
   var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
@@ -203,8 +203,8 @@ function App(props) {
   } 
      
   function showWarning() {
-    if (sheetUpdateResults) return true
-    return false 
+    //if (sheetUpdateResults) return true
+    //return false 
     //console.log('showWarning')
     if (sheetUpdateResults !== null) {
       if (sheetUpdateResults.deletes && Object.keys(sheetUpdateResults.deletes).length > 0) {
@@ -213,12 +213,12 @@ function App(props) {
       if (sheetUpdateResults.updates && Object.keys(sheetUpdateResults.updates).length > 0) {
         return true
       }
-        if (sheetUpdateResults.inserts && Object.keys(sheetUpdateResults.inserts).length > 0) {
+      if (sheetUpdateResults.inserts && Object.keys(sheetUpdateResults.inserts).length > 0) {
         return true
       }
-      if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
-        return true
-      }
+      //if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
+        //return true
+      //}
     }
     return false
   }

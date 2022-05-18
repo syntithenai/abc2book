@@ -166,13 +166,16 @@ export default function useGoogleSheet(props) {
         scope: 'https://www.googleapis.com/auth/drive.metadata.readonly \
         https://www.googleapis.com/auth/drive.file',
         callback: (tokenResponse) => {
-          //console.log('init', tokenResponse)
+          console.log('init', tokenResponse)
           access_token = tokenResponse.access_token
           setAccessToken(tokenResponse.access_token)
           //console.log('init set token', tokenResponse.access_token)
+          //client.requestAccessToken();
+          
           findTuneBookInDrive()
         },
       });
+      client.requestAccessToken();
     } 
 
     function getToken() {
