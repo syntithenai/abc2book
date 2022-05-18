@@ -9,7 +9,7 @@ import curatedTuneBooks from './CuratedTuneBooks'
 
 
 
-var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, updateTunesHash, buildTunesHash}) => {
+var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -26,13 +26,16 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   function saveTune(tune) {
     //console.log('save tune', tune, tunes)
     if (tune && tunes) {
+      pauseSheetUpdates.current = true
       if (!tune.id) tune.id = utils.generateObjectId()
       tune.lastUpdated = new Date().getTime() 
       tunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
       setTunes(tunes)
-      updateSheet() // to google
+      updateSheet(0,function() {
+        pauseSheetUpdates.current = true
+      }) // to google
       //console.log('saved and indexed tune', tune.id, tune)
     }
     return tune

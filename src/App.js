@@ -164,9 +164,10 @@ function App(props) {
     }
   }
   var recurseLoadSheetTimeout = useRef(null)
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge,recurseLoadSheetTimeout}) 
+  var pauseSheetUpdates = useRef(null)
+  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
   
-  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash})
+  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
 

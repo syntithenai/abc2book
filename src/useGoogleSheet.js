@@ -40,7 +40,7 @@ export default function useGoogleSheet(props) {
     
   var updateSheetTimer = useRef(null)
   
-  function updateSheet(delay=1000) {
+  function updateSheet(delay=1000, callback) {
       //console.log('trigger sheet update',recurseLoadSheetTimeout.current )
       //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       
@@ -50,6 +50,7 @@ export default function useGoogleSheet(props) {
           //console.log('do sheet update', tunebook)
           updateSheetById(googleSheetId.current , abcTools.tunesToAbc(tunes), function() {
               //loadSheet()
+              callback()
           }, accessToken ? accessToken : access_token)
         },delay)
       }
@@ -114,7 +115,7 @@ export default function useGoogleSheet(props) {
       if (recurseLoadSheetTimeout.current) clearInterval(recurseLoadSheetTimeout.current)
       recurseLoadSheetTimeout.current = setInterval(function() {
          console.log('load sheet dotimeout')  
-         doLoad()
+         if (!props.pauseSheetUpdates.current) doLoad()
       },props.pollingInterval > 1000 ? props.pollingInterval : 10000)
     }
     function loadSheet() {
