@@ -30,7 +30,7 @@ var useIndexes = () => {
     
     function removeTune(tune, bookIndex) {
         var final = {}
-        //console.log('remove index',bookIndex,final)
+        //console.log('remove index',bookIndex,tune)
         //return bookIndex
         
         Object.keys(bookIndex).forEach(function(bookName) {
@@ -63,6 +63,25 @@ var useIndexes = () => {
         setBookIndex(newBookIndex)
     }
     
-    return {indexTune , resetBookIndex, bookIndex, addBookToIndex, removeBookFromIndex}
+    function indexTunes(tunes) {
+        var bookIndexNew = utils.loadLocalObject('bookstorage_index_books')
+        Object.values(tunes).forEach(function(tune) {
+            bookIndexNew = removeTune(tune,bookIndexNew)
+            if (tune && tune.id && Array.isArray(tune.books) && tune.books.length > 0) {
+                tune.books.forEach(function(book) {
+                    if (Array.isArray(bookIndexNew[book])) {
+                        bookIndexNew[book].push(tune.id)
+                    } else {
+                        bookIndexNew[book] = [tune.id]
+                    }
+                })
+            }
+            setBookIndex(bookIndexNew)
+        })
+        utils.saveLocalObject('bookstorage_index_books', bookIndexNew)
+        resetBookIndex()
+    }
+    
+    return {indexTune ,indexTunes, resetBookIndex, bookIndex, addBookToIndex, removeBookFromIndex, removeTune}
 }
 export default useIndexes;

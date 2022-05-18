@@ -29,9 +29,9 @@ export default function MusicEditor(props) {
             <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {window.history.back()}} >{props.tunebook.icons.close}</Button>
             
             <span style={{marginLeft:'0.1em'}} >
-                <LocalSearchSelectorModal  value={tune.name} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                <LocalSearchSelectorModal  value={tune ? tune.name : ''} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
                 
-                <TheSessionSearchSelectorModal value={tune.name} currentTune={tune}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                <TheSessionSearchSelectorModal value={tune ? tune.name : ''} currentTune={tune}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
             </span>
             
             <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal  abc={abc} tune={tune} tunebook={props.tunebook}  /></span>

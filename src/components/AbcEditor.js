@@ -216,9 +216,19 @@ export default function AbcEditor(props) {
                        
                       </Form.Group>
                       
+                      <Form.Group className="mb-3" controlId="fonts">
+                        <Form.Label>Sounds Fonts</Form.Label>
+                        <Form.Select value={tune.soundFonts ? tune.soundFonts.trim() : ''} onChange={function(e) { tune.soundFonts = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                          <option value="" >Local Sound Fonts Only (piano)</option>
+                          <option value="online">Requires Online Sound Fonts</option>
+                          </Form.Select> 
+                       
+                      </Form.Group>
+                      
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
+                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name} ><Button>Search Google</Button></a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   <Tab eventKey="comments" title="Comments" >

@@ -1,10 +1,11 @@
 import {useState} from 'react'
 import useUtils from './useUtils'
+import useAbcTools from './useAbcTools'
 
 export default function useAppData() {
 
   let utils = useUtils();
-  
+  let abcTools = useAbcTools();
   const [refreshHash, setRefreshHash] = useState(utils.generateObjectId())
   function forceRefresh() {
     setRefreshHash(utils.generateObjectId())
@@ -49,6 +50,63 @@ export default function useAppData() {
     utils.saveLocalObject('bookstorage_tunes_hash', val)
   }
   
+  
+  function buildTunesHash(forceTunes) {
+    var hashes = {}
+    var ids = {}
+    var useTunes = forceTunes ? forceTunes : tunes;
+    if (Array.isArray(useTunes) && useTunes.length > 0) {
+      Object.values(useTunes).forEach(function(tune) {
+        if (tune.id && tune.voices) {
+          //console.log('BTHBB',tune.notes)
+          var hash = abcTools.getTuneHash(tune) 
+          //utils.hash(tune.notes.join("\n"))
+          if (!Array.isArray(hashes[hash])) hashes[hash] = []
+          hashes[hash].push(tune.id)
+          ids[tune.id] = hash
+        }
+      })
+      console.log('BTH',{ids, hashes})
+      setTunesHash({ids, hashes})
+    } else {
+      setTunesHash({ids:{}, hashes:{}})
+    }
+    
+  }
+  
+  function updateTunesHash(tune) {
+    //console.log('update tune hash',tunesHash)
+     if (tune.id ) {
+        var oldHash = tunesHash && tunesHash.ids ? tunesHash.ids[tune.id] : null
+        if (oldHash) {
+          //console.log('update tune hash have old', oldHash, tunesHash.hashes[oldHash])
+          if (Array.isArray(tunesHash.hashes[oldHash])) {
+            tunesHash.hashes[oldHash] = tunesHash.hashes[oldHash].filter(function(ids) {
+              if (Array.isArray(ids) && ids.indexOf(tune.id) === -1) {
+                return true
+              } else {
+                return false
+              }
+            })
+            if (tunesHash && tunesHash.hashes && tunesHash.hashes[oldHash].length === 0) {
+              delete tunesHash.hashes[oldHash]
+            }
+          }
+          if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
+        }
+        var hash = hash = abcTools.getTuneHash(tune) 
+        //utils.hash(tune.notes.join("\n"))
+        //console.log('update tune hash have new', hash)
+        if (!tunesHash)  tunesHash = {}
+        if (!tunesHash.hashes)  tunesHash.hashes = {}
+        if (!tunesHash.ids)  tunesHash.ids = {}
+        tunesHash.hashes[hash] = true
+        tunesHash.ids[tune.id] = hash
+        setTunesHash(tunesHash)
+     }
+  }
+  
+  
   const [tunes, setTunesInner] = useState(utils.loadLocalObject('bookstorage_tunes'));
   function setTunes(val) {
     setTunesInner(val)
@@ -56,6 +114,6 @@ export default function useAppData() {
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash} 
   
 }

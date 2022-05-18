@@ -172,6 +172,8 @@ var useAbcTools = () => {
                     tune.transpose = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-lastupdated')) {
                     tune.lastUpdated = line.slice(22).trim()
+                } else  if (line.startsWith('% abcbook-soundfonts')) {
+                    tune.soundFonts = line.slice(21).trim()
                 }
                 
             } else if (isNoteLine(line)) {
@@ -271,6 +273,7 @@ var useAbcTools = () => {
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-lastupdated " +  ensureInteger(tune.lastUpdated) + "\n" 
+                    + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : '')) 
         
@@ -343,13 +346,17 @@ var useAbcTools = () => {
         if (tune.voices) {
             Object.keys(tune.voices).forEach(function(voice) {
                 if (Array.isArray(tune.voices[voice].notes)) {
-                    voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
+                    //voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
                     tune.voices[voice].notes.forEach(function(noteLine) {
                         voicesAndNotes.push(noteLine)
                     })
+                    
+                    //voicesAndNotes.push(firstBars.slice(4).join("|"))
+                    
                 }
             })
         }
+        var firstBars = voicesAndNotes.join("").trim().split("|").slice(0,6)
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + "T: " + ensureText(tune.name) + "\n" 
@@ -358,7 +365,7 @@ var useAbcTools = () => {
                     + (cleanTempo(tune.tempo) > 0 ?  "Q: "+ getBeatLength(tune.meter)+'='+ ensureText(cleanTempo(tune.tempo)) + "\n"  : "")
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
                     + "K:"+ensureText(tune.key)+ "\n" 
-                    + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
+                    + firstBars.join("|")
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
         
         //console.log('ABC OUT', finalAbc)
@@ -1159,7 +1166,7 @@ var useAbcTools = () => {
             }
         })
     }
-    var hash = utils.hash((voicesAndNotes.join("\n"))+tune.tempo+tune.meter+tune.transpose+tune.key)
+    var hash = utils.hash((voicesAndNotes.join("\n"))+tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts)
     return hash
   }
 

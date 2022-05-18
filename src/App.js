@@ -11,14 +11,18 @@ import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
+import Footer from './components/Footer'
+import MergeWarningDialog from './components/MergeWarningDialog'
 
 import useTuneBook from './useTuneBook'
 import axios from 'axios'
 import useAppData from './useAppData'
 import useUtils from './useUtils'
+import useIndexes from './useIndexes'
 import useGoogleSheet from './useGoogleSheet'
 import useAbcTools from './useAbcTools'
 import useHistory from './useHistory'
+import useServiceWorker from './useServiceWorker'
 import useTextSearchIndex from './useTextSearchIndex'
 import {useState, useEffect, useRef} from 'react';
 import jwt_decode from "jwt-decode";
@@ -26,7 +30,7 @@ import {useParams, useLocation} from 'react-router-dom';
 import {HashRouter as  Router,Routes, Route, Link  } from 'react-router-dom'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Button, Modal} from 'react-bootstrap'
+import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 
@@ -40,33 +44,135 @@ function App(props) {
   let utils = useUtils();
   let abcTools = useAbcTools();
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults} = useAppData()
+  useServiceWorker()
+    
+  const indexes = useIndexes()
   
-  var recurseLoadSheetTimeout = useRef(null)
+   
+  function applyMergeChanges(changes) {
+    var {inserts, updates, deletes, localUpdates} = changes
+    //console.log('apply',changes)
+    // save all inserts and updates, delete all deletes
+    Object.keys(deletes).forEach(function(d) {
+       delete tunes[d]
+    })
+    Object.keys(updates).map(function(u)  {
+      if (updates[u] && updates[u].id) {
+        tunes[updates[u].id] = updates[u]
+      }
+    })
+    Object.values(inserts).forEach(function(tune) {
+      tunes[tune.id] = tune
+    })
+    // any more recent changes locally get saved online
+    if (localUpdates && Object.keys(localUpdates).length > 0) {
+      updateSheet(0, accessToken)
+    }
+    buildTunesHash()
+    indexes.resetBookIndex()
+    indexes.indexTunes(tunes)
+    setSheetUpdateResults(null)
+  }
+  
+   /** 
+   * import songs to a tunebook from an abc file 
+   */
+  function mergeTuneBook(tunebookText) {
+      //console.log('merge')
+      var inserts={}
+      var updates={}
+      var deletes={}
+      var localUpdates={}
+      if (tunebookText) {
+        //console.log('haveabc')
+        var intunes = abcTools.abc2Tunebook(tunebookText)
+        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        var ids = []
+        Object.values(intunes).forEach(function(tune) {
+          // existing tunes are updated
+          //console.log('tune in',tune.id, tune)
+          if (tune.id && tunes[tune.id]) {
+            // preserve boost
+            tune.boost = tunes[tune.id].boost
+            if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
+              updates[tune.id] = tune
+              //console.log('update MORE RECENT')
+            } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
+              localUpdates[tune.id] = tune
+              //console.log('local update MORE RECENT')
+            } else {
+              //console.log('skip update NOT MORE RECENT')
+            }
+            ids.push(tune.id)
+          // new tunes 
+          } else {
+             //console.log('insert')
+             if (!tune.id) tune.id = utils.generateObjectId()
+             inserts[tune.id] = tune
+          }
+        })
+        //console.log(ids)
+        //console.log(Object.keys(tunes))
+        Object.keys(tunes).forEach(function(tuneId) {
+          if (ids.indexOf(tuneId) === -1) {
+            deletes[tuneId] = tunes[tuneId]
+          }
+        })
+      }
+      //console.log('merge done' ,tunes, intunes,"INS", inserts, "UPD",updates,"DEL", deletes, "LL",localUpdates)
+      return {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
+  }
+  
+  function overrideTuneBook(fullSheet) {
+    console.log('overrideTuneBook')
+    var tunes = {}
+    abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
+        if (tune && tune.id) tunes[tune.id] = tune
+    })
+    console.log("FORCE TUNESN",tunes)
+    // TODO - check in with user if applying changes
+    setTunes(tunes)
+    updateSheet(0, accessToken)
+    // update indexes....
+    buildTunesHash()
+    indexes.resetBookIndex()
+    indexes.indexTunes(tunes)
+    setSheetUpdateResults(null)
+    forceRefresh()
+  }
+  
+  function onLogin(fullSheet) {
+    console.log('on LOGIN')
+    return onMerge(fullSheet)
+  }
+  
 
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, mergeTuneBook, applyMergeChanges} = useGoogleSheet({tunes, setTunes, timeout:10000, setSheetUpdateResults, forceRefresh, recurseLoadSheetTimeout}) 
   
-  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet})
+  function onMerge(fullSheet) {
+    var trialResults = mergeTuneBook(fullSheet)
+    console.log('onmerge', fullSheet.length, trialResults)
+    // warning if items are being deleted
+    if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
+      console.log('onmerge set results')
+      setSheetUpdateResults(trialResults)
+      forceRefresh()
+    } else { 
+      applyMergeChanges(trialResults)
+      //forceRefresh()
+    }
+  }
+
+  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:10000, onLogin, onMerge}) 
+  
+  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
 
   
     
     //<div  id="loginbuttondiv" style={{float:'left',fontSize:'0.6em'}} data-size="small" data-type="icon"  ></div>  }  
-  function Footer(props) {
-    var location = useLocation()
-    if (location.pathname.startsWith('/print')) return null
-   
-     return <div style={{position:'fixed', bottom: 0, left: 0, width:'100%',display:'block',clear:'both',backgroundColor:'#e8f8fe', height:'1.2em'}} >
-              <Link style={{float:'right'}} to='/' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{fontSize:'0.6em'}} size="sm" >Home</Button></Link>
-              <Link style={{float:'right', marginRight:'0.2em'}} to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{fontSize:'0.6em'}} size="sm" >Help</Button></Link>
-              {props.accessToken ? <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px'}} size="sm" variant="danger" onClick={props.revokeToken} >Logout</Button> : <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px'}} size="sm" variant="success" onClick={function() {initClient(); getToken()}} >Login</Button>}
-                
-              <div style={{textAlign:'center', fontSize:'0.4em'}}><div>(CopyLeft 2022)    Steve Ryan <a href='mailto:syntithenai@gmail.com'>syntithenai@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
-               <div>Source code on <a href='https://github.com/syntithenai/abc2book'>Github</a></div>
-             </div>
-          </div>
-  } 
+  
     
   useEffect(function() {
     //var t = tunebook.utils.loadLocalObject('bookstorage_tunes')
@@ -76,55 +182,39 @@ function App(props) {
       loadTextSearchIndex(textSearchIndex) 
       //.then(function(loadedIndex) {setTextSearchIndex(loadedIndex)})
     }
-    tunebook.buildTunesHash()
+    buildTunesHash()
     applyGoogleWindowInit()
-    
-    
-  const registerServiceWorker = async () => {
-    if ('serviceWorker' in navigator) {
-      try {
-        const registration = await navigator.serviceWorker.register(
-          '/sw.js',
-          {
-            scope: '/',
-          }
-        );
-        if (registration.installing) {
-          console.log('Service worker installing');
-        } else if (registration.waiting) {
-          console.log('Service worker installed');
-        } else if (registration.active) {
-          console.log('Service worker active');
-        }
-      } catch (error) {
-        console.error(`Service Registration failed with ${error}`);
-      }
-    }
-  };
-   console.error(`Register Service worker`);
-  registerServiceWorker()
-    
     
   },[])
   
   function closeWarning() {
-    updateSheet(0)
+    //console.log('closeWarning')
+    //updateSheet(0)
+    revokeToken()
     setSheetUpdateResults(null)
   }
   
   function acceptChanges() {
+    //console.log('acceptChanges')
     applyMergeChanges(sheetUpdateResults)
     setSheetUpdateResults(null)
   } 
      
   function showWarning() {
+    //console.log('showWarning')
     if (sheetUpdateResults !== null) {
       if (sheetUpdateResults.deletes && Object.keys(sheetUpdateResults.deletes).length > 0) {
         return true
       }
-      //if (sheetUpdateResults.updates && Object.keys(sheetUpdateResults.updates).length > 0) {
-        //return true
-      //}
+      if (sheetUpdateResults.updates && Object.keys(sheetUpdateResults.updates).length > 0) {
+        return true
+      }
+        if (sheetUpdateResults.inserts && Object.keys(sheetUpdateResults.inserts).length > 0) {
+        return true
+      }
+      if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
+        return true
+      }
     }
     return false
   }
@@ -132,26 +222,7 @@ function App(props) {
   
     <div id="topofpage" className="App" >
         {(showWarning(sheetUpdateResults)) ? <>
-          <Modal.Dialog 
-        backdrop="static"
-        keyboard={false} onHide={closeWarning} >
-            <Modal.Header closeButton>
-              <Modal.Title>Update Warning</Modal.Title>
-            </Modal.Header>
-
-            <Modal.Body>
-              <p>Changes made on another device have been detected. </p>
-              {Object.keys(sheetUpdateResults.inserts).length ? <div><b>{Object.keys(sheetUpdateResults.inserts).length}</b> items inserted</div>: ''}
-              {Object.keys(sheetUpdateResults.updates).length ?<div><b>{Object.keys(sheetUpdateResults.updates).length}</b> items updated</div>: ''}
-              {Object.keys(sheetUpdateResults.deletes).length ?<div><b>{Object.keys(sheetUpdateResults.deletes).length}</b> items deleted</div>: ''}
-            </Modal.Body>
-
-            <Modal.Footer>
-              <Button variant="danger" onClick={closeWarning} >Override with Local Copy</Button>
-              <Button variant="primary" onClick={acceptChanges} >Load Updates</Button>
-            </Modal.Footer>
-          </Modal.Dialog>
-          
+          <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={revokeToken} overrideTuneBook={overrideTuneBook} />
         </> : null}
         {(!showWarning(sheetUpdateResults) && tunes !== null) && <div>
             <input type='hidden' value={refreshHash} />
@@ -197,7 +268,7 @@ function App(props) {
                   </Routes>
                   
               </div>
-              <Footer tunebook={tunebook} accessToken={accessToken} loginUser={loginUser} revokeToken={revokeToken} />
+              <Footer tunebook={tunebook} accessToken={accessToken} loginUser={loginUser} revokeToken={revokeToken} initClient={initClient} getToken={getToken} />
             </Router>
 
             <div id="bottomofpage" ></div>

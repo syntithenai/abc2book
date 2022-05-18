@@ -232,12 +232,14 @@ button.btn-primary {
 
 .abcjs-cursor {
       stroke: blue;
-  }
+   }
+/*
  @media (prefers-color-scheme: dark) {
      .abcjs-cursor {
          stroke: #ffffff;
      }
  }
+*/
  path {
  transition: opacity 1s;
 }

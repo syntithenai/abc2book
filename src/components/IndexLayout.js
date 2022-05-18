@@ -53,29 +53,28 @@ export default function IndexLayout(props) {
         //setTunes(Object.values(props.tunebook.tunes).filter(filterSearch)) 
     //}
     
+    
+    var filtered = Object.values(props.tunes).filter(filterSearch)
     return <div className="index-layout"  >
         <IndexSearchForm  tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
         {Object.values(props.tunes).filter(filterSearch).length} matching tunes
         </div>}
-        <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
-        {props.tunes && Object.values(props.tunes)
-        .filter(filterSearch)
-        //function(tune) {
-            //if (props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1)  {
-                //return true
-            //} else {
-                //return false
-            //}
-        //})
-        .map(function(tune,tk) {
+        {filtered.length > 0 ? <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
+        {filtered.map(function(tune,tk) {
             var l = (tune.name ? tune.name.length : 0) + (tune.type ? tune.type.length : 0)
             var pad = <>{''.padStart(40 - - l,'&nbsp;_')}</>
             return <Link key={tk} style={{textDecoration:'none' }} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
                 <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={false} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
                 <span >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/></span></ListGroup.Item></Link>
         })}
-        </ListGroup>
+        </ListGroup> : <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
+        {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div><div ><b>Try a book</b></div>
+            <div>{Object.keys(props.tunebook.getTuneBookOptions()).map(function(option, ok) {
+                return <span key={ok}><Button onClick={function(e) {props.setCurrentTuneBook(option)}} >{option}</Button>&nbsp;&nbsp;</span>
+            })}</div>
+        </div>}
+        </div>}
         
     </div>
 }

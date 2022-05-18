@@ -5,7 +5,9 @@ import useAbcTools from "./useAbcTools"
 import useUtils from './useUtils'
 
     
-export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdateResults, forceRefresh, recurseLoadSheetTimeout}) {
+export default function useGoogleSheet(props) {
+  const {tunes, pollingInterval, onLogin, onMerge} = props
+  //console.log(props)
     var client;
   // google login
   var googleSheetId = useRef(null)
@@ -16,7 +18,8 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
   var [accessToken, setAccessToken] = useState(null)
   let abcTools = useAbcTools();
   var utils = useUtils()
-  
+  var recurseLoadSheetTimeout = useRef(null)
+
   function updateSheetById(id,data,callback, accessToken) {
     //console.log('trigger sheet update ', id,data, accessToken)
     if (id && data) {
@@ -38,7 +41,7 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
   var updateSheetTimer = useRef(null)
   
   function updateSheet(delay=1000) {
-      console.log('trigger sheet update',recurseLoadSheetTimeout.current )
+      //console.log('trigger sheet update',recurseLoadSheetTimeout.current )
       if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       
       if (googleSheetId.current) { 
@@ -85,6 +88,7 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
       }).then(function(postRes) {
         googleSheetId.current = postRes.data.id
         updateSheetById(postRes.data.id, {abc: abcTools.tunesToAbc(tunes)}, function(updated) {
+          onLogin("")
           //console.log('CREATED')
         }).catch(function(e) {
           getToken()
@@ -93,28 +97,22 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
     }
     
     
-    function loadSheet(recurseDelay = 0) {
+    function loadSheet(recurseDelay = 0, forceSheet = false) {
       if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       //console.log('load sheet',recurseDelay)
       getGoogleSheetDataById(googleSheetId.current, function(fullSheet) {
-          var trialResults = mergeTuneBook(fullSheet)
-          //setSheetUpdateResults({inserts, updates, deletes, localUpdates})
-      //forceRefresh()
-      
-        //console.log('load sheet loaded',trialResults, trialResults.deletes, Object.keys(trialResults.deletes).length)
-          if (Object.keys(trialResults.deletes).length > 0 ) { //|| Object.keys(trialResults.updates).length > 0) {
-            setSheetUpdateResults(trialResults)
-            forceRefresh()
-          } else { 
-            applyMergeChanges(trialResults)
-            forceRefresh()
-            //console.log('load sheet settimeout')
+        
+          if (forceSheet) {
+            onLogin(fullSheet)
+          } else {
+            onMerge(fullSheet)
           }
           if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
           recurseLoadSheetTimeout.current = setTimeout(function() {
               //console.log('load sheet dotimeout',recurseDelay)
               if (recurseDelay > 0) loadSheet( recurseDelay)
           },recurseDelay)
+          
       })
     }
     function findTuneBookInDrive() {
@@ -126,7 +124,7 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
               // load whole file
               googleSheetId.current = response.files[0].id
               // start polling for changes
-              loadSheet(timeout)
+              loadSheet(pollingInterval, true)
             } else {
               // create file
               createTuneSheet()
@@ -155,9 +153,9 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
       client = global.window.google.accounts.oauth2.initTokenClient({
         client_id: clientId,
         prompt: '',
+        // https://www.googleapis.com/auth/spreadsheets
         scope: 'https://www.googleapis.com/auth/drive.metadata.readonly \
-        https://www.googleapis.com/auth/drive.file \
-        https://www.googleapis.com/auth/spreadsheets',
+        https://www.googleapis.com/auth/drive.file',
         callback: (tokenResponse) => {
           //console.log('init', tokenResponse)
           access_token = tokenResponse.access_token
@@ -169,6 +167,7 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
     } 
 
     function getToken() {
+      console.log('get token',client)
       if (client) {
         client.requestAccessToken();
       } else {
@@ -176,6 +175,7 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
       }
     }
     function revokeToken() {
+      clearTimeout(recurseLoadSheetTimeout)
       setLoginUser(null)
       global.window.google.accounts.oauth2.revoke(accessToken, () => {console.log('access token revoked')});
       setAccessToken(null)
@@ -201,82 +201,8 @@ export default function useGoogleSheet({tunes, setTunes, timeout, setSheetUpdate
       
     }
    
-   
-  function applyMergeChanges(changes) {
-    var {inserts, updates, deletes, localUpdates} = changes
-    //console.log('apply',changes)
-    // save all inserts and updates, delete all deletes
-    Object.keys(deletes).forEach(function(d) {
-       delete tunes[d]
-    })
-    Object.keys(updates).map(function(u)  {
-      if (updates[u] && updates[u].id) {
-        tunes[updates[u].id] = updates[u]
-      }
-    })
-    Object.values(inserts).forEach(function(tune) {
-      tunes[tune.id] = tune
-    })
-    setTunes(tunes)
-    //console.log('after apply tunes',tunes)
-    // save locally updated tunes
-    if (Object.keys(localUpdates).length > 0) {
-      updateSheet(0, accessToken)
-    }
-    forceRefresh()
-  }
-  
-   /** 
-   * import songs to a tunebook from an abc file 
-   */
-  function mergeTuneBook(tunebookText) {
-      //console.log('merge')
-      var inserts={}
-      var updates={}
-      var deletes={}
-      var localUpdates={}
-      if (tunebookText) {
-        //console.log('haveabc')
-        var intunes = abcTools.abc2Tunebook(tunebookText)
-        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
-        var ids = []
-        Object.values(intunes).forEach(function(tune) {
-          // existing tunes are updated
-          //console.log('tune in',tune.id, tune)
-          if (tune.id && tunes[tune.id]) {
-            // preserve boost
-            tune.boost = tunes[tune.id].boost
-            if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
-              updates[tune.id] = tune
-              //console.log('update MORE RECENT')
-            } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
-              localUpdates[tune.id] = tune
-              //console.log('local update MORE RECENT')
-            } else {
-              //console.log('skip update NOT MORE RECENT')
-            }
-            ids.push(tune.id)
-          // new tunes 
-          } else {
-             //console.log('insert')
-             if (!tune.id) tune.id = utils.generateObjectId()
-             inserts[tune.id] = tune
-          }
-        })
-        //console.log(ids)
-        //console.log(Object.keys(tunes))
-        Object.keys(tunes).forEach(function(tuneId) {
-          if (ids.indexOf(tuneId) === -1) {
-            deletes[tuneId] = tunes[tuneId]
-          }
-        })
-      }
-      //console.log('merge done' ,tunes, intunes,"INS", inserts, "UPD",updates,"DEL", deletes, "LL",localUpdates)
-      return {inserts, updates, deletes, localUpdates}
-  }
-  
     
-    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, mergeTuneBook, applyMergeChanges}
+    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken}
     
     //mergeLoadedSheet, getGoogleSheetDataById, createTuneSheet, loadSheet, findTuneBookInDrive, handleCredentialResponse, initClient, getToken, revokeToken, googleSheetId, loginUser, access_token, accessToken,updateSheetById, 
     

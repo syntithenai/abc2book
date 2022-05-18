@@ -367,6 +367,9 @@ export default function Abc(props) {
               
             //  millisecondsPerMeasure:  milliSecondsPerMeasure ,
             }
+            var tune = props.tunebook.abcTools.abc2json(props.abc)
+            //console.log("TUNE FONT", tune.soundFonts, tune) 
+            if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             //if (tune) synthOptions.synth.options = {options:{midiTranspose:parseInt(tune.transpose)}}
                 ////renderOptions.synth.options = {midiTranspose:parseInt(tune.transpose)}
       
@@ -392,7 +395,6 @@ export default function Abc(props) {
               return tune.id + "-" + props.tunebook.abcTools.cleanTempo(props.tempo)+'-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
-             var tune = props.tunebook.abcTools.abc2json(props.abc)
              //console.log("tune", tune,props.abc);
              
              function primeAndResolve() {
@@ -656,6 +658,10 @@ export default function Abc(props) {
       var tune = props.tunebook.abcTools.abc2json(abcTune)
       if (tune.transpose > 0 || tune.transpose < 0 ) {
         renderOptions.visualTranspose= tune.transpose
+      }
+      console.log('SS',props.scale)
+      if (props.scale && props.scale > 0) {
+        renderOptions.scale = props.scale
       }
       //console.log("OPT",tune.transpose,'f',renderOptions)
       //abcjsParams: {"selectTypes":false,"visualTranspose":0},

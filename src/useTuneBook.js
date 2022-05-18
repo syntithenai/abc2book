@@ -9,11 +9,10 @@ import curatedTuneBooks from './CuratedTuneBooks'
 
 
 
-var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet}) => {
+var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, updateTunesHash, buildTunesHash}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
-  const indexes = useIndexes()
   // from old data
   var dbTunes = {}
   //indexes.resetBookIndex()
@@ -40,67 +39,13 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
   }
   
   function deleteTune(tuneId) {
+    indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+    
     delete tunes[tuneId]
     setTunes(tunes)
     updateSheet(0)
   }
   
-  
-  
-  function buildTunesHash(forceTunes) {
-    var hashes = {}
-    var ids = {}
-    var useTunes = forceTunes ? forceTunes : tunes;
-    if (Array.isArray(useTunes) && useTunes.length > 0) {
-      Object.values(useTunes).forEach(function(tune) {
-        if (tune.id && tune.voices) {
-          //console.log('BTHBB',tune.notes)
-          var hash = abcTools.getTuneHash(tune) 
-          //utils.hash(tune.notes.join("\n"))
-          if (!Array.isArray(hashes[hash])) hashes[hash] = []
-          hashes[hash].push(tune.id)
-          ids[tune.id] = hash
-        }
-      })
-      console.log('BTH',{ids, hashes})
-      setTunesHash({ids, hashes})
-    } else {
-      setTunesHash({ids:{}, hashes:{}})
-    }
-    
-  }
-  
-  function updateTunesHash(tune) {
-    //console.log('update tune hash',tunesHash)
-     if (tune.id ) {
-        var oldHash = tunesHash && tunesHash.ids ? tunesHash.ids[tune.id] : null
-        if (oldHash) {
-          //console.log('update tune hash have old', oldHash, tunesHash.hashes[oldHash])
-          if (Array.isArray(tunesHash.hashes[oldHash])) {
-            tunesHash.hashes[oldHash] = tunesHash.hashes[oldHash].filter(function(ids) {
-              if (Array.isArray(ids) && ids.indexOf(tune.id) === -1) {
-                return true
-              } else {
-                return false
-              }
-            })
-            if (tunesHash && tunesHash.hashes && tunesHash.hashes[oldHash].length === 0) {
-              delete tunesHash.hashes[oldHash]
-            }
-          }
-          if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
-        }
-        var hash = hash = abcTools.getTuneHash(tune) 
-        //utils.hash(tune.notes.join("\n"))
-        //console.log('update tune hash have new', hash)
-        if (!tunesHash)  tunesHash = {}
-        if (!tunesHash.hashes)  tunesHash.hashes = {}
-        if (!tunesHash.ids)  tunesHash.ids = {}
-        tunesHash.hashes[hash] = true
-        tunesHash.ids[tune.id] = hash
-        setTunesHash(tunesHash)
-     }
-  }
   
   /** 
    * import songs to a tunebook from an abc file 
@@ -212,6 +157,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     setTunes(final)
     buildTunesHash(final)
     updateSheet(0)
+    setCurrentTuneBook(null)
     forceRefresh()
   }
   
@@ -220,6 +166,8 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     indexes.resetBookIndex()
     buildTunesHash()
     updateSheet(0)
+    setCurrentTuneBook(null)
+    
   }
   
   function copyTuneBookAbc(book) {
