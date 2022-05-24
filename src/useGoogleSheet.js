@@ -4,9 +4,11 @@ import jwt_decode from "jwt-decode";
 import useAbcTools from "./useAbcTools"
 import useUtils from './useUtils'
 
+import useCheckOnlineStatus from './useCheckOnlineStatus'
     
 export default function useGoogleSheet(props) {
   const {tunes, pollingInterval, onLogin, onMerge} = props
+  var checkOnlineStatus = useCheckOnlineStatus()
   console.log('useGoogleSheet',props)
     var client;
   // google login
@@ -158,32 +160,36 @@ export default function useGoogleSheet(props) {
   }
   
     function initClient() {
-      //console.log('initclient')
-      client = global.window.google.accounts.oauth2.initTokenClient({
-        client_id: clientId,
-        prompt: '',
-        // https://www.googleapis.com/auth/spreadsheets
-        scope: 'https://www.googleapis.com/auth/drive.metadata.readonly \
-        https://www.googleapis.com/auth/drive.file',
-        callback: (tokenResponse) => {
-          console.log('init', tokenResponse)
-          access_token = tokenResponse.access_token
-          setAccessToken(tokenResponse.access_token)
-          //console.log('init set token', tokenResponse.access_token)
-          //client.requestAccessToken();
-          
-          findTuneBookInDrive()
-        },
-      });
-      client.requestAccessToken();
+      if (checkOnlineStatus()) { 
+        //console.log('initclient')
+        client = global.window.google.accounts.oauth2.initTokenClient({
+          client_id: clientId,
+          prompt: '',
+          // https://www.googleapis.com/auth/spreadsheets
+          scope: 'https://www.googleapis.com/auth/drive.metadata.readonly \
+          https://www.googleapis.com/auth/drive.file',
+          callback: (tokenResponse) => {
+            console.log('init', tokenResponse)
+            access_token = tokenResponse.access_token
+            setAccessToken(tokenResponse.access_token)
+            //console.log('init set token', tokenResponse.access_token)
+            //client.requestAccessToken();
+            
+            findTuneBookInDrive()
+          },
+        });
+        client.requestAccessToken();
+      }
     } 
 
     function getToken() {
-      console.log('get token',client)
-      if (client) {
-        client.requestAccessToken();
-      } else {
-         initClient()
+      if (checkOnlineStatus()) { 
+        console.log('get token',client)
+        if (client) {
+          client.requestAccessToken();
+        } else {
+           initClient()
+        }
       }
     }
     function revokeToken() {

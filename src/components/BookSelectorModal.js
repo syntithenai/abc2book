@@ -6,17 +6,20 @@ function BookSelectorModal(props) {
   const [filter, setFilter] = useState(props.value);
   const [options, setOptions] = useState(props.defaultOptions());
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = (e) => {
+    setShow(true);
+    filterChange('')
+  }
   
   var filterChangeTimeout = null
-  function filterChange(e) {
-    setFilter(e.target.value)
-    if (e.target.value.trim() === '') {
+  function filterChange(value) {
+    setFilter(value)
+    if (value.trim() === '') {
       setOptions(props.defaultOptions())
     } else {
       if (filterChangeTimeout) clearTimeout(filterChangeTimeout) 
       filterChangeTimeout = setTimeout(function() {
-        setOptions(props.searchOptions(e.target.value))
+        setOptions(props.searchOptions(value))
       },500)
     }
   } 
@@ -25,7 +28,8 @@ function BookSelectorModal(props) {
         if(filter && filter.trim()) {
           console.log(props.tunebook)
             props.tunebook.indexes.addBookToIndex(filter); 
-            props.setCurrentTuneBook(filter); 
+            props.onChange(filter); 
+            setFilter('')
             props.forceRefresh()
         }
     }
@@ -40,13 +44,13 @@ function BookSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='search' value={filter} onChange={filterChange}   />
-          <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>
+          <input type='search' value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
+          {(props.allowNew !== false)  && <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>}
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); handleClose()}} >{options[option]}</ListGroup.Item>
+              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} >{options[option]}</ListGroup.Item>
             })}
           </ListGroup>
         </Modal.Footer>

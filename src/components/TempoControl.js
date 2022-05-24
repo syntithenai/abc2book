@@ -6,10 +6,10 @@ import {isMobile} from 'react-device-detect';
 export default function TempoControl(props) {
     var metronome = useRef(null)
     metronome.current = new Metronome(props.value, props.beatsPerBar, 0, function() {console.log('done')});
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => props.setShowTempo(false);
+    const handleShow = () => props.setShowTempo(true);
     const [started, setStarted] = useState(false)
-    const [show, setShow] = useState(false)
+    //const [show, setShow] = useState(false)
     var options = {30:'Grave',42:'Lento', 47:'Largo', 60: 'Adagio', 67: 'Adagietto', 75: 'Andante', 91: 'Moderato', 104: 'Allegretto', 120: 'Allegro', 136:'Vivace', 170: 'Presto', 180:'Prestissimo'}
     
     useEffect(function() {
@@ -19,24 +19,23 @@ export default function TempoControl(props) {
     },[])
      
 //{isMobile && <Button onClick={handleShow} >{props.tunebook.icons.metronome}</Button>}
-      
+ //  <Button style={{float:'right'}}  variant="danger" onClick={function(e) { props.onChange('100'); handleClose()}} >Reset</Button>
+        //{!isMobile && <ButtonGroup size="sm">
+            //<Button onClick={function(e) {metronome.current.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
+        //</ButtonGroup>}               
     return <span className="tempo-control">
        
-        {!isMobile && <ButtonGroup size="sm">
-            <Button onClick={function(e) {metronome.current.startStop()}} >{props.tunebook.icons.metronome}</Button><Button   onClick={handleShow}><span style={{color:'black'}}>{props.value}</span>{props.tunebook.icons.arrowdowns}</Button>
-        </ButtonGroup>}
+  
        
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={props.showTempo} onHide={handleClose}>
         <Modal.Header closeButton>
           
-          <Modal.Title>Tempo Control</Modal.Title>
+          <Modal.Title>Tempo</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <Button style={{marginBottom:'0.2em'}}  variant={started ? "danger" : "success"} onClick={started ? function(e) { metronome.current.stop(); setStarted(false)} : function(e) { metronome.current.start(); setStarted(true)}  } >{started ? "Stop Metronome" : "Start Metronome"}</Button>
            <label  id="tempo"  style={{float: 'left', marginRight: "0.2em"}} >
               
-              <Button style={{float:'right'}}  variant="danger" onClick={function(e) { props.onChange(''); handleClose()}} >Clear</Button>
-              <Button onClick={function () {props.onChange(props.value + 5)}}>+</Button>&nbsp;&nbsp;&nbsp;Tempo&nbsp;&nbsp;&nbsp;<Button onClick={function () {props.onChange(Math.max((props.value - 5),1))}} >-</Button>
+              <Button onClick={function () {props.onChange(parseInt(props.value > 0 ? props.value : 0) + 5)}}>+</Button>&nbsp;&nbsp;&nbsp;Tempo&nbsp;&nbsp;&nbsp;<Button onClick={function () {props.onChange(Math.max((parseInt(props.value > 0 ? props.value : 0) - 5),1))}} >-</Button>
              <input type='number' onChange={function(e) { props.onChange(e.target.value)}} value={props.value} />
             <div style={{marginTop:'1em', marginBottom:'1em'}} >
                 {Object.keys(options).map(function(key) {
@@ -49,7 +48,7 @@ export default function TempoControl(props) {
                 })}
             </div>
             </label>
-            <label>Metronome Beats Per Bar<input type='number' value={props.beatsPerBar} onChange={function(e) {props.setBeatsPerBar(e.target.value)}} /></label>
+          
             
         </Modal.Body>
         <Modal.Footer>
@@ -62,3 +61,6 @@ export default function TempoControl(props) {
        
 
 }
+ //<Button style={{marginBottom:'0.2em'}}  variant={started ? "danger" : "success"} onClick={started ? function(e) { metronome.current.stop(); setStarted(false)} : function(e) { metronome.current.start(); setStarted(true)}  } >{started ? "Stop Metronome" : "Start Metronome"}</Button>
+           
+  //<label>Metronome Beats Per Bar<input type='number' value={props.beatsPerBar} onChange={function(e) {props.setBeatsPerBar(e.target.value)}} /></label>

@@ -1,5 +1,6 @@
 import abcjs from "abcjs";
-
+import * as localForage from "localforage";
+ 
 export default function utilsFunctions(props) {
 
 /**
@@ -146,7 +147,21 @@ export default function utilsFunctions(props) {
        return result
     }
     
+    function resetAudioCache() {
+      
+      var store = localForage.createInstance({
+          name: "abcaudiocache"
+      });     
+
+      store.clear().then(function() {
+          // Run this code once the database has been entirely deleted.
+          console.log('Database is now empty.');
+      }).catch(function(err) {
+          // This code runs if there were any errors
+          console.log(err);
+      }); 
+    }
     
-    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText}
+    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache}
     
 }

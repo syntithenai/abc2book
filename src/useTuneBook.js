@@ -24,7 +24,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     
   
   function saveTune(tune) {
-    //console.log('save tune', tune, tunes)
+    console.log('save tune', tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
       if (!tune.id) tune.id = utils.generateObjectId()
@@ -36,7 +36,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
       updateSheet(0,function() {
         pauseSheetUpdates.current = false
       }) // to google
-      //console.log('saved and indexed tune', tune.id, tune)
+      console.log('saved and indexed tune', tune.id, tune)
     }
     return tune
   }

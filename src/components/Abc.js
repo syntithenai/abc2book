@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import abcjs from "abcjs";
+import {Link} from 'react-router-dom'
 import {Button } from 'react-bootstrap'
 import useAbcTools from '../useAbcTools'
 import ReactNoSleep from 'react-no-sleep';
@@ -8,7 +9,8 @@ import Metronome from '../Metronome'
 import * as localForage from "localforage";
 const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
 const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
-             
+     
+            
 export default function Abc(props) {
     const [abcTune, setAbcTune] = useState(props.abc);
     const [lastAbc, setLastAbc] = useState(null);
@@ -33,7 +35,8 @@ export default function Abc(props) {
     const inputEl = useRef(null);
     //console.log('ABC',props)
     
-    var tune = props.tunebook.abcTools.abc2json(props.abc)
+    var [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
+    
 
     var gaudioContext = useRef(null)
     var gmidiBuffer = useRef(null)
@@ -334,7 +337,7 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
     
       return new Promise(function(resolve,reject) {
-          //console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
+          console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
           var midiBuffer
           if (visualObj) {
             //if (!midiBuffer) {
@@ -400,7 +403,7 @@ export default function Abc(props) {
              function primeAndResolve() {
                //logtime('preinit primresolve')
                 midiBuffer.init(initOptions).then(function (response) { 
-                  //logtime('preinit pr inited')
+                  logtime('preinit pr inited')
                   midiBuffer.prime()
                   .then(function(presponse) {
                     //logtime('preinit prime tune primed AAA')
@@ -434,7 +437,7 @@ export default function Abc(props) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        //console.log('GOT BUF',audioBuffers, duration)
+                        console.log('GOT BUF',audioBuffers, duration)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
@@ -597,9 +600,10 @@ export default function Abc(props) {
   
 
   function clickListener(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
+    console.log('CLICK ELEM',abcelem,abcelem.type) //props.onClickTempo,abcelem.type, ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
     
+    if (abcelem && abcelem.type === 'tempo' && props.onClickTempo) props.onClickTempo() 
     var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
-    //console.log('CLICK ELEM',ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
     
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(ms/1000,'seconds')
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(ms/1000,'seconds')
@@ -653,13 +657,13 @@ export default function Abc(props) {
         },
         //soundFontUrl: 'soundfont/'
         clickListener:clickListener,
-        //selectTypes: true
+        selectTypes: ['note','tempo']
       }
       var tune = props.tunebook.abcTools.abc2json(abcTune)
       if (tune.transpose > 0 || tune.transpose < 0 ) {
         renderOptions.visualTranspose= tune.transpose
       }
-      console.log('SS',props.scale)
+      //console.log('SS',props.scale)
       if (props.scale && props.scale > 0) {
         renderOptions.scale = props.scale
       }
@@ -794,10 +798,9 @@ export default function Abc(props) {
         }
     }, [isPlaying]); 
 
-  
-   // COMPONENT RENDER and UPDATE
-  var renderActive = false 
-  useEffect(() => {
+
+
+  function updateOnChange() {
     //console.log('ABC CHANGE', lastAbc, lastTempo, props.tempo, props.abc )
     if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo) {
       setSeekTo(0)
@@ -811,7 +814,8 @@ export default function Abc(props) {
       setLastAbc(props.abc)
       setLastTempo(props.tempo)
       setAbcTune(props.abc);
-              
+      setTune(props.tunebook.abcTools.abc2json(props.abc))
+        
       renderTune(props.abc)
     } else {
       setStarted(false)
@@ -823,8 +827,28 @@ export default function Abc(props) {
       //console.log('ABC CLEANUP')
        stopPlaying() 
     }
-   }, [props.abc, props.tempo])
- 
+  }
+
+  
+   // COMPONENT RENDER and UPDATE
+  var renderActive = false 
+  useEffect(() => {
+      return updateOnChange()
+   }, [props.abc])
+
+  useEffect(() => {
+    console.log('tempo change',props.tempo, props.abc)
+      if (props.tunes) {
+        var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
+        var tune = props.tunes[tuneLocal.id]
+        if (tune) {
+          tune.tempo = props.tempo
+          props.tunebook.saveTune(tune)
+        }
+      }
+      return updateOnChange()
+      //props.forceRefresh()
+   }, [props.tempo]) 
  
 //console.log('abc',props.tunebook)
   return (
@@ -834,9 +858,10 @@ export default function Abc(props) {
              {(props.tempo) ? <span style={{position:'fixed', top: 4, right: 4, zIndex: 66}} >
               <AbcPlayButton started={started} ready={ready}  isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span> : null}
-            {gaudioContext && gaudioContext.current && <input type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
+            {gaudioContext && gaudioContext.current && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
            {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(playCount + 1)}</Button>}
-            <div id="abc_music_viewer" ref={inputEl}></div>
+            {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
+            {!props.link && <div id="abc_music_viewer" ref={inputEl} ></div>}
           </span>
         )}
     </ReactNoSleep>

@@ -1,4 +1,31 @@
 
+@media print {
+ .App-header, #tunesearchextras, #footer, .music-buttons, .abcprogressslider, #abcplaybutton {
+    display: none;
+  }
+  #footer div, #footer a, line.abcjs-cursor {
+    display: none;
+  }
+  g.color {
+   stroke: black !important;
+   fill: black !important;
+  }
+/*
+  .abcjs-container, .abcjs-unaligned-words {
+     page-break-after: always;
+     page-break-inside: avoid;
+  }
+*/
+  
+}
+
+  .abcjs-unaligned-words {
+     page-break-before: always !important ;
+  }
+  .abcjs-container svg {
+    page-break-after: always !important ;
+  }
+
 
 .App-header {
   background-color: lightblue;
@@ -12,6 +39,7 @@
 
 .App-body {
   margin-top: 3.6em;
+  margin-bottom: 3.6em;
   padding: 0.2em;
   padding-left: 0.5em;
   padding-bottom: 4em;

@@ -18,24 +18,24 @@ function TuneBookOptionsModal(props) {
           <Modal.Title>{props.currentTuneBook ? 'Book Tools - '+props.currentTuneBook : 'Tools for All Tunes'}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Button variant="success" onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
-            Download
+          <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
+            {props.tunebook.icons.save}  Download
           </Button>
-          <Button style={{float:'right'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
-            Copy ABC
+          <Button style={{float:'right', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
+           {props.tunebook.icons.filecopyline} Copy ABC
           </Button>
           <hr/>
-          <Link to={"/cheatsheet/"+props.currentTuneBook} ><Button  variant="primary" >
-            Cheat Sheet
-          </Button></Link>
-          <Link to={"/print/"+props.currentTuneBook} ><Button  variant="primary" >
-            Print
-          </Button></Link>
-          {props.currentTuneBook ? <Button style={{float:'right'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete the tune book '+props.currentTuneBook+'?')) {props.tunebook.deleteTuneBook(props.currentTuneBook)}; props.setCurrentTuneBook(''); handleClose()}}>
-            Delete book
+          {props.currentTuneBook ? <Link to={"/cheatsheet/"+props.currentTuneBook} ><Button  style={{color:'black'}} variant="primary" >
+            {props.tunebook.icons.music}  Cheat Sheet
+          </Button></Link> : null}
+          {props.currentTuneBook ? <Link to={"/print/"+props.currentTuneBook} ><Button   style={{color:'black'}}  variant="primary" >
+            {props.tunebook.icons.printer} Print
+          </Button></Link> : null}
+          {props.currentTuneBook ? <Button style={{float:'right', color:'black'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete the tune book '+props.currentTuneBook+'?')) {props.tunebook.deleteTuneBook(props.currentTuneBook)}; props.setCurrentTuneBook(''); handleClose()}}>
+            {props.tunebook.icons.deletebin} Delete book
           </Button> : null}
-          {!props.currentTuneBook && <Button style={{float:'right'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete all your stored tunes?')) {props.tunebook.deleteAll()}; props.setCurrentTuneBook(''); handleClose()}}>
-            Delete All
+          {!props.currentTuneBook && <Button style={{float:'right', color:'black'}} variant="danger" onClick={function(e) { if (window.confirm('Do you really want to delete all your stored tunes?')) {props.tunebook.deleteAll()}; props.setCurrentTuneBook(''); handleClose()}}>
+            {props.tunebook.icons.deletebin}  Delete All
           </Button>}
         </Modal.Body>
       </Modal>

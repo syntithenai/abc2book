@@ -332,9 +332,10 @@ var useAbcTools = () => {
                     + aliasText 
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
-                    + renderWordHeaders(tune)
+                    //+ renderWordHeaders(tune)
                     + "% abcbook-tablature " +  tune.tablature + "\n" 
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
+                    + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
         //console.log('ABC OUT', finalAbc)
         return finalAbc
       } else {
@@ -370,6 +371,8 @@ var useAbcTools = () => {
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + firstBars.join("|")
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
+                    + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
+                    
         
         //console.log('ABC OUT', finalAbc)
         return finalAbc

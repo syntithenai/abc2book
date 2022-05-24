@@ -13,7 +13,6 @@ import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
 import Footer from './components/Footer'
 import MergeWarningDialog from './components/MergeWarningDialog'
-
 import useTuneBook from './useTuneBook'
 import axios from 'axios'
 import useAppData from './useAppData'
@@ -44,7 +43,7 @@ function App(props) {
   let utils = useUtils();
   let abcTools = useAbcTools();
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, showTempo, setShowTempo} = useAppData()
   useServiceWorker()
     
   const indexes = useIndexes()
@@ -223,7 +222,7 @@ function App(props) {
     return false
   }
   return (
-  
+
     <div id="topofpage" className="App" >
         {(showWarning(sheetUpdateResults)) ? <>
           <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={revokeToken} overrideTuneBook={overrideTuneBook} />
@@ -232,7 +231,7 @@ function App(props) {
             <input type='hidden' value={refreshHash} />
             <Router >
                 
-              <Header tunebook={tunebook} currentTune={currentTune} beatsPerBar={beatsPerBar} setBeatsPerBar={setBeatsPerBar}  tempo={tempo} setTempo={setTempo} />
+              <Header tunebook={tunebook} showTempo={showTempo}  setShowTempo={setShowTempo} currentTune={currentTune} beatsPerBar={beatsPerBar} setBeatsPerBar={setBeatsPerBar}  tempo={tempo} setTempo={setTempo} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
@@ -240,8 +239,8 @@ function App(props) {
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
                     
                     <Route  path={`cheatsheet`} >
-                      <Route index element={<CheatSheetPage  tunes={tunes}  tunebook={tunebook}    />}  />
-                      <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   tunebook={tunebook}    />} />
+                      <Route index element={<CheatSheetPage  tunes={tunes}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}     />}  />
+                      <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}   />} />
                     </Route>
                     <Route  path={`print`} >
                       <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}    />}  />
@@ -255,9 +254,9 @@ function App(props) {
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
+                        element={<MusicPage setShowTempo={setShowTempo} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle setBeatsPerBar={setBeatsPerBar} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle setBeatsPerBar={setBeatsPerBar} tunes={tunes}   setShowTempo={setShowTempo}  forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
                     </Route>
                     
                     <Route  path={`editor`}     >
@@ -266,12 +265,14 @@ function App(props) {
                     
                     <Route  path={`import`} >
                       <Route index element={<ImportPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
+                      <Route  path={`:curation/:tuneId`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                       <Route  path={`:curation`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                     </Route>
                       
                   </Routes>
                   
               </div>
+              
               <Footer tunebook={tunebook} accessToken={accessToken} loginUser={loginUser} revokeToken={revokeToken} initClient={initClient} getToken={getToken} />
             </Router>
 
@@ -279,6 +280,7 @@ function App(props) {
           </div>}
       
     </div>
+
   );
 }
 

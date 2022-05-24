@@ -7,14 +7,20 @@ import ImportCollectionModal from '../components/ImportCollectionModal'
 export default function ImportPage(props) {
     var navigate = useNavigate()
     var params = useParams()
-    //console.log(params, curated)
+    console.log(params, curated)
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 
     const [agree, setAgree] = useState(false)
     const [show, setShow] = useState(false)
+    
     function handleCloseAgree() {
-        navigate("/tunes")
+        console.log('close',params)
+        if (params.tuneId) {
+            navigate("/tunes/"+params.tuneId)
+        } else {
+            navigate("/tunes")
+        }
     }
     
     function onClose() {
@@ -31,7 +37,7 @@ export default function ImportPage(props) {
     
     return <>{(params.curation && params.curation.trim()) ? <div className="App-import">
      {agree 
-         ? <ImportCollectionModal autoStart={params.curation && params.curation.trim() ? params.curation : false} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={onClose} /> 
+         ? <ImportCollectionModal autoStart={params.curation && params.curation.trim() ? params.curation : false} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleCloseAgree} /> 
          : <Modal show={!agree} onHide={handleCloseAgree}>
         <Modal.Header closeButton>
           <Modal.Title>Import a Book</Modal.Title>

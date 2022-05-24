@@ -5,13 +5,13 @@ function BoostSettingsModal(props) {
   const [show, setShow] = useState(false);
   const [boost, setBoost] = useState(props.value > 0 ? props.value : 0);
   const handleClose = (e) => {
-    e.preventDefault(); 
-    e.stopPropagation();
+    if (e) e.preventDefault(); 
+    if (e) e.stopPropagation();
     setShow(false);
   }
   const handleShow = (e) => {
-    e.preventDefault(); 
-    e.stopPropagation();
+    if (e) e.preventDefault(); 
+    if (e) e.stopPropagation();
     setShow(true);
   }
   const boostUp = (e) => {
@@ -32,18 +32,21 @@ function BoostSettingsModal(props) {
   useEffect(function() {
       setBoost(props.value)
   },[props.value])
+  
+  function showOrBoost(e) {
+    e.preventDefault(); 
+    e.stopPropagation();
+    if (props.badgeClickable !== false) {
+       handleShow(e)
+    } else {
+      boostUp(e);
+    }
+  }
+  
   return (
     <>
-      <Button style={{float:'left', marginLeft:'1em'}} variant="secondary">
-        <span onClick={function(e) {boostUp(e); return false;}} >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={function(e) {
-            e.preventDefault(); 
-            e.stopPropagation();
-            if (props.badgeClickable !== false) {
-               handleShow(e)
-            } else {
-              boostUp(e);
-            }
-          }}>{props.value}</Badge>
+      <Button onClick={handleShow} style={{float:'left', marginLeft:'0.1em'}} variant="secondary">
+        <span  >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={showOrBoost}>{props.value}</Badge>
       </Button>
 
       <Modal show={show} onHide={handleClose}>
