@@ -106,7 +106,9 @@ var mainFiles = [
 'speakClient.js',
 'speakGenerator.js',
 'speakWorker.js',
-'textsearch_index.json'
+'textsearch_index.json',
+'close.png',
+'arrow-up.png',
 ]
 
 

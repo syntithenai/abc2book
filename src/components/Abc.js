@@ -34,7 +34,8 @@ export default function Abc(props) {
     var abcTools = useAbcTools()
     const inputEl = useRef(null);
     //console.log('ABC',props)
-    
+    var metronomeTimeout = useRef(null)
+    var metronome = useRef(null)
     var [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     
 
@@ -160,7 +161,7 @@ export default function Abc(props) {
         y1 = position.top;
         y2 = position.top + position.height;
       }
-      if (gcursor && gcursor.current) {
+      if (gcursor && gcursor.current && x1 !== NaN && x2 !== NaN  && y1 !== NaN && y2 !== NaN) {
         gcursor.current.setAttribute("x1", x1);
         gcursor.current.setAttribute("x2", x2);
         gcursor.current.setAttribute("y1", y1);
@@ -245,16 +246,16 @@ export default function Abc(props) {
             //console.log('metro beats',metronomeBeats,beatDuration)
             function startWithMetronome() {
               if (props.metronomeCountIn) {
-                var metronome = new Metronome(props.tunebook.abcTools.cleanTempo(props.tempo), o.getBeatsPerMeasure(), metronomeBeats, function() {
+                metronome.current = new Metronome(props.tunebook.abcTools.cleanTempo(props.tempo), o.getBeatsPerMeasure(), metronomeBeats, function() {
                   // settime after residual delay if not even beat anacrusis
                   //console.log('done')
                   // wait one more beat
-                  setTimeout(function() {
+                  metronomeTimeout.current = setTimeout(function() {
                     gmidiBuffer.current.start()
                     gtimingCallbacks.current.start()
                   },delay)
                 });
-                metronome.start()
+                metronome.current.start()
               } else {
                   gmidiBuffer.current.start()
                   gtimingCallbacks.current.start()
@@ -291,6 +292,8 @@ export default function Abc(props) {
     
   function stopPlaying()  {
     //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
+    if (metronome.current) metronome.current.stop()
+    clearTimeout(metronomeTimeout.current)
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.pause();
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.pause();
     //console.log('stopPlaying')
@@ -337,7 +340,7 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
     
       return new Promise(function(resolve,reject) {
-          console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
+          //console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
           var midiBuffer
           if (visualObj) {
             //if (!midiBuffer) {
@@ -403,7 +406,7 @@ export default function Abc(props) {
              function primeAndResolve() {
                //logtime('preinit primresolve')
                 midiBuffer.init(initOptions).then(function (response) { 
-                  logtime('preinit pr inited')
+                  //logtime('preinit pr inited')
                   midiBuffer.prime()
                   .then(function(presponse) {
                     //logtime('preinit prime tune primed AAA')
@@ -437,7 +440,7 @@ export default function Abc(props) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        console.log('GOT BUF',audioBuffers, duration)
+                        //console.log('GOT BUF',audioBuffers, duration)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
@@ -728,7 +731,11 @@ export default function Abc(props) {
   
     const playTimerRef = useRef(null);
     
-    function clickPlay() {
+    function clickRecord() {
+      return clickPlay()
+    }
+    
+    function clickPlay(seekTo) {
         //console.log('onClickHandler')
         if (playTimerRef && playTimerRef.current) {
           //console.log('onClickHandler DOUBLE')
@@ -736,7 +743,7 @@ export default function Abc(props) {
             playTimerRef.current = null
             if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(0)
             if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
-            setSeekTo(0)
+            setSeekTo(seekTo > 0 ? parseInt(seekTo) : 0)
             //setIsWaiting(true); 
             setIsPlaying(true);
         } else {
@@ -837,7 +844,7 @@ export default function Abc(props) {
    }, [props.abc])
 
   useEffect(() => {
-    console.log('tempo change',props.tempo, props.abc)
+    //console.log('tempo change',props.tempo, props.abc)
       if (props.tunes) {
         var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
         var tune = props.tunes[tuneLocal.id]
@@ -856,7 +863,7 @@ export default function Abc(props) {
         {({ isOn, enable, disable }) => (
           <span onClick={function(e) {bodyClick(enable)}} >
              {(props.tempo) ? <span style={{position:'fixed', top: 4, right: 4, zIndex: 66}} >
-              <AbcPlayButton started={started} ready={ready}  isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
+              <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span> : null}
             {gaudioContext && gaudioContext.current && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
            {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(playCount + 1)}</Button>}

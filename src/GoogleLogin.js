@@ -49,7 +49,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
         }
       }
       
-      function updateSheetById(id,data,callback) {
+      function updateSheetById(id,data,callback, accessToken) {
         if (id) {
           axios({
             method: 'patch',
@@ -83,7 +83,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
           setGoogleSheetId(postRes.data.id)
           updateSheetById(postRes.data.id, {abc: tunebook.toAbc()}, function(updated) {
             //props.mergeLoadedSheet(postRes)
-          }).catch(function(e) {
+          }, accessToken ? accessToken : access_token).catch(function(e) {
             getToken()
           })
           

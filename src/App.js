@@ -9,6 +9,8 @@ import MusicPage from './pages/MusicPage'
 import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
+import RecordingsPage from './pages/RecordingsPage'
+import RecordingPage from './pages/RecordingPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
 import Footer from './components/Footer'
@@ -164,9 +166,11 @@ function App(props) {
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
+  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, getRecording, createRecording, updateRecording,updateRecordingTitle, deleteRecording} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
   
-  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates})
+  var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
+  
+  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingTools})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
 
@@ -236,6 +240,11 @@ function App(props) {
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
+                    <Route  path={`recordings`} >
+                      <Route index element={<RecordingsPage   tunebook={tunebook}/>}  />
+                      <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook}  />} />
+                    </Route>
+                    
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
                     
                     <Route  path={`cheatsheet`} >
@@ -257,7 +266,7 @@ function App(props) {
                         element={<MusicPage setShowTempo={setShowTempo} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
                       <Route  path={`:tuneId`} element={<MusicSingle setBeatsPerBar={setBeatsPerBar} tunes={tunes}   setShowTempo={setShowTempo}  forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
-                    </Route>
+                    </Route>  
                     
                     <Route  path={`editor`}     >
                       <Route  path={`:tuneId`} element={<MusicEditor pushHistory={pushHistory} popHistory={popHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />} />

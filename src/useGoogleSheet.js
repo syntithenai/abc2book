@@ -9,7 +9,7 @@ import useCheckOnlineStatus from './useCheckOnlineStatus'
 export default function useGoogleSheet(props) {
   const {tunes, pollingInterval, onLogin, onMerge} = props
   var checkOnlineStatus = useCheckOnlineStatus()
-  console.log('useGoogleSheet',props)
+  //console.log('useGoogleSheet',props)
     var client;
   // google login
   var googleSheetId = useRef(null)
@@ -21,6 +21,128 @@ export default function useGoogleSheet(props) {
   let abcTools = useAbcTools();
   var utils = useUtils()
   var recurseLoadSheetTimeout = props.recurseLoadSheetTimeout
+
+
+  function getRecording(id) {
+    return new Promise(function(resolve,reject) {
+      console.log('get rec',id ,accessToken, access_token)
+      //var useToken = accessToken ? accessToken : access_token
+      //if (id) {
+        //axios({
+          //method: 'get',
+          //url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          //headers: {'Authorization': 'Bearer '+useToken},
+        //}).then(function(postRes) {
+          //resolve(postRes.data)
+          ////console.log(postRes)
+        //}).catch(function(e) {
+          //getToken()
+          //resolve()
+        //})
+      //}
+      resolve()
+    })
+  }
+  
+  function updateRecordingTitle(recording) {
+    return new Promise(function(resolve,reject) {  console.log('update title',recording.title,recording)
+      var useToken = accessToken ? accessToken : access_token
+      if (recording && useToken) {
+          axios({
+            method: 'patch',
+            url: 'https://www.googleapis.com/drive/v3/files/'+recording.googleId+"?alt=json",
+            data: {name: recording.title},
+            headers: {'Authorization': 'Bearer '+useToken},
+          }).then(function(postRes) {
+            //googleSheetId.current = postRes.data.id
+            console.log('updated title',postRes)
+            resolve()
+          }).catch(function(e) {
+            resolve()
+          })
+      } else {
+        resolve()
+      }
+    })
+  }
+  
+  function createRecording(recording) {
+    return new Promise(function(resolve,reject) {
+      console.log('create rec',recording ,accessToken, access_token)
+      var useToken = accessToken ? accessToken : access_token
+      if (useToken) {
+        var  data = {
+          "description": "Audio recording from TuneBook App",
+          "kind": "drive#file",
+          "name": recording.title,
+          "mimeType": "audio/wav" //"vnd.google-apps.spreadsheet"
+        }
+        axios({
+          method: 'post',
+          url: 'https://www.googleapis.com/drive/v3/files',
+          data: data,
+          headers: {'Authorization': 'Bearer '+useToken},
+        }).then(function(postRes) {
+          //googleSheetId.current = postRes.data.id
+          console.log('created',postRes)
+          updateRecording(postRes.data.id, recording.data).then(function(updated) {
+            //onLogin("")
+            console.log('updated',updated)
+            resolve(postRes.data.id)
+          }).catch(function(e) {
+            //getToken()
+            resolve()
+          })
+        })
+      } else {
+        resolve()
+      }
+    })
+  }
+
+  function updateRecording(id,data) {
+    return new Promise(function(resolve,reject) {
+      console.log('trigger rec update ', id,data, accessToken, access_token)
+      var useToken = accessToken ? accessToken : access_token
+      if (id && data && useToken) {
+        axios({
+          method: 'patch',
+          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"?uploadType=media",
+          headers: {'Authorization': 'Bearer '+useToken},
+          data: data,
+        }).then(function(postRes) {
+          console.log('updated',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          //getToken()
+          resolve()
+        })
+      } else {
+        resolve()
+      }
+    })
+  }
+  
+  function deleteRecording(id) {
+    return new Promise(function(resolve,reject) {
+      console.log('trigger sheet delete ', id, accessToken, access_token)
+      var useToken = accessToken ? accessToken : access_token
+      if (id && useToken) {
+        axios({
+          method: 'delete',
+          url: 'https://www.googleapis.com/drive/v2/files/'+id,
+          headers: {'Authorization': 'Bearer '+useToken},
+        }).then(function(postRes) {
+          console.log('deleted',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          //getToken()
+          resolve()
+        })
+      }
+    })
+  }
+  
 
   function updateSheetById(id,data,callback, accessToken) {
     //console.log('trigger sheet update ', id,data, accessToken)
@@ -34,7 +156,7 @@ export default function useGoogleSheet(props) {
         //console.log('updated',postRes.data  )
         if (callback) callback(postRes)
       }).catch(function(e) {
-        getToken()
+        //getToken()
       })
     }
   }
@@ -90,11 +212,11 @@ export default function useGoogleSheet(props) {
         headers: {'Authorization': 'Bearer '+access_token},
       }).then(function(postRes) {
         googleSheetId.current = postRes.data.id
-        updateSheetById(postRes.data.id, {abc: abcTools.tunesToAbc(tunes)}, function(updated) {
+        updateSheetById(postRes.data.id, abcTools.tunesToAbc(tunes), function(updated) {
           onLogin("")
           //console.log('CREATED')
-        }).catch(function(e) {
-          getToken()
+        }, accessToken ? accessToken : access_token).catch(function(e) {
+          //getToken()
         })
       })
     }
@@ -102,7 +224,7 @@ export default function useGoogleSheet(props) {
     
     function doLoad() {
         getGoogleSheetDataById(googleSheetId.current, function(fullSheet) {
-          console.log('load sheet dotimeout got sheet',fullSheet.length)
+          //console.log('load sheet dotimeout got sheet',fullSheet.length)
           //if (recurseDelay > 0) loadSheet( recurseDelay)
           //if (forceSheet) {
             //onLogin(fullSheet)
@@ -113,15 +235,15 @@ export default function useGoogleSheet(props) {
     }
     
     function setupInterval() {
-      console.log('setup interval')
+      //console.log('setup interval')
       if (recurseLoadSheetTimeout.current) clearInterval(recurseLoadSheetTimeout.current)
       recurseLoadSheetTimeout.current = setInterval(function() {
-         console.log('load sheet dotimeout')  
+         //console.log('load sheet dotimeout')  
          if (!props.pauseSheetUpdates.current) doLoad()
-      },props.pollingInterval > 1000 ? props.pollingInterval : 10000)
+      },props.pollingInterval > 1000 ? props.pollingInterval : 20000)
     }
     function loadSheet() {
-      console.log('load sheet')
+      //console.log('load sheet')
       doLoad()
       setupInterval()
     }
@@ -220,7 +342,7 @@ export default function useGoogleSheet(props) {
     }
    
     
-    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, setupInterval}
+    return { applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, setupInterval, getRecording, createRecording, updateRecording,updateRecordingTitle, deleteRecording}
     
     //mergeLoadedSheet, getGoogleSheetDataById, createTuneSheet, loadSheet, findTuneBookInDrive, handleCredentialResponse, initClient, getToken, revokeToken, googleSheetId, loginUser, access_token, accessToken,updateSheetById, 
     

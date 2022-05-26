@@ -7,12 +7,13 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
+import useRecordingsManager from './useRecordingsManager'
 
-
-var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates}) => {
+var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingTools}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
+  const recordingsManager = useRecordingsManager({recordingTools})
   // from old data
   var dbTunes = {}
   //indexes.resetBookIndex()
@@ -24,7 +25,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
     
   
   function saveTune(tune) {
-    console.log('save tune', tune, tunes)
+    //console.log('save tune', tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
       if (!tune.id) tune.id = utils.generateObjectId()
@@ -36,7 +37,7 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
       updateSheet(0,function() {
         pauseSheetUpdates.current = false
       }) // to google
-      console.log('saved and indexed tune', tune.id, tune)
+      //console.log('saved and indexed tune', tune.id, tune)
     }
     return tune
   }
@@ -221,6 +222,6 @@ var useTuneBook = ({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTun
 
   }
 
-  return { importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setTempo, setCurrentTune, setCurrentTuneBook, setTunesHash, setBeatsPerBar, forceRefresh, indexes, textSearchIndex};
+  return { importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setTempo, setCurrentTune, setCurrentTuneBook, setTunesHash, setBeatsPerBar, forceRefresh, indexes, textSearchIndex, recordingsManager};
 }
 export default useTuneBook

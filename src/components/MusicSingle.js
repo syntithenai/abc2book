@@ -20,7 +20,7 @@ import BookMultiSelectorModal from  './BookMultiSelectorModal'
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
-    console.log('single',props)
+    //console.log('single',props)
     
     
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -93,7 +93,7 @@ export default function MusicSingle(props) {
         //start()
     }
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
-    console.log('single T',params.tuneId,tune,props.tunes)
+    //console.log('single T',params.tuneId,tune,props.tunes)
     var words = {}
         
     if (tune) {
@@ -112,10 +112,10 @@ export default function MusicSingle(props) {
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
              
                 
-                <Link to={'/editor/'+params.tuneId}><Button className='btn-secondary' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
+                <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
                 
-                <Button className='btn-secondary' style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
-                <Button className='btn-secondary' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
+                <Button className='btn-primary' style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
+                <Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
                 
                 
                 
@@ -126,7 +126,7 @@ export default function MusicSingle(props) {
                
                 
             </div>
-             <Abc metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              <div className="lyrics" style={{marginLeft:'2em'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {

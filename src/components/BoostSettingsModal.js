@@ -45,7 +45,7 @@ function BoostSettingsModal(props) {
   
   return (
     <>
-      <Button onClick={handleShow} style={{float:'left', marginLeft:'0.1em'}} variant="secondary">
+      <Button onClick={showOrBoost} style={{float:'left', marginLeft:'0.1em'}} variant="secondary">
         <span  >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={showOrBoost}>{props.value}</Badge>
       </Button>
 

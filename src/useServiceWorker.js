@@ -22,7 +22,7 @@ export default function useServiceWorker() {
       }
     }
   };
-   console.error(`Register Service worker`);
+   //console.error(`Register Service worker`);
    useEffect(function() {
     registerServiceWorker()
    },[])

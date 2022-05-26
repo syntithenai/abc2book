@@ -3,12 +3,23 @@
 var hark = require('hark');
 
 var Microphone = function(config) {
+        var PorcupineManager = require('./porcupine/porcupine_manager')
+        
+        var KeywordData =  require('./porcupine/keyword_data_edison')
+        try {
+            window.PorcupineManager = PorcupineManager
+        } catch(e) {} 
+          
+        
+        var mqttClient = null;
         var isRecording = false;
         var isSending = false;
         var isPlaying = false;
         var waitingFor = {}
         var onCallbacks = {}
         
+        var hotwordInitialised = false;
+        var hotwordStarted = false;
         // default volumes
         var inputvolume = 1.0  // TODO also hotword volume?
         var outputvolume = 1.0
@@ -19,6 +30,7 @@ var Microphone = function(config) {
         let speakerContext = null
         var speakerGainNode = null;
         var urlAudioPlayer = null;                          
+        var porcupineManager;
         var speakingTimeout = null;     
         var speaking = false;
         var microphoneAudioBuffer = []
@@ -26,7 +38,24 @@ var Microphone = function(config) {
         var currentVolume = null;        
         var speakerCache = []
 
-      
+        var SENSITIVITIES = new Float32Array([
+                0.9 //, // "Hey Edison"
+                //0.5, // "Hot Pink"
+                //0.5, // "Deep Pink"
+                //0.5, // "Fire Brick"
+                //0.5, // "Papaya Whip"
+                //0.5, // "Peach Puff"
+                //0.5, // "Sandy Brown"
+                //0.5, // "Lime Green"
+                //0.5, // "Forest Green"
+                //0.5, // "Midnight Blue"
+                //0.5, // "Magenta"
+                //0.5, // "White Smoke"
+                //0.5, // "Lavender Blush"
+                //0.5 // "Dim Gray"
+            ]);
+        
+        
         
         function concat_arrays(arrays) {
             // sum of individual array lengths
@@ -46,9 +75,9 @@ var Microphone = function(config) {
         }
         
         
-        //function sendAudioMessage(topic,payload) {
-            //mqttClient.publish(topic,payload);    
-        //}
+        function sendAudioMessage(topic,payload) {
+            mqttClient.publish(topic,payload);    
+        }
         
         
         function setVolume(volume) {
