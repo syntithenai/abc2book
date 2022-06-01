@@ -27,8 +27,6 @@ export default function MusicSingle(props) {
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
 
     
-    
-    
     function getBeatsPerBar(meter) {
           switch (meter) {
             case '2/2':
@@ -108,6 +106,12 @@ export default function MusicSingle(props) {
               }
             })
         } 
+        //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
+        var firstVoice = Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
+        var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
+    console.log('sING',parsed.chords)
+        var [a,b,chordsArray,c] = parsed
+        var chords = props.tunebook.abcTools.renderChords(chordsArray,false)
        return <div className="music-single">
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
              
@@ -122,11 +126,15 @@ export default function MusicSingle(props) {
                 <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) {console.log("save book selection",val); tune.books = val; props.tunebook.saveTune(tune);} } /></span>
 
                 <BoostSettingsModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-                
-               
-                
+                <span style={{float:'left', marginLeft:'0.3em'}} >
+               {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music}</Button>}
+               {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}</Button>}
+                </span>
             </div>
+            
+            {props.viewMode === 'music' && <>
              <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             
              <div className="lyrics" style={{marginLeft:'2em'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
@@ -134,6 +142,26 @@ export default function MusicSingle(props) {
                         })}</div>
                 })}
              </div>
+             </>}
+             
+             {props.viewMode === 'chords' && <>
+             
+             <pre style={{clear:'both', position:'fixed', fontSize:'0.8em', top:'5em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999,border:'1px solid black', backgroundColor: 'white'}} >{chords}</pre>
+             
+             <div className="lyrics" style={{clear:'both', marginLeft:'0.1em', width:'65%'}} >
+                {Object.keys(words).map(function(key) {
+                    return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
+                            return <div key={lk} className="lyrics-line" >{line}</div>
+                        })}</div>
+                })}
+             </div>
+              <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             
+            
+             </>}
+             
+             
+             
         </div>
     }
 }

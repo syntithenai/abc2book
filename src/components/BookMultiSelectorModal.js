@@ -10,7 +10,7 @@ function BookMultiSelectorModal(props) {
   
   var filterChangeTimeout = null
   function filterChange(e) {
-    setFilter(e.target.value)
+    setFilter(e.target.value.toLowerCase())
     if (e.target.value.trim() === '') {
       setOptions(props.defaultOptions())
     } else {

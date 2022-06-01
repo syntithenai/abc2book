@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {useState, useRef} from 'react';
+import {useState, useRef, useEffect} from 'react';
 import jwt_decode from "jwt-decode";
 import useAbcTools from "./useAbcTools"
 import useUtils from './useUtils'
@@ -21,7 +21,15 @@ export default function useGoogleSheet(props) {
   let abcTools = useAbcTools();
   var utils = useUtils()
   var recurseLoadSheetTimeout = props.recurseLoadSheetTimeout
+  
 
+  useEffect(function() {
+    console.log('load google sheet',global.window.google)
+    if (global.window.google && localStorage.getItem('abc2book_lastuser')) {
+      //applyGoogleWindowInit()
+      initClient()
+    }
+  },[global.window.google])
 
   function getRecording(id) {
     return new Promise(function(resolve,reject) {
@@ -114,7 +122,7 @@ export default function useGoogleSheet(props) {
           console.log('updated',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-          //getToken()
+          if (localStorage.getItem('abc2book_lastuser')) getToken()
           resolve()
         })
       } else {
@@ -136,7 +144,7 @@ export default function useGoogleSheet(props) {
           console.log('deleted',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-          //getToken()
+          if (localStorage.getItem('abc2book_lastuser')) getToken()
           resolve()
         })
       }
@@ -145,18 +153,18 @@ export default function useGoogleSheet(props) {
   
 
   function updateSheetById(id,data,callback, accessToken) {
-    //console.log('trigger sheet update ', id,data, accessToken)
-    if (id && data) {
+    console.log('trigger sheet update ', id, accessToken)
+    if (id && accessToken) {
       axios({
         method: 'patch',
         url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"?uploadType=media",
         headers: {'Authorization': 'Bearer '+accessToken},
         data: data,
       }).then(function(postRes) {
-        //console.log('updated',postRes.data  )
+        console.log('sheet updated',postRes.data  )
         if (callback) callback(postRes)
       }).catch(function(e) {
-        //getToken()
+        if (localStorage.getItem('abc2book_lastuser')) getToken()
       })
     }
   }
@@ -165,17 +173,19 @@ export default function useGoogleSheet(props) {
   var updateSheetTimer = useRef(null)
   
   function updateSheet(delay=1000, callback) {
-      //console.log('trigger sheet update',recurseLoadSheetTimeout.current )
+      var useToken = accessToken ? accessToken : access_token
+      console.log('trigger sheet update',googleSheetId.current,useToken, recurseLoadSheetTimeout.current )
       //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       
       if (googleSheetId.current) { 
         if (updateSheetTimer.current) clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
-          //console.log('do sheet update', tunebook)
-          updateSheetById(googleSheetId.current , abcTools.tunesToAbc(tunes), function() {
+          console.log('do sheet update', tunes)
+          var nowTunes = utils.loadLocalObject('bookstorage_tunes')
+          updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes), function() {
               //loadSheet()
               callback()
-          }, accessToken ? accessToken : access_token)
+          }, useToken)
         },delay)
       }
   }
@@ -183,7 +193,7 @@ export default function useGoogleSheet(props) {
     function getGoogleSheetDataById(id,callback) {
       //console.log('get da',id ,accessToken, access_token)
       var useToken = accessToken ? accessToken : access_token
-      if (id) {
+      if (id && useToken) {
         axios({
           method: 'get',
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
@@ -192,7 +202,7 @@ export default function useGoogleSheet(props) {
           callback(postRes.data)
           //console.log(postRes)
         }).catch(function(e) {
-          getToken()
+          if (localStorage.getItem('abc2book_lastuser')) getToken()
         })
       }
     }
@@ -273,16 +283,17 @@ export default function useGoogleSheet(props) {
       
   function handleCredentialResponse(response) {
     var decoded = jwt_decode(response.credential)
-    //console.log(decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
+    console.log('CREDS',decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
     setLoginUser({email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture})
+    //localStorage.setItem('abc2book_lastuser',decoded.email)
      // google login
     initClient()
-    getToken()
+    //getToken()
    
   }
   
     function initClient() {
-      if (checkOnlineStatus()) { 
+      if (global.window.google && checkOnlineStatus()) { 
         //console.log('initclient')
         client = global.window.google.accounts.oauth2.initTokenClient({
           client_id: clientId,
@@ -294,6 +305,7 @@ export default function useGoogleSheet(props) {
             console.log('init', tokenResponse)
             access_token = tokenResponse.access_token
             setAccessToken(tokenResponse.access_token)
+            localStorage.setItem('abc2book_lastuser',tokenResponse.scope)
             //console.log('init set token', tokenResponse.access_token)
             //client.requestAccessToken();
             
@@ -305,10 +317,13 @@ export default function useGoogleSheet(props) {
     } 
 
     function getToken() {
+      //console.log('get token',client)
+      //return
       if (checkOnlineStatus()) { 
-        console.log('get token',client)
+        //console.log('get token real',client)
         if (client) {
-          client.requestAccessToken();
+          var token = client.requestAccessToken();
+          
         } else {
            initClient()
         }
@@ -316,10 +331,11 @@ export default function useGoogleSheet(props) {
     }
     function revokeToken() {
       clearTimeout(recurseLoadSheetTimeout)
+      localStorage.setItem('abc2book_lastuser','')
       setLoginUser(null)
-      global.window.google.accounts.oauth2.revoke(accessToken, () => {console.log('access token revoked')});
       setAccessToken(null)
       access_token = null;
+      global.window.google.accounts.oauth2.revoke(accessToken, () => {console.log('access token revoked')});
       
     }
     

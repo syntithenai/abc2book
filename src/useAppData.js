@@ -12,6 +12,7 @@ export default function useAppData() {
   }
   const [pageMessage, setPageMessageInner] = useState('')  
   var messageTimeout = null
+  
   const [waiting, setWaiting] = useState('') 
   function startWaiting() {
     setWaiting(true)
@@ -19,6 +20,7 @@ export default function useAppData() {
   function stopWaiting() {
     setWaiting(false)
   }
+  
   function setPageMessage(message,timeout=0) {
       setPageMessageInner(message)
       if (timeout > 0) {
@@ -106,7 +108,7 @@ export default function useAppData() {
      }
   }
   
-  
+  const [viewMode, setViewMode] = useState('music')
   const [tunes, setTunesInner] = useState(utils.loadLocalObject('bookstorage_tunes'));
   function setTunes(val) {
     setTunesInner(val)
@@ -114,6 +116,6 @@ export default function useAppData() {
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, showTempo, setShowTempo} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, showTempo, setShowTempo, viewMode, setViewMode} 
   
 }

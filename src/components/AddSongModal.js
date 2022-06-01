@@ -5,6 +5,7 @@ function AddSongModal(props) {
   const [show, setShow] = useState(props.show ==="addTune");
   const [songTitle, setSongTitle] = useState('')
   const [songWords, setSongWords] = useState('')
+  const [songComposer, setSongComposer] = useState('')
   const [songNotes, setSongNotes] = useState('')
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -19,7 +20,7 @@ function AddSongModal(props) {
           return false
         }
     })
-    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n")}
+    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, meter:'4/4'}
     //console.log('ADD TUNE',t)
     props.tunebook.saveTune(t); 
     props.setFilter('') ; 
@@ -48,10 +49,11 @@ function AddSongModal(props) {
            <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
-          <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} />
-          <span style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button variant="success" onClick={addTune} >Add</Button>}
+          <label>Title <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
+          <label>Composer <input type="text" value={songComposer} onChange={function(e) {setSongComposer(e.target.value) }} /></label>
+          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button variant="success" onClick={addTune} >Add</Button>}
           {(songTitle.length === 0) &&<Button variant="secondary" >Add</Button>}
-          </span>
+          </div>
           <label>Lyrics<textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
           <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
           

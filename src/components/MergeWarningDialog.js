@@ -16,7 +16,7 @@ return <Modal.Dialog
          {Object.keys(props.sheetUpdateResults.localUpdates).length ?<div><b>{Object.keys(props.sheetUpdateResults.localUpdates).length}</b> items updated locally will be saved</div>: ''}
          {Object.keys(props.sheetUpdateResults.inserts).length ? <div><b>{Object.keys(props.sheetUpdateResults.inserts).length}</b> items will be inserted</div>: ''}
         {Object.keys(props.sheetUpdateResults.updates).length ?<div><b>{Object.keys(props.sheetUpdateResults.updates).length}</b> items will be updated</div>: ''}
-        {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> items will be deleted</div>: ''}
+        {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> new items will be saved</div>: ''}
        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
           <Button variant="danger" onClick={props.closeWarning} >Logout</Button>
@@ -35,7 +35,7 @@ return <Modal.Dialog
               return <div key={k} >{v.name}</div>
             })}
           </Tab>
-          <Tab eventKey="deletes" title="Deleted" >
+          <Tab eventKey="deletes" title="New tunes" >
           {Object.values(props.sheetUpdateResults.deletes).map(function(v,k) {
               return <div key={k} >{v.name}</div>
             })}

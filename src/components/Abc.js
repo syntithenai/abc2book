@@ -649,83 +649,86 @@ export default function Abc(props) {
       //console.log('render abc', abcTune, inputEl.current)
       
       
-      
-      var renderOptions = {
-        add_classes: true,
-        responsive: "resize",
-        generateDownload: true,
-        synth: {
-            el: "#audio",
-            
-        },
-        //soundFontUrl: 'soundfont/'
-        clickListener:clickListener,
-        selectTypes: ['note','tempo']
-      }
-      var tune = props.tunebook.abcTools.abc2json(abcTune)
-      if (tune.transpose > 0 || tune.transpose < 0 ) {
-        renderOptions.visualTranspose= tune.transpose
-      }
-      //console.log('SS',props.scale)
-      if (props.scale && props.scale > 0) {
-        renderOptions.scale = props.scale
-      }
-      //console.log("OPT",tune.transpose,'f',renderOptions)
-      //abcjsParams: {"selectTypes":false,"visualTranspose":0},
-  //synth: {
-    //el: "#audio",
-    //options: {
-      //displayRestart: true, displayPlay: true, displayProgress: true,
-      //options: {"midiTranspose":0}
-    //}
-  //},
-      
-      //console.log('use tab?', tune.tablature, props.tunebook.abcTools.tablatureConfig)
-      if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
+      try {
+        var renderOptions = {
+          add_classes: true,
+          responsive: "resize",
+          generateDownload: true,
+          synth: {
+              el: "#audio",
+              
+          },
+          //soundFontUrl: 'soundfont/'
+          clickListener:clickListener,
+          selectTypes: ['note','tempo']
+        }
+        var tune = props.tunebook.abcTools.abc2json(abcTune)
+        if (tune.transpose > 0 || tune.transpose < 0 ) {
+          renderOptions.visualTranspose= tune.transpose
+        }
+        //console.log('SS',props.scale)
+        if (props.scale && props.scale > 0) {
+          renderOptions.scale = props.scale
+        }
+        //console.log("OPT",tune.transpose,'f',renderOptions)
+        //abcjsParams: {"selectTypes":false,"visualTranspose":0},
+    //synth: {
+      //el: "#audio",
+      //options: {
+        //displayRestart: true, displayPlay: true, displayProgress: true,
+        //options: {"midiTranspose":0}
+      //}
+    //},
         
-        renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
-      } 
-      if (props.tempo > 0) tune.tempo = props.tempo 
-      var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
+        //console.log('use tab?', tune.tablature, props.tunebook.abcTools.tablatureConfig)
+        if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
           
-      var o = res && res.length > 0 ? res[0] : null
-      //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
-      if (o) {
-          if (props.onWarnings) props.onWarnings(o.warnings)
-          if (props.tempo) {
+          renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
+        } 
+        if (props.tempo > 0) tune.tempo = props.tempo 
+        var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
             
-            //props.audioProps.
-             setVisualObj(o)
-             setStarted(true)
-             var hash = props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
-             if (hash !== audioChangedHash) {
-              //console.log('RENDER TUNE AUDIODDD')
-              setAudioChangedHash(hash)
-              createPlayer(o, props.tempo, props.meter).then(function(p) {
-                    //console.log("CREATED PLAYER")
-                   var [audioContext, midiBuffer, timingCallbacks, cursor] = p
-                   assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
-                   if (props.autoStart && started) {
-                     setIsPlaying(true)
-                     if (props.onStarted) props.onStarted()
-                   }
+        var o = res && res.length > 0 ? res[0] : null
+        //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
+        if (o) {
+            if (props.onWarnings) props.onWarnings(o.warnings)
+            if (props.tempo) {
+              
+              //props.audioProps.
+               setVisualObj(o)
+               setStarted(true)
+               var hash = props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
+               if (hash !== audioChangedHash) {
+                //console.log('RENDER TUNE AUDIODDD')
+                setAudioChangedHash(hash)
+                createPlayer(o, props.tempo, props.meter).then(function(p) {
+                      //console.log("CREATED PLAYER")
+                     var [audioContext, midiBuffer, timingCallbacks, cursor] = p
+                     assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
+                     if (props.autoStart && started) {
+                       setIsPlaying(true)
+                       if (props.onStarted) props.onStarted()
+                     }
+                     
                    
-                 
-              }).catch(function(e) {
-                //console.log('REJECT CREATE PLAYER')
-                setReady(false)
-                setStarted(false)
-                //setIsPlaying(false)
-              })
+                }).catch(function(e) {
+                  //console.log('REJECT CREATE PLAYER')
+                  setReady(false)
+                  setStarted(false)
+                  //setIsPlaying(false)
+                })
+              } else {
+                //console.log('SKIP RENDER TUNE AUDIO no hash change')
+                setReady(true)
+              }
             } else {
-              //console.log('SKIP RENDER TUNE AUDIO no hash change')
-              setReady(true)
+              //console.log('SKIP RENDER TUNE AUDIO NO TEMPO')
             }
-          } else {
-            //console.log('SKIP RENDER TUNE AUDIO NO TEMPO')
-          }
+        }
+         //setSeekTo(0)
+      } catch (e) {
+        console.log('RENDER EXC',e)
       }
-       //setSeekTo(0)
    }
   }
   

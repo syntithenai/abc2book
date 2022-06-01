@@ -151,6 +151,11 @@ var useAbcTools = () => {
                             tune.noteLength = line.slice(2).trim()
                         }
                         break
+                    case "C":
+                        if (!tune.composer) {
+                            tune.composer = line.slice(2).trim()
+                        }
+                        break
                     case "K":
                         if (!tune.key) tune.key = line.slice(2).trim()
                         break
@@ -260,6 +265,7 @@ var useAbcTools = () => {
         //console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
+                    + ensure(tune.composer, "C:" + ensureText(tune.composer) + "\n" )
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
@@ -325,6 +331,7 @@ var useAbcTools = () => {
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + "T: " + ensureText(tune.name) + "\n" 
+                    + (tune.composer ? "C:" + tune.composer + "\n" :  '' )
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
@@ -1150,15 +1157,15 @@ var useAbcTools = () => {
     
     
     const tablatureConfig = {
-    'violin': {
-      instrument: "violin",
-      tuning: ["G,", "D", "A", "e"],
-    },
-    'guitar': {
-      instrument: "guitar",
-      tuning: ["E,", "A,", "D", "G", "B", "e"]
-    }
-  }
+        'violin': {
+          instrument: "violin",
+          tuning: ["G,", "D", "A", "e"],
+        },
+        'guitar': {
+          instrument: "guitar",
+          tuning: ["E,", "A,", "D", "G", "B", "e"]
+        }
+      }
   
   function getTuneHash(tune) {
     var voicesAndNotes=[]
@@ -1188,7 +1195,274 @@ var useAbcTools = () => {
     return res
 
   }
+  
+  
+  function parseAbcToBeats(abcAll) {        
+        //console.log('parseabc',abcAll)
+        //var tb = new abcjs.TuneBook(abc)
+        //var tuneObj = abcjs.parseOnly(abc)[0];
+        var measureTotals = []
+        var measureBeats = []
+        var chords = []
+        var preText = []
+        
+        var abcHeader = "X:0\nK:G\n"
+        abcAll.split("\n").forEach(function(abc, lineNumber) {
+            //console.log('try measure',abc)
+            var measuresRaw = abcjs.extractMeasures(abcHeader + abc)
+            var measures = measuresRaw[0].measures
+            //console.log('mult',tuneObj.makeVoicesArray())
+            //console.log('mult2',lineNumber, measuresRaw) //, [measures[0].abc, measures[1].abc, measures[2].abc, measures[3].abc].join(""))
+            if (Array.isArray(measures)) {
+                var newMeasures = measures.map(function(m,mk) {
+                  //console.log('mult2',lineNumber,mk,m)
+                  if (!Array.isArray(measureTotals[lineNumber])) measureTotals[lineNumber] = []
+                  if (!Array.isArray(measureBeats[lineNumber])) measureBeats[lineNumber] = []
+                  if (!Array.isArray(chords[lineNumber])) chords[lineNumber] = []
+                  if (!Array.isArray(preText[lineNumber])) preText[lineNumber] = []
+                  
+                  if (!Array.isArray(measureTotals[lineNumber][mk])) measureTotals[lineNumber][mk] = new Fraction(0,1)
+                  var noteLength = getNoteLengthFraction()
+                  var noteLengthsPerBar = getNoteLengthsPerBar().numerator
+                  //console.log('noteLengthsPerBar',noteLengthsPerBar)
+                  if (!Array.isArray(measureBeats[lineNumber][mk])) measureBeats[lineNumber][mk] = new Array(noteLengthsPerBar)
+                  if (!Array.isArray(chords[lineNumber][mk])) chords[lineNumber][mk] = new Array(noteLengthsPerBar)
+                  if (!Array.isArray(preText[lineNumber][mk])) preText[lineNumber][mk] = new Array(noteLengthsPerBar)
+                  
+                  var abc = m.abc
+                  var c = 0
+                  //var newAbc = []
+                  var inQuote = false
+                  var inCurlyBracket = false
+                  var inSquareBracket = false
+                  while (c < abc.length) {
+                    var modifier = ''
+                    var symbol = abc[c]
+                    if (symbol === '"') {
+                        inQuote =!inQuote
+                    }
+                    if (symbol === '{') {
+                        inCurlyBracket = true
+                    }
+                    if (symbol === '}') {
+                        inCurlyBracket = false
+                    }
+                    if (symbol === '[') {
+                        inSquareBracket = true
+                    }
+                    if (symbol === ']') {
+                        inSquareBracket = false
+                    }
+                    var newSymbol = null
+                    var nextSymbol = abc[c+1]
+                    var nextNextSymbol = null
+                    var nextNextNextSymbol = null
+                    var nextNextNextNextSymbol = null
+                    
+                    function handleFraction(finalFraction, symbol) {
+                        //console.log("noteLength", noteLength)
+                        //var noteLengthFractionsInBar = measureTotals[lineNumber][mk].numerator % measureTotals[lineNumber][mk].denominator
+                        
+                        //var beatTotal = measureTotals[lineNumber][mk].divide(noteLength)
+                        //var whole = Math.floor(measureTotals[lineNumber][mk].numerator / measureTotals[lineNumber][mk].denominator)
+                        //var remainder = adjusted.numerator % adjusted.denominator
+                        //if (remainder === 0) beatNumber--
+                        //var beatNumber = 0
+                        //console.log("WHOLE",  measureTotals[lineNumber][mk], adjusted, beatNumber)
+                        var noteLength = getNoteLengthFraction()
+                        var adjusted = measureTotals[lineNumber][mk].divide(noteLength)
+                        var beatNumber = Math.floor(adjusted.numerator / adjusted.denominator)
+                        if (!Array.isArray(measureTotals[lineNumber][mk][beatNumber])) {
+                            measureTotals[lineNumber][mk][beatNumber] = []
+                        }
+                        if (!Array.isArray(measureBeats[lineNumber][mk][beatNumber])) {
+                            measureBeats[lineNumber][mk][beatNumber] = []
+                        }
+                        measureTotals[lineNumber][mk][beatNumber].push(symbol+abcFraction(finalFraction.numerator,finalFraction.denominator))
+                        
+                        measureTotals[lineNumber][mk] = measureTotals[lineNumber][mk].add(finalFraction.multiply(noteLength))
+                        measureBeats[lineNumber][mk][beatNumber].push(symbol)
+                    }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc}
+                    
+                    
+                    // is this a note ?
+                    if (!inQuote && !inCurlyBracket && !inSquareBracket &&isNoteLetter(symbol)) {
+                        // are there more letters after this note ?
+                        if (c < abc.length + 1) {
+                            nextSymbol = abc[c+1]
+                            // is the extra letter an octave modifier
+                            if (isOctaveModifier(nextSymbol)) {
+                                var modifier = abc[c+1]
+                                nextSymbol = abc[c+2]
+                                // grab some extra letters for fraction parser
+                                if (c < abc.length + 3) {
+                                    nextNextSymbol = abc[c+3]
+                                    
+                                    if (c < abc.length + 4) {
+                                        nextNextNextSymbol = abc[c+4]
+                                    }
+                                    if (c < abc.length + 5) {
+                                        nextNextNextNextSymbol = abc[c+5]
+                                    }                                
+                                    
+                                }
+                                var result = symbolsToFraction(nextSymbol, nextNextSymbol,nextNextNextSymbol,nextNextNextNextSymbol) 
+                                var finalFraction = new Fraction(result.number.top,result.number.bottom)
+                                //var m = props.tunebook.abcTools.decimalToFraction(multiplier)
+                                //var multiplierFraction = new Fraction(m.top,m.bottom)
+                                //var finalFraction = props.tunebook.abcTools.asFraction.multiply(multiplierFraction)
+                                handleFraction(finalFraction)
+                                //newAbc.push(symbol + modifier + props.tunebook.abcTools.abcFraction(finalFraction.numerator, finalFraction.denominator))
+                                c = c + result.symbolsUsed  + 2
+                                
+                            // first extra letter isn't an octave modifier
+                            } else {
+                                if (c < abc.length + 2) {
+                                    nextNextSymbol = abc[c+2]
+                                    if (c < abc.length + 3) {
+                                        nextNextNextSymbol = abc[c+3]
+                                        if (c < abc.length + 4) {
+                                        nextNextNextSymbol = abc[c+4]
+                                        }
+                                        if (c < abc.length + 5) {
+                                            nextNextNextNextSymbol = abc[c+5]
+                                        }   
+                                    }
+                                }
+                                var result = symbolsToFraction(nextSymbol, nextNextSymbol,nextNextNextSymbol,nextNextNextNextSymbol) 
+                                var finalFraction = new Fraction(parseInt(result.number.top),parseInt(result.number.bottom))
+                                //var m = props.tunebook.abcTools.decimalToFraction(multiplier)
+                                //var multiplierFraction = new Fraction(parseInt(m.top),parseInt(m.bottom))
+                                //var finalFraction = props.tunebook.abcTools.asFraction.multiply(multiplierFraction)
+                                handleFraction(finalFraction, symbol + modifier + abcFraction(finalFraction.numerator, finalFraction.denominator))
+                                
+                                //newAbc.push(symbol + modifier + props.tunebook.abcTools.abcFraction(finalFraction.numerator, finalFraction.denominator))
+                                c = c + result.symbolsUsed  + 1
+                            }
+                        // just the note with no following letters
+                        } else {
+                            var finalFraction=getNoteLengthFraction()
+                            handleFraction(finalFraction, symbol)
+                            //newAbc.push(symbol)
+                            c++
+                        }
+                    // not a note, push the letter through 
+                    } else if (inQuote && symbol !== '"') {
+                        //console.log('in quote',symbol)
+                        var noteLength = getNoteLengthFraction()
+                        var adjusted = measureTotals[lineNumber][mk].divide(noteLength)
+                        var beatNumber = Math.floor(adjusted.numerator / adjusted.denominator)
+                        if (!Array.isArray(chords[lineNumber][mk][beatNumber])) {
+                            chords[lineNumber][mk][beatNumber] = []
+                        }
+                        chords[lineNumber][mk][beatNumber].push(symbol)
+                        c++
+                    } else {
+                        if (symbol !== '\"') {
+                            var noteLength = getNoteLengthFraction()
+                            var adjusted = measureTotals[lineNumber][mk].divide(noteLength)
+                            var beatNumber = Math.floor(adjusted.numerator / adjusted.denominator)
+                            if (!Array.isArray(preText[lineNumber][mk][beatNumber])) {
+                                preText[lineNumber][mk][beatNumber] = []
+                            }
+                            preText[lineNumber][mk][beatNumber].push(symbol)
+                        }
+                        //newAbc.push(symbol)
+                        c++
+                    }
+                  }
+                  //m.abc = newAbc.join('')
+                  //return m 
+                })
+                
+                
+            }
+        })
+        //console.log('PARSE',measureBeats)
+        //console.log('CHORDS',chords)
+        //console.log('pretext',preText)
+        return [measureTotals,measureBeats, chords, preText]
+        //return generateAbcFromMeasures(newMeasures)
+    }
+  
+    function getNoteLengthFraction(tune) {
+        if (tune && tune.noteLength) {
+            var noteLengthParts = tune.noteLength.split("/")
+            if (noteLengthParts == 2) {
+                return new Fraction(noteLengthParts[0],noteLengthParts[1])
+            } else {
+                return new Fraction(1,8)
+            }
+        }
+        return new Fraction(1,8)
+    }
+    
+    function getNoteLengthsPerBar(tune) {
+        var noteLength = getNoteLengthFraction()
+         var meterParts=tune && tune.meter ? tune.meter.trim().split("/") : ['4','4']
+         if (meterParts.length === 2) {
+             var meterFraction = new Fraction(meterParts[0],meterParts[1])
+             var noteLengthsPerBar = meterFraction.divide(noteLength)
+             return noteLengthsPerBar
+        }
+        return 1
+    }
+    
+    function renderChords(chords, useDots = true) {
+        //console.log(chords)
+        if (Array.isArray(chords)) {
+            var lastChord = null
+            return chords.map(function(chordLines,clk) {
+                // iterate bars
+                    return chordLines.map(function(chordBeats,cbk) {
+                        //console.log('CBB',cbk,chordBeats)
+                        if (Array.isArray(chordBeats)) {
+                            // iterate beats in bar
+                            var beats= []
+                            for (var clk = 0; clk < chordBeats.length; clk++) {
+                                
+                                var chordLetters = chordBeats[clk]
+                                //console.log('B',cbk,clk, chordLetters)
+                                if (chordLetters) {
+                                //return chordBeats.map(function(chordLetters,clk) {
+                                    var found = false
+                                    for (var i = chordLetters.length; i >= 0; i--) {
+                                        if (!found && isChord(chordLetters.join('').slice(0,i))) {
+                                            beats.push(chordLetters.join('').slice(0,i))
+                                            lastChord = chordLetters.join('').slice(0,i)
+                                            found = true
+                                        }
+                                    }
+                                    //if (!found && useDots)  beats.push('.')
+                                    if (!found) {
+                                        if (clk === 0 && lastChord) {
+                                            beats.push(lastChord)
+                                        } else if (useDots) {
+                                            beats.push('.')
+                                        }
+                                    } 
+                                } else {
+                                    if (clk === 0 && lastChord) {
+                                        beats.push(lastChord)
+                                    } else if (useDots) {
+                                        beats.push('.')
+                                    }
+                                }
+                            }
+                            return beats.join(" ")
+                        
+                        } else {
+                            var noteLength = getNoteLengthFraction()
+                            var filler = new Array(noteLength.denominator)
+                            if (useDots) filler.fill('.')
+                            return filler.join(" ")
+                        }
+                    }).join("|")
+                }).join("\n")
+            }
+    }
+
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords}
 }
 export default useAbcTools;

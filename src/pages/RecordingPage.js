@@ -3,6 +3,7 @@ import {Button, Form} from 'react-bootstrap'
 import {useState, useEffect, useRef} from 'react'
 import WaveformPlaylist from "waveform-playlist";
 import NewRecordingDialog from '../components/NewRecordingDialog'
+import {isMobile} from 'react-device-detect';
 
 export default function RecordingPage(props) {
     var params = useParams()
@@ -150,7 +151,7 @@ export default function RecordingPage(props) {
     
 
 
-    <div className="btn-group" style={{marginLeft:'0.5em'}} >
+    {!isMobile && <div className="btn-group" style={{marginLeft:'0.5em'}} >
       <Button
         title="Seek Mode"
         variant="outline-primary"
@@ -177,7 +178,7 @@ export default function RecordingPage(props) {
         variant="info"
         onClick={function() {setIsChanged(true); ee.emit('trim')}}
       >Trim</Button>}
-    </div>
+    </div>}
     
               
                 <Link style={{marginLeft:'1em'}}  to="/recordings" ><Button

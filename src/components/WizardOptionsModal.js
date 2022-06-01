@@ -18,9 +18,20 @@ function WizardOptionsModal(props) {
   function applyToNotes(applyFunction) {
      var tune = props.tune
      if (tune && tune.voices) {
-       //console.log('applyVVVV',tune.voices)
+       console.log('applyVVVV',tune.voices)
+       
        Object.keys(tune.voices).map(function(voice) {
-         var newNotes = applyFunction("X:8\nK:G\n"+tune.voices[voice].notes.join("\n"))
+         var hasTailingBar = false
+         if (voice.notes) voice.notes.forEach(function(noteLine) {
+           if (noteLine.trim()) {
+              if (noteLine.trim().endsWith("|")) {
+                hasTailingBar = true
+              } else {
+                hasTailingBar = false
+              }
+           }
+         })
+         var newNotes = applyFunction("X:8\nK:G\n"+tune.voices[voice].notes.join("\n")+(hasTailingBar ? "|" : ''))
          //console.log('apply',tune.voices[voice].notes, newNotes)
          tune.voices[voice].notes = newNotes.split('\n')
        })

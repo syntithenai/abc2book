@@ -5,7 +5,19 @@ export default function useRecordingsManager({recordingTools}) {
   var store = localForage.createInstance({
     name: "recordings"
   });
- console.log('userecman',recordingTools)  
+  
+  
+    var mediaRecorder = useRef(null)
+    let chunks = [];
+    
+    var outputvolume = 1.0
+    let speakerContext = null
+    var speakerGainNode = null;
+    var bufferSource = null;
+    var audio = useRef(null)
+    
+
+ //console.log('userecman',recordingTools)  
   function generateObjectId(otherId) {
       var timestamp = otherId ? otherId.toString(16) : (new Date().getTime() / 1000 | 0).toString(16);
       
@@ -124,6 +136,7 @@ export default function useRecordingsManager({recordingTools}) {
   
   
   function listRecordings() {
+    //console.log('list');
     return new Promise(function(resolve,reject) {
       //resolve([
         //{id:'234234', title:'test1', data: [], tuneId: '22222', createdTimestamp : new Date().getTime()},
@@ -133,6 +146,7 @@ export default function useRecordingsManager({recordingTools}) {
       store.iterate(function(value, key, iterationNumber) {
           //console.log([key, value]);
           if (value) {
+            value.bitLength = value.data ? value.data.size : 0
             delete value.data  // don't return data with list
             final.push(value)
           }
@@ -148,11 +162,13 @@ export default function useRecordingsManager({recordingTools}) {
   }
   
   function listRecordingsByTuneId(tuneId) {
+    //console.log('list id',tuneId);
     return new Promise(function(resolve,reject) {
       var final = []
       store.iterate(function(value, key, iterationNumber) {
-          console.log([key, value]);
+          //console.log([key, value]);
           if (value && value.tuneId && value.tuneId === tuneId) {
+            value.bitLength = value.data ? value.data.size : 0
             delete value.data  // don't return data with list
             final.push(value)
           }
@@ -168,13 +184,15 @@ export default function useRecordingsManager({recordingTools}) {
   }
   
   function searchRecordingsByTitle(title) {
+    //console.log('list searc',title);
     return new Promise(function(resolve,reject) {
       var final = []
       store.iterate(function(value, key, iterationNumber) {
           //console.log([key, value]);
           if (value && value.title && value.title === title) {
-            delete value.data  // don't return data with list
-            final.push(value)
+             value.bitLength = value.data ? value.data.size : 0
+             delete value.data  // don't return data with list
+             final.push(value)
           }
       }).then(function() {
           //console.log('search name has completed', final);
@@ -186,10 +204,7 @@ export default function useRecordingsManager({recordingTools}) {
       });
     })
   }
-
-    var mediaRecorder = useRef(null)
-    let chunks = [];
-    
+ 
     function stopRecording() {
       return new Promise(function(resolve,reject) {
         if (mediaRecorder.current) mediaRecorder.current.stop();
@@ -229,13 +244,7 @@ export default function useRecordingsManager({recordingTools}) {
         }
       })
     }
-    
-    var outputvolume = 1.0
-    let speakerContext = null
-    var speakerGainNode = null;
-    var bufferSource = null;
-    var audio = null
-    
+   
     function playRecording(recordingId, onEnded) {
       //downloadRecording(recordingId)
         //if (blob == null) {
@@ -245,9 +254,9 @@ export default function useRecordingsManager({recordingTools}) {
             //console.log('play',rec, rec.data)
             //if (rec) {
               var url = window.URL.createObjectURL(rec.data) //rec.data);
-              audio = new Audio(url);
-              audio.onended = onEnded
-              audio.play();
+              audio.current = new Audio(url);
+              audio.current.onended = onEnded
+              audio.current.play();
             //}
             //playBytes(rec.data)
         })
@@ -256,8 +265,11 @@ export default function useRecordingsManager({recordingTools}) {
     
     
     function stopPlayRecording() {
-      audio.pause()
-      audio.currentTime = 0;
+      //console.log('stop play rec',audio.current)
+      if (audio.current) {
+        audio.current.pause()
+        audio.currentTime = 0;
+      }
     }
 
     function downloadRecording (recordingId) {

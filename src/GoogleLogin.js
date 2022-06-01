@@ -44,7 +44,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
             callback(postRes)
             console.log(postRes)
           }).catch(function(e) {
-            getToken()
+            //getToken()
           })
         }
       }
@@ -60,7 +60,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
             callback(postRes)
             console.log(postRes)
           }).catch(function(e) {
-            getToken()
+            //getToken()
           })
         }
           
@@ -84,7 +84,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
           updateSheetById(postRes.data.id, {abc: tunebook.toAbc()}, function(updated) {
             //props.mergeLoadedSheet(postRes)
           }, accessToken ? accessToken : access_token).catch(function(e) {
-            getToken()
+            //getToken()
           })
           
         })
@@ -115,7 +115,7 @@ export default function GoogleLogin({tunebook, mergeLoadedSheet}) {
       }
        //application/vnd.google-apps.spreadsheet
       initClient()
-      getToken()
+      //getToken()
     } 
     
     

@@ -7,9 +7,10 @@ export default function RecordingsPage(props) {
     const  [recordings , setRecordings] = useState([])
     const  [searchText , setSearchText] = useState('')
     
-    console.log(props)
+    //console.log(props)
     function loadRecordings() {
       props.tunebook.recordingsManager.listRecordings().then(function(recordings) {
+        console.log("listed", recordings)
           if (searchText && searchText.length > 0) {
             setRecordings(
               recordings
@@ -59,14 +60,15 @@ export default function RecordingsPage(props) {
         {recordings.map(function(recording, rk) {
               return <ListGroup.Item className={rk %2 === 1 ? 'odd' : 'even'} key={rk} >
                 <Link to={'/recordings/'+recording.id} ><b>{recording.title}</b>  <span style={{marginLeft:'1.5em',fontSize:'0.8em'}}>{new Date(recording.createdTimestamp).toLocaleDateString()} {new Date(recording.createdTimestamp).toLocaleTimeString()}</span></Link>
+                <span style={{marginLeft:'1em'}} >{recording.bitLength ? Math.floor(recording.bitLength/1024) + "Kb" : ''}</span>
+                <span style={{width:'30%'}} >
+                  <span style={{float:'right',marginRight:'0.1em'}} ><QuickPlayButton tunebook={props.tunebook} recording={recording} /></span>
+                  
+                  <Button style={{float:'right',marginRight:'0.1em'}}  onClick={function() {props.tunebook.recordingsManager.downloadRecording(recording.id)}} >{props.tunebook.icons.save}</Button>
                 
-                <span style={{float:'right',marginRight:'1em'}} ><QuickPlayButton tunebook={props.tunebook} recording={recording} /></span>
-                
-                <Button style={{float:'right',marginRight:'1em'}}  onClick={function() {props.tunebook.recordingsManager.downloadRecording(recording.id)}} >{props.tunebook.icons.save}</Button>
-              
-                
-                <Button style={{float:'right',marginRight:'1em'}} variant="danger" onClick={function(e) {props.tunebook.recordingsManager.deleteRecording(recording); loadRecordings()}}>{props.tunebook.icons.deletebin}</Button>
-                
+                  
+                  <Button style={{float:'right',marginRight:'0.1em'}} variant="danger" onClick={function(e) {props.tunebook.recordingsManager.deleteRecording(recording); loadRecordings()}}>{props.tunebook.icons.deletebin}</Button>
+                </span>
             </ListGroup.Item>
             
         })}

@@ -49,6 +49,11 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
       if (tune && tune.id) {
         loadRecordings()
       }
+      return function() {
+        //console.log('button unload',isPlaying)
+        ////clickStop()
+        //clickStopPlaying()
+      }
     },[])
     
     var RecordingDropdown = function() {

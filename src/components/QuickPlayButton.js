@@ -7,6 +7,14 @@ export default function QuickPlayButton(props) {
     
     const [started, setStarted] = useState()
     
+    useEffect(function() {
+       return function() {
+         props.tunebook.recordingsManager.stopPlayRecording()
+         props.tunebook.recordingsManager.stopRecording()
+       }
+     },[]) 
+    
+  
     function clickPlay(e) {
       setStarted(true)
       props.tunebook.recordingsManager.playRecording(props.recording.id, function() {
@@ -22,6 +30,7 @@ export default function QuickPlayButton(props) {
     
     function clickStop(e) {
       setStarted(false)
+      //console.log('clickstop',props.tunebook.recordingsManager.stopPlayRecording)
       props.tunebook.recordingsManager.stopPlayRecording()
       //clickStopPlaying()
       //props.tunebook.recordingsManager.stopRecording(tune).then(function() {

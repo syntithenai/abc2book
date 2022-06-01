@@ -4,6 +4,7 @@ import abcjs from "abcjs";
 import {Tabs, Tab, Form, Button} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
+import ChordsWizard from './ChordsWizard'
 
 export default function AbcEditor(props) {
   const [abcText, setAbcText] = useState(props.abc);
@@ -25,7 +26,8 @@ export default function AbcEditor(props) {
   //var inputRefs = []
   const [warnings, setWarnings] = useState([])
   var [saveTimeout, setSaveTimeout] = useState(null)
-
+  
+  var [chordsChanged, setChordsChanged] = useState(false)
    
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
@@ -40,6 +42,9 @@ export default function AbcEditor(props) {
         //inputRefs.push(useRef)
       //})
     //}
+    //return function() {
+        //console.log('UNLOAD',chordsChanged)
+    //}
   }, [props.abc]);
   
   
@@ -48,7 +53,12 @@ export default function AbcEditor(props) {
   }
 
   function saveTune(tune) {
-     props.pushHistory(tune)
+    //console.log('savetune',tune)
+     try {
+      props.pushHistory(tune)
+     } catch (e) {
+       console.log(e)
+     }
      return props.tunebook.saveTune(tune)
   }
 
@@ -64,7 +74,7 @@ export default function AbcEditor(props) {
       tune.id = params.tuneId
       saveTune(tune) 
       //setTune(tune)
-      //console.log('SAVE NOTES',tune, voice, notes, v)
+      //console.log('SAVEd NOTES',tune, voice, notes, v)
     }
   }
     //setAbcTuneNotes(v); 
@@ -122,7 +132,18 @@ export default function AbcEditor(props) {
     var numVoices = Object.keys(tune.voices).length
     var key = (numVoices + 1) + ''
     tune.voices[key] = {meta:"", notes:''}
-    console.log('addvoice',numVoices,tune)
+    //console.log('addvoice',numVoices,tune)
+    saveTune(tune)
+    props.forceRefresh()
+  }
+
+
+  function deleteVoice(key) {
+    delete tune.voices[key]
+    //var numVoices = Object.keys(tune.voices).length
+    //var key = (numVoices + 1) + ''
+    //tune.voices[key] = {meta:"", notes:''}
+    //console.log('delvoice',key)
     saveTune(tune)
     props.forceRefresh()
   }
@@ -146,8 +167,7 @@ export default function AbcEditor(props) {
                       </Tabs> : ''}
                     </div>
                     <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
-                       
-                       <Abc audioRenderTimeout={10000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune && tune.tempo > 0 ? tune.tempo : null} meter={tune.meter} onClick={onAbcClick} />
+                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune && tune.tempo > 0 ? tune.tempo : null} meter={tune.meter} onClick={onAbcClick} />
                     </div>
                     
                     
@@ -158,6 +178,10 @@ export default function AbcEditor(props) {
                       <Form.Group className="mb-3" controlId="title">
                         <Form.Label>Title</Form.Label>
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
+                      </Form.Group>
+                      <Form.Group className="mb-3" controlId="title">
+                        <Form.Label>Composer</Form.Label>
+                        <Form.Control type="text" placeholder="" value={tune.composer ? tune.composer : ''} onChange={function(e) {tune.composer = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="key">
@@ -181,7 +205,7 @@ export default function AbcEditor(props) {
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="meter">
-                        <Form.Label>Meter</Form.Label>
+                        <Form.Label>Time Signature</Form.Label>
                         <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}  />
                       </Form.Group>
                       
@@ -233,11 +257,11 @@ export default function AbcEditor(props) {
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
-                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name} ><Button>Search Google</Button></a>
+                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+tune.composer} ><Button>Search Google</Button></a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
-                  <Tab eventKey="comments" title="Comments" >
-                    <textarea value={Array.isArray(tune.abccomments) ? tune.abccomments.join("\n") : ''} onChange={function(e) {tune.abccomments = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
+                  <Tab eventKey="chords" title="Chords" >
+                    <ChordsWizard tunebook={props.tunebook} tune={tune}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
                     <div style={{}} id="warnings">
@@ -268,6 +292,12 @@ export default function AbcEditor(props) {
     
   }
 }
+
+  //<Tab eventKey="comments" title="Comments" >
+    //<textarea value={Array.isArray(tune.abccomments) ? tune.abccomments.join("\n") : ''} onChange={function(e) {tune.abccomments = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
+  //</Tab>
+
+
 //
 //value={abc} onChange={function(e) {saveTune(params.tuneId, props.tunebook.abcTools.abc2json(e.target.value))}}
   //<Tab eventKey="books" title="Books">

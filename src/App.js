@@ -35,6 +35,7 @@ import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 
+import useRecordingsManager from './useRecordingsManager'
 
 
 
@@ -45,7 +46,7 @@ function App(props) {
   let utils = useUtils();
   let abcTools = useAbcTools();
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, showTempo, setShowTempo} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, showTempo, setShowTempo, viewMode, setViewMode} = useAppData()
   useServiceWorker()
     
   const indexes = useIndexes()
@@ -54,10 +55,11 @@ function App(props) {
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
     //console.log('apply',changes)
-    // save all inserts and updates, delete all deletes
-    Object.keys(deletes).forEach(function(d) {
-       delete tunes[d]
-    })
+    // save all inserts and updates
+    // , delete all deletes
+    //Object.keys(deletes).forEach(function(d) {
+       //delete tunes[d]
+    //})
     Object.keys(updates).map(function(u)  {
       if (updates[u] && updates[u].id) {
         tunes[updates[u].id] = updates[u]
@@ -67,14 +69,15 @@ function App(props) {
       tunes[tune.id] = tune
     })
     // any more recent changes locally get saved online
-    if (localUpdates && Object.keys(localUpdates).length > 0) {
+    if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
       updateSheet(0, accessToken)
     }
-    
-    buildTunesHash()
-    indexes.resetBookIndex()
-    indexes.indexTunes(tunes)
-    setSheetUpdateResults(null)
+    if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+      buildTunesHash()
+      indexes.resetBookIndex()
+      indexes.indexTunes(tunes)
+      setSheetUpdateResults(null)
+    }
   }
   
    /** 
@@ -169,8 +172,10 @@ function App(props) {
   var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, getRecording, createRecording, updateRecording,updateRecordingTitle, deleteRecording} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
   
   var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
+  const recordingsManager = useRef(useRecordingsManager({recordingTools}))
+  console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingTools})
+  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
 
@@ -189,7 +194,6 @@ function App(props) {
     }
     buildTunesHash()
     applyGoogleWindowInit()
-    
   },[])
   
   function closeWarning() {
@@ -265,7 +269,7 @@ function App(props) {
                         index 
                         element={<MusicPage setShowTempo={setShowTempo} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle setBeatsPerBar={setBeatsPerBar} tunes={tunes}   setShowTempo={setShowTempo}  forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} setBeatsPerBar={setBeatsPerBar} tunes={tunes}   setShowTempo={setShowTempo}  forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
                     </Route>  
                     
                     <Route  path={`editor`}     >

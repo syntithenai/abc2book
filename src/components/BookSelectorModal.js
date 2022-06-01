@@ -13,7 +13,7 @@ function BookSelectorModal(props) {
   
   var filterChangeTimeout = null
   function filterChange(value) {
-    setFilter(value)
+    setFilter(value.toLowerCase())
     if (value.trim() === '') {
       setOptions(props.defaultOptions())
     } else {
