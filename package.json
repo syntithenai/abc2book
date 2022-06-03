@@ -19,6 +19,7 @@
     "jwt-decode": "^3.1.2",
     "localforage": "^1.10.0",
     "mathjs": "^10.5.2",
+    "puppeteer": "^14.2.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.3.0",
     "react-device-detect": "^2.2.2",
@@ -29,6 +30,7 @@
     "react-swipeable": "^7.0.0",
     "react-tag-autocomplete": "^6.3.0",
     "use-double-click": "^1.0.5",
+    "waveform-playlist": "^4.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

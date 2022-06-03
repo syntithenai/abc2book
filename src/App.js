@@ -37,9 +37,11 @@ import {isMobile} from 'react-device-detect';
 
 import useRecordingsManager from './useRecordingsManager'
 
-
+import GoogleLogin from './GoogleLogin'
 
 function App(props) {
+  
+  //return <GoogleLogin />
   
   let params = useParams();
   let dbTunes = {}
@@ -169,13 +171,16 @@ function App(props) {
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
-  var {applyGoogleWindowInit, updateSheet, loadSheet, initClient, getToken, revokeToken, loginUser, accessToken, getRecording, createRecording, updateRecording,updateRecordingTitle, deleteRecording} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
+  var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button' })
   
-  var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
-  const recordingsManager = useRef(useRecordingsManager({recordingTools}))
+  var {updateSheet} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
+  
+  //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
+  const recordingsManager = useRef(useRecordingsManager({token, user}))
   console.log("app",recordingsManager)
   
   var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
+  
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
 
@@ -193,7 +198,7 @@ function App(props) {
       //.then(function(loadedIndex) {setTextSearchIndex(loadedIndex)})
     }
     buildTunesHash()
-    applyGoogleWindowInit()
+    //applyGoogleWindowInit()
   },[])
   
   function closeWarning() {
@@ -286,7 +291,7 @@ function App(props) {
                   
               </div>
               
-              <Footer tunebook={tunebook} accessToken={accessToken} loginUser={loginUser} revokeToken={revokeToken} initClient={initClient} getToken={getToken} />
+              <Footer tunebook={tunebook} token={token ? token.access_token : null} logout={logout} login={login} />
             </Router>
 
             <div id="bottomofpage" ></div>

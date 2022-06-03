@@ -15,7 +15,10 @@ lookup  a list of  tunes on thesession.org and generate a printable book
 - http://www.fresnostate.edu/folklore/Olson/
 - http://www.kiwifolk.org.nz/tunes.html
 - http://www.stephenmerrony.co.uk/ABC/Carols/
+
 - https://sheetmusic-free.com/
+http://jimsrootsandblues.com/fiddle-tune-notation/
+eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); console.log(abc)
 
 ## Code Libraries
 

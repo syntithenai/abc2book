@@ -190,22 +190,6 @@ export default function useGoogleSheet(props) {
       }
   }
     
-    function getGoogleSheetDataById(id,callback) {
-      //console.log('get da',id ,accessToken, access_token)
-      var useToken = accessToken ? accessToken : access_token
-      if (id && useToken) {
-        axios({
-          method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
-          headers: {'Authorization': 'Bearer '+useToken},
-        }).then(function(postRes) {
-          callback(postRes.data)
-          //console.log(postRes)
-        }).catch(function(e) {
-          if (localStorage.getItem('abc2book_lastuser')) getToken()
-        })
-      }
-    }
     
    
     function createTuneSheet() {
@@ -232,7 +216,43 @@ export default function useGoogleSheet(props) {
     }
     
     
+    function getGoogleSheetDataById(id,callback) {
+      //console.log('get da',id ,accessToken, access_token)
+      var useToken = accessToken ? accessToken : access_token
+      if (id && useToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          headers: {'Authorization': 'Bearer '+useToken},
+        }).then(function(postRes) {
+          callback(postRes.data)
+          //console.log(postRes)
+        }).catch(function(e) {
+          if (localStorage.getItem('abc2book_lastuser')) getToken()
+        })
+      }
+    }
+    
+     function getGoogleSheetMetaById(id,callback) {
+      console.log('get meta',id ,accessToken, access_token)
+      var useToken = accessToken ? accessToken : access_token
+      if (id && useToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id,
+          headers: {'Authorization': 'Bearer '+useToken},
+        }).then(function(postRes) {
+          callback(postRes.data)
+          //console.log(postRes)
+        }).catch(function(e) {
+          if (localStorage.getItem('abc2book_lastuser')) getToken()
+        })
+      }
+    }
+    
     function doLoad() {
+      getGoogleSheetMetaById(googleSheetId.current, function(sheetMeta) {
+        console.log('META',sheetMeta)
         getGoogleSheetDataById(googleSheetId.current, function(fullSheet) {
           //console.log('load sheet dotimeout got sheet',fullSheet.length)
           //if (recurseDelay > 0) loadSheet( recurseDelay)
@@ -242,6 +262,7 @@ export default function useGoogleSheet(props) {
             onMerge(fullSheet)
           //}
         })
+      })
     }
     
     function setupInterval() {

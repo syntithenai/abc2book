@@ -27,6 +27,7 @@ function AddSongModal(props) {
     setSongTitle('')
     setSongWords('')
     setSongNotes('')
+    setSongComposer('')
     props.forceRefresh()
     setTimeout(function() {
       props.tunebook.utils.scrollTo('bottomofpage')

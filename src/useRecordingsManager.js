@@ -1,20 +1,20 @@
 import * as localForage from "localforage";
 import {useState, useEffect, useRef} from 'react'
+import useGoogleDocument from './useGoogleDocument'
 
-export default function useRecordingsManager({recordingTools}) {
+export default function useRecordingsManager({token}) {
   var store = localForage.createInstance({
     name: "recordings"
   });
+  var docs = useGoogleDocument({token})
+  var mediaRecorder = useRef(null)
+  let chunks = [];
   
-  
-    var mediaRecorder = useRef(null)
-    let chunks = [];
-    
-    var outputvolume = 1.0
-    let speakerContext = null
-    var speakerGainNode = null;
-    var bufferSource = null;
-    var audio = useRef(null)
+  var outputvolume = 1.0
+  let speakerContext = null
+  var speakerGainNode = null;
+  var bufferSource = null;
+  var audio = useRef(null)
     
 
  //console.log('userecman',recordingTools)  
@@ -41,15 +41,16 @@ export default function useRecordingsManager({recordingTools}) {
     })
   }
   
-  function newRecording(title) {
+  function newRecording(title, audioData) {
     return new Promise(function(resolve,reject) {
       var recording = {}
       recording.title = title
       recording.id = generateObjectId()
+      recording.data = audioData
       recording.createdTimestamp = new Date().getTime()
       store.setItem(recording.id, recording).then(function (item) {
         if (recordingTools && recordingTools.createRecording) {
-          recordingTools.createRecording(recording).then(function(newId) {
+          docs.createDocument(title, audioData,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
             recording.googleId = newId
             store.setItem(recording.id, recording).then(function (item) {
               resolve(recording)
@@ -73,20 +74,15 @@ export default function useRecordingsManager({recordingTools}) {
         recording.createdTimestamp = new Date().getTime()
         store.setItem(recording.id, recording).then(function (item) {
           console.log('uprectit into store',recording)
-          if (recordingTools && recordingTools.updateRecordingTitle) {
-            if (recording.googleId) {
-              console.log('uprectit have google id',recording)
-              recordingTools.updateRecordingTitle(recording).then(function(newId) {
-                console.log('uprectit done online')
-                resolve()
-              })
-            } else {
+          if (recording.googleId) {
+            console.log('uprectit have google id',recording)
+            docs.updateDocument(recording.googleId,{name: recording.title}).then(function(newId) {
+              console.log('uprectit done online')
               resolve()
-            }
+            })
           } else {
             resolve()
           }
-          //return recording;
         }).catch(function (err) {
           console.log('serr',err)
           resolve()
@@ -106,14 +102,14 @@ export default function useRecordingsManager({recordingTools}) {
       store.setItem(recording.id, recording).then(function (item) {
         if (recordingTools && recordingTools.createRecording && recordingTools.updateRecording) {
           if (!recording.googleId) {
-            recordingTools.createRecording(recording).then(function(newId) {
+            docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
               recording.googleId = newId
               store.setItem(recording.id, recording).then(function (item) {
                 return recording;
               })
             })
           } else {
-            recordingTools.updateRecording(recording.googleId, recording.data)
+            docs.updateDocument(recording.googleId, recording.data)
           }
         }
         return recording;
@@ -127,7 +123,7 @@ export default function useRecordingsManager({recordingTools}) {
     if (window.confirm('Really delete this recording?')) {
         store.removeItem(recording.id).then(function (item) {
           if (recordingTools && recordingTools.deleteRecording) {
-            recordingTools.deleteRecording(recording.googleId)
+            docs.deleteDocument(recording.googleId)
           }
           return item;
         })
@@ -273,22 +269,6 @@ export default function useRecordingsManager({recordingTools}) {
     }
 
     function downloadRecording (recordingId) {
-        //if (blob == null) {
-          //console.log('noblob')
-            //return;
-        //}
-        
-         //var url = URL.createObjectURL(blob);
-
-        //var a = document.createElement("a");
-        //document.body.appendChild(a);
-        //a.style = "display: none";
-        //a.href = url;
-        //a.download = "sample.wav";
-        //a.click();
-        //window.URL.revokeObjectURL(url);
-        
-        
       loadRecording(recordingId).then(function(rec) {
         console.log('DL',rec, rec.data)
        

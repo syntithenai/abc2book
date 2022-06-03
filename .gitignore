@@ -10,3 +10,21 @@ old/
 build/
 
 .env
+
+scrape/jimsroots/
+
+scrape/jims_roots.js
+
+scrape/jimsroots.abc
+
+scrape/jimsroots0.abc
+
+scrape/jimsroots1.abc
+
+scrape/jimsroots2.1.abc
+
+scrape/jimsroots2.abc
+
+scrape/jimsroots3.1.abc
+
+scrape/jimsroots3.abc
