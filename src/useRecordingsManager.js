@@ -49,17 +49,12 @@ export default function useRecordingsManager({token}) {
       recording.data = audioData
       recording.createdTimestamp = new Date().getTime()
       store.setItem(recording.id, recording).then(function (item) {
-        if (recordingTools && recordingTools.createRecording) {
-          docs.createDocument(title, audioData,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
-            recording.googleId = newId
-            store.setItem(recording.id, recording).then(function (item) {
-              resolve(recording)
-            })
+        docs.createDocument(title, audioData,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
+          recording.googleId = newId
+          store.setItem(recording.id, recording).then(function (item) {
+            resolve(recording)
           })
-        } else {
-          resolve(null)
-        }
-        
+        })
       }).catch(function (err) {
         console.log('serr',err)
         // we got an error
@@ -100,17 +95,15 @@ export default function useRecordingsManager({token}) {
       }
       recording.createdTimestamp = new Date().getTime()
       store.setItem(recording.id, recording).then(function (item) {
-        if (recordingTools && recordingTools.createRecording && recordingTools.updateRecording) {
-          if (!recording.googleId) {
-            docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
-              recording.googleId = newId
-              store.setItem(recording.id, recording).then(function (item) {
-                return recording;
-              })
+        if (!recording.googleId) {
+          docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
+            recording.googleId = newId
+            store.setItem(recording.id, recording).then(function (item) {
+              return recording;
             })
-          } else {
-            docs.updateDocument(recording.googleId, recording.data)
-          }
+          })
+        } else {
+          docs.updateDocument(recording.googleId, recording.data)
         }
         return recording;
       }).catch(function (err) {
@@ -122,9 +115,7 @@ export default function useRecordingsManager({token}) {
   async function deleteRecording(recording) {
     if (window.confirm('Really delete this recording?')) {
         store.removeItem(recording.id).then(function (item) {
-          if (recordingTools && recordingTools.deleteRecording) {
-            docs.deleteDocument(recording.googleId)
-          }
+          docs.deleteDocument(recording.googleId)
           return item;
         })
     }

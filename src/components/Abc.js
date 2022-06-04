@@ -7,6 +7,7 @@ import ReactNoSleep from 'react-no-sleep';
 import AbcPlayButton from './AbcPlayButton'
 import Metronome from '../Metronome'
 import * as localForage from "localforage";
+import TempoControl from './TempoControl'
 const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
 const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
      
@@ -37,7 +38,7 @@ export default function Abc(props) {
     var metronomeTimeout = useRef(null)
     var metronome = useRef(null)
     var [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
-    
+    const [showTempo, setShowTempo] = useState(false)
 
     var gaudioContext = useRef(null)
     var gmidiBuffer = useRef(null)
@@ -340,7 +341,7 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
     
       return new Promise(function(resolve,reject) {
-          //console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
+          console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
           var midiBuffer
           if (visualObj) {
             //if (!midiBuffer) {
@@ -355,7 +356,7 @@ export default function Abc(props) {
                 midiBuffer = new abcjs.synth.CreateSynth()
             //}
           
-            //console.log('startok', visualObj,visualObj.visualTranspose)
+            console.log('startok', midiBuffer,visualObj,visualObj.visualTranspose)
             var count = 0
             
             
@@ -413,9 +414,11 @@ export default function Abc(props) {
                     //console.log('preinit prime tune primed', presponse, midiBuffer)
                     if (tune && tune.id) { 
                       saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
+                        console.log('created audio')
                         resolve(midiBuffer)
                       })
                     } else {
+                      //console.log('audio from cache')
                       resolve(midiBuffer)
                     }
                   })
@@ -440,7 +443,7 @@ export default function Abc(props) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        //console.log('GOT BUF',audioBuffers, duration)
+                        console.log('GOT BUF',audioBuffers, duration)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
@@ -582,7 +585,7 @@ export default function Abc(props) {
                           
                           //console.log('CREATE PLAYER HAVE TIMING AND CURSOR', timingCallbacks, cursor) 
                           
-                          //console.log('CREATE PLAYER primed',audioContext, midiBuffer, timingCallbacks, cursor)
+                          console.log('CREATE PLAYER primed',audioContext, midiBuffer, timingCallbacks, cursor)
                           resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
                       }).catch(function(e) {
                           console.log(e)
@@ -605,7 +608,10 @@ export default function Abc(props) {
   function clickListener(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
     console.log('CLICK ELEM',abcelem,abcelem.type) //props.onClickTempo,abcelem.type, ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
     
-    if (abcelem && abcelem.type === 'tempo' && props.onClickTempo) props.onClickTempo() 
+    if (abcelem && abcelem.type === 'tempo' && props.editableTempo) { // && props.onClickTempo) {props.onClickTempo() 
+      console.log('CLICK tempo')
+      setShowTempo(true)
+    }
     var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
     
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(ms/1000,'seconds')
@@ -642,6 +648,7 @@ export default function Abc(props) {
   
   
   var [audioChangedHash, setAudioChangedHash] = useState(null)
+  
   function renderTune(abcTune) {
     //console.log('RENDER TUNE',abcTune)
     if (inputEl) { // && !renderActive) {
@@ -811,11 +818,11 @@ export default function Abc(props) {
 
 
   function updateOnChange() {
-    //console.log('ABC CHANGE', lastAbc, lastTempo, props.tempo, props.abc )
+    console.log('ABC CHANGE') //, lastAbc, lastTempo, props.tempo, props.abc )
     if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo) {
       setSeekTo(0)
       setPlayCount(0)
-      //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo)
+      console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo)
       //setStarted(true)
       setReady(false)
       //setIsPlaying(false)
@@ -834,7 +841,7 @@ export default function Abc(props) {
       
     }
     return function cleanup() {
-      //console.log('ABC CLEANUP')
+      console.log('ABC CLEANUP')
        stopPlaying() 
     }
   }
@@ -846,22 +853,34 @@ export default function Abc(props) {
       return updateOnChange()
    }, [props.abc])
 
-  useEffect(() => {
-    //console.log('tempo change',props.tempo, props.abc)
-      if (props.tunes) {
-        var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
-        var tune = props.tunes[tuneLocal.id]
-        if (tune) {
-          tune.tempo = props.tempo
-          props.tunebook.saveTune(tune)
-        }
-      }
-      return updateOnChange()
-      //props.forceRefresh()
-   }, [props.tempo]) 
+  //useEffect(() => {
+    ////console.log('tempo change',props.tempo, props.abc)
+      //if (props.tunes) {
+        //var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
+        //var tune = props.tunes[tuneLocal.id]
+        //if (tune) {
+          //tune.tempo = props.tempo
+          //props.tunebook.saveTune(tune)
+        //}
+      //}
+      //return updateOnChange()
+      ////props.forceRefresh()
+   //}, [props.tempo]) 
  
 //console.log('abc',props.tunebook)
   return (
+  <>
+   <TempoControl showTempo={showTempo} setShowTempo={setShowTempo} value={props.tempo} onChange={function(e) {
+     //console.log("TEMPO CHANGE",e)
+      //var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
+      //var tune = tuneLocal[tuneLocal.id]
+      if (tune) {
+        tune.tempo = e
+        props.tunebook.saveTune(tune)
+        updateOnChange()
+        if (props.forceRefresh) props.forceRefresh()
+      }
+    }} />
    <ReactNoSleep>
         {({ isOn, enable, disable }) => (
           <span onClick={function(e) {bodyClick(enable)}} >
@@ -874,7 +893,7 @@ export default function Abc(props) {
             {!props.link && <div id="abc_music_viewer" ref={inputEl} ></div>}
           </span>
         )}
-    </ReactNoSleep>
+    </ReactNoSleep></>
   );
 }
            

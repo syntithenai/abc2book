@@ -11,7 +11,7 @@ var useIndexes = () => {
     
     
     function indexTune(tune) {
-        console.log('index single', tune, tune.id, tune.meta)
+        //console.log('index single', tune, tune.id, tune.meta)
         // book index
         var bookIndexNew = utils.loadLocalObject('bookstorage_index_books')
         bookIndexNew = removeTune(tune,bookIndexNew)
@@ -30,7 +30,7 @@ var useIndexes = () => {
     
     function removeTune(tune, bookIndex) {
         var final = {}
-        console.log('remove index',bookIndex,tune)
+        //console.log('remove index',bookIndex,tune)
         //return bookIndex
         
         Object.keys(bookIndex).forEach(function(bookName) {
@@ -46,13 +46,13 @@ var useIndexes = () => {
     }
     
     function resetBookIndex() {
-        console.log('reset index')
+        //console.log('reset index')
         utils.saveLocalObject('bookstorage_index_books',{})
         setBookIndex({})
     }
 
     function addBookToIndex(book) {
-        console.log('add book to index', book)
+        //console.log('add book to index', book)
         if (!Array.isArray(bookIndex[book])) {
             let newBookIndex = bookIndex
             newBookIndex[book] = []
@@ -61,14 +61,14 @@ var useIndexes = () => {
     }
     
     function removeBookFromIndex(book) {
-        console.log('remove book to index', book)
+        //console.log('remove book to index', book)
         let newBookIndex = bookIndex
         delete newBookIndex[book] 
         setBookIndex(newBookIndex)
     }
     
     function indexTunes(tunes) {
-        console.log('index tunes',tunes)
+        //console.log('index tunes',tunes)
         var bookIndexNew = utils.loadLocalObject('bookstorage_index_books')
         Object.values(tunes).forEach(function(tune) {
             bookIndexNew = removeTune(tune,bookIndexNew)

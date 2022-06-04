@@ -9,7 +9,7 @@ export default function Footer(props) {
              
               <Link style={{float:'right', marginRight:'0.2em'}} to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{fontSize:'0.6em'}} size="sm" >Help</Button></Link>
               
-                {props.accessToken ? <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="danger" onClick={props.logout} >Logout</Button> : <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="success" onClick={function() { props.login()}} >Login</Button>}
+                {props.accessToken ? <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="danger" onClick={function() { props.logout()}} >Logout</Button> : <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="success" onClick={function() { props.login()}} >Login</Button>}
               
               <Button style={{ marginRight:'0.2em', float:'right',fontSize:'0.6em', position:'relative', top:'2px'}} size="sm" variant="warning" onClick={props.tunebook.utils.resetAudioCache} >CC</Button>
               

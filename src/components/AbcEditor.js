@@ -167,7 +167,7 @@ export default function AbcEditor(props) {
                       </Tabs> : ''}
                     </div>
                     <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
-                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune && tune.tempo > 0 ? tune.tempo : null} meter={tune.meter} onClick={onAbcClick} />
+                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
                     </div>
                     
                     

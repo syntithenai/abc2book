@@ -28,6 +28,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         callback: (tokenResponse) => {
           console.log("initclient callback set token ",tokenResponse)
           setAccessToken(tokenResponse)
+          localStorage.setItem('google_login_user','1')
           // auto renew tokens
           if (tokenResponse.expires_in > 0) {
             setTimeout(function() {
@@ -54,7 +55,9 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function login() {
-      return getToken()
+      console.log("login")
+      initClient()
+      getToken()
     }
     
     function logout() {
@@ -62,6 +65,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function refresh(scope) {
+      console.log("revoke",localStorage.getItem('google_login_user'))
       if (localStorage.getItem('google_login_user')) {
           setTimeout(function() {
             initClient(scope)
@@ -71,9 +75,9 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function handleCredentialResponse(response) {
-      //console.log("handle CREDS")
+      console.log("handle CREDS")
       var decoded = jwt_decode(response.credential)
-      //console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
+      console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
       setUser({email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture})
       localStorage.setItem('google_login_user',decoded.email)
        //application/vnd.google-apps.spreadsheet
@@ -88,10 +92,12 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
           client_id: clientId,
           callback: handleCredentialResponse
         });
-        window.google.accounts.id.renderButton(
-          document.getElementById(loginButtonId),
-          { theme: "outline", size: "large" }  // customization attributes
-        );
+        if (loginButtonId) {
+          window.google.accounts.id.renderButton(
+            document.getElementById(loginButtonId),
+            { theme: "outline", size: "large" }  // customization attributes
+          );
+        }
         if (usePrompt) {
           // also display the One Tap dialog
           window.google.accounts.id.prompt() 

@@ -5,13 +5,13 @@ export default function MergeWarningDialog(props) {
 return <Modal.Dialog 
   backdrop="static"
   style={{minWidth:'95%'}} 
-  keyboard={false} onHide={props.closeWarning} >
+  keyboard={false}  >
       <Modal.Header closeButton>
         <Modal.Title>Update Warning</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
-        <p>Changes made on another device have been detected. </p>
+        <p>This database is different to what is stored in Google Drive. </p>
         <p>To merge the changes </p>
          {Object.keys(props.sheetUpdateResults.localUpdates).length ?<div><b>{Object.keys(props.sheetUpdateResults.localUpdates).length}</b> items updated locally will be saved</div>: ''}
          {Object.keys(props.sheetUpdateResults.inserts).length ? <div><b>{Object.keys(props.sheetUpdateResults.inserts).length}</b> items will be inserted</div>: ''}

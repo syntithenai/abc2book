@@ -42,10 +42,10 @@ export default function useAppData() {
   }
   
    
-  const [beatsPerBar, setBeatsPerBar] = useState(4) 
+  //const [beatsPerBar, setBeatsPerBar] = useState(4) 
   
-  const [tempo, setTempo] = useState('') //localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
-  const [showTempo, setShowTempo] = useState(false)
+  //const [tempo, setTempo] = useState('') //localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
+  //const [showTempo, setShowTempo] = useState(false)
   const [tunesHash, setTunesHashInner] = useState(utils.loadLocalObject('bookstorage_tunes_hash')) 
   function setTunesHash(val) {
     setTunesHashInner(val)
@@ -116,6 +116,7 @@ export default function useAppData() {
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, showTempo, setShowTempo, viewMode, setViewMode} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode} 
   
 }
+//tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

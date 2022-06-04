@@ -36,8 +36,10 @@ import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 
 import useRecordingsManager from './useRecordingsManager'
+import useGoogleLogin from './useGoogleLogin' 
+import useGoogleDocument from './useGoogleDocument' 
 
-import GoogleLogin from './GoogleLogin'
+//import GoogleLogin from './GoogleLogin'
 
 function App(props) {
   
@@ -47,8 +49,11 @@ function App(props) {
   let dbTunes = {}
   let utils = useUtils();
   let abcTools = useAbcTools();
+  
+  var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button' })
+  
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, tempo, setTempo, beatsPerBar, setBeatsPerBar, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, showTempo, setShowTempo, viewMode, setViewMode} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode} = useAppData()
   useServiceWorker()
     
   const indexes = useIndexes()
@@ -72,7 +77,7 @@ function App(props) {
     })
     // any more recent changes locally get saved online
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
-      updateSheet(0, accessToken)
+      updateSheet(0)
     }
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
       buildTunesHash()
@@ -89,6 +94,7 @@ function App(props) {
       //console.log('merge')
       var inserts={}
       var updates={}
+      var patches={} // updates with common parent
       var deletes={}
       var localUpdates={}
       if (tunebookText) {
@@ -127,20 +133,21 @@ function App(props) {
           }
         })
       }
-      //console.log('merge done' ,tunes, intunes,"INS", inserts, "UPD",updates,"DEL", deletes, "LL",localUpdates)
-      return {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
+      var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
+      //console.log('merge done' ,ret)
+      return ret
   }
   
   function overrideTuneBook(fullSheet) {
-    console.log('overrideTuneBook')
+    //console.log('overrideTuneBook')
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
         if (tune && tune.id) tunes[tune.id] = tune
     })
-    console.log("FORCE TUNESN",tunes)
+    //console.log("FORCE TUNESN",tunes)
     // TODO - check in with user if applying changes
     setTunes(tunes)
-    updateSheet(0, accessToken)
+    updateSheet(0)
     // update indexes....
     buildTunesHash()
     indexes.resetBookIndex()
@@ -149,37 +156,32 @@ function App(props) {
     forceRefresh()
   }
   
-  function onLogin(fullSheet) {
-    console.log('on LOGIN')
-    return onMerge(fullSheet)
-  }
-  
 
   
   function onMerge(fullSheet) {
     var trialResults = mergeTuneBook(fullSheet)
-    console.log('onmerge', fullSheet.length, trialResults)
+    //console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
-      console.log('onmerge set results',trialResults)
+      //console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
       forceRefresh()
     } else { 
-      applyMergeChanges(trialResults)
+      //console.log('onmerge empty results',trialResults)
+      //applyMergeChanges(trialResults)
       //forceRefresh()
     }
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
-  var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button' })
   
-  var {updateSheet} = useGoogleSheet({tunes, pollingInterval:16000, onLogin, onMerge,recurseLoadSheetTimeout, pauseSheetUpdates}) 
+  var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:16000, onMerge, pausePolling: pauseSheetUpdates}) 
   
   //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
   const recordingsManager = useRef(useRecordingsManager({token, user}))
-  console.log("app",recordingsManager)
+  //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({tunes, setTunes, tempo, setTempo, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, beatsPerBar, setBeatsPerBar, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
+  var tunebook = useTuneBook({tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
   
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
@@ -204,7 +206,7 @@ function App(props) {
   function closeWarning() {
     //console.log('closeWarning')
     //updateSheet(0)
-    revokeToken()
+    logout()
     setSheetUpdateResults(null)
   }
   
@@ -238,13 +240,13 @@ function App(props) {
 
     <div id="topofpage" className="App" >
         {(showWarning(sheetUpdateResults)) ? <>
-          <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={revokeToken} overrideTuneBook={overrideTuneBook} />
+          <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
         </> : null}
         {(!showWarning(sheetUpdateResults) && tunes !== null) && <div>
             <input type='hidden' value={refreshHash} />
             <Router >
                 
-              <Header tunebook={tunebook} showTempo={showTempo}  setShowTempo={setShowTempo} currentTune={currentTune} beatsPerBar={beatsPerBar} setBeatsPerBar={setBeatsPerBar}  tempo={tempo} setTempo={setTempo} />
+              <Header tunebook={tunebook}  currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
@@ -265,20 +267,20 @@ function App(props) {
                       <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook}    />} />
                     </Route>
                     <Route  path={`review`} >
-                      <Route index element={<ReviewPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />}  />
-                      <Route  path={`:tuneId`} element={<ReviewPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh}  tunebook={tunebook}   tempo={tempo} setTempo={setTempo}   />} />
+                      <Route index element={<ReviewPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh} tunebook={tunebook}    />}  />
+                      <Route  path={`:tuneId`} element={<ReviewPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh}  tunebook={tunebook}    />} />
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage setShowTempo={setShowTempo} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
+                        element={<MusicPage  setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} setBeatsPerBar={setBeatsPerBar} tunes={tunes}   setShowTempo={setShowTempo}  forceRefresh={forceRefresh} tunebook={tunebook}   tempo={tempo} setTempo={setTempo} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}    />} />
                     </Route>  
                     
                     <Route  path={`editor`}     >
-                      <Route  path={`:tuneId`} element={<MusicEditor pushHistory={pushHistory} popHistory={popHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}  tempo={tempo} setTempo={setTempo}    />} />
+                      <Route  path={`:tuneId`} element={<MusicEditor pushHistory={pushHistory} popHistory={popHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}      />} />
                     </Route>
                     
                     <Route  path={`import`} >
@@ -291,7 +293,7 @@ function App(props) {
                   
               </div>
               
-              <Footer tunebook={tunebook} token={token ? token.access_token : null} logout={logout} login={login} />
+              <Footer tunebook={tunebook} accessToken={token ? token.access_token : null} logout={logout} login={login} />
             </Router>
 
             <div id="bottomofpage" ></div>

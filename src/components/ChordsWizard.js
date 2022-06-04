@@ -132,18 +132,18 @@ export default function ChordsWizard(props) {
     //}
 
     function mergeChordsIntoNotes() {
-        console.log("merge",props.notes)
+        //console.log("merge",props.notes)
         //return
         var origNotes = Array.isArray(props.notes) ? props.notes.join("\n") : ''
         const parsed = props.tunebook.abcTools.parseAbcToBeats(origNotes)
         var [totals, notes, chordArray, preTexts] = parsed
-        console.log({totals, notes, chordArray, chords})
+        //console.log({totals, notes, chordArray, chords})
         //var noteLength = getNoteLengthFraction()
         var meterParts = props.tune && props.tune.meter ? props.tune.meter.trim().split("/") : ['4','4']
         if (meterParts.length === 2) {
             console.log(meterParts)
             var chordTextParsed = parseChordText()
-            console.log( "ORIG",chordArray,"PARSED",chordTextParsed,"DIFF",patienceDiff(JSON.stringify(chordArray), JSON.stringify(chordTextParsed)))
+            //console.log( "ORIG",chordArray,"PARSED",chordTextParsed,"DIFF",patienceDiff(JSON.stringify(chordArray), JSON.stringify(chordTextParsed)))
              //iterate parsed chords, applying changes to orig chords and adding notes(as rests) if not present
             chordTextParsed.map(function(line, lineNumber) {
             
@@ -205,7 +205,7 @@ export default function ChordsWizard(props) {
     }
     
     function parseChordText() {
-        console.log('parseChordText',chords)
+        //console.log('parseChordText',chords)
         var result = []
         var lines = chords.split("\n")
         lines.forEach(function(line,lineNumber) {
@@ -231,7 +231,7 @@ export default function ChordsWizard(props) {
                         zoom = noteLengthsPerBar.numerator 
                     }
                     var newChords = new Array(noteLengthsPerBar.numerator)
-                    console.log('nc',barChords,barChords.length,noteLengthsPerBar.numerator ,"Z",zoom,newChords.length,newChords)
+                    //console.log('nc',barChords,barChords.length,noteLengthsPerBar.numerator ,"Z",zoom,newChords.length,newChords)
                     //newChords.fill('.')
                     var count = 0
                     for (var i=0; i < newChords.length; i+= zoom) {
@@ -244,16 +244,16 @@ export default function ChordsWizard(props) {
               }
           })
         })
-        console.log("CHORD TEXT",result)
+        //console.log("CHORD TEXT",result)
         return result
     }
     
     useEffect(function() {
-        console.log('voicechange', props.tune.noteLength, props.tune, props.notes)
+        //console.log('voicechange', props.tune.noteLength, props.tune, props.notes)
         if (Array.isArray(props.notes)) { 
             const parsed = props.tunebook.abcTools.parseAbcToBeats(props.notes.join("\n"))
             var [totals, notes, chords, preText] = parsed
-            console.log({totals, notes, chords})
+            //console.log({totals, notes, chords})
             // iterate lines
             //var final = renderAll(chords, notes)
             var final = props.tunebook.abcTools.renderChords(chords)

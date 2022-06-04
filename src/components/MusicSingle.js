@@ -64,21 +64,21 @@ export default function MusicSingle(props) {
        // props.tempo is an integer
        // tune tempo includes beat length eg 3/8=100
        if (tune) {
-           var tempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
-           if (tune.meter) {
-             var bpb = getBeatsPerBar(tune.meter)
-             props.setBeatsPerBar(bpb)
-           }
-           if (tempo != props.tempo) {
-               props.setTempo(tempo)
-           }
+           //var tempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
+           //if (tune.meter) {
+             //var bpb = getBeatsPerBar(tune.meter)
+             //props.setBeatsPerBar(bpb)
+           //}
+           //if (tempo != props.tempo) {
+               //props.setTempo(tempo)
+           //}
            props.tunebook.utils.scrollTo('topofpage')
         }
     },[params.tuneId])
 
     function getTempo() {
         // use page tempo that has been updated from tune
-        var tempo = (props.tempo > 0 ? props.tempo :  100)
+        var tempo = (tune && tune.tempo > 0 ? tune.tempo :  100)
         if (tempo > 400) tempo = 400
         if (tempo < 1) tempo = 1
         return tempo
@@ -109,7 +109,7 @@ export default function MusicSingle(props) {
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
         var firstVoice = Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
         var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
-    console.log('sING',parsed.chords)
+    //console.log('sING',parsed.chords)
         var [a,b,chordsArray,c] = parsed
         var chords = props.tunebook.abcTools.renderChords(chordsArray,false)
        return <div className="music-single">
@@ -133,7 +133,7 @@ export default function MusicSingle(props) {
             </div>
             
             {props.viewMode === 'music' && <>
-             <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
              <div className="lyrics" style={{marginLeft:'2em'}} >
                 {Object.keys(words).map(function(key) {
@@ -155,7 +155,7 @@ export default function MusicSingle(props) {
                         })}</div>
                 })}
              </div>
-              <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} onClickTempo={function() {console.log('shgow tem') ; props.setShowTempo(true)}} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc_print(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+              <Abc showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
             
              </>}

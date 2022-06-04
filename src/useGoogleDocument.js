@@ -1,13 +1,25 @@
 import axios from 'axios'
-import {useRef} from 'react'
+import {useRef, useEffect} from 'react'
 
-export default function useGoogleDocument({token, refresh}) {
+export default function useGoogleDocument({token, refresh, onChanges, pausePolling, pollInterval}) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
   var pollChangesInterval = useRef(null)
   
+  useEffect(function() {
+    //console.log('use doc tok change',onChanges, token)
+    if (token && token.access_token && onChanges) {
+      //console.log('use doc tok change have changes fn start poll')
+      pollChanges(pollInterval, onChanges)
+    }
+    return function() {
+      //console.log('use doc unload')
+      stopPollChanges()
+    }
+  },[token])
+  
   function pollChanges(interval, onChanges) {
-    //console.log('POLL',id,interval)
+    //console.log('POLL',interval)
     var useInterval = interval > 5000 ? interval : 5000
     clearInterval(pollChangesInterval.current) 
     pollChangesInterval.current = setInterval(function() {
@@ -58,30 +70,31 @@ export default function useGoogleDocument({token, refresh}) {
   function doPollChanges() {
     return new Promise(function(resolve,reject) {
       //console.log('get rec' ,accessToken)
-      if (localStorage.getItem('google_last_page_token') && accessToken) {
-        var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
-        axios({
-          method: 'get',
-          url: url,
-          headers: {'Authorization': 'Bearer '+accessToken},
-        }).then(function(postRes) {
-          //console.log(postRes)
-          if (postRes.data && postRes.data.newStartPageToken) {
-            localStorage.setItem('google_last_page_token',postRes.data.newStartPageToken)
-          }
-          if (postRes.data) {
-            resolve(postRes.data.changes)
-          } else {
-             resolve()
-          } 
-        }).catch(function(e) {
-          //getToken()
-          //refresh()
-          resolve()
-        })
-      } else {
-        //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+      if (pausePolling && pausePolling.current) {
         resolve()
+      } else {
+        if (localStorage.getItem('google_last_page_token') && accessToken) {
+          var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
+          axios({
+            method: 'get',
+            url: url,
+            headers: {'Authorization': 'Bearer '+accessToken},
+          }).then(function(postRes) {
+            //console.log(postRes)
+            if (postRes.data && postRes.data.newStartPageToken) {
+              localStorage.setItem('google_last_page_token',postRes.data.newStartPageToken)
+            }
+            if (postRes.data) {
+              resolve(postRes.data.changes)
+            } else {
+               resolve()
+            } 
+          }).catch(function(e) {
+            resolve()
+          })
+        } else {
+          resolve()
+        }
       }
     })
   }
@@ -137,7 +150,7 @@ export default function useGoogleDocument({token, refresh}) {
 
  function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get rec',id ,accessToken)
+      //console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -148,6 +161,7 @@ export default function useGoogleDocument({token, refresh}) {
           resolve(postRes.data)
           //console.log(postRes)
         }).catch(function(e) {
+          console.log(e)
           //getToken()
           //refresh()
           resolve()
@@ -161,7 +175,7 @@ export default function useGoogleDocument({token, refresh}) {
   
   function getDocumentMeta(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get rec meta',id ,accessToken)
+      //console.log('get rec meta',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -183,32 +197,9 @@ export default function useGoogleDocument({token, refresh}) {
     })
   }
   
-  function updateDocument(id,metaData) {
-    return new Promise(function(resolve,reject) {  
-      console.log('update',id,metaData)
-      if (id && accessToken) {
-          axios({
-            method: 'patch',
-            url: 'https://www.googleapis.com/drive/v3/files/'+id+"?alt=json",
-            data: metaData,
-            headers: {'Authorization': 'Bearer '+accessToken},
-          }).then(function(postRes) {
-            //googleSheetId.current = postRes.data.id
-            console.log('updated title',postRes)
-            resolve()
-          }).catch(function(e) {
-            resolve()
-          })
-      } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-        resolve()
-      }
-    })
-  }
-  
   function createDocument(title, documentData, documentType='vnd.google-apps.document', documentDescription='') {
     return new Promise(function(resolve,reject) {
-      console.log('create rec' ,accessToken)
+      //console.log('create rec' ,accessToken)
       if (documentType && title && accessToken) {
         var  data = {
           "description": documentDescription,
@@ -226,7 +217,7 @@ export default function useGoogleDocument({token, refresh}) {
           console.log('created',postRes)
           updateDocument(postRes.data.id, documentData).then(function(updated) {
             //onLogin("")
-            console.log('updated',updated)
+            //console.log('updated',updated)
             resolve(postRes.data.id)
           }).catch(function(e) {
             //getToken()
@@ -239,10 +230,34 @@ export default function useGoogleDocument({token, refresh}) {
       }
     })
   }
+  
+  function updateDocument(id,metaData) {
+    return new Promise(function(resolve,reject) {  
+      //console.log('update',id,metaData)
+      if (id && accessToken) {
+          axios({
+            method: 'patch',
+            url: 'https://www.googleapis.com/drive/v3/files/'+id+"?alt=json",
+            data: metaData,
+            headers: {'Authorization': 'Bearer '+accessToken},
+          }).then(function(postRes) {
+            //googleSheetId.current = postRes.data.id
+            //console.log('updated title',postRes)
+            resolve()
+          }).catch(function(e) {
+            resolve()
+          })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
 
   function updateDocumentData(id,data) {
     return new Promise(function(resolve,reject) {
-      console.log('trigger rec update ', id,data, accessToken)
+      //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
           method: 'patch',
@@ -250,7 +265,7 @@ export default function useGoogleDocument({token, refresh}) {
           headers: {'Authorization': 'Bearer '+accessToken},
           data: data,
         }).then(function(postRes) {
-          console.log('updated',postRes.data  )
+          //console.log('updated',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -282,6 +297,6 @@ export default function useGoogleDocument({token, refresh}) {
     })
   }
   
-  return {findDocument, getDocument, getDocumentMeta, updateDocument, createDocument, deleteDocument, pollChanges, stopPollChanges}
+  return {findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges}
   
 }
