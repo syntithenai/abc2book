@@ -141,7 +141,7 @@ export default function ChordsWizard(props) {
         //var noteLength = getNoteLengthFraction()
         var meterParts = props.tune && props.tune.meter ? props.tune.meter.trim().split("/") : ['4','4']
         if (meterParts.length === 2) {
-            console.log(meterParts)
+            //console.log(meterParts)
             var chordTextParsed = parseChordText()
             //console.log( "ORIG",chordArray,"PARSED",chordTextParsed,"DIFF",patienceDiff(JSON.stringify(chordArray), JSON.stringify(chordTextParsed)))
              //iterate parsed chords, applying changes to orig chords and adding notes(as rests) if not present
@@ -213,7 +213,7 @@ export default function ChordsWizard(props) {
           var bars = line.trim().split("|")
           bars.forEach(function(bar,bk) {
               //if (!Array.isArray(result[lineNumber][bk])) result[lineNumber][bk] = []
-              if (typeof bar === 'string') {
+              if (typeof bar === 'string' && bar.trim()) {
                 // cull empties
                 var barChords = bar.trim().split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true})
                 // how many beats(noteLengths) per bar from tune.meter

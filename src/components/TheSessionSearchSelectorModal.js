@@ -141,6 +141,7 @@ function TheSessionSearchSelectorModal(props) {
                 setShow(false)
               }} > Select</Button>
               <Abc abc={setting.abc} tunebook={props.tunebook} />
+              <hr style={{width:'100%'}} />
             </div>
           })}</ListGroup>
           </Modal.Body>   

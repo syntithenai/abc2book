@@ -20,6 +20,7 @@ export default function HelpPage(props) {
           <li>In review, the tempo of playback is faster for tunes with high confidence.</li>
         </ul>
        </li>
+       <li>Record your practice so you can hear what you sound like.</li>
        <li>Generate a clickable index of all the tunes in a book</li>
       <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
       <li>Print a paginated book including the index, cheatsheet and music.</li>
@@ -28,18 +29,15 @@ export default function HelpPage(props) {
     </div>
       <h3>FAQ</h3>
     <ul>
-        <li><b>My review list items disappeared. Help.</b></li>
-        <li>
-          <i>Be sure to save/download your tunebook information as a file</i> that can be imported again later.<br/>
-          This website does not offer any online storage, instead tools to import/export a tunebook as a file for moving user data between devices.
-        </li>
-        <li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
-        <li>Edit the tune and use the wizard tools to double or halve the note durations.
-        <br/>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/>
         <li><b>My phone went flat?</b></li>
         <li>When music notation is displayed, the software keeps the screen awake on mobile devices. Handy but ... remember to turn off the app/your screen when you're done!!</li>
         
-        </li>
+        <li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
+        <li>Edit the tune and use the wizard tools to double or halve the note durations.
+        <br/>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/></li>
+        
+        
+        
     </ul>
     <br/><br/><br/>
     

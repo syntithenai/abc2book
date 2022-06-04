@@ -115,6 +115,7 @@ export default function useGoogleSheet(props) {
             var response = JSON.parse(res.target.responseText)
             if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
               // load whole file
+              //console.log(response.files[0].id)
               googleSheetId.current = response.files[0].id
               loadSheet()
             } else {

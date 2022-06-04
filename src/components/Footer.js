@@ -11,7 +11,7 @@ export default function Footer(props) {
               
                 {props.accessToken ? <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="danger" onClick={function() { props.logout()}} >Logout</Button> : <Button style={{float:'right',fontSize:'0.6em', position:'relative', top:'2px', marginRight:'0.2em'}} size="sm" variant="success" onClick={function() { props.login()}} >Login</Button>}
               
-              <Button style={{ marginRight:'0.2em', float:'right',fontSize:'0.6em', position:'relative', top:'2px'}} size="sm" variant="warning" onClick={props.tunebook.utils.resetAudioCache} >CC</Button>
+              <Link to="/settings" ><Button style={{padding:'0.2em', marginRight:'0.2em', float:'right',fontSize:'0.6em', position:'relative', top:'2px'}} size="sm" variant="warning"  >{props.tunebook.icons.settings}</Button></Link>
               
                 
               <div style={{textAlign:'center', fontSize:'0.4em'}}><div>(CopyLeft 2022)    Steve Ryan <a href='mailto:syntithenai@gmail.com'>syntithenai@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</div>

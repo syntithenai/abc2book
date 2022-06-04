@@ -6,10 +6,12 @@ import CheatSheetPage from './pages/CheatSheetPage'
 import ReviewPage from './pages/ReviewPage'
 import MenuPage from './pages/MenuPage'
 import MusicPage from './pages/MusicPage'
+import SettingsPage from './pages/SettingsPage'
 import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import RecordingsPage from './pages/RecordingsPage'
+import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
 import RecordingPage from './pages/RecordingPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
@@ -251,6 +253,7 @@ function App(props) {
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
+                    <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook}    />}  />
                     <Route  path={`recordings`} >
                       <Route index element={<RecordingsPage   tunebook={tunebook}/>}  />
                       <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook}  />} />
@@ -287,6 +290,10 @@ function App(props) {
                       <Route index element={<ImportPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
                       <Route  path={`:curation/:tuneId`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                       <Route  path={`:curation`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
+                    </Route>
+                    
+                    <Route  path={`importdoc`} >
+                      <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                     </Route>
                       
                   </Routes>

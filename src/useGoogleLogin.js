@@ -13,7 +13,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
      
 
     function initClient(extraScopes) {
-      console.log("initclient")
+      //console.log("initclient")
       var userInfoScopes = ['email'] //, 'profile', 'https://www.googleapis.com/auth/userinfo.profile', 'openid', 'https://www.googleapis.com/auth/userinfo.email']
       var useScopes = Array.isArray(scopes) ? scopes :  userInfoScopes
       if (Array.isArray(extraScopes)) {
@@ -26,7 +26,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         prompt: '',
         scope: useScopes.join(' '),
         callback: (tokenResponse) => {
-          console.log("initclient callback set token ",tokenResponse)
+          //console.log("initclient callback set token ",tokenResponse)
           setAccessToken(tokenResponse)
           localStorage.setItem('google_login_user','1')
           // auto renew tokens
@@ -40,12 +40,12 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     } 
      
     function getToken() {
-      console.log("gettoken",client.current)
+      //console.log("gettoken",client.current)
       if (client.current) client.current.requestAccessToken();
     }
     
     function revokeToken() {
-      console.log("revoke")
+      //console.log("revoke")
       setUser(null)
       //try {
         //global.window.google.accounts.oauth2.revoke(accessToken.current, () => {console.log('access token revoked')});
@@ -55,7 +55,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function login() {
-      console.log("login")
+      //console.log("login")
       initClient()
       getToken()
     }
@@ -65,7 +65,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function refresh(scope) {
-      console.log("revoke",localStorage.getItem('google_login_user'))
+      //console.log("refresh",localStorage.getItem('google_login_user'))
       if (localStorage.getItem('google_login_user')) {
           setTimeout(function() {
             initClient(scope)
@@ -75,9 +75,9 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function handleCredentialResponse(response) {
-      console.log("handle CREDS")
+      //console.log("handle CREDS")
       var decoded = jwt_decode(response.credential)
-      console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
+      //console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
       setUser({email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture})
       localStorage.setItem('google_login_user',decoded.email)
        //application/vnd.google-apps.spreadsheet
@@ -87,7 +87,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     
     useEffect(function() {
       window.onload = function () {
-        console.log('window onload',clientId)
+        //console.log('window onload',clientId)
         window.google.accounts.id.initialize({
           client_id: clientId,
           callback: handleCredentialResponse

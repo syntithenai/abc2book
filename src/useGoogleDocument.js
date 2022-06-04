@@ -297,6 +297,91 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
     })
   }
   
-  return {findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges}
+  function addPermission(id,permissionData) {
+    return new Promise(function(resolve,reject) {
+      //console.log('trigger rec update ', id,data, accessToken)
+      if (id && accessToken) {
+        axios({
+          method: 'post',
+          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions",
+          headers: {'Authorization': 'Bearer '+accessToken},
+          data: permissionData,
+        }).then(function(postRes) {
+          console.log('add perm',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          resolve()
+        })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  function listPermissions(id) {
+    return new Promise(function(resolve,reject) {
+      //console.log('trigger rec update ', id,data, accessToken)
+      if (id && accessToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions",
+          headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          console.log('get perm',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          resolve()
+        })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  function updatePermission(id, permissionId, permissionData) {
+    return new Promise(function(resolve,reject) {
+      //console.log('trigger rec update ', id,data, accessToken)
+      if (id && accessToken) {
+        axios({
+          method: 'patch',
+          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions/"+permissionId,
+          headers: {'Authorization': 'Bearer '+accessToken},
+          data: permissionData,
+        }).then(function(postRes) {
+          console.log('update perm',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          resolve()
+        })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  function deletePermission(id,permissionId) {
+    return new Promise(function(resolve,reject) {
+      //console.log('trigger rec update ', id,data, accessToken)
+      if (id && accessToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions/"+permissionId,
+          headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          console.log('del perm',postRes.data  )
+          resolve(postRes)
+        }).catch(function(e) {
+          resolve()
+        })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  return {findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
   
 }

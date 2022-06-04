@@ -218,6 +218,7 @@ function LocalSearchSelectorModal(props) {
               }} > Import Voices</Button>
               
               <Abc abc={useSetting}  tunebook={props.tunebook} />
+              <hr style={{width:'100%'}} />
             </div>
           })}</ListGroup>
           </Modal.Body>   
