@@ -5,7 +5,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
   var pollChangesInterval = useRef(null)
-  
+     
   useEffect(function() {
     //console.log('use doc tok change',onChanges, token)
     if (token && token.access_token && onChanges) {
@@ -20,7 +20,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
   
   function pollChanges(interval, onChanges) {
     //console.log('POLL',interval)
-    var useInterval = interval > 5000 ? interval : 5000
+    var useInterval = interval > 5000 ? interval : 15000
     clearInterval(pollChangesInterval.current) 
     pollChangesInterval.current = setInterval(function() {
       //console.log('DO POLL',localStorage.getItem('google_last_page_token'))
@@ -147,10 +147,36 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
         //xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
         //xhr.send();
     }
-
- function getDocument(id) {
+ function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',id ,accessToken)
+      console.log('get public rec',id ,accessToken)
+      //var useToken = accessToken ? accessToken : access_token
+      if (id ) {
+        axios({
+          method: 'get',
+          //https://drive.google.com/u/0/uc?id=1ob9DTfROfBzIzON2cnIceQtmynt14Gnl&export=download
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'/export?mimeType='+mimeType,
+          //url: 'https://drive.google.com/file/d/'+id+'/view?usp=sharing',
+          //headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          resolve(postRes.data)
+          console.log("USE GOT public DOC",postRes)
+        }).catch(function(e) {
+          console.log(e)
+          //getToken()
+          //refresh()
+          resolve()
+        })
+      } else {
+        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  function getDocument(id) {
+    return new Promise(function(resolve,reject) {
+      console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -159,7 +185,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          //console.log(postRes)
+          console.log("USE GOT DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -215,7 +241,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
         }).then(function(postRes) {
           //googleSheetId.current = postRes.data.id
           console.log('created',postRes)
-          updateDocument(postRes.data.id, documentData).then(function(updated) {
+          updateDocumentData(postRes.data.id, documentData).then(function(updated) {
             //onLogin("")
             //console.log('updated',updated)
             resolve(postRes.data.id)
@@ -303,11 +329,11 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
       if (id && accessToken) {
         axios({
           method: 'post',
-          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions",
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions",
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
-          console.log('add perm',postRes.data  )
+          console.log('add perm',postRes  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -325,7 +351,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
       if (id && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions",
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions",
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           console.log('get perm',postRes.data  )
@@ -346,7 +372,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
       if (id && accessToken) {
         axios({
           method: 'patch',
-          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions/"+permissionId,
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions/"+permissionId,
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
@@ -366,8 +392,8 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
       //console.log('trigger rec update ', id,data, accessToken)
       if (id && accessToken) {
         axios({
-          method: 'get',
-          url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"/permissions/"+permissionId,
+          method: 'delete',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions/"+permissionId,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           console.log('del perm',postRes.data  )
@@ -382,6 +408,6 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
     })
   }
   
-  return {findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
+  return {getPublicDocument, findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
   
 }

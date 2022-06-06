@@ -9,12 +9,12 @@ import useCheckOnlineStatus from './useCheckOnlineStatus'
 import useGoogleDocument from './useGoogleDocument'
     
 export default function useGoogleSheet(props) {
-  const {token, refresh, tunes, pollingInterval, onMerge, pausePolling} = props
+  const {token, refresh, tunes, pollingInterval, onMerge, pausePolling, setGoogleDocumentId, googleDocumentId} = props
   var checkOnlineStatus = useCheckOnlineStatus()
   //console.log('useGoogleSheet',props)
   //var client;
   // google login
-  var docs = useGoogleDocument({token, refresh, pausePolling, onChanges: function(changes) {
+  var docs = useGoogleDocument({pollInterval: props.pollInterval, token, refresh, pausePolling, onChanges: function(changes) {
       console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {
@@ -26,6 +26,7 @@ export default function useGoogleSheet(props) {
       console.log('DOCCHANGE match',matchingChanges)
       if (matchingChanges && matchingChanges.length === 1) {
         getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
+          console.log('DOCCHANGE got sheet')
           onMerge(fullSheet)
         })
       }
@@ -108,7 +109,7 @@ export default function useGoogleSheet(props) {
       //setupInterval()
     }
     function findTuneBookInDrive() {
-      //console.log('find book in drive')
+      console.log('find book in drive')
         var xhr = new XMLHttpRequest();
         xhr.onload = function (res) {
           if (res.target.responseText) {
@@ -117,11 +118,14 @@ export default function useGoogleSheet(props) {
               // load whole file
               //console.log(response.files[0].id)
               googleSheetId.current = response.files[0].id
+              setGoogleDocumentId(response.files[0].id)
               loadSheet()
             } else {
               // create file
+              console.log('create')
               createTuneSheet().then(function(newId) {
-                googleSheetId.current = response.files[0].id
+                googleSheetId.current = newId
+                setGoogleDocumentId(newId)
                 loadSheet()
               })
               //setupInterval()

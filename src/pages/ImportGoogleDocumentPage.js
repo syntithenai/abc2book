@@ -1,11 +1,13 @@
 import {Link , useNavigate , useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
-
-export default function ImportGoogleDocumentPage(props) {
+import useGoogleDocument from '../useGoogleDocument'
+export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
     var navigate = useNavigate()
     var params = useParams()
     console.log(params)
+    const [error,setError] = useState('')
+    var docs = useGoogleDocument({token, refresh})
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 
@@ -23,20 +25,36 @@ export default function ImportGoogleDocumentPage(props) {
     
     function onClose() {
         //console.log('onClose')
-        props.setCurrentTuneBook(params.googleDocumentId)
+        //props.setCurrentTuneBook(params.googleDocumentId)
         navigate("/tunes")
     }
     
     useEffect(function() {
+      console.log('impo go usef',params.googleDocumentId,token)
       if (!params.googleDocumentId) {
           navigate("/tunes")
       } else {
-          // load document 
+          if (token) {
+              // load document 
+              console.log('ldd DO',params.googleDocumentId)
+              docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
+                  console.log('ldd',fullSheet)
+                  if (fullSheet) {
+                      tunebook.importAbc(fullSheet)
+                      navigate("/tunes")
+                  } else {
+                      setError("Unable to load import source")
+                  }
+              })
+            }
       }
-    }, [params.googleDocumentId])
+    }, [params.googleDocumentId, token])
     
     return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
-     ddd {params.googleDocumentId}
+     <h1>Import a Shared Tune Book </h1>
+     {!token && <>To import this Tune Book, you will need to <Button style={{marginLeft:'0.3em'}} variant="success" onClick={refresh} >Login</Button></>}
+     {(token && !error) && <>Loading..</>}
+     {(token && error) && <>{error}</>}
     </div> : null}</>
 }
 //{agree 

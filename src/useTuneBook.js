@@ -8,7 +8,7 @@ import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
 
-var useTuneBook = ({tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -57,60 +57,118 @@ var useTuneBook = ({tunes, setTunes,  currentTune, setCurrentTune, currentTuneBo
   }
   
   
+  
+  function applyImport( forceDuplicates=false) {
+    var {inserts, updates, duplicates} = importResults
+    console.log('apply',importResults)
+    // save all inserts and updates
+    // , delete all deletes
+    //Object.keys(deletes).forEach(function(d) {
+       //delete tunes[d]
+    //})
+    Object.keys(updates).map(function(u)  {
+      if (updates[u] && updates[u].id) {
+        // preserve boost
+        if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
+        tunes[updates[u].id] = updates[u]
+      }
+    })
+    Object.values(inserts).forEach(function(tune) {
+      var newTune = saveTune(tune)
+      tunes[tune.id] = newTune
+    })
+    // any more recent changes locally get saved online
+    if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
+      Object.values(duplicates).forEach(function(tune) {
+        tune.id = null
+        var newTune = saveTune(tune)
+        tunes[tune.id] = newTune
+      })
+      //updateSheet(0)
+    } 
+    if ((forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+      setTunes(tunes)
+      buildTunesHash()
+      indexes.resetBookIndex()
+      indexes.indexTunes(tunes)
+      setImportResults(null)
+      updateSheet(0)
+    }
+  }
+  
   /** 
    * import songs to a tunebook from an abc file 
+   * set results {updates, inserts, duplicates} into app scoped importResults
    */
-  function importAbc(abc, forceBook = null, forceDuplicates = false, onlyLastUpdated = false) {
-      console.log('importabc', forceBook, forceDuplicates, onlyLastUpdated)
+  function importAbc(abc, forceBook = null) {
+      console.log('importabc', forceBook)
+      buildTunesHash(tunes)
       var duplicates=[]
       var inserts=[]
       var updates=[]
+      var localUpdates=[]
+      var skippedUpdates=[]
       if (abc) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
-        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
           // existing tunes are updated
-          if (tune.id && intunes[tune.id]) {
+          console.log('haveabc',tune.id,tunes[tune.id])
+          if (tune.id && tunes[tune.id]) {
             if (forceBook) {
               tune.books.push(forceBook)
               tune.books = utils.uniquifyArray(tune.books)
             }
             // preserve boost
             tune.boost = tunes[tune.id].boost
-            saveTune(tune)
-            updates.push(tune.id)
+            if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
+              updates.push(tune)
+              //console.log('update MORE RECENT')
+            } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
+              localUpdates.push(tune)
+              //console.log('local update MORE RECENT')
+            } else {
+              skippedUpdates.push(tune)
+              //console.log('skip update NOT MORE RECENT')
+            }
+            
+            //saveTune(tune)
+            //updates.push(tune.id)
           // new tunes 
           } else {
-            if (forceDuplicates) {
-              if (forceBook) {
-                tune.books.push(forceBook)
-                tune.books = utils.uniquifyArray(tune.books)
-              }
-              var newTune = saveTune(tune)
-              inserts.push(newTune.id)
-            } else {
+            //if (forceDuplicates) {
+              //if (forceBook) {
+                //tune.books.push(forceBook)
+                //tune.books = utils.uniquifyArray(tune.books)
+              //}
+              ////var newTune = saveTune(tune)
+              //inserts.push(tune)
+            //} else {
               var hash = hash = abcTools.getTuneHash(tune)
               //utils.hash(tune.notes.join("\n"))
-              //console.log("tryhash",hash,tunesHash.hashes[hash]   )
-              if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] === true) {
+              //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
+              if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] ) {
                 duplicates.push(tune)
               } else {
                 if (forceBook) {
                   tune.books.push(forceBook)
                   tune.books = utils.uniquifyArray(tune.books)
                 }
-                var newTune = saveTune(tune)
-                inserts.push(newTune.id)
+                //var newTune = saveTune(tune)
+                inserts.push(tune) //newTune.id)
               }
-            }
+            //}
           }
         })
       }
       updateSheet(0).then(function() {
         pauseSheetUpdates.current = false
       }) 
-      return [inserts, updates, duplicates]
+      var final = {inserts, updates, duplicates, skippedUpdates, localUpdates}
+      console.log('imported SABC',final)
+      setImportResults(final)
+      return {final}
   }
   
  
@@ -238,6 +296,6 @@ var useTuneBook = ({tunes, setTunes,  currentTune, setCurrentTune, currentTuneBo
 
   }
 
-  return { importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
+  return { applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
 }
 export default useTuneBook

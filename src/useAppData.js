@@ -7,6 +7,8 @@ export default function useAppData() {
   let utils = useUtils();
   let abcTools = useAbcTools();
   const [refreshHash, setRefreshHash] = useState(utils.generateObjectId())
+  const [googleDocumentId, setGoogleDocumentId] = useState(null)
+  
   function forceRefresh() {
     setRefreshHash(utils.generateObjectId())
   }
@@ -57,7 +59,8 @@ export default function useAppData() {
     var hashes = {}
     var ids = {}
     var useTunes = forceTunes ? forceTunes : tunes;
-    if (Array.isArray(useTunes) && useTunes.length > 0) {
+    //console.log('Build THash',{useTunes, tunes, forceTunes})
+    if (useTunes && Object.values(useTunes).length > 0) {
       Object.values(useTunes).forEach(function(tune) {
         if (tune.id && tune.voices) {
           //console.log('BTHBB',tune.notes)
@@ -68,7 +71,7 @@ export default function useAppData() {
           ids[tune.id] = hash
         }
       })
-      console.log('BTH',{ids, hashes})
+      //console.log('Build THash',{ids, hashes})
       setTunesHash({ids, hashes})
     } else {
       setTunesHash({ids:{}, hashes:{}})
@@ -115,8 +118,9 @@ export default function useAppData() {
     localStorage.setItem('bookstorage_tunes', JSON.stringify(val))
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
+  const [importResults, setImportResults] = useState(null)
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId} 
   
 }
 //tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

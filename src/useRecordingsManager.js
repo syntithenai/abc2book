@@ -103,7 +103,7 @@ export default function useRecordingsManager({token}) {
             })
           })
         } else {
-          docs.updateDocument(recording.googleId, recording.data)
+          docs.updateDocumentData(recording.googleId, recording.data)
         }
         return recording;
       }).catch(function (err) {
@@ -194,7 +194,11 @@ export default function useRecordingsManager({token}) {
  
     function stopRecording() {
       return new Promise(function(resolve,reject) {
-        if (mediaRecorder.current) mediaRecorder.current.stop();
+        try {
+          if (mediaRecorder.current) mediaRecorder.current.stop();
+        } catch (e) {
+          console.log(e)
+        }
         resolve()
       })
     }

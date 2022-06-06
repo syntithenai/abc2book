@@ -12,6 +12,7 @@ import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import RecordingsPage from './pages/RecordingsPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
+import ImportWarningDialog from './components/ImportWarningDialog'
 import RecordingPage from './pages/RecordingPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
@@ -52,10 +53,10 @@ function App(props) {
   let utils = useUtils();
   let abcTools = useAbcTools();
   
-  var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button' })
+  var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId } = useAppData()
   useServiceWorker()
     
   const indexes = useIndexes()
@@ -63,12 +64,12 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    //console.log('apply',changes)
+    console.log('apply',changes)
     // save all inserts and updates
     // , delete all deletes
-    //Object.keys(deletes).forEach(function(d) {
-       //delete tunes[d]
-    //})
+    Object.keys(deletes).forEach(function(d) {
+       delete tunes[d]
+    })
     Object.keys(updates).map(function(u)  {
       if (updates[u] && updates[u].id) {
         tunes[updates[u].id] = updates[u]
@@ -82,6 +83,7 @@ function App(props) {
       updateSheet(0)
     }
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+      setTunes(tunes)
       buildTunesHash()
       indexes.resetBookIndex()
       indexes.indexTunes(tunes)
@@ -93,7 +95,7 @@ function App(props) {
    * import songs to a tunebook from an abc file 
    */
   function mergeTuneBook(tunebookText) {
-      //console.log('merge')
+      //console.log('merge',tunebookText)
       var inserts={}
       var updates={}
       var patches={} // updates with common parent
@@ -102,7 +104,8 @@ function App(props) {
       if (tunebookText) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(tunebookText)
-        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        var tunes = utils.loadLocalObject('bookstorage_tunes')
+        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         var ids = []
         Object.values(intunes).forEach(function(tune) {
           // existing tunes are updated
@@ -136,12 +139,13 @@ function App(props) {
         })
       }
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      //console.log('merge done' ,ret)
+      console.log('merge done' ,ret)
       return ret
   }
   
   function overrideTuneBook(fullSheet) {
-    //console.log('overrideTuneBook')
+    console.log('overrideTuneBook')
+    pauseSheetUpdates.current = true
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
         if (tune && tune.id) tunes[tune.id] = tune
@@ -149,7 +153,9 @@ function App(props) {
     //console.log("FORCE TUNESN",tunes)
     // TODO - check in with user if applying changes
     setTunes(tunes)
-    updateSheet(0)
+    updateSheet(0).then(function() {
+      pauseSheetUpdates.current = false
+    }) 
     // update indexes....
     buildTunesHash()
     indexes.resetBookIndex()
@@ -161,15 +167,17 @@ function App(props) {
 
   
   function onMerge(fullSheet) {
+    console.log('onmerge')
     var trialResults = mergeTuneBook(fullSheet)
-    //console.log('onmerge', fullSheet.length, trialResults)
+    console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
       //console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
       forceRefresh()
     } else { 
-      //console.log('onmerge empty results',trialResults)
+      console.log('onmerge empty results',trialResults)
+      setSheetUpdateResults(trialResults)
       //applyMergeChanges(trialResults)
       //forceRefresh()
     }
@@ -177,13 +185,13 @@ function App(props) {
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
   
-  var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:16000, onMerge, pausePolling: pauseSheetUpdates}) 
+  var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:16000, onMerge, pausePolling: pauseSheetUpdates, setGoogleDocumentId, googleDocumentId}) 
   
   //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
   const recordingsManager = useRef(useRecordingsManager({token, user}))
   //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
   
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
@@ -238,22 +246,51 @@ function App(props) {
     }
     return false
   }
+  
+  function showImportWarning() {
+    //if (sheetUpdateResults) return true
+    //return false 
+    //console.log('showWarning')
+    if (importResults !== null) {
+      return true
+      //if (importResults.deletes && Object.keys(importResults.deletes).length > 0) {
+        //return true
+      //}
+      //if (importResults.updates && Object.keys(importResults.updates).length > 0) {
+        //return true
+      //}
+      //if (importResults.inserts && Object.keys(importResults.inserts).length > 0) {
+        //return true
+      //}
+      //if (importResults.localUpdates && Object.keys(importResults.localUpdates).length > 0) {
+        //return true
+      //}
+    }
+    return false
+  }
+  
   return (
 
     <div id="topofpage" className="App" >
-        {(showWarning(sheetUpdateResults)) ? <>
-          <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
-        </> : null}
-        {(!showWarning(sheetUpdateResults) && tunes !== null) && <div>
-            <input type='hidden' value={refreshHash} />
-            <Router >
-                
+      
+          <input type='hidden' value={refreshHash} />
+          <Router >
+            {(showWarning(sheetUpdateResults)) ? <>
+              <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
+            </> : null}
+            {(showImportWarning(importResults)) ? <>
+              <ImportWarningDialog tunebook={tunebook} importResults={importResults} setImportResults={setImportResults} closeWarning={closeWarning} acceptChanges={function(changes) {
+                console.log('changes',changes)
+              }} overrideTuneBook={overrideTuneBook} />
+            </> : null}
+  
+           {(!showWarning(sheetUpdateResults) && !showImportWarning(importResults) && tunes !== null) && <div>   
               <Header tunebook={tunebook}  currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
-                    <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook}    />}  />
+                    <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
                     <Route  path={`recordings`} >
                       <Route index element={<RecordingsPage   tunebook={tunebook}/>}  />
                       <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook}  />} />
@@ -277,7 +314,7 @@ function App(props) {
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage  setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
+                        element={<MusicPage  importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
                       <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}    />} />
                     </Route>  
@@ -287,24 +324,24 @@ function App(props) {
                     </Route>
                     
                     <Route  path={`import`} >
-                      <Route index element={<ImportPage   tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
-                      <Route  path={`:curation/:tuneId`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
-                      <Route  path={`:curation`} element={<ImportPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
+                      <Route index element={<ImportPage   importResults={importResults} setImportResults={setImportResults} tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook} />}  />
+                      <Route  path={`:curation/:tuneId`} element={<ImportPage   importResults={importResults} setImportResults={setImportResults} tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
+                      <Route  path={`:curation`} element={<ImportPage   importResults={importResults} setImportResults={setImportResults} tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                     </Route>
                     
                     <Route  path={`importdoc`} >
-                      <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
+                      <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                     </Route>
                       
                   </Routes>
                   
               </div>
-              
+              </div>}
               <Footer tunebook={tunebook} accessToken={token ? token.access_token : null} logout={logout} login={login} />
             </Router>
 
             <div id="bottomofpage" ></div>
-          </div>}
+          
       
     </div>
 

@@ -103,6 +103,7 @@ export default function Abc(props) {
   
   
   function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
+    //console.log('BEAT',currentBeat,totalBeats,lastMoment,position, debugInfo)
      // FINISHED PLAYBACK
      function restart() {
        //console.log('restart')
@@ -195,10 +196,13 @@ export default function Abc(props) {
       return;
     }
     //console.log('evcb', ev.milliseconds, ev)
-    if (gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
+    if (props.autoScroll && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
       var newSeek = ev.milliseconds/(gmidiBuffer.current.duration * 1000)
       //console.log('UPDATE SEEK',newSeek)
-      setSeekTo(newSeek)
+      //setSeekTo(newSeek)
+      if (ev.top > 0 && ev.left > 0) {
+        window.scrollTo(ev.left,ev.top)
+      } 
     }
     colorElements(ev.elements);
   }

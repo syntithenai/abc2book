@@ -26,7 +26,7 @@ function ImportListModal(props) {
   let [importQueue, setImportQueue] = useState([])
   
   function bulkCreate() {
-    console.log('bulkCreate',list)
+    //console.log('bulkCreate',list)
     var [inserts, updates, d] = props.tunebook.importAbc(list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d }).join("\n"), props.currentTuneBook, true)
     setList('')
     setTunes([])
@@ -228,7 +228,7 @@ function ImportListModal(props) {
       </Button>
 
       <Modal backdrop="static"
-        keyboard={false}
+        keyboard="false"
         show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Import a list of tunes from thesession.org</Modal.Title>

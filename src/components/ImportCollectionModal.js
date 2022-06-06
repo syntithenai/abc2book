@@ -62,36 +62,40 @@ function ImportCollectionModal(props) {
   
   function doImport(collection) {
     //console.log('import')
+    props.setCurrentTuneBook(collection)
     var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
     //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
-    props.setCurrentTuneBook(collection)
-    if (duplicates.length > 0) {
-          //console.log('import dup', duplicates)
+    //const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
+    ////console.log('imported',inserts,updates,duplicates)
+    //props.setImportResults(importResults)
+    //var [inserts, updates, duplicates] = importResults
+    //if (duplicates.length > 0) {
+          ////console.log('import dup', duplicates)
 
-      setDuplicates(duplicates)
-      setMessage(<div>
-        {inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        {updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates,collection)}}>Import Duplicates</Button></div>
-      )
-    } else {
-      //console.log('import ok', inserts, updates)
-      //setList('')
-      //props.forceRefresh()
-      setMessage(<>
-        {inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        {updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-      </>)
-    }
+      //setDuplicates(duplicates)
+      //setMessage(<div>
+        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
+        //Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates,collection)}}>Import Duplicates</Button></div>
+      //)
+    //} else {
+      ////console.log('import ok', inserts, updates)
+      ////setList('')
+      ////props.forceRefresh()
+      //setMessage(<>
+        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
+      //</>)
+    //}
   }
   
-  function forceImport(duplicates, collection) {
-    var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), collection, true)
-     setMessage(<>
-      {<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-    </>)
-  }
+  //function forceImport(duplicates, collection) {
+    //var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), collection, true)
+     //setMessage(<>
+      //{<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
+    //</>)
+  //}
       
   function fileSelected (event) {
       function readFile(file){

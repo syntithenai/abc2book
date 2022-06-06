@@ -1183,7 +1183,7 @@ var useAbcTools = () => {
             }
         })
     }
-    var hash = utils.hash((voicesAndNotes.join("\n"))+tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts)
+    var hash = utils.hash((voicesAndNotes.join("\n"))+tune.title+tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts)
     return hash
   }
 

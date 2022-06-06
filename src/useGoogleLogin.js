@@ -47,9 +47,9 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     function revokeToken() {
       //console.log("revoke")
       setUser(null)
-      //try {
-        //global.window.google.accounts.oauth2.revoke(accessToken.current, () => {console.log('access token revoked')});
-      //} catch (e) {}
+      try {
+        global.window.google.accounts.oauth2.revoke(accessToken.current, () => {console.log('access token revoked')});
+      } catch (e) {}
       setAccessToken(null)
       localStorage.setItem('google_login_user','')
     }
@@ -65,7 +65,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function refresh(scope) {
-      //console.log("refresh",localStorage.getItem('google_login_user'))
+      console.log("refresh",localStorage.getItem('google_login_user'))
       if (localStorage.getItem('google_login_user')) {
           setTimeout(function() {
             initClient(scope)

@@ -11,7 +11,7 @@ function BookManagerModal(props) {
     <>
       <Button style={{color:'black'}} variant="secondary" onClick={handleShow}>...</Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} >
         <Modal.Header closeButton>
           <Modal.Title>Save</Modal.Title>
         </Modal.Header>

@@ -55,7 +55,7 @@ function ReviewNavigationModal(props) {
         <Modal.Body>
           <ListGroup>
             {Array.isArray(props.reviewItems) && props.reviewItems.map(function(item,ik) {
-              return <Link key={ik} to={"/review/" + ik}  onClick={handleClose} ><ListGroup.Item>{item.name}</ListGroup.Item></Link>
+              return <Link key={ik} to={"/review/" + ik}  onClick={handleClose} ><ListGroup.Item className={(ik%2 === 0) ? 'even': 'odd'} >{item.name}</ListGroup.Item></Link>
             })}
           </ListGroup>
         </Modal.Body>

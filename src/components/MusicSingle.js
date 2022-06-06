@@ -130,10 +130,11 @@ export default function MusicSingle(props) {
                {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music}</Button>}
                {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}</Button>}
                 </span>
+                <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             </div>
             
             {props.viewMode === 'music' && <>
-             <Abc forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             <Abc autoScroll={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
              <div className="lyrics" style={{marginLeft:'2em'}} >
                 {Object.keys(words).map(function(key) {

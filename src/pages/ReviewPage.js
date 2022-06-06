@@ -171,10 +171,15 @@ export default function ReviewPage(props) {
    const [autoStart,setAutoStart] = useState(false)
    //console.log('RR FOUND TUNE', tune , abc)
     if (!tune) {
-        return <div><br/>You have seen all your boosted tunes in the last 24 hours. 
-        <br/>
-        Boost more tunes to add them to your list.
+        return <div>
         
+        
+        <br/>You have seen all your boosted tunes in the last 24 hours. 
+        <br/>
+        Boost more tunes to add them to your list or try a a different book.
+        <br/>
+        <br/>
+        <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
         </div>
     } else  {
         var abc = props.tunebook.abcTools.json2abc(tune)
