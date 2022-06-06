@@ -37,7 +37,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
-
 import useRecordingsManager from './useRecordingsManager'
 import useGoogleLogin from './useGoogleLogin' 
 import useGoogleDocument from './useGoogleDocument' 
@@ -285,7 +284,7 @@ function App(props) {
             </> : null}
   
            {(!showWarning(sheetUpdateResults) && !showImportWarning(importResults) && tunes !== null) && <div>   
-              <Header tunebook={tunebook}  currentTune={currentTune} />
+              <Header tunebook={tunebook}  token={token} googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
