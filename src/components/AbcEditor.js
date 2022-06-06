@@ -109,9 +109,9 @@ export default function AbcEditor(props) {
           if (voiceInnerParts.length > 1) {
             var splitOffset = voiceName.length + 3
             var before = voiceParts[0].length + voiceInnerParts[0].length + splitOffset
-            console.log('letter before start of voice',before, abcelem.startChar, abcelem.endChar)
+            //console.log('letter before start of voice',before, abcelem.startChar, abcelem.endChar)
             if (refs['textareaRef_'+voice] && refs['textareaRef_'+voice].current) {
-              console.log(refs['textareaRef_'+voice].current)
+              //console.log(refs['textareaRef_'+voice].current)
               setTimeout(function() {
                 refs['textareaRef_'+voice].current.setSelectionRange(abcelem.startChar - before , abcelem.endChar - before );
                 refs['textareaRef_'+voice].current.focus();

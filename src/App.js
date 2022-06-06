@@ -11,6 +11,7 @@ import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import RecordingsPage from './pages/RecordingsPage'
+import ImportLinkPage from './pages/ImportLinkPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
 import ImportWarningDialog from './components/ImportWarningDialog'
 import RecordingPage from './pages/RecordingPage'
@@ -63,7 +64,7 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    console.log('apply',changes)
+    //console.log('apply',changes)
     // save all inserts and updates
     // , delete all deletes
     Object.keys(deletes).forEach(function(d) {
@@ -104,7 +105,7 @@ function App(props) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(tunebookText)
         var tunes = utils.loadLocalObject('bookstorage_tunes')
-        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         var ids = []
         Object.values(intunes).forEach(function(tune) {
           // existing tunes are updated
@@ -138,12 +139,12 @@ function App(props) {
         })
       }
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      console.log('merge done' ,ret)
+      //console.log('merge done' ,ret)
       return ret
   }
   
   function overrideTuneBook(fullSheet) {
-    console.log('overrideTuneBook')
+    //console.log('overrideTuneBook')
     pauseSheetUpdates.current = true
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
@@ -166,16 +167,16 @@ function App(props) {
 
   
   function onMerge(fullSheet) {
-    console.log('onmerge')
+    //console.log('onmerge')
     var trialResults = mergeTuneBook(fullSheet)
-    console.log('onmerge', fullSheet.length, trialResults)
+    //console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
       //console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
       forceRefresh()
     } else { 
-      console.log('onmerge empty results',trialResults)
+      //console.log('onmerge empty results',trialResults)
       setSheetUpdateResults(trialResults)
       //applyMergeChanges(trialResults)
       //forceRefresh()
@@ -279,7 +280,7 @@ function App(props) {
             </> : null}
             {(showImportWarning(importResults)) ? <>
               <ImportWarningDialog tunebook={tunebook} importResults={importResults} setImportResults={setImportResults} closeWarning={closeWarning} acceptChanges={function(changes) {
-                console.log('changes',changes)
+                //console.log('changes',changes)
               }} overrideTuneBook={overrideTuneBook} />
             </> : null}
   
@@ -287,7 +288,7 @@ function App(props) {
               <Header tunebook={tunebook}  token={token} googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
-                    <Route  path={``}   element={<HomePage  tunebook={tunebook}    />}  />
+                    <Route  path={``}   element={<HomePage  tunebook={tunebook}     currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
                     <Route  path={`recordings`} >
@@ -331,6 +332,10 @@ function App(props) {
                     <Route  path={`importdoc`} >
                       <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                     </Route>
+                    
+                    <Route  path={`importlink`} >
+                      <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                    </Route>
                       
                   </Routes>
                   
@@ -344,7 +349,7 @@ function App(props) {
       
     </div>
 
-  );
+  ); 
 }
 
 export default App;

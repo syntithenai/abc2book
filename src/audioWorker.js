@@ -1,6 +1,6 @@
 import abcjs from 'abcjs'
 
-console.log('WORKER  AC',global.AudioContext, global)
+//console.log('WORKER  AC',global.AudioContext, global)
 
 function renderAudio(initOptions) { 
     
@@ -8,7 +8,7 @@ function renderAudio(initOptions) {
         var midiBuffer = new abcjs.synth.CreateSynth()
         midiBuffer.init(initOptions).then(function (response) {
             //midiBuffer.prime().then(function() {
-            console.log('WORKER  AC ini',response, midiBuffer)
+            //console.log('WORKER  AC ini',response, midiBuffer)
                 postMessage([midiBuffer.status, midiBuffer.duration, midiBuffer.audioBuffers]);
                 resolve()
             //})
@@ -39,7 +39,7 @@ global.addEventListener('message', event => {
     if (event && event.data && event.data.qpm > 0 && event.data.hasOwnProperty('sequence')) {
         renderAudio(event.data)
     }
-    console.log('WORKER MESSAGE', event, abcjs)
+    //console.log('WORKER MESSAGE', event, abcjs)
   //postMessage(add(event.data));
   //postMessage('poing');
 });

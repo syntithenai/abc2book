@@ -64,15 +64,15 @@ export default function useRecordingsManager({token}) {
   }
   function updateRecordingTitle(recording) {
     return new Promise(function(resolve,reject) {
-      console.log('uprectit',recording)
+      //console.log('uprectit',recording)
       if (recording && recording.id && recording.title) {
         recording.createdTimestamp = new Date().getTime()
         store.setItem(recording.id, recording).then(function (item) {
-          console.log('uprectit into store',recording)
+          //console.log('uprectit into store',recording)
           if (recording.googleId) {
-            console.log('uprectit have google id',recording)
+            //console.log('uprectit have google id',recording)
             docs.updateDocument(recording.googleId,{name: recording.title}).then(function(newId) {
-              console.log('uprectit done online')
+              //console.log('uprectit done online')
               resolve()
             })
           } else {
@@ -265,7 +265,7 @@ export default function useRecordingsManager({token}) {
 
     function downloadRecording (recordingId) {
       loadRecording(recordingId).then(function(rec) {
-        console.log('DL',rec, rec.data)
+        //console.log('DL',rec, rec.data)
        
         var url = URL.createObjectURL(rec.data);
 

@@ -16,7 +16,7 @@ function NewRecordingDialog(props) {
             setRecordings(
               recordings
               .filter(function(recording) {
-                console.log('filter A',props.recording, recording)
+                //console.log('filter A',props.recording, recording)
               
                 if (recording.title && recording.title.trim() && recording.title.toLowerCase().indexOf(searchText.toLowerCase()) !== -1) {
                   if (props.recording && props.recording.id && props.recording.id === recording.id) {
@@ -37,7 +37,7 @@ function NewRecordingDialog(props) {
               }))
           } else {
             setRecordings(recordings.filter(function(recording) {
-              console.log('filter',props.recording, recording)
+              //console.log('filter',props.recording, recording)
                 if (props.recording && props.recording.id && props.recording.id === recording.id) {
                   return false
                 } else {
@@ -56,16 +56,16 @@ function NewRecordingDialog(props) {
     
     
     function fileSelected (event) {
-      console.log('FILESel',event,event.target.files[0]);
+      //console.log('FILESel',event,event.target.files[0]);
       props.ee.emit("newtrack", event.target.files[0] );
       props.setIsChanged(true)
       handleClose()
     }
     
     function recordingSelected (recording) {
-      console.log('rec sel',recording);
+      //console.log('rec sel',recording);
       props.tunebook.recordingsManager.loadRecording(recording.id).then(function(rec) {
-          console.log('rec sel load',rec);
+          //console.log('rec sel load',rec);
           props.setIsChanged(true)
           props.ee.emit("newtrack", rec.data );
           handleClose()

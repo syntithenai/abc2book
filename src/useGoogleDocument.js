@@ -149,7 +149,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
     }
  function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
-      console.log('get public rec',id ,accessToken)
+      //console.log('get public rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id ) {
         axios({
@@ -160,7 +160,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log("USE GOT public DOC",postRes)
+          //console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -176,7 +176,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
   
   function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get rec',id ,accessToken)
+      //console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -185,7 +185,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log("USE GOT DOC",postRes)
+          //console.log("USE GOT DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -240,7 +240,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           //googleSheetId.current = postRes.data.id
-          console.log('created',postRes)
+          //console.log('created',postRes)
           updateDocumentData(postRes.data.id, documentData).then(function(updated) {
             //onLogin("")
             //console.log('updated',updated)
@@ -305,14 +305,14 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
   
   function deleteDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('trigger sheet delete ', id, accessToken)
+      //console.log('trigger sheet delete ', id, accessToken)
       if (id && accessToken) {
         axios({
           method: 'delete',
           url: 'https://www.googleapis.com/drive/v2/files/'+id,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log('deleted',postRes.data  )
+          //console.log('deleted',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -333,7 +333,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
-          console.log('add perm',postRes  )
+          //console.log('add perm',postRes  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -354,7 +354,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions",
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log('get perm',postRes.data  )
+          //console.log('get perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -376,7 +376,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
           data: permissionData,
         }).then(function(postRes) {
-          console.log('update perm',postRes.data  )
+          //console.log('update perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()
@@ -396,7 +396,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           url: 'https://www.googleapis.com/drive/v3/files/'+id+"/permissions/"+permissionId,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log('del perm',postRes.data  )
+          //console.log('del perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
           resolve()

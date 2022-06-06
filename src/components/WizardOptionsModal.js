@@ -18,7 +18,7 @@ function WizardOptionsModal(props) {
   function applyToNotes(applyFunction) {
      var tune = props.tune
      if (tune && tune.voices) {
-       console.log('applyVVVV',tune.voices)
+       //console.log('applyVVVV',tune.voices)
        
        Object.keys(tune.voices).map(function(voice) {
          var hasTailingBar = false

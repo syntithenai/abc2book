@@ -72,12 +72,12 @@ export default function IndexLayout(props) {
         return found
     }
     useEffect(function() {
-        console.log("IL boot")
+        //console.log("IL boot")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
     },[])
     useEffect(function() {
-        console.log("IL")
+        //console.log("IL")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
       var tuneStatus = {}

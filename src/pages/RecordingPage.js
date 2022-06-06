@@ -59,7 +59,7 @@ export default function RecordingPage(props) {
     
     
     useEffect(function() {
-      console.log('eff',params.recordingId, lastId.current)
+      //console.log('eff',params.recordingId, lastId.current)
       if (params.recordingId !== lastId.current)  {
         lastId.current = params.recordingId
         props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec) {
@@ -79,7 +79,7 @@ export default function RecordingPage(props) {
             // async save after rendering finished
             var ee = playlist.getEventEmitter()
             ee.on('audiorenderingfinished', function (type, data) {
-              console.log('render finish', type, data)
+              //console.log('render finish', type, data)
               setIsSaving(false)
               if (type == 'wav'){
                 rec.data = data
@@ -200,7 +200,7 @@ export default function RecordingPage(props) {
                   onClick={function() {
                     ee.emit('startaudiorendering', 'wav');
                     //props.tunebook.recordingsManager.deleteRecording(recording.id)
-                    console.log('saveing',recording)
+                    //console.log('saveing',recording)
                     setIsSaving(true)
                   }}
                 >Mix {props.tunebook.icons.save} {isSaving ? props.tunebook.icons.timer2line : null}</Button>
@@ -232,7 +232,7 @@ export default function RecordingPage(props) {
                         recording,
                         {title: recordingTitle}))
                       .then(function() { 
-                        console.log('updated')
+                        //console.log('updated')
                       })
                     },500)
                     

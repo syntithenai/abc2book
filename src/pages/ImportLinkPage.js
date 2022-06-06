@@ -1,13 +1,13 @@
 import {Link , useNavigate , useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
-import useGoogleDocument from '../useGoogleDocument'
-export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
+import axios from 'axios'
+
+export default function ImportLinkPage({tunebook, token, refresh}) {
     var navigate = useNavigate()
     var params = useParams()
     //console.log(params)
     const [error,setError] = useState('')
-    var docs = useGoogleDocument({token, refresh})
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 
@@ -17,7 +17,7 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
     function handleCloseAgree() {
         //console.log('close',params)
         if (params.tuneId) {
-            navigate("/tunes/"+params.googleDocumentId)
+            navigate("/tunes/"+params.link)
         } else {
             navigate("/tunes")
         }
@@ -31,30 +31,37 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
     
     useEffect(function() {
       //console.log('impo go usef',params.googleDocumentId,token)
-      if (!params.googleDocumentId) {
+      if (!params.link) {
           navigate("/tunes")
       } else {
-          if (token) {
+          //if (token) {
               // load document 
-              //console.log('ldd DO',params.googleDocumentId)
-              docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
-                  //console.log('ldd',fullSheet)
-                  if (fullSheet) {
-                      tunebook.importAbc(fullSheet)
+              //console.log('ldd DO',params.link)
+              axios.get(params.link).then(function(res) {
+                  if (res.data) {
+                      tunebook.importAbc(res.data)
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")
                   }
-              })
-            }
+              }) 
+              //docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
+                  //console.log('ldd',fullSheet)
+                  //if (fullSheet) {
+                      //tunebook.importAbc(fullSheet)
+                      //navigate("/tunes")
+                  //} else {
+                      //setError("Unable to load import source")
+                  //}
+              //})
+            //}
       }
     }, [params.googleDocumentId, token])
     
     return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
      <h1>Import a Shared Tune Book </h1>
-     {!token && <>To import this Tune Book, you will need to <Button style={{marginLeft:'0.3em'}} variant="success" onClick={refresh} >Login</Button></>}
-     {(token && !error) && <>Loading..</>}
-     {(token && error) && <>{error}</>}
+     {(!error) && <>Loading..</>}
+     {(error) && <>{error}</>}
     </div> : null}</>
 }
 //{agree 

@@ -19,7 +19,7 @@ function ImportAbcModal(props) {
   var [message, setMessage] = useState(null)
   
   function doImport(list) {
-    console.log('import',list)
+    //console.log('import',list)
     const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
     handleClose()
     //console.log('imported',inserts,updates,duplicates)

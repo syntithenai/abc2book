@@ -15,7 +15,7 @@ export default function useGoogleSheet(props) {
   //var client;
   // google login
   var docs = useGoogleDocument({pollInterval: props.pollInterval, token, refresh, pausePolling, onChanges: function(changes) {
-      console.log('DOCCHANGE',changes)
+      //console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {
           return true
@@ -23,10 +23,10 @@ export default function useGoogleSheet(props) {
           return false
         }
       })
-      console.log('DOCCHANGE match',matchingChanges)
+      //console.log('DOCCHANGE match',matchingChanges)
       if (matchingChanges && matchingChanges.length === 1) {
         getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
-          console.log('DOCCHANGE got sheet')
+          //console.log('DOCCHANGE got sheet')
           onMerge(fullSheet)
         })
       }
@@ -109,7 +109,7 @@ export default function useGoogleSheet(props) {
       //setupInterval()
     }
     function findTuneBookInDrive() {
-      console.log('find book in drive')
+      //console.log('find book in drive')
         var xhr = new XMLHttpRequest();
         xhr.onload = function (res) {
           if (res.target.responseText) {
@@ -122,7 +122,7 @@ export default function useGoogleSheet(props) {
               loadSheet()
             } else {
               // create file
-              console.log('create')
+              //console.log('create')
               createTuneSheet().then(function(newId) {
                 googleSheetId.current = newId
                 setGoogleDocumentId(newId)

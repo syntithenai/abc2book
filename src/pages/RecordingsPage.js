@@ -10,7 +10,7 @@ export default function RecordingsPage(props) {
     //console.log(props)
     function loadRecordings() {
       props.tunebook.recordingsManager.listRecordings().then(function(recordings) {
-        console.log("listed", recordings)
+        //console.log("listed", recordings)
           if (searchText && searchText.length > 0) {
             setRecordings(
               recordings

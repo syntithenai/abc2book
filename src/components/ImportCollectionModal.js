@@ -1,10 +1,11 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
+import {useNavigate} from 'react-router-dom'
 
 function ImportCollectionModal(props) {
-  
-  
+  //console.log(props.tunebook.curatedTuneBooks)
+  const navigate = useNavigate()
   const [show, setShow] = useState(props.autoStart ? props.autoStart : '');
   const [filter, setFilter] = useState('')
   const [list, setList] = useState('')
@@ -63,6 +64,14 @@ function ImportCollectionModal(props) {
   function doImport(collection) {
     //console.log('import')
     props.setCurrentTuneBook(collection)
+    if (props.tunebook.curatedTuneBooks[collection]) {
+      if (props.tunebook.curatedTuneBooks[collection].link) {
+        navigate("/importlink/"+encodeURIComponent(props.tunebook.curatedTuneBooks[collection].link))
+      } else if (props.tunebook.curatedTuneBooks[collection].googleDocumentId) {
+        navigate("/importdoc/"+props.tunebook.curatedTuneBooks[collection].googleDocumentId)
+      } 
+    }
+    
     var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
     //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
@@ -117,14 +126,14 @@ function ImportCollectionModal(props) {
   useEffect(function() {
     if (props.autoStart)  doImport(props.autoStart)
   },[props.autoStart])
-   
+  var label = props.label ? props.label : <>{props.tunebook.icons.folderin} Book</>
   return (
     <>
-      <Button id="loadtunebookbutton" style={{color:'black'}} variant='primary' onClick={handleShow} >{props.tunebook.icons.folderin} Book</Button>
+      <Button id="loadtunebookbutton" style={{color:props.label ? 'white': 'black'}} size={props.label ? 'sm': ''} variant='primary' onClick={handleShow} >{label}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title> Import a curated book</Modal.Title>
+          <Modal.Title> Import a Curated Tune Book</Modal.Title>
           
         </Modal.Header>
         {message ? <div>

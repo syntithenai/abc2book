@@ -65,7 +65,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     
     function refresh(scope) {
-      console.log("refresh",localStorage.getItem('google_login_user'))
+      //console.log("refresh",localStorage.getItem('google_login_user'))
       if (localStorage.getItem('google_login_user')) {
           setTimeout(function() {
             initClient(scope)

@@ -1,0 +1,2391 @@
+X: 0
+T: Amazing Grace
+B: begged borrowed and stolen
+M:3/4
+L:1/4
+R: Waltz
+Q: 1/4=100
+K:G
+V:1 
+D|"G"G2 B/G/|B2 "D7"A|"Em"G2 "C"E|"G"D2 D|
+G2 B/G/|B2 "D7"A/B/|("D"d3|d)zB|
+"G"d2 B/G/|B2A|"C"G2 E|"G"D2 D|
+"Em"G2 (3B/A/G/|"D"B2 A|("G"G3|G2)|]
+% abcbook-tune_id 62828a3ab3e408a987d08d73
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431046
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 3
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords
+
+X: 1
+T: The Rose Of Aranmore
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:Dmajor
+V:1 
+AF|              "D"D4 F2|              A2 F2 D2|              "G"G4 B2|              d2 c2 B2|              "D"A4 B2|              A2 F2 D2|              "A"E6 -|              E2 A2 F2|              
+ "D"D4 F2|A2 F2 D2|"G"G4 B2|d2 c2 B2|"D"A4 F2|"A"G2 F2 E2|"D"D6 -|D4 A2|
+ "G"G4 B2|              d2 c2 B2|              "D"A4 B2|              A2F2D2|              "G"G4 B2|              "D"A4 F2|              "A"E6 -|              E2 A2 F2|              
+ "D"D4 F2|              A2 F2 D2|              "G"G4 B2|              d2 c2 B2|              "D"A4 F2|              "A"G2 F2 E2|              "D"D6 -|              D4 A2||
+% abcbook-tune_id 62828a3a86e0be488493663b
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431047
+% abc-sessionorg_id 1129
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 43571
+% abc-boost 1
+
+X: 2
+T: Ye Banks And Braes
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:Gmajor
+V:1 
+D2|"G"G4 G<G|"D"A2 G2 A2|"G"B4 d<B|"D"A2 G2 A2|"G"B3 A G2|"Em"G2 E2 D2|"C"D2 E2 G2|"D"A4 BA|
+"G"G4 G>G|"D"A3 G A2|"G"B2 d2 B2|"D"(3ABA G3 A|"G"B3 A G2|"Em"G2 E2 D2|"C"D2 E2 G2|"G"G4 B2|
+ "G"d4 e2|d2 B2 G2|d4 e2|d2 B2 G2|d2 B2 G2|"Em"(3ded B2 G2|"C"e3 d cB|"D"A3 A BA
+|"G" G3 G G>G|"D"A2 G2 A2|"G"B2 d3 B|"D"A2 G2 A2|"G"B3 A G2|"Em"G2 E2 D>D|"C"D2 E2 G2|"G"G4||
+% abcbook-tune_id 62828a3a163691ed5f15fa4c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431048
+% abc-sessionorg_id 6718
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 6718
+% abc-boost 1
+
+X: 3
+T: The South Wind
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:Gmajor
+V:1 
+dc|:"G"B3A G2|B3c d2|"D"A4 A2|A4 dc|
+"G"B3A G2|"C"E3D E2|1 "G"G4 G2|G4:|2 "G"G4 G2| G2 B2 d2:|
+"G"g4 g2|"C"g3f e2|"G"d4 d2|d4 c2| 
+"G"B3A G2|B3c d2|"D"A4 A2|A4 d2|
+"G"g3a f2|"C"g3f e2|"G"d4 d2|d4 c2|
+ "Em"B3A G2|"D"Acc2 F2|"G"G4 G2|G4||
+% abcbook-tune_id 62828a3a8410bb63dcd60274
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431048
+% abc-sessionorg_id 601
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 32108
+% abc-boost 1
+
+X: 4
+T: The Munster Cloak
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+R: Waltz
+Q: 1/4=100
+K:G
+V:1 
+|:"G"G2GA BG|"D"A2AB cA|"G"G2GA Bd|"D"c2A2F2|
+"G"G2GA BG|"D"A2AB cA|d2de fd|c2A2F2:|
+|:"G"g2ga gf|"D"d2g2a2|"G"b2a2g2|"D"f2g2a2|
+"G"b2a2g2|"D"f2de fd|dc Ad cA|A2G2G2:|
+% abcbook-tune_id 62828a3a667521e3bb5d9fef
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431049
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 1
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords
+
+X: 5
+T: Wild Mountain Thyme
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: song
+Q: 1/4=60
+K:G
+V:1 
+G/E/ | "G"D>D "C"EG "G"G3 B/d/ | "C"e>e ed "G"B<d- d B/d/ | 
+"C"e2 "G"dB A"Em"G2 A/B/ | "C"c>B AG E<G- GG/E/ | 
+"G"D2 "C"E<G "G"G3 B/d/ | "C"e2 e>d "G"B<d- d B/d/ |
+ "C"e2 "G"dB "Em"A<G- G A/B/ |"C"  c>B AG E<G- G G/E/ | "G"D2 "C"E<G "G"G4 ||
+W: Oh, the summer time has come, and the trees are sweetly bloomin',
+W: And the wild mountain thyme, grows around the bloomin' heather,
+W: Will ye go, lassie, go?
+W: 
+W: Chorus:
+W: And we'll all go together, to pull wild mountain thyme,
+W: All around the bloomin' heather,
+W: Will ye go, lassie, go?
+W: 
+W: I will build my love a bower, by yon cool crystal fountain,
+W: And round it I will pile, all the wild flowers o' the mountain,
+W: Will ye go, lassie, go?
+W: 
+W: Chorus
+W: 
+W: I will range through the wilds, and the deep glen sae dreamy,
+W: And return wi' their spoils, tae the bower o' my dearie,
+W: Will ye go, lassie, go?
+W: 
+W: Chorus
+W: 
+W: If my true love she'll not come, then I'll surely find another,
+W: To pull wild mountain thyme, all around the bloomin' heather,
+W: Will ye go, lassie, go?
+W: 
+W: Chorus
+% abcbook-tune_id 62828a3a8581ca46e42a4376
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431049
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+
+X: 6
+T: The Blackthorn Stick
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmaj
+V:1 
+|:d|"G"gfg "C"ege|"G"dBG "C"AGE|"G"DGG "C"FGA|"G"BGB "D"A2 d|
+"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D"FGA|"G"BGG G2:|
+|:d|"C"edd "G"gdd|"C"edd "G"gdd|"C"e2 e "G"gfg|"G"edB "D"A2 d|
+"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D"FGA|"G"BGG G2:|
+% abcbook-tune_id 62828a3a676c5e88c6ae99ab
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431050
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 1
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords
+
+X: 7
+T: The Rakes Of Kildare
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Adorian
+V:1 
+|:"Am"EAA AGA|Bcd e2f|"G"gfg ege|dBA G2D|
+"Am"EAA AGA|Bcd e2f|"G"gfg edB|"Am"A3 A2G:|
+|:"Am"aea aea|aea b2a|"G"gfg ege|dBA G3| 
+[1 "Am"aea aea|aea b2a|"G"gfe dBG|"Am"ABA A3:|
+ [2 "Am"EAA AGA|Bcd e2f|"G"gfe dBG|"Am"ABA A3||
+% abcbook-tune_id 62828a3a30f44d795c3e41b9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431050
+% abc-sessionorg_id 84
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 84
+% abc-boost 0
+
+X: 8
+T: Haste To The Wedding
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+A|:"D"AFA Agf|"G"ede fdB|"D"AFA AGF|"A"EFE EFG|
+"D"AFA Agf|"G"ede fdB|"A"AFg faf|1 "D"ded d2A:|2 "D"ded d2a||
+|:"D"afa afa|"G"bgb bgb|"D"afa agf|"A"efe efg|
+"D"a3 f3|"G"ede fdB|"A"AFg faf|1 "D"ded d2a:|2 "D"ded d3||
+% abcbook-tune_id 62828a3ab041137f55697837
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431051
+% abc-sessionorg_id 582
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 21777
+% abc-boost 1
+
+X: 9
+T: Joe Burke's
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmaj
+V:1 
+|:A/G/ | EAA ABd | ege dBA | GEG G2 B | dBA GED |
+EAA ABd | ege def |"G" g2 d "Em"edB | BAG "Am"A2 :||
+ "Am"eag e2 d | eaa age | "G"gag d2 d | egg ged |
+"Am"eag e2 d | e aa age | "G"g2 d "Em"edB | BGG "Am"A2 :||
+% abcbook-tune_id 62828a3a1ece6cf9c60bf4a7
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431052
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 1
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords
+
+X: 10
+T: Out On The Ocean
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+GE|:"G"D2B BAG|BdB A2B|"C"GED G2A|"D"B2B AGE|
+"G"D2B BAG|BdB A2B|"C"GED G2A|"D"BGE "G"G3:|
+ |:"Em"e2e edB|ege edB|"Bm7"d2B def|"C"gfe dBA|
+"G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGE "G"G3:|
+% abcbook-tune_id 62828a3a3841cbb2b09fd6fc
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431052
+% abc-sessionorg_id 108
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 20578
+% abc-boost 1
+
+X: 11
+T: Saddle The Pony
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+D||:"G"GBA G2B|"D"def "G"gdB|GBA G2B|"D"AFD AFD|
+ "G"GBA G2B|"D"def"G" gfg|"C"efe "D"dBA|"G"BGG G3:|
+|:"Em"efe edB|def gfg|efe edB|"D"dBA ABd|
+ "Em"efe edB|def gfg|"C"efe "D"dBA|"G"BGG G3:|
+% abcbook-tune_id 62828a3adeb564849c9f2ace
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431053
+% abc-sessionorg_id 307
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 307
+% abc-boost 1
+
+X: 12
+T: The Lilting Banshee
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Adorian
+V:1 
+|:"Am"EAA EAA|"G"BAB G2A|"Em"Bee edB|"G"def gfg|
+"Am"eaa age|"G"dBA G2A|"Em"Bee edB|1"G"BAG "Am"A3:|2 "G"dBA "Am"A2d|| 
+|:"Am"eaa age|"G"dBA G2A|"Em" Bee edB|"D"def "G"gfg|
+ "Am"eaa age|"G"dBA G2A|"Em"Bee edB|1"G"BAG "Am"A2d:|2"G"BAG "A"A3||
+% abcbook-tune_id 62828a3a83b814d4d3368b23
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431053
+% abc-sessionorg_id 60
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 34816
+% abc-boost 1
+
+X: 13
+T: The Fairhaired Boy
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Adorian
+V:1 
+|:"Am"EAA EAA | "G"~g3 edB | "Am"BAB edB |"Em"~B3 GED | 
+"Am"EAA EAA | "G"g2g edB | "Am"BAB "Em"edB |1 "G"BAG "Am"A2A :|2"G"BAG"Am"ABd ||
+|:"Am"eaa bag | eaf ged | "G"BAB edB |~B3 GED |
+[1 "Am"e2a bag | eaf ged| "Am"BAB "Em"edB | "G"BAG "Am"AB/c/d :|
+[2 "Am"EAA EAA | gfg edB| "Am"BAB "Em"edB |"G"BAG "Am"A3 ||
+% abcbook-tune_id 62828a3ad4341963a01f9115
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431055
+% abc-sessionorg_id 3119
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 3119
+% abc-boost 1
+
+X: 14
+T: The Tenpenny Bit
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Adorian
+V:1 
+|:"Am"eAA eAA|"G"BAB GBd|"Am"eAA eAA|"G"def "Em"gfg|
+ "Am"eAA eAA|"G"BAB GBd|"Am"def "C"gdB|"Em"BAG "Am"A3:|
+|:"Am" eaa aga|"G"bag ged|"Am"eaa aga|"G"bab "Em"g2d|
+ "Am"eaa aga|"G"bag ged|"Am"def "C"ged|"Em"BAG "Am"A3:|
+% abcbook-tune_id 62828a3aeb79543ef648aebf
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431056
+% abc-sessionorg_id 109
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 109
+% abc-boost 1
+
+X: 15
+T: Lanigan's Ball
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Eminor
+V:1 
+|:D|"Em"EDE G2A|B2A B^cd|"D"DED F2G|AdB AFD|
+ "Em"EDE G2A|B2A B^cd|edB "Am"cBA|"Em"BGE E2:|
+|:d|"Em"e2f g2e|"D"fag fed|"Em"e2f g2e|"Bm"fdB B2d|
+"Em"e2f g2e|"D"fag fed|"Em"edB "Am"cBA|"Em"BGE E2:|
+% abcbook-tune_id 62828a3a9ed88430095357f3
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431056
+% abc-sessionorg_id 264
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 43100
+% abc-boost 0
+
+X: 16
+T: On The Top Of Cork Road
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"dAF DFA|"G"ded "A"cBA|"G"dcd efg|"A"fdf ecA|
+"D"dAF DFA|"G"ded "A"cBA|"D"dcd "A"efg| "D"fdd d3:|
+|:"D"fdf fga|"A"ecd efg|"G"fdf fga|"A"ecA A2c|
+"G"BGB Bcd|"D"AFADFA|"G"dcd "A"efg| "D"fdd d3:|
+% abcbook-tune_id 62828a3ac3cd3e4c39c5c960
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431057
+% abc-sessionorg_id 5018
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 31394
+% abc-boost 0
+
+X: 17
+T: Tripping Up The Stairs
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"FAA "G"GBB|"D"Add fed|"A"cBc ABc|"D"dfe "G"dAG|
+ "D"FAA "G"GBB|"D"Add fed|"A"cBc ABc|"D"dfe d2A:|
+|:"Bm"dBB fBB|"Bm"dBB fed|"A"cAA eAA|"A"afa ecA|
+ "Bm"dBB fBB|"Bm"dBB fed|"A"cBc ABc|"D"dfe d3:|
+% abcbook-tune_id 62828a3a3c8da180120d3c7d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431058
+% abc-sessionorg_id 111
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 28407
+% abc-boost 0
+
+X: 18
+T: Shandon Bells
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"AFD DFA|"D"ded cBA|"G"BGE EFA|"A"B2A Bcd|
+ "D"AFD DFA|"D"ded cBA|"G"Bcd "A"ecA|d3 d2B:|
+ |:"D"f2d dcd|f2a afd|"A"cAA eAA|cAc efg|
+ "D"f2d dcd|faa afd|"G"Bcd "A"ecA|"D"d2d d3:|
+% abcbook-tune_id 62828a3a0c483609215b3594
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431058
+% abc-sessionorg_id 1200
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1200
+% abc-boost 0
+
+X: 19
+T: The Knights Of Saint Patrick
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"dcd faf|dcd AFD|"G"GBG FAF|"A"EFG ABc| 
+"D"d3 faf|dcd AFD|"G"GBG "D"FAF|1 "A"EDE D2A:|2 "A"EDE D2f||
+ "D"aga fdf|aba agf|"A"g3 gec|Ace gfe|
+ "D"aga fdf|aba afg|afd "Em"bge|"A"edc "D"d2f|
+ "D"aga fdf|aba agf|"A"g3 gec|Ace gfe|
+ "D"d3 "Em"ede|"F#m"fef "G"gfg|"D"afd "Em"bge|"D"dAF D2 "(A)"A||
+% abcbook-tune_id 62828a3a06bd2c7c566c2c42
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431059
+% abc-sessionorg_id 1822
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1822
+% abc-boost 0
+
+X: 20
+T: The Muckin' O' Geordie's Byre
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:ABA AFA|d2e f2a|g2e f2d|e2d Bcd|
+ ABA AFA|d2e f2g|afd efe|d3 dcB:|
+ |:g2g gab|f2f fga|efe ede|fed Bcd|
+ ABA AFA|d2e f2g|afd efe|ded d3:|
+% abcbook-tune_id 62828a3ac56b9c03ca213cb7
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431060
+% abc-sessionorg_id 1110
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1110
+% abc-boost 0
+
+X: 21
+T: Drumdelgie
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:ABA AFA|d2f g2f|e2c A2F|G3 F2G|
+ ABA AFA|d2f g2f|e2c ABc|1 d3 c2B:|2 d3 d2e||
+ |:f2f d2f|g2f e2g|f2d A2F|G3 F2G|
+ ABA AFA|d2f g2f|e2c ABc|1 d3 d2e:|2 d3 c2B||
+% abcbook-tune_id 62828a3af84bc6dced4989ca
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431060
+% abc-sessionorg_id 5534
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 5534
+% abc-boost 0
+
+X: 22
+T: Out On The Ocean
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+GE|:"G"D2B BAG|BdB A2B|"C"GED G2A|"D"B2B AGE|
+ "G"D2B BAG|BdB A2B|"C"GED G2A|"D"BGE "G"G:|
+ |:Bd|"Em"e2e edB|ege edB|"Bm7"d2B def|"C"gfe dBA|
+ "G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGE "G"G:|
+% abcbook-tune_id 62828a3a105505e9746ddfc8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431062
+% abc-sessionorg_id 108
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 20578
+% abc-boost 0
+
+X: 23
+T: The Battering Ram
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"G"dBG "C"BAG|"G"dBG G2B|"G"dBG "C"AGE|"D"GFD D2B|
+ "G"dBG "C"BAG|"G"BdB "Em"BAG|"C"AGA BAB|"D"GED D2B:|
+ |:"G"deg aga|"Em"bge edB|"G"deg aga|"Em"bge ega|
+ "G"bag age|"Em"ged ege|"C"dAG AGE|"D"GED D2B:|
+ |:"G"B2G "D"A2G|"G"BGE DdC|"G"BAG "C"AGE|"D"GED DdC|
+ "G"B2G "D"A2G|"G"BdB BAG|"G"AGA "C"BAB|"D"GED D3:|
+% abcbook-tune_id 62828a3a9ed55a0e09ac227d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431062
+% abc-sessionorg_id 382
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 382
+% abc-boost 0
+
+X: 24
+T: Merrily Kissed The Quaker
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+D|:"G"GABD2B |"C"c2A BGE|"G"GAB DEG|"D" A2A AGE|
+ "G"GAB D2A |"C"cBA BGE|"G"GAB "D"D2E |"G"G3 G2:|
+ A|:"G"BGG "C"AGG |"G"BGG "C"AGG|"G"GAB DEG |"D"A2A AGA|
+ B"G"GG "C"AGG |"G"BGG "C"AGG|"G"GAB "A"DEG|"G" G3 G2:|
+ d|:"G"g2g "C"a2a |"G"bag "C"edB|"G"g2g gab |"D"a2a agf|
+ "G"g2g "D"f2f |"C"ege dBA|"G"GAB "D"AGF| "G"G3 G2:|
+% abcbook-tune_id 62828a3ae32d0ba98e83eec1
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431063
+% abc-sessionorg_id 70
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 70
+% abc-boost 0
+
+X: 25
+T: The Bride's Favourite
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+|:"G"G3 BAB|GBd gdB|"D"AFA cBA|"G"GBd gdB|
+"G" G3 BAB|GBd gdB|"C"AFA "D"cBA|1 "G"GFA G2 D:|2 "G"GFA GBd||
+|: "G"g2 a "D"f2 a|"G"gdB GBd|"C"gfe fed|"D"egf e2 f | 
+ "G"g2a "D"f2a|"G"gdB GBd|"C"AFA cBA|1 "D"GFA "G"GBd:|2 "D"GFA "G"G2 D||
+|:"G"GBd gfg|"C"edc BcA|"G"GBd g2 g|"D"eaf "G"g2 a|
+ "G"bgb "D"afa|"C"geg "D"fdf|"C"ed^c "D"def|"G"gaf gdB:|
+% abcbook-tune_id 62828a3a278202ebe6a62283
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431064
+% abc-sessionorg_id 3746
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 3746
+% abc-boost 0
+
+X: 26
+T: Banish Misfortune
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmixolydian
+V:1 
+|de|:"D"fed cAG|A2d cAG|"Am"F2D DED|"C"FEF "C"GFG|
+ "D"AGA cAG|AGA cde|"G"fed "Em"cAG|"A"Ad^c "D"d2e:|
+ |:"D"f2d d^cd|f2g agf|"C"e2c cBc|e2f gfe|
+ "D"f2g agf|"C"e2f gfe|"D"fed "G"cAG|"A"Ad^c "D"d2e:|
+ |:"D"f2g "C"e2f|"D"d2e "Am"c2d|"Am"ABA "C"GAG|"D"F2F GED|
+ "C"c3 cAG|AGA "Am"cde|"G"fed "Em"cAG|1 "A"Ad^c "D"d2e:|2 "A"Ad^c "D"d3||
+% abcbook-tune_id 62828a3aed97a2234bae525d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431065
+% abc-sessionorg_id 9
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 28408
+% abc-boost 0
+
+X: 27
+T: Off She Goes
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"F2A "G"G2B|"A"ABc "D"d3|"D"F2A "G"G2B|"D"AFD "A"E2D|
+ "D"F2A "G"G2B|"A"ABc "D"d2e|"D"f2d "G"g2f|"A"edc "D"d3:|
+ |:"D"faf def|"G"gbg efg|"D"faf d2d|"A"c2B  A2g|
+"D" faf def|"G"gbg efg|"D"f2d "G"g2f|"A"edc "D"d3:|
+W: Off she goes to Donnybrook Fair
+W: She has time and money to spare
+W: Looks like rain but she does not care
+W: Off she goes to Donnybrook Fair
+% abcbook-tune_id 62828a3ac144d42a3bc849dd
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431065
+% abc-sessionorg_id 1133
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1133
+% abc-boost 0
+
+X: 28
+T: Smash The Windows
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"DED F2A|d2f ecA|"G"G2B F2A|"A"E2F GFE|
+"D" DED F2A|d2f ecA|"G"Bgf "A"edc|1 "D"d3 dAF:|2 "D"d3 efg||
+ "D"a2f d2f|A2a agf|"A"g2e c2e|A2g gfe|
+ "D"f2d "G"g2e|"D"agf "G"bag|"G"fed "A"ABc|"D"dAF Dza|
+"D"agf fed|Adf agf|gfe ecA|
+ Ace gfe | "D"fed "G"gfe | "D"agf "G"bag|"G"fed "A"ABc|"D"d3 d3||
+% abcbook-tune_id 62828a3af9d18cef163117d9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431066
+% abc-sessionorg_id 101
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 101
+% abc-boost 0
+
+X: 29
+T: The Foxhunter
+B: begged borrowed and stolen
+M:9/8
+L:1/8
+R: slip jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"(FGF)F2D"Em"G2E|"D"(FGF)F2D"A"E2D|"D"(FGF)F2D"G"G2B|"D"(AFD) DEF"A"E2D:|
+ |:"Em"B3 (BAG) (FGA)|B2E E2F G2B|"D"(AB^c)"Bm"(dcB)"A"(ABc)|"D"d2D DEF E2D:|
+ |:"D"(fgf)f2d"Em"g2e|"D"(fgf)f2d"A"e2"D"d|(fgf)f2d"G"g2b|"D"(afd) def"A"e2"D"d:|
+ |:"Em"(gfe) (d=cB) (AGF)|B2E E2F G2B|"D"(AB^c) "Bm"(dcB) "A"(ABc)|"D"d2D DEF E2D:|
+% abcbook-tune_id 62828a3aea3ab1477f9f598f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431067
+% abc-sessionorg_id 482
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 13386
+% abc-boost 0
+
+X: 30
+T: The Rocky Road To Dublin
+B: begged borrowed and stolen
+M:9/8
+L:1/8
+Q: 3/8=100
+K:Am
+V:1 
+"Am"efe "G"d2B "Am"A2A|"Am"E2A A2A "G"Bcd|"Am"efe "G"d2B "Am"A2c|"G"B2A G2A Bcd|
+"Am"efe "G"d2B "Am"A2A|"Am"E2A A2A "G"Bcd|"Am"efe "G"d2B "Am"A2c|"G"BAG G2A Bcd|
+"Am"e2a a2^f "G"g3|"Am"e2a a2A "G"Bcd|"Am"e2a a2^f "G"g2e|"G"d2B G2A Bcd|
+"Am"e2a a2^f "G"g2d|"Am"e2a a2A "G"Bcd|"Em"e^fg "Bm"fga "Em"gfe|"G"d2B G2A Bcd||
+% abcbook-tune_id 62828a3ab86e5f297f004bb0
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431069
+% abc-sessionorg_id 593
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Nottingham Music Database
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords
+
+X: 31
+T: Slip Jig
+B: begged borrowed and stolen
+M:9/8
+L:1/8
+R: slipjig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|: "D" F2A ABA ABA| "G" G2B B2A Bcd| "D" F2A ABA ABA | "G" B2e e2d "A"cBA :|
+|:"D"f2d e2c d2e | "D"f2d e2d "A"cBA |"D" f2d e2c d2A | "G"B2e e2d "A"cBB :|
+% abcbook-tune_id 62828a3a2ad8e7fe071afd38
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431069
+% abc-sessionorg_id 11221
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 11221
+% abc-boost 0
+
+X: 32
+T: Another Jig Will Do
+B: begged borrowed and stolen
+M:9/8
+L:1/8
+R: slip jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+|:"D"ABA A2G F2G|"D"ABA AGF "C"G2F|"D"ABA A2G F2G|"C"A2d "D"d2c "G"d3:|
+ |:"D"A2g f2d e2c|"C"A2B =c2B c2d|"D"A2g f2d e2c|"C"A2d "G"d2c "D"d3|
+ "D"A2g f2d e2c|"C"A2B =c2B c2d|"D"d2A A2G F2G|"C"A2d "G"d2c "D"d3:|
+% abcbook-tune_id 62828a3a91b5e2da7c5bca17
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431070
+% abc-sessionorg_id 276
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 276
+% abc-boost 0
+
+X: 33
+T: The Kid On The Mountain
+B: begged borrowed and stolen
+M:9/8
+L:1/8
+R: slip jig
+Q: 3/8=100
+K:Eminor
+V:1 
+|:"Em"EDE FEF G2F|"Em"EFE c2A "D"BGE|"Em"EDE FEFG2A|"D"BAG FAG FED:|
+|:"G"BGB "D"AFA "G"G2 D|"G"GAB dge dBA|"G"BGB "D"AFA "G"G2 A|"G"BAG "D"FAG FED:|
+|:"Em"gfg eBe e2f|"Em"gfg efg "D"afd|"Em"gfg eBe efg|"D"bag fag fed:|
+|:"Em"eBB e2f g2f|"Em"eBB efg "D"afd|"Em"eBB e2f g2a|"D"bag fag fed:|
+|:"G"eBe "D"dBA "G"G2A|B2d dge dBd|"G"eBe "D"dBA "G"G2A|"G"BAG "D"FAG FED:|
+% abcbook-tune_id 62828a3a6955451e5bc1fd66
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431071
+% abc-sessionorg_id 52
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 24780
+% abc-boost 0
+
+X: 34
+T: The Ballydesmond
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+|:"D"D2 FA|"D"dc BA|"Em"BE EF|"G"GA/G/ FE|
+"D" D2 FA|"D"dc "G"BA|"Em"Be "A"Bc|"D"d2 d2:|
+|:"Em"eB eB|eB B>c|"D"dA dA|dA A>B|
+ "Em"eB eB|eB B>c|"G"dB "D"AF|"Em"E2 E2:|
+% abcbook-tune_id 62828a3a9b6e432fbe4a163f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431072
+% abc-sessionorg_id 531
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 531
+% abc-boost 0
+
+X: 35
+T: The Glenside
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Edorian
+V:1 
+|:"Em"B2BA|"D"F/G/A D2|"Em"B2 BA|"D"B/c/d ed|
+"Em" B2 BA|"D"F/G/A D>E|"Em"FD "D"AF|1 "Em"E2 E2:|2 "Em"E2 EA||
+ |:"Em"Be e>f|ed BA|Be ef|ed Bc|
+ "G"d>e dB|"D"AF D>E|"Em"FD "D"AF|"Em"E2 E2:|
+% abcbook-tune_id 62828a3a60520e661457e0fd
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431073
+% abc-sessionorg_id 534
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 534
+% abc-boost 0
+
+X: 36
+T: John Ryan's
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+|:"D"dd "G"B/c/d/B/|"D"AF AF|"D"dd "G"B/c/d/B/|"A"AF "(D)"ED|
+ "D"dd "G"B/c/d/B/|"D"AF Ad/e/|"D"fd "A"ec|1 "D"d2 d2:|2 "D"d2 d"A7"d/e/||
+ "D"fd de/f/|"G"gf "A7"ed/e/|"D" fd Ad|"A7"fe/f/ a3/2g/|
+ "D"fd de/f/|"G"gf "A"ed/e/|"D"fd "A7"ec|1 "D"d2 "A7"dd/e/:|2 "D" d2 d2||
+% abcbook-tune_id 62828a3a941fbb9699c79b01
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431074
+% abc-sessionorg_id 441
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 28845
+% abc-boost 0
+
+X: 37
+T: John Ryan's Polka
+B: begged borrowed and stolen
+M:2/4
+L:1/16
+R: Polka
+Q: 1/4=100
+K:D
+V:1 
+|:"D"d2d2 BcdB|"G"A2F2 A2F2|"D"d2d2 BcdB|"G"A2F2 "A"E2D2|
+"D"d2d2 BcdB|"G"A2F2 A2de|"D"f2d2 "A"edc2|1"D"d4 d4:|2"D"d4 d2 de||
+|:|"D"f2d2 d2ef|"G"g2f2 e2de|"D"f2d2 A2d2|"G"f2df "A"a3g|
+"D"f2d2 d2ef|"G"g2f2 e2de|"D"f2d2 "A"edc2|1 "D"d4 d2 de:|2 "D"d4 d4||
+% abcbook-tune_id 62828bdf8381b7318152407b
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431075
+
+
+X: 38
+T: Sweeney's
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Gmajor
+V:1 
+|:"G"de/d/ Bd|Gd Bd|"C"e/f/g/e/ "G"dB|"Em"AG E2|
+ "G"de/d/ Bd|Gd Bd|"C"e/f/g/e/ "Em"dB|1 "G"AG G2:|2 "G"AG G>A||
+ |:"G"Bd g>e|dB AG|Bd g>e|"D"dB AA|
+"G" Bd g>e|dB AG|d/d/d/d/ B>A|1 "D"AG "G"G>A:|2 "D"AG "G"G2||
+% abcbook-tune_id 62828a3adf5c5347ea1a127a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431076
+% abc-sessionorg_id 1549
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1549
+% abc-boost 0
+
+X: 39
+T: Scarterglen
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+Q: 1/4=100
+K:G
+V:1 
+D2 |: "G"G4 G3A | B2d2 d2ef | "C"g2B2 BAGA | "D"B2A2 A2BA|
+"G"G4 G3A | B2d2 d2ef | "C"g2B2 "D"A2BA|[1 "G"G6 D2:| [2 "G"G6 A2 ||
+|:"G"B2d2 g3f | "C"f2e2 efge | "G"d2B2 BAGA | "D"B2A2 A4 |
+"G"B2d2 g3f | "C"f2e2 efge | "G"d2B2 "D"A2BA| "G"G6 d2:|
+|:"G"g4 "D"a4 |"G" b6 a2 | "G"g2g2 "D"a2a2 | "G"b6 ba | 
+"C"g2e2 efge | "G"d2B2 g3e | "C"d2B2 "D"A2BA |"G" G8:|
+% abcbook-tune_id 62828a3aa12a224d4d10dce9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431077
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+
+X: 40
+T: St Mary's Polka
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+Q: 1/4=100
+K:G
+V:1 
+d |: "G"GB "D"AB/A/ | "G"Gg "C"e/f/g/e/ | "G"dB AG/A/ | "D"B>A G/F/E/D/ | 
+"G"GB "D"AB/A/ | "G"Gg "C"e/f/g/e/ | "G"dB "D"AG/A/ | "G"BG  G2      :|
+"G"Bd g>d   | Bd g>d      | Bd ge    | "D"f2  f>g      | 
+"C"aa/g/ "D"e/f/g/e/ | "G"dB "C"AG/A/ | "G"Be "D"d/B/A/B/ | "G"GG G2 :|
+% abcbook-tune_id 62828a3a64b20782ee4a6111
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431078
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords
+
+X: 41
+T: Church Street polka
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=100
+K:G
+V:1 
+d>c|:"G"BG D>D | "C"Ec cA/B/ | cBAG | "D"Fd d/e/d/c/ | "G"BG D>D | "C"Ec cA/B/ | 
+c/B/A/G/ "D" F/D/E/F/ | "G" GB G2:||: "G"g2f2 | "C"c3/2 d | ee dd | 
+"G"B>A Bc  |1 "G"d>e dB | "D"A3/2 B/A/ | "G"G>A Bc | d2e>f :|2 "G" d>e dB | "D"A3/2 B/A/ |"G" Gg "D"fa | "G"g2 g||
+% abcbook-tune_id 62828a3a3e4a999cdb502373
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431079
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords
+
+X: 42
+T: Denis Murphy's
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+|:"D"f/g/f/e/ d>B|AD FA|"G"GE e>d|"A"cB BA|
+"D" f/g/f/e/ d>B|AD FA|"G"GE "A"e>f|1"D" ed d2:|2 "D"ed dB||
+ |:"D"Af f/e/f|"G"Ag g/f/g|"D"Af f/e/g|"A"e/f/e/d/ BA|
+ "D"Af f/e/f|"G"Ag ga|"D"ba "A"gc|1 "D"dd B2:|2 "D"ed d2||
+% abcbook-tune_id 62828a3a24162c5639c71c9d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431080
+% abc-sessionorg_id 357
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 357
+% abc-boost 0
+
+X: 43
+T: New York Girls
+B: begged borrowed and stolen
+M:4/4
+L:1/4
+R: Polka
+Q: 1/4=170
+K:G
+V:1 
+Can't You Dance The Polka
+d|"G"GB dB|"C"ce-eg|"D"fd cd|"G"B3 d|"G"g>g gd|"C"fe ce|"D7"dd cA|"G"GA Bc|
+"G"d3 B|"C"c e3|"D"d2 c2|"G"B G3|"G"g3 d|"C"fe c2|"D7"d>d cA|"G"A G2|]
+% abcbook-tune_id 62828a3ad97168c2033c5a8e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431081
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 44
+T: The Siege Of Ennis
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Gmajor
+V:1 
+|:"G"D>E DB,|DE GA|Bd/B/ "D"AB/A/|"C"GE E>G|
+ "G"D>E DB,|DE GA|"C"Bd/B/ "D"AB/A/|1 "G"G2 GE:|2 "G"G2 GA||
+ "G"Bd dc/B/|"C"ce e>f|"G"Bd dG/A/|"Em"BA A2|
+ "G"Bd dc/B/|"C"ce e>f|"C"ge "D"f/e/d|"C"e2 e>f|
+ "C"ge "D"fd|"C"e/f/e/d/ "G"BA|"G"Bd AB/A/|"Em"GE EG|
+"G" D>E DB,|DE G>A|Bd "D"AB/A/|"G"G2 G2||
+% abcbook-tune_id 62828a3a94ccfed073209176
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431082
+% abc-sessionorg_id 1640
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1640
+% abc-boost 0
+
+X: 45
+T: The Rose Tree
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+f/e/|:"D"dB AF|A>B AB|"D"d2 "G"ed/e/|"A"fe ef/e/|
+ "D"dB AF|A>B AB|"G"d2 "A"ed/e/|"D"fd d2:|
+ |:"D"fe fg|a2 gf|"G"eb ba|"A"be ef/e/|
+"D" dB AF|"G"A>B AB|"D"d2 "A"ed/e/|"D"fd d2:|
+% abcbook-tune_id 62828a3abf72e6ad4809eeae
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431083
+% abc-sessionorg_id 1123
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1123
+% abc-boost 0
+
+X: 46
+T: The Bog Down in the Valley-oh
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: march
+Q: 1/4=120
+K:G
+V:1 
+|:"G"B2 B>A|"C"GE EG/E/|"G"DG G/F/G/A/|"D"BA A2|
+"G"B2 B>A|"C"GE EG/E/|"D"Dd dB|"G"AG G>A:|
+|:"G"BG "D"AG|"G"BG "D"AG|"G"Bd d>c|"C"BG"D"A2|
+"G"BG "D"AG|"G"BG "D"AG|"G"Bd d>c|"C"BG "G"G2:|
+% abcbook-tune_id 62828a3a77e7810e8520e382
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431084
+% abc-sessionorg_id 
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 47
+T: The Dashing White Sergeant
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+F3E|:DD D/E/F/G/|AF A f/e/|dB AF|BE EF/E/|
+ DD D/E/F/G/|AF Af|ed cB|A A/B/ A/G/F/E/|
+ DD D/E/F/G/|AF Af/e/|dB AF|BE EF/E/|
+ DD D/E/F/G/|AF Af|ed cB|A2 AE|
+ A A/B/ c/B/c/d/|ec AA|B B/c/ d/c/d/e/|fB BB|
+ cA dA|eA fA|gf ed|cB AA/G/|Fd d/c/d/e/|
+ dA AA|Be e/d/e/f/|eB B B|Ad d/c/d/e/|
+ fd d/c/d/e/|f2 a2|1 dc/B/ A/G/F/E/:|2 d4||
+% abcbook-tune_id 62828a3a87ede7de4c235e79
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431085
+% abc-sessionorg_id 6319
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 6319
+% abc-boost 0
+
+X: 48
+T: Staten Island
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: hornpipe
+Q: 1/4=100
+K:Dmajor
+V:1 
+AG|:"D"FDFG A2AB|defd edBA|"G"B2GB "D"A2FA|"A"G2E2 EGFE|
+ "D"DEFG A2AB|defd edBc|"G"d2d2 "A"efge|1 "D"f2d2 d2AG:|2 "D"f2d2 d2fg||
+ |:"D"a2fa g2eg|f2df edAB|"C"=c2c2 efge|=cdef g2fg|
+ "D"a2fa g2eg|"Bm"f2df edB^c|"G"d2d2 "A"efge|1 "D"f2d2 d2fg:|2 "D"f2d2 d2||
+% abcbook-tune_id 62828a3aed26097871928af1
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431086
+% abc-sessionorg_id 1285
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 24844
+% abc-boost 0
+
+X: 49
+T: Australian Galopede
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+A|"D" FA/A/ Ad|fe d2|"G" BA Bd|"A" e>f eA|"D" FA/A/ Ad|fe d>c|"G" BA"A" Bc|"D"d2 d:|! e|"D" f2 e2|"D" dA/A/ BA|"G" g2 f2|"A" eA/A/ BA|"D" f2 e2|dA/A/ BA|"G" BA"A" Bc|"D" d2 d:|
+% abcbook-tune_id 62828a3a7e0d5d8ba323b83c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431087
+% abc-sessionorg_id 17928
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 34753
+% abc-boost 0
+
+X: 50
+T: Nancy
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: march
+Q: 1/4=100
+K:Dmajor
+V:1 
+"^[A]"(3ABc|:"D"d2D2F2A2|d2fe d2A2|"G"B2d2  gf ed|"A"c2ec A2Bc|
+"D"d2D2F2A2|d2fe d2A2|"G"B2g2"A" fe dc | [1"D"d6 (3ABc:|2 "D"d6(fg)||
+ |:"D"a3b a2f2|"G"g3a g2e2|"D"f2d2gfed| "A"c2e2A2Bc|"D"d2D2F2A2|d2fe d2A2|
+ "G"B2g2"A"fedc|1 "D"d6(fg):|2 "D"d6 (3ABc||
+% abcbook-tune_id 62828a3afbcd99d60594f4d9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431088
+% abc-sessionorg_id 3471
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 3471
+% abc-boost 0
+
+X: 51
+T: Newcastle
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: barndance
+Q: 1/4=100
+K:Gmajor
+V:1 
+A2|:"G" B2 d2 G2 A2|"G" G3 A G2 D2|"G" B2 d2 G2 d2|"C" e2 g4 fe|
+ "G" d2 B2 A2 G2|"C" E2 e4 dc|"G" d2 B2 "D" A3 G|"G" G6:|
+ |:ef|"G" gfed g3 B|"Am" A2 g4 A2|"Em" G3 A "Bm" B2 F2|"Em" E2 e4 f2|
+ "G" gfed g3 B|"Am" A2 A2 c3 d|"C" e2 B2 "D" A3 G|"G" G6:|
+% abcbook-tune_id 62828a3a097d2afc7e223c5b
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431090
+% abc-sessionorg_id 3727
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 32370
+% abc-boost 0
+
+X: 52
+T: Portsmouth
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: hornpipe
+Q: 1/4=100
+K:Gmajor
+V:1 
+D|:   "G"G>A B/A/G/F/|   "C"E2e2|   "G"dB c/B/A/G/|   "D"A/G/F/E/ DD | 
+  "G"G>A B/A/G/F/|   "C"E2e2|   "G"dB "D"c/B/A|   "G"G4 :|
+|:  "G"g>a  b/a/g/f/|   gd Bd|  "C" ed c/B/A/G/| "D"  A3 D|  
+ "G"G>A B/A/G/F/| "C"  E2e2|  "G" dB "D"c/B/A/B/|  "G" G4:|
+% abcbook-tune_id 62828a3a3abfd2a232577b9f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431091
+% abc-sessionorg_id 2466
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 2466
+% abc-boost 0
+
+X: 53
+T: The Rakes Of Mallow
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Gmajor
+V:1 
+|:GB GB|GB c/B/A/G/|FA FA|FA B/A/G/F/|
+ GB GB|GB d2|c/B/A/G/ F/G/A/c/|BG G2:|
+ |:gf ed|Bc d2|gf ed|Bc A2|
+ gf ed|Bc d2|c/B/A/G/ F/G/A/c/|BG G2:|
+% abcbook-tune_id 62828a3ab1bbc0b16d999bfe
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431092
+% abc-sessionorg_id 85
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 85
+% abc-boost 0
+
+X: 54
+T: Davy-Davy Knick-Knack
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=100
+K:Gmajor
+V:1 
+D2|:GF GA B2 B2|GF GA B2 B2|dc Bc A2 A2|dc Bc A2 A2|
+ GF GA B2 B2|GF GA B2 B2|dc Bc Ac BA|1 G2 B2 G2 D2:|2 G2 B2 G2 B2||
+ |:d3 c B2 d2|g2 g2 d2 z2|dc Bc A2 A2|dc Bc A2 A2|
+ d3 c B2 d2|g2 g2 d2 z2|dc Bc Ac BA|1 G2 B2 G2 B2:|2 G2 B2 G2||
+% abcbook-tune_id 62828a3aeeccbd9d13faf714
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431093
+% abc-sessionorg_id 3697
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 3697
+% abc-boost 0
+
+X: 55
+T: Soldier's Joy
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: hornpipe
+Q: 1/4=100
+K:Dmajor
+V:1 
+FG|:"D"AFDF AFDF|A2d2 "G"d2cB|"D"AFDF AFDF|"E7"G2E2 "A7"E2FG|
+ "D"AFDF AFDF|A2d2 "G"d2eg|"D"fafd "A7"egec|"D"e2d2 d2:|
+ |:de|f2fd fagf|"A7"e2ec egfe|"D"f2fd fagf|"E7"edcB "A7"A2de|
+ "D"fdAd fagf|"Em"ecAc "A7"egfe|"D"fafd "A7"egec|"D"e2d2 d2:|
+% abcbook-tune_id 62828a3a9cd15b562b4dbed4
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431094
+% abc-sessionorg_id 1356
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 39289
+% abc-boost 0
+
+X: 56
+T: O'Keeffe's
+B: begged borrowed and stolen
+M:12/8
+L:1/8
+R: slide
+Q: 3/8=100
+K:Adorian
+V:1 
+|:A2e e2d BAB d2B|A2e e2d B2A GAB|
+ A2e e2d BAB d3|BAB d2e B2A A3:|
+ |:e2a a2b a2g e2d|efg a2b a2g e2f|
+ g3 gfe dBA G3|BAB d2e B2A A3:|
+% abcbook-tune_id 62828a3a68343df435e686e0
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431095
+% abc-sessionorg_id 53
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 53
+% abc-boost 0
+
+X: 57
+T: Cock O' The North
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+E|:F2 F FED|F2 A B2 A|F2 F FED|E3 EDE|
+ F3 FED|F2 A B2 A|FGF EFE|D3 D2:|
+ |:d2 A B2 A|d2 A B2 A|FGF FED|E3 EFA|
+ d2 A B2 A|d2 A B2 A|FGF EFE|D3 D2:|
+% abcbook-tune_id 62828a3a1aefae15e143d812
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431096
+% abc-sessionorg_id 1218
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 24582
+% abc-boost 0
+
+X: 58
+T: Hundred Pipers
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Gmajor
+V:1 
+G/A|:B2 D D>ED|E2 G G2 e|d2 B B>AG|A2 A A>Bc|
+ B2 D D>ED|E2 G G2 e|d2 B ABA|G3 G3/2:|
+ |:d2 d d>Bd|e2 g g2 e|d2 B B>AG|A2 A ABc|
+ d2 d d>ef|g2 g g>fe|d2 B ABA|G3 G3/2:|
+% abcbook-tune_id 62828a3a5f77fe7082dd41b8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431097
+% abc-sessionorg_id 1232
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 24519
+% abc-boost 0
+
+X: 59
+T: The Sweets Of May
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Dmajor
+V:1 
+a|:f2 d ecA|ded d2 e|f2 d def|gfg a2 g|
+ fed ecA|ded dag|fed ecA|1 d3 d2 a:|2 d3 d2||
+ |:efe e2 d|B2 c d2 ^d|efe e2 g|b2 a g2 f|
+ efe e2 d|B2 c d2 ^d|eee fed|efe e2:|
+ |:a3 a^ga|A3 A2 f|g3 gfg|A2 A A/F/G/A/B/c/|
+ d2 A d2 e|f2 d f2 g|aAA ABc|1 ded d2:|2 ded dag||
+% abcbook-tune_id 62828a3a7da8adb2367c1a03
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431099
+% abc-sessionorg_id 8252
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 30176
+% abc-boost 0
+
+X: 60
+T: Denis Murphy's
+B: begged borrowed and stolen
+M:12/8
+L:1/8
+R: slide
+Q: 3/8=100
+K:Dmajor
+V:1 
+B|"D" A2 D EFD E2 A A2 f|"G" g2 e "(D)" f2 d "A" e2 d Bcd|
+ "D" A2 D EFD E2 A A2 f|"D" a2 f "A" efe "D" d3 d2:|
+ A|"D" d2 e f3 "G" gfe "D" f3|"G" gfe "D" f2 d "A" e2 d B2 A|
+ "D" d2 e f3 "G" gfe "D" f2 g|1 "D" a2 f "A" efe "D" d3 d2:|2 "D" a2 f "A" efe "D" d3 dcB||
+% abcbook-tune_id 62828a3aec019a5165d094bf
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431100
+% abc-sessionorg_id 159
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 35527
+% abc-boost 0
+
+X: 61
+T: O'Keefe's #2
+B: begged borrowed and stolen
+M:12/8
+R: slide
+Q: 3/8=100
+K:G
+V:1 
+|:"G"B2B cBcd3d2e| "G"dBG dBG  "D"A3 AGA|"G" B3cBc d3 d2 g | "C"fed "D"cBA "G"G3 G3 :|
+|:"G"g2dB2 g "D"f2 d c3 | "D"ded c2A "G"dedB2d| "G"g2d B2 "D"g f2d c2B |"C" ABc "D"def "G"g3 g3:|
+% abcbook-tune_id 627e2b1f3cdbbbfc0e893656
+% abcbook-boost 1
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431101
+
+
+X: 62
+T: Roddy McCorley
+B: begged borrowed and stolen
+M:C
+R: march
+Q: 1/4=100
+K:G
+V:1 
+GA| "G"B2 AB D2GA| B3A G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) Bc|
+    "G"d2 d2 d2 Bd| "C"e2 e2 "G"d2 BA| "Em"G2 E2 "Am"c2 B2| "D7"(A4 A2) Bc|
+    "G"d2 d2 "G7"d2 Bd| "C"e2 e2 "G"d2 BA| "Em"G2 E2 "Am"c2 B2| "D7"(A4 A2) GA|
+    "G"B2 AB D2GA| "B7"B3A "Em"G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) |]
+% abcbook-tune_id 627e2b1f80364b35a6ecdb5f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431102
+
+
+X: 63
+T: The Mountains Of Pomeroy
+B: begged borrowed and stolen
+M:2/4
+R: polka
+Q: 1/4=100
+K:Gmajor
+V:1 
+B2c2|: "G"d4 d2B2 | d2c2B2A2| "C"G6 A2 |E4 G2E2|"G"D4E2G2  | G4 A2B2|"Am"c6 "C"B2 | "D"A4 B2c2|
+"G"d6 B2 | d2c2B2A2| "C"G6A2 | E4 G2E2|"G"D6E2 | "C"G6A2| "G"G4 G4 | G4 G2A2|
+"G"B6 A2 | G4 A2B2|"C" c4 d4 | d4 g2e2|"G" d4 d2BA | G4 A2B2| "C"c4 c4 | "D"c4 B2c2|
+"G"d6 B2 | d2c2B2A2| "C"G4 A4|  E4 G2E2|"G"D6E2 |"C"G6A2|"G"G4 G4 | G4 B2c2:|
+% abcbook-tune_id 627e2b1f3ecf456cfd72468e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431103
+
+
+X: 64
+T: The Centenary March
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: March
+Q: 1/4=100
+K:D
+V:1 
+DF|:"D"A2 A>B|AF ED|f2 f2|ed Bd|A2 A>B|AF ED|"A"E2 E>F|E2 DF|
+"D"A2 A>B|AF ED|f2 f2|ed Bd|A2 d>e|"G"fe dc|"D"d2 d>e|1d2DF :|2d2 Ad||
+|: "D"f>e fa|Ad fa|"G"g2 f2|"D"e2 f>g|af dA|FA GF|"A"E2 E>F|E2 FG|
+"D"AD FA|dF Ad|fa gf|"G"ed cB|"D"Ad fa|"A"ge cA|"D"d2 dd|d2:|
+% abcbook-tune_id 627e2b1fb0dcc80785ed270d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431104
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords
+
+X: 65
+T: After the Battle of Aughrim
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+Q: 1/4=100
+K:Adorian
+V:1 
+A/G/ |:  "Am"EA A/B/c/d/| ed cA| "G"BG G/F/G/A/| B2/A/G/ ED| "Am"EA A/G/A/B/| ee ag| "G"ed B/e/d/B/|1  "Am" A2 A A/G/:|2 "Am" A3 e||
+|:"Am"a a/g/ e ((3e/f/g/)| a/b/a/g/ e ((3e/f/g/)| a {b}a/f/ "Em"g {a}g/e/| "G"d/e/d/B/ G2| "Am"a/b/a/g/ e ((3e/f/g/)| a/b/a/g/ e d| "Em"Be "G"dB|1 "Am" A3 e:|2  "Am"A3||
+% abcbook-tune_id 627e2b1fbe61e3fb853276fe
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431105
+
+
+X: 66
+T: The Green Cockade
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: march
+Q: 1/4=100
+K:Adorian
+V:1 
+gf |:  "Am"eA Ag/f/|e/d/e/f/ g/a/g/f/|"G"dG B/A/G/A/| Bd dg/f/| "Am"eA Ag/f/
+e/d/e/f/ g/a/g/f/| "G"dB "Em"gB |1 "Am"BA A2   :|2 "Am"BA Ad ||
+|: "Am"eaa/b/a/g/ | e/d/e/f/ g/a/g/e/ | "G"dG B/A/G/A/ | Bd d2 |"Am" ea a/b/a/g/ | e/d/e/f/ g/a/g/e/ | "G"dB  "Em"gB | "Am" BA A2 :|
+% abcbook-tune_id 627e2b1f878b2032e626e775
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431107
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords
+
+X: 67
+T: Lord Mayo
+B: begged borrowed and stolen
+M:2/4
+L:1/8
+R: march
+Q: 1/4=100
+K:Ador
+V:1 
+|:"Am"AG AB|e2 e/d/B/d/|eA AB/A/|"G"G/A/G/F/ ED|
+"Am"AG AB|e2 g>f|"G"e2 e/d/B/G/|1 "Am"A2 AE:|2 "Am"A2 A2||
+|:"Am"a2 g/e/g/a/|"G"b2 b/a/g|"Am"ed d/e/g|G>A GE|
+[1 a2 g/e/g/a/|"G"b2 d'/b/a/g/|ed d/e/g|"Am"a2 ae:|
+[2 A/G/A/B/ dB|"G"AG g>e|"Am"dd "G"B/d/B/G/|"Am"A2 AE||
+% abcbook-tune_id 627e2b1f7d154930d2e6dda1
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431108
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords
+
+X: 68
+T: The Halting
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=140
+K:Adorian
+V:1 
+|:"Am"A2 (3Bcd e e2 d|e>d ef ec A2|"G"G2 Bc d d2 e|dB GB d2 cB|"Am"A2 (3Bcd e e2 d|e>d ef ec A2|a g2 e "G"d c2 B|"Am"A>B "Em"AG "Am"A4:||
+"Am"a a2 g e d2e|"G"g>a ge dB G2|"Am"a a2 g e d2 e|"G"g>a ge g2 a/g/e/g/|"Am"a a2 g e d2 e|"G"g>a ge dB G2|"Am"A>B cd "G"e2 dB|"Am"A>B "Em"cd "Am"e2e2|
+"Am"a a2 g e d2 e|"G"g>a ge dB G2|"Am"A>B cd "G"e2 dB|"Am"A>B "Em"AG "Am"A4||
+% abcbook-tune_id 627e2b1f20bdc66989e7a408
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431109
+
+
+X: 69
+T: March of the Kings of Laois
+B: begged borrowed and stolen
+M:3/2
+R: march
+Q: 1/2=100
+K:Dmix
+V:1 
+|:"D"A4F2 | A4D2| A4F2 | A4D2| "G"B4G2 |  "D"A4F2|"A"G4F2 |
+ E4D2|"D"A4F2 |A4D2| A4F2 | A4d2| "G"B4d2 |
+"D"A4 GF|"A"G4F2| E4D2| "D"F2>E2D2 |"G"G2>A2B2|"D"A6 |
+ A2>G2F2| "C"E2>c2G2|  E2>C2E2| G2>c2G2 |E2>C2E2|"D" D2>E2D2 |
+D2>E2D2|D2>E2D2 |D6:||:"G"B4G2 |d4G2| B2>A2G2 |
+d2c2B2| "D"A4d2|A2>G2F2|A4d2| A2>B2c2| "G"B4e2 |
+"D"d2>B2A2|"G"G2>F2G2 |"A"E2>F2G2| "D"F2>E2D2 |"G"G2>A2B2| "D"A6 |
+A2G2F2| "C"E2>c2G2 |E2>C2E2| G2>c2G2 |E2>C2E2| "D"D2>E2D2 |
+D2>E2D2|D2>E2D2| D6:|
+% abcbook-tune_id 627e2b1f8a8785650c93abab
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431111
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords
+
+X: 70
+T: Dunphy's
+B: begged borrowed and stolen
+M:4/4
+Q: 1/4=100
+K:Gmajor
+V:1 
+(3DEF|:"G"GDBD G2 (3GBg|"D"f2ed ecAG|(3FAF DE FGAc|"G"(3BAG "D"AF "G"GFED| GDBD "G"G2 (3GBg|"D"f2ed ecAG|FAdB "A"cAFG|"D"(3ABA GF "G"G2 (3DEF:| 
+|:"G"dcBd gdBd|(3gfg "D" af "G"gdBf|g2 (3fgf "A"ed^cd|(3efe d^c "D"d2 (3def| "G"g2dc (3BdB (3GAB|"A"(3cec (3AcA "D"(3FAF DF|"G"GBdB "D"cAFG|"A"(3ABA GF "G"G2:|
+% abcbook-tune_id 627e2b1fa5ba487e8a4bb91d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431112
+
+
+X: 71
+T: Off To California
+B: begged borrowed and stolen
+Q: 1/4=100
+K:Gmajor
+V:1 
+|:"G"GFGB AGED|GBdg "C"e2df|gfgd edBG|"Am"ABAG "D"E2DE|"G"G2GB AGED|GBdg "C"e2df|gfgd edBG|"D"ABAF "G"G4:|
+|:"Em"gfeg "D"fedf|"C"edef edBd|gfgd edBG|"Am"ABAG "D"EDEF|"G"GFGB AGED|GBdg "C"e2df|gfgd edBG|"D"ABAF "G"G4:|
+% abcbook-tune_id 627e2b1f6814c62fb4331c8e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431114
+
+
+X: 72
+T: The Boys Of Bluehill
+B: begged borrowed and stolen
+M:4/4
+R: polka
+Q: 1/4=100
+K:Dmajor
+V:1 
+dB|:"Bm" (3ABA "D"FA D2 FA|"Bm"BG (3Bcd "A" e2 de|"D"fa gf "A7"egfe|"D"dfed "Bm"B2dB|
+"Bm"(3ABA "D"FA D2 FA|"Bm7"BA (3Bcd "Em"e2 de|"D"fagf "A7"egfe|1 "D"d2 f2 d2 FA:|2 "D"d2 f2 d2 fg||
+|:"D"afdf a2gf|"G"efga b2 ag|"D"fagf "A7"egfe|
+"D"dfed "Bm"B2 dB|"Bm" (3ABA "D"FA D2 FA|"Bm7" BA (3Bcd "Em"e2de|"D"fagf "A7"egfe|1 "D"d2 f2 d2 fg:|2 "D"d2 f2 d2 z2||
+% abcbook-tune_id 627e2b1fc76191f0c4006a9a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431115
+
+
+X: 73
+T: Harvest Home, The
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: Hornpipe
+Q: 1/4=120
+K:D
+V:1 
+A>F|:"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"A"e>Af>A g>Af>A|(3efe (3dcB (3ABA (3GFE|
+"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"A"e>Af>A g>ec>e|1"D"d2f2d2 A>F :||1"D"d2f2d2 c>d||
+|:   "A"e>A (3AAA f>A (3AAA|g>A (3AAA f>A (3AAA|e>Af>A g>Af>A|
+(3efe (3dcB (3ABA (3GFE|"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"A"e>Af>A g>ec>e|"D"d2f2d2:|
+% abcbook-tune_id 627e2b1fbf00b67dcaa3f0c0
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431117
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 74
+T: Greencastle
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: hornpipe
+Q: 1/4=100
+K:G
+V:1 
+dc|:"G"BGDG BGDG|(3gag fg "C"e2dc|"G"BGDG BGDG|"Am"dcB<c "D7"A2dc|
+"G"BGDG BGDG|(3gag fg "C"e2dc|"G"Bdfe "D7"dcAF|1"G"G2B2 G2dc:||2"G"G2B2 ga:|
+|"Em"bagf efga|bagf e2fg|"D"agfe defg|agfe "D7"d2 (3def|
+"G"gfgd "C"e2"G"d2|"Am"cBAB "D7"cdef|"G"gfgd "D7"ecAF|"G"G2B2G2:|
+% abcbook-tune_id 627e2b1f96f1b48d123668f7
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431118
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 75
+T: Trumpet Hornpipe (Pugwash)
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: Hornpipe
+Q: 1/4=100
+K:G
+V:1 
+(3DEF|:(3"G"GGGG2 (3GGGG2|"G"BGBd gdBG|(3"D7"DDDD2 (3DDDD2|"D7"FDFA dAFD|
+(3"G"GGGG2 (3GGGG2|"G"BGBd g2ag|"D"fafd "A7"ege^c|1"D"d2d2 "D7"d2 (3DEF:|2"D"d2d2 "D7"d2 ^c2||
+|:(3"G"dddd2 (3dddd2|"C"efgf edcB|"Am"cded cBAG|"D7"FGAG FDEF|
+(3"G"GGG G2 (3"G7"=FFF F2|(3"C"EEE E2 (3"Cm"_EEEE2|"D7"D2fe dcBA|1"G"G2B2 G2 ^c2:|1"G"G2B2 G4 ||
+% abcbook-tune_id 627e2b1fe09acd638d7429c6
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431120
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 76
+T: The Wonder Hornpipe
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: hornpipe
+Q: 1/4=100
+K:G
+V:1 
+DEF|:"G"GdBG "D"FcAF|"G"(3GFG "D"BG "G"D2GF|"C"EAAB "Am"cBAG|"C"(3FED d^c "D"ed (3=cBA|
+"G"GdBG "D"FcAF|"G"(3GFG "D"BG "G"D2GF|"C"Eedc "Am"BADF|1"C"AG"D"GF "G"G2 (3DEF:|2"C"AG"D"GF "G"G2 AG||
+|:"D"FAd^c d2AG|FAd^c "A"dfed|(3B^cd ef "D"gece|d^cde "D7"d2 =c2|
+"B7"B3A "E"^GBe2|"A"A3G "D"FAd2|"C"(3efg fe "D"(3ded (3cBA|1"G"G2"D"(3AGF "G"G2 AG:|2"G"G2"D"(3AGF "G"G4||
+% abcbook-tune_id 627e2b1f28b17a6d5ce35c5d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431121
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
+
+X: 77
+T: The Rights of Man
+B: begged borrowed and stolen
+M:4/4
+Q: 1/4=140
+K:Em
+V:1 
+GA|:"Em"(3BcB (3ABA (3GAG (3FGF|EFGA B2 e-f|gfed edcB|"Am"cBAG "B7"A2 GA|
+"Em"(3BcB (3ABA (3GAG (3FGF|EFGA B2 e-f|gfed "B7"Bg (3fgf|1"Em"e2E2 E2 GA:|2"Em"e2E2 E2 ga||
+|:"Em"babg efga|babg e2fe|"D"d^cde fefg|afdf a2 g-f|
+"Em"eBeg "D"fdfa|"Em"gfga bgef|gfed "B7"Bg (3fgf|1 "Em"e2E2E2 ga:|2 "Em"e2E2 E4 ||
+% abcbook-tune_id 627e2b1fd0f1475811b20941
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431123
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 78
+T: Sligo Maid, The
+B: begged borrowed and stolen
+M:4/4
+R: reel
+Q: 1/4=140
+K:AMix
+V:1 
+|:"Am"A2 BA (3Bcd ef|gedB AGEF|"G"~G2 BG dGBG|DEGA BAdB|
+"Am"A2 BA (3Bcd ef|gedB AGEG|"G"B3G "Am"A2GE|"Em"DEGA "Am"BA ~A2:|
+|:"Am"eaag a2ga|bgab gfed|"G"eggf ~g3e|dega bgag|
+"Am"eaag a2ga|bgab gfed|"G"eg~g2 "Am"edBc|"Em"dBgB "Am"BA ~A2:|
+% abcbook-tune_id 627e2b1fd0fa6c392b6d8820
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431125
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords
+
+X: 79
+T: Junior Crehan's Favourite
+B: begged borrowed and stolen
+M:4/4
+R: reel
+Q: 1/4=140
+K:Ador
+V:1 
+|:"Am"~A3B AGEG|A2 (3Bcd edBA|"G"~G3A GEDE|~G2BG dGBG|
+"Am"~A3B AGEG|A2 (3Bcd edBA|"G"~GABd "Am"gfge|1 "Em"dBGA "Am"BAdB:|2 "Em"dBGA "Am"BAA2||
+|:"Am"eaa2 eaag|ea~a2 aged|"G"eg~g2 eggf|~g3a gedg|
+"Am"eaa2 eaag|~a3b aged|"G"~B3d "Am"gaba|"Em"gedB "Am"BAA2|
+"Am"eaa2 eaag|ea~a2 aged|"G"eg~g2 eg~g2|dg~g2 bgag|
+"Am"eaa2 eaag|~a3b aged|"G"~B3d "Am"gaba|"Em"gedB "Am"BAAG||
+% abcbook-tune_id 627e2b1f257038081e5e3f31
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431126
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords
+
+X: 80
+T: Glen Allen
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=100
+K:Gmaj
+V:1 
+DE|:"G"G2DG "Em"EGDE|"G"G2BG "C"AGEG|"Am"A2EA "D"FA"A"EA|ABcd "C"edBA|
+"G"G2DG EGDE|G2BG "D"AGEG|"C"cBcd "Em"efge|1"D"dBAB "G"G2 DE:|2"D"dBAB "G"G2 Bd||
+|:"G"g2dg "C"egde|"G"g2bg "C"ageg|"Am"a2ea "D"fa"C"eg|"Am"a2bg agef|
+"G"g2dg "C"eg"G"de|g2bg "Am"aged|"C"cBcd efge|1"G"dB"D"AB "G"G2Bd:|2"G"dB"D"AB "G"G4||
+% abcbook-tune_id 627e2b1f7a30f5744717c36a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431128
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
+
+X: 81
+T: The Sally Gardens
+B: begged borrowed and stolen
+Q: 1/4=100
+K:Gmajor
+V:1 
+|:"G" G2 DG BDGB|dBeB dBAB|"G" (3ddd Bd eg{/a}ge|"D" dBAB GEDE|
+ "G" G2 DG BDGB|dBeB dBAB|"G" (3ddd Bd eg{/a}ge|1"D" dBAB"G" G2 DE:|2"D" dBAB"G" G2 Bc  ||
+ |:"G" dggf g2 dg|(3ggg bg ageg|"Am" eaag a2 eg|agbg ageg|
+ "G" dggf g2 dg|(3ggg bg ageg|"G" (3ddd Bd eg{/a}ge|"D" dBAB"G" G2:|
+% abcbook-tune_id 627e2b1f97b518588f3e80cc
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431129
+
+
+X: 82
+T: The Swallow's Tail
+B: begged borrowed and stolen
+M:4/4
+L:1/4
+Q: 1/4=140
+K:D
+V:1 
+g/2f/2|:"Am"e/2A/2 (3A/2A/2A/2 e/2A/2c/2A/2|"Em"B/2d/2e/2f/2 "D7"g/2e/2d/2B/2|\
+"G"GB/2G/2 d/2G/2B/2G/2|"G"B/2d/2e/2f/2 "Em"gf/2g/2|
+"Am"e/2A/2 (3A/2A/2A/2 e/2A/2c/2A/2|(3B/c/d/ e/f/  "Em"g f/2g/2|\
+"D7"a/2f/2g/2e/2 "G"d/2f/2e/2d/2|1"Em"c/2A/2B/2G/2 "Am"A g/f/:|2 "Em"c/2A/2B/2G/2 "Am"A B/d/ ||
+|:"Am"e/2a/2a/2b/2 a/2g/2e/2d/2|"D7"e/2d/2e/2f/2 "G"g/2e/2d/2B/2|\
+"G"GB/2G/2 d/2G/2B/2G/2|"G"B/2d/2e/2f/2 "Em"gf/2g/2|
+"Am"e/2a/2a/2b/2 a/2g/2e/2d/2|c/2d/2e/2f/2 "Em"g/2f/2g/2b/2|\
+"C"a/2f/2g/2e/2 "Em"d/2f/2e/2d/2|1"G"c/2A/2B/2G/2 "Am"A  B/d/:|2"Em"c/2A/2B/2G/2 "Am"A2||
+% abcbook-tune_id 627e2b1f16f4bfaaf120c9de
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431131
+% Nottingham Music Database
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords
+
+X: 83
+T: Sporting Paddy
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: Reel
+Q: 1/4=100
+K:G
+V:1 
+|"Am"EAAB GABG | EAAB "G"A2 ED |"Am" EAAB GABd | edge "G"dBAG |
+"Am"EAAG GABG | "Am"EAAB "G"A2 ED| "Am"EA AB GABd | efge "G"d2  ef ||
+|"Am"  ge e2 gede | ge e2 "G"a2 ba | "Am"ge e2 ge d2 |efge "G"d2 ef | 
+"Am"ge e2 gede| ge e2 "G"a2 ga | "Am"bgab "G"gabg |"Am"efge "G"dBAG ||
+% abcbook-tune_id 627e2b1f46c732833ba6bcc9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431132
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
+
+X: 84
+T: Drowsy Maggie
+B: begged borrowed and stolen
+M:4/4
+R: reel
+Q: 1/4=140
+K:Edorian
+V:1 
+|"Em"E2 BE dE BE|"Em" E2 BE "D"AFDF|"Em" E2 BE dE BE|"G" BA Bc "D"dA FD|
+"Em"E2 BE dE BE|"Em" E2 BE "D"AFDF|"Em" E2 BE dE BE|"G" BA Bc "D"dA FA||
+ |"D"d2 fd "A"c2 ec|"D" de fg "D"af "Em"ge|"D" d2 fd "A"c2 ec|"G" BA Bc "D"dA FA|
+ "D"d2 fd "A"c2 ec|"D" de fg "D"af "Em"ge|"D" af"Em"ge "D"fd"Em"ec|"G" BA Bc "D"dA FD||
+% abcbook-tune_id 627e2b1f7feb55670add5205
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431134
+
+
+X: 85
+T: Rolling in the Ryegrass
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=120
+K:D
+V:1 
+|:"D"ABAF DFAF | "G"G2BG dGBG | "D"ABAF DFAF | "A"GBAG "D"FDDF :|
+|:"D"ABde fdef | "G"g2fg eddc | "D"ABde faab |1 "A"afdf "D"efdB :|2 "A"afdf "D"e2d2||
+% abcbook-tune_id 627e2b1f9731a910c7e3e3e0
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431135
+% Rhythm Reel (key of d)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords
+
+X: 86
+T: The Silver Spear
+B: begged borrowed and stolen
+M:C
+L:1/8
+R: reel
+Q: 1/4=100
+K:D
+V:1 
+AG|: "D" FA ~A2 BAFA | "D" dfed "G" BcdA | "D" FA ~A2  BAFA | "G" dfed "A" B2 A2 |
+"D" FA ~A2 BAFA | "D" dfed "G" Bdef | "Em" ~g3 e "D" ~f3 e |1 "G" dfed "A"   B2 A2 :|2 "G" dfed "A"  Bcde ||
+|: "D" faaf    bfaf | "D" gfed "G" Bcde | "D" faaf    bfaf | "G" gfed "A" B2 A2 |
+"D" faaf   bfaf | gfed "G" Bdef | "Em" ~g3 e "D" ~f3 e | "G" dfed "A"   B2 A2 :|
+% abcbook-tune_id 627e2b1fd0f4895d24b7691e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431137
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 87
+T: Rattigan's
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=100
+K:Gmaj
+V:1 
+(3DEF|:"G"G2BG DGBd|g2fg "D"edBA|"G"G2BG DGBG|"C"ABAG "D"FDEF|
+ "G"(3GFE (3FED "Em"EDB,A,|"G"G,gfg "D"edBA|"D"G2BG "C"DGBG|1"D"AGFA "G"G2 (3DEF :|2"D"AGFA "G"G2 Bc||
+|:"G"dggf gfed|"C"eaag a2eg|"D"fdad bdag|fdaf gfed|
+"G"BG~G2 EGDE|"D"G2fg edBA|"G"G2BG DGBG|1 "C"AGFA "G"G2:Bc:|2 "C"AGFA "G"G4||
+% abcbook-tune_id 62828e90a51010c7a7da154c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431138
+
+
+X: 88
+T: The Merry Blacksmith
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=140
+K:D
+V:1 
+AB |: "D" d2 dA    "A" BAFA | "D" ABdA  "A" BAFA | "D" ABde   f2  ed | "G" Beed "A" egfe | 
+     "D" dcdA     "A" BAFA | "D" ABdA  "A" BAFA | "D" ABde "G" fdec |1 "A" dBAF  "D" D2AB  :|2 "A" dBAF  "D" D2  fg ||
+ |: "D" a2 ag "A" f2 fe | "D" d2 dA "A" BAFA | "D" ABde   f2  ed | "G" Beed "A" egfe |
+     "D" abag   "A" fgfe | "D" dcdA  "A" BAFA | "D" ABde "G" fdec |1 "A" dBAF  "D" D2 fg :|2 "A" dBAF  "D" D4 ||
+% abcbook-tune_id 627e2b1ffa25bed2f04f8ec3
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431140
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 89
+T: The Ashplant
+B: begged borrowed and stolen
+M:4/4
+R: reel
+Q: 1/4=140
+K:G
+V:1 
+|:"Em"BE E2 BAGA|BEE2 "D"G3 A|"Em"BE E2 BAGd|"D"gedB A2 GA:|
+ |:"Em"B2 eB gBeB|B2 ed "D"BAGA|1 "Em"B2 eB gBga|"D"gedB A2 GA:|2 "Em"Bd ef g2 ga|"D"gedB A2 GA||
+% abcbook-tune_id 627e2b1f5daaf2959a302024
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431141
+
+
+X: 90
+T: The Laurel Tree
+B: begged borrowed and stolen
+M:4/4
+R: reel
+Q: 1/4=100
+K:Ador
+V:1 
+|:"Am"eA~A2 e2dc|"G"BAGA Bcdg|"Am"eA~A2 e2dc|"G"BAGA "Am"BA~A2|
+"Am"eA~A2 e2dc|"G"BAGA Bcd2|"Am"~e3f "Em"gaaf|"G"gedB "Am"A2 (3Bcd:|
+|"Am"eaag egdc|"G"BAGA Bcdg|"Am"eaag egdc|"G"BAGA "Am"BA~A2|
+"Am"eaag egdc|"G"BAGA Bcd2|"Am"~e3f "Em"gaaf|"G"gedB "Am"A2 (3Bcd|
+"Am"eaag egdc|"G"BAGA Bcdg|"Am"eaag a2ga|"G"bagb "Am"~a3g|
+"Am"eaag egdc|"G"BAGA Bcd2|"Am"~e3f "Em"gaaf|"G"gedB "Am"A2 (3Bcd||
+% abcbook-tune_id 628292927360bc0c8a6f94c3
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725458947
+
+
+X: 91
+T: The High Reel ( AKA Duffy the Dancer )
+B: begged borrowed and stolen
+M:4/4
+L:1/8
+Q: 1/4=140
+K:D
+V:1 
+|:"A"a2 fa eA A2|cA eA fA A2|a2 fa eA A2|"G"Bcdc BG G2|"A"a2 fa eA A2|cdef "G"g2 fg|
+"A"af ge fd ec|"G"Bcdc BG G2:||:"A"{A}cA eA fA eA|{A}cA af eA A2|cA eA fA eA|"G"Bcdc BG G2|
+"A"{A}cA eA fA eA|cdef "G"g2 fg|"A"af ge fd ec|"G"Bcdc BG G2:|
+% abcbook-tune_id 627e2b1f73568a2ffcc50d60
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431144
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords
+
+X: 92
+T: Carolan's Concerto
+B: begged borrowed and stolen
+M:4/4
+Q: 1/4=90
+K:Dmajor
+V:1 
+(3ABc|:"D"d2 dd d2 cB|"A"ABGA "D"F2A2|"A"E2A2"D"D2A2|"Bm"Bcde "D"dcBA|d2a2 fgaf|"A7"efge "D"fgaf|"G"gabg "D"fdfa|"A7"gfed dcBA|
+"Bm"BdBd "G"gdgd|"D"Ad Ad fAfA|"G"GB"Em"GB efed|"A7"c2 Bc A3G|"F#m"FG"A7"AF EFGE|"F#m"FG"A7"AF GABG|"A"A2 "D"d2 fedc|d6(3ABc:|
+|:"D"d2"Em"b2 agfe|"D"d2"A"a2c2a2|"G"B2 gB ABcd|"A7"ecBA"D"d2 df|"A"edcB caaa|"G"Bggg "D"Afff|"A"edcB caaa|"G"Bggg bgbg|
+"D"afaf "A"edcB|cA"Em"BG AFGE|"D"DAFA DAFA|"Em"GEBE GEBE|"D"FAdc BAGF|"A7"EFGA Bcde|A2"D"d2 fedc|d8:|
+% abcbook-tune_id 627e2b1f2d4f1346a4a22a70
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431146
+
+
+X: 93
+T: King Of The Fairies
+B: begged borrowed and stolen
+M:4/4
+R: hornpipe
+Q: 1/4=100
+K:Dmixolydian
+V:1 
+B2|:"Em"EDEF GFGA|B2 B2 "G"G3 A|"Em"B2 E2 EFGE|"D"FGFE D3 B|
+ "Em"EDEF GFGA|BAGB "G"d3 c|"Em"B2 E2 "D"GFED|1"Em"E2 ED E2 B2:|2"Em"E2 ED E2 B2||
+|: "Em"e2 e2 Bdef|"G"gagf "Em"e3 f|e2 B2 BAB^c|"D"ded^c BcdB|
+ "Em"e2 e2 Bdef|"G"gagf "Em"efed|Bdeg "D"fedf|"Em"e2 ed e3 f|
+ "G"g2 ge "D"f2 fd|"Em"edB^c"D"d3 e|"Em"dBAF "G"GAB^c|"D"dBAF "Em"GFED|
+ B2 E2 EFGA|"G"B2 e2 "Em"edef|e2 B2 "D"BAGF|"Em"E2 ED E4:|
+% abcbook-tune_id 627e2b1f09d1469e67c43196
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431147
+
+
+X: 94
+T: Give Me Your Hand
+B: begged borrowed and stolen
+M:3/4
+R: waltz
+Q: 1/4=100
+K:Gmajor
+V:1 
+D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G2 A2 B2|"Bm"B2 e2 d2|"Em"B4 AG|
+"Am"A2 A2 ed|"G"B2 B2 dB|"Am"A3 B AG|"C"E4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|
+"C"E2 G2 G2|"Em"G2 A2 B2|"D"D3 B AB|"G"G4 D2|"C"E2 G2 G2|"G"G2 A2 B2|"Bm"B2 e2 d2|"Em"B4 AG|
+"Am"A2 A2 ed|"G"B2 B2 dB|"Am"A2 A2 Bd|"C"e4 dB|"G"d2 d2 e2|"Em"g4 ed|"C"e2 e2 g2|"D"a4 ge|
+"G"g2 g2 de|"Em"g2 g2 de|"C"g2 g2 a2|"G"b6|"G"b2 b2 b2|"Em"b4 ag|"Am"ag ab ab|"D"a4 gf|
+"C"e2 e2 ge|"G"d2 d2 gd|"Em"B2 B2 dB|"D"A3 c BA|"G"G2 G2 Bd|"F"=f4 ed|"C"e2 e2 g2|"Am"e4 dB|
+"G"d2 d2 gd|"Em"B2 B2 dB|"D"A3 c BA|"G"G4||
+% abcbook-tune_id 627e2b1f3a4fad2d7ff8cc23
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431149
+
+
+X: 95
+T: Si beag, si mhor
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+Q: 1/4=100
+K:D
+V:1 
+de \
+|: "D"f2 fe d2 | d2 de d2 | "G"B4 A2 | "D"F4 A2 | "G"BA Bc d2 | "A"e4 de | "(D)"f4 "A7"e2 | "D"d4 f2 |
+| "G"B4 e2 | "D"A4 d2 | "A7"F4 E2 | "D(Bm)"D4 f2 | "G"B4 e2 | "A"A4 dc |1 "D"d4 "(A)"dc | "D"d4 :|2"D"d4 "(A)"dc | "D"d4de  ||
+|:"D"f2 fe d2 | ed ef a2 | "G"b4 a2 | "D"f4 ed | "A"e4 a2 | "D"f4 ed | "G(Bm)"d4 B2 | "A7"B4 BA |
+| "A7"F4 E2 | "D"D4 f2 | "G"B4 e2 | "D"A4 a2 | "G(Em)"ba gf ed | "A"e4 dc | "G"d4 dc |1 "D"d4 de :|2 "D"d6||
+% abcbook-tune_id 627e2b1f6b5eecde72a774d9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431151
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords
+
+X: 96
+T: Planxty Irwin
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: Jig
+Q: 3/8=70
+K:G
+V:1 
+d|:"G"g2f "C"e>fg|"G"d2c "Em"B>AG|"C"c2A "G"B>cd|"D7"F2G A2f|
+"G"g2f "C"e>fg|"G"d2c "Em"B>AG|"Am"c2A "G"B>cd|"C"GA "D7"F "G"G2 d:|
+|:"G"g>ag g>fg|"D7"a>ba "D7"a>fd|"G"b2b "D7"a>bg|"A7"f>ge "D7"def|
+"G"g2f "C"e>fg|"G"d2c "Em"B>AG|"Am"c2A "G"B>cd|"C"GA "D7"F "G"G3:|
+% abcbook-tune_id 627e2b1fe4469775ff5c1602
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431153
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords
+
+X: 97
+T: For Ireland I Won't Say Her Name
+B: begged borrowed and stolen
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:Gmaj
+V:1 
+GA | "G"B2D3D|"Am7"E2G3A|"G"B6-|B4GA|B2D3D|
+"Em"E2G3B|"D"A6-|A4GA|"G"B2D3D|"C"E2c3A|
+"G"B6-|B3GAG|"C"E2"D"D3D|"C"E2G3"D"A|"G,"G6-|G4Bc|
+"G"d2B2BA|G3Bd2|"C"e6|"Em"g4e2|
+"G"d2B2BA|"Em"G3ABG|"D"A6-|A4dc|"G"B2D3D|
+"C"E2c3A|"G"B6-|B3GAG|"C"E2"D"D2D|"Am7"EG3"D"A2|"G,"G6-|G4||
+% abcbook-tune_id 627e2b1fbdc320ef3fced614
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1652725431155
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

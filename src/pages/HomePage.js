@@ -2,7 +2,7 @@ import {Link , Outlet } from 'react-router-dom'
 import {Button} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
 import IndexLayout from '../components/IndexLayout'
-
+import ImportCollectionModal from '../components/ImportCollectionModal'
 
 export default function HomePage(props) {
     
@@ -16,7 +16,7 @@ export default function HomePage(props) {
       <div id="welcometext" >
       <h3  >Learn session tunes here !</h3> 
       <div>Try a curated tunebook. <Link to="/import/begged borrowed and stolen" ><Button size="sm" >Begged Borrowed and Stolen</Button></Link>  
-      <a href="/#/tunes?show=importCollection" ><Button  size="sm">...</Button></a>
+      <ImportCollectionModal label="..." forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={function() {}}/>
       </div>
       <br/>
       <div>If you know what you want you can <a href="/#/tunes?show=importAbc" ><Button  size="sm">Load an ABC Tunebook</Button></a>, <a href="/#/tunes?show=importList" ><Button size="sm"  >Import a list of names</Button></a> or <a href="/#/tunes?show=addTune" ><Button  size="sm" >Add a Tune</Button></a> and use the edit, link or search tools to find the music.</div>

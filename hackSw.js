@@ -116,7 +116,7 @@ var mainFiles = [
 var cache = []
     
 function getCacheFiles(callback) {
-    console.log('load dyn',cache)
+    //console.log('load dyn',cache)
     fs.readdir(path.join(__dirname, 'static','js'), function (err, files) {
         if (err) {
             return console.log('Unable to scan directory: ' + err);
@@ -132,16 +132,16 @@ function getCacheFiles(callback) {
             if (err) {
                 return console.log('Unable to scan directory: ' + err);
             } 
-            console.log('load dyndd',files)
+            //console.log('load dyndd',files)
             //listing all files using forEach
             files.forEach(function (file) {
                 // Do whatever you want to do with the file
-                console.log('F',file); 
+                //console.log('F',file); 
                 cache.push('static/css/'+file)
             });
             notes.forEach(function(file) {cache.push('midi-js-soundfonts/abcjs/acoustic_grand_piano-mp3/'+file)})
             mainFiles.forEach(function(file) {cache.push(file)})
-            console.log('load dyn',cache)
+            //console.log('load dyn',cache)
             callback(cache)
         });
 

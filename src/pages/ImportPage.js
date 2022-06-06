@@ -7,7 +7,7 @@ import ImportCollectionModal from '../components/ImportCollectionModal'
 export default function ImportPage(props) {
     var navigate = useNavigate()
     var params = useParams()
-    console.log(params, curated)
+    //console.log(params, curated)
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 
@@ -15,7 +15,7 @@ export default function ImportPage(props) {
     const [show, setShow] = useState(false)
     
     function handleCloseAgree() {
-        console.log('close',params)
+        //console.log('close',params)
         if (params.tuneId) {
             navigate("/tunes/"+params.tuneId)
         } else {
