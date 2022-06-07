@@ -39,12 +39,14 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
               //console.log('ldd DO',params.link)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
-                      tunebook.importAbc(res.data)
+                      tunebook.importAbc(res.data,null,params.tuneId)
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")
                   }
-              }) 
+              }).catch(function() {
+                    setError("Unable to load import source")    
+              })
               //docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
                   //console.log('ldd',fullSheet)
                   //if (fullSheet) {
@@ -58,7 +60,7 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
       }
     }, [params.googleDocumentId, token])
     
-    return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
+    return <>{(params.link && params.link.trim()) ? <div className="App-import">
      <h1>Import a Shared Tune Book </h1>
      {(!error) && <>Loading..</>}
      {(error) && <>{error}</>}

@@ -23,12 +23,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
     
   
-  function saveTune(tune) {
+  function saveTune(tune, skipTimestampUpdate = false) {
     //console.log('save tune', tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
       if (!tune.id) tune.id = utils.generateObjectId()
-      tune.lastUpdated = new Date().getTime() 
+      if (skipTimestampUpdate) {
+        // only if missing
+        if (!tune.lastUpdated) tune.lastUpdated = new Date().getTime() 
+      } else {
+        tune.lastUpdated = new Date().getTime() 
+      }
       //var cleanTune = JSON.parse(JSON.stringify(tune))
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
@@ -74,15 +79,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
     })
     Object.values(inserts).forEach(function(tune) {
-      var newTune = saveTune(tune)
+      // keep timestamps on import
+      //var lastUpdated = tunes[tune.id] ? tunes[tune.id].lastUpdated : null
+      //if (lastUpdated) tune.lastUpdated = lastUpdated
+      var newTune = saveTune(tune,true)
       tunes[tune.id] = newTune
     })
     // any more recent changes locally get saved online
     if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
       Object.values(localUpdates).forEach(function(tune) {
-        tune.id = null
-        var newTune = saveTune(tune)
-        tunes[tune.id] = newTune
+        //tune.id = null
+        //var newTune = saveTune(tune)
+        tunes[tune.id] =tune
       })
       //updateSheet(0)
     } 
@@ -162,7 +170,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
-  function importAbc(abc, forceBook = null) {
+  function importAbc(abc, forceBook = null, limitToTuneId=null) {
       //console.log('importabc', forceBook)
       buildTunesHash(tunes)
       var duplicates=[]
@@ -176,101 +184,101 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var intunes = abcTools.abc2Tunebook(abc)
         //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
-          
-          var hasNotes = false
-          var hasChords = false
-          if (tune.voices) {
-              Object.values(tune.voices).forEach(function(voice) {
-                  if (Array.isArray(voice.notes)) {
-                      for (var i=0 ; i < voice.notes.length; i++) {
-                          if (voice.notes[i]) {
-                              hasNotes = true
-                              if (voice.notes[i].indexOf('"' !== -1)) {
-                                  hasChords = true
-                              }
-                              if (hasNotes &&  hasChords) {
-                                  break;
-                              } 
-                          }
-                      }
-                  }
-              })
-          }
-          
-          
-          
-          
-          // existing tunes are updated
-          //console.log('haveabc',tune.id,tunes[tune.id])
-          if (tune.id && tunes[tune.id]) {
-            if (forceBook) {
-              tune.books.push(forceBook)
-              tune.books = utils.uniquifyArray(tune.books)
-            }
-            // preserve boost
-            tune.boost = tunes[tune.id].boost
-            if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
-              updates.push(tune)
-              tuneStatus.updates.push({
-                hasLyrics:hasLyrics(tune),
-                hasNotes: hasNotes,
-                hasChords: hasChords
-              })
-              //console.log('update MORE RECENT')
-            } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
-              localUpdates.push(tune)
-              tuneStatus.localUpdates.push({
-                hasLyrics:hasLyrics(tune),
-                hasNotes: hasNotes,
-                hasChords: hasChords
-              })
-              //console.log('local update MORE RECENT')
-            } else {
-              skippedUpdates.push(tune)
-              tuneStatus.skippedUpdates.push({
-                hasLyrics:hasLyrics(tune),
-                hasNotes: hasNotes,
-                hasChords: hasChords
-              })
-              //console.log('skip update NOT MORE RECENT')
+          if (!limitToTuneId || tune.id === limitToTuneId)  {
+            var hasNotes = false
+            var hasChords = false
+            if (tune.voices) {
+                Object.values(tune.voices).forEach(function(voice) {
+                    if (Array.isArray(voice.notes)) {
+                        for (var i=0 ; i < voice.notes.length; i++) {
+                            if (voice.notes[i]) {
+                                hasNotes = true
+                                if (voice.notes[i].indexOf('"' !== -1)) {
+                                    hasChords = true
+                                }
+                                if (hasNotes &&  hasChords) {
+                                    break;
+                                } 
+                            }
+                        }
+                    }
+                })
             }
             
-            //saveTune(tune)
-            //updates.push(tune.id)
-          // new tunes 
-          } else {
-            //if (forceDuplicates) {
-              //if (forceBook) {
-                //tune.books.push(forceBook)
-                //tune.books = utils.uniquifyArray(tune.books)
-              //}
-              ////var newTune = saveTune(tune)
-              //inserts.push(tune)
-            //} else {
-              var hash = hash = abcTools.getTuneHash(tune)
-              //utils.hash(tune.notes.join("\n"))
-              //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
-              if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] ) {
-                duplicates.push(tune)
-                tuneStatus.duplicates.push({
-                  hasLyrics:hasLyrics(tune),
-                  hasNotes: hasNotes,
-                  hasChords: hasChords
-                })
-              } else {
-                if (forceBook) {
-                  tune.books.push(forceBook)
-                  tune.books = utils.uniquifyArray(tune.books)
-                }
-                //var newTune = saveTune(tune)
-                inserts.push(tune) //newTune.id)
-                tuneStatus.inserts.push({
-                  hasLyrics:hasLyrics(tune),
-                  hasNotes: hasNotes,
-                  hasChords: hasChords
-                })
+            
+            
+            
+            // existing tunes are updated
+            //console.log('haveabc',tune.id,tunes[tune.id])
+            if (tune.id && tunes[tune.id]) {
+              if (forceBook) {
+                tune.books.push(forceBook)
+                tune.books = utils.uniquifyArray(tune.books)
               }
-            //}
+              // preserve boost
+              tune.boost = tunes[tune.id].boost
+              if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
+                updates.push(tune)
+                tuneStatus.updates.push({
+                  hasLyrics:hasLyrics(tune),
+                  hasNotes: hasNotes,
+                  hasChords: hasChords
+                })
+                //console.log('update MORE RECENT')
+              } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
+                localUpdates.push(tune)
+                tuneStatus.localUpdates.push({
+                  hasLyrics:hasLyrics(tune),
+                  hasNotes: hasNotes,
+                  hasChords: hasChords
+                })
+                //console.log('local update MORE RECENT')
+              } else {
+                skippedUpdates.push(tune)
+                tuneStatus.skippedUpdates.push({
+                  hasLyrics:hasLyrics(tune),
+                  hasNotes: hasNotes,
+                  hasChords: hasChords
+                })
+                //console.log('skip update NOT MORE RECENT')
+              }
+              
+              //saveTune(tune)
+              //updates.push(tune.id)
+            // new tunes 
+            } else {
+              //if (forceDuplicates) {
+                //if (forceBook) {
+                  //tune.books.push(forceBook)
+                  //tune.books = utils.uniquifyArray(tune.books)
+                //}
+                ////var newTune = saveTune(tune)
+                //inserts.push(tune)
+              //} else {
+                var hash = abcTools.getTuneHash(tune)
+                //utils.hash(tune.notes.join("\n"))
+                //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
+                if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] ) {
+                  duplicates.push(tune)
+                  tuneStatus.duplicates.push({
+                    hasLyrics:hasLyrics(tune),
+                    hasNotes: hasNotes,
+                    hasChords: hasChords
+                  })
+                } else {
+                  if (forceBook) {
+                    tune.books.push(forceBook)
+                    tune.books = utils.uniquifyArray(tune.books)
+                  }
+                  //var newTune = saveTune(tune)
+                  inserts.push(tune) //newTune.id)
+                  tuneStatus.inserts.push({
+                    hasLyrics:hasLyrics(tune),
+                    hasNotes: hasNotes,
+                    hasChords: hasChords
+                  })
+                }
+            }
           }
           
           
@@ -280,17 +288,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         pauseSheetUpdates.current = false
       }) 
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus}
-      //console.log('imported SABC',final)
+      console.log('imported SABC',final)
       setImportResults(final)
       return {final}
   }
   
  
   
-  function importCollection(title) {
-    //console.log('impo col',title,curatedTuneBooks[title])
-    return importAbc(curatedTuneBooks[title], title)
-  }
+  //function importCollection(title) {
+    ////console.log('impo col',title,curatedTuneBooks[title])
+    //return importAbc(curatedTuneBooks[title], title)
+  //}
   
   
   
@@ -410,6 +418,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
   }
 
-  return { applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, importCollection, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
+  return { applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
 }
 export default useTuneBook

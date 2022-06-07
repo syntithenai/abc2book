@@ -40,7 +40,7 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
               docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
                   //console.log('ldd',fullSheet)
                   if (fullSheet) {
-                      tunebook.importAbc(fullSheet)
+                      tunebook.importAbc(fullSheet,null,params.tuneId)
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")

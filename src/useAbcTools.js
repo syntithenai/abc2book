@@ -1172,20 +1172,29 @@ var useAbcTools = () => {
       }
   
   function getTuneHash(tune) {
-    var voicesAndNotes=[]
-    if (tune.voices) {
-        Object.keys(tune.voices).forEach(function(voice) {
-            if (Array.isArray(tune.voices[voice].notes)) {
-                //voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
-                tune.voices[voice].notes.forEach(function(noteLine) {
-                    voicesAndNotes.push(noteLine)
-                })
-            }
-        })
+    if (tune) {
+        var voicesAndNotes=[]
+        if (tune.voices) {
+            Object.keys(tune.voices).forEach(function(voice) {
+                if (Array.isArray(tune.voices[voice].notes)) {
+                    //voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
+                    tune.voices[voice].notes.forEach(function(noteLine) {
+                        voicesAndNotes.push(noteLine)
+                    })
+                }
+            })
+        }
+        const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n"))
+        //console.log("HASH",hashString)
+        var hash = utils.hash(hashString)
+        return hash
     }
-    var hash = utils.hash((voicesAndNotes.join("\n"))+tune.title+tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts)
-    return hash
   }
+  
+  //function getTuneAllHash(tune) {
+    //var hash = utils.hash(JSON.stringify(tune))
+    //return hash
+  //}
 
   function tunesToAbc(tunes) {
     //console.log('to abc',book, tunes)

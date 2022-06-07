@@ -64,7 +64,7 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    //console.log('apply',changes)
+    console.log('apply',changes)
     // save all inserts and updates
     // , delete all deletes
     Object.keys(deletes).forEach(function(d) {
@@ -82,6 +82,7 @@ function App(props) {
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
       updateSheet(0)
     }
+    console.log('applied',tunes)
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
       setTunes(tunes)
       buildTunesHash()
@@ -95,7 +96,7 @@ function App(props) {
    * import songs to a tunebook from an abc file 
    */
   function mergeTuneBook(tunebookText) {
-      //console.log('merge',tunebookText)
+      console.log('merge',tunebookText)
       var inserts={}
       var updates={}
       var patches={} // updates with common parent
@@ -139,7 +140,7 @@ function App(props) {
         })
       }
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      //console.log('merge done' ,ret)
+      console.log('merge done' ,ret)
       return ret
   }
   
@@ -316,7 +317,7 @@ function App(props) {
                         index 
                         element={<MusicPage  importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}    />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId}/>} />
                     </Route>  
                     
                     <Route  path={`editor`}     >
@@ -331,10 +332,12 @@ function App(props) {
                     
                     <Route  path={`importdoc`} >
                       <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                      <Route  path={`:googleDocumentId/:tuneId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                     </Route>
                     
                     <Route  path={`importlink`} >
                       <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                       <Route  path={`:link/:tuneId`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                     </Route>
                       
                   </Routes>

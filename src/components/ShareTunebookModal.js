@@ -3,7 +3,7 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
 
 
-export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny}) {
+export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny, tuneId}) {
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);
@@ -30,7 +30,9 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
       <Button variant={tiny ? "info" : "success"} size={tiny ? "large" : ""}  style={style} onClick={function() {
               if (window.confirm('The google document that stores your tune book will be made available for anybody to read. Is that OK?')) {
                  docs.addPermission(googleDocumentId, {type:'anyone', role:'reader'})
-                 setLink(linkBase+ "/#/importdoc/"+googleDocumentId)
+                 var theLink = linkBase+ "/#/importdoc/"+googleDocumentId
+                 if (tuneId) theLink = theLink + "/" + tuneId
+                 setLink(theLink)
                  handleShow()
               }  
             }}>

@@ -5,6 +5,7 @@ import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
 //import ReactTags from 'react-tag-autocomplete'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
+import ShareTunebookModal from './ShareTunebookModal'
 
   
   //return (
@@ -130,6 +131,8 @@ export default function MusicSingle(props) {
                {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music}</Button>}
                {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}</Button>}
                 </span>
+                <span style={{marginLeft:'0.1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={true} tuneId={tune.id}  /></span>
+                
                 <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             </div>
             
