@@ -3,7 +3,7 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
 
 
-export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny, tuneId}) {
+export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny, tuneId, variant}) {
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);
@@ -27,21 +27,31 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
   
   return (
     <>{token ? <>
-      <Button variant={tiny ? "info" : "success"} size={tiny ? "large" : ""}  style={style} onClick={function() {
-              if (window.confirm('The google document that stores your tune book will be made available for anybody to read. Is that OK?')) {
+      <Button variant={variant ? variant : (tiny ? "info" : "success")} size={tiny ? "large" : ""}  style={style} onClick={function() {
+              function doConfirm() {
                  docs.addPermission(googleDocumentId, {type:'anyone', role:'reader'})
                  var theLink = linkBase+ "/#/importdoc/"+googleDocumentId
                  if (tuneId) theLink = theLink + "/" + tuneId
                  setLink(theLink)
                  handleShow()
+              }
+              
+              
+              if (localStorage.getItem('bookstorage_tunebook_public')) {
+                doConfirm()
+              } else {
+                if (window.confirm('The google document that stores your tune book will be made available for anybody to read. Is that OK?')) {
+                  localStorage.setItem('bookstorage_tunebook_public','true')
+                  doConfirm()
+                }
               }  
             }}>
-        {tunebook.icons.share}{!tiny && <span> Share Tune Book</span>}
+        {tunebook.icons.share}{!tiny && <span>{tuneId ? "Share Tune" : " Share Tune Book"}</span>}
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Share Your Tune Book</Modal.Title>
+          <Modal.Title>{tuneId ? "Share Tune" : " Share Tune Book"}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
            
@@ -70,6 +80,7 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
                     <ul>
                         <li>Tunes should use repeat signs and first/second endings to ensure that the audio playback is correct.</li>
                         <li>Tunes should include chords.</li>
+                        <li>Tunes should be in at least one book.</li>
                       </ul>
                   </li>
                   <li>Finally, Clicking Yes will open a link to send an email to the admin team. <b>You need to send this email :)</b></li>

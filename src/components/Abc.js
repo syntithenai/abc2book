@@ -201,7 +201,8 @@ export default function Abc(props) {
       //console.log('UPDATE SEEK',newSeek)
       //setSeekTo(newSeek)
       if (ev.top > 0 && ev.left > 0) {
-        window.scrollTo(ev.left,ev.top)
+        console.log('scroll',ev.left,ev.top)
+        window.scrollTo(ev.left,(ev.top*2.3 + 150))
       } 
     }
     colorElements(ev.elements);

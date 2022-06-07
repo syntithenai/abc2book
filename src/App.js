@@ -66,9 +66,10 @@ function App(props) {
     var {inserts, updates, deletes, localUpdates} = changes
     console.log('apply',changes)
     // save all inserts and updates
-    // , delete all deletes
+    // keep all local items that don't exist remotely
     Object.keys(deletes).forEach(function(d) {
-       delete tunes[d]
+       tunes[deletes[d].id] = deletes[d]
+       //delete tunes[d]
     })
     Object.keys(updates).map(function(u)  {
       if (updates[u] && updates[u].id) {

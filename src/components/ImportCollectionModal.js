@@ -72,7 +72,7 @@ function ImportCollectionModal(props) {
       } 
     }
     
-    var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
+    //var [inserts, updates, duplicates] = props.tunebook.importCollection(collection, collection)
     //console.log('imported',inserts,updates,duplicates)
     //setMessage(null)
     //const importResults = props.tunebook.importAbc(list, props.currentTuneBook)

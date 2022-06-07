@@ -1188,6 +1188,8 @@ var useAbcTools = () => {
         //console.log("HASH",hashString)
         var hash = utils.hash(hashString)
         return hash
+    } else {
+        return utils.hash(new String(Math.random()*100000000000000000).toString())
     }
   }
   
