@@ -267,7 +267,7 @@ export default function ChordsWizard(props) {
     return <div>
         <Form.Label>Time Signature</Form.Label>
         <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
-        <Form.Control style={{height:'20em'}} as="textarea"  value={chords} onChange={function(e) {setChords(e.target.value); }} onBlur={mergeChordsIntoNotes} />
+        <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea"  value={chords} onChange={function(e) {setChords(e.target.value); }} onBlur={mergeChordsIntoNotes} />
         
     </div>
 }

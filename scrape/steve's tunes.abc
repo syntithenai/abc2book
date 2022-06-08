@@ -1,10 +1,8 @@
 
-X: 93219
+X: 0
 T: The Reel Of Mullinavat
 B: steve's tunes
 Q: 1/4=100
-N: AKA: Cor Mhuilleann An Bhata, Mullinavat, The Mullinavat, Mullinivat, The Reel Of Mullanavat
-N: AKA: Reel Of Mullinvat
 K:Edorian
 V:1 
 f|gfed B3A|~G3B EDB,D|GE~E2 G2Bd|eBBA Bdef|! g2fg edBA|~G3B EDB,D|GE~E2 G3A|Beed e3f||! gBfB edBA|GABG EDB,D|GE~E2 G2Bd|eBBA Bdef|! g2fg edBA|~G3B EDB,D|GE~E2 G3A|Beed e3f|! |:gB~B2 gabg|afde faaf|gB~B2 gabg|afdf e3f|! g2gf gbag|fdd2 fa~a2|b2af gfed|Bgfg e3f:|
@@ -17,12 +15,11 @@ f|gfed B3A|~G3B EDB,D|GE~E2 G2Bd|eBBA Bdef|! g2fg edBA|~G3B EDB,D|GE~E2 G3A|Beed
 % abcbook-repeats 
 
 
-X: 74233
+X: 1
 T: Palm Sunday
 B: steve's tunes
 M:6/8
 Q: 3/8=100
-N: AKA: Casog An Mairnealaig, The Mariner's Frock, Scully Casey's
 K:Adorian
 V:1 
 B|:"Am"AGE G2E|G2E G2E|A2B c2d|"G"e2d efg|
@@ -38,7 +35,7 @@ efg ded|BAG Bcd|edc BAG|1 "Am"B2A A2e:|2 "Am"B2A A2B||
 % abcbook-repeats 
 
 
-X: 64006
+X: 2
 T: The Funky Reel
 B: steve's tunes
 Q: 1/4=100
@@ -55,44 +52,14 @@ V:1
 
 
 X: 3
-T: Tell Me Ma
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fe75378a52a7be350
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959675
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 4
-T: Black Bird
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fe8a61b14f21adf78
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959679
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 50366
 T: The Famous Ballymote
 B: steve's tunes
 M:4/4
 Q: 1/4=130
-N: AKA: The Weeshie Bag Of Potatoes
 K:Dmixolydian
 V:1 
 |:"D"FDAD FA (3AAA |"C"cABG EFGE|"D"FDAD FA (3AAA |"C"cAGE "D"ED D2:|
 |: "D"FDFA d2ed|"C"cABG EFGE|"D"FDFA dfed|"C"cAGE "D"ED D2:|
-
 % abcbook-tune_id 629b934f002b14aa34638a03
 % abcbook-boost 0
 % abcbook-tablature 
@@ -102,47 +69,17 @@ V:1
 % abcbook-repeats 
 
 
-X: 6
-T: Angeline The Baker
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fe89b6636961df93e
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959685
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 7
-T: Song of The Chanter
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934f4dd144ae4bf5c9ff
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959689
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 7141
+X: 4
 T: Turkey In The Straw
 B: steve's tunes
 M:4/4
 Q: 1/4=140
-N: AKA: Do Your Ears Hang Low, Old Zip Coon, The Turkey In The Straw, Turkeys In The Straw
 K:Gmajor
 V:1 
 BA|:"G"GFGA G2 B,C|DEDB, D2 GA|B2 B2 BAGA|"D"B2 A2 A2 BA|
  "G"GFGA G2 B,C|DEDB, D2 GA|B d2 e "D"dBGA|1"G"B2 G2 G2 BA:|2"G"B2 G2 G2 d2||
  |:"G"B d2 B d2 d2|B d2 B d2 d2|"C"c e2 c e2 e2|c e2 c e2 e2|
  "G"g2 g2 d2 d2|B2 B2 A2 GA|B d2 e "D"dBGA|1"G"B2 A2 G2 d2:|2"G"B2 A2 G2 z2||
-
 % abcbook-tune_id 629b934f3611029d74942dce
 % abcbook-boost 0
 % abcbook-tablature 
@@ -152,170 +89,7 @@ BA|:"G"GFGA G2 B,C|DEDB, D2 GA|B2 B2 BAGA|"D"B2 A2 A2 BA|
 % abcbook-repeats 
 
 
-X: 9
-T: Night In This Land
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934f7285422059548ad5
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959695
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 10
-T: Sally Goodin
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fe618e3e6b2964a75
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959698
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 11
-T: Tobins Favorite
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fc2ab5060bd95e653
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959701
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 12
-T: Billy And The Low Ground
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934ff464e9baa4724eee
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959704
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 13
-T: Salamanca Reel
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934f4bbc5c12af2a4fe4
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959707
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 14
-T: Donkey Reel
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934f21a216e10893a5f9
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959710
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 15
-T: Temperance Reel
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934f30118f2ab13026ef
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959714
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 16
-T: Swedish Jig
-B: steve's tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 629b934fd1c5629d5304cf29
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654362959718
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 94318
-T: The Butterfly
-B: steve's tunes
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 629c0d936baffa37af154c38
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654394259181
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 10437
-T: Lark In The Morning
-B: steve's tunes
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 629c0da7c422e12fa1ef1cd3
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654394279037
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 27222
-T: Freyers
-B: steve's tunes
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 629c0dc0b9ff9ab7057753f7
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654394304626
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 20
+X: 5
 T: Swedish Jig
 B: steve's tunes
 M:6/8
@@ -340,3 +114,556 @@ V:1
 %%pagewidth 21.59cm
 %%leftmargin 1.58cm
 %%rightmargin 1.58cm
+
+X: 6
+T: Tell Me Ma
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d1202ae3a8dbd202c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765096
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 7
+T: Black Bird
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67de7ae5d983a465b24
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765098
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 8
+T: Angeline The Baker
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d054ed4573550611f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765100
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 9
+T: Song of The Chanter
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d82482c8d76a525f8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765102
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 10
+T: Night In This Land
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67ddb74ad7613365d0f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765104
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 11
+T: Sally Goodin
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67dd52b631a8620ff1c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765106
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 12
+T: Tobins Favorite
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d14c7f425ce0a5711
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765109
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 13
+T: Billy And The Low Ground
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d8e889cbba5807cb3
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765110
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 14
+T: Salamanca Reel
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d1fa91a4e8af1dc33
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765113
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 15
+T: Donkey Reel
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d550f18e65f40ebf3
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765115
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 16
+T: Temperance Reel
+B: steve's tunes
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 629ed67d4fb59ce6057bca67
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765117
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 17
+T: The Butterfly
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed67d3c9d0fd84e005dc4
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765121
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 18
+T: Lark In The Morning
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed67dffea9a5a66d47d5f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765123
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 19
+T: Freyers
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed67d4e5f5e745945633a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576765125
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 20
+T: Galaghers Frolicks
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed6a9bc243482bcfe4d72
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576809764
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 21
+T: Miffs Tune
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed6de0c743c9d3b6054c6
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654576862994
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 22
+T: Ducks On The Millpond
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed7c237b6a158b016d9ff
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654577090460
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 23
+T: Michelle Ferreis
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed7ed161e0a5fa5aaf853
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654577133985
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 24
+T: Music For A Found Harmonium
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629ed801c2597c6168f8fd60
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654577153540
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 25
+T: Brisbane Waters
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629edf22545e02f9c3f185a8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654578978622
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 26
+T: French Waltz
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629eed41d90a4aa29bc6da3a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654582593455
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 27
+T: Black and White Rag
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629eed78816f1c737b40dbc8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654582648562
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 28
+T: Camp Chase
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629eed84103e41569db72f61
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654582660516
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 29
+T: Big Sandy River
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629eed978a2adce35393a279
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654582679925
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 30
+T: Eighth Of January
+B: steve's tunes
+Q: 1/4=100
+K:Dmajor
+V:1 
+|:de|fefa fedf|efed B2 cd|edef edBc|dBAF D2:|
+ DE|F2A2 A3F|ABAG FEDE|FDAD BDAB|AFE2 D||
+ de|f2a2 a3f|abaf edde|fa2fa2 ab|afecd2||
+% abcbook-tune_id 629eee1ad9c5254265ce8428
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654583206822
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 31
+T: Dance Around Molly
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629eee2fd144d8d00ddb7119
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654582831903
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 32
+T: Frailoch
+C:Lunasa
+B: steve's tunes
+M:4/4
+L:1/8
+Q: 1/4=100
+K:G
+V:1 
+ "Em"BEGA BcBG | "Am7"A2 AG AB G2 | "Em"GBdB GBdB | "Am7"A2 AG AB G2 |"Am"GAAG "D"GFF=F | 
+ "Em"E4 EDEF | "Am7"G AAG "D"GFF=F |1 "Em"E6 z2 :|2 "Em"E6 GB ||:"Em"e6 dc | B6 AB |
+ eBeB e2 dc | B6 AB | e6 d2 | "D"f6ed x6 | "Em"eBeB e2 dc | "Em" B6 BA |"C"GABc BcBc |
+ BcBc B2A2 |"Am"AEEA AEEA | AGAB A2 GF |"B7" GAAG GFF=F | "Em"E4 EDEF |
+ "C"GAAG "D"GFF=F |1 "Em"E6 GB3/2 :|2 "Em"E6 z2 ||
+% abcbook-tune_id 629f3e70344f948c4e2f1742
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654605903134
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 33
+T: Bang Your Frog On The Sofa
+B: steve's tunes
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=100
+K:Dmin
+V:1 
+|:"Dm"DFAd c2 GB|AFDF GECE|DCDE FGAc|dcAF "C"G2 FG|
+|"Dm"Adde fedc|dcAF "C"GECE|"Dm"DF"C"EG "Dm"FA"C"GB|1 "C"AGEF "Dm"D2 A,C:|2 "C"Ad^ce "Dm"defg||
+|"Dm"a2 af dfaf|dfaf gfed|"C"ce (3eee gecd|edef "C"gefg|
+|"Dm"a2 af dfaf|defg "C"afde|"Dm"fe"C"dc "Dm"AB"C"GB|"C"Ad^ce "Dm"defg|
+|"Dm"a2 af dfaf|dfaf gfed|"C"ce (3eee gecd|edef gefg|
+|"Dm"af (3fff ge (3eee|fedf edce|"C"fedc AGFA|GECE "Dm"D2 C2||
+% abcbook-tune_id 629f47bd12d63fefc90829c1
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654606906968
+% abcbook-soundfonts 
+% abcbook-repeats 
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
+
+X: 34
+T: Boy In The Bush
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629fde0f0e6da04b1a98ed0d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654644239621
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 35
+T: Tommy Tarbukas
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629fde3bcd2eb9f3d5739a9a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654644283631
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 36
+T: Hector The Hero
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629fde475d33089f5757665a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654644295017
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 37
+T: Yew Piney Mountain
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 629fde55634a70e8a75197f8
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654644309180
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 38
+T: Odessa Bulgar #3
+B: steve's tunes
+M:4/4
+L:1/8
+R: Bulgar, Frailach
+Q: 1/4=136
+K:Gm
+V:1 
+D ED \
+|: "Gm"G2 D2 B2 D2 | G4 zG AB | "Cm"cB AG ^FG FE \
+| "D"D4 d2 z D | D^F FF F2 ED | "Gm"DG GG G4 |\
+| "D"Ac BA BA G^F |1 "Gm"G4 z D ED :||2 "Gm"G4 z4||
+|:  "Bb"Bd dd d2 cB \
+| Bd dd d2 cB | d2 e2 d2 c#B | "F"c6 zA | Ac cc c2 BA | \
+| Ac cc c2 BA | c2 d2 c2 BA |1 "Bb"B4 z4 :|2  "Bb"B4 zc c/B/A||
+|: "Gm"G4 zc BA | B2 B2 BA B/A/G | G4 "G7"ze dc | "Cm"c6 z2 | \
+"Bb"B3 d fe dc | "Gm"Bc AB GA Bc |1 "D"dB cA BG A^F | "Gm"G4 z B B/A/G \
+:|["D"dB cA zd/^c/ d/e/=e/^f/ | "Gm"Hgz "D7"Hdz "Gm"HG4 |]
+%%MIDI transpose 2
+% abcbook-tune_id 629ff75685286a7f393e5ab5
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 2
+% abcbook-lastupdated 1654652455184
+% abcbook-soundfonts 
+% abcbook-repeats 
+%%MIDI transpose 2
+% Rhythm Bulgar, frailach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

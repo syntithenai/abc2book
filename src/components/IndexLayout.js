@@ -13,6 +13,7 @@ export default function IndexLayout(props) {
     //const [tunes, setTunes] = useState(props.tunes ? Object.values(props.tunes) : {})
     
     function filterSearch(tune) {
+        console.log('filterSearch',props.currentTuneBook,filter)
         var filterOk = false
         var bookFilterOk = false
         var bookFilter = props.currentTuneBook
@@ -72,12 +73,12 @@ export default function IndexLayout(props) {
         return found
     }
     useEffect(function() {
-        //console.log("IL boot")
+        console.log("IL boot")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
     },[])
     useEffect(function() {
-        //console.log("IL")
+      console.log("IL currentTuneBook")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
       var tuneStatus = {}
@@ -116,7 +117,7 @@ export default function IndexLayout(props) {
     return <div className="index-layout"  >
         <IndexSearchForm  tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
-        {Object.values(props.tunes).filter(filterSearch).length} matching tunes
+        {filtered.length} matching tunes
         </div>}
         {filtered.length > 0 ? <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
         {filtered.map(function(tune,tk) {

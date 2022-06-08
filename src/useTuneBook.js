@@ -171,7 +171,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
   function importAbc(abc, forceBook = null, limitToTuneId=null) {
-      //console.log('importabc', forceBook)
+      console.log('importabc', forceBook)
       buildTunesHash(tunes)
       var duplicates=[]
       var inserts=[]
@@ -182,7 +182,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       if (abc) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
-        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
           if (!limitToTuneId || tune.id === limitToTuneId)  {
             var hasNotes = false

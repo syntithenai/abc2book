@@ -29,8 +29,14 @@ function AddSongModal(props) {
     setSongNotes('')
     setSongComposer('')
     props.forceRefresh()
+    // force refresh list
+    var finalTuneBook=props.currentTuneBook
+    props.setCurrentTuneBook('')
     setTimeout(function() {
-      props.tunebook.utils.scrollTo('bottomofpage')
+      props.setCurrentTuneBook(finalTuneBook)
+      setTimeout(function() {
+        props.tunebook.utils.scrollTo('bottomofpage')
+      },100)
     },300)
     //props.updateList(songTitle,props.currentTuneBook)
     handleClose() 

@@ -201,8 +201,13 @@ export default function Abc(props) {
       //console.log('UPDATE SEEK',newSeek)
       //setSeekTo(newSeek)
       if (ev.top > 0 && ev.left > 0) {
-        console.log('scroll',ev.left,ev.top)
-        window.scrollTo(ev.left,(ev.top*2.3 + 150))
+        console.log('scroll',ev.left,ev.top,ev)
+        var top = ev.top
+        if (ev.top > 100) {
+          top = top * (1 + (Math.floor(ev.top/200)* 0.05) )
+        }
+        window.scrollTo(ev.left,top)
+        //window.scrollTo(ev.left,(ev.top*2.2 + 50))
       } 
     }
     colorElements(ev.elements);
@@ -619,9 +624,10 @@ export default function Abc(props) {
     }
     var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
     
+    console.log('click seek ?',gtimingCallbacks.duration,gmidiBuffer.current,gtimingCallbacks.current)
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(ms/1000,'seconds')
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(ms/1000,'seconds')
-    if (gmidiBuffer.duration > 0) setSeekTo(ms/1000/gmidiBuffer.duration)
+    if (gmidiBuffer.current.duration > 0) setSeekTo(ms/1000/gmidiBuffer.current.duration)
     
     
     if (props.onClick)  props.onClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
@@ -751,7 +757,7 @@ export default function Abc(props) {
     }
     
     function clickPlay(seekTo) {
-        //console.log('onClickHandler')
+        console.log('onClickHandler PLAY',seekTo)
         if (playTimerRef && playTimerRef.current) {
           //console.log('onClickHandler DOUBLE')
             clearTimeout(playTimerRef.current)

@@ -24,10 +24,17 @@ function ImportListModal(props) {
    * import songs to a tunebook from an list looked up on thesession.org
    */
   let [importQueue, setImportQueue] = useState([])
+  //console.log('im plist',props,props.tunebook, props.tunebook.importAbc)
   
   function bulkCreate() {
-    //console.log('bulkCreate',list)
-    var [inserts, updates, d] = props.tunebook.importAbc(list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d }).join("\n"), props.currentTuneBook, true)
+    console.log('bulkCreate',list)
+    var abc =list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d+"\nK:G\n" }).join("\n\n")
+    var doImp = props.tunebook.importAbc
+    var result = doImp(abc, props.currentTuneBook, false)
+    console.log('bulkCreate')
+    console.log(abc)
+    console.log(result)
+    //var [inserts, updates, d] = result
     setList('')
     setTunes([])
     setErrorHistory ([])

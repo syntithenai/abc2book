@@ -287,7 +287,7 @@ function App(props) {
             </> : null}
   
            {(!showWarning(sheetUpdateResults) && !showImportWarning(importResults) && tunes !== null) && <div>   
-              <Header tunebook={tunebook}  token={token} googleDocumentId={googleDocumentId} currentTune={currentTune} />
+              <Header tunebook={tunebook}  tunes={tunes} token={token} googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}     currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
