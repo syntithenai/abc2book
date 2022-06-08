@@ -202,10 +202,13 @@ export default function Abc(props) {
       //setSeekTo(newSeek)
       if (ev.top > 0 && ev.left > 0) {
         console.log('scroll',ev.left,ev.top,ev)
+        //+ (Math.floor(ev.top/200)* 0.025)
         var top = ev.top
-        if (ev.top > 100) {
-          top = top * (1 + (Math.floor(ev.top/200)* 0.05) )
-        }
+        //+ (Math.floor(ev.top/200)* 0.1)
+        //if (ev.top > 100) {
+        //- Math.floor(ev.top/200)
+          top = top   - Math.floor(ev.top/5) + (ev.top > 100 ? 40 : 0) + 50
+        //}
         window.scrollTo(ev.left,top)
         //window.scrollTo(ev.left,(ev.top*2.2 + 50))
       } 
