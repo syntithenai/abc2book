@@ -45,6 +45,7 @@ export default function Abc(props) {
     var gvisualObj = useRef(null)
     var gtimingCallbacks = useRef(null)
     var gcursor = useRef(null)
+    
     function setAudioContext(v) {
       gaudioContext.current = v
     }
@@ -95,7 +96,11 @@ export default function Abc(props) {
       cursor.setAttributeNS(null, 'y1', 0);
       cursor.setAttributeNS(null, 'x2', 0);
       cursor.setAttributeNS(null, 'y2', 0);
-      svg.appendChild(cursor);
+      if (svg) {
+        svg.appendChild(cursor);
+      } else {
+        console.log("failed to create cursor - missing svg element")
+      }
     }
     setCursor(cursor)
     return cursor;
@@ -201,7 +206,7 @@ export default function Abc(props) {
       //console.log('UPDATE SEEK',newSeek)
       //setSeekTo(newSeek)
       if (ev.top > 0 && ev.left > 0) {
-        console.log('scroll',ev.left,ev.top,ev)
+        //console.log('scroll',ev.left,ev.top,ev)
         //+ (Math.floor(ev.top/200)* 0.025)
         var top = ev.top
         //+ (Math.floor(ev.top/200)* 0.1)
@@ -354,7 +359,7 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
     
       return new Promise(function(resolve,reject) {
-          //console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
+          console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
           var midiBuffer
           if (visualObj) {
             //if (!midiBuffer) {
@@ -418,7 +423,7 @@ export default function Abc(props) {
              //console.log("tune", tune,props.abc);
              
              function primeAndResolve() {
-               //logtime('preinit primresolve')
+               logtime('preinit primresolve')
                 midiBuffer.init(initOptions).then(function (response) { 
                   //logtime('preinit pr inited')
                   midiBuffer.prime()
@@ -427,11 +432,11 @@ export default function Abc(props) {
                     //console.log('preinit prime tune primed', presponse, midiBuffer)
                     if (tune && tune.id) { 
                       saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
-                        //console.log('created audio')
+                        console.log('created audio')
                         resolve(midiBuffer)
                       })
                     } else {
-                      //console.log('audio from cache')
+                      console.log('audio from cache???')
                       resolve(midiBuffer)
                     }
                   })
@@ -456,14 +461,14 @@ export default function Abc(props) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        //console.log('GOT BUF',audioBuffers, duration)
+                        console.log('GOT BUF',audioBuffers, duration)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
                            //logtime('inited for buffer')
                             midiBuffer.audioBuffers = audioBuffers
                             midiBuffer.duration = duration 
-                            
+                            console.log('CREATE TIMING CALLBACKS a')
                             var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
                               beatCallback: beatCallback,
                               eventCallback: function(ev) {eventCallback(ev)},
@@ -565,7 +570,7 @@ export default function Abc(props) {
   function createPlayer(visualObj, tempo, meter) {
       var milliSecondsPerMeasure = 0 //getMilliSecondsPerMeasure(meter, tempo)
       return new Promise(function(resolve, reject) {
-        //console.log('CREATE PLAYER', visualObj)
+        console.log('CREATE PLAYER', visualObj)
             
         if (visualObj) {
             //console.log('CREATE PLAYER HAVE VISUAL OBJ')
@@ -585,6 +590,7 @@ export default function Abc(props) {
                           //renderActive = false
                           //setReady(true)
                           //console.log('CREATE TIMEING',tempo)
+                          console.log('CREATE TIMING CALLBACKS AA')
                           var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
                             beatCallback: beatCallback,
                             eventCallback: function(ev) {eventCallback(ev)},
@@ -628,9 +634,11 @@ export default function Abc(props) {
     var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
     
     console.log('click seek ?',gtimingCallbacks.duration,gmidiBuffer.current,gtimingCallbacks.current)
-    if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(ms/1000,'seconds')
-    if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(ms/1000,'seconds')
-    if (gmidiBuffer.current.duration > 0) setSeekTo(ms/1000/gmidiBuffer.current.duration)
+    if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(Math.floor(ms)/1000,'seconds')
+     console.log('click')
+    if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(Math.floor(ms)/1000,'seconds')
+    console.log('click')
+    if (gmidiBuffer.current.duration > 0) setSeekTo(Math.floor(ms/gmidiBuffer.current.duration)/1000)
     
     
     if (props.onClick)  props.onClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
@@ -713,6 +721,7 @@ export default function Abc(props) {
         //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             if (props.onWarnings) props.onWarnings(o.warnings)
+             //&& (isPlayingRef.current || isPlaying)
             if (props.tempo) {
               
               //props.audioProps.

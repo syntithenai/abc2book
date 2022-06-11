@@ -334,22 +334,30 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
     
   function deleteTuneBook(book) {
+    console.log('delete tune book',book)
     var final = {}
     Object.values(tunes).map(function(tune) {
+      console.log('delete tune book book',tune.books)
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
+        console.log('delete tune book book MATCH',book,tune.books.length)
         if (tune.books.length > 1) {
-          //console.log('update books lose '+book,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
-          tune.books=tune.books.splice(tune.books.indexOf(book),1)
+          console.log('update books lose '+book)
+          //,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
+          console.log('before '+JSON.stringify(tune.books))
+          tune.books.splice(tune.books.indexOf(book),1)
+          console.log('after '+JSON.stringify(tune.books))
           final[tune.id] = tune
         } else {
+          console.log('last book')
           // ignore it
         }
       } else {
+        //console.log('no books for tune match')
         final[tune.id] = tune
       }
     })
     indexes.removeBookFromIndex(book)
-    //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
+    console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
     updateSheet(0).then(function() {
@@ -367,7 +375,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       pauseSheetUpdates.current = false
     }) 
     setCurrentTuneBook(null)
-    
+    setTunes({})
   }
   
   function copyTuneBookAbc(book) {

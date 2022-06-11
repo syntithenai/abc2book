@@ -61,7 +61,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })

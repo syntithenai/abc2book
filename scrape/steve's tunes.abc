@@ -228,15 +228,20 @@ V:1
 
 
 X: 14
-T: Salamanca Reel
+T: The Salamanca
 B: steve's tunes
-Q: 1/4=100
+Q: 1/4=136
+K:Dmajor
 V:1 
+dB |:"D"AD (3FED AD (3FED|"D"Adcd fedc|"Em"BE~E2 BE~E2|"Em"Beed "A"cdeg|
+ "Bm"fB~B2 fB~B2|"Bm"fgfe dfag|"A"fdec "D"dBAG|1"A7"FAEA "D"D4:|2"A7"FAEA "D"D2 fg:|
+ |:"D"afda "Em"bgeg|"D"fdcd "A7"BAFG|"D"Addc defg|(3aba gb "A7"a2fg|
+ "D"~a3f "A7"~g3e|"D"~f3e dfag|"D"fdec dBAG|1"A7"FAEA "D"D2 fg:|2"A7"FAEA "D"D4:|
 % abcbook-tune_id 629ed67d1fa91a4e8af1dc33
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654576765113
+% abcbook-lastupdated 1654768071363
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -414,17 +419,21 @@ W:
 
 
 X: 26
-T: French Waltz
+T: Rosbif
 B: steve's tunes
-M:4/4
+M:3/4
 Q: 1/4=100
+K:Aminor
 V:1 
-W: 
+AB|:"Am"c2AB cA|"C"c2AB cA|"G"B2GA BG|"Am"A2A4| "Am"c2AB cA|"C"c2AB cA|"G"BA GA BG|"C"c2c4|
+"C"c2cdec|"G"d2B4|"Am"c2AB cA|"G"BAG4|"Am"c2AB cA|"C"c2 AB cA|"G"BA GA BG|1 "Am"A2A2AB:|2 "Am"A2A4||
+|:"Am"e2f2e2|"Am"c2c2c2|"Am"e2f2e2|"G"d2d2d2|"G"d2dB GB|"G"d2dB GB|"G"d4c2|"Am"A6:|
+|:"Am"c3B c2|"G"d4d2|"C"e2g2f2|"C"e4 e2|"F"a3g f2|"C"e3d c2|1 "G"d4d2|"Am"e6:|2 "G"d4c2|"Am"A4||
 % abcbook-tune_id 629eed41d90a4aa29bc6da3a
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654582593455
+% abcbook-lastupdated 1654745344854
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -569,63 +578,101 @@ V:1
 X: 34
 T: Boy In The Bush
 B: steve's tunes
-M:4/4
-Q: 1/4=100
+M:9/8
+R: slip jig
+Q: 3/8=91
+K:Dmix
 V:1 
-W: 
+"D"FGA AFA c2A|"D"BAG FAF "C"GED|"D"FGA AFA d2A|"D"dfe dcA "C"GED:|
+|:"D"d^cd efd "C"=c2A|~"D"d3 faf ~"C"g3|aba ged c2A|"D"BAG FAF "C"GED:|
+|:"D"FGA AFd AFd|"D"AFd AFA "C"GED|"D"FGA AFA c2A|"D"BAG FAF "C"GED:|
+|:~"D"D3 ~D3 "C"c3|c2B c2A GEA|~"D"D3 ~D3 "C"d2A|"D"dfe dcA "C"GED:|
+|:"D"d^cd efd "C"=c2A|"D"d^B/c/d faf "C"~g3|"D"aba ged "C"c2A|"C"BAG F/G/AF "C"GED:|
 % abcbook-tune_id 629fde0f0e6da04b1a98ed0d
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654644239621
+% abcbook-lastupdated 1654670250451
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
 X: 35
-T: Tommy Tarbukas
+T: Tommy's Tarbukas (ou Sparky)
+C:Alasdair Fraser
 B: steve's tunes
 M:4/4
+L:1/8
+R: reel
 Q: 1/4=100
+K:Gmin
 V:1 
-W: 
+(3ABc|:"Gm"d2 cd BGGB|"F"AFcF dFcF|"Gm"d2 cd BGGB|"F"AFcA "Gm"BGBc|
+|"Gm"d2 cd BGGB|"F"AFcF dFcF|"Gm"d2 Bd "F"AFFA|1 "Dm"Ggdc "Gm"BGBc:|2 "Dm"Ggdc "Gm"BGGF||
+|:"Gm"DGBG "Eb"EGcB|"F"Acfe "Bb"dbfd|"Gm"DGBG "Eb"EGcB|"F"AfcA "Gm"BGGF|
+|"Gm"DGBG "Eb"EGcB|"F"Acfe "Bb"dbfd|"Gm"fdBe "F"cAFE|1 "D"DG^FA "Gm"BGG=F:|2 "D"DG^FA "Gm"BGBc||
 % abcbook-tune_id 629fde3bcd2eb9f3d5739a9a
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654644283631
+% abcbook-lastupdated 1654681236417
 % abcbook-soundfonts 
 % abcbook-repeats 
-
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
 
 X: 36
-T: Hector The Hero
+T: Hector the Hero
+C:J. S. Skinner
 B: steve's tunes
-M:4/4
-Q: 1/4=100
+M:3/4
+L:1/4
+Q: 1/4=150
+K:D
 V:1 
-W: 
+D/E/ |: "D" F3/2 E/2 D | "G"B2 A/2F/2 | "D"A2-A/2B/2 |"D"A2D/2E/2 | "Bm"F2E/2D/2 | "G"B2A/2F/2 |
+ "Em"E2-E/2F/2 |"A"E2F/2A/2 | "Bm"F3/2E/2D | "G"B2A/2F/2 | "D"A2D |"G"d2B |
+ "D"A2D/2F/2 | "A"E2D |1 "D"D3- | "D"D z D/E/:|2"D"D3- | "D"D F A||
+|:"G"B2G/2B/2 | "G"d2c/2B/2 | "D"A2-A/2B/2 |"D"A2F/2A/2 | "Bm"B2A/2F/2 | "Bm"A2D/2F/2 |
+ "Em"E2-E/2F/2 |"A"E2F/2A/2 | "Bm"B2G/2B/2 | "G"d2c/2B/2 |[1 "D"A2G/2F/2 | "G"d2G |
+ "D"F2D/2F/2 | "A"E2D | "D"D3- | "D"D3 :|2 "D"A2D | "G"d2B |
+ "D"A2D/2F/2 | "A"E2D | "D"D3- | "D"D ||
 % abcbook-tune_id 629fde475d33089f5757665a
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654644295017
+% abcbook-lastupdated 1654680680843
 % abcbook-soundfonts 
 % abcbook-repeats 
-
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords
 
 X: 37
 T: Yew Piney Mountain
 B: steve's tunes
-M:4/4
 Q: 1/4=100
+K:Adorian
 V:1 
-W: 
+|:eg|a2ag efge dged cdeg|a2ag edcA cdeg a4|abag efge dged cBAc|
+e6 e3dc2 A2EG|ABAG EDCA, CDEG A2:|cB|ABcd e4 e4 edc2|
+A4 e2e2 dedc A2EG|A2Ac e4 edc2 A2EG|A2Ac e4 edc2 A2EG|ABAG EDCA, CDEG A2||
 % abcbook-tune_id 629fde55634a70e8a75197f8
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654644309180
+% abcbook-lastupdated 1654686607736
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -650,6 +697,9 @@ D ED \
 "Bb"B3 d fe dc | "Gm"Bc AB GA Bc |1 "D"dB cA BG A^F | "Gm"G4 z B B/A/G \
 :|["D"dB cA zd/^c/ d/e/=e/^f/ | "Gm"Hgz "D7"Hdz "Gm"HG4 |]
 %%MIDI transpose 2
+%%MIDI transpose 2
+%%MIDI transpose 2
+%%MIDI transpose 2
 % abcbook-tune_id 629ff75685286a7f393e5ab5
 % abcbook-boost 0
 % abcbook-tablature 
@@ -667,3 +717,152 @@ D ED \
 % Time_signature 4/4
 % Text Has notes text
 % Has_accompaniment_chords Has chords
+
+X: 39
+T: Minuet in G %Tune name
+C:JS Bach %Tune composer
+B: steve's tunes
+M:3/4 %Meter
+L:1/8 %
+Q: 1/4=120
+K:D
+V:1 
+z6 |A2 DE FG |A2 D2 D2 |B2 GA Bc |d2 D2 D2 |G2 AG FE |F2 GF ED |E2 DE FD |E2 AG FE |A2 DE FG |A2 D2 D2 |B2 GA Bc |d2 D2 D2 |G2 AG FE |F2 GF ED |E2 FE DE |D4 z2 |]
+%End of file
+% abcbook-tune_id 62a075dc35dd08ab84697c36
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654683213082
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 40
+T: The Scholar
+B: steve's tunes
+M:4/4
+Q: 1/4=141
+K:Dmajor
+V:1 
+|:"D"dfaf gfeg|fdAG FGA=c|"G"BGFG EFGg|"A"fdec dcBA|
+"D"dfaf gfeg|fdAG FGA=c|"G"BGFG EFGg|"A"fdec d4:|
+|:"D"a2af dfaf|"D"dfaf bagf|"C"g2ge =cege|"C"=cege afgf|
+"D"a2af dfaf|"D"dfaf bagf|"G"g2gf gbag|"A"fdec "D"d4:|
+% abcbook-tune_id 62a1c1f515fb899ab1b16e50
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654769433741
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 41
+T: Farewell To Craigie Dhu
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+K:Dmixolydian
+V:1 
+AB|:"Am"c4 efga|"D"f2 (d2 d2) AB|"Am"c3A "G"B3G|"G"GFGB "D"A2 AB|
+"Am"c4 efga|"D"f2 (d2 d2) AB|"Am"c3A "G"B3G|1 "D"GF (D2 D2) AB:|2 "D"GF D4 fg||
+|:"D"a3f "C"g3e|"D"fgfd "C"c3A|"G"B2 B2) BABd|"G"B2 (A2 "D"A2) fg|
+"D"a3f "C"g3e|"D"fgfd "C"c3A|"Am"cdcA "G"GFGA|1 "D"F2 (D2 D2) fg:|2 "D"F2 (D2 D4)||
+% abcbook-tune_id 62a1c73a25fdd0bd4c740475
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654769849089
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 42
+T: Ross Creek
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a2c591522968a372463767
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654834577139
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 43
+T: Araganu Air
+C:Pete Richens and Sandy
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a32520c5d14a99ea6a01d4
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654859659032
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 44
+T: The Ugly Duckling
+B: steve's tunes
+Q: 1/4=146
+K:Gmajor
+V:1 
+|:"G"d2dB G2 GA|Bcd2 ded2|d2dB G2GA|Bcd2 dedd|
+ "C"ec~c2 "G"ed~d2|"C"eced "G"d2~d2|"C"ec~c2 "G"eddc|"G"Bcd2 "D"A4:|
+ |:"C"GFED "G"D2BA|"C"GFED "G"DCB,D|"C"EG"G"DG "C"EG"G"DG|"G"Bcd2 "D"A4:|
+% abcbook-tune_id 62a325312b5727a833eaa6f7
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654859648793
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 45
+T: Le Marinier
+C:Traditional
+B: steve's tunes
+M:4/4
+Q: 1/4=100
+K:Am
+V:1 
+|:d|"G"d2B2"F"c2>c2|"Dm7"c2>f2 "Em7"edBc|"Am"A3:|
+|:e|"C"g2e2"Dm7"d2>e2|"Fmaj7"ffed"Am"c2>d2"C"e2c2|"Dm7"d2>f2 "Em7"edBc|"Am"A3:|
+W: 
+% abcbook-tune_id 62a328433bb682aab3dcdf47
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654861760377
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 46
+T: El Meliner
+C:Traditional
+B: steve's tunes
+M:4/4
+Q: 1/4=130
+V:1 
+|:E|"Am"A2GA3c3 B2A c2B A2G|"Fmaj7"A3c3B2A "Em7"B6:|
+|:A|B2c "Dm"d6 d3|A2B "Fmaj7"c4-c cB2A|"Em7"B3 c2B A2G "Am"A6:|
+W: 
+% abcbook-tune_id 62a32866ffeb7351f6dea6aa
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654861768609
+% abcbook-soundfonts 
+% abcbook-repeats 

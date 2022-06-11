@@ -257,7 +257,10 @@ export default function AbcEditor(props) {
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
-                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Google</Button></a>
+                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Lyrics</Button></a>
+                    <a target="_new" href={"https://www.google.com/search?q=chords "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Chords</Button></a>
+                    <a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search YouTube</Button>
+                    </a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   <Tab eventKey="chords" title="Chords" >

@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from 'react'
 import {Link , useParams , useNavigate} from 'react-router-dom'
-import {Button} from 'react-bootstrap'
+import {Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
 //import ReactTags from 'react-tag-autocomplete'
@@ -120,20 +120,42 @@ export default function MusicSingle(props) {
                 
                 <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
                 
-                <Button className='btn-primary' style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
-                <Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
+                <Dropdown style={{float:'left', marginLeft:'0.1em'}}>
+                  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{height:'2.4em'}}>
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
+                     <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
+                     <Dropdown.Item target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube} Search YouTube</Button>
+                    
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
                 
+                 <span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={true} tuneId={tune.id} buttonSize={'small'}  /></span>
+               
                 
-                
-                <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) {console.log("save book selection",val); tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+                <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
 
                 <BoostSettingsModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-                <span style={{float:'left', marginLeft:'0.3em'}} >
-               {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music}</Button>}
-               {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}</Button>}
-                </span>
                 
-                <span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={true} tuneId={tune.id}  /></span>
+                <Dropdown style={{float:'left', marginLeft:'0.3em'}}>
+                  <Dropdown.Toggle variant="primary" id="dropdown-basic" style={{height:'2.4em', color:'black'}}>
+                  {props.tunebook.icons.eye}
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item >
+                     {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music} Show Music</Button>}
+                     {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}Show Chords</Button>}
+                    </Dropdown.Item>
+                    
+                  </Dropdown.Menu>
+                </Dropdown>
+                
+               
+                
                
                 <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             </div>

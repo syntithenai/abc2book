@@ -3,7 +3,8 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
 
 
-export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny, tuneId, variant}) {
+export default function ShareTunebookModal({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant, buttonSize}) {
+  //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);
@@ -21,19 +22,23 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
   
   var style={color:'black'}
   if (tiny) {
-    style.fontSize = '1.42em'
+    if (!buttonSize) style.fontSize = '1.42em'
     style.marginLeft = '0.1em'
   }
   
   return (
     <>{token ? <>
-      <Button variant={variant ? variant : (tiny ? "info" : "success")} size={tiny ? "large" : ""}  style={style} onClick={function() {
+      <Button variant={variant ? variant : (tiny ? "info" : "info")} size={tiny ? "large" : ""}  style={style} onClick={function() {
               function doConfirm() {
                  docs.addPermission(googleDocumentId, {type:'anyone', role:'reader'})
                  var theLink = linkBase+ "/#/importdoc/"+googleDocumentId
-                 if (tuneId) theLink = theLink + "/" + tuneId
-                 setLink(theLink)
-                 handleShow()
+                 if (tuneId) {
+                   theLink = theLink + "/tune/" + tuneId
+                 } else if (currentTuneBook) {
+                   theLink = theLink + "/book/" + currentTuneBook
+                   setLink(theLink)
+                   handleShow()
+                 }
               }
               
               
@@ -46,12 +51,12 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
                 }
               }  
             }}>
-        {tunebook.icons.share}{!tiny && <span>{tuneId ? "Share Tune" : " Share Tune Book"}</span>}
+        {tunebook.icons.share}{!tiny && <span>{tuneId ? "Share Tune" : (currentTuneBook ? "Share Tune Book" : "Share My Whole TuneBook")}</span>}
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{tuneId ? "Share Tune" : " Share Tune Book"}</Modal.Title>
+          <Modal.Title>{tuneId ? "Share Tune" : (currentTuneBook ? "Share Tune Book -"+currentTuneBook : "Share My Whole TuneBook") }</Modal.Title>
         </Modal.Header>
         <Modal.Body>
            
