@@ -167,7 +167,7 @@ export default function AbcEditor(props) {
                       </Tabs> : ''}
                     </div>
                     <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
-                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} tempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
+                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
                     </div>
                     
                     
@@ -257,7 +257,7 @@ export default function AbcEditor(props) {
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
-                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+tune.composer} ><Button>Search Google</Button></a>
+                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Google</Button></a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   <Tab eventKey="chords" title="Chords" >

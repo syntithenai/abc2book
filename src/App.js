@@ -64,7 +64,7 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    console.log('apply',changes)
+    //console.log('apply',changes)
     // save all inserts and updates
     // keep all local items that don't exist remotely
     Object.keys(deletes).forEach(function(d) {
@@ -83,7 +83,7 @@ function App(props) {
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
       updateSheet(0)
     }
-    console.log('applied',tunes)
+    //console.log('applied',tunes)
     if ((localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
       setTunes(tunes)
       buildTunesHash()
@@ -97,7 +97,7 @@ function App(props) {
    * import songs to a tunebook from an abc file 
    */
   function mergeTuneBook(tunebookText) {
-      console.log('merge',tunebookText)
+      //console.log('merge',tunebookText)
       var inserts={}
       var updates={}
       var patches={} // updates with common parent
@@ -141,7 +141,7 @@ function App(props) {
         })
       }
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      console.log('merge done' ,ret)
+      //console.log('merge done' ,ret)
       return ret
   }
   
