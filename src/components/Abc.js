@@ -722,7 +722,7 @@ export default function Abc(props) {
         if (o) {
             if (props.onWarnings) props.onWarnings(o.warnings)
              //&& (isPlayingRef.current || isPlaying)
-            if (props.tempo) {
+            if (props.tempo && false) {
               
               //props.audioProps.
                setVisualObj(o)
@@ -911,7 +911,7 @@ export default function Abc(props) {
               <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span> : null}
             {gaudioContext && gaudioContext.current && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
-           {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(playCount + 1)}</Button>}
+           {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(props.repeat - playCount )}</Button>}
             {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
             {!props.link && <div id="abc_music_viewer" ref={inputEl} ></div>}
           </span>

@@ -52,12 +52,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function deleteTune(tuneId) {
+    pauseSheetUpdates.current = true
     indexes.removeTune(tunes[tuneId], indexes.bookIndex)
     
     delete tunes[tuneId]
     setTunes(tunes)
     updateSheet(0).then(function() {
-      pauseSheetUpdates.current = false
+      setTimeout(function() {
+        pauseSheetUpdates.current = false
+      },10000)
+      
     }) 
   }
   
@@ -386,6 +390,22 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     var name = currentTuneBook ? currentTuneBook+'.abc' : 'tunebook.abc'
     utils.download(name,toAbc(book))
   }
+  
+  function clearBoost() {
+    const final = {}
+    Object.values(tunes).forEach(function(tune) {
+      tune.boost = 0
+      final[tune.id] = tune
+    })
+    
+    setTunes(final)
+    buildTunesHash(final)
+    updateSheet(0).then(function() {
+      pauseSheetUpdates.current = false
+    }) 
+    //forceRefresh()
+    
+  }
 
   function fromBook(book) {
     //console.log('from book',book, tunes)
@@ -426,6 +446,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
   }
 
-  return { applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
+  return { clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
 }
 export default useTuneBook

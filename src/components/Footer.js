@@ -27,7 +27,7 @@ export default function Footer(props) {
              <span style={{position:'fixed', bottom:'5px', right:'45%', height:'30px', width:'25px'}} >
                 <form action="https://www.paypal.com/donate" method="post" target="_new">
                   <input type="hidden" name="hosted_button_id" value="RPP5VCZCWSZL4" />
-                  <input type="image" style={{transform: 'rotate(20deg)', height:'30px', width:'25px'}} src="https://pics.paypal.com/00/s/OGVmNmM4NTQtMGQ0MS00NGVhLWI0NDgtNzMxYWRkMDY5NzIy/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                  <input type="image" style={{transform: 'rotate(20deg)', height:'30px', width:'25px'}} src="https://pics.paypal.com/00/s/OGVmNmM4NTQtMGQ0MS00NGVhLWI0NDgtNzMxYWRkMDY5NzIy/file.PNG" border="0" name="submit" title="Buy me a beer!" alt="Buy me a beer!" />
                   <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
                 </form>
              </span>

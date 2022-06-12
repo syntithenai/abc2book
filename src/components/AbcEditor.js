@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import {useParams} from 'react-router-dom'
 import abcjs from "abcjs";
-import {Tabs, Tab, Form, Button} from 'react-bootstrap'
+import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
@@ -26,7 +26,7 @@ export default function AbcEditor(props) {
   //var inputRefs = []
   const [warnings, setWarnings] = useState([])
   var [saveTimeout, setSaveTimeout] = useState(null)
-  
+  const [noteEditorWidth, setNoteEditorWidth] = useState(2)
   var [chordsChanged, setChordsChanged] = useState(false)
    
   //var [tune, setTune] = useState(null)
@@ -157,18 +157,23 @@ export default function AbcEditor(props) {
           <div style={{display: 'none'}}  id="audio">Player</div>
           <Tabs defaultActiveKey="musiceditor" id="uncontrolled-tab-example" className="mb-3">
                   <Tab eventKey="musiceditor" title="Music">
-                    <div style={{width:(props.isMobile ? '20%' : '30%'), float:'left'}} >
-                      <Button style={{float:'left', marginRight:'0.2em'}}  variant="success" size="sm" onClick={addVoice} >+</Button>
-                      {tune && tune.voices ? <Tabs id="voices-tabs" className="mb-3" activeKey={currentVoice}
-                      onSelect={(k) => setCurrentVoice(k)}>
-                          {Object.keys(tune.voices).map(function(voice,vk) {
-                            return <Tab  key={vk}  eventKey={vk}  title={voice} ><textarea ref={refs['textareaRef_'+vk]} value={Array.isArray(tune.voices[voice].notes) ? tune.voices[voice].notes.join("\n") : ''} style={{resize:'both', fontSize:(props.isMobile?'0.8em':'1em'), minHeight: '25em', zIndex: '9999', backgroundColor: 'white'}} onChange={function(e) {tuneNotesChanged(voice, e.target.value)}}   /></Tab>
-                          })}
-                      </Tabs> : ''}
-                    </div>
-                    <div style={{paddingLeft:'0.2em',width:(props.isMobile ? '78%' : '68%'), float:'left'}} >
-                       <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
-                    </div>
+                      <Row style={{width:'100%'}}>
+                        <Col xs={12} md={6}>
+                          <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
+                        </Col>
+                        <Col xs={12} md={6}>
+                          <Button style={{float:'left', marginRight:'0.2em'}}  variant="success" size="sm" onClick={addVoice} >+</Button>
+                          {tune && tune.voices ? <Tabs id="voices-tabs" className="mb-3" activeKey={currentVoice}
+                          onSelect={(k) => setCurrentVoice(k)}>
+                              {Object.keys(tune.voices).map(function(voice,vk) {
+                                return <Tab  key={vk}  eventKey={vk}  title={voice} ><textarea onFocus={function() {setNoteEditorWidth('8')}} onBlur={function() {setNoteEditorWidth('2')}}  ref={refs['textareaRef_'+vk]} value={Array.isArray(tune.voices[voice].notes) ? tune.voices[voice].notes.join("\n") : ''} style={{resize:'both', fontSize:(props.isMobile?'0.8em':'1em'), minHeight: '25em', zIndex: '9999', backgroundColor: 'white', width:'100%'}} onChange={function(e) {tuneNotesChanged(voice, e.target.value)}}   /></Tab>
+                              })}
+                          </Tabs> : ''}
+                        </Col>
+                      </Row>
+                    
+                  
+                    
                     
                     
                   </Tab>
@@ -264,6 +269,8 @@ export default function AbcEditor(props) {
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   <Tab eventKey="chords" title="Chords" >
+                    <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
+                    <br/><br/>
                     <ChordsWizard tunebook={props.tunebook} tune={tune}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
