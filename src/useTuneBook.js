@@ -42,11 +42,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       updateTunesHash(tune)
       setTunes(tunes)
       //console.log('set tunes', tune, tunes)
-      updateSheet().then(function() {
-        pauseSheetUpdates.current = false
-        //console.log('saved and indexed tune', tune.id, tune)
-      }) // to google
-      //
+      saveTunesOnline()
     }
     return tune
   }
@@ -57,15 +53,69 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     
     delete tunes[tuneId]
     setTunes(tunes)
+    saveTunesOnline()
+  }
+  
+    
+  function deleteTunes(tuneIds) {
+    console.log('delete tunes',tuneIds, tunes)
+    if (Array.isArray(tuneIds)) {
+      pauseSheetUpdates.current = true
+      tuneIds.forEach(function(tuneId) {
+        console.log('deleting',tuneId,tunes[tuneId])
+        //indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+        delete tunes[tuneId]
+      })
+      console.log('deleted',tuneIds)
+      setTunes(tunes)
+      saveTunesOnline()
+      //forceRefresh()
+    }
+  }
+  
+  // allow 10 seconds after save before polling for more updates
+  function saveTunesOnline() {
     updateSheet(0).then(function() {
       setTimeout(function() {
         pauseSheetUpdates.current = false
       },10000)
-      
     }) 
   }
   
   
+  function addTunesToBook(tuneIds,book) {
+    if (Array.isArray(tuneIds) && book && book.trim()) {
+       pauseSheetUpdates.current = true
+       tuneIds.forEach(function(id) {
+        if (tunes[id]) {
+          var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
+          if (books.indexOf(book) === -1) {
+            books.push(book.trim())
+            tunes[id].books = books
+          }
+        }
+      })
+      setTunes(tunes)
+      saveTunesOnline()
+    }
+  }
+  
+  function removeTunesFromBook(tuneIds,book) {
+    if (Array.isArray(tuneIds) && book && book.trim()) {
+       pauseSheetUpdates.current = true
+       tuneIds.forEach(function(id) {
+        if (tunes[id]) {
+          var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
+          if (books.indexOf(book) !== -1) {
+            books.splice(books.indexOf(book),1)
+            tunes[id].books = books
+          }
+        }
+      })
+      setTunes(tunes)
+      saveTunesOnline()
+    }
+  }
   
   function applyImport( forceDuplicates=false, discardLocalUpdates = false) {
     var {inserts, updates, duplicates, localUpdates} = importResults
@@ -288,9 +338,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           
         })
       }
-      updateSheet(0).then(function() {
-        pauseSheetUpdates.current = false
-      }) 
+      saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus}
       console.log('imported SABC',final)
       setImportResults(final)
@@ -329,16 +377,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
     
   function resetTuneBook() {
+    pauseSheetUpdates.current = true
     setTunes({})
     indexes.resetBookIndex()
     buildTunesHash()
-    updateSheet(0).then(function() {
-      pauseSheetUpdates.current = false
-    }) 
+    saveTunesOnline()
   }
     
   function deleteTuneBook(book) {
     console.log('delete tune book',book)
+    pauseSheetUpdates.current = true
     var final = {}
     Object.values(tunes).map(function(tune) {
       console.log('delete tune book book',tune.books)
@@ -364,9 +412,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
-    updateSheet(0).then(function() {
-      pauseSheetUpdates.current = false
-    }) 
+    saveTunesOnline()
     setCurrentTuneBook(null)
     forceRefresh()
   }
@@ -375,9 +421,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     resetTuneBook()
     indexes.resetBookIndex()
     buildTunesHash()
-    updateSheet(0).then(function() {
-      pauseSheetUpdates.current = false
-    }) 
+    saveTunesOnline()
     setCurrentTuneBook(null)
     setTunes({})
   }
@@ -392,6 +436,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function clearBoost() {
+    pauseSheetUpdates.current = true
     const final = {}
     Object.values(tunes).forEach(function(tune) {
       tune.boost = 0
@@ -400,9 +445,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     
     setTunes(final)
     buildTunesHash(final)
-    updateSheet(0).then(function() {
-      pauseSheetUpdates.current = false
-    }) 
+    saveTunesOnline() 
     //forceRefresh()
     
   }
@@ -446,6 +489,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
   }
 
-  return { clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
 }
 export default useTuneBook

@@ -94,24 +94,24 @@ export default function AbcEditor(props) {
   function onAbcClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
     // relative to entire ABC file
     
-    //console.log('onabcclick select text', abcelem.startChar, abcelem.endChar,abcelem.currentTrackMilliseconds, "V",analysis.voice, 'line meas',analysis.line, analysis.measure,'Drag', drag.index, drag.max, abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
+    console.log('onabcclick select text', abcelem.startChar, abcelem.endChar,abcelem.currentTrackMilliseconds, "V",analysis.voice, 'line meas',analysis.line, analysis.measure,'Drag', drag.index, drag.max, abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
     var voice = analysis.voice
     setCurrentVoice(voice)
-    //console.log('ddsetvoice',voice, tune)
+    console.log('ddsetvoice',voice, tune)
     if (tune && tune.voices) {
       var voiceNames = Object.keys(tune.voices)
       var voiceName = voiceNames.length > voice ? voiceNames[voice] : null
       if (voiceName) {
         var voiceParts =  abcText.split("\nV:"+voiceName)
-        //console.log(voiceParts)
+        console.log(voiceParts)
         if (voiceParts.length > 1) {
           var voiceInnerParts = voiceParts[1].split("\n")
           if (voiceInnerParts.length > 1) {
             var splitOffset = voiceName.length + 3
             var before = voiceParts[0].length + voiceInnerParts[0].length + splitOffset
-            //console.log('letter before start of voice',before, abcelem.startChar, abcelem.endChar)
+            console.log('letter before start of voice',before, abcelem.startChar, abcelem.endChar)
             if (refs['textareaRef_'+voice] && refs['textareaRef_'+voice].current) {
-              //console.log(refs['textareaRef_'+voice].current)
+              console.log(refs['textareaRef_'+voice].current)
               setTimeout(function() {
                 refs['textareaRef_'+voice].current.setSelectionRange(abcelem.startChar - before , abcelem.endChar - before );
                 refs['textareaRef_'+voice].current.focus();
@@ -271,7 +271,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="chords" title="Chords" >
                     <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
                     <br/><br/>
-                    <ChordsWizard tunebook={props.tunebook} tune={tune}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
+                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
                     <div style={{}} id="warnings">

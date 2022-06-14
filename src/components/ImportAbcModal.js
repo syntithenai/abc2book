@@ -21,6 +21,9 @@ function ImportAbcModal(props) {
   function doImport(list) {
     //console.log('import',list)
     const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
+     setTimeout(function() {
+      props.tunebook.utils.scrollTo('bottomofpage')
+    },100)
     handleClose()
     //console.log('imported',inserts,updates,duplicates)
     //props.setImportResults(importResults)

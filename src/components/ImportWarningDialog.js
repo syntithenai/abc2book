@@ -57,9 +57,9 @@ export default function ImportWarningDialog(props) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
                    <Container><Row>
                      <Col xs='3' > &nbsp;
-                        <span >{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
+                        <span >{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasNotes) ? <Button variant="outline-primary">{props.tunebook.icons.music}</Button> : null}</span>
+                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
+                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.words}</Button> : null}</span>
                     </Col>
                     <Col xs='9'  >{v.name} </Col>
                   </Row></Container> 

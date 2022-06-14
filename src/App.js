@@ -13,6 +13,7 @@ import HelpPage from './pages/HelpPage'
 import RecordingsPage from './pages/RecordingsPage'
 import ImportLinkPage from './pages/ImportLinkPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
+import ImportGoogleAudioPage from './pages/ImportGoogleAudioPage'
 import ImportWarningDialog from './components/ImportWarningDialog'
 import RecordingPage from './pages/RecordingPage'
 import MusicSingle from './components/MusicSingle'
@@ -52,7 +53,11 @@ function App(props) {
   let dbTunes = {}
   let utils = useUtils();
   let abcTools = useAbcTools();
-  
+  window.onclick=function(e) {
+    console.log('clickdoc',e.y) //,e.screenY,e.x,e.screenX)
+    //window.scrollTo(0,e.y)
+  }
+
   var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
@@ -190,10 +195,10 @@ function App(props) {
   var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:16000, onMerge, pausePolling: pauseSheetUpdates, setGoogleDocumentId, googleDocumentId}) 
   
   //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
-  const recordingsManager = useRef(useRecordingsManager({token, user}))
+  const recordingsManager = useRecordingsManager(token)
   //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager.current})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager})
   
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   
@@ -287,15 +292,15 @@ function App(props) {
             </> : null}
   
            {(!showWarning(sheetUpdateResults) && !showImportWarning(importResults) && tunes !== null) && <div>   
-              <Header tunebook={tunebook}  tunes={tunes} token={token} googleDocumentId={googleDocumentId} currentTune={currentTune} />
+              <Header tunebook={tunebook}  tunes={tunes} token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}     currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
                     <Route  path={`recordings`} >
-                      <Route index element={<RecordingsPage   tunebook={tunebook}/>}  />
-                      <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook}  />} />
+                      <Route index element={<RecordingsPage   tunebook={tunebook} token={token} refresh={login}/>}  />
+                      <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook} token={token} refresh={login} />} />
                     </Route>
                     
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
@@ -330,6 +335,10 @@ function App(props) {
                       <Route  path={`:curation`} element={<ImportPage   importResults={importResults} setImportResults={setImportResults} tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}    />} />
                     </Route>
                     
+                    <Route  path={`importaudio`} >
+                      <Route  path={`:googleDocumentId`} element={<ImportGoogleAudioPage     tunebook={tunebook}  token={token} refresh={login}   />} />
+                    </Route>
+                    
                     <Route  path={`importdoc`} >
                       <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                       <Route  path={`:googleDocumentId/tune/:tuneId`} element={<ImportGoogleDocumentPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
@@ -346,7 +355,7 @@ function App(props) {
                   
               </div>
               </div>}
-              <Footer tunebook={tunebook} accessToken={token ? token.access_token : null} logout={logout} login={login} />
+              
             </Router>
 
             <div id="bottomofpage" ></div>
@@ -358,3 +367,4 @@ function App(props) {
 }
 
 export default App;
+//<Footer tunebook={tunebook} accessToken={token ? token.access_token : null} logout={logout} login={login} />

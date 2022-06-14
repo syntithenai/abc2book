@@ -3,6 +3,7 @@ import {Button} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
 import IndexLayout from '../components/IndexLayout'
 import ImportCollectionModal from '../components/ImportCollectionModal'
+import FeaturedTune from '../components/FeaturedTune'
 
 export default function HomePage(props) {
     
@@ -29,5 +30,7 @@ export default function HomePage(props) {
       <br/>
       <div  >Be sure to check out the <Link to="/help" ><Button size="sm">Help</Button></Link> section for tips and tricks to make things easier.</div>
       </div>
+      <FeaturedTune tunebook={props.tunebook}  />
+      
     </div>
 }

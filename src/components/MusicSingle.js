@@ -140,6 +140,8 @@ export default function MusicSingle(props) {
 
                 <BoostSettingsModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
                 
+               
+                
                 <Dropdown style={{float:'left', marginLeft:'0.3em'}}>
                   <Dropdown.Toggle variant="primary" id="dropdown-basic" style={{height:'2.4em', color:'black'}}>
                   {props.tunebook.icons.eye}
@@ -148,9 +150,9 @@ export default function MusicSingle(props) {
                   <Dropdown.Menu>
                     <Dropdown.Item >
                      {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music} Show Music</Button>}
-                     {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar}Show Chords</Button>}
+                     {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar} Show Chords</Button>}
                     </Dropdown.Item>
-                    
+                   
                   </Dropdown.Menu>
                 </Dropdown>
                 
@@ -161,7 +163,7 @@ export default function MusicSingle(props) {
             </div>
             
             {props.viewMode === 'music' && <>
-             <Abc autoScroll={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             <Abc autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
              <div className="lyrics" style={{marginLeft:'2em'}} >
                 {Object.keys(words).map(function(key) {
@@ -183,7 +185,7 @@ export default function MusicSingle(props) {
                         })}</div>
                 })}
              </div>
-              <Abc showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+              <Abc autoPrime={localStorage.getItem('bookstorage_autoprime')} showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
             
              </>}

@@ -14,7 +14,7 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
   const handleClosePublish = () => setShowPublish(false);
   const handleShowPublish = () => setShowPublish(true);
   
-  const docs = useGoogleDocument({token})
+  const docs = useGoogleDocument(token)
 
   var linkBase = window.location.origin 
   linkBase = 'https://tunebook.syntithenai.com'
@@ -34,6 +34,8 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
                  var theLink = linkBase+ "/#/importdoc/"+googleDocumentId
                  if (tuneId) {
                    theLink = theLink + "/tune/" + tuneId
+                   setLink(theLink)
+                   handleShow()
                  } else if (currentTuneBook) {
                    theLink = theLink + "/book/" + currentTuneBook
                    setLink(theLink)
@@ -56,7 +58,7 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{tuneId ? "Share Tune" : (currentTuneBook ? "Share Tune Book -"+currentTuneBook : "Share My Whole TuneBook") }</Modal.Title>
+          <Modal.Title>{tuneId ? "Share Tune" : (currentTuneBook ? "Share Tune Book - "+currentTuneBook : "Share My Whole TuneBook") }</Modal.Title>
         </Modal.Header>
         <Modal.Body>
            

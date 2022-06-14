@@ -59,7 +59,7 @@ export default function RecordingPage(props) {
     
     
     useEffect(function() {
-      //console.log('eff',params.recordingId, lastId.current)
+      console.log('eff',params.recordingId, lastId.current)
       if (params.recordingId !== lastId.current)  {
         lastId.current = params.recordingId
         props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec) {
@@ -79,13 +79,18 @@ export default function RecordingPage(props) {
             // async save after rendering finished
             var ee = playlist.getEventEmitter()
             ee.on('audiorenderingfinished', function (type, data) {
-              //console.log('render finish', type, data)
               setIsSaving(false)
-              if (type == 'wav'){
-                rec.data = data
-                props.tunebook.recordingsManager.saveRecording(rec)
-                setIsChanged(false)
-                navigate('/recordings')
+              console.log('render finish', type, data)
+              if (type === 'audio/wav' || type === 'wav'){
+                props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec2) {
+                  rec2.data = data
+                //rec.title = recordingTitle
+                  console.log('ok presave',rec2, props.token)
+                  props.tunebook.recordingsManager.saveRecording(rec2)
+                  console.log('ok postsave')
+                  setIsChanged(false)
+                  navigate('/recordings')
+                })
               }
             });
             
@@ -181,16 +186,7 @@ export default function RecordingPage(props) {
     </div>}
     
               
-                <Link style={{marginLeft:'1em'}}  to="/recordings" ><Button
-                  title="Delete"
-                  variant="danger"
-                  className="btn-zoom-in"
-                  onClick={function() {props.tunebook.recordingsManager.deleteRecording(recording)}}
-                >
-                   {props.tunebook.icons.deletebin}
-                </Button>
-                </Link>
-              
+                
               
                <div className="dbtn-group"  style={{float:'right', paddingRight:'1em', paddingTop:'0.1em', paddingBottom:'0.1em'}} >
                 
@@ -230,7 +226,7 @@ export default function RecordingPage(props) {
                     titleChangeTimeout.current = setTimeout(function() {
                       props.tunebook.recordingsManager.updateRecordingTitle(Object.assign({},
                         recording,
-                        {title: recordingTitle}))
+                        {title: e.target.value}))
                       .then(function() { 
                         //console.log('updated')
                       })

@@ -14,7 +14,7 @@ export default function useGoogleSheet(props) {
   //console.log('useGoogleSheet',props)
   //var client;
   // google login
-  var docs = useGoogleDocument({pollInterval: props.pollInterval, token, refresh, pausePolling, onChanges: function(changes) {
+  var docs = useGoogleDocument(token,refresh,props.pollInterval,pausePolling,function(changes) {
       //console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {
@@ -30,7 +30,7 @@ export default function useGoogleSheet(props) {
           onMerge(fullSheet)
         })
       }
-  }})
+  })
   var googleSheetId = useRef(null)
   //var [loginUser, setLoginUser] = useState(null)
   //var clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID 

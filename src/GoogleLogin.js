@@ -10,7 +10,7 @@ export default function GoogleLogin(props) {
     //var scopes = Array.isArray(props.scopes) ? props.scopes : ['email', 'profile', 'https://www.googleapis.com/auth/userinfo.profile' 'openid' 'https://www.googleapis.com/auth/userinfo.email']
     var scopes = ['email', 'profile', 'https://www.googleapis.com/auth/userinfo.profile', 'openid', 'https://www.googleapis.com/auth/userinfo.email']
     var {token, login, logout, refresh} = useGoogleLogin({scopes: scopes, usePrompt: false, loginButtonId: 'google_login_button' })
-    var docs = useGoogleDocument({token, refresh})
+    var docs = useGoogleDocument(token, refresh)
     
     return <div>
       <h1>Login</h1>

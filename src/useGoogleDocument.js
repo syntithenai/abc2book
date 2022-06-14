@@ -1,7 +1,7 @@
 import axios from 'axios'
 import {useRef, useEffect} from 'react'
 
-export default function useGoogleDocument({token, refresh, onChanges, pausePolling, pollInterval}) {
+export default function useGoogleDocument(token, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
   var pollChangesInterval = useRef(null)
@@ -69,10 +69,11 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
   
   function doPollChanges() {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec' ,accessToken)
+      //console.log('DO POLL' ,accessToken, pausePolling.current, localStorage.getItem('google_last_page_token'))
       if (pausePolling && pausePolling.current) {
         resolve()
       } else {
+        //console.log('REALLY DO POLL')
         if (localStorage.getItem('google_last_page_token') && accessToken) {
           var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
           axios({
@@ -184,8 +185,9 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
+          console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
-          //console.log("USE GOT DOC",postRes)
+          
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -193,7 +195,34 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  function getDocumentBlob(id) {
+    return new Promise(function(resolve,reject) {
+      //console.log('get rec',id ,accessToken)
+      //var useToken = accessToken ? accessToken : access_token
+      if (id && accessToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          headers: {'Authorization': 'Bearer '+accessToken},
+          responseType: 'blob'
+        }).then(function(postRes) {
+          console.log("USE GOT DOC",postRes)
+          resolve(postRes.data)
+          
+        }).catch(function(e) {
+          console.log(e)
+          //getToken()
+          //refresh()
+          resolve()
+        })
+      } else {
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -217,7 +246,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -225,7 +254,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
   
   function createDocument(title, documentData, documentType='vnd.google-apps.document', documentDescription='') {
     return new Promise(function(resolve,reject) {
-      //console.log('create rec' ,accessToken)
+      //console.log('create rec' ,token,accessToken, documentType, title)
       if (documentType && title && accessToken) {
         var  data = {
           "description": documentDescription,
@@ -243,7 +272,8 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           //console.log('created',postRes)
           updateDocumentData(postRes.data.id, documentData).then(function(updated) {
             //onLogin("")
-            //console.log('updated',updated)
+            //console.log('created',updated)
+            localStorage.setItem('google_last_page_token','')
             resolve(postRes.data.id)
           }).catch(function(e) {
             //getToken()
@@ -251,7 +281,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           })
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -269,12 +299,13 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           }).then(function(postRes) {
             //googleSheetId.current = postRes.data.id
             //console.log('updated title',postRes)
+            localStorage.setItem('google_last_page_token','')
             resolve()
           }).catch(function(e) {
             resolve()
           })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -283,7 +314,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
 
   function updateDocumentData(id,data) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger rec update ', id,data, accessToken)
+      //console.log('trigger  update data ', id,data, "L",accessToken,"K", token)
       if (id && accessToken) {
         axios({
           method: 'patch',
@@ -292,12 +323,14 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           data: data,
         }).then(function(postRes) {
           //console.log('updated',postRes.data  )
+          localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
+          console.log(e)  
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -313,12 +346,13 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           //console.log('deleted',postRes.data  )
+          localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
       }
     })
   }
@@ -339,7 +373,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -360,7 +394,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -382,7 +416,7 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
@@ -402,12 +436,12 @@ export default function useGoogleDocument({token, refresh, onChanges, pausePolli
           resolve()
         })
       } else {
-        if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
         resolve()
       }
     })
   }
   
-  return {getPublicDocument, findDocument, getDocument, getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
+  return {getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
   
 }

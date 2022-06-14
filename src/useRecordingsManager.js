@@ -2,11 +2,13 @@ import * as localForage from "localforage";
 import {useState, useEffect, useRef} from 'react'
 import useGoogleDocument from './useGoogleDocument'
 
-export default function useRecordingsManager({token}) {
+export default function useRecordingsManager(token) {
   var store = localForage.createInstance({
     name: "recordings"
   });
-  var docs = useGoogleDocument({token})
+    //console.log('rec man ',token)
+  var docs = useGoogleDocument(token)
+  
   var mediaRecorder = useRef(null)
   let chunks = [];
   
@@ -17,7 +19,7 @@ export default function useRecordingsManager({token}) {
   var audio = useRef(null)
     
 
- //console.log('userecman',recordingTools)  
+  
   function generateObjectId(otherId) {
       var timestamp = otherId ? otherId.toString(16) : (new Date().getTime() / 1000 | 0).toString(16);
       
@@ -88,29 +90,51 @@ export default function useRecordingsManager({token}) {
       }
     })
   }
-  async function saveRecording(recording) {
-    if (recording) {
-      if (!recording.id)  {
-        recording.id = generateObjectId()
-      }
-      recording.createdTimestamp = new Date().getTime()
-      store.setItem(recording.id, recording).then(function (item) {
-        if (!recording.googleId) {
-          docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
-            recording.googleId = newId
-            store.setItem(recording.id, recording).then(function (item) {
-              return recording;
-            })
-          })
-        } else {
-          docs.updateDocumentData(recording.googleId, recording.data)
+  
+  function saveRecording(recording) {
+    return new Promise(function(resolve,reject) {
+      //console.log('AAAsave rec',recording,"dd", token,"dd")
+      if (recording) {
+        
+        if (!recording.id)  {
+          recording.id = generateObjectId() 
         }
-        return recording;
-      }).catch(function (err) {
-        console.log('serr',err)
-        // we got an error
-      });
-    }
+        recording.createdTimestamp = new Date().getTime()
+        //console.log('AAAsave 2rec',recording)
+        store.setItem(recording.id, recording).then(function (item) {
+          //console.log('AAAsave rec set',recording)
+          if (token) {
+            if (!recording.googleId) {
+              //console.log('AAAsave noid so create',recording)
+              docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
+                recording.googleId = newId
+                console.log('created doc',recording.googleId,"REC",recording, "gooRES",newId)
+                store.setItem(recording.id, recording).then(function (item) {
+                  resolve(recording)
+                })
+              }).catch(function(err) {
+                console.log('failed created online doc')
+                store.setItem(recording.id, recording).then(function (item) {
+                  resolve(recording)
+                })
+              })
+            } else {
+              //console.log('update doc',recording.googleId,recording.data,recording)
+              docs.updateDocumentData(recording.googleId, recording.data).then(function(result) {
+                //console.log('updated doc',recording.googleId,recording,result)
+                resolve(recording)
+              })
+            }
+          }
+        }).catch(function (err) {
+          console.log('serr',err)
+          resolve(recording)
+          // we got an error
+        });
+      } else {
+        resolve(recording)
+      }
+    })
   }
   async function deleteRecording(recording) {
     if (window.confirm('Really delete this recording?')) {
@@ -120,7 +144,7 @@ export default function useRecordingsManager({token}) {
         })
     }
   }
-  
+
   
   function listRecordings() {
     //console.log('list');

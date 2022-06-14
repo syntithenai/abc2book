@@ -189,7 +189,7 @@ var useAbcTools = () => {
             } else if (isNoteLine(line)) {
                 //console.log('LINE ISNOTE', line)
                 if (line.trim().length > 0) {
-                    if (line.trim().startsWith('[') && line.indexOf(']') !== -1 ) {
+                    if (line.trim().startsWith('[V:') && line.indexOf(']') !== -1 ) {
                         var key = line.slice(1,line.indexOf(']'))
                         //console.log(key)
                         var voiceNotes = line.slice(line.indexOf(']')+1)

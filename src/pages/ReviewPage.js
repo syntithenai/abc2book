@@ -197,7 +197,7 @@ export default function ReviewPage(props) {
            </ButtonGroup>
            
            <div {...handlers} >
-           <Abc metronomeCountIn={true} speakTitle={true} repeat={3} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo(tune)} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
+           <Abc metronomeCountIn={true} speakTitle={true} repeat={tune.repeats} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo(tune)} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
             </div>
         </div>
     }

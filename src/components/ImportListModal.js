@@ -38,6 +38,10 @@ function ImportListModal(props) {
     setList('')
     setTunes([])
     setErrorHistory ([])
+    setTimeout(function() {
+      props.tunebook.utils.scrollTo('bottomofpage')
+    },100)
+    
     handleClose()
   }
   

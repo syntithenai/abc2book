@@ -8,6 +8,8 @@ import AbcPlayButton from './AbcPlayButton'
 import Metronome from '../Metronome'
 import * as localForage from "localforage";
 import TempoControl from './TempoControl'
+import TransposeModal from './TransposeModal'
+
 const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
 const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
      
@@ -18,6 +20,7 @@ export default function Abc(props) {
     const [lastTempo, setLastTempo] = useState(null);
     const [isPlaying, setIsPlayingInner] = useState(false)
     const isPlayingRef = useRef(false)
+    const lastScrollTo = useRef(0)
     // keep a copy as a ref to be available for lookup in callbacks
     function setIsPlaying(val) {
       isPlayingRef.current = val
@@ -31,7 +34,9 @@ export default function Abc(props) {
   
     const [renderTimeout, setRenderTimeout] = useState(null);
     //var gtempo = props.tempo
-    
+    var store = localForage.createInstance({
+      name: "abcaudiocache"
+    });
     var abcTools = useAbcTools()
     const inputEl = useRef(null);
     //console.log('ABC',props)
@@ -39,7 +44,7 @@ export default function Abc(props) {
     var metronome = useRef(null)
     var [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     const [showTempo, setShowTempo] = useState(false)
-
+    const [showTranspose, setShowTranspose] = useState(false)
     var gaudioContext = useRef(null)
     var gmidiBuffer = useRef(null)
     var gvisualObj = useRef(null)
@@ -67,11 +72,16 @@ export default function Abc(props) {
   function assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor) {
      //console.log('assignStateOnCompletion',audioContext, midiBuffer, timingCallbacks, cursor) 
      setAudioContext(audioContext)
-     setMidiBuffer(midiBuffer)
-     setTimingCallbacks(timingCallbacks)
-     setCursor(cursor)
-     setReady(true)
-     //setStarted(true)
+     if (midiBuffer && midiBuffer.duration > 0) { 
+       setMidiBuffer(midiBuffer)
+       setTimingCallbacks(timingCallbacks)
+       setCursor(cursor)
+       setReady(true)
+       setStarted(true)
+     } else {
+       setReady(false)
+       setStarted(false)
+     }
   }
   
     var [repeat,setRepeat] = useState(null)
@@ -88,22 +98,25 @@ export default function Abc(props) {
     }
 
   function createCursor() {
+    // cleanup
+    var line = document.querySelector("#abc_music_viewer svg line");
+    if (line) line.remove()
+    // create new cursor
     var svg = document.querySelector("#abc_music_viewer svg");
-    var cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    if (cursor) {
+    if (svg) {
+      var cursor = document.createElementNS("http://www.w3.org/2000/svg", "line");
       cursor.setAttribute("class", "abcjs-cursor");
       cursor.setAttributeNS(null, 'x1', 0);
       cursor.setAttributeNS(null, 'y1', 0);
       cursor.setAttributeNS(null, 'x2', 0);
       cursor.setAttributeNS(null, 'y2', 0);
-      if (svg) {
-        svg.appendChild(cursor);
-      } else {
-        console.log("failed to create cursor - missing svg element")
-      }
+      svg.appendChild(cursor);
+      setCursor(cursor)
+      return cursor
+    } else {
+      console.log("failed to create cursor - missing svg element")
+      return 
     }
-    setCursor(cursor)
-    return cursor;
   }
   
   
@@ -200,27 +213,67 @@ export default function Abc(props) {
     if (!ev) {
       return;
     }
-    //console.log('evcb', ev.milliseconds, ev)
-    if (props.autoScroll && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
-      var newSeek = ev.milliseconds/(gmidiBuffer.current.duration * 1000)
-      //console.log('UPDATE SEEK',newSeek)
-      //setSeekTo(newSeek)
-      if (ev.top > 0 && ev.left > 0) {
-        //console.log('scroll',ev.left,ev.top,ev)
-        //+ (Math.floor(ev.top/200)* 0.025)
-        var top = ev.top
-        //+ (Math.floor(ev.top/200)* 0.1)
-        //if (ev.top > 100) {
-        //- Math.floor(ev.top/200)
-          top = top   - Math.floor(ev.top/5) + (ev.top > 100 ? 40 : 0) + 50
+    //console.log('evcb',ev.elements[0])
+    //console.log('evcbclass', ev.elements[0][0].className.baseVal)
+    if (props.autoScroll && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
+      //var noteClassName = ev.elements && ev.elements[0] && ev.elements[0][0]  ? ev.elements[0][0].className.baseVal : null
+      //var matchingElements = noteClassName ? document.getElementsByClassName(noteClassName) : null
+      //var rect = matchingElements && matchingElements[0] ? matchingElements[0].getBoundingClientRect() : null
+      //var svg = document.querySelector("#abc_music_viewer svg");
+      //if (svg) {
+          //var svgrect = window.document.getElementsByTagName('body')[0].getBoundingClientRect()
+          //var ratio = svgrect && svgrect.height > 0 ? svgrect.width/svgrect.height : 0
+          
+          //console.log(ratio,svgrect,r2)
+          //var crect = matchingElements && matchingElements[0] ? matchingElements[0].getClientRects() : null
+          //console.log(noteClassName,matchingElements,rect,ev.elements[0][0].className.baseVal)
+          // smooth out scrolling by limiting to when ev.top changes
+          var screenRatio = window.visualViewport.width/window.visualViewport.height
+          //var ratio = window.visualViewport.width/svgrect.width
+          var finalScroll = ((ev.top) * screenRatio )
+          
+          if (lastScrollTo.current!= ev.top ) {
+            window.scrollTo(0,finalScroll)
+          }
+          //console.log('TOP',ev.top,"FIN",ratio) 
+          //finalScroll,"RATIO",screenRatio)
+          
+          lastScrollTo.current = ev.top
+
+      //}
+      
+      
+      
+
+      //var newSeek = ev.milliseconds/(gmidiBuffer.current.duration * 1000)
+      ////console.log('UPDATE scroll',newSeek)
+      ////setSeekTo(newSeek)
+      //if (ev.top > 0 && ev.left > 0) {
+        ////console.log('scroll',ev.left,ev.top,ev)
+        ////+ (Math.floor(ev.top/200)* 0.025)
+        //var top = ev.top
+        ////+ (Math.floor(ev.top/200)* 0.1)
+        ////if (ev.top > 100) {
+        ////- Math.floor(ev.top/200)
+          //top = top   - Math.floor(ev.top/5) + (ev.top > 100 ? 40 : 0) + 50
+        ////}
+        //var svg = document.querySelector("#abc_music_viewer svg");
+        //var windowrect = window.document.getElementsByTagName('body')[0].getBoundingClientRect()
+        //if (svg) {
+          //var svgrect = svg.getBoundingClientRect()
+          
+          ////var ratio = svg.getBoundingClientRect().height > 0 ? svg.getBoundingClientRect().width/svg.getBoundingClientRect().height : 0
+          //console.log('UPDATE scroll',ev.top, "SVG",svgrect.width,svgrect.height,"WIN",windowrect.width,windowrect.height) //,top,ev.left)
+          //window.scrollTo(ev.left,ev.top + 50 )
         //}
-        window.scrollTo(ev.left,top)
-        //window.scrollTo(ev.left,(ev.top*2.2 + 50))
-      } 
+        
+        
+        
+        ////window.scrollTo(ev.left,(ev.top*2.2 + 50))
+      //} 
     }
     colorElements(ev.elements);
   }
-
 
 
   
@@ -233,7 +286,7 @@ export default function Abc(props) {
     setForceStop(false)
   
 
-  function startPrimedTune(midiBuffer) {
+  function startPrimedTune() {
     var emergencyStop = getForceStop()
     if (!emergencyStop) {
       if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
@@ -248,6 +301,7 @@ export default function Abc(props) {
             var o = gvisualObj.current
             //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
             
+            // METRONOME COUNT IN ?
             var metronomeBeats = o.getBeatsPerMeasure() - parseInt(o.getPickupLength()/o.getBeatLength())
             // 2 bars where there is a pickup
             if (o.getPickupLength() > 0)  metronomeBeats += o.getBeatsPerMeasure()
@@ -282,6 +336,7 @@ export default function Abc(props) {
             }
             //var tune = props.tunebook.abcTools.abc2json(props.abc)
             //console.log('speak',props.speakTitle,tune)
+            // SPEAK THE TITLE ?
             if (props.speakTitle && tune) {
               //console.log('speak',tune)
               window.speak(tune.name)
@@ -356,104 +411,81 @@ export default function Abc(props) {
     })
   }
 
-  function primeTune(audioContext, visualObj, milliSecondsPerMeasure) {
+  function primeTune(audioContext, visualObj, force) {
     
       return new Promise(function(resolve,reject) {
-          console.log('PRIME TUNE', audioContext, visualObj, milliSecondsPerMeasure)
-          var midiBuffer
+          console.log('PRIME TUNE', audioContext, visualObj)
           if (visualObj) {
-            //if (!midiBuffer) {
-               //console.log('STOP BUFFER')
-                //midiBuffer.stop();
-            //} else {
-              //console.log('CREATE BUFFER')
-                //var synthOptions = {synth:{}}
-                //if (tune) synthOptions.synth.options = {options:{midiTranspose:parseInt(tune.transpose)}}
-                ////renderOptions.synth.options = {midiTranspose:parseInt(tune.transpose)}
-      
-                midiBuffer = new abcjs.synth.CreateSynth()
-            //}
-          
-            //console.log('startok', midiBuffer,visualObj,visualObj.visualTranspose)
+            var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
-            
-            
-            var mpm = milliSecondsPerMeasure ? milliSecondsPerMeasure  : gvisualObj.current.millisecondsPerMeasure()
+            // for development, run a server on 4000 to access sound fonts
             var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
             var initOptions = {
-              //debugCallback: function(a) {console.log("DEBUG",a)},
               visualObj: visualObj,
-              //audioContext: audioContext,
-              //qpm: props.tempo,
-              //midiTranspose: 7
-              //synth: {{options:{midiTranspose:9}}
-              options:{soundFontUrl: a + '/midi-js-soundfonts/abcjs',
+               options:{soundFontUrl: a + '/midi-js-soundfonts/abcjs',
               }
-              
-            //  millisecondsPerMeasure:  milliSecondsPerMeasure ,
             }
             var tune = props.tunebook.abcTools.abc2json(props.abc)
-            //console.log("TUNE FONT", tune.soundFonts, tune) 
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
-            //if (tune) synthOptions.synth.options = {options:{midiTranspose:parseInt(tune.transpose)}}
-                ////renderOptions.synth.options = {midiTranspose:parseInt(tune.transpose)}
-      
-            //if (tune) {
-              if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
-                initOptions.options.midiTranspose = parseInt(visualObj.visualTranspose)
-              }
-            //}
-            //console.log('sqe',initOptions)
-            //const piWorker = new Worker(new URL("../audioWorker.js", import.meta.url))
-
- 
-          ////const piWorker = new Worker('../audioWorker.js', { type: 'module' });
-          //piWorker.onmessage = event => {
-            //console.log('WORKER MESSAGE RESPONSE: ' + event.data);
-          //};
-          //piWorker.postMessage({aa:9});
-            //console.log('mididniT',initOptions)
-            
-            //if (midiBuffer) {
-            
+            if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
+              initOptions.options.midiTranspose = parseInt(visualObj.visualTranspose)
+            }
+         
             function getAudioHash(tune) {
               return tune.id + "-" + props.tunebook.abcTools.cleanTempo(props.tempo)+'-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
-             //console.log("tune", tune,props.abc);
+            function resolveWithTimingAndCursor(midiBuffer) {
+              var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
+                beatCallback: beatCallback,
+                eventCallback: function(ev) {eventCallback(ev)},
+                qpm: props.tempo,
+                //lineEndCallback	: function() {
+                  //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                //},
+                //lineEndAnticipation: 500
+              })
+              var cursor = createCursor()
+              resolve({midiBuffer, timingCallbacks, cursor})
+            }
              
-             function primeAndResolve() {
-               logtime('preinit primresolve')
-                midiBuffer.init(initOptions).then(function (response) { 
-                  //logtime('preinit pr inited')
-                  midiBuffer.prime()
-                  .then(function(presponse) {
-                    //logtime('preinit prime tune primed AAA')
-                    //console.log('preinit prime tune primed', presponse, midiBuffer)
-                    if (tune && tune.id) { 
-                      saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
-                        console.log('created audio')
-                        resolve(midiBuffer)
-                      })
-                    } else {
-                      console.log('audio from cache???')
-                      resolve(midiBuffer)
-                    }
-                  })
-                  .catch(function (error) {
-                    //console.log("prime synth error", error);
+            function primeAndResolve() {
+               logtime('preinit primresolve',force)
+                if (force) { 
+                  midiBuffer.init(initOptions).then(function (response) { 
+                    logtime('preinit pr inited')
+                    midiBuffer.prime()
+                    .then(function(presponse) {
+                      logtime('preinit prime tune primed AAA')
+                      //console.log('preinit prime tune primed', presponse, midiBuffer)
+                      if (tune && tune.id) { 
+                        saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
+                          console.log('created audio')
+                          resolveWithTimingAndCursor(midiBuffer)
+                        })
+                      } else {
+                        console.log('audio from cache???')
+                        resolveWithTimingAndCursor(midiBuffer)
+                      }
+                    })
+                    .catch(function (error) {
+                      console.log("prime synth error", error);
+                      resolve(null)
+                    })
+                  }).catch(function (error) {
+                     console.log("init synth error", error);
                     resolve(null)
                   })
-                }).catch(function (error) {
+                } else {
                   resolve(null)
-                })
+                }
              }
 
               var timer = new Date().getTime()
               function logtime(a) {
-                //console.log("LOGTIME",a,new Date().getTime() - timer)
+                console.log("LOGTIME",a,new Date().getTime() - timer)
               }
-             if ((tune && tune.id)) {
+              if ((tune && tune.id)) {
                //logtime('preget audio')
                 getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {
                     //console.log('GOT',audioResult)
@@ -469,19 +501,21 @@ export default function Abc(props) {
                             midiBuffer.audioBuffers = audioBuffers
                             midiBuffer.duration = duration 
                             console.log('CREATE TIMING CALLBACKS a')
-                            var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
-                              beatCallback: beatCallback,
-                              eventCallback: function(ev) {eventCallback(ev)},
-                              qpm: props.tempo,
-                              //lineEndCallback	: function() {
-                                //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
-                              //},
-                              //lineEndAnticipation: 500
-                            })
-                            var cursor = createCursor()
-                            setTimingCallbacks(timingCallbacks)
-                            setCursor(cursor)
-                            resolve(midiBuffer)
+                            resolveWithTimingAndCursor(midiBuffer)
+                            
+                            //var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
+                              //beatCallback: beatCallback,
+                              //eventCallback: function(ev) {eventCallback(ev)},
+                              //qpm: props.tempo,
+                              ////lineEndCallback	: function() {
+                                ////if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                              ////},
+                              ////lineEndAnticipation: 500
+                            //})
+                            //var cursor = createCursor()
+                            //setTimingCallbacks(timingCallbacks)
+                            //setCursor(cursor)
+                            //resolve(midiBuffer)
                         })
                       } else {
                         primeAndResolve()
@@ -493,16 +527,7 @@ export default function Abc(props) {
               } else {
                 primeAndResolve()
               }
-                //}).catch(function (error) {
-                  ////console.log("init synth error", error);
-                  //reject(null)
-                //});
-                
-                
-                  
-            //} else {
-                //resolve(null)
-            //}
+              
           } else {
               reject(null)
           }
@@ -510,9 +535,7 @@ export default function Abc(props) {
   }
   
        //console.log('ABC',tune)
-    var store = localForage.createInstance({
-        name: "abcaudiocache"
-      });
+
     
     async function saveAudioToCache(tuneId,audioBuffers, duration) {
       //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers)
@@ -537,47 +560,17 @@ export default function Abc(props) {
         }
       })
     }
-    
-    //function applyHack(meter, millisecondsPerMeasure) {
-      ////if (meter === '3/4' || meter === '4/4') {
-        ////return millisecondsPerMeasure * 2
-      ////}
-      //return millisecondsPerMeasure
-    //}
-    
-    //function numerator(val) {
-      //var parts = val.split("/")
-      //if (parts.length > 0) return parts[0]
-    //}
-    //function denominator(val) {
-      //var parts = val.split("/")
-      //return (parts.length > 1) ? parts[1] : 1
-    //}
 
-    
-    //function getMilliSecondsPerMeasure(meter, tempo) {
-         //var meter = props.tunebook.abcTools.ensureText(meter, '4/4')
-         //var beats = numerator(meter) //props.tunebook.abcTools.getBeatsPerBar(meter) > 0 ? props.tunebook.abcTools.getBeatsPerBar(meter) : 4
-         //var duration = denominator(meter) //props.tunebook.abcTools.getBeatDuration(meter) > 0 ? props.tunebook.abcTools.getBeatDuration(meter) : 0
-         //var useTempo = parseInt(tempo) > 0 ? parseInt(tempo) : 100
-         //var final = (60000/useTempo) * 4 // (beats/duration)  * 4 
-         //console.log('MPM',final,meter, tempo, beats, duration , useTempo, 60000/useTempo)
-         //return applyHack(meter, final)
-    //}
   const primeTimerRef = useRef(null);
-  //var primeTuneCallback = null
   
-  function createPlayer(visualObj, tempo, meter) {
-      var milliSecondsPerMeasure = 0 //getMilliSecondsPerMeasure(meter, tempo)
+  function createPlayer(visualObj, tempo, meter, force) {
       return new Promise(function(resolve, reject) {
         console.log('CREATE PLAYER', visualObj)
-            
         if (visualObj) {
             //console.log('CREATE PLAYER HAVE VISUAL OBJ')
             primeAudio().then(function(audioContext) {
               //console.log('CREATE PLAYER AUDIO PRIMED',audioContext)
                 if (audioContext) {
-                    
                     //console.log('tune update have audio context')
                     //setReady(false)
                     //renderActive = true
@@ -586,31 +579,37 @@ export default function Abc(props) {
                     
                     primeTimerRef.current = setTimeout(function() {
                       //console.log('PRIME TIMEOUT doiT')
-                      primeTune(audioContext, visualObj, milliSecondsPerMeasure).then(function(midiBuffer) {
+                      primeTune(audioContext, visualObj, force).then(function(primeParams) {
+                         if (primeParams) {
+                           const {midiBuffer, timingCallbacks, cursor} = primeParams
+                           resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
+                         } else {
+                           resolve([audioContext, null,null,null, visualObj])
+                         }
                           //renderActive = false
                           //setReady(true)
                           //console.log('CREATE TIMEING',tempo)
-                          console.log('CREATE TIMING CALLBACKS AA')
-                          var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
-                            beatCallback: beatCallback,
-                            eventCallback: function(ev) {eventCallback(ev)},
-                            qpm: tempo,
-                            //lineEndCallback	: function() {
-                              //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
-                            //},
-                            //lineEndAnticipation: 500
-                          })
-                          var cursor = createCursor()
+                          //console.log('primed resolve',midiBuffer, timingCallbacks, cursor)
+                          //var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
+                            //beatCallback: beatCallback,
+                            //eventCallback: function(ev) {eventCallback(ev)},
+                            //qpm: tempo,
+                            ////lineEndCallback	: function() {
+                              ////if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
+                            ////},
+                            ////lineEndAnticipation: 500
+                          //})
+                          //var cursor = createCursor()
                           
                           //console.log('CREATE PLAYER HAVE TIMING AND CURSOR', timingCallbacks, cursor) 
                           
                             //console.log('CREATE PLAYER primed',audioContext, midiBuffer, timingCallbacks, cursor)
-                          resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
+                          //resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
                       }).catch(function(e) {
                           console.log(e)
                           reject(e)
                       })
-                    },props.audioRenderTimeout > 0 ? props.audioRenderTimeout : 1500)
+                    },props.audioRenderTimeout > 0 ? props.audioRenderTimeout : 1500) 
                 } else reject('No audio context')
             }).catch(function(e) {
                 console.log(e)
@@ -625,20 +624,24 @@ export default function Abc(props) {
   
 
   function clickListener(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
-    //console.log('CLICK ELEM',abcelem,abcelem.type) //props.onClickTempo,abcelem.type, ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
+    //console.log('CLICK ELEM',abcelem,abcelem.type,abcelem.el_type) //props.onClickTempo,abcelem.type, ms,abcelem, tuneNumber, classes, analysis, drag, mouseEvent,gmidiBuffer) //, tuneNumber, classes, analysis, drag, mouseEvent)
+    //console.log('click')
     
     if (abcelem && abcelem.type === 'tempo' && props.editableTempo) { // && props.onClickTempo) {props.onClickTempo() 
       //console.log('CLICK tempo')
       setShowTempo(true)
     }
+    if (abcelem && (abcelem.el_type === 'clef' || abcelem.el_type === 'keySignature')) { // && props.onClickTempo) {props.onClickTempo() 
+      //console.log('CLICK transpose')
+      setShowTranspose(true)
+    }
     var ms = (Array.isArray(abcelem.currentTrackMilliseconds) && abcelem.currentTrackMilliseconds.length > 0) ? abcelem.currentTrackMilliseconds[0] : abcelem.currentTrackMilliseconds
     
-    console.log('click seek ?',gtimingCallbacks.duration,gmidiBuffer.current,gtimingCallbacks.current)
+    //console.log('click seek ?',gtimingCallbacks.duration,gmidiBuffer.current,gtimingCallbacks.current)
     if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(Math.floor(ms)/1000,'seconds')
-     console.log('click')
+     //console.log('click')
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(Math.floor(ms)/1000,'seconds')
-    console.log('click')
-    if (gmidiBuffer.current.duration > 0) setSeekTo(Math.floor(ms/gmidiBuffer.current.duration)/1000)
+    if (gmidiBuffer.current && gmidiBuffer.current.duration && gmidiBuffer.current.duration > 0) setSeekTo(Math.floor(ms/gmidiBuffer.current.duration)/1000)
     
     
     if (props.onClick)  props.onClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
@@ -672,7 +675,7 @@ export default function Abc(props) {
   var [audioChangedHash, setAudioChangedHash] = useState(null)
   
   function renderTune(abcTune) {
-    //console.log('RENDER TUNE',abcTune)
+    //console.log('RENDER TUNE')
     if (inputEl) { // && !renderActive) {
       //console.log('RENDER TUNE')
       //console.log('render abc', abcTune, inputEl.current)
@@ -689,7 +692,7 @@ export default function Abc(props) {
           },
           //soundFontUrl: 'soundfont/'
           clickListener:clickListener,
-          selectTypes: ['note','tempo']
+          selectTypes: ['note','tempo','clef','keySignature']
         }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
         if (tune.transpose > 0 || tune.transpose < 0 ) {
@@ -718,20 +721,21 @@ export default function Abc(props) {
         var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
             
         var o = res && res.length > 0 ? res[0] : null
-        //console.log('RENDERED TUNE tempo',props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
+        //console.log('RENDERED TUNE tempo',o) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             if (props.onWarnings) props.onWarnings(o.warnings)
              //&& (isPlayingRef.current || isPlaying)
-            if (props.tempo && false) {
+            if (props.tempo) {
               
               //props.audioProps.
                setVisualObj(o)
-               setStarted(true)
-               var hash = props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
+               if (props.autoPrime)  setStarted(true)
+               var hash = props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
                if (hash !== audioChangedHash) {
                 //console.log('RENDER TUNE AUDIODDD')
                 setAudioChangedHash(hash)
-                createPlayer(o, props.tempo, props.meter).then(function(p) {
+                setStarted(true)
+                createPlayer(o, props.tempo, props.meter, props.autoPrime).then(function(p) {
                       //console.log("CREATED PLAYER")
                      var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                      assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
@@ -739,14 +743,13 @@ export default function Abc(props) {
                        setIsPlaying(true)
                        if (props.onStarted) props.onStarted()
                      }
-                     
-                   
                 }).catch(function(e) {
                   //console.log('REJECT CREATE PLAYER')
                   setReady(false)
                   setStarted(false)
                   //setIsPlaying(false)
                 })
+              
               } else {
                 //console.log('SKIP RENDER TUNE AUDIO no hash change')
                 setReady(true)
@@ -769,7 +772,7 @@ export default function Abc(props) {
     }
     
     function clickPlay(seekTo) {
-        console.log('onClickHandler PLAY',seekTo)
+        //console.log('onClickHandler PLAY',seekTo)
         if (playTimerRef && playTimerRef.current) {
           //console.log('onClickHandler DOUBLE')
             clearTimeout(playTimerRef.current)
@@ -805,12 +808,12 @@ export default function Abc(props) {
     
   
   function clickInit(playing) {
-      //console.log('CLICK INIT', visualObj)
+      //console.log('CLICK INIT', gvisualObj)
       if (gvisualObj && gvisualObj.current) {
         setReady(false)
         setStarted(true)
         //setIsPlaying(false)
-        createPlayer(gvisualObj.current, props.tempo, props.meter).then(function(p) {
+        createPlayer(gvisualObj.current, props.tempo, props.meter, true).then(function(p) {
           var [audioContext, midiBuffer, timingCallbacks, cursor] = p
            assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
            if (playing) setIsPlaying(true)
@@ -855,7 +858,6 @@ export default function Abc(props) {
       setLastTempo(props.tempo)
       setAbcTune(props.abc);
       setTune(props.tunebook.abcTools.abc2json(props.abc))
-        
       renderTune(props.abc)
     } else {
       setStarted(false)
@@ -906,7 +908,8 @@ export default function Abc(props) {
     }} />
    <ReactNoSleep>
         {({ isOn, enable, disable }) => (
-          <span onClick={function(e) {bodyClick(enable)}} >
+          <span >
+             <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} />
              {(props.tempo) ? <span style={{position:'fixed', top: 4, right: 4, zIndex: 66}} >
               <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span> : null}
@@ -920,3 +923,4 @@ export default function Abc(props) {
   );
 }
            
+// onClick={function(e) {bodyClick(enable)}}

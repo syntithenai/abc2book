@@ -30,18 +30,20 @@ var useIndexes = () => {
     
     function removeTune(tune, bookIndex) {
         var final = {}
-        //console.log('remove index',bookIndex,tune)
-        //return bookIndex
-        
-        Object.keys(bookIndex).forEach(function(bookName) {
-            var indexVal = bookIndex[bookName]
-            //console.log('filter remove index',bookName,indexVal)
-            final[bookName] = indexVal.filter(function(val) {
-                //console.log('FF',val, tune.id, (val === tune.id) ? 'OK' : "FF")
-                return (val === tune.id) ? false : true
+        if (tune && tune.id) {
+            //console.log('remove index',bookIndex,tune)
+            //return bookIndex
+            
+            Object.keys(bookIndex).forEach(function(bookName) {
+                var indexVal = bookIndex[bookName]
+                //console.log('filter remove index',bookName,indexVal)
+                final[bookName] = indexVal.filter(function(val) {
+                    //console.log('FF',val, tune.id, (val === tune.id) ? 'OK' : "FF")
+                    return (val === tune.id) ? false : true
+                })
             })
-        })
-        //console.log('remove index',bookIndex,final)
+            //console.log('remove index',bookIndex,final)
+        }
         return final
     }
     

@@ -7,7 +7,7 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
     var params = useParams()
     //console.log(params)
     const [error,setError] = useState('')
-    var docs = useGoogleDocument({token, refresh})
+    var docs = useGoogleDocument(token, refresh)
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 

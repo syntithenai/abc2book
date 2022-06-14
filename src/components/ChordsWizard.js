@@ -265,9 +265,15 @@ export default function ChordsWizard(props) {
     var tune = props.tune
     //console.log(tune)
     return <div>
-        <Form.Label>Time Signature</Form.Label>
-        <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
-        <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea"  value={chords} onChange={function(e) {setChords(e.target.value); }} onBlur={mergeChordsIntoNotes} />
+        <Form.Group  controlId="chordwiz">
+        
+            <Form.Label>Time Signature</Form.Label>
+            <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
+            <Form.Label>Repeats</Form.Label>
+            <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : '1'} onChange={function(e) {tune.repeats = e.target.value; tune.id = props.tuneId;  props.saveTune(tune)  }}  />
+        </Form.Group>
+                      
+        <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea" placeholder={"eg \nC|F# C|Cmin . . G |Cb\nD|D|A D . A |C"} value={chords} onChange={function(e) {setChords(e.target.value); }} onBlur={mergeChordsIntoNotes} />
         
     </div>
 }

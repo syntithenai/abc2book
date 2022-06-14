@@ -1,14 +1,16 @@
 import {Link  } from 'react-router-dom'
-import {Button} from 'react-bootstrap'
+import {Button, Dropdown} from 'react-bootstrap'
 import {ListGroup} from 'react-bootstrap'
 import {useState, useEffect} from 'react'
 import IndexSearchForm from './IndexSearchForm'
 import BoostSettingsModal from './BoostSettingsModal'
+import SelectedItemsModal from './SelectedItemsModal'
 
 export default function IndexLayout(props) {
     var [filter, setFilter] = useState('')
     var [filtered, setFiltered] = useState('')
     var [tuneStatus, setTuneStatus] = useState({})
+    var [selected, setSelected] = useState({})
     //var [bookFilter, setBookFilter] = useState('')
     //const [tunes, setTunes] = useState(props.tunes ? Object.values(props.tunes) : {})
     
@@ -76,11 +78,14 @@ export default function IndexLayout(props) {
         //console.log("IL boot")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
+      setSelected({})
     },[])
+    
     useEffect(function() {
       //console.log("IL currentTuneBook")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
+      setSelected({})
       var tuneStatus = {}
       //setTimeout(function() {
           filtered.forEach(function(tune) {
@@ -113,26 +118,89 @@ export default function IndexLayout(props) {
       //},100)
     },[filter,props.currentTuneBook])
     
+    function selectAllToggle() {
+        if (countSelected() > 0) {
+            console.log('HS sele')
+            filtered.forEach(function(tune) {
+                selected[tune.id] = false
+            })
+        } else {
+            console.log('HS NO sele')
+            filtered.forEach(function(tune) {
+                selected[tune.id] = true
+            })
+        }
+        setSelected(selected)
+        props.forceRefresh()
+    }
+    function handleSelection(e,tuneId) {
+        //console.log('HS',tuneId,selected[tuneId],selected)
+        e.preventDefault(); 
+        e.stopPropagation();
+        if (selected[tuneId] === true) {
+            selected[tuneId] = false
+        } else {
+            selected[tuneId] = true
+        }
+        setSelected(selected)
+        props.forceRefresh()
+        //console.log('HSend',tuneId,selected[tuneId],selected)
+    }
+    function countSelected() {
+        var count = 0
+        Object.keys(selected).forEach(function(key) {
+            if (selected[key]) count++ 
+        })
+        //console.log("CCC",count)
+        return count
+    }
+    
+    function forceRefresh() {
+        var filtered = Object.values(props.tunes).filter(filterSearch)
+        setFiltered(filtered)
+        //props.forceRefresh()
+    }
     
     return <div className="index-layout"  >
         <IndexSearchForm googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
-        {filtered.length} matching tunes
+        
+        {filtered.length > 0 &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
+        
+        {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected} />}
+        
+        {countSelected() > 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(selected).length}/{filtered.length} tunes selected</span>}
+        {countSelected() === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(selected).length} matching tunes</span>}
+        
         </div>}
+        
+        
         {filtered.length > 0 ? <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
         {filtered.map(function(tune,tk) {
             //var l = (tune.name ? tune.name.length : 0) + (tune.type ? tune.type.length : 0)
             //var pad = <>{''.padStart(40 - - l,'&nbsp;_')}</>
             
             
+            //var checkboxProps = {
+                //type:"checkbox",
+                //onClick: function(e) {handleSelection(e,tune.id)},
+            //}
+            //if (selected[tune.id]) checkboxProps['checked']=true
+            //else  checkboxProps['checked']=false
+            //checkboxProps['checked']=true
+            //console.log(checkboxProps)
+            
             return <Link key={tk} style={{textDecoration:'none' }} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
                 <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={false} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
                 
+                {selected[tune.id] && <Button variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                &nbsp;&nbsp;
                 <span >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/></span>
                 <span style={{ marginLeft:'0.3em'}}>
-                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
+                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>
+                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
+                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.words}</Button> : null}</span>
                 </span>
             </ListGroup.Item></Link>
         })}

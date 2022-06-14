@@ -85,17 +85,16 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
     } else {
         if (!ready) {
           if (!isPlaying) {
-            return <><Button id="abcplaybutton" className='btn-secondary' size="lg"  style={{float:'right'}}   >
+            return <Button id="abcplaybutton" className='btn-secondary' size="lg"  style={{float:'right'}}   >
               {tunebook.icons.timer}
               {tunebook.icons.start}
             </Button>
-            <RecordingDropdown /></>
           } else {
-            return <><Button  id="abcplaybutton" className='btn-secondary' size="lg" style={{float:'right'}} onClick={clickStop} >
+            return <Button  id="abcplaybutton" className='btn-secondary' size="lg" style={{float:'right'}} onClick={clickStop} >
               {tunebook.icons.timer}
               {tunebook.icons.stop}
             </Button>
-            <RecordingDropdown /></>
+            
           }
         } else {
           //<Button onClick={function(e) {tunebook.recordingsManager.playRecording(recording.id)}}>{tunebook.icons.play}</Button>

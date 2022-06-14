@@ -28,6 +28,9 @@ function ImportXmlModal(props) {
     //console.log('import',xml,abc)
     
     const importResults = props.tunebook.importAbc(abc, props.currentTuneBook)
+    setTimeout(function() {
+      props.tunebook.utils.scrollTo('bottomofpage')
+    },100)
     //console.log('imported',inserts,updates,duplicates)
     //props.setImportResults(importResults)
     //var [inserts, updates, duplicates] = importResults
