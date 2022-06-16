@@ -21,7 +21,7 @@ http://jimsrootsandblues.com/fiddle-tune-notation/
 eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); console.log(abc)
 
 ## Code Libraries
-
+- https://qiuxiang.github.io/aubiojs/tempo.html
 - https://paulrosen.github.io/abcjs/
 
 ### to look into
@@ -32,6 +32,7 @@ eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); 
 - https://www.qrcode-monkey.com/#
 - https://github.com/opensheetmusicdisplay/opensheetmusicdisplay
 - https://github.com/tombatossals/react-chords
+- https://chordmark.netlify.app/docs/overview/what-is-chordmark
 
 ## other links
 

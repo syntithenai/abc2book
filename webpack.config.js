@@ -4,5 +4,4 @@ module.exports = {
   plugins: [
     new WorkerPlugin()
   ],
-  resolve.fallback: { "path": false }
 }

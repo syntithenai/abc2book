@@ -1478,6 +1478,93 @@ var useAbcTools = () => {
             }
     }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords}
+    function parseChordText(chords, meter, tune) {
+        //console.log('parseChordText',chords)
+        var result = []
+        var lines = chords.split("\n")
+        lines.forEach(function(line,lineNumber) {
+          if (!Array.isArray(result[lineNumber])) result[lineNumber] = []
+          var bars = line.trim().split("|")
+          bars.forEach(function(bar,bk) {
+              //if (!Array.isArray(result[lineNumber][bk])) result[lineNumber][bk] = []
+              if (typeof bar === 'string' && bar.trim()) {
+                // cull empties
+                var barChords = bar.trim().split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true})
+                // how many beats(noteLengths) per bar from tune.meter
+                // distribute provided symbols over beats
+                var noteLength = tune ? getNoteLengthFraction(tune) : "1/8"
+                var meterParts=meter ? meter.trim().split("/") : ['4','4']
+                if (meterParts.length === 2) {
+                    var meterFraction = new Fraction(meterParts[0],meterParts[1])
+                    var noteLengthsPerBar = meterFraction.divide(noteLength)
+                    
+                    var zoom = 1
+                    if (barChords.length > 0 && Math.floor(noteLengthsPerBar.numerator / barChords.length) > 0) {
+                        zoom = Math.floor(noteLengthsPerBar.numerator / barChords.length) 
+                    } else if (noteLengthsPerBar.numerator > 0) {
+                        zoom = noteLengthsPerBar.numerator 
+                    }
+                    var newChords = new Array(noteLengthsPerBar.numerator)
+                    //console.log('nc',barChords,barChords.length,noteLengthsPerBar.numerator ,"Z",zoom,newChords.length,newChords)
+                    //newChords.fill('.')
+                    var count = 0
+                    for (var i=0; i < newChords.length; i+= zoom) {
+                        if (barChords[count]) newChords[i] = barChords[count].split('')
+                        count++
+                    }
+                    //console.log('NLLP',lineNumber, bk,  "PER BAR",noteLengthsPerBar.numerator, "Z",zoom, "BC", barChords.length,"NEW",newChords)
+                    result[lineNumber][bk] = newChords
+                }
+              }
+          })
+        })
+        //console.log("CHORD TEXT",result)
+        return result
+    }
+    
+    function renderAllChordsAndNotes(chords, notes, preTexts) {
+        //console.log("renall",chords, notes)
+        // all arrays should be same structure 
+        // if overriding with chords, which one is longer and fill?
+        return notes.map(function(line,lineNumber) {
+            // iterate bars
+                //console.log("CL",chords[lineNumber])
+                return line.map(function(beats,cbk) {
+                    //console.log('CBB',lineNumber,cbk,beats)
+                    if (Array.isArray(beats)) {
+                        // iterate beats in bar
+                        var beatsOut= []
+                        
+                        for (var beatNumber = 0; beatNumber < beats.length; beatNumber++) {
+                            var chord = Array.isArray(chords[lineNumber]) && Array.isArray(chords[lineNumber][cbk]) && Array.isArray(chords[lineNumber][cbk][beatNumber]) ? chords[lineNumber][cbk][beatNumber].join('') : ''
+                            
+                            var note = Array.isArray(notes[lineNumber]) && Array.isArray(notes[lineNumber][cbk]) && Array.isArray(notes[lineNumber][cbk][beatNumber]) ? notes[lineNumber][cbk][beatNumber].join('') : ''
+                            
+                            var preText = Array.isArray(preTexts[lineNumber]) && Array.isArray(preTexts[lineNumber][cbk]) && Array.isArray(preTexts[lineNumber][cbk][beatNumber]) ? preTexts[lineNumber][cbk][beatNumber].join('') : ''
+                            //console.log('ALL',lineNumber,cbk, beatNumber,chord,note)
+                            
+                            if (preText) beatsOut.push(preText)
+                            if (chord && chord !== '.') beatsOut.push('"' + chord + '"')
+                            if (note && note.length > 0) {
+                                beatsOut.push(note)
+                            } 
+                            //else {
+                                //beatsOut.push('z')
+                            //}
+                        }
+                        var postText = Array.isArray(preTexts[lineNumber]) && Array.isArray(preTexts[lineNumber][cbk]) && Array.isArray(preTexts[lineNumber][cbk][beats.length]) ? preTexts[lineNumber][cbk][beats.length].join('') : ''
+                        if (postText) beatsOut.push(postText)
+                        
+                        return beatsOut.join("")
+                    
+                    } else {
+                        return ''
+                    }
+                }).join("")
+            }).join("\n") //+ "||"
+    }
+    
+
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes}
 }
 export default useAbcTools;

@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import HomePage from './pages/HomePage'
 import PrintPage from './pages/PrintPage'
+import PianoPage from './pages/PianoPage'
 import TunerPage from './pages/TunerPage'
 import MetronomePage from './pages/MetronomePage'
 import CheatSheetPage from './pages/CheatSheetPage'
@@ -327,6 +328,7 @@ function App(props) {
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
                     <Route  path={`tuner`}   element={<TunerPage  tunebook={tunebook}    />}  />
+                    <Route  path={`piano`}   element={<PianoPage  tunebook={tunebook}    />}  />
                     <Route  path={`metronome`}   element={<MetronomePage  tunebook={tunebook}    />}  />
                     <Route  path={`tunes`}     >
                       <Route
