@@ -6,6 +6,7 @@ import BoostSettingsModal from './BoostSettingsModal'
 //import ReactTags from 'react-tag-autocomplete'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
+import {useSwipeable} from 'react-swipeable'
 
   
   //return (
@@ -23,9 +24,17 @@ export default function MusicSingle(props) {
     let navigate = useNavigate();
     //console.log('single',props)
     
-    
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
+    const handlers = useSwipeable({
+      onSwipedRight: (eventData) => {
+          props.tunebook.navigateToPreviousSong(tune.id,navigate)
+      },
+      onSwipedLeft: (eventData) => {
+          props.tunebook.navigateToNextSong(tune.id,navigate)
+      }
+    });  
+    
 
     
     function getBeatsPerBar(meter) {
@@ -113,7 +122,7 @@ export default function MusicSingle(props) {
     //console.log('sING',parsed.chords)
         var [a,b,chordsArray,c] = parsed
         var chords = props.tunebook.abcTools.renderChords(chordsArray,false)
-       return <div className="music-single">
+       return <div className="music-single" {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
              
                  
@@ -162,18 +171,7 @@ export default function MusicSingle(props) {
                 <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
             </div>
             
-            {props.viewMode === 'music' && <>
-             <Abc autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
-             
-             <div className="lyrics" style={{marginLeft:'2em'}} >
-                {Object.keys(words).map(function(key) {
-                    return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
-                            return <div key={lk} className="lyrics-line" >{line}</div>
-                        })}</div>
-                })}
-             </div>
-             </>}
-             
+
              {props.viewMode === 'chords' && <>
              
              <pre style={{clear:'both', position:'fixed', fontSize:'0.8em', top:'5em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999,border:'1px solid black', backgroundColor: 'white'}} >{chords}</pre>
@@ -185,13 +183,34 @@ export default function MusicSingle(props) {
                         })}</div>
                 })}
              </div>
-              <Abc autoPrime={localStorage.getItem('bookstorage_autoprime')} showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
-             
+              
             
              </>}
+             
+             
+             <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             
+             
              
              
              
         </div>
     }
 }
+
+//<Abc  autoPrime={localStorage.getItem('bookstorage_autoprime')} showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+             
+
+
+
+            //{props.viewMode === 'music' && <>
+             
+             
+             //<div className="lyrics" style={{marginLeft:'2em'}} >
+                //{Object.keys(words).map(function(key) {
+                    //return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
+                            //return <div key={lk} className="lyrics-line" >{line}</div>
+                        //})}</div>
+                //})}
+             //</div>
+             //</>}

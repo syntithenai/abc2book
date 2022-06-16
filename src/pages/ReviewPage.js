@@ -39,6 +39,22 @@ export default function ReviewPage(props) {
         //} 
     //}
   
+function getReviewWarp(tune) {
+      //console.log('RT',tune)
+      var final = 100
+      if (tune) {
+        var boost = tune.boost > 0 ? tune.boost : 0
+        var useBoost = boost > 20 ? 20 : boost
+        var boostPercent = 1 + ((useBoost - 15)/30)
+        console.log('RT',boostPercent)
+        return boostPercent
+      } else {
+          console.log('RT def 1')
+          return 1
+      }
+      
+  } 
+  
   function getReviewTempo(tune) {
       //console.log('RT',tune)
       var final = 100
@@ -150,7 +166,7 @@ export default function ReviewPage(props) {
     //},[currentReviewItem])
     
     function onEnded(progress, start, stop ,seek) {
-        //console.log('review ended')
+        console.log('review ended')
         props.tunebook.utils.saveLastPlayed(tune.id)
         tune.boost = tune.boost + 1
         props.tunebook.saveTune(tune)
@@ -186,7 +202,7 @@ export default function ReviewPage(props) {
         return <div className="App-review">
           
            <ReviewNavigationModal reviewItems={reviewItems} currentReviewItem={getCurrentReviewIndex()} tunebook={props.tunebook} />
-           <Link to={'/editor/'+tune.id}><Button className='btn-secondary' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
+           <Link to={'/editor/'+tune.id}><Button  variant="warning" style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
            <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
            
            <ButtonGroup variant="primary" style={{ marginLeft:'1em',float:'left', width: 'fit-content'}}    >
@@ -197,7 +213,7 @@ export default function ReviewPage(props) {
            </ButtonGroup>
            
            <div {...handlers} >
-           <Abc metronomeCountIn={true} speakTitle={true} repeat={tune.repeats} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={getReviewTempo(tune)} meter={tune.meter} onStarted={function() {setAutoStart(true)}}  onEnded={onEnded} />
+           <Abc autoPrime={true} metronomeCountIn={true} speakTitle={true} repeat={tune.repeats} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={tune.tempo} warp={getReviewWarp(tune)} meter={tune.meter} onStopped={function() { setAutoStart(false)}} onStarted={function() { setAutoStart(true)}}  onEnded={onEnded} />
             </div>
         </div>
     }
@@ -205,4 +221,7 @@ export default function ReviewPage(props) {
         
     //}
 }
+//getReviewTempo(tune)
+
 //audioCallback={audioCallback} tempo={props.tunebook.tempo} milliSecondsPerMeasure={(props.tunebook.abcTools.getMilliSecondsPerMeasure(tune, props.tunebook.tempo))}
+    

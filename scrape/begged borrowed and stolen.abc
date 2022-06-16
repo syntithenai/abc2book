@@ -13,7 +13,8 @@ G2 B/G/|B2 "D7"A/B/|("D"d3|d)zB|
 "Em"G2 (3B/A/G/|"D"B2 A|("G"G3|G2)|]
 % abcbook-tune_id 62828a3ab3e408a987d08d73
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431046
 % abc-sessionorg_id 
@@ -46,7 +47,8 @@ AF|              "D"D4 F2|              A2 F2 D2|              "G"G4 B2|        
  "D"D4 F2|              A2 F2 D2|              "G"G4 B2|              d2 c2 B2|              "D"A4 F2|              "A"G2 F2 E2|              "D"D6 -|              D4 A2||
 % abcbook-tune_id 62828a3a86e0be488493663b
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431047
 % abc-sessionorg_id 1129
@@ -69,7 +71,8 @@ D2|"G"G4 G<G|"D"A2 G2 A2|"G"B4 d<B|"D"A2 G2 A2|"G"B3 A G2|"Em"G2 E2 D2|"C"D2 E2 
 |"G" G3 G G>G|"D"A2 G2 A2|"G"B2 d3 B|"D"A2 G2 A2|"G"B3 A G2|"Em"G2 E2 D>D|"C"D2 E2 G2|"G"G4||
 % abcbook-tune_id 62828a3a163691ed5f15fa4c
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431048
 % abc-sessionorg_id 6718
@@ -94,7 +97,8 @@ dc|:"G"B3A G2|B3c d2|"D"A4 A2|A4 dc|
  "Em"B3A G2|"D"Acc2 F2|"G"G4 G2|G4||
 % abcbook-tune_id 62828a3a8410bb63dcd60274
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431048
 % abc-sessionorg_id 601
@@ -117,7 +121,8 @@ V:1
 "G"b2a2g2|"D"f2de fd|dc Ad cA|A2G2G2:|
 % abcbook-tune_id 62828a3a667521e3bb5d9fef
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431049
 % abc-sessionorg_id 
@@ -174,7 +179,8 @@ W:
 W: Chorus
 % abcbook-tune_id 62828a3a8581ca46e42a4376
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431049
 % abc-sessionorg_id 
@@ -197,7 +203,8 @@ V:1
 "G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D"FGA|"G"BGG G2:|
 % abcbook-tune_id 62828a3a676c5e88c6ae99ab
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431050
 % abc-sessionorg_id 
@@ -229,7 +236,8 @@ V:1
  [2 "Am"EAA AGA|Bcd e2f|"G"gfe dBG|"Am"ABA A3||
 % abcbook-tune_id 62828a3a30f44d795c3e41b9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431050
 % abc-sessionorg_id 84
@@ -252,7 +260,8 @@ A|:"D"AFA Agf|"G"ede fdB|"D"AFA AGF|"A"EFE EFG|
 "D"a3 f3|"G"ede fdB|"A"AFg faf|1 "D"ded d2a:|2 "D"ded d3||
 % abcbook-tune_id 62828a3ab041137f55697837
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431051
 % abc-sessionorg_id 582
@@ -275,7 +284,8 @@ EAA ABd | ege def |"G" g2 d "Em"edB | BAG "Am"A2 :||
 "Am"eag e2 d | e aa age | "G"g2 d "Em"edB | BGG "Am"A2 :||
 % abcbook-tune_id 62828a3a1ece6cf9c60bf4a7
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431052
 % abc-sessionorg_id 
@@ -306,7 +316,8 @@ GE|:"G"D2B BAG|BdB A2B|"C"GED G2A|"D"B2B AGE|
 "G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGE "G"G3:|
 % abcbook-tune_id 62828a3a3841cbb2b09fd6fc
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431052
 % abc-sessionorg_id 108
@@ -329,7 +340,8 @@ D||:"G"GBA G2B|"D"def "G"gdB|GBA G2B|"D"AFD AFD|
  "Em"efe edB|def gfg|"C"efe "D"dBA|"G"BGG G3:|
 % abcbook-tune_id 62828a3adeb564849c9f2ace
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431053
 % abc-sessionorg_id 307
@@ -352,7 +364,8 @@ V:1
  "Am"eaa age|"G"dBA G2A|"Em"Bee edB|1"G"BAG "Am"A2d:|2"G"BAG "A"A3||
 % abcbook-tune_id 62828a3a83b814d4d3368b23
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431053
 % abc-sessionorg_id 60
@@ -376,7 +389,8 @@ V:1
 [2 "Am"EAA EAA | gfg edB| "Am"BAB "Em"edB |"G"BAG "Am"A3 ||
 % abcbook-tune_id 62828a3ad4341963a01f9115
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431055
 % abc-sessionorg_id 3119
@@ -399,7 +413,8 @@ V:1
  "Am"eaa aga|"G"bag ged|"Am"def "C"ged|"Em"BAG "Am"A3:|
 % abcbook-tune_id 62828a3aeb79543ef648aebf
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431056
 % abc-sessionorg_id 109
@@ -422,7 +437,8 @@ V:1
 "Em"e2f g2e|"D"fag fed|"Em"edB "Am"cBA|"Em"BGE E2:|
 % abcbook-tune_id 62828a3a9ed88430095357f3
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431056
 % abc-sessionorg_id 264
@@ -445,7 +461,8 @@ V:1
 "G"BGB Bcd|"D"AFADFA|"G"dcd "A"efg| "D"fdd d3:|
 % abcbook-tune_id 62828a3ac3cd3e4c39c5c960
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431057
 % abc-sessionorg_id 5018
@@ -468,7 +485,8 @@ V:1
  "Bm"dBB fBB|"Bm"dBB fed|"A"cBc ABc|"D"dfe d3:|
 % abcbook-tune_id 62828a3a3c8da180120d3c7d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431058
 % abc-sessionorg_id 111
@@ -491,7 +509,8 @@ V:1
  "D"f2d dcd|faa afd|"G"Bcd "A"ecA|"D"d2d d3:|
 % abcbook-tune_id 62828a3a0c483609215b3594
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431058
 % abc-sessionorg_id 1200
@@ -516,7 +535,8 @@ V:1
  "D"d3 "Em"ede|"F#m"fef "G"gfg|"D"afd "Em"bge|"D"dAF D2 "(A)"A||
 % abcbook-tune_id 62828a3a06bd2c7c566c2c42
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431059
 % abc-sessionorg_id 1822
@@ -539,7 +559,8 @@ V:1
  ABA AFA|d2e f2g|afd efe|ded d3:|
 % abcbook-tune_id 62828a3ac56b9c03ca213cb7
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431060
 % abc-sessionorg_id 1110
@@ -562,7 +583,8 @@ V:1
  ABA AFA|d2f g2f|e2c ABc|1 d3 d2e:|2 d3 c2B||
 % abcbook-tune_id 62828a3af84bc6dced4989ca
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431060
 % abc-sessionorg_id 5534
@@ -585,7 +607,8 @@ GE|:"G"D2B BAG|BdB A2B|"C"GED G2A|"D"B2B AGE|
  "G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGE "G"G:|
 % abcbook-tune_id 62828a3a105505e9746ddfc8
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431062
 % abc-sessionorg_id 108
@@ -610,7 +633,8 @@ V:1
  "G"B2G "D"A2G|"G"BdB BAG|"G"AGA "C"BAB|"D"GED D3:|
 % abcbook-tune_id 62828a3a9ed55a0e09ac227d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431062
 % abc-sessionorg_id 382
@@ -635,7 +659,8 @@ D|:"G"GABD2B |"C"c2A BGE|"G"GAB DEG|"D" A2A AGE|
  "G"g2g "D"f2f |"C"ege dBA|"G"GAB "D"AGF| "G"G3 G2:|
 % abcbook-tune_id 62828a3ae32d0ba98e83eec1
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431063
 % abc-sessionorg_id 70
@@ -660,7 +685,8 @@ V:1
  "G"bgb "D"afa|"C"geg "D"fdf|"C"ed^c "D"def|"G"gaf gdB:|
 % abcbook-tune_id 62828a3a278202ebe6a62283
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431064
 % abc-sessionorg_id 3746
@@ -685,7 +711,8 @@ V:1
  "C"c3 cAG|AGA "Am"cde|"G"fed "Em"cAG|1 "A"Ad^c "D"d2e:|2 "A"Ad^c "D"d3||
 % abcbook-tune_id 62828a3aed97a2234bae525d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431065
 % abc-sessionorg_id 9
@@ -712,7 +739,8 @@ W: Looks like rain but she does not care
 W: Off she goes to Donnybrook Fair
 % abcbook-tune_id 62828a3ac144d42a3bc849dd
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431065
 % abc-sessionorg_id 1133
@@ -737,7 +765,8 @@ V:1
  Ace gfe | "D"fed "G"gfe | "D"agf "G"bag|"G"fed "A"ABc|"D"d3 d3||
 % abcbook-tune_id 62828a3af9d18cef163117d9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431066
 % abc-sessionorg_id 101
@@ -760,7 +789,8 @@ V:1
  |:"Em"(gfe) (d=cB) (AGF)|B2E E2F G2B|"D"(AB^c) "Bm"(dcB) "A"(ABc)|"D"d2D DEF E2D:|
 % abcbook-tune_id 62828a3aea3ab1477f9f598f
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431067
 % abc-sessionorg_id 482
@@ -782,7 +812,8 @@ V:1
 "Am"e2a a2^f "G"g2d|"Am"e2a a2A "G"Bcd|"Em"e^fg "Bm"fga "Em"gfe|"G"d2B G2A Bcd||
 % abcbook-tune_id 62828a3ab86e5f297f004bb0
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431069
 % abc-sessionorg_id 593
@@ -813,7 +844,8 @@ V:1
 |:"D"f2d e2c d2e | "D"f2d e2d "A"cBA |"D" f2d e2c d2A | "G"B2e e2d "A"cBB :|
 % abcbook-tune_id 62828a3a2ad8e7fe071afd38
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431069
 % abc-sessionorg_id 11221
@@ -835,7 +867,8 @@ V:1
  "D"A2g f2d e2c|"C"A2B =c2B c2d|"D"d2A A2G F2G|"C"A2d "G"d2c "D"d3:|
 % abcbook-tune_id 62828a3a91b5e2da7c5bca17
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431070
 % abc-sessionorg_id 276
@@ -859,7 +892,8 @@ V:1
 |:"G"eBe "D"dBA "G"G2A|B2d dge dBd|"G"eBe "D"dBA "G"G2A|"G"BAG "D"FAG FED:|
 % abcbook-tune_id 62828a3a6955451e5bc1fd66
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431071
 % abc-sessionorg_id 52
@@ -882,7 +916,8 @@ V:1
  "Em"eB eB|eB B>c|"G"dB "D"AF|"Em"E2 E2:|
 % abcbook-tune_id 62828a3a9b6e432fbe4a163f
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431072
 % abc-sessionorg_id 531
@@ -905,7 +940,8 @@ V:1
  "G"d>e dB|"D"AF D>E|"Em"FD "D"AF|"Em"E2 E2:|
 % abcbook-tune_id 62828a3a60520e661457e0fd
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431073
 % abc-sessionorg_id 534
@@ -928,7 +964,8 @@ V:1
  "D"fd de/f/|"G"gf "A"ed/e/|"D"fd "A7"ec|1 "D"d2 "A7"dd/e/:|2 "D" d2 d2||
 % abcbook-tune_id 62828a3a941fbb9699c79b01
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431074
 % abc-sessionorg_id 441
@@ -951,7 +988,8 @@ V:1
 "D"f2d2 d2ef|"G"g2f2 e2de|"D"f2d2 "A"edc2|1 "D"d4 d2 de:|2 "D"d4 d4||
 % abcbook-tune_id 62828bdf8381b7318152407b
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431075
 
@@ -971,7 +1009,8 @@ V:1
 "G" Bd g>e|dB AG|d/d/d/d/ B>A|1 "D"AG "G"G>A:|2 "D"AG "G"G2||
 % abcbook-tune_id 62828a3adf5c5347ea1a127a
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431076
 % abc-sessionorg_id 1549
@@ -995,7 +1034,8 @@ D2 |: "G"G4 G3A | B2d2 d2ef | "C"g2B2 BAGA | "D"B2A2 A2BA|
 "C"g2e2 efge | "G"d2B2 g3e | "C"d2B2 "D"A2BA |"G" G8:|
 % abcbook-tune_id 62828a3aa12a224d4d10dce9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431077
 % abc-sessionorg_id 
@@ -1017,7 +1057,8 @@ d |: "G"GB "D"AB/A/ | "G"Gg "C"e/f/g/e/ | "G"dB AG/A/ | "D"B>A G/F/E/D/ |
 "C"aa/g/ "D"e/f/g/e/ | "G"dB "C"AG/A/ | "G"Be "D"d/B/A/B/ | "G"GG G2 :|
 % abcbook-tune_id 62828a3a64b20782ee4a6111
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431078
 % abc-sessionorg_id 
@@ -1048,7 +1089,8 @@ c/B/A/G/ "D" F/D/E/F/ | "G" GB G2:||: "G"g2f2 | "C"c3/2 d | ee dd |
 "G"B>A Bc  |1 "G"d>e dB | "D"A3/2 B/A/ | "G"G>A Bc | d2e>f :|2 "G" d>e dB | "D"A3/2 B/A/ |"G" Gg "D"fa | "G"g2 g||
 % abcbook-tune_id 62828a3a3e4a999cdb502373
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431079
 % abc-sessionorg_id 
@@ -1079,7 +1121,8 @@ V:1
  "D"Af f/e/f|"G"Ag ga|"D"ba "A"gc|1 "D"dd B2:|2 "D"ed d2||
 % abcbook-tune_id 62828a3a24162c5639c71c9d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431080
 % abc-sessionorg_id 357
@@ -1101,7 +1144,8 @@ d|"G"GB dB|"C"ce-eg|"D"fd cd|"G"B3 d|"G"g>g gd|"C"fe ce|"D7"dd cA|"G"GA Bc|
 "G"d3 B|"C"c e3|"D"d2 c2|"G"B G3|"G"g3 d|"C"fe c2|"D7"d>d cA|"G"A G2|]
 % abcbook-tune_id 62828a3ad97168c2033c5a8e
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431081
 % abc-sessionorg_id 
@@ -1132,7 +1176,8 @@ V:1
 "G" D>E DB,|DE G>A|Bd "D"AB/A/|"G"G2 G2||
 % abcbook-tune_id 62828a3a94ccfed073209176
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431082
 % abc-sessionorg_id 1640
@@ -1155,7 +1200,8 @@ f/e/|:"D"dB AF|A>B AB|"D"d2 "G"ed/e/|"A"fe ef/e/|
 "D" dB AF|"G"A>B AB|"D"d2 "A"ed/e/|"D"fd d2:|
 % abcbook-tune_id 62828a3abf72e6ad4809eeae
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431083
 % abc-sessionorg_id 1123
@@ -1178,7 +1224,8 @@ V:1
 "G"BG "D"AG|"G"BG "D"AG|"G"Bd d>c|"C"BG "G"G2:|
 % abcbook-tune_id 62828a3a77e7810e8520e382
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431084
 % abc-sessionorg_id 
@@ -1212,7 +1259,8 @@ F3E|:DD D/E/F/G/|AF A f/e/|dB AF|BE EF/E/|
  fd d/c/d/e/|f2 a2|1 dc/B/ A/G/F/E/:|2 d4||
 % abcbook-tune_id 62828a3a87ede7de4c235e79
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431085
 % abc-sessionorg_id 6319
@@ -1235,7 +1283,8 @@ AG|:"D"FDFG A2AB|defd edBA|"G"B2GB "D"A2FA|"A"G2E2 EGFE|
  "D"a2fa g2eg|"Bm"f2df edB^c|"G"d2d2 "A"efge|1 "D"f2d2 d2fg:|2 "D"f2d2 d2||
 % abcbook-tune_id 62828a3aed26097871928af1
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431086
 % abc-sessionorg_id 1285
@@ -1255,7 +1304,8 @@ V:1
 A|"D" FA/A/ Ad|fe d2|"G" BA Bd|"A" e>f eA|"D" FA/A/ Ad|fe d>c|"G" BA"A" Bc|"D"d2 d:|! e|"D" f2 e2|"D" dA/A/ BA|"G" g2 f2|"A" eA/A/ BA|"D" f2 e2|dA/A/ BA|"G" BA"A" Bc|"D" d2 d:|
 % abcbook-tune_id 62828a3a7e0d5d8ba323b83c
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431087
 % abc-sessionorg_id 17928
@@ -1278,7 +1328,8 @@ V:1
  "G"B2g2"A"fedc|1 "D"d6(fg):|2 "D"d6 (3ABc||
 % abcbook-tune_id 62828a3afbcd99d60594f4d9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431088
 % abc-sessionorg_id 3471
@@ -1301,7 +1352,8 @@ A2|:"G" B2 d2 G2 A2|"G" G3 A G2 D2|"G" B2 d2 G2 d2|"C" e2 g4 fe|
  "G" gfed g3 B|"Am" A2 A2 c3 d|"C" e2 B2 "D" A3 G|"G" G6:|
 % abcbook-tune_id 62828a3a097d2afc7e223c5b
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431090
 % abc-sessionorg_id 3727
@@ -1324,7 +1376,8 @@ D|:   "G"G>A B/A/G/F/|   "C"E2e2|   "G"dB c/B/A/G/|   "D"A/G/F/E/ DD |
  "G"G>A B/A/G/F/| "C"  E2e2|  "G" dB "D"c/B/A/B/|  "G" G4:|
 % abcbook-tune_id 62828a3a3abfd2a232577b9f
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431091
 % abc-sessionorg_id 2466
@@ -1347,7 +1400,8 @@ V:1
  gf ed|Bc d2|c/B/A/G/ F/G/A/c/|BG G2:|
 % abcbook-tune_id 62828a3ab1bbc0b16d999bfe
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431092
 % abc-sessionorg_id 85
@@ -1370,7 +1424,8 @@ D2|:GF GA B2 B2|GF GA B2 B2|dc Bc A2 A2|dc Bc A2 A2|
  d3 c B2 d2|g2 g2 d2 z2|dc Bc Ac BA|1 G2 B2 G2 B2:|2 G2 B2 G2||
 % abcbook-tune_id 62828a3aeeccbd9d13faf714
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431093
 % abc-sessionorg_id 3697
@@ -1393,7 +1448,8 @@ FG|:"D"AFDF AFDF|A2d2 "G"d2cB|"D"AFDF AFDF|"E7"G2E2 "A7"E2FG|
  "D"fdAd fagf|"Em"ecAc "A7"egfe|"D"fafd "A7"egec|"D"e2d2 d2:|
 % abcbook-tune_id 62828a3a9cd15b562b4dbed4
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431094
 % abc-sessionorg_id 1356
@@ -1416,7 +1472,8 @@ V:1
  g3 gfe dBA G3|BAB d2e B2A A3:|
 % abcbook-tune_id 62828a3a68343df435e686e0
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431095
 % abc-sessionorg_id 53
@@ -1439,7 +1496,8 @@ E|:F2 F FED|F2 A B2 A|F2 F FED|E3 EDE|
  d2 A B2 A|d2 A B2 A|FGF EFE|D3 D2:|
 % abcbook-tune_id 62828a3a1aefae15e143d812
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431096
 % abc-sessionorg_id 1218
@@ -1462,7 +1520,8 @@ G/A|:B2 D D>ED|E2 G G2 e|d2 B B>AG|A2 A A>Bc|
  d2 d d>ef|g2 g g>fe|d2 B ABA|G3 G3/2:|
 % abcbook-tune_id 62828a3a5f77fe7082dd41b8
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431097
 % abc-sessionorg_id 1232
@@ -1487,7 +1546,8 @@ a|:f2 d ecA|ded d2 e|f2 d def|gfg a2 g|
  d2 A d2 e|f2 d f2 g|aAA ABc|1 ded d2:|2 ded dag||
 % abcbook-tune_id 62828a3a7da8adb2367c1a03
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431099
 % abc-sessionorg_id 8252
@@ -1510,7 +1570,8 @@ B|"D" A2 D EFD E2 A A2 f|"G" g2 e "(D)" f2 d "A" e2 d Bcd|
  "D" d2 e f3 "G" gfe "D" f2 g|1 "D" a2 f "A" efe "D" d3 d2:|2 "D" a2 f "A" efe "D" d3 dcB||
 % abcbook-tune_id 62828a3aec019a5165d094bf
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431100
 % abc-sessionorg_id 159
@@ -1530,7 +1591,8 @@ V:1
 |:"G"g2dB2 g "D"f2 d c3 | "D"ded c2A "G"dedB2d| "G"g2d B2 "D"g f2d c2B |"C" ABc "D"def "G"g3 g3:|
 % abcbook-tune_id 627e2b1f3cdbbbfc0e893656
 % abcbook-boost 1
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431101
 
@@ -1549,7 +1611,8 @@ GA| "G"B2 AB D2GA| B3A G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) Bc|
     "G"B2 AB D2GA| "B7"B3A "Em"G2 DD| "C"E2 G2 "D7"G2 A2| "G"(G4 G2) |]
 % abcbook-tune_id 627e2b1f80364b35a6ecdb5f
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431102
 
@@ -1568,7 +1631,8 @@ B2c2|: "G"d4 d2B2 | d2c2B2A2| "C"G6 A2 |E4 G2E2|"G"D4E2G2  | G4 A2B2|"Am"c6 "C"B
 "G"d6 B2 | d2c2B2A2| "C"G4 A4|  E4 G2E2|"G"D6E2 |"C"G6A2|"G"G4 G4 | G4 B2c2:|
 % abcbook-tune_id 627e2b1f3ecf456cfd72468e
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431103
 
@@ -1588,7 +1652,8 @@ DF|:"D"A2 A>B|AF ED|f2 f2|ed Bd|A2 A>B|AF ED|"A"E2 E>F|E2 DF|
 "D"AD FA|dF Ad|fa gf|"G"ed cB|"D"Ad fa|"A"ge cA|"D"d2 dd|d2:|
 % abcbook-tune_id 627e2b1fb0dcc80785ed270d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431104
 % Rhythm March
@@ -1613,7 +1678,8 @@ A/G/ |:  "Am"EA A/B/c/d/| ed cA| "G"BG G/F/G/A/| B2/A/G/ ED| "Am"EA A/G/A/B/| ee
 |:"Am"a a/g/ e ((3e/f/g/)| a/b/a/g/ e ((3e/f/g/)| a {b}a/f/ "Em"g {a}g/e/| "G"d/e/d/B/ G2| "Am"a/b/a/g/ e ((3e/f/g/)| a/b/a/g/ e d| "Em"Be "G"dB|1 "Am" A3 e:|2  "Am"A3||
 % abcbook-tune_id 627e2b1fbe61e3fb853276fe
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431105
 
@@ -1632,7 +1698,8 @@ e/d/e/f/ g/a/g/f/| "G"dB "Em"gB |1 "Am"BA A2   :|2 "Am"BA Ad ||
 |: "Am"eaa/b/a/g/ | e/d/e/f/ g/a/g/e/ | "G"dG B/A/G/A/ | Bd d2 |"Am" ea a/b/a/g/ | e/d/e/f/ g/a/g/e/ | "G"dB  "Em"gB | "Am" BA A2 :|
 % abcbook-tune_id 627e2b1f878b2032e626e775
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431107
 % Rhythm March
@@ -1659,7 +1726,8 @@ V:1
 [2 A/G/A/B/ dB|"G"AG g>e|"Am"dd "G"B/d/B/G/|"Am"A2 AE||
 % abcbook-tune_id 627e2b1f7d154930d2e6dda1
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431108
 % Rhythm March
@@ -1686,7 +1754,8 @@ V:1
 "Am"a a2 g e d2 e|"G"g>a ge dB G2|"Am"A>B cd "G"e2 dB|"Am"A>B "Em"AG "Am"A4||
 % abcbook-tune_id 627e2b1f20bdc66989e7a408
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431109
 
@@ -1710,7 +1779,8 @@ A2G2F2| "C"E2>c2G2 |E2>C2E2| G2>c2G2 |E2>C2E2| "D"D2>E2D2 |
 D2>E2D2|D2>E2D2| D6:|
 % abcbook-tune_id 627e2b1f8a8785650c93abab
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431111
 % Rhythm March
@@ -1731,7 +1801,8 @@ V:1
 |:"G"dcBd gdBd|(3gfg "D" af "G"gdBf|g2 (3fgf "A"ed^cd|(3efe d^c "D"d2 (3def| "G"g2dc (3BdB (3GAB|"A"(3cec (3AcA "D"(3FAF DF|"G"GBdB "D"cAFG|"A"(3ABA GF "G"G2:|
 % abcbook-tune_id 627e2b1fa5ba487e8a4bb91d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431112
 
@@ -1746,7 +1817,8 @@ V:1
 |:"Em"gfeg "D"fedf|"C"edef edBd|gfgd edBG|"Am"ABAG "D"EDEF|"G"GFGB AGED|GBdg "C"e2df|gfgd edBG|"D"ABAF "G"G4:|
 % abcbook-tune_id 627e2b1f6814c62fb4331c8e
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431114
 
@@ -1765,7 +1837,8 @@ dB|:"Bm" (3ABA "D"FA D2 FA|"Bm"BG (3Bcd "A" e2 de|"D"fa gf "A7"egfe|"D"dfed "Bm"
 "D"dfed "Bm"B2 dB|"Bm" (3ABA "D"FA D2 FA|"Bm7" BA (3Bcd "Em"e2de|"D"fagf "A7"egfe|1 "D"d2 f2 d2 fg:|2 "D"d2 f2 d2 z2||
 % abcbook-tune_id 627e2b1fc76191f0c4006a9a
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431115
 
@@ -1785,7 +1858,8 @@ A>F|:"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"A"e>Af>A g>Af>A|(3efe (3dcB (3ABA (3GFE|
 (3efe (3dcB (3ABA (3GFE|"D"D>AF>A D>AF>A|d>ef>e d>cB>A|"A"e>Af>A g>ec>e|"D"d2f2d2:|
 % abcbook-tune_id 627e2b1fbf00b67dcaa3f0c0
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431117
 % Rhythm Hornpipe
@@ -1811,7 +1885,8 @@ dc|:"G"BGDG BGDG|(3gag fg "C"e2dc|"G"BGDG BGDG|"Am"dcB<c "D7"A2dc|
 "G"gfgd "C"e2"G"d2|"Am"cBAB "D7"cdef|"G"gfgd "D7"ecAF|"G"G2B2G2:|
 % abcbook-tune_id 627e2b1f96f1b48d123668f7
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431118
 % Rhythm Hornpipe
@@ -1839,7 +1914,8 @@ V:1
 (3"G"GGG G2 (3"G7"=FFF F2|(3"C"EEE E2 (3"Cm"_EEEE2|"D7"D2fe dcBA|1"G"G2B2 G2 ^c2:|1"G"G2B2 G4 ||
 % abcbook-tune_id 627e2b1fe09acd638d7429c6
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431120
 % Rhythm Hornpipe
@@ -1865,7 +1941,8 @@ DEF|:"G"GdBG "D"FcAF|"G"(3GFG "D"BG "G"D2GF|"C"EAAB "Am"cBAG|"C"(3FED d^c "D"ed 
 "B7"B3A "E"^GBe2|"A"A3G "D"FAd2|"C"(3efg fe "D"(3ded (3cBA|1"G"G2"D"(3AGF "G"G2 AG:|2"G"G2"D"(3AGF "G"G4||
 % abcbook-tune_id 627e2b1f28b17a6d5ce35c5d
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431121
 % Titles One title
@@ -1890,7 +1967,8 @@ GA|:"Em"(3BcB (3ABA (3GAG (3FGF|EFGA B2 e-f|gfed edcB|"Am"cBAG "B7"A2 GA|
 "Em"eBeg "D"fdfa|"Em"gfga bgef|gfed "B7"Bg (3fgf|1 "Em"e2E2E2 ga:|2 "Em"e2E2 E4 ||
 % abcbook-tune_id 627e2b1fd0f1475811b20941
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431123
 % Titles One title
@@ -1916,7 +1994,8 @@ V:1
 "Am"eaag a2ga|bgab gfed|"G"eg~g2 "Am"edBc|"Em"dBgB "Am"BA ~A2:|
 % abcbook-tune_id 627e2b1fd0fa6c392b6d8820
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431125
 % Rhythm Reel
@@ -1946,7 +2025,8 @@ V:1
 "Am"eaa2 eaag|~a3b aged|"G"~B3d "Am"gaba|"Em"gedB "Am"BAAG||
 % abcbook-tune_id 627e2b1f257038081e5e3f31
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431126
 % Rhythm Reel
@@ -1974,7 +2054,8 @@ DE|:"G"G2DG "Em"EGDE|"G"G2BG "C"AGEG|"Am"A2EA "D"FA"A"EA|ABcd "C"edBA|
 "G"g2dg "C"eg"G"de|g2bg "Am"aged|"C"cBcd efge|1"G"dB"D"AB "G"G2Bd:|2"G"dB"D"AB "G"G4||
 % abcbook-tune_id 627e2b1f7a30f5744717c36a
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431128
 % Rhythm Reel
@@ -1999,7 +2080,8 @@ V:1
  "G" dggf g2 dg|(3ggg bg ageg|"G" (3ddd Bd eg{/a}ge|"D" dBAB"G" G2:|
 % abcbook-tune_id 627e2b1f97b518588f3e80cc
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431129
 
@@ -2022,7 +2104,8 @@ g/2f/2|:"Am"e/2A/2 (3A/2A/2A/2 e/2A/2c/2A/2|"Em"B/2d/2e/2f/2 "D7"g/2e/2d/2B/2|\
 "C"a/2f/2g/2e/2 "Em"d/2f/2e/2d/2|1"G"c/2A/2B/2G/2 "Am"A  B/d/:|2"Em"c/2A/2B/2G/2 "Am"A2||
 % abcbook-tune_id 627e2b1f16f4bfaaf120c9de
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431131
 % Nottingham Music Database
@@ -2050,7 +2133,8 @@ V:1
 "Am"ge e2 gede| ge e2 "G"a2 ga | "Am"bgab "G"gabg |"Am"efge "G"dBAG ||
 % abcbook-tune_id 627e2b1f46c732833ba6bcc9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431132
 % Rhythm Reel
@@ -2077,7 +2161,8 @@ V:1
  "D"d2 fd "A"c2 ec|"D" de fg "D"af "Em"ge|"D" af"Em"ge "D"fd"Em"ec|"G" BA Bc "D"dA FD||
 % abcbook-tune_id 627e2b1f7feb55670add5205
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431134
 
@@ -2095,7 +2180,8 @@ V:1
 |:"D"ABde fdef | "G"g2fg eddc | "D"ABde faab |1 "A"afdf "D"efdB :|2 "A"afdf "D"e2d2||
 % abcbook-tune_id 627e2b1f9731a910c7e3e3e0
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431135
 % Rhythm Reel (key of d)
@@ -2123,7 +2209,8 @@ AG|: "D" FA ~A2 BAFA | "D" dfed "G" BcdA | "D" FA ~A2  BAFA | "G" dfed "A" B2 A2
 "D" faaf   bfaf | gfed "G" Bdef | "Em" ~g3 e "D" ~f3 e | "G" dfed "A"   B2 A2 :|
 % abcbook-tune_id 627e2b1fd0f4895d24b7691e
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431137
 % Rhythm Reel
@@ -2151,7 +2238,8 @@ V:1
 "G"BG~G2 EGDE|"D"G2fg edBA|"G"G2BG DGBG|1 "C"AGFA "G"G2:Bc:|2 "C"AGFA "G"G4||
 % abcbook-tune_id 62828e90a51010c7a7da154c
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431138
 
@@ -2171,7 +2259,8 @@ AB |: "D" d2 dA    "A" BAFA | "D" ABdA  "A" BAFA | "D" ABde   f2  ed | "G" Beed 
      "D" abag   "A" fgfe | "D" dcdA  "A" BAFA | "D" ABde "G" fdec |1 "A" dBAF  "D" D2 fg :|2 "A" dBAF  "D" D4 ||
 % abcbook-tune_id 627e2b1ffa25bed2f04f8ec3
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431140
 % Rhythm Reel
@@ -2196,7 +2285,8 @@ V:1
  |:"Em"B2 eB gBeB|B2 ed "D"BAGA|1 "Em"B2 eB gBga|"D"gedB A2 GA:|2 "Em"Bd ef g2 ga|"D"gedB A2 GA||
 % abcbook-tune_id 627e2b1f5daaf2959a302024
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431141
 
@@ -2217,7 +2307,8 @@ V:1
 "Am"eaag egdc|"G"BAGA Bcd2|"Am"~e3f "Em"gaaf|"G"gedB "Am"A2 (3Bcd||
 % abcbook-tune_id 628292927360bc0c8a6f94c3
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725458947
 
@@ -2235,7 +2326,8 @@ V:1
 "A"{A}cA eA fA eA|cdef "G"g2 fg|"A"af ge fd ec|"G"Bcdc BG G2:|
 % abcbook-tune_id 627e2b1f73568a2ffcc50d60
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431144
 % Titles One title
@@ -2258,7 +2350,8 @@ V:1
 "D"afaf "A"edcB|cA"Em"BG AFGE|"D"DAFA DAFA|"Em"GEBE GEBE|"D"FAdc BAGF|"A7"EFGA Bcde|A2"D"d2 fedc|d8:|
 % abcbook-tune_id 627e2b1f2d4f1346a4a22a70
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431146
 
@@ -2279,7 +2372,8 @@ B2|:"Em"EDEF GFGA|B2 B2 "G"G3 A|"Em"B2 E2 EFGE|"D"FGFE D3 B|
  B2 E2 EFGA|"G"B2 e2 "Em"edef|e2 B2 "D"BAGF|"Em"E2 ED E4:|
 % abcbook-tune_id 627e2b1f09d1469e67c43196
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431147
 
@@ -2301,7 +2395,8 @@ D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G4 D2|"C"E2 G2 G2|"G"G2 A2 B2|"Bm"B2 e2 d
 "G"d2 d2 gd|"Em"B2 B2 dB|"D"A3 c BA|"G"G4||
 % abcbook-tune_id 627e2b1f3a4fad2d7ff8cc23
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431149
 
@@ -2321,7 +2416,8 @@ de \
 | "A7"F4 E2 | "D"D4 f2 | "G"B4 e2 | "D"A4 a2 | "G(Em)"ba gf ed | "A"e4 dc | "G"d4 dc |1 "D"d4 de :|2 "D"d6||
 % abcbook-tune_id 627e2b1f6b5eecde72a774d9
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431151
 % Titles One title
@@ -2347,7 +2443,8 @@ d|:"G"g2f "C"e>fg|"G"d2c "Em"B>AG|"C"c2A "G"B>cd|"D7"F2G A2f|
 "G"g2f "C"e>fg|"G"d2c "Em"B>AG|"Am"c2A "G"B>cd|"C"GA "D7"F "G"G3:|
 % abcbook-tune_id 627e2b1fe4469775ff5c1602
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431153
 % Rhythm Jig
@@ -2377,7 +2474,8 @@ GA | "G"B2D3D|"Am7"E2G3A|"G"B6-|B4GA|B2D3D|
 "C"E2c3A|"G"B6-|B3GAG|"C"E2"D"D2D|"Am7"EG3"D"A2|"G,"G6-|G4||
 % abcbook-tune_id 627e2b1fbdc320ef3fced614
 % abcbook-boost 0
-% abcbook-tablature 
+% abcbook-tablature
+% abcbook-repeats 3 
 % abcbook-transpose 
 % abcbook-lastupdated 1652725431155
 % Rhythm Waltz

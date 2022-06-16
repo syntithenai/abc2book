@@ -17,6 +17,8 @@ export default function HomePage(props) {
       <div id="welcometext" >
       <h3  >Learn session tunes here !</h3> 
       <div>Try a curated tunebook. <Link to="/import/begged borrowed and stolen" ><Button size="sm" >Begged Borrowed and Stolen</Button></Link>  
+      <Link to="/import/christmas songs" ><Button size="sm" >Xmas Songs</Button></Link>  
+      <Link to="/import/kids songs" ><Button size="sm" >Kids Songs</Button></Link>  
       <ImportCollectionModal label="..." forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={function() {}}/>
       </div>
       <br/>

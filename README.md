@@ -36,7 +36,7 @@ eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); 
 ## other links
 
 - https://github.com/WebAudio/web-audio-api/issues/2423
-
+- https://web.dev/service-worker-lifecycle/
 
 
 

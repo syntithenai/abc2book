@@ -4,11 +4,17 @@ import TempoControl from './TempoControl'
 import GoogleAd from './GoogleAd'
 import ShareTunebookModal from './ShareTunebookModal'
 import {isMobile} from 'react-device-detect';
+import {useNavigate, useParams} from 'react-router-dom'
 
 export default function Header(props) {
     var location = useLocation()
+    var navigate = useNavigate()
+    //var params = useParams() // empty  ???
+    var parts = location.pathname.split("/")
+    var params = {tuneId: parts.length === 3 ? parts[2] : null}
+    
     if (location.pathname.startsWith('/print')) return null
-    //console.log(location)
+    //console.log("param  ",params,location)
     return <header className="App-header" style={{zIndex:11}}>
         <span style={{marginRight:'2em'}} >
            <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.search}</Button></Link>
@@ -19,12 +25,29 @@ export default function Header(props) {
                    <Link to="/recordings" ><Button  variant="info" size="lg"  style={{marginLeft:'0.1em', color: 'black',  border: (location.pathname.startsWith('/recordings') ? '1px solid black' : '')}} >{props.tunebook.icons.recordcircle}</Button></Link>
                    
                 
-                   <Link to="/settings" ><Button variant="info"  size="lg"  style={{marginLeft:'0.1em', color: 'black',  border: (location.pathname.startsWith('/settings') ? '1px solid black' : '')}} >{props.tunebook.icons.settings}</Button></Link>
-                  
-                  <Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button style={{marginLeft:'0.1em', color: 'black',  border: (location.pathname.startsWith('/help') ? '1px solid black' : '')}} variant="info" size="lg" >{props.tunebook.icons.question}</Button></Link>
-                  
+                    
+                  <Dropdown style={{display:'inline', marginLeft:'0.1em'}}>
+                  <Dropdown.Toggle variant="info" id="dropdown-header" style={{height:'3em'}}>
+                  </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                       <Dropdown.Item ><Link to="/chords" ><Button  size="lg" variant="info"  >{props.tunebook.icons.guitar} Chords</Button></Link> </Dropdown.Item>
+                        
+                        <Dropdown.Item ><Link to="/metronome" ><Button  size="lg" variant="info"  >{props.tunebook.icons.metronome} Metronome</Button></Link> </Dropdown.Item>
+                        
+                        <Dropdown.Item ><Link to="/tuner" ><Button  size="lg" variant="info"  >{props.tunebook.icons.tuner} Tuner</Button></Link> </Dropdown.Item>
+                                            
+                       <Dropdown.Item ><Link to="/settings" ><Button  size="lg" variant="warning"  >{props.tunebook.icons.settings} Settings</Button></Link> </Dropdown.Item>
+                       <Dropdown.Item ><Link  to='/' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button size="lg" variant="info" >{props.tunebook.icons.home} Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link> </Dropdown.Item>
+                       <Dropdown.Item ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button size="lg" variant="info" >{props.tunebook.icons.question} Help &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link> </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown> 
                   {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
-              
+                  
+                    
+                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{marginLeft:'1em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
+                
+                    
+                
                 </>
             }
             
@@ -44,6 +67,7 @@ export default function Header(props) {
                   
                    {props.token ? <Dropdown.Item ><Button  style={{ color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout} Logout</Button></Dropdown.Item > : <Dropdown.Item ><Button style={{color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login} Login</Button></Dropdown.Item >}
               
+                    
                 
               </Dropdown.Menu>
             </Dropdown>}

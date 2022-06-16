@@ -2,10 +2,13 @@ import './App.css';
 import Header from './components/Header'
 import HomePage from './pages/HomePage'
 import PrintPage from './pages/PrintPage'
+import TunerPage from './pages/TunerPage'
+import MetronomePage from './pages/MetronomePage'
 import CheatSheetPage from './pages/CheatSheetPage'
 import ReviewPage from './pages/ReviewPage'
 import MenuPage from './pages/MenuPage'
 import MusicPage from './pages/MusicPage'
+import ChordsPage from './pages/ChordsPage'
 import SettingsPage from './pages/SettingsPage'
 import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
@@ -42,21 +45,20 @@ import {isMobile} from 'react-device-detect';
 import useRecordingsManager from './useRecordingsManager'
 import useGoogleLogin from './useGoogleLogin' 
 import useGoogleDocument from './useGoogleDocument' 
-
 //import GoogleLogin from './GoogleLogin'
 
 function App(props) {
   
-  //return <GoogleLogin />
+   //return <GoogleLogin />
   
   let params = useParams();
   let dbTunes = {}
   let utils = useUtils();
   let abcTools = useAbcTools();
-  window.onclick=function(e) {
-    console.log('clickdoc',e.y) //,e.screenY,e.x,e.screenX)
-    //window.scrollTo(0,e.y)
-  }
+  //window.onclick=function(e) {
+    //console.log('clickdoc',e.y) //,e.screenY,e.x,e.screenX)
+    ////window.scrollTo(0,e.y)
+  //}
 
   var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   
@@ -305,6 +307,12 @@ function App(props) {
                     
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
                     
+                    <Route  path={`chords`} >
+                      <Route index element={<ChordsPage  tunebook={tunebook}    />}  />
+                      <Route  path={`:instrument/:chordLetter`} element={<ChordsPage  tunebook={tunebook}    />} />
+                      <Route  path={`:chordLetter`} element={<ChordsPage  tunebook={tunebook}    />} />
+                    </Route>
+                    
                     <Route  path={`cheatsheet`} >
                       <Route index element={<CheatSheetPage googleDocumentId={googleDocumentId} token={token} tunes={tunes}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}     />}  />
                       <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}   />} />
@@ -318,6 +326,8 @@ function App(props) {
                       <Route  path={`:tuneId`} element={<ReviewPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh}  tunebook={tunebook}    />} />
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
+                    <Route  path={`tuner`}   element={<TunerPage  tunebook={tunebook}    />}  />
+                    <Route  path={`metronome`}   element={<MetronomePage  tunebook={tunebook}    />}  />
                     <Route  path={`tunes`}     >
                       <Route
                         index 

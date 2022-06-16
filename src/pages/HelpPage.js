@@ -33,7 +33,7 @@ export default function HelpPage(props) {
            </li>
            <li>Record your practice so you can hear what you sound like.</li>
            <li>Share individual tunes, whole books and recordings by email or direct to Facebook.</li>
-           
+           <li>Show tablature notation for any tune.</li>
           <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
           <li>Print a paginated book including the index, cheatsheet and music.</li>
           
@@ -50,7 +50,7 @@ export default function HelpPage(props) {
       <li>Almost all the features work without Internet. The main exception being access to online tune resources. Once you have imported some tunes they will be available without Internet.</li>
       <li>Mobile devices will show an option to install the software as an App.</li>
       </ul>
-      <div style={{fontSize:'1.7em'}}>
+      <div style={{fontSize:'1em'}}>
       You can optionally log in to the Tune Book using your Google Account using the green button <Button variant="success">{props.tunebook.icons.login}</Button> on the top menu. 
       <br/><br/>
       Once logged in, all changes to your Tune Book by adding, deleting or editing tunes are saved to your Google Drive. Additionally any audio recordings are saved to your Google Drive.
@@ -96,7 +96,7 @@ export default function HelpPage(props) {
       Chords entered as <i>eg C|F G|G F F C|C . G C</i> are used to generate abc notation.
       </Tab>
       <Tab eventKey="review" title="Review">
-      <div style={{fontSize:'1.7em'}}>The brain buttons can be used to set a confidence score for a song. 
+      <div style={{fontSize:'1em'}}>The brain buttons can be used to set a confidence score for a song. 
       <br/><br/>
       The brain button in the top menu shows the review page where tunes that have any confidence score are shown, least confident tunes first and the tempo adjusted for the confidence level.
       
@@ -105,6 +105,8 @@ export default function HelpPage(props) {
       </Tab>
       <Tab eventKey="recording" title="Recording">
       The microphone button in the top menu, starts the song playing and records through the microphone at the same time so you can hear what your practice sessions sound like. Press stop to finish and save the recording.
+      <br/><br/>
+      Use headphones to exclude the generated audio from your recording.
       <br/><br/>
       Saved recordings for the current tune are listed under the recording button dropdown.
       <br/><br/>

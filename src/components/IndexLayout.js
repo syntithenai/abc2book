@@ -170,7 +170,7 @@ export default function IndexLayout(props) {
         {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected} />}
         
         {countSelected() > 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(selected).length}/{filtered.length} tunes selected</span>}
-        {countSelected() === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(selected).length} matching tunes</span>}
+        {countSelected() === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
         
         </div>}
         

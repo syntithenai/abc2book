@@ -101,7 +101,7 @@ export default function SelectedItemsModal(props) {
   return (
     <>
       <Button  variant="secondary" onClick={handleShow}>
-        {props.tunebook.icons.arrowdown}
+        {props.tunebook.icons.dropdown}
       </Button>
 
       <Modal show={show} onHide={handleClose}>

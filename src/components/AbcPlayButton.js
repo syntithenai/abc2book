@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import QuickPlayButton from '../components/QuickPlayButton'
 
-export default function AbcPlayButton({tune, started, ready, isPlaying, clickInit, clickPlay, clickStopPlaying, tunebook, forceRefresh}) {
+export default function AbcPlayButton({tune, started, ready, isPlaying, clickInit, clickPlay, setIsPlaying, clickStopPlaying, tunebook, forceRefresh}) {
     //console.log('button',tune)
     
     const [isRecording, setIsRecording] = useState(false) 
@@ -85,7 +85,7 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
     } else {
         if (!ready) {
           if (!isPlaying) {
-            return <Button id="abcplaybutton" className='btn-secondary' size="lg"  style={{float:'right'}}   >
+            return <Button  id="abcplaybutton" className='btn-secondary' size="lg"  style={{float:'right'}}   >
               {tunebook.icons.timer}
               {tunebook.icons.start}
             </Button>

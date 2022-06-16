@@ -7,12 +7,10 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
-
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
-  
   // from old data
   var dbTunes = {}
   //indexes.resetBookIndex()
@@ -21,7 +19,100 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //indexes.indexTune(tune)
     //dbTunes[tune.id] = tune
   //})
-    
+     
+  function navigateToNextSong(currentSongId, navigate) {
+    console.log("NEXT")
+    var useTunes = tunes
+    if (currentTuneBook) {
+      useTunes = {}
+      Object.values(tunes).forEach(function(val) {
+        if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
+          console.log(val, val.books)
+          useTunes[val.id] = val
+        }
+      })
+    } 
+    function doFallback() {
+      // fallback to first song
+      if (Object.keys(useTunes).length > 0)  {
+        var next = useTunes[Object.keys(useTunes)[0]]
+        if (next && next.id) {
+          navigate('/tunes/' + next.id)
+        }
+      }
+    }
+    if (currentSongId) {
+      // find tune index allowing tunebook filter
+      var i = 0
+      var found = null
+      while (i < Object.keys(useTunes).length) {
+         var theTune = useTunes[Object.keys(useTunes)[i]]
+          if (theTune && (theTune.id === currentSongId)) {
+            var next = i + 1 % Object.keys(useTunes).length
+            if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
+              found = useTunes[Object.keys(useTunes)[next]].id
+              break;
+            }
+          }
+          i++
+      }
+      if (found) {
+        navigate('/tunes/' + found)
+      } else {
+        doFallback()
+      }
+    // no current tunebook means only tunes with no books
+    } else {
+      doFallback()
+    }
+  }
+  
+  function navigateToPreviousSong(currentSongId, navigate) {
+    console.log("PREV")
+    var useTunes = tunes
+    if (currentTuneBook) {
+      useTunes = {}
+      Object.values(tunes).forEach(function(val) {
+        if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
+          console.log(val, val.books)
+          useTunes[val.id] = val
+        }
+      })
+    } 
+    function doFallback() {
+      // fallback to first song
+      if (Object.keys(useTunes).length > 0)  {
+        var next = useTunes[Object.keys(useTunes)[0]]
+        if (next && next.id) {
+          navigate('/tunes/' + next.id)
+        }
+      }
+    }
+    if (currentSongId) {
+      // find tune index allowing tunebook filter
+      var i = 0
+      var found = null
+      while (i < Object.keys(useTunes).length) {
+         var theTune = useTunes[Object.keys(useTunes)[i]]
+          if (theTune && (theTune.id === currentSongId)) {
+            var next = i - 1 % Object.keys(useTunes).length
+            if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
+              found = useTunes[Object.keys(useTunes)[next]].id
+              break;
+            }
+          }
+          i++
+      }
+      if (found) {
+        navigate('/tunes/' + found)
+      } else {
+        doFallback()
+      }
+    // no current tunebook means only tunes with no books
+    } else {
+      doFallback()
+    }
+  }
   
   function saveTune(tune, skipTimestampUpdate = false) {
     //console.log('save tune', tune, tunes)
@@ -489,6 +580,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
   }
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong};
 }
 export default useTuneBook

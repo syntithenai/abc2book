@@ -54,18 +54,22 @@ function BoostSettingsModal(props) {
           <Modal.Title>Confidence</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Button variant="primary" onClick={boostUp}>
-            {props.tunebook.icons.arrowup}
-          </Button>
-          &nbsp;&nbsp;
-          <input size="6" type="text" value={boost} onChange={function(e) {setBoost(e.target.value)}}  onBlur={function(e) {props.onChange(boost) }} />
-          &nbsp;&nbsp;
-          <Button variant="primary" onClick={boostDown}>
-            {props.tunebook.icons.arrowdown}
-          </Button>
+          <h4>{props.value} </h4>
+          <input style={{width:'100%'}} type="range"  name="boost" min="0" max="20" step="1" value={props.value} onChange={function(e) {props.onChange(e.target.value) }}  />
         </Modal.Body>
       </Modal>
     </>
   );
 }
+
+//<Button variant="primary" onClick={boostUp}>
+            //{props.tunebook.icons.arrowup}
+          //</Button>
+          //&nbsp;&nbsp;
+          //<input size="6" type="text" value={boost} onChange={function(e) {setBoost(e.target.value)}}  onBlur={function(e) {props.onChange(boost) }} />
+          //&nbsp;&nbsp;
+          //<Button variant="primary" onClick={boostDown}>
+            //{props.tunebook.icons.arrowdown}
+          //</Button>
+
 export default BoostSettingsModal
