@@ -21,7 +21,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
      
   function navigateToNextSong(currentSongId, navigate) {
-    console.log("NEXT")
+    //console.log("NEXT")
     var useTunes = tunes
     if (currentTuneBook) {
       useTunes = {}
@@ -68,7 +68,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function navigateToPreviousSong(currentSongId, navigate) {
-    console.log("PREV")
+    //console.log("PREV")
     var useTunes = tunes
     if (currentTuneBook) {
       useTunes = {}
@@ -115,10 +115,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function saveTune(tune, skipTimestampUpdate = false) {
-    //console.log('save tune', tune, tunes)
+    //console.log('save tune', tune.id , tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
-      if (!tune.id) tune.id = utils.generateObjectId()
+      if (!tune.id) {
+        //console.log('create id')
+        tune.id = utils.generateObjectId()
+      }
       if (skipTimestampUpdate) {
         // only if missing
         if (!tune.lastUpdated) tune.lastUpdated = new Date().getTime() 
@@ -132,7 +135,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       indexes.indexTune(tune)
       updateTunesHash(tune)
       setTunes(tunes)
-      //console.log('set tunes', tune, tunes)
+      console.log('set tunes', tune, tunes)
       saveTunesOnline()
     }
     return tune
@@ -149,15 +152,15 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
     
   function deleteTunes(tuneIds) {
-    console.log('delete tunes',tuneIds, tunes)
+    //console.log('delete tunes',tuneIds, tunes)
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
       tuneIds.forEach(function(tuneId) {
-        console.log('deleting',tuneId,tunes[tuneId])
+        //console.log('deleting',tuneId,tunes[tuneId])
         //indexes.removeTune(tunes[tuneId], indexes.bookIndex)
         delete tunes[tuneId]
       })
-      console.log('deleted',tuneIds)
+      //console.log('deleted',tuneIds)
       setTunes(tunes)
       saveTunesOnline()
       //forceRefresh()

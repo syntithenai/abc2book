@@ -1,6 +1,7 @@
 import {Fraction} from './Fraction'
 import abcjs from "abcjs";
 import useUtils from './useUtils'
+import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -168,8 +169,9 @@ var useAbcTools = () => {
                 }
             } else if (isDataLine(line)) {
                 if (line.startsWith('% abcbook-tune_id')) {
-                    tune.id = line.slice(18).trim()
-                } else  if (line.startsWith('% abcbook-boost')) {
+                    tune.id = line.slice(17).trim()
+                    //console.log('FOUNDID',tune.id,line)
+                } else if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
@@ -189,7 +191,9 @@ var useAbcTools = () => {
             } else if (isNoteLine(line)) {
                 //console.log('LINE ISNOTE', line)
                 if (line.trim().length > 0) {
-                    if (line.trim().startsWith('[V:') && line.indexOf(']') !== -1 ) {
+                    if (line.startsWith('%%MIDI transpose')) {
+                        tune.transpose = line.slice(16)
+                    } else if (line.trim().startsWith('[V:') && line.indexOf(']') !== -1 ) {
                         var key = line.slice(1,line.indexOf(']'))
                         //console.log(key)
                         var voiceNotes = line.slice(line.indexOf(']')+1)
@@ -1213,7 +1217,7 @@ var useAbcTools = () => {
   
   
   function parseAbcToBeats(abcAll) {        
-        //console.log('parseabc',abcAll)
+        //console.log('parseabc',abcAll ? abcAll.length : 'NONE', abcAll)
         //var tb = new abcjs.TuneBook(abc)
         //var tuneObj = abcjs.parseOnly(abc)[0];
         var measureTotals = []
@@ -1222,7 +1226,26 @@ var useAbcTools = () => {
         var preText = []
         
         var abcHeader = "X:0\nK:G\n"
-        abcAll.split("\n").forEach(function(abc, lineNumber) {
+        // strip line continuances
+        var abcCleaned = []
+        var current = []
+        abcAll.split("\n").forEach(function(line) {
+            if (line && line.trim().length > 0) {
+                if (line.trim().endsWith('\\')) {
+                    //console.log('line slash',line)
+                    current.push(line.trim().slice(0,-1))
+                } else {
+                    //console.log('line end',line)
+                    current.push(line.trim())
+                    if (current.join('').trim().length > 0) abcCleaned.push(current.join(''))
+                    current = []
+                }
+            }
+            if (current.length > 0 && current.join('').trim().length > 0) abcCleaned.push(current.join(''))
+        })
+        //console.log('cleaned',abcCleaned)
+        
+        abcCleaned.forEach(function(abc, lineNumber) {
             //console.log('try measure',abc)
             var measuresRaw = abcjs.extractMeasures(abcHeader + abc)
             var measures = measuresRaw[0].measures
@@ -1424,8 +1447,8 @@ var useAbcTools = () => {
         return 1
     }
     
-    function renderChords(chords, useDots = true) {
-        //console.log(chords)
+    function renderChords(chords, useDots = true, transpose) {
+        //console.log("reccc",chords)
         if (Array.isArray(chords)) {
             var lastChord = null
             return chords.map(function(chordLines,clk) {
@@ -1442,12 +1465,28 @@ var useAbcTools = () => {
                                 if (chordLetters) {
                                 //return chordBeats.map(function(chordLetters,clk) {
                                     var found = false
-                                    for (var i = chordLetters.length; i >= 0; i--) {
-                                        if (!found && isChord(chordLetters.join('').slice(0,i))) {
-                                            beats.push(chordLetters.join('').slice(0,i))
-                                            lastChord = chordLetters.join('').slice(0,i)
-                                            found = true
-                                        }
+                                    // determine chord name
+                                    
+                                    const parseChord = chordParserFactory();
+                                    var renderOptions = { useShortNamings: true }
+                                    if (transpose) renderOptions.transposeValue = Number(transpose)
+                                    const renderChord = chordRendererFactory(renderOptions);
+
+                                    const chord = parseChord(chordLetters.join(''));
+                                    if (chord.error) {
+                                        console.log("chord parser error",chord.error)
+                                    } else {
+                                        var rendered = renderChord(chord)
+                                        //console.log(chord,rendered);
+                                        //for (var i = chordLetters.length; i >= 0; i--) {
+                                            //if (!found && isChord(chordLetters.join('').slice(0,i))) {
+                                                beats.push(rendered) 
+                                                //chordLetters.join('').slice(0,i))
+                                                lastChord = rendered
+                                                //chordLetters.join('').slice(0,i)
+                                                found = true
+                                            //}
+                                        //}
                                     }
                                     //if (!found && useDots)  beats.push('.')
                                     if (!found) {

@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
+import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 
 export default function TransposeModal(props) {
   const handleClose = () => {
@@ -7,7 +8,7 @@ export default function TransposeModal(props) {
   }
   const handleShow = () => props.setShow(true);
   var tune = props.tune 
-  const [destKey, setDestKey] = useState()
+  const [destKey, setDestKey] = useState('')
   
   //useEffect(function() {
     //setDestKey(transposeKey(props.tune.transpose,props.tune.key))
@@ -33,21 +34,40 @@ export default function TransposeModal(props) {
         //return re
         
     //}
-   
+   var dest = ''
+   //console.log('tk',tune.key)
+   if (tune.key) {
+     //try {
+      const parseChord = chordParserFactory();
+      var config = { useShortNamings: true }
+      if (tune.transpose) config.transposeValue = Number(tune.transpose)
+      const renderChord = chordRendererFactory(config);
+      const destChord = parseChord(tune.key);
+      if (!destChord.error) {
+        dest = renderChord(destChord)
+      }
+      //console.log('tk dd',dest,destChord)
+      //setDestKey(dest)
+      //} catch (e) {
+        //console.log(e)
+      //}
+   }
+      //console.log(renderChord(chord));
   return (
     <>
         <Modal show={props.show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Transpose</Modal.Title>
+          <Modal.Title>Transpose {tune.id}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
           <Form.Group className="mb-3" controlId="key">
-            <div>Notation Key <b>{tune.key}</b></div>
+            {tune.key && <div>Notation Key <b>{tune.key}</b></div>}
+            {dest && <div>Transposed Key <b>{dest}</b></div>}
           </Form.Group>
           <Form.Group className="mb-3" controlId="transpose">
             <Form.Label>Transpose</Form.Label>
-            <Form.Control type="number" value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune)  }}/>
+            <Form.Control type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/>
           </Form.Group> 
         </Modal.Body> 
         
@@ -56,4 +76,4 @@ export default function TransposeModal(props) {
     </>
   );
 }
-//  <div>Transposed Key <b>{tranposeKey(tune.key,tune.tranpose)}</b></div>
+//  

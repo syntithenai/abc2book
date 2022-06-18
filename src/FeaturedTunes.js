@@ -36,7 +36,26 @@ V:1
 "Am" c3 d e2 d/c/B/A/ |"E" ^G A3- .AGFG | F E3 z E (3cBA |: "E"^G8 | "Am"A8 |
  "E"^GABG- GE"Dm"FD |"E" EF^GA BeBA | ^G8 | "Am"A4 z E (3cBA |
 "E" ^GABG GE"Dm"FD |1"E"E4 z E (3cBA :||2  "E"E4 z e "Dm"d/c/B/A/ ||: "E"^GABG- GE "Dm"F/E/F/D/ |
-"E" EF^GA Be "Dm"d/c/B/A/  | "E"^GABG- GE "Dm"F/E/F/D/ |1  "E"E E2 B, EB, E2 :|2 "E"E6 x2 || `
+"E" EF^GA Be "Dm"d/c/B/A/  | "E"^GABG- GE "Dm"F/E/F/D/ |1  "E"E E2 B, EB, E2 :|2 "E"E6 x2 || `,
+"Majnun Nabudam": `X: 30
+T: Majnun Nabudam
+C:Traditional Persian
+M:2/4
+L:1/4
+Q: 1/4=100
+K:Bb ^/A
+V:1 
+F/G/ G/G/ | Gd|c/d/ B/c/|cd|c/d/ B/c/|
+Bc|B/c/ A/B/|Gz|F,/G,/ G,/G,/|G,D| 
+C/D/ B,/C/| CD|C/D/ B,/C/|B,C|B,/C/ A,/B,/|
+G,z/D/|CB,/C/|B, z/D/|CB,/C/|B,zD/|
+CB,/C/|{B,}(A,{G,})z/C/|B,A,/B,/|AG|:F/G//G// G/G/|
+Gd|c/c//d// B/c/|cd|c/c//d// B/c/|Bc|
+B/B//c// A/B/ |1Gz:|2G z/d/||cB/c/|Bz/d/|
+cB/c/|Bz/d/|cB/c/|{B}(A {G})z/c/|BA/B/|
+AG/C/|Gz|]
+% abcbook-repeats 2
+%%graceslurs 0`
 }
 
 

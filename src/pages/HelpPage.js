@@ -15,13 +15,14 @@ export default function HelpPage(props) {
           <li>Search and import tunes from thesession.org.</li>
           <li>Search and import tunes from the included database of abc format tunes scraped from the web.</li>
           <li>Use wizard tools to fix and apply transformations to music.</li>
+          <li>Transpose a tune quickly by clicking on the key signature.</li>
           <li>Search for lyrics.</li>
           <li>Generate abc notation from chords. </li>
           <li>Organise tunes into books.</li>
           <li>Use the Tune Book without Internet access (with the songs you have already imported)</li>
           <li>Login using Google to keep a copy of your whole tune book a Google Document. Audio recordings are also saved to Google Drive.</li>
           <li>Synchronise changes between your devices so tunes you add on your phone turn up on your computer.</li>
-          <li>Listen to the tunes and set the tempo.</li>
+          <li>Listen to the tunes and set the tempo (double click the play button to start from the beginning).</li>
           <li>Add tunes to a review list with a confidence score for review mode.</li>
           <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
           <li>Review tunes by listening and playing
@@ -55,7 +56,7 @@ export default function HelpPage(props) {
       <br/><br/>
       Once logged in, all changes to your Tune Book by adding, deleting or editing tunes are saved to your Google Drive. Additionally any audio recordings are saved to your Google Drive.
       <br/><br/>
-      The tune book is loaded from a document in Google Drive named <b>ABC Tune Book</b>. By renaming this document in Google Drive, you can force the software to create a new tune book.
+      The tune book is loaded from a document in Google Drive named <b>ABC Tune Book</b> (even if it's in the Trash). By renaming this document in Google Drive, you can force the software to create a new tune book. 
       <br/><br/>
       If you log in to the same account on a different device, the software will attempt to synchronise your local database with the version stored online. If your local database needs to be updated, a list of changes will be shown along with choices to merge the changes, discard local changes or logout and ignore the version saved to Google Drive.
       <br/><br/>

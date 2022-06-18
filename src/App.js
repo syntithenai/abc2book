@@ -45,7 +45,7 @@ import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 import useRecordingsManager from './useRecordingsManager'
 import useGoogleLogin from './useGoogleLogin' 
-import useGoogleDocument from './useGoogleDocument' 
+//import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 
 function App(props) {
@@ -310,8 +310,9 @@ function App(props) {
                     
                     <Route  path={`chords`} >
                       <Route index element={<ChordsPage  tunebook={tunebook}    />}  />
+                      <Route  path={`:instrument/:chordLetter/:quality`} element={<ChordsPage  tunebook={tunebook}    />} />
                       <Route  path={`:instrument/:chordLetter`} element={<ChordsPage  tunebook={tunebook}    />} />
-                      <Route  path={`:chordLetter`} element={<ChordsPage  tunebook={tunebook}    />} />
+                      <Route  path={`:instrument`} element={<ChordsPage  tunebook={tunebook}    />} />
                     </Route>
                     
                     <Route  path={`cheatsheet`} >

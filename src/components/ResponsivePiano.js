@@ -1,25 +1,35 @@
-import React from 'react';
+import React, {useRef, useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
 import 'react-piano/dist/styles.css';
 
-//import DimensionsProvider from '../DimensionsProvider';
+import DimensionsProvider from '../DimensionsProvider';
 import SoundfontProvider from '../SoundfontProvider';
 import '../piano_styles.css';
 
-// webkitAudioContext fallback needed to support Safari
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const soundfontHostname = 'https://d1pzp51pvbm36p.cloudfront.net';
 
 const noteRange = {
   first: MidiNumbers.fromNote('c3'),
-  last: MidiNumbers.fromNote('f4'),
+  last: MidiNumbers.fromNote('c5'),
 };
 const keyboardShortcuts = KeyboardShortcuts.create({
   firstNote: noteRange.first,
   lastNote: noteRange.last,
   keyboardConfig: KeyboardShortcuts.HOME_ROW,
 });
+const instruments = [
+'accordion',
+'acoustic_grand_piano',
+'acoustic_guitar_steel',
+'brass_section',
+'choir_aahs',
+'fiddle',
+'flute',
+'harmonica',
+'recorder',
+'slap_bass_1'
+]
 
 //function App() {
   //return (
@@ -45,13 +55,28 @@ const keyboardShortcuts = KeyboardShortcuts.create({
     //</div>
   //);
 //}
-
-function BasicPiano() {
+ 
+function BasicPiano(props) {
+  const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
+  useEffect(function() {
+      audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
+      console.log('create context',audioContext.current)
+  },[])
+  const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
   return (
+    <div>
+    <br/>
+    <label>Instrument 
+    <select value={useInstrument} onChange={function(e) {setUseInstrument(e.target.value)}} >
+    {instruments.map(function(i) {
+        return <option value={i} key={i} >{i.replace('_',' ')}</option>
+    })}
+    </select></label>
+    <br/><br/>
     <SoundfontProvider
-      instrumentName="acoustic_grand_piano"
-      audioContext={audioContext}
-      hostname={soundfontHostname}
+      instrumentName={useInstrument}
+      audioContext={audioContext.current}
+      hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
       render={({ isLoading, playNote, stopNote }) => (
         <Piano
           noteRange={noteRange}
@@ -63,30 +88,46 @@ function BasicPiano() {
         />
       )}
     />
+    </div>
   );
 }
 
-//function ResponsivePiano(props) {
-  //return (
-    //<DimensionsProvider>
-      //{({ containerWidth, containerHeight }) => (
-        //<SoundfontProvider
-          //instrumentName="acoustic_grand_piano"
-          //audioContext={audioContext}
-          //hostname={soundfontHostname}
-          //render={({ isLoading, playNote, stopNote }) => (
-            //<Piano
-              //noteRange={noteRange}
-              //width={containerWidth}
-              //playNote={playNote}
-              //stopNote={stopNote}
-              //disabled={isLoading}
-              //{...props}
-            ///>
-          //)}
-        ///>
-      //)}
-    //</DimensionsProvider>
-  //);
-//}
-export default BasicPiano
+function ResponsivePiano(props) {
+  const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
+  useEffect(function() {
+      audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
+      console.log('create context',audioContext.current,props.soundFontUrl)
+  },[])
+  const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
+  return (
+    <div>
+    <br/>
+    <label>Instrument 
+    <select value={useInstrument} onChange={function(e) {setUseInstrument(e.target.value)}} >
+    {instruments.map(function(i) {
+        return <option value={i} key={i} >{i.replace('_',' ')}</option>
+    })}
+    </select></label>
+    <br/><br/>
+    <DimensionsProvider>
+      {({ containerWidth, containerHeight }) => (
+        <SoundfontProvider
+          instrumentName={useInstrument}
+          audioContext={audioContext.current}
+          hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
+          render={({ isLoading, playNote, stopNote }) => (
+            <Piano
+              noteRange={noteRange}
+              width={containerWidth}
+              playNote={playNote}
+              stopNote={stopNote}
+              disabled={isLoading}
+              {...props}
+            />
+          )}
+        />
+      )}
+    </DimensionsProvider></div>
+  );
+}
+export default ResponsivePiano

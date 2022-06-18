@@ -102,7 +102,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
 
   function findDocument(title) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',title ,accessToken)
+      console.log('find rec',title ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (title && accessToken) {
         var filter = "?q="+ encodeURIComponent("name='ABC Tune Book'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
@@ -254,7 +254,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function createDocument(title, documentData, documentType='vnd.google-apps.document', documentDescription='') {
     return new Promise(function(resolve,reject) {
-      //console.log('create rec' ,token,accessToken, documentType, title)
+      console.log('create google doc' ,token,accessToken, documentType, title)
       if (documentType && title && accessToken) {
         var  data = {
           "description": documentDescription,

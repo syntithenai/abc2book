@@ -196,7 +196,7 @@ export default function AbcEditor(props) {
                       
                       <Form.Group className="mb-3" controlId="transpose">
                         <Form.Label>Transpose</Form.Label>
-                        <Form.Control type="number" value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                        <Form.Control type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="rhythm">

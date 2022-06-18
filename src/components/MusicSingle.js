@@ -121,12 +121,24 @@ export default function MusicSingle(props) {
         var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
     //console.log('sING',parsed.chords)
         var [a,b,chordsArray,c] = parsed
-        var chords = props.tunebook.abcTools.renderChords(chordsArray,false)
-       return <div className="music-single" {...handlers} >
+        var chords = props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
+        var uniqueChords={}
+            //console.log('sING',chords, JSON.stringify(chordsArray))
+        var chordLines = chords.split("\n")
+        chordLines.forEach(function(chordLine) {
+            var chordParts = chordLine.split("|")
+            chordParts.forEach(function(chordPart) {
+                var chordPartsInner = chordPart.split(" ")
+                chordPartsInner.forEach(function(cpi) {
+                    if (cpi.trim().length > 0) {
+                       uniqueChords[cpi] = true 
+                    }
+                })
+            })
+        })
+        //console.log('uniq',uniqueChords)
+        return <div className="music-single" {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
-             
-                 
-                
                 <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
                 
                 <Dropdown style={{float:'left', marginLeft:'0.1em'}}>
@@ -174,7 +186,17 @@ export default function MusicSingle(props) {
 
              {props.viewMode === 'chords' && <>
              
-             <pre style={{clear:'both', position:'fixed', fontSize:'0.8em', top:'5em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999,border:'1px solid black', backgroundColor: 'white'}} >{chords}</pre>
+             <div style={{clear:'both', position:'fixed', fontSize:'0.8em', top:'9em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999, backgroundColor: 'white'}} >
+                <div>
+                {Object.keys(uniqueChords).map(function(chord) {
+                    var chordLetter = chord
+                    var chordType = ''
+                    return <Link to={"/chords/guitar/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
+                })}
+                </div>
+                <pre style={{border:'1px solid black',marginTop:'1em'}} >{chords}</pre>
+                
+             </div>
              
              <div className="lyrics" style={{clear:'both', marginLeft:'0.1em', width:'65%'}} >
                 {Object.keys(words).map(function(key) {
@@ -187,8 +209,7 @@ export default function MusicSingle(props) {
             
              </>}
              
-             
-             <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
              
              

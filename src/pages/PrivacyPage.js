@@ -16,17 +16,22 @@ return <div>
 			</ol>
 			</li>
 			<li><span ><strong>Privacy</strong></span>
+				<ol>
+				<li><span >This software does not store personal information. This website is not backed by a central database. All the information required by the application is stored on your device.</span></li>
+				<li><span >The owners of this software do not know who or how many people are using the software.</span></li>
+				<li><span >You can optionally use the software to store information on <i>Google Drive</i>. If you login, all changes to your tune book and any audio recordings are saved to <i>Google Drive</i>.</span></li>
+				<li><span >If you use the software to share either your tune book or recordings, you are granting permission for any user (with a Google account) to read the shared file.</span></li>
+				<li><span >If you choose to <i>Login With Google</i> to enable cloud storage and sharing, you are <b>subject to the terms and conditions of <i>Google Drive</i></b>.</span></li>
+				
+				</ol>
+			</li>
+			
+			<li><span > <strong>Third-party login</strong></span>
 			<ol>
-			<li><span >Your personal information such as name and email address will not be shared with anybody unless required by law. </span></li>
-			<li><span >We will use your personal information only for the purpose of providing this service, for example by recording activity and performance on this site to provide analytics to users. </span></li>
-			<li><span >We use cookies on this site, which you can reject through your browser settings.</span></li>
+			<li><span >This site relies entirely on Google to provide login and cloud storage. </span></li>
 			</ol>
 			</li>
-			<li><span ><strong> Age limit</strong></span>
-			<ol>
-			<li><span >Children under the age of 13 may not create an account independent of their parent or guardian</span><span ></span></li>
-			</ol>
-			</li>
+			
 			<li><span ><strong>Intellectual property</strong></span>
 			<ol>
 			<li><span >The content on this site, including that contributed by users, is subject to a Creative Commons Licence (Attribution CC BY Version 4.0 (international licence)) (<a href="http://creativecommons.org.au/learn/licences/">see here</a>). This means that 'whenever a work is copied or redistributed ... the original creator (and any other nominated parties) must be credited and the source linked to.' </span></li>
@@ -39,11 +44,7 @@ return <div>
 			<li><span >This site imports content from third parties. This is not an endorsement of this material and we have no responsibility for any loss caused by reliance or access to third-party sites.</span></li>
 			</ol>
 			</li>
-			<li><span > <strong>Third-party login</strong></span>
-			<ol>
-			<li><span >This site allows users to login using their social accounts with Google, Github, Facebook, Amazon and Twitter. This site collects and stores your name and email address from your social provider to allow our website to identify and login repeat users and  to send newsletters regarding website updates. We do not share this information with anyone unless required by law.</span></li>
-			</ol>
-			</li>
+			
 			<li><span > <strong>User conduct</strong></span>
 			<ol>
 			<li><span >You will not engage in conduct or contribute content that belongs to another party or is offensive, obscene, threatening, unlawful, defamatory, vilifying, inducing to violence, harassing, invasive of privacy, or discriminatory, solicitation or spam or private or confidential information or that jeopardises the operations of the site in any way or seek to gain unauthorised access to our servers or misuse the site to cause harm.</span></li>

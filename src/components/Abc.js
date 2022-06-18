@@ -45,6 +45,7 @@ export default function Abc(props) {
     var metronomeTimeout = useRef(null)
     var metronome = useRef(null)
     var [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
+    //console.log('ABC tune',tune, props.abc)
     const [showTempo, setShowTempo] = useState(false)
     const [showTranspose, setShowTranspose] = useState(false)
     var gaudioContext = useRef(null)
@@ -762,7 +763,7 @@ export default function Abc(props) {
               //props.audioProps.
                setVisualObj(o)
                if (props.autoPrime)  setStarted(true)
-               var hash = tune.boost + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
+               var hash = tune.transpose + '-' + tune.boost + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
                if (hash !== audioChangedHash) {
                 //console.log('RENDER TUNE AUDIODDD')
                 setAudioChangedHash(hash)
@@ -876,7 +877,7 @@ export default function Abc(props) {
 
 
   function updateOnChange() {
-    //console.log('ABC CHANGE',props.boost ,lastBoost) //, lastAbc, lastTempo, props.tempo, props.abc )
+    console.log('ABC CHANGE',props.boost ,lastBoost) //, lastAbc, lastTempo, props.tempo, props.abc )
     var tune = props.tunebook.abcTools.abc2json(props.abc)
     if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo || tune.boost != lastBoost) {
       setSeekTo(0)
@@ -944,7 +945,7 @@ export default function Abc(props) {
    <ReactNoSleep>
         {({ isOn, enable, disable }) => (
           <span >
-             <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} />
+             <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} forceRefresh={props.forceRefresh} />
              {(props.tempo) ? <span style={{position:'fixed', top: 4, right: 4, zIndex: 66}} >
               <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
             </span> : null}

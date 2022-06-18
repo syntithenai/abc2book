@@ -33,6 +33,11 @@ export default function Header(props) {
                        <Dropdown.Item ><Link to="/metronome" ><Button  size="lg" variant="info"  >{props.tunebook.icons.metronome} Metronome</Button></Link> </Dropdown.Item>
                         
                         <Dropdown.Item ><Link to="/tuner" ><Button  size="lg" variant="info"  >{props.tunebook.icons.tuner} Tuner</Button></Link> </Dropdown.Item>
+                        
+                        <Dropdown.Item ><Link to="/chords" ><Button  size="lg" variant="info"  >{props.tunebook.icons.guitar} Chords</Button></Link> </Dropdown.Item>
+
+                        
+                        <Dropdown.Item ><Link to="/piano" ><Button  size="lg" variant="info"  >{props.tunebook.icons.piano} &nbsp;Keyboard</Button></Link> </Dropdown.Item>
                                             
                        <Dropdown.Item ><Link to="/settings" ><Button  size="lg" variant="warning"  >{props.tunebook.icons.settings} Settings</Button></Link> </Dropdown.Item>
                        <Dropdown.Item ><Link  to='/' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button size="lg" variant="info" >{props.tunebook.icons.home} Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link> </Dropdown.Item>
@@ -42,7 +47,7 @@ export default function Header(props) {
                   {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
                   
                     
-                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{marginLeft:'1em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
+                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'10em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
                 
                     
                 
@@ -60,6 +65,16 @@ export default function Header(props) {
                    <Dropdown.Item ><Link to="/recordings" ><Button  size="lg"   >{props.tunebook.icons.recordcircle} Recordings</Button></Link> </Dropdown.Item>
                    
                    <Dropdown.Item ><Link to="/settings" ><Button  size="lg" variant="warning"  >{props.tunebook.icons.settings} Settings</Button></Link> </Dropdown.Item>
+                   
+                   <Dropdown.Item ><Link to="/metronome" ><Button  size="lg" variant="info"  >{props.tunebook.icons.metronome} Metronome</Button></Link> </Dropdown.Item>
+                        
+                    <Dropdown.Item ><Link to="/tuner" ><Button  size="lg" variant="info"  >{props.tunebook.icons.tuner} Tuner</Button></Link> </Dropdown.Item>
+                    
+                    <Dropdown.Item ><Link to="/chords" ><Button  size="lg" variant="info"  >{props.tunebook.icons.guitar} Chords</Button></Link> </Dropdown.Item>
+
+                    
+                    <Dropdown.Item ><Link to="/piano" ><Button  size="lg" variant="info"  >{props.tunebook.icons.piano} &nbsp;Keyboard</Button></Link> </Dropdown.Item>
+                                        
                    
                    <Dropdown.Item ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button size="lg" >{props.tunebook.icons.question} Help &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link> </Dropdown.Item>
                   

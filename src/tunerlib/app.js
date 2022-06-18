@@ -4,7 +4,6 @@ import Meter from './meter.js'
 import FrequencyBars from './frequency-bars.js'
 
 const Application = function(meter,notes, frequencyBars) {
-  console.log('app',meter,notes, frequencyBars, this)
   this.a4 =  440
   this.tuner = new Tuner(this.a4)
   this.notes = new Notes(notes, this.tuner)
@@ -20,7 +19,7 @@ Application.prototype.init = function(meter,notes) {
 
 Application.prototype.start = function(meter,notes) {
   const self = this
-  console.log('app start')
+  //console.log('app start')
   this.tuner.onNoteDetected = function(note) {
     if (self.notes.isAutoMode) {
       if (self.lastNote === note.name) {
@@ -37,7 +36,7 @@ Application.prototype.start = function(meter,notes) {
 Application.prototype.updateFrequencyBars = function() {
   //console.log('app update freq')
   if (this.tuner.analyser) {
-    console.log('app update freq analysier')
+    //console.log('app update freq analysier')
     this.tuner.analyser.getByteFrequencyData(this.frequencyData)
     this.frequencyBars.update(this.frequencyData)
   }
@@ -45,7 +44,7 @@ Application.prototype.updateFrequencyBars = function() {
 }
 
 Application.prototype.update = function(note) {
-  console.log('app update')
+  //console.log('app update')
   this.notes.update(note)
   this.meter.update((note.cents / 50) * 45)
 }

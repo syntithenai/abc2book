@@ -109,20 +109,39 @@ export default function useGoogleSheet(props) {
       //setupInterval()
     }
     function findTuneBookInDrive() {
-      //console.log('find book in drive')
+      console.log('find book in drive')
+      var tuneBookName="ABC Tune Book"
         var xhr = new XMLHttpRequest();
         xhr.onload = function (res) {
           if (res.target.responseText) {
             var response = JSON.parse(res.target.responseText)
             if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
               // load whole file
-              //console.log(response.files[0].id)
-              googleSheetId.current = response.files[0].id
-              setGoogleDocumentId(response.files[0].id)
-              loadSheet()
+              console.log("found",response.files)
+              var found = false
+              if (Array.isArray(response.files)) {
+                response.files.forEach(function(file) {
+                  if (file && file.name === tuneBookName) {
+                    found = file.id
+                  }
+                })
+              }
+              console.log("FFF",found)
+              if (found) {
+                googleSheetId.current = found
+                setGoogleDocumentId(found)
+                loadSheet()
+              } else {
+                console.log('create no name match')
+                createTuneSheet().then(function(newId) {
+                  googleSheetId.current = newId
+                  setGoogleDocumentId(newId)
+                  loadSheet()
+                })
+              }
             } else {
               // create file
-              //console.log('create')
+              console.log('create')
               createTuneSheet().then(function(newId) {
                 googleSheetId.current = newId
                 setGoogleDocumentId(newId)
@@ -133,7 +152,7 @@ export default function useGoogleSheet(props) {
           }
         };
         //mimeType = 'application/vnd.google-apps.spreadsheet' and 
-        var filter = "?q="+ encodeURIComponent("name='ABC Tune Book'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
+        var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
         xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter);
         xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
         xhr.send();

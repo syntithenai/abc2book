@@ -140,6 +140,8 @@ function getCacheFiles(callback) {
                 cache.push('static/css/'+file)
             });
             notes.forEach(function(file) {cache.push('midi-js-soundfonts/abcjs/acoustic_grand_piano-mp3/'+file)})
+            notes.forEach(function(file) {cache.push('midi-js-soundfonts/selection/MusyngKite/acoustic_grand_piano-mp3/'+file)})
+            cache.push('midi-js-soundfonts/selection/MusyngKite/acoustic_grand_piano-mp3.js')
             mainFiles.forEach(function(file) {cache.push(file)})
             //console.log('load dyn',cache)
             callback(cache)

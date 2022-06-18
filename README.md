@@ -27,7 +27,7 @@ eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); 
 ### to look into
 - https://github.com/higuma/mp3-lame-encoder-js  * allow worker but emscripten
 - https://github.com/zhuker/lamejs * fast native but (uses AudioContext so no workers)??
-
+- https://www.songtive.com/en/chords/mandolin/standard/Cmin
 - https://github.com/peterkhayes/pitchfinder
 - https://www.qrcode-monkey.com/#
 - https://github.com/opensheetmusicdisplay/opensheetmusicdisplay

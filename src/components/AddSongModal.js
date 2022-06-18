@@ -79,6 +79,8 @@ function AddSongModal(props) {
     setSongWords('')
     setSongNotes('')
     setSongComposer('')
+    setSongMeter('')
+    setSongChords('')
     props.forceRefresh()
     // force refresh list
     var finalTuneBook=props.currentTuneBook
@@ -99,16 +101,18 @@ function AddSongModal(props) {
         {props.tunebook.icons.fileadd}
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} backdrop="static"  keyboard="false" >
         <Modal.Header closeButton>
           <Modal.Title>Add a tune</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
+          {(songTitle.length === 0) &&<Button style={{float:'right'}} variant="secondary" >Add</Button>}
            <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
           <label>Title <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
-          <label style={{marginLeft:'1em'}}>  Meter <select  value={songMeter} onChange={function(e) {setSongMeter(e.target.value) }} >
+          <label style={{display:'block'}}>  Meter <select  value={songMeter} onChange={function(e) {setSongMeter(e.target.value) }} >
           <option></option>
           <option>4/4</option>
           <option>3/4</option>
@@ -117,13 +121,16 @@ function AddSongModal(props) {
           <option>9/8</option>
           </select></label>
           <label>Composer <input type="text" value={songComposer} onChange={function(e) {setSongComposer(e.target.value) }} /></label>
-          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button variant="success" onClick={addTune} >Add</Button>}
-          {(songTitle.length === 0) &&<Button variant="secondary" >Add</Button>}
+          
           </div>
-          <label>Lyrics<textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
+          <label>Lyrics&nbsp;&nbsp;
+          {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
+          <textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
           <Tabs defaultActiveKey={songMeter ? "chords" : "notes"} id="chordstab"  >
             {songMeter && <Tab eventKey="chords" title="Chords" >
-              <label>Chords<textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); console.log(c); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
+              <label>Chords&nbsp;&nbsp;
+              {songTitle && <a target="_new" href={"https://www.google.com/search?q=chords "+songTitle + ' '+(songComposer ? songComposer : '')} ><Button>Search Chords</Button></a>}
+              <textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); console.log(c); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
             </Tab>}
             <Tab eventKey="notes" title="Notes">
               <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
