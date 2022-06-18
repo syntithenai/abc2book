@@ -37,7 +37,8 @@ export default function HelpPage(props) {
            <li>Show tablature notation for any tune.</li>
           <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
           <li>Print a paginated book including the index, cheatsheet and music.</li>
-          
+          <li>Use a guitar tuner and a metronome.</li>
+          <li>Lookup chord symbols.</li>
           </ul>
         </div>
 

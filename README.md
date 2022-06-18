@@ -33,7 +33,7 @@ eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); 
 - https://github.com/opensheetmusicdisplay/opensheetmusicdisplay
 - https://github.com/tombatossals/react-chords
 - https://chordmark.netlify.app/docs/overview/what-is-chordmark
-
+- https://github.com/tonaljs/tonal
 ## other links
 
 - https://github.com/WebAudio/web-audio-api/issues/2423

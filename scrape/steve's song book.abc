@@ -3,7 +3,7 @@ X: 0
 T: My Kind of Angel
 C:Tony King
 B: steve's song book
-B: max's song book
+B: maxs song book
 M:4/4
 Q: 1/4=135
 K:E
@@ -61,10 +61,10 @@ W: and killed the villain in my pantomime
 W: 
 W: 
 % abcbook-tune_id 62943f88872c8b805ea6d0b3
-% abcbook-boost 6
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654752932583
+% abcbook-lastupdated 1655260190178
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -72,6 +72,8 @@ W:
 X: 1
 T: The Circle Game
 B: steve's song book
+B: cassidys song book
+B: velmas song book
 M:4/4
 L:1/8
 Q: 1/4=100
@@ -139,7 +141,7 @@ X: 2
 T: Can't Help Falling In Love With You
 C:Elvis Presley
 B: steve's song book
-B: max's song book
+B: maxs song book
 M:6/8
 Q: 3/8=120
 K:C
@@ -191,7 +193,7 @@ W: Take my whole life too
 W: For I can't help falling in love with you
 W: For I can't help falling in love with you
 % abcbook-tune_id 629441d1878209ec1b8d8ec4
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1654345299041
@@ -203,6 +205,7 @@ X: 3
 T: Earl Grey
 C:Enda Kenny
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -248,7 +251,7 @@ W: Go ahead make my day
 W: But please don't make me drink Earl Grey
 W: All I want is a proper cup of tea
 % abcbook-tune_id 6294450cebd32a1513a89d35
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1654345299042
@@ -260,6 +263,7 @@ X: 4
 T: Singing In The Shower
 C:Dan Johnson
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -324,6 +328,7 @@ W: I mean standing in my ooooold shower stall!
 X: 5
 T: Ederlezi/Sao Roma
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -599,7 +604,7 @@ W: Opa!
 W: 
 W: [Scatting]
 % abcbook-tune_id 62948bf6329624ab5cceab1d
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1654345299046
@@ -611,7 +616,7 @@ X: 8
 T: Long Time Gone
 C:Dixie Chicks
 B: steve's song book
-B: max's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 V:1 
@@ -791,6 +796,7 @@ X: 10
 T: Pharoah
 C:Richard Thompson
 B: steve's song book
+B: maxs song book
 Q: 1/4=180
 V:1 
 "Em"zzzzzzzz|"Em"zzzz"D"zzzz|"Em"zzzzzzzz|"D"zzzzzzzz|
@@ -799,12 +805,12 @@ V:1
 "Em"zzzzzzzz|"Em"zzzz"D"zzzz|"Em"zzzz"D"zzzz|"Em"zzzzzzzz|
 "Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"Em"zzzz|
 "Em"zzzzzzzz|"Em"zzzz"D"zzzz|"Em"zzzz"D"zzzz|"Em"zzzzzzzz||
-W: Pharaoh he sits in his tower of steel 
+W: Pharaoh he sits in his tower of steel
 W: The dogs of money all at his heel
 W: Magicians cry, Oh Truth! Oh Real!
 W: We're all working for the Pharaoh
 W: 
-W: A thousand eyes, a thousand ears 
+W: A thousand eyes, a thousand ears
 W: He feeds us all, he feeds our fears
 W: Don't stir in your sleep tonight, my dears
 W: We're all working for the Pharaoh
@@ -839,7 +845,7 @@ W: Around his feet the princes kneel
 W: Far beneath we shoulder the wheel
 W: We're all working for the Pharaoh
 % abcbook-tune_id 629447e1c3ab95a3947046ab
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1654909312963
@@ -851,6 +857,7 @@ X: 11
 T: Babethandaza/Sin Nje Nje
 C:African Traditional
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=140
 V:1 
@@ -868,7 +875,7 @@ W:
 W: Babethandaza, Babethandaza
 W: Babethandaza, Babethandaza
 % abcbook-tune_id 6295583959712777bbf8d432
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1654345299052
@@ -990,6 +997,8 @@ X: 13
 T: Both Sides Now
 C:Joni Mitchell
 B: steve's song book
+B: cassidys song book
+B: velmas song book
 M:4/4
 Q: 1/4=105
 V:1 
@@ -1060,7 +1069,7 @@ X: 14
 T: Masochism Tango
 C:Tom Lehrer
 B: steve's song book
-B: max's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 V:1 
@@ -1240,7 +1249,8 @@ X: 17
 T: Raglan Road
 C:Trad.
 B: steve's song book
-B: max's song book
+B: cassidys song book
+B: maxs song book
 M:3/4
 L:1/4
 R: Waltz
@@ -1302,59 +1312,10 @@ W: His wings at the dawn of day
 % Has_accompaniment_chords Has chords
 
 X: 18
-T: The Lee Shore
-C:Crosby Stills Nash and Young
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: All along the lee shore
-W: Shells lie scattered in the sand
-W: Winking up like shining eyes, at me
-W: From the sea
-W: 
-W: Here is one like sunrise
-W: It's older than you know
-W: It's still lying there where
-W: Some careless wave
-W: Forgot it long ago
-W: 
-W: When I awoke this morning
-W: I dove beneath my floating home
-W: Down below her graceful side
-W: In the turning tide
-W: To watch the sea fish roam
-W: 
-W: There I heard a story
-W: From the sailors of the Sandra Marie
-W: There's another island a
-W: Day's run away from here
-W: And it's empty and free
-W: 
-W: From here to Venezuela
-W: There's nothing more to see
-W: Than a hundred thousand islands
-W: Flung like jewels upon the sea
-W: For you and me
-W: 
-W: Sunset smells of dinner
-W: Women are calling at me to end my tails
-W: But perhaps I'll see you,
-W: The next quiet place
-W: I furl my sails
-% abcbook-tune_id 629647e20373ba81fe1e7973
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654345299061
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 19
 T: Earl Richard
 C:Traditional
 B: steve's song book
+B: charlottes song book
 M:4/4
 Q: 1/4=100
 K:A
@@ -1431,11 +1392,12 @@ W: Among the leaves so green.”
 % abcbook-repeats 
 
 
-X: 20
+X: 19
 T: Hallelujah
 C:Leonard Cohen
 B: steve's song book
-B: max's song book
+B: cassidys song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 K:G
@@ -1535,11 +1497,11 @@ W: It's a cold and it's a broken Hallelujah
 % abcbook-repeats 
 
 
-X: 21
+X: 20
 T: Lazy John
 C:Traditional Bluegrass
 B: steve's song book
-B: max's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 K:Em
@@ -1588,7 +1550,7 @@ W: Why don't you get away, Lazy John.
 % abcbook-repeats 
 
 
-X: 22
+X: 21
 T: Olga
 C:Herman van Dooren
 B: steve's song book
@@ -1671,10 +1633,11 @@ W: En kind die is zo koud!
 % abcbook-repeats 
 
 
-X: 23
+X: 22
 T: Go To Sea No More
 C:Jerry Garcia
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=135
 K:Dm
@@ -1769,11 +1732,14 @@ W:
 % abcbook-repeats 
 
 
-X: 24
+X: 23
 T: Fly Away
 C:Albert E. Brumley
 B: steve's song book
-B: max's song book
+B: cassidys song book
+B: velmas song book
+B: maxs song book
+B: choir song book
 M:4/4
 Q: 1/4=95
 K:2
@@ -1811,10 +1777,11 @@ W: I'll fly away
 % abcbook-repeats 
 
 
-X: 25
+X: 24
 T: Mary Ellen Carter
 C:Stan Rogers
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=155
 K:G
@@ -1902,10 +1869,11 @@ W: Like the Mary Ellen Carter, rise again!
 % abcbook-repeats 
 
 
-X: 26
+X: 25
 T: Ready For The Storm
 C:Dougie Maclean
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=135
 V:1 
@@ -1959,7 +1927,7 @@ W: I am ready for the storm, I'm ready for the storm
 % abcbook-repeats 
 
 
-X: 27
+X: 26
 T: In The Pines
 C:Lead Belly
 B: steve's song book
@@ -2001,69 +1969,7 @@ W: You've caused me to leave my home
 % abcbook-repeats 
 
 
-X: 28
-T: Green Island
-C:Ewan McColl
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: The island lies like a leaf upon the sea.
-W: Green island like a leaf new-fallen from the tree.
-W: Green turns to gold,
-W: as morning breeze gently shakes the barley,
-W: bending the yellow corn.
-W: Green turns to gold,
-W: there’s purple shadows on the distant mountains.
-W: Sun in the yellow corn.
-W: 
-W: They came in their long ships from lands across the sea.
-W: They came in their long ships – they saw the land was green.
-W: Wind in the barley,
-W: trout and salmon leaping in the rivers.
-W: Sun in the yellow corn.
-W: Leaping ashore
-W: they slaughtered those laboured in the barley,
-W: scything them down like corn.
-W: 
-W: The long ships sailed away and new invaders came.
-W: With long bow and lance bringing death in England’s name.
-W: With sword and with mace,
-W: they went reaping though the fields of barley,
-W: They plundered the yellow corn.
-W: Crop followed crop,
-W: they prospered in their killing fields of barley,
-W: The harvest of new young corn.
-W: 
-W: Marching down the years the men of war they came,
-W: with bombs, assassins, bullets, CS gas and guns.
-W: Ghosts from the past
-W: are chasing shadows through the fields of barley
-W: hiding in the new young corn.
-W: Nine hundred years
-W: they tried to trap the wind that shakes the barley.
-W: Sun in the yellow corn.
-W: 
-W: The island lies like a leaf upon the sea.
-W: Green island like a leaf new-fallen from the tree.
-W: Green turns to gold,
-W: as morning breeze gently shakes the barley,
-W: bending the yellow corn.
-W: No force on Earth
-W: can ever trap the wind that shakes the barley.
-W: Sun in the yellow corn.
-W: 
-W: 
-% abcbook-tune_id 629647f88328db4ca5777a29
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654345300539
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 29
+X: 27
 T: Boys From The County Hell
 C:The Pogues
 B: steve's song book
@@ -2126,10 +2032,11 @@ W: And mother wake me early in the morning
 % abcbook-repeats 
 
 
-X: 30
+X: 28
 T: A Pair Of Brown Eyes
 C:The Pogues
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=140
 K:G
@@ -2196,7 +2103,7 @@ W: [Chorus]
 % abcbook-repeats 
 
 
-X: 31
+X: 29
 T: Sally McLennane
 C:The Pogues
 B: steve's song book
@@ -2285,10 +2192,12 @@ W: To the greatest little boozer and to Sally MacLennane
 % abcbook-repeats 
 
 
-X: 32
+X: 30
 T: Waxies Dargle
 C:Traditional
 B: steve's song book
+B: velmas song book
+B: maxs song book
 M:4/4
 Q: 1/4=170
 K:D
@@ -2326,7 +2235,7 @@ W: "When food is scarce and you see the hearse you'll know you have died of hung
 % abcbook-repeats 
 
 
-X: 33
+X: 31
 T: Dirty Old Town
 C:The Pogues
 B: steve's song book
@@ -2386,7 +2295,7 @@ W: Dirty old town, dirty old town
 % abcbook-repeats 
 
 
-X: 34
+X: 32
 T: Some Say The Devil is Dead
 C:Traditional
 B: steve's song book
@@ -2429,7 +2338,7 @@ W: It's going back on Monday. CHORUS
 % abcbook-repeats 
 
 
-X: 35
+X: 33
 T: Paddy Stole The Rope
 C:Tim Hart & Maddy Prior
 B: steve's song book
@@ -2446,8 +2355,6 @@ V:1
 "D"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
 "D"zzzzzz|"D"zzzzzz|"A"zzzzzz|"D"zzzzzz|
 "D"zzzzzz|"D"zzzzzz|"A"zzzzzz|"D"zzzzzz|
-%%MIDI transpose 5
-%%MIDI transpose 5
 %%MIDI transpose 5
 %%MIDI transpose 5
 %%MIDI transpose 5
@@ -2502,9 +2409,10 @@ W: Than when they broke inside a church to go and steal the rope.
 %%MIDI transpose 5
 
 
-X: 36
+X: 34
 T: Blackleg Miner
 B: steve's song book
+B: velmas song book
 M:4/4
 Q: 1/4=140
 K:Em
@@ -2554,10 +2462,11 @@ W: You dirty blackleg miner.
 % abcbook-repeats 
 
 
-X: 37
+X: 35
 T: Irish Rover
 C:The Irish Rovers
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=205
 K:G
@@ -2614,10 +2523,11 @@ W: Now I'm the last of the Irish Rover
 % abcbook-repeats 
 
 
-X: 38
+X: 36
 T: Navigator
 C:The Pogues
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=120
 K:G
@@ -2667,10 +2577,11 @@ W: [Chorus]
 % abcbook-repeats 
 
 
-X: 39
+X: 37
 T: My Son John
 C:Scythian
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=146
 K:Em
@@ -2726,7 +2637,7 @@ W: Whack for a diddle to me ooh rum rye
 % abcbook-repeats 
 
 
-X: 40
+X: 38
 T: The Devil May Care
 C:Steve/Sue
 B: steve's song book
@@ -2766,7 +2677,7 @@ W: We went up to Sydney for the long week end
 % abcbook-repeats 
 
 
-X: 41
+X: 39
 T: A Man You Don't Meet Every Day
 C:Traditional
 B: steve's song book
@@ -2806,10 +2717,12 @@ W: I'm a man you don't meet every day
 % abcbook-repeats 
 
 
-X: 42
+X: 40
 T: Down By The Sally Gardens
 C:William Butler Yeats
 B: steve's song book
+B: cassidys song book
+B: charlottes song book
 M:4/4
 Q: 1/4=136
 K:C
@@ -2836,10 +2749,11 @@ W: But I was young and foolish, and now am full of tears.
 % abcbook-repeats 
 
 
-X: 43
+X: 41
 T: Black Velvet Band
 C:Traditional
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=151
 K:G
@@ -2875,10 +2789,11 @@ W: Her eyes they shown like the diamonds you'd think she was queen of the land a
 % abcbook-repeats 
 
 
-X: 44
+X: 42
 T: Adieu Sweet Lovely Nancy
 C:Traditional
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=120
 K:D
@@ -2927,11 +2842,16 @@ W:
 % abcbook-repeats 
 
 
-X: 45
+X: 43
 T: Bound For Botany Bay
 B: steve's song book
-Q: 1/4=100
+M:3/4
+Q: 1/4=150
 V:1 
+"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+"G"zzzzzz|"C"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+"G"zzzzzz|"C"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
 W: Farewell to old England forever
 W: Farewell to my rum culls as well
 W: Farewell to the well known Old Bailey
@@ -2970,15 +2890,16 @@ W: Or you'll find us in Botany Bay
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654355297803
+% abcbook-lastupdated 1654929050265
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 46
+X: 44
 T: Bridget O'Malley
 C:Silly Wizard
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=100
 K:D
@@ -3019,10 +2940,11 @@ W: And your beauty will haunt me, wherever I go
 % abcbook-repeats 
 
 
-X: 47
+X: 45
 T: Cunla
 C:Planxty
 B: steve's song book
+B: maxs song book
 M:6/8
 Q: 3/8=100
 V:1 
@@ -3106,7 +3028,7 @@ W: Yea ra maybe I shouldn't, says Cúnla
 % abcbook-repeats 
 
 
-X: 48
+X: 46
 T: Jesse James
 C:The Pogues
 B: steve's song book
@@ -3191,10 +3113,11 @@ W: Have laid Jesse James in his grave
 % abcbook-repeats 
 
 
-X: 49
+X: 47
 T: Kitty
 C:The Pogues
 B: steve's song book
+B: cassidys song book
 M:3/4
 Q: 1/4=115
 K:G
@@ -3234,7 +3157,7 @@ W: And write to me won't you, goodbye
 % abcbook-repeats 
 
 
-X: 50
+X: 48
 T: Woman
 C:The Anti Nowhere League
 B: steve's song book
@@ -3315,7 +3238,7 @@ W: I hate you
 % abcbook-repeats 
 
 
-X: 51
+X: 49
 T: The Intergalactic Laxative
 C:Donovan
 B: steve's song book
@@ -3432,10 +3355,11 @@ W:
 % abcbook-repeats 
 
 
-X: 52
+X: 50
 T: As I Roved Out
 C:Traditional
 B: steve's song book
+B: cassidys song book
 M:4/4
 L:1/8
 R: song
@@ -3502,7 +3426,7 @@ W: With me too-ry-ay, fol-de-diddle-day, di-re fol-de-diddle dai-rie oh
 % abcbook-repeats 
 
 
-X: 53
+X: 51
 T: Botany Bay
 C:The Wolfe Tones
 B: steve's song book
@@ -3566,10 +3490,11 @@ W: To the shores of Botany Bay
 % abcbook-repeats 
 
 
-X: 54
+X: 52
 T: Rosemary Lane
 C:Espers
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=180
 K:Am
@@ -3616,7 +3541,7 @@ W: And that was the beginning of my downfall
 % abcbook-repeats 
 
 
-X: 55
+X: 53
 T: When I Grow Up
 C:Michelle Shocked
 B: steve's song book
@@ -3662,10 +3587,12 @@ W: When I grow up I want to be an oooooold...
 % abcbook-repeats 
 
 
-X: 56
+X: 54
 T: All Gods Creatures Got A Place In The Choir
 C:Bill Staines
 B: steve's song book
+B: velmas song book
+B: maxs song book
 M:4/4
 Q: 1/4=160
 K:G
@@ -3715,24 +3642,67 @@ W: [Chorus x3]
 % abcbook-transpose 
 % abcbook-lastupdated 1654687726465
 % abcbook-soundfonts 
-% abcbook-repeats 12
+% abcbook-repeats 
 
 
-X: 57
+X: 55
 T: Smoke On The Water
 B: steve's song book
-Q: 1/4=100
+M:4/4
+Q: 1/4=115
 V:1 
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"G"zzzz|"Am"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"G"zzzz|"Am"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"G"zzzz|"Am"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"G"zzzz|"Am"zzzzzzzz|
+"D"zzzzzzzz|"Bb"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|
+"D"zzzzzzzz|"Bb"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|
+W: We all came out to Montreux
+W: On the Lake Geneva shoreline
+W: To make records with a mobile
+W: We didn't have much time
+W: Frank Zappa and the Mothers
+W: Were at the best place around
+W: But some stupid with a flare gun
+W: Burned the place to the ground
+W: 
+W: Smoke on the water, a fire in the sky
+W: Smoke on the water
+W: 
+W: They burned down the gambling house
+W: It died with an awful sound
+W: Funky Claude was running in and out
+W: Pulling kids out the ground
+W: When it all was over
+W: We had to find another place
+W: But Swiss time was running out
+W: It seemed that we would lose the race
+W: 
+W: Smoke on the water, a fire in the sky
+W: Smoke on the water
+W: 
+W: We ended up at the Grand Hotel
+W: It was empty, cold and bare
+W: But with the Rolling truck Stones thing just outside
+W: Making our music there
+W: With a few red lights and a few old beds
+W: We made a place to sweat
+W: No matter what we get out of this
+W: I know, I know we'll never forget
+W: 
+W: Smoke on the water, a fire in the sky
+W: Smoke on the water
+W: 
 % abcbook-tune_id 629b800bc995d4f9003670fa
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654358027850
+% abcbook-lastupdated 1654930237467
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 58
+X: 56
 T: Blister In The Sun
 C:Violent Femmes
 B: steve's song book
@@ -3801,7 +3771,7 @@ W: Big hands, I know you're the one
 % abcbook-repeats 
 
 
-X: 59
+X: 57
 T: Roxanne
 B: steve's song book
 M:4/4
@@ -3894,57 +3864,11 @@ W: (Roxanne) Put on the red light
 % abcbook-repeats 
 
 
-X: 60
-T: The Parting Glass
-C:Traditional
-B: steve's song book
-M:4/4
-Q: 1/4=120
-K:Bm
-V:1 
-"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzzzzzz|"A"zzzzzzzz|
-"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzz"A"zzzz|"Bm"zzzzzzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|
-"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzz"A"zzzz|"Bm"zz"A"zz"Bm"zzzz|
-W: Oh of all the money that e're I spent
-W: I spent it in good company
-W: and of all the harm that e're Ive done
-W: alas it was to none but me
-W: for all I've done for want of wit
-W: to mem'ry now I can't recall
-W: so fill to me the parting glass
-W: good night and joy be with you all
-W: 
-W: Oh if I had money enough to spend
-W: and leisure time to sit awhile
-W: there is a fair maid in this town
-W: and she surely has my heart beguiled
-W: her rosey cheeks, her ruby lips
-W: I own she has my heart enthralled
-W: so fill to me the parting glass
-W: good night and joy be with you all
-W: 
-W: Oh of all the comrades that e're I've had
-W: they are sorry for my going away
-W: and of all the sweethearts that e're I've had
-W: they would wish me one more day to stay
-W: but since it falls unto my lot
-W: that I should rise and you should not
-W: I'll gently rise and softly call
-W: good night and joy be with you all
-% abcbook-tune_id 629ed7606ab24cb772f534b9
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654788767334
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 61
+X: 58
 T: The Lee Shore
 C:Crosby Stills Nash and Young
 B: steve's song book
+B: charlottes song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -3991,7 +3915,7 @@ W: I furl my sails
 % abcbook-repeats 
 
 
-X: 62
+X: 59
 T: Green Island
 C:Ewan McColl
 B: steve's song book
@@ -4053,10 +3977,11 @@ W:
 % abcbook-repeats 
 
 
-X: 63
+X: 60
 T: The High Road
 C:Barry George Dean / Brendan O'brien / Luke Robert Laird
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=130
 K:Am
@@ -4104,59 +4029,111 @@ W: It sure does carry me away
 % abcbook-repeats 
 
 
-X: 64
-T: Fat Bottomed Girls
-C:Queen
+X: 61
+T: The Parting Glass
+C:Traditional
 B: steve's song book
+B: cassidys song book
+B: velmas song book
+B: maxs song book
 M:4/4
-Q: 1/4=100
+Q: 1/4=120
+K:Bm
 V:1 
+"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzzzzzz|"A"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzz"A"zzzz|"Bm"zzzzzzzz|
+"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"Bm"zzzz"A"zzzz|"Bm"zz"A"zz"Bm"zzzz|
+W: Oh of all the money that e're I spent
+W: I spent it in good company
+W: and of all the harm that e're Ive done
+W: alas it was to none but me
+W: for all I've done for want of wit
+W: to mem'ry now I can't recall
+W: so fill to me the parting glass
+W: good night and joy be with you all
 W: 
-% abcbook-tune_id 629ef0622c1638ed02b0f59a
+W: Oh if I had money enough to spend
+W: and leisure time to sit awhile
+W: there is a fair maid in this town
+W: and she surely has my heart beguiled
+W: her rosey cheeks, her ruby lips
+W: I own she has my heart enthralled
+W: so fill to me the parting glass
+W: good night and joy be with you all
+W: 
+W: Oh of all the comrades that e're I've had
+W: they are sorry for my going away
+W: and of all the sweethearts that e're I've had
+W: they would wish me one more day to stay
+W: but since it falls unto my lot
+W: that I should rise and you should not
+W: I'll gently rise and softly call
+W: good night and joy be with you all
+% abcbook-tune_id 629ed7606ab24cb772f534b9
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654583394082
+% abcbook-lastupdated 1654788767334
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 65
-T: Tom Dooley
+X: 62
+T: Cumberland Gap
+C:Traditional
 B: steve's song book
 M:4/4
-Q: 1/4=100
+L:1/8
+Q: 1/4=120
+K:D
 V:1 
+"D"FED2D2D2|"D"F2A2"G"B4|"D"AAAB AFDE|"D"FDE2"G"D2F2|
+"D"FED2D2D2|"D"FFA2"G"B2BB|"D"A2ABA2DE|"A"F2E2"D"D4||
+"D"FED2D4|"G"B,B,D2D4|"D"FFFFA2A2|"D"FFFD "A"E4|
+"D"FED2D4|FFA2"G"B4-|B8|B6B2|
+"D"AAAB AFDE|"A"FDE2 "D"D2||
+|:DE | "D"F2FG FEDE | F2A2 "Bm (G)"B2AB | "D"d2dd BdAG |[1 "A"FDEF "D"D2 :|[2 "A"FDEF "D"D4 ||
+|:"A"e2ef "D"dBAd | fedA "Bm (G)"B4 | "D"d2dd BdAG |[1 "A"FEDF E4 :| [2 "A"FEDE "D"D4 ||
+W: 1. Me and my wife and my wife’s pap,
+W: Goin’ to Kentucky through the Cumberland Gap.
+W: Our two little kids named Holly and Hap,
+W: And an old hound dog barkin’ yap yap yap.
 W: 
-% abcbook-tune_id 629ef0ad8aa5c22a7bb3b72b
+W: Refrain
+W: Cumberland Gap, Cumberland Gap,
+W: Everything I own is strapped upon my back.
+W: Cumberland Gap, Cumberland Gap, Hey!
+W: Walking to Kentucky through the Cumberland Gap!
+W: 
+W: 2. Daniel Boone on Pinnacle Rock
+W: Had a coonskin hat and old flintlock.
+W: Huntin’ for his supper, he’d never fail
+W: To shoot him a squirrel or a turkey or a quail. Refrain
+W: 
+W: 3. The Cumberland Gap is a mighty fine place,
+W: Three kinds of water for to wash your face.
+W: The spring and the creek and the river too,
+W: Three kinds of water for to cook your stew. Refrain
+W: 
+W: 4. This Wilderness Road is rugged and long,
+W: Fit for only the brave and the strong.
+W: Should trouble find us and things go wrong,
+W: We’ll all pull together and sing this song. Refrain
+% abcbook-tune_id 6298c2459f5c08cb12ce92c6
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654583469992
+% abcbook-lastupdated 1654955750627
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 66
-T: Joshua Won The Battle Of Jericho
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: 
-% abcbook-tune_id 629ef0bcd9961d72821c1b70
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654583484569
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 67
+X: 63
 T: Happy Trails
 C:Van Halen
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 K:G
@@ -4183,58 +4160,7 @@ W: Til we meet again
 % abcbook-repeats 
 
 
-X: 68
-T: A Bit Of You Ma
-C:Steve Ryan
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: a bit of you ma
-W: 
-W: V1
-W: Always there with kindness in your eyes. An ear and a smile and some safety for a while.
-W: Always there with simple honest truth. From the heart to the mouth. Sometimes too soon.
-W: Always with the energy to play. To take the time to share our ways.
-W: Now that you are gone I hope to keep. A bit of you, inside of me.
-W: 
-W: CHORUS
-W: Inside me, inside us a bit of you.
-W: Your honesty and kindness and warmth in your eyes
-W: Inside us, inside me a bit of you
-W: Walking with us always by our side
-W: 
-W: V2
-W: Will we hold together as we've done. Without your warmth and endless talk.
-W: What will we do together what will we eat. Who'll make our favorite Xmas treats.
-W: Who will have the news of distant friends and family making ends.
-W: Changes they will come to suit our needs but that bit inside will keep us tied.
-W: 
-W: CHORUS
-W: 
-W: V3
-W: Who will tell me everythings alright. Say I've done well. Enjoy my play.
-W: Who will counsel kindness over all. To feel for others frailties.
-W: Who will make feel that I'm OK. Who will love me no matter what I say.
-W: Only I can hold that bit for me. And know that I am loved from your long sleep.
-W: 
-W: CHORUS
-W: 
-W: V4
-W: Some might promise we will meet again. In one true place, no hurt or pain.
-W: I draw more to know that you're inside. A part of sense, how I decide.
-W: My music and my twitches and my friends. Expressing you through me.
-W: You will always be inside of me. A bit of you, inside of me.
-% abcbook-tune_id 629f24246f322c5b7aa755cd
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654596644929
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 69
+X: 64
 T: The Irish Ballad
 C:Tom Lehrer
 B: steve's song book
@@ -4316,10 +4242,11 @@ W: You should never have let me begin.
 % abcbook-repeats 
 
 
-X: 70
+X: 65
 T: Are You Strong Enough
 C:Sheryl Crow
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=120
 K:D
@@ -4335,359 +4262,50 @@ V:1
 "Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|"Bm"zzzz"A"zzzz|"G"zzzzzzzz|"G"zzzzzzzz|
 "Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzz"A"zzzz|
 W: 
+W: God, I feel like hell tonight
+W: Tears of rage I cannot fight
+W: I'd be the last to help you understand
+W: Are you strong enough to be my man, my man?
+W: 
+W: Nothing's true and nothing's right
+W: So let me be alone tonight
+W: Cause you can't change the way I am
+W: Are you strong enough to be my man?
+W: 
+W: Lie to me
+W: I promise I'll believe
+W: Lie to me
+W: But please don't leave, don't leave
+W: 
+W: I have a face I cannot show
+W: I make the rules up as I go
+W: Just try and love me if you can
+W: Are you strong enough to be my man, my man?
+W: 
+W: Are you strong enough to be my man?
+W: Are you strong enough to be my man?
+W: Are you strong? My man.
+W: 
+W: When I've shown you that I just don't care
+W: When I'm throwing punches in the air
+W: When I'm broken down and I can't stand
+W: Would you be man enough to be my man?
+W: 
+W: Lie to me
+W: I promise I'll believe
+W: Lie to me
+W: But please don't leave
+W: 
 % abcbook-tune_id 629f272e2ef1a16413b4e30d
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654598952977
+% abcbook-lastupdated 1654930338451
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 71
-T: The Milkmaids
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Three maidens to milking did go,
-W: Three maidens to milking did go.
-W: And the wind it did blow high and the wind it did blow low,
-W: And it tossed milking pails to and fro.
-W: 
-W: I met with a man I knew well,
-W: And I kindly asked of him if he had got any skills
-W: For to catch me a small bird or two.
-W: 
-W: “Oh, yes, I got some excellent good skills.
-W: Now, come along with me down to yonder shady tree.
-W: I’ll catch thee a small bird or two.”
-W: 
-W: Here’s luck to the blackbird and thrush,
-W: There’s luck to the blackbird and thrush.
-W: It’s a bird of one feather and we'll all flock together,
-W: Let the people say little or much.
-W: 
-W: Here's luck to the jolly dragoon.
-W: Here’s luck to the jolly dragoon.
-W: We ll ramble all the day and at night we ll spend or play,
-W: And go home by the light of the moon.
-% abcbook-tune_id 629f2d3afb8cdc67f8de620f
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654599112633
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 72
-T: What's Up
-C:4 Non Blondes
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: [Verse 1]
-W: 25 years and my life is still
-W: Tryin' to get up that great big hill of hope
-W: For a destination
-W: I realized quickly when I knew I should
-W: That the world was made up of this brotherhood of man
-W: For whatever that means
-W: 
-W: [Pre-Chorus]
-W: And so I cry sometimes when I'm lying in bed
-W: Just to get it all out what's in my head
-W: And I, I am feeling a little peculiar
-W: And so I wake in the morning and I step outside
-W: And I take a deep breath and I get real high
-W: And I scream from the top of my lungs
-W: "What's going on?"
-W: [Chorus]
-W: And I say, hey-ey-ey
-W: Hey-ey-ey
-W: I said "Hey, a-what's going on?"
-W: And I say, hey-ey-ey
-W: Hey-ey-ey
-W: I said "Hey, a-what's going on?"
-W: 
-W: [Bridge]
-W: Ooh, ooh
-W: Ooh
-W: Ooh, uh huh
-W: Ooh, ooh
-W: Ooh
-W: Ooh, uh huh
-W: 
-W: [Verse 2]
-W: And I try
-W: Oh my God, do I try
-W: I try all the time
-W: In this institution
-W: And I pray
-W: Oh my God, do I pray
-W: I pray every single day
-W: For revolution
-W: [Pre-Chorus]
-W: And so I cry sometimes when I'm lying in bed
-W: Just to get it all out, what's in my head
-W: And I, I am feeling a little peculiar
-W: And so I wake in the morning and I step outside
-W: And I take a deep breath and I get real high
-W: And I scream from the top of my lungs
-W: "What's going on?"
-W: 
-W: [Chorus]
-W: And I say, hey-ey-ey
-W: Hey-ey-ey
-W: I said "Hey, what's going on?"
-W: And I say, hey-ey-ey
-W: Hey-ey-ey
-W: I said "Hey, a-what's going on?"
-W: And I say, hey-ey-ey
-W: (Wake in the morning and step outside)
-W: Hey-ey-ey
-W: (Take a deep breath and I get real high)
-W: (And I scream)
-W: I said "Hey, a-what's going on?"
-W: And I say, hey-ey-ey
-W: (Wake in the morning and step outside)
-W: Hey-ey, yeah yeah yeah
-W: (Take a deep breath and I get real high)
-W: (And I scream)
-W: I said "Hey, a-what's going on?"
-W: [Bridge]
-W: Ooh, ooh
-W: Ooh
-W: Ooh, uh huh
-W: 
-W: [Outro]
-W: 25 years and my life is still
-W: Tryin' to get up that great big hill of hope
-W: For a destination, mmm
-% abcbook-tune_id 629f2d54b47973facd1d731e
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654599715349
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 73
-T: Disection
-C:Steve Ryan
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Stick a needle in their brains, slimy ugly toad
-W: Watch them twitch until they die, pick em off the road.
-W: 
-W: Disection, cut into that baby corpse, watch the scalpal take it's course.
-W: Disection, fun for the family.
-W: 
-W: Flip the hear above the head to reach into the chest.
-W: To see the veins and arteries that used to drive this pest.
-W: 
-W: Disection, cut into that baby corpse, watch the scalpal take it's course.
-W: Disection, fun for the family.
-W: 
-W: Once you've mangled half the parts, spleen and guts and lungs.
-W: Hack at it with all your heart, hack it into chunks.
-W: 
-W: Disection, cut into that baby corpse, watch the scalpal take it's course.
-W: Disection, fun for the family.
-% abcbook-tune_id 629f2e7b21e92a8be90836d4
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654599291052
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 74
-T: Hey You
-C:Pink Floyd
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Em|Bm
-W: Em|Bm
-W: D| G D C
-W: Bm |C | Em |
-W: 
-W: Hey you, out there in the cold
-W: Getting lonely, getting old
-W: Can you feel me?
-W: Hey you, standing in the aisles
-W: With itchy feet and fading smiles
-W: Can you feel me?
-W: Hey you, don't help them to bury the light
-W: Don't give in without a fight
-W: 
-W: Hey you out there on your own
-W: Sitting naked by the phone
-W: Would you touch me?
-W: Hey you with you ear against the wall
-W: Waiting for someone to call out
-W: Would you touch me?
-W: Hey you, would you help me to carry the stone?
-W: Open your heart, I'm coming home
-W: 
-W: But it was only fantasy
-W: The wall was too high
-W: As you can see
-W: No matter how he tried
-W: He could not break free
-W: And the worms ate into his brain
-W: 
-W: Hey you, out there on the road
-W: Always doing what you're told
-W: Can you help me?
-W: Hey you, out there beyond the wall
-W: Breaking bottles in the hall
-W: Can you help me?
-W: Hey you, don't tell me there's no hope at all
-W: Together we stand, divided we fall
-W: 
-% abcbook-tune_id 629f3009219936596cb9e925
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654599853449
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 75
-T: A Kind Of Loneliness
-C:Rory Mcleod
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: D|G
-W: 
-W: What is madness, but a kind of loneliness
-W: That we all have, maybe that's what makes us more mad
-W: 
-W: What is madness but trying to find a way to deal
-W: A way to speak, to laugh and to cry and with that we shouldn't be weak
-W: But stronger, Trying to be stronger with each other
-W: Looking for ourselves in each other with another
-W: We try to share our dreams and find words
-W: To find out, what it is you want, what it is you need.
-W: What it is you want, what it is you need.
-W: 
-W: Just a little bit, just a little bit , just a little bit, just a bit but enough
-W: Just a little bit, just a little bit , just a little bit, just a bit but enough
-W: Just a little bit, just a little bit , just a little bit, just a bit but enough
-W: Just a little bit, just a little bit , just a little bit, just a bit but enough
-% abcbook-tune_id 629f34aced7fc081fdce0509
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654601314970
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 76
-T: A Gypsy Came To The Castle Gate
-C:Traditional
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: A gypsy came to the castle gate,
-W: He sang so sweet and wild.
-W: And with his song he stole away,
-W: The master’s only child.
-W: 
-W: Oh she cast away her silken gown,
-W: She cast away her pride;
-W: And ran with him into the night,
-W: Down to the sea so wild.
-W: 
-W: Come home! Come home! My bonny little child,
-W: Come home again to me!
-W: Sit once more by a round fireside,
-W: With your head upon my knee!
-W: 
-W: Oh I’d rather live an hour here,
-W: Than seven long years with thee.
-W: And feel the salt spray on my cheek,
-W: And know that I am free.
-W: 
-W: Oh she danced in the wind and she danced in the rain,
-W: on the edge of the cliffs and the shore!
-W: And she tasted the salt upon her cheek,
-W: And never came home no more!
-W: 
-W: Till ... a babe was born on a summers morn,
-W: He was his parents joy.
-W: His mother held him to her heart,
-W: Her precious gypsy boy.
-W: 
-W: She took him to her fathers house,
-W: She beat upon the gate.
-W: Crying, ‘come and see my darling babe,
-W: We named him for your sake’.
-W: 
-W: Come home! Come home! My bonny little child,
-W: Come home again to me!
-W: And the father of that darlin' babe
-W: Shall be a son to me.
-W: 
-W: They danced all the day and they danced all the night.
-W: And they danced on the cliffs and the shore.
-W: And the master held his grandchild tight,
-W: And ne’er was alone no more.
-% abcbook-tune_id 629f3533ce00ecbd7ad3f9f5
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654601011989
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 77
-T: Need
-C:Steve Ryan
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: You were always on my mind, on my mind, on my mind, on my mind, on my mind.
-W: Always churning in my guts in my spleen with my need turning seeds into hope into fears.
-W: 
-W: Always churning in my head.
-W: 
-W: I want it bad, want it now, want it here, tame my fears, come my dear, hold me near.
-W: Need to know, come and show, what you mean, show your fire, show your steam, make me scream.
-W: 
-W: Always churning in my head.
-W: 
-W: Know I need, what I want, to be sure, so much more, here and now, evermore.
-W: Feeling safe, always sure but there's doubt and there's truth want I want is so aloof.
-W: 
-W: Always churning in my head..
-W: Always churning in my head..
-% abcbook-tune_id 629f37352db6e9f6afff9a2d
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654601525322
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 78
+X: 66
 T: Take Her In Your Arms
 C:Trail West
 B: steve's song book
@@ -4804,67 +4422,21 @@ W: If you're going to love a woman then be sure to do it right
 % abcbook-repeats 
 
 
-X: 79
-T: Killing The Blues
-C:Rowland Jon Salley
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Leaves were falling just like embers
-W: In colors red and gold, they set us on fire
-W: Burning just like a moonbeam in our eyes
-W: 
-W: Somebody said they saw me
-W: Swinging the world by the tail
-W: Bouncing over a white cloud
-W: Killing the blues
-W: 
-W: Now I'm guilty of something
-W: I hope you never do, because there is nothing
-W: Sadder than losing yourself in love
-W: 
-W: 
-W: Somebody said they saw me
-W: Swinging the world by the tail
-W: Bouncing over a white cloud
-W: Killing the blues
-W: 
-W: Now you ask me just to leave you
-W: To go out on my own and get what I need to
-W: You want me to find what I've already had
-W: 
-W: Somebody said they saw me
-W: Swinging the world by the tail
-W: Bouncing over a white cloud
-W: Killing the blues
-W: 
-W: Somebody said they saw me
-W: Swinging the world by the tail
-W: Bouncing over a white cloud
-W: Killing the blues
-% abcbook-tune_id 629f44be7e5ef9c71cb884c9
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654605107285
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 80
+X: 67
 T: Falling Slowly
 C:Glen Hansard, Marketa Irglova
 B: steve's song book
+B: maxs song book
 M:4/4
-Q: 1/4=100
+Q: 1/4=110
 K:C
 V:1 
-W: C |F |C|F
-W: C |F |C|F
-W: Am|F|Am|F
-W: C|F|Am|F
-W: C|F|Am|F
+"C"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"F"zzzzzzzz|
+"C"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"F"zzzzzzzz|
+"Am"zzzzzzzz|"F"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|
+"C"zzzzzzzz|"F"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|
+"C"zzzzzzzz|"F"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|
+W: 
 W: 
 W: I don't know you but I want you
 W: All the more for that
@@ -4904,140 +4476,16 @@ W: I'll sing along
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654605645972
+% abcbook-lastupdated 1654930495377
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 81
-T: Open Hand
-C:Jez
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: You hold me in your fist know in your heart that i'm going to resist
-W: See you have to understand
-W: Got to hold me gently in an open hand
-W: Hold me gently in an open hand
-W: 
-W: See there's no cage strong enough
-W: To hold my soul or to make me feel love
-W: And there's no hope in demand
-W: Got to hold me gently in an open hand
-W: Hold me gently in an open hand
-W: 
-W: Why would you wish to destroy?
-W: Possibilities of light and joy
-W: When you know deep deep deep inside
-W: We ride
-W: Free within our mind regardless of captivity or bind
-W: 
-W: It's as my angel said
-W: Let me go free or to you i am dead
-W: And though it cut me so
-W: I had a feeling just to let her go
-W: I had a feeling just to let her go
-W: 
-W: Why would i wish to destroy?
-W: Possibilities of light and joy
-W: When i know deep deep deep inside
-W: We ride
-W: Free within our minds regardless of captivity or bind
-W: Captivity or bind...
-% abcbook-tune_id 629f4c6fffaabe8e0eacb3ce
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654607842724
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 82
-T: Joshua
-C:Nitty Gritty Dirt Band
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Joshua come back home to the island
-W: Everyone dance in the street
-W: Joshua come back home to the island
-W: Happiness be complete.
-W: 
-W: Mothers will talk again to their son
-W: Happy the talk is no longer in one
-W: While Stephen begins and John sped the story on.
-W: 
-W: Joshua been gone too long, princess of the islands fade
-W: Cries of pain and sorrow but there's no good work today
-W: Joshua said he come soon, bring good work to everyone
-W: Get together at sundown like crying in the work we done.
-W: 
-W: Craft two blocks together, singing about de land
-W: Joyful congregation dancin' in the sand
-W: No want to look to Babylon, Kingdom will come right here
-W: Joyful celebration, make the slaver shake with fear.
-W: 
-W: Joshua come back home to the island
-W: Everyone dance in the street
-W: Joshua come back home to the island
-W: Happiness be complete.
-W: 
-W: Mothers will talk again to their son
-W: Happy the talk is no longer in one
-W: While Stephen begins and John sped the story on.
-W: 
-W: Joshua talk to the angels, watch the sun on the western sea
-W: Silent contemplation, find the man to make us free
-W: Joshua pay a dime a clam, charge a dime for a dozen eggs
-W: Plenty money left for rum to add power to our dancin' legs
-W: Plenty money left for rum to add power to our dancin' legs.
-W: 
-W: Joshua come back home to the island
-W: Everyone dance in the street
-W: Joshua come back home to the island
-W: Happiness be complete.
-W: 
-W: Mothers will talk again to their son
-W: Happy the talk is no longer in one
-W: While Stephen begins and John sped the story on
-W: While Stephen begins and John sped the story on
-W: While Stephen begins and John sped the story on.
-% abcbook-tune_id 629fda099f99e63a27dcf76d
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654776630682
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 83
-T: Cordelia Brown
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: ??
-W: Cordelia Brown, why is your skin so brown
-W: Cordelia Brown, why is your skin so brown
-W: It's from dancing in the sunlight and spinning around and round
-W: Hey Cordelia Brown, why is your skin so brown.
-% abcbook-tune_id 629fda207bd449da93a2b1ae
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654643389753
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 84
+X: 68
 T: Bottle Of Wine
 C:Tom Paxton
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 K:C
@@ -5110,55 +4558,7 @@ W: Let me go home and start over
 % abcbook-repeats 
 
 
-X: 85
-T: Ruby
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: 
-% abcbook-tune_id 629ffe5cf6d7cf7dc8148a42
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654652508060
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 86
-T: Angeline The Baker
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: 
-% abcbook-tune_id 629ffe75adc16062719e72a6
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654652533203
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 87
-T: June Apple
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: 
-% abcbook-tune_id 629ffe87b995b2ac78dc47df
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654652551962
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 88
+X: 69
 T: Baby Of Mine
 B: steve's song book
 M:3/4
@@ -5216,42 +4616,19 @@ W:
 % abcbook-repeats 
 
 
-X: 89
-T: Wade In The Water
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-W: Wade in the water, wade in the water children,
-W: Wade in the water, God's gonna trouble the water.
-W: 
-W: Sometimes I feel like a motherless child,Sometimes I feel like a motherless child,
-W: Sometimes I feel like a motherless child, a long way from home
-W: 
-W: I want to die easy, when I die. I want to die easy, when I die.
-W: I want to die easy, when I die. Shout salvation as I rise.
-W: I want to die easy, when I die.
-% abcbook-tune_id 629ffecdd56b22cd0be11282
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654692673416
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 90
+X: 70
 T: Thula Mama
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 K:F
 V:1 
 |:c- cBAG|[FA]2[FA]2[FA][GB][Ac][Ac]|[Ac][GB][GB]2 [GB][FA][EG][DF]|[EG]2 [EG]2 [EG][EG][DF][EG]|[FA]2[FA] :|
-W: Thula Mama 
-W: Thula thula mama 
-W: Thula thula mama 
-W: Thula thula mama 
+W: Thula Mama
+W: Thula thula mama
+W: Thula thula mama
+W: Thula thula mama
 W: 
 W: Samthatha
 W: Samthatha sambekalekhaya
@@ -5268,12 +4645,13 @@ W: wathi . Amandla.
 % abcbook-transpose 
 % abcbook-lastupdated 1654693941892
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 91
+X: 71
 T: Zaspo Yanko
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 K:Dm
@@ -5284,12 +4662,12 @@ W: Zaspo Janko pod jablanom
 W: Mile moje drage
 W: Lepe moje crne oči
 W: Pogledajte na me
-W:  
+W: 
 W: Pod jablanom zlatnom granom
 W: Mile moje drage
 W: Lepe moje crne oči
 W: Pogledajte na me
-W:  
+W: 
 W: Ja otrgo zlatnu granu
 W: Mile moje drage
 W: Lepe moje crne oči11
@@ -5300,10 +4678,10 @@ W: Pogledajte na me
 % abcbook-transpose 
 % abcbook-lastupdated 1654691223589
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 92
+X: 72
 T: Saint Patrick Was A Gentleman
 B: steve's song book
 M:4/4
@@ -5387,10 +4765,11 @@ W: And banish them forever!
 % abcbook-repeats 
 
 
-X: 93
+X: 73
 T: Whiskey On A Sunday
 C:Glyn Hughes
 B: steve's song book
+B: maxs song book
 M:3/4
 Q: 1/4=146
 V:1 
@@ -5443,7 +4822,7 @@ W: [G7]  Whiskey on a [C]  Sunday
 % abcbook-repeats 
 
 
-X: 94
+X: 74
 T: Muskrat
 B: steve's song book
 M:4/4
@@ -5494,7 +4873,7 @@ W: Even been in the onion patch
 % abcbook-repeats 
 
 
-X: 95
+X: 75
 T: Como Poden
 C:King Alfonso X
 B: steve's song book
@@ -5508,7 +4887,6 @@ FED F2G|A2A zAG|FED "C"EDC|"Dm"D2D zcc|
 "Dm"cBGA2B|c2c zcd|cBG A2B|"C"G2G zAG|
 "Dm"FED F2G|A2A zAA|cBcd2c/B/|A2 A zAG|
 FED F2G|A2A zAG|FED "C"EDC|"Dm"D2D||
-
 W: Let us sing aloud with gladness, dance with joy and exaltation
 W: Make an end to woe and sadness in ecstatic jubilation.
 W: I shall now relate the story, listen hard to my narration,
@@ -5527,7 +4905,7 @@ W: Como poden per sas culpas, os o-mes-se-er con trei-tos
 W: As si poden pel a virgen, de pois seer saos feitos.
 W: Ond' a ye-o a un o-me, porpe-ca-dis que fe-le-tion
 W: Que foi to-llei-to dos nembros, d'u-a do-or que ou-ve-ra.
-W: Et du rou as si cinc a nos que mo-ve-se no po-de-ra 
+W: Et du rou as si cinc a nos que mo-ve-se no po-de-ra
 W: As-si a-vi-a os nembros , todos do corpo mal treitos
 W: 
 % abcbook-tune_id 62a0005ea08c6cf36b67abed
@@ -5536,62 +4914,121 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654695875780
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 96
-T: Staggering Willy
+X: 76
+T: Blackbird Melody Line
+C:Beatles
 B: steve's song book
 M:4/4
-Q: 1/4=100
+L:1/8
+Q: 1/4=97
+K:G
 V:1 
-W: 
-% abcbook-tune_id 62a06f039eba0cf04220c937
+GG|G/2G/2G/2D/2 G/2d3/2 d4-|d2 z2 BG A/2A/2A-|AG cd/2B2-B/2 z2|
+z4 A2 BG-|G4 z4|GG GA/2BA/2z G/2EA/2-|AG B/2AG2-G/2 z2||z4|GG G/2G/2G/2D/2G/2d3/2 d2-|d4 z2 BG|
+A/2A/2A2G cd/2B2-B/2|z6 A2|BG4-G z2|z2 GG GA/2BA/2z|
+G/2EA3/2G B/2EG2-G/2|z2 c3A/2G2-G/2-|GG4-G z2|z2 c3A/2G2-G/2-|
+GG4-G z3/2g/2-|g/2f/2d/2f3/2d/2d/2c^A/2=F3/2G-|G4 z4||
+z4|c3=A/2G3-G/2G-|G4 z4|c3A/2G3-G/2G-|
+G4 z3/2gf/2d/2f/2-|fd/2d/2 c^A/2F3/2G3-|G2 z6||z2 GG G/2G/2G/2D/2G/2d3/2|d6 z2|BG =A/2A/2A2G cd/2B/2-|B2 z6|
+A2 BG4-G|z4 GG GE/2B/2-|B/2A/2z G/2EA3/2G B/2AG/2-|G2 z2 GG GA|
+B/2A/2z G/2EA3/2B A/2GG/2-|G2 z2 GG G/2G/2B/2A/2-|A/2z3/2G/2EA3/2G B/2A/2G/2A/2|G3/2
+% abcbook-tune_id 62a075dc7fed7ebb63d668a4
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654681358484
+% abcbook-lastupdated 1655018530058
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 97
-T: Church Street Blues
+X: 77
+T: Yesterday: Beatles
 B: steve's song book
 M:4/4
-Q: 1/4=100
+L:1/8
+Q: 1/4=108
 V:1 
-W: 
-% abcbook-tune_id 62a06f23ba2745e7cfa7e092
+z8|G,F, F,2 z4|z2 A,=B, _D=D EF|E2 DD4-D-|D2 DD C_B, A,G,|B,2 A,A,2-A,/2z3/2G,|F,2 A,G,4D,|F,2
+A,A,3/2z3z/2|G,F, F,2 z4|z2 A,=B, _D=D EF|E2 DD4-D-|D2 DD C_B, A,G,|B,2 A,A,2-A,/2z3/2G,|F,2 A,G,4D,|F,2
+A,A,3/2z3z/2|A,3z A,2- A,/2z3/2|D2 E2 F2 ED|E3D C2 DA,-|A,2 z6|A,3z A,4|D2 E2 F2 ED|E3D C2
+EF-|F3/2z6z/2|G,F, F,2 z4|z2 A,=B, _D=D EF|E2 DD4-D-|D2 DD C_B, A,G,|B,2 A,A,2-A,/2z3/2G,|F,2
+A,G,4D,|F,2 A,A,3/2z3z/2|A,3z A,2- A,/2z3/2|D2 E2 F2 ED|E3D C2 DA,-|A,2 z6|A,3z A,4|D2 E2 F2 ED|E3D C2
+EF-|F3/2z6z/2|G,F, F,2 z4|z2 A,=B, _D=D EF|E2 DD4-D-|D2 DD C_B, A,G,|B,2 A,A,2-A,/2z3/2G,|F,2
+A,G,4D,|F,2 A,A,3/2z3z/2|F,2 A,G,4D,|F,2 A,A,3/2
+% abcbook-tune_id 62a075dc19bdb1b9d72dd7e6
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654684185767
+% abcbook-lastupdated 1655019120396
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 89030
-T: Spanish Steps
+X: 78
+T: Yellow Submarine Melody Line
+C:The Beatles
 B: steve's song book
 M:4/4
-Q: 1/4=100
+L:1/8
+Q: 1/4=130
+K:G
 V:1 
-
-W: 
-% abcbook-tune_id 62a07a446d33864cb966ffd3
+z6 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 B3/2B/2|A3/2G/2 E3-E/2E/2 B3/2B/2|
+A4 z2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 B3/2B/2|A3/2G/2 E3-E/2E/2 B3/2B/2|
+A4 z2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 B3/2B/2|A3/2G/2 E3-E/2E/2 B3/2B/2|
+A4 z2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 B3/2B/2|AG E2- E/2z3/2 B3/2B/2|
+A4- A3/2z2z/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2z3/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 BB|A3/2G/2 E2- E/2z3/2 B3/2B/2|
+A4 z2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z4|z8|
+z8|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2z3/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 BB|A3/2G/2 E2- E/2z3/2 B3/2B/2|
+A4 z2 B3/2c/2|d4- d3/2B/2 A3/2B/2|G4 z2 B3/2B/2|AG E2- E/2z3/2 B3/2B/2|
+A4- A3/2z2z/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2z3/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2z3/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2z3/2|d2 d2 d2 d3/2e/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|A3/2A/2 A3/2A/2 A2- A/2z3/2|
+G3/2G/2 G3/2G/2 G2- G/2
+% abcbook-tune_id 62a075dc168d232891210e9c
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654684228023
+% abcbook-lastupdated 1655019192106
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 99
+X: 79
+T: You Are My Sunshine
+C:Jimmie Davis
+B: steve's song book
+M:C
+L:1/4
+Q: 1/4=100
+K:G
+V:1 
+D G A |: B2 (B2| B) B ^A B|G2 (G2|
+G) G A B|c2 e2|d2 c2|(B4|
+B) G A B|c2 (e2|e) e d c|B2 (G2|
+G2) G A|B3 c|A3 B|(G4):|
+% abcbook-tune_id 62a0796c925cd89ec6b43294
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1655019207709
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 80
 T: Romeo And Juliet
 C:Dire Straits
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=85
 K:C
@@ -5604,7 +5041,6 @@ V:1
 "C"zzzz"G"zzzz|"F"zzzz"F"zzzz|"C"zzzz"G"zzzz|"F"zzzz"F"zzzz|
 "C"zzzzzzzz|"Am"zzzzzzzz|"G"zzzzzzzz|"F"zzzzzzzz|
 "C"zzzzzzzz|"Am"zzzzzzzz|"Asus2"zzzzzzzz|"Am"zzzzzzzz||
-
 W: [Verse 1]
 W: A lovestruck Romeo sings the streets a serenade
 W: Laying everybody low with a love song that he made
@@ -5679,169 +5115,7 @@ W: "You and me babe, how about it?"
 % abcbook-repeats 
 
 
-X: 96848
-T: Andrews Latin Song ??
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a0a0e275c01f188ee54828
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654859669533
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 77593
-T: Be My Girl Sally
-C:The Police
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Won't you be my girl
-W: Won't you be my girl
-W: Won't you be my, be my
-W: Be my girl
-W: 
-W: I was blue and lonely
-W: I couldn't sleep a wink
-W: And I could only get unconscious
-W: If I'd had to much to drink
-W: There was somehow, something wrong somewhere
-W: And each day seemed grey and dead
-W: The seeds of desperation
-W: Were growing in my head
-W: 
-W: I needed inspiration
-W: A brand new start in life
-W: Somewhere to place affection
-W: But I didn't want a wife
-W: 
-W: And then by lucky chance I saw
-W: In a special magazine
-W: An ad that was unusual
-W: The like I'd never seen
-W: 
-W: "Experience something different
-W: With our new imported toy
-W: She's loving, warm, inflatable
-W: And a guarantee of joy"
-W: 
-W: She came all wrapped in cardboard
-W: All pink and shrivelled down
-W: A breath of air was all she needed
-W: To make her lose that frown
-W: 
-W: I took her to the bedroom
-W: And pumped her with some life
-W: And later in a moment
-W: That girl became my wife
-W: 
-W: And so I sit her in the corner
-W: And sometimes stroke her hair
-W: And when I'm feeling naughty
-W: I blow her up with air
-W: 
-W: She's cuddly and she's bouncy
-W: She's like a rubber ball
-W: I bounce her in the kitchen
-W: And I bounce her in the hall
-W: 
-W: And now my life is different
-W: Since Sally came my way
-W: I wake up in the morning
-W: And have her on a tray
-W: 
-W: She's everything they say she was
-W: And I wear a permanent grin
-W: And I only have to worry
-W: In case my girl wears thin
-W: 
-W: Won't you be my girl
-W: Won't you be my girl
-W: Won't you be my, be my
-W: Be my girl
-W: 
-% abcbook-tune_id 62a0acfc6c57e1b36cbacf1b
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654697379479
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 28059
-T: My Love Is In America
-C:Dolores Keane
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: My love is in America
-W: And i miss him tonight
-W: So much so
-W: I feel like taking the money we've saved
-W: And catching the flight
-W: And catching the flight
-W: 
-W: The children are sleeping well
-W: And im on my own
-W: Even though I've read his letters
-W: Again and again, im alone, im all alone
-W: But the money I've sent home is barely enough
-W: There's an ocean that keeps us apart
-W: I've been lonely from home, but I mustn't give up
-W: 
-W: What about this aching heart?
-W: 
-W: Johnny come home, I need you tonight
-W: I need you tonight
-W: 
-W: My love is in America
-W: But it's hard to go out
-W: Just because certain assumptions are made
-W: When your man's not about
-W: When your man's not about
-W: 
-W: My love is in America
-W: And I'm not so sure
-W: Maybe I rather him here in my arms
-W: And us to be poor
-W: And us to be poor
-W: 
-W: Still the money I send home
-W: Is barely enough
-W: There's an ocean that keeps us apart
-W: I've been aching for home
-W: But I mustn't give up
-W: What about this aching heart?
-W: 
-W: Johnny come home, I need you tonight
-W: I need you tonight (I need you tonight)
-W: 
-W: Johnny come home, I need you tonight
-W: I need you tonight (I need you tonight)
-W: 
-W: Johnny come home, I need you tonight
-W: I need you tonight (I need you tonight)
-% abcbook-tune_id 62a0aefcd4ae4bdf9503480b
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654697761811
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 103
+X: 81
 T: It's Hard To Be Humble
 C:Mac Davis
 B: steve's song book
@@ -5922,10 +5196,11 @@ W:
 % abcbook-repeats 
 
 
-X: 104
+X: 82
 T: The Rose
 C:Mc Broom Amanda
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=115
 K:C
@@ -5974,10 +5249,12 @@ W:
 % abcbook-repeats 
 
 
-X: 105
+X: 83
 T: Farther Along
 C:W B. Stevens
 B: steve's song book
+B: velmas song book
+B: maxs song book
 M:3/4
 L:1/4
 Q: 1/4=100
@@ -6026,9 +5303,10 @@ W: CHORUS
 % abcbook-repeats 
 
 
-X: 106
+X: 84
 T: Lancashire
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=170
 K:D
@@ -6087,107 +5365,12 @@ W: No wonder we sing of Lancashire to beat the rural blues.
 % abcbook-repeats 
 
 
-X: 39407
-T: Rogues In A Nation
-C:Steeleye Span
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Farewell to all our Scottish fame
-W: Farewell our ancient glory
-W: Farewell even to our Scottish name
-W: Sae fam'd in martial story
-W: Now Sark runs over the Solway sands
-W: And Tweed runs to the ocean
-W: To mark where England's province stands:
-W: Such a parcel of rogues in a nation!
-W: 
-W: What force or gile could not subdue
-W: Through many warlike ages
-W: Is wrought now by a coward few
-W: For hireling traitor's wages
-W: The English steel we could disdain
-W: Secure in valour's station
-W: But English gold has been our bane:
-W: Such a parcel of rogues in a nation!
-W: 
-W: I would, or I had seen the day
-W: That treason thus could sell us
-W: My auld gray head had lain in clay
-W: Wi' Bruce and loyal Wallace!
-W: But pith and power, till my last hour
-W: I'll make this declaration
-W: We were bought and sold for English gold:
-W: Such a parcel of rogues in a nation!
-% abcbook-tune_id 62a1479274cb8f03b5917610
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654745466950
-% abcbook-soundfonts 
-% abcbook-repeats 3
-
-
-X: 81053
-T: She Moved Through The Fair
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a154db74e2c4069978bbc9
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654740187988
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 82812
-T: The Blacksmith
-B: steve's song book
-B: velma's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Am G6 Am
-W: Em G6 C
-W: The blacksmith courted me..
-% abcbook-tune_id 62a155103ce21621c6fcee07
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654861369206
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 57118
-T: Matty Groves
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a1556c7d292005a4e1b9aa
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654740332535
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 111
+X: 85
 T: Do You Love An Apple
 C:Secret Sisters
 B: steve's song book
+B: cassidys song book
+B: velmas song book
 M:3/4
 Q: 1/4=130
 K:G
@@ -6233,58 +5416,7 @@ W:
 % abcbook-repeats 
 
 
-X: 90480
-T: The Swallow
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a1559160cb27ac5701fe6a
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654740369655
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 90732
-T: Fields Of Athenry
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a155aa2e463fa7328b1564
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654740394015
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 93331
-T: Sonny
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: sonny works on a farm ..
-% abcbook-tune_id 62a155f0a5ad109aa67a84ef
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654740464048
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 115
+X: 86
 T: Rosie's House
 B: steve's song book
 M:4/4
@@ -6325,77 +5457,10 @@ W: CHORUS
 % abcbook-transpose 
 % abcbook-lastupdated 1654744677086
 % abcbook-soundfonts 
-% abcbook-repeats 3
-
-
-X: 45007
-T: Corbies
-C:Traditional
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Em|D
-W: 
-W: As I was walking all alane
-W: I heard Twa Corbies making a main
-W: And tane untae the tither did say O
-W: Where sall we gang and dine the day
-W: In behint yon auld fell dyke
-W: I wat there lies a new slain knight
-W: And naebody kens that he lies there O
-W: But his hawk and hound and his lady fair
-W: 
-W: His hound is tae the hunting gane
-W: His hawk tae fetch a wild fowl hame
-W: His lady's taen another mate O
-W: So we maun make our dinner sweet
-W: 
-W: Ye'll sit on his white hause bane
-W: And I'll pike out his bonny blue een
-W: Wi' many a lock of his gowden hair O
-W: We'll theek our nest when it grows bare
-W: 
-W: Many a one for him makes mane
-W: But nane shall ken where he is gane
-W: O'er his white bones when they are bare O
-W: The wind shall blow forever mare
-W: The wind sall blow forever mair
-% abcbook-tune_id 62a169aa1bfb0515247b5377
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654745844520
-% abcbook-soundfonts 
-% abcbook-repeats 4
-
-
-X: 11803
-T: Universe In Every Cup Of Tea
-C:Andrew Kordas
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: There's a universe in every cup of tea.
-W: If you listen carefully, you will see.
-W: A spiralling, swirling galaxy, in a 
-W: Psychodelic cup of tea.
-W: 
-W: It's converse-ally, almost universally, a very nice thing to do.
-W: One cup for you and one cup for me, sharing in tea for two.
-% abcbook-tune_id 62a16c0fcd0ecf4a01e518f8
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654746127869
-% abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 118
+X: 87
 T: Discovery
 C:Steve Ryan
 B: steve's song book
@@ -6443,7 +5508,7 @@ W: CHORUS
 % abcbook-repeats 
 
 
-X: 119
+X: 88
 T: Uh Oh, Springs Here
 C:Steve Ryan
 B: steve's song book
@@ -6475,13 +5540,15 @@ W: CHORUS
 % abcbook-transpose 
 % abcbook-lastupdated 1654747642429
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 90185
+X: 89
 T: Prodigal Son
 C:Michelle Shocked
 B: steve's song book
+B: cassidys song book
+B: maxs song book
 M:4/4
 Q: 1/4=150
 V:1 
@@ -6536,13 +5603,15 @@ W: Singing, oh Cotton Eyed Joe
 % abcbook-transpose 
 % abcbook-lastupdated 1654748115605
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 121
+X: 90
 T: Like A Songbird That Has Fallen
 C:Reeltime Travelers
 B: steve's song book
+B: cassidys song book
+B: maxs song book
 M:4/4
 Q: 1/4=170
 K:G
@@ -6575,10 +5644,11 @@ W: From this frozen shadow valley, they must weary fly
 % abcbook-repeats 
 
 
-X: 122
+X: 91
 T: Vatican Rag
 C:Tom Lehrer
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=104
 V:1 
@@ -6622,13 +5692,14 @@ W: Doin' the Vatican Rag!
 % abcbook-transpose 
 % abcbook-lastupdated 1654755726224
 % abcbook-soundfonts 
-% abcbook-repeats 2
+% abcbook-repeats 
 
 
-X: 123
+X: 92
 T: Man Of Constant Sorrow
 C:The Soggy Bottom Boys
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=170
 V:1 
@@ -6671,13 +5742,14 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654756266167
 % abcbook-soundfonts 
-% abcbook-repeats 10
+% abcbook-repeats 
 
 
-X: 74179
+X: 93
 T: May You Never
 C:Eric Clapton
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 K:C
@@ -6736,10 +5808,10 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654770589344
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 14804
+X: 94
 T: The Idiot Song
 C:Monty Python
 B: steve's song book
@@ -6747,67 +5819,66 @@ M:4/4
 Q: 1/4=100
 K:G
 V:1 
-
 W: [Intro]
-W:    G    Fadd9    C/E   Cm/D#     D4             D
+W: G    Fadd9    C/E   Cm/D#     D4             D
 W: |  /  /  /  /  |  /  /  /  /  |  /  /  /  /  |  /  /  /  /  |
-W:  
+W: 
 W: [Verse 1]
-W:     G     Bm/F#          Em     Em7/D    C        Em/B      D#dim
+W: G     Bm/F#          Em     Em7/D    C        Em/B      D#dim
 W: How sweet------ to be an idiot,       as harmless...   as a cloud,
-W:     Em                B    Am            D4   D
+W: Em                B    Am            D4   D
 W: Too small to hide the sun, almost poking fun,
-W:        G         Bm/F#  Em         Em7/D  Am       D4    D
+W: G         Bm/F#  Em         Em7/D  Am       D4    D
 W: At the warm, but inse - cure, un - tidy   crowd |  /  /  /  /  |
-W:  
+W: 
 W: [Verse 2]
-W:     G     Bm/F#          Em     Em7/D     C   Em/B             D#dim
+W: G     Bm/F#          Em     Em7/D     C   Em/B             D#dim
 W: How sweet------ to be an idiot,       and dip...   my brain in joy,
-W:           Em            B             Am           D4   D
+W: Em            B             Am           D4   D
 W: Children laughing at my back, with no fear of at - tack,
-W:    G         Bm/F#  Em     Em7/D       Am      D4    D
+W: G         Bm/F#  Em     Em7/D       Am      D4    D
 W: As much re - tali - ation...      as a toy  |  /  /  /  /  |
-W:  
+W: 
 W: [Verse 3]
-W:     G     Bm/F#           Em     D
+W: G     Bm/F#           Em     D
 W: How sweet------  to be an idiot,
-W:     G       Fadd9    C/E  Cm/D#     D4            D
+W: G       Fadd9    C/E  Cm/D#     D4            D
 W: How sweet         |  /  /  /  /  |  /  /  /  /  | /_/ /_/ /_/ /_/ |
-W:                      ^  ^  ^  ^     ^  ^  ^  ^    ^ ^ ^ ^ ^ ^ ^ ^
-W:   D
+W: ^  ^  ^  ^     ^  ^  ^  ^    ^ ^ ^ ^ ^ ^ ^ ^
+W: D
 W: I tip - toe down the street, smile at everyone I meet!
-W:  
-W:    G *    G6    G7    G6 G7 G6    G *    G6    G7    G6 G7 G6
+W: 
+W: G *    G6    G7    G6 G7 G6    G *    G6    G7    G6 G7 G6
 W: |  /__/   /__/  /__/   /_/__/  |  /__/   /__/  /__/   /_/__/  |
-W:    ^  ^   ^  ^  ^  ^   ^ ^  ^     ^  ^   ^  ^  ^  ^   ^ ^  ^
-W:  
+W: ^  ^   ^  ^  ^  ^   ^ ^  ^     ^  ^   ^  ^  ^  ^   ^ ^  ^
+W: 
 W: [Verse 4]
-W:    A                   A                    B
+W: A                   A                    B
 W: |  /  /  /  /  |   But suddenly a scream ...smashes through my dream,
-W:    ^  ^  ^  ^
+W: ^  ^  ^  ^
 W: E
 W: Fee - fi - fo - fum, I smell the blood of an asylum!
 W: Am                      Am/G                             D9/F#
-W:    (Blood of an asylum?      But, mother, I'm playing so beautifully!
-W:                         Fmaj7
+W: (Blood of an asylum?      But, mother, I'm playing so beautifully!
+W: Fmaj7
 W: Ha - ha!  Listen!  Ha - ha!)
 W: E
 W: Fee - fi - fo - fum, I smell the blood of an asylum!
-W:  
+W: 
 W: [Verse 5]
-W:      Am                  Am/G
+W: Am                  Am/G
 W: Hey, you!  You're such a pedant,
-W:        D9/F#                  Fmaj7
+W: D9/F#                  Fmaj7
 W: You've got as much brain as a dead ant,
-W:    E
+W: E
 W: As much imagination as a caravan site...
-W:              D              D7
+W: D              D7
 W: But I still love you, still love you, oo, oo!
-W:  
+W: 
 W: [Coda]
-W:     G    Bm/F#           Em     D
+W: G    Bm/F#           Em     D
 W: How sweet------ to be an idiot,
-W:     G      Fadd9    C/E   Cm/D#     D4       D    G4    G **
+W: G      Fadd9    C/E   Cm/D#     D4       D    G4    G **
 W: How sweet!        |  /  /  /  /  |      How-----  sweet------!
 W: 
 W: 
@@ -6850,9 +5921,10 @@ W: How sweet, how sweet, how sweet
 % abcbook-repeats 
 
 
-X: 60092
+X: 95
 T: Tina Singu
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 K:F
@@ -6878,10 +5950,11 @@ W: La, la la la la la, la, la la la la la, la, la la la la la, la...
 % abcbook-repeats 
 
 
-X: 34925
+X: 96
 T: Hine E Hine
 C:Maori Lullaby
 B: steve's song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 K:G
@@ -6893,7 +5966,6 @@ V:2
 G2GGF2EF|G4 A4|B2cBA2EF|G8|G2GGF2EF|G4 A4|
 B2cBA2EF|G8|B2BBc3c|B8|B2BB c3c|B8|
 B2BBG2A^A|B4B4|G2G2F2EF|G8|G2G2F2EF|G8|
-
 W: E tangi a-na koe, hine e hine.
 W: E tangi a-na koe, hine e hine.
 W: Kati ti ponri ra, noho i te aroha.
@@ -6905,75 +5977,13 @@ W: Hine i hine. Hine e Hine
 % abcbook-transpose 
 % abcbook-lastupdated 1654773777613
 % abcbook-soundfonts 
-% abcbook-repeats 2
-
-
-X: 22410
-T: Doomba
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Hey Doomba
-W: ee ay Doomba
-W: ee ay Dooma Doom
-W: Ey Dooma Doom
-W: 
-W: (Ey Doomba
-W: Doomba ee ay
-W: Na na na na na na)
-% abcbook-tune_id 62a1e02c4346e89601a0362c
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654775852894
-% abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 32746
-T: So So Bambo
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: So so bambo
-W: So barra gess o day
-W: 
-W: So Man Ay So Man Ay Bamba
-W: So Man Ay Barr gess o day.
-% abcbook-tune_id 62a1e08a2babeefbc764d8fd
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654775946783
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 30753
-T: Zamangwaza
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Awai awai zamangwaza
-W: Awai awai zamangwaza manyoor way, your way
-% abcbook-tune_id 62a1e0d7cee34497abd5e985
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654776023545
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 22424
+X: 97
 T: Sto Mi E Milelo
 B: steve's song book
+B: choir song book
 M:2/4
 L:1/8
 Q: 1/4=100
@@ -6991,10 +6001,10 @@ W: E sto mi o milelo
 % abcbook-transpose 
 % abcbook-lastupdated 1654859608921
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 132
+X: 98
 T: Bright Eyes
 C:Art Garfunkle
 B: steve's song book
@@ -7059,7 +6069,7 @@ W: Bright eyes
 % abcbook-repeats 
 
 
-X: 133
+X: 99
 T: House Of The Rising Sun
 B: steve's song book
 M:3/4
@@ -7111,10 +6121,10 @@ W: And God, I know I'm one
 % abcbook-transpose 
 % abcbook-lastupdated 1654787274273
 % abcbook-soundfonts 
-% abcbook-repeats 6
+% abcbook-repeats 
 
 
-X: 134
+X: 100
 T: Only The Good Die Young
 B: steve's song book
 Q: 1/4=100
@@ -7129,7 +6139,7 @@ V:1
 % abcbook-repeats 
 
 
-X: 135
+X: 101
 T: Yellow Submarine
 C:The Beatles
 B: steve's song book
@@ -7197,10 +6207,10 @@ W: Yellow submarine, yellow submarine
 % abcbook-transpose 
 % abcbook-lastupdated 1654786958364
 % abcbook-soundfonts 
-% abcbook-repeats 4
+% abcbook-repeats 
 
 
-X: 136
+X: 102
 T: Blowin In The Wind
 C:Bob Dylan
 B: steve's song book
@@ -7213,7 +6223,6 @@ V:1
 "C"G4-|"C"G2EF|"C"G2GG|"F"A2GF|"C"G2ED|"Am"C3E|"C"G3E|"C"F2FE|
 "G"D4-|D2EF|"C"G2GG|"F"A2GF|"C"GGED|C3E|G2GG|"F"A2GF|"G"G4-|G3E|| 
 "F"F2FE|"G7"D3D|"C"EEED|"Am"C3E|"F"F2FE|"G7"DDCB|"C"C4|"C"C4||
-
 W: [Verse 1]
 W: How many roads must a man walk down
 W: Before you call him a man?
@@ -7257,7 +6266,7 @@ W: The answer is blowin' in the wind
 % abcbook-repeats 
 
 
-X: 137
+X: 103
 T: Who Wants To Live Forever
 C:Queen
 B: steve's song book
@@ -7265,75 +6274,74 @@ M:4/4
 Q: 1/4=100
 K:Am
 V:1 
-
 W: [Verse 1]
-W:             Am
+W: Am
 W: There's no time for us
-W:             Em
+W: Em
 W: There's no place for us
-W:               G                    A
+W: G                    A
 W: What is this thing that builds our dreams
-W:                  D
+W: D
 W: Yet slips away from us?
-W:  
-W:  
+W: 
+W: 
 W: [Chorus]
-W:  C            G      Am
+W: C            G      Am
 W: Who wants to live forever?
-W:  C            Bm     Am
+W: C            Bm     Am
 W: Who wants to live forever?
-W:  C    D
+W: C    D
 W: Ooh...
-W:  
-W:  
+W: 
+W: 
 W: [Verse 2]
-W:              Am
+W: Am
 W: There's no chance for us
-W:           Em
+W: Em
 W: It's all decided for us
-W:               G             A
+W: G             A
 W: This world has only one sweet moment
-W:            D
+W: D
 W: Set aside for us
-W:  
-W:  
+W: 
+W: 
 W: [Chorus]
-W:  C             G      Am
+W: C             G      Am
 W: Who wants to live forever?
-W:  C             Bm      Am
-W: Who wants to live forever?  
-W:  D      C G Am
+W: C             Bm      Am
+W: Who wants to live forever?
+W: D      C G Am
 W: Ooh...
-W:  
-W:  
+W: 
+W: 
 W: [Post-Chorus]
-W:  C             Bm    Am
+W: C             Bm    Am
 W: Who dares to love forever
 W: C D                 Em
 W: Oh, when love must die?
-W:  
-W:  
+W: 
+W: 
 W: [Bridge]
-W:                C              Em
+W: C              Em
 W: But touch my tears with your lips
-W:            C                  Em
+W: C                  Em
 W: Touch my world with your fingertips
-W:      G       D     Em
+W: G       D     Em
 W: And we can have forever
-W:      G       D     Em
+W: G       D     Em
 W: And we can love forever
-W:   Bm             F
+W: Bm             F
 W: Forever is our today
-W:  
-W:  
+W: 
+W: 
 W: [Chorus]
-W:     G        D       Em
-W: Who wants to live forever 
-W:     G        D       Em
+W: G        D       Em
+W: Who wants to live forever
+W: G        D       Em
 W: Who wants to live forever
 W: Bm             F
 W: Forever is our today
-W:     Em
+W: Em
 W: Who waits forever any way
 W: 
 W: [Verse 1]
@@ -7381,22 +6389,97 @@ W: Who waits forever anyway?
 % abcbook-repeats 
 
 
-X: 138
-T: Message In A Bottle The Police
+X: 104
+T: Message In A Bottle
+C:The Police
 B: steve's song book
-Q: 1/4=100
-K:G
+M:4/4
+Q: 1/4=130
+K:Em
 V:1 
+"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|
+"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|
+"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|
+"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|"Em"zzzz"C"zzzz|"D"zzzz"Am"zzzz|
+"G"zzzzzzzz|"C"zzzz"D"zzzz|"G"zzzzzzzz|"C"zzzz"D"zzzz|
+"Em"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+W: Just a cast away an island lost at sea-o
+W: Another lonely day, no one here but me-o
+W: More loneliness than any man could bear
+W: Rescue me before I fall into despair-o
+W: 
+W: I'll send an S.O.S. to the world
+W: I'll send an S.O.S. to the world
+W: I hope that someone gets my
+W: I hope that someone gets my
+W: I hope that someone gets my message in a bottle yeah
+W: Message in a bottle yeah
+W: 
+W: A year has passed since I wrote my note
+W: But I should have known this right from the start
+W: Only hope can keep me together
+W: Love can mend your life but love can break your heart
+W: 
+W: I'll send an S.O.S. to the world
+W: I'll send an S.O.S. to the world
+W: I hope that someone gets my
+W: I hope that someone gets my
+W: I hope that someone gets my message in a bottle yeah
+W: Message in a bottle yeah
+W: Oh message in a bottle yeah
+W: Message in a bottle yeah
+W: 
+W: Walked out this morning I don't believe what I saw
+W: A hundred billion bottles washed up on the shore
+W: Seems I'm not alone in being alone
+W: A hundred billion castaways looking for a home
+W: 
+W: I'll send an S.O.S. to the world
+W: I'll send an S.O.S. to the world
+W: I hope that someone gets my
+W: I hope that someone gets my
+W: I hope that someone gets my message in a bottle yeah
+W: Message in a bottle yeah
+W: Message in a bottle whoa
+W: Message in a bottle yeah
+W: 
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: I'm sending out an S.O.S.
+W: I'm sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
+W: Sending out an S.O.S.
 % abcbook-tune_id 62a1e2560342d1337b799116
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654776425587
+% abcbook-lastupdated 1654931731021
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 139
+X: 105
 T: Four Nights Drunk
 C:Steeleye Span
 B: steve's song book
@@ -7446,10 +6529,10 @@ W: Whiskers on a baby I've never seen before, oh
 % abcbook-transpose 
 % abcbook-lastupdated 1654784251204
 % abcbook-soundfonts 
-% abcbook-repeats 16
+% abcbook-repeats 
 
 
-X: 140
+X: 106
 T: So Far Away
 C:Dire Straits
 B: steve's song book
@@ -7524,10 +6607,10 @@ W: You're just so far away from me
 % abcbook-transpose 
 % abcbook-lastupdated 1654783877049
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 141
+X: 107
 T: Bittersweet
 C:Hoodoo Gurus
 B: steve's song book
@@ -7603,10 +6686,10 @@ W: Bittersweet, bittersweet
 % abcbook-transpose 
 % abcbook-lastupdated 1654783675709
 % abcbook-soundfonts 
-% abcbook-repeats 40
+% abcbook-repeats 
 
 
-X: 142
+X: 108
 T: Sunday Bloody Sunday
 C:U2
 B: steve's song book
@@ -7617,14 +6700,13 @@ V:1
 "Bm"zzzz"D"zzzz|"G"zzzzzzzz|"Bm"zzzz"D"zzzz|"G"zzzzzzzz|
 "D"zzzzzzzz|"Em7"zzzzzzzz|"D"zzzzzzzz|"Em7"zzzzzzzz|"Em"zzzzzzzz|
 "Bm"zzzz"D"zzzz|"G"zzzzzzzz|"Bm"zzzz"D"zzzz|"G"zzzzzzzz|
-
 "Bm"zzzz"D"zzzz|"G"zzzzzzzz|"Bm"zzzz"D"zzzz|"G"zzzzzzzz|
 "Bm"zzzz"D"zzzz|"G"zzzzzzzz|"Bm"zzzz"D"zzzz|"G"zzzzzzzz|
 "Bm"zzzz"D"zzzz|"G"zzzzzzzz|"Bm"zzzz"D"zzzz|"G"zzzzzzzz|
 "F"zzzz"Em"zzzz|"D"zzzzzzzz|"F"zzzz"Em"zzzz|"D"zzzzzzzz|"F"zzzz"Em"zzzz|"D"zzzzzzzz|
 W: Bm D|G | Bm D|G
 W: D|Em7|D|Em7|Em
-W: Bm D|G  |Bm D|G 
+W: Bm D|G  |Bm D|G
 W: 
 W: Bm D|G | Bm D|G
 W: Bm D|G | Bm D|G
@@ -7705,13 +6787,14 @@ W: Sunday, Bloody Sunday
 % abcbook-transpose 
 % abcbook-lastupdated 1654783216705
 % abcbook-soundfonts 
-% abcbook-repeats 2
+% abcbook-repeats 
 
 
-X: 143
+X: 109
 T: Blue
 C:Joni Mitchell
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=100
 K:G
@@ -7770,7 +6853,7 @@ W: There is your song from me
 % abcbook-repeats 
 
 
-X: 144
+X: 110
 T: New Shine
 C:Jigzag
 B: steve's song book
@@ -7828,7 +6911,7 @@ W:
 % abcbook-repeats 
 
 
-X: 145
+X: 111
 T: I Saw Her Standing There The Beatles
 B: steve's song book
 Q: 1/4=100
@@ -7843,7 +6926,7 @@ V:1
 % abcbook-repeats 
 
 
-X: 146
+X: 112
 T: Brown Eyed Girl
 B: steve's song book
 Q: 1/4=100
@@ -7858,7 +6941,7 @@ V:1
 % abcbook-repeats 
 
 
-X: 147
+X: 113
 T: Nothing Ever Happens
 B: steve's song book
 Q: 1/4=100
@@ -7873,7 +6956,7 @@ V:1
 % abcbook-repeats 
 
 
-X: 148
+X: 114
 T: South Australia
 B: steve's song book
 M:4/4
@@ -7925,7 +7008,7 @@ W: Let's get this damn job over boys.
 % abcbook-repeats 
 
 
-X: 149
+X: 115
 T: Paint It Black
 C:Rolling Stones
 B: steve's song book
@@ -7962,10 +7045,10 @@ W: My love will laugh with me before the morning comes
 % abcbook-transpose 
 % abcbook-lastupdated 1654787533643
 % abcbook-soundfonts 
-% abcbook-repeats 4
+% abcbook-repeats 
 
 
-X: 150
+X: 116
 T: She's Leaving Home The Beatles
 B: steve's song book
 Q: 1/4=100
@@ -7980,11 +7063,12 @@ V:1
 % abcbook-repeats 
 
 
-X: 65797
+X: 117
 T: The Raggle Taggle Gypsy
 C:Christy Moore
 B: steve's song book
-B: velma's song book
+B: cassidys song book
+B: velmas song book
 M:4/4
 Q: 1/4=160
 V:1 
@@ -8045,45 +7129,10 @@ W: Than all the cash and money-o”
 % abcbook-transpose 
 % abcbook-lastupdated 1654861383220
 % abcbook-soundfonts 
-% abcbook-repeats 10
-
-
-X: 81100
-T: My Girl
-C:Hoodoo Gurus
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a1e3638a651e87891a73f9
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654776675700
-% abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 6274
-T: Blackbird
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 62a20131c31ae2cd77ad6765
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654784305854
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 84933
+X: 118
 T: Whiskey Before Breakfast
 B: steve's song book
 M:4/4
@@ -8136,13 +7185,14 @@ W: We've been drinking whiskey 'fore breakfast
 % abcbook-transpose 
 % abcbook-lastupdated 1654787852591
 % abcbook-soundfonts 
-% abcbook-repeats 4
+% abcbook-repeats 
 
 
-X: 155
+X: 119
 T: Barretts Privateers
 C:Stan Rogers
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=170
 V:1 
@@ -8258,13 +7308,14 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654789089514
 % abcbook-soundfonts 
-% abcbook-repeats 9
+% abcbook-repeats 
 
 
-X: 156
+X: 120
 T: No Love Today
 C:Chris Smithers
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=146
 V:1 
@@ -8363,12 +7414,13 @@ W: No love today
 % abcbook-transpose 
 % abcbook-lastupdated 1654817176836
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 4076
+X: 121
 T: The Water Is Wide
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=100
 K:C
@@ -8417,13 +7469,14 @@ W: Then will my love return to me
 % abcbook-transpose 
 % abcbook-lastupdated 1654817485026
 % abcbook-soundfonts 
-% abcbook-repeats 7
+% abcbook-repeats 
 
 
-X: 2734
+X: 122
 T: Apeman
 C:The Kinks
 B: steve's song book
+B: charlottes song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -8514,7 +7567,7 @@ W: And make like an ape man
 % abcbook-repeats 
 
 
-X: 49672
+X: 123
 T: Norwegian Wood
 C:The Beatles
 B: steve's song book
@@ -8556,13 +7609,14 @@ W: Isn't it good, Norwegian wood?
 % abcbook-transpose 
 % abcbook-lastupdated 1654819352146
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 160
+X: 124
 T: Lighthouse Keeper
 C:Erika Eigen
 B: steve's song book
+B: velmas song book
 M:4/4
 Q: 1/4=170
 V:1 
@@ -8625,10 +7679,11 @@ W: Won't that be okay?
 % abcbook-repeats 
 
 
-X: 30023
+X: 125
 T: The Scarlet Tide
 C:Alison Kraus
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=100
 K:C
@@ -8673,10 +7728,10 @@ W: And separates the widow from the bride
 % abcbook-transpose 
 % abcbook-lastupdated 1654823619996
 % abcbook-soundfonts 
-% abcbook-repeats 2
+% abcbook-repeats 
 
 
-X: 162
+X: 126
 T: Rivers Of Babylon
 B: steve's song book
 M:4/4
@@ -8712,7 +7767,7 @@ W:
 % abcbook-repeats 
 
 
-X: 98465
+X: 127
 T: Candle In The Wind
 C:Elton John
 B: steve's song book
@@ -8788,13 +7843,14 @@ W: Your legend ever did
 % abcbook-transpose 
 % abcbook-lastupdated 1654824503501
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 164
+X: 128
 T: The Letter
 C:The Box Tops
 B: steve's song book
+B: charlottes song book
 M:4/4
 Q: 1/4=155
 K:Em
@@ -8848,10 +7904,12 @@ W: Oh, go, my baby, just-a wrote me a letter
 % abcbook-repeats 
 
 
-X: 165
+X: 129
 T: Helplessly Hoping
 C:Stephen Stills
 B: steve's song book
+B: charlottes song book
+B: choir song book
 M:4/4
 Q: 1/4=104
 V:1 
@@ -8921,10 +7979,11 @@ W: They are for each other
 % abcbook-repeats 
 
 
-X: 166
+X: 130
 T: Summerfly
 C:Mary Black
 B: steve's song book
+B: cassidys song book
 M:4/4
 Q: 1/4=100
 K:Em
@@ -8976,7 +8035,7 @@ W: I don't know why you even try to win
 % abcbook-repeats 
 
 
-X: 167
+X: 131
 T: Let It Be
 C:The Beatles
 B: steve's song book
@@ -9038,7 +8097,7 @@ W: Whisper words of wisdom, let it be
 % abcbook-repeats 
 
 
-X: 168
+X: 132
 T: Celia
 C:Simon And Garfunkle
 B: steve's song book
@@ -9050,7 +8109,6 @@ V:1
 "D"zzzz"A"zzzz|"D"zzzz"A"zzzz|"D"zzzz"A"zzzz|"E"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
 "A"zzzzzzzz|"D"zzzzzzzz|"A"zzzz"D"zzzz|"E"zzzz"A"zzzz|
 "A"zzzzzzzz|"D"zzzzzzzz|"A"zzzz"D"zzzz|"E"zzzz"A"zzzz|
-
 W: [Chorus]
 W: 'Celia, you're breaking my heart
 W: You're shaking my confidence daily
@@ -9100,16 +8158,16 @@ W: Oh-oh-oh-oh, oh-oh-oh-oh oh-oh-oh-oh
 % abcbook-repeats 
 
 
-X: 169
+X: 133
 T: Bring On The Sun/Chicken Reel
 C:Steve Ryan
 B: steve's song book
+B: maxs song book
 M:2/4
 L:1/8
 Q: 1/4=60
 K:D
 V:1 
-
 (=f|"D"f/)>d/A/>F/ D/>F/B/>F/|A/>F/B/>F/ A(=f|f/)>d/A/>F/ D/>F/B/>F/|"A7"A/dc/ d(=f|
 "D"f/)>d/A/>F/ D/>F/B/>F/|A/>F/B/>F/ A(=f|f/)>d/A/>F/ D/>F/B/>F/|"A"A/dc/ "D"d2|
 "D"f/af/ df/d/|"C"A/d/e/d/ f/d/e/d/|"D"f/af/ df/d/|"A"A/dc/ "D"d2|
@@ -9145,7 +8203,7 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654859068786
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Never repeats a note
@@ -9154,9 +8212,10 @@ W:
 % Time_signature 2/4
 % Has_accompaniment_chords Has chords
 
-X: 170
+X: 134
 T: Mingulay Boat Song
 B: steve's song book
+B: maxs song book
 M:3/4
 L:1/4
 Q: 1/4=145
@@ -9214,10 +8273,13 @@ W: Sailing homeward to Mingulay
 % abcbook-repeats 
 
 
-X: 171
+X: 135
 T: Come by the Hills
 C:Traditional Irish Air
 B: steve's song book
+B: cassidys song book
+B: velmas song book
+B: maxs song book
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -9227,6 +8289,10 @@ V:1
 E2 F2 G2|A2 G2 F2|G2 F2 E2|C2 E2 G2|"Bb"F6-|F4 GA|
 "Eb"B2 G2 F2|E4 FG|"Ab"A2 B2 c2|"Eb"B2 G2 F2|"Bb"F6-|F4 EF|\
 "Eb"G4 FG|"Ab"F2 E2 C2|"Eb"B,4 B,2|"Bb"C2 E2 F2|"Eb"E6||
+%%MIDI transpose 4
+%%MIDI transpose 4
+%%MIDI transpose 4
+%%MIDI transpose 4
 W: Come by the hills to the land where fancy is free
 W: And stand where the peaks meet the sky and the lochs meet the sea
 W: Where the rivers run clear and the bracken is gold in the sun
@@ -9261,7 +8327,7 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % Text Has history text
 % Has_accompaniment_chords No chords
 
-X: 172
+X: 136
 T: Sultans Of Swing
 C:Dire Straits
 B: steve's song book
@@ -9278,7 +8344,6 @@ V:1
 "Bb"zzzzzzzz|"Bb"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzz"Bb"zz|
 "C"zzzzzzzz|"C"zzzzzz"Bb"zz|"C"zzzzzzzz|"C"zzzzzz"Bb"zz|
 "Dm"zzzzzz"C"zz|"Bb"zzzzzzz|"Bb"zz"C"zzzzzz|"C"zzzzzzzz||
-
 W: [Verse 1]
 W: You get a shiver in the dark
 W: It's raining in the park, but meantime
@@ -9331,10 +8396,11 @@ W: Creole
 % abcbook-repeats 
 
 
-X: 68951
+X: 137
 T: Ride On
 C:Christy Moore
 B: steve's song book
+B: maxs song book
 M:4/4
 Q: 1/4=120
 V:1 
@@ -9367,81 +8433,15 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1654844783331
 % abcbook-soundfonts 
-% abcbook-repeats 8
+% abcbook-repeats 
 
 
-X: 58599
-T: By Chance It Was
-C:Clannad
-B: steve's song book
-M:4/4
-Q: 1/4=90
-V:1 
-
-W: Dm C
-W: 
-W: By chance it was I met my love
-W: It did me much surprise
-W: Down by a shady myrtle grove
-W: Just as the sun did rise
-W: The birds they sang right gloriously
-W: And pleasant was the air
-W: And there was none save she and I
-W: Among the flowers fair
-W: 
-W: In dewy grass and green we walked
-W: She timid was and coy
-W: How can'st thou choose but pity me
-W: My pretty pearl, my joy
-W: How comes it that thou stroll this way?
-W: Sweet maiden tell me true
-W: Before bright Phoebus' glittering ray
-W: Has supped the morning dew?
-W: 
-W: I go to tend the flocks I love
-W: The ewes and tender lambs
-W: That pasture by the myrtle grove
-W: That gambol by their dams
-W: There I enjoy a pure content
-W: At dawning of the day
-W: Then, hand in hand, we lovers went
-W: To see the flock at play
-W: 
-W: And as we wended down the road
-W: I said to her, "Sweet maid
-W: Three years I in my place abode
-W: And three more must be stayed
-W: The three that I am bound so fast
-W: O fairest wait for me
-W: And when the weary years are past
-W: Then wedded we will be."
-W: 
-W: "Three years are long, three times too long
-W: Too lengthy the delay"
-W: And then I answered in my song
-W: "Hope wastes them quick away
-W: Where love is fervent, fain and fast
-W: And knoweth not decay
-W: There nimbly fleet the seasons past
-W: Accounted as one day."
-W: 
-W: 
-W: 
-W: 
-W: 
-% abcbook-tune_id 62a2edbfe71f0fd246ddf7cb
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654862758391
-% abcbook-soundfonts 
-% abcbook-repeats 5
-
-
-X: 73021
+X: 138
 T: Siuil A Ruin
 C:Clannad
 B: steve's song book
+B: cassidys song book
+B: choir song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -9498,10 +8498,58 @@ W: Iss guh day thoo avorneen slawn.
 % abcbook-transpose 
 % abcbook-lastupdated 1654845636057
 % abcbook-soundfonts 
-% abcbook-repeats 9
+% abcbook-repeats 
 
 
-X: 76582
+X: 139
+T: Why Worry
+C:Dire Straits
+B: steve's song book
+M:4/4
+Q: 1/4=100
+K:E
+V:1 
+"E"zzzzzzzz|"B"zzzzzzzz|"E"zzzzzzzz|"B"zzzzzzzz|
+"E"zzzzzzzz|"A"zzzz"F#m"zzzz|"B"zzzzzzzz|"B"zzzzzzzz|
+"E"zzzzzzzz|"B"zzzzzzzz|"E"zzzzzzzz|"B"zzzzzzzz|
+"E"zzzzzzzz|"A"zzzz"F#m"zzzz|"B"zzzzzzzz|"B"zzzzzzzz|
+"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|
+"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|
+W: Some people can be bad
+W: The things they do, the things they say
+W: But baby, I'll wipe away those bitter tears
+W: I'll chase away those restless fears
+W: And turn your blue skies into grey
+W: 
+W: Why worry, there should be laughter after pain
+W: There should be sunshine after rain
+W: These things have always been the same
+W: So why worry now?
+W: Why worry now?
+W: 
+W: Baby, when I get down I turn to you
+W: And you make sense of what I do
+W: I know it isn't hard to say
+W: But baby, just when this world seems mean and cold
+W: Our love comes shining red and gold
+W: And all the rest is by the way
+W: 
+W: Why worry, there should be laughter after pain
+W: There should be sunshine after rain
+W: These things have always been the same
+W: So why worry now?
+W: Why worry now?
+W: 
+% abcbook-tune_id 62a32eab04969cc41ddf8879
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654926781956
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 140
 T: Lets Go Down To The River To Pray
 B: steve's song book
 M:4/4
@@ -9570,160 +8618,10 @@ W: Good Lord show me the way
 % abcbook-transpose 
 % abcbook-lastupdated 1654861681866
 % abcbook-soundfonts 
-% abcbook-repeats 5
-
-
-X: 76800
-T: On Any Other Day
-C:The Police
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: GG'Gf'DBD riff through verse
-W: 
-W: G C F D 
-W: 
-W: [Verse 1]
-W: There's a house on my street and it looks real neat
-W: I'm the chap who lives in it
-W: There's a tree on the sidewalk, there's a car by the door
-W: I'll go for a drive in it
-W: And when the wombat comes, he will find me gone
-W: He'll look for a place to sit
-W: [Chorus]
-W: My wife has burned the scrambled eggs
-W: The dog just bit my leg
-W: My teenage daughter ran away
-W: My fine young son has turned out gay
-W: 
-W: [Verse 2]
-W: Cut off my fingers in the door of my car
-W: How could I do it?
-W: My wife is proud to tell me of her love affairs
-W: How could she do this to me?
-W: 
-W: [Chorus]
-W: My wife has burned the scrambled eggs
-W: The dog just bit my leg
-W: My teenage daughter ran away
-W: My fine young son has turned out gay
-W: 
-W: [Bridge]
-W: And it would be okay on any other day
-W: And it would be okay on any other day
-W: 
-W: [Verse 3]
-W: Throw down the morning papers and spill my tea
-W: I don't know what's wrong with me
-W: The cups and plates are in a conspiracy
-W: I'm covered in misery
-W: [Chorus]
-W: My wife has burned the scrambled eggs
-W: The dog just bit my leg
-W: My teenage daughter ran away
-W: My fine young son has turned out gay
-W: 
-W: [Post-Chorus]
-W: And it would be okay on any other day
-W: (Happy birthday to you, happy birthday to you)
-W: And it would be okay on any other day
-W: (Happy birthday, dear daddy, happy birthday to you)
-% abcbook-tune_id 62a331f11fc01a676a1ed4ca
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654862391322
-% abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 1623
-T: Every Evening
-C:Keb Mo
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: Every mornin' an' every evenin'
-W: Every day I, I think of you
-W: The way you love me, through and through
-W: 
-W: And when I'm with you, it feels like heaven
-W: And you're an angel, holdin' me
-W: Your sweet, sweet lovin', it sets me free
-W: 
-W: And in my wildest, imagination
-W: I could never, imagine you
-W: Lovin' me as much as, as I do you
-W: And it may be winter, it may be fall
-W: I might have plenty or nothin' at all
-W: But, baby, I'll be there whenever you call, ever you call
-W: 
-W: 'Cause every mornin' and every evenin'
-W: Every day I, I think of you
-W: The way you love me, through and through
-W: The way you love me, through and through
-% abcbook-tune_id 62a3328566c730637b681456
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654862487132
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 1332
-T: The L&N  Don't Stop Here Any More
-C:Michelle Shocked
-B: steve's song book
-M:4/4
-Q: 1/4=100
-V:1 
-
-W: When I was a curly headed baby
-W: My daddy sat me down on his knee
-W: He said, "Go to school and learn your letters
-W: Don't you be a dusty miner boy like me"
-W: 
-W: [Chorus: ]
-W: I was born and raised in the mouth of the Hazard Hollow
-W: Coal cars rumbled past my door
-W: Now they're standin' in a rusty row all empty
-W: And the L & N
-W: Don't stop here anymore
-W: 
-W: I used to think my daddy was a black man
-W: With script enough to buy the company store
-W: Now he goes town with empty pockets
-W: And his face is white as a February snow
-W: 
-W: [Chorus: ]
-W: Well I'd never thought I'd learn to love the coal dust
-W: Never thought I'd pray to hear that whistle roar
-W: Oh God, I wish the grass would turn to money
-W: And those greenbacks fill my pockets up once more
-W: 
-W: [Chorus: ]
-W: 
-W: Last night I dreamed I went down to the coal yard
-W: To draw my pay like I'd done before
-W: Them kudzu vines are covering all the windows
-W: There were leaves and grass growin' right up through the floor
-W: 
-W: [Chorus: ]
-% abcbook-tune_id 62a332e1cfef1617aea3b8e3
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1654862675642
-% abcbook-soundfonts 
-% abcbook-repeats 
-
-
-X: 68248
+X: 141
 T: Whiter Shade Of Pale
 C:Procol Harum
 B: steve's song book
@@ -9779,10 +8677,10 @@ W: As the miller told his tale...
 % abcbook-transpose 
 % abcbook-lastupdated 1654906030898
 % abcbook-soundfonts 
-% abcbook-repeats 2
+% abcbook-repeats 
 
 
-X: 26222
+X: 142
 T: SOS To The World
 C:The Police
 B: steve's song book
@@ -9850,10 +8748,10 @@ W: Message in a bottle (Yeah)
 % abcbook-transpose 
 % abcbook-lastupdated 1654906875389
 % abcbook-soundfonts 
-% abcbook-repeats 3
+% abcbook-repeats 
 
 
-X: 182
+X: 143
 T: Wild World
 C:Cat Stevens
 B: steve's song book
@@ -9914,7 +8812,7 @@ W: La-la-la-la-la-la-la-la la la-la, la
 % abcbook-repeats 
 
 
-X: 183
+X: 144
 T: So Lonely
 C:The Police
 B: steve's song book
@@ -10013,10 +8911,10 @@ W: So lonely...
 % abcbook-transpose 
 % abcbook-lastupdated 1654907445330
 % abcbook-soundfonts 
-% abcbook-repeats 40
+% abcbook-repeats 
 
 
-X: 184
+X: 145
 T: Children Of The Revolution
 C:T Rex
 B: steve's song book
@@ -10053,7 +8951,7 @@ W: No, you won't fool the children of the revolution, no way, yeah, wow
 % abcbook-repeats 
 
 
-X: 185
+X: 146
 T: Wish You Were Here
 C:Pink Floyd
 B: steve's song book
@@ -10096,19 +8994,1867 @@ W:
 % abcbook-repeats 
 
 
-X: 54237
+X: 147
+T: I'll Tell Me Ma
+B: steve's song book
+B: maxs song book
+M:2/4
+Q: 1/4=91
+K:Dmajor
+V:1 
+"D"A2d2 f2>f2| g2f2 f2>g2| "A7"f2e2 e2>f2| "D"e2d2 d2>d2| A2d2 f2>f2| g2f2 f2>g2| "A7"f2e2 e2>f2| "D"e2d2 d4|
+ a2a2 a2<f2| "G"g2g2 g2<e2| "D"f2>f2 f2d2| "A7"e2c2 B2<A2| "D"a2a2 a2<f2| "G"g2g2 g4| "D"f2f2 "A7"e2f2| "D"e2d2 d4||
+W: I'll tell me ma, when I go home
+W: The boys won't leave the girls alone
+W: Pulled me hair, stolen me comb
+W: But that's alright, till I go home
+W: 
+W: She is handsome, she is pretty
+W: She is the belle of Dublin city
+W: She is a-courting one, two, three
+W: Pray, want you tell me who is she?
+W: 
+W: Albert Mooney says he loves her
+W: All the boys are fightin' for her
+W: Knock at the door, they're ringin' the bell
+W: Say, "Hello, my true love are you well?"
+W: 
+W: Out she comes white as snow
+W: Rings on her fingers, bells on her toes
+W: Ol' Jenny Murray says she'll die
+W: If she doesn't get the fellow with the roving eye
+W: 
+W: I'll tell me ma, when I go home
+W: The boys won't leave the girls alone
+W: Pulled me hair, stolen me comb
+W: But that's alright, till I go home
+W: 
+W: She is handsome, she is pretty
+W: She is the belle of Dublin city
+W: She is a-courting one, two, three
+W: Pray, want you tell me who is she?
+W: 
+W: Let the wind and the rain and the hail blow high
+W: And the snow come travelin' through the sky
+W: She's as sweet as apple pie
+W: She'll get her own right by and by
+W: 
+W: When she gets a lad of her own
+W: She won't tell her ma when she gets home
+W: Let them all come as they will
+W: It's Albert Mooney she loves still
+W: 
+W: I'll tell me ma, when I go home
+W: The boys won't leave the girls alone
+W: Pulled me hair, stolen me comb
+W: But that's alright till I get home
+W: 
+W: She is handsome, she is pretty
+W: She is the belle of Dublin city
+W: She is a-courting one, two, three
+W: Pray, want you tell me who is she?
+W: 
+W: Albert Mooney says he loves her
+W: All the boys are fightin' for her
+W: Knock at the door, they're ringin' the bell
+W: Say, "Hello, me true love are you well?"
+W: 
+W: Out she comes white as snow
+W: Rings on her fingers, bells on her toes
+W: Ol' Jenny Murray says she'll die
+W: If she doesn't get the fellow with the roving eye
+W: 
+W: I'll tell me ma, when I go home
+W: The boys won't leave the girls alone
+W: Pulled me hair, stolen me comb
+W: But that's alright till I get home
+W: 
+W: She is handsome, she is pretty
+W: She is the belle of Dublin city
+W: She is a-courting one, two, three
+W: Pray, want you tell me who is she?
+% abcbook-tune_id 62a420d088258b224f63fe9a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654950328038
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 148
+T: Moreton Bay/Brisbane Waters
+C:Robert Hughes
+B: steve's tunes
+B: steve's song book
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:D
+V:1 
+D \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF D2 EF | "G"ED B,2 zB,/C/ \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF F>E "A"DE | "D"DD D2 zA |
+| "D"AF  A2 Bc | "Bm"dc B2 dB | "D"AF D2 EF | "G"ED B,2 zD \
+| "D"DA, D2 FA | "Bm"dc B2 dB | "D"AF F>E "A"DE | "D"DD D3 |]
+W: One Sunday morning as I went walking, by the Brisbane's waters I chanced to stray,
+W: I heard a convict his fate bewailing, as on the sunny river bank he lay;
+W: "I am a native of Erin's island but banished now to the fatal shore,
+W: They tore me from my aged parents and from the maiden I do adore.
+W: 
+W: "I've been a prisoner at Port Macquarie, Norfolk Island and Emu Plains,
+W: At Castle Hill and cursed Toongabbie, at all those settlements I've worked in chains;
+W: But of all those places of condemnation, in each penal station of New South Wales,
+W: To Moreton Bay I've found no equal: excessive tyranny there each day prevails.
+W: 
+W: "For three long years I was beastly treated, heavy irons on my legs I wore,
+W: My back from flogging it was lacerated, and often painted with crimson gore,
+W: And many a lad from downright starvation lies mouldering humbly beneath the clay,
+W: Where Captain Logan he had us mangled on his triangles at Moreton Bay.
+W: 
+W: "Like the Egyptians and ancient Hebrews, we were oppressed under Logan's yoke,
+W: Till a native black who lay in ambush did give our tyrant his mortal stroke.
+W: Fellow prisoners, be exhilarated, that all such monsters such a death may find!
+W: And when from bondage we are liberated, our former sufferings shall fade from mind."
+% abcbook-tune_id 62a420d194c1b2edd30b222c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654950902683
+% abcbook-soundfonts 
+% abcbook-repeats 
+% Rhythm Waltz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords
+
+X: 149
+T: Fat Bottomed Girls
+C:Queen
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+"G"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+W: Oh you gonna take me home tonight
+W: Oh down beside that red firelight
+W: Oh you gonna let it all hang out
+W: Fat-bottomed girls, you make the rocking world go 'round
+W: 
+W: Hey, I was just a skinny lad
+W: Never knew no good from bad
+W: But I knew life before I left my nursery (huh)
+W: Left alone with big fat Fanny
+W: She was such a naughty nanny
+W: Heap big woman, you made a bad boy out of me
+W: 
+W: I've been singing with my band
+W: 'Cross the water, 'cross the land
+W: I've seen every blue-eyed floozy on the way (hey)
+W: But their beauty and their style
+W: Went kind of smooth after a while
+W: Take me to them dirty ladies every time
+W: 
+W: Oh, won't you take me home tonight?
+W: Oh, down beside your red firelight
+W: Oh, and you give it all you got
+W: Fat-bottomed girls, you make the rocking world go 'round
+W: Fat-bottomed girls, you make the rocking world go 'round
+W: 
+W: Hey, listen here
+W: Now I got mortgages and homes
+W: I got stiffness in the bones
+W: Ain't no beauty queens in this locality (I tell you)
+W: Oh, but I still get my pleasure
+W: Still got my greatest treasure
+W: Heap big woman you done made a big man of me (now get this)
+W: 
+W: Oh (I know), you gonna take me home tonight (please)
+W: Oh, down beside that red firelight
+W: Oh, you gonna let it all hang out
+W: Fat-bottomed girls, you make the rocking world go 'round (yeah)
+W: Fat-bottomed girls, you make the rocking world go 'round
+W: 
+W: 
+% abcbook-tune_id 62a420d1752c83ddd6150da4
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654948093451
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 150
+T: Tom Dooley
+B: steve's song book
+M:4/4
+Q: 1/4=125
+V:1 
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|
+"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+W: [Chorus]
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: [Verse 1]
+W: I met her on the mountain
+W: There I took her life
+W: Met her on the mountain
+W: Stabbed her with my knife
+W: 
+W: [Chorus]
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: [Verse 2]
+W: This time tomorrow
+W: Reckon where I'll be
+W: Hadn't-a been for Grayson
+W: I'd-a been in Tennessee
+W: 
+W: Well now, boy
+W: 
+W: [Chorus]
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: Well now, boy
+W: 
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: [Verse 3]
+W: This time tomorrow
+W: Reckon where I'll be
+W: Down in some lonesome valley
+W: Hangin' from a white oak tree
+W: 
+W: [Chorus]
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: Well now, boy
+W: 
+W: Hang down your head, Tom Dooley
+W: Hang down your head and cry
+W: Hang down your head, Tom Dooley
+W: Poor boy, you're bound to die
+W: 
+W: [Outro]
+W: Poor boy, you're bound to die
+W: Poor boy, you're bound to die
+W: Poor boy, you're bound to die
+% abcbook-tune_id 62a420d16e966d48789b2ef4
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1655017107701
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 151
+T: Joshua Won The Battle Of Jericho
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1e038c0c1a17dadbc
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473155
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 152
+T: A Bit Of You Ma
+C:Steve Ryan
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: a bit of you ma
+W: 
+W: V1
+W: Always there with kindness in your eyes. An ear and a smile and some safety for a while.
+W: Always there with simple honest truth. From the heart to the mouth. Sometimes too soon.
+W: Always with the energy to play. To take the time to share our ways.
+W: Now that you are gone I hope to keep. A bit of you, inside of me.
+W: 
+W: CHORUS
+W: Inside me, inside us a bit of you.
+W: Your honesty and kindness and warmth in your eyes
+W: Inside us, inside me a bit of you
+W: Walking with us always by our side
+W: 
+W: V2
+W: Will we hold together as we've done. Without your warmth and endless talk.
+W: What will we do together what will we eat. Who'll make our favorite Xmas treats.
+W: Who will have the news of distant friends and family making ends.
+W: Changes they will come to suit our needs but that bit inside will keep us tied.
+W: 
+W: CHORUS
+W: 
+W: V3
+W: Who will tell me everythings alright. Say I've done well. Enjoy my play.
+W: Who will counsel kindness over all. To feel for others frailties.
+W: Who will make feel that I'm OK. Who will love me no matter what I say.
+W: Only I can hold that bit for me. And know that I am loved from your long sleep.
+W: 
+W: CHORUS
+W: 
+W: V4
+W: Some might promise we will meet again. In one true place, no hurt or pain.
+W: I draw more to know that you're inside. A part of sense, how I decide.
+W: My music and my twitches and my friends. Expressing you through me.
+W: You will always be inside of me. A bit of you, inside of me.
+% abcbook-tune_id 62a420d124fd3154984bc57c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473163
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 153
+T: The Milkmaids
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Three maidens to milking did go,
+W: Three maidens to milking did go.
+W: And the wind it did blow high and the wind it did blow low,
+W: And it tossed milking pails to and fro.
+W: 
+W: I met with a man I knew well,
+W: And I kindly asked of him if he had got any skills
+W: For to catch me a small bird or two.
+W: 
+W: “Oh, yes, I got some excellent good skills.
+W: Now, come along with me down to yonder shady tree.
+W: I’ll catch thee a small bird or two.”
+W: 
+W: Here’s luck to the blackbird and thrush,
+W: There’s luck to the blackbird and thrush.
+W: It’s a bird of one feather and we'll all flock together,
+W: Let the people say little or much.
+W: 
+W: Here's luck to the jolly dragoon.
+W: Here’s luck to the jolly dragoon.
+W: We ll ramble all the day and at night we ll spend or play,
+W: And go home by the light of the moon.
+% abcbook-tune_id 62a420d1448310462a8d0c11
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473170
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 154
+T: What's Up
+C:4 Non Blondes
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: [Verse 1]
+W: 25 years and my life is still
+W: Tryin' to get up that great big hill of hope
+W: For a destination
+W: I realized quickly when I knew I should
+W: That the world was made up of this brotherhood of man
+W: For whatever that means
+W: 
+W: [Pre-Chorus]
+W: And so I cry sometimes when I'm lying in bed
+W: Just to get it all out what's in my head
+W: And I, I am feeling a little peculiar
+W: And so I wake in the morning and I step outside
+W: And I take a deep breath and I get real high
+W: And I scream from the top of my lungs
+W: "What's going on?"
+W: [Chorus]
+W: And I say, hey-ey-ey
+W: Hey-ey-ey
+W: I said "Hey, a-what's going on?"
+W: And I say, hey-ey-ey
+W: Hey-ey-ey
+W: I said "Hey, a-what's going on?"
+W: 
+W: [Bridge]
+W: Ooh, ooh
+W: Ooh
+W: Ooh, uh huh
+W: Ooh, ooh
+W: Ooh
+W: Ooh, uh huh
+W: 
+W: [Verse 2]
+W: And I try
+W: Oh my God, do I try
+W: I try all the time
+W: In this institution
+W: And I pray
+W: Oh my God, do I pray
+W: I pray every single day
+W: For revolution
+W: [Pre-Chorus]
+W: And so I cry sometimes when I'm lying in bed
+W: Just to get it all out, what's in my head
+W: And I, I am feeling a little peculiar
+W: And so I wake in the morning and I step outside
+W: And I take a deep breath and I get real high
+W: And I scream from the top of my lungs
+W: "What's going on?"
+W: 
+W: [Chorus]
+W: And I say, hey-ey-ey
+W: Hey-ey-ey
+W: I said "Hey, what's going on?"
+W: And I say, hey-ey-ey
+W: Hey-ey-ey
+W: I said "Hey, a-what's going on?"
+W: And I say, hey-ey-ey
+W: (Wake in the morning and step outside)
+W: Hey-ey-ey
+W: (Take a deep breath and I get real high)
+W: (And I scream)
+W: I said "Hey, a-what's going on?"
+W: And I say, hey-ey-ey
+W: (Wake in the morning and step outside)
+W: Hey-ey, yeah yeah yeah
+W: (Take a deep breath and I get real high)
+W: (And I scream)
+W: I said "Hey, a-what's going on?"
+W: [Bridge]
+W: Ooh, ooh
+W: Ooh
+W: Ooh, uh huh
+W: 
+W: [Outro]
+W: 25 years and my life is still
+W: Tryin' to get up that great big hill of hope
+W: For a destination, mmm
+% abcbook-tune_id 62a420d1ee54723cc84bac7a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473178
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 155
+T: Disection
+C:Steve Ryan
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Stick a needle in their brains, slimy ugly toad
+W: Watch them twitch until they die, pick em off the road.
+W: 
+W: Disection, cut into that baby corpse, watch the scalpal take it's course.
+W: Disection, fun for the family.
+W: 
+W: Flip the hear above the head to reach into the chest.
+W: To see the veins and arteries that used to drive this pest.
+W: 
+W: Disection, cut into that baby corpse, watch the scalpal take it's course.
+W: Disection, fun for the family.
+W: 
+W: Once you've mangled half the parts, spleen and guts and lungs.
+W: Hack at it with all your heart, hack it into chunks.
+W: 
+W: Disection, cut into that baby corpse, watch the scalpal take it's course.
+W: Disection, fun for the family.
+% abcbook-tune_id 62a420d134c1f432ea853c1f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473185
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 156
+T: Hey You
+C:Pink Floyd
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Em|Bm
+W: Em|Bm
+W: D| G D C
+W: Bm |C | Em |
+W: 
+W: Hey you, out there in the cold
+W: Getting lonely, getting old
+W: Can you feel me?
+W: Hey you, standing in the aisles
+W: With itchy feet and fading smiles
+W: Can you feel me?
+W: Hey you, don't help them to bury the light
+W: Don't give in without a fight
+W: 
+W: Hey you out there on your own
+W: Sitting naked by the phone
+W: Would you touch me?
+W: Hey you with you ear against the wall
+W: Waiting for someone to call out
+W: Would you touch me?
+W: Hey you, would you help me to carry the stone?
+W: Open your heart, I'm coming home
+W: 
+W: But it was only fantasy
+W: The wall was too high
+W: As you can see
+W: No matter how he tried
+W: He could not break free
+W: And the worms ate into his brain
+W: 
+W: Hey you, out there on the road
+W: Always doing what you're told
+W: Can you help me?
+W: Hey you, out there beyond the wall
+W: Breaking bottles in the hall
+W: Can you help me?
+W: Hey you, don't tell me there's no hope at all
+W: Together we stand, divided we fall
+W: 
+% abcbook-tune_id 62a420d1396f9d5abca25524
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473192
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 157
+T: A Kind Of Loneliness
+C:Rory Mcleod
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: D|G
+W: 
+W: What is madness, but a kind of loneliness
+W: That we all have, maybe that's what makes us more mad
+W: 
+W: What is madness but trying to find a way to deal
+W: A way to speak, to laugh and to cry and with that we shouldn't be weak
+W: But stronger, Trying to be stronger with each other
+W: Looking for ourselves in each other with another
+W: We try to share our dreams and find words
+W: To find out, what it is you want, what it is you need.
+W: What it is you want, what it is you need.
+W: 
+W: Just a little bit, just a little bit , just a little bit, just a bit but enough
+W: Just a little bit, just a little bit , just a little bit, just a bit but enough
+W: Just a little bit, just a little bit , just a little bit, just a bit but enough
+W: Just a little bit, just a little bit , just a little bit, just a bit but enough
+% abcbook-tune_id 62a420d17169b2a2909dfd8f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473199
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 158
+T: A Gypsy Came To The Castle Gate
+C:Traditional
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: A gypsy came to the castle gate,
+W: He sang so sweet and wild.
+W: And with his song he stole away,
+W: The master’s only child.
+W: 
+W: Oh she cast away her silken gown,
+W: She cast away her pride;
+W: And ran with him into the night,
+W: Down to the sea so wild.
+W: 
+W: Come home! Come home! My bonny little child,
+W: Come home again to me!
+W: Sit once more by a round fireside,
+W: With your head upon my knee!
+W: 
+W: Oh I’d rather live an hour here,
+W: Than seven long years with thee.
+W: And feel the salt spray on my cheek,
+W: And know that I am free.
+W: 
+W: Oh she danced in the wind and she danced in the rain,
+W: on the edge of the cliffs and the shore!
+W: And she tasted the salt upon her cheek,
+W: And never came home no more!
+W: 
+W: Till ... a babe was born on a summers morn,
+W: He was his parents joy.
+W: His mother held him to her heart,
+W: Her precious gypsy boy.
+W: 
+W: She took him to her fathers house,
+W: She beat upon the gate.
+W: Crying, ‘come and see my darling babe,
+W: We named him for your sake’.
+W: 
+W: Come home! Come home! My bonny little child,
+W: Come home again to me!
+W: And the father of that darlin' babe
+W: Shall be a son to me.
+W: 
+W: They danced all the day and they danced all the night.
+W: And they danced on the cliffs and the shore.
+W: And the master held his grandchild tight,
+W: And ne’er was alone no more.
+% abcbook-tune_id 62a420d14a515b2685131fae
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473206
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 159
+T: Need
+C:Steve Ryan
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: You were always on my mind, on my mind, on my mind, on my mind, on my mind.
+W: Always churning in my guts in my spleen with my need turning seeds into hope into fears.
+W: 
+W: Always churning in my head.
+W: 
+W: I want it bad, want it now, want it here, tame my fears, come my dear, hold me near.
+W: Need to know, come and show, what you mean, show your fire, show your steam, make me scream.
+W: 
+W: Always churning in my head.
+W: 
+W: Know I need, what I want, to be sure, so much more, here and now, evermore.
+W: Feeling safe, always sure but there's doubt and there's truth want I want is so aloof.
+W: 
+W: Always churning in my head..
+W: Always churning in my head..
+% abcbook-tune_id 62a420d18840948c4654e7b0
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473214
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 160
+T: Killing The Blues
+C:Rowland Jon Salley
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=115
+K:E
+V:1 
+"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"B"zzzzzzzz|"B"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"E"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+W: Leaves were falling just like embers
+W: In colors red and gold, they set us on fire
+W: Burning just like a moonbeam in our eyes
+W: 
+W: Somebody said they saw me
+W: Swinging the world by the tail
+W: Bouncing over a white cloud
+W: Killing the blues
+W: 
+W: Now I'm guilty of something
+W: I hope you never do, because there is nothing
+W: Sadder than losing yourself in love
+W: 
+W: 
+W: Somebody said they saw me
+W: Swinging the world by the tail
+W: Bouncing over a white cloud
+W: Killing the blues
+W: 
+W: Now you ask me just to leave you
+W: To go out on my own and get what I need to
+W: You want me to find what I've already had
+W: 
+W: Somebody said they saw me
+W: Swinging the world by the tail
+W: Bouncing over a white cloud
+W: Killing the blues
+W: 
+W: Somebody said they saw me
+W: Swinging the world by the tail
+W: Bouncing over a white cloud
+W: Killing the blues
+% abcbook-tune_id 62a420d1bded91dcbb4efb1d
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 0
+% abcbook-lastupdated 1655549995045
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 161
+T: Open Hand
+C:Jez
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: You hold me in your fist know in your heart that i'm going to resist
+W: See you have to understand
+W: Got to hold me gently in an open hand
+W: Hold me gently in an open hand
+W: 
+W: See there's no cage strong enough
+W: To hold my soul or to make me feel love
+W: And there's no hope in demand
+W: Got to hold me gently in an open hand
+W: Hold me gently in an open hand
+W: 
+W: Why would you wish to destroy?
+W: Possibilities of light and joy
+W: When you know deep deep deep inside
+W: We ride
+W: Free within our mind regardless of captivity or bind
+W: 
+W: It's as my angel said
+W: Let me go free or to you i am dead
+W: And though it cut me so
+W: I had a feeling just to let her go
+W: I had a feeling just to let her go
+W: 
+W: Why would i wish to destroy?
+W: Possibilities of light and joy
+W: When i know deep deep deep inside
+W: We ride
+W: Free within our minds regardless of captivity or bind
+W: Captivity or bind...
+% abcbook-tune_id 62a420d1bbaef4b4855db89f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473232
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 162
+T: Joshua
+C:Nitty Gritty Dirt Band
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Joshua come back home to the island
+W: Everyone dance in the street
+W: Joshua come back home to the island
+W: Happiness be complete.
+W: 
+W: Mothers will talk again to their son
+W: Happy the talk is no longer in one
+W: While Stephen begins and John sped the story on.
+W: 
+W: Joshua been gone too long, princess of the islands fade
+W: Cries of pain and sorrow but there's no good work today
+W: Joshua said he come soon, bring good work to everyone
+W: Get together at sundown like crying in the work we done.
+W: 
+W: Craft two blocks together, singing about de land
+W: Joyful congregation dancin' in the sand
+W: No want to look to Babylon, Kingdom will come right here
+W: Joyful celebration, make the slaver shake with fear.
+W: 
+W: Joshua come back home to the island
+W: Everyone dance in the street
+W: Joshua come back home to the island
+W: Happiness be complete.
+W: 
+W: Mothers will talk again to their son
+W: Happy the talk is no longer in one
+W: While Stephen begins and John sped the story on.
+W: 
+W: Joshua talk to the angels, watch the sun on the western sea
+W: Silent contemplation, find the man to make us free
+W: Joshua pay a dime a clam, charge a dime for a dozen eggs
+W: Plenty money left for rum to add power to our dancin' legs
+W: Plenty money left for rum to add power to our dancin' legs.
+W: 
+W: Joshua come back home to the island
+W: Everyone dance in the street
+W: Joshua come back home to the island
+W: Happiness be complete.
+W: 
+W: Mothers will talk again to their son
+W: Happy the talk is no longer in one
+W: While Stephen begins and John sped the story on
+W: While Stephen begins and John sped the story on
+W: While Stephen begins and John sped the story on.
+% abcbook-tune_id 62a420d1958cc3c6fe0d1659
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473240
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 163
+T: Cordelia Brown
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: ??
+W: Cordelia Brown, why is your skin so brown
+W: Cordelia Brown, why is your skin so brown
+W: It's from dancing in the sunlight and spinning around and round
+W: Hey Cordelia Brown, why is your skin so brown.
+% abcbook-tune_id 62a420d15e19cc5071c1264f
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473248
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 164
+T: Ruby
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1deb9d46b294002ad
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473255
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 165
+T: Angeline The Baker
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=190
+V:1 
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzz"C"zzzz|"G"zzzzzzzz|
+W: Angeline the baker lives in our village green,
+W: The way I always loved her beats all you ever seen.
+W: 
+W: CHORUS
+W: Angeline the baker, her age is forty-three,
+W: I bought her candy by the peck, and she won't marry me.
+W: 
+W: Her father is the miller, they call him Uncle Sam.
+W: I never will forget her, unless I take a dram.
+W: CHORUS
+W: 
+W: Angeline is handsome, Angeline is tall,
+W: They say she sprained her ankle a-dancing at the ball.
+W: CHORUS
+W: 
+W: She can't do hard work because she is not stout,
+W: She bakes her biscuits every day, and pours the coffee out.
+W: CHORUS
+W: 
+W: I'll never marry no other girl, no matter where I go.
+W: I said I'd marry Angeline just twenty years ago.
+W: CHORUS
+W: 
+W: The last time I saw her was at the county fair.
+W: Her father run me almost home and told me to stay there.
+W: CHORUS
+% abcbook-tune_id 62a420d1f31a494a47df5216
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1655550292370
+% abcbook-soundfonts 
+% abcbook-repeats 12
+
+
+X: 166
+T: June Apple
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1e9b9f127225f0543
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473271
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 167
+T: Wade In The Water
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Wade in the water, wade in the water children,
+W: Wade in the water, God's gonna trouble the water.
+W: 
+W: Sometimes I feel like a motherless child,Sometimes I feel like a motherless child,
+W: Sometimes I feel like a motherless child, a long way from home
+W: 
+W: I want to die easy, when I die. I want to die easy, when I die.
+W: I want to die easy, when I die. Shout salvation as I rise.
+W: I want to die easy, when I die.
+% abcbook-tune_id 62a420d13ba08a29c7cae76e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473278
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 168
+T: Staggering Willy
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1c12fd289fc1703bc
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473287
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 169
+T: Church Street Blues
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1880a97645adfa67e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473295
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 170
+T: Spanish Steps
+B: steve's song book
+B: maxs song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d140dc492f878ee487
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473304
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 171
+T: Andrews Latin Song ??
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d12f1a5afb8e21be28
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473315
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 172
+T: Be My Girl Sally
+C:The Police
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Won't you be my girl
+W: Won't you be my girl
+W: Won't you be my, be my
+W: Be my girl
+W: 
+W: I was blue and lonely
+W: I couldn't sleep a wink
+W: And I could only get unconscious
+W: If I'd had to much to drink
+W: There was somehow, something wrong somewhere
+W: And each day seemed grey and dead
+W: The seeds of desperation
+W: Were growing in my head
+W: 
+W: I needed inspiration
+W: A brand new start in life
+W: Somewhere to place affection
+W: But I didn't want a wife
+W: 
+W: And then by lucky chance I saw
+W: In a special magazine
+W: An ad that was unusual
+W: The like I'd never seen
+W: 
+W: "Experience something different
+W: With our new imported toy
+W: She's loving, warm, inflatable
+W: And a guarantee of joy"
+W: 
+W: She came all wrapped in cardboard
+W: All pink and shrivelled down
+W: A breath of air was all she needed
+W: To make her lose that frown
+W: 
+W: I took her to the bedroom
+W: And pumped her with some life
+W: And later in a moment
+W: That girl became my wife
+W: 
+W: And so I sit her in the corner
+W: And sometimes stroke her hair
+W: And when I'm feeling naughty
+W: I blow her up with air
+W: 
+W: She's cuddly and she's bouncy
+W: She's like a rubber ball
+W: I bounce her in the kitchen
+W: And I bounce her in the hall
+W: 
+W: And now my life is different
+W: Since Sally came my way
+W: I wake up in the morning
+W: And have her on a tray
+W: 
+W: She's everything they say she was
+W: And I wear a permanent grin
+W: And I only have to worry
+W: In case my girl wears thin
+W: 
+W: Won't you be my girl
+W: Won't you be my girl
+W: Won't you be my, be my
+W: Be my girl
+W: 
+% abcbook-tune_id 62a420d1cf2c0c78c280197c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473325
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 173
+T: My Love Is In America
+C:Dolores Keane
+B: steve's song book
+B: cassidys song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: My love is in America
+W: And i miss him tonight
+W: So much so
+W: I feel like taking the money we've saved
+W: And catching the flight
+W: And catching the flight
+W: 
+W: The children are sleeping well
+W: And im on my own
+W: Even though I've read his letters
+W: Again and again, im alone, im all alone
+W: But the money I've sent home is barely enough
+W: There's an ocean that keeps us apart
+W: I've been lonely from home, but I mustn't give up
+W: 
+W: What about this aching heart?
+W: 
+W: Johnny come home, I need you tonight
+W: I need you tonight
+W: 
+W: My love is in America
+W: But it's hard to go out
+W: Just because certain assumptions are made
+W: When your man's not about
+W: When your man's not about
+W: 
+W: My love is in America
+W: And I'm not so sure
+W: Maybe I rather him here in my arms
+W: And us to be poor
+W: And us to be poor
+W: 
+W: Still the money I send home
+W: Is barely enough
+W: There's an ocean that keeps us apart
+W: I've been aching for home
+W: But I mustn't give up
+W: What about this aching heart?
+W: 
+W: Johnny come home, I need you tonight
+W: I need you tonight (I need you tonight)
+W: 
+W: Johnny come home, I need you tonight
+W: I need you tonight (I need you tonight)
+W: 
+W: Johnny come home, I need you tonight
+W: I need you tonight (I need you tonight)
+% abcbook-tune_id 62a420d15cff0ed086c2ab0a
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473335
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 174
+T: Rogues In A Nation
+C:Steeleye Span
+B: steve's song book
+B: velmas song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Farewell to all our Scottish fame
+W: Farewell our ancient glory
+W: Farewell even to our Scottish name
+W: Sae fam'd in martial story
+W: Now Sark runs over the Solway sands
+W: And Tweed runs to the ocean
+W: To mark where England's province stands:
+W: Such a parcel of rogues in a nation!
+W: 
+W: What force or gile could not subdue
+W: Through many warlike ages
+W: Is wrought now by a coward few
+W: For hireling traitor's wages
+W: The English steel we could disdain
+W: Secure in valour's station
+W: But English gold has been our bane:
+W: Such a parcel of rogues in a nation!
+W: 
+W: I would, or I had seen the day
+W: That treason thus could sell us
+W: My auld gray head had lain in clay
+W: Wi' Bruce and loyal Wallace!
+W: But pith and power, till my last hour
+W: I'll make this declaration
+W: We were bought and sold for English gold:
+W: Such a parcel of rogues in a nation!
+% abcbook-tune_id 62a420d169d4527be662eee6
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473345
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 175
+T: She Moved Through The Fair
+B: steve's song book
+B: cassidys song book
+B: velmas song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d11f3b9d3480d0e166
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473355
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 176
+T: The Blacksmith
+B: steve's song book
+B: cassidys song book
+B: velmas song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Am G6 Am
+W: Em G6 C
+W: The blacksmith courted me..
+% abcbook-tune_id 62a420d1ee0e07f6e10f11d2
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473364
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 177
+T: Matty Groves
+B: steve's song book
+B: cassidys song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1517e0f3e905b4121
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473374
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 178
+T: The Swallow
+C:Joan Baez
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Come wander quietly and listen to the wind
+W: Come here and listen to the sky
+W: Come walking high above the rolling of the sea
+W: And watch the swallows as they fly
+W: 
+W: There is no sorrow like the murmur of their wings
+W: There is no choir like their song
+W: There is no power like the freedom of their flight
+W: While the swallows roam alone
+W: 
+W: Do you hear the calling of a hundred thousand voice
+W: Hear the trumbling in the stone
+W: Do you hear the angry bells ringing in the night
+W: Do you hear the swallows when they've flown?
+W: 
+W: And will the breezes blow the petals from your hand
+W: And will some loving ease your pain
+W: And will the silence strike confusion from your soul
+W: And will the swallows come again?
+% abcbook-tune_id 62a420d1ca00729ef313c163
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654932731606
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 179
+T: Fields Of Athenry
+B: steve's song book
+B: cassidys song book
+B: velmas song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d127b140574ac20589
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473392
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 180
+T: Sonny
+B: steve's song book
+B: cassidys song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: sonny works on a farm ..
+% abcbook-tune_id 62a420d1adf75e5e4cd9f6b5
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473399
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 181
+T: Corbies
+C:Traditional
+B: steve's song book
+B: velmas song book
+M:3/4
+Q: 1/4=100
+K:Em
+V:1 
+"Em"zzzz"D"zz|"Em"zzzz"D"zz|"Em"zzzz"D"zz|"Em"zzzz"D"zz|
+"Em"zzzzzz|"Em"zz"D"zzzz|"Em"zzzz"D"zz|"Em"zzzzzz|"Em"zzzz"D"zz|"Em"zzzzzz|
+W: 
+W: 
+W: As I was walking all alane
+W: I heard Twa Corbies making a main
+W: And tane untae the tither did say O
+W: Where sall we gang and dine the day
+W: 
+W: In behint yon auld fell dyke
+W: I wat there lies a new slain knight
+W: And naebody kens that he lies there O
+W: But his hawk and hound and his lady fair
+W: 
+W: His hound is tae the hunting gane
+W: His hawk tae fetch a wild fowl hame
+W: His lady's taen another mate O
+W: So we maun make our dinner sweet
+W: 
+W: Ye'll sit on his white hause bane
+W: And I'll pike out his bonny blue een
+W: Wi' many a lock of his gowden hair O
+W: We'll theek our nest when it grows bare
+W: 
+W: Many a one for him makes mane
+W: But nane shall ken where he is gane
+W: O'er his white bones when they are bare O
+W: The wind shall blow forever mare
+W: The wind sall blow forever mair
+% abcbook-tune_id 62a420d13b4016778318b295
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654947892628
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 182
+T: Universe In Every Cup Of Tea
+C:Andrew Kordas
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: There's a universe in every cup of tea.
+W: If you listen carefully, you will see.
+W: A spiralling, swirling galaxy, in a
+W: Psychodelic cup of tea.
+W: 
+W: It's converse-ally, almost universally, a very nice thing to do.
+W: One cup for you and one cup for me, sharing in tea for two.
+% abcbook-tune_id 62a420d17c7c8a77b3aecc99
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473415
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 183
+T: Doomba
+B: steve's song book
+B: choir song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Hey Doomba
+W: ee ay Doomba
+W: ee ay Dooma Doom
+W: Ey Dooma Doom
+W: 
+W: (Ey Doomba
+W: Doomba ee ay
+W: Na na na na na na)
+% abcbook-tune_id 62a420d17bbba77cae5cc657
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473422
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 184
+T: So So Bambo
+B: steve's song book
+B: choir song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: So so bambo
+W: So barra gess o day
+W: 
+W: So Man Ay So Man Ay Bamba
+W: So Man Ay Barr gess o day.
+% abcbook-tune_id 62a420d1f963ce7f2b2f2298
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473430
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 185
+T: Zamangwaza
+B: steve's song book
+B: choir song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Awai awai zamangwaza
+W: Awai awai zamangwaza manyoor way, your way
+% abcbook-tune_id 62a420d15a2c226a7b99168e
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473437
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 186
+T: My Girl
+C:Hoodoo Gurus
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: 
+% abcbook-tune_id 62a420d1337b60e8ea4780bb
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473445
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 187
+T: Blackbird
+C:The Beatles
+B: steve's song book
+M:4/4
+Q: 1/4=135
+V:1 
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"C"zzzzzzzz|"D"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"Am"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"F"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"F"zzzz"C"zzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+W: 
+W: Blackbird singing in the dead of night
+W: Take these broken wings and learn to fly
+W: All your life
+W: You were only waiting for this moment to arise
+W: 
+W: Blackbird singing in the dead of night
+W: Take these sunken eyes and learn to see
+W: All your life
+W: You were only waiting for this moment to be free
+W: 
+W: Black bird fly, black bird fly
+W: Into the light of the dark black night
+W: 
+W: Black bird fly, black bird fly
+W: Into the light of the dark black night
+W: 
+W: Blackbird singing in the dead of night
+W: Take these broken wings and learn to fly
+W: All your life
+W: You were only waiting for this moment to arise
+W: You were only waiting for this moment to arise
+W: You were only waiting for this moment to arise
+W: 
+% abcbook-tune_id 62a420d107025307e93e7366
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654947094615
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 188
+T: By Chance It Was
+C:Clannad
+B: steve's song book
+B: velmas song book
+M:4/4
+Q: 1/4=90
+V:1 
+W: Dm C
+W: 
+W: By chance it was I met my love
+W: It did me much surprise
+W: Down by a shady myrtle grove
+W: Just as the sun did rise
+W: The birds they sang right gloriously
+W: And pleasant was the air
+W: And there was none save she and I
+W: Among the flowers fair
+W: 
+W: In dewy grass and green we walked
+W: She timid was and coy
+W: How can'st thou choose but pity me
+W: My pretty pearl, my joy
+W: How comes it that thou stroll this way?
+W: Sweet maiden tell me true
+W: Before bright Phoebus' glittering ray
+W: Has supped the morning dew?
+W: 
+W: I go to tend the flocks I love
+W: The ewes and tender lambs
+W: That pasture by the myrtle grove
+W: That gambol by their dams
+W: There I enjoy a pure content
+W: At dawning of the day
+W: Then, hand in hand, we lovers went
+W: To see the flock at play
+W: 
+W: And as we wended down the road
+W: I said to her, "Sweet maid
+W: Three years I in my place abode
+W: And three more must be stayed
+W: The three that I am bound so fast
+W: O fairest wait for me
+W: And when the weary years are past
+W: Then wedded we will be."
+W: 
+W: "Three years are long, three times too long
+W: Too lengthy the delay"
+W: And then I answered in my song
+W: "Hope wastes them quick away
+W: Where love is fervent, fain and fast
+W: And knoweth not decay
+W: There nimbly fleet the seasons past
+W: Accounted as one day."
+W: 
+W: 
+W: 
+W: 
+W: 
+% abcbook-tune_id 62a420d1d7bf221b68b1cd1c
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473469
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 189
+T: On Any Other Day
+C:The Police
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: GG'Gf'DBD riff through verse
+W: 
+W: G C F D
+W: 
+W: [Verse 1]
+W: There's a house on my street and it looks real neat
+W: I'm the chap who lives in it
+W: There's a tree on the sidewalk, there's a car by the door
+W: I'll go for a drive in it
+W: And when the wombat comes, he will find me gone
+W: He'll look for a place to sit
+W: [Chorus]
+W: My wife has burned the scrambled eggs
+W: The dog just bit my leg
+W: My teenage daughter ran away
+W: My fine young son has turned out gay
+W: 
+W: [Verse 2]
+W: Cut off my fingers in the door of my car
+W: How could I do it?
+W: My wife is proud to tell me of her love affairs
+W: How could she do this to me?
+W: 
+W: [Chorus]
+W: My wife has burned the scrambled eggs
+W: The dog just bit my leg
+W: My teenage daughter ran away
+W: My fine young son has turned out gay
+W: 
+W: [Bridge]
+W: And it would be okay on any other day
+W: And it would be okay on any other day
+W: 
+W: [Verse 3]
+W: Throw down the morning papers and spill my tea
+W: I don't know what's wrong with me
+W: The cups and plates are in a conspiracy
+W: I'm covered in misery
+W: [Chorus]
+W: My wife has burned the scrambled eggs
+W: The dog just bit my leg
+W: My teenage daughter ran away
+W: My fine young son has turned out gay
+W: 
+W: [Post-Chorus]
+W: And it would be okay on any other day
+W: (Happy birthday to you, happy birthday to you)
+W: And it would be okay on any other day
+W: (Happy birthday, dear daddy, happy birthday to you)
+% abcbook-tune_id 62a420d1d6afb18886ea4add
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473537
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 190
+T: Every Evening
+C:Keb Mo
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: Every mornin' an' every evenin'
+W: Every day I, I think of you
+W: The way you love me, through and through
+W: 
+W: And when I'm with you, it feels like heaven
+W: And you're an angel, holdin' me
+W: Your sweet, sweet lovin', it sets me free
+W: 
+W: And in my wildest, imagination
+W: I could never, imagine you
+W: Lovin' me as much as, as I do you
+W: And it may be winter, it may be fall
+W: I might have plenty or nothin' at all
+W: But, baby, I'll be there whenever you call, ever you call
+W: 
+W: 'Cause every mornin' and every evenin'
+W: Every day I, I think of you
+W: The way you love me, through and through
+W: The way you love me, through and through
+% abcbook-tune_id 62a420d1eda673d24d865180
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473544
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 191
+T: The L&N  Don't Stop Here Any More
+C:Michelle Shocked
+B: steve's song book
+M:4/4
+Q: 1/4=100
+V:1 
+W: When I was a curly headed baby
+W: My daddy sat me down on his knee
+W: He said, "Go to school and learn your letters
+W: Don't you be a dusty miner boy like me"
+W: 
+W: [Chorus: ]
+W: I was born and raised in the mouth of the Hazard Hollow
+W: Coal cars rumbled past my door
+W: Now they're standin' in a rusty row all empty
+W: And the L & N
+W: Don't stop here anymore
+W: 
+W: I used to think my daddy was a black man
+W: With script enough to buy the company store
+W: Now he goes town with empty pockets
+W: And his face is white as a February snow
+W: 
+W: [Chorus: ]
+W: Well I'd never thought I'd learn to love the coal dust
+W: Never thought I'd pray to hear that whistle roar
+W: Oh God, I wish the grass would turn to money
+W: And those greenbacks fill my pockets up once more
+W: 
+W: [Chorus: ]
+W: 
+W: Last night I dreamed I went down to the coal yard
+W: To draw my pay like I'd done before
+W: Them kudzu vines are covering all the windows
+W: There were leaves and grass growin' right up through the floor
+W: 
+W: [Chorus: ]
+% abcbook-tune_id 62a420d17ddc15eda2dc8876
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1654923473551
+% abcbook-soundfonts 
+% abcbook-repeats 
+
+
+X: 192
 T: Mother
 C:Pink Floyd
 B: steve's song book
 M:4/4
 Q: 1/4=100
 V:1 
-
+W: [Verse 1] (Roger Waters)
+W: G                                    C   G
+W: Mother do you think they’ll drop the bomb?
+W: G                                     C   G
+W: Mother do you think they’ll like this song?
+W: C                                            G
+W: Mother do you think they’ll try to break my balls?
+W: D         C
+W: oooooooo aaaaa
+W: C                   G
+W: Mother should I build the wall?
 W: 
-% abcbook-tune_id 62a3e5551366d6d2c977e162
+W: G                             C  G
+W: Mother should I run for president?
+W: G                               C   G
+W: Mother should I trust the government?
+W: C                                  G
+W: Mother will they put me in the fiiirin’ line?
+W: D         C
+W: ooooooooo aaaaa
+W: C               G
+W: Is it just a waste of time?
+W: 
+W: 
+W: [Chorus] (David Gilmour)
+W: G                              C
+W: Hush now, baby, baby don’t you cry
+W: F                             C
+W: Mama’s gonna make all of your nightmares come true
+W: F                           C
+W: Mama’s gonna put all of her fears into you
+W: F                                 C
+W: Mama’s gonna keep you right here under her wing
+W: F                          C
+W: She won’t let you fly, but she might let you sing
+W: F                        C        G
+W: Mama’s gonna keep babyyy cozy and warm
+W: 
+W: D         C
+W: ooooooooo baaabe
+W: D         C
+W: ooooooooo baaabe
+W: D
+W: ooo baby
+W: C
+W: Of course Mama’s gonna help buuuiild the wall
+W: 
+W: Mother do you think they'll drop the bomb?
+W: 
+W: Mother do you think they'll like this song?
+W: 
+W: Mother do you think they'll try to break my balls?
+W: 
+W: Ooh, ah
+W: Mother should I build the wall?
+W: Mother should I run for President?
+W: Mother should I trust the government?
+W: Mother will they put me in the firing mine?
+W: Ooh ah,
+W: Is it just a waste of time?
+W: 
+W: Hush now baby, baby, don't you cry.
+W: Mama's gonna make all your nightmares come true.
+W: Mama's gonna put all her fears into you.
+W: Mama's gonna keep you right here under her wing.
+W: She won't let you fly, but she might let you sing.
+W: Mama's gonna keep baby cozy and warm.
+W: Ooh baby, ooh baby, ooh baby,
+W: Of course mama's gonna help build the wall.
+W: 
+W: Mother do you think she's good enough?
+W: For me?
+W: Mother do you think she's dangerous,
+W: To me?
+W: Mother will she tear your little boy apart?
+W: Ooh ah,
+W: Mother will she break my heart?
+W: 
+W: Hush now baby, baby don't you cry.
+W: Mama's gonna check out all your girlfriends for you.
+W: Mama won't let anyone dirty get through.
+W: Mama's gonna wait up until you get in.
+W: Mama will always find out where you've been.
+W: Mama's gonna keep baby healthy and clean.
+W: Ooh baby, ooh baby, ooh baby,
+W: You'll always be baby to me.
+W: 
+W: Mother, did it need to be so high?
+% abcbook-tune_id 62a420d10f12cbf2ebebad81
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654908245545
+% abcbook-lastupdated 1654932809121
 % abcbook-soundfonts 
 % abcbook-repeats 

@@ -47,10 +47,10 @@ V:1
 |:"Am"EABc AEAc|"G"B2 Bc BAGF|"Am"EABc AEAc|1 "G"BGdB BAGF:|2 "G"BGdB BAGB||
  |:"Am"AecA "F#m"fcAg|"G"cAfc "Em"AecB|"Am"AecA "F#m"fcAg|1 "G"cAdB "Em"G2 B2:|2 "G"cAdB "Em"G3 F2||
 % abcbook-tune_id 629b8cf2a546e96962f04dc1
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1655012716235
+% abcbook-lastupdated 1655260230265
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -70,7 +70,7 @@ V:1
 % abcbook-transpose 
 % abcbook-lastupdated 1654967946974
 % abcbook-soundfonts 
-% abcbook-repeats 5
+% abcbook-repeats 
 
 
 X: 4
@@ -85,10 +85,10 @@ BA|:"G"GFGA G2 B,C|DEDB, D2 GA|B2 B2 BAGA|"D"B2 A2 A2 BA|
  |:"G"B d2 B d2 d2|B d2 B d2 d2|"C"c e2 c e2 e2|c e2 c e2 e2|
  "G"g2 g2 d2 d2|B2 B2 A2 GA|B d2 e "D"dBGA|1"G"B2 A2 G2 d2:|2"G"B2 A2 G2 z2||
 % abcbook-tune_id 629b934f3611029d74942dce
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654364628685
+% abcbook-lastupdated 1655260234879
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -108,10 +108,10 @@ V:1
 "D"d2 e fgf | "A"edc dAA | "G"BAG "D"FED | "A"EDC "D"DA,B, | "A"CDE "D"Ddd |
 "A"Aee "D"Aff | "A7"Agg "D"fed | "A"edc "D"d2 d |"D"d2 e d2 d | "D"dcB z3 |]
 % abcbook-tune_id 629c16a781734f87d0bd05ce
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654398776482
+% abcbook-lastupdated 1655260236325
 % abcbook-soundfonts 
 % abcbook-repeats 
 %%scale 0.71
@@ -130,10 +130,10 @@ dB |:"D"AD (3FED AD (3FED|"D"Adcd fedc|"Em"BE~E2 BE~E2|"Em"Beed "A"cdeg|
  |:"D"afda "Em"bgeg|"D"fdcd "A7"BAFG|"D"Addc defg|(3aba gb "A7"a2fg|
  "D"~a3f "A7"~g3e|"D"~f3e dfag|"D"fdec dBAG|1"A7"FAEA "D"D2 fg:|2"A7"FAEA "D"D4:|
 % abcbook-tune_id 629ed67d1fa91a4e8af1dc33
-% abcbook-boost 0
+% abcbook-boost 4
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654768071363
+% abcbook-lastupdated 1655260238139
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -154,10 +154,10 @@ beae "E"=gged |[1 "A"c(A A)A A4 :|[2"A"c(A A)A A2 =g2 ||
 |: "A"a2ab a=gef | "G"=gefd "A"e2 g{g}(a | a)aa2 bbba | "E"=g(e e)e e2 e2 |
    "A"aaab a=gef | "G"=gefd "A"e2 a{a}(b | b)eae "E"=gged | "A"c(A A)A A4e2:|
 % abcbook-tune_id 6298c245c2ae227bc304285a
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654951198839
+% abcbook-lastupdated 1655260240304
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -178,10 +178,10 @@ V:1
 "A"afed cABG || AGAB cABc | "D"dcde fedf |
 "E"e^def gefg |[1 a"A"gab a2 EF :|[2 a"A"gab a4||
 % abcbook-tune_id 6298c24580576e9a11631458
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1655013547190
+% abcbook-lastupdated 1655260241415
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -201,10 +201,10 @@ GFGA Bcd=f | "C"edcB cdeg | "D"fedB cBAc| [1 "G"B2G2G2 DF:|[2 "G"B2G2G2 ||
 |: ef | "G"gfga bage | "D"faab (a2 a2) | faab agfe | "C"deef e2 ef |
 gfed edBA | "Em"deee efge | "D"dcBG AFAc | "G"B2 G2 G2 :|
 % abcbook-tune_id 6298c245de8a92848001dfb6
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654951336424
+% abcbook-lastupdated 1655260242524
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -231,10 +231,10 @@ GBeB dBAG | "A"ceee efed | cAcd eafa |
 |: "C"edef g2 ed | "G"BGAG EFGd | "C"edef g2 ed | "G"[B2D][d4D] dd |
 "C"e2 ge "G"d2 ed | BGAG "C"E2 GE | "D7"DB,DG EFGB | [1 "G"A2 [G4B,] Bd:| "G"A2 [G4B,]||
 % abcbook-tune_id 6298c245f144b725e829f450
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654951746902
+% abcbook-lastupdated 1655260244041
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -251,10 +251,10 @@ V:1
  "D"f3e|fec2|"E"B3B|B4|"D"fefg|a2af|
  "E"efed|"A"cBA2||
 % abcbook-tune_id 6298c2458a90376d16247fd7
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654953944590
+% abcbook-lastupdated 1655260245168
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -273,10 +273,10 @@ EG|:"Am"[GA]AAc AGEG | ABcd e2E^F | "G"^FGBA G2BA | GABc dBcB |
 |:"A"gaab a2ag | abag e2Bd | "G"e2^f2g2 (3fgf | edBd e2EG |
 "Am"AGA2 "C"cAc2 | "D"dcd2 "E"e2ag | "Am"edce "G"BAGA |[1 "Am"[A2e]Ac A2eg:| [2 "Am"[A2e]Ac A4|]
 % abcbook-tune_id 6298c245b639e34cd43e51c0
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956100095
+% abcbook-lastupdated 1655260257097
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -295,10 +295,10 @@ V:1
 |:"G"g2ga ged2 | "Em"e6 ^d2 | e2eg e2d2 | B6 AB | "C"c2cd e2dc |
 "G"BABc d2cB |  [1 "A"A2B2 "A7"c2^c2 | "D"d2^d2 "D7"e2f2 :|[2 "D"BABd- dBA2 | "G"G4 |]
 % abcbook-tune_id 6298c245da09f3cc361f3da2
-% abcbook-boost 0
+% abcbook-boost 4
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956237241
+% abcbook-lastupdated 1655260255842
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -318,10 +318,10 @@ agaf efec | "D"dcdf "A"eAB=c | [cA][cA][cA]A BAFD | "E"EFAB "A"A4 |
 "A"c2 c2 BAAA | c2 c2 BAAA | c2 c2 BAFD | [1 "E"EFAB "A"A4 :|
 [2 "A"(3agf ef ecBA | EFAc AFED | "B7"^DFAc "E7"=DEGB | "A"(3ABc (3efg a4||
 % abcbook-tune_id 6298c245d0a62de9b0d0f894
-% abcbook-boost 0
+% abcbook-boost 4
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956394445
+% abcbook-lastupdated 1655260254694
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -339,10 +339,10 @@ V:1
 |: e"(1)"g |"(1)"ac'a"(0)"e fgaf| edcB A2 e"(1)"g | "(1)"aeac' afef | ac'"E"b2z2 "A"eg |
 "A"aeac' aefg | afed cBAF|EFAB ceaf |ec"E"BG "A"A2:|
 % abcbook-tune_id 6298c245a046bfe54e38afc5
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654955997066
+% abcbook-lastupdated 1655260258936
 % abcbook-soundfonts 
 % abcbook-repeats 
 % as taught by Barry Mitterhoff
@@ -365,10 +365,10 @@ cAGc AGEF | GEGA -AG E2 | "D7"A^GAd -dB A2 | "G"G4- GGAB |
 "C"cAGc AGEF | GEGA -AG E2 | "D7"D^CDG "G"-GE D2 | "C"(3CCC B,2 _B,4 |
 "F"A,2 A,B, "D7º"CB,CD | "C"EDEA- AG E2 | "G"DE-EG GE D2 | [1 "C"C4- CGAB:|[2 "C"[C4E4c4]z4|]
 % abcbook-tune_id 6298c245341ede88af046719
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956567042
+% abcbook-lastupdated 1655260259982
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -391,10 +391,10 @@ eceg a2 af | ecef "G"=gefg | "A"b2 a2 =gagf | "E"efed "A"cA3:|
 |:"A"c'bac' bac'd'|e'd'c'b a2 |"G"=gfga bagb|aba=g e2|
 "A"ab c'2 e'c' b2|c'bab afe2 |efgf gfef |"E"edcA "A"BcA||
 % abcbook-tune_id 6298c25d1107a975bad58c72
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654951475407
+% abcbook-lastupdated 1655260260833
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -413,10 +413,10 @@ V:1
 "D"FAAA AAAF | ABAF EDDD | FAAA AAAB |"A"AFEF "D"D2DE |
 "D"FAAA AAAF | ABAF EDDE | FAAA AAAB | "A"AFEF "D"D4 |]
 % abcbook-tune_id 6298c25de0081bdd793cc72d
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956626849
+% abcbook-lastupdated 1655260262511
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -437,10 +437,10 @@ Bc | "G" [G,2D2d2]d2 g2d2 | e2d2 B2d2 | "C" cdcB A2G2 | "C"E2G2 "D7" D2 Bc |
 |: "D"[D3A3]B A2G2 | "C"E2G2 "D"D2 AB | "C"cdcB A2G2 | "C"(3EFE C2 "D"D4 | "D"[D3A3] B A2G2 |
 "C"E2G2 "D"D2 AB | "C"cdcB A2G2 | [1"D"FEDE yF2G2:| [2"D"A2B2 c2 ||
 % abcbook-tune_id 6298c25d31166658e6771edc
-% abcbook-boost 0
+% abcbook-boost 4
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956726431
+% abcbook-lastupdated 1655260264380
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -459,10 +459,10 @@ V:1
 |:GGAB GGAB | GBAG EDGA | [G3B][G2B] A GE | DDDD EGAB :|
 |:[B8d] | [_B6d] [=B2D]- | [B3D] [G2B] A GE | DDDD EG3:|
 % abcbook-tune_id 6298c297554c2eb899194e84
-% abcbook-boost 0
+% abcbook-boost 4
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654956838351
+% abcbook-lastupdated 1655260265365
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -497,10 +497,10 @@ V:1
  DE|F2A2 A3F|ABAG FEDE|FDAD BDAB|AFE2 D||
  de|f2a2 a3f|abaf edde|fa2fa2 ab|afecd2||
 % abcbook-tune_id 629eee1ad9c5254265ce8428
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654583206822
+% abcbook-lastupdated 1655260267958
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -520,10 +520,10 @@ V:1
  BcBc B2A2 |"Am"AEEA AEEA | AGAB A2 GF |"B7" GAAG GFF=F | "Em"E4 EDEF |
  "C"GAAG "D"GFF=F |1 "Em"E6 GB3/2 :|2 "Em"E6 z2 ||
 % abcbook-tune_id 629f3e70344f948c4e2f1742
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654605903134
+% abcbook-lastupdated 1655260274256
 % abcbook-soundfonts 
 % abcbook-repeats 
 
@@ -544,10 +544,10 @@ V:1
 |"Dm"a2 af dfaf|dfaf gfed|"C"ce (3eee gecd|edef gefg|
 |"Dm"af (3fff ge (3eee|fedf edce|"C"fedc AGFA|GECE "Dm"D2 C2||
 % abcbook-tune_id 629f47bd12d63fefc90829c1
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1654606906968
+% abcbook-lastupdated 1655260273284
 % abcbook-soundfonts 
 % abcbook-repeats 
 % Rhythm Reel
@@ -686,6 +686,8 @@ D ED \
 %%MIDI transpose 2
 %%MIDI transpose 2
 %%MIDI transpose 2
+%%MIDI transpose 2
+%%MIDI transpose 2
 % abcbook-tune_id 629ff75685286a7f393e5ab5
 % abcbook-boost 0
 % abcbook-tablature 
@@ -801,12 +803,11 @@ W:
 % abcbook-repeats 
 
 
-X: 56725
+X: 35
 T: Angeline The Baker
 B: steve's tunes
 M:4/4
 Q: 1/4=125
-N: AKA: Angelina Baker
 K:Dmajor
 V:1 
  |:f/g/|"D"af ed/e/|fe df/g/|af ed|"G"B>B Bf/g/|
@@ -847,16 +848,14 @@ W: Should have married Angeline, just twenty years ago
 % abcbook-transpose 
 % abcbook-lastupdated 1654957444210
 % abcbook-soundfonts 
-% abcbook-repeats 6
+% abcbook-repeats 
 
 
-X: 56801
+X: 36
 T: Chanter's Tune
 B: steve's tunes
 M:4/4
 Q: 1/4=160
-N: AKA: Chanter And Trip To Kilburn, The Chanter's Song, Chanter's Tune, The Chanter's Tune, The Chanter's
-N: AKA: Last Night Joy, Song Of The Chanter, The Song Of The Chanter
 K:Ddorian
 V:1 
 |:"Dm."D2 D2 A2 GE|"Dm"D2 AB "C"c2 Bc|"Dm"d2 A2 A2 GA|"C"c2 Bc AGE2|
@@ -872,7 +871,7 @@ V:1
 % abcbook-repeats 
 
 
-X: 49937
+X: 37
 T: Night In That Land
 B: steve's tunes
 M:3/4
@@ -885,7 +884,6 @@ D2|"G"B2 BA B<d|"C"E4 cB|"D"A3 G B<G|"D"A3 D GF|
 "Em"E2 e2 d<A|"G"B3 D GF|"C"E2 c2 A<G|"D"A6|
 "C"cB "Em"GA "G"BG|("D"A4A) D|"C"cB GA Bc|"D"d6|
 "C"cB "Em"GA "G"BG|"D"A3 D GF|"C"E3 D E<G|"D"A4 D2||
-
 % abcbook-tune_id 62a420d091ad16bd5894e57f
 % abcbook-boost 0
 % abcbook-tablature 
@@ -907,7 +905,6 @@ K:A
 V:1 
 AB|:"A"cABc A2 AB|cABA F A2 B|cABc ABAF|[1"E"ECEA "A"F A2 B:|2"E"ECEA "A"F A3||
 "A"ABcd e2 cd|efed cAcd|efed cdcB||[1"E"ABAF "A"EF AB:|2"E"ABAF "A"EF A2||
-
 W: Looked down the road, seen my Sally comin'
 W: Thought to my soul I'd kill myself a runnin'.
 W: 
@@ -1046,18 +1043,15 @@ V:1
 % abcbook-repeats 
 
 
-X: 43787
+X: 42
 T: The Butterfly
 B: steve's tunes
 Q: 1/4=100
-N: AKA: Barney's Goat, The Bug, The Butterfly Gig, Eitil Im, Fiona
-N: AKA: Im Ag Eitilt, Kick The Peeler, The Red Admiral Butterfly, The Red Monarch Butterfly
 K:Gmajor
 V:1 
 |:"Em"B2E G2E "D"F3|"Em"B2E G2E "D"FED|"Em"B2E G2E "D"F3|"G"B2d d2B "D"AFD:|
  |:"Em"B2d e2f g3|B2d g2e "D"dBA|"Em"B2d e2f g2a|"G"b2a g2e "D"dBA:|
  |:"Em"B3 B2A G2A|B3 BAB "D"dBA|"Em"B3 B2A G2A|"G"B2d g2e "D"dBA:|
-
 % abcbook-tune_id 62a420d186915d1b442cbdea
 % abcbook-boost 0
 % abcbook-tablature 
@@ -1120,6 +1114,8 @@ V:1
 |:"Em"e2f g>fe|g2a b>ge|"D"~dfg afd|afd afd|
 "Em"e2f g>fe|"D"dfe dBA|"Em"BAG "D"FEF| "Em"GE>E E3:|
 %%MIDI transpose -2
+%%MIDI transpose -2
+%%MIDI transpose -2
 % abcbook-tune_id 62a420d1921a5e4d6143ea68
 % abcbook-boost 0
 % abcbook-tablature 
@@ -1151,12 +1147,11 @@ W:
 % abcbook-repeats 
 
 
-X: 36450
+X: 47
 T: Tobin's Favourite
 B: steve's tunes
 M:6/8
 Q: 3/8=100
-N: AKA: Gus Tierney's, Tobin's, Tobin's Fancy, Tobin's Favorite
 K:Dmajor
 V:1 
 |:"D"DFA dcd|"A"ecA efg|~"D"f3 "G"gfg|"A"ecA GFE|
@@ -1295,7 +1290,7 @@ W: And when from bondage we are liberated, our former sufferings shall fade from
 % abcbook-transpose 
 % abcbook-lastupdated 1654950902683
 % abcbook-soundfonts 
-% abcbook-repeats 4
+% abcbook-repeats 
 % Rhythm Waltz
 % Link Link to Webpage
 % Titles One title
@@ -1324,12 +1319,12 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1655014347700
 % abcbook-soundfonts 
-% abcbook-repeats 6
+% abcbook-repeats 
 
 
 X: 53
 T: Araganu Air
-C:Pete Richens and Sandy Gibney
+C:Pete Richens and Sandy Gibbney
 B: steve's tunes
 M:3/4
 Q: 1/4=100
@@ -1342,28 +1337,21 @@ W:
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1655015977872
+% abcbook-lastupdated 1655539848238
 % abcbook-soundfonts 
 % abcbook-repeats 
 
 
-X: 40189
+X: 54
 T: The Grumbling Old Man And Woman
 B: steve's tunes
 Q: 1/4=100
-N: AKA: Chicaneuse, The Disputant, Disputeuse, Growlin' Old Man And Growlin' Old Woman, Growling And Grumbling
-N: AKA: Growling Old Man & Old Woman, Growling Old Man & Woman, Growling Old Man And Cackling Old Woman, Growling Old Man And Grumbling Old Woman, The Growling Old Man And The Cackling Old Lady
-N: AKA: The Growling Old Man And The Cackling Old Woman, The Growling Old Man And The Grumbling Old Woman, Growling Old Man And Woman, The Growling Old Man And Woman, Growling Old Man Grumbling Old Woman
-N: AKA: Growling Old Man, Grumbling Old Woman, The Growling Old Man, Growly Old Man And Grumbly Old Woman, Grumblin' Old Man & Growlin' Old Woman, Grumbling And Growling Old Man And Woman
-N: AKA: Grumbling Old Man, The Grumbling Old Man And The Grumbling Old Woman, La Chicaneuse, LA Disputeuse, La Grondeuse
-N: AKA: La Marmotteuse, Le Bonhomme Et La Bonne Femme Chicaneux, The Old Man And The Old Woman
 K:Adorian
 V:1 
 A,B,|:"A-"CA,[A,E]A, CA,[A,E]A,|"G"B,G,[G,D]G, B,G,[G,D]G,|"A-"CA,[A,E]A, CA,[A,E]A,|"G"B,A,[G,D]B, "A-"A,2A,B,|
  "A-"CA,[A,E]A, CA,[A,E]A,|"G"B,G,[G,D]G, B,G,[G,D]G,|"A-"CA,[A,E]A, CA,[A,E]A,|1 "G"B,A,[G,D]B, "A-"A,2A,B,:|2 "G"B,A,G,B, "A-"A,4||
  |:"A"efed ^cdef|"G"ged=c BGG2|"A"efed ^cdef|ea2b a2ef|
  "A"gfed ^cdef|"G"ged=c BGGB|"F"cABG A2EF|1 "G"GECB, "A-"A,4:|2 "G"GEDC "A-"B,G,A,B,||
-
 % abcbook-tune_id 62a4b8aa8512bb3266a33e20
 % abcbook-boost 0
 % abcbook-tablature 
@@ -1394,19 +1382,16 @@ W:
 % abcbook-repeats 
 
 
-X: 18081
+X: 56
 T: The Wise Maid
 B: steve's tunes
 Q: 1/4=100
-N: AKA: All Around The World, The Connemara Rake, Docherty's, Doherty's, Holy Well
-N: AKA: Tinker Doherty
 K:Dmajor
 V:1 
 |:DE|"D"F2FG FEDE|F2AB AFED|d2eg fdec|"G"dBAF "A"BE~E2|
  "D"F2FG FEDE|F2AB AFED|d2eg fdec|"G"dBAG "D"FD:|
  |:FA|"D"d2AG FDFA|dfaf "G"gfeg|"D"fAdf "A"eAce|"G"dfed "Am"cA ~A2|
 "G" BDGB "D"ADFA|dfaf gfed|"G"Bdce "A"dBAG|"D"FAEA D2:|
-
 % abcbook-tune_id 62a4bc4abbeac2dca0b07a95
 % abcbook-boost 0
 % abcbook-tablature 
@@ -1506,7 +1491,7 @@ W: played A A B B A A C C
 % abcbook-repeats 
 
 
-X: 26053
+X: 60
 T: Camp Chase
 B: steve's tunes
 Q: 1/4=100
@@ -1515,7 +1500,6 @@ V:1
 EF|:ABce a2 a2-|a2 af edcA|B2 Be b2 b2-|b2 ba fedB|c2 ce a2 a2-|
  a2 af edcA|d2 d2 c2 c2|AB c/B/A BA F2|EFAF EDCD|EGBG AEFG:|
  |:A2 c2 B2 Ac|BBAc BA F2|EFAF EDCD|EGBG AEFG:|
-
 % abcbook-tune_id 6298c245bf2fc870f3be857b
 % abcbook-boost 0
 % abcbook-tablature 
@@ -1581,7 +1565,6 @@ V:1
  "F"F2>C2 AC | F2 z2 C2 | "Fm"C2>F2 EF | G2>_A2 =Bc | "G"d2>_e2 dc | =B2>_A2 GF |
  "Dm"F2>E2 "Gm"GE | "Dm"F2>D2 "Cm"(3_EDC | "Dm"D2>d2 AF |1D2 z2 F2 :|2 D2>A,2 DF ||
 |:"Dm" A6- | A2>A2 (3c=BA | ^G2=B2 A4- | A2>D2 FA | "Dm7"c2>=B2 (3cBA | c2>=B2 (3cBA  |
-
 "Dm" ^G=B A4- | A3A,1 DF | A2>^G2 (3AGF | A2>^G2 (3AGF | E=G F4- | F3A,1 DE |
 F3E (3FED | F2>E2 (3FED |^CE D4- | D2>A,2 DF ||2 ^CE D4 | D4 x2 || 
 % abcbook-tune_id 62a52f60fc008186ada4de8b
@@ -1722,7 +1705,7 @@ W:
 % abcbook-repeats 
 
 
-X: 59919
+X: 69
 T: Wayward Reel
 C:David Harris
 B: steve's tunes

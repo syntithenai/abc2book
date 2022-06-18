@@ -232,8 +232,11 @@ export default function Abc(props) {
           //console.log(noteClassName,matchingElements,rect,ev.elements[0][0].className.baseVal)
           // smooth out scrolling by limiting to when ev.top changes
           var screenRatio = window.visualViewport.width/window.visualViewport.height
+          // allow for small screen mobile in landscape
+          const mobileAdjust =  (window.visualViewport.height < 400) ? 0.45 : 1
           //var ratio = window.visualViewport.width/svgrect.width
-          var finalScroll = ((ev.top) * screenRatio )
+          var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
+          //console.log('H',window.visualViewport.height,finalScroll)
           
           if (lastScrollTo.current!= ev.top ) {
             window.scrollTo(0,finalScroll)
