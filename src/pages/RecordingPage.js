@@ -7,8 +7,8 @@ import {isMobile} from 'react-device-detect';
 
 //import lamejs from 'lamejs'
 
-var audioEncoder = require('audio-encoder');
-console.log(audioEncoder)
+//var audioEncoder = require('audio-encoder');
+//console.log(audioEncoder)
 
 
 //function encodeMp3(samples) {
@@ -138,11 +138,11 @@ export default function RecordingPage(props) {
                 props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec2) {
                   rec2.data = data
                    //var wav = lamejs.WavHeader.readHeader(new DataView(data));
-                   console.log('wav:', data);
+                   //console.log('wav:', data);
                    //var samples = new Int16Array(data, wav.dataOffset, wav.dataLen / 2);
-                   audioEncoder(data, 128, null, function onComplete(blob) {
-                    console.log('BB',blob, 'sound.mp3');
-                  });
+                   //audioEncoder(data, 128, null, function onComplete(blob) {
+                    //console.log('BB',blob, 'sound.mp3');
+                  //});
                    //console.log('mp3',encodeMono(wav.channels, wav.sampleRate, samples))
                   
                   console.log('ok presave',rec2, props.token)
