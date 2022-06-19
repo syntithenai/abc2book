@@ -5,6 +5,59 @@ import WaveformPlaylist from "waveform-playlist";
 import NewRecordingDialog from '../components/NewRecordingDialog'
 import {isMobile} from 'react-device-detect';
 
+//import lamejs from 'lamejs'
+
+var audioEncoder = require('audio-encoder');
+console.log(audioEncoder)
+
+
+//function encodeMp3(samples) {
+  //var buffer = [];
+  //var mp3enc = new lamejs.Mp3Encoder(2, 44100, 128);
+  //var remaining = samples.length;
+  //var maxSamples = 1152;
+  //for (var i = 0; remaining >= maxSamples; i += maxSamples) {
+      //var mono = samples.subarray(i, i + maxSamples);
+      //var mp3buf = mp3enc.encodeBuffer(mono);
+      //if (mp3buf.length > 0) {
+          //buffer.push(new Int8Array(mp3buf));
+      //}
+      //remaining -= maxSamples;
+  //}
+  //var d = mp3enc.flush();
+  //if(d.length > 0){
+      //buffer.push(new Int8Array(d));
+  //}
+
+  //console.log('done encoding, size=', buffer.length);
+  //var blob = new Blob(buffer, {type: 'audio/mp3'});
+       
+  //return blob
+//}
+
+//function encodeMono(channels, sampleRate, samples) {
+  //var buffer = [];
+  //var mp3enc = new lamejs.Mp3Encoder(channels, sampleRate, 128);
+  //var remaining = samples.length;
+  //var maxSamples = 1152;
+  //for (var i = 0; remaining >= maxSamples; i += maxSamples) {
+      //var mono = samples.subarray(i, i + maxSamples);
+      //var mp3buf = mp3enc.encodeBuffer(mono);
+      //if (mp3buf.length > 0) {
+          //buffer.push(new Int8Array(mp3buf));
+      //}
+      //remaining -= maxSamples;
+  //}
+  //var d = mp3enc.flush();
+  //if(d.length > 0){
+      //buffer.push(new Int8Array(d));
+  //}
+
+  //console.log('done encoding, size=', buffer.length);
+  //var blob = new Blob(buffer, {type: 'audio/mp3'});
+  //return blob
+//}
+
 export default function RecordingPage(props) {
     var params = useParams()
     var editor = useRef()
@@ -84,7 +137,14 @@ export default function RecordingPage(props) {
               if (type === 'audio/wav' || type === 'wav'){
                 props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec2) {
                   rec2.data = data
-                //rec.title = recordingTitle
+                   //var wav = lamejs.WavHeader.readHeader(new DataView(data));
+                   console.log('wav:', data);
+                   //var samples = new Int16Array(data, wav.dataOffset, wav.dataLen / 2);
+                   audioEncoder(data, 128, null, function onComplete(blob) {
+                    console.log('BB',blob, 'sound.mp3');
+                  });
+                   //console.log('mp3',encodeMono(wav.channels, wav.sampleRate, samples))
+                  
                   console.log('ok presave',rec2, props.token)
                   props.tunebook.recordingsManager.saveRecording(rec2)
                   console.log('ok postsave')

@@ -168,7 +168,7 @@ function getReviewWarp(tune) {
     function onEnded(progress, start, stop ,seek) {
         console.log('review ended')
         props.tunebook.utils.saveLastPlayed(tune.id)
-        tune.boost = tune.boost + 1
+        tune.boost = (!isNaN(parseInt(tune.boost)))  ? parseInt(tune.boost) + 1 : 1
         props.tunebook.saveTune(tune)
         navigate('/review/'+props.tunebook.utils.nextNumber(getCurrentReviewIndex(), (reviewItems ? reviewItems.length : 1)))
         //if (playCount < 3) {

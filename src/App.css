@@ -1,3 +1,6 @@
+#chords svg {
+  float:left
+}
 button.track-remove {
   background-image: url('/public/close.png') ;
   background-size: cover;

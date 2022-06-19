@@ -318,7 +318,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
-  function importAbc(abc, forceBook = null, limitToTuneId=null) {
+  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null) {
       console.log('importabc', forceBook)
       buildTunesHash(tunes)
       var duplicates=[]
@@ -332,7 +332,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var intunes = abcTools.abc2Tunebook(abc)
         console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
-          if (!limitToTuneId || tune.id === limitToTuneId)  {
+          if ((!limitToTuneId || tune.id === limitToTuneId) && (!limitToBookName || tune.books.indexOf(limitToBookName) !== -1))  {
             var hasNotes = false
             var hasChords = false
             if (tune.voices) {

@@ -271,6 +271,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="chords" title="Chords" >
                     <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
                     <br/><br/>
+                    <a style={{float:'right'}}  target="_new" href={"https://www.google.com/search?q=chords "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Chords</Button></a>
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >

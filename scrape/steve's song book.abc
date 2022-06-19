@@ -716,6 +716,7 @@ X: 9
 T: Don't Worry Be Happy
 C:Bobby McFerrin
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=120
 K:G
@@ -1251,6 +1252,7 @@ C:Trad.
 B: steve's song book
 B: cassidys song book
 B: maxs song book
+B: andrews song book
 M:3/4
 L:1/4
 R: Waltz
@@ -2198,6 +2200,7 @@ C:Traditional
 B: steve's song book
 B: velmas song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=170
 K:D
@@ -2355,11 +2358,6 @@ V:1
 "D"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
 "D"zzzzzz|"D"zzzzzz|"A"zzzzzz|"D"zzzzzz|
 "D"zzzzzz|"D"zzzzzz|"A"zzzzzz|"D"zzzzzz|
-%%MIDI transpose 5
-%%MIDI transpose 5
-%%MIDI transpose 5
-%%MIDI transpose 5
-%%MIDI transpose 5
 W: There were once two Irish labouring men; to England they came over;
 W: And they tramped about in search of work from Liverpool to Dover.
 W: Says Mike to Pat, “I'm tired of this; we're both left in the lurch;
@@ -2406,7 +2404,7 @@ W: Than when they broke inside a church to go and steal the rope.
 % abcbook-lastupdated 1654349232613
 % abcbook-soundfonts 
 % abcbook-repeats 
-%%MIDI transpose 5
+%%MIDI transpose  5
 
 
 X: 34
@@ -2845,6 +2843,7 @@ W:
 X: 43
 T: Bound For Botany Bay
 B: steve's song book
+B: andrews song book
 M:3/4
 Q: 1/4=150
 V:1 
@@ -3430,6 +3429,7 @@ X: 51
 T: Botany Bay
 C:The Wolfe Tones
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=166
 K:G
@@ -3593,6 +3593,7 @@ C:Bill Staines
 B: steve's song book
 B: velmas song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=160
 K:G
@@ -3648,6 +3649,7 @@ W: [Chorus x3]
 X: 55
 T: Smoke On The Water
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=115
 V:1 
@@ -3706,6 +3708,7 @@ X: 56
 T: Blister In The Sun
 C:Violent Femmes
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=146
 V:1 
@@ -4083,6 +4086,7 @@ X: 62
 T: Cumberland Gap
 C:Traditional
 B: steve's song book
+B: andrews song book
 M:4/4
 L:1/8
 Q: 1/4=120
@@ -4247,6 +4251,7 @@ T: Are You Strong Enough
 C:Sheryl Crow
 B: steve's song book
 B: cassidys song book
+B: taras song book
 M:4/4
 Q: 1/4=120
 K:D
@@ -4947,6 +4952,7 @@ B/2A/2z G/2EA3/2B A/2GG/2-|G2 z2 GG G/2G/2B/2A/2-|A/2z3/2G/2EA3/2G B/2A/2G/2A/2|
 X: 77
 T: Yesterday: Beatles
 B: steve's song book
+B: taras song book
 M:4/4
 L:1/8
 Q: 1/4=108
@@ -5006,6 +5012,8 @@ X: 79
 T: You Are My Sunshine
 C:Jimmie Davis
 B: steve's song book
+B: taras song book
+B: andrews song book
 M:C
 L:1/4
 Q: 1/4=100
@@ -5029,6 +5037,7 @@ T: Romeo And Juliet
 C:Dire Straits
 B: steve's song book
 B: maxs song book
+B: taras song book
 M:4/4
 Q: 1/4=85
 K:C
@@ -5201,6 +5210,7 @@ T: The Rose
 C:Mc Broom Amanda
 B: steve's song book
 B: cassidys song book
+B: taras song book
 M:4/4
 Q: 1/4=115
 K:C
@@ -5255,6 +5265,7 @@ C:W B. Stevens
 B: steve's song book
 B: velmas song book
 B: maxs song book
+B: andrews song book
 M:3/4
 L:1/4
 Q: 1/4=100
@@ -5549,6 +5560,7 @@ C:Michelle Shocked
 B: steve's song book
 B: cassidys song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=150
 V:1 
@@ -5612,6 +5624,7 @@ C:Reeltime Travelers
 B: steve's song book
 B: cassidys song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=170
 K:G
@@ -6008,6 +6021,7 @@ X: 98
 T: Bright Eyes
 C:Art Garfunkle
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=120
 K:G
@@ -6072,6 +6086,7 @@ W: Bright eyes
 X: 99
 T: House Of The Rising Sun
 B: steve's song book
+B: taras song book
 M:3/4
 Q: 1/4=100
 K:Am
@@ -6143,6 +6158,7 @@ X: 101
 T: Yellow Submarine
 C:The Beatles
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=125
 K:D
@@ -6214,6 +6230,7 @@ X: 102
 T: Blowin In The Wind
 C:Bob Dylan
 B: steve's song book
+B: taras song book
 M:4/4
 L:1/4
 Q: 1/4=125
@@ -6393,6 +6410,7 @@ X: 104
 T: Message In A Bottle
 C:The Police
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=130
 K:Em
@@ -6483,6 +6501,7 @@ X: 105
 T: Four Nights Drunk
 C:Steeleye Span
 B: steve's song book
+B: andrews song book
 M:4/4
 Q: 1/4=125
 K:D
@@ -6536,6 +6555,7 @@ X: 106
 T: So Far Away
 C:Dire Straits
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 K:E
@@ -6693,6 +6713,7 @@ X: 108
 T: Sunday Bloody Sunday
 C:U2
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 K:G
@@ -6914,6 +6935,7 @@ W:
 X: 111
 T: I Saw Her Standing There The Beatles
 B: steve's song book
+B: taras song book
 Q: 1/4=100
 K:G
 V:1 
@@ -6929,6 +6951,7 @@ V:1
 X: 112
 T: Brown Eyed Girl
 B: steve's song book
+B: taras song book
 Q: 1/4=100
 K:G
 V:1 
@@ -7012,6 +7035,7 @@ X: 115
 T: Paint It Black
 C:Rolling Stones
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=170
 K:Dm
@@ -7051,6 +7075,7 @@ W: My love will laugh with me before the morning comes
 X: 116
 T: She's Leaving Home The Beatles
 B: steve's song book
+B: taras song book
 Q: 1/4=100
 K:G
 V:1 
@@ -7135,6 +7160,7 @@ W: Than all the cash and money-o”
 X: 118
 T: Whiskey Before Breakfast
 B: steve's song book
+B: andrews song book
 M:4/4
 Q: 1/4=160
 K:D
@@ -7684,6 +7710,7 @@ T: The Scarlet Tide
 C:Alison Kraus
 B: steve's song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=100
 K:C
@@ -7734,6 +7761,7 @@ W: And separates the widow from the bride
 X: 126
 T: Rivers Of Babylon
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=136
 V:1 
@@ -7851,6 +7879,7 @@ T: The Letter
 C:The Box Tops
 B: steve's song book
 B: charlottes song book
+B: taras song book
 M:4/4
 Q: 1/4=155
 K:Em
@@ -7910,6 +7939,7 @@ C:Stephen Stills
 B: steve's song book
 B: charlottes song book
 B: choir song book
+B: taras song book
 M:4/4
 Q: 1/4=104
 V:1 
@@ -8039,6 +8069,7 @@ X: 131
 T: Let It Be
 C:The Beatles
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=120
 V:1 
@@ -8101,6 +8132,7 @@ X: 132
 T: Celia
 C:Simon And Garfunkle
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=125
 K:A
@@ -8163,6 +8195,7 @@ T: Bring On The Sun/Chicken Reel
 C:Steve Ryan
 B: steve's song book
 B: maxs song book
+B: andrews song book
 M:2/4
 L:1/8
 Q: 1/4=60
@@ -8280,6 +8313,7 @@ B: steve's song book
 B: cassidys song book
 B: velmas song book
 B: maxs song book
+B: andrews song book
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -8289,10 +8323,6 @@ V:1
 E2 F2 G2|A2 G2 F2|G2 F2 E2|C2 E2 G2|"Bb"F6-|F4 GA|
 "Eb"B2 G2 F2|E4 FG|"Ab"A2 B2 c2|"Eb"B2 G2 F2|"Bb"F6-|F4 EF|\
 "Eb"G4 FG|"Ab"F2 E2 C2|"Eb"B,4 B,2|"Bb"C2 E2 F2|"Eb"E6||
-%%MIDI transpose 4
-%%MIDI transpose 4
-%%MIDI transpose 4
-%%MIDI transpose 4
 W: Come by the hills to the land where fancy is free
 W: And stand where the peaks meet the sky and the lochs meet the sea
 W: Where the rivers run clear and the bracken is gold in the sun
@@ -8314,7 +8344,7 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % abcbook-lastupdated 1654859088663
 % abcbook-soundfonts 
 % abcbook-repeats 
-%%MIDI transpose 4
+%%MIDI transpose  4
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Has lots of stepwise movement
@@ -8331,6 +8361,7 @@ X: 136
 T: Sultans Of Swing
 C:Dire Straits
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=135
 V:1 
@@ -8505,6 +8536,7 @@ X: 139
 T: Why Worry
 C:Dire Straits
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 K:E
@@ -8552,6 +8584,7 @@ W:
 X: 140
 T: Lets Go Down To The River To Pray
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=140
 K:G
@@ -8625,6 +8658,7 @@ X: 141
 T: Whiter Shade Of Pale
 C:Procol Harum
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 K:C
@@ -8755,6 +8789,7 @@ X: 143
 T: Wild World
 C:Cat Stevens
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=120
 V:1 
@@ -8816,6 +8851,7 @@ X: 144
 T: So Lonely
 C:The Police
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=170
 K:Am
@@ -8918,6 +8954,7 @@ X: 145
 T: Children Of The Revolution
 C:T Rex
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=170
 V:1 
@@ -8955,6 +8992,7 @@ X: 146
 T: Wish You Were Here
 C:Pink Floyd
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=70
 V:1 
@@ -8998,6 +9036,7 @@ X: 147
 T: I'll Tell Me Ma
 B: steve's song book
 B: maxs song book
+B: andrews song book
 M:2/4
 Q: 1/4=91
 K:Dmajor
@@ -9138,6 +9177,7 @@ X: 149
 T: Fat Bottomed Girls
 C:Queen
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -9197,6 +9237,7 @@ W:
 X: 150
 T: Tom Dooley
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=125
 V:1 
@@ -9381,6 +9422,7 @@ X: 154
 T: What's Up
 C:4 Non Blondes
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -9508,6 +9550,7 @@ X: 156
 T: Hey You
 C:Pink Floyd
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -9885,6 +9928,7 @@ X: 165
 T: Angeline The Baker
 B: steve's song book
 B: maxs song book
+B: andrews song book
 M:4/4
 Q: 1/4=190
 V:1 
@@ -9922,7 +9966,7 @@ W: CHORUS
 % abcbook-transpose 
 % abcbook-lastupdated 1655550292370
 % abcbook-soundfonts 
-% abcbook-repeats 12
+% abcbook-repeats 
 
 
 X: 166
@@ -10020,6 +10064,7 @@ W:
 X: 171
 T: Andrews Latin Song ??
 B: steve's song book
+B: andrews song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -10396,6 +10441,7 @@ X: 182
 T: Universe In Every Cup Of Tea
 C:Andrew Kordas
 B: steve's song book
+B: andrews song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -10482,6 +10528,7 @@ X: 186
 T: My Girl
 C:Hoodoo Gurus
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=100
 V:1 
@@ -10499,6 +10546,7 @@ X: 187
 T: Blackbird
 C:The Beatles
 B: steve's song book
+B: taras song book
 M:4/4
 Q: 1/4=135
 V:1 

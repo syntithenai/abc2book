@@ -17,7 +17,7 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
     function handleCloseAgree() {
         //console.log('close',params)
         if (params.tuneId) {
-            navigate("/tunes/"+params.link)
+            navigate("/tunes/")
         } else {
             navigate("/tunes")
         }
@@ -39,7 +39,7 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
               //console.log('ldd DO',params.link)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
-                      tunebook.importAbc(res.data,null,params.tuneId)
+                      tunebook.importAbc(res.data,null,params.tuneId,params.bookName)
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")

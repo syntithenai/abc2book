@@ -95,7 +95,7 @@ export default function MusicSingle(props) {
     }
  
     function onEnded(progress, start, stop,seek) {
-        //console.log("ON ENDfED", progress, start, stop, seek)
+        console.log("ON ENDfED", progress, start, stop, seek)
         ////stop()
         //seek(0)
         //start()
@@ -136,6 +136,7 @@ export default function MusicSingle(props) {
                 })
             })
         })
+        var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
         return <div className="music-single" {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
@@ -191,7 +192,7 @@ export default function MusicSingle(props) {
                 {Object.keys(uniqueChords).map(function(chord) {
                     var chordLetter = chord
                     var chordType = ''
-                    return <Link to={"/chords/guitar/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
+                    return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                 })}
                 </div>
                 <pre style={{border:'1px solid black',marginTop:'1em'}} >{chords}</pre>
