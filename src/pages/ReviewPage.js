@@ -213,7 +213,7 @@ function getReviewWarp(tune) {
            </ButtonGroup>
            
            <div {...handlers} >
-           <Abc autoPrime={true} metronomeCountIn={true} speakTitle={true} repeat={tune.repeats} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={tune.tempo} warp={getReviewWarp(tune)} meter={tune.meter} onStopped={function() { setAutoStart(false)}} onStarted={function() { setAutoStart(true)}}  onEnded={onEnded} />
+           <Abc autoPrime={true} autoScroll={true} metronomeCountIn={true} speakTitle={true} repeat={tune.repeats} autoStart={autoStart} tunebook={props.tunebook}  abc={abc} tempo={tune.tempo} warp={getReviewWarp(tune)} meter={tune.meter} onStopped={function() { setAutoStart(false)}} onStarted={function() { setAutoStart(true)}}  onEnded={onEnded} />
             </div>
         </div>
     }

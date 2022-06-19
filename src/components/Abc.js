@@ -9,6 +9,7 @@ import Metronome from '../Metronome'
 import * as localForage from "localforage";
 import TempoControl from './TempoControl'
 import TransposeModal from './TransposeModal'
+import {isMobile} from 'react-device-detect'
 
 const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
 const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
@@ -233,7 +234,7 @@ export default function Abc(props) {
           // smooth out scrolling by limiting to when ev.top changes
           var screenRatio = window.visualViewport.width/window.visualViewport.height
           // allow for small screen mobile in landscape
-          const mobileAdjust =  (window.visualViewport.height < 400) ? 0.45 : 1
+          const mobileAdjust =  (isMobile && window.visualViewport.height < 400) ? 0.45 : 1
           //var ratio = window.visualViewport.width/svgrect.width
           var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
           //console.log('H',window.visualViewport.height,finalScroll)
