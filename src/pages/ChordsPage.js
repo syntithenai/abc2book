@@ -21,7 +21,7 @@ var notes=['C','Db','D','Eb','E','F','F#','G','Ab','A','Bb','B']
 
 function sharpFlatAdjust(note,notes) {
   if (note && Array.isArray(notes)) {
-    if (note === 'C') console.log('ad',note,notes)
+    //if (note === 'C') console.log('ad',note,notes)
     if (notes.indexOf(note) !== -1) {
       return note
     } else {

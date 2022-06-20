@@ -207,7 +207,7 @@ export default function IndexLayout(props) {
         </ListGroup> : <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
         {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div><div ><b>Try a book</b></div>
             <div>{Object.keys(props.tunebook.getTuneBookOptions()).map(function(option, ok) {
-                return <span key={ok}><Button onClick={function(e) {props.setCurrentTuneBook(option)}} >{option}</Button>&nbsp;&nbsp;</span>
+                return <span  key={ok}><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >{option}</Button>&nbsp;&nbsp;</span>
             })}</div>
         </div>}
         </div>}

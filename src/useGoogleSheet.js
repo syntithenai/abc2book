@@ -14,7 +14,7 @@ export default function useGoogleSheet(props) {
   //console.log('useGoogleSheet',props)
   //var client;
   // google login
-  var docs = useGoogleDocument(token,refresh,props.pollInterval,pausePolling,function(changes) {
+  var docs = useGoogleDocument(token,refresh,pollingInterval,pausePolling,function(changes) {
       //console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {

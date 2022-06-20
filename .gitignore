@@ -32,3 +32,25 @@ scrape/jimsroots3.abc
 lotro.abc
 
 scrape/dr.abc
+
+abcjs/tests/
+
+abcjs/font_generator/
+
+abcjs/examples/
+
+abcjs/docs/
+
+abcjs/dist/
+
+abcjs/types/
+
+waveform-playlist/test/
+
+waveform-playlist/ghpages/
+
+waveform-playlist/experiments/
+
+waveform-playlist/examples/
+
+waveform-playlist/dist/

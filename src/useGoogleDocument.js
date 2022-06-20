@@ -69,11 +69,11 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function doPollChanges() {
     return new Promise(function(resolve,reject) {
-      //console.log('DO POLL' ,accessToken, pausePolling.current, localStorage.getItem('google_last_page_token'))
+      console.log('DO POLL' ,accessToken, pausePolling.current, localStorage.getItem('google_last_page_token'))
       if (pausePolling && pausePolling.current) {
         resolve()
       } else {
-        //console.log('REALLY DO POLL')
+        console.log('REALLY DO POLL')
         if (localStorage.getItem('google_last_page_token') && accessToken) {
           var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
           axios({
