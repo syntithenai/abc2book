@@ -12,7 +12,7 @@ export default function Header(props) {
     //var params = useParams() // empty  ???
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length === 3 ? parts[2] : null}
-    
+    var dropdownStyle = {fontSize:'0.7em', display:'inline', width:'22px', height:'22px'}
     if (location.pathname.startsWith('/print')) return null
     //console.log("param  ",params,location)
     return <header className="App-header" style={{zIndex:11}}>
@@ -59,27 +59,27 @@ export default function Header(props) {
               </Dropdown.Toggle>
 
               <Dropdown.Menu style={{position:'absolute',top:'10em',left:'0px'}} >
-                {isMobile && <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/review" ><Button  variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname.startsWith('/review') ? '1px solid black' : '')}}>{props.tunebook.icons.review} </Button></Link>
-                </span>}
+                {isMobile && <Dropdown.Item style={dropdownStyle}  ><Link to="/review" ><Button  variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname.startsWith('/review') ? '1px solid black' : '')}}>{props.tunebook.icons.review} </Button></Link>
+                </Dropdown.Item>}
                   
-                   <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/recordings" ><Button   variant="info"   >{props.tunebook.icons.recordcircle} </Button></Link> </span>
+                   <Dropdown.Item style={dropdownStyle}  ><Link to="/recordings" ><Button   variant="info"   >{props.tunebook.icons.recordcircle} </Button></Link> </Dropdown.Item>
                    
-                   <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/settings" ><Button   variant="warning"  >{props.tunebook.icons.settings} </Button></Link> </span>
-                   <span style={{fontSize:'0.7em', float:'left'}}  ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button  >{props.tunebook.icons.question}</Button></Link></span>
+                   <Dropdown.Item style={dropdownStyle}  ><Link to="/settings" ><Button   variant="warning"  >{props.tunebook.icons.settings} </Button></Link> </Dropdown.Item>
+                   <Dropdown.Item style={dropdownStyle}  ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button  >{props.tunebook.icons.question}</Button></Link></Dropdown.Item>
                    
-                   <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/metronome" ><Button   variant="info"  >{props.tunebook.icons.metronome} </Button></Link> </span>
+                   <Dropdown.Item style={dropdownStyle}  ><Link to="/metronome" ><Button   variant="info"  >{props.tunebook.icons.metronome} </Button></Link> </Dropdown.Item>
                         
-                    <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/tuner" ><Button   variant="info"  >{props.tunebook.icons.tuner} </Button></Link> </span>
+                    <Dropdown.Item style={dropdownStyle}  ><Link to="/tuner" ><Button   variant="info"  >{props.tunebook.icons.tuner} </Button></Link> </Dropdown.Item>
                     
-                    <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/chords" ><Button   variant="info"  >{props.tunebook.icons.guitar} </Button></Link> </span>
+                    <Dropdown.Item style={dropdownStyle}  ><Link to="/chords" ><Button   variant="info"  >{props.tunebook.icons.guitar} </Button></Link> </Dropdown.Item>
 
                     
-                    <span style={{fontSize:'0.7em', float:'left'}}  ><Link to="/piano" ><Button   variant="info"  >{props.tunebook.icons.piano} </Button></Link> </span>
+                    <Dropdown.Item style={dropdownStyle}  ><Link to="/piano" ><Button   variant="info"  >{props.tunebook.icons.piano} </Button></Link> </Dropdown.Item>
                                         
                    
                    
                   
-                   {props.token ? <span style={{fontSize:'0.7em', float:'left'}}  ><Button  style={{ color: 'black'}}  variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout} Logout</Button></span > : <span style={{fontSize:'0.7em', float:'left'}}  ><Button style={{color: 'black'}}  variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login} Login</Button></span >}
+                   {props.token ? <Dropdown.Item style={dropdownStyle}  ><Button  style={{ color: 'black'}}  variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout} Logout</Button></Dropdown.Item > : <Dropdown.Item style={dropdownStyle}  ><Button style={{color: 'black'}}  variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login} Login</Button></Dropdown.Item >}
               
                     
                 

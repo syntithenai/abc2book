@@ -5,7 +5,8 @@ import {Button, Tabs, Tab, Row, Col} from 'react-bootstrap'
 //import chords from '../react-chords/db'
 //import Chord from '@tombatossals/react-chords/lib/Chord'
 import React,{useEffect, useRef, useState} from 'react'
-import chords from '../chords.complete.json'
+//import chords from '../chords.complete.json'
+import chordLib from '../chordlib.json'
 //import mandolinchords from '../mandolin.chords.complete.json'
 import { ChordBox, draw } from 'vexchords';
 var scale = require('music-scale')
@@ -37,41 +38,41 @@ function sharpFlatAdjust(note,notes) {
   }
 }
 
-var mandolinchords= {}
-// fingering for major, major complex, minor, 7 m7 dim and aug chords
-var mandoChordsCompact=`G 0023 4553 0013 0021 0011 2543 0123
-G# 112x 1123 1113 1132 1122 1024 1234
-Ab 112x 1123 1113 1132 1122 1024 1234
-Bb 335x 3011 3346 1011 3344 3246 3456
-A# 335x 3011 3346 1011 3344 3246 3456
-Db 1241 5344 1240 4344 4244 6243 6345
-C# 1241 5344 1240 4344 4244 6243 6345
-Eb 0113 3163 3112 3143 3142 2162 4163
-D# 0113 3163 3112 3143 3142 2162 4163
-Gb 3442 6412 2442 3242 2242 2432 3452
-F# 3442 6412 2442 3242 2242 2432 3452
-A 2200 2245 2235 2243 2233 2135 2345
-B 4122 4467 4457 2122 4455 4x21 4123
-C 0230 5233 0133 3233 3133 2132 1234
-D 2002 2455 2355 2032 2031 1051 3456
-E 1220 1224 4223 4254 4253 0210 1230
-F 5301 2331 1331 2131 1131 1321 2341`
+//var mandolinchords= {}
+//// fingering for major, major complex, minor, 7 m7 dim and aug chords
+//var mandoChordsCompact=`G 0023 4553 0013 0021 0011 2543 0123
+//G# 112x 1123 1113 1132 1122 1024 1234
+//Ab 112x 1123 1113 1132 1122 1024 1234
+//Bb 335x 3011 3346 1011 3344 3246 3456
+//A# 335x 3011 3346 1011 3344 3246 3456
+//Db 1241 5344 1240 4344 4244 6243 6345
+//C# 1241 5344 1240 4344 4244 6243 6345
+//Eb 0113 3163 3112 3143 3142 2162 4163
+//D# 0113 3163 3112 3143 3142 2162 4163
+//Gb 3442 6412 2442 3242 2242 2432 3452
+//F# 3442 6412 2442 3242 2242 2432 3452
+//A 2200 2245 2235 2243 2233 2135 2345
+//B 4122 4467 4457 2122 4455 4x21 4123
+//C 0230 5233 0133 3233 3133 2132 1234
+//D 2002 2455 2355 2032 2031 1051 3456
+//E 1220 1224 4223 4254 4253 0210 1230
+//F 5301 2331 1331 2131 1131 1321 2341`
 
 //"C": [{"positions":["0","2","3","0"],"fingerings":[["0","1","2","0"]]}],
    
-var mandoLines = mandoChordsCompact.split("\n")
-mandoLines.forEach(function(line) {
-  var chordRow = line.split(' ')
-  if (chordRow.length === 8) {
-    var chordLetter = chordRow[0]
-    mandolinchords[chordLetter] = [{positions:chordRow[1].split(''), fingerings:[[]] }, {positions:chordRow[2].split(''), fingerings:[[]] }]
-    mandolinchords[chordLetter+'m'] = [{positions:chordRow[3].split(''), fingerings:[[]] }]
-    mandolinchords[chordLetter+'7'] = [{positions:chordRow[4].split(''), fingerings:[[]] }]
-    mandolinchords[chordLetter+'m7'] = [{positions:chordRow[5].split(''), fingerings:[[]] }]
-    mandolinchords[chordLetter+'dim'] = [{positions:chordRow[6].split(''), fingerings:[[]] }]
-    mandolinchords[chordLetter+'aug'] = [{positions:chordRow[7].split(''), fingerings:[[]] }]
-  }
-})
+//var mandoLines = mandoChordsCompact.split("\n")
+//mandoLines.forEach(function(line) {
+  //var chordRow = line.split(' ')
+  //if (chordRow.length === 8) {
+    //var chordLetter = chordRow[0]
+    //mandolinchords[chordLetter] = [{positions:chordRow[1].split(''), fingerings:[[]] }, {positions:chordRow[2].split(''), fingerings:[[]] }]
+    //mandolinchords[chordLetter+'m'] = [{positions:chordRow[3].split(''), fingerings:[[]] }]
+    //mandolinchords[chordLetter+'7'] = [{positions:chordRow[4].split(''), fingerings:[[]] }]
+    //mandolinchords[chordLetter+'m7'] = [{positions:chordRow[5].split(''), fingerings:[[]] }]
+    //mandolinchords[chordLetter+'dim'] = [{positions:chordRow[6].split(''), fingerings:[[]] }]
+    //mandolinchords[chordLetter+'aug'] = [{positions:chordRow[7].split(''), fingerings:[[]] }]
+  //}
+//})
 //console.log('MC',mandolinchords)
 
 function noteFromFret(instrument,stringLetter,fret) {
@@ -94,95 +95,95 @@ function noteFromFret(instrument,stringLetter,fret) {
   }
 }
 
-// collate chord data set
-//.filter(function(a) {return a.startsWith('Ab')})
-function assignChordsToLib(instrument,chords,chordLib) {
-  chordLib[instrument] = {}
-  Object.keys(chords).forEach(function(chordName,ck) {
-    const parseChord = chordParserFactory();
-    const renderChord = chordRendererFactory({ useShortNamings: false });
-    const parsedChord = parseChord(chordName);
-    //console.log(parsedChord)
-    if (!parsedChord.error) {
-      var chordLabel = renderChord(parsedChord)
-      var chordLetter = parsedChord.normalized.rootNote
-      var data = chords[chordName]
+//// collate chord data set
+////.filter(function(a) {return a.startsWith('Ab')})
+//function assignChordsToLib(instrument,chords,chordLib) {
+  //chordLib[instrument] = {}
+  //Object.keys(chords).forEach(function(chordName,ck) {
+    //const parseChord = chordParserFactory();
+    //const renderChord = chordRendererFactory({ useShortNamings: false });
+    //const parsedChord = parseChord(chordName);
+    ////console.log(parsedChord)
+    //if (!parsedChord.error) {
+      //var chordLabel = renderChord(parsedChord)
+      //var chordLetter = parsedChord.normalized.rootNote
+      //var data = chords[chordName]
       
-      //if (Array.isArray(data)) {
-        //data = data.map(function(thisChord) {
-          //if (thisChord) {
-            //thisChord.notes = parsedChord.normalized.notes
-            //var fingered =  thisChord.positions.map(function(position,pk) {
-              //var label = String(thisChord.fingerings[0][pk])
-              ////console.log(position)
-              //if (position && String(position).toLowerCase() === 'x' ) label='x'
-              //return [(thisChord.positions.length - pk),position,label]
-            //})
-            //return thisChord
-          //}
-        //})
-      //}
-      var quality = parsedChord.normalized.quality
-      var instrumentTuning = instrumentTunings[instrument].split('')
-      if (quality !== 'power') {
-        if (!chordLib[instrument][quality]) chordLib[instrument][parsedChord.normalized.quality] = {}
-        // FIRST CHORD OF THIS NAME INTO MAIN 
-        //if (!chordLib[instrument][quality][chordLetter]) {
-        if (chordName === chordLetter) {
-          //console.log("P parse",chordLetter,"N",chordName,"to",data)
-          chordLib[instrument][parsedChord.normalized.quality][chordLetter] = {main:[],secondary:[]}
-          var chordData = data.map(function(thisChord) {
-            //console.log('TC',thisChord)
-            if (Array.isArray(thisChord.fingerings) && Array.isArray(thisChord.positions) && thisChord.fingerings.length > 0 && Array.isArray(thisChord.fingerings[0])) {
-              //console.log('TCOK')
-              //var notes = []
-              return thisChord.positions.map(function(position,pk) {
+      ////if (Array.isArray(data)) {
+        ////data = data.map(function(thisChord) {
+          ////if (thisChord) {
+            ////thisChord.notes = parsedChord.normalized.notes
+            ////var fingered =  thisChord.positions.map(function(position,pk) {
+              ////var label = String(thisChord.fingerings[0][pk])
+              //////console.log(position)
+              ////if (position && String(position).toLowerCase() === 'x' ) label='x'
+              ////return [(thisChord.positions.length - pk),position,label]
+            ////})
+            ////return thisChord
+          ////}
+        ////})
+      ////}
+      //var quality = parsedChord.normalized.quality
+      //var instrumentTuning = instrumentTunings[instrument].split('')
+      //if (quality !== 'power') {
+        //if (!chordLib[instrument][quality]) chordLib[instrument][parsedChord.normalized.quality] = {}
+        //// FIRST CHORD OF THIS NAME INTO MAIN 
+        ////if (!chordLib[instrument][quality][chordLetter]) {
+        //if (chordName === chordLetter) {
+          ////console.log("P parse",chordLetter,"N",chordName,"to",data)
+          //chordLib[instrument][parsedChord.normalized.quality][chordLetter] = {main:[],secondary:[]}
+          //var chordData = data.map(function(thisChord) {
+            ////console.log('TC',thisChord)
+            //if (Array.isArray(thisChord.fingerings) && Array.isArray(thisChord.positions) && thisChord.fingerings.length > 0 && Array.isArray(thisChord.fingerings[0])) {
+              ////console.log('TCOK')
+              ////var notes = []
+              //return thisChord.positions.map(function(position,pk) {
                 
-                var note = sharpFlatAdjust(noteFromFret(instrument,pk,(!isNaN(parseInt(position)) ? parseInt(position) : 0)),parsedChord.normalized.notes)
-                var label = thisChord.fingerings[0][pk] ? String(thisChord.fingerings[0][pk]) : ''
-                if (String(position).toLowerCase() === 'x' ) label=''
-                return [(thisChord.positions.length - pk),position,label, note]
-              })
-            } else {
-              return null
-            }
-          })
-          chordData = chordData.map(function(pc,pck) {
-            return [{name:chordLabel, chord: pc.map(function(a) { return a.slice(0,3)}), barres: [], position: 0, tuning: pc.map(function(a) { return a.slice(3,4)})}]
-          })
-          chordLib[instrument][parsedChord.normalized.quality][chordLetter].main = chordData
-        // OTHER CHORDS ARE SECONDARY
-        } else {
-            //console.log("S parse",chordLetter,"N",chordName,"to",parsedChord)
-            var thisChord = data[0]
-            //console.log('TCs',thisChord)
-            if (!chordLib[instrument][parsedChord.normalized.quality][chordLetter]) chordLib[instrument][parsedChord.normalized.quality][chordLetter] = {main:[],secondary:[]}
-            if (thisChord && Array.isArray(thisChord.fingerings) && Array.isArray(thisChord.positions) && thisChord.fingerings.length > 0 && Array.isArray(thisChord.fingerings[0]) ) {
-              var fingered =  thisChord.positions.map(function(position,pk) {
-                var note = sharpFlatAdjust(noteFromFret(instrument,pk,(!isNaN(parseInt(position)) ? parseInt(position) : 0)),parsedChord.normalized.notes)
-                var label = thisChord.fingerings[0][pk] ? String(thisChord.fingerings[0][pk]) : ''
-                if (String(position).toLowerCase() === 'x' ) label=''
-                return [(thisChord.positions.length - pk),position,label, note]
-              })
-              //console.log('TCOK',fingered)
+                //var note = sharpFlatAdjust(noteFromFret(instrument,pk,(!isNaN(parseInt(position)) ? parseInt(position) : 0)),parsedChord.normalized.notes)
+                //var label = thisChord.fingerings[0][pk] ? String(thisChord.fingerings[0][pk]) : ''
+                //if (String(position).toLowerCase() === 'x' ) label=''
+                //return [(thisChord.positions.length - pk),position,label, note]
+              //})
+            //} else {
+              //return null
+            //}
+          //})
+          //chordData = chordData.map(function(pc,pck) {
+            //return [{name:chordLabel, chord: pc.map(function(a) { return a.slice(0,3)}), barres: [], position: 0, tuning: pc.map(function(a) { return a.slice(3,4)})}]
+          //})
+          //chordLib[instrument][parsedChord.normalized.quality][chordLetter].main = chordData
+        //// OTHER CHORDS ARE SECONDARY
+        //} else {
+            ////console.log("S parse",chordLetter,"N",chordName,"to",parsedChord)
+            //var thisChord = data[0]
+            ////console.log('TCs',thisChord)
+            //if (!chordLib[instrument][parsedChord.normalized.quality][chordLetter]) chordLib[instrument][parsedChord.normalized.quality][chordLetter] = {main:[],secondary:[]}
+            //if (thisChord && Array.isArray(thisChord.fingerings) && Array.isArray(thisChord.positions) && thisChord.fingerings.length > 0 && Array.isArray(thisChord.fingerings[0]) ) {
+              //var fingered =  thisChord.positions.map(function(position,pk) {
+                //var note = sharpFlatAdjust(noteFromFret(instrument,pk,(!isNaN(parseInt(position)) ? parseInt(position) : 0)),parsedChord.normalized.notes)
+                //var label = thisChord.fingerings[0][pk] ? String(thisChord.fingerings[0][pk]) : ''
+                //if (String(position).toLowerCase() === 'x' ) label=''
+                //return [(thisChord.positions.length - pk),position,label, note]
+              //})
+              ////console.log('TCOK',fingered)
               
-              chordLib[instrument][parsedChord.normalized.quality][chordLetter].secondary.push({
-                name:chordName, 
-                chord: fingered.map(function(a) { return a.slice(0,3)}), 
-                barres: [], 
-                position: 0 , 
-                tuning: fingered.map(function(a) { return a.slice(3,4)})}
-              )
-            }
-        } 
-      }
-    }
-  })
-  return chordLib
-}
-var chordLib = {}
-var chordLib = assignChordsToLib('guitar',chords,chordLib)
-var chordLib = assignChordsToLib('mandolin',mandolinchords,chordLib)
+              //chordLib[instrument][parsedChord.normalized.quality][chordLetter].secondary.push({
+                //name:chordName, 
+                //chord: fingered.map(function(a) { return a.slice(0,3)}), 
+                //barres: [], 
+                //position: 0 , 
+                //tuning: fingered.map(function(a) { return a.slice(3,4)})}
+              //)
+            //}
+        //} 
+      //}
+    //}
+  //})
+  //return chordLib
+//}
+//var chordLib = {}
+//var chordLib = assignChordsToLib('guitar',chords,chordLib)
+//var chordLib = assignChordsToLib('mandolin',mandolinchords,chordLib)
 
 console.log("CHORDLIB",chordLib)
 const chordBase = {
@@ -428,7 +429,19 @@ export default function ChordsPage(props) {
     var major = scale('1 2 3 4 5 6 7 ',useChordLetter)
     //console.log("MAJ",major)
     var chordsInKey=<div style={{float:'right'}}>
-    <h4>Chords in this Key</h4>
+    
+    {(useChordQuality === 'minor' || useChordQuality === 'minor7'|| useChordQuality === 'diminished') && <>
+      <h4>Chords in {useChordLetter} minor</h4>
+      <Link to={"/chords/"+useInstrument+"/"+major[0]+"m"} ><Button variant="success">{major[0]}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[1]+"dim"} ><Button  >{major[1]+"dim"}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[2]} ><Button>{major[2]}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[3]+"m"} ><Button variant="success">{major[3]+"m"}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[4]} ><Button variant="success">{major[4]}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[5]} ><Button>{major[5]}</Button></Link>
+      <Link to={"/chords/"+useInstrument+"/"+major[6]} ><Button>{major[6]}</Button></Link>
+    </>}  
+    {!(useChordQuality === 'minor' || useChordQuality === 'minor7'|| useChordQuality === 'diminished') && <>
+      <h4>Chords in {useChordLetter} major</h4>
       <Link to={"/chords/"+useInstrument+"/"+major[0]} ><Button variant="success">{major[0]}</Button></Link>
       <Link to={"/chords/"+useInstrument+"/"+major[1]+"m"} ><Button  >{major[1]+"m"}</Button></Link>
       <Link to={"/chords/"+useInstrument+"/"+major[2]+"m"} ><Button>{major[2]+"m"}</Button></Link>
@@ -436,6 +449,7 @@ export default function ChordsPage(props) {
       <Link to={"/chords/"+useInstrument+"/"+major[4]} ><Button variant="success">{major[4]}</Button></Link>
       <Link to={"/chords/"+useInstrument+"/"+major[5]+"m"} ><Button>{major[5]+"m"}</Button></Link>
       <Link to={"/chords/"+useInstrument+"/"+major[6]+"dim"} ><Button>{major[6]+"dim"}</Button></Link>
+    </>}
     </div>
 
     
