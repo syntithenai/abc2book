@@ -4,11 +4,12 @@ import {useState, useEffect, useRef} from 'react'
 import WaveformPlaylist from "waveform-playlist";
 import NewRecordingDialog from '../components/NewRecordingDialog'
 import {isMobile} from 'react-device-detect';
+import MP3Converter from "../MP3Converter";
 
 //import lamejs from 'lamejs'
 
 //var audioEncoder = require('audio-encoder');
-//console.log(audioEncoder)
+console.log("MP3",MP3Converter)
 
 
 //function encodeMp3(samples) {
@@ -137,19 +138,34 @@ export default function RecordingPage(props) {
               if (type === 'audio/wav' || type === 'wav'){
                 props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec2) {
                   rec2.data = data
-                   //var wav = lamejs.WavHeader.readHeader(new DataView(data));
-                   //console.log('wav:', data);
-                   //var samples = new Int16Array(data, wav.dataOffset, wav.dataLen / 2);
-                   //audioEncoder(data, 128, null, function onComplete(blob) {
-                    //console.log('BB',blob, 'sound.mp3');
-                  //});
-                   //console.log('mp3',encodeMono(wav.channels, wav.sampleRate, samples))
+                  if (data.size > 0) {
+                    var converter = new MP3Converter()
+                    converter.convert(data, {
+                        bitRate: 96
+                    }, function (blob) {
+                        //log blog
+                        if (blob) {
+                          rec2.data = blob
+                          props.tunebook.recordingsManager.saveRecording(rec2)
+                          setIsChanged(false)
+                          navigate('/recordings')
+                        } else {
+                          // fallback to save wav
+                          rec2.data = data
+                          props.tunebook.recordingsManager.saveRecording(rec2)
+                          setIsChanged(false)
+                          navigate('/recordings')
+                        }
+                    }, function (progress) {
+                    });
+                  } else {
+                    // save empty wav data
+                    rec2.data = data
+                    props.tunebook.recordingsManager.saveRecording(rec2)
+                    setIsChanged(false)
+                    navigate('/recordings')
+                  }
                   
-                  console.log('ok presave',rec2, props.token)
-                  props.tunebook.recordingsManager.saveRecording(rec2)
-                  console.log('ok postsave')
-                  setIsChanged(false)
-                  navigate('/recordings')
                 })
               }
             });

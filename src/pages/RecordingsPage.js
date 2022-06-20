@@ -62,7 +62,7 @@ export default function RecordingsPage(props) {
       <input type='search' value={searchText} onChange={function(e) {setSearchText(e.target.value)}} />
       <ListGroup className="recordings">
         {recordings.map(function(recording, rk) {
-          console.log(recording)
+          //console.log(recording)
               return <ListGroup.Item className={rk %2 === 1 ? 'odd' : 'even'} key={rk} >
                 <Link to={'/recordings/'+recording.id} ><b>{recording.title}</b>  <span style={{marginLeft:'1.5em',fontSize:'0.8em'}}>{new Date(recording.createdTimestamp).toLocaleDateString()} {new Date(recording.createdTimestamp).toLocaleTimeString()}</span></Link>
                 <span style={{marginLeft:'1em'}} >{recording.bitLength ? Math.floor(recording.bitLength/1024) + "Kb" : ''}</span>

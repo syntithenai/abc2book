@@ -2,6 +2,8 @@ import * as localForage from "localforage";
 import {useState, useEffect, useRef} from 'react'
 import useGoogleDocument from './useGoogleDocument'
 
+import MP3Converter from './MP3Converter'
+
 export default function useRecordingsManager(token) {
   var store = localForage.createInstance({
     name: "recordings"
@@ -234,12 +236,29 @@ export default function useRecordingsManager(token) {
           navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
             mediaRecorder.current = new MediaRecorder(stream);
             mediaRecorder.current.onstop = function(e) {
-              const blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
+              const blob = new Blob(chunks, { 'type' : 'audio/wav' });
               chunks = [];
-              if (tune && tune.id) {
-                saveRecording({data: blob, title: tune.name, tuneId: tune.id}).then(function() {
-                })
-              }
+              saveRecording({data: blob, title: tune.name, tuneId: tune.id})
+              //if (tune && tune.id) {
+                  //if (blob.size > 0) {
+                    //var converter = new MP3Converter()
+                    //converter.convert(blob, {
+                        //bitRate: 96
+                    //}, function (blob) {
+                        ////log blog
+                        //if (blob) {
+                          //saveRecording({data: blob, title: tune.name, tuneId: tune.id})
+                        //} else {
+                          //// fallback to save wav
+                          //saveRecording({data: blob, title: tune.name, tuneId: tune.id})
+                        //}
+                    //}, function (progress) {
+                    //});
+                  //} else {
+                    //// save empty wav data
+                    //saveRecording({data: blob, title: tune.name, tuneId: tune.id})
+                  //}
+              //}
             }
             mediaRecorder.current.start();
             mediaRecorder.current.ondataavailable = function(e) {
