@@ -32,6 +32,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
         })
       } else {
         doPollChanges().then(function(res) {
+          console.log('onChanges',onChanges)
           if (onChanges && Array.isArray(res) && res.length > 0) onChanges(res)
         })
       }
@@ -69,7 +70,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function doPollChanges() {
     return new Promise(function(resolve,reject) {
-      console.log('DO POLL' ,accessToken, pausePolling.current, localStorage.getItem('google_last_page_token'))
+      console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
       if (pausePolling && pausePolling.current) {
         resolve()
       } else {

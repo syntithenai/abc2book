@@ -14,7 +14,7 @@ export default function useGoogleSheet(props) {
   //console.log('useGoogleSheet',props)
   //var client;
   // google login
-  var docs = useGoogleDocument(token,refresh,pollingInterval,pausePolling,function(changes) {
+  var docs = useGoogleDocument(token,refresh,function(changes) {
       console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {
@@ -22,7 +22,7 @@ export default function useGoogleSheet(props) {
         } else {
           return false
         }
-      })
+      },pausePolling,pollingInterval)
       //console.log('DOCCHANGE match',matchingChanges)
       if (matchingChanges && matchingChanges.length === 1) {
         getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
