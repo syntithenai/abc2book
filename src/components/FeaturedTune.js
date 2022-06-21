@@ -12,7 +12,7 @@ export default function FeaturedTune(props) {
         var r = Math.floor(Math.random() * l)
         var tk = Object.keys(featuredTunes)[r]
         var t = tk ? featuredTunes[tk] : null
-        console.log("FT",r,tk,t,featuredTunes)
+        //console.log("FT",r,tk,t,featuredTunes)
         setTune(t)
         setTitle(tk)
     },[])

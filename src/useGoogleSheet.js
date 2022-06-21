@@ -161,6 +161,8 @@ export default function useGoogleSheet(props) {
       //console.log('sheet effect',token)
       if (token && token.access_token) {
         findTuneBookInDrive()
+      } else {
+        googleSheetId.current = null
       }
     },[token])
     

@@ -1,7 +1,7 @@
 import {Tabs, Tab, Modal, Button} from 'react-bootstrap'
 
 export default function MergeWarningDialog(props) {
-console.log('MW',props.sheetUpdateResults)
+//console.log('MW',props.sheetUpdateResults)
 return <Modal.Dialog 
   backdrop="static"
   style={{minWidth:'95%'}} 

@@ -97,7 +97,7 @@ export default function IndexLayout(props) {
                         for (var i=0 ; i < voice.notes.length; i++) {
                             if (voice.notes[i]) {
                                 hasNotes = true
-                                console.log('has chords',voice.notes[i],(voice.notes[i].indexOf('"' !== -1)))
+                                //console.log('has chords',voice.notes[i],(voice.notes[i].indexOf('"' !== -1)))
                                 if (voice.notes[i].indexOf('"' !== -1)) {
                                     hasChords = true
                                 }

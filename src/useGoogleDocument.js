@@ -213,7 +213,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          console.log("USE GOT DOC",postRes)
+          console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {

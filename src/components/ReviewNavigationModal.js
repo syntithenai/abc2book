@@ -7,7 +7,7 @@ function ReviewNavigationModal(props) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [items, setItems] = useState([])
-  const [filter, setFilter] = useState([])
+  const [filter, setFilter] = useState('')
   
   //function countReviewItems() {
       //var count = 0
@@ -60,7 +60,7 @@ function ReviewNavigationModal(props) {
           <input type="search" value={filter} onChange={function(e) {setFilter(e.target.value)}}  />
           <ListGroup>
             {Array.isArray(props.reviewItems) && props.reviewItems.filter(function(item) {
-                if (!filter.trim() || item.name.toLowerCase().indexOf(filter.trim().toLowerCase()) !== -1) return true
+                if ((!filter || !filter.trim()) || item.name.toLowerCase().indexOf(filter.trim().toLowerCase()) !== -1) return true
                 else return false
               }).map(function(item,ik) {
               return <Link key={ik} to={"/review/" + lookups[item.id]}  onClick={handleClose} ><ListGroup.Item className={(ik%2 === 0) ? 'even': 'odd'} >{item.name}</ListGroup.Item></Link>
