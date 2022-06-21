@@ -111,43 +111,45 @@ function App(props) {
       var patches={} // updates with common parent
       var deletes={}
       var localUpdates={}
+      var intunes = {}
       if (tunebookText) {
-        //console.log('haveabc')
-        var intunes = abcTools.abc2Tunebook(tunebookText)
-        var tunes = utils.loadLocalObject('bookstorage_tunes')
-        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
-        var ids = []
-        Object.values(intunes).forEach(function(tune) {
-          // existing tunes are updated
-          //console.log('tune in',tune.id, tune)
-          if (tune.id && tunes[tune.id]) {
-            // preserve boost
-            tune.boost = tunes[tune.id].boost
-            if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
-              updates[tune.id] = tune
-              //console.log('update MORE RECENT')
-            } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
-              localUpdates[tune.id] = tune
-              //console.log('local update MORE RECENT')
-            } else {
-              //console.log('skip update NOT MORE RECENT')
-            }
-            ids.push(tune.id)
-          // new tunes 
-          } else {
-             //console.log('insert')
-             if (!tune.id) tune.id = utils.generateObjectId()
-             inserts[tune.id] = tune
-          }
-        })
-        //console.log(ids)
-        //console.log(Object.keys(tunes))
-        Object.keys(tunes).forEach(function(tuneId) {
-          if (ids.indexOf(tuneId) === -1) {
-            deletes[tuneId] = tunes[tuneId]
-          }
-        })
+      //console.log('haveabc')
+        intunes = abcTools.abc2Tunebook(tunebookText)
       }
+      var tunes = utils.loadLocalObject('bookstorage_tunes')
+      //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+      var ids = []
+      Object.values(intunes).forEach(function(tune) {
+        // existing tunes are updated
+        //console.log('tune in',tune.id, tune)
+        if (tune.id && tunes[tune.id]) {
+          // preserve boost
+          tune.boost = tunes[tune.id].boost
+          if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
+            updates[tune.id] = tune
+            //console.log('update MORE RECENT')
+          } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
+            localUpdates[tune.id] = tune
+            //console.log('local update MORE RECENT')
+          } else {
+            //console.log('skip update NOT MORE RECENT')
+          }
+          ids.push(tune.id)
+        // new tunes 
+        } else {
+           //console.log('insert')
+           if (!tune.id) tune.id = utils.generateObjectId()
+           inserts[tune.id] = tune
+        }
+      })
+      //console.log(ids)
+      //console.log(Object.keys(tunes))
+      Object.keys(tunes).forEach(function(tuneId) {
+        if (ids.indexOf(tuneId) === -1) {
+          deletes[tuneId] = tunes[tuneId]
+        }
+      })
+    
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
       //console.log('merge done' ,ret)
       return ret
