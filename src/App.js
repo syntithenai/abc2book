@@ -62,7 +62,7 @@ function App(props) {
   //}
 
   var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
-  
+  //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
   const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId } = useAppData()
   useServiceWorker()
@@ -194,8 +194,8 @@ function App(props) {
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
-  
-  var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:16000, onMerge, pausePolling: pauseSheetUpdates, setGoogleDocumentId, googleDocumentId}) 
+  var pollingInterval = process.env.NODE_ENV === "development" ? 5000 : 6000 //16000
+  var {updateSheet} = useGoogleSheet({token, refresh, tunes, pollingInterval:pollingInterval, onMerge, pausePolling: pauseSheetUpdates, setGoogleDocumentId, googleDocumentId}) 
   
   //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
   const recordingsManager = useRecordingsManager(token)

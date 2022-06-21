@@ -1,7 +1,7 @@
 import {Tabs, Tab, Modal, Button} from 'react-bootstrap'
 
 export default function MergeWarningDialog(props) {
-
+console.log('MW',props.sheetUpdateResults)
 return <Modal.Dialog 
   backdrop="static"
   style={{minWidth:'95%'}} 
@@ -16,12 +16,12 @@ return <Modal.Dialog
          {Object.keys(props.sheetUpdateResults.localUpdates).length ?<div><b>{Object.keys(props.sheetUpdateResults.localUpdates).length}</b> items updated locally will be saved</div>: ''}
          {Object.keys(props.sheetUpdateResults.inserts).length ? <div><b>{Object.keys(props.sheetUpdateResults.inserts).length}</b> items will be inserted</div>: ''}
         {Object.keys(props.sheetUpdateResults.updates).length ?<div><b>{Object.keys(props.sheetUpdateResults.updates).length}</b> items will be updated</div>: ''}
-        {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> new local items will be saved</div>: ''}
+        {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> items that only exist locally will be saved. These may have been deleted on another device in which case you should discard your local differences.</div>: ''}
        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
         
           <Button variant="warning" onClick={props.closeWarning} >Logout</Button>
-          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Changes</Button> : null}
+          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
           &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>
           
         </div>

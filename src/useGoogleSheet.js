@@ -30,7 +30,7 @@ export default function useGoogleSheet(props) {
           onMerge(fullSheet)
         })
       }
-  })
+  }, pausePolling, pollingInterval)
   var googleSheetId = useRef(null)
   //var [loginUser, setLoginUser] = useState(null)
   //var clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID 

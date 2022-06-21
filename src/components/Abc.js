@@ -456,10 +456,12 @@ export default function Abc(props) {
               //audioContext: gaudioContext,
                options:{
                  soundFontUrl: a + '/midi-js-soundfonts/abcjs',
+                 soundFontVolumeMultiplier: 1.6,
                  warp: warp
                },
               
             }
+            console.log('prime init options',initOptions)
             var tune = props.tunebook.abcTools.abc2json(props.abc)
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {

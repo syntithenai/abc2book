@@ -90,7 +90,7 @@ function AddSongModal(props) {
       setTimeout(function() {
         props.tunebook.utils.scrollTo('bottomofpage')
       },100)
-    },300)
+    },800)
     //props.updateList(songTitle,props.currentTuneBook)
     handleClose() 
   }

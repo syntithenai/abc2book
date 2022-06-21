@@ -97,6 +97,7 @@ export default function IndexLayout(props) {
                         for (var i=0 ; i < voice.notes.length; i++) {
                             if (voice.notes[i]) {
                                 hasNotes = true
+                                console.log('has chords',voice.notes[i],(voice.notes[i].indexOf('"' !== -1)))
                                 if (voice.notes[i].indexOf('"' !== -1)) {
                                     hasChords = true
                                 }
@@ -158,11 +159,11 @@ export default function IndexLayout(props) {
     function forceRefresh() {
         var filtered = Object.values(props.tunes).filter(filterSearch)
         setFiltered(filtered)
-        //props.forceRefresh()
+        props.forceRefresh()
     }
     
     return <div className="index-layout"  >
-        <IndexSearchForm googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
+        <IndexSearchForm googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  />
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
         
         {filtered.length > 0 &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}

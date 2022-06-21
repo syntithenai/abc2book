@@ -19,8 +19,8 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   },[token])
   
   function pollChanges(interval, onChanges) {
-    //console.log('POLL',interval)
-    var useInterval = interval > 5000 ? interval : 15000
+    var useInterval = interval > 4000 ? interval : 15000
+    //console.log('POLL',useInterval , interval, pollInterval)
     clearInterval(pollChangesInterval.current) 
     pollChangesInterval.current = setInterval(function() {
       //console.log('DO POLL',localStorage.getItem('google_last_page_token'))

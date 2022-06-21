@@ -512,12 +512,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function deleteAll() {
-    resetTuneBook()
-    indexes.resetBookIndex()
-    buildTunesHash()
-    saveTunesOnline()
-    setCurrentTuneBook(null)
     setTunes({})
+    resetTuneBook()
+    setCurrentTuneBook(null)
   }
   
   function copyTuneBookAbc(book) {
