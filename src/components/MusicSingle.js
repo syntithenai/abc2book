@@ -187,7 +187,7 @@ export default function MusicSingle(props) {
 
              {props.viewMode === 'chords' && <>
              
-             <div style={{clear:'both', position:'fixed', fontSize:'0.8em', top:'9em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999, backgroundColor: 'white'}} >
+             <div style={{clear:'both', position:'fixed', fontSize:'1.1em', top:'9em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999, backgroundColor: 'white'}} >
                 <div>
                 {Object.keys(uniqueChords).map(function(chord) {
                     var chordLetter = chord
@@ -195,7 +195,7 @@ export default function MusicSingle(props) {
                     return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                 })}
                 </div>
-                <pre style={{border:'1px solid black',marginTop:'1em'}} >{chords}</pre>
+                <pre style={{border:'1px solid black',marginTop:'1em', padding:'0.3em', 'line-height':'2em'}} >{chords}</pre>
                 
              </div>
              

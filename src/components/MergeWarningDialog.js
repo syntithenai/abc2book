@@ -11,6 +11,9 @@ return <Modal.Dialog
       </Modal.Header>
 
       <Modal.Body>
+        <Button variant="success"  style={{float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
+            {props.tunebook.icons.save}  Download Tune Book
+          </Button>
         <p>This database is different to what is stored in Google Drive. </p>
         <p>To merge the changes </p>
          {Object.keys(props.sheetUpdateResults.localUpdates).length ?<div><b>{Object.keys(props.sheetUpdateResults.localUpdates).length}</b> items updated locally will be saved</div>: ''}
@@ -19,7 +22,8 @@ return <Modal.Dialog
         {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> items that only exist locally will be saved. These may have been deleted on another device in which case you should discard your local differences.</div>: ''}
        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
-        
+          
+          
           <Button variant="warning" onClick={props.closeWarning} >Logout</Button>
           &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
           &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>

@@ -32,7 +32,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
         })
       } else {
         doPollChanges().then(function(res) {
-          console.log('onChanges',onChanges)
+          //console.log('onChanges',onChanges)
           if (onChanges && Array.isArray(res) && res.length > 0) onChanges(res)
         })
       }
@@ -70,11 +70,11 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function doPollChanges() {
     return new Promise(function(resolve,reject) {
-      console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
+      //console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
       if (pausePolling && pausePolling.current) {
         resolve()
       } else {
-        console.log('REALLY DO POLL')
+        //console.log('REALLY DO POLL')
         if (localStorage.getItem('google_last_page_token') && accessToken) {
           var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
           axios({
@@ -103,7 +103,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
 
   function findDocument(title) {
     return new Promise(function(resolve,reject) {
-      console.log('find rec',title ,accessToken)
+      //console.log('find rec',title ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (title && accessToken) {
         var filter = "?q="+ encodeURIComponent("name='ABC Tune Book'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
@@ -186,7 +186,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log("USE GOT DOC",postRes)
+          //console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -213,7 +213,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          console.log("USE GOT DOC blob",postRes)
+          //console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -255,7 +255,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function createDocument(title, documentData, documentType='vnd.google-apps.document', documentDescription='') {
     return new Promise(function(resolve,reject) {
-      console.log('create google doc' ,token,accessToken, documentType, title)
+      //console.log('create google doc' ,token,accessToken, documentType, title)
       if (documentType && title && accessToken) {
         var  data = {
           "description": documentDescription,

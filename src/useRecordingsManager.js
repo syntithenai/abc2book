@@ -110,12 +110,12 @@ export default function useRecordingsManager(token) {
               //console.log('AAAsave noid so create',recording)
               docs.createDocument(recording.title, recording.data,'audio/wav','Audio recording from Abc2Book').then(function(newId) {
                 recording.googleId = newId
-                console.log('created doc',recording.googleId,"REC",recording, "gooRES",newId)
+                //console.log('created doc',recording.googleId,"REC",recording, "gooRES",newId)
                 store.setItem(recording.id, recording).then(function (item) {
                   resolve(recording)
                 })
               }).catch(function(err) {
-                console.log('failed created online doc')
+                //console.log('failed created online doc')
                 store.setItem(recording.id, recording).then(function (item) {
                   resolve(recording)
                 })

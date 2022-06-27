@@ -39,10 +39,10 @@ export default function ShareAudioModal({tunebook, token, recording, recordingsM
               
               function doConfirm() {
                 if (recording && recording.googleId) {
-                  console.log('save easy')
+                  //console.log('save easy')
                   finishConfirm()
                 } else {
-                  console.log('save before share')
+                  //console.log('save before share')
                   recordingsManager.saveRecording(recording).then(function(googleRecording) {
                     if (googleRecording && googleRecording.googleId) {
                        finishConfirm()

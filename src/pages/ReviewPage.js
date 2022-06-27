@@ -46,10 +46,10 @@ function getReviewWarp(tune) {
         var boost = tune.boost > 0 ? tune.boost : 0
         var useBoost = boost > 20 ? 20 : boost
         var boostPercent = 1 + ((useBoost - 15)/30)
-        console.log('RT',boostPercent)
-        return boostPercent
+        //console.log('RT',boostPercent)
+        return parseInt(boostPercent*100)/100
       } else {
-          console.log('RT def 1')
+          //console.log('RT def 1')
           return 1
       }
       
@@ -125,7 +125,7 @@ function getReviewWarp(tune) {
     if (props.tunes) Object.keys(props.tunes).forEach(function(tuneKey) {
       var tune = props.tunes[tuneKey]
       var boost = tune ? tune.boost : 0
-      if (boost > 0 && !utils.hasPlayedInLast24Hours(tune.id)) {
+      if (boost > 0) { // && !utils.hasPlayedInLast24Hours(tune.id)) {
         if (!Array.isArray(reviewable[boost]))  reviewable[boost] = []
         if (!props.currentTuneBook || Array.isArray(tune.books) && tune.books.indexOf(props.currentTuneBook) !== -1) {
             reviewable[boost].push(tuneKey)
@@ -166,7 +166,7 @@ function getReviewWarp(tune) {
     //},[currentReviewItem])
     
     function onEnded(progress, start, stop ,seek) {
-        console.log('review ended')
+        //console.log('review ended')
         props.tunebook.utils.saveLastPlayed(tune.id)
         tune.boost = (!isNaN(parseInt(tune.boost)))  ? parseInt(tune.boost) + 1 : 1
         props.tunebook.saveTune(tune)
@@ -195,7 +195,11 @@ function getReviewWarp(tune) {
         Boost more tunes to add them to your list or try a a different book.
         <br/>
         <br/>
-        <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
+          <ButtonGroup variant="primary" style={{ marginLeft:'1em',float:'left', width: 'fit-content'}}    >
+              {props.currentTuneBook ?<Button  onClick={function(e) {props.setCurrentTuneBook(''); props.forceRefresh();  }} >{props.tunebook.icons.closecircle}</Button>
+              : ''}
+              <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a book to review'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh(); }} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(props.currentTuneBook ? <b>{(props.currentTuneBook.length > 15 ? props.currentTuneBook.slice(0,15)+'...' : props.currentTuneBook)}</b> : '')} </Button>} />
+            </ButtonGroup>
         </div>
     } else  {
         var abc = props.tunebook.abcTools.json2abc(tune)

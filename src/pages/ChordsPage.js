@@ -185,7 +185,7 @@ function noteFromFret(instrument,stringLetter,fret) {
 //var chordLib = assignChordsToLib('guitar',chords,chordLib)
 //var chordLib = assignChordsToLib('mandolin',mandolinchords,chordLib)
 
-console.log("CHORDLIB",chordLib)
+//console.log("CHORDLIB",chordLib)
 const chordBase = {
   // Customizations (all optional, defaults shown)
   width: 400, // canvas width
@@ -375,14 +375,14 @@ export default function ChordsPage(props) {
       
       if (Array.isArray(primaryChord)) {
         
-        console.log("FOUND CHORDdata",primaryChord)
+        //console.log("FOUND CHORDdata",primaryChord)
         
         //console.log('chord effe',chordLetter + chordType,chordData,chordChart)
         chordsRef.current.innerHTML = ''
         var chordBase1 = JSON.parse(JSON.stringify(chordBase))
         chordBase1.numStrings = stringsFromInstrument(useInstrument)
         
-        console.log('main chord data',primaryChord,chordBase1)
+        //console.log('main chord data',primaryChord,chordBase1)
             
         primaryChord.forEach(function(primaryChordInner) {
           primaryChordInner.forEach(function(chordData) {

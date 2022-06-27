@@ -5,7 +5,7 @@ import useGoogleDocument from '../useGoogleDocument'
 export default function ImportGoogleAudioPage({tunebook, token, refresh}) {
     var navigate = useNavigate()
     var params = useParams()
-    console.log("IGA",params,token)
+    //console.log("IGA",params,token)
     const [error,setError] = useState('')
     var docs = useGoogleDocument(token, refresh)
     //if (curated.hasOwnProperty(params.curation)) {
@@ -39,9 +39,9 @@ export default function ImportGoogleAudioPage({tunebook, token, refresh}) {
               //console.log('ldd DO',params.googleDocumentId)
               docs.getDocumentMeta(params.googleDocumentId).then(function(rec) {
                   docs.getDocumentBlob(params.googleDocumentId).then(function(recData) {
-                    console.log('GFOT',rec,"D" ,"E",params.googleDocumentId)
+                    //console.log('GFOT',rec,"D" ,"E",params.googleDocumentId)
                     if (rec && rec.name && recData) {
-                    console.log('GFOTOK')
+                    //console.log('GFOTOK')
                         tunebook.recordingsManager.newRecording(rec.name,new Blob([recData], { 'type' : 'audio/ogg; codecs=opus' })).then(function() {
                           navigate('/recordings')  
                         })

@@ -130,7 +130,7 @@ function AddSongModal(props) {
             {songMeter && <Tab eventKey="chords" title="Chords" >
               <label>Chords&nbsp;&nbsp;
               {songTitle && <a target="_new" href={"https://www.google.com/search?q=chords "+songTitle + ' '+(songComposer ? songComposer : '')} ><Button>Search Chords</Button></a>}
-              <textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); console.log(c); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
+              <textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
             </Tab>}
             <Tab eventKey="notes" title="Notes">
               <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>

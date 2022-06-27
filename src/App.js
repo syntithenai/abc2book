@@ -288,7 +288,7 @@ function App(props) {
           <input type='hidden' value={refreshHash} />
           <Router >
             {(showWarning(sheetUpdateResults)) ? <>
-              <MergeWarningDialog sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
+              <MergeWarningDialog tunebook={tunebook} sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
             </> : null}
             {(showImportWarning(importResults)) ? <>
               <ImportWarningDialog tunebook={tunebook} importResults={importResults} setImportResults={setImportResults} closeWarning={closeWarning} acceptChanges={function(changes) {

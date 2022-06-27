@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  console.log('MP3 conversion worker started.');
+  //console.log('MP3 conversion worker started.');
   importScripts('../lame.min.js');
 
   var mp3Encoder, maxSamples = 1152,
@@ -67,7 +67,7 @@
       cmd: 'end',
       buf: dataBuffer
     });
-    console.log('done encoding');
+    //console.log('done encoding');
     clearBuffer(); //free up memory
   };
 

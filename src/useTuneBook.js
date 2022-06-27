@@ -27,7 +27,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       useTunes = {}
       Object.values(tunes).forEach(function(val) {
         if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-          console.log(val, val.books)
+          //console.log(val, val.books)
           useTunes[val.id] = val
         }
       })
@@ -135,7 +135,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       indexes.indexTune(tune)
       updateTunesHash(tune)
       setTunes(tunes)
-      console.log('set tunes', tune, tunes)
+      //console.log('set tunes', tune, tunes)
       saveTunesOnline()
     }
     return tune
@@ -319,7 +319,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null) {
-      console.log('importabc', forceBook)
+      //console.log('importabc', forceBook)
       buildTunesHash(tunes)
       var duplicates=[]
       var inserts=[]
@@ -330,7 +330,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       if (abc) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
-        console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+        //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
           if ((!limitToTuneId || tune.id === limitToTuneId) && (!limitToBookName || tune.books.indexOf(limitToBookName) !== -1))  {
             var hasNotes = false
@@ -434,7 +434,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
       saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus}
-      console.log('imported SABC',final)
+      //console.log('imported SABC',final)
       setImportResults(final)
       return {final}
   }
@@ -479,22 +479,22 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
     
   function deleteTuneBook(book) {
-    console.log('delete tune book',book)
+    //console.log('delete tune book',book)
     pauseSheetUpdates.current = true
     var final = {}
     Object.values(tunes).map(function(tune) {
-      console.log('delete tune book book',tune.books)
+      //console.log('delete tune book book',tune.books)
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
-        console.log('delete tune book book MATCH',book,tune.books.length)
+        //console.log('delete tune book book MATCH',book,tune.books.length)
         if (tune.books.length > 1) {
           console.log('update books lose '+book)
           //,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
-          console.log('before '+JSON.stringify(tune.books))
+          //console.log('before '+JSON.stringify(tune.books))
           tune.books.splice(tune.books.indexOf(book),1)
-          console.log('after '+JSON.stringify(tune.books))
+          //console.log('after '+JSON.stringify(tune.books))
           final[tune.id] = tune
         } else {
-          console.log('last book')
+          //console.log('last book')
           // ignore it
         }
       } else {
@@ -503,7 +503,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
     })
     indexes.removeBookFromIndex(book)
-    console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
+    //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
     buildTunesHash(final)
     saveTunesOnline()
@@ -522,7 +522,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
 
   function downloadTuneBookAbc(book) {
-    var name = currentTuneBook ? currentTuneBook+'.abc' : 'tunebook.abc'
+    var name = book ? book+'.abc' : 'tunebook.abc'
     utils.download(name,toAbc(book))
   }
   

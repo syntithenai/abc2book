@@ -60,7 +60,7 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickAddOption(option) {
-    console.log('add',option)
+    //console.log('add',option)
     if(option && option.trim()) {
        if (window.confirm("Are you sure that you want to add all the selected tunes to the book - "+option+" ?")) {
          //props.onChange(filterAdd); 
@@ -73,7 +73,7 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickRemoveOption(option) {
-    console.log('rem',option)
+    //console.log('rem',option)
     if(option && option.trim()) {
       if (window.confirm("Are you sure that you want to remove all the selected tunes to the book - "+option+" ?")) {
         props.tunebook.removeTunesFromBook(Object.keys(props.selected), option)

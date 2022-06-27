@@ -54,7 +54,7 @@ export default function TempoControl(props) {
         </Modal.Body>
         <Modal.Footer>
         <Button variant="danger" onClick={handleClose} >Cancel</Button>
-        <Button variant="success" onClick={function() {try {props.onChange(tempo)} catch (e) {}; handleClose()}} >OK</Button>
+        <Button variant="success" onClick={function() {try {props.onChange(tempo)} catch (e) {console.log(e)}; handleClose()}} >OK</Button>
         </Modal.Footer>
       </Modal>
     </span>

@@ -97,8 +97,8 @@ export default function IndexLayout(props) {
                         for (var i=0 ; i < voice.notes.length; i++) {
                             if (voice.notes[i]) {
                                 hasNotes = true
-                                //console.log('has chords',voice.notes[i],(voice.notes[i].indexOf('"' !== -1)))
-                                if (voice.notes[i].indexOf('"' !== -1)) {
+                                //console.log('has chords',(voice.notes[i].indexOf('"') !== -1),voice.notes[i])
+                                if (voice.notes[i].indexOf('"') !== -1) {
                                     hasChords = true
                                 }
                                 if (hasNotes &&  hasChords) {
@@ -121,12 +121,12 @@ export default function IndexLayout(props) {
     
     function selectAllToggle() {
         if (countSelected() > 0) {
-            console.log('HS sele')
+            //console.log('HS sele')
             filtered.forEach(function(tune) {
                 selected[tune.id] = false
             })
         } else {
-            console.log('HS NO sele')
+            //console.log('HS NO sele')
             filtered.forEach(function(tune) {
                 selected[tune.id] = true
             })
@@ -192,7 +192,7 @@ export default function IndexLayout(props) {
             //console.log(checkboxProps)
             
             return <Link key={tk} style={{textDecoration:'none' }} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
-                <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={false} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
+                <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
                 
                 {selected[tune.id] && <Button variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                 {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}

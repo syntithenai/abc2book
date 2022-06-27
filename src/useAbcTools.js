@@ -168,6 +168,7 @@ var useAbcTools = () => {
                         break
                 }
             } else if (isDataLine(line)) {
+                //console.log('data line',line)
                 if (line.startsWith('% abcbook-tune_id')) {
                     tune.id = line.slice(17).trim()
                     //console.log('FOUNDID',tune.id,line)
@@ -182,7 +183,7 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-soundfonts')) {
                     tune.soundFonts = line.slice(21).trim()
                 } else  if (line.startsWith('% abcbook-repeats')) {
-                    tune.repeats = line.slice(21).trim()
+                    tune.repeats = line.slice(17).trim()
                 } 
                 //else  if (line.startsWith('% abcbook-lastHash')) {
                     //tune.lastHash = line.slice(21).trim()
@@ -289,7 +290,7 @@ var useAbcTools = () => {
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-lastupdated " +  ensureInteger(tune.lastUpdated) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
-                    + "% abcbook-repeats " +  ensureText(tune.repeats) + "\n" 
+                    + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 
                     //+ "% abcbook-lastHash " +  ensureInteger(tune.lastHash,0) + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : '')) 
@@ -723,9 +724,12 @@ var useAbcTools = () => {
       var haveChords = false;
       // any match success
       chords.map(function(chord,k) {
-         if (isChord(chord)) {
-            haveChords = true;
-         }
+          if (chord.indexOf('"') !== -1) {
+              haveChords = true;
+          }
+         //if (isChord(chord)) {
+            //haveChords = true;
+         //}
       })
       return haveChords
     }

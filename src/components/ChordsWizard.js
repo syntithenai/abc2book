@@ -90,10 +90,11 @@ export default function ChordsWizard(props) {
         //return result;
     //}
 
-    function mergeChordsIntoNotes() {
+
+    function doMergeChordsIntoNotes(origNotes) {
         //console.log("merge",props.notes)
         //return
-        var origNotes = Array.isArray(props.notes) ? props.notes.join("\n") : ''
+        
         const parsed = props.tunebook.abcTools.parseAbcToBeats(origNotes)
         var [totals, notes, chordArray, preTexts] = parsed
         //console.log({totals, notes, chordArray, chords})
@@ -163,6 +164,15 @@ export default function ChordsWizard(props) {
         }
     }
     
+    function mergeChordsIntoNotes() {
+        var origNotes = Array.isArray(props.notes) ? props.notes.join("\n") : ''
+        return doMergeChordsIntoNotes(origNotes)
+    }
+    
+    function generateNotesFromChords() {
+        var origNotes = ''
+        return doMergeChordsIntoNotes(origNotes)
+    }
     
     
     useEffect(function() {
@@ -183,14 +193,15 @@ export default function ChordsWizard(props) {
     //console.log(tune)
     return <div>
         <Form.Group  controlId="chordwiz">
-        
+            <Button variant="success" style={{float:'right', marginRight:'2em'}} onClick={function(e) {if (window.confirm('Do you really want to reset your music and regenerate from these chords? Any melody notes will be lost !!')) {generateNotesFromChords()}}} >Generate Music</Button>
+            <Button variant="warning" style={{float:'right', marginRight:'0.2em'}} onClick={function(e) {if (window.confirm('Do you really want to merge these chords into your music? This may not work as expected!!')) {mergeChordsIntoNotes()}}} >Merge</Button>
             <Form.Label>Time Signature</Form.Label>
             <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
             <Form.Label>Repeats</Form.Label>
-            <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : '1'} onChange={function(e) {tune.repeats = e.target.value; tune.id = props.tuneId;  props.saveTune(tune)  }}  />
+            <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = props.tuneId;  props.saveTune(tune)  }}  />
         </Form.Group>
                       
-        <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea" placeholder={"eg \nC|F# C|Cmin . . G |Cb\nD|D|A D . A |C"} value={chords} onChange={function(e) {setChords(e.target.value); }} onBlur={mergeChordsIntoNotes} />
+        <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea" placeholder={"eg \nC|F# C|Cmin . . G |Cb\nD|D|A D . A |C"} value={chords} onChange={function(e) {setChords(e.target.value); }}  />
         
     </div>
 }

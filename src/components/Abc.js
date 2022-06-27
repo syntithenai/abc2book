@@ -10,11 +10,8 @@ import * as localForage from "localforage";
 import TempoControl from './TempoControl'
 import TransposeModal from './TransposeModal'
 import {isMobile} from 'react-device-detect'
+import MP3Converter from '../MP3Converter'
 
-const Encoder = require('audiobuffer-arraybuffer-serializer').Encoder;
-const Decoder = require('audiobuffer-arraybuffer-serializer').Decoder;
-     
-            
 export default function Abc(props) {
     const [abcTune, setAbcTune] = useState(props.abc);
     const [lastAbc, setLastAbc] = useState(null);
@@ -23,6 +20,7 @@ export default function Abc(props) {
     const [isPlaying, setIsPlayingInner] = useState(false)
     const isPlayingRef = useRef(false)
     const lastScrollTo = useRef(0)
+    const autoScroll = useRef(false)
     const realProgress = useRef(0) // updated by onplaying events
     // keep a copy as a ref to be available for lookup in callbacks
     function setIsPlaying(val) {
@@ -71,6 +69,17 @@ export default function Abc(props) {
       gcursor.current = v
     }
     
+    function getWarp() {
+      if (props.warp > 0) {
+        return parseInt(props.warp * 100)/100
+      } else {
+        return 1
+      }
+    }
+    
+    function getWarpTempo() {
+      return parseInt(props.tempo * getWarp())
+    }
     
   
   function assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor) {
@@ -103,6 +112,7 @@ export default function Abc(props) {
 
   function createCursor() {
     // cleanup
+    //return 
     var line = document.querySelector("#abc_music_viewer svg line");
     if (line) line.remove()
     // create new cursor
@@ -118,7 +128,7 @@ export default function Abc(props) {
       setCursor(cursor)
       return cursor
     } else {
-      console.log("failed to create cursor - missing svg element")
+      //console.log("failed to create cursor - missing svg element")
       return 
     }
   }
@@ -145,6 +155,8 @@ export default function Abc(props) {
        } else if (parseInt(props.repeat) === 0) {
          stopPlaying()
          if (props.onEnded) props.onEnded()
+         if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
+         if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
        } else if (parseInt(props.repeat) > 0 ) {
          if (playCountRef.current < props.repeat - 1) {
            restart()
@@ -165,10 +177,14 @@ export default function Abc(props) {
          } else {
             stopPlaying()
             if (props.onEnded) props.onEnded()
+            if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
+            if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
          }  
        } else {
           stopPlaying()
           if (props.onEnded) props.onEnded()
+          if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
+          if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)
        }
       
      }
@@ -217,9 +233,11 @@ export default function Abc(props) {
     if (!ev) {
       return;
     }
-    //console.log('evcb',ev.elements[0])
+    //console.log('evcb',ev,autoScroll.current, props.autoScroll,ev.elements[0])
     //console.log('evcbclass', ev.elements[0][0].className.baseVal)
-    if (props.autoScroll && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
+    if (autoScroll.current && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
+      //console.log('seekTo',"W",getWarp(),ev.milliseconds,gmidiBuffer.current.duration,"R",ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
+      setSeekTo(ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
       //var noteClassName = ev.elements && ev.elements[0] && ev.elements[0][0]  ? ev.elements[0][0].className.baseVal : null
       //var matchingElements = noteClassName ? document.getElementsByClassName(noteClassName) : null
       //var rect = matchingElements && matchingElements[0] ? matchingElements[0].getBoundingClientRect() : null
@@ -438,17 +456,17 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, force) {
     
       return new Promise(function(resolve,reject) {
-          //console.log('PRIME TUNE', audioContext, visualObj,props)
+          console.log('PRIME TUNE', audioContext, visualObj,props)
           if (visualObj) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
             // for development, run a server on 4000 to access sound fonts
             var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
-            var warp =  props.warp > 0 ? props.warp : 1
+            //var warp =  props.warp > 0 ? props.warp : 1
             var initOptions = {
               onPlaying: function(details) {
-                //console.log('abconplay',details,midiBuffer.duration)
+                console.log('abconplay',details,midiBuffer.duration)
                 //realProgress.current = details.timePlayed
                 if (midiBuffer.duration > 0) setSeekTo((details.timePlayed + details.startOffset)/midiBuffer.duration)
               }, 
@@ -457,11 +475,12 @@ export default function Abc(props) {
                options:{
                  soundFontUrl: a + '/midi-js-soundfonts/abcjs',
                  soundFontVolumeMultiplier: 1.6,
-                 warp: warp
+                 warp: getWarp()
                },
               
             }
-            console.log('prime init options',initOptions)
+            //console.log('prime init options',initOptions)
+            //console.log('prime init options',initOptions)
             var tune = props.tunebook.abcTools.abc2json(props.abc)
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
@@ -473,10 +492,11 @@ export default function Abc(props) {
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
+              console.log('resolveWithTimingAndCursor',props.tempo,getWarp())
               var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
                 beatCallback: beatCallback,
                 eventCallback: function(ev) {eventCallback(ev)},
-                qpm: props.tempo * warp,
+                qpm: getWarpTempo(),
                 //lineEndCallback	: function() {
                   //if (isPlayingRef && isPlayingRef.current) global.window.scrollBy(0,90)
                 //},
@@ -497,8 +517,8 @@ export default function Abc(props) {
                       //logtime('preinit prime tune primed AAA')
                       //console.log('preinit prime tune primed', presponse, midiBuffer)
                       if (tune && tune.id) { 
-                        saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
-                          console.log('created audio')
+                        saveAudioToCache(tune.id,midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
+                          //console.log('created audio')
                           resolveWithTimingAndCursor(midiBuffer)
                         })
                       } else {
@@ -525,13 +545,13 @@ export default function Abc(props) {
               }
               if ((tune && tune.id)) {
                //logtime('preget audio')
-                getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {
+                getAudioFromCache(tune.id).then(function(audioResult) {
                     //console.log('GOT',audioResult)
                     if (audioResult) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        console.log('GOT BUF',audioBuffers, duration)
+                        console.log('GOT BUF',audioBuffers, duration, initOptions)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
@@ -575,24 +595,70 @@ export default function Abc(props) {
   
        //console.log('ABC',tune)
 
-    
+    //if (data.size > 0) {
+                    //var converter = new MP3Converter()
+                    //converter.convert(data, {
+                        //bitRate: 96
+                    //}, function (blob) {
+                        ////log blog
+                        //if (blob) {
+                          //rec2.data = blob
+                          //props.tunebook.recordingsManager.saveRecording(rec2)
+                          //setIsChanged(false)
+                          //navigate('/recordings')
+                        //} else {
+                          //// fallback to save wav
+                          //rec2.data = data
+                          //props.tunebook.recordingsManager.saveRecording(rec2)
+                          //setIsChanged(false)
+                          //navigate('/recordings')
+                        //}
+                    //}, function (progress) {
+                    //});
+                    
     async function saveAudioToCache(tuneId,audioBuffers, duration) {
-      //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers)
-      let encoder = new Encoder();
-      var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
-      store.setItem(tuneId, [duration, serialized] ).then(function () {
-        return store.getItem(tuneId);
-      })
+      //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
+      if (duration > 0) {
+        //let encoder = new Encoder();
+        //var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
+        //console.log('saveaudio serialized',serialized )
+        var converter = new MP3Converter()
+        converter.convertAudioBuffer(audioBuffers[0], {
+            bitRate: 96
+        }).then(function (blob) {
+          //console.log('SAVEaudio converted',blob)
+          store.setItem(tuneId, [duration, blob] ).then(function () {
+            return store.getItem(tuneId);
+          })
+        })
+        
+      }
     }
     
     async function getAudioFromCache(tuneId) {
       //console.log('getaudio',tuneId)
-      let decoder = new Decoder();
+      //let decoder = new Decoder();
       return store.getItem(tuneId).then(function (val) {
         if (val && Array.isArray(val)) {
-          //console.log('getaudio',tuneId,val)
+          //console.log('getaudio got',tuneId,val)
           const [duration, buffers] = val;
-          return [duration, buffers.map(function(buffer) {return decoder.execute(buffer)})]
+          const context = new AudioContext();
+          return buffers.arrayBuffer().then(function(arrayBuffer) {
+            //console.log('getaudio got',duration, buffers, arrayBuffer)
+            //var audioBuffer = await 
+            return context.decodeAudioData(arrayBuffer).then(function(audioBuffer) {
+              //console.log('getaudio decoded',audioBuffer)
+              return [duration, [audioBuffer,audioBuffer]]
+            })
+            //decode(buffers).then(audioBuffer => {
+              //console.log('decoded cached audio',audioBuffer)
+              //return [duration, audioBuffer]
+            //}, err => { console.log(err)});
+            //var gotAudio =  [duration, buffers.map(function(buffer) {return decoder.execute(buffer)})]
+            //console.log('got audio',gotAudio)
+            //return gotAudio
+          })
+          
         } else {
           //console.log('getaudio noval',tuneId)
           return
@@ -604,7 +670,7 @@ export default function Abc(props) {
   
   function createPlayer(visualObj, tempo, meter, force) {
       return new Promise(function(resolve, reject) {
-        console.log('CREATE PLAYER', visualObj)
+        //console.log('CREATE PLAYER', visualObj)
         if (visualObj) {
             //console.log('CREATE PLAYER HAVE VISUAL OBJ')
             primeAudio().then(function(audioContext) {
@@ -642,7 +708,7 @@ export default function Abc(props) {
                           
                           //console.log('CREATE PLAYER HAVE TIMING AND CURSOR', timingCallbacks, cursor) 
                           
-                            console.log('CREATE PLAYER primed') //',audioContext, midiBuffer, timingCallbacks, cursor)
+                            //console.log('CREATE PLAYER primed') //',audioContext, midiBuffer, timingCallbacks, cursor)
                           //resolve([audioContext, midiBuffer, timingCallbacks, cursor, visualObj])
                       }).catch(function(e) {
                           console.log(e)
@@ -714,7 +780,7 @@ export default function Abc(props) {
   var [audioChangedHash, setAudioChangedHash] = useState(null)
   
   function renderTune(abcTune) {
-    console.log('RENDER TUNE')
+    //console.log('RENDER TUNE')
     if (inputEl) { // && !renderActive) {
       //console.log('RENDER TUNE aa')
       //console.log('render abc', abcTune, inputEl.current)
@@ -883,7 +949,7 @@ export default function Abc(props) {
 
 
   function updateOnChange() {
-    console.log('ABC CHANGE',props.boost ,lastBoost) //, lastAbc, lastTempo, props.tempo, props.abc )
+    //console.log('ABC CHANGE',props.boost ,lastBoost) //, lastAbc, lastTempo, props.tempo, props.abc )
     var tune = props.tunebook.abcTools.abc2json(props.abc)
     if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo || tune.boost != lastBoost) {
       setSeekTo(0)
@@ -919,6 +985,11 @@ export default function Abc(props) {
     //console.log(props.abc)
       return updateOnChange()
    }, [props.abc])
+   
+   useEffect(() => {
+      //console.log('set AS,',props.autoScroll)
+      autoScroll.current = props.autoScroll
+   }, [props.autoScroll])
 
   //useEffect(() => {
     ////console.log('tempo change',props.tempo, props.abc)
@@ -941,8 +1012,10 @@ export default function Abc(props) {
      //console.log("TEMPO CHANGE",e)
       //var tuneLocal = props.tunebook.abcTools.abc2json(props.abc)
       //var tune = tuneLocal[tuneLocal.id]
+      var tune = props.tunebook.abcTools.abc2json(props.abc)
       if (tune) {
         tune.tempo = e
+        //console.log("TEMPO CHANGE",e,tune,props.abc)
         props.tunebook.saveTune(tune)
         updateOnChange()
         if (props.forceRefresh) props.forceRefresh()

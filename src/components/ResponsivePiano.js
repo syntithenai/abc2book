@@ -60,7 +60,7 @@ function BasicPiano(props) {
   const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
   useEffect(function() {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
-      console.log('create context',audioContext.current)
+      //console.log('create context',audioContext.current)
   },[])
   const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
   return (
@@ -96,7 +96,7 @@ function ResponsivePiano(props) {
   const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
   useEffect(function() {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
-      console.log('create context',audioContext.current,props.soundFontUrl)
+      //console.log('create context',audioContext.current,props.soundFontUrl)
   },[])
   const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
   return (

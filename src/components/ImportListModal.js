@@ -27,13 +27,13 @@ function ImportListModal(props) {
   //console.log('im plist',props,props.tunebook, props.tunebook.importAbc)
   
   function bulkCreate() {
-    console.log('bulkCreate',list)
+    //console.log('bulkCreate',list)
     var abc =list.split("\n").map(function(d,k) {return "X:"+k+"\nT:"+d+"\nK:G\n" }).join("\n\n")
     var doImp = props.tunebook.importAbc
     var result = doImp(abc, props.currentTuneBook, false)
-    console.log('bulkCreate')
-    console.log(abc)
-    console.log(result)
+    //console.log('bulkCreate')
+    //console.log(abc)
+    //console.log(result)
     //var [inserts, updates, d] = result
     setList('')
     setTunes([])

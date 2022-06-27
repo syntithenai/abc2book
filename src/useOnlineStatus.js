@@ -16,7 +16,7 @@ const timeout = (time: number, promise: Promise) => {
 const checkOnlineStatus = async () => {
   const controller = new AbortController();
   const { signal } = controller;
-  console.log('check online',navigator.onLine)
+  //console.log('check online',navigator.onLine)
   // If the browser has no network connection return offline
   if (!navigator.onLine) return navigator.onLine;
 

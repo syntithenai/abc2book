@@ -9,7 +9,7 @@ import MP3Converter from "../MP3Converter";
 //import lamejs from 'lamejs'
 
 //var audioEncoder = require('audio-encoder');
-console.log("MP3",MP3Converter)
+//console.log("MP3",MP3Converter)
 
 
 //function encodeMp3(samples) {
@@ -113,7 +113,7 @@ export default function RecordingPage(props) {
     
     
     useEffect(function() {
-      console.log('eff',params.recordingId, lastId.current)
+      //console.log('eff',params.recordingId, lastId.current)
       if (params.recordingId !== lastId.current)  {
         lastId.current = params.recordingId
         props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec) {
@@ -134,7 +134,7 @@ export default function RecordingPage(props) {
             var ee = playlist.getEventEmitter()
             ee.on('audiorenderingfinished', function (type, data) {
               setIsSaving(false)
-              console.log('render finish', type, data)
+              //console.log('render finish', type, data)
               if (type === 'audio/wav' || type === 'wav'){
                 props.tunebook.recordingsManager.loadRecording(params.recordingId).then(function(rec2) {
                   rec2.data = data
@@ -177,7 +177,7 @@ export default function RecordingPage(props) {
               setIsChanged(true)
             })
             ee.on('select', function() {
-              console.log('select')
+              //console.log('select')
             })
             
             setEe(ee)

@@ -49,7 +49,7 @@ function BoostSettingsModal(props) {
         <span  >{props.tunebook.icons.reviewsmall}</span> <Badge onClick={showOrBoost}>{props.value}</Badge>
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Confidence</Modal.Title>
         </Modal.Header>

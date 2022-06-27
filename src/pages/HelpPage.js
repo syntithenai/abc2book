@@ -25,12 +25,7 @@ export default function HelpPage(props) {
           <li>Listen to the tunes and set the tempo (double click the play button to start from the beginning).</li>
           <li>Add tunes to a review list with a confidence score for review mode.</li>
           <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
-          <li>Review tunes by listening and playing
-            <ul>
-              <li>Starting with the least confident, by playing them three times each and then increasing the confidence score.</li>
-              <li>Once a tune has been played three times, it is excluded from review for 24 hours.</li>
-              <li>In review, the tempo of playback is faster for tunes with high confidence.</li>
-            </ul>
+          <li>Review tunes by listening and playing with tempo adjusted to confidence score.
            </li>
            <li>Record your practice so you can hear what you sound like.</li>
            <li>Share individual tunes, whole books and recordings by email or direct to Facebook.</li>
