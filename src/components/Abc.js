@@ -517,7 +517,7 @@ export default function Abc(props) {
                       //logtime('preinit prime tune primed AAA')
                       //console.log('preinit prime tune primed', presponse, midiBuffer)
                       if (tune && tune.id) { 
-                        saveAudioToCache(tune.id,midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
+                        saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
                           //console.log('created audio')
                           resolveWithTimingAndCursor(midiBuffer)
                         })
@@ -545,7 +545,7 @@ export default function Abc(props) {
               }
               if ((tune && tune.id)) {
                //logtime('preget audio')
-                getAudioFromCache(tune.id).then(function(audioResult) {
+                getAudioFromCache(getAudioHash(tune)).then(function(audioResult) {
                     //console.log('GOT',audioResult)
                     if (audioResult) {
                       
