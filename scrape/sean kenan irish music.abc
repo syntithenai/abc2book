@@ -1,0 +1,310 @@
+
+X: 0
+T: The Coleraine
+B: sean kenan irish music
+M:6/8
+Q: 3/8=100
+K:Aminor
+V:1 
+E|:"Am"EAA ABc|"Em"Bee e2d|"Am"cBA ABc|"E"BEE E2 D|
+ "Am"EAA ABc|"Em"Bee e2d|"Am"cBA "E"^GAB|1 "Am"A2A A2E:|2 A2A "G"GAB||
+ |:"C"c3 cdc|"G"Bgg "E5"g2^g|"Am"aed cBA|"E"^GAB E^F^G|
+ "Am"A^GA "G"BAB|"C"cde "Dm"fed|"Am"cBA "E"^GAB|1 "Am"A2A "G"GAB:|2 "Am"A3 A2||
+% abcbook-tune_id 17
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500973087
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1
+T: The Monaghan
+B: sean kenan irish music
+M:6/8
+Q: 3/8=100
+K:Em
+V:1 
+|:"Em"BGE F2E|"Em"BGE "D"FGA|"Em"BGE "Bm"F2E|"D"AFD FGA|
+"Em"GBE F2E|"Em"BGE "D"FGA|"Bm"d^cd "D"ABG|"Bm"FDF "D"AGF:|
+|:"Em"EGB efg|"Bm"fed "Em"edB|"Em"EGB "D"dBG|"Bm"FDF "D"AGF|
+"Em"EGB efg|"Bm"fed "Em"edB|"D"d^cd ABG|"Bm"FDF "D"AGF:|
+|:"Em"g2e efe|"G"gfg "Em"bge|"G"g2e "Em"efe|"Bm"fdf "D"afd|
+"Em"g2e efe|"G"gfg "Em"bge|"G"d^cd "Em"ABG|"Bm"FDF "D"AGF:|
+|:"Em"EGB edB|dBG "D"AFD|"Em"EGB dBG|"Bm"FDF "D"AGF|
+"Em"EGB "G"GBd|"Bm"Beg "Em"efg|"Em"d^cd "Bm"ABG|"D"FDF AGF:|
+% abcbook-tune_id 67
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500979934
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 2
+T: The Blackbird
+B: sean kenan irish music
+Q: 1/4=85
+K:Dmajor
+V:1 
+GA|:"D"(3Bcd "G"Bc  "A"A2Bc|"D"d2AG "Bm"F2DE|"D"FGAF "G"GBAG|1 "D"F2"A7"D2 "D"D2 dc:|2 "D"F2"A7"D2 "D"D2FG||
+|:"D"Addc d2 (3efg|"Bm"fd "G"ed "D7"cAGB|"D"Addc dfag|"Bm"f2d2 "D"d2 (3gfe|
+ "D"dcAF "A7"G2(3ABc|"D"d2AG "Bm"F2DE|"D"FGAF "G"GBAG|1 "D"F2D2 D2 FG:|2 F2D2 D2 GA||
+% abcbook-tune_id 1104
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500981644
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 3
+T: Maurice Lennon's Jig
+B: sean kenan irish music
+M:6/8
+Q: 3/8=100
+K:G
+V:1 
+|:D|"G"G2e dBG|"D"AGE "Em"GED|"C"E3 "G"DGA|"Am7"BAG "D7"A2D|
+"G"G2e dBG|"D"AGE "Em"GED|"C"E3 "G"DGB|"D"AGF "G"G2:|
+|:D|"G"GBd dBd|"Bm"gdB "D"cBA|"G"Ged dBd|"Em"edB "D7"A2D|
+"G"GBd dBd|"Bm"gdB "D7"cBA| "Em"B3 "C"AGF|"D7"DGF "G"G2:|
+% abcbook-tune_id 4385
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 0
+% abcbook-lastupdated 1656500982931
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 4
+T: Caledonian
+B: sean kenan irish music
+M:4/4
+Q: 1/4=125
+K:D
+V:1 
+|:"D"A2FA "Bm"DAFA|"G"GFEF "A"GBdB|"D"A2(3FED "Bm"ADFA|"G"GBAG "A"FADA|
+"D"A2FA "Bm"DAFA|"G"GFEF "A"GBdB|"D"A2(3FED "Bm"ADFA|"G"GBAG "A"FADA|
+"D"A2FA "Bm"DAFA|"G"GFEF "A"GBdB|"D"A2(3FED "Bm"ADFA|"G"GBAG "A"FADA|
+"D"F2dF "Bm"eFdF |"G"GFEF "A"GBdB|"D"A2 (3FED "Bm"ADFA|"G"(3Bcd AG "A"FADB|
+|:"D"Addc "Bm"d3e|"A"cdef "G"gfed|"A"(3cBA "F#m"eA fA eA|"A"cdef "G"gfeg|
+"D"fa"Em"eg "D"(3fga "Em"eg |"Bm"fded "A"cdef|"D"af (3gfe "Bm"fdec|"A"ABAG "Bm"FADB:|
+% abcbook-tune_id 8424
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656501378528
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 5
+T: Joe Derrane's
+B: sean kenan irish music
+M:6/8
+Q: 3/8=100
+K:Bminor
+V:1 
+|:"Bm"BcB BAF|"D"AFE "A"EFE|"D"DFA def|"Bm"afe "D"dBA|
+"Bm" BcB BAF|AFE "A"EFE|"D"DFA def|1 "Bm"edB Bdc:|2 "Bm"edB Bcd||
+|:"A" efe edB|"D"AFF "Bm" dFF|"D"def afa|"Bm"b2f "D"afa|
+ "Bm"baf "D"afa|"Bm"baf "Em"edB|"D"def "A"afe|1 "Bm"dBA Bcd:|2 "Bm"dBA Bdc||
+% abcbook-tune_id 9882
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500988003
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 6
+T: The Famous Ballymote
+B: steve's tunes
+B: sean kenan irish music
+M:4/4
+Q: 1/4=130
+K:Dmixolydian
+V:1 
+|:"D"FDAD FA (3AAA |"C"cABG EFGE|"D"FDAD FA (3AAA |"C"cAGE "D"ED D2:|
+|: "D"FDFA d2ed|"C"cABG EFGE|"D"FDFA dfed|"C"cAGE "D"ED D2:|
+% abcbook-tune_id 629b934f002b14aa34638a03
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500989300
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 7
+T: The Star Of Munster
+B: sean kenan irish music
+Q: 1/4=100
+V:1 
+|:ed|c2Ac B2GB|AGEF GEDG|EAAB cBcd|eaaf gfed|! cBAc BAGB|AGEF GEDG|EAAB cded|cABG A2:|! |:de|eaab ageg|agbg agef|gfga gfef|gfaf gfdf|! eaab ageg|agbg agef|g2ge a2ga|bgaf ge:|
+% abcbook-tune_id 62ba8ab02aaafff0e10e9b3b
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500990616
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 8
+T: The Holy Land
+B: sean kenan irish music
+Q: 1/4=100
+V:1 
+|:A|"G"B4 "A"A2Bc|"D"dF F2DFA=c|"G"BGGF GABd|"A7"eaag "D"fdd:|! e|"D"f2df dfaf|"Em"gfed "A7"cdeg|"D"f2df dfaf|"A7"gfeg "D"fdde|! "D"f2df dfaf|"Em"gfed "A"cdef|"D"dfaf "G"g2bg|"A"afeg "D"fdd||
+% abcbook-tune_id 62ba8ab0e74ac056195e4ee2
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500991946
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 9
+T: Farewell To Erin
+B: sean kenan irish music
+M:4/4
+Q: 1/4=100
+K:Dmajor
+V:1 
+"D"D2 ED FAAe|"Bm"f2df "A"edBc|"Bm"dBAF "G"GFGB|1"D"(3ABA FD "A"EDCE:|2 "D"(3ABA FD "A"EDDA||
+ |:"Bm"defg "D"afdf|"G"g2fd "A"edBA|"D"defg "Bm"afdf|"G"gfed "Em"e3A|
+ "D"dcdf a2fa|"G"(3gag "D"fd "A"edBc|"Bm"dBAF "G"GFGB|"D"(3ABA FD "A"EDCE:|
+% abcbook-tune_id 62ba8ab08e2d56024613a169
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500993575
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 10
+T: New Mown Meadow, The
+B: sean kenan irish music
+M:4/4
+L:1/8
+R: reel
+Q: 1/4=115
+K:Edor
+V:1 
+|:"Em"BEED "A"E2FA|"Bm"Becd "D"BAFA|"Em"BEED "Bm"FADF|"D"(3ABA BF AFDF|
+"Em"BEED "A"EFA2|"Bm"Becd "D"BAFA|"Bm"dfdB "A"cecB| "F#m"AcBA "A"FAE2:|
+|:"A"e2ce "F#m"fecf|"A"efec "Bm"BAFA|"A"(3efe ce "F#m"fecB|"A"AcBA "F#m"FAE2|
+"A"(3efe ce "F#m"fecf|"A"efec "F#m"BABc| "Bm"dfdB "A"cecB| "F#m"AcBA "A"FAE2:|
+% abcbook-tune_id 62ba8ab0562e9b60990709b9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500995063
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords
+
+X: 11
+T: The Ivy Leaf
+B: sean kenan irish music
+Q: 1/4=130
+K:Amixolydian
+V:1 
+|:"A"~A3e cAec|"A"Aece "G"(3Bcd BG|"A"~A3 e cA ec|"Em"BE ~E2 "G"GABG|
+ "A"~A3e ce ~e2|"A" ce ~e2 "G"(3Bcd BG|"A"~A3e cA ed|"Em" BE ~E2 GA (3Bcd:|
+ |:"A"~e3f edcd|"F#m"eAfA edcd|"Am" eaag edcA|"Em"BGEF "G"GA (3Bcd|
+ "A"~e3f edcd|"F#m"eAfA edcd|"Am" ~A3 B "C"=cB cd|"D"eAfA "G"gedB:|
+% abcbook-tune_id 62ba304fbb95b5de689809a9
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656500999327
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 12
+T: The Morning Star
+B: sean kenan irish music
+Q: 1/4=100
+K:G
+V:1 
+|:"G"~B3 A "Em"BGEF|"G"G2 (3Bcd "Bm"efgd|"G"~B3 A "Em"BGEF|"D"GBAF "G"~G3 "D7"A:|
+|: "Em"Bd ef "G"g2 eg|"Bm"fedf "Em"e3B|"G"Bd ef "Em"g2 (3efg|"Bm"fadf "Em"~e3 d|
+"G" Bd ef "Em"g2 eg|"Bm"faga "Em"edBd|"G"Bdef "Em"g2bg|"D"fgaf "Bm"gfed||
+% abcbook-tune_id 62ba3dab529eed1ce6f82049
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656502279290
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 13
+T: John Stenson's
+B: sean kenan irish music
+M:4/4
+Q: 1/4=100
+K:Amajor
+V:1 
+|:cB|"A"ABcA "Bm"B2 cB|"A"ABcA "D"BAFB|"A"ABcA "F#m"B2 cf|"A"edcA "Bm"BAFB|
+ "A"ABcA "Bm"B2 cB|"A"ABcA "Bm"BAFA|"D"d2 dc "Bm"dfed|"F#m"cdBc "A"A2:|
+ |:Ae|"A"e2 cd "D"edcd|"A"e2 cA "Bm"BAFA|"A"e2 cd "F#m"edcA|"Bm"B/c/d cA "F#m"BAFA|
+ "A"e2 cd "D"edcd|"A"e2 cA "Bm"BAFA|"D"d2 dc "Bm"dfed|"F#m"cdBc "A"~A2:|
+% abcbook-tune_id 62ba4ef613f7a260c66780fc
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656501001295
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 14
+T: Sean Ryan's Reel
+B: sean kenan irish music
+M:4/4
+L:1/8
+R: Reel
+Q: 1/4=105
+K:D
+V:1 
+"D"FGAG "Bm"FDD2|"Am"CA,G,A, "G"CDEG|"D"Add2 "A"cded|"A/C#"cAGF "C"E=C3|
+"D"FGAG "Bm"FDD2|"Am"CA,G,A, "G"CDEG|"D"Add2 "A"cded|1 "A/C#"(3cBA GE "D"D2D2:|2 "A/C#"(3cBA GE "D"D2 (3ABc||
+|:"D"d2Ad "Bm"FdAF|"G"G3A "Am7"GFD=C|"D"A,DD2 "A"CDEG|"Bm"FGAB "A"cABc|
+"D"d2dc "Bm"dAFA|"G"G3A "Am7"GFD=C|"D"A,DD2 "A"CDEG|1 "Bm"FDEC "D"D2 (3ABc:|2 "Bm"FDEC "D"D4|
+% abcbook-tune_id 62badc5ab63e7be6ca986214
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1656501264129
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

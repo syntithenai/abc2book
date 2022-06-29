@@ -153,7 +153,7 @@ export default function useGoogleSheet(props) {
         };
         //mimeType = 'application/vnd.google-apps.spreadsheet' and 
         var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
-        xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter);
+        xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
         xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
         xhr.send();
     }

@@ -157,7 +157,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
         axios({
           method: 'get',
           //https://drive.google.com/u/0/uc?id=1ob9DTfROfBzIzON2cnIceQtmynt14Gnl&export=download
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'/export?mimeType='+mimeType,
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'/export?mimeType='+mimeType+'&nocache='+String(parseInt(Math.random()*1000000000))
           //url: 'https://drive.google.com/file/d/'+id+'/view?usp=sharing',
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
@@ -183,7 +183,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
       if (id && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           //console.log("USE GOT DOC",postRes)
@@ -209,7 +209,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
       if (id && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'blob'
         }).then(function(postRes) {
@@ -236,7 +236,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
       if (id && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id,
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
