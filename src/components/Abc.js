@@ -11,6 +11,7 @@ import TempoControl from './TempoControl'
 import TransposeModal from './TransposeModal'
 import {isMobile} from 'react-device-detect'
 import MP3Converter from '../MP3Converter'
+  
 
 export default function Abc(props) {
     const [abcTune, setAbcTune] = useState(props.abc);
@@ -882,6 +883,7 @@ export default function Abc(props) {
           //console.log('onClickHandler DOUBLE')
             clearTimeout(playTimerRef.current)
             playTimerRef.current = null
+            setPlayCount(0)
             if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.seek(0)
             if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
             setSeekTo(seekTo > 0 ? parseInt(seekTo) : 0)

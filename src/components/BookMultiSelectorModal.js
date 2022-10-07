@@ -55,7 +55,7 @@ function BookMultiSelectorModal(props) {
   
   return (
     <>
-      <Button variant="secondary" onClick={handleShow} style={{color:'black'}} >Books {props.value && props.value.length > 0 ? <Badge variant="success" >{props.value.length}</Badge>: null}</Button>
+      <Button variant="primary" onClick={handleShow}  >{props.tunebook.icons.book} {props.value && props.value.length > 0 ? <Badge variant="success" >{props.value.length}</Badge>: null}</Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Add Tune to Books</Modal.Title>

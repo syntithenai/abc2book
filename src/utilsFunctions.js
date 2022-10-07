@@ -162,6 +162,8 @@ export default function utilsFunctions(props) {
       }); 
     }
     
+    
+    
     return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache}
     
 }

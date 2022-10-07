@@ -2,9 +2,12 @@ import {useState} from 'react'
 import {Button, Modal, Badge, Tabs, Tab} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
+import {useNavigate} from 'react-router-dom'
+    
 
 
 function AddSongModal(props) {
+  const navigate = useNavigate()
   const [show, setShow] = useState(props.show ==="addTune");
   const [songTitle, setSongTitle] = useState('')
   const [songMeter, setSongMeter] = useState('')
@@ -87,6 +90,7 @@ function AddSongModal(props) {
     props.setCurrentTuneBook('')
     setTimeout(function() {
       props.setCurrentTuneBook(finalTuneBook)
+      navigate("/tunes")
       setTimeout(function() {
         props.tunebook.utils.scrollTo('bottomofpage')
       },100)
@@ -97,7 +101,7 @@ function AddSongModal(props) {
 
   return (
     <>
-      <Button variant="success" onClick={handleShow}>
+      <Button variant="success" title="Add Tune" onClick={handleShow}>
         {props.tunebook.icons.fileadd}
       </Button>
 
@@ -108,7 +112,7 @@ function AddSongModal(props) {
         <Modal.Body>
           <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
           {(songTitle.length === 0) &&<Button style={{float:'right'}} variant="secondary" >Add</Button>}
-           <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'1em'}} >Book {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
+           <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button  style={{marginLeft:'1em'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
           <label>Title <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} /></label>

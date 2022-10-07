@@ -11,7 +11,7 @@ function TuneBookOptionsModal(props) {
   
   return (
     <>
-      <Button style={{color:'black'}} variant="primary" onClick={handleShow}>...</Button>
+      <Button style={{color:'black'}} variant="primary" onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
 
       <Modal style={{width:'100%'}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>

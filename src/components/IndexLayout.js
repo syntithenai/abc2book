@@ -6,21 +6,33 @@ import IndexSearchForm from './IndexSearchForm'
 import BoostSettingsModal from './BoostSettingsModal'
 import SelectedItemsModal from './SelectedItemsModal'
 
+
+
+
 export default function IndexLayout(props) {
     var [filter, setFilter] = useState('')
     var [filtered, setFiltered] = useState('')
     var [tuneStatus, setTuneStatus] = useState({})
     var [selected, setSelected] = useState({})
+    var [selectedCount, setSelectedCount] = useState({})
     //var [bookFilter, setBookFilter] = useState('')
     //const [tunes, setTunes] = useState(props.tunes ? Object.values(props.tunes) : {})
     
+    function filterSearchNoBooks(tune) {
+        if (tune.books && tune.books.length > 0) {
+            return false
+        } else {
+            return true
+        }
+    }
+
     function filterSearch(tune) {
         //console.log('filterSearch',props.currentTuneBook,filter)
         var filterOk = false
         var bookFilterOk = false
         var bookFilter = props.currentTuneBook
         // no filters means show tunes with NO book selected
-        if (!filter && !bookFilter) {
+        if (!bookFilter && (!filter) ) {
             if (tune.books && tune.books.length > 0) {
                 return false
             } else {
@@ -60,6 +72,7 @@ export default function IndexLayout(props) {
     
     
     function hasLyrics(tune) {
+        //return props.tunebook.hasLyrics(tune)
         if (tune && tune.words) {
             //console.log("HL",tune)
             var found = false
@@ -79,43 +92,55 @@ export default function IndexLayout(props) {
       var filtered = Object.values(props.tunes).filter(filterSearch)
       setFiltered(filtered)
       setSelected({})
+      setSelectedCount(0)
     },[])
     
     useEffect(function() {
       //console.log("IL currentTuneBook")
-      var filtered = Object.values(props.tunes).filter(filterSearch)
-      setFiltered(filtered)
-      setSelected({})
-      var tuneStatus = {}
-      //setTimeout(function() {
-          filtered.forEach(function(tune) {
-            var hasNotes = false
-            var hasChords = false
-            if (tune.voices) {
-                Object.values(tune.voices).forEach(function(voice) {
-                    if (Array.isArray(voice.notes)) {
-                        for (var i=0 ; i < voice.notes.length; i++) {
-                            if (voice.notes[i]) {
-                                hasNotes = true
-                                //console.log('has chords',(voice.notes[i].indexOf('"') !== -1),voice.notes[i])
-                                if (voice.notes[i].indexOf('"') !== -1) {
-                                    hasChords = true
+      if (filter.length === 1) {
+          setFiltered({})
+          setSelected({})
+      } else if (filter.length > 1 || props.currentTuneBook) {
+          var filtered = Object.values(props.tunes).filter(filterSearch)
+          setFiltered(filtered)
+          setSelected({})
+          setSelectedCount(0)
+          var tuneStatus = {}
+          //setTimeout(function() {
+              filtered.forEach(function(tune) {
+                var hasNotes = false
+                var hasChords = false
+                if (tune.voices) {
+                    Object.values(tune.voices).forEach(function(voice) {
+                        if (Array.isArray(voice.notes)) {
+                            for (var i=0 ; i < voice.notes.length; i++) {
+                                if (voice.notes[i]) {
+                                    hasNotes = true
+                                    //console.log('has chords',(voice.notes[i].indexOf('"') !== -1),voice.notes[i])
+                                    if (voice.notes[i].indexOf('"') !== -1) {
+                                        hasChords = true
+                                    }
+                                    if (hasNotes &&  hasChords) {
+                                        break;
+                                    } 
                                 }
-                                if (hasNotes &&  hasChords) {
-                                    break;
-                                } 
                             }
                         }
-                    }
-                })
-            }
-            tuneStatus[tune.id] = {
-              hasLyrics:hasLyrics(tune),
-              hasNotes: hasNotes,
-              hasChords: hasChords
-            }
-          })
-          setTuneStatus(tuneStatus)
+                    })
+                }
+                tuneStatus[tune.id] = {
+                  hasLyrics:hasLyrics(tune),
+                  hasNotes: hasNotes,
+                  hasChords: hasChords
+                }
+              })
+              setTuneStatus(tuneStatus)
+        } else {
+            var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
+            setFiltered(filtered)
+            setSelected({})
+          
+        }
       //},100)
     },[filter,props.currentTuneBook])
     
@@ -132,6 +157,7 @@ export default function IndexLayout(props) {
             })
         }
         setSelected(selected)
+        setSelectedCount(countSelected())
         props.forceRefresh()
     }
     function handleSelection(e,tuneId) {
@@ -144,6 +170,7 @@ export default function IndexLayout(props) {
             selected[tuneId] = true
         }
         setSelected(selected)
+        setSelectedCount(countSelected())
         props.forceRefresh()
         //console.log('HSend',tuneId,selected[tuneId],selected)
     }
@@ -168,10 +195,10 @@ export default function IndexLayout(props) {
         
         {filtered.length > 0 &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
         
-        {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected} />}
+        {selectedCount > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected} />}
         
-        {countSelected() > 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(selected).length}/{filtered.length} tunes selected</span>}
-        {countSelected() === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
+        {selectedCount > 0 && <span style={{marginLeft:'0.5em'}} >{selectedCount}/{filtered.length} tunes selected</span>}
+        {selectedCount === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
         
         </div>}
         
@@ -190,28 +217,33 @@ export default function IndexLayout(props) {
             //else  checkboxProps['checked']=false
             //checkboxProps['checked']=true
             //console.log(checkboxProps)
-            
-            return <Link key={tk} style={{textDecoration:'none' }} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
-                <span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
-                
-                {selected[tune.id] && <Button variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
-                {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
-                &nbsp;&nbsp;
-                <span >{tune.name} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/></span>
-                <span style={{ marginLeft:'0.3em'}}>
+             //<span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
+              
+            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
+                <span style={{ marginLeft:'0.3em', float:'right'}}>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.words}</Button> : null}</span>
-                </span>
-            </ListGroup.Item></Link>
+                </span> 
+                {selected[tune.id] && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                &nbsp;&nbsp;
+                {(tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
+                    {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <span>{book}{count < tune.books.length - 1 ? ", " : ""} </span>}})}
+                </span>}
+                
+                <span><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" style={{minWidth:'30%'}} >{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link></span>
+                
+            </ListGroup.Item>
         })}
         </ListGroup> : <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
-        {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div><div ><b>Try a book</b></div>
-            <div>{Object.keys(props.tunebook.getTuneBookOptions()).map(function(option, ok) {
-                return <span  key={ok}><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >{option}</Button>&nbsp;&nbsp;</span>
-            })}</div>
-        </div>}
+       
         </div>}
         
     </div>
 }
+ //{Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div><div ><b>Try a book</b></div>
+            //<div>{Object.keys(props.tunebook.getTuneBookOptions()).map(function(option, ok) {
+                //return <span  key={ok}><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >{option}</Button>&nbsp;&nbsp;</span>
+            //})}</div>
+        //</div>}

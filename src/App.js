@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import HomePage from './pages/HomePage'
+import BooksPage from './pages/BooksPage'
 import PrintPage from './pages/PrintPage'
 import PianoPage from './pages/PianoPage'
 import TunerPage from './pages/TunerPage'
@@ -48,10 +49,8 @@ import useGoogleLogin from './useGoogleLogin'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 
+  
 function App(props) {
-  
-   //return <GoogleLogin />
-  
   let params = useParams();
   let dbTunes = {}
   let utils = useUtils();
@@ -287,7 +286,7 @@ function App(props) {
       
           <input type='hidden' value={refreshHash} />
           <Router >
-            {(showWarning(sheetUpdateResults)) ? <>
+            {(user && showWarning(sheetUpdateResults)) ? <>
               <MergeWarningDialog tunebook={tunebook} sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
             </> : null}
             {(showImportWarning(importResults)) ? <>
@@ -296,11 +295,12 @@ function App(props) {
               }} overrideTuneBook={overrideTuneBook} />
             </> : null}
   
-           {(!showWarning(sheetUpdateResults) && !showImportWarning(importResults) && tunes !== null) && <div>   
+           {((!showWarning(sheetUpdateResults)|| !user) && !showImportWarning(importResults)  && tunes !== null) && <div>   
               <Header tunebook={tunebook}  tunes={tunes} token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<HomePage  tunebook={tunebook}     currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
+                     <Route  path={`books`}   element={<BooksPage  tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
                     <Route  path={`recordings`} >

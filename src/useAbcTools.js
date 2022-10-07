@@ -1221,7 +1221,7 @@ var useAbcTools = () => {
   
   
   function parseAbcToBeats(abcAll) {        
-        //console.log('parseabc',abcAll ? abcAll.length : 'NONE', abcAll)
+        console.log('ddparseabc',abcAll ? abcAll.length : 'NONE')
         //var tb = new abcjs.TuneBook(abc)
         //var tuneObj = abcjs.parseOnly(abc)[0];
         var measureTotals = []
@@ -1234,7 +1234,9 @@ var useAbcTools = () => {
         var abcCleaned = []
         var current = []
         abcAll.split("\n").forEach(function(line) {
-            if (line && line.trim().length > 0) {
+            console.log('line',line)
+        
+            //if (line && line.trim().length > 0) {
                 if (line.trim().endsWith('\\')) {
                     //console.log('line slash',line)
                     current.push(line.trim().slice(0,-1))
@@ -1244,13 +1246,16 @@ var useAbcTools = () => {
                     if (current.join('').trim().length > 0) abcCleaned.push(current.join(''))
                     current = []
                 }
-            }
+                if (line.trim().endsWith("||")) {
+                    abcCleaned.push("")
+                }
+            //}
             if (current.length > 0 && current.join('').trim().length > 0) abcCleaned.push(current.join(''))
         })
-        //console.log('cleaned',abcCleaned)
+        console.log('cleaned',abcCleaned)
         
         abcCleaned.forEach(function(abc, lineNumber) {
-            //console.log('try measure',abc)
+            console.log('try measure',abc, lineNumber)
             var measuresRaw = abcjs.extractMeasures(abcHeader + abc)
             var measures = measuresRaw[0].measures
             //console.log('mult',tuneObj.makeVoicesArray())
@@ -1421,9 +1426,9 @@ var useAbcTools = () => {
                 
             }
         })
-        //console.log('PARSE',measureBeats)
-        //console.log('CHORDS',chords)
-        //console.log('pretext',preText)
+        console.log('PARSE',measureBeats)
+        console.log('CHORDS',chords)
+        console.log('pretext',preText)
         return [measureTotals,measureBeats, chords, preText]
         //return generateAbcFromMeasures(newMeasures)
     }

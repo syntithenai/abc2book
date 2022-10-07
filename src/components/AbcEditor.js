@@ -196,7 +196,7 @@ export default function AbcEditor(props) {
                       
                       <Form.Group className="mb-3" controlId="transpose">
                         <Form.Label>Transpose</Form.Label>
-                        <Form.Control type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                        <Form.Control  type='number' value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="rhythm">
@@ -216,12 +216,12 @@ export default function AbcEditor(props) {
                       
                       <Form.Group className="mb-3" controlId="tempo">
                         <Form.Label>Tempo</Form.Label>
-                        <Form.Control type="text" placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                        <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="tempo">
                         <Form.Label>Repeats</Form.Label>
-                        <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                        <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="noteLength">

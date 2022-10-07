@@ -92,7 +92,7 @@ function ImportOptionsModal(props) {
   
   return (
     <>
-      <Button  variant="success" onClick={handleShow}>
+      <Button title="Import" variant="success" onClick={handleShow}>
         {props.tunebook.icons.folderin}
       </Button>
 

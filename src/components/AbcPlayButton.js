@@ -3,6 +3,8 @@ import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import QuickPlayButton from '../components/QuickPlayButton'
 
+var ALLOW_RECORDING = false
+
 export default function AbcPlayButton({tune, started, ready, isPlaying, clickInit, clickPlay, setIsPlaying, clickStopPlaying, tunebook, forceRefresh}) {
     //console.log('button',tune)
     
@@ -46,7 +48,7 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
     }
     
     useEffect(function() {
-      if (tune && tune.id) {
+      if (ALLOW_RECORDING && tune && tune.id) {
         loadRecordings()
       }
       return function() {
@@ -56,25 +58,28 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
       }
     },[])
     
-    var RecordingDropdown = function() {
-      var items= [<Dropdown.Item key="admin" href="#/recordings">Recordings Manager</Dropdown.Item>, <Dropdown.Divider key="divider" />]
-      recordings.forEach(function(recording,rk) {
-        items.push(<Dropdown.Item key={rk} className={rk %2 === 1 ? 'odd' : 'even'} ><Link style={{textDecoration:'none', color:'black', marginRight:'1em'}} to={"/recordings/"+recording.id}>{new Date(recording.createdTimestamp).toLocaleDateString()} {new Date(recording.createdTimestamp).toLocaleTimeString()} </Link>
-        <Button onClick={function() {tunebook.recordingsManager.downloadRecording(recording)}} >{tunebook.icons.save}</Button>
-        <Button style={{marginLeft:'0.1em'}} variant="danger" onClick={function(e) {tunebook.recordingsManager.deleteRecording(recording); loadRecordings()}}>{tunebook.icons.deletebin}</Button>
-        <QuickPlayButton tunebook={tunebook} recording={recording} />
-        </Dropdown.Item>)
-      })
-      
-      return <Dropdown as={ButtonGroup} style={{color:'black', marginRight:'0.2em'}} >
-        <Button   id="abcrecordbutton" className='btn-danger' size="lg"  onClick={function(e) {clickRecord() }} >
-          {tunebook.icons.recordcircle}
-        </Button>
-        <Dropdown.Toggle split variant="danger" id="dropdown-split-basic" style={{color:'black'}} />
-        <Dropdown.Menu>
-          {items}
-        </Dropdown.Menu>
-      </Dropdown>
+    var RecordingDropdown = function() {return null}
+    if (ALLOW_RECORDING) {
+        RecordingDropdown = function() {
+          var items= [<Dropdown.Item key="admin" href="#/recordings">Recordings Manager</Dropdown.Item>, <Dropdown.Divider key="divider" />]
+          recordings.forEach(function(recording,rk) {
+            items.push(<Dropdown.Item key={rk} className={rk %2 === 1 ? 'odd' : 'even'} ><Link style={{textDecoration:'none', color:'black', marginRight:'1em'}} to={"/recordings/"+recording.id}>{new Date(recording.createdTimestamp).toLocaleDateString()} {new Date(recording.createdTimestamp).toLocaleTimeString()} </Link>
+            <Button onClick={function() {tunebook.recordingsManager.downloadRecording(recording)}} >{tunebook.icons.save}</Button>
+            <Button style={{marginLeft:'0.1em'}} variant="danger" onClick={function(e) {tunebook.recordingsManager.deleteRecording(recording); loadRecordings()}}>{tunebook.icons.deletebin}</Button>
+            <QuickPlayButton tunebook={tunebook} recording={recording} />
+            </Dropdown.Item>)
+          })
+          
+          return <Dropdown as={ButtonGroup} style={{color:'black', marginRight:'0.2em'}} >
+            <Button   id="abcrecordbutton" className='btn-danger' size="lg"  onClick={function(e) {clickRecord() }} >
+              {tunebook.icons.recordcircle}
+            </Button>
+            <Dropdown.Toggle split variant="danger" id="dropdown-split-basic" style={{color:'black'}} />
+            <Dropdown.Menu>
+              {items}
+            </Dropdown.Menu>
+          </Dropdown>
+        }
     }
     
     if (!started) {

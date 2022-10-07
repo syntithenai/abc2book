@@ -1,4 +1,4 @@
-import {Link , useNavigate , useParams} from 'react-router-dom'
+    import {Link , useNavigate , useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
@@ -39,7 +39,9 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
               //console.log('ldd DO',params.link)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
+                      //console.log(res.data)
                       tunebook.importAbc(res.data,null,params.tuneId,params.bookName)
+                      //alert('imported')
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")

@@ -14,7 +14,7 @@ export default function CheatSheetPage(props) {
    
     return <div className="App-print" style={{marginBottom:'5em'}}>
     <div style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}   id="tunesearchextras" >
-           <BookSelectorModal allowNew={false} forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={params.tuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {navigate('/cheatsheet/'+val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >Book {(params.tuneBook ? <b>{params.tuneBook}</b> : '')} </Button>} />
+           <BookSelectorModal allowNew={false} forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={params.tuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {navigate('/cheatsheet/'+val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book}  {(params.tuneBook ? <b>{params.tuneBook}</b> : '')} </Button>} />
         </div>
     <br/>
     

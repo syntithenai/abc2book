@@ -57,17 +57,17 @@ export default function TransposeModal(props) {
     <>
         <Modal show={props.show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Transpose {tune.id}</Modal.Title>
+          <Modal.Title>Transpose</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
           <Form.Group className="mb-3" controlId="key">
-            {tune.key && <div>Notation Key <b>{tune.key}</b></div>}
+            <div>Notation Key <Form.Control  value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/></div>
             {dest && <div>Transposed Key <b>{dest}</b></div>}
           </Form.Group>
           <Form.Group className="mb-3" controlId="transpose">
             <Form.Label>Transpose</Form.Label>
-            <Form.Control type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/>
+            <Form.Control disabled={!tune.key} type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/>
           </Form.Group> 
         </Modal.Body> 
         

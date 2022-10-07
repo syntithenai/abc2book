@@ -319,7 +319,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null) {
-      //console.log('importabc', forceBook)
+      console.log('importabc', forceBook)
       buildTunesHash(tunes)
       var duplicates=[]
       var inserts=[]
@@ -434,7 +434,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
       saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus}
-      //console.log('imported SABC',final)
+      console.log('imported SABC',final)
       setImportResults(final)
       return {final}
   }

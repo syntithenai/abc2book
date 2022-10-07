@@ -1,0 +1,18 @@
+
+
+# v0.2 
+- remove recording and review features
+- simplify buttons and layout
+- book page
+- double bar lines shows as blank line in chords
+- larger header buttons
+- bugfix: transpose number input
+- restrict search to min 2 letters to avoid UI lockup
+- keyboard shortcut left right arrows to move between songs
+- refine chord view layout so chords panel scrolls independantly of lyrics
+- bugfix: double tap play reset play count
+- desensitise swipe left/right and enable mouse
+- button (rather than whole row) to trigger view from list
+- show books per tune in list view
+
+# v0.1 Initial public release

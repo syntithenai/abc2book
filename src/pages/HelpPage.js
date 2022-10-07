@@ -1,6 +1,7 @@
 import { Link  } from 'react-router-dom'
 import {Button, Tabs, Tab, Container} from 'react-bootstrap'
-
+//<li>Record your practice so you can hear what you sound like.</li>
+           
 export default function HelpPage(props) {
     return <div className="App-print">
   
@@ -27,7 +28,6 @@ export default function HelpPage(props) {
           <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
           <li>Review tunes by listening and playing with tempo adjusted to confidence score.
            </li>
-           <li>Record your practice so you can hear what you sound like.</li>
            <li>Share individual tunes, whole books and recordings by email or direct to Facebook.</li>
            <li>Show tablature notation for any tune.</li>
           <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
@@ -75,8 +75,6 @@ export default function HelpPage(props) {
       The search page allows filtering by book as well as title search.
       <br/><br/>
       The search list allows selecting multiple tunes and (using the grey dropdown at the top of the list) add or remove all selected tunes from a book.
-      <br/><br/>
-      The three dots in the dark blue button next to the book selector launches options that can be applied to the selected book including delete, download, print and cheatsheet. 
       </Tab>
       <Tab eventKey="editing" title="Editing">
       The tempo of a tune can be changed by clicking on the tempo mark in the music.
@@ -91,28 +89,6 @@ export default function HelpPage(props) {
       <br/><br/>
       The harmony structure for a song can be quickly scaffolded using a more compressed format in the chords tab of the editing page.
       Chords entered as <i>eg C|F G|G F F C|C . G C</i> are used to generate abc notation.
-      </Tab>
-      <Tab eventKey="review" title="Review">
-      <div style={{fontSize:'1em'}}>The brain buttons can be used to set a confidence score for a song. 
-      <br/><br/>
-      The brain button in the top menu shows the review page where tunes that have any confidence score are shown, least confident tunes first and the tempo adjusted for the confidence level.
-      
-      </div>
-      <br/>
-      </Tab>
-      <Tab eventKey="recording" title="Recording">
-      The microphone button in the top menu, starts the song playing and records through the microphone at the same time so you can hear what your practice sessions sound like. Press stop to finish and save the recording.
-      <br/><br/>
-      Use headphones to exclude the generated audio from your recording.
-      <br/><br/>
-      Saved recordings for the current tune are listed under the recording button dropdown.
-      <br/><br/>
-      All recordings are available on the recordings page and clicking on one of the listed recordings will open the recording in multitrack audio editor.
-      The editor includes features to record more tracks, import more tracks from files or other recordings, trim and time shift and finally mix all the tracks back down to a single audio file and save it.
-      <br/><br/>
-      If you are logged in, audio recordings are saved to Google Drive and deleted from Google Drive when you delete the recording. If you are not logged in, the recording is only saved and deleted in the local database.
-      <br/><br/>
-      Recordings can be shared using a button in the recording manager list. You need to agree to share the recorded audio file (for anyone to read) to be able to generate a sharable link. The button color changes from grey (not saved), light blue (saved but not shared) to green (saved and shared). Link recipients must login with their own google account to access the shared document and import it into their own tune book recording manager.
       </Tab>
       
       
@@ -154,8 +130,7 @@ I have a huge pile of paper with word and chords and scraps of music that runs b
 I have many tunes in my head that I can track along with in a session but can only pull back a few by name.<br/>
 I know the words to parts of songs but few well enough to be able to lead a song.
 <br/><br/>
-I started with <a href='https://www.vfmc.org.au/FiresideFiddlers/indexBBS.html' target='_new'>Begged Borrowed and Stolen</a>, a collection of trad tunes well known here in the South East Australia. Many of our musical crews' shared tunes are sourced in that book. Then all the scraps of tunes and songs that I'd printed or been given along the way. As I worked through my goal was to ensure every tune could play if only a piano fill from chords. All the tunes have been harmonised. Simple arrangements but given listening through was my final QA step, nothing horrid in there. 
-
+I started with <a href='https://www.vfmc.org.au/FiresideFiddlers/indexBBS.html' target='_new'>Begged Borrowed and Stolen</a>, a collection of trad tunes well known here in the South East Australia. Many of our musical crews' shared tunes are sourced in that book. Then all the scraps of tunes and songs that I'd printed or been given along the way. As I worked through my goal was to ensure every tune could play if only a piano fill from chords. 
 
 
 
@@ -214,4 +189,27 @@ I started with <a href='https://www.vfmc.org.au/FiresideFiddlers/indexBBS.html' 
       //<h4>Review Mode</h4>
       
       
+      //</Tab>
+//<Tab eventKey="recording" title="Recording">
+      //The microphone button in the top menu, starts the song playing and records through the microphone at the same time so you can hear what your practice sessions sound like. Press stop to finish and save the recording.
+      //<br/><br/>
+      //Use headphones to exclude the generated audio from your recording.
+      //<br/><br/>
+      //Saved recordings for the current tune are listed under the recording button dropdown.
+      //<br/><br/>
+      //All recordings are available on the recordings page and clicking on one of the listed recordings will open the recording in multitrack audio editor.
+      //The editor includes features to record more tracks, import more tracks from files or other recordings, trim and time shift and finally mix all the tracks back down to a single audio file and save it.
+      //<br/><br/>
+      //If you are logged in, audio recordings are saved to Google Drive and deleted from Google Drive when you delete the recording. If you are not logged in, the recording is only saved and deleted in the local database.
+      //<br/><br/>
+      //Recordings can be shared using a button in the recording manager list. You need to agree to share the recorded audio file (for anyone to read) to be able to generate a sharable link. The button color changes from grey (not saved), light blue (saved but not shared) to green (saved and shared). Link recipients must login with their own google account to access the shared document and import it into their own tune book recording manager.
+      //</Tab>
+      
+      //<Tab eventKey="review" title="Review">
+      //<div style={{fontSize:'1em'}}>The brain buttons can be used to set a confidence score for a song. 
+      //<br/><br/>
+      //The brain button in the top menu shows the review page where tunes that have any confidence score are shown, least confident tunes first and the tempo adjusted for the confidence level.
+      
+      //</div>
+      //<br/>
       //</Tab>

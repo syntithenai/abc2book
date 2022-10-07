@@ -28,8 +28,15 @@ export default function SettingsPage(props) {
    
        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
        
-       <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={function() {if (window.confirm("Do you really want to clear your review list?")) {tunebook.clearBoost()} }} >Clear Review Progress</Button><br/>
-
+       <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="danger" onClick={function(e) {
+           if (window.confirm('Are you sure you want to delete all of your tunes?')) {
+                if (window.confirm('Are you REALLY sure you want to delete all of your tunes?')) {
+                   tunebook.deleteAll()
+                }
+            }
+        }} >Delete All Tunes</Button><br/>
+       
+       
        <span>
          <label>Pre Render Audio ?<input type="checkbox" onChange={clickPreRenderAudio} checked={preRenderAudioCheckbox} /></label>
          <br/><b>This may cause the user interface to freeze temporarily without warning!</b>
@@ -37,3 +44,4 @@ export default function SettingsPage(props) {
        
     </div>
 }
+//<Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={function() {if (window.confirm("Do you really want to clear your review list?")) {tunebook.clearBoost()} }} >Clear Review Progress</Button><br/>

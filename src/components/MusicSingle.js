@@ -7,7 +7,8 @@ import BoostSettingsModal from './BoostSettingsModal'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
 import {useSwipeable} from 'react-swipeable'
-
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
   
   //return (
     //<ReactTags
@@ -27,6 +28,8 @@ export default function MusicSingle(props) {
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
+        delta:100,
+        trackMouse: true,    
       onSwipedRight: (eventData) => {
           props.tunebook.navigateToPreviousSong(tune.id,navigate)
       },
@@ -119,11 +122,11 @@ export default function MusicSingle(props) {
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
         var firstVoice = Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
         var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
-    //console.log('sING',parsed.chords)
+        //console.log('sING',parsed.chords)
         var [a,b,chordsArray,c] = parsed
         var chords = props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
-            //console.log('sING',chords, JSON.stringify(chordsArray))
+        //console.log('sING',chords, JSON.stringify(chordsArray))
         var chordLines = chords.split("\n")
         chordLines.forEach(function(chordLine) {
             var chordParts = chordLine.split("|")
@@ -141,6 +144,7 @@ export default function MusicSingle(props) {
         return <div className="music-single" {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                 <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
+               
                 
                 <Dropdown style={{float:'left', marginLeft:'0.1em'}}>
                   <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{height:'2.4em'}}>
@@ -152,66 +156,66 @@ export default function MusicSingle(props) {
                      <Dropdown.Item target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube} Search YouTube</Button>
                     
                     </Dropdown.Item>
+                    <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
                 
                  <span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={true} tuneId={tune.id} buttonSize={'small'}  /></span>
                
                 
-                <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+                <span style={{float:'left', marginLeft:'0.3em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
 
-                <BoostSettingsModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
+  
+                <ButtonToolbar
                 
-               
-                
-                <Dropdown style={{float:'left', marginLeft:'0.3em'}}>
-                  <Dropdown.Toggle variant="primary" id="dropdown-basic" style={{height:'2.4em', color:'black'}}>
-                  {props.tunebook.icons.eye}
-                  </Dropdown.Toggle>
+                    className="justify-content-between"
+                  >
+                    <ButtonGroup aria-label="First group" variant="info" style={{marginLeft:'0.3em'}}
+                    >
+                      <Button onClick={function() {props.setViewMode('music')}} variant="secondary">{props.tunebook.icons.music}</Button>{' '}
+                      <Button onClick={function() {props.setViewMode('chords')}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
+                      
+                    </ButtonGroup>
+                </ButtonToolbar>
 
-                  <Dropdown.Menu>
-                    <Dropdown.Item >
-                     {props.viewMode !=='music' && <Button onClick={function() {props.setViewMode('music')}}>{props.tunebook.icons.music} Show Music</Button>}
-                     {props.viewMode !=='chords' && <Button onClick={function() {props.setViewMode('chords')}} >{props.tunebook.icons.guitar} Show Chords</Button>}
-                    </Dropdown.Item>
-                   
-                  </Dropdown.Menu>
-                </Dropdown>
-                
                
                 
                
-                <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
+                
             </div>
             
 
              {props.viewMode === 'chords' && <>
              
-             <div style={{clear:'both', position:'fixed', fontSize:'1.1em', top:'9em', right:'0.1em', width: '30%', overflow: 'show', zIndex: 999, backgroundColor: 'white'}} >
-                <div>
-                {Object.keys(uniqueChords).map(function(chord) {
-                    var chordLetter = chord
-                    var chordType = ''
-                    return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
-                })}
-                </div>
-                <pre style={{border:'1px solid black',marginTop:'1em', padding:'0.3em', 'line-height':'2em'}} >{chords}</pre>
-                
-             </div>
              
-             <div className="lyrics" style={{clear:'both', marginLeft:'0.1em', width:'65%'}} >
+             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', width:'65%'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                             return <div key={lk} className="lyrics-line" >{line}</div>
                         })}</div>
                 })}
+                
              </div>
               
-            
+  
+             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
+                <div style={{ overflowY:'scroll', height:'100%'}} >
+                    <pre style={{ border:'1px solid black',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
+                    
+                    <div>
+                    {Object.keys(uniqueChords).map(function(chord) {
+                        var chordLetter = chord
+                        var chordType = ''
+                        return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
+                    })}
+                    </div>
+                    <br/><br/><br/>
+                </div>
+             </div>
              </>}
-             
+             {props.viewMode !== 'chords' && <>
               <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
-             
+             </>}
              
              
              
@@ -219,6 +223,10 @@ export default function MusicSingle(props) {
         </div>
     }
 }
+
+ //<Button title="Print" className='btn-primary'  style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
+                //<Button title="Download" className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
+                //<a  style={{float:'left'}}  target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button title="Search YouTube">{props.tunebook.icons.youtube}</Button></a>
 
 //<Abc  autoPrime={localStorage.getItem('bookstorage_autoprime')} showTempoSlider={true} editableTempo={true} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
              
