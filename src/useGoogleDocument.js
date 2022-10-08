@@ -178,7 +178,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',id ,accessToken)
+      console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -186,7 +186,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log("USE GOT DOC",postRes)
+          console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {

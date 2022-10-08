@@ -59,7 +59,7 @@ function App(props) {
     //console.log('clickdoc',e.y) //,e.screenY,e.x,e.screenX)
     ////window.scrollTo(0,e.y)
   //}
-
+  var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
   var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
@@ -104,6 +104,7 @@ function App(props) {
    * import songs to a tunebook from an abc file 
    */
   function mergeTuneBook(tunebookText) {
+      setShowWaitingOverlay(true)
       //console.log('merge',tunebookText)
       var inserts={}
       var updates={}
@@ -151,10 +152,12 @@ function App(props) {
     
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
       //console.log('merge done' ,ret)
+      setShowWaitingOverlay(false)
       return ret
   }
   
   function overrideTuneBook(fullSheet) {
+    setShowWaitingOverlay(true)
     //console.log('overrideTuneBook')
     pauseSheetUpdates.current = true
     var tunes = {}
@@ -172,22 +175,23 @@ function App(props) {
     indexes.resetBookIndex()
     indexes.indexTunes(tunes)
     setSheetUpdateResults(null)
+    setShowWaitingOverlay(false)
     forceRefresh()
   }
   
 
   
   function onMerge(fullSheet) {
-    //console.log('onmerge')
+    console.log('onmerge')
     var trialResults = mergeTuneBook(fullSheet)
-    //console.log('onmerge', fullSheet.length, trialResults)
+    console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
-      //console.log('onmerge set results',trialResults)
+      console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
       forceRefresh()
     } else { 
-      //console.log('onmerge empty results',trialResults)
+      console.log('onmerge empty results',trialResults)
       setSheetUpdateResults(trialResults)
       //applyMergeChanges(trialResults)
       //forceRefresh()
@@ -283,10 +287,11 @@ function App(props) {
   return (
 
     <div id="topofpage" className="App" >
-      
+        {showWaitingOverlay && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }  
+          
           <input type='hidden' value={refreshHash} />
           <Router >
-            {(user && showWarning(sheetUpdateResults)) ? <>
+            {(token && showWarning(sheetUpdateResults)) ? <>
               <MergeWarningDialog tunebook={tunebook} sheetUpdateResults={sheetUpdateResults} closeWarning={closeWarning} acceptChanges={acceptChanges} revokeToken={logout} overrideTuneBook={overrideTuneBook} />
             </> : null}
             {(showImportWarning(importResults)) ? <>
@@ -299,7 +304,8 @@ function App(props) {
               <Header tunebook={tunebook}  tunes={tunes} token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune} />
               <div className="App-body">
                   <Routes>
-                    <Route  path={``}   element={<HomePage  tunebook={tunebook}     currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
+                    <Route  path={``}   element={<BooksPage  tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
+                    
                      <Route  path={`books`}   element={<BooksPage  tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} />}  />
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}   element={<SettingsPage  tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />

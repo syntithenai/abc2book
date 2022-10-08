@@ -51,13 +51,29 @@ export default function BooksPage(props) {
             {Object.keys(curated).length > 0 && <div style={{marginTop:'1em'}} ><h4>Import a Book</h4>
                 <div>{Object.keys(curated).map(function(bookTitle,ok) {
                     if (curated[bookTitle].link) {
-                        return <Link  to={'/importlink/' + encodeURIComponent(curated[bookTitle].link)} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{bookTitle}</Button>&nbsp;&nbsp;</Link>
+                        return <Link  to={'/importlink/' + encodeURIComponent(curated[bookTitle].link)} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
+                        {curated[bookTitle].image ? <img src={curated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                        &nbsp;{bookTitle}
+                        </Button>&nbsp;&nbsp;</Link>
                     } else if (curated[bookTitle].googleDocumentId) {
-                        return <Link  to={'/importdoc/' + curated[bookTitle].googleDocumentId} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{bookTitle}</Button>&nbsp;&nbsp;</Link>
+                        return <Link  to={'/importdoc/' + curated[bookTitle].googleDocumentId} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{curated[bookTitle].image ? <img src={curated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                        &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
                     }
                 })}</div>
             </div>}
-            
+            <hr/>
+            <div style={{marginTop:'1em'}} >
+            This tune book software helps musicians collect and organise and practice their music.
+            </div>
+             <div style={{marginTop:'1em'}} >
+            The software helps you to find lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. The importable books above have mostly been curated to ensure formatting and include chords.
+            </div>
+             <div style={{marginTop:'1em'}} >
+            Song and tunes can be organised into books. A song can be in many books. I have a book for each of my musical friends which is helpful remembering songs we all know at sessions.
+            </div>
+            <div style={{marginTop:'1em'}}>
+            Checkout the <Link to="/help" ><Button>Help</Button></Link> section for some tips and tricks.
+            </div>
         </div>
         
        

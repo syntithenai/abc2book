@@ -15,7 +15,7 @@ export default function useGoogleSheet(props) {
   //var client;
   // google login
   var docs = useGoogleDocument(token,refresh,function(changes) {
-      //console.log('DOCCHANGE',changes)
+      console.log('DOCCHANGE',changes)
       var matchingChanges = changes.filter(function(change) {
         if (change.fileId === googleSheetId.current) {
           return true
@@ -26,7 +26,7 @@ export default function useGoogleSheet(props) {
       //console.log('DOCCHANGE match',matchingChanges)
       if (matchingChanges && matchingChanges.length === 1) {
         getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
-          //console.log('DOCCHANGE got sheet')
+          console.log('DOCCHANGE got sheet')
           onMerge(fullSheet)
         })
       }
@@ -89,7 +89,9 @@ export default function useGoogleSheet(props) {
     function doLoad() {
       //getGoogleSheetMetaById(googleSheetId.current).then(function(sheetMeta) {
         //console.log('META',sheetMeta)
+        console.log('LOAD SHEET')
         getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
+            console.log('MERGE SHEET',fullSheet)
             onMerge(fullSheet)
         })
       //})
@@ -104,7 +106,7 @@ export default function useGoogleSheet(props) {
       //},props.pollingInterval > 1000 ? props.pollingInterval : 20000)
     //}
     function loadSheet() {
-      //console.log('load sheet')
+      console.log('load sheet')
       doLoad()
       //setupInterval()
     }
@@ -117,7 +119,7 @@ export default function useGoogleSheet(props) {
             var response = JSON.parse(res.target.responseText)
             if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
               // load whole file
-              //console.log("found",response.files)
+              console.log("found",response.files)
               var found = false
               if (Array.isArray(response.files)) {
                 response.files.forEach(function(file) {
@@ -126,13 +128,13 @@ export default function useGoogleSheet(props) {
                   }
                 })
               }
-              //console.log("FFF",found)
+              console.log("FFF",found)
               if (found) {
                 googleSheetId.current = found
                 setGoogleDocumentId(found)
                 loadSheet()
               } else {
-                //console.log('create no name match')
+                console.log('create no name match')
                 createTuneSheet().then(function(newId) {
                   googleSheetId.current = newId
                   setGoogleDocumentId(newId)
@@ -141,7 +143,7 @@ export default function useGoogleSheet(props) {
               }
             } else {
               // create file
-              //console.log('create')
+              console.log('create')
               createTuneSheet().then(function(newId) {
                 googleSheetId.current = newId
                 setGoogleDocumentId(newId)
