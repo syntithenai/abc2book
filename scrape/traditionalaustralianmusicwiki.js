@@ -70,7 +70,10 @@ const fs = require('fs');
                     let abc = await page.$$eval('.abctext', abcs => {
                       return abcs.map(title => title);
                     });
-                    console.log('nav ok2', abc[0].abctext_)
+                    if (abc && abc.length > 0) {
+                        console.log('nav ok2', abc[0].abctext_)
+                        output.push(abc[0].abctext_)
+                    }
                     //let features = []
                     //test.map(function(title) {
                           ////console.log('title', title)
@@ -137,13 +140,13 @@ const fs = require('fs');
                 }
                 //console.log('ERRS:',continuousErrors)
                 //console.log('EMPTY:',continuousEmpty)
-                //fs.writeFile('LAST_SEARCH_folktunefinder.txt', 'INDEX:' + a + "\nERR:" + continuousErrors + "\nEMPTY:"+continuousEmpty, err => {
-                  //if (err) {
-                    //console.error(err)
-                    //return
-                  //}
-                  ////file written successfully
-                //})    
+                fs.writeFile('traditionalaustralianmusicwiki.abc', output.join("\n\n"), err => {
+                  if (err) {
+                    console.error(err)
+                    return
+                  }
+                  //file written successfully
+                })    
             } else {
                 console.log('SKIP '+a)
             }

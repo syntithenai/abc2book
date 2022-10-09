@@ -1,5 +1,5 @@
-import {useState} from 'react'
-import {Button, Modal, Badge, Tabs, Tab} from 'react-bootstrap'
+import {useState, useEffect} from 'react'
+import {ListGroup, Button, Modal, Badge, Tabs, Tab} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
 import {useNavigate} from 'react-router-dom'
@@ -15,11 +15,49 @@ function AddSongModal(props) {
   const [songChords, setSongChords] = useState('')
   const [songComposer, setSongComposer] = useState('')
   const [songNotes, setSongNotes] = useState('')
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+      setShow(false);
+      setForceNewTune(false)
+      setSongTitle('')
+      songMeter('')
+      songWords('')
+      songChords('')
+      songComposer('')
+      songNotes('')
+  }
   const handleShow = () => setShow(true);
   const boostUp = () => {}
   const boostDown = () => {}
   
+  
+  
+    function filterSearch(tune) {
+        //console.log('filterSearch',props.currentTuneBook,filter)
+        var filterOk = false
+        if (!songTitle || songTitle.trim().length < 2) {
+            filterOk = false
+        } else {
+            if (tune && tune.name && tune.name.length > 0 && songTitle.length > 0 && props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(songTitle)) !== -1) {
+                filterOk = true
+            } 
+        }
+        return filterOk
+    
+    }
+    
+
+  
+  const [forceNewTune, setForceNewTune] = useState(false)
+  const [matchingTunes, setMatchingTunes] = useState([])
+  useEffect(function() {
+      //console.log(props.tunes)
+      if (songTitle.length > 1 && props.tunes) {
+          setMatchingTunes(Object.values(props.tunes).filter(filterSearch))
+          setForceNewTune(false)
+      } else {
+          setMatchingTunes([])
+      }
+  },[songTitle])
   
   function renderChords() {
     //const parsed = props.tunebook.abcTools.parseAbcToBeats("X:1\nK:G\n"+songNotes)
@@ -66,6 +104,34 @@ function AddSongModal(props) {
     }
   }
   
+  function addTuneToBook(tune, book) {
+    var books = tune.books
+    books.push(book.toLowerCase())
+    tune.books = [...new Set(books)]
+    props.tunebook.saveTune(tune); 
+    props.setFilter('') ; 
+    setSongTitle('')
+    setSongWords('')
+    setSongNotes('')
+    setSongComposer('')
+    setSongMeter('')
+    setSongChords('')
+    props.forceRefresh()
+    // force refresh list
+    var finalTuneBook=props.currentTuneBook
+    props.setCurrentTuneBook('')
+    setTimeout(function() {
+      props.setCurrentTuneBook(finalTuneBook)
+      navigate("/tunes")
+      setTimeout(function() {
+        props.tunebook.utils.scrollTo('bottomofpage')
+      },100)
+    },800)
+    //props.updateList(songTitle,props.currentTuneBook)
+    handleClose() 
+  }
+  
+  
   function addTune() {
     var cleanNotes = songNotes.split("\n").filter(function(line) {
         if (props.tunebook.abcTools.isNoteLine(line)) {
@@ -110,36 +176,52 @@ function AddSongModal(props) {
           <Modal.Title>Add a tune</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
+          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0 && forceNewTune) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
           {(songTitle.length === 0) &&<Button style={{float:'right'}} variant="secondary" >Add</Button>}
            <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button  style={{marginLeft:'1em'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
           <label>Title <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
-          <label style={{display:'block'}}>  Meter <select  value={songMeter} onChange={function(e) {setSongMeter(e.target.value) }} >
-          <option></option>
-          <option>4/4</option>
-          <option>3/4</option>
-          <option>2/4</option>
-          <option>6/8</option>
-          <option>9/8</option>
-          </select></label>
-          <label>Composer <input type="text" value={songComposer} onChange={function(e) {setSongComposer(e.target.value) }} /></label>
-          
-          </div>
-          <label>Lyrics&nbsp;&nbsp;
-          {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
-          <textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
-          <Tabs defaultActiveKey={songMeter ? "chords" : "notes"} id="chordstab"  >
-            {songMeter && <Tab eventKey="chords" title="Chords" >
-              <label>Chords&nbsp;&nbsp;
-              {songTitle && <a target="_new" href={"https://www.google.com/search?q=chords "+songTitle + ' '+(songComposer ? songComposer : '')} ><Button>Search Chords</Button></a>}
-              <textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
-            </Tab>}
-            <Tab eventKey="notes" title="Notes">
-              <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
-            </Tab>
-          </Tabs>
+          {!forceNewTune && <>
+               <ListGroup >
+                  <ListGroup.Item variant="success" action onClick={function() {setForceNewTune(true)}}>
+                        New Tune
+                  </ListGroup.Item>
+                  {matchingTunes.map(function(tune,tk) {
+                      return <ListGroup.Item key={tk} disabled={props.currentTuneBook ? false : true} variant="primary" action onClick={function() {addTuneToBook(tune,props.currentTuneBook)}}>
+                        {tune.name}
+                      </ListGroup.Item>
+                  })}
+                </ListGroup>
+          </>}
+          {forceNewTune && <>
+              <label>Composer <input type="text" value={songComposer} onChange={function(e) {setSongComposer(e.target.value) }} /></label>
+              
+              <label style={{display:'block'}}>  Meter <select  value={songMeter} onChange={function(e) {setSongMeter(e.target.value) }} >
+              <option></option>
+              <option>4/4</option>
+              <option>3/4</option>
+              <option>2/4</option>
+              <option>6/8</option>
+              <option>9/8</option>
+              </select></label>
+              
+              
+              <label>Lyrics&nbsp;&nbsp;
+              {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
+              <textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
+              <Tabs defaultActiveKey={songMeter ? "chords" : "notes"} id="chordstab"  >
+                {songMeter && <Tab eventKey="chords" title="Chords" >
+                  <label>Chords&nbsp;&nbsp;
+                  {songTitle && <a target="_new" href={"https://www.google.com/search?q=chords "+songTitle + ' '+(songComposer ? songComposer : '')} ><Button>Search Chords</Button></a>}
+                  <textarea  value={songChords} onChange={function(e) {setSongChords(e.target.value); var c = renderChords(); if (c) {setSongNotes(c.join("\n"))} }} rows='8' style={{width:'100%'}}/></label>
+                </Tab>}
+                <Tab eventKey="notes" title="Notes">
+                  <label>ABC Notes<textarea  value={songNotes} onChange={function(e) {setSongNotes(e.target.value) }} rows='8' style={{width:'100%'}}/></label>
+                </Tab>
+              </Tabs>
+            </>}
+            </div>
         </Modal.Body>
       </Modal>
     </>
