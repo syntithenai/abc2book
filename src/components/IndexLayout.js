@@ -218,7 +218,7 @@ export default function IndexLayout(props) {
             //checkboxProps['checked']=true
             //console.log(checkboxProps)
              //<span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
-              
+            
             return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
                 <span style={{ marginLeft:'0.3em', float:'right'}}>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>

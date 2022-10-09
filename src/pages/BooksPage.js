@@ -54,6 +54,7 @@ export default function BooksPage(props) {
                         return <Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >
                             <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} />
                             <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} >{option} </Link>
+                            <img style={{height:'50px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" />
                         </Button>
                     } else {
                         return null
