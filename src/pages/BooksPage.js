@@ -9,6 +9,12 @@ import {useEffect, useState} from 'react'
 import AddSongModal from '../components/AddSongModal'
 import ImportOptionsModal from '../components/ImportOptionsModal'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
+import Accordion from 'react-bootstrap/Accordion';
+
+ //<Accordion defaultActiveKey="0">
+      //<Accordion.Item eventKey="0">
+        //<Accordion.Header>Accordion Item #1</Accordion.Header>
+        //<Accordion.Body>
 
 export default function BooksPage(props) {
     
@@ -18,7 +24,19 @@ export default function BooksPage(props) {
         }
         return ''
     }
-    
+    // collate curations by group
+    var collatedCurated = {}
+    var notCollatedCurated = {}
+    Object.keys(curated).forEach(function(bookTitle) {
+        if (curated[bookTitle].group) {
+            if (!collatedCurated.hasOwnProperty(curated[bookTitle].group)) collatedCurated[curated[bookTitle].group] = {}
+            collatedCurated[curated[bookTitle].group][bookTitle] = curated[bookTitle]
+        } else {
+            if (!notCollatedCurated.hasOwnProperty(curated[bookTitle].group)) notCollatedCurated[curated[bookTitle].group] = {}
+            notCollatedCurated[bookTitle] = curated[bookTitle]
+        }
+    })
+    console.log(notCollatedCurated)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     
     return <div className="App-books">
@@ -49,17 +67,40 @@ export default function BooksPage(props) {
             </span>
             
             {Object.keys(curated).length > 0 && <div style={{marginTop:'1em'}} ><h4>Import a Book</h4>
-                <div>{Object.keys(curated).map(function(bookTitle,ok) {
-                    if (curated[bookTitle].link) {
-                        return <Link  to={'/importlink/' + encodeURIComponent(curated[bookTitle].link)} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
-                        {curated[bookTitle].image ? <img src={curated[bookTitle].image} style={{height:'50px'}}  /> : null}
-                        &nbsp;{bookTitle}
-                        </Button>&nbsp;&nbsp;</Link>
-                    } else if (curated[bookTitle].googleDocumentId) {
-                        return <Link  to={'/importdoc/' + curated[bookTitle].googleDocumentId} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{curated[bookTitle].image ? <img src={curated[bookTitle].image} style={{height:'50px'}}  /> : null}
-                        &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
-                    }
-                })}</div>
+                
+                <Accordion defaultActiveKey={Number('0')} >{Object.keys(collatedCurated).map(function(groupTitle,gk) {
+                    var groupItems = collatedCurated[groupTitle]
+                    return <Accordion.Item eventKey={Number(gk)}>
+                        <Accordion.Header  style={{marginTop:'0.3em'}} >{groupTitle}</Accordion.Header>
+                        <Accordion.Body>{Object.keys(groupItems).map(function(bookTitle,ok) {
+                            if (groupItems[bookTitle].link) {
+                                return <Link  to={'/importlink/' + encodeURIComponent(groupItems[bookTitle].link) + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
+                                {groupItems[bookTitle].image ? <img src={groupItems[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                &nbsp;{bookTitle}
+                                </Button>&nbsp;&nbsp;</Link>
+                            } else if (groupItems[bookTitle].googleDocumentId) {
+                                return <Link  to={'/importdoc/' + groupItems[bookTitle].googleDocumentId  + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{groupItems[bookTitle].image ? <img src={groupItems[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
+                            }
+                        })}</Accordion.Body>
+                    </Accordion.Item>
+                    {Object.keys(notCollatedCurated).length > 0 && <Accordion.Item eventKey="other">
+                         <Accordion.Header style={{marginTop:'0.3em'}}>Other</Accordion.Header>
+                         <Accordion.Body>{Object.keys(notCollatedCurated).map(function(bookTitle,ok) {
+                            if (notCollatedCurated[bookTitle].link) {
+                                return <Link  to={'/importlink/' + encodeURIComponent(notCollatedCurated[bookTitle].link) + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
+                                {notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                &nbsp;{bookTitle}
+                                </Button>&nbsp;&nbsp;</Link>
+                            } else if (notCollatedCurated[bookTitle].googleDocumentId) {
+                                return <Link  to={'/importdoc/' + notCollatedCurated[bookTitle].googleDocumentId  + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
+                            }
+                        })}</Accordion.Body>
+                     </Accordion.Item>}
+
+                 
+                 })}</Accordion>
             </div>}
             <hr/>
             <div style={{marginTop:'1em'}} >

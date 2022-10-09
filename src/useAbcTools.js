@@ -227,6 +227,7 @@ var useAbcTools = () => {
      */
     function json2abc(tune) {
       //console.log('json2abc',tune)
+      //var bookData = {}
       if (tune) {
         var aliasText = ''
         if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
@@ -238,6 +239,8 @@ var useAbcTools = () => {
         var boost = tune.boost > 0 ? tune.boost : 0
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var books = Array.isArray(tune.books) && tune.books.length > 0 ? tune.books.map(function(book) {
+          //bookData[ensureText(book).toLowerCase()] = {}
+          
           return  'B: '+ensureText(book).toLowerCase()
         }).join("\n") + "\n": ''
         function ensure(test,text) {
