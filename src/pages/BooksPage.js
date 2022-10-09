@@ -68,7 +68,8 @@ export default function BooksPage(props) {
             
             {Object.keys(curated).length > 0 && <div style={{marginTop:'1em'}} ><h4>Import a Book</h4>
                 
-                <Accordion defaultActiveKey={Number('0')} >{Object.keys(collatedCurated).map(function(groupTitle,gk) {
+                <Accordion defaultActiveKey={Number('0')} >
+                    {Object.keys(collatedCurated).map(function(groupTitle,gk) {
                     var groupItems = collatedCurated[groupTitle]
                     return <Accordion.Item eventKey={Number(gk)}>
                         <Accordion.Header  style={{marginTop:'0.3em'}} >{groupTitle}</Accordion.Header>
@@ -83,7 +84,7 @@ export default function BooksPage(props) {
                                 &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
                             }
                         })}</Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item>})}
                     {Object.keys(notCollatedCurated).length > 0 && <Accordion.Item eventKey="other">
                          <Accordion.Header style={{marginTop:'0.3em'}}>Other</Accordion.Header>
                          <Accordion.Body>{Object.keys(notCollatedCurated).map(function(bookTitle,ok) {
@@ -97,10 +98,10 @@ export default function BooksPage(props) {
                                 &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
                             }
                         })}</Accordion.Body>
-                     </Accordion.Item>}
+                     </Accordion.Item>
 
                  
-                 })}</Accordion>
+                 }</Accordion>
             </div>}
             <hr/>
             <div style={{marginTop:'1em'}} >
