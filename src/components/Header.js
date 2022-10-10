@@ -19,10 +19,13 @@ export default function Header(props) {
             props.tunebook.navigateToNextSong(params.tuneId,navigate)
         } else if (event.key === 'ArrowLeft' && location.pathname.startsWith('/tunes/') && params.tuneId) {
             props.tunebook.navigateToPreviousSong(params.tuneId,navigate)
+        } else if (event.key === 'n'  && (location.pathname.startsWith('/tunes') || location.pathname.startsWith('/books'))) {
+            //console.log('new',event.ctrlKey)
+            document.getElementById('tunebookbuttons').children[0].click()
         } 
-        //console.log(`key pressed: ${event.key}`);
+        console.log(`key pressed: ${event.key}`);
     };
-    useKeyPress(['ArrowRight', 'ArrowLeft'], onKeyPress);
+    useKeyPress(['ArrowRight', 'ArrowLeft','n'], onKeyPress);
 
     var dropdownStyle = {fontSize:'0.7em', display:'inline', width:'22px', height:'22px', marginBottom:'0.3em'}
     if (location.pathname.startsWith('/print')) return null

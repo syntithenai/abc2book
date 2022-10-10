@@ -123,9 +123,9 @@ function AddSongModal(props) {
     setTimeout(function() {
       props.setCurrentTuneBook(finalTuneBook)
       navigate("/tunes")
-      setTimeout(function() {
-        props.tunebook.utils.scrollTo('bottomofpage')
-      },100)
+      //setTimeout(function() {
+        //props.tunebook.utils.scrollTo('bottomofpage')
+      //},100)
     },800)
     //props.updateList(songTitle,props.currentTuneBook)
     handleClose() 

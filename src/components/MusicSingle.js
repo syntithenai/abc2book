@@ -28,7 +28,7 @@ export default function MusicSingle(props) {
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
-        delta:100,
+        delta:300,
         trackMouse: true,    
       onSwipedRight: (eventData) => {
           props.tunebook.navigateToPreviousSong(tune.id,navigate)

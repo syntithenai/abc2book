@@ -19,7 +19,7 @@ export default {
         'mandeira and bhavit': {group:'Friends',link:'https://tunebook.syntithenai.com/scrape/steve song book.abc', image:'/book_images/mandeiraandbhavit.jpg', book:"mandeira and bhavit"},
         'steve\s whole songbook (live)': {googleDocumentId: '1ob9DTfROfBzIzON2cnIceQtmynt14Gnl', image:'/book_images/steve.jpg'},
         'kameruka choir': {group:'Communities', link:'https://tunebook.syntithenai.com/scrape/steve song book.abc', image:'/book_images/kamerukachoir.jpg', book:"kameruka choir"},
-        'kameruka bush dance': {group:'Communities', link:'https://tunebook.syntithenai.com/scrape/steve song book.abc', image:'/book_images/kamerukabushdance.jpg', book:"kameruka bush dance"},
+        'kameruka bush dance': {group:'Communities', link:'https://tunebook.syntithenai.com/scrape/kameruka bush dance.abc'},
         'sean kenan irish music': {group:'Collections', link:'https://tunebook.syntithenai.com/scrape/steve song book.abc', image:'/book_images/seankenanirishmusic.jpg', book:"sean kenan irish music"},
         
         //'fred': {link: '1ob9DTfROfBzIzON2cnIceQtmynt14Gnl'},

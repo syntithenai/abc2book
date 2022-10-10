@@ -24,10 +24,7 @@ export default function HelpPage(props) {
           <li>Login using Google to keep a copy of your whole tune book a Google Document. Audio recordings are also saved to Google Drive.</li>
           <li>Synchronise changes between your devices so tunes you add on your phone turn up on your computer.</li>
           <li>Listen to the tunes and set the tempo (double click the play button to start from the beginning).</li>
-          <li>Add tunes to a review list with a confidence score for review mode.</li>
           <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
-          <li>Review tunes by listening and playing with tempo adjusted to confidence score.
-           </li>
            <li>Share individual tunes, whole books and recordings by email or direct to Facebook.</li>
            <li>Show tablature notation for any tune.</li>
           <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
@@ -92,21 +89,7 @@ export default function HelpPage(props) {
       </Tab>
       
       
-      <Tab eventKey="profile" title="FAQ">
-        <ul>
-        <li><b>My phone went flat?</b></li>
-        <li>When music notation is displayed, the software keeps the screen awake on mobile devices. Handy but ... remember to turn off the app/your screen when you're done!!</li>
-        </ul>
-        
-        <ul>
-        <li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
-        <li>Edit the tune and use the wizard tools to double or halve the note durations.
-        <br/>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/></li>
-        
-        
-        
-    </ul>
-      </Tab>
+     
       <Tab eventKey="story" title="Story">
       
       <h3>Evolution</h3>
@@ -170,6 +153,23 @@ I started with <a href='https://www.vfmc.org.au/FiresideFiddlers/indexBBS.html' 
        </Container>
     </div>
 }
+
+
+ //<Tab eventKey="profile" title="FAQ">
+        //<ul>
+        //<li><b>My phone went flat?</b></li>
+        //<li>When music notation is displayed, the software keeps the screen awake on mobile devices. Handy but ... remember to turn off the app/your screen when you're done!!</li>
+        //</ul>
+        
+        //<ul>
+        //<li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
+        //<li>Edit the tune and use the wizard tools to double or halve the note durations.
+        //<br/>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/></li>
+        
+        
+        
+    //</ul>
+      //</Tab>
   //<Tab eventKey="tutorial" title="Tutorial">
       //<h4>Creating a new tune using thesession.org</h4>
       //<ul>

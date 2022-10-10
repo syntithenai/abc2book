@@ -77,11 +77,11 @@ export default function BooksPage(props) {
                         <Accordion.Body>{Object.keys(groupItems).map(function(bookTitle,ok) {
                             if (groupItems[bookTitle].link) {
                                 return <Link  to={'/importlink/' + encodeURIComponent(groupItems[bookTitle].link) + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
-                                {groupItems[bookTitle].image ? <img src={groupItems[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                <img src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpg"} style={{height:'50px'}}  />
                                 &nbsp;{bookTitle}
                                 </Button>&nbsp;&nbsp;</Link>
                             } else if (groupItems[bookTitle].googleDocumentId) {
-                                return <Link  to={'/importdoc/' + groupItems[bookTitle].googleDocumentId  + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{groupItems[bookTitle].image ? <img src={groupItems[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                return <Link  to={'/importdoc/' + groupItems[bookTitle].googleDocumentId  + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} key={ok} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} ><img src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpg"} style={{height:'50px'}}  />
                                 &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link>
                             }
                         })}</Accordion.Body>
