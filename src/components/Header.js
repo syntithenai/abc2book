@@ -14,18 +14,16 @@ export default function Header(props) {
     //var params = useParams() // empty  ???
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length === 3 ? parts[2] : null}
+    
     const onKeyPress = (event) => {
         if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
             props.tunebook.navigateToNextSong(params.tuneId,navigate)
         } else if (event.key === 'ArrowLeft' && location.pathname.startsWith('/tunes/') && params.tuneId) {
             props.tunebook.navigateToPreviousSong(params.tuneId,navigate)
-        } else if (event.key === 'n'  && (location.pathname.startsWith('/tunes') || location.pathname.startsWith('/books'))) {
-            //console.log('new',event.ctrlKey)
-            document.getElementById('tunebookbuttons').children[0].click()
-        } 
+        }
         console.log(`key pressed: ${event.key}`);
     };
-    useKeyPress(['ArrowRight', 'ArrowLeft','n'], onKeyPress);
+    useKeyPress(['ArrowRight', 'ArrowLeft'], onKeyPress);
 
     var dropdownStyle = {fontSize:'0.7em', display:'inline', width:'22px', height:'22px', marginBottom:'0.3em'}
     if (location.pathname.startsWith('/print')) return null

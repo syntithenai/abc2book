@@ -19,11 +19,11 @@ function AddSongModal(props) {
       setShow(false);
       setForceNewTune(false)
       setSongTitle('')
-      songMeter('')
-      songWords('')
-      songChords('')
-      songComposer('')
-      songNotes('')
+      setSongMeter('')
+      setSongWords('')
+      setSongChords('')
+      setSongComposer('')
+      setSongNotes('')
   }
   const handleShow = () => setShow(true);
   const boostUp = () => {}
@@ -181,7 +181,7 @@ function AddSongModal(props) {
            <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button  style={{marginLeft:'1em'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
            </div>
            <br/>
-          <label>Title <input type="text" value={songTitle} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
+          <label>Title <input type="text" value={songTitle} autofocus onChange={function(e) {setSongTitle(e.target.value) }} /></label>
           {!forceNewTune && <>
                <ListGroup >
                   <ListGroup.Item variant="success" action onClick={function() {setForceNewTune(true)}}>
