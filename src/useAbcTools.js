@@ -1195,7 +1195,30 @@ var useAbcTools = () => {
                 }
             })
         }
-        const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n"))
+        const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n") )
+        //console.log("HASH",hashString)
+        var hash = utils.hash(hashString)
+        return hash
+    } else {
+        return utils.hash(new String(Math.random()*100000000000000000).toString())
+    }
+  }
+  
+  function getTuneImportHash(tune) {
+    if (tune) {
+        var voicesAndNotes=[]
+        if (tune.voices) {
+            Object.keys(tune.voices).forEach(function(voice) {
+                if (Array.isArray(tune.voices[voice].notes)) {
+                    //voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
+                    tune.voices[voice].notes.forEach(function(noteLine) {
+                        voicesAndNotes.push(noteLine)
+                    })
+                }
+            })
+        }
+        
+        const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n") + (tune.words ? tune.words.join("\n") : '') )
         //console.log("HASH",hashString)
         var hash = utils.hash(hashString)
         return hash
@@ -1616,6 +1639,6 @@ var useAbcTools = () => {
     }
     
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes, getTuneImportHash}
 }
 export default useAbcTools;

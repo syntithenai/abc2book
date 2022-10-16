@@ -403,10 +403,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 ////var newTune = saveTune(tune)
                 //inserts.push(tune)
               //} else {
-                var hash = abcTools.getTuneHash(tune)
+                var hash = abcTools.getTuneImportHash(tune)
                 //utils.hash(tune.notes.join("\n"))
                 //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
-                if (tunesHash && tunesHash.hashes && tunesHash.hashes[hash] ) {
+                if (tunesHash && tunesHash.importhashes && tunesHash.importhashes[hash] ) {
                   duplicates.push(tune)
                   tuneStatus.duplicates.push({
                     hasLyrics:hasLyrics(tune),

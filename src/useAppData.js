@@ -58,6 +58,7 @@ export default function useAppData() {
   function buildTunesHash(forceTunes) {
     var hashes = {}
     var ids = {}
+    var importhashes = {}
     var useTunes = forceTunes ? forceTunes : tunes;
     //console.log('Build THash',{useTunes, tunes, forceTunes})
     if (useTunes && Object.values(useTunes).length > 0) {
@@ -65,16 +66,18 @@ export default function useAppData() {
         if (tune.id && tune.voices) {
           //console.log('BTHBB',tune.notes)
           var hash = abcTools.getTuneHash(tune) 
+          var importhash = abcTools.getTuneImportHash(tune) 
           //utils.hash(tune.notes.join("\n"))
           if (!Array.isArray(hashes[hash])) hashes[hash] = []
           hashes[hash].push(tune.id)
           ids[tune.id] = hash
+          importhashes[tune.id] = importhash
         }
       })
       //console.log('Build THash',{ids, hashes})
-      setTunesHash({ids, hashes})
+      setTunesHash({ids, hashes, importhashes})
     } else {
-      setTunesHash({ids:{}, hashes:{}})
+      setTunesHash({ids:{}, hashes:{}, importhash: {}})
     }
     
   }
