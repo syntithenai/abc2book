@@ -3,6 +3,7 @@ X: 0
 T: Across the Sea to Erin
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:6/8
 L:1/8
 R: Jig
@@ -26,6 +27,7 @@ X: 1
 T: Conjewai Polka
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:2/4
 L:1/8
 R: Polka
@@ -41,7 +43,7 @@ V:1
 % abcbook-lastupdated 1665406229525
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    5
+%%MIDI transpose     5
 % NFF Book 2015
 
 X: 2
@@ -49,6 +51,7 @@ T: The Drover
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:2/4
 L:1/16
 R: Polka
@@ -74,6 +77,7 @@ C:Eileen McCoy
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:6/8
 L:1/8
 R: Jig
@@ -95,6 +99,7 @@ X: 4
 T: Ernie Goodman's Waltz
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:3/4
 L:1/8
 R: Waltz
@@ -119,6 +124,7 @@ T: Mudgee Schottische
 C:Fred Holland
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:4/4
 L:1/8
 R: Schottische
@@ -142,6 +148,7 @@ X: 6
 T: Freemantle Station
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: to learn
 M:3/4
 L:1/8
 R: Varsovienne
@@ -155,7 +162,7 @@ D2|:"G"B>A G2 =F2|"C"E2z2E2|"Am"c>B A2 G2|"D"F4 D2|"G"d>d B2 G2|"C"E4 (3ABA|"D7"
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665397236448
+% abcbook-lastupdated 1666009565343
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % NFF Book 2008
@@ -164,6 +171,7 @@ X: 7
 T: Jack's Waltz
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: to learn
 M:3/4
 L:1/4
 R: Waltz
@@ -181,10 +189,10 @@ A3/2B/2A|FGA|"G"B3/2c/2B|"A7"E2D|CcB|AGE|"D"D3-|D3||
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 5
-% abcbook-lastupdated 1665406937773
+% abcbook-lastupdated 1666009680048
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    5
+%%MIDI transpose     5
 % NFF Book 2006
 
 X: 8
@@ -192,6 +200,7 @@ T: Jenny Lind
 C:Anton Wallerstein, C1850
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:2/4
 L:1/8
 R: Polka
@@ -207,13 +216,14 @@ V:1
 % abcbook-lastupdated 1665396597694
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    -5
+%%MIDI transpose     -5
 % NFF Book 2017
 
 X: 9
 T: Joe's Treeparter
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:2/4
 L:1/16
 R: Polka
@@ -239,6 +249,7 @@ X: 10
 T: Killongbutta
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: to learn
 M:3/4
 L:1/8
 R: Varsovienne
@@ -253,7 +264,7 @@ e>e e2 c2|"Am"A2A2 G2|FA e2 d2||1 "G"B4D2:|2 "G"G4 DG||
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665407202008
+% abcbook-lastupdated 1666009761201
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % NFF Book 2008
@@ -263,6 +274,7 @@ T: Little Burnt Potato
 C:Colin J Boyd, Cape Breton (1891-1975)
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: to learn
 M:6/8
 L:1/8
 R: Jig
@@ -279,10 +291,10 @@ B|:"G"d^cde2d|dBGD2A|BABc2B|"C"ABA EFG|
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 7
-% abcbook-lastupdated 1665407320309
+% abcbook-lastupdated 1666009833901
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    7
+%%MIDI transpose     7
 % NFF Book 2013
 
 X: 12
@@ -290,6 +302,7 @@ T: Mudgee Waltz
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:3/4
 L:1/8
 R: Waltz
@@ -307,13 +320,14 @@ V:1
 % abcbook-lastupdated 1665486584504
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    -5
+%%MIDI transpose     -5
 % NFF Book 2018
 
 X: 13
 T: The Old Schoolmaster
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:4/4
 L:1/8
 R: Reel
@@ -338,6 +352,7 @@ T: Queer Fella's Schottische
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:4/4
 L:1/8
 R: Schottische
@@ -362,6 +377,7 @@ T: Sally Sloane's Mazurka
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:3/4
 L:1/8
 R: Mazurka
@@ -385,6 +401,7 @@ X: 16
 T: So Fa La
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:6/8
 L:1/8
 R: Jig
@@ -409,6 +426,7 @@ T: Stan Treacy's Polka
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:2/4
 L:1/8
 R: Polka
@@ -430,6 +448,7 @@ X: 18
 T: Stan Treacy's Schottische
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: to learn
 M:4/4
 L:1/8
 R: Schottische
@@ -445,7 +464,7 @@ a2|:"D"(3aba f>d A>d f>a|(3agf g>f"G"g2-(3gef|"A7"(3gfe c>e A>c e>f|
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665409036565
+% abcbook-lastupdated 1666009923801
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % NFF Book 2006
@@ -454,6 +473,7 @@ X: 19
 T: Turondale BD
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:6/8
 L:1/8
 R: Jig
@@ -476,6 +496,8 @@ T: The Walk Around
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
+B: to learn
 M:6/8
 L:1/8
 R: Jig
@@ -488,7 +510,7 @@ cd|:"Am"e2A AGA|ede gfe|"G"d2 G GFG|BGB dBd|"Am"e2 A AGA|ede gfe|"G"dge dcB|1 "A
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665486612778
+% abcbook-lastupdated 1666009971615
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % NFF Book 2009
@@ -498,6 +520,8 @@ T: The Wedding of Lochan McGraw
 B: australian traditional tunes wiki
 B: kameruka bush dance
 B: ralph
+B: steve tunes
+B: to learn
 M:6/8
 L:1/8
 R: Jig
@@ -514,7 +538,7 @@ V:1
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665486525069
+% abcbook-lastupdated 1666010017175
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % NFF Book 2006
@@ -523,6 +547,7 @@ X: 22
 T: Orotaba Waltz
 B: australian dance tunes
 B: kameruka bush dance
+B: steve tunes
 M:3/4
 L:1/8
 R: Waltz
@@ -547,6 +572,7 @@ X: 23
 T: Moonan Flat Set Tune
 B: australian dance tunes
 B: kameruka bush dance
+B: steve tunes
 M:2/4
 L:1/8
 Q: 1/4=100
@@ -570,6 +596,7 @@ X: 24
 T: Brown Jug Polka
 B: jims roots
 B: kameruka bush dance
+B: steve tunes
 Q: 1/4=100
 K:Dmajor
 V:1 
@@ -589,6 +616,7 @@ T: Ring the Bell Watchman
 C:Henry Clay Work, 1865
 B: jims roots
 B: kameruka bush dance
+B: steve tunes
 M:4/4
 L:1/8
 R: Reel
@@ -609,13 +637,14 @@ V:1
 % abcbook-lastupdated 1665410531948
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    5
+%%MIDI transpose     5
 
 
 X: 26
 T: The White Cockatoo
 B: australian traditional tunes wiki
 B: kameruka bush dance
+B: steve tunes
 M:4/4
 L:1/8
 R: Reel
@@ -639,6 +668,7 @@ X: 27
 T: Connaught Man's Rambles, The
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:6/8
 L:1/8
 R: jig
@@ -668,23 +698,22 @@ g|"D"fbb "G"faa|"D"fef deg|fbb "G"faa|"Bm"fed e2g|
 X: 28
 T: Rag O Muffin Scottische
 B: kameruka bush dance
+B: to learn
 M:4/4
 Q: 1/4=100
 K:D
 V:1 
-fg|"D"(3AAA A>B A>F G>A|"G"(3BBB B>=c B2 ^c>B|
-"A"A>B c>d f>e B>c|"D"d>e (3dcB  "A"A2 F>G|
-"D"(3AAA A>B A>F G>A|"G"(3BBB B>=c B2 ^c>B|
-"A"A>B c>d f>e B>c|"D"d2"A"f2"D"d2 F>G|"D"A>f d>A F2 G2|
-"D"A>f d>a F2 G2|"A"A>B c>d f>e B>c|  
-"D"d>e (3dcb "A"A2 F>G|"D"A>f d>A F2 G2|
-"D"A>f d>A F2 G2|"A"A>B c>d f>e B>c|  "D"d2"A"f2"D"d4||
+fg|"D"(3AAA A>B A>F G>A|"G"(3BBB B>=c B2 ^c>B|"A"A>B c>d f>e B>c|"D"d>e (3dcB  "A"A2 F>G|
+"D"(3AAA A>B A>F G>A|"G"(3BBB B>=c B2 ^c>B|"A"A>B c>d f>e B>c|"D"d2"A"f2"D"d2 F>G|
+"D"A>f d>A F2 G2|"D"A>f d>a F2 G2|"A"A>B c>d f>e B>c|"D"d>e (3dcb "A"A2 F>G|
+"D"A>f d>A F2 G2|"D"A>f d>A F2 G2|"A"A>B c>d f>e B>c|  "D"d2"A"f2"D"d4||
+
 W: 
 % abcbook-tune_id 6343f15f611190062a2304da
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665405715967
+% abcbook-lastupdated 1666010114366
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -693,6 +722,7 @@ X: 29
 T: Mazurka de Lapleau
 B: kameruka bush dance
 B: ralph
+B: steve tunes
 M:3/4
 R: Mazurka
 Q: 1/4=100
@@ -721,7 +751,7 @@ X: 30
 T: Varsoviana
 C:Violet Endacott
 B: kameruka bush dance
-B: todo
+B: steve tunes
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -737,10 +767,10 @@ B>c | "G"d2 g2 f2 | "C" c4 A>B | c2 e2 d2 |"G" B4 B>c |
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose -5
-% abcbook-lastupdated 1665413218389
+% abcbook-lastupdated 1665921030559
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    -5
+%%MIDI transpose     -5
 % Transcriptions Only 1 transcription
 % Movement Has some stepwise movement
 % Mode major
@@ -752,6 +782,7 @@ B>c | "G"d2 g2 f2 | "C" c4 A>B | c2 e2 d2 |"G" B4 B>c |
 X: 31
 T: Swedish Masquerade
 B: kameruka bush dance
+B: to learn
 M:4/4
 L:1/4
 Q: 1/4=100
@@ -767,7 +798,7 @@ D|:"G"G2 G3/2G/2|"G"G2 "D7"Ac|"G"B2 B3/2B/2|"G"B2 "C"ce|"G"ed Bd|"D7"dc AF|\
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1665411357943
+% abcbook-lastupdated 1666010254894
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % Nottingham Music Database
@@ -784,6 +815,7 @@ D|:"G"G2 G3/2G/2|"G"G2 "D7"Ac|"G"B2 B3/2B/2|"G"B2 "C"ce|"G"ed Bd|"D7"dc AF|\
 X: 32
 T: Troika
 B: kameruka bush dance
+B: steve tunes
 M:4/4
 Q: 1/4=160
 K:Am
