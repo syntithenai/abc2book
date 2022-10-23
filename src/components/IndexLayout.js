@@ -51,7 +51,7 @@ export default function IndexLayout(props) {
             } else {
                 if (tune && tune.books && tune.books.length > 0 && bookFilter.length > 0) {
                     tune.books.forEach(function(book) {
-                        if (props.tunebook.utils.toSearchText(book).indexOf(bookFilter) !== -1) {
+                        if (book.toLowerCase() === bookFilter.toLowerCase()) {
                             bookFilterOk = true
                         }
                     })
@@ -229,7 +229,7 @@ export default function IndexLayout(props) {
                 {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                 &nbsp;&nbsp;
                 {(tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
-                    {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <span>{book}{count < tune.books.length - 1 ? ", " : ""} </span>}})}
+                    {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <Button variant="info" style={{marginRight:'0.1em'}} >{book}</Button>}})}
                 </span>}
                 
                 <span><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" style={{minWidth:'30%'}} >{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link></span>

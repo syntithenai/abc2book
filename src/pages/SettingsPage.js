@@ -29,8 +29,14 @@ export default function SettingsPage(props) {
        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
        
        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="danger" onClick={function(e) {
-           if (window.confirm('Are you sure you want to delete all of your tunes?')) {
-                if (window.confirm('Are you REALLY sure you want to delete all of your tunes?')) {
+           if (props.token) {
+               if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device and all other devices? Logout if you only want to reset this device')) {
+                    if (window.confirm('Are you REALLY sure you want to delete all of your tunes on all your devices?')) {
+                        tunebook.deleteAll()
+                    }
+               }
+           } else if (window.confirm('Are you sure you want to delete all of your tunes on this device? Login to delete tunes from all your devices.')) {
+                if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device?')) {
                    tunebook.deleteAll()
                 }
             }

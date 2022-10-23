@@ -17,7 +17,7 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
   const docs = useGoogleDocument(token)
 
   var linkBase = window.location.origin 
-  linkBase = 'https://tunebook.syntithenai.com'
+  linkBase = 'https://tunebook.net'
   const [link,setLink] = useState(null)
   
   var style={color:'black'}

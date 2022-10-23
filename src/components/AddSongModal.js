@@ -15,6 +15,7 @@ function AddSongModal(props) {
   const [songChords, setSongChords] = useState('')
   const [songComposer, setSongComposer] = useState('')
   const [songNotes, setSongNotes] = useState('')
+  
   const handleClose = () => {
       setShow(false);
       setForceNewTune(false)
@@ -24,6 +25,7 @@ function AddSongModal(props) {
       setSongChords('')
       setSongComposer('')
       setSongNotes('')
+      if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
   }
   const handleShow = () => setShow(true);
   const boostUp = () => {}
@@ -44,7 +46,10 @@ function AddSongModal(props) {
         return filterOk
     
     }
-    
+  
+   useEffect(function() {
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)
+   }, [])
 
   
   const [forceNewTune, setForceNewTune] = useState(false)
