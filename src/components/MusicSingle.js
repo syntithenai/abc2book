@@ -153,9 +153,7 @@ export default function MusicSingle(props) {
                   <Dropdown.Menu>
                     <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
                      <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
-                     <Dropdown.Item target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube} Search YouTube</Button>
-                    
-                    </Dropdown.Item>
+                     
                     <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
@@ -176,10 +174,14 @@ export default function MusicSingle(props) {
                       <Button onClick={function() {props.setViewMode('chords')}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
                       
                     </ButtonGroup>
+                    <span style={{float:'left', marginLeft:'0.3em'}} >
+                   <a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube}</Button>
+                        
+                        </a> 
+                    </span>
+
                 </ButtonToolbar>
 
-               
-                
                
                 
             </div>
