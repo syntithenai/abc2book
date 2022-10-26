@@ -21,7 +21,7 @@ export default {
         'bhavit': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/bhavit.jpg', book:"bhavit"},
         'steve\s whole songbook (live)': {googleDocumentId: '1ob9DTfROfBzIzON2cnIceQtmynt14Gnl', image:'/book_images/steve.jpg'},
         'kameruka choir': {group:'Communities', link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/kamerukachoir.jpg', book:"kameruka choir"},
-        'kameruka bush dance': {group:'Communities', link:'https://tunebook.net/scrape/kameruka bush dance.abc'},
+        'kameruka bush dance': {group:'Communities', link:'https://tunebook.net/scrape/steve song book.abc'},
         'sean kenan irish music': {group:'Collections', link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/seankenanirishmusic.jpg', book:"sean kenan irish music"},
         
         //'fred': {link: '1ob9DTfROfBzIzON2cnIceQtmynt14Gnl'},

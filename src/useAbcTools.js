@@ -101,7 +101,7 @@ var useAbcTools = () => {
 
     
     function abc2json(abc) {
-        //console.log('abc2json',abc)
+        console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
         var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
         var currentVoice = '1'
@@ -236,7 +236,7 @@ var useAbcTools = () => {
             } 
         })
         //console.log('FOUND TUNE LINKS',links)
-        tune.links = links
+        tune.links = Object.values(links)
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
           return tune
