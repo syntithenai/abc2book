@@ -5,6 +5,7 @@ import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
+import LinksEditor from './LinksEditor'
 
 export default function AbcEditor(props) {
   const [abcText, setAbcText] = useState(props.abc);
@@ -222,6 +223,12 @@ export default function AbcEditor(props) {
                       <Form.Group className="mb-3" controlId="tempo">
                         <Form.Label>Repeats</Form.Label>
                         <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                      </Form.Group>
+                      
+                      <Form.Group className="mb-3" controlId="links">
+                        <Form.Label style={{paddingBottom:'1em'}} >Links</Form.Label>
+                        <LinksEditor tunebook={props.tunebook} tune={tune} />
+
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="noteLength">

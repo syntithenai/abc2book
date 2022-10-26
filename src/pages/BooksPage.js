@@ -1,5 +1,5 @@
 import {Link , Outlet } from 'react-router-dom'
-import {Button} from 'react-bootstrap'
+import {Button, ButtonGroup} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
 import IndexLayout from '../components/IndexLayout'
 import ImportCollectionModal from '../components/ImportCollectionModal'
@@ -10,14 +10,14 @@ import AddSongModal from '../components/AddSongModal'
 import ImportOptionsModal from '../components/ImportOptionsModal'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 import Accordion from 'react-bootstrap/Accordion';
-
+import {useNavigate} from 'react-router-dom'
  //<Accordion defaultActiveKey="0">
       //<Accordion.Item eventKey="0">
         //<Accordion.Header>Accordion Item #1</Accordion.Header>
         //<Accordion.Body>
 
 export default function BooksPage(props) {
-    
+    const navigate = useNavigate()
     function getShowParam() {
         if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
             return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
@@ -39,6 +39,12 @@ export default function BooksPage(props) {
     console.log(notCollatedCurated)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     
+    
+    function fillMediaPlaylist(book) {
+        var tunes=props.tunebook.mediaFromBook(book)
+        props.setMediaPlaylist({currentTune: 0, book:book, tunes:tunes})
+    }
+    
     return <div className="App-books">
         
         
@@ -51,11 +57,11 @@ export default function BooksPage(props) {
                 <h4>Your Books</h4>
                 <div>{Object.keys(props.tunebook.getTuneBookOptions()).map(function(option, ok) {
                     if (option && option.trim().length > 0) { 
-                        return <Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >
+                        return <ButtonGroup style={{minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >
                             <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} />
-                            <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} >{option} </Link>
-                            <img style={{height:'50px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" />
-                        </Button>
+                            <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button>{option} <img style={{height:'50px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" /></Button></Link>
+                            <Button onClick={function() {fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
+                        </ButtonGroup>
                     } else {
                         return null
                     }

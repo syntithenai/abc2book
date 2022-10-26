@@ -1,5 +1,5 @@
 import { Link  , useLocation} from 'react-router-dom'
-import {Button, Dropdown} from 'react-bootstrap'
+import {Badge, Button, Dropdown} from 'react-bootstrap'
 import TempoControl from './TempoControl' 
 import GoogleAd from './GoogleAd'
 import ShareTunebookModal from './ShareTunebookModal'
@@ -16,12 +16,16 @@ export default function Header(props) {
     var params = {tuneId: parts.length === 3 ? parts[2] : null}
     
     const onKeyPress = (event) => {
-        if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
-            props.tunebook.navigateToNextSong(params.tuneId,navigate)
-        } else if (event.key === 'ArrowLeft' && location.pathname.startsWith('/tunes/') && params.tuneId) {
-            props.tunebook.navigateToPreviousSong(params.tuneId,navigate)
+        if (!props.blockKeyboardShortcuts) {
+            if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
+                props.tunebook.navigateToNextSong(params.tuneId,navigate)
+                //props.setCurrentTune(params.tuneId)
+            } else if (event.key === 'ArrowLeft' && location.pathname.startsWith('/tunes/') && params.tuneId) {
+                props.tunebook.navigateToPreviousSong(params.tuneId,navigate)
+                //props.setCurrentTune(params.tuneId)
+            }
+            console.log(`key pressed: ${event.key}`);
         }
-        console.log(`key pressed: ${event.key}`);
     };
     useKeyPress(['ArrowRight', 'ArrowLeft'], onKeyPress);
 
@@ -30,10 +34,10 @@ export default function Header(props) {
     //console.log("param  ",params,location)
     return <header className="App-header" style={{zIndex:11, fontSize:'1.2em'}} >
         <span style={{marginRight:'2em'}} >
-           <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.bookheader}</Button></Link>
-           <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.searchheader}</Button></Link>
+           <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.bookheader}</Button></Link>
+           <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.searchheader}</Button></Link>
             
-             {(props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
+             {(props.mediaPlaylist === null && props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
             {!isMobile && <>
                  
                    
@@ -59,7 +63,7 @@ export default function Header(props) {
                   {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
                   
                     
-                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'10em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
+                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'4em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
                 
                     
                 
@@ -97,7 +101,7 @@ export default function Header(props) {
             
             
        </span>
-        
+       
     </header>
 }
        //{isMobile && <Dropdown.Item style={dropdownStyle}  ><Link to="/review" ><Button  variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname.startsWith('/review') ? '1px solid black' : '')}}>{props.tunebook.icons.review} </Button></Link>

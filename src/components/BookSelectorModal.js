@@ -50,7 +50,7 @@ function BookSelectorModal(props) {
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} >{options[option]}</ListGroup.Item>
+              return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} ><img style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" /> {options[option]}</ListGroup.Item>
             })}
           </ListGroup>
         </Modal.Footer>

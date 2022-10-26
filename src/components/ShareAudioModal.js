@@ -13,7 +13,7 @@ export default function ShareAudioModal({tunebook, token, recording, recordingsM
   const docs = useGoogleDocument(token)
 
   var linkBase = window.location.origin 
-  linkBase = 'https://tunebook.syntithenai.com'
+  linkBase = 'https://tunebook.net'
   const [link,setLink] = useState(null)
   //console.log(recording,token)
   if (!recording || !token) return null 

@@ -25,7 +25,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     var useTunes = tunes
     if (currentTuneBook) {
       useTunes = {}
-      Object.values(tunes).forEach(function(val) {
+      var filtered = Object.values(tunes)
+      filtered.sort(function(a,b) { 
+          return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+      })
+      filtered.forEach(function(val) {
         if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
           //console.log(val, val.books)
           useTunes[val.id] = val
@@ -37,6 +41,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       if (Object.keys(useTunes).length > 0)  {
         var next = useTunes[Object.keys(useTunes)[0]]
         if (next && next.id) {
+          setCurrentTune(next.id)
           navigate('/tunes/' + next.id)
         }
       }
@@ -57,6 +62,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           i++
       }
       if (found) {
+        setCurrentTune(found)
         navigate('/tunes/' + found)
       } else {
         doFallback()
@@ -72,9 +78,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     var useTunes = tunes
     if (currentTuneBook) {
       useTunes = {}
-      Object.values(tunes).forEach(function(val) {
+      var filtered = Object.values(tunes)
+      filtered.sort(function(a,b) { 
+          return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+      })
+      filtered.forEach(function(val) {
         if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-          console.log(val, val.books)
+          //console.log(val, val.books)
           useTunes[val.id] = val
         }
       })
@@ -82,8 +92,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     function doFallback() {
       // fallback to first song
       if (Object.keys(useTunes).length > 0)  {
-        var next = useTunes[Object.keys(useTunes)[0]]
+        var next = useTunes[Object.keys(useTunes)[Object.keys(useTunes).length - 1]]
         if (next && next.id) {
+          setCurrentTune(next.id)
           navigate('/tunes/' + next.id)
         }
       }
@@ -104,6 +115,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           i++
       }
       if (found) {
+        setCurrentTune(found)
         navigate('/tunes/' + found)
       } else {
         doFallback()
@@ -312,6 +324,24 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             }
         }
         return found
+    }
+    
+    function hasNotes(tune) {
+        var hasNotes = false
+        if (tune.voices) {
+            Object.values(tune.voices).forEach(function(voice) {
+                if (Array.isArray(voice.notes)) {
+                    for (var i=0 ; i < voice.notes.length; i++) {
+                        if (voice.notes[i]) {
+                            hasNotes = true
+                            break;
+                        }
+                    }
+                }
+            })
+        }
+        
+        return hasNotes
     }
   
   /** 
@@ -557,6 +587,98 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //console.log('to abc res',res)
     return res
   }
+  
+  function fromSelection(selection) {
+    //console.log('from book',book, tunes)
+    var res = Object.values(tunes).filter(function(tune) {
+        if (selection[tune.id]) {
+          return true
+        } else {
+          return false
+        }
+    })
+    //console.log('to abc res',res)
+    return res
+  }
+  function shuffle(array) {
+      let currentIndex = array.length,  randomIndex;
+
+      // While there remain elements to shuffle.
+      while (currentIndex != 0) {
+
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+          array[randomIndex], array[currentIndex]];
+      }
+
+      return array;
+    }
+  function mediaFromBook(book) {
+    //console.log('from book',book, tunes)
+    var res = Object.values(tunes).filter(function(tune) {
+        if (book) {
+          if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
+            if (tune.links && tune.links.length > 0) {
+                var found = false
+                tune.links.forEach(function(link) {
+                  if (link.link && link.link.trim()) {
+                      found = true
+                  }
+                })
+                return found
+            } else {
+                return false
+            }
+          } else {
+            return false
+          }
+        } else {
+          if (tune.links && tune.links.length > 0) {
+                var found = false
+                tune.links.forEach(function(link) {
+                  if (link.link && link.link.trim()) {
+                      found = true
+                  }
+                })
+                return found
+            } else {
+                return false
+            }
+        }
+    })
+    //console.log('to abc res',res)
+    res = shuffle(res)
+    return res
+  }
+  
+  function mediaFromSelection(selection) {
+    //console.log('from book',book, tunes)
+    var res = Object.values(tunes).filter(function(tune) {
+        if (selection[tune.id]) {
+          if (tune.links && tune.links.length > 0) {
+                var found = false
+                tune.links.forEach(function(link) {
+                  if (link.link && link.link.trim()) {
+                      found = true
+                  }
+                })
+                return found
+            } else {
+                return false
+            }
+        } else {
+          return false
+        }
+    })
+    //res = shuffle(res)
+    //console.log('to abc res',res)
+    return res
+  }
+  
   function toAbc(book) {
     //console.log('to abc',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
@@ -580,6 +702,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
   }
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes};
 }
 export default useTuneBook

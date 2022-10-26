@@ -457,7 +457,7 @@ export default function Abc(props) {
   function primeTune(audioContext, visualObj, force) {
     
       return new Promise(function(resolve,reject) {
-          console.log('PRIME TUNE', audioContext, visualObj,props)
+          //console.log('PRIME TUNE', audioContext, visualObj,props)
           if (visualObj) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
@@ -467,7 +467,7 @@ export default function Abc(props) {
             //var warp =  props.warp > 0 ? props.warp : 1
             var initOptions = {
               onPlaying: function(details) {
-                console.log('abconplay',details,midiBuffer.duration)
+                //console.log('abconplay',details,midiBuffer.duration)
                 //realProgress.current = details.timePlayed
                 if (midiBuffer.duration > 0) setSeekTo((details.timePlayed + details.startOffset)/midiBuffer.duration)
               }, 
@@ -493,7 +493,7 @@ export default function Abc(props) {
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
-              console.log('resolveWithTimingAndCursor',props.tempo,getWarp())
+              //console.log('resolveWithTimingAndCursor',props.tempo,getWarp())
               var timingCallbacks = new abcjs.TimingCallbacks(visualObj, {
                 beatCallback: beatCallback,
                 eventCallback: function(ev) {eventCallback(ev)},
@@ -552,7 +552,7 @@ export default function Abc(props) {
                       
                       const [duration, audioBuffers] = audioResult
                       if (audioBuffers) {
-                        console.log('GOT BUF',audioBuffers, duration, initOptions)
+                        //console.log('GOT BUF',audioBuffers, duration, initOptions)
                          //primeAndResolve()
                          //logtime('preinit')
                          midiBuffer.init(initOptions).then(function (response) { 
@@ -1028,9 +1028,9 @@ export default function Abc(props) {
           <span >
              <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} forceRefresh={props.forceRefresh} />
              {(props.tempo) ? <span style={{position:'fixed', top: 4, right: 4, zIndex: 66}} >
-              <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  
+              {!props.hidePlayer && <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  }
             </span> : null}
-            {gaudioContext && gaudioContext.current && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
+            {(gaudioContext && gaudioContext.current && !props.hidePlayer) && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
            {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(props.repeat - playCount )}</Button>}
             {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
             {!props.link && <div id="abc_music_viewer" ref={inputEl} ></div>}

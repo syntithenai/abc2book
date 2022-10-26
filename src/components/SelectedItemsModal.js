@@ -2,6 +2,7 @@ import {useState} from 'react'
 import {Button, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
 
 export default function SelectedItemsModal(props) {
+  console.log(props)
   const [show, setShow] = useState(false);
   const [filterAdd, setFilterAdd] = useState('');
   const [filterRemove, setFilterRemove] = useState('');
@@ -97,7 +98,14 @@ export default function SelectedItemsModal(props) {
       
     }
   }
-  
+  function fillMediaPlaylist() {
+    var tunes=props.tunebook.mediaFromSelection(props.selected)
+    console.log(tunes)
+    props.setMediaPlaylist({currentTune: 0, book:'selection', tunes:Object.values(tunes)})
+    handleClose()
+  }
+
+
   return (
     <>
       <Button  variant="secondary" onClick={handleShow}>
@@ -110,7 +118,8 @@ export default function SelectedItemsModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <Button style={{float:'right'}} variant="danger" onClick={clickDelete} >Delete</Button>
+          <Button style={{float:'right', marginLeft:'0.4em'}} variant="danger" onClick={clickDelete} >Delete</Button>
+          <Button style={{float:'right'}} variant="success" onClick={fillMediaPlaylist} >{props.tunebook.icons.youtube}</Button>
           <Tabs defaultActiveKey="addbook" >
             <Tab  eventKey="addbook" title="Add">
               <input type='search' value={filterAdd} onChange={function(e) {filterAddChange(e.target.value)}}   />

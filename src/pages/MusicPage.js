@@ -1,11 +1,24 @@
-import {Link, Outlet  } from 'react-router-dom'
+import {Link, Outlet , useParams, useNavigate } from 'react-router-dom'
 import {Button} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
 import IndexLayout from '../components/IndexLayout'
-
+import {useEffect, useState} from 'react'
 export default function MusicPage(props) {
+    const params = useParams()
+    const navigate = useNavigate()
+    useEffect(function() {
+        var currentTuneKey = props.mediaPlaylist && props.mediaPlaylist.currentTune > props.mediaPlaylist.currentTune ? parseInt(props.mediaPlaylist.currentTune) : 0
+        // if param doesn't match playlist, navigate to tune from playlist current item
+        if (props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > currentTuneKey && props.mediaPlaylist.tunes[currentTuneKey]) {
+            var shouldBe = props.mediaPlaylist.tunes[currentTuneKey].id
+            if (shouldBe && params.tuneId != shouldBe) {
+                navigate('/tunes/'+shouldBe+"/playMedia/0")
+            }
+        }
+    }, [props.mediaPlaylist])
+    
     return <div className="music-page">
        <Outlet/>
-       <IndexLayout googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes}  setCurrentTune={props.setCurrentTune} tunesHash={props.tunesHash}  tunebook={props.tunebook} forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+       <IndexLayout googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes}  setCurrentTune={props.setCurrentTune} tunesHash={props.tunesHash}  tunebook={props.tunebook} forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist}  />
     </div>
 }

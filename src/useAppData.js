@@ -122,8 +122,27 @@ export default function useAppData() {
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
   const [importResults, setImportResults] = useState(null)
+  const [mediaPlaylist, setMediaPlaylistReal] = useState(null)
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId} 
+  // ensure playlist has media links or set null
+  function setMediaPlaylist(playlist) {
+      if (playlist && playlist.hasOwnProperty('tunes') && playlist.tunes.length > 0) {
+          var foundMedia = false
+          playlist.tunes.forEach(function(t) {
+            if (Array.isArray(t.links)  && t.links.length > 0) {
+                foundMedia = true
+            }
+          })
+          if (foundMedia) {
+            setMediaPlaylistReal(playlist)
+          } else {
+            setMediaPlaylistReal(null)
+          }
+      } else {
+          setMediaPlaylistReal(null)
+      }
+  }
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist} 
   
 }
 //tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

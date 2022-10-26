@@ -9,7 +9,11 @@ import ShareTunebookModal from './ShareTunebookModal'
 import {useSwipeable} from 'react-swipeable'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-  
+import YouTube from 'react-youtube';  
+import YouTubeSearchModal from './YouTubeSearchModal'
+import LinksEditorModal from './LinksEditorModal'
+import PlaylistManagerModal from './PlaylistManagerModal'
+
   //return (
     //<ReactTags
       //ref={reactTags}
@@ -23,13 +27,21 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
+    const audioPlayer = useRef(); 
+    var youtubeProgressInterval = useRef()
+    //var {searchYouTube} = useYouTubeSearch()
     //console.log('single',props)
-    
+    const [showMedia, setShowMedia] = useState(false)
+    const [mediaLinkNumber, setMediaLinkNumber] = useState(params.mediaLinkNumber > 0 ? params.mediaLinkNumber : 0)
+    const [mediaLoading, setMediaLoading] = useState(false)
+    const [ytMediaPlayer, setYTMediaPlayer] = useState(null)
+    const [mediaProgress, setMediaProgress] = useState(0)
+    const [mediaRefresh, setMediaRefresh] = useState(new Date())
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
         delta:300,
-        trackMouse: true,    
+        trackMouse: false,    
       onSwipedRight: (eventData) => {
           props.tunebook.navigateToPreviousSong(tune.id,navigate)
       },
@@ -38,7 +50,13 @@ export default function MusicSingle(props) {
       }
     });  
     
-
+    useEffect(function() {
+        if (!showMedia) {
+            console.log('stop tom er')
+            clearInterval(youtubeProgressInterval.current)
+            youtubeProgressInterval.current = null
+        }
+    }, [showMedia])
     
     function getBeatsPerBar(meter) {
           switch (meter) {
@@ -85,9 +103,27 @@ export default function MusicSingle(props) {
            //if (tempo != props.tempo) {
                //props.setTempo(tempo)
            //}
+           // has words but no music
+           if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
+               props.setViewMode('chords')
+           }
+           // has music but no words
+           if (!props.tunebook.hasLyrics(tune) && props.tunebook.hasNotes(tune))  {
+               props.setViewMode('music')
+           }
            props.tunebook.utils.scrollTo('topofpage')
+           setMediaLinkNumber(params.mediaLinkNumber)
+           //console.log(params,tune.links)
+           if (params.playState === "playMedia") {
+                if (Array.isArray(tune.links) && tune.links.length > 0) {
+                    //setMediaLinkNumber(0)
+                    setMediaProgress(0);  
+                    setMediaLoading(true); 
+                    setShowMedia(true)
+                }
+           }
         }
-    },[params.tuneId])
+    },[params.tuneId, params.mediaLinkNumber, params.playState])
 
     function getTempo() {
         // use page tempo that has been updated from tune
@@ -119,6 +155,7 @@ export default function MusicSingle(props) {
               }
             })
         } 
+        //<iframe src={link} ></iframe>
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
         var firstVoice = Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
         var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
@@ -139,58 +176,227 @@ export default function MusicSingle(props) {
                 })
             })
         })
+        
+        function getYouTubeId(url) {
+            const arr = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+            return undefined !== arr[2] ? arr[2].split(/[^\w-]/i)[0] : arr[0];
+        }
+        
+        function isYoutubeLink(urlToParse){
+            if (urlToParse) {
+                var regExp = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+                if (urlToParse.match(regExp)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        function shouldPlayMedia() {
+            //console.log('SPM',showMedia,tune)
+            return (showMedia && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber])
+        }
+        var useMediaLinkNumber = mediaLinkNumber > 0 ? mediaLinkNumber : 0
+        
+        // update state to next link or navigate to next tune where there is a currentMediaPlaylist
+        function nextLinkOrTune() {
+            //mediaLinkNumber
+            //tune
+            console.log('nexzt tune or link',mediaLinkNumber,tune)
+            //var useMediaLinkNumber = mediaLinkNumber > 0 ? parseInt(mediaLinkNumber) : 0
+            if (Array.isArray(tune.links) && tune.links.length > (useMediaLinkNumber + 1)) {
+                console.log('nexzt  link',useMediaLinkNumber + 1)
+                //setMediaLinkNumber(mediaLinkNumber + 1)
+                //props.forceRefresh()
+                navigate('/tunes/'+tune.id+"/playMedia/"+(useMediaLinkNumber + 1))
+            } else {
+                if (props.mediaPlaylist && Array.isArray(props.mediaPlaylist.tunes) && props.mediaPlaylist.tunes.length > 1) {
+                    console.log('next tune',props.mediaPlaylist)
+                    var nextTuneNumber = parseInt(props.mediaPlaylist.currentTune) > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1  : 1
+                    console.log('next tune num',nextTuneNumber)
+                    if (props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > nextTuneNumber) {
+                        var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
+                        console.log('next tune rr',nextTune)
+                        if (nextTune && nextTune.id) {
+                            setMediaProgress(0)
+                            setMediaLinkNumber(0)
+                            setMediaLoading(true)
+                            navigate('/tunes/'+nextTune.id+"/playMedia/0")
+                        }
+                    }
+                } else {
+                    console.log('fallback loop links')
+                    if (Array.isArray(tune.links) && tune.links.length > 0) {
+                        setMediaProgress(0)
+                        setMediaLinkNumber(0)
+                        setMediaLoading(true)
+                        navigate('/tunes/'+tune.id+"/playMedia/0")
+                    }
+                }
+            }
+        }
+                
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
         return <div className="music-single" {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
-                <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' style={{float:'left'}} >{props.tunebook.icons.pencil}</Button></Link>
-               
                 
-                <Dropdown style={{float:'left', marginLeft:'0.1em'}}>
-                  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{height:'2.4em'}}>
-                  </Dropdown.Toggle>
+                <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
+                    <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link><Dropdown >
+                      <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{height:'2.4em'}}>
+                      </Dropdown.Toggle>
 
-                  <Dropdown.Menu>
-                    <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
-                     <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
-                     
-                    <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>
-                
-                 <span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={true} tuneId={tune.id} buttonSize={'small'}  /></span>
+                      <Dropdown.Menu>
+                        <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
+                         <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
+                         
+                        <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
+                        
+                         <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} tuneId={tune.id} buttonSize={'small'}  /></span></Dropdown.Item>
                
+                        
+                      </Dropdown.Menu>
+                    </Dropdown>
+                 </ButtonGroup>   
                 
-                <span style={{float:'left', marginLeft:'0.3em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+                
+                <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
 
   
                 <ButtonToolbar
                 
-                    className="justify-content-between"
+                    className=""
                   >
-                    <ButtonGroup aria-label="First group" variant="info" style={{marginLeft:'0.3em'}}
+                    <ButtonGroup aria-label="First group" variant="info" style={{float:'left', marginLeft:'0.2em'}}
                     >
                       <Button onClick={function() {props.setViewMode('music')}} variant="secondary">{props.tunebook.icons.music}</Button>{' '}
                       <Button onClick={function() {props.setViewMode('chords')}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
                       
                     </ButtonGroup>
-                    <span style={{float:'left', marginLeft:'0.3em'}} >
-                   <a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube}</Button>
+                    
+                    
+    
+                    {props.mediaPlaylist === null && <ButtonGroup style={{float:'left', marginLeft:'0.2em', maxWidth:'50px'}} >
+                        {/*
+                            !(Array.isArray(tune.links) && tune.links.length > 0) && <><a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube}</Button>
+                        </a>
+                        </>
+                        */}
                         
-                        </a> 
-                    </span>
-
+                        {/* Have at least one link, play button starts playing*/}
+                        {(Array.isArray(tune.links) && tune.links.length > 0) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.youtube)}</Button>
+                        }
+                        {/* Have no link, play button triggers youtube search*/}
+                        {!(Array.isArray(tune.links) && tune.links.length > 0) && <YouTubeSearchModal tunebook={props.tunebook} value={tune.links}  onChange={function(links) {
+                                    tune.links = links; 
+                                    props.tunebook.saveTune(tune); 
+                                    setMediaProgress(0);  
+                                    setMediaLoading(true); 
+                                    setShowMedia(true)
+                                }}
+                                triggerElement={<>{props.tunebook.icons.youtube}</>}
+                                value={(tune.name ? tune.name : '') + (tune.composer ? ' ' + tune.composer : '')}
+                            />
+                        }
+                        {(Array.isArray(tune.links) && tune.links.length > 0) && <LinksEditorModal tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
+                        
+                    </ButtonGroup>}
+                  
                 </ButtonToolbar>
 
                
-                
+                {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
+                        {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
+                            onCanPlay={function(event) { 
+                                setMediaLoading(false); 
+                            }} 
+                            width="1px" height="1px" autoplay={"true"} 
+                            onEnded={function() {
+                                console.log('ended a')
+                                // next link
+                                nextLinkOrTune()
+                            }}
+                            onError={function(e) {console.log('err med',e)}} 
+                            onTimeUpdate={function(e) {
+                                setMediaProgress(e.target.currentTime/e.target.duration)
+                            }}
+                             >
+                                <source src={tune.links[useMediaLinkNumber].link} type="video/ogg" />
+                                Your browser does not support the video tag.
+                                </audio> : <div style={{clear:'both'}} >
+                                
+                                <YouTube videoId={getYouTubeId(tune.links[useMediaLinkNumber].link)} opts={{
+                                  height: '1px',
+                                  width: '1px',
+                                  playerVars: {
+                                    loop : 1,
+                                    autoplay: 1,
+                                    controls: 0,
+                                  },
+                                }} 
+                                onEnd={function() {
+                                    console.log('ty ended')
+                                    clearInterval(youtubeProgressInterval.current)
+                                    youtubeProgressInterval.current = null
+                                    nextLinkOrTune()
+                                }} 
+                                onError={function(e) {
+                                    console.log('err yt',e)
+                                    clearInterval(youtubeProgressInterval.current)
+                                    youtubeProgressInterval.current = null
+                                }} 
+                                onReady={
+                                    function(event) {
+                                        setYTMediaPlayer(event.target); 
+                                        event.target.playVideo()
+                                        //setMediaLoading(false)
+                                    
+                                    }    
+                                }
+                                onStateChange={
+                                    function(e) {
+                                        if (e.data === 1) {
+                                            setMediaLoading(false)
+                                            clearInterval(youtubeProgressInterval.current)
+                                            youtubeProgressInterval.current = setInterval(function() {
+                                                setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
+                                                //console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
+                                            }, 100)
+                                        }
+                                    }
+                                } 
+                                
+                                 /> 
+                                
+                            </div>
+                            
+                        }
+                        <input style={{width:'100%', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
+                                        console.log('set media progress',e.target.value)
+                                        setMediaProgress(e.target.value); 
+                                            
+                                        try {
+                                            console.log(e.target.value); 
+                                            if (ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.seekTo) {
+                                                ytMediaPlayer.seekTo(e.target.value * ytMediaPlayer.getDuration()) 
+                                            };
+                                        } catch (e) {
+                                            console.log(e)
+                                        }
+                                        if (audioPlayer && audioPlayer.current) {
+                                            console.log('set audio player')
+                                            audioPlayer.current.currentTime = e.target.value * audioPlayer.current.duration 
+                                        }
+                                    
+                                    }}  />
+                    </div>}
             </div>
             
 
              {props.viewMode === 'chords' && <>
              
              
-             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', width:'65%'}} >
+             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', marginTop:'1em', width:'65%'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                             return <div key={lk} className="lyrics-line" >{line}</div>
@@ -200,7 +406,7 @@ export default function MusicSingle(props) {
              </div>
               
   
-             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
+             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'6em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
                 <div style={{ overflowY:'scroll', height:'100%'}} >
                     <pre style={{ border:'1px solid black',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
                     
@@ -216,16 +422,22 @@ export default function MusicSingle(props) {
              </div>
              </>}
              {props.viewMode !== 'chords' && <>
-              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} />
+                 {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
+              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} />
              </>}
              
-             
+              {(props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
+                    <ButtonGroup variant="danger">
+                        <Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
+                        <PlaylistManagerModal tunebook={props.tunebook} mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} />
+                    </ButtonGroup>
+               </div>}
              
              
         </div>
     }
 }
-
+//<Badge>{props.mediaPlaylist && props.mediaPlaylist.currentTune > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1 : 1}/{props.mediaPlaylist.tunes.length}</Badge>
  //<Button title="Print" className='btn-primary'  style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
                 //<Button title="Download" className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
                 //<a  style={{float:'left'}}  target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button title="Search YouTube">{props.tunebook.icons.youtube}</Button></a>

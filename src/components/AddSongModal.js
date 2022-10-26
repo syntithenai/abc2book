@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import {ListGroup, Button, Modal, Badge, Tabs, Tab} from 'react-bootstrap'
+import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
 import {useNavigate} from 'react-router-dom'
@@ -183,7 +183,8 @@ function AddSongModal(props) {
         <Modal.Body>
           <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0 && forceNewTune) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
           {(songTitle.length === 0) &&<Button style={{float:'right'}} variant="secondary" >Add</Button>}
-           <div>Add tune to <BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button  style={{marginLeft:'1em'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>}   />
+           <div>Add tune to &nbsp;&nbsp;&nbsp;<ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')}</Button>}   />
+           </ButtonGroup>
            </div>
            <br/>
           <label>Title <input type="text" value={songTitle} autofocus onChange={function(e) {setSongTitle(e.target.value) }} /></label>
