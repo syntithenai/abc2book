@@ -105,7 +105,7 @@ function App(props) {
    */
   function mergeTuneBook(tunebookText) {
       setShowWaitingOverlay(true)
-      //console.log('merge',tunebookText)
+      console.log('mergetb',tunebookText)
       var inserts={}
       var updates={}
       var patches={} // updates with common parent
@@ -151,14 +151,14 @@ function App(props) {
       })
     
       var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      //console.log('merge done' ,ret)
+      console.log('merge done' ,ret)
       setShowWaitingOverlay(false)
       return ret
   }
   
   function overrideTuneBook(fullSheet) {
     setShowWaitingOverlay(true)
-    //console.log('overrideTuneBook')
+    console.log('overrideTuneBook')
     pauseSheetUpdates.current = true
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
@@ -182,9 +182,9 @@ function App(props) {
 
   
   function onMerge(fullSheet) {
-    //console.log('onmerge')
+    console.log('onmerge')
     var trialResults = mergeTuneBook(fullSheet)
-    //console.log('onmerge', fullSheet.length, trialResults)
+    console.log('onmerge', fullSheet.length, trialResults)
     // warning if items are being deleted
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
       //console.log('onmerge set results',trialResults)
