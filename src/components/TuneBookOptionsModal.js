@@ -2,13 +2,13 @@ import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import ShareTunebookModal from './ShareTunebookModal'
-
+import {useNavigate} from 'react-router-dom'
 function TuneBookOptionsModal(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  
+  const navigate = useNavigate()
   return (
     <>
       <Button style={{color:'black'}} variant="primary" onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
@@ -21,6 +21,8 @@ function TuneBookOptionsModal(props) {
           <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
             {props.tunebook.icons.save}  Download
           </Button>
+          <Button onClick={function() {console.log(props.tunebookOption, props.fillMediaPlaylist) ;props.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube} Play</Button>
+          
            {<span style={{marginLeft:'0.3em',float:'right'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
          <hr style={{width:'100%', clear:'both'}} />
           <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >

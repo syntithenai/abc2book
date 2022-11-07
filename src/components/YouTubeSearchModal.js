@@ -6,6 +6,7 @@ import Abc from './Abc'
 function YouTubeSearchModal(props) {
   const [show, setShow] = useState(false);
   const [filter, setFilter] = useState('');
+  const [error, setError] = useState('');
   const [options, setOptions] = useState(defaultOptions());
   const handleClose = () => {
       setShow(false);
@@ -65,7 +66,11 @@ function YouTubeSearchModal(props) {
       console.log('SEARCH',filter)
       axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=' + filter + '&key='+process.env.REACT_APP_GOOGLE_API_KEY).then(function(searchRes) {
         var results = []
-        if (searchRes && searchRes.data && searchRes.data) {
+        if (searchRes && searchRes.error) {
+            setError(searchRes.error.message)
+        }
+        if (searchRes && searchRes.data) {
+          setError('') 
           searchRes.data['items'].forEach(function(item) {
               //console.log(item)
               if (item.id && item.id.kind === "youtube#video") {
@@ -83,7 +88,10 @@ function YouTubeSearchModal(props) {
         }
         console.log(results)
         resolve( results)
-      })
+      }).catch((err) => {
+          console.log(err)
+          setError(err.message) 
+        });
     })
   }
 
@@ -141,6 +149,7 @@ function YouTubeSearchModal(props) {
           <input type='text' value={filter} onChange={filterChange}  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}   />
         </Modal.Body>
         <Modal.Footer>
+          {(error && error.length > 0) && <b>{error}</b>} 
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {Object.keys(options).map(function(option,tk) {
               return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'}  >

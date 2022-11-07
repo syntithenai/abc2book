@@ -33,7 +33,8 @@ function BookSelectorModal(props) {
             props.forceRefresh()
         }
     }
-  
+    var sortedOptions = Object.keys(options)
+    sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   return (
     <>
       <span onClick={handleShow} >{props.triggerElement}</span>
@@ -49,7 +50,7 @@ function BookSelectorModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-            {Object.keys(options).map(function(option,tk) {
+            {sortedOptions.map(function(option,tk) {
               return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} ><img style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" /> {options[option]}</ListGroup.Item>
             })}
           </ListGroup>

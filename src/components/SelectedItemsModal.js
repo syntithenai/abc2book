@@ -105,7 +105,9 @@ export default function SelectedItemsModal(props) {
     handleClose()
   }
 
-
+var sortedOptions = Object.keys(options)
+sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
+  
   return (
     <>
       <Button  variant="secondary" onClick={handleShow}>
@@ -125,7 +127,7 @@ export default function SelectedItemsModal(props) {
               <input type='search' value={filterAdd} onChange={function(e) {filterAddChange(e.target.value)}}   />
               {(props.allowNew !== false)  && <Button key="newbook" onClick={newBook}  >New Book</Button>}
               <ListGroup  style={{clear:'both', width: '100%'}}>
-                {Object.keys(options).map(function(option,tk) {
+                {sortedOptions.map(function(option,tk) {
                   return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function() {clickAddOption(options[option])}} >{options[option]}</ListGroup.Item>
                 })}
               </ListGroup>

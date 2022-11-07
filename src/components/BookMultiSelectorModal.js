@@ -52,7 +52,8 @@ function BookMultiSelectorModal(props) {
       props.onChange(uniqueBooksSelected)
       props.forceRefresh()
     }
-  
+  var sortedOptions = Object.keys(options)
+    sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   return (
     <>
       <Button variant="primary" onClick={handleShow}  >{props.tunebook.icons.book} {props.value && props.value.length > 0 ? <Badge variant="success" >{props.value.length}</Badge>: null}</Button>
@@ -72,7 +73,7 @@ function BookMultiSelectorModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-            {Object.keys(options).map(function(option,tk) {
+            {sortedOptions.map(function(option,tk) {
               return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {selectBook(option)}} >{options[option]}</ListGroup.Item>
             })}
           </ListGroup>

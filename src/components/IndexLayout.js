@@ -230,6 +230,7 @@ export default function IndexLayout(props) {
                 <span style={{ marginLeft:'0.3em', float:'right'}}>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
+                    <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.quillpen}</Button> : null}</span>
                     <span>{(Array.isArray(tune.links) && tune.links.length > 0) ? <Button variant="outline-primary">{props.tunebook.icons.youtubeblack}</Button> : null}</span>
                 </span> 
                 {selected[tune.id] && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}

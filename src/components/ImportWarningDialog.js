@@ -51,7 +51,7 @@ export default function ImportWarningDialog(props) {
             
           </div>
           <Tabs>
-            <Tab eventKey="inserts" title="Inserted" >
+            {Object.keys(props.importResults.inserts).length > 0 && <Tab eventKey="inserts" title="Inserted" >
               <ListGroup>
               {Object.values(props.importResults.inserts).map(function(v,k) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
@@ -66,8 +66,8 @@ export default function ImportWarningDialog(props) {
                 </ListGroup.Item>
               })}
               </ListGroup>
-            </Tab>
-            <Tab eventKey="updates" title="Updated" >
+            </Tab>}
+            { Object.keys(props.importResults.updates).length > 0 && <Tab eventKey="updates" title="Updated" >
             <ListGroup>
               {Object.values(props.importResults.updates).map(function(v,k) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
@@ -82,8 +82,8 @@ export default function ImportWarningDialog(props) {
                 </ListGroup.Item>
               })}
               </ListGroup>
-            </Tab>
-            <Tab eventKey="localUpdates" title="Local Updates" >
+            </Tab>}
+            {Object.keys(props.importResults.localUpdates).length > 0 && <Tab eventKey="localUpdates" title="Local Updates" >
             <ListGroup>
               {Object.values(props.importResults.localUpdates).map(function(v,k) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
@@ -98,8 +98,8 @@ export default function ImportWarningDialog(props) {
                 </ListGroup.Item>
               })}
               </ListGroup>
-            </Tab>
-            <Tab eventKey="skippedUpdates" title="Skipped Updates" >
+            </Tab>}
+            {Object.keys(props.importResults.skippedUpdates).length > 0 && <Tab eventKey="skippedUpdates" title="Skipped Updates" >
            <ListGroup>
               {Object.values(props.importResults.skippedUpdates).map(function(v,k) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
@@ -114,8 +114,9 @@ export default function ImportWarningDialog(props) {
                 </ListGroup.Item>
               })}
               </ListGroup>
-             </Tab>
-            <Tab eventKey="duplicates" title="Duplicates" >
+             </Tab>}
+             
+            {Object.keys(props.importResults.duplicates).length > 0 && <Tab eventKey="duplicates" title="Duplicates" >
               <ListGroup>
                 {Object.values(props.importResults.duplicates).map(function(v,k) {
                   return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
@@ -130,7 +131,7 @@ export default function ImportWarningDialog(props) {
                   </ListGroup.Item>
                 })}
                 </ListGroup>
-            </Tab>
+            </Tab>}
            
           </Tabs>
         </Modal.Body>}
