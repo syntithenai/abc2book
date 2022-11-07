@@ -11,6 +11,7 @@ export default {
         'charlotte songs': {group:'Friends',link:'https://tunebook.net/scrape/charlotte songs.abc', image:'/book_images/charlotte.jpg', book:"charlotte songs"},
         'charlotte originals': {group:'Friends',link:'https://tunebook.net/scrape/charlotte originals.abc', image:'/book_images/charlotteoriginals.jpg', book:"charlotte originals"},
         'velma': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/velma.jpg', book:"velma"},
+        'fiona': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/velma.jpg', book:"fiona"},
         'brooke': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/brooke.jpg', book:"brooke"},
         'andrew': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/andrew.jpg', book:"andrew"},
         'nick': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/nick.jpg', book:"nick"},
