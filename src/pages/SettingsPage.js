@@ -9,6 +9,7 @@ export default function SettingsPage(props) {
   const googleDocumentId = props.googleDocumentId
   const [link,setLink] = useState(null)
   const [preRenderAudioCheckbox,setPreRenderAudioCheckbox] = useState(localStorage.getItem('bookstorage_autoprime') === "true"  ? true : false)
+  const [mergeWarningsCheckbox,setMergeWarningsCheckbox] = useState(localStorage.getItem('bookstorage_mergewarnings') === "true"  ? true : false)
   
   function clickPreRenderAudio() {
       var current = localStorage.getItem('bookstorage_autoprime')
@@ -18,6 +19,18 @@ export default function SettingsPage(props) {
       } else {
         localStorage.setItem('bookstorage_autoprime',"true")
         setPreRenderAudioCheckbox(true)
+      } 
+      
+   }
+   
+   function clickEnableMergeWarnings() {
+      var current = localStorage.getItem('bookstorage_mergewarnings')
+      if (current === "true") {
+        localStorage.setItem('bookstorage_mergewarnings',"false")
+        setMergeWarningsCheckbox('')
+      } else {
+        localStorage.setItem('bookstorage_mergewarnings',"true")
+        setMergeWarningsCheckbox(true)
       } 
       
    }
@@ -43,10 +56,15 @@ export default function SettingsPage(props) {
         }} >Delete All Tunes</Button><br/>
        
        
-       <span>
+       <div>
          <label>Pre Render Audio ?<input type="checkbox" onChange={clickPreRenderAudio} checked={preRenderAudioCheckbox} /></label>
          <br/><b>This may cause the user interface to freeze temporarily without warning!</b>
-       </span>
+       </div>
+       <hr style={{margin:'1em'}}  />
+       <div>
+         <label>Enable Merge Warnings ?<input type="checkbox" onChange={clickEnableMergeWarnings} checked={mergeWarningsCheckbox} /></label>
+         <br/><b></b>
+       </div>
        
     </div>
 }
