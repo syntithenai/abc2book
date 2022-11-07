@@ -3,11 +3,12 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 
-export default function ImportLinkPage({tunebook, token, refresh}) {
+export default function ImportLinkPage({tunebook, token, refresh, setMediaPlaylist, autoplay}) {
     var navigate = useNavigate()
     var params = useParams()
     //console.log(params)
     const [error,setError] = useState('')
+    const [clickToStart, setClickToStart] = useState(false)
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
     //} 
@@ -29,6 +30,7 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
         navigate("/tunes")
     }
     
+    
     useEffect(function() {
       //console.log('impo go usef',params.googleDocumentId,token)
       if (!params.link) {
@@ -36,18 +38,31 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
       } else {
           //if (token) {
               // load document 
-              //console.log('ldd DO',params.link)
+              console.log('ldd DO',params.link, params)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
-                      //console.log(res.data)
-                      tunebook.importAbc(res.data,null,params.tuneId,params.bookName)
-                      //alert('imported')
-                      navigate("/tunes")
+                      console.log("gotres",res.data.length)
+                      var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName)
+                      console.log("gotreeees",results)
+                      if (!tunebook.showImportWarning(results)) {
+                          console.log("no show warning", autoplay , setMediaPlaylist)
+                          tunebook.applyImportData(results)
+                          if (autoplay && setMediaPlaylist) {
+                                var tunes=tunebook.mediaFromBook(params.bookName)
+                                console.log('tunes from book',tunes)
+                                setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
+                                setClickToStart(true)
+                          } else {  
+                            navigate("/tunes")
+                          }
+                      }
+                      
                   } else {
                       setError("Unable to load import source")
                   }
-              }).catch(function() {
-                    setError("Unable to load import source")    
+              }).catch(function(e) {
+                  console.log(e)
+                    setError("Error loading import source")    
               })
               //docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
                   //console.log('ldd',fullSheet)
@@ -60,13 +75,18 @@ export default function ImportLinkPage({tunebook, token, refresh}) {
               //})
             //}
       }
-    }, [params.googleDocumentId, token])
-    
-    return <>{(params.link && params.link.trim()) ? <div className="App-import">
-     <h1>Import a Shared Tune Book </h1>
-     {(!error) && <>Loading..</>}
-     {(error) && <>{error}</>}
-    </div> : null}</>
+    }, [])
+    if (clickToStart) {
+        return <div style={{width:'80%', margin:'5em', padding:'5em', backgroundColor:'lightgreen'}} >
+            <Button size='lg' variant="success" onClick={function() {setClickToStart(false); navigate("/tunes")}} >Start the Playlist</Button>
+            </div>
+    } else {
+        return <>{(params.link && params.link.trim()) ? <div className="App-import">
+         <h1>Import a Shared Tune Book </h1>
+         {(!error) && <>Loading..</>}
+         {(error) && <>{error}</>}
+        </div> : null}</>
+    }
 }
 //{agree 
          //? <ImportCollectionModal autoStart={params.curation && params.curation.trim() ? params.curation : false} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleCloseAgree} /> 
