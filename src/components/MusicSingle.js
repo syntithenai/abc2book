@@ -288,7 +288,7 @@ export default function MusicSingle(props) {
                 
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
-        return <div className="music-single" {...handlers} >
+        return <div className="music-single"  {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                 
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
@@ -323,7 +323,7 @@ export default function MusicSingle(props) {
                     <ButtonGroup aria-label="First group" variant="info" style={{float:'left', marginLeft:'0.2em'}}
                     >
                       <Button onClick={function() {props.setViewMode('music')}} variant="secondary">{props.tunebook.icons.music}</Button>{' '}
-                      <Button onClick={function() {props.setViewMode('chords')}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
+                      <Button onClick={function() {props.setViewMode('chords'); console.log('set chords',props.viewMode)}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
                       
                     </ButtonGroup>
                     
@@ -477,7 +477,8 @@ export default function MusicSingle(props) {
              </>}
              {<>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
-              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={props.viewMode == 'chords'} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} />
+                 <div style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
+              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} /></div>
              </>}
              
               {(props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
