@@ -189,10 +189,12 @@ function App(props) {
     if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
       //console.log('onmerge set results',trialResults)
       setSheetUpdateResults(trialResults)
+      props.tunebook.utils.scrollTo('topofpage')
       forceRefresh()
     } else { 
       //console.log('onmerge empty results',trialResults)
       setSheetUpdateResults(trialResults)
+      utils.scrollTo('topofpage')
       //applyMergeChanges(trialResults)
       //forceRefresh()
     }
@@ -245,6 +247,7 @@ function App(props) {
     //if (sheetUpdateResults) return true
     //return false 
     //console.log('showWarning')
+    
     if (sheetUpdateResults !== null) {
       if (sheetUpdateResults.deletes && Object.keys(sheetUpdateResults.deletes).length > 0) {
         return true
@@ -267,19 +270,20 @@ function App(props) {
     //return false 
     //console.log('showWarning')
     if (importResults !== null) {
-      return true
-      //if (importResults.deletes && Object.keys(importResults.deletes).length > 0) {
-        //return true
-      //}
-      //if (importResults.updates && Object.keys(importResults.updates).length > 0) {
-        //return true
-      //}
-      //if (importResults.inserts && Object.keys(importResults.inserts).length > 0) {
-        //return true
-      //}
-      //if (importResults.localUpdates && Object.keys(importResults.localUpdates).length > 0) {
-        //return true
-      //}
+        if (localStorage.getItem('bookstorage_mergewarnings') === "true")  {
+          if (importResults.deletes && Object.keys(importResults.deletes).length > 0) {
+            return true
+          }
+          if (importResults.updates && Object.keys(importResults.updates).length > 0) {
+            return true
+          }
+          if (importResults.inserts && Object.keys(importResults.inserts).length > 0) {
+            return true
+          }
+        }
+        if (importResults.localUpdates && Object.keys(importResults.localUpdates).length > 0) {
+          return true
+        } 
     }
     return false
   }
@@ -373,7 +377,9 @@ function App(props) {
                     
                     <Route  path={`importlink`} >
                       <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                    <Route  path={`:link/book/:bookName/play`} element={<ImportLinkPage autoplay={true}  setMediaPlaylist={setMediaPlaylist} tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                        <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                       
                        <Route  path={`:link/tune/:tuneId`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
                     </Route>
                     

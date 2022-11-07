@@ -235,7 +235,7 @@ var useAbcTools = () => {
                 }
             } 
         })
-        if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
+        //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)

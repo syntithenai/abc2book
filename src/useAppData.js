@@ -121,7 +121,11 @@ export default function useAppData() {
     localStorage.setItem('bookstorage_tunes', JSON.stringify(val))
   }
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
-  const [importResults, setImportResults] = useState(null)
+  const [importResults, setImportResultsReal] = useState(null)
+  function setImportResults(res) {
+      utils.scrollTo('topofpage')
+      setImportResultsReal(res)
+  }
   const [mediaPlaylist, setMediaPlaylistReal] = useState(null)
   
   // ensure playlist has media links or set null

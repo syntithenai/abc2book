@@ -13,6 +13,7 @@ import YouTube from 'react-youtube';
 import YouTubeSearchModal from './YouTubeSearchModal'
 import LinksEditorModal from './LinksEditorModal'
 import PlaylistManagerModal from './PlaylistManagerModal'
+import abcjs from "abcjs";
 
   //return (
     //<ReactTags
@@ -36,7 +37,9 @@ export default function MusicSingle(props) {
     const [mediaLoading, setMediaLoading] = useState(false)
     const [ytMediaPlayer, setYTMediaPlayer] = useState(null)
     const [mediaProgress, setMediaProgress] = useState(0)
+    const [midiData, setMidiData] = useState(null)
     const [mediaRefresh, setMediaRefresh] = useState(new Date())
+    const [isPlaying, setIsPlaying] = useState(false)
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
@@ -49,6 +52,8 @@ export default function MusicSingle(props) {
           props.tunebook.navigateToNextSong(tune.id,navigate)
       }
     });  
+    
+    
     
     useEffect(function() {
         if (!showMedia) {
@@ -95,6 +100,13 @@ export default function MusicSingle(props) {
        // props.tempo is an integer
        // tune tempo includes beat length eg 3/8=100
        if (tune) {
+                   
+            //abcjs.renderMidi(
+                //"midi-download-button",
+            //props.tunebook.abcTools.json2abc(tune),
+            //{
+                //generateDownload: true,
+            //});
            //var tempo = props.tunebook.abcTools.cleanTempo(tune.tempo)
            //if (tune.meter) {
              //var bpb = getBeatsPerBar(tune.meter)
@@ -235,6 +247,44 @@ export default function MusicSingle(props) {
                 }
             }
         }
+       
+        function downloadMidi() {
+            //console.log('DL')
+            var useTune = JSON.parse(JSON.stringify(tune))
+            // multiply notes to support repeats
+            if (useTune.repeats > 1 && useTune.voices && Object.keys(useTune.voices).length > 0) {
+                var newVoices = {}
+                Object.keys(useTune.voices).map(function(vKey) {
+                  newVoices[vKey] = useTune.voices[vKey]  
+                  newVoices[vKey].notes = newVoices[vKey].notes.join("\n").repeat(useTune.repeats).split("\n")
+                })
+                useTune.voices = newVoices
+            }
+            // transpose
+            var abc = props.tunebook.abcTools.json2abc(useTune)
+                
+            if (useTune.transpose !== 0) { 
+                var visualObj = abcjs.renderAbc("transpose_render", abc);
+                try {
+                    abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
+                } catch (e) {
+                    console.log("Failed tranpose", e)
+                }
+            }
+            var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: "binary" });
+            
+            //document.getElementById("midi-link").innerHTML = midi;
+            if (midi) { 
+                var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
+                var a = document.createElement("a");
+                document.body.appendChild(a);
+                a.style = "display: none";
+                a.href = url;
+                a.download = (tune.name ? tune.name : 'download') + ".midi";
+                a.click();
+                window.URL.revokeObjectURL(url);
+            }
+        }
                 
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
@@ -248,8 +298,11 @@ export default function MusicSingle(props) {
 
                       <Dropdown.Menu>
                         <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
+                        
                          <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
-                         
+                        
+                         <Dropdown.Item ><Button id={'midi-download-button'} className='btn-success' style={{float:'left'}} onClick={downloadMidi} >{props.tunebook.icons.midi} MIDI</Button></Dropdown.Item>
+                        
                         <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
                         
                          <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} tuneId={tune.id} buttonSize={'small'}  /></span></Dropdown.Item>
@@ -282,7 +335,6 @@ export default function MusicSingle(props) {
                         </a>
                         </>
                         */}
-                        
                         {/* Have at least one link, play button starts playing*/}
                         {(Array.isArray(tune.links) && tune.links.length > 0) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.youtube)}</Button>
                         }
@@ -309,6 +361,7 @@ export default function MusicSingle(props) {
                         {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
                             onCanPlay={function(event) { 
                                 setMediaLoading(false); 
+                                setIsPlaying(true)
                             }} 
                             width="1px" height="1px" autoplay={"true"} 
                             onEnded={function() {
@@ -349,6 +402,7 @@ export default function MusicSingle(props) {
                                     function(event) {
                                         setYTMediaPlayer(event.target); 
                                         event.target.playVideo()
+                                        setIsPlaying(true)
                                         //setMediaLoading(false)
                                     
                                     }    
@@ -396,7 +450,7 @@ export default function MusicSingle(props) {
              {props.viewMode === 'chords' && <>
              
              
-             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', marginTop:'1em', width:'65%'}} >
+             <div className="lyrics" style={{float:'left', marginLeft:'0.1em', marginTop:'2.5em', width:'70%'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                             return <div key={lk} className="lyrics-line" >{line}</div>
@@ -406,7 +460,7 @@ export default function MusicSingle(props) {
              </div>
               
   
-             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'6em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
+             <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'7.4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
                 <div style={{ overflowY:'scroll', height:'100%'}} >
                     <pre style={{ border:'1px solid black',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
                     
@@ -421,19 +475,46 @@ export default function MusicSingle(props) {
                 </div>
              </div>
              </>}
-             {props.viewMode !== 'chords' && <>
+             {<>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
-              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} />
+              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={props.viewMode == 'chords'} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} />
              </>}
              
               {(props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
                     <ButtonGroup variant="danger">
+                        {(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {
+                            //console.log(audioPlayer)
+                                try {
+                                    if (audioPlayer && audioPlayer.current) audioPlayer.current.pause()
+                                    if (ytMediaPlayer) ytMediaPlayer.pauseVideo()
+                                } catch (e) {
+                                    console.log(e)
+                                }
+                                try {
+                                    setIsPlaying(false)
+                                } catch (e) {
+                                    console.log(e)
+                                }
+                            }} >{props.tunebook.icons.pause}</Button>}
+                        {(!mediaLoading && showMedia && !isPlaying) && <Button variant="success" onClick={function() {
+                                try {
+                                    if (audioPlayer && audioPlayer.current) audioPlayer.current.play()
+                                    if (ytMediaPlayer) ytMediaPlayer.playVideo()
+                                } catch (e) {
+                                    console.log(e)
+                                }
+                                try {
+                                    setIsPlaying(true)
+                                } catch (e) {
+                                    console.log(e)
+                                }
+                            }} >{props.tunebook.icons.play}</Button>}
                         <Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
                         <PlaylistManagerModal tunebook={props.tunebook} mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} />
                     </ButtonGroup>
                </div>}
              
-             
+             <div style={{display:'none'}} id="transpose_render"></div>
         </div>
     }
 }

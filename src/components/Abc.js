@@ -517,6 +517,7 @@ export default function Abc(props) {
                     .then(function(presponse) {
                       //logtime('preinit prime tune primed AAA')
                       //console.log('preinit prime tune primed', presponse, midiBuffer)
+                      //if (props.setMidiData) props.setMidiData(abcjs.synth.getMidiFile(visualObj, { midiOutputType: 'binary', bpm: tune.tempo ? tune.tempo : 100 }))
                       if (tune && tune.id) { 
                         saveAudioToCache(getAudioHash(tune),midiBuffer.audioBuffers, midiBuffer.duration).then(function() {
                           //console.log('created audio')
@@ -1033,7 +1034,7 @@ export default function Abc(props) {
             {(gaudioContext && gaudioContext.current && !props.hidePlayer) && <input className="abcprogressslider" type="range" min='0' max='1' step='0.0001' value={seekTo} onChange={function(e) {setForceSeekTo(e.target.value)}}  style={{marginTop:'0.5em',marginBottom:'0.5em', width:'100%'}}/>}
            {(props.repeat > 1) && <Button style={{float:'right'}} variant="primary" >{props.tunebook.icons.timer2line} {(props.repeat - playCount )}</Button>}
             {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
-            {!props.link && <div id="abc_music_viewer" ref={inputEl} ></div>}
+            {(!props.link && !props.hideSvg) && <div id="abc_music_viewer" ref={inputEl} ></div>}
           </span>
         )}
     </ReactNoSleep></>
