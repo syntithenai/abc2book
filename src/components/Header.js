@@ -75,7 +75,9 @@ export default function Header(props) {
               </Dropdown.Toggle>
 
               <Dropdown.Menu style={{position:'absolute',top:'10em',left:'0px'}} >
-                    <Dropdown.Item style={dropdownStyle}  ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button  >{props.tunebook.icons.question}</Button></Link></Dropdown.Item>
+                    <Dropdown.Item style={dropdownStyle}  ><Link to="/settings" ><Button   variant="warning"  >{props.tunebook.icons.settings} </Button></Link> </Dropdown.Item>
+                   
+                   <Dropdown.Item style={dropdownStyle}  ><Link  to='/help' onClick={function() {setTimeout(function() {props.tunebook.utils.scrollTo('topofpage')},300)}} ><Button  >{props.tunebook.icons.question}</Button></Link></Dropdown.Item>
                      <Dropdown.Item style={dropdownStyle}  >
                         {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}}  variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}}  variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
                    </Dropdown.Item>
@@ -93,7 +95,6 @@ export default function Header(props) {
                   
                    {props.token ? <Dropdown.Item style={dropdownStyle}  ><Button  style={{ color: 'black'}}  variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout} Logout</Button></Dropdown.Item > : <Dropdown.Item style={dropdownStyle}  ><Button style={{color: 'black'}}  variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login} Login</Button></Dropdown.Item >}
               
-                   <Dropdown.Item style={dropdownStyle}  ><Link to="/settings" ><Button   variant="warning"  >{props.tunebook.icons.settings} </Button></Link> </Dropdown.Item>
                    
                 
               </Dropdown.Menu>

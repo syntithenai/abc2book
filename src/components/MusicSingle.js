@@ -233,8 +233,22 @@ export default function MusicSingle(props) {
                             setMediaProgress(0)
                             setMediaLinkNumber(0)
                             setMediaLoading(true)
+                            var playlist = props.mediaPlaylist
+                            playlist.currentTune = nextTuneNumber
+                            props.setMediaPlaylist(playlist)
                             navigate('/tunes/'+nextTune.id+"/playMedia/0")
                         }
+                    } else {
+                        // loop playlist
+                        nextTuneNumber = 0
+                        var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
+                        setMediaProgress(0)
+                        setMediaLinkNumber(0)
+                        setMediaLoading(true)
+                        var playlist = props.mediaPlaylist
+                        playlist.currentTune = nextTuneNumber
+                        props.setMediaPlaylist(playlist)
+                        navigate('/tunes/'+nextTune.id+"/playMedia/0")
                     }
                 } else {
                     console.log('fallback loop links')
@@ -369,7 +383,7 @@ export default function MusicSingle(props) {
                                 // next link
                                 nextLinkOrTune()
                             }}
-                            onError={function(e) {console.log('err med',e)}} 
+                            onError={function(e) {console.log('err med',e); nextLinkOrTune()}} 
                             onTimeUpdate={function(e) {
                                 setMediaProgress(e.target.currentTime/e.target.duration)
                             }}
@@ -397,6 +411,7 @@ export default function MusicSingle(props) {
                                     console.log('err yt',e)
                                     clearInterval(youtubeProgressInterval.current)
                                     youtubeProgressInterval.current = null
+                                    nextLinkOrTune()
                                 }} 
                                 onReady={
                                     function(event) {

@@ -124,10 +124,16 @@ export default function BooksPage(props) {
             The software helps you to find lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. The importable books above have mostly been curated to ensure formatting and include chords.
             </div>
              <div style={{marginTop:'1em'}} >
-            Song and tunes can be organised into books. A song can be in many books. I have a book for each of my musical friends which is helpful remembering songs we all know at sessions.
+            Song and tunes can be organised into books. A song can be in many books. 
+            <br/>
+            At this stage, I have a book for each of my musical friends which is helpful remembering songs we all know at sessions. 
             </div>
             <div style={{marginTop:'1em'}}>
             Checkout the <Link to="/help" ><Button>Help</Button></Link> section for some tips and tricks.
+            </div>
+            <div style={{marginTop:'1em',  float:'right'}}>
+            The Tune Book is <br/>
+            <a target='_new'  href='https://github.com/syntithenai/abc2book/' ><Button><img style={{maxHeight:'1.5em'}} src="opensource.svg" /> Open Source Software</Button></a>
             </div>
         </div>
         
