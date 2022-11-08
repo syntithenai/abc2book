@@ -1,7 +1,10 @@
 import {useState} from 'react'
 import {Button, Modal, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
+import {useNavigate} from 'react-router-dom'
+
 function ImportAbcModal(props) {
+  const navigate = useNavigate()
   const [show, setShow] = useState(false);
   const [list, setList] = useState('');
   const handleClose = () => {
@@ -20,10 +23,20 @@ function ImportAbcModal(props) {
   
   function doImport(list) {
     //console.log('import',list)
-    const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
-     setTimeout(function() {
-      props.tunebook.utils.scrollTo('bottomofpage')
-    },100)
+      //console.log("gotres",res.data.length)
+      var results = props.tunebook.importAbc(list,props.currentTuneBook)
+      console.log("gotreeees",results)
+      if (!props.tunebook.showImportWarning(results)) {
+          props.tunebook.applyImportData(results)
+          navigate("/tunes")
+          
+      }
+    
+    
+    //const importResults = props.tunebook.importAbc(list, props.currentTuneBook)
+     //setTimeout(function() {
+      //props.tunebook.utils.scrollTo('bottomofpage')
+    //},100)
     handleClose()
     //console.log('imported',inserts,updates,duplicates)
     //props.setImportResults(importResults)
