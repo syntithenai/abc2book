@@ -56,14 +56,15 @@ export default function useGoogleSheet(props) {
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
           //console.log('do sheet update', tunes)
-          var nowTunes = utils.loadLocalObject('bookstorage_tunes')
-          //console.log('do sheet update NOWTUNES', nowTunes)
-          updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
-              //loadSheet()
-              pausePolling.current = false
-              //console.log('done sheet update')
-          })
-          resolve()
+          //utils.loadLocalObject('bookstorage_tunes').then(function(nowTunes) {
+              ////console.log('do sheet update NOWTUNES', nowTunes)
+              //updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
+                  ////loadSheet()
+                  //pausePolling.current = false
+                  ////console.log('done sheet update')
+              //})
+              resolve()
+            //})
         },delay)
       } else {
           resolve()

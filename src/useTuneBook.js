@@ -214,8 +214,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   function removeTunesFromBook(tuneIds,book) {
     if (Array.isArray(tuneIds) && book && book.trim()) {
-       pauseSheetUpdates.current = true
-       tuneIds.forEach(function(id) {
+      pauseSheetUpdates.current = true
+      tuneIds.forEach(function(id) {
         if (tunes[id]) {
           var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
           if (books.indexOf(book) !== -1) {

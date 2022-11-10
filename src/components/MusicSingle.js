@@ -306,8 +306,8 @@ export default function MusicSingle(props) {
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                 
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
-                    <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link><Dropdown >
-                      <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{height:'2.4em'}}>
+                 <Dropdown >
+                      <Dropdown.Toggle variant="info" id="dropdown-basic" style={{height:'2.4em'}}>
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
@@ -324,6 +324,8 @@ export default function MusicSingle(props) {
                         
                       </Dropdown.Menu>
                     </Dropdown>
+                    
+                       <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link>
                  </ButtonGroup>   
                 
                 
@@ -353,17 +355,10 @@ export default function MusicSingle(props) {
                         {(Array.isArray(tune.links) && tune.links.length > 0) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.youtube)}</Button>
                         }
                         {/* Have no link, play button triggers youtube search*/}
-                        {!(Array.isArray(tune.links) && tune.links.length > 0) && <YouTubeSearchModal tunebook={props.tunebook} value={tune.links}  onChange={function(links) {
-                                    tune.links = links; 
-                                    props.tunebook.saveTune(tune); 
-                                    setMediaProgress(0);  
-                                    setMediaLoading(true); 
-                                    setShowMedia(true)
-                                }}
-                                triggerElement={<>{props.tunebook.icons.youtube}</>}
-                                value={(tune.name ? tune.name : '') + (tune.composer ? ' ' + tune.composer : '')}
-                            />
-                        }
+                        {!(Array.isArray(tune.links) && tune.links.length > 0) && 
+                        <LinksEditorModal icon="media" tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} /> 
+                    }
+                        
                         {(Array.isArray(tune.links) && tune.links.length > 0) && <LinksEditorModal tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
                         
                     </ButtonGroup>}
@@ -493,8 +488,16 @@ export default function MusicSingle(props) {
              {<>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
                  <div style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
-              <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} /></div>
+                    <Abc  autoPrime={localStorage.getItem('bookstorage_autoprime') === "true" ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null} />
+                  </div>
              </>}
+             
+             {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} >
+                 {tune.files.map(function(file) {
+                    return file.type === 'image' ? <img style={{width:'100%'}} src={file.data} /> : '' 
+                  })}
+              </div>}
+             
              
               {(props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
                     <ButtonGroup variant="danger">
@@ -555,3 +558,16 @@ export default function MusicSingle(props) {
                 //})}
              //</div>
              //</>}
+             
+             //<YouTubeSearchModal tunebook={props.tunebook} value={tune.links}  onChange={function(links) {
+                                    //tune.links = links; 
+                                    //props.tunebook.saveTune(tune); 
+                                    //setMediaProgress(0);  
+                                    //setMediaLoading(true); 
+                                    //setShowMedia(true)
+                                //}}
+                                //triggerElement={<>{props.tunebook.icons.youtube}</>}
+                                //value={(tune.name ? tune.name : '') + (tune.composer ? ' ' + tune.composer : '')}
+                            ///>
+                        //}
+                        

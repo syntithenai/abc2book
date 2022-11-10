@@ -104,56 +104,60 @@ function App(props) {
    * import songs to a tunebook from an abc file 
    */
   function mergeTuneBook(tunebookText) {
-      setShowWaitingOverlay(true)
-      console.log('mergetb',tunebookText)
-      var inserts={}
-      var updates={}
-      var patches={} // updates with common parent
-      var deletes={}
-      var localUpdates={}
-      var intunes = {}
-      if (tunebookText) {
-      //console.log('haveabc')
-        intunes = abcTools.abc2Tunebook(tunebookText)
-      }
-      var tunes = utils.loadLocalObject('bookstorage_tunes')
-      //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
-      var ids = []
-      Object.values(intunes).forEach(function(tune) {
-        // existing tunes are updated
-        //console.log('tune in',tune.id, tune)
-        if (tune.id && tunes[tune.id]) {
-          // preserve boost
-          tune.boost = tunes[tune.id].boost
-          if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
-            updates[tune.id] = tune
-            //console.log('update MORE RECENT')
-          } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
-            localUpdates[tune.id] = tune
-            //console.log('local update MORE RECENT')
-          } else {
-            //console.log('skip update NOT MORE RECENT')
+      return new Promise(function(resolve,reject) {
+          setShowWaitingOverlay(true)
+          console.log('mergetb',tunebookText)
+          var inserts={}
+          var updates={}
+          var patches={} // updates with common parent
+          var deletes={}
+          var localUpdates={}
+          var intunes = {}
+          if (tunebookText) {
+          //console.log('haveabc')
+            intunes = abcTools.abc2Tunebook(tunebookText)
           }
-          ids.push(tune.id)
-        // new tunes 
-        } else {
-           //console.log('insert')
-           if (!tune.id) tune.id = utils.generateObjectId()
-           inserts[tune.id] = tune
-        }
-      })
-      //console.log(ids)
-      //console.log(Object.keys(tunes))
-      Object.keys(tunes).forEach(function(tuneId) {
-        if (ids.indexOf(tuneId) === -1) {
-          deletes[tuneId] = tunes[tuneId]
-        }
-      })
-    
-      var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
-      console.log('merge done' ,ret)
-      setShowWaitingOverlay(false)
-      return ret
+          //var tunes = utils.loadLocalObject('bookstorage_tunes')
+          utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
+              //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+              var ids = []
+              Object.values(intunes).forEach(function(tune) {
+                // existing tunes are updated
+                //console.log('tune in',tune.id, tune)
+                if (tune.id && tunes[tune.id]) {
+                  // preserve boost
+                  tune.boost = tunes[tune.id].boost
+                  if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
+                    updates[tune.id] = tune
+                    //console.log('update MORE RECENT')
+                  } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
+                    localUpdates[tune.id] = tune
+                    //console.log('local update MORE RECENT')
+                  } else {
+                    //console.log('skip update NOT MORE RECENT')
+                  }
+                  ids.push(tune.id)
+                // new tunes 
+                } else {
+                   //console.log('insert')
+                   if (!tune.id) tune.id = utils.generateObjectId()
+                   inserts[tune.id] = tune
+                }
+              })
+              //console.log(ids)
+              //console.log(Object.keys(tunes))
+              Object.keys(tunes).forEach(function(tuneId) {
+                if (ids.indexOf(tuneId) === -1) {
+                  deletes[tuneId] = tunes[tuneId]
+                }
+              })
+            
+              var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
+              console.log('merge done' ,ret)
+              setShowWaitingOverlay(false)
+              resolve(ret)
+            })
+    })
   }
   
   function overrideTuneBook(fullSheet) {
@@ -183,21 +187,23 @@ function App(props) {
   
   function onMerge(fullSheet) {
     console.log('onmerge')
-    var trialResults = mergeTuneBook(fullSheet)
-    console.log('onmerge', fullSheet.length, trialResults)
-    // warning if items are being deleted
-    if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
-      //console.log('onmerge set results',trialResults)
-      setSheetUpdateResults(trialResults)
-      props.tunebook.utils.scrollTo('topofpage')
-      forceRefresh()
-    } else { 
-      //console.log('onmerge empty results',trialResults)
-      setSheetUpdateResults(trialResults)
-      utils.scrollTo('topofpage')
-      //applyMergeChanges(trialResults)
-      //forceRefresh()
-    }
+    //var trialResults = 
+    mergeTuneBook(fullSheet).then(function(trialResults) {
+        console.log('onmerge', fullSheet.length, trialResults)
+        // warning if items are being deleted
+        if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
+          //console.log('onmerge set results',trialResults)
+          setSheetUpdateResults(trialResults)
+          props.tunebook.utils.scrollTo('topofpage')
+          forceRefresh()
+        } else { 
+          //console.log('onmerge empty results',trialResults)
+          setSheetUpdateResults(trialResults)
+          utils.scrollTo('topofpage')
+          //applyMergeChanges(trialResults)
+          //forceRefresh()
+        }
+    })
   }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)

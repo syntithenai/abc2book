@@ -6,6 +6,7 @@ import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
 import LinksEditor from './LinksEditor'
+import ImagesEditor from './ImagesEditor'
 
 export default function AbcEditor(props) {
   const [abcText, setAbcText] = useState(props.abc);
@@ -225,11 +226,6 @@ export default function AbcEditor(props) {
                         <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
-                      <Form.Group className="mb-3" controlId="links">
-                        <Form.Label style={{paddingBottom:'1em'}} >Links</Form.Label>
-                        <LinksEditor tunebook={props.tunebook} tune={tune} />
-
-                      </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="noteLength">
                         <Form.Label>ABC Note Length</Form.Label>
@@ -275,12 +271,31 @@ export default function AbcEditor(props) {
                     </a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
+                  
+                  
                   <Tab eventKey="chords" title="Chords" >
                     <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
                     <br/><br/>
                     <a style={{float:'right'}}  target="_new" href={"https://www.google.com/search?q=chords "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Chords</Button></a>
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
+                  
+                  <Tab eventKey="files" title="Images" >
+                        <Form.Group className="mb-3" controlId="images">
+                            <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
+                            <ImagesEditor setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
+                        </Form.Group>
+                  </Tab>
+                  
+                  <Tab eventKey="audio" title="Audio" >
+                        <Form.Group className="mb-3" controlId="audio">
+                            <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
+                            <LinksEditor forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
+                        </Form.Group>
+                  </Tab>
+                  
+                  
+                  
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
                     <div style={{}} id="warnings">
                     {warnings ? warnings.map(function(warning,wk) {

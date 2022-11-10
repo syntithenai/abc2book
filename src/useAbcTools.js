@@ -106,6 +106,7 @@ var useAbcTools = () => {
         var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
         var currentVoice = '1'
         var links = {}
+         var files = {}
          abc.split("\n").forEach(function(line) {
             //console.log('LINE', line)
             if (isCommentLine(line)) {
@@ -185,6 +186,31 @@ var useAbcTools = () => {
                     tune.soundFonts = line.slice(21).trim()
                 } else  if (line.startsWith('% abcbook-repeats')) {
                     tune.repeats = line.slice(17).trim()
+               
+                } else  if (line.startsWith('% abcbook-file-')) {
+                    if (line.startsWith('% abcbook-file-type-')) {
+                        var parts = line.trim().split('% abcbook-file-type-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!files[numberParts[0]]) files[numberParts[0]] = {}
+                                files[numberParts[0]].type = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else {
+                        var parts = line.trim().split('% abcbook-file-')
+                        //console.log(parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!files[numberParts[0]]) files[numberParts[0]] = {}
+                                files[numberParts[0]].data = numberParts[1]
+                            }
+                        }
+                    }
                 } else  if (line.startsWith('% abcbook-link-')) {
                     if (line.startsWith('% abcbook-link-title-')) {
                         var parts = line.trim().split('% abcbook-link-title-')
@@ -210,11 +236,7 @@ var useAbcTools = () => {
                         }
                     }
                 }
-                 
-                //else  if (line.startsWith('% abcbook-lastHash')) {
-                    //tune.lastHash = line.slice(21).trim()
-                //}
-                
+          
             } else if (isNoteLine(line)) {
                 //console.log('LINE ISNOTE', line)
                 if (line.trim().length > 0) {
@@ -237,6 +259,7 @@ var useAbcTools = () => {
         })
         //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
+        tune.files = Object.values(files)
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
           return tune
@@ -304,6 +327,17 @@ var useAbcTools = () => {
                 }
             })
         }
+        var filesRendered = []
+        if (Array.isArray(tune.file)&& tune.file.length > 0) {
+            tune.files.forEach(function(file,k) {
+                if (file.data) {
+                    filesRendered.push("% abcbook-file-"+k + ' ' +  ensureText(file.data,"") )
+                    if (file.type) {
+                        linksRendered.push("% abcbook-file-type-"+k + ' ' +  ensureText(file.type,"") )
+                    }
+                }
+            })
+        }
         //if (voicesAndNotes.length === 0) {
             //voicesAndNotes.push('V:default')
             //voicesAndNotes.push('|')
@@ -328,6 +362,7 @@ var useAbcTools = () => {
                     + renderWordHeaders(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     + linksRendered.join("\n") + "\n" 
+                    + filesRendered.join("\n") + "\n" 
                     + "% abcbook-boost " +  ensureInteger(boost,0) + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 

@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 
@@ -115,11 +115,26 @@ export default function useAppData() {
   }
   
   const [viewMode, setViewMode] = useState('music')
-  const [tunes, setTunesInner] = useState(utils.loadLocalObject('bookstorage_tunes'));
+  const [tunes, setTunesInner] = useState({});
+  
+  useEffect(function() {
+      console.log('UE')
+    utils.loadLocalforageObject('bookstorage_tunes').then(function(tunesString) {
+        console.log("EEU", typeof tunesString)
+        try {
+            var t = JSON.parse(tunesString)
+            console.log('UE setff',t)
+            setTunesInner(t)
+            forceRefresh()
+        } catch (e) {}
+    })
+  },[])
+  
   function setTunes(val) {
     setTunesInner(val)
-    localStorage.setItem('bookstorage_tunes', JSON.stringify(val))
+    utils.saveLocalforageObject('bookstorage_tunes', JSON.stringify(val))
   }
+  
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
   const [importResults, setImportResultsReal] = useState(null)
   function setImportResults(res) {

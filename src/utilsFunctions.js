@@ -1,7 +1,10 @@
 import abcjs from "abcjs";
 import * as localForage from "localforage";
+import localforage from "localforage";
+
  
 export default function utilsFunctions(props) {
+
 
 /**
      *  Load a local storage key and parse it as JSON 
@@ -25,7 +28,31 @@ export default function utilsFunctions(props) {
      * JSONify and save data to local storage
      */
     function saveLocalObject(localStorageKey, data) {
-      localStorage.setItem(localStorageKey,JSON.stringify(data))
+        localStorage.setItem(localStorageKey,JSON.stringify(data))
+    }
+
+    /**
+     *  Load a local storage key and parse it as JSON 
+     *  @return {}
+     */
+    function loadLocalforageObject(localStorageKey) {
+        return new Promise(function(resolve,reject) {
+            localforage.getItem(localStorageKey).then(function(item) {
+                if (item) {
+                    resolve(item)
+                } else {
+                    resolve({})
+                }
+            })
+        })
+    }
+
+
+    /**
+     * JSONify and save data to local storage
+     */
+    function saveLocalforageObject(localStorageKey, data) {
+        return localforage.setItem(localStorageKey,data)
     }
     
     function toSearchText(text) {
@@ -164,6 +191,6 @@ export default function utilsFunctions(props) {
     
     
     
-    return {loadLocalObject, saveLocalObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache}
     
 }

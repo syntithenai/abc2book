@@ -28,9 +28,56 @@ export default function LinksEditor(props) {
     }
     
     
+  function fileSelected (event, callback) {
+      function readFile(file){
+          var reader = new FileReader();
+          reader.onloadend = function(){
+            //console.log("loaded",reader.result)
+            if (reader.result.trim().length > 0) {
+              callback(reader.result)
+            }
+          }
+          if(file){
+              reader.readAsDataURL(file);
+          }
+      }
+      readFile(event.target.files[0])
+  }
+
+  const [warning, setWarning] = useState('')
+  
+    
   return (
     <div  >
         <div style={{textAlign:'right'}} >
+          
+          {(warning && warning.length  > 0) && <b>{warning}</b>}
+                    
+            <Button variant="success" style={{marginBottom:'0.6em', marginRight:'0.6em'}} ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
+                fileSelected(e,function(data) {
+                    console.log((data ? data.slice(0,50) : 'nodata'),e)
+                    var type = e.target.files[0].type
+                    var filename = e.target.files[0].name
+                    console.log(type)
+                    if (type.startsWith('audio/')) {
+                        console.log('have audioset link')
+                        var links = Array.isArray(props.tune.links) ? props.tune.links : []
+                        //.split(".").slice(0,-1).join(".")
+                        var newLink = {link: data, title:filename}
+                        links.unshift(newLink)
+                        var tune = props.tune
+                        tune.links = links; 
+                        setWarning(null)
+                        props.tunebook.saveTune(tune); 
+                    } else {
+                        //console.log("setwarning",lk)
+                        setWarning('You can only attach audio files, not '+type)
+                    }
+                     e.target.value=''
+                })
+            }  } /></Button>
+            
+          
           <span  >
             <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook} links={props.tune.links}  onChange={function(links) {
                     var tune = props.tune
@@ -42,13 +89,15 @@ export default function LinksEditor(props) {
                 value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
             />
           </span>
-          <Button style={{marginLeft:'0.3em',color:'black'}} variant="success" onClick={function() {
-                var links = props.tune.links
+          <Button style={{marginLeft:'0.3em',color:'black'}} variant="success" onClick={function(e) {
+                var links = Array.isArray(props.tune.links) ? props.tune.links : []
                 links.unshift({title:'', link:''})
                 var tune = props.tune
                 tune.links = links; 
                 props.tunebook.saveTune(tune); 
             }} >{props.tunebook.icons.add} New Link</Button>
+            
+            
         </div>
         <Form >
             <div style={{clear:'both'}}>
@@ -74,19 +123,37 @@ export default function LinksEditor(props) {
                     
                     <Form.Group  >
                         <Button variant="danger" style={{float:'right'}} onClick={function() {
-                            //if (window.confirm("Are you sure you want to delete this link?")) {
+                            if (window.confirm("Are you sure you want to delete this audio?")) {
                                 var links = props.tune.links
                                 links.splice(lk,1)
                                 var tune = props.tune
                                 tune.links = links; 
                                 props.tunebook.saveTune(tune); 
-                            //}
+                            }
                         }} >{props.tunebook.icons.deletebin}</Button>
+                        {(props.tune && Array.isArray(props.tune.links) && props.tune.links.length > lk && props.tune.links[lk] && props.tune.links[lk].link && props.tune.links[lk].link.startsWith("data:audio/")) && <Button  style={{float:'right', marginRight:'0.3em'}} variant="primary" onClick={function() {
+                            //setIsPlayingLink(lk)
+                            //navigate("/tunes/"+props.tune.id+'/playMedia/'+lk)
+                            var a = document.createElement("a"); //Create <a>
+                            a.href = link.link
+                            a.download = link.title; //File name Here
+                            a.click(); //Downloaded file
+                            
+                            
+                            //var url = window.URL.createObjectURL(window.location.href);
+                            //var a = document.createElement("a");
+                            //document.body.appendChild(a);
+                            //a.style = "display: none";
+                            //a.href = url;
+                            ////a.download = (tune.name ? tune.name : 'download') + ".midi";
+                            //a.click();
+                            //window.URL.revokeObjectURL(url);
+                        }} >{props.tunebook.icons.save}</Button>}
+                        
                         {<Button  style={{float:'right', marginRight:'0.3em'}} variant="success" onClick={function() {
                             //setIsPlayingLink(lk)
                             navigate("/tunes/"+props.tune.id+'/playMedia/'+lk)
                         }} >{props.tunebook.icons.play}</Button>}
-                        
                         
                         <Form.Label  >Title</Form.Label>
                         <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.title} onChange={function(e) {
@@ -99,14 +166,18 @@ export default function LinksEditor(props) {
                         
                     </Form.Group>
                     <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
-                        <Form.Label>Link</Form.Label> 
-                        <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.link} onChange={function(e) {
+                        
+                      
+                        {!(props.tune && Array.isArray(props.tune.links) && props.tune.links.length > lk && props.tune.links[lk] && props.tune.links[lk].link && props.tune.links[lk].link.startsWith("data:audio/")) && <> <Form.Label>Link</Form.Label> 
+                       <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.link} onChange={function(e) {
                             var links = props.tune.links
                             links[lk].link = e.target.value
                             var tune = props.tune
                             tune.links = links; 
                             props.tunebook.saveTune(tune); 
-                        }  } />
+                        }  } /></>}
+                        
+                        
                     </Form.Group>
                     
                 </div>
