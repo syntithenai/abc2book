@@ -33,6 +33,15 @@ function BookSelectorModal(props) {
             props.forceRefresh()
         }
     }
+    
+     const [imageIsHidden, setImageIsHidden] = useState({})
+    function hideImage(key) {
+        var v = imageIsHidden
+        v[key] = true
+        setImageIsHidden(v)
+        
+    }
+    
     var sortedOptions = Object.keys(options)
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   return (
@@ -51,7 +60,7 @@ function BookSelectorModal(props) {
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {sortedOptions.map(function(option,tk) {
-              return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} ><img style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpg"} onerror="this.style.display='none'" /> {options[option]}</ListGroup.Item>
+              return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} >{!imageIsHidden[tk] && <img style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpeg"} onError={function() {hideImage(tk)}} />} {options[option]}</ListGroup.Item>
             })}
           </ListGroup>
         </Modal.Footer>

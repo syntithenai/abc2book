@@ -26,7 +26,7 @@ export default function MusicEditor(props) {
     return <div className="music-editor" style={{width:'100%'}}>
         <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
             
-            <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {window.history.back()}} >{props.tunebook.icons.close}</Button>
+            <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {navigate("/tunes/"+tune.id)}} >{props.tunebook.icons.close}</Button>
             
             <span style={{marginLeft:'0.1em'}} >
                 <LocalSearchSelectorModal  value={tune ? tune.name : ''} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />

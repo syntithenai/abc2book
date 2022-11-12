@@ -184,27 +184,6 @@ function App(props) {
   }
   
 
-  
-  function onMerge(fullSheet) {
-    console.log('onmerge')
-    //var trialResults = 
-    mergeTuneBook(fullSheet).then(function(trialResults) {
-        console.log('onmerge', fullSheet.length, trialResults)
-        // warning if items are being deleted
-        if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
-          //console.log('onmerge set results',trialResults)
-          setSheetUpdateResults(trialResults)
-          props.tunebook.utils.scrollTo('topofpage')
-          forceRefresh()
-        } else { 
-          //console.log('onmerge empty results',trialResults)
-          setSheetUpdateResults(trialResults)
-          utils.scrollTo('topofpage')
-          //applyMergeChanges(trialResults)
-          //forceRefresh()
-        }
-    })
-  }
   var recurseLoadSheetTimeout = useRef(null)
   var pauseSheetUpdates = useRef(null)
   var pollingInterval = process.env.NODE_ENV === "development" ? 5000 : 6000 //16000
@@ -215,6 +194,28 @@ function App(props) {
   //console.log("app",recordingsManager)
   
   var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager})
+  
+  
+  function onMerge(fullSheet) {
+    console.log('onmerge')
+    //var trialResults = 
+    mergeTuneBook(fullSheet).then(function(trialResults) {
+        console.log('onmerge', fullSheet.length, trialResults)
+        // warning if items are being deleted
+        if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
+          //console.log('onmerge set results',trialResults)
+          setSheetUpdateResults(trialResults)
+          tunebook.utils.scrollTo('topofpage')
+          forceRefresh()
+        } else { 
+          //console.log('onmerge empty results',trialResults)
+          setSheetUpdateResults(trialResults)
+          utils.scrollTo('topofpage')
+          //applyMergeChanges(trialResults)
+          //forceRefresh()
+        }
+    })
+  }
   
   var {history, setHistory, pushHistory, popHistory} = useHistory({tunebook})
   

@@ -173,7 +173,7 @@ function AddSongModal(props) {
   return (
     <>
       <Button variant="success" title="Add Tune" onClick={handleShow}>
-        {props.tunebook.icons.fileadd}
+        {props.tunebook.icons.fileadd} Add
       </Button>
 
       <Modal show={show} onHide={handleClose} backdrop="static"  keyboard="false" >

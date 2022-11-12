@@ -42,7 +42,15 @@ export default function BooksPage(props) {
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     const [imageIsHidden, setImageIsHidden] = useState({})
     function hideImage(key) {
-        imageIsHidden[key] = true
+        var v = imageIsHidden
+        v[key] = true
+        setImageIsHidden(v)
+    }
+    const [myBookImageIsHidden, setMyBookImageIsHidden] = useState({})
+    function hideMyBookImage(key) {
+        var v = myBookImageIsHidden
+        v[key] = true
+        setMyBookImageIsHidden(v)
     }
     
     function fillMediaPlaylist(book) {
@@ -55,15 +63,17 @@ export default function BooksPage(props) {
         
         <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
             {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div>
-                <Button variant="success" title="Download" style={{color:'black', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
-                    {props.tunebook.icons.save}
+                <Button variant="success" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
+                    {props.tunebook.icons.save} Download
                 </Button>
                 <h4>Your Books</h4>
                 <div>{tbOptions.map(function(option, ok) {
                     if (option && option.trim().length > 0) { 
                         return <ButtonGroup key={ok} style={{minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >
                             <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={fillMediaPlaylist} tunebookOption={option} />
-                            <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button>{option} {!imageIsHidden[ok] && <img style={{height:'50px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpg"} onError={function() {hideImage(ok)}} />}</Button></Link>
+                            <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}} >{option}&nbsp;&nbsp; {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} />}
+                            {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
+                            </Button></Link>
                             <Button onClick={function() {fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
                         </ButtonGroup>
                     } else {
@@ -89,11 +99,13 @@ export default function BooksPage(props) {
                         <Accordion.Body>{groupOptions.map(function(bookTitle,ok) {
                             if (groupItems[bookTitle].link) {
                                 return <ButtonGroup style={buttonGroupStyle} variant="primary"><Link key={'nc-'+ok}  to={'/importlink/' + encodeURIComponent(groupItems[bookTitle].link) + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} style={{textDecoration:'none'}} ><Button  onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
-                                <img src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpg"} style={{height:'50px'}}  />
+                                {!imageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpeg"} onError={function() {hideImage(ok)}} />}
+                                {imageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
                                 &nbsp;{bookTitle}
                                 </Button></Link><Link key={'nM-'+ok} to={'/importlink/' + encodeURIComponent(groupItems[bookTitle].link) + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book)+ "/play" : "")}  style={{textDecoration:'none'}} ><Button  variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button></Link></ButtonGroup>
                             } else if (groupItems[bookTitle].googleDocumentId) {
-                                return <ButtonGroup style={buttonGroupStyle} variant="primary" ><Link key={'nc-'+ok} to={'/importdoc/' + groupItems[bookTitle].googleDocumentId  + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} ><img src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpg"} style={{height:'50px'}}  />
+                                return <ButtonGroup style={buttonGroupStyle} variant="primary" ><Link key={'nc-'+ok} to={'/importdoc/' + groupItems[bookTitle].googleDocumentId  + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) : "")} style={{textDecoration:'none'}} ><Button style={{marginTop:'0.4em', align:'top'}} onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{!imageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+bookTitle.replaceAll(" ","")+".jpeg"} onError={function() {hideImage(ok)}} />}
+                                {imageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
                                 &nbsp;{bookTitle}</Button></Link><Link  to={'/importlink/' + encodeURIComponent(groupItems[bookTitle].link) + (groupItems[bookTitle].book ? "/book/"+encodeURIComponent(groupItems[bookTitle].book) + "play" : "")} key={'nm-'+ok} style={{textDecoration:'none'}} ><Button  variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button></Link></ButtonGroup>
                             }
                         })}</Accordion.Body>
@@ -103,11 +115,11 @@ export default function BooksPage(props) {
                          <Accordion.Body>{Object.keys(notCollatedCurated).map(function(bookTitle,ok) {
                             if (notCollatedCurated[bookTitle].link) {
                                 return <ButtonGroup style={buttonGroupStyle} variant="success"><Link  key={'nc-'+ok} to={'/importlink/' + encodeURIComponent(notCollatedCurated[bookTitle].link) + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) : "")}  style={{textDecoration:'none'}} ><Button onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >
-                                {notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                {notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'80px'}}  /> : null}
                                 &nbsp;{bookTitle}
                                 </Button>&nbsp;&nbsp;</Link><Link  key={'nm-'+ok} to={'/importlink/' + encodeURIComponent(notCollatedCurated[bookTitle].link) + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) + "/play" : "")} key={ok} style={{textDecoration:'none'}} ><Button  variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button></Link></ButtonGroup>
                             } else if (notCollatedCurated[bookTitle].googleDocumentId) {
-                                return <ButtonGroup style={buttonGroupStyle} variant="primary"><Link key={'nc-'+ok} to={'/importdoc/' + notCollatedCurated[bookTitle].googleDocumentId  + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) : "")}  style={{textDecoration:'none'}} ><Button onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'50px'}}  /> : null}
+                                return <ButtonGroup style={buttonGroupStyle} variant="primary"><Link key={'nc-'+ok} to={'/importdoc/' + notCollatedCurated[bookTitle].googleDocumentId  + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) : "")}  style={{textDecoration:'none'}} ><Button onClick={function(e) {props.setCurrentTuneBook(bookTitle)}} >{notCollatedCurated[bookTitle].image ? <img src={notCollatedCurated[bookTitle].image} style={{height:'80px'}}  /> : null}
                                 &nbsp;{bookTitle}</Button>&nbsp;&nbsp;</Link><Link  key={'nm-'+ok} to={'/importlink/' + encodeURIComponent(notCollatedCurated[bookTitle].link) + (notCollatedCurated[bookTitle].book ? "/book/"+encodeURIComponent(notCollatedCurated[bookTitle].book) + "/play" : "")} style={{textDecoration:'none'}} ><Button  variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button></Link></ButtonGroup>
                             }
                         })}</Accordion.Body>
