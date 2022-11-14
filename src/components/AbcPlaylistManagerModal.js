@@ -15,7 +15,7 @@ function AbcPlaylistManagerModal(props) {
   
   return (
    <>{(props.abcPlaylist && props.abcPlaylist.tunes && props.abcPlaylist.tunes.length > 0) && <>
-      <Button onClick={handleShow} variant="primary" size="xl" >{props.tunebook.icons.dropdown}</Button>
+      <Button onClick={handleShow} variant="primary" size="lg" >{props.tunebook.icons.menu}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -25,8 +25,10 @@ function AbcPlaylistManagerModal(props) {
        
         {<>
         <Modal.Body>
-           <Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button>
-           <Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button>
+        <div>
+           <Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate); handleClose()}} >{props.tunebook.icons.skipback}</Button>
+           <Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate); handleClose()}} >{props.tunebook.icons.skipforward}</Button>
+        </div>
           <input type='text' value={filter} onChange={function(e) {setFilter(e.target.value)}}   />   
         </Modal.Body>
         <Modal.Footer>

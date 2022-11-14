@@ -37,7 +37,8 @@ export default function Header(props) {
            <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70)}} >{props.tunebook.icons.bookheader}</Button></Link>
            <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.setMediaPlaylist(null); }} >{props.tunebook.icons.searchheader}</Button></Link>
             
-             {(props.mediaPlaylist === null && props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
+             {(!isMobile && props.mediaPlaylist === null && props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.3em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
+            
             {!isMobile && <>
                   <Dropdown style={{display:'inline', marginLeft:'0.3em'}}>
                   <Dropdown.Toggle variant="info" id="dropdown-header" style={{height:'3em', width:'3em'}}>
@@ -102,7 +103,7 @@ export default function Header(props) {
                 
               </Dropdown.Menu>
             </Dropdown>}
-            {(isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'5em'}}>
+            {(isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{ marginLeft:'0.8em'}}>
                       <AbcPlaylistManagerModal tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} />
                      
                   </span>  : null}

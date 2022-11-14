@@ -62,7 +62,7 @@ export default function IndexLayout(props) {
             if (!filter || filter.trim().length === 0) {
                 filterOk = true
             } else {
-                if (tune && tune.name && tune.name.length > 0 && filter.length > 0 && props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1) {
+                if (tune && ((tune.name && tune.name.length > 0  && props.tunebook.utils.toSearchText(tune.name).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1) || (tune.composer && tune.composer.length > 0  && props.tunebook.utils.toSearchText(tune.composer).indexOf(props.tunebook.utils.toSearchText(filter)) !== -1))) {
                     filterOk = true
                 } 
             }
