@@ -63,7 +63,7 @@ function App(props) {
   var {user, token, login, logout, refresh} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset } = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset , abcPlaylist, setAbcPlaylist} = useAppData()
   useServiceWorker()
     
   const indexes = useIndexes()
@@ -106,7 +106,7 @@ function App(props) {
   function mergeTuneBook(tunebookText) {
       return new Promise(function(resolve,reject) {
           setShowWaitingOverlay(true)
-          console.log('mergetb',tunebookText)
+          //console.log('mergetb',tunebookText)
           var inserts={}
           var updates={}
           var patches={} // updates with common parent
@@ -117,9 +117,10 @@ function App(props) {
           //console.log('haveabc')
             intunes = abcTools.abc2Tunebook(tunebookText)
           }
+          console.log('havetunes', intunes)
           //var tunes = utils.loadLocalObject('bookstorage_tunes')
           utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-              //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
+              console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
               var ids = []
               Object.values(intunes).forEach(function(tune) {
                 // existing tunes are updated
@@ -145,12 +146,18 @@ function App(props) {
                 }
               })
               //console.log(ids)
-              //console.log(Object.keys(tunes))
-              Object.keys(tunes).forEach(function(tuneId) {
-                if (ids.indexOf(tuneId) === -1) {
-                  deletes[tuneId] = tunes[tuneId]
-                }
-              })
+              //console.log(tuness)
+              //
+              //for (var tkey in tunes) {
+                  //console.log(tkey)
+              //}
+              //var tkeys = Object.keys(tunes)
+              //console.log(tkeys)
+              //Object.keys(tunes).forEach(function(tuneId) {
+                //if (ids.indexOf(tuneId) === -1) {
+                  //deletes[tuneId] = tunes[tuneId]
+                //}
+              //})
             
               var ret = {inserts, updates, deletes, localUpdates, fullSheet: tunebookText}
               console.log('merge done' ,ret)
@@ -193,14 +200,14 @@ function App(props) {
   const recordingsManager = useRecordingsManager(token)
   //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist})
   
   
   function onMerge(fullSheet) {
-    console.log('onmerge')
+    //console.log('onmerge',fullSheet)
     //var trialResults = 
     mergeTuneBook(fullSheet).then(function(trialResults) {
-        console.log('onmerge', fullSheet.length, trialResults)
+        //console.log('onmerge', fullSheet.length, trialResults)
         // warning if items are being deleted
         if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
           //console.log('onmerge set results',trialResults)
@@ -251,11 +258,13 @@ function App(props) {
   } 
      
   function showWarning() {
+      
     //if (sheetUpdateResults) return true
     //return false 
     //console.log('showWarning')
     
     if (sheetUpdateResults !== null) {
+        //return true
       if (sheetUpdateResults.deletes && Object.keys(sheetUpdateResults.deletes).length > 0) {
         return true
       }
@@ -277,6 +286,7 @@ function App(props) {
     //return false 
     //console.log('showWarning')
     if (importResults !== null) {
+        //return true
         if (localStorage.getItem('bookstorage_mergewarnings') === "true")  {
           if (importResults.deletes && Object.keys(importResults.deletes).length > 0) {
             return true
@@ -299,7 +309,6 @@ function App(props) {
 
     <div id="topofpage" className="App" >
         {showWaitingOverlay && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }  
-          
           <input type='hidden' value={refreshHash} />
           <Router >
             {(token && showWarning(sheetUpdateResults)) ? <>
@@ -312,7 +321,7 @@ function App(props) {
             </> : null}
   
            {((!showWarning(sheetUpdateResults)|| !user) && !showImportWarning(importResults)  && tunes !== null) && <div >   
-              <Header tunebook={tunebook}  tunes={tunes} token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />
+              <Header tunebook={tunebook}  tunes={tunes} token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<BooksPage  tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} />}  />
@@ -354,13 +363,13 @@ function App(props) {
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} />}
+                        element={<MusicPage googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
                       
-                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />} />
+                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />} />
                       
-                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />} />
+                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  />} />
                       
                     </Route>  
                     

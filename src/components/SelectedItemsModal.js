@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {Button, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
 
 export default function SelectedItemsModal(props) {
-  console.log(props)
+  //console.log(props)
   const [show, setShow] = useState(false);
   const [filterAdd, setFilterAdd] = useState('');
   const [filterRemove, setFilterRemove] = useState('');

@@ -10,6 +10,7 @@ export default function SettingsPage(props) {
   const [link,setLink] = useState(null)
   const [preRenderAudioCheckbox,setPreRenderAudioCheckbox] = useState(localStorage.getItem('bookstorage_autoprime') === "true"  ? true : false)
   const [mergeWarningsCheckbox,setMergeWarningsCheckbox] = useState(localStorage.getItem('bookstorage_mergewarnings') === "true"  ? true : false)
+   const [inlineAudioCheckbox,setInlineAudioCheckbox] = useState(localStorage.getItem('bookstorage_inlineaudio') === "true"  ? true : false)
   
   function clickPreRenderAudio() {
       var current = localStorage.getItem('bookstorage_autoprime')
@@ -31,6 +32,18 @@ export default function SettingsPage(props) {
       } else {
         localStorage.setItem('bookstorage_mergewarnings',"true")
         setMergeWarningsCheckbox(true)
+      } 
+      
+   }
+   
+   function clickEnableInlineAudio() {
+      var current = localStorage.getItem('bookstorage_inlineaudio')
+      if (current === "true") {
+        localStorage.setItem('bookstorage_inlineaudio',"false")
+        setInlineAudioCheckbox('')
+      } else {
+        localStorage.setItem('bookstorage_inlineaudio',"true")
+        setInlineAudioCheckbox(true)
       } 
       
    }
@@ -65,7 +78,12 @@ export default function SettingsPage(props) {
          <label>Enable Merge Warnings ?<input type="checkbox" onChange={clickEnableMergeWarnings} checked={mergeWarningsCheckbox} /></label>
          <br/><b></b>
        </div>
-       
+       <hr style={{margin:'1em'}}  />
+       <div>
+         <label>Enable Inline Audio ?<input type="checkbox" onChange={clickEnableInlineAudio} checked={inlineAudioCheckbox} /></label>
+         <br/><b>This will make your song book much bigger so online synchronisation will be slower.</b>
+         <br/><b></b>
+       </div>
     </div>
 }
 //<Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={function() {if (window.confirm("Do you really want to clear your review list?")) {tunebook.clearBoost()} }} >Clear Review Progress</Button><br/>

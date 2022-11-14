@@ -3,7 +3,7 @@ import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup} from 'react-boo
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
 import {useNavigate} from 'react-router-dom'
-    
+import YouTubeSearchModal from './YouTubeSearchModal'    
 
 
 function AddSongModal(props) {
@@ -15,6 +15,8 @@ function AddSongModal(props) {
   const [songChords, setSongChords] = useState('')
   const [songComposer, setSongComposer] = useState('')
   const [songNotes, setSongNotes] = useState('')
+  const [songImage, setSongImage] = useState(null)
+  const [songMedia, setSongMedia] = useState(null)
   
   const handleClose = () => {
       setShow(false);
@@ -25,12 +27,13 @@ function AddSongModal(props) {
       setSongChords('')
       setSongComposer('')
       setSongNotes('')
+      setSongImage(null)
+      setSongMedia (null)
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
   }
   const handleShow = () => setShow(true);
   const boostUp = () => {}
   const boostDown = () => {}
-  
   
   
     function filterSearch(tune) {
@@ -121,6 +124,8 @@ function AddSongModal(props) {
     setSongComposer('')
     setSongMeter('')
     setSongChords('')
+    setSongImage(null)
+    setSongMedia(null)
     props.forceRefresh()
     // force refresh list
     var finalTuneBook=props.currentTuneBook
@@ -145,16 +150,16 @@ function AddSongModal(props) {
           return false
         }
     })
-    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, meter:songMeter}
-    //console.log('ADD TUNE',t)
+    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, meter:songMeter, files:(songImage ? [{data:songImage,type:'image'}] : []), links:(songMedia ? [{link:songMedia}] : [])}
+    console.log('ADD TUNE',t)
     props.tunebook.saveTune(t); 
     props.setFilter('') ; 
     setSongTitle('')
     setSongWords('')
     setSongNotes('')
     setSongComposer('')
-    setSongMeter('')
-    setSongChords('')
+    setSongMeter({})
+    setSongChords({})
     props.forceRefresh()
     // force refresh list
     var finalTuneBook=props.currentTuneBook
@@ -169,7 +174,58 @@ function AddSongModal(props) {
     //props.updateList(songTitle,props.currentTuneBook)
     handleClose() 
   }
-
+  
+  function imageSelected (event) {
+      function readFile(file){
+          var reader = new FileReader();
+          reader.onloadend = function(){
+              //console.log("loaded",reader.result)
+            if (reader.result.trim().length > 0) {
+              setSongImage(reader.result)
+            }
+          }
+          if(file){
+              reader.readAsDataURL(file);
+          }
+      }
+      readFile(event.target.files[0])
+  }
+   function isYoutubeLink(urlToParse){
+       
+            if (urlToParse) {
+                var regExp = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+                if (urlToParse.match(regExp)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+  function mediaSelected (event) {
+      function readFile(file){
+          var reader = new FileReader();
+          reader.onloadend = function(){
+              //console.log("loaded",reader.result)
+            if (reader.result.trim().length > 0) {
+              setSongMedia(reader.result)
+            }
+          }
+          if(file){
+              reader.readAsDataURL(file);
+          }
+      }
+      readFile(event.target.files[0])
+  }
+  
+//<YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook} links={props.tune.links}  onChange={function(links) {
+                    //var tune = props.tune
+                    //tune.links = links; 
+                    //props.tunebook.saveTune(tune); 
+                //}}
+                //setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
+                //triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
+                //value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
+            ///>
   return (
     <>
       <Button variant="success" title="Add Tune" onClick={handleShow}>
@@ -178,7 +234,7 @@ function AddSongModal(props) {
 
       <Modal show={show} onHide={handleClose} backdrop="static"  keyboard="false" >
         <Modal.Header closeButton>
-          <Modal.Title>Add a tune</Modal.Title>
+          <Modal.Title>Add a Tune</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0 && forceNewTune) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
@@ -187,7 +243,7 @@ function AddSongModal(props) {
            </ButtonGroup>
            </div>
            <br/>
-          <label>Title <input type="text" value={songTitle} autofocus onChange={function(e) {setSongTitle(e.target.value) }} /></label>
+          <label>Title <input type="text" value={songTitle} autoFocus={true} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
           {!forceNewTune && <>
                <ListGroup >
                   <ListGroup.Item variant="success" action onClick={function() {setForceNewTune(true)}}>
@@ -210,12 +266,33 @@ function AddSongModal(props) {
               <option>2/4</option>
               <option>6/8</option>
               <option>9/8</option>
+              <option>12/8</option>
               </select></label>
               
               
               <label>Lyrics&nbsp;&nbsp;
               {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
               <textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
+              {localStorage.getItem('bookstorage_inlineaudio') === "true" && <>
+                  <hr/>
+              <label>Image&nbsp;&nbsp;
+                <input type='file' onChange={imageSelected}/>
+                {songImage && <img style={{width:'150px'}} src={songImage}  />}
+              </label>
+              <hr/>
+              <label>Media&nbsp;&nbsp;
+                <input type='file' onChange={mediaSelected} />
+                <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}   onChange={function(link) {
+                    setSongMedia(link.link)
+                }}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
+                triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
+                value={(songTitle) + (songComposer ? ' ' + songComposer : '')}
+               />
+               
+                {(songMedia && !isYoutubeLink(songMedia)) && <audio controls={true} src={songMedia}  />}
+              </label>
+              <hr/></>}
               <Tabs defaultActiveKey={songMeter ? "chords" : "notes"} id="chordstab"  >
                 {songMeter && <Tab eventKey="chords" title="Chords" >
                   <label>Chords&nbsp;&nbsp;

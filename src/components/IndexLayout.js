@@ -41,7 +41,7 @@ export default function IndexLayout(props) {
           //window.scroll(0,props.scrollOffset)
         //console.log('add scroll and restore to ',props.scrollOffset)
         return () => {
-            console.log('remove scroll')
+            //console.log('remove scroll')
             window.removeEventListener("scroll", props.setScrollOffset);
         };
     },[])
@@ -108,7 +108,7 @@ export default function IndexLayout(props) {
         return found
     }
     useEffect(function() {
-        console.log("IL boot")
+        //console.log("IL boot")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       filtered.sort(function(a,b) { 
           return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
@@ -120,7 +120,7 @@ export default function IndexLayout(props) {
     },[])
     
     useEffect(function() {
-      console.log("IL currentTuneBook")
+      //console.log("IL currentTuneBook")
       if (filter.length === 1) {
           setFiltered({})
           setSelected({})
@@ -170,7 +170,7 @@ export default function IndexLayout(props) {
         }
         
         setTimeout(function() {
-            console.log('dosdcroll',props.scrollOffset)
+            //console.log('dosdcroll',props.scrollOffset)
             window.scroll(0,props.scrollOffset)
         },300)
         //props.tunebook.utils.scrollTo("topofpage",props.scrollOffset)
@@ -226,7 +226,18 @@ export default function IndexLayout(props) {
     }
     
     return <div className="index-layout"  >
-        <IndexSearchForm tunes={props.tunes} googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} />
+    
+        <div id={JSON.stringify(selected)} >
+        <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
+                if (selected[v]) {
+                     return v
+                } else {
+                    return ''
+                }
+            }).join(",") 
+            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} sfilter={filter} setFilter={setFilter}  forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={props.forceRefresh} />
+        </div>
+        
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
         
         {filtered.length > 0 &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}

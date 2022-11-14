@@ -7,7 +7,7 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -21,108 +21,127 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
      
   function navigateToNextSong(currentSongId, navigate) {
-    //console.log("NEXT")
-    var useTunes = tunes
-    if (currentTuneBook) {
-      useTunes = {}
-      var filtered = Object.values(tunes)
-      filtered.sort(function(a,b) { 
-          return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-      })
-      filtered.forEach(function(val) {
-        if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-          //console.log(val, val.books)
-          useTunes[val.id] = val
-        }
-      })
-    } 
-    function doFallback() {
-      // fallback to first song
-      if (Object.keys(useTunes).length > 0)  {
-        var next = useTunes[Object.keys(useTunes)[0]]
-        if (next && next.id) {
-          setCurrentTune(next.id)
-          navigate('/tunes/' + next.id)
-        }
-      }
-    }
-    if (currentSongId) {
-      // find tune index allowing tunebook filter
-      var i = 0
-      var found = null
-      while (i < Object.keys(useTunes).length) {
-         var theTune = useTunes[Object.keys(useTunes)[i]]
-          if (theTune && (theTune.id === currentSongId)) {
-            var next = i + 1 % Object.keys(useTunes).length
-            if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
-              found = useTunes[Object.keys(useTunes)[next]].id
-              break;
+    if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
+        //console.log("NEXT")
+        var newPL = abcPlaylist
+        var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
+        newPL.currentTune = currentTune + 1 % abcPlaylist.tunes.length
+        setAbcPlaylist(newPL)
+        navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+    } else {
+        
+        var useTunes = tunes
+        if (currentTuneBook) {
+          useTunes = {}
+          var filtered = Object.values(tunes)
+          filtered.sort(function(a,b) { 
+              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          })
+          filtered.forEach(function(val) {
+            if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
+              //console.log(val, val.books)
+              useTunes[val.id] = val
+            }
+          })
+        } 
+        function doFallback() {
+          // fallback to first song
+          if (Object.keys(useTunes).length > 0)  {
+            var next = useTunes[Object.keys(useTunes)[0]]
+            if (next && next.id) {
+              setCurrentTune(next.id)
+              navigate('/tunes/' + next.id)
             }
           }
-          i++
-      }
-      if (found) {
-        setCurrentTune(found)
-        navigate('/tunes/' + found)
-      } else {
-        doFallback()
-      }
-    // no current tunebook means only tunes with no books
-    } else {
-      doFallback()
+        }
+        if (currentSongId) {
+          // find tune index allowing tunebook filter
+          var i = 0
+          var found = null
+          while (i < Object.keys(useTunes).length) {
+             var theTune = useTunes[Object.keys(useTunes)[i]]
+              if (theTune && (theTune.id === currentSongId)) {
+                var next = i + 1 % Object.keys(useTunes).length
+                if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
+                  found = useTunes[Object.keys(useTunes)[next]].id
+                  break;
+                }
+              }
+              i++
+          }
+          if (found) {
+            setCurrentTune(found)
+            navigate('/tunes/' + found)
+          } else {
+            doFallback()
+          }
+        // no current tunebook means only tunes with no books
+        } else {
+          doFallback()
+        }
     }
   }
   
   function navigateToPreviousSong(currentSongId, navigate) {
     //console.log("PREV")
-    var useTunes = tunes
-    if (currentTuneBook) {
-      useTunes = {}
-      var filtered = Object.values(tunes)
-      filtered.sort(function(a,b) { 
-          return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-      })
-      filtered.forEach(function(val) {
-        if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-          //console.log(val, val.books)
-          useTunes[val.id] = val
-        }
-      })
-    } 
-    function doFallback() {
-      // fallback to first song
-      if (Object.keys(useTunes).length > 0)  {
-        var next = useTunes[Object.keys(useTunes)[Object.keys(useTunes).length - 1]]
-        if (next && next.id) {
-          setCurrentTune(next.id)
-          navigate('/tunes/' + next.id)
-        }
-      }
-    }
-    if (currentSongId) {
-      // find tune index allowing tunebook filter
-      var i = 0
-      var found = null
-      while (i < Object.keys(useTunes).length) {
-         var theTune = useTunes[Object.keys(useTunes)[i]]
-          if (theTune && (theTune.id === currentSongId)) {
-            var next = i - 1 % Object.keys(useTunes).length
-            if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
-              found = useTunes[Object.keys(useTunes)[next]].id
-              break;
+    if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
+        //console.log("NEXT")
+        var newPL = abcPlaylist
+        var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
+        newPL.currentTune = currentTune - 1 % abcPlaylist.tunes.length
+        setAbcPlaylist(newPL)
+        navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+    } else {
+            
+        var useTunes = tunes
+        if (currentTuneBook) {
+          useTunes = {}
+          var filtered = Object.values(tunes)
+          filtered.sort(function(a,b) { 
+              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          })
+          filtered.forEach(function(val) {
+            if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
+              //console.log(val, val.books)
+              useTunes[val.id] = val
+            }
+          })
+        } 
+        function doFallback() {
+          // fallback to first song
+          if (Object.keys(useTunes).length > 0)  {
+            var next = useTunes[Object.keys(useTunes)[Object.keys(useTunes).length - 1]]
+            if (next && next.id) {
+              setCurrentTune(next.id)
+              navigate('/tunes/' + next.id)
             }
           }
-          i++
-      }
-      if (found) {
-        setCurrentTune(found)
-        navigate('/tunes/' + found)
-      } else {
-        doFallback()
-      }
-    // no current tunebook means only tunes with no books
-    } else {
-      doFallback()
+        }
+        if (currentSongId) {
+          // find tune index allowing tunebook filter
+          var i = 0
+          var found = null
+          while (i < Object.keys(useTunes).length) {
+             var theTune = useTunes[Object.keys(useTunes)[i]]
+              if (theTune && (theTune.id === currentSongId)) {
+                var next = i - 1 % Object.keys(useTunes).length
+                if (useTunes[Object.keys(useTunes)[next]] && useTunes[Object.keys(useTunes)[next]].id) {
+                  found = useTunes[Object.keys(useTunes)[next]].id
+                  break;
+                }
+              }
+              i++
+          }
+          if (found) {
+            setCurrentTune(found)
+            navigate('/tunes/' + found)
+          } else {
+            doFallback()
+          }
+        // no current tunebook means only tunes with no books
+        } else {
+          doFallback()
+        }
     }
   }
   
@@ -746,7 +765,51 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     return res 
 
   }
+  
+  
+  function fillMediaPlaylist(book) {
+        //console.log('fill media',book)
+        var fillTunes=mediaFromBook(book)
+        shuffleArray(fillTunes)
+        setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
+    }
+    
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, createTune};
+    function fillAbcPlaylist(book, selected, navigate) {
+        var fillTunes = []
+        var useBook = book
+        var sel = []
+        var selectedMess = selected ? selected.split(",") : []
+        selectedMess.forEach(function(val) {
+          if (val && val.trim().length > 0 ) sel.push(val)
+        })
+            
+        if (sel.length > 0) {
+            sel.forEach(function(tuneKey) {
+                if (tunes[tuneKey]) fillTunes.push(tunes[tuneKey])
+            })
+            shuffleArray(fillTunes)
+            useBook = 'Selection'
+        } else {
+            fillTunes=fromBook(book)
+            shuffleArray(fillTunes)
+        }
+        console.log('fill abxz',useBook, fillTunes)
+        setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
+        if (fillTunes.length > 0 && fillTunes[0].id) {
+            if (navigate) navigate("/tunes/"+fillTunes[0].id+"/playMidi") 
+        }
+    }
+    
+
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, createTune, fillAbcPlaylist, fillMediaPlaylist};
 }
 export default useTuneBook

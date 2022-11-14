@@ -843,7 +843,7 @@ export default function Abc(props) {
                 setAudioChangedHash(hash)
                 setStarted(true)
                 createPlayer(o, props.tempo, props.meter, props.autoPrime).then(function(p) {
-                      //console.log("CREATED PLAYER")
+                      console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
                      var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                      assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
                      if (props.autoStart) {
@@ -949,6 +949,16 @@ export default function Abc(props) {
         }
     }, [isPlaying]); 
 
+    useEffect(() => {
+        if (props.autoStart) {
+          if (props.autoStart) {
+           setIsPlaying(true)
+           if (props.onStarted) props.onStarted()
+          }
+        }  else {
+           setIsPlaying(false)
+        }
+    }, [props.autoStart]); 
 
 
   function updateOnChange() {
@@ -975,6 +985,15 @@ export default function Abc(props) {
       //setIsPlaying(false)
       
     }
+     //if (props.autoStart) {
+      //setSeekTo(0)
+      //setPlayCount(0)
+      //startPlaying()
+      
+    //} 
+    //else {
+      //stopPlaying()
+    //}
     return function cleanup() {
       //console.log('ABC CLEANUP')
        stopPlaying() 

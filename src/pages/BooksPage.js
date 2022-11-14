@@ -38,7 +38,7 @@ export default function BooksPage(props) {
             notCollatedCurated[bookTitle] = curated[bookTitle]
         }
     })
-    console.log(notCollatedCurated)
+    //console.log(notCollatedCurated)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     const [imageIsHidden, setImageIsHidden] = useState({})
     function hideImage(key) {
@@ -53,28 +53,31 @@ export default function BooksPage(props) {
         setMyBookImageIsHidden(v)
     }
     
-    function fillMediaPlaylist(book) {
-        var tunes=props.tunebook.mediaFromBook(book)
-        props.setMediaPlaylist({currentTune: 0, book:book, tunes:tunes})
-    }
+   
+    
     var tbOptions = Object.keys(props.tunebook.getTuneBookOptions())
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     return <div className="App-books">
-        
         <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
             {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div>
-                <Button variant="success" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
+                <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
+                    <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                    
+                    <Button variant="success" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
                     {props.tunebook.icons.save} Download
                 </Button>
+                </span>
+
+                
                 <h4>Your Books</h4>
                 <div>{tbOptions.map(function(option, ok) {
                     if (option && option.trim().length > 0) { 
                         return <ButtonGroup key={ok} style={{minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em'}} onClick={function(e) {props.setCurrentTuneBook(option)}} >
-                            <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={fillMediaPlaylist} tunebookOption={option} />
+                            <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} />
                             <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}} >{option}&nbsp;&nbsp; {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} />}
                             {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
                             </Button></Link>
-                            <Button onClick={function() {fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
+                            <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
                         </ButtonGroup>
                     } else {
                         return null
@@ -82,11 +85,10 @@ export default function BooksPage(props) {
                 })}</div>
             </div>}
 
-            <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
-                <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-                <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-            </span>
             
+            <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
+                    <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                </span>
             {Object.keys(curated).length > 0 && <div style={{marginTop:'1em'}} ><h4>Import a Book</h4>
                 
                 <Accordion defaultActiveKey={Number('0')} >

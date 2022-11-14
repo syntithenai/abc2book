@@ -109,9 +109,7 @@ function YouTubeSearchModal(props) {
     
   function selectLink(link) {
       console.log('select link ', link, props)
-      var links = Array.isArray(props.links) ? props.links : []
-      links.unshift({title:link.title, link: link.link})
-      props.onChange(links)
+      props.onChange(link)
       handleClose()
   }
   

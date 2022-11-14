@@ -3,6 +3,7 @@ import {Badge, Button, Dropdown} from 'react-bootstrap'
 import TempoControl from './TempoControl' 
 import GoogleAd from './GoogleAd'
 import ShareTunebookModal from './ShareTunebookModal'
+import AbcPlaylistManagerModal from './AbcPlaylistManagerModal'
 import {isMobile} from 'react-device-detect';
 import {useNavigate, useParams} from 'react-router-dom'
 
@@ -13,8 +14,7 @@ export default function Header(props) {
     var navigate = useNavigate()
     //var params = useParams() // empty  ???
     var parts = location.pathname.split("/")
-    var params = {tuneId: parts.length === 3 ? parts[2] : null}
-    
+    var params = {tuneId: parts.length >= 3 ? parts[2] : null}
     const onKeyPress = (event) => {
         if (!props.blockKeyboardShortcuts) {
             if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
@@ -62,10 +62,13 @@ export default function Header(props) {
                   </Dropdown> 
                   {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
                   
-                    
-                  {(!isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'5em'}}><Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button><Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button></span>  : null}
+                  {(location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'5em'}}>
+                      <AbcPlaylistManagerModal tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} />
+                      <Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button>
+                      <Button onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button>
+                  </span>  : null}
                 
-                    
+                
                 
                 </>
             }
@@ -99,7 +102,10 @@ export default function Header(props) {
                 
               </Dropdown.Menu>
             </Dropdown>}
-            
+            {(isMobile && location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'5em'}}>
+                      <AbcPlaylistManagerModal tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} />
+                     
+                  </span>  : null}
             
        </span>
        

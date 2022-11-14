@@ -21,7 +21,9 @@ function TuneBookOptionsModal(props) {
           <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
             {props.tunebook.icons.save}  Download
           </Button>
-          <Button onClick={function() {console.log(props.tunebookOption, props.fillMediaPlaylist) ;props.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube} Play</Button>
+          <Button style={{marginLeft:'0.1em'}} onClick={function() {props.tunebook.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"danger"} size="small" >{props.tunebook.icons.youtube} Play Media</Button>
+          
+          <Button style={{marginLeft:'0.1em'}}  onClick={function() {props.tunebook.fillAbcPlaylist(props.tunebookOption,'',navigate); navigate("/tunes")}} variant={"success"} size="small" >{props.tunebook.icons.play} Play Midi</Button>
           
            {<span style={{marginLeft:'0.3em',float:'right'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
          <hr style={{width:'100%', clear:'both'}} />

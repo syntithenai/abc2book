@@ -127,20 +127,22 @@ export default function useAppData() {
   
   useEffect(function() {
       //console.log('UE')
-    utils.loadLocalforageObject('bookstorage_tunes').then(function(tunesString) {
-        console.log("load LS tunes", typeof tunesString)
-        try {
-            var t = JSON.parse(tunesString)
-            console.log('loaded',t)
+    utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
+        //console.log("load LS tunes", typeof tunesString)
+        //try {
+            //var t = JSON.parse(tunesString)
+            //console.log('loaded',t)
             setTunesInner(t)
             forceRefresh()
-        } catch (e) {}
+        //} catch (e) {
+            //console.log(e)
+        //}
     })
   },[])
   
   function setTunes(val) {
     setTunesInner(val)
-    utils.saveLocalforageObject('bookstorage_tunes', JSON.stringify(val))
+    utils.saveLocalforageObject('bookstorage_tunes', val)
   }
   
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
@@ -150,6 +152,7 @@ export default function useAppData() {
       setImportResultsReal(res)
   }
   const [mediaPlaylist, setMediaPlaylistReal] = useState(null)
+  const [abcPlaylist, setAbcPlaylist] = useState(null)
   
   // ensure playlist has media links or set null
   function setMediaPlaylist(playlist) {
@@ -171,7 +174,7 @@ export default function useAppData() {
   }
   
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset, abcPlaylist, setAbcPlaylist} 
   
 }
 //tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

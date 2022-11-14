@@ -53,7 +53,7 @@ export default function LinksEditor(props) {
           
           {(warning && warning.length  > 0) && <b>{warning}</b>}
                     
-            <Button variant="success" style={{marginBottom:'0.6em', marginRight:'0.6em'}} ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
+            {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Button variant="success" style={{marginBottom:'0.6em', marginRight:'0.6em'}} ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
                 fileSelected(e,function(data) {
                     console.log((data ? data.slice(0,50) : 'nodata'),e)
                     var type = e.target.files[0].type
@@ -75,13 +75,15 @@ export default function LinksEditor(props) {
                     }
                      e.target.value=''
                 })
-            }  } /></Button>
+            }  } /></Button>}
             
           
           <span  >
-            <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook} links={props.tune.links}  onChange={function(links) {
+            <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}  onChange={function(link) {
                     var tune = props.tune
-                    tune.links = links; 
+                    var links = Array.isArray(props.tune.links) ? props.tune.links : []
+                    links.unshift({title:link.title, link: link.link})
+                    tune.links = links
                     props.tunebook.saveTune(tune); 
                 }}
                 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 

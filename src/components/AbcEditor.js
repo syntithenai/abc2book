@@ -280,12 +280,12 @@ export default function AbcEditor(props) {
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   
-                  <Tab eventKey="files" title="Images" >
+                  {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Tab eventKey="files" title="Images" >
                         <Form.Group className="mb-3" controlId="images">
                             <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
                             <ImagesEditor setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
                         </Form.Group>
-                  </Tab>
+                  </Tab>}
                   
                   <Tab eventKey="audio" title="Audio" >
                         <Form.Group className="mb-3" controlId="audio">
