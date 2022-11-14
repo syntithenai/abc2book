@@ -32,6 +32,13 @@ export default function useAppData() {
   }
   
   
+    const [scrollOffset, setScrollOffsetReal] = useState(null);
+    const setScrollOffset = (e) => {
+        //console.log('setScroll',window.pageYOffset,e)
+        setScrollOffsetReal(window.pageYOffset);
+    };
+  
+  
   const [currentTune, setCurrentTuneInner] = useState(localStorage.getItem('bookstorage_current_tune') ? localStorage.getItem('bookstorage_current_tune') : 0);
   function setCurrentTune(val) {
     setCurrentTuneInner(val)
@@ -40,6 +47,7 @@ export default function useAppData() {
   const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
   function setCurrentTuneBook(val) {
     setCurrentTuneBookInner(val)
+    setScrollOffsetReal(0)
     localStorage.setItem('bookstorage_current_tunebook', val)
   }
   
@@ -118,12 +126,12 @@ export default function useAppData() {
   const [tunes, setTunesInner] = useState({});
   
   useEffect(function() {
-      console.log('UE')
+      //console.log('UE')
     utils.loadLocalforageObject('bookstorage_tunes').then(function(tunesString) {
-        console.log("EEU", typeof tunesString)
+        console.log("load LS tunes", typeof tunesString)
         try {
             var t = JSON.parse(tunesString)
-            console.log('UE setff',t)
+            console.log('loaded',t)
             setTunesInner(t)
             forceRefresh()
         } catch (e) {}
@@ -161,7 +169,9 @@ export default function useAppData() {
           setMediaPlaylistReal(null)
       }
   }
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist} 
+  
+  
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset} 
   
 }
 //tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

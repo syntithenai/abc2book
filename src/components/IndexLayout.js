@@ -1,3 +1,4 @@
+/* global window */
 import {Link  } from 'react-router-dom'
 import {Button, Dropdown} from 'react-bootstrap'
 import {ListGroup} from 'react-bootstrap'
@@ -25,6 +26,25 @@ export default function IndexLayout(props) {
             return true
         }
     }
+    
+    useEffect(function() {
+        //var onScroll = function(e) {console.log('scrolled',e)}
+        // restore scroll on load
+        //function dt(offset) {
+          //setTimeout(() => {
+            //console.log('dosdcroll',offset)
+            //window.scroll(window, 0, offset)
+          //},500)
+        //}
+        //dt(props.scrollOffset)
+        window.addEventListener("scroll", props.setScrollOffset);
+          //window.scroll(0,props.scrollOffset)
+        //console.log('add scroll and restore to ',props.scrollOffset)
+        return () => {
+            console.log('remove scroll')
+            window.removeEventListener("scroll", props.setScrollOffset);
+        };
+    },[])
 
     function filterSearch(tune) {
         //console.log('filterSearch',props.currentTuneBook,filter)
@@ -88,7 +108,7 @@ export default function IndexLayout(props) {
         return found
     }
     useEffect(function() {
-        //console.log("IL boot")
+        console.log("IL boot")
       var filtered = Object.values(props.tunes).filter(filterSearch)
       filtered.sort(function(a,b) { 
           return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
@@ -100,7 +120,7 @@ export default function IndexLayout(props) {
     },[])
     
     useEffect(function() {
-      //console.log("IL currentTuneBook")
+      console.log("IL currentTuneBook")
       if (filter.length === 1) {
           setFiltered({})
           setSelected({})
@@ -148,8 +168,15 @@ export default function IndexLayout(props) {
             setSelected({})
           
         }
+        
+        setTimeout(function() {
+            console.log('dosdcroll',props.scrollOffset)
+            window.scroll(0,props.scrollOffset)
+        },300)
+        //props.tunebook.utils.scrollTo("topofpage",props.scrollOffset)
+        
       //},100)
-    },[filter,props.currentTuneBook])
+    },[filter,props.currentTuneBook, props.tunes])
     
     function selectAllToggle() {
         if (countSelected() > 0) {
@@ -167,6 +194,7 @@ export default function IndexLayout(props) {
         setSelectedCount(countSelected())
         props.forceRefresh()
     }
+    
     function handleSelection(e,tuneId) {
         //console.log('HS',tuneId,selected[tuneId],selected)
         e.preventDefault(); 
@@ -181,6 +209,7 @@ export default function IndexLayout(props) {
         props.forceRefresh()
         //console.log('HSend',tuneId,selected[tuneId],selected)
     }
+    
     function countSelected() {
         var count = 0
         Object.keys(selected).forEach(function(key) {
@@ -226,7 +255,7 @@ export default function IndexLayout(props) {
             //console.log(checkboxProps)
              //<span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
             
-            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} >
+            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'}  >
                 <span style={{ marginLeft:'0.3em', float:'right'}}>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>

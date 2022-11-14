@@ -372,7 +372,7 @@ export default function MusicSingle(props) {
                                 setMediaLoading(false); 
                                 setIsPlaying(true)
                             }} 
-                            width="1px" height="1px" autoplay={"true"} 
+                            width="1px" height="1px" autoPlay={"true"} 
                             onEnded={function() {
                                 console.log('ended a')
                                 // next link
@@ -493,8 +493,8 @@ export default function MusicSingle(props) {
              </>}
              
              {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} >
-                 {tune.files.map(function(file) {
-                    return file.type === 'image' ? <img style={{width:'100%'}} src={file.data} /> : '' 
+                 {tune.files.map(function(file,fk) {
+                    return file.type === 'image' ? <img key={fk} style={{width:'100%'}} src={file.data} /> : '' 
                   })}
               </div>}
              
