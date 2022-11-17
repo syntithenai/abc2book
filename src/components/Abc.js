@@ -452,7 +452,7 @@ export default function Abc(props) {
         }
       //}
     })
-  }
+  } 
 
   function primeTune(audioContext, visualObj, force) {
     
@@ -476,7 +476,52 @@ export default function Abc(props) {
                options:{
                  soundFontUrl: a + '/midi-js-soundfonts/abcjs',
                  soundFontVolumeMultiplier: 1.6,
-                 warp: getWarp()
+                 warp: getWarp(),
+                 programOffsets: {
+                    "bright_acoustic_piano": 30,
+                    "honkytonk_piano": 30,
+                    "electric_piano_1": 30,
+                    "electric_piano_2": 30,
+                    "harpsichord": 40,
+                    "clavinet": 20,
+                    "celesta": 20,
+                    "glockenspiel": 40,
+                    "vibraphone": 30,
+                    "marimba": 35,
+                    "xylophone": 30,
+                    "tubular_bells": 35,
+                    "dulcimer": 30,
+                    "drawbar_organ": 20,
+                    "percussive_organ": 25,
+                    "rock_organ": 20,
+                    "church_organ": 40,
+                    "reed_organ": 40,
+                    "accordion": 40,
+                    "harmonica": 40,
+                    "acoustic_guitar_nylon": 20,
+                    "acoustic_guitar_steel": 30,
+                    "electric_guitar_jazz": 25,
+                    "electric_guitar_clean": 15,
+                    "electric_guitar_muted": 35,
+                    "overdriven_guitar": 25,
+                    "distortion_guitar": 20,
+                    "guitar_harmonics": 30,
+                    "electric_bass_finger": 15,
+                    "electric_bass_pick": 30,
+                    "fretless_bass": 40,
+                    "violin": 105,
+                    "viola": 50,
+                    "cello": 40,
+                    "contrabass": 60,
+                    "trumpet": 10,
+                    "trombone": 90,
+                    "alto_sax": 20,
+                    "tenor_sax": 20,
+                    "clarinet": 20,
+                    "flute": 50,
+                    "banjo": 50,
+                    "woodblock": 20,
+                 }
                },
               
             }

@@ -10,7 +10,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "@tombatossals/react-chords": "file:../abcjsfork/react-chords",
-    "abcjs": "^6.1.6",
+    "abcjs": "file:../abcjsfork/abcjs",
     "audio-decode": "^1.4.0",
     "audio-encoder": "^1.0.4",
     "audiobuffer-arraybuffer-serializer": "^0.0.36",
