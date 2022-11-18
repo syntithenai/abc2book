@@ -478,8 +478,8 @@ export default function Abc(props) {
                  soundFontVolumeMultiplier: 1.6,
                  warp: getWarp(),
                  programOffsets: {
-                    "bright_acoustic_piano": 35,
-                    "honkytonk_piano": 35,
+                    "bright_acoustic_piano": 40,
+                    "honkytonk_piano": 40,
                     "electric_piano_1": 30,
                     "electric_piano_2": 30,
                     "harpsichord": 40,

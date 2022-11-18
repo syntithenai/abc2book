@@ -19,7 +19,7 @@ function AbcPlaylistManagerModal(props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Playlist</Modal.Title>
+          <Modal.Title>Midi Playlist</Modal.Title>
           
         </Modal.Header>
        

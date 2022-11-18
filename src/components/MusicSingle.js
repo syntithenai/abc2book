@@ -362,10 +362,10 @@ export default function MusicSingle(props) {
                         }
                         {/* Have no link, play button triggers youtube search*/}
                         {!(Array.isArray(tune.links) && tune.links.length > 0) && 
-                        <LinksEditorModal icon="media" tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} /> 
+                        <LinksEditorModal autoplay={true} icon="media" tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} /> 
                     }
                         
-                        {(Array.isArray(tune.links) && tune.links.length > 0) && <LinksEditorModal tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
+                        {(Array.isArray(tune.links) && tune.links.length > 0) && <LinksEditorModal  tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
                         
                     </ButtonGroup>}
                   

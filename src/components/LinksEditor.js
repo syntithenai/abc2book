@@ -84,7 +84,9 @@ export default function LinksEditor(props) {
                     var links = Array.isArray(props.tune.links) ? props.tune.links : []
                     links.unshift({title:link.title, link: link.link})
                     tune.links = links
+                    if (props.autoPlay && props.setStartPlaying) props.setStartPlaying()
                     props.tunebook.saveTune(tune); 
+                    
                 }}
                 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
                 triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
@@ -97,6 +99,7 @@ export default function LinksEditor(props) {
                 var tune = props.tune
                 tune.links = links; 
                 props.tunebook.saveTune(tune); 
+                
             }} >{props.tunebook.icons.add} New Link</Button>
             
             

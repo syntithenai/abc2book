@@ -18,7 +18,7 @@ function PlaylistManagerModal(props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Playlist</Modal.Title>
+          <Modal.Title>Media Playlist</Modal.Title>
           
         </Modal.Header>
        

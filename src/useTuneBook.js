@@ -772,6 +772,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var fillTunes=mediaFromBook(book)
         shuffleArray(fillTunes)
         setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
+        setAbcPlaylist(null)
     }
     
     function shuffleArray(array) {
@@ -804,6 +805,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
         console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
+        setMediaPlaylist(null)
         if (fillTunes.length > 0 && fillTunes[0].id) {
             if (navigate) navigate("/tunes/"+fillTunes[0].id+"/playMidi") 
         }

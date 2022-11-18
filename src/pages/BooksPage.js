@@ -59,11 +59,11 @@ export default function BooksPage(props) {
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     return <div className="App-books">
         <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
-            {Object.keys(props.tunebook.getTuneBookOptions()).length > 0 && <div>
+            {tbOptions.length > 0 && <div>
                 <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
                     <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-                    
-                    <Button variant="success" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
+                    <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                    <Button variant="info" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
                     {props.tunebook.icons.save} Download
                 </Button>
                 </span>
@@ -87,6 +87,7 @@ export default function BooksPage(props) {
 
             
             <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
+                    <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
                     <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
                 </span>
             {Object.keys(curated).length > 0 && <div style={{marginTop:'1em'}} ><h4>Import a Book</h4>

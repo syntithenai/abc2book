@@ -3,7 +3,7 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import LinksEditor from './LinksEditor'
 
 
-export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortcuts, icon}) {
+export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortcuts, icon, autoPlay, setStartPlaying}) {
   const [show, setShow] = useState(false);
  
   const handleClose = () => {
@@ -30,7 +30,7 @@ export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortc
           <Modal.Title>Audio Links and Files</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <LinksEditor tunebook={tunebook} tune={tune} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} handleClose={handleClose} />
+            <LinksEditor setStartPlaying={setStartPlaying} autoplay={autoPlay}  tunebook={tunebook} tune={tune} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} handleClose={handleClose} />
         </Modal.Body>
       </Modal>
     </>
