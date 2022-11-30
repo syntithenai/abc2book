@@ -49,22 +49,22 @@ export default function useGoogleSheet(props) {
   
   function updateSheet(delay=1000) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger sheet update',googleSheetId.current )
+      console.log('trigger sheet update',googleSheetId.current )
       //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       pausePolling.current = true
       if (googleSheetId.current) { 
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
-          //console.log('do sheet update', tunes)
-          //utils.loadLocalObject('bookstorage_tunes').then(function(nowTunes) {
-              ////console.log('do sheet update NOWTUNES', nowTunes)
-              //updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
-                  ////loadSheet()
-                  //pausePolling.current = false
-                  ////console.log('done sheet update')
-              //})
+          console.log('do sheet update', tunes)
+          utils.loadLocalforageObject('bookstorage_tunes').then(function(nowTunes) {
+              console.log('do sheet update NOWTUNES', nowTunes)
+              updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
+                  //loadSheet()
+                  pausePolling.current = false
+                  console.log('done sheet update')
+              })
               resolve()
-            //})
+            })
         },delay)
       } else {
           resolve()
