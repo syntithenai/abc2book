@@ -98,12 +98,12 @@ export default function SelectedItemsModal(props) {
       
     }
   }
-  function fillMediaPlaylist() {
-    var tunes=props.tunebook.mediaFromSelection(props.selected)
-    console.log(tunes)
-    props.setMediaPlaylist({currentTune: 0, book:'selection', tunes:Object.values(tunes)})
-    handleClose()
-  }
+  //function fillMediaPlaylist() {
+    //var tunes=props.tunebook.mediaFromSelection(props.selected)
+    //console.log(tunes)
+    //props.setMediaPlaylist({currentTune: 0, book:'selection', tunes:Object.values(tunes)})
+    //handleClose()
+  //}
 
 var sortedOptions = Object.keys(options)
 sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
@@ -121,7 +121,7 @@ sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
         </Modal.Header>
         <Modal.Body>
           <Button style={{float:'right', marginLeft:'0.4em'}} variant="danger" onClick={clickDelete} >Delete</Button>
-          <Button style={{float:'right'}} variant="success" onClick={fillMediaPlaylist} >{props.tunebook.icons.youtube}</Button>
+         
           <Tabs defaultActiveKey="addbook" >
             <Tab  eventKey="addbook" title="Add">
               <input type='search' value={filterAdd} onChange={function(e) {filterAddChange(e.target.value)}}   />

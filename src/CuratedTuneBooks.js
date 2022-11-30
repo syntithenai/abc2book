@@ -18,7 +18,7 @@ export default {
         'ralph': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/ralph.jpeg', book:"ralph"},
         'cassidy': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/cassidy.jpeg', book:"cassidy"},
         'leila': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/leila.jpeg', book:"leila"},
-        'mandeira': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/mandeira.jpeg', book:"mandeira"},
+        'mandira': {group:'Friends',link:'https://tunebook.net/scrape/mandira.abc', image:'/book_images/mandira.jpeg', book:"mandira"},
         'bhavit': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/bhavit.jpeg', book:"bhavit"},
         'steve\s whole songbook (live)': {googleDocumentId: '1ob9DTfROfBzIzON2cnIceQtmynt14Gnl', image:'/book_images/steve.jpeg'},
         'kameruka choir': {group:'Communities', link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/kamerukachoir.jpeg', book:"kameruka choir"},

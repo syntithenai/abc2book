@@ -41,12 +41,21 @@ export default function IndexSearchForm(props) {
 // props.updateList(e.target.value)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     
+    function gatherSelected() {
+        var count = 0
+        var final = {}
+        return props.selected.split(",").forEach(function(key) {
+            if (key && props.tunes[key] && props.tunes[key]._id) final[props.tunes[key]._id] = props.tunes[key] 
+        })
+        console.log("CCC",props.selected,final )
+        return final
+    }
     
     return <div id="tunesearchform" style={{padding:'0.3em', minHeight:'4em', clear:'both', backgroundColor: '#d3d3d385'}} >
       <span style={{float:'right', backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
             <AddSongModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
             <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-            <Button onClick={function() {props.tunebook.fillMediaPlaylist(props.currentTuneBook)}} variant={"danger"} size="small" >{props.tunebook.icons.youtube}</Button>
+            <Button onClick={function() {props.tunebook.fillMediaPlaylist('',props.selected,navigate)}} variant={"danger"} size="small" >{props.tunebook.icons.youtube}</Button>
             <Button onClick={function() {props.tunebook.fillAbcPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"success"} size="small" >{props.tunebook.icons.play}</Button>
         </span>
         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor  }} type='search' value={props.filter} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />

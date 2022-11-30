@@ -720,27 +720,28 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function mediaFromSelection(selection) {
-    //console.log('from book',book, tunes)
-    var res = Object.values(tunes).filter(function(tune) {
-        if (selection[tune.id]) {
-          if (tune.links && tune.links.length > 0) {
-                var found = false
-                tune.links.forEach(function(link) {
-                  if (link.link && link.link.trim()) {
-                      found = true
+    //console.log('m from sel',selection)
+    var final = []
+    if (selection) {
+        var res = selection.split(",").forEach(function(tuneId) {
+            //console.log('m from sel',tuneId)
+            if (tunes[tuneId]) {
+                  var tune = tunes[tuneId]
+                  //console.log('m from sel',tune)
+                  if (tune.links && tune.links.length > 0) {
+                        tune.links.forEach(function(link) {
+                          if (link.link && link.link.trim()) {
+                              final.push(tune)
+                          }
+                        })
                   }
-                })
-                return found
-            } else {
-                return false
             }
-        } else {
-          return false
-        }
-    })
+        })
     //res = shuffle(res)
-    //console.log('to abc res',res)
-    return res
+    //console.log('m from sel res',final)
+        
+    }
+    return final
   }
   
   function toAbc(book) {
@@ -767,13 +768,22 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   
-  function fillMediaPlaylist(book) {
-        //console.log('fill media',book)
-        var fillTunes=mediaFromBook(book)
+  function fillMediaPlaylist(book, selectedIds = null) {
+        //console.log('fill media',book, selectedIds)
+        var fillTunes = {}
+        if (selectedIds) {
+            fillTunes=mediaFromSelection(selectedIds)
+        } else if (book) {
+            fillTunes=mediaFromBook(book)
+        }
+        //console.log('fill media tunes',fillTunes)
+        
         shuffleArray(fillTunes)
         setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
         setAbcPlaylist(null)
     }
+    
+    
     
     function shuffleArray(array) {
         for (var i = array.length - 1; i > 0; i--) {
@@ -803,7 +813,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes=fromBook(book)
             shuffleArray(fillTunes)
         }
-        console.log('fill abxz',useBook, fillTunes)
+        //console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
         setMediaPlaylist(null)
         if (fillTunes.length > 0 && fillTunes[0].id) {

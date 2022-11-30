@@ -536,7 +536,7 @@ export default function MusicSingle(props) {
                                 }
                             }} >{props.tunebook.icons.play}</Button>}
                         <Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
-                        <PlaylistManagerModal tunebook={props.tunebook} mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} />
+                        
                     </ButtonGroup>
                </div>}
               

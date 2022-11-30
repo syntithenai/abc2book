@@ -15,7 +15,7 @@ function AbcPlaylistManagerModal(props) {
   
   return (
    <>{(props.abcPlaylist && props.abcPlaylist.tunes && props.abcPlaylist.tunes.length > 0) && <>
-      <Button onClick={handleShow} variant="primary" size="lg" >{props.tunebook.icons.menu}</Button>
+      <Button onClick={handleShow} variant="primary" size="xl" >{props.tunebook.icons.menu}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

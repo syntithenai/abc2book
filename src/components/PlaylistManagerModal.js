@@ -11,10 +11,11 @@ function PlaylistManagerModal(props) {
   }
   const handleShow = () => setShow(true);
   const navigate = useNavigate()
-  
   return (
     <>
-      <Button onClick={handleShow} variant="danger" size="xl" >{props.tunebook.icons.dropdown}</Button>
+    {(props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && 
+        <>
+      <Button onClick={handleShow} variant="primary" size="xl" >{props.tunebook.icons.menu}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -33,7 +34,7 @@ function PlaylistManagerModal(props) {
               return (!filter || filter.trim().length === 0 || tune && filter && tune.name && tune.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1) ?  <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{border:(tk === props.mediaPlaylist.currentTune ? '2px solid blue' : 'none')}} >
                 <b>{tune.name}</b>
                 <div>{tune.links.map(function(link,lk) {
-                    return <div style={{borderBottom:'1px solid black',borderTop:'1px solid black', minHeight:'3em'}} >
+                    return <div key={lk} style={{borderBottom:'1px solid black',borderTop:'1px solid black', minHeight:'3em'}} >
                         <Button style={{float:'right'}} variant="success"  onClick={function() {
                             var newPL = props.mediaPlaylist
                             newPL.currentTune = tk
@@ -52,6 +53,7 @@ function PlaylistManagerModal(props) {
           </ListGroup>
         </Modal.Footer></>}
       </Modal>
+    </>}
     </>
   );
 }
