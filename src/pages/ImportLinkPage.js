@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 
-export default function ImportLinkPage({tunebook, token, refresh, setMediaPlaylist, autoplay}) {
+export default function ImportLinkPage({tunebook, token, refresh, setMediaPlaylist, autoplay, setCurrentTuneBook}) {
     var navigate = useNavigate()
     var params = useParams()
     //console.log(params)
@@ -53,6 +53,7 @@ export default function ImportLinkPage({tunebook, token, refresh, setMediaPlayli
                                 setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
                                 setClickToStart(true)
                           } else {  
+                              setCurrentTuneBook(params.bookName)
                             navigate("/tunes")
                           }
                       }
