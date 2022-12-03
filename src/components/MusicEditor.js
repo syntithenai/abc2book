@@ -20,6 +20,8 @@ export default function MusicEditor(props) {
       
     useEffect(function() {
       //pushHistory(tune)  
+      props.setAbcPlaylist(null)
+      props.setMediaPlaylist(null)
     },[])
     
     //console.log('EDIT',tune,abc)

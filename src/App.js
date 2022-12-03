@@ -374,7 +374,7 @@ function App(props) {
                     </Route>  
                     
                     <Route  path={`editor`}     >
-                      <Route  path={`:tuneId`} element={<MusicEditor pushHistory={pushHistory} popHistory={popHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}    />} />
+                      <Route  path={`:tuneId`} element={<MusicEditor pushHistory={pushHistory} popHistory={popHistory} tunes={tunes}  isMobile={isMobile} forceRefresh={forceRefresh} tunebook={tunebook}    blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   setAbcPlaylist={setAbcPlaylist}  setMediaPlaylist={setMediaPlaylist}  />} />
                     </Route>
                     
                     <Route  path={`import`} >
