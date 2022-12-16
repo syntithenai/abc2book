@@ -46,7 +46,7 @@ export default function ImportLinkPage({tunebook, token, refresh, setMediaPlayli
                       console.log("gotreeees",results)
                       if (!tunebook.showImportWarning(results)) {
                           console.log("no show warning", autoplay , setMediaPlaylist)
-                          tunebook.applyImportData(results)
+                          tunebook.applyMergeData(results)
                           if (autoplay && setMediaPlaylist) {
                                 var tunes=tunebook.mediaFromBook(params.bookName)
                                 console.log('tunes from book',tunes)
@@ -54,7 +54,7 @@ export default function ImportLinkPage({tunebook, token, refresh, setMediaPlayli
                                 setClickToStart(true)
                           } else {  
                               setCurrentTuneBook(params.bookName)
-                            navigate("/tunes")
+                              navigate("/tunes")
                           }
                       }
                       

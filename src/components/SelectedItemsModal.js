@@ -135,7 +135,7 @@ sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
             <Tab  eventKey="removebook" title="Remove">
               <input type='search' value={filterRemove} onChange={function(e) {filterRemoveChange(e.target.value)}}   />
               <ListGroup  style={{clear:'both', width: '100%'}}>
-                {Object.keys(options).map(function(option,tk) {
+                {sortedOptions.map(function(option,tk) {
                   return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function() {clickRemoveOption(options[option])}} >{options[option]}</ListGroup.Item>
                 })}
               </ListGroup>

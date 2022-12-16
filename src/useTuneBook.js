@@ -248,6 +248,71 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     }
   }
   
+  
+  
+  function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
+    console.log('apply merge',data)
+    utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
+        console.log('havetunes',  tunes, tunesHash)
+  
+        var {inserts, updates, duplicates, localUpdates} = data
+        //
+        // save all inserts and updates
+        // , delete all deletes
+        //Object.keys(deletes).forEach(function(d) {
+           //delete tunes[d]
+        //})
+        Object.keys(updates).map(function(u)  {
+          if (updates[u] && updates[u].id) {
+            // preserve boost
+            if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
+            tunes[updates[u].id] = updates[u]
+          }
+        })
+        console.log('done updates')
+        
+        
+        Object.values(inserts).forEach(function(tune) {
+          // keep timestamps on import
+          //var lastUpdated = tunes[tune.id] ? tunes[tune.id].lastUpdated : null
+          //if (lastUpdated) tune.lastUpdated = lastUpdated
+          var newTune = createTune(tune,true)
+          tunes[tune.id] = newTune
+        })
+        console.log('done inserts')
+        // any more recent changes locally get saved online
+        if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
+          Object.values(localUpdates).forEach(function(tune) {
+            //tune.id = null
+            //var newTune = saveTune(tune)
+            tunes[tune.id] =tune
+          })
+          //updateSheet(0)
+        } 
+        console.log('done local updates')
+        // any more recent changes locally get saved online
+        if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
+          Object.values(duplicates).forEach(function(tune) {
+            tune.id = null
+            var newTune = createTune(tune)
+            tunes[tune.id] = newTune
+          })
+          //updateSheet(0)
+        } 
+        console.log('done dups')
+        if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+            console.log('FINALLY SET ',tunes)
+          setTunes(tunes)
+          buildTunesHash()
+          indexes.resetBookIndex()
+          indexes.indexTunes(tunes)
+          setImportResults(null)
+          saveTunesOnline()
+          //updateSheet(5000)
+        }
+    })
+  }
+  
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
     console.log('apply',importResults)
     
@@ -822,6 +887,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, createTune, fillAbcPlaylist, fillMediaPlaylist};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist};
 }
 export default useTuneBook
