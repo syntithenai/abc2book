@@ -1,5 +1,6 @@
 export default {
         'begged borrowed and stolen': {group:'Collections', link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/beggedborrowedandstolen.jpeg', book:"begged borrowed and stolen"},
+        'canberra pickers and fiddlers': {group:'Collections', link:'https://tunebook.net/scrape/canberra pickers and fiddlers.abc', image:'/book_images/canberra pickers and fiddlers.jpeg', book:"canberra pickers and fiddlers"},
         //'the campbell session': {link:'https://tunebook.net/scrape/campbell session.abc'},
         'jims roots and blues': {group:'Collections',link:'https://tunebook.net/scrape/jims roots.abc', image:'/book_images/jimsrootsandblues.jpeg'},
         'christmas songs': {group:'Collections',link:'https://tunebook.net/scrape/christmas songs.abc', book: "christmas songs" ,image:'/book_images/christmassongs.jpeg'},
@@ -13,7 +14,7 @@ export default {
         'velma': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/velma.jpeg', book:"velma"},
         'fiona': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/velma.jpeg', book:"fiona"},
         'brooke': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/brooke.jpeg', book:"brooke"},
-        'andrew': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/andrew.jpeg', book:"andrew"},
+        'andrew kordas': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/andrewkordas.jpeg', book:"andrew kordas"},
         'nick': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/nick.jpeg', book:"nick"},
         'ralph': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/ralph.jpeg', book:"ralph"},
         'cassidy': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/cassidy.jpeg', book:"cassidy"},

@@ -834,14 +834,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function fillMediaPlaylist(book, selectedIds = null) {
-        //console.log('fill media',book, selectedIds)
+        console.log('fill media',book, selectedIds)
         var fillTunes = {}
         if (selectedIds) {
             fillTunes=mediaFromSelection(selectedIds)
         } else if (book) {
             fillTunes=mediaFromBook(book)
         }
-        //console.log('fill media tunes',fillTunes)
+        console.log('fill media tunes',fillTunes)
         
         shuffleArray(fillTunes)
         setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
