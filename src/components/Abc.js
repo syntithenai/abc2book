@@ -895,7 +895,7 @@ export default function Abc(props) {
               //props.audioProps.
                setVisualObj(o)
                if (props.autoPrime)  setStarted(true)
-               var hash = tune.transpose + '-' + tune.boost + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
+               var hash = tune.transpose  + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
                if (hash !== audioChangedHash) {
                 //console.log('RENDER TUNE AUDIODDD')
                 setAudioChangedHash(hash)
@@ -1022,7 +1022,7 @@ export default function Abc(props) {
   function updateOnChange() {
     //console.log('ABC CHANGE',props.boost ,lastBoost) //, lastAbc, lastTempo, props.tempo, props.abc )
     var tune = props.tunebook.abcTools.abc2json(props.abc)
-    if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo || tune.boost != lastBoost) {
+    if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo ) {
       setSeekTo(0)
       setPlayCount(0)
       //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo,props.boost ,lastBoost)
@@ -1033,7 +1033,7 @@ export default function Abc(props) {
       // TODO if tempo is empty and current tune has tempo, set the tempo OTHERWISE per below
       setLastAbc(props.abc)
       setLastTempo(props.tempo)
-      setLastBoost(tune.boost)
+      //setLastBoost(tune.boost)
       setAbcTune(props.abc);
       setTune(tune)
       renderTune(props.abc)

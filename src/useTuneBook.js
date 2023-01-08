@@ -21,6 +21,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
      
   function navigateToNextSong(currentSongId, navigate) {
+        //console.log("NEXT", mediaPlaylist)
     if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
         //console.log("NEXT")
         var newPL = abcPlaylist
@@ -28,6 +29,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         newPL.currentTune = currentTune + 1 % abcPlaylist.tunes.length
         setAbcPlaylist(newPL)
         navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+    } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
+        //console.log("NEXT")
+        var newPL = mediaPlaylist
+        var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
+        newPL.currentTune = currentTune + 1 % mediaPlaylist.tunes.length
+        setMediaPlaylist(newPL)
+        navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
     } else {
         
         var useTunes = tunes
@@ -91,6 +99,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         newPL.currentTune = currentTune - 1 % abcPlaylist.tunes.length
         setAbcPlaylist(newPL)
         navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+    } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
+        //console.log("NEXT")
+        var newPL = mediaPlaylist
+        var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
+        newPL.currentTune = currentTune - 1 % mediaPlaylist.tunes.length
+        setMediaPlaylist(newPL)
+        navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
     } else {
             
         var useTunes = tunes
@@ -252,64 +267,69 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
     console.log('apply merge',data)
-    utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-        console.log('havetunes',  tunes, tunesHash)
-  
-        var {inserts, updates, duplicates, localUpdates} = data
-        //
-        // save all inserts and updates
-        // , delete all deletes
-        //Object.keys(deletes).forEach(function(d) {
-           //delete tunes[d]
-        //})
-        Object.keys(updates).map(function(u)  {
-          if (updates[u] && updates[u].id) {
-            // preserve boost
-            if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
-            tunes[updates[u].id] = updates[u]
-          }
+    return new Promise(function(resolve,reject) {
+        utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
+            console.log('havetunes',  tunes, tunesHash)
+      
+            var {inserts, updates, duplicates, localUpdates} = data
+            //
+            // save all inserts and updates
+            // , delete all deletes
+            //Object.keys(deletes).forEach(function(d) {
+               //delete tunes[d]
+            //})
+            Object.keys(updates).map(function(u)  {
+              if (updates[u] && updates[u].id) {
+                // preserve boost
+                //if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
+                tunes[updates[u].id] = updates[u]
+              }
+            })
+            console.log('done updates')
+            
+            
+            Object.values(inserts).forEach(function(tune) {
+              // keep timestamps on import
+              //var lastUpdated = tunes[tune.id] ? tunes[tune.id].lastUpdated : null
+              //if (lastUpdated) tune.lastUpdated = lastUpdated
+              var newTune = createTune(tune,true)
+              tunes[tune.id] = newTune
+            })
+            console.log('done inserts')
+            // any more recent changes locally get saved online
+            if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
+              Object.values(localUpdates).forEach(function(tune) {
+                //tune.id = null
+                //var newTune = saveTune(tune)
+                tunes[tune.id] =tune
+              })
+              //updateSheet(0)
+            } 
+            console.log('done local updates')
+            // any more recent changes locally get saved online
+            if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
+              Object.values(duplicates).forEach(function(tune) {
+                tune.id = null
+                var newTune = createTune(tune)
+                tunes[tune.id] = newTune
+              })
+              //updateSheet(0)
+            } 
+            console.log('done dups')
+            if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+                console.log('FINALLY SET ',tunes)
+              setTunes(tunes)
+              buildTunesHash()
+              indexes.resetBookIndex()
+              indexes.indexTunes(tunes)
+              setImportResults(null)
+              saveTunesOnline()
+              resolve(tunes)
+              //updateSheet(5000)
+            } else {
+                resolve(tunes)
+            }
         })
-        console.log('done updates')
-        
-        
-        Object.values(inserts).forEach(function(tune) {
-          // keep timestamps on import
-          //var lastUpdated = tunes[tune.id] ? tunes[tune.id].lastUpdated : null
-          //if (lastUpdated) tune.lastUpdated = lastUpdated
-          var newTune = createTune(tune,true)
-          tunes[tune.id] = newTune
-        })
-        console.log('done inserts')
-        // any more recent changes locally get saved online
-        if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
-          Object.values(localUpdates).forEach(function(tune) {
-            //tune.id = null
-            //var newTune = saveTune(tune)
-            tunes[tune.id] =tune
-          })
-          //updateSheet(0)
-        } 
-        console.log('done local updates')
-        // any more recent changes locally get saved online
-        if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
-          Object.values(duplicates).forEach(function(tune) {
-            tune.id = null
-            var newTune = createTune(tune)
-            tunes[tune.id] = newTune
-          })
-          //updateSheet(0)
-        } 
-        console.log('done dups')
-        if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
-            console.log('FINALLY SET ',tunes)
-          setTunes(tunes)
-          buildTunesHash()
-          indexes.resetBookIndex()
-          indexes.indexTunes(tunes)
-          setImportResults(null)
-          saveTunesOnline()
-          //updateSheet(5000)
-        }
     })
   }
   
@@ -326,7 +346,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     Object.keys(updates).map(function(u)  {
       if (updates[u] && updates[u].id) {
         // preserve boost
-        if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
+        //if (tunes[updates[u].id]) updates[u].boost = tunes[updates[u].id].boost
         tunes[updates[u].id] = updates[u]
       }
     })
@@ -523,7 +543,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 tune.books = utils.uniquifyArray(tune.books)
               }
               // preserve boost
-              tune.boost = tunes[tune.id].boost
+              //tune.boost = tunes[tune.id].boost
               if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
                 updates.push(tune)
                 tuneStatus.updates.push({
@@ -686,17 +706,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function clearBoost() {
-    pauseSheetUpdates.current = true
-    const final = {}
-    Object.values(tunes).forEach(function(tune) {
-      tune.boost = 0
-      final[tune.id] = tune
-    })
+    //pauseSheetUpdates.current = true
+    //const final = {}
+    //Object.values(tunes).forEach(function(tune) {
+      //tune.boost = 0
+      //final[tune.id] = tune
+    //})
     
-    setTunes(final)
-    buildTunesHash(final)
-    saveTunesOnline() 
-    //forceRefresh()
+    //setTunes(final)
+    //buildTunesHash(final)
+    //saveTunesOnline() 
+    ////forceRefresh()
     
   }
 
@@ -746,9 +766,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
       return array;
     }
-  function mediaFromBook(book) {
-    //console.log('from book',book, tunes)
-    var res = Object.values(tunes).filter(function(tune) {
+  function mediaFromBook(book, useTunes) {
+    if (!useTunes) useTunes = tunes
+    console.log('from book',book, useTunes)
+    var res = Object.values(useTunes).filter(function(tune) {
         if (book) {
           if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
             if (tune.links && tune.links.length > 0) {

@@ -127,7 +127,7 @@ function App(props) {
                 //console.log('tune in',tune.id, tune)
                 if (tune.id && tunes[tune.id]) {
                   // preserve boost
-                  tune.boost = tunes[tune.id].boost
+                  //tune.boost = tunes[tune.id].boost
                   if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
                     updates[tune.id] = tune
                     //console.log('update MORE RECENT')
@@ -393,11 +393,11 @@ function App(props) {
                     </Route>
                     
                     <Route  path={`importlink`} >
-                      <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
-                    <Route  path={`:link/book/:bookName/play`} element={<ImportLinkPage autoplay={true}  setMediaPlaylist={setMediaPlaylist} tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
-                       <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                      <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} mediaPlaylist={mediaPlaylist}   />} />
+                    <Route  path={`:link/book/:bookName/play`} element={<ImportLinkPage autoplay={true}  setMediaPlaylist={setMediaPlaylist} tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults}  forceRefresh={forceRefresh} mediaPlaylist={mediaPlaylist}  />} />
+                       <Route  path={`:link/book/:bookName`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh}  mediaPlaylist={mediaPlaylist} />} />
                        
-                       <Route  path={`:link/tune/:tuneId`} element={<ImportLinkPage   tunes={tunes}   currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} />} />
+                       <Route  path={`:link/tune/:tuneId`} element={<ImportLinkPage   tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} mediaPlaylist={mediaPlaylist}  />} />
                     </Route>
                     
                     <Route path={'playlist'} element={<DownloadPlaylistPage   mediaPlaylist={mediaPlaylist} tunebook={tunebook}   />} />

@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 
-export default function ImportLinkPage({tunebook, token, refresh, setMediaPlaylist, autoplay, setCurrentTuneBook}) {
+export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh}) {
     var navigate = useNavigate()
     var params = useParams()
     //console.log(params)
@@ -46,16 +46,25 @@ export default function ImportLinkPage({tunebook, token, refresh, setMediaPlayli
                       console.log("gotreeees",results)
                       if (!tunebook.showImportWarning(results)) {
                           console.log("no show warning", autoplay , setMediaPlaylist)
-                          tunebook.applyMergeData(results)
-                          if (autoplay && setMediaPlaylist) {
-                                var tunes=tunebook.mediaFromBook(params.bookName)
-                                console.log('tunes from book',tunes)
-                                setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
-                                setClickToStart(true)
-                          } else {  
-                              setCurrentTuneBook(params.bookName)
-                              navigate("/tunes")
-                          }
+                          tunebook.applyMergeData(results).then(function(mergedTunes) {
+                          
+                              if (autoplay && setMediaPlaylist && mergedTunes) {
+                                    var tunes=tunebook.mediaFromBook(params.bookName, mergedTunes)
+                                    //forceRefresh()
+                                    console.log('aplay tunes from book',tunes)
+                                    //setTunes(tunes)
+                                    setCurrentTuneBook('')
+                                    //setTimeout(function() {
+                                    setCurrentTuneBook(params.bookName)
+                                    //navigate("/tunes")
+                                    setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
+                                    setClickToStart(true)
+                                    //}, 200)
+                              } else {  
+                                  setCurrentTuneBook(params.bookName)
+                                  navigate("/tunes")
+                              }
+                          })
                       }
                       
                   } else {
@@ -79,7 +88,15 @@ export default function ImportLinkPage({tunebook, token, refresh, setMediaPlayli
     }, [])
     if (clickToStart) {
         return <div style={{width:'80%', margin:'5em', padding:'5em', backgroundColor:'lightgreen'}} >
-            <Button size='lg' variant="success" onClick={function() {setClickToStart(false); navigate("/tunes")}} >Start the Playlist</Button>
+            <Button size='lg' variant="success" onClick={function() {
+                setClickToStart(false); 
+                console.log("MP",mediaPlaylist)
+                if (mediaPlaylist && mediaPlaylist.tunes) {
+                    navigate("/tunes")
+                } else {
+                   navigate("/tunes")
+                }
+            }} >Start the Playlist</Button>
             </div>
     } else {
         return <>{(params.link && params.link.trim()) ? <div className="App-import">
