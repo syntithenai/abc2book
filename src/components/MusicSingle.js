@@ -214,56 +214,58 @@ export default function MusicSingle(props) {
         function nextLinkOrTune() {
             //mediaLinkNumber
             //tune
-            console.log('nexzt tune or link',mediaLinkNumber,tune)
+            console.log('nexzt tune or link',mediaLinkNumber,tune, tune.id, navigate)
+            props.tunebook.navigateToNextSong(tune.id,navigate)
+            
             //var useMediaLinkNumber = mediaLinkNumber > 0 ? parseInt(mediaLinkNumber) : 0
-            if (Array.isArray(tune.links) && tune.links.length > (useMediaLinkNumber + 1)) {
-                console.log('nexzt  link',useMediaLinkNumber + 1)
-                //setMediaLinkNumber(mediaLinkNumber + 1)
-                //props.forceRefresh()
-                navigate('/tunes/'+tune.id+"/playMedia/"+(useMediaLinkNumber + 1))
-            } else {
-                if (props.mediaPlaylist && Array.isArray(props.mediaPlaylist.tunes) && props.mediaPlaylist.tunes.length > 1) {
-                    console.log('next tune',props.mediaPlaylist)
-                    var nextTuneNumber = parseInt(props.mediaPlaylist.currentTune) > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1  : 1
-                    console.log('next tune num',nextTuneNumber)
-                    if (props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > nextTuneNumber) {
-                        var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
-                        console.log('next tune rr',nextTune)
-                        if (nextTune && nextTune.id) {
-                            setMediaProgress(0)
-                            setMediaLinkNumber(0)
-                            setMediaLoading(true)
-                            var playlist = props.mediaPlaylist
-                            playlist.currentTune = nextTuneNumber
-                            props.setMediaPlaylist(playlist)
-                            navigate('/tunes/'+nextTune.id+"/playMedia/0")
-                        }
-                    } else {
-                        // loop playlist
-                        nextTuneNumber = 0
-                        var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
-                        setMediaProgress(0)
-                        setMediaLinkNumber(0)
-                        setMediaLoading(true)
-                        var playlist = props.mediaPlaylist
-                        playlist.currentTune = nextTuneNumber
-                        props.setMediaPlaylist(playlist)
-                        navigate('/tunes/'+nextTune.id+"/playMedia/0")
-                    }
-                } else {
-                    console.log('fallback loop links')
-                    if (Array.isArray(tune.links) && tune.links.length > 0) {
-                        setMediaProgress(0)
-                        setMediaLinkNumber(0)
-                        setMediaLoading(true)
-                        navigate('/tunes/'+tune.id+"/playMedia/0")
-                    }
-                }
-            }
+            //if (Array.isArray(tune.links) && tune.links.length > (useMediaLinkNumber + 1)) {
+                //console.log('nexzt  link',useMediaLinkNumber + 1)
+                ////setMediaLinkNumber(mediaLinkNumber + 1)
+                ////props.forceRefresh()
+                //navigate('/tunes/'+tune.id+"/playMedia/"+(useMediaLinkNumber + 1))
+            //} else {
+                //if (props.mediaPlaylist && Array.isArray(props.mediaPlaylist.tunes) && props.mediaPlaylist.tunes.length > 1) {
+                    //console.log('next tune',props.mediaPlaylist)
+                    //var nextTuneNumber = parseInt(props.mediaPlaylist.currentTune) > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1  : 1
+                    //console.log('next tune num',nextTuneNumber)
+                    //if (props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > nextTuneNumber) {
+                        //var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
+                        //console.log('next tune rr',nextTune)
+                        //if (nextTune && nextTune.id) {
+                            //setMediaProgress(0)
+                            //setMediaLinkNumber(0)
+                            //setMediaLoading(true)
+                            //var playlist = props.mediaPlaylist
+                            //playlist.currentTune = nextTuneNumber
+                            //props.setMediaPlaylist(playlist)
+                            //navigate('/tunes/'+nextTune.id+"/playMedia/0")
+                        //}
+                    //} else {
+                        //// loop playlist
+                        //nextTuneNumber = 0
+                        //var nextTune = props.mediaPlaylist.tunes[nextTuneNumber]
+                        //setMediaProgress(0)
+                        //setMediaLinkNumber(0)
+                        //setMediaLoading(true)
+                        //var playlist = props.mediaPlaylist
+                        //playlist.currentTune = nextTuneNumber
+                        //props.setMediaPlaylist(playlist)
+                        //navigate('/tunes/'+nextTune.id+"/playMedia/0")
+                    //}
+                //} else {
+                    //console.log('fallback loop links')
+                    //if (Array.isArray(tune.links) && tune.links.length > 0) {
+                        //setMediaProgress(0)
+                        //setMediaLinkNumber(0)
+                        //setMediaLoading(true)
+                        //navigate('/tunes/'+tune.id+"/playMedia/0")
+                    //}
+                //}
+            //}
         }
         
         function onEnded(progress, start, stop,seek) {
-            //console.log("ON ENDfED", progress, start, stop, seek)
+            console.log("ON ENDfED", progress, start, stop, seek)
             ////stop()
             //seek(0)
             //start()

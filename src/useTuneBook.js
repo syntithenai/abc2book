@@ -21,21 +21,25 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
      
   function navigateToNextSong(currentSongId, navigate) {
-        //console.log("NEXT", mediaPlaylist)
+        console.log("NEXT", mediaPlaylist, abcPlaylist)
     if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
-        //console.log("NEXT")
+        console.log("NEXT abc")
         var newPL = abcPlaylist
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune + 1 % abcPlaylist.tunes.length
         setAbcPlaylist(newPL)
-        navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+        if (abcPlaylist.tunes && abcPlaylist.tunes[newPL.currentTune] && abcPlaylist.tunes[newPL.currentTune].id) {
+            navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+        }
     } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
-        //console.log("NEXT")
+        console.log("NEXT media")
         var newPL = mediaPlaylist
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune + 1 % mediaPlaylist.tunes.length
         setMediaPlaylist(newPL)
-        navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
+        if (mediaPlaylist.tunes && mediaPlaylist.tunes[newPL.currentTune] && mediaPlaylist.tunes[newPL.currentTune].id) {
+            navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
+        }
     } else {
         
         var useTunes = tunes
@@ -98,14 +102,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune - 1 % abcPlaylist.tunes.length
         setAbcPlaylist(newPL)
-        navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+        if (abcPlaylist.tunes && abcPlaylist.tunes[newPL.currentTune] && abcPlaylist.tunes[newPL.currentTune].id) {
+            navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
+        }
     } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
         //console.log("NEXT")
         var newPL = mediaPlaylist
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune - 1 % mediaPlaylist.tunes.length
         setMediaPlaylist(newPL)
-        navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
+        if (abcPlaylist.tunes && mediaPlaylist.tunes[newPL.currentTune] && mediaPlaylist.tunes[newPL.currentTune].id) {
+            navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
+        }
     } else {
             
         var useTunes = tunes
