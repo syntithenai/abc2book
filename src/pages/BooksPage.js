@@ -1,7 +1,6 @@
 import {Link , Outlet } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
-import IndexLayout from '../components/IndexLayout'
 import ImportCollectionModal from '../components/ImportCollectionModal'
 import FeaturedTune from '../components/FeaturedTune'
 import curated from '../CuratedTuneBooks'

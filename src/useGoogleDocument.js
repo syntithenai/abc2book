@@ -4,7 +4,7 @@ import {useRef, useEffect} from 'react'
 export default function useGoogleDocument(token, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
-  var pollChangesInterval = useRef(null)
+  var pollChangesTimeout = useRef(null)
      
   useEffect(function() {
     //console.log('use doc tok change',onChanges, token)
@@ -18,31 +18,53 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     }
   },[token])
   
-  function pollChanges(interval, onChanges) {
-    // min 4 sec
-    var useInterval = interval > 4000 ? interval : 15000
-    //console.log('POLL',useInterval , interval, pollInterval)
-    clearInterval(pollChangesInterval.current) 
-    pollChangesInterval.current = setInterval(function() {
-      //console.log('DO POLL',localStorage.getItem('google_last_page_token'))
+  function _pollChanges(interval, onChanges, multiplier = 1) {
+      //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
       if (!localStorage.getItem('google_last_page_token')) {
         getStartPageToken().then(function() {
           doPollChanges().then(function(res) {
-            if (onChanges && Array.isArray(res) && res.length > 0) onChanges(res)
+            if (onChanges && Array.isArray(res) && res.length > 0) {
+                onChanges(res).then(function() {
+                    pollChanges(interval, onChanges)  
+                })
+            } else {
+                pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
+            }
+            
           })
+          //.finally(function() {
+            //pollChanges(interval, onChanges)  
+          //})
         })
       } else {
         doPollChanges().then(function(res) {
           //console.log('onChanges',onChanges)
-          if (onChanges && Array.isArray(res) && res.length > 0) onChanges(res)
+          if (onChanges && Array.isArray(res) && res.length > 0) {
+              onChanges(res).then(function() {
+                pollChanges(interval, onChanges)  
+              })
+          } else {
+              pollChanges(interval, onChanges, (multiplier < 18 ? multiplier + 1 : multiplier))  
+          }
+          
         })
+        //.finally(function() {
+            //pollChanges(interval, onChanges)  
+        //})
       }
-    }, useInterval)
+    }
+  
+  function pollChanges(interval, onChanges, multiplier = 1) {
+    // min 4 sec
+    var useInterval = interval > 4000 ? interval : 15000
+    //console.log('POLL',useInterval , interval, multiplier)
+    clearTimeout(pollChangesTimeout.current) 
+    pollChangesTimeout.current = setTimeout(function() {_pollChanges(interval,onChanges, multiplier)}, useInterval * multiplier/3)
     return 
   }
   
   function stopPollChanges() {
-    clearInterval(pollChangesInterval.current) 
+    clearTimeout(pollChangesTimeout.current) 
   }
   
   function getStartPageToken() {
@@ -75,8 +97,9 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
       if (pausePolling && pausePolling.current) {
         resolve()
       } else {
-        //console.log('REALLY DO POLL')
+        //console.log('POLL')
         if (localStorage.getItem('google_last_page_token') && accessToken) {
+            //console.log('REALLY DO POLL token ',accessToken)
           var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
           axios({
             method: 'get',
@@ -318,6 +341,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     return new Promise(function(resolve,reject) {
       //console.log('trigger  update data ', id,data, "L",accessToken,"K", token)
       if (id && accessToken) {
+        
         axios({
           method: 'patch',
           url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"?uploadType=media",

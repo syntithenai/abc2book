@@ -57,7 +57,7 @@ W: In one horse open sleigh!
 % abcbook-lastupdated 1670927127366
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                 -2
+%%MIDI transpose                  -2
 % Titles One title
 % Transcriptions Only 1 transcription
 % Mode major
@@ -124,17 +124,10 @@ R: Air
 Q: 1/4=100
 K:G
 V:1 
-d | d>c B | B A G | G F E | D2 D | D>E D |
-D A F | E D G | B2 d | d>c B | (B A) G | 
-G F E | D2 D | c>B A | B A G | A E F | G2 |]
-V:s-63 key=G
-D \
-| "G"GGB/A/ | GGD | "C"EGE | "D7"D2D | "G"GGA | "(Em)"BBd | "(A7)"dBG | "D7"A2D |
-| "G"GGB/A/ | GGD | "C"EcE | "D7"D2D | "G"GGA | "(Em)"Bdc | "D7"BDF | "G"G2 |]
-F/G/ \
-| "D"AAd | AAF | "A7"AGE | "D"D2F/G/ | AAd | AAF | "A7"G/F/ G/A/ B/^c/ | "D"d"D7"e2 |
-| "G"dBB/A/ | GGD | "C"EcE | "D7"D2D | "G"GGA | "(Em)"Bdc | "D7"BDF | "G"G2 |]
-
+d | "G"d>c B | B A G | "C"G F E | "G"D2 D | "D"D>E D |
+D A F | "G"E D G | B2 d | d>c B | (B A) G |
+"C"G F E | "G"D2 D | "Am"c>B A | "G"B A G | "D"A E F | "G"G2 |]
+%--------------------------------------------------------------------
 W: 
 W: 1. Away in a manger, no crib for a bed,
 W: The little Lord Jesus laid down his sweet head.
@@ -159,7 +152,7 @@ W: And take us to heaven, to live with Thee there
 % abcbook-transpose 
 % abcbook-lastupdated 1670896076001
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 3
 
 
 X: 3
@@ -207,10 +200,11 @@ W: Fa la la la la, la la la la.
 
 % abcbook-boost 0
 % abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1670896095766
+% abcbook-transpose 3
+% abcbook-lastupdated 1671686284961
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose    3
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Has lots of stepwise movement
@@ -358,7 +352,6 @@ V:1
 "G"d d d G | "C"c B "D"(B A) | "G"d d d G | "C"c B "D"(B A) |
 "C"e e e d | c B "D"c2 | "D"A B/2c/2 "G"d>G | "D"G A "G"B2 |
 "C"e>e e d | "C"c B "D"c2 | "D"A B/2c/2 "G"d>G | "D"G A "G"G2 :|
-
 W: 1. Hark! the herald angels sing, -
 W: "Glory to the newborn King!
 W: Peace on earth, and mercy mild,
@@ -505,21 +498,21 @@ W:
 W: 2 God from true God, and
 W: Light from Light eternal,
 W: born of a virgin, to earth he comes!
-W: Only-begotten Son of God the Father: 
+W: Only-begotten Son of God the Father:
 W: 
 W: [Refrain]
 W: 
 W: 3 Sing, choirs of angels,
 W: sing in exultation,
 W: sing, all ye citizens of heav’n above!
-W: Glory to God, all glory in the highest: 
+W: Glory to God, all glory in the highest:
 W: 
 W: [Refrain]
 W: 
-W: 4 Yea, Lord, we greet thee, 
+W: 4 Yea, Lord, we greet thee,
 W: born this happy morning;
 W: Jesus, to thee be all glory giv’n!
-W: Word of the Father, now in flesh appearing: 
+W: Word of the Father, now in flesh appearing:
 W: 
 W: [Refrain]
 W: 
@@ -1108,28 +1101,47 @@ W: And with his blood mankind hath bought
 
 X: 17
 T: Carol Of The Birds
-C:John Wheeler
+C:John Wheeler and William James
 B: christmas songs
+M:4/4
 Q: 1/4=100
+K:C
 V:1 
-W: 1. Out on the plains the brolgas are dancing
+W: Out on the plains the brolgas are dancing
 W: Lifting their feet like warhorses prancing
 W: Up to the sun the woodlarks go winging
 W: Faint in the dawn light echoes their singing
 W: Orana! Orana! Orana to Christmas Day.
-W:  
-W: 2. Down where the tree ferns grow by the river
+W: 
+W: Down where the tree ferns grow by the river
 W: There where the waters sparkle and quiver
 W: Deep in the gullies bell-birds are chiming
 W: Softly and sweetly their lyric notes rhyming
 W: Orana! Orana! Orana to Christmas Day.
 W: 
-W: 3. Friar birds sip the nectar of flowers
+W: [Bridge]
+W: Friar birds sip the nectar of flowers
 W: Currawongs chant in wattle tree bowers
 W: In the blue ranges lorikeets calling
 W: Carols of bush birds rising and falling
+W: 
+W: Down where the tree ferns grow by the river
+W: There where the waters sparkle and quiver
+W: Deep in the gullies bell-birds are chiming
+W: Softly and sweetly their lyric notes rhyming
 W: Orana! Orana! Orana to Christmas Day.
 W: 
+W: [Bridge]
+W: Friar birds sip the nectar of flowers
+W: Currawongs chant in wattle tree bowers
+W: In the blue ranges lorikeets calling
+W: Carols of bush birds rising and falling
+W: 
+W: Out on the plains the brolgas are dancing
+W: Lifting their feet like warhorses prancing
+W: Up to the sun the woodlarks go winging
+W: Faint in the dawn light echoes their singing
+W: Orana! Orana! Orana to Christmas Day.
 % abcbook-tune_id 62a8b565c9288b2313338647
 % abcbook-link-0 https://www.youtube.com/watch?v=D1PuZk6VBr4
 % abcbook-link-title-0 Carol of the Birds : Australian Christmas Carol sung by Bucko &amp; Champs
@@ -1149,9 +1161,8 @@ M:4/4
 Q: 1/4=100
 K:G
 V:1 
-B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 |  B2>A2 G4 | B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 |  B2>A2 G4 |
-|:(d4 edcB |  c4 dcBA |  B4 cBAG |  A2>)D2 D4 | G2 A2 B2 c2 | [1  B4 A4 :| [2  (B4 A4) |  G8 |]
-
+"G"B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 | "D" B2>A2 "G" G4 |"G" B2 B2 B2 d2 |  d2>c2 B4 |  B2 A2 B2 d2 |  "D" B2>A2 "G"G4 |
+|:("G"d4 "C"edcB |  "C"c4 "D"dcBA | "G" B4 "C"cBAG | "D" A2>)D2 D4 | "G"G2 A2 B2 c2 | [1  "D"B4 A4 :| [2  "D"(B4 A4) | "G" G8 |]
 W: 
 W: 1. Angels we have heard on high
 W: Sweetly singing o’er the plains,
@@ -1183,7 +1194,7 @@ W:
 % abcbook-transpose 
 % abcbook-lastupdated 1670896060401
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 3
 
 
 X: 19
@@ -1252,58 +1263,57 @@ V:1
 V:s-63 key=G
 [| "G"GG "C"GA | "G"GGD2 | "C"ED"D7"EF | "G"G2G2 | "Em"GG "C"GA | "G"GG"D"D2 | "C"ED"D7"EF | "G"G2G2 |
 "G"dcBA | "D7"BA"Em"G2 | "C"ED"D7"EF | "G"G2G2 | "D"DDEF | "Em"GG"D7"A2 | "G"dcBA | "Em"G2"C"c2 | "G"G4 |]
-
 W: 1. Good King Wenceslas look'd out,
-W:     On the Feast of Stephen
+W: On the Feast of Stephen
 W: When the snow lay round about,
-W:     Deep, and crisp, and even:
+W: Deep, and crisp, and even:
 W: Brightly shone the moon that night,
-W:     Though the frost was cruel,
+W: Though the frost was cruel,
 W: When a poor man came in sight,
-W:     Gath'ring winter fuel.
+W: Gath'ring winter fuel.
 W: 
 W: 2. "Hither page and stand by me,
-W:     If thou know'st it, telling,
+W: If thou know'st it, telling,
 W: Yonder peasant, who is he?
-W:     Where and what his dwelling?"
+W: Where and what his dwelling?"
 W: "Sire, he lives a good league hence.
-W:     Underneath the mountain;
+W: Underneath the mountain;
 W: Right against the forest fence,
-W:     By Saint Agnes' fountain."
+W: By Saint Agnes' fountain."
 W: 
 W: 3. "Bring me flesh, and bring me wine,
-W:     Bring me pine-logs hither:
+W: Bring me pine-logs hither:
 W: Thou and I will see him dine,
-W:     When we bear them thither."
+W: When we bear them thither."
 W: Page and monarch forth they went,
-W:     Forth they went together;
+W: Forth they went together;
 W: Through the rude wind's wild lament,
-W:     And the bitter weather.
+W: And the bitter weather.
 W: 
 W: 4. "Sire, the night is darker now,
-W:     And the wind blows stronger;
+W: And the wind blows stronger;
 W: Fails my heart, I know now how,
-W:     I can go no longer."
+W: I can go no longer."
 W: "Mark my footsteps, good my page;
-W:     Tread thou in them boldly;
+W: Tread thou in them boldly;
 W: Thou shalt find the winter's rage
-W:     Freeze thy blood less coldly."
+W: Freeze thy blood less coldly."
 W: 
 W: 5. In his master's steps he trod,
-W:     Where the snow lay dinted;
+W: Where the snow lay dinted;
 W: Heat was in the very sod
-W:     Which the Saint had printed.
+W: Which the Saint had printed.
 W: Therefore, Christian men, be sure,
-W:     Wealth or rank possessing,
+W: Wealth or rank possessing,
 W: Ye who now will bless the poor,
-W:     Shall yourselves find blessing.
+W: Shall yourselves find blessing.
 W: 
 W: Alternative last four lines by author.
 W: 
 W: [Wherefore, Christian people, know,
-W:     Who my lay are hearing,
+W: Who my lay are hearing,
 W: He who cheers another's woe
-W:     Shall himself find cheering.]
+W: Shall himself find cheering.]
 % abcbook-tune_id 62a8b565cd7dd7537d138edb
 % abcbook-link-0 https://www.youtube.com/watch?v=bMmxhhfQw0c
 % abcbook-link-title-0 Irish Rovers - Good King Wenceslas
@@ -1324,8 +1334,8 @@ M:4/4
 Q: 1/4=100
 K:F
 V:1 
-F6/2 E D2 F2|  G2 F2 E2 C2|  D4 E6/2 E|  F8|F6/2 E D2 F2|  G2 F2 E2 C2|D4 E6/2 E| F8|
-B2 A2 B2 c2|  d2 c2 B2 A2|  B2 A2 G2 F2|  A6/2 G F2 E2|F6/2 E D2 F2|  G2 F2 E2 C2| D4 E6/2 E|  F8||
+"F"F6/2 E "Bb"D2 F2 | "Gm"G2 F2 "C"E2 C2|  "Bb"D4 "C"E6/2 E|  "F"F8|"F"F6/2 E "Bb"D2 F2 | "Gm"G2 F2 "C"E2 C2|"Bb"D4 "C"E6/2 E| "F"F8||
+"Bb"B2 A2 B2 c2|  d2 c2 B2 A2|  B2 A2 G2 F2| "C" A6/2 G F2 E2 | "F"F6/2 E "Bb"D2 F2 | "Gm"G2 F2 "C"E2 C2| "Bb"D4 "C"E6/2 E|  "F"F8||
 W: Sleep my child and peace attend thee,
 W: All through the night
 W: Guardian angels God will send thee,
@@ -1388,7 +1398,7 @@ W: Home through the night
 % abcbook-transpose 
 % abcbook-lastupdated 1670896027662
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 3
 
 
 X: 22
@@ -1398,7 +1408,7 @@ Q: 1/4=100
 K:G
 V:1 
 |: "G"G2 G2 "Am"AG FE |  "D"D6 D2 |  "C"E2G2 "D7"G2F2 |  "G"G4 G4 :|
-[| "G"d> c B/c/ d/B/ |  "Am"c2> B2 AB cA |  "D"B2> A2 "Em"GA BG |  "Fm"A2> G2 FG AF |
+[| "G"d2> c2 Bc dB |  "Am"c2> B2 AB cA |  "D"B2> A2 "Em"GA BG |  "D"A2> G2 FG AF |
 | "Em"G2> F2 "C"EF GE |  "D"F2> E2 D2 D2 |   "C"E2 G2 "D7"G2 F2 |   "G"G4 G4 |]
 W: 1 Ding dong, merrily on high!
 W: In heav’n the bells are ringing;
@@ -1435,8 +1445,26 @@ W: Gloria, hosannah in excelsis!
 X: 23
 T: Fairytale of New York
 B: christmas songs
+M:4/4
 Q: 1/4=100
 V:1 
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+"D"zzzz"A"zzzz|"Bm"zzzz"G"zzzz|"D"zzzz"D"zzzz|"D"zzzz|"A"zzzz|
+"D"zzzz"Bm"zzzz|"D"zzzz"G"zzzz|"D"zzzz"G"zzzz|"A"zzzz|""zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zz"D"zz"A"zzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"A"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzz"G"zz|"Asus"zzzz"D"zzzz||
+"G"zzzzzzzz|"D"zzzz"Bm"zzzz|"D"zz"G"zz"A"zzzz|"D"zzzzzzzz|"D"zzzzzzzz||
 W: [A] It was Christmas [D] Eve babe, in the [G] drunk tank
 W: An old man [D] said to me, won't [G] see a-[A]nother one [A7]
 W: And then he [D] sang a song, the Rare Old [G] Mountain Dew
@@ -1447,7 +1475,7 @@ W: So happy [D] Christmas, I love you [G] baby
 W: I can see a [D] better time when [G] all our [Asus4] dreams come [D] true
 W: [G] / [D] [G] / [A] [D] /
 W: [D] [G]/[D] [A]/[D] [G]/[A] [D]
-W:  
+W: 
 W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
 W: But the [D] wind goes right through you, it's no place for the [A] old
 W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
@@ -1458,29 +1486,29 @@ W: Si-[D]natra was swinging, all the drunks they were [A] singing
 W: We [D] kissed on the [G] corner then [A] danced through the [D] night
 W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
 W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W:  
+W: 
 W: They've got [D] cars big as [A] bars, they've got [Bm] rivers of [G] gold
 W: But the [D] wind goes right through you, it’s no place for the [A] old
 W: When you [D] first took my [Bm] hand on a [D] cold Christmas [G] Eve
 W: You [D] promised me Broadway was [A] waiting for [D] me
-W:  
+W: 
 W: You're a [D] bum, you're a punk, you're an old slut on [A] junk
 W: Lying [D] there almost [G] dead on a [A] drip in that [D] bed
 W: You [D] scumbag, you maggot, you cheap lousy [A] faggot
 W: Happy [D] Christmas your [G] arse, I pray [A] God it's our [D] last
 W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
 W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W:  
+W: 
 W: It was Christmas [D] Eve babe, in the [G]drunk tank [G]
 W: An old man [D] said to me, won't see a-[A]nother one [A7]
-W:  
+W: 
 W: I [A] could have [D] been someone, well so could [G] anyone
 W: You took my [D] dreams from me when I first [A] found you [A7]
 W: I kept them [D] with me babe, I put them [G] with my own
 W: Can't make it [D] all alone, I've built my [G] dreams a-[A]round [D] you
 W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
 W: And the [D] bells were [G] ringing [A] out for Christmas [D] day
-W:  
+W: 
 W: The [G] boys of the NY[Bm]PD [A] choir were [D] singing "Galway [Bm] Bay"
 W: And the [D] bells were [G] ringing [A] out for Christmas [D] day [G] [D]
 W: 
@@ -1562,8 +1590,12 @@ X: 24
 T: Happy Christmas (War Is Over)
 C:John Lennon
 B: christmas songs
+M:4/4
 Q: 1/4=100
 V:1 
+"A"zzzzzzzz|"Bm"zzzzzzzz|"E"zzzzzzzz|"A"zzzzzzzz|
+"D"zzzzzzzz|"Em"zzzzzzzz|"A"zzzzzzzz|"D"zzzzzzzz||
+"G"zzzzzzzz|"A"zzzzzzzz|"Em"zzzz"G"zzzz|"D"zzzz"E"zzzz|
 W: So this is Christmas
 W: And what have you done?
 W: Another year over
@@ -1626,7 +1658,7 @@ W: Happy Christmas (Happy Christmas)
 % abcbook-transpose 
 % abcbook-lastupdated 1670896365351
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 3
 
 
 X: 25
@@ -1674,14 +1706,20 @@ W: Begin and never cease.”
 % abcbook-lastupdated 1670935138207
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose 2
+%%MIDI transpose  2
 
 
 X: 26
 T: Unto Us A Child Is Born
 B: christmas songs
+M:3/4
 Q: 1/4=100
+K:D
 V:1 
+z2 z A AG |  "D"F4 F2|  "D7"(F2G2) A2|  "G"G6- | G4 Bd |"A7"c4 c2 |  "Em"B4 c2 |"D"B2 A4- | "D7"A4 AA |
+"G"B4 d2|  g4 d2 |  "D"f6/2 ^e fd | B2 A2 Ad |"A7"c4 cc |  B4 cB|  "D"A4 BA | "A7"G6/2 G AG |
+"D"(F4 G2 |  "D7"A4) A2 |"G"B4 d2 | g4 d2|"D"(f6/2 ^e fd) |  "D7"A4 A d |  "A7"c4 c2 | "Em"B4 c2 |
+"D"d6-| yyd6 | z6 |]
 W: For unto us a Child is born,
 W: To us a Son is giv'n;
 W: The government shall rest on Him,
@@ -1709,11 +1747,290 @@ W: My heart and my mind, fill with peace.
 W: I worship You, my Lord and King,
 W: My praise will never cease.
 % abcbook-tune_id 6344381b4db2af24465ceea4
-
+% abcbook-link-0 https://www.youtube.com/watch?v=FJ9wS2J0GOs
+% abcbook-link-title-0 Handel&#39;s Messiah: For Unto us a Child is Born, Tabernacle Choir
 
 % abcbook-boost 0
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670830340397
+% abcbook-lastupdated 1673487216740
 % abcbook-soundfonts 
 % abcbook-repeats 1
+
+
+X: 27
+T: Drinking White Wine In The Sun
+C:Tim Minchin
+B: steve song book
+B: christmas songs
+M:6/8
+Q: 3/8=100
+V:1 
+"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"C"zzzzzz|"C"zzzzzz|"C7"zzzzzz|"C7"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"Bb"zzzzzz|"Bb"zzzzzz|
+"F"zzzzzz|"F"zzzzzz|"C"zzzzzz|"C"zzzzzz|
+"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"C"zzzzzz|"C"zzzzzz|"C"zzzzzz|"Dm"zzzzzz|
+"Dm"zzzzzz|"Bb"zzzzzz|
+"C"zzzzzz|"C"zzzzzz|"A7"zzzzzz|"Dm"zzzzzz|
+"Dm"zzzzzz|"C"zzzzzz|"Bb"zzzzzz|"Bb"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Gm7"zzzzzz|"Gm7"zzzzzz|"C"zzzzzz|"C"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Gm"zzzzzz|"Gm"zzzzzz|"C"zzz"C7"zzz|"A7"zzz"Dm"zzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Gm"zzzzzz|"Gm"zzzzzz|"C"zzzzzz|"C"zzz"A7"zzz|
+"Dm"zzzzzz|"Dm"zzz"C"zzz|"Bb"zzzzzz|"Bb"zzzzzz|
+"Bb"zzzzzz|"Bb"zzzzzz|"F"zzzzzz|"F"zzzzzz|
+"Gm"zzzzzz|"Gm"zzzzzz|"C"zzzzzz|"C"zzzzzz|
+"Bb"zzzzzz|"F"zzzzzz|"Gm7"zzzzzz|"C"zzzzzz|
+W: [Verse 1]
+W: F
+W: I really like Christmas
+W: Bb                               F
+W: It’s sentimental I know, but I just really like it
+W: F
+W: I’m, I’m hardly religious
+W: Bb                                        F
+W: I’d rather break bread with Dawkins than Desmond Tutu to be honest
+W: C                                  C7
+W: And yes I have all of the usual objections to consumerism
+W: Bb
+W: To the commercialisation of an ancient religion
+W: 
+W: To the western-isation of a dead Palestinian
+W: F
+W: Press-ganged into selling PlayStations and beer
+W: C
+W: But I still really like it.
+W: 
+W: F
+W: I’m looking forward to Christmas
+W: Bb                      F
+W: Though I’m not expecting a visit from Jesus
+W: C
+W: I’ll be seeing my dad
+W: C7                    A7           Dm
+W: My brother and sisters, my gran and my mum
+W: Dm/C                        Bb
+W: They’ll be drinking white wine in the sun
+W: C
+W: I’ll be seeing my dad
+W: C7                     A7          Dm
+W: My brother and sisters, my gran and my mum
+W: Dm/C                        Bb
+W: They’ll be drinking white wine in the sun.
+W: 
+W: [Verse 2]
+W: F
+W: I don’t go in for ancient wisdom
+W: Bb                                                          F
+W: I don’t believe just ’cause ideas are tenacious it means that they’re worthy
+W: F
+W: I get freaked out by churches
+W: Bb                                                       F
+W: Some of the hymns that they sing have nice chords but the lyrics are dodgy
+W: C
+W: And yes I have all of the usual objections
+W: C7                                         Bb
+W: To the mis-education of children who in tax-exempt institutions
+W: 
+W: Are taught to externalise blame
+W: 
+W: And to feel ashamed
+W: F
+W: And to judge things as plain right or wrong
+W: C
+W: But I quite like the songs.
+W: 
+W: F
+W: I’m not expecting big presents
+W: Bb                                                   F
+W: The old combination of socks, jocks and chocolates is just fine by me.
+W: C
+W: ‘Cause I’ll be seeing my dad
+W: C7                     A7          Dm
+W: My brother and sisters, my gran and my mum
+W: Dm/C                            Bb
+W: They’ll be drinking white wine in the sun
+W: C
+W: I’ll be seeing my dad
+W: C7                      A7          Dm
+W: My brother and sisters, my gran and my mum
+W: Dm/C                           Bb
+W: They’ll be drinking white wine in the sun.
+W: 
+W: [Chorus]
+W: Bb
+W: And you my baby girl
+W: F/A
+W: My jetlagged infant daughter
+W: Gm7
+W: You’ll be handed round the room
+W: C         Csus4   C
+W: Like a puppy at a primary school
+W: Bb
+W: And you won't understand
+W: F/A
+W: But you will learn some day
+W: Gm7
+W: That wherever you are and whatever you face
+W: C                           C7              A7           Dm
+W: These are the people who’ll make you feel safe in this world
+W: Dm/C                 Bb
+W: My sweet blue-eyed girl
+W: 
+W: [Chorus]
+W: Bb
+W: And if my baby girl
+W: F/A
+W: When you’re twenty-one or thirty-one
+W: Gm7
+W: And Christmas comes around
+W: C                          Csus4      C
+W: And you find yourself nine thousand miles from home
+W: Bb     F/A  Gm7          C
+W: You’ll know what-ever---- comes
+W: C7                    A7           Dm
+W: Your brothers and sisters, and me and your mum
+W: Dm/C                       Bb
+W: Will be waiting for you in the sun
+W: C     Csus4  C
+W: whenever you come
+W: C7
+W: Your brothers and sisters, your aunts and your uncles
+W: C7                       A7           Dm
+W: Your grandparents, cousins, and me and your mum
+W: Dm/C                     Bb
+W: We’ll be waiting for you in the sun
+W: F/A                    Gm7
+W: drinking white wine in the sun
+W: C                  Bb
+W: Darling, when xmas comes
+W: F/A                             Gm7
+W: We’ll be waiting for you in the sun
+W: F/A                          Bb
+W: drinking white wine in the sun
+W: F/A                    Gm7
+W: waiting for you in the sun
+W: C                    Bb
+W: waiting for you
+W: 
+W: [Interlude]
+W: F/A
+W: 
+W: Gm7          (C7)
+W: Wa -------iting.
+W: 
+W: [Outro]
+W: F
+W: I  really like Christmas
+W: Bb            F
+W: It’s sentimental I know.
+W: 
+W: =========================
+W: I really like Christmas
+W: It's sentimental, I know
+W: But I just really like it
+W: 
+W: I am hardly religious
+W: I'd rather break bread with Dawkins
+W: Than Desmond Tutu, to be honest
+W: 
+W: And yes, I have all of the usual objections
+W: To consumerism
+W: To the commercialisation of an ancient religion
+W: To the westernisation of a dead Palestinian
+W: Press-ganged into selling PlayStations and beer
+W: But I still really like it
+W: I'm looking forward to Christmas
+W: Though I'm not expecting
+W: A visit from Jesus
+W: 
+W: I'll be seeing my dad
+W: My brother and sisters, my gran and my mum
+W: They'll be drinking white wine in the sun
+W: I'll be seeing my dad
+W: My brother and sisters, my gran and my mum
+W: They'll be drinking white wine in the sun
+W: 
+W: I don't go in for ancient wisdom
+W: I don't believe just 'cause ideas are tenacious
+W: It means they're worthy
+W: 
+W: I get freaked out by churches
+W: Some of the hymns that they sing have nice chords
+W: But the lyrics are dodgy
+W: 
+W: And yes, I have all of the usual objections
+W: To the miseducation
+W: Of children who, in tax-exempt institutions
+W: Are taught to externalise blame
+W: And to feel ashamed
+W: And to judge things as plain right and wrong
+W: But I quite like the songs
+W: You might also like
+W: Kill Bill
+W: SZA
+W: Love Language
+W: SZA
+W: Low
+W: SZA
+W: I'm not expecting big presents
+W: The old combination of socks, jocks and chocolates
+W: Is just fine by me
+W: 
+W: Cause I'll be seeing my dad
+W: My brother and sisters, my gran and my mum
+W: They'll be drinking white wine in the sun
+W: I'll be seeing my dad
+W: My brother and sisters, my gran and my mum
+W: They'll be drinking white wine in the sun
+W: 
+W: And you, my baby girl
+W: My jetlagged infant daughter
+W: You'll be handed round the room
+W: Like a puppy at a primary school
+W: And you won't understand
+W: But you will learn someday
+W: That wherever you are and whatever you face
+W: These are the people who'll make you feel safe
+W: In this world
+W: My sweet blue-eyed girl
+W: 
+W: And if my baby girl
+W: When you're twenty-one or thirty-one
+W: And Christmas comes around
+W: And you find yourself nine thousand miles from home
+W: You'll know what ever comes
+W: Your brothers and sisters and me and your mum
+W: Will be waiting for you in the sun
+W: Whenever you come
+W: Your brothers and sisters, your aunts and your uncles
+W: Your grandparents, cousins and me and your mum
+W: We'll be waiting for you in the sun
+W: Drinking white wine in the sun
+W: Darling, when Christmas comes
+W: We'll be waiting for you in the sun
+W: Drinking white wine in the sun
+W: Waiting for you in the sun
+W: Waiting for you
+W: Waiting
+W: 
+W: I really like Christmas
+W: It's sentimental, I know
+% abcbook-tune_id 639da8ab75d803474cfdc7a0
+% abcbook-link-0 https://www.youtube.com/watch?v=fCNvZqpa-7Q
+% abcbook-link-title-0 White Wine In The Sun by Tim Minchin
+
+% abcbook-boost 0
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1671789499312
+% abcbook-soundfonts 
+% abcbook-repeats 3

@@ -15,21 +15,26 @@ export default function useGoogleSheet(props) {
   //var client;
   // google login
   var docs = useGoogleDocument(token,refresh,function(changes) {
-      console.log('DOCCHANGE',changes)
-      var matchingChanges = changes.filter(function(change) {
-        if (change.fileId === googleSheetId.current) {
-          return true
-        } else {
-          return false
-        }
-      },pausePolling,pollingInterval)
-      //console.log('DOCCHANGE match',matchingChanges)
-      if (matchingChanges && matchingChanges.length === 1) {
-        getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
-          console.log('DOCCHANGE got sheet')
-          onMerge(fullSheet)
-        })
-      }
+      return new Promise(function(resolve,reject) {
+          console.log('DOCCHANGE',changes)
+          var matchingChanges = changes.filter(function(change) {
+            if (change.fileId === googleSheetId.current) {
+              return true
+            } else {
+              return false
+            }
+          },pausePolling,pollingInterval)
+          //console.log('DOCCHANGE match',matchingChanges)
+          if (matchingChanges && matchingChanges.length === 1) {
+            getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
+              console.log('DOCCHANGE got sheet')
+              onMerge(fullSheet)
+              resolve()
+            })
+          } else {
+              resolve()
+          }
+      })
   }, pausePolling, pollingInterval)
   var googleSheetId = useRef(null)
   //var [loginUser, setLoginUser] = useState(null)
@@ -56,6 +61,7 @@ export default function useGoogleSheet(props) {
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
           console.log('do sheet update', tunes)
+          //alert('save tune ' )
           utils.loadLocalforageObject('bookstorage_tunes').then(function(nowTunes) {
               console.log('do sheet update NOWTUNES', nowTunes)
               updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
