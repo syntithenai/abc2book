@@ -63,7 +63,7 @@ export default function LinksEditor(props) {
                         console.log('have audioset link')
                         var links = Array.isArray(props.tune.links) ? props.tune.links : []
                         //.split(".").slice(0,-1).join(".")
-                        var newLink = {link: data, title:filename}
+                        var newLink = {link: data, title:filename, startAt:'', endAt: ''}
                         links.unshift(newLink)
                         var tune = props.tune
                         tune.links = links; 
@@ -82,7 +82,7 @@ export default function LinksEditor(props) {
             <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}  onChange={function(link) {
                     var tune = props.tune
                     var links = Array.isArray(props.tune.links) ? props.tune.links : []
-                    links.unshift({title:link.title, link: link.link})
+                    links.unshift({title:link.title, link: link.link, startAt:'', endAt: ''})
                     tune.links = links
                     if (props.autoPlay && props.setStartPlaying) props.setStartPlaying()
                     props.tunebook.saveTune(tune); 
@@ -95,7 +95,7 @@ export default function LinksEditor(props) {
           </span>
           <Button style={{marginLeft:'0.3em',color:'black'}} variant="success" onClick={function(e) {
                 var links = Array.isArray(props.tune.links) ? props.tune.links : []
-                links.unshift({title:'', link:''})
+                links.unshift({title:'', link:'', startAt:'', endAt: ''})
                 var tune = props.tune
                 tune.links = links; 
                 props.tunebook.saveTune(tune); 
@@ -183,6 +183,27 @@ export default function LinksEditor(props) {
                         }  } /></>}
                         
                         
+                    </Form.Group>
+                    <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
+                      <Form.Label>Start At (mm:ss)</Form.Label> 
+                       <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.startAt} onChange={function(e) {
+                            var links = props.tune.links
+                            links[lk].startAt = e.target.value
+                            var tune = props.tune
+                            tune.links = links; 
+                            props.tunebook.saveTune(tune); 
+                        }  } />
+                    </Form.Group>
+                    
+                    <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
+                      <Form.Label>End At (mm:ss)</Form.Label> 
+                       <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.endAt} onChange={function(e) {
+                            var links = props.tune.links
+                            links[lk].endAt = e.target.value
+                            var tune = props.tune
+                            tune.links = links; 
+                            props.tunebook.saveTune(tune); 
+                        }  } />
                     </Form.Group>
                     
                 </div>

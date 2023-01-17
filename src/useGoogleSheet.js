@@ -52,9 +52,9 @@ export default function useGoogleSheet(props) {
     
   var updateSheetTimer = useRef(null)
   
-  function updateSheet(delay=1000) {
+  function updateSheet(delay=3000) {
     return new Promise(function(resolve,reject) {
-      console.log('trigger sheet update',googleSheetId.current )
+      console.log('trigger sheet update',delay, googleSheetId.current )
       //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       pausePolling.current = true
       if (googleSheetId.current) { 

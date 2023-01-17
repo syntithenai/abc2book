@@ -130,7 +130,11 @@ export default function MusicSingle(props) {
                 setAutoStart(false)
                 if (Array.isArray(tune.links) && tune.links.length > 0) {
                     //setMediaLinkNumber(0)
-                    setMediaProgress(0);  
+                    if (tune.links[0].startAt) {
+                        setMediaProgress(tune.links[0].startAt) 
+                    } else {
+                        setMediaProgress(0)
+                    }
                     setMediaLoading(true); 
                     setShowMedia(true)
                 }
@@ -391,7 +395,7 @@ export default function MusicSingle(props) {
                                 // next link
                                 nextLinkOrTune()
                             }}
-                            onError={function(e) {console.log('err med',e); nextLinkOrTune()}} 
+                            onError={function(e) {console.log('err media',e); nextLinkOrTune()}} 
                             onTimeUpdate={function(e) {
                                 setMediaProgress(e.target.currentTime/e.target.duration)
                             }}
@@ -407,6 +411,8 @@ export default function MusicSingle(props) {
                                     loop : 1,
                                     autoplay: 1,
                                     controls: 0,
+                                    start: (tune.links[useMediaLinkNumber].startAt ? parseInt(tune.links[useMediaLinkNumber].startAt) : 0),
+                                    end: (tune.links[useMediaLinkNumber].endAt ? parseInt(tune.links[useMediaLinkNumber].endAt) : 0)
                                   },
                                 }} 
                                 onEnd={function() {
@@ -426,8 +432,6 @@ export default function MusicSingle(props) {
                                         setYTMediaPlayer(event.target); 
                                         event.target.playVideo()
                                         setIsPlaying(true)
-                                        //setMediaLoading(false)
-                                    
                                     }    
                                 }
                                 onStateChange={
@@ -472,7 +476,10 @@ export default function MusicSingle(props) {
 
              {props.viewMode === 'chords' && <>
              
-             
+             <div className="title" style={{float:'left', marginLeft:'0.1em', marginTop:'2.5em', width:'70%'}} >
+                <b>{tune.name}</b>
+                {tune.composer && <span> - {tune.composer}</span>}
+             </div>
              <div className="lyrics" style={{float:'left', marginLeft:'0.1em', marginTop:'2.5em', width:'70%'}} >
                 {Object.keys(words).map(function(key) {
                     return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {

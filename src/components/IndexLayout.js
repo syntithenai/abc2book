@@ -338,7 +338,7 @@ export default function IndexLayout(props) {
         {!grouped && renderListItems(filtered)}
         
         {grouped && <div>{ Object.keys(grouped).sort().map(function(groupKey,groupNum) {
-            return <Button style={{marginRight:'0.1em'}} variant='outline-success' onClick={function() {props.tunebook.utils.scrollTo('group-'+groupKey)}} >{groupKey}</Button>
+            return groupKey ? <Button style={{marginRight:'0.1em'}} variant='outline-success' onClick={function() {props.tunebook.utils.scrollTo('group-'+groupKey)}} >{groupKey}</Button> : null
         })}</div>}
         
         {grouped && <div>{ Object.keys(grouped).sort().map(function(groupKey,groupNum) {
@@ -348,9 +348,11 @@ export default function IndexLayout(props) {
             })
             return <>
             <a id={"group-"+groupKey} ></a>
+           
             <br/>
+
             <Badge style={{float:'right'}} >{filteredGroup.length}</Badge>
-            <h3>{groupKey} </h3>
+            <h3> {groupKey && <Button style={{float:'left'}} variant="outline-secondary" onClick={function() {props.tunebook.utils.scrollTo('topofpage')}} >{props.tunebook.icons.arrowup}</Button>}&nbsp;&nbsp;&nbsp;{groupKey} </h3>
             {renderListItems(filteredGroup)}
             </>
             

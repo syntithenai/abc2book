@@ -13,6 +13,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   const abcTools = useAbcTools()
   // from old data
   var dbTunes = {}
+  var saveOnlineTimeout = null
   //indexes.resetBookIndex()
   //var tunesFrom = Object.values(utils.loadLocalObject('abc2book_tunes')).map(function(tune) {
     //tune.id = utils.generateObjectId()
@@ -228,14 +229,15 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     }
   }
   
+  // 5 seconds debounce on online save
   // allow 10 seconds after save before polling for more updates
   function saveTunesOnline() {
-    updateSheet(0).then(function() {
-      setTimeout(function() {
-        pauseSheetUpdates.current = false
-      },10000)
-    }) 
-  }
+       updateSheet(5000).then(function() {
+          setTimeout(function() {
+            pauseSheetUpdates.current = false
+          },10000)
+        }) 
+}
   
   
   function addTunesToBook(tuneIds,book) {
