@@ -26,7 +26,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         prompt: '',
         scope: useScopes.join(' '),
         callback: (tokenResponse) => {
-          //console.log("initclient callback set token ",tokenResponse)
+          console.log("initclient callback set token ",tokenResponse)
           setAccessToken(tokenResponse)
           localStorage.setItem('google_login_user','1')
           // auto renew tokens
@@ -85,6 +85,31 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
       getToken()
     } 
     
+    function loadCurrentUser(accessToken) {
+        console.log('load current',accessToken)
+        return new Promise(function(resolve,reject) {
+          if (accessToken) { 
+            var url = 'https://www.googleapis.com/oauth2/v3/userinfo?access_token='+accessToken.access_token
+            axios({
+              method: 'get',
+              url: url,
+              headers: {'Authorization': 'Bearer '+accessToken.access_token},
+            }).then(function(postRes) {
+              console.log(postRes)
+              resolve(postRes.data)
+              
+            }).catch(function(e) {
+              //getToken()
+              //refresh()
+              resolve()
+            })
+          } else {
+            //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+            resolve()
+          }
+        })
+    }
+    
     useEffect(function() {
       window.onload = function () {
         //console.log('window onload',clientId)
@@ -105,5 +130,13 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         refresh()
       }
     },[])
+    useEffect(function() {
+      loadCurrentUser(accessToken).then(function(user) {
+          console.log(user)
+          setUser(user)
+          
+      })
+    },[accessToken])
+    
     return {user,token: accessToken, login, logout, refresh}
 }

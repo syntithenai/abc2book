@@ -17,7 +17,7 @@ export default {
         'andrew kordas': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/andrewkordas.jpeg', book:"andrew kordas"},
         'nick': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/nick.jpeg', book:"nick"},
         'ralph': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/ralph.jpeg', book:"ralph"},
-        'cassidy': {group:'Friends',link:'https://tunebook.net/scrape/cassidy.abc', image:'/book_images/cassidy.jpeg', book:"cassidy"},
+        //'cassidy': {group:'Friends',link:'https://tunebook.net/scrape/cassidy.abc', image:'/book_images/cassidy.jpeg', book:"cassidy"},
         'leila': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/leila.jpeg', book:"leila"},
         'mandira': {group:'Friends',link:'https://tunebook.net/scrape/mandira.abc', image:'/book_images/mandira.jpeg', book:"mandira"},
         'bhavit': {group:'Friends',link:'https://tunebook.net/scrape/steve song book.abc', image:'/book_images/bhavit.jpeg', book:"bhavit"},

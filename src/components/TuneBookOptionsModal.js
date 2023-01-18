@@ -1,14 +1,50 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import ShareTunebookModal from './ShareTunebookModal'
 import {useNavigate} from 'react-router-dom'
+import useYouTubePlaylist from '../useYouTubePlaylist'
+
 function TuneBookOptionsModal(props) {
   const [show, setShow] = useState(false);
-
+  const [user, setUser] = useState(null);
+  const {insertOrUpdatePlaylist} = useYouTubePlaylist({token: props.token})
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const navigate = useNavigate()
+
+  function YouTubeGetID(url){
+        url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+        return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
+  }
+  
+  function exportYouTubePlaylist() {
+     if (props.currentTuneBook)   {
+        var tunes = props.tunebook.fromBook(props.currentTuneBook)
+        if (Array.isArray(tunes)) {
+            var ids = []
+            tunes.forEach(function(tune) {
+                if (Array.isArray(tune.links)) {
+                    tune.links.forEach(function(link) {
+                      if (link.link) {
+                          //console.log('extract id from ', link.link)
+                          var newId = YouTubeGetID(link.link)
+                          if (newId && typeof link.link === 'string') {
+                            ids.push(newId)
+                          }
+                      }  
+                    })
+                }
+            })
+            //console.log(ids)
+        }
+        insertOrUpdatePlaylist(props.currentTuneBook, ids)
+        handleClose()
+     }
+  }
+  
+
+  
   return (
     <>
       <Button style={{color:'black'}} variant="primary" onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
@@ -24,8 +60,13 @@ function TuneBookOptionsModal(props) {
           <Button style={{marginLeft:'0.1em'}} onClick={function() {props.tunebook.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"danger"} size="small" >{props.tunebook.icons.youtube} Play Media</Button>
           
           <Button style={{marginLeft:'0.1em'}}  onClick={function() {props.tunebook.fillAbcPlaylist(props.tunebookOption,'',navigate); navigate("/tunes")}} variant={"success"} size="small" >{props.tunebook.icons.play} Play Midi</Button>
+         
           
-           {<span style={{marginLeft:'0.3em',float:'right'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
+          {(props.currentTuneBook && props.token) && <hr style={{width:'100%', clear:'both'}} />}
+           {<span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
+           
+           {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com' && props.currentTuneBook && props.token) && <Button style={{color:'black'}} variant="info" onClick={exportYouTubePlaylist} >{props.tunebook.icons.add} {props.tunebook.icons.youtubeblack} Export YouTube Playlist</Button>}
+           
          <hr style={{width:'100%', clear:'both'}} />
           <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
            {props.tunebook.icons.filecopyline} Copy ABC

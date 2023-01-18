@@ -53,7 +53,7 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
                 }
               }  
             }}>
-        {tunebook.icons.share}{!tiny && <span>{tuneId ? "Share Tune" : (currentTuneBook ? "Share Tune Book" : "Share My Whole TuneBook")}</span>}
+        {tunebook.icons.share}{!tiny && <span>{tuneId ? "Share Tune" : (currentTuneBook ? "Share" : "Share All")}</span>}
       </Button>
 
       <Modal show={show} onHide={handleClose}>
