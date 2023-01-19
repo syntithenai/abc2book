@@ -5,6 +5,8 @@ import ImportAbcModal from './ImportAbcModal'
 import ImportCollectionModal from './ImportCollectionModal'
 import ImportListModal from './ImportListModal'
 import ImportXmlModal from './ImportXmlModal'
+import ImportYouTubeModal from './ImportYouTubeModal'
+
 
 function ImportOptionsModal(props) {
   const [show, setShow] = useState(props.show);
@@ -103,15 +105,12 @@ function ImportOptionsModal(props) {
         <Modal.Footer>
             <ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
-           
+            {props.token && <ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} />}
         </Modal.Footer>
       </Modal>
     </>
   );
 }
 export default ImportOptionsModal
-
- //<ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
-
 //<ImportListModal tunesHash={props.tunesHash} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             //<ImportCollectionModal forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>

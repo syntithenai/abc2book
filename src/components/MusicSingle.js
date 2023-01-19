@@ -173,7 +173,7 @@ export default function MusicSingle(props) {
         } 
         //<iframe src={link} ></iframe>
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
-        var firstVoice = Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
+        var firstVoice = tune.voices && Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
         var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         //console.log('sING',parsed.chords)
         var [a,b,chordsArray,c] = parsed

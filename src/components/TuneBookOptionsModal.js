@@ -8,7 +8,7 @@ import useYouTubePlaylist from '../useYouTubePlaylist'
 function TuneBookOptionsModal(props) {
   const [show, setShow] = useState(false);
   const [user, setUser] = useState(null);
-  const {insertOrUpdatePlaylist} = useYouTubePlaylist({token: props.token})
+  const {insertOrUpdatePlaylist} = useYouTubePlaylist()
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const navigate = useNavigate()
@@ -38,7 +38,7 @@ function TuneBookOptionsModal(props) {
             })
             //console.log(ids)
         }
-        insertOrUpdatePlaylist(props.currentTuneBook, ids)
+        insertOrUpdatePlaylist(props.currentTuneBook, ids, ((props.token && props.token.access_token) ? props.token.access_token : null))
         handleClose()
      }
   }

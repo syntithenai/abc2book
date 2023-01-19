@@ -16,6 +16,7 @@ export default function IndexLayout(props) {
     var [grouped, setGrouped] = useState({})
     var [tuneStatus, setTuneStatus] = useState({})
     var [selected, setSelected] = useState({})
+    var [lastSelected, setLastSelected] = useState({})
     var [selectedCount, setSelectedCount] = useState({})
     //var [groupBy, setGroupBy] = useState('')
     //var [bookFilter, setBookFilter] = useState('')
@@ -246,18 +247,46 @@ export default function IndexLayout(props) {
         props.forceRefresh()
     }
     
-    function handleSelection(e,tuneId) {
-        //console.log('HS',tuneId,selected[tuneId],selected)
-        e.preventDefault(); 
-        e.stopPropagation();
-        if (selected[tuneId] === true) {
-            selected[tuneId] = false
-        } else {
-            selected[tuneId] = true
+    function selectBetween(startId,endId) {
+        if (startId && endId) {
+            var started = false
+            filtered.forEach(function(tune) {
+                if (tune.id === startId || tune.id === endId) {
+                    started = !started
+                    selected[tune.id] = true
+                }
+                if (started) {
+                    selected[tune.id] = true
+                }
+            })
+            
+            setSelected(selected)
+            setSelectedCount(countSelected())
+            props.forceRefresh()
         }
-        setSelected(selected)
-        setSelectedCount(countSelected())
-        props.forceRefresh()
+    }
+    
+    function handleSelection(e,tuneId) {
+        //console.log('HS',e, tuneId,selected[tuneId],selected)
+        if (e.shiftKey && lastSelected) {
+            e.preventDefault(); 
+            e.stopPropagation();
+            selectBetween(lastSelected, tuneId)
+        } else {
+            e.preventDefault(); 
+            e.stopPropagation();
+            if (selected[tuneId] === true) {
+                selected[tuneId] = false
+                setLastSelected(null)
+            } else {
+                selected[tuneId] = true
+                setLastSelected(tuneId)
+            }
+            setSelected(selected)
+            setSelectedCount(countSelected())
+            props.forceRefresh()
+        }
+        
         //console.log('HSend',tuneId,selected[tuneId],selected)
     }
     
@@ -284,17 +313,17 @@ export default function IndexLayout(props) {
         {filtered.map(function(tune,tk) {
           //<span style={{ float:'right', position:'relative', top:'-9px'}} ><BoostSettingsModal badgeClickable={true} tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span>
             
-            return <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{borderTop:'2px solid black'}} >
+            return (tune && tune.id) ? <ListGroup.Item key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{borderTop:'2px solid black'}} >
                 <span style={{ marginLeft:'0.3em', float:'right'}}>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasNotes) ? <Button variant="outline-primary" >{props.tunebook.icons.music}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
                     <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.quillpen}</Button> : null}</span>
                     <span>{(Array.isArray(tune.links) && tune.links.length > 0) ? <Button variant="outline-primary">{props.tunebook.icons.youtubeblack}</Button> : null}</span>
                 </span> 
-                {selected[tune.id] && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
-                {!selected[tune.id] && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                {(tune && tune.id && selected && selected[tune.id]) && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
+                {(tune && tune.id && (!selected || !selected[tune.id])) && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                 &nbsp;&nbsp;
-                {(tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
+                {(tune.books && tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
                     {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <Button onClick={function() {console.log('setbook',book); props.setCurrentTune(book); props.setFilter(''); props.forceRefresh()}} key={book} variant="info" style={{marginRight:'0.1em'}} >{book}</Button>}})}
                 </span>}
                 {tune.key && <Button style={{ marginRight:'1em', float:'right'}} variant={'outline-success'}   >{tune.key}</Button>}
@@ -302,7 +331,7 @@ export default function IndexLayout(props) {
                 
                 <span><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" style={{minWidth:'30%'}} >{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Button></Link></span>
                 
-            </ListGroup.Item>
+            </ListGroup.Item> : ''
         })}
         </ListGroup> : <div style={{clear:'both', width:'100%', marginTop: '1em'}}> </div>}
         
@@ -320,7 +349,7 @@ export default function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={props.forceRefresh}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} />
+            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes} tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={props.forceRefresh}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} />
         </div>
         
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >

@@ -1,11 +1,20 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
+import useYouTubePlaylist from '../useYouTubePlaylist'
+import {useNavigate} from 'react-router-dom'
 //import vertaal from '../xml2abc'
 
 function ImportYouTubeModal(props) {
+    const navigate = useNavigate()
   const [show, setShow] = useState(false);
-  const [list, setList] = useState('');
+  const [warnings, setWarnings] = useState(null);
+  const [successes, setSuccesses] = useState(null);
+  
+  const [options, setOptions] = useState({});
+  const [list, setList] = useState('OLAK5uy_lVBucQ_liBan77IFYx6drkxyzCiF3USYI');
+  //const [getPlaylistItems, setGetPlaylistItems] = useState([]);
+  
   const handleClose = () => {
       setMessage(null)
       setList('')
@@ -19,74 +28,88 @@ function ImportYouTubeModal(props) {
   var [tuneBook, setTuneBook] = useState('')
   var [duplicates, setDuplicates] = useState([])
   var [message, setMessage] = useState(null)
+  const {getPlaylistItems, getMyPlaylists} = useYouTubePlaylist()
+          
+  useEffect(function() {
+      if (props.token && props.token.access_token) {
+          getMyPlaylists(props.token.access_token).then(function(lists) {
+             setOptions(lists)  
+          })
+      }
+  },[props.token])
+  
+  
+  function saveItems(items) {
+      return new Promise(function(resolve,reject) {
+          if (!Array.isArray(items) || items.length <= 0) {
+              resolve()
+          } else {
+              props.tunebook.utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
+                  console.log(items)
+                  var youTubeIds = {}
+                  var foundTunes = {}
+                  // prep lookups
+                  if (t) Object.values(t).forEach(function(tune) {
+                      //console.log(t)
+                      if (tune && Array.isArray(tune.links) && tune.name) {
+                          tune.links.forEach(function(link) {
+                             var id = props.tunebook.utils.YouTubeGetID(link.link)
+                             if (id) {
+                                 youTubeIds[id] = tune.id
+                             }
+                          })
+                      }
+                  })
+                  var linkexists = {}
+                  var imported = []
+                  items.forEach(function(item) {
+                     if (item && item.youtubeId && youTubeIds.hasOwnProperty(item.youtubeId))  {
+                         linkexists[item.youtubeId] = item.title
+                         var tune = t[youTubeIds[item.youtubeId]]
+                         var books = (tune.books  && Array.isArray(tune.books)) ? tune.books : []
+                         books.push(props.currentTuneBook)
+                         tune.books = props.tunebook.utils.uniquifyArray(books)
+                         props.tunebook.saveTune(tune)
+                     } else if (item && item.youtubeId) {
+                         var newTune = props.tunebook.saveTune({name:item.title, links: [{link: 'https://www.youtube.com/watch?v='+item.youtubeId}], books: [props.currentTuneBook], voices:[]})
+                         imported.push(newTune)
+                     }
+                  })
+                  resolve([linkexists, imported])
+              })
+          }
+      })
+          
+  }
   
   function doImport(list) {
-    //const parser = new DOMParser();
-    //const xml = parser.parseFromString(list, 'text/xml');
-    //const res = vertaal(xml,{ p:'f' })
-    const abc = '' //res[0]
-    //console.log('import',xml,abc)
+      console.log(list, props.token, options)
+      if (list && list.trim()) {
+          getPlaylistItems(list.trim(), ((props.token && props.token.access_token) ? props.token.access_token : null)).then(function(items) {
+            console.log(items)  
+            saveItems(items).then(function(res) {
+              console.log(res) 
+              if (res[0] && Object.keys(res[0]).length > 0) {
+                  setWarnings(Object.keys(res[0]).length + ' items are already in your tune book. These tunes will be associated with the book '+ props.currentTuneBook)
+              } else {
+                  setWarnings(null)
+              }
+              if (res[1] ) {
+                  setSuccesses('Created ' + res[1].length + ' new item(s)')
+              } else {
+                  setSuccesses(null)
+              }
+              
+              
+            })
+          })
+      }
+      
     
-    const importResults = props.tunebook.importAbc(abc, props.currentTuneBook)
-    setTimeout(function() {
-      props.tunebook.utils.scrollTo('bottomofpage')
-    },100)
-    //console.log('imported',inserts,updates,duplicates)
-    //props.setImportResults(importResults)
-    //var [inserts, updates, duplicates] = importResults
-    
-    //var [inserts, updates, duplicates] = props.tunebook.importAbc(abc, props.currentTuneBook)
-    ////console.log('imported',inserts,updates,duplicates)
-    //setMessage(null)
-    
-    //if (duplicates.length > 0) {
-      //setDuplicates(duplicates)
-      //setMessage(<div>
-        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        //Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates)}}>Import Duplicates</Button></div>
-      //)
-    //} else {
-      //setList('')
-      //props.forceRefresh()
-      //setMessage(<>
-        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        
-      //</>)
-    //}
   }
   
-  //function forceImport(duplicates) {
-    //var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), props.currentTuneBook, true)
-    ////console.log('FFimported',inserts,updates,duplicates,d)
-     //setMessage(<>
-      //{<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-    //</>)
-    ////setTimeout(,2000)
    
-  //}
-      
-  function fileSelected (event) {
-      //console.log('FILESel',event,event.target.files[0]);
-      
-      //const fileList = event.target.files;
-      function readFile(file){
-          var reader = new FileReader();
-          reader.onloadend = function(){
-            //console.log("read"+reader.result.length )
-            if (reader.result.trim().length > 0) {
-              setList(reader.result)
-              doImport(reader.result)
-            }
-          }
-          if(file){
-              reader.readAsText(file);
-          }
-      }
-      readFile(event.target.files[0])
-  }
-   
+  if (!props.token) return null 
   return (
     <>
       <Button  style={{color:'black'}}  variant="primary" onClick={handleShow}>
@@ -99,19 +122,44 @@ function ImportYouTubeModal(props) {
         </Modal.Header>
         {(!message) ? <Modal.Body>
           
-          <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'7em'}} >
+          
+          {(warnings || successes) && <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'30em'}} >
+              <h3>Import Complete</h3>
+              {warnings && <p><b>Warning!!</b> {warnings}</p>} 
+               {successes && <p>{successes}</p>}
+              <br/>
+              <Button  onClick={function() {
+                 //setWarnings(null)
+                 //setSuccesses(null)
+                 navigate('/books')
+                  setTimeout(function() {
+                      navigate('/tunes')
+                      handleClose()
+                  
+                  },500)
+               }} variant="success" >Open Book</Button>
+            </div>}
+          {(!warnings && !successes) && <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'30em'}} >
+          
           <div style={{borderBottom:'1px solid black', marginBottom:'1em', padding:'0.3em'}} > 
             Import into &nbsp;&nbsp;
             <ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={tuneBook} onChange={function(val) { ;props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions}   triggerElement={<Button variant="primary" >{props.tunebook.icons.book} {props.currentTuneBook ? <b>{props.currentTuneBook}</b> : ''}</Button>}  /></ButtonGroup>
           </div>
+          {props.currentTuneBook ? <> 
+          Paste a playlist ID from YouTube<br/><br/>
+          <input placeholder="Paste YouTube playlist ID here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'50', clear:'both'}}  />
           
-          {(list.trim().length > 0) ? <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={function() {doImport(list)}}>Import</Button> : <Button style={{float:'left', marginBottom:'0.5em'}} variant="secondary" >Import</Button>}
-          <span style={{marginLeft:'0.5em',width:'30%', float:'left'}} >
-            <input  style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} />
-          </span>
-          </div>
+          {(list.trim().length > 0) ? <Button style={{float:'right', marginBottom:'0.5em'}} variant="primary" onClick={function() {doImport(list)}}>Import</Button> : <Button style={{float:'right', marginBottom:'0.5em'}} variant="secondary" >Import</Button>}
+          <hr/>
+          <b>or</b>
+          <br/>
+          
+          {(options && options.length) && <><div>From your playlists</div><br/>{options.map(function(option) {return <Button onClick={function() {doImport(option.id)}} >{option.title}</Button>})}</>}
+          
+          </> : ''}
+          </div>}
          
-          <textarea placeholder="Paste XML text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
+
         </Modal.Body> : ''}
         
         
