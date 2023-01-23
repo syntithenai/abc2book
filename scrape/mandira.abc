@@ -97,6 +97,7 @@ W:
 % abcbook-link-title-0 The Chicks - Long Time Gone (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777044037
@@ -145,6 +146,7 @@ W: I'll fly away
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669779635390
@@ -194,6 +196,7 @@ W: When I grow up I want to be an oooooold...
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669692152341
@@ -202,63 +205,6 @@ W: When I grow up I want to be an oooooold...
 
 
 X: 3
-T: The High Road
-C:Barry George Dean / Brendan O'brien / Luke Robert Laird
-B: steve song book
-B: max
-B: steve set list
-B: mandira
-M:4/4
-Q: 1/4=130
-K:Am
-V:1 
-"Am"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|
-"F"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"E7"zzzz|"Am"zzzzzzzz|
-"Am"zzzzzzzz|"B7"zzzzzzzz|"E"zzzzzzzz|"F"zzzz"E"zzzz|
-"Dm"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzz"E7"zzzz|"Am"zzzzzzzz|
-W: Instrumental
-W: 
-W: Up on the high road lookin' down
-W: Thinking how you let me down
-W: And deep in my heart I hear the sound
-W: Of the song that carried me away
-W: 
-W: We would come here years ago
-W: And the stars would shine and the wind would blow
-W: You'd look in my eyes and I would know
-W: That you would carry me away
-W: 
-W: Instrumental
-W: 
-W: Late last week in the marketplace
-W: I heard your voice and I saw your face
-W: You were gone without a trace
-W: It sure did carry me away
-W: 
-W: I'll play a tune and watch the stars
-W: Hope the wind will carry it far
-W: And if you hear me wherever you are
-W: Just let it carry you away
-W: 
-W: Instrumental
-W: 
-W: Play old fiddle and carry me away
-W: To another life and another day
-W: Well, here's a little tune I always play
-W: It sure does carry me away
-% abcbook-tune_id 629ecaab39e4b1830001df49
-% abcbook-link-0 https://www.youtube.com/watch?v=XIcnrRVKK_E
-% abcbook-link-title-0 Tim O&#39;Brien - The High Road (Hard Year Blues, 1983)
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669777549583
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 4
 T: The Water Is Wide
 B: steve song book
 B: cassidy
@@ -311,6 +257,7 @@ W: Then will my love return to me
 % abcbook-link-title-0 The Seekers - The Water Is Wide: Special Farewell Performance
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669771302114
@@ -318,7 +265,7 @@ W: Then will my love return to me
 % abcbook-repeats 1
 
 
-X: 5
+X: 4
 T: The Scarlet Tide
 C:Alison Kraus
 B: steve song book
@@ -366,6 +313,7 @@ W: And separates the widow from the bride
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669708845001
@@ -373,7 +321,7 @@ W: And separates the widow from the bride
 % abcbook-repeats 1
 
 
-X: 6
+X: 5
 T: Somebody That I Used To Know
 C:Gotye
 B: charlotte songs
@@ -530,6 +478,7 @@ W:
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669786900558
@@ -537,12 +486,21 @@ W:
 % abcbook-repeats 1
 
 
-X: 7
+X: 6
 T: 1000 Beautiful Things
 C:Annie Lennox
 B: mandira
+M:4/4
 Q: 1/4=100
 V:1 
+"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Gm7"zzzzzzzz|
+"Am7"zzzzzzzz|"Dm"zzzzzzzz|
+"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Gm7"zzzzzzzz|
+"Am7"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Am"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Am"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Am"zzzzzzzz|"Dm"zz"C"zz"Gm"zzzz|
+"Bb"zzzzzzzz|"C"zzzzzzzz|"Dm"zzzzzzzz|
 W: Every day I write the list of reasons why I still believe they do exist
 W: (A thousand beautiful things)
 W: And even though it's hard to see the glass as full and not half empty
@@ -583,31 +541,78 @@ W: That's all I have to say
 % abcbook-link-title-0 A Thousand Beautiful Things
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669709783483
+% abcbook-lastupdated 1672880690089
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 8
+X: 7
 T: Across The Great Divide
 C:Kate Woolfe
 B: mandira
 Q: 1/4=100
 V:1 
+A|D A
+F#m D
+A|F#m 
+D E A
+W: I've been walkin' in my sleep
+W: Countin' troubles 'stead of countin' sheep
+W: Where the years went I can't say
+W: I just turned around and they've gone away
+W: I've been siftin' through the layers
+W: Of dusty books and faded papers
+W: They tell a story I used to know
+W: And it was one that happened so long ago
+W: 
+W: Ch
+W: It's gone away in yesterday
+W: Now I find myself on the mountainside
+W: Where the rivers change direction
+W: Across the Great Divide
+W: 
+W: Now, I hear the owl a-callin'
+W: Softly as the night was fallin'
+W: With a question and I replied
+W: But he's gone across the borderline
+W: 
+W: Ch
+W: It's gone away in yesterday
+W: Now I find myself on the mountainside
+W: Where the rivers change direction
+W: Across the Great Divide
+W: 
+W: The finest hour that I have seen
+W: Is the one that comes between
+W: The edge of night and the break of day
+W: It's when the darkness rolls away
+W: 
+W: Ch
+W: It's gone away in yesterday
+W: Now I find myself on the mountainside
+W: Where the rivers change direction
+W: Across the Great Divide
+W: It's gone away in yesterday
+W: Now I find myself on the mountainside
+W: Where the rivers change direction
+W: Across the Great Divide
+W: 
 % abcbook-tune_id 638486c2bdf144e79b6c5ecc
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674442426852
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 9
+X: 8
 T: After The Goldrush
 C:Neil Young
 B: mandira
@@ -657,6 +662,7 @@ W:
 % abcbook-link-title-0 Neil Young  -  After The Gold Rush
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781334509
@@ -664,53 +670,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 10
-T: Ain't Misbehavin'
-C:Fats Waller
-B: mandira
-Q: 1/4=100
-V:1 
-W: No one to talk with.
-W: All by myself.
-W: No one to walk with,
-W: But I'm happy
-W: On the shelf.
-W: Ain't misbehavin',
-W: I'm savin' my love for you.
-W: 
-W: I know for certain
-W: The one I love.
-W: I'm through with flirtin',
-W: It's you that I'm thinkin' of.
-W: Ain't misbehavin'.
-W: I'm savin' my love for you.
-W: 
-W: Like Jack Horner
-W: In the corner.
-W: Don't go nowhere.
-W: What do I care?
-W: Your kisses
-W: Are worth waitin' for,
-W: Believe me.
-W: 
-W: I don't stay out late,
-W: Don't care to go.
-W: I'm home about eight,
-W: Just me and my radio.
-W: Ain't misbehavin',
-W: I'm savin' my love for you.
-% abcbook-tune_id 638486c26544eb74781aa82a
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669780294532
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 11
+X: 9
 T: No One Knows My Name
 C:Gillian Welch
 B: mandira
@@ -754,6 +714,7 @@ W: Ain't one soul in the whole world knows my name
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778036064
@@ -761,7 +722,7 @@ W: Ain't one soul in the whole world knows my name
 % abcbook-repeats 1
 
 
-X: 12
+X: 10
 T: All Along The Watch Tower
 C:Bob Dylan
 B: mandira
@@ -801,6 +762,7 @@ W: The wind began to howl
 % abcbook-link-title-0 Bob Dylan - All Along the Watchtower (Official Audio)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680442240
@@ -808,126 +770,54 @@ W: The wind began to howl
 % abcbook-repeats 1
 
 
-X: 13
+X: 11
 T: All I Wanna Do
 B: mandira
 Q: 1/4=100
 V:1 
+D A E A
+W: Sun goes up, sun goes down
+W: My body drags its soul around
+W: 
+W: Theme
+W: 
+W: Never been a rich girl I suppose
+W: My money comes my money goes
+W: One hand earns the other one pays
+W: One makes the best of it these days
+W: 
+W: Ch
+W: All I wanna do
+W: Is be with you x 2
+W: 
+W: I never heard when love was wrong
+W: Now don't you do what I have done
+W: Mad my bed now I lay down
+W: And watch the world go spinning round
+W: 
+W: Theme x 2
+W: 
+W: Another dsy another night
+W: How many times to get it right
+W: Sun goes up, sun goes down
+W: My body drags its soul around
+W: 
+W: Ch x 4
+W: 
+W: 
 % abcbook-tune_id 638486c228d70b8d3f0ec0b8
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674441652952
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 14
-T: All Of Me
-C:Billie Holiday
-B: mandira
-Q: 1/4=100
-V:1 
-W: All of me
-W: Why not take all of me
-W: Can't you see
-W: I'm no good without you
-W: 
-W: Take my lips
-W: I want to loose them
-W: Take my arms
-W: I'll never use them
-W: 
-W: Your goodbye
-W: Left me with eyes that cry
-W: How can I go on dear without you
-W: 
-W: You took the part
-W: That once was my heart
-W: So why not take all of me
-W: 
-W: All of me
-W: Why not take all of me
-W: Can't you see
-W: I'm no good without you
-W: 
-W: Take my lips
-W: I want to loose them
-W: Take my arms
-W: I'll never use them
-W: 
-W: Your goodbye
-W: Left me with eyes that cry
-W: How can I go on dear without you
-W: 
-W: You took the best
-W: So why not take the rest
-W: Baby, take all of me
-% abcbook-tune_id 638486c21f91944cd13f885b
-% abcbook-link-0 https://www.youtube.com/watch?v=lI5ORDi7yOs
-% abcbook-link-title-0 Billie Holiday- All of Me
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669779206032
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 15
-T: A Plain Man
-C:Sheila Chandra
-B: mandira
-Q: 1/4=100
-V:1 
-W: He said my pretty fair maid
-W: I'm glad to meet you here
-W: For it's on this lonely mountain
-W: Your beauty, your beauty shines
-W: Your beauty shines so
-W: Your beauty shines so clear
-W: 
-W: And if perchance you ask for me
-W: Perhaps you'll not me find
-W: But I'll be in my rain castle
-W: All on the mountains high
-W: He said my pretty fair maid
-W: I'm glad to meet you
-W: But I'll be in my rain castle
-W: Your beauty shines so clear
-W: Your beauty shines so clear
-W: 
-W: Oooooooooh
-W: 
-W: Sun and dark, sun and dark
-W: Sun and dark she followed him
-W: Over the mountains high
-W: Sun and dark she followed him
-W: For his eyes so bright did shine
-W: And he led her over the mountain
-W: Beyond the mortal life
-W: 
-W: If perchance you ask for me
-W: You'll not me find, you'll never me find
-W: And she followed him
-W: For his eyes so bright did shine
-W: And he led her over the mountain
-W: Beyond the mortal life
-% abcbook-tune_id 638486c2b33f7c725572f285
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669771682834
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 16
+X: 12
 T: A' Soalin'
 C:Peter, Paul And Mary
 B: mandira
@@ -976,6 +866,7 @@ W: Oh tidings of comfort and joy.
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774176649
@@ -983,7 +874,7 @@ W: Oh tidings of comfort and joy.
 % abcbook-repeats 1
 
 
-X: 17
+X: 13
 T: Autumn Leaves
 C:Frank Sinatra
 B: mandira
@@ -1024,6 +915,7 @@ W:
 % abcbook-link-title-0 Frank Sinatra - Autumn Leaves
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781891360
@@ -1031,60 +923,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 18
-T: A Wonderful Dream
-C:The Majors
-B: mandira
-Q: 1/4=100
-V:1 
-W: Last night I had a wonderful dream about you
-W: Dream about you
-W: Last night I had a dream
-W: Hope that it will come true
-W: Last night I had a wonderful dream
-W: I dreamed I held you in my arms
-W: And you thrilled me with your charms
-W: In a wonderful dream
-W: I had last night
-W: Your lips were oh so soft and warm
-W: And a wonderful love was born
-W: 
-W: We were all alone
-W: You told me that you cared
-W: And I never will forget
-W: How happy I was that we were there
-W: Last night I had a wonderful dream
-W: And now that i'm alone with you
-W: My wonderful dream will come true
-W: 
-W: Last night I had a wonderful dream about you
-W: Dream about you
-W: Last night I had a dream
-W: Hope that it will come true
-W: We were all alone
-W: You told me that you cared
-W: And I never will forget
-W: How happy I was that we were there
-W: 
-W: Last night I had a wonderful dream
-W: And now that i'm alone with you
-W: My wonderful dream will come true
-W: Please come true
-W: Wonder wonderful dream
-W: 
-% abcbook-tune_id 638486c200ef4d2d3c553ee0
-% abcbook-link-0 https://www.youtube.com/watch?v=vH61xVKyNvk
-% abcbook-link-title-0 1962 - The Majors - A Wonderful Dream
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669771514414
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 19
+X: 14
 T: Bar Room Girls
 C:Gillian Welch
 B: mandira
@@ -1114,6 +953,7 @@ W: Are the bright morning stars of the barroom girls
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785988798
@@ -1121,12 +961,21 @@ W: Are the bright morning stars of the barroom girls
 % abcbook-repeats 1
 
 
-X: 20
+X: 15
 T: Be Careful What You Pray For
 C:Paul Kelly
 B: mandira
 Q: 1/4=100
 V:1 
+Cm|Cm G
+Cm|Fm
+Cm G|Cm
+Fm Cm
+Fm|Cm
+Cm G
+Cm
+Fm
+Cm G|Cm
 W: Be careful what you pray for
 W: You just might get it
 W: Be careful what you pray for
@@ -1175,14 +1024,15 @@ W: Be careful what you pray for
 % abcbook-link-title-0 Paul Kelly - Be Careful What You Pray For
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669682615086
+% abcbook-lastupdated 1674438639210
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 21
+X: 16
 T: Because
 B: mandira
 Q: 1/4=100
@@ -1191,6 +1041,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -1198,57 +1049,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 22
-T: Beginning To See The Light
-C:Ella Fitzgerald
-B: mandira
-Q: 1/4=100
-V:1 
-W: I never cared much for moonlit skies
-W: I never wink back at fireflies
-W: But now that the stars are in your eyes
-W: I'm beginning to see the light
-W: I never went in for afterglow
-W: Or candlelight on the mistletoe
-W: But now when you turn the lamp down low
-W: I'm beginning to see the light
-W: Used to ramble through the park
-W: Shadowboxing in the dark
-W: Then you came and caused a spark
-W: That's a four-alarm fire now
-W: I never made love by lantern-shine
-W: I never saw rainbows in my wine
-W: But now that your lips are burning mine
-W: I'm beginning to see the light
-% abcbook-tune_id 638486c27ba8b607a0e7e92c
-% abcbook-link-0 https://www.youtube.com/watch?v=_k81_ZcBA9c
-% abcbook-link-title-0 I&#39;m Beginning To See The Light - Ella Fitzgerald
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669710634398
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 23
-T: Be My Man
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2571b710fe5939941
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 24
+X: 17
 T: First We Take Manhattan
 C:Leonard Cohen
 B: mandira
@@ -1299,6 +1100,7 @@ W: First we take Manhattan, then we take Berlin
 % abcbook-link-title-0 Leonard Cohen - First We Take Manhattan (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669718933079
@@ -1306,7 +1108,7 @@ W: First we take Manhattan, then we take Berlin
 % abcbook-repeats 1
 
 
-X: 25
+X: 18
 T: Big Yellow Taxi
 C:Joni Mitchell
 B: mandira
@@ -1363,6 +1165,7 @@ W: And put up a parking lot
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669631260692
@@ -1370,51 +1173,55 @@ W: And put up a parking lot
 % abcbook-repeats 1
 
 
-X: 26
+X: 19
 T: Blackberry Blossom
 C:Norman Blake
 B: mandira
 Q: 1/4=100
 V:1 
+G D C G C G D
+Em D
+Em C  G D  G
 W: Can you tell me what happened to the blossom
 W: Blackberry blossom when the summertime came?
 W: The blackberry blossom, oh the last time I saw one
 W: Was down in the bramble where I rambled in the spring
 W: The bramble was wild I was torn by the briars
 W: My love he wooed me as I lie there
-W: With a flower in my hair and my cheeks all flashy 
-W: Was the blackberry blossom from the blackberry bush 
+W: With a flower in my hair and my cheeks all flashy
+W: Was the blackberry blossom from the blackberry bush
 W: 
-W: When I picked the berry I didn't miss the blossom 
-W: The blackberry blossom was white as the snow 
-W: But the berry that it brings is sweeter than molasses 
-W: And black as the wings of the Arkansas crow 
-W: The Arkansas crow is a devil and a demon 
-W: Known for his cackling and his screaming 
-W: Driving away the swallow and the thrush 
-W: From the blackberry blossom and the blackberry bush  
+W: When I picked the berry I didn't miss the blossom
+W: The blackberry blossom was white as the snow
+W: But the berry that it brings is sweeter than molasses
+W: And black as the wings of the Arkansas crow
+W: The Arkansas crow is a devil and a demon
+W: Known for his cackling and his screaming
+W: Driving away the swallow and the thrush
+W: From the blackberry blossom and the blackberry bush
 W: 
-W: I was picking berries when that crow flew above me 
-W: Carrying my lover so far away 
-W: Now each spring I lay a blackberry blossom 
-W: By a cold gravestone on the Arkansas clay 
-W: The Arkansas clay is rocky and hard 
-W: With weeds growing over in the old graveyard 
-W: And the day settles down to an evening hush  
+W: I was picking berries when that crow flew above me
+W: Carrying my lover so far away
+W: Now each spring I lay a blackberry blossom
+W: By a cold gravestone on the Arkansas clay
+W: The Arkansas clay is rocky and hard
+W: With weeds growing over in the old graveyard
+W: And the day settles down to an evening hush
 W: Over the blackberry blossom and the blackberry bush
 % abcbook-tune_id 638486c28c199c5d868c2276
 % abcbook-link-0 https://www.youtube.com/watch?v=ToQHqW22eiE
 % abcbook-link-title-0 Blackberry Blossom
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669709860311
+% abcbook-lastupdated 1674441120285
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 27
+X: 20
 T: Blind Willy McTell
 C:Bob Dylan
 B: mandira
@@ -1464,6 +1271,7 @@ W: Like Blind Willie McTell
 % abcbook-link-title-0 Bob Dylan - Blind Willie McTell (Original Release)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669631850210
@@ -1471,7 +1279,7 @@ W: Like Blind Willie McTell
 % abcbook-repeats 1
 
 
-X: 28
+X: 21
 T: Blowing In The Wind
 C:Bob Dylan
 B: mandira
@@ -1508,6 +1316,7 @@ W: The answer is blowin’ in the wind
 % abcbook-link-title-0 Bob Dylan - Blowin&#39; in the Wind (Official Audio)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774442487
@@ -1515,7 +1324,7 @@ W: The answer is blowin’ in the wind
 % abcbook-repeats 1
 
 
-X: 29
+X: 22
 T: Blue And Lonesome
 C:Alison Kraus
 B: mandira
@@ -1547,6 +1356,7 @@ W: I'm blue, and I'm lonesome, too.
 % abcbook-link-title-0 Alison Krauss   Union Station   Blue   Lonesome
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778231390
@@ -1554,7 +1364,7 @@ W: I'm blue, and I'm lonesome, too.
 % abcbook-repeats 1
 
 
-X: 30
+X: 23
 T: Both Sides Now
 C:Joni Mitchell
 B: mandira
@@ -1616,6 +1426,7 @@ W:
 % abcbook-link-title-0 Joni Mitchell - Both Sides Now (HD)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774727552
@@ -1623,53 +1434,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 31
-T: Until Death Do Them Part
-C:Paul Kelly
-B: mandira
-Q: 1/4=100
-V:1 
-W: We are gathered here today to join a woman and a man
-W: And to witness what they say as before us they stand
-W: In sickness and in health, through the rich times and the poor
-W: They are bound to be together and to live under God's law
-W: 
-W: Until death do them part
-W: Or the stars fall from the sky
-W: Until death do them part
-W: And the rivers all run dry
-W: What God has joined together
-W: Let no one tear apart
-W: They are bound to love each other
-W: Until death do them part
-W: We are gathered here today to join a husband and a wife
-W: So I call on you to pray for good luck in their life
-W: Through thick and through thin, through the good times and the bad
-W: May they always be respectful and make each other glad
-W: 
-W: Until death do them part
-W: When God calls from on high
-W: Until death do them part
-W: And it's time to say goodbye
-W: 
-W: What God has joined together
-W: Let no one tear apart
-W: They are bound to love each other
-W: Until death do them part
-W: Yes they are bound to be together
-W: Until death do them part
-% abcbook-tune_id 638486c2b6234758cf3b2bf5
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669778122201
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 32
+X: 24
 T: Brain Damage/Eclipse
 C:Pink Floyd
 B: mandira
@@ -1735,6 +1500,7 @@ W: "There is no dark side in the moon really. Matter of fact, it's all dark."
 % abcbook-link-title-0 Pink Floyd - Brain Damage / Eclipse
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669630478549
@@ -1742,7 +1508,7 @@ W: "There is no dark side in the moon really. Matter of fact, it's all dark."
 % abcbook-repeats 1
 
 
-X: 33
+X: 25
 T: Brave Bold Woman
 B: mandira
 Q: 1/4=100
@@ -1751,6 +1517,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -1758,7 +1525,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 34
+X: 26
 T: Breaths
 C:Sweet Honey In the Rock
 B: mandira
@@ -1794,6 +1561,7 @@ W: CHORUS
 % abcbook-link-title-0 Breaths
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669719151466
@@ -1801,7 +1569,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 35
+X: 27
 T: Burning Times
 C:Christy Moore
 B: mandira
@@ -1847,6 +1615,7 @@ W: ISIS-ASTARTE-DIANA-HECATI-DEMETER-KALI-INNANNA.
 % abcbook-link-title-0 Burning Times
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669773292104
@@ -1854,71 +1623,7 @@ W: ISIS-ASTARTE-DIANA-HECATI-DEMETER-KALI-INNANNA.
 % abcbook-repeats 1
 
 
-X: 36
-T: Calico Pie
-C:Natalie Merchant
-B: mandira
-Q: 1/4=100
-V:1 
-W: Calico Pie,
-W: The little Birds fly
-W: Down to the calico tree,
-W: Their wings were blue
-W: And they sang ‘Tilly-loo!’
-W: 
-W: Till away they flew, –
-W: And they never came back to me!
-W: They never came back!
-W: They never came back!
-W: They never came back to me!
-W: 
-W: Calico Jam,
-W: The little Fish swam,
-W: Over the syllabub sea,
-W: He took off his hat,
-W: To the Sole and the Sprat,
-W: And the Willeby-Wat, –
-W: But he never came back to me!
-W: 
-W: He never came back!
-W: He never came back!
-W: He never came back to me!
-W: 
-W: Calico Ban,
-W: The little Mice ran,
-W: To be ready in time for tea,
-W: Flippity flup,
-W: They drank it all up,
-W: And danced in the cup, –
-W: But they never came back to me!
-W: 
-W: They never came back!
-W: They never came back!
-W: They never came back to me!
-W: 
-W: Calico Drum,
-W: The Grasshoppers come,
-W: The Butterfly, Beetle, and Bee,
-W: Over the ground,
-W: Around and around,
-W: With a hop and a bound, –
-W: But they never came back to me!
-W: 
-W: They never came back!
-W: They never came back!
-W: They never came back to me!
-% abcbook-tune_id 638486c22f0d2babf3b77f70
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669787121677
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 37
+X: 28
 T: California Dreaming
 C:The Mamas And the Papas
 B: mandira
@@ -1959,6 +1664,7 @@ W: On such a winter's day
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669630799679
@@ -1966,24 +1672,9 @@ W: On such a winter's day
 % abcbook-repeats 1
 
 
-X: 38
-T: Calypso
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2279751e069c9c593
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 39
+X: 29
 T: Can't Fake It
+C:Brooke Marshall
 B: mandira
 Q: 1/4=100
 V:1 
@@ -1991,14 +1682,15 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674185852800
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 40
+X: 30
 T: Can't Find My Way Home
 C:Steve Winwood
 B: mandira
@@ -2029,6 +1721,7 @@ W: But I can't find my way home.
 % abcbook-link-title-0 Steve Winwood // Blind Faith - &quot;Can&#39;t Find My Way Home&quot;
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781582768
@@ -2036,12 +1729,19 @@ W: But I can't find my way home.
 % abcbook-repeats 1
 
 
-X: 41
+X: 31
 T: Can't Let Go
 C:Lucinda Williams
 B: mandira
 Q: 1/4=100
 V:1 
+A|A
+A|A
+E|D|A
+A|A
+A|A|D|D
+A|A
+E|D|
 W: Told you baby one more time
 W: Don't make me sit all alone and cry
 W: Well it's over - I know it - but I can't let go
@@ -2104,14 +1804,15 @@ W: Well it's over - I know it - but I can't let go
 % abcbook-link-title-0 Can&#39;t Let Go - Lucinda Willians
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669780193895
+% abcbook-lastupdated 1674437441559
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 42
+X: 32
 T: Catch The Wind
 C:Donovan
 B: mandira
@@ -2142,6 +1843,7 @@ W: Ah, but I may as well try and catch the wind
 % abcbook-link-title-0 Donovan - Catch the wind
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774852286
@@ -2149,7 +1851,7 @@ W: Ah, but I may as well try and catch the wind
 % abcbook-repeats 1
 
 
-X: 43
+X: 33
 T: Cest La Vie
 C:Chuck Berry
 B: mandira
@@ -2202,6 +1904,7 @@ W: It goes to show you never can tell
 % abcbook-link-title-0 Chuck Berry ~▶ C &#39;est la Vie (1972) ©2016
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782592617
@@ -2209,7 +1912,7 @@ W: It goes to show you never can tell
 % abcbook-repeats 1
 
 
-X: 44
+X: 34
 T: Chan Chan
 B: mandira
 Q: 1/4=100
@@ -2263,6 +1966,7 @@ W: Llego a Cueto voy para Mayarí
 % abcbook-link-title-0 Buena Vista Social Club - Chan Chan (Official Audio)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777893389
@@ -2270,7 +1974,7 @@ W: Llego a Cueto voy para Mayarí
 % abcbook-repeats 1
 
 
-X: 45
+X: 35
 T: Changing Woman
 B: mandira
 Q: 1/4=100
@@ -2279,6 +1983,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -2286,7 +1991,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 46
+X: 36
 T: Chanson De Mardi Gras
 B: mandira
 Q: 1/4=100
@@ -2295,6 +2000,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -2302,23 +2008,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 47
-T: Circus
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2fdd1c7eb6611cb67
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 48
+X: 37
 T: Codeine Arms
 C:Eilen Jewell
 B: mandira
@@ -2360,6 +2050,7 @@ W: Save me, save me, codeine arms
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787308574
@@ -2367,7 +2058,7 @@ W: Save me, save me, codeine arms
 % abcbook-repeats 1
 
 
-X: 49
+X: 38
 T: Copper Kettle
 C:Joni Mitchell
 B: mandira
@@ -2416,6 +2107,7 @@ W: In the pale moonlight
 % abcbook-link-title-0 Copper Kettle
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774713210
@@ -2423,7 +2115,7 @@ W: In the pale moonlight
 % abcbook-repeats 1
 
 
-X: 50
+X: 39
 T: Cotton
 B: mandira
 Q: 1/4=100
@@ -2432,6 +2124,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -2439,23 +2132,72 @@ V:1
 % abcbook-repeats 1
 
 
-X: 51
-T: Cracias
+X: 40
+T: Gracias
+C:Joan Baez
 B: mandira
+M:4/4
 Q: 1/4=100
 V:1 
+"B"zzzzzzzz|"C"zzzzzzzz|
+W: Gracias a la vida que me ha dado tanto
+W: Me dio dos luceros, que cuando los abro
+W: Perfecto distingo lo negro del blanco
+W: Y en el alto cielo su fondo estrellado
+W: Y en las multitudes al hombre que yo amo
+W: 
+W: Gracias a la vida que me ha dado tanto
+W: Me ha dado el sonido y el abecedario
+W: Gracias a la vida que me ha dado tanto.
+W: Me dio dos luceros, que cuando los abro,
+W: Perfecto distingo lo negro del blanco
+W: Y en el alto cielo su fondo estrellado
+W: Y en las multitudes el hombre que yo amo.
+W: 
+W: Gracias a la vida que me ha dado tanto.
+W: Me ha dado el oido que en todo su ancho
+W: Graba noche y dia, grillos y canarios,
+W: Martillos, turbinas, ladridos, chubascos,
+W: Y la voz tan tierna de mi bien amado.
+W: 
+W: Gracias a la vida que me ha dado tanto.
+W: Me ha dado el sonido y el abecedario;
+W: Con el las palabras que pienso y declaro:
+W: Madre, amigo, hermano, y luz alumbrando
+W: La ruta del alma del que estoy amando.
+W: 
+W: Gracias a la vida que me ha dado tanto.
+W: Me ha dado la marcha de mis pies cansados;
+W: Con ellos anduve ciudades y charcos,
+W: Playas y desiertos, montanas y llanos,
+W: Y la casa tuya, tu calle y tu patio.
+W: 
+W: Gracias a la vida que me ha dado tanto.
+W: Me dio el corazon que agita su marco
+W: Cuando miro el fruto del cerebro humano,
+W: Cuando miro al bueno tan lejos del malo,
+W: Cuando miro al fondo de tus ojos claros.
+W: 
+W: Gracias a la vida que me ha dado tanto.
+W: Me ha dado la risa y me ha dado el llanto.
+W: Asi yo distingo dicha de quebranto,
+W: Los dos materiales que forman mi canto,
+W: Y el canto de ustedes que es mi mismo canto,
+W: Y el canto de todos que es mi propio canto.
+W: Gracias a la vida que me ha dado tanto.
 % abcbook-tune_id 638486c23fa9c970174ac254
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1672881517125
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 52
+X: 41
 T: Crazy
 C:Willy Nelson
 B: mandira
@@ -2493,6 +2235,7 @@ W:
 % abcbook-link-title-0 Willie Nelson - Crazy 1961
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781483923
@@ -2500,7 +2243,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 53
+X: 42
 T: Creepin' In
 C:Norah Jones
 B: mandira
@@ -2550,6 +2293,7 @@ W: Sneaking in
 % abcbook-link-title-0 Creepin&#39; In
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778394151
@@ -2557,12 +2301,16 @@ W: Sneaking in
 % abcbook-repeats 1
 
 
-X: 54
+X: 43
 T: Crescent City
 C:Lucinda Williams
 B: mandira
 Q: 1/4=100
 V:1 
+E
+E|B
+B|C#|A|B
+F#|B
 W: Everybody's had a few
 W: 
 W: Now they're talking about who knows who
@@ -2573,7 +2321,7 @@ W: Now I'm after that back highway
 W: And the longest bridge
 W: I've ever crossed over Pontchartrain
 W: 
-W: "Tu le ton temps," that's what we say
+W: "Tous les ton son temps," that's what we say
 W: 
 W: We used to dance the night away
 W: Me and my sister, me and my brother
@@ -2589,7 +2337,7 @@ W: My brother knows where the best bars are
 W: Let's see how these blues'll do
 W: in the town where the good times stay
 W: 
-W: "Tu le ton temps," that's what we say
+W: "Tous les ton son temps," that's what we say
 W: 
 W: We used to dance the night away
 W: Me and my sister, me and my brother
@@ -2598,7 +2346,7 @@ W:
 W: 
 W: (8 Bar Instrumental)
 W: 
-W: "Tu le ton temps" that's what we say
+W: "Tous les ton son temps" that's what we say
 W: 
 W: We used to dance the night away
 W: Me and my sister me and my brother
@@ -2611,14 +2359,15 @@ W: (Cajun Instrumental until end)
 % abcbook-link-title-0 Crescent City
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669778911423
+% abcbook-lastupdated 1674182294642
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 55
+X: 44
 T: Cruel Sister
 C:Pentangle
 B: mandira
@@ -2754,6 +2503,7 @@ W: Fa, la-la-la, la, la-la, la, la-la
 % abcbook-link-title-0 The Pentangle - Cruel Sister - 4/6
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669631921362
@@ -2761,7 +2511,7 @@ W: Fa, la-la-la, la, la-la, la, la-la
 % abcbook-repeats 1
 
 
-X: 56
+X: 45
 T: Cry Me A River
 C:Ella Fitzgerald
 B: mandira
@@ -2812,6 +2562,7 @@ W: How I cried a river over you
 % abcbook-link-title-0 Ella Fitzgerald - Cry Me A River (Verve Records 1961)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669710732814
@@ -2819,7 +2570,7 @@ W: How I cried a river over you
 % abcbook-repeats 1
 
 
-X: 57
+X: 46
 T: Cry My Darlin
 C:Neil Marray
 B: mandira
@@ -2830,6 +2581,7 @@ V:1
 % abcbook-link-title-0 cry my darling - neil murray
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784133671
@@ -2837,7 +2589,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 58
+X: 47
 T: Dead In The Water
 B: mandira
 Q: 1/4=100
@@ -2846,6 +2598,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -2853,7 +2606,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 59
+X: 48
 T: Dear Someone
 C:Gillian Welch
 B: mandira
@@ -2885,6 +2638,7 @@ W:
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669786104143
@@ -2892,7 +2646,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 60
+X: 49
 T: Desperado
 C:The Eagles
 B: mandira
@@ -2948,6 +2702,7 @@ W: Before it's too late
 % abcbook-link-title-0 Desperado (2013 Remaster)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777170754
@@ -2955,7 +2710,7 @@ W: Before it's too late
 % abcbook-repeats 1
 
 
-X: 61
+X: 50
 T: Diamonds And Rust
 C:Joan Baez
 B: mandira
@@ -3019,6 +2774,7 @@ W: I've already paid
 % abcbook-link-title-0 Joan Baez - Diamonds and Rust (With Lyrics)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775635137
@@ -3026,7 +2782,7 @@ W: I've already paid
 % abcbook-repeats 1
 
 
-X: 62
+X: 51
 T: Different
 B: mandira
 Q: 1/4=100
@@ -3035,6 +2791,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3042,7 +2799,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 63
+X: 52
 T: Don't Change A Thing
 C:INXS
 B: mandira
@@ -3095,6 +2852,7 @@ W: Don't change
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784900331
@@ -3102,7 +2860,7 @@ W: Don't change
 % abcbook-repeats 1
 
 
-X: 64
+X: 53
 T: Don't Fence Me In
 C:Cole Porter
 B: mandira
@@ -3165,6 +2923,7 @@ W: No, Papa, don't you fence me in
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783269470
@@ -3172,7 +2931,7 @@ W: No, Papa, don't you fence me in
 % abcbook-repeats 1
 
 
-X: 65
+X: 54
 T: Don't Know Why
 B: mandira
 Q: 1/4=100
@@ -3181,6 +2940,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3188,7 +2948,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 66
+X: 55
 T: Don't Let Your Heart
 C:Alison Moyet
 B: mandira
@@ -3238,6 +2998,7 @@ W:
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669770763303
@@ -3245,7 +3006,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 67
+X: 56
 T: Down Under
 C:Men At Work
 B: mandira
@@ -3289,6 +3050,7 @@ W:
 % abcbook-link-title-0 Men At Work - Down Under (Official HD Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781674184
@@ -3296,7 +3058,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 68
+X: 57
 T: Dusty Boxcar
 B: mandira
 Q: 1/4=100
@@ -3305,6 +3067,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3312,7 +3075,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 69
+X: 58
 T: Evangeline
 C:The Band
 B: mandira
@@ -3354,6 +3117,7 @@ W: That pulled her man away
 % abcbook-link-title-0 Evangeline-The Band
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777509154
@@ -3361,7 +3125,7 @@ W: That pulled her man away
 % abcbook-repeats 1
 
 
-X: 70
+X: 59
 T: Everything Is Free
 C:Gillian Welch
 B: mandira
@@ -3421,6 +3185,7 @@ W: Even if it doesn't pay
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783147284
@@ -3428,7 +3193,7 @@ W: Even if it doesn't pay
 % abcbook-repeats 1
 
 
-X: 71
+X: 60
 T: Everywhere
 C:Fleetwood Mac
 B: mandira
@@ -3497,6 +3262,7 @@ W: (I wanna be with you everywhere...)
 % abcbook-link-title-0 Fleetwood Mac - Everywhere (Official Music Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669756633121
@@ -3504,7 +3270,7 @@ W: (I wanna be with you everywhere...)
 % abcbook-repeats 1
 
 
-X: 72
+X: 61
 T: Falling Back To You
 B: mandira
 Q: 1/4=100
@@ -3513,6 +3279,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3520,7 +3287,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 73
+X: 62
 T: Fare Thee Well
 C:Traditional
 B: mandira
@@ -3550,6 +3317,7 @@ W: Fare thee well, oh honey, fare thee well
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669786211685
@@ -3557,7 +3325,7 @@ W: Fare thee well, oh honey, fare thee well
 % abcbook-repeats 1
 
 
-X: 74
+X: 63
 T: Feeling Good
 C:Nina Simone
 B: mandira
@@ -3618,6 +3386,7 @@ W: I'm feeling good!
 % abcbook-link-title-0 Nina Simone - Feeling Good (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780561913
@@ -3625,7 +3394,7 @@ W: I'm feeling good!
 % abcbook-repeats 1
 
 
-X: 75
+X: 64
 T: Fishbowl
 B: mandira
 Q: 1/4=100
@@ -3634,6 +3403,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3641,7 +3411,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 76
+X: 65
 T: Flying Away From You
 B: mandira
 Q: 1/4=100
@@ -3650,6 +3420,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -3657,7 +3428,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 77
+X: 66
 T: Flyin' Shoes
 C:Townes Van Zandt
 B: mandira
@@ -3698,6 +3469,7 @@ W: Till I'll be tying on my flying shoes
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782962478
@@ -3705,7 +3477,7 @@ W: Till I'll be tying on my flying shoes
 % abcbook-repeats 1
 
 
-X: 78
+X: 67
 T: Fruits Of My Labor
 C:Lucinda Williams
 B: mandira
@@ -3756,6 +3528,7 @@ W: Baby, sweet baby
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783458233
@@ -3763,7 +3536,7 @@ W: Baby, sweet baby
 % abcbook-repeats 1
 
 
-X: 79
+X: 68
 T: When God Dips His Pen Of Love In My Heart
 C:Alison Kraus
 B: mandira
@@ -3808,6 +3581,7 @@ W: When God dips His love in my heart
 % abcbook-link-title-0 When God Dips His Pen Of Love In My Heart
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669779808138
@@ -3815,7 +3589,7 @@ W: When God dips His love in my heart
 % abcbook-repeats 1
 
 
-X: 80
+X: 69
 T: Going North
 C:Missy Higgins
 B: mandira
@@ -3850,6 +3624,7 @@ W: Yeah I'm going north
 % abcbook-link-title-0 Going North
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775842036
@@ -3857,12 +3632,15 @@ W: Yeah I'm going north
 % abcbook-repeats 1
 
 
-X: 81
+X: 70
 T: You And Steve McQueen
 C:The Audreys
 B: mandira
 Q: 1/4=100
 V:1 
+Cm|Bb|C
+Ab|Ab Bb|C
+Am G F
 W: Oh gorgeous thing
 W: When you going to get up there and sing?
 W: When you going to get up and take your place, on the stage
@@ -3889,14 +3667,15 @@ W:
 % abcbook-link-title-0 The Audreys - You and Steve McQueen
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669709159720
+% abcbook-lastupdated 1674184818915
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 82
+X: 71
 T: Go To Sleep You Little Baby
 C:Soggy Bottom Boys
 B: mandira
@@ -3935,6 +3714,7 @@ W: And be my ever loving baby
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784357653
@@ -3942,7 +3722,7 @@ W: And be my ever loving baby
 % abcbook-repeats 1
 
 
-X: 83
+X: 72
 T: Gracias A La Vida
 C:Violeta Parra
 B: mandira
@@ -4002,6 +3782,7 @@ W: Gracias a la vida, que me ha dado tanto
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783318062
@@ -4009,7 +3790,7 @@ W: Gracias a la vida, que me ha dado tanto
 % abcbook-repeats 1
 
 
-X: 84
+X: 73
 T: Gravy
 B: mandira
 Q: 1/4=100
@@ -4018,6 +3799,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -4025,7 +3807,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 85
+X: 74
 T: Grey
 B: mandira
 Q: 1/4=100
@@ -4034,6 +3816,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -4041,7 +3824,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 86
+X: 75
 T: Hail Holy Queen
 C:Contractus Hermannus
 B: mandira
@@ -4057,11 +3840,11 @@ W: Heav'n and earth resound the hymn:
 W: Salve, salve, salve, Regina!
 W: 
 W: 2 Our life, our sweetness here below, O Maria!
-W: Our hope in sorrow and in woe, O Maria! 
+W: Our hope in sorrow and in woe, O Maria!
 W: [Refrain]
 W: 
 W: 3 And when our life-breath leaves us, O Maria!
-W: Show us thy Son, Christ Jesus. O Maria! 
+W: Show us thy Son, Christ Jesus. O Maria!
 W: [Refrain]
 W: 
 % abcbook-tune_id 638486c25df45be4ecd99e2e
@@ -4069,6 +3852,7 @@ W:
 % abcbook-link-title-0 Hail Holy Queen (Hermannus Contractus)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669772017935
@@ -4076,7 +3860,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 87
+X: 76
 T: Handle Me With Care
 C:Travelling Wilburys
 B: mandira
@@ -4139,6 +3923,7 @@ W: Handle me with care
 % abcbook-link-title-0 The Traveling Wilburys - Handle With Care (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781760232
@@ -4146,7 +3931,7 @@ W: Handle me with care
 % abcbook-repeats 1
 
 
-X: 88
+X: 77
 T: Happy Together
 C:The Turtles
 B: mandira
@@ -4215,6 +4000,7 @@ W: So happy together (Ba-ba-ba-ba ba-ba-ba-ba)
 % abcbook-link-title-0 Happy Together - The Turtles (1967)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669638506794
@@ -4222,7 +4008,7 @@ W: So happy together (Ba-ba-ba-ba ba-ba-ba-ba)
 % abcbook-repeats 1
 
 
-X: 89
+X: 78
 T: Harlem
 B: mandira
 Q: 1/4=100
@@ -4231,6 +4017,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -4238,7 +4025,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 90
+X: 79
 T: Havoc
 B: mandira
 Q: 1/4=100
@@ -4247,6 +4034,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -4254,7 +4042,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 91
+X: 80
 T: Heart Like A Wheel
 C:Linda Ronstadt
 B: mandira
@@ -4281,6 +4069,7 @@ W: And my heart is on that ship out in mid-ocean
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669786271070
@@ -4288,7 +4077,7 @@ W: And my heart is on that ship out in mid-ocean
 % abcbook-repeats 1
 
 
-X: 92
+X: 81
 T: Heart's A Mess
 C:Gotye
 B: mandira
@@ -4339,6 +4128,7 @@ W: So you can wait, but I don't wanna waste my love
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783115101
@@ -4346,7 +4136,7 @@ W: So you can wait, but I don't wanna waste my love
 % abcbook-repeats 1
 
 
-X: 93
+X: 82
 T: Henry Martin
 C:Joan Baez
 B: mandira
@@ -4418,6 +4208,7 @@ W: And all of her merry men drowned
 % abcbook-link-title-0 JOAN BAEZ  ~ Henry Martin ~
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774279087
@@ -4425,7 +4216,7 @@ W: And all of her merry men drowned
 % abcbook-repeats 1
 
 
-X: 94
+X: 83
 T: Hit The Road Jack
 C:Ray Charles
 B: mandira
@@ -4484,6 +4275,7 @@ W: What you're trying to do to me (Don'cha come back no more)
 % abcbook-link-title-0 Ray Charles - Hit The Road Jack (Official Lyrics Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669638571988
@@ -4491,23 +4283,7 @@ W: What you're trying to do to me (Don'cha come back no more)
 % abcbook-repeats 1
 
 
-X: 95
-T: Hobo Trail
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2f021671856aab1e4
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 96
+X: 84
 T: Honeysuckle Rose
 C:Ella Fitzgerald
 B: mandira
@@ -4546,6 +4322,7 @@ W: Honeysuckle rose
 % abcbook-link-title-0 Ella Fitzgerald and Count Basie - Honeysuckle Rose - 1979
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669682277349
@@ -4553,7 +4330,7 @@ W: Honeysuckle rose
 % abcbook-repeats 1
 
 
-X: 97
+X: 85
 T: Horse With No Name
 C:America
 B: mandira
@@ -4629,6 +4406,7 @@ W: La, la, la lala la la la, la, la
 % abcbook-link-title-0 A Horse with No Name (2001 Remaster)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778270447
@@ -4636,7 +4414,7 @@ W: La, la, la lala la la la, la, la
 % abcbook-repeats 1
 
 
-X: 98
+X: 86
 T: How Blue Can You Get
 C:BB King
 B: mandira
@@ -4673,6 +4451,7 @@ W: Baby, how blue can you get?
 % abcbook-link-title-0 BB King:How Blue Can You Get
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669769198643
@@ -4680,7 +4459,7 @@ W: Baby, how blue can you get?
 % abcbook-repeats 1
 
 
-X: 99
+X: 87
 T: I am A Little Beggar Man
 B: mandira
 Q: 1/4=100
@@ -4729,6 +4508,7 @@ W: So good and God be with you, from auld Johnny Dhu
 % abcbook-link-title-0 The Clancy Brothers and Tommy Makem - The Little Beggarman
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669773655934
@@ -4736,7 +4516,7 @@ W: So good and God be with you, from auld Johnny Dhu
 % abcbook-repeats 1
 
 
-X: 100
+X: 88
 T: When I Was A Cowboy
 C:Leadbelly
 B: mandira
@@ -4802,6 +4582,7 @@ W:
 % abcbook-link-title-0 Leadbelly - When I Was a Cowboy
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680674089
@@ -4809,7 +4590,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 101
+X: 89
 T: Since You And I Were True
 C:Pauline Scanlon
 B: mandira
@@ -4862,6 +4643,7 @@ W: Since you and I were true
 % abcbook-link-title-0 When You and I Were True
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669779474640
@@ -4869,7 +4651,7 @@ W: Since you and I were true
 % abcbook-repeats 1
 
 
-X: 102
+X: 90
 T: You Know That I'm No Good
 C:Amy Winehouse
 B: mandira
@@ -4932,6 +4714,7 @@ W: Yeah, you know that I'm no good
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783994762
@@ -4939,7 +4722,7 @@ W: Yeah, you know that I'm no good
 % abcbook-repeats 1
 
 
-X: 103
+X: 91
 T: In My Time Of Dying
 C:Led Zeppelin
 B: mandira
@@ -5036,6 +4819,7 @@ W:
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783783840
@@ -5043,7 +4827,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 104
+X: 92
 T: Insomnia Swing
 B: mandira
 Q: 1/4=100
@@ -5052,6 +4836,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5059,7 +4844,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 105
+X: 93
 T: Internal Dialogue
 B: mandira
 Q: 1/4=100
@@ -5068,6 +4853,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5075,7 +4861,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 106
+X: 94
 T: In The Big Rock Candy Mountains
 C:Harry McClintock
 B: mandira
@@ -5149,6 +4935,7 @@ W: In the Big Rock Candy Mountains
 % abcbook-link-title-0 Harry McClintock - The Big Rock Candy Mountains - (1928).
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669779606705
@@ -5156,7 +4943,7 @@ W: In the Big Rock Candy Mountains
 % abcbook-repeats 1
 
 
-X: 107
+X: 95
 T: In The End
 C:Eilen Jewell
 B: mandira
@@ -5185,6 +4972,7 @@ W: Why did you go this way
 % abcbook-link-title-0 Eilen Jewell - In The End
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775406226
@@ -5192,7 +4980,7 @@ W: Why did you go this way
 % abcbook-repeats 1
 
 
-X: 108
+X: 96
 T: In Your Darkened Room
 B: mandira
 Q: 1/4=100
@@ -5201,6 +4989,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5208,7 +4997,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 109
+X: 97
 T: Irelands Green Shore
 C:Tim O'Brien
 B: mandira
@@ -5249,6 +5038,7 @@ W: And I gently fell into a dream
 % abcbook-link-title-0 Tim O&#39;Brien - Ireland&#39;s Green Shore (with Lyrics)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780435783
@@ -5256,7 +5046,7 @@ W: And I gently fell into a dream
 % abcbook-repeats 1
 
 
-X: 110
+X: 98
 T: I Scare Myself
 C:Rene Geyer
 B: mandira
@@ -5302,6 +5092,7 @@ W:
 % abcbook-link-title-0 I Scare Myself - by Dan Hicks, sung by Renee Geyer on a Sea Change album!
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669638741208
@@ -5309,7 +5100,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 111
+X: 99
 T: I See You
 B: mandira
 Q: 1/4=100
@@ -5318,6 +5109,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5325,7 +5117,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 112
+X: 100
 T: Is That What You Heard
 B: mandira
 Q: 1/4=100
@@ -5334,6 +5126,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5341,7 +5134,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 113
+X: 101
 T: I Still Cry
 B: mandira
 Q: 1/4=100
@@ -5350,6 +5143,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -5357,7 +5151,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 114
+X: 102
 T: It's Not Happening
 C:The Be Good Tanyas
 B: mandira
@@ -5413,6 +5207,7 @@ W: It's not happening, oh, no, no
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783216885
@@ -5420,7 +5215,7 @@ W: It's not happening, oh, no, no
 % abcbook-repeats 1
 
 
-X: 115
+X: 103
 T: Dumb Things
 C:Paul Kelly
 B: mandira
@@ -5461,6 +5256,7 @@ W: I've done all the dumb things
 % abcbook-link-title-0 Paul Kelly - Dumb Things (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680537679
@@ -5468,7 +5264,7 @@ W: I've done all the dumb things
 % abcbook-repeats 1
 
 
-X: 116
+X: 104
 T: Java Jive
 C:The Manhatten Transfer
 B: mandira
@@ -5519,6 +5315,7 @@ W: A cup, a cup, a cup, a cup, boy!
 % abcbook-link-title-0 The Manhattan Transfer - Java Jive
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780755620
@@ -5526,7 +5323,7 @@ W: A cup, a cup, a cup, a cup, boy!
 % abcbook-repeats 1
 
 
-X: 117
+X: 105
 T: Jealous Of The Moon
 C:Nickel Creek
 B: mandira
@@ -5596,6 +5393,7 @@ W: If you're too scared to try
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782921979
@@ -5603,7 +5401,7 @@ W: If you're too scared to try
 % abcbook-repeats 1
 
 
-X: 118
+X: 106
 T: Johnny Walkers Shoes
 C:Pilgram Brothers
 B: mandira
@@ -5613,11 +5411,11 @@ W:
 W: Intro: D, G, D, G
 W: D                                         G
 W: Heading into town, by the fire sign, up ahead one mile
-W:                             D             G
+W: D             G
 W: Mum and naked child by the hiway
 W: D                                                  G
 W: Flash four-wheel drive, I only want a ride to the other side
-W:                                 D                 G
+W: D                 G
 W: Don't try and hide behind your window
 W: D                   G                  D          G
 W: I bet your weekly wage could pay my ransom
@@ -5633,11 +5431,11 @@ W:
 W: 
 W: D                                            G
 W: Blanket on the ground, lay your money down, they say you better watch out
-W:                       D             G
+W: D             G
 W: If you think you're winning
 W: D                                         G
 W: On a pension day, when the old and grey, ask what moondye say
-W:                             D             G
+W: D             G
 W: In the gambling den of Tai Ming
 W: D                      G                   D         G
 W: "A little less of the con and a bit more fusion"
@@ -5653,6 +5451,7 @@ W: How many furlongs can we step in Johnny walker's shoes
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783938075
@@ -5660,12 +5459,13 @@ W: How many furlongs can we step in Johnny walker's shoes
 % abcbook-repeats 1
 
 
-X: 119
+X: 107
 T: Jump Jim Crow
 C:Michelle Shocked
 B: mandira
 Q: 1/4=100
 V:1 
+D G A
 W: Jump Jim Crow, jump Jim Crow
 W: How do you do, you walk so slow
 W: Like a little red rooster with one trick leg
@@ -5700,14 +5500,15 @@ W: Zip-a-dee-doo-dah, zip-a-dee-aye
 % abcbook-link-title-0 Michelle Shocked - Performs Arkansas Traveler @ City Winery 8/21
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669718414149
+% abcbook-lastupdated 1674440584890
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 120
+X: 108
 T: Junkie Song
 C:The Be Good Tanyas
 B: mandira
@@ -5750,6 +5551,7 @@ W: I could easily be you
 % abcbook-link-title-0 Junkie Song
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776019266
@@ -5757,7 +5559,7 @@ W: I could easily be you
 % abcbook-repeats 1
 
 
-X: 121
+X: 109
 T: La Bamba
 C:Richie Valens
 B: mandira
@@ -5813,6 +5615,7 @@ W: Bamba, bamba
 % abcbook-link-title-0 Ritchie Valens - La Bamba
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680889010
@@ -5820,7 +5623,7 @@ W: Bamba, bamba
 % abcbook-repeats 1
 
 
-X: 122
+X: 110
 T: Lakes Of Pontchatrain
 B: mandira
 Q: 1/4=100
@@ -5883,6 +5686,7 @@ W: And the lakes of Pontchartrain.
 % abcbook-link-title-0 The Lakes of Pontchartrain - Paul Brady  1977
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669638863067
@@ -5890,7 +5694,7 @@ W: And the lakes of Pontchartrain.
 % abcbook-repeats 1
 
 
-X: 123
+X: 111
 T: Lately
 C:Lera Lynn
 B: mandira
@@ -5928,6 +5732,7 @@ W: Where does love go when it goes?
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784948592
@@ -5935,7 +5740,7 @@ W: Where does love go when it goes?
 % abcbook-repeats 1
 
 
-X: 124
+X: 112
 T: Lay My Burden Down
 C:Alison Kraus
 B: mandira
@@ -5967,6 +5772,7 @@ W:
 % abcbook-link-title-0 Lay My Burden Down
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669770557902
@@ -5974,7 +5780,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 125
+X: 113
 T: Lazy Sunday
 C:Small Faces
 B: mandira
@@ -6020,6 +5826,7 @@ W: Close my eyes and drift away
 % abcbook-link-title-0 The Small Faces - Lazy Sunday Afternoon
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776940581
@@ -6027,7 +5834,7 @@ W: Close my eyes and drift away
 % abcbook-repeats 1
 
 
-X: 126
+X: 114
 T: Who Knows What Tomorrow May Bring
 C:Harry Hipkins
 B: mandira
@@ -6073,6 +5880,7 @@ W: ‘Cause who knows what tomorrow may bring
 % abcbook-link-title-0 The Claire Lynch Band &quot;Who Knows What Tomorrow May Bring?&quot; (Henry Hipkins) @ Eddie Owen Presents
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669779130034
@@ -6080,7 +5888,7 @@ W: ‘Cause who knows what tomorrow may bring
 % abcbook-repeats 1
 
 
-X: 127
+X: 115
 T: Light Enough To Travel
 C:Geoff Berner
 B: mandira
@@ -6090,6 +5898,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -6097,7 +5906,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 128
+X: 116
 T: Lighthouse
 C:The Waifs
 B: mandira
@@ -6148,6 +5957,7 @@ W: Shine a little lighthouse light on me
 % abcbook-link-title-0 Lighthouse
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781237365
@@ -6155,7 +5965,7 @@ W: Shine a little lighthouse light on me
 % abcbook-repeats 1
 
 
-X: 129
+X: 117
 T: Little Bits And Pieces
 B: mandira
 Q: 1/4=100
@@ -6164,6 +5974,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -6171,7 +5982,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 130
+X: 118
 T: Little Kings
 C:Paul Kelly
 B: mandira
@@ -6206,6 +6017,7 @@ W: Are getting away with murder
 % abcbook-link-title-0 Little Kings
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776299233
@@ -6213,7 +6025,7 @@ W: Are getting away with murder
 % abcbook-repeats 1
 
 
-X: 131
+X: 119
 T: Littlest Birds
 C:The Be Good Tanyas
 B: mandira
@@ -6273,6 +6085,7 @@ W: I'll do my lovin' in the wintertime
 % abcbook-link-title-0 The Be Good Tanyas - Littlest Birds [Official Music Video]
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669638920232
@@ -6280,7 +6093,7 @@ W: I'll do my lovin' in the wintertime
 % abcbook-repeats 1
 
 
-X: 132
+X: 120
 T: Living In A Fishbowl
 B: mandira
 Q: 1/4=100
@@ -6289,6 +6102,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669682550236
@@ -6296,8 +6110,9 @@ V:1
 % abcbook-repeats 1
 
 
-X: 133
+X: 121
 T: Lizard Klezmer
+C:Bhavit
 B: mandira
 Q: 1/4=100
 V:1 
@@ -6305,14 +6120,15 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674185532745
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 134
+X: 122
 T: Lonesome Blues
 C:The Be Good Tanyas
 B: mandira
@@ -6352,6 +6168,7 @@ W: Left me these lonesome blues
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783712909
@@ -6359,23 +6176,7 @@ W: Left me these lonesome blues
 % abcbook-repeats 1
 
 
-X: 135
-T: Look Out For Love
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2d56b8c091dc62e55
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 136
+X: 123
 T: Looks Like Mona Lisa
 C:Michelle Shocked
 B: mandira
@@ -6420,6 +6221,7 @@ W: Just go away, just go away
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669710216896
@@ -6427,7 +6229,7 @@ W: Just go away, just go away
 % abcbook-repeats 1
 
 
-X: 137
+X: 124
 T: Loop De Loop
 B: mandira
 Q: 1/4=100
@@ -6436,6 +6238,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -6443,7 +6246,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 138
+X: 125
 T: Lovecats
 C:The Cure
 B: mandira
@@ -6508,6 +6311,7 @@ W: Someone as dumb as this?
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680998092
@@ -6515,23 +6319,7 @@ W: Someone as dumb as this?
 % abcbook-repeats 1
 
 
-X: 139
-T: Love Explosion
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2b214af5b7d9247ca
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 140
+X: 126
 T: Love Shack
 C:The B52's
 B: mandira
@@ -6634,6 +6422,7 @@ W: At the Love Shack
 % abcbook-link-title-0 The B-52&#39;s - Love Shack (Official Music Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669680963159
@@ -6641,55 +6430,7 @@ W: At the Love Shack
 % abcbook-repeats 1
 
 
-X: 141
-T: Low Budget Love
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c23aac60867e9484a6
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 142
-T: Madmen From Across The Sea
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2b95a39214f4f0294
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 143
-T: Mad World
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2a66243fcd74d402f
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 144
+X: 127
 T: Makin' Whoopee
 B: mandira
 Q: 1/4=100
@@ -6698,6 +6439,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -6705,7 +6447,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 145
+X: 128
 T: Miracle Of Love
 C:Eurythmics
 B: mandira
@@ -6746,6 +6488,7 @@ W: [Chorus repeats...]
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669708695897
@@ -6753,7 +6496,7 @@ W: [Chorus repeats...]
 % abcbook-repeats 1
 
 
-X: 146
+X: 129
 T: Miss Ohio
 C:Gillian Welch
 B: mandira
@@ -6787,6 +6530,7 @@ W: Oh, I want do right, but not right now
 % abcbook-link-title-0 Gillian Welch   &#39;&#39;Look at Miss Ohio&#39;&#39;
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777820201
@@ -6794,8 +6538,9 @@ W: Oh, I want do right, but not right now
 % abcbook-repeats 1
 
 
-X: 147
+X: 130
 T: Mixed Emotions
+C:Noel Whitten
 B: mandira
 Q: 1/4=100
 V:1 
@@ -6803,14 +6548,15 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674185464447
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 148
+X: 131
 T: More Pretty Girls Than One
 B: mandira
 Q: 1/4=100
@@ -6834,6 +6580,7 @@ W: And hoping that I’ll never die
 % abcbook-link-title-0 There&#39;s More Pretty Girls Than One
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780700020
@@ -6841,7 +6588,7 @@ W: And hoping that I’ll never die
 % abcbook-repeats 1
 
 
-X: 149
+X: 132
 T: Moreton Bay
 C:Traditional
 B: mandira
@@ -6886,6 +6633,7 @@ W: Our former sufferings shall fade from mind
 % abcbook-link-title-0 Moreton Bay (traditional Australian folk song)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774794964
@@ -6893,23 +6641,7 @@ W: Our former sufferings shall fade from mind
 % abcbook-repeats 1
 
 
-X: 150
-T: My Blue Heaven
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2cfbf5d20e89d2dd3
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 151
+X: 133
 T: My Island Home
 C:Christine Anu
 B: mandira
@@ -6985,6 +6717,7 @@ W: My island home
 % abcbook-link-title-0 Christine Anu My Island Home
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781722875
@@ -6992,7 +6725,7 @@ W: My island home
 % abcbook-repeats 1
 
 
-X: 152
+X: 134
 T: My Least Favorite Life
 C:Lera Lynn
 B: mandira
@@ -7035,6 +6768,7 @@ W: [Outro]
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784998084
@@ -7042,72 +6776,7 @@ W: [Outro]
 % abcbook-repeats 1
 
 
-X: 153
-T: My Secret Life
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2b9ae733a3c2b9ecf
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 154
-T: Mystic Mountain
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2bfd8c07c04f83e83
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 155
-T: Nest
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c29c35d0fd88af8d08
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 156
-T: New Orleans
-C:Robyn Ludwick
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c29b399614fa5ac260
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 157
+X: 135
 T: Nobody Knows The Trouble I See
 C:Afro-American spiritual
 B: mandira
@@ -7122,20 +6791,21 @@ W:
 W: 1 Sometimes I'm up, sometimes I'm down,
 W: Oh, yes, Lord!
 W: Sometimes I'm almost to the ground,
-W: Oh, yes, Lord! O 
+W: Oh, yes, Lord! O
 W: 
 W: [Refrain]
 W: 
 W: 2 Although you see me going 'long so,
 W: Oh, yes, Lord!
 W: I have my troubles here below,
-W: Oh, yes, Lord! O 
+W: Oh, yes, Lord! O
 W: 
 W: [Refrain]
 % abcbook-tune_id 638486c23de9bef2b88fa3de
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774389611
@@ -7143,7 +6813,7 @@ W: [Refrain]
 % abcbook-repeats 1
 
 
-X: 158
+X: 136
 T: No More I Love You
 C:Annie Lennox
 B: mandira
@@ -7225,6 +6895,7 @@ W: Outside the world
 % abcbook-link-title-0 Annie Lennox - No More &quot;I Love You&#39;s&quot; (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669710576271
@@ -7232,7 +6903,7 @@ W: Outside the world
 % abcbook-repeats 1
 
 
-X: 159
+X: 137
 T: Ode To Billy Joe
 C:Bobbie Gentry
 B: mandira
@@ -7280,6 +6951,7 @@ W: And drop them into the muddy water off the Tallahatchie Bridge
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785550151
@@ -7287,12 +6959,15 @@ W: And drop them into the muddy water off the Tallahatchie Bridge
 % abcbook-repeats 1
 
 
-X: 160
+X: 138
 T: One Monkey
 C:Gillian Welch
 B: mandira
 Q: 1/4=100
 V:1 
+Am|F|Am|F E
+Am|F|C G|F E
+D Am|D|F G|F
 W: One monkey don't stop the show
 W: One monkey don't stop the show
 W: One monkey don't stop the show
@@ -7374,14 +7049,15 @@ W: So get on board
 % abcbook-link-title-0 One Monkey
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669776397715
+% abcbook-lastupdated 1674185355254
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 161
+X: 139
 T: One More Cup Of Coffee
 B: mandira
 Q: 1/4=100
@@ -7390,6 +7066,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7397,7 +7074,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 162
+X: 140
 T: Only In The Past
 C:The Be Good Tanyas
 B: mandira
@@ -7433,6 +7110,7 @@ W: (Chorus)
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783177288
@@ -7440,7 +7118,7 @@ W: (Chorus)
 % abcbook-repeats 1
 
 
-X: 163
+X: 141
 T: Only You
 B: mandira
 Q: 1/4=100
@@ -7449,6 +7127,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7456,7 +7135,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 164
+X: 142
 T: Orphan Girl
 C:Gillian Welch
 B: mandira
@@ -7489,6 +7168,7 @@ W: I am an orphan girl
 % abcbook-link-title-0 Orphan Girl - Gillian Welch with David Rawlings
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777675672
@@ -7496,31 +7176,32 @@ W: I am an orphan girl
 % abcbook-repeats 1
 
 
-X: 165
+X: 143
 T: On Children
 C:Kahlil Gibran
 B: mandira
 Q: 1/4=100
 V:1 
-W:  Your children are not your children.
-W:      They are the sons and daughters of Life’s longing for itself.
-W:      They come through you but not from you,
-W:      And though they are with you yet they belong not to you.
+W: Your children are not your children.
+W: They are the sons and daughters of Life’s longing for itself.
+W: They come through you but not from you,
+W: And though they are with you yet they belong not to you.
 W: 
-W:      You may give them your love but not your thoughts,
-W:      For they have their own thoughts.
-W:      You may house their bodies but not their souls,
-W:      For their souls dwell in the house of tomorrow, which you cannot visit, not even in your dreams.
-W:      You may strive to be like them, but seek not to make them like you.
-W:      For life goes not backward nor tarries with yesterday.
-W:      You are the bows from which your children as living arrows are sent forth.
-W:      The archer sees the mark upon the path of the infinite, and He bends you with His might that His arrows may go swift and far.
-W:      Let your bending in the archer’s hand be for gladness;
-W:      For even as He loves the arrow that flies, so He loves also the bow that is stable.
+W: You may give them your love but not your thoughts,
+W: For they have their own thoughts.
+W: You may house their bodies but not their souls,
+W: For their souls dwell in the house of tomorrow, which you cannot visit, not even in your dreams.
+W: You may strive to be like them, but seek not to make them like you.
+W: For life goes not backward nor tarries with yesterday.
+W: You are the bows from which your children as living arrows are sent forth.
+W: The archer sees the mark upon the path of the infinite, and He bends you with His might that His arrows may go swift and far.
+W: Let your bending in the archer’s hand be for gladness;
+W: For even as He loves the arrow that flies, so He loves also the bow that is stable.
 % abcbook-tune_id 638486c26778990f3d829330
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669719040345
@@ -7528,7 +7209,7 @@ W:      For even as He loves the arrow that flies, so He loves also the bow that
 % abcbook-repeats 1
 
 
-X: 166
+X: 144
 T: Out On The Weekend
 C:Neil Young
 B: mandira
@@ -7572,6 +7253,7 @@ W: Can't begin to say
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782695806
@@ -7579,7 +7261,7 @@ W: Can't begin to say
 % abcbook-repeats 1
 
 
-X: 167
+X: 145
 T: Over The Rainbow
 B: mandira
 Q: 1/4=100
@@ -7588,6 +7270,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7595,7 +7278,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 168
+X: 146
 T: Pancho And Lefty
 C:Merle Haggard and Willie Nelson
 B: mandira
@@ -7668,6 +7351,7 @@ W: Out of kindness, I suppose
 % abcbook-link-title-0 Townes Van Zandt - Pancho and Lefty.  Heartworn Highways
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669639036740
@@ -7675,7 +7359,7 @@ W: Out of kindness, I suppose
 % abcbook-repeats 1
 
 
-X: 169
+X: 147
 T: Peachy
 C:Missy Higgins
 B: mandira
@@ -7719,6 +7403,7 @@ W: You say life is peachy without me
 % abcbook-link-title-0 Peachy
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775903312
@@ -7726,7 +7411,7 @@ W: You say life is peachy without me
 % abcbook-repeats 1
 
 
-X: 170
+X: 148
 T: Perfect Day
 C:Lou Reed
 B: mandira
@@ -7766,6 +7451,7 @@ W: You're going to reap just what you sow
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783382783
@@ -7773,7 +7459,7 @@ W: You're going to reap just what you sow
 % abcbook-repeats 1
 
 
-X: 171
+X: 149
 T: Pickin Fireweed
 B: mandira
 Q: 1/4=100
@@ -7782,6 +7468,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7789,7 +7476,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 172
+X: 150
 T: Prodigal Daughter
 B: mandira
 Q: 1/4=100
@@ -7798,6 +7485,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7805,7 +7493,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 173
+X: 151
 T: Psychotherapy
 C:Melanie Safka
 B: mandira
@@ -7858,6 +7546,7 @@ W:
 % abcbook-link-title-0 Psychotherapy-Melanie
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669773958891
@@ -7865,7 +7554,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 174
+X: 152
 T: Putting On The Ritz
 C:Fred Astaire
 B: mandira
@@ -7904,6 +7593,7 @@ W: (Puttin' on the ritz)
 % abcbook-link-title-0 Fred Astaire. Put it on the Ritz.
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669682146485
@@ -7911,7 +7601,7 @@ W: (Puttin' on the ritz)
 % abcbook-repeats 1
 
 
-X: 175
+X: 153
 T: Rain And Snow
 C:Pentangle
 B: mandira
@@ -7960,6 +7650,7 @@ W: Ran me out in the cold rain and snow
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787755862
@@ -7967,7 +7658,7 @@ W: Ran me out in the cold rain and snow
 % abcbook-repeats 1
 
 
-X: 176
+X: 154
 T: Rain Comes Down
 B: mandira
 Q: 1/4=100
@@ -7976,6 +7667,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -7983,7 +7675,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 177
+X: 155
 T: Rattlin' Bones
 C:Casey Chambers
 B: mandira
@@ -8047,6 +7739,7 @@ W: With the dust and rattlin' bones
 % abcbook-link-title-0 Kasey Chambers &amp; Shane Nicholson - Rattlin&#39; Bones
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775792070
@@ -8054,7 +7747,7 @@ W: With the dust and rattlin' bones
 % abcbook-repeats 1
 
 
-X: 178
+X: 156
 T: Reasons Why
 C:Nickel Creek
 B: mandira
@@ -8090,6 +7783,7 @@ W: It's hard not to wander away, it's hard not to wander away
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783243387
@@ -8097,7 +7791,7 @@ W: It's hard not to wander away, it's hard not to wander away
 % abcbook-repeats 1
 
 
-X: 179
+X: 157
 T: Reuben
 C:The Be Good Tanyas
 B: mandira
@@ -8157,6 +7851,7 @@ W: Run it to, the Lord knows where
 % abcbook-link-title-0 The Be Good Tanyas-- Reuben
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775966385
@@ -8164,7 +7859,7 @@ W: Run it to, the Lord knows where
 % abcbook-repeats 1
 
 
-X: 180
+X: 158
 T: Rich Mans World
 C:Eilen Jewell
 B: mandira
@@ -8198,6 +7893,7 @@ W: Watch what crowd you end up in
 % abcbook-link-title-0 Rich Man&#39;s World
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775392701
@@ -8205,17 +7901,19 @@ W: Watch what crowd you end up in
 % abcbook-repeats 1
 
 
-X: 181
+X: 159
 T: Right In Time
 C:Lucinda Williams
 B: mandira
 Q: 1/4=100
 V:1 
-W: Dm
-W: Em D G A
-W: D A Em G 
-W: D G D
-W: 
+Dm|Em 
+G|A
+Dm|Em
+G|A
+D A|Em G
+D A|Em G
+D G|D
 W: [Verse 1]
 W: Not a day goes by I don't think about you
 W: You left your mark on me, it's permanent, a tattoo
@@ -8260,15 +7958,17 @@ W: It's right in time with me
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669681879151
+% abcbook-lastupdated 1674438454186
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 182
+X: 160
 T: Road To Freedom
+C:Noel Whitten
 B: mandira
 Q: 1/4=100
 V:1 
@@ -8276,14 +7976,15 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669681076807
+% abcbook-lastupdated 1674184870510
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 183
+X: 161
 T: Rocket Man
 C:Elton John
 B: mandira
@@ -8349,6 +8050,7 @@ W: Oh, no, no, no, no, no, no, no...
 % abcbook-link-title-0 Elton John - Rocket Man (Official Music Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780628871
@@ -8356,23 +8058,7 @@ W: Oh, no, no, no, no, no, no, no...
 % abcbook-repeats 1
 
 
-X: 184
-T: Roots Down
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2ac44f98e1dd39f39
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 185
+X: 162
 T: Runaway
 C:The Corrs
 B: mandira
@@ -8424,6 +8110,7 @@ W: (With you, with you, with you, with you)
 % abcbook-link-title-0 The Corrs - Runaway [Official Video]
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778730874
@@ -8431,7 +8118,7 @@ W: (With you, with you, with you, with you)
 % abcbook-repeats 1
 
 
-X: 186
+X: 163
 T: Sad Old Red
 C:Simply Red
 B: mandira
@@ -8477,6 +8164,7 @@ W: Sad old Red, sad old Red
 % abcbook-link-title-0 Sad Old Red - Simply Red
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780343783
@@ -8484,15 +8172,15 @@ W: Sad old Red, sad old Red
 % abcbook-repeats 1
 
 
-X: 187
-T: Scar Chords
+X: 164
+T: Scar
 C:Missy Higgins
 B: mandira
 Q: 1/4=100
 V:1 
 W: He left a card
 W: A bar of soap and a scrubbing brush next to a note that said
-W: ?Use these down to your bones?
+W: Use these down to your bones
 W: 
 W: And before I knew I had shiny skin
 W: And it felt easy being clean like him
@@ -8551,14 +8239,15 @@ W: Could you leave me with a scar
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669783047979
+% abcbook-lastupdated 1674183383189
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 188
+X: 165
 T: Seafood Mama
 C:Fats Waller
 B: mandira
@@ -8594,6 +8283,7 @@ W: Want some seafood Mama
 % abcbook-link-title-0 Hold Tight (Want Some Sea Food, Mama)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669771444437
@@ -8601,66 +8291,9 @@ W: Want some seafood Mama
 % abcbook-repeats 1
 
 
-X: 189
-T: Second Fiddle
-C:Bessie Smith
-B: mandira
-Q: 1/4=100
-V:1 
-W: Let me tell you daddy,
-W: Momma ain't gonna sit here and grieve
-W: Pack up your stuff and get ready to leave
-W: 
-W: I stood your foolishness long enough,
-W: So now I'm gonna call your bluff
-W: Oh, I'm gonna call your hand,
-W: So, now daddy here's my plan
-W: 
-W: Ain't gonna play no second fiddle 'cause,
-W: I'm used to playin' lead
-W: 
-W: You must think that I am blind,
-W: You've been cheatin' me all the time
-W: Whoa yeah, you still flirt
-W: And you'll notice I ain't hurt,
-W: To see you with my chum
-W: Do you think that I am dumb
-W: 
-W: You 'cause me to drink,
-W: When I sit down and think
-W: And notice that you never take heed
-W: I went to your house the other night,
-W: Caught you and your good girl havin' a fight
-W: 
-W: Ain't gonna play no second fiddle 'cause
-W: I'm used to playin lead
-W: 
-W: Caught you with your good-time tramp,
-W: So, now I'm gonna put out your lamp
-W: Oh, poppa, I ain't sore
-W: You ain't gonna mess up with me no more
-W: I'm gonna flirt with another guy,
-W: Then you're gonna hang your head an' cry
-W: 
-W: Ain't gonna play no second fiddle 'cause
-W: I'm used to playin' lead
-W: 
-W: source: https://www.lyricsondemand.com/b/bessiesmithlyrics/aintgonnaplaynosecondfiddlelyrics.html
-% abcbook-tune_id 638486c2023f77d2c1d86c46
-% abcbook-link-0 https://www.youtube.com/watch?v=92heJJCtRO4
-% abcbook-link-title-0 Bessie Smith-I Ain&#39;t Gonna Pay No Second Fiddle
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669779953326
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 190
-T: See Live Woman
-C:Marc Jordan
+X: 166
+T: This Independence
+C:Manhatten Transfer
 B: mandira
 Q: 1/4=100
 V:1 
@@ -8709,35 +8342,22 @@ W: And watch the world aghast
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669771899343
+% abcbook-lastupdated 1674183962720
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 191
-T: Ship Of Fools
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2ecb3b75305bb4c29
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 192
+X: 167
 T: Side Of The Road
 C:Lucinda Williams
 B: mandira
 Q: 1/4=100
 V:1 
+C|G Am|F G
+F#|A|E B
 W: [Verse 1]
 W: You wait in the car on the side of the road
 W: Let me go and stand awhile
@@ -8779,30 +8399,15 @@ W: Against the sun, against the wind
 % abcbook-link-title-0 Side of the Road
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669777941811
+% abcbook-lastupdated 1674183103153
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 193
-T: Slave To Love
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c23acc9dc6cb483dbb
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 194
+X: 168
 T: Slow Train
 C:Alex Lloyd
 B: mandira
@@ -8834,6 +8439,7 @@ W: On a so so day on a so so day on a so sooo day
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785600607
@@ -8841,7 +8447,7 @@ W: On a so so day on a so so day on a so sooo day
 % abcbook-repeats 1
 
 
-X: 195
+X: 169
 T: Small Things
 C:The Audreys
 B: mandira
@@ -8882,6 +8488,7 @@ W: All these small things)
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787268752
@@ -8889,7 +8496,7 @@ W: All these small things)
 % abcbook-repeats 1
 
 
-X: 196
+X: 170
 T: Soldiers Joy
 C:Michelle Shocked
 B: mandira
@@ -8928,6 +8535,7 @@ W: What the bullet could not kill, the needle will
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787841443
@@ -8935,7 +8543,7 @@ W: What the bullet could not kill, the needle will
 % abcbook-repeats 1
 
 
-X: 197
+X: 171
 T: Somebody To Love
 C:Jefferson Airplane
 B: mandira
@@ -8989,6 +8597,7 @@ W: You better find somebody to love
 % abcbook-link-title-0 Jefferson Airplane - Somebody to love
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777017174
@@ -8996,7 +8605,7 @@ W: You better find somebody to love
 % abcbook-repeats 1
 
 
-X: 198
+X: 172
 T: Something's Gotta Give
 C:Gyan
 B: mandira
@@ -9006,6 +8615,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -9013,7 +8623,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 199
+X: 173
 T: Sounds  Of Then
 C:Gangagang
 B: mandira
@@ -9094,6 +8704,7 @@ W: Check it out
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783086748
@@ -9101,7 +8712,7 @@ W: Check it out
 % abcbook-repeats 1
 
 
-X: 200
+X: 174
 T: Steve McQueen
 B: mandira
 Q: 1/4=100
@@ -9110,6 +8721,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -9117,33 +8729,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 201
-T: Stop Just Relax
-B: mandira
-Q: 1/4=100
-V:1 
-W: Just Relax Stop all the fighting over things For all of us the water of the (Eb) Cm that are not yours The pretending & defending, our divisions make the war Just bax, take it easy, Take a пар Take a break
-W: /ta
-W: The Earth is our great another, let's give back instead. I take
-W: Stop all the struggle over thing we cannot charge. We are who we are why do try to rearrange Just relax take it easy, take a break take it slow, Seacons know just when to change watch them come t مره
-W: Stop all the bustle over thing that are not real to let if heal Stop the wheeling and the dealing, take the time some tax Just relax take it easy take a break toke a sent Deadlines will be the death () us there's nothing left to meet. ^
-W: stophangin on to all those things. we do not need All the grasping & the gropy, it will only feed our greed "Just relax, take it easy take a break read a book "We have all that we need to have just stop & take a look
-W: t
-W: CEG BC Mp
-W: CCFAL
-W: Am
-% abcbook-tune_id 638486c2fa65f55f411563b9
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669718769307
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 202
+X: 175
 T: Straight Up And Fly Right
 C:Nat King Cole
 B: mandira
@@ -9202,6 +8788,7 @@ W: Don't you blow your top
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780482292
@@ -9209,23 +8796,53 @@ W: Don't you blow your top
 % abcbook-repeats 1
 
 
-X: 203
+X: 176
 T: Stuart Highway
+C:Mandira & Bhavit
 B: mandira
 Q: 1/4=100
 V:1 
+W: Flat flat flat as far as you can see
+W: Horizon to horizon is the inland sea
+W: Wedge tailed eagles sitting on the road
+W: Centre of the Universe the Opal Fields code
+W: 
+W: Red sand and mulga in the Northern Territory
+W: Its raining on the rock & its a sight to see
+W: God's own country everywhere you go
+W: In then garden of eden there's secrets to know
+W: 
+W: Ch:
+W: We're driving on the Stuart Highway
+W: To (leaving, out of) South Australia x 2
+W: 
+W: Fields of pale wheat, acres of vines
+W: European bread and every kind of wine
+W: The Ghan going past our campfire glow
+W: If you don't want to love it, better not go
+W: 
+W: Ch
+W: 
+W: Four on the floor to the cellar door
+W: I'll just have one more before they show me the door
+W: Old stone houses everywhere you go If you dont want to love it, better not go
+W: 
+W: Ch
+W: God's own country everywhere you go
+W: If you don't want to love it, better not go.
 % abcbook-tune_id 638486c264b87db504ff144a
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674183816253
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 204
+X: 177
 T: Summer Time
 C:George Gershwin
 B: mandira
@@ -9259,6 +8876,7 @@ W: Oh don't you cry
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787911994
@@ -9266,90 +8884,7 @@ W: Oh don't you cry
 % abcbook-repeats 1
 
 
-X: 205
-T: Suzanne
-C:Leonard Cohen
-B: mandira
-Q: 1/4=100
-V:1 
-W: [Verse 1]
-W: Suzanne takes you down to her place near the river
-W: You can hear the boats go by
-W: You can spend the night beside her
-W: And you know that she's half crazy
-W: But that's why you want to be there
-W: And she feeds you tea and oranges
-W: That come all the way from China
-W: And just when you mean to tell her
-W: That you have no love to give her
-W: Then she gets you on her wavelength
-W: And she lets the river answer
-W: That you've always been her lover
-W: [Chorus]
-W: And you want to travel with her
-W: And you want to travel blind
-W: And you know that she will trust you
-W: For you've touched her perfect body with your mind
-W: 
-W: [Verse 2]
-W: And Jesus was a sailor
-W: When he walked upon the water
-W: And he spent a long time watching
-W: From his lonely wooden tower
-W: And when he knew for certain
-W: Only drowning men could see him
-W: He said "All men will be sailors then
-W: Until the sea shall free them"
-W: But he himself was broken
-W: Long before the sky would open
-W: Forsaken, almost human
-W: He sank beneath your wisdom like a stone
-W: 
-W: [Chorus]
-W: And you want to travel with him
-W: And you want to travel blind
-W: And you think maybe you'll trust him
-W: For he's touched your perfect body with his mind
-W: You might also like
-W: Master Song
-W: Leonard Cohen
-W: Hallelujah
-W: Leonard Cohen
-W: Viva la Vida
-W: Coldplay
-W: [Verse 3]
-W: Now Suzanne takes your hand
-W: And she leads you to the river
-W: She is wearing rags and feathers
-W: From Salvation Army counters
-W: And the sun pours down like honey
-W: On our lady of the harbour
-W: And she shows you where to look
-W: Among the garbage and the flowers
-W: There are heroes in the seaweed
-W: There are children in the morning
-W: They are leaning out for love
-W: And they will lean that way forever
-W: While Suzanne holds the mirror
-W: 
-W: [Chorus]
-W: And you want to travel with her
-W: And you want to travel blind
-W: And you know you can trust her
-W: For she's touched your perfect body with her mind
-% abcbook-tune_id 638486c2431a5f12cc572cb1
-% abcbook-link-0 https://www.youtube.com/watch?v=svitEEpI07E
-% abcbook-link-title-0 Leonard Cohen - Suzanne (Audio)
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669774497351
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 206
+X: 178
 T: Sweet Dreams
 C:Eurythmics
 B: mandira
@@ -9417,6 +8952,7 @@ W: Everybody's lookin' for something
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669787871294
@@ -9424,7 +8960,7 @@ W: Everybody's lookin' for something
 % abcbook-repeats 1
 
 
-X: 207
+X: 179
 T: High Hopes
 C:Frank Sinatra
 B: mandira
@@ -9477,6 +9013,7 @@ W: Oops, there goes another problem kerplop, kerlpop
 % abcbook-link-title-0 High Hopes (Remastered)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778670924
@@ -9484,59 +9021,7 @@ W: Oops, there goes another problem kerplop, kerlpop
 % abcbook-repeats 1
 
 
-X: 208
-T: Tango Triste
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2ed91e337005f23be
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 209
-T: That's What You Get
-C:Lanie Lane
-B: mandira
-Q: 1/4=100
-V:1 
-W: If you're vying for his attention, not enough affection for you.
-W: Find yourself a thing to do now, don't be crying that's below you.
-W: 
-W: Oh well, that's what you get falling in love with a cowboy.
-W: Oh Lord, don't you forget, you fell in love with a cowboy.
-W: That's what you get.
-W: And a man must be his own, it's only for the best you know dear.
-W: If he's got things on his mind well, there's a plan he's mustering so,
-W: Oh well, that's what you get falling in love with a cowboy.
-W: Oh Lord, don't you forget, you fell in love with a cowboy.
-W: That's what you get.
-W: 
-W: And at night under the sheets, his arms come searching for your embrace.
-W: Don't be mad, you know it's only what you wanted in the first place.
-W: 
-W: Oh well, that's what you get falling in love with a cowboy.
-W: Oh Lord, don't you forget, you fell in love with a cowboy.
-W: That's what you get.
-W: That's what you get.
-% abcbook-tune_id 638486c203e6d77419c8c1cf
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669784698425
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 210
+X: 180
 T: The Boxer
 C:Paul Simon
 B: mandira
@@ -9623,6 +9108,7 @@ W: I love you
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782834563
@@ -9630,7 +9116,7 @@ W: I love you
 % abcbook-repeats 1
 
 
-X: 211
+X: 181
 T: The Devil's Inside My Head
 C:Casey Chambers
 B: mandira
@@ -9679,6 +9165,7 @@ W: [K] The Devil's inside my head
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775727107
@@ -9686,39 +9173,7 @@ W: [K] The Devil's inside my head
 % abcbook-repeats 1
 
 
-X: 212
-T: The Enchantment
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c28bebd8f5975892f9
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 213
-T: The Firelight
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2eb53957a1ce6d490
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 214
+X: 182
 T: The Good Guys
 C:Melanie Safka
 B: mandira
@@ -9770,6 +9225,7 @@ W: We're gonna fill up the walls within
 % abcbook-link-title-0 MELANIE SAFKA The Good Guys
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669769890145
@@ -9777,7 +9233,7 @@ W: We're gonna fill up the walls within
 % abcbook-repeats 1
 
 
-X: 215
+X: 183
 T: The Leaves They Do Grow Green
 C:Joan Baez
 B: mandira
@@ -9817,6 +9273,7 @@ W: And death had put an end to his growing
 % abcbook-link-title-0 Joan Baez - The Trees They Do Grow High  [HD]
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669774595309
@@ -9824,7 +9281,7 @@ W: And death had put an end to his growing
 % abcbook-repeats 1
 
 
-X: 216
+X: 184
 T: The Lighthouse's Tale
 C:Nickel Creek
 B: mandira
@@ -9904,6 +9361,7 @@ W: warn the sailors on their way.
 % abcbook-link-title-0 Nickel Creek - The Lighthouse&#39;s Tale
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776883326
@@ -9911,39 +9369,7 @@ W: warn the sailors on their way.
 % abcbook-repeats 1
 
 
-X: 217
-T: The Maze
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c261c5d075b52719bc
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 218
-T: The Spirit Returns
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c284080f210f3314bd
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 219
+X: 185
 T: The Twelve Days Of Christmas (Oz Version)
 B: mandira
 Q: 1/4=100
@@ -9952,6 +9378,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -9959,7 +9386,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 220
+X: 186
 T: The Way The Whole Thing Ends
 C:Gillian Welch
 B: mandira
@@ -10020,6 +9447,7 @@ W: That's the way the whole things ends
 % abcbook-link-title-0 The Way the Whole Thing Ends
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781200691
@@ -10027,7 +9455,7 @@ W: That's the way the whole things ends
 % abcbook-repeats 1
 
 
-X: 221
+X: 187
 T: The Weekend
 C:Dave Rawlings Machine
 B: mandira
@@ -10078,6 +9506,7 @@ W: I got there early, I couldn't wait
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784434736
@@ -10085,23 +9514,7 @@ W: I got there early, I couldn't wait
 % abcbook-repeats 1
 
 
-X: 222
-T: This Independance
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2a815e6a2ee61dbe8
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 223
+X: 188
 T: Sounds of Then (This is Australia)
 C:Gangajang
 B: mandira
@@ -10181,6 +9594,7 @@ W: Check it out
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669708928313
@@ -10188,81 +9602,22 @@ W: Check it out
 % abcbook-repeats 1
 
 
-X: 224
-T: Tiki God
-C:The Presidents Of The United States Of America
-B: mandira
-Q: 1/4=100
-V:1 
-W: Hey
-W: Had a girl and she did me wrong
-W: I didn't let that kinda shit go on too long
-W: Split the clouds and divided the sea
-W: Showed that evil girl how nasty the tiki gods could be
-W: She didn't call no more nor bother me
-W: My little tiki god made sure i'd live in peace
-W: One day i read they found a body in the river
-W: Tiki god why you make me shake you make me shiver all right
-W: 
-W: I got a tiki god saves me i got a tiki god
-W: Yeah
-W: Bobby Brady found the idol in the rubble
-W: Had no idea it would cause so much trouble
-W: When Greg tried to throw it back in the ocean
-W: There was a rumble an awful commotion
-W: Don't ask me how but the tiki found Bobby
-W: He thought the idol was some Hawaiian hobby
-W: Turned out the god was mean and vicious
-W: Didn't respond to Bobby's 3 wishes
-W: 
-W: He had a tiki god saves him he had a tiki god
-W: 
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: Na na na na na na
-W: 
-W: So when you're caught up in an evil plot
-W: Your life's in danger and you can hear the shot
-W: Your head is spinning and you're fading fast
-W: How long do you think this kinda fun can last
-W: Your luck will change with a simple motion
-W: I found my idol in a bottle in the ocean
-W: He splits the clouds and divides the sea
-W: And shows those evil guys how nasty those tiki gods can be all right
-W: You might also like
-W: L.I.P.
-W: The Presidents of the United States of America
-W: Bath of Fire
-W: The Presidents of the United States of America
-W: Peaches
-W: The Presidents of the United States of America
-W: He had a tiki god saves him he had a tiki god
-W: Yeah
-W: Yeah
-W: All right
-% abcbook-tune_id 638486c275ad462e2e5f312d
-% abcbook-link-0 https://www.youtube.com/watch?v=furq8lobb9I
-% abcbook-link-title-0 Presidents Of The United States Of America-Tiki God
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669780123195
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 225
+X: 189
 T: Time After Time
 C:Cindy Lauper
 B: mandira
 Q: 1/4=100
 V:1 
+Dm C|Dm C|Dm C
+F G|Em F|G Em
+F G|Em F|G
+Dm C|Dm C|Dm C
+F G|Em F|G Em
+F G|Em
+G G|A
+F G|C
+G G|Am
+F G|C
 W: [Verse 1]
 W: Lyin' in my bed
 W: I hear the clock tick and think of you
@@ -10337,14 +9692,15 @@ W: Time—
 % abcbook-link-title-0 Cyndi Lauper - Time After Time (Official HD Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669708988928
+% abcbook-lastupdated 1674182858864
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 226
+X: 190
 T: Tom's Diner
 C:Susan Vega
 B: mandira
@@ -10415,6 +9771,7 @@ W: Doo-doo-doo-doo, doo-doo-doo-doo
 % abcbook-link-title-0 Suzanne Vega, DNA - Tom&#39;s Diner (Official Music Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777380859
@@ -10422,7 +9779,7 @@ W: Doo-doo-doo-doo, doo-doo-doo-doo
 % abcbook-repeats 1
 
 
-X: 227
+X: 191
 T: Keep Your Lamp Trimmed And Burning
 B: mandira
 Q: 1/4=100
@@ -10489,6 +9846,7 @@ W: See what my lord has done
 % abcbook-link-title-0 Blind Willie Johnson Keep Your Lamp Trimmed and Burning
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669778478121
@@ -10496,28 +9854,18 @@ W: See what my lord has done
 % abcbook-repeats 1
 
 
-X: 228
-T: Truck Driving Man
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2d0ee72ef4f986b63
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 229
+X: 192
 T: Under The Stormy Sky
 C:Daniel Lanois
 B: mandira
 Q: 1/4=100
 V:1 
+B|B F#
+B EB F#|B
+E B|
+E B F# 
+B|B|B F#
+B E|B F#|B
 W: Eh bébé, danse avec moi, ce soir au fais dodo
 W: Danse avec moi bébé, under a stormy sky.
 W: Papa, y'a vendu la terre, la terre et la vache
@@ -10547,30 +9895,15 @@ W: Under a stormy sky, under a stormy sky.
 % abcbook-link-title-0 Daniel Lanois - Under a Stormy Sky
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669710152270
+% abcbook-lastupdated 1674439664226
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 230
-T: Under A Travelling Sign
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c28422fbd867923a4a
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 231
+X: 193
 T: Under The Milky Way Tonight
 C:The Church
 B: mandira
@@ -10600,6 +9933,7 @@ W: Under the Milky Way tonight
 % abcbook-link-title-0 The Church - Under The Milky Way
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709025287
@@ -10607,7 +9941,7 @@ W: Under the Milky Way tonight
 % abcbook-repeats 1
 
 
-X: 232
+X: 194
 T: Unsuffer Me
 C:Lucinda Williams
 B: mandira
@@ -10679,6 +10013,7 @@ W: Unsuffer me
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785316074
@@ -10686,7 +10021,7 @@ W: Unsuffer me
 % abcbook-repeats 1
 
 
-X: 233
+X: 195
 T: Waiting Around To Die
 C:Townes Van Zandt
 B: mandira
@@ -10729,6 +10064,7 @@ W: Yah together we're gonna wait around and die
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669783409890
@@ -10736,23 +10072,7 @@ W: Yah together we're gonna wait around and die
 % abcbook-repeats 1
 
 
-X: 234
-T: Waiting Out The Storm
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2a3db29e0a398801a
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 235
+X: 196
 T: Walking
 B: mandira
 Q: 1/4=100
@@ -10761,6 +10081,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -10768,7 +10089,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 236
+X: 197
 T: Watchtower
 B: mandira
 Q: 1/4=100
@@ -10777,6 +10098,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -10784,7 +10106,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 237
+X: 198
 T: Wayfaring Stranger
 C:Johnny Cash
 B: mandira
@@ -10860,6 +10182,7 @@ W: Yeah, only....[repeat till fade]
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709607472
@@ -10867,12 +10190,17 @@ W: Yeah, only....[repeat till fade]
 % abcbook-repeats 1
 
 
-X: 238
+X: 199
 T: Weaving Way
 C:Michelle Shocked
 B: mandira
 Q: 1/4=100
 V:1 
+D A|D A|D A|E D
+D A|D A|D A|E D
+D A|D A|D A|E D
+D A|D A|D A|E D
+G D A
 W: 
 W: You had a little drink
 W: Your friends have all gone
@@ -10908,19 +10236,27 @@ W: Walk a straight line on the road to hell
 % abcbook-link-title-0 Weaving Way (Instrumental)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669710836948
+% abcbook-lastupdated 1674440528968
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 239
-T: We've Started A Fire
+X: 200
+T: We Started A Fire
 C:Paul Kelly
 B: mandira
 Q: 1/4=100
 V:1 
+Bm 
+Bm
+Em Bm
+Em Bm A
+Bm Em
+Bm Em
+Bm Em|A
 W: Morning is rising
 W: Suddenly I open my eyes
 W: Sun don't catch me
@@ -10960,30 +10296,15 @@ W:
 % abcbook-link-title-0 We&#39;ve Started A Fire
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669682776012
+% abcbook-lastupdated 1674438894142
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 240
-T: When God Dips
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c29ee6e6d7573c8922
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634388
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 241
+X: 201
 T: When Will You Fall For Me
 C:Vika And Linda
 B: mandira
@@ -11090,6 +10411,7 @@ W: When will you fall for me?
 % abcbook-link-title-0 Vika &amp; Linda - When Will You Fall For Me?
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669682718225
@@ -11097,7 +10419,7 @@ W: When will you fall for me?
 % abcbook-repeats 1
 
 
-X: 242
+X: 202
 T: When You And I Were True
 B: mandira
 Q: 1/4=100
@@ -11106,6 +10428,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634388
@@ -11113,7 +10436,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 243
+X: 203
 T: When You Come Back Down
 C:Nickel Creek
 B: mandira
@@ -11179,6 +10502,7 @@ W: When you come back down
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669782771274
@@ -11186,8 +10510,9 @@ W: When you come back down
 % abcbook-repeats 1
 
 
-X: 244
+X: 204
 T: Whispering Casuarina
+C:Neil Murray
 B: mandira
 Q: 1/4=100
 V:1 
@@ -11195,14 +10520,15 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669629634388
+% abcbook-lastupdated 1674184317074
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 245
+X: 205
 T: White Rabbit
 C:Jefferson Airplane
 B: mandira
@@ -11245,6 +10571,7 @@ W: Feed your head
 % abcbook-link-title-0 Jefferson Airplane -White Rabbit-
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777629449
@@ -11252,7 +10579,7 @@ W: Feed your head
 % abcbook-repeats 1
 
 
-X: 246
+X: 206
 T: Who's That Girl
 C:Eurythmics
 B: mandira
@@ -11310,6 +10637,7 @@ W: Tell me
 % abcbook-link-title-0 Eurythmics, Annie Lennox, Dave Stewart - Who&#39;s That Girl? (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709465401
@@ -11317,7 +10645,7 @@ W: Tell me
 % abcbook-repeats 1
 
 
-X: 247
+X: 207
 T: Why
 C:Annie Lennox
 B: mandira
@@ -11388,6 +10716,7 @@ W: You don't know what I fear
 % abcbook-link-title-0 Annie Lennox - Why (Official Music Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669772372333
@@ -11395,23 +10724,7 @@ W: You don't know what I fear
 % abcbook-repeats 1
 
 
-X: 248
-T: Why Is It So
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c295281acdc8e415b6
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634389
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 249
+X: 208
 T: Wild Colonial Boy
 C:The Clancy Brothers
 B: mandira
@@ -11447,6 +10760,7 @@ W:
 % abcbook-link-title-0 The Clancy Brothers &amp; Tommy Makem - Wild Colonial Boy
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709231392
@@ -11454,7 +10768,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 250
+X: 209
 T: Wild Horses
 C:The Rolling Stones
 B: mandira
@@ -11497,6 +10811,7 @@ W: Wild, wild horses, we'll ride them some day
 % abcbook-link-title-0 The Rolling Stones - Wild Horses (Live)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709349523
@@ -11504,23 +10819,7 @@ W: Wild, wild horses, we'll ride them some day
 % abcbook-repeats 1
 
 
-X: 251
-T: Willow And The Dove
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c2dcf0d198c02e51f6
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634389
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 252
+X: 210
 T: Windy
 B: mandira
 Q: 1/4=100
@@ -11529,6 +10828,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634389
@@ -11536,7 +10836,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 253
+X: 211
 T: Woodstock
 C:Joni Mitchell
 B: mandira
@@ -11589,6 +10889,7 @@ W: back to the garden
 % abcbook-link-title-0 Joni Mitchell - Woodstock (Live In-Studio 1970)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709210698
@@ -11596,7 +10897,7 @@ W: back to the garden
 % abcbook-repeats 1
 
 
-X: 254
+X: 212
 T: Would You Harbour Me
 C:Sweet Honey In the Rock
 B: mandira
@@ -11640,6 +10941,7 @@ W: Would I harbor you? (Would I harbor you?)
 % abcbook-link-title-0 Sweet Honey in the Rock - Would you harbor me
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669719578193
@@ -11647,23 +10949,7 @@ W: Would I harbor you? (Would I harbor you?)
 % abcbook-repeats 1
 
 
-X: 255
-T: Wrong Reasons
-B: mandira
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 638486c298cba31ea96a6742
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669629634389
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 256
+X: 213
 T: You And I Were True
 B: mandira
 Q: 1/4=100
@@ -11672,6 +10958,7 @@ V:1
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669629634389
@@ -11679,7 +10966,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 257
+X: 214
 T: You Can Call Me Al
 C:Paul Simon
 B: mandira
@@ -11775,6 +11062,7 @@ W: If you'll be my bodyguard
 % abcbook-link-title-0 Paul Simon - You Can Call Me Al (Official Video)
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669709244060
@@ -11782,13 +11070,12 @@ W: If you'll be my bodyguard
 % abcbook-repeats 1
 
 
-X: 80162
+X: 215
 T: 16 Tons
 C:Ernie Ford
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: [Verse 1]
 W: Some people say a man is made out of mud
 W: A poor man's made out of muscle and blood
@@ -11846,6 +11133,7 @@ W: I owe my soul to the company store
 % abcbook-link-title-0 Tennessee Ernie Ford - 16 Tons
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669710482332
@@ -11853,13 +11141,13 @@ W: I owe my soul to the company store
 % abcbook-repeats 1
 
 
-X: 21759
+X: 216
 T: Brand New Day
 C:Eurythmics
 B: mandira
 Q: 1/4=100
 V:1 
-
+C
 W: [Verse 1]
 W: Six o'clock in the morning
 W: And I'm stepping through the streets
@@ -11946,37 +11234,37 @@ W: Hey! Hey!
 % abcbook-link-title-0 Eurythmics-Brand New Day
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1669769709640
+% abcbook-lastupdated 1674440743312
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 98042
+X: 217
 T: We Are
 C:Sweet Honey In The Rock
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: We are our grandmothers prayers
 W: We are our grandfathers dreamings
 W: We are the breath of the ancestors
 W: We are the spirit of God
-W:  
+W: 
 W: We are Mothers of courage
 W: Fathers of time
 W: Daughters of dust
@@ -11984,16 +11272,16 @@ W: Sons of great visions
 W: We are sisters of mercy
 W: Brothers of love
 W: Lovers of life and the builders of nations
-W:  
+W: 
 W: We're seekers of truth
 W: And keepers of faith
 W: Makers of peace wisdom of ages
-W:  
+W: 
 W: We are our grandmothers prayers
 W: And we are our grandfaters dreamings
 W: We are the breath of the ancestors
 W: We are the spirit of God
-W:  
+W: 
 W: We are mothers of courage
 W: Fathers of time
 W: We are daughters of dust
@@ -12003,33 +11291,34 @@ W: Brothers of love
 W: We're lovers of life and the builders of nations
 W: We're seekers of truth and keepers of faith
 W: Makers of peace and the wisdom of ages
-W:  
+W: 
 W: We are our grandmothers prayers
 W: And we are our grandfathers dreamings
 W: We are the breath of our ancestors we are the spirit of God
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: For each child that born
 W: A morning star rises and sings
 W: To the universe who we are
-W:  
+W: 
 W: We are one
 % abcbook-tune_id 6385e5d8d73c1d39be972dc7
 % abcbook-link-0 https://www.youtube.com/watch?v=hWaw-tQ4W7w
 % abcbook-link-title-0 We Are
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669719522989
@@ -12037,17 +11326,17 @@ W: We are one
 % abcbook-repeats 1
 
 
-X: 56053
+X: 218
 T: Breathe
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: 
 % abcbook-tune_id 6386bea0e9bbb295becf8173
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775008957
@@ -12055,13 +11344,12 @@ W:
 % abcbook-repeats 1
 
 
-X: 38750
+X: 219
 T: I Still Pray
 C:Casey Chambers
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: I still cry for Baby Jesus
 W: And I still pray when I'm alone
 W: And when I'm lost
@@ -12081,6 +11369,7 @@ W: He will hold me until I wake
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669775490719
@@ -12088,13 +11377,12 @@ W: He will hold me until I wake
 % abcbook-repeats 1
 
 
-X: 93797
+X: 220
 T: Highway Kind
 C:Townes Van Zandt
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: My days, they are the highway kind
 W: They only come to leave
 W: But the leavin' I don't mind
@@ -12135,6 +11423,7 @@ W: And why you where not there.
 % abcbook-link-title-0 Townes Van Zandt - Highway Kind
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776100371
@@ -12142,13 +11431,12 @@ W: And why you where not there.
 % abcbook-repeats 1
 
 
-X: 81079
+X: 221
 T: What If
 C:Lucinda Williams
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: I shudder to think
 W: What it would mean
 W: If the President wore pink
@@ -12202,6 +11490,7 @@ W: In equal amounts
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776184915
@@ -12209,13 +11498,12 @@ W: In equal amounts
 % abcbook-repeats 1
 
 
-X: 81142
+X: 222
 T: A Little Bit Lonesome
 C:Casey Chambers
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: Like a little bit lonesome, I'm a little bit blue
 W: I can't stop cryin' since I lost you
 W: There's a pain in my heart like a lightenin' bolt
@@ -12255,6 +11543,7 @@ W: Well I'm a little bit lonesome it's all your fault
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669776256800
@@ -12262,13 +11551,12 @@ W: Well I'm a little bit lonesome it's all your fault
 % abcbook-repeats 1
 
 
-X: 78016
+X: 223
 T: Doolin-Dalton/Desperado (reprise)
 C:The Eagles
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: [Doolin-Dalton reprise]
 W: Well the stage was set the sun was sinkin' low down
 W: As they came to town to face another showdown
@@ -12314,6 +11602,7 @@ W: Desperado
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669777290384
@@ -12321,13 +11610,12 @@ W: Desperado
 % abcbook-repeats 1
 
 
-X: 62852
+X: 224
 T: Swinging On A Star
 C:Johnny Burke
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: [Chorus: Bing Crosby & Chorus]
 W: Would you like to swing on a star
 W: Carry moonbeams home in a jar
@@ -12390,6 +11678,7 @@ W: Doo doo doo doo doo, doo doo
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669780928071
@@ -12397,13 +11686,12 @@ W: Doo doo doo doo doo, doo doo
 % abcbook-repeats 1
 
 
-X: 27079
+X: 225
 T: Solid Rock
 C:Goanna
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: [Didgeridoo Intro]
 W: 
 W: [Verse 1]
@@ -12501,6 +11789,7 @@ W: No, oh!
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669781652902
@@ -12508,13 +11797,12 @@ W: No, oh!
 % abcbook-repeats 1
 
 
-X: 79517
+X: 226
 T: The Water Is Wise
 C:Tim O'Brien
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: Walking along the banks of a river
 W: Starts out narrow and ends up so wide
 W: Somewhere along you will find the right step-stones
@@ -12558,6 +11846,7 @@ W: Winding its way until is runs free
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669784252498
@@ -12565,87 +11854,12 @@ W: Winding its way until is runs free
 % abcbook-repeats 1
 
 
-X: 20551
-T: What Do I Do
-C:Lanie Lane
-B: mandira
-Q: 1/4=100
-V:1 
-
-W: [Verse 1]
-W: What do I do? Stand in a shop
-W: Waiting for that money to drop
-W: Stand all day on a concrete slate
-W: My feet are aching, don't get a break
-W: 
-W: [Chorus]
-W: Singin', what do I do?
-W: What am I to do?
-W: What do I do?
-W: What am I to do?
-W: [Verse 2]
-W: You know I get up early, I come home late
-W: You can crack that whip, but I'm miles away
-W: I wonder how long I gotta stay here for?
-W: Hell, I'm more than a little bored
-W: 
-W: [Chorus]
-W: Singin', what do I do?
-W: What am I to do?
-W: What do I do?
-W: What am I to do?
-W: 
-W: [Verse 3]
-W: Hands in bleach, I'm scouring
-W: I've got lovely smelling skin
-W: My favourite chore is sweeping the floor
-W: Glamour to the very core
-W: 
-W: [Chorus]
-W: Singin', what do I do?
-W: What am I to do?
-W: What do I do?
-W: What am I to do?
-W: 
-W: [Bridge]
-W: What do I do, I do? (What do I do?)
-W: Singin', what do I do, I do? (What am I to do?)
-W: Singin', what do I do, I do? (What do I do?)
-W: Singin', what do I do, I do? (What am I to do?)
-W: Singin', what do I do, I do? (What do I do?)
-W: What do I do, I do? (What am I to do?)
-W: What-ooh-ooh-ooh-do (What do I do?)
-W: What do I do? (What am I to do?)
-W: You might also like
-W: What Trouble Is
-W: Lanie Lane
-W: Like Me Meaner
-W: Lanie Lane
-W: Ain’t Hungry - Bonus Track
-W: Lanie Lane
-W: [Chorus]
-W: Singin', what do I do?
-W: What am I to do?
-W: What do I do?
-W: What am I to do?
-% abcbook-tune_id 6386e49feac95e3403730c93
-
-
-% abcbook-boost 0
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-lastupdated 1669784735800
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 97701
+X: 227
 T: Nothing
 C:Townes Van Zandt
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: [Verse 1]
 W: Hey mama, when you leave, don't leave a thing behind
 W: I don't want nothing, I can't use nothing
@@ -12672,6 +11886,7 @@ W: And the only words that are worth remembering
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785702690
@@ -12679,13 +11894,12 @@ W: And the only words that are worth remembering
 % abcbook-repeats 1
 
 
-X: 9814
+X: 228
 T: The Way It Goes
 C:Gillian Welch
 B: mandira
 Q: 1/4=100
 V:1 
-
 W: Becky Johnson bought the farm
 W: Put a needle in her arm
 W: That's the way that it goes
@@ -12759,8 +11973,965 @@ W: Though there was a time when you and I were friends
 
 
 % abcbook-boost 0
+% abcbook-boost 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1669785755660
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 229
+T: This Masquerade
+C:Leon Russel
+B: mandira
+Q: 1/4=100
+V:1 
+W: Am            Ammaj7             Am7           D9
+W: Are we really happy with this lonely game we play,
+W: 
+W: Am            F7       E7   Bm7-5  E7
+W: Looking for words to say?
+W: 
+W: Am                 Ammaj7         Am7         D9
+W: Searching but not finding understanding any way,
+W: 
+W: F7          E7     Am
+W: We're lost in this masquerade
+W: 
+W: 
+W: [Bridge]
+W: 
+W: Gm7             C7                FM7      Dm7
+W: Both afraid to say we're just too far away
+W: 
+W: Gm7          C7             FM7
+W: From being close together from the start;
+W: 
+W: F#m7             B7             E6              E6 alt
+W: We tried to talk it over, but the words got in the way;
+W: 
+W: D      B7        E7   Bm7-5     E7
+W: We're lost inside this lonely game we play.
+W: 
+W: 
+W: [Instrumental interlude]
+W: 
+W: 
+W: [Bridge]
+W: 
+W: Gm7             C7                FM7      Dm7
+W: Both afraid to say we're just too far away
+W: 
+W: Gm7          C7             FM7
+W: From being close together from the start;
+W: 
+W: F#m7             B7             E6              E6 alt
+W: We tried to talk it over, but the words got in the way;
+W: 
+W: D      B7        E7   Bm7-5     E7
+W: We're lost inside this lonely game we play.
+W: 
+W: 
+W: [Outro]
+W: 
+W: Am                  Ammaj7             Am7              D9
+W: Thoughts of leaving disappear every time I see your eyes,
+W: 
+W: Am          F7     E7   Bm7-5   E7
+W: No matter how hard I try
+W: 
+W: Am            Ammaj7            Am7           D9
+W: To understand the reason that we carry on this way,
+W: 
+W: F7           E7     Am   Ammaj7 Am7 Am6 F7 E7 Am
+W: We're lost in this masquerade.
+W: X
+W: 
+W: 
+W: 
+W: 
+W: Are we really happy here
+W: With this lonely game we play?
+W: Looking for words to say
+W: Searching but not finding understanding anywhere
+W: We're lost in a masquerade
+W: 
+W: Both afraid to say we're just too far away
+W: From being close together from the start
+W: We tried to talk it over but the words got in the way
+W: We're lost inside this lonely game we play
+W: 
+W: Thoughts of leaving disappear
+W: Every time I see your eyes
+W: No matter how hard I try
+W: To understand the reasons that we carry on this way
+W: We're lost in a masquerade
+% abcbook-tune_id 63ca0d17b1b36b2fce348e40
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1674261558288
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 230
+T: Ain't Misbehavin'
+C:Fats Waller
+B: mandira
+Q: 1/4=100
+V:1 
+W: No one to talk with.
+W: All by myself.
+W: No one to walk with,
+W: But I'm happy
+W: On the shelf.
+W: Ain't misbehavin',
+W: I'm savin' my love for you.
+W: 
+W: I know for certain
+W: The one I love.
+W: I'm through with flirtin',
+W: It's you that I'm thinkin' of.
+W: Ain't misbehavin'.
+W: I'm savin' my love for you.
+W: 
+W: Like Jack Horner
+W: In the corner.
+W: Don't go nowhere.
+W: What do I care?
+W: Your kisses
+W: Are worth waitin' for,
+W: Believe me.
+W: 
+W: I don't stay out late,
+W: Don't care to go.
+W: I'm home about eight,
+W: Just me and my radio.
+W: Ain't misbehavin',
+W: I'm savin' my love for you.
+% abcbook-tune_id 638486c26544eb74781aa82a
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669780294532
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 231
+T: All Of Me
+C:Billie Holiday
+B: mandira
+Q: 1/4=100
+V:1 
+W: All of me
+W: Why not take all of me
+W: Can't you see
+W: I'm no good without you
+W: 
+W: Take my lips
+W: I want to loose them
+W: Take my arms
+W: I'll never use them
+W: 
+W: Your goodbye
+W: Left me with eyes that cry
+W: How can I go on dear without you
+W: 
+W: You took the part
+W: That once was my heart
+W: So why not take all of me
+W: 
+W: All of me
+W: Why not take all of me
+W: Can't you see
+W: I'm no good without you
+W: 
+W: Take my lips
+W: I want to loose them
+W: Take my arms
+W: I'll never use them
+W: 
+W: Your goodbye
+W: Left me with eyes that cry
+W: How can I go on dear without you
+W: 
+W: You took the best
+W: So why not take the rest
+W: Baby, take all of me
+% abcbook-tune_id 638486c21f91944cd13f885b
+% abcbook-link-0 https://www.youtube.com/watch?v=lI5ORDi7yOs
+% abcbook-link-title-0 Billie Holiday- All of Me
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669779206032
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 232
+T: Beginning To See The Light
+C:Ella Fitzgerald
+B: mandira
+Q: 1/4=100
+V:1 
+W: I never cared much for moonlit skies
+W: I never wink back at fireflies
+W: But now that the stars are in your eyes
+W: I'm beginning to see the light
+W: I never went in for afterglow
+W: Or candlelight on the mistletoe
+W: But now when you turn the lamp down low
+W: I'm beginning to see the light
+W: Used to ramble through the park
+W: Shadowboxing in the dark
+W: Then you came and caused a spark
+W: That's a four-alarm fire now
+W: I never made love by lantern-shine
+W: I never saw rainbows in my wine
+W: But now that your lips are burning mine
+W: I'm beginning to see the light
+% abcbook-tune_id 638486c27ba8b607a0e7e92c
+% abcbook-link-0 https://www.youtube.com/watch?v=_k81_ZcBA9c
+% abcbook-link-title-0 I&#39;m Beginning To See The Light - Ella Fitzgerald
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669710634398
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 233
+T: Until Death Do Them Part
+C:Paul Kelly
+B: mandira
+Q: 1/4=100
+V:1 
+W: We are gathered here today to join a woman and a man
+W: And to witness what they say as before us they stand
+W: In sickness and in health, through the rich times and the poor
+W: They are bound to be together and to live under God's law
+W: 
+W: Until death do them part
+W: Or the stars fall from the sky
+W: Until death do them part
+W: And the rivers all run dry
+W: What God has joined together
+W: Let no one tear apart
+W: They are bound to love each other
+W: Until death do them part
+W: We are gathered here today to join a husband and a wife
+W: So I call on you to pray for good luck in their life
+W: Through thick and through thin, through the good times and the bad
+W: May they always be respectful and make each other glad
+W: 
+W: Until death do them part
+W: When God calls from on high
+W: Until death do them part
+W: And it's time to say goodbye
+W: 
+W: What God has joined together
+W: Let no one tear apart
+W: They are bound to love each other
+W: Until death do them part
+W: Yes they are bound to be together
+W: Until death do them part
+% abcbook-tune_id 638486c2b6234758cf3b2bf5
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669778122201
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 234
+T: Calypso
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2279751e069c9c593
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 235
+T: Circus
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2fdd1c7eb6611cb67
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 236
+T: Hobo Trail
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2f021671856aab1e4
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 237
+T: Look Out For Love
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2d56b8c091dc62e55
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 238
+T: Love Explosion
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2b214af5b7d9247ca
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 239
+T: Low Budget Love
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c23aac60867e9484a6
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 240
+T: Madmen From Across The Sea
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2b95a39214f4f0294
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 241
+T: Mad World
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2a66243fcd74d402f
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 242
+T: My Blue Heaven
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2cfbf5d20e89d2dd3
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 243
+T: My Secret Life
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2b9ae733a3c2b9ecf
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 244
+T: Nest
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c29c35d0fd88af8d08
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 245
+T: New Orleans
+C:Robyn Ludwick
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c29b399614fa5ac260
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 246
+T: Roots Down
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2ac44f98e1dd39f39
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 247
+T: Second Fiddle
+C:Bessie Smith
+B: mandira
+Q: 1/4=100
+V:1 
+W: Let me tell you daddy,
+W: Momma ain't gonna sit here and grieve
+W: Pack up your stuff and get ready to leave
+W: 
+W: I stood your foolishness long enough,
+W: So now I'm gonna call your bluff
+W: Oh, I'm gonna call your hand,
+W: So, now daddy here's my plan
+W: 
+W: Ain't gonna play no second fiddle 'cause,
+W: I'm used to playin' lead
+W: 
+W: You must think that I am blind,
+W: You've been cheatin' me all the time
+W: Whoa yeah, you still flirt
+W: And you'll notice I ain't hurt,
+W: To see you with my chum
+W: Do you think that I am dumb
+W: 
+W: You 'cause me to drink,
+W: When I sit down and think
+W: And notice that you never take heed
+W: I went to your house the other night,
+W: Caught you and your good girl havin' a fight
+W: 
+W: Ain't gonna play no second fiddle 'cause
+W: I'm used to playin lead
+W: 
+W: Caught you with your good-time tramp,
+W: So, now I'm gonna put out your lamp
+W: Oh, poppa, I ain't sore
+W: You ain't gonna mess up with me no more
+W: I'm gonna flirt with another guy,
+W: Then you're gonna hang your head an' cry
+W: 
+W: Ain't gonna play no second fiddle 'cause
+W: I'm used to playin' lead
+W: 
+W: source: https://www.lyricsondemand.com/b/bessiesmithlyrics/aintgonnaplaynosecondfiddlelyrics.html
+% abcbook-tune_id 638486c2023f77d2c1d86c46
+% abcbook-link-0 https://www.youtube.com/watch?v=92heJJCtRO4
+% abcbook-link-title-0 Bessie Smith-I Ain&#39;t Gonna Pay No Second Fiddle
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669779953326
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 248
+T: Ship Of Fools
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2ecb3b75305bb4c29
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 249
+T: Slave To Love
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c23acc9dc6cb483dbb
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 250
+T: Stop Just Relax
+B: mandira
+Q: 1/4=100
+V:1 
+W: Just Relax Stop all the fighting over things For all of us the water of the (Eb) Cm that are not yours The pretending & defending, our divisions make the war Just bax, take it easy, Take a пар Take a break
+W: /ta
+W: The Earth is our great another, let's give back instead. I take
+W: Stop all the struggle over thing we cannot charge. We are who we are why do try to rearrange Just relax take it easy, take a break take it slow, Seacons know just when to change watch them come t مره
+W: Stop all the bustle over thing that are not real to let if heal Stop the wheeling and the dealing, take the time some tax Just relax take it easy take a break toke a sent Deadlines will be the death () us there's nothing left to meet. ^
+W: stophangin on to all those things. we do not need All the grasping & the gropy, it will only feed our greed "Just relax, take it easy take a break read a book "We have all that we need to have just stop & take a look
+W: t
+W: CEG BC Mp
+W: CCFAL
+W: Am
+% abcbook-tune_id 638486c2fa65f55f411563b9
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669718769307
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 251
+T: Tango Triste
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2ed91e337005f23be
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 252
+T: That's What You Get
+C:Lanie Lane
+B: mandira
+Q: 1/4=100
+V:1 
+W: If you're vying for his attention, not enough affection for you.
+W: Find yourself a thing to do now, don't be crying that's below you.
+W: 
+W: Oh well, that's what you get falling in love with a cowboy.
+W: Oh Lord, don't you forget, you fell in love with a cowboy.
+W: That's what you get.
+W: And a man must be his own, it's only for the best you know dear.
+W: If he's got things on his mind well, there's a plan he's mustering so,
+W: Oh well, that's what you get falling in love with a cowboy.
+W: Oh Lord, don't you forget, you fell in love with a cowboy.
+W: That's what you get.
+W: 
+W: And at night under the sheets, his arms come searching for your embrace.
+W: Don't be mad, you know it's only what you wanted in the first place.
+W: 
+W: Oh well, that's what you get falling in love with a cowboy.
+W: Oh Lord, don't you forget, you fell in love with a cowboy.
+W: That's what you get.
+W: That's what you get.
+% abcbook-tune_id 638486c203e6d77419c8c1cf
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669784698425
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 253
+T: The Maze
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c261c5d075b52719bc
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 254
+T: Tiki God
+C:The Presidents Of The United States Of America
+B: mandira
+Q: 1/4=100
+V:1 
+W: Hey
+W: Had a girl and she did me wrong
+W: I didn't let that kinda shit go on too long
+W: Split the clouds and divided the sea
+W: Showed that evil girl how nasty the tiki gods could be
+W: She didn't call no more nor bother me
+W: My little tiki god made sure i'd live in peace
+W: One day i read they found a body in the river
+W: Tiki god why you make me shake you make me shiver all right
+W: 
+W: I got a tiki god saves me i got a tiki god
+W: Yeah
+W: Bobby Brady found the idol in the rubble
+W: Had no idea it would cause so much trouble
+W: When Greg tried to throw it back in the ocean
+W: There was a rumble an awful commotion
+W: Don't ask me how but the tiki found Bobby
+W: He thought the idol was some Hawaiian hobby
+W: Turned out the god was mean and vicious
+W: Didn't respond to Bobby's 3 wishes
+W: 
+W: He had a tiki god saves him he had a tiki god
+W: 
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: Na na na na na na
+W: 
+W: So when you're caught up in an evil plot
+W: Your life's in danger and you can hear the shot
+W: Your head is spinning and you're fading fast
+W: How long do you think this kinda fun can last
+W: Your luck will change with a simple motion
+W: I found my idol in a bottle in the ocean
+W: He splits the clouds and divides the sea
+W: And shows those evil guys how nasty those tiki gods can be all right
+W: You might also like
+W: L.I.P.
+W: The Presidents of the United States of America
+W: Bath of Fire
+W: The Presidents of the United States of America
+W: Peaches
+W: The Presidents of the United States of America
+W: He had a tiki god saves him he had a tiki god
+W: Yeah
+W: Yeah
+W: All right
+% abcbook-tune_id 638486c275ad462e2e5f312d
+% abcbook-link-0 https://www.youtube.com/watch?v=furq8lobb9I
+% abcbook-link-title-0 Presidents Of The United States Of America-Tiki God
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669780123195
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 255
+T: Truck Driving Man
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2d0ee72ef4f986b63
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 256
+T: Under A Travelling Sign
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c28422fbd867923a4a
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 257
+T: Waiting Out The Storm
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2a3db29e0a398801a
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 258
+T: When God Dips
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c29ee6e6d7573c8922
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634388
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 259
+T: Why Is It So
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c295281acdc8e415b6
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634389
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 260
+T: Willow And The Dove
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c2dcf0d198c02e51f6
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634389
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 261
+T: Wrong Reasons
+B: mandira
+Q: 1/4=100
+V:1 
+% abcbook-tune_id 638486c298cba31ea96a6742
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669629634389
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 262
+T: What Do I Do
+C:Lanie Lane
+B: mandira
+Q: 1/4=100
+V:1 
+W: [Verse 1]
+W: What do I do? Stand in a shop
+W: Waiting for that money to drop
+W: Stand all day on a concrete slate
+W: My feet are aching, don't get a break
+W: 
+W: [Chorus]
+W: Singin', what do I do?
+W: What am I to do?
+W: What do I do?
+W: What am I to do?
+W: [Verse 2]
+W: You know I get up early, I come home late
+W: You can crack that whip, but I'm miles away
+W: I wonder how long I gotta stay here for?
+W: Hell, I'm more than a little bored
+W: 
+W: [Chorus]
+W: Singin', what do I do?
+W: What am I to do?
+W: What do I do?
+W: What am I to do?
+W: 
+W: [Verse 3]
+W: Hands in bleach, I'm scouring
+W: I've got lovely smelling skin
+W: My favourite chore is sweeping the floor
+W: Glamour to the very core
+W: 
+W: [Chorus]
+W: Singin', what do I do?
+W: What am I to do?
+W: What do I do?
+W: What am I to do?
+W: 
+W: [Bridge]
+W: What do I do, I do? (What do I do?)
+W: Singin', what do I do, I do? (What am I to do?)
+W: Singin', what do I do, I do? (What do I do?)
+W: Singin', what do I do, I do? (What am I to do?)
+W: Singin', what do I do, I do? (What do I do?)
+W: What do I do, I do? (What am I to do?)
+W: What-ooh-ooh-ooh-do (What do I do?)
+W: What do I do? (What am I to do?)
+W: You might also like
+W: What Trouble Is
+W: Lanie Lane
+W: Like Me Meaner
+W: Lanie Lane
+W: Ain’t Hungry - Bonus Track
+W: Lanie Lane
+W: [Chorus]
+W: Singin', what do I do?
+W: What am I to do?
+W: What do I do?
+W: What am I to do?
+% abcbook-tune_id 6386e49feac95e3403730c93
+
+
+% abcbook-boost 0
+% abcbook-boost 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-lastupdated 1669784735800
 % abcbook-soundfonts 
 % abcbook-repeats 1
