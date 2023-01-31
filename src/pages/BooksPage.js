@@ -110,11 +110,12 @@ export default function BooksPage(props) {
                         <div style={{clear:'both'}} ></div>
                         <div style={{float:'left'}}>{tagOptions.map(function(option, ok) {
                             if (option && option.trim().length > 0 && ((searchTagFilter.trim && searchTagFilter.trim() === '') || searchTagFilter.trim && option.trim().indexOf(searchTagFilter.trim())!== -1 )) { 
-                                return <ButtonGroup key={ok} style={{color:'white',minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em', height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}}  >
+                                return <ButtonGroup key={ok} style={{color:'white',minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em', height: '90px', verticalAlign:'text-top'}}  >
+                                <Button style={{fontWeight:'bold', fontSize:'1.3em'}} onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>{option}</Button>
                                 {!tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} />}
                                 {tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
                                 &nbsp;
-                                <Button onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>{option}</Button>
+                                
                                 <Button onClick={function() {
                                     //props.setTagFilter([option]);
                                     //props.setCurrentTuneBook(''); 
