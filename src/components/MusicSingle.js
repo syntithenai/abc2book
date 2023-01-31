@@ -5,6 +5,7 @@ import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
 //import ReactTags from 'react-tag-autocomplete'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
+import TagsSelectorModal from './TagsSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
 import {useSwipeable} from 'react-swipeable'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -218,7 +219,7 @@ export default function MusicSingle(props) {
         function nextLinkOrTune() {
             //mediaLinkNumber
             //tune
-            console.log('nexzt tune or link',mediaLinkNumber,tune, tune.id, navigate)
+            //console.log('nexzt tune or link',mediaLinkNumber,tune, tune.id, navigate)
             props.tunebook.navigateToNextSong(tune.id,navigate)
             
             //var useMediaLinkNumber = mediaLinkNumber > 0 ? parseInt(mediaLinkNumber) : 0
@@ -269,7 +270,7 @@ export default function MusicSingle(props) {
         }
         
         function onEnded(progress, start, stop,seek) {
-            console.log("ON ENDfED", progress, start, stop, seek)
+            //console.log("ON ENDfED", progress, start, stop, seek)
             ////stop()
             //seek(0)
             //start()
@@ -345,8 +346,13 @@ export default function MusicSingle(props) {
                        <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link>
                  </ButtonGroup>   
                 
+                <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+                
+                
                 
                 <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+                
+                <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { console.log('tag change',val) ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
 
   
                 <ButtonToolbar
@@ -379,81 +385,21 @@ export default function MusicSingle(props) {
                         {(Array.isArray(tune.links) && tune.links.length > 0) && <LinksEditorModal  tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
                         
                     </ButtonGroup>}
+                    
                   
                 </ButtonToolbar>
 
                
-                {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
-                        {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
-                            onCanPlay={function(event) { 
-                                setMediaLoading(false); 
-                                setIsPlaying(true)
-                            }} 
-                            width="1px" height="1px" autoPlay={"true"} 
-                            onEnded={function() {
-                                console.log('ended a')
-                                // next link
-                                nextLinkOrTune()
-                            }}
-                            onError={function(e) {console.log('err media',e); nextLinkOrTune()}} 
-                            onTimeUpdate={function(e) {
-                                setMediaProgress(e.target.currentTime/e.target.duration)
-                            }}
-                             >
-                                <source src={tune.links[useMediaLinkNumber].link} type="video/ogg" />
-                                Your browser does not support the video tag.
-                                </audio> : <div style={{clear:'both'}} >
-                                
-                                <YouTube videoId={getYouTubeId(tune.links[useMediaLinkNumber].link)} opts={{
-                                  height: '1px',
-                                  width: '1px',
-                                  playerVars: {
-                                    loop : 1,
-                                    autoplay: 1,
-                                    controls: 0,
-                                    start: (tune.links[useMediaLinkNumber].startAt ? parseInt(tune.links[useMediaLinkNumber].startAt) : 0),
-                                    end: (tune.links[useMediaLinkNumber].endAt ? parseInt(tune.links[useMediaLinkNumber].endAt) : 0)
-                                  },
-                                }} 
-                                onEnd={function() {
-                                    console.log('ty ended')
-                                    clearInterval(youtubeProgressInterval.current)
-                                    youtubeProgressInterval.current = null
-                                    nextLinkOrTune()
-                                }} 
-                                onError={function(e) {
-                                    console.log('err yt',e)
-                                    clearInterval(youtubeProgressInterval.current)
-                                    youtubeProgressInterval.current = null
-                                    nextLinkOrTune()
-                                }} 
-                                onReady={
-                                    function(event) {
-                                        setYTMediaPlayer(event.target); 
-                                        event.target.playVideo()
-                                        setIsPlaying(true)
-                                    }    
-                                }
-                                onStateChange={
-                                    function(e) {
-                                        if (e.data === 1) {
-                                            setMediaLoading(false)
-                                            clearInterval(youtubeProgressInterval.current)
-                                            youtubeProgressInterval.current = setInterval(function() {
-                                                setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
-                                                //console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
-                                            }, 100)
-                                        }
-                                    }
-                                } 
-                                
-                                 /> 
-                                
-                            </div>
+                
                             
-                        }
+                  {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"--"+params.playState+"-"+useMediaLinkNumber} >
+                        <div style={{float: 'left', fontSize:'0.6em', position:'relative', top:'1.5em'}} >
+                            {(audioPlayer && audioPlayer.current && audioPlayer.current.currentTime && audioPlayer.current.duration) ? <b>{audioPlayer.current.currentTime.toFixed(2)}/{audioPlayer.current.duration.toFixed(2)}</b> : null}
+                            
+                            {(mediaProgress && ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.getDuration()  && ytMediaPlayer.seekTo) ? <b>{(mediaProgress * ytMediaPlayer.getDuration()).toFixed(2)}/{ytMediaPlayer.getDuration().toFixed(2)}</b> : null}
+                        </div>
+                        
                         <input style={{width:'100%', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
-                                        console.log('set media progress',e.target.value)
                                         setMediaProgress(e.target.value); 
                                             
                                         try {
@@ -465,12 +411,13 @@ export default function MusicSingle(props) {
                                             console.log(e)
                                         }
                                         if (audioPlayer && audioPlayer.current) {
-                                            console.log('set audio player')
                                             audioPlayer.current.currentTime = e.target.value * audioPlayer.current.duration 
                                         }
                                     
                                     }}  />
                     </div>}
+                     
+              
             </div>
             
 
@@ -553,7 +500,87 @@ export default function MusicSingle(props) {
                         
                     </ButtonGroup>
                </div>}
-              
+              {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
+                        {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
+                            onCanPlay={function(event) { 
+                                setMediaLoading(false); 
+                                setIsPlaying(true)
+                            }} 
+                            width="1px" height="1px" autoPlay={"true"} 
+                            onEnded={function() {
+                                //console.log('ended a')
+                                // next link
+                                if (props.mediaPlaylist || props.abcPlaylist) {
+                                    nextLinkOrTune()
+                                }
+                            }}
+                            onError={function(e) {
+                                console.log('err media',e); 
+                                if (props.mediaPlaylist || props.abcPlaylist) {
+                                    nextLinkOrTune()
+                                }
+                            }} 
+                            onTimeUpdate={function(e) {
+                                setMediaProgress(e.target.currentTime/e.target.duration)
+                            }}
+                             >
+                                <source src={tune.links[useMediaLinkNumber].link} type="video/ogg" />
+                                Your browser does not support the video tag.
+                                </audio> : <div style={{clear:'both'}} >
+                                
+                                <YouTube videoId={getYouTubeId(tune.links[useMediaLinkNumber].link)} opts={{
+                                  width: '100%',
+                                  playerVars: {
+                                    loop : 1,
+                                    autoplay: 1,
+                                    controls: 0,
+                                    start: (tune.links[useMediaLinkNumber].startAt ? parseInt(tune.links[useMediaLinkNumber].startAt) : 0),
+                                    end: (tune.links[useMediaLinkNumber].endAt ? parseInt(tune.links[useMediaLinkNumber].endAt) : 0)
+                                  },
+                                }} 
+                                onEnd={function() {
+                                    //console.log('ty ended')
+                                    clearInterval(youtubeProgressInterval.current)
+                                    youtubeProgressInterval.current = null
+                                    if (props.mediaPlaylist || props.abcPlaylist) {
+                                        nextLinkOrTune()
+                                    }
+                                }} 
+                                onError={function(e) {
+                                    console.log('err yt',e)
+                                    clearInterval(youtubeProgressInterval.current)
+                                    youtubeProgressInterval.current = null
+                                    if (props.mediaPlaylist || props.abcPlaylist) {
+                                        nextLinkOrTune()
+                                    }
+                                }} 
+                                onReady={
+                                    function(event) {
+                                        setYTMediaPlayer(event.target); 
+                                        event.target.playVideo()
+                                        setIsPlaying(true)
+                                    }    
+                                }
+                                onStateChange={
+                                    function(e) {
+                                        if (e.data === 1) {
+                                            setMediaLoading(false)
+                                            clearInterval(youtubeProgressInterval.current)
+                                            youtubeProgressInterval.current = setInterval(function() {
+                                                setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
+                                                //console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
+                                            }, 100)
+                                        }
+                                    }
+                                } 
+                                
+                                 /> 
+                                
+                            </div>
+                            
+                        }
+                        
+                   </div>}
              <div style={{display:'none'}} id="transpose_render"></div>
         </div>
     }

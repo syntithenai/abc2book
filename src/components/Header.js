@@ -26,7 +26,7 @@ export default function Header(props) {
                 props.tunebook.navigateToPreviousSong(params.tuneId,navigate)
                 //props.setCurrentTune(params.tuneId)
             }
-            console.log(`key pressed: ${event.key}`);
+            //console.log(`key pressed: ${event.key}`);
         }
     };
     useKeyPress(['ArrowRight', 'ArrowLeft'], onKeyPress);
@@ -65,7 +65,7 @@ export default function Header(props) {
                   </Dropdown> 
                   {props.token ? <Button  style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
                   
-                  {(location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{float:'right', marginRight:'10em'}}>
+                  {(location.pathname.startsWith('/tunes/') && params.tuneId) ? <span style={{marginLeft:'0.5em'}}>
                       <AbcPlaylistManagerModal tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} />
                       <PlaylistManagerModal tunebook={props.tunebook} mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} />
                       <Button onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button>

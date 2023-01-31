@@ -56,7 +56,12 @@ function BookMultiSelectorModal(props) {
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   return (
     <>
-      <Button variant="primary" onClick={handleShow}  >{props.tunebook.icons.book} {props.value && props.value.length > 0 ? <Badge variant="success" >{props.value.length}</Badge>: null}</Button>
+     
+       <Button onClick={handleShow} style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="primary" >
+        <span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.book}</span> 
+        <Badge style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{props.value.length}</Badge>
+      </Button>
+     
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Add Tune to Books</Modal.Title>
@@ -68,7 +73,7 @@ function BookMultiSelectorModal(props) {
               return <Button key={selectedBook} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectBook(selectedBook)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedBook}</Button>
             })}</div>
             
-          <input type='search' value={filter} onChange={filterChange}   />
+          <input type='search' value={filter} onChange={filterChange}   onFocus={function() {props.setBlockKeyboardShortcuts(true)}} onBlur={function() {props.setBlockKeyboardShortcuts(false)}}  />
           <Button key="newbook" onClick={function() {newBook(filter)}}  >New Book</Button>
         </Modal.Body>
         <Modal.Footer>

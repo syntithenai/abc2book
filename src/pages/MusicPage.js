@@ -19,7 +19,7 @@ export default function MusicPage(props) {
     
     return <div className="music-page">
        <Outlet/>
-       <IndexLayout googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes}  setCurrentTune={props.setCurrentTune} tunesHash={props.tunesHash}  tunebook={props.tunebook} forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} scrollOffset={props.scrollOffset} setScrollOffset={props.setScrollOffset}  abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} filter={props.filter} setFilter={props.setFilter} groupBy={props.groupBy} setGroupBy={props.setGroupBy} />
+       <IndexLayout googleDocumentId={props.googleDocumentId} token={props.token} tunes={props.tunes}  setCurrentTune={props.setCurrentTune} tunesHash={props.tunesHash}  tunebook={props.tunebook} forceRefresh={props.forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} scrollOffset={props.scrollOffset} setScrollOffset={props.setScrollOffset}  abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} filter={props.filter} setFilter={props.setFilter} groupBy={props.groupBy} setGroupBy={props.setGroupBy} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  />
       
        
     </div>

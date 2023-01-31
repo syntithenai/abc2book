@@ -362,7 +362,7 @@ export default function Abc(props) {
             
             
             //metro beats 0.125 0.25 2 1200 4 0.5 600 300
-            console.log('metro beats','PICKUP LENGTH',o.getPickupLength(),'BEAT LENGTH',o.getBeatLength(), 'BEATS PER MEASURE',o.getBeatsPerMeasure(), 'MS PER MEASURE',o.millisecondsPerMeasure(), 'METRONOME BEATS',metronomeBeats, 'BEAT OVERFLOW',beatOverflow,'BEAT DURATION', beatDuration, 'DELAY',delay)
+            //console.log('metro beats','PICKUP LENGTH',o.getPickupLength(),'BEAT LENGTH',o.getBeatLength(), 'BEATS PER MEASURE',o.getBeatsPerMeasure(), 'MS PER MEASURE',o.millisecondsPerMeasure(), 'METRONOME BEATS',metronomeBeats, 'BEAT OVERFLOW',beatOverflow,'BEAT DURATION', beatDuration, 'DELAY',delay)
             
             function startWithMetronome() {
               //console.log('start with metro')
@@ -901,7 +901,7 @@ export default function Abc(props) {
                 setAudioChangedHash(hash)
                 setStarted(true)
                 createPlayer(o, props.tempo, props.meter, props.autoPrime).then(function(p) {
-                      console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
+                      //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
                      var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                      assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
                      if (props.autoStart) {

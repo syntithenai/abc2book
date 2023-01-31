@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 
-export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh}) {
+export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter}) {
     var navigate = useNavigate()
     var params = useParams()
     //console.log(params)
@@ -38,30 +38,41 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
       } else {
           //if (token) {
               // load document 
-              console.log('ldd DO',params.link, params)
+              //console.log('ldd DO',params.link, params)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
-                      console.log("gotres",res.data.length)
-                      var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName)
-                      console.log("gotreeees",results)
+                      //console.log("gotres",res.data.length)
+                      var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName, params.tagName)
+                      //console.log("gotreeees",results)
                       if (!tunebook.showImportWarning(results)) {
-                          console.log("no show warning", autoplay , setMediaPlaylist)
+                          //console.log("no show warning", autoplay , setMediaPlaylist)
                           tunebook.applyMergeData(results).then(function(mergedTunes) {
-                          
+                                //console.log('applied', mergedTunes)
                               if (autoplay && setMediaPlaylist && mergedTunes) {
                                     var tunes=tunebook.mediaFromBook(params.bookName, mergedTunes)
                                     //forceRefresh()
-                                    console.log('aplay tunes from book',tunes)
+                                    //console.log('aplay tunes from book',tunes)
                                     //setTunes(tunes)
-                                    setCurrentTuneBook('')
+                                    if (params.bookName) {
+                                        setCurrentTuneBook('')
                                     //setTimeout(function() {
-                                    setCurrentTuneBook(params.bookName)
+                                        setCurrentTuneBook(params.bookName)
+                                    }
+                                    if (params.tagName) {
+                                        setTagFilter([])
+                                        setTagFilter([params.tagName])
+                                    }
                                     //navigate("/tunes")
                                     setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
                                     setClickToStart(true)
                                     //}, 200)
                               } else {  
+                                  if (params.tagName) {
+                                    setTagFilter([])
+                                    setTagFilter([params.tagName])
+                                  }
                                   setCurrentTuneBook(params.bookName)
+                                  //console.log("GO TO ",params.bookName  )
                                   navigate("/tunes")
                               }
                           })
@@ -90,7 +101,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
         return <div style={{width:'80%', margin:'5em', padding:'5em', backgroundColor:'lightgreen'}} >
             <Button size='lg' variant="success" onClick={function() {
                 setClickToStart(false); 
-                console.log("MP",mediaPlaylist)
+                //console.log("MP",mediaPlaylist)
                 if (mediaPlaylist && mediaPlaylist.tunes) {
                     navigate("/tunes")
                 } else {

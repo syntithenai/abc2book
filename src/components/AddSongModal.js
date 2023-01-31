@@ -151,7 +151,7 @@ function AddSongModal(props) {
         }
     })
     var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, meter:songMeter, files:(songImage ? [{data:songImage,type:'image'}] : []), links:(songMedia ? [{link:songMedia}] : [])}
-    console.log('ADD TUNE',t)
+    //console.log('ADD TUNE',t)
     props.tunebook.saveTune(t); 
     props.setFilter('') ; 
     setSongTitle('')

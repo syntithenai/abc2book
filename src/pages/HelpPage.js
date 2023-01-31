@@ -55,6 +55,10 @@ export default function HelpPage(props) {
       <br/><br/>
       The green merge button will try to preserve changes everywhere by saving any locally changed files and updating any files changed or added online.
       When tunes are deleted locally while you are logged out or offline, the merge will try to replace the tunes.
+      <br/>
+      <div style={{border:'1px solid orange', backgroundColor:'#ff400066',padding:'1em'}} >
+      The merge will not delete tunes so if you have deleted tunes on another device it is best to logout, use the <a href='/settings#/settings'><Button variant="success">Settings</Button></a> page to clear all songs on a device, then login again to get a complete clean version of the song book from the other device.
+      </div>
       <br/><br/>
       The software checks regularly for changes to the Google Document so if you are logged in to two devices at the same time, changes on one devices will appear within a few seconds as an import warning on your other device.
       <br/><br/>

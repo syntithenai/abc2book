@@ -6,7 +6,7 @@ import ImportCollectionModal from './ImportCollectionModal'
 import ImportListModal from './ImportListModal'
 import ImportXmlModal from './ImportXmlModal'
 import ImportYouTubeModal from './ImportYouTubeModal'
-
+import ImportCollectionsAccordion from './ImportCollectionsAccordion'
 
 function ImportOptionsModal(props) {
   const [show, setShow] = useState(props.show);
@@ -98,14 +98,17 @@ function ImportOptionsModal(props) {
         {props.tunebook.icons.folderin} Import
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose}  >
         <Modal.Header closeButton>
-          <Modal.Title>Import from </Modal.Title>
+          <Modal.Title >Import from </Modal.Title>
         </Modal.Header>
-        <Modal.Footer>
+        <Modal.Footer  >
             <ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             {props.token && <ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} />}
+            <div>
+                <ImportCollectionsAccordion tunebook={props.tunebook} />
+            </div>
         </Modal.Footer>
       </Modal>
     </>

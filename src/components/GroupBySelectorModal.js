@@ -3,14 +3,14 @@ import {Button, Modal, ListGroup} from 'react-bootstrap'
 
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
-  const options = {key: 'key', meter:'meter', composer:'composer', books: 'books'}
+  const options = {boost:'confidence', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'composer', books: 'books', tags: 'tags'} //, tags: 'tags'}
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);
   }
   return (
-    <>
-      <Button  style={{color:'black', fontWeight:'bold'}} onClick={handleShow} >{props.tunebook.icons.stack} {props.value}</Button>
+    <> 
+      <Button  style={{color:'black', fontWeight:'bold'}} onClick={handleShow} >{props.tunebook.icons.stack} {props.value&& options[props.value] ? options[props.value] : ''}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

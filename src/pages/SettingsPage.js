@@ -1,13 +1,14 @@
-import { Link  } from 'react-router-dom'
+import { Link, useNavigate  } from 'react-router-dom'
 import {Button} from 'react-bootstrap'
 import {useState} from 'react'
 export default function SettingsPage(props) {
+    const navigate = useNavigate()
   const tunebook = props.tunebook
   const token = props.token
-  var linkBase = window.location.origin 
-  linkBase = 'https://tunebook.syntithenai.com'
-  const googleDocumentId = props.googleDocumentId
-  const [link,setLink] = useState(null)
+  //var linkBase = window.location.origin 
+  //linkBase = 'https://tunebook.syntithenai.com'
+  //const googleDocumentId = props.googleDocumentId
+  //const [link,setLink] = useState(null)
   const [preRenderAudioCheckbox,setPreRenderAudioCheckbox] = useState(localStorage.getItem('bookstorage_autoprime') === "true"  ? true : false)
   const [mergeWarningsCheckbox,setMergeWarningsCheckbox] = useState(localStorage.getItem('bookstorage_mergewarnings') === "true"  ? true : false)
    const [inlineAudioCheckbox,setInlineAudioCheckbox] = useState(localStorage.getItem('bookstorage_inlineaudio') === "true"  ? true : false)
@@ -59,11 +60,13 @@ export default function SettingsPage(props) {
                if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device and all other devices? Logout if you only want to reset this device')) {
                     if (window.confirm('Are you REALLY sure you want to delete all of your tunes on all your devices?')) {
                         tunebook.deleteAll()
+                        navigate("/books")
                     }
                }
            } else if (window.confirm('Are you sure you want to delete all of your tunes on this device? Login to delete tunes from all your devices.')) {
                 if (window.confirm('Are you REALLY sure you want to delete all of your tunes from this device?')) {
                    tunebook.deleteAll()
+                   navigate("/books")
                 }
             }
         }} >Delete All Tunes</Button><br/>

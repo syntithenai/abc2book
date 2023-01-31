@@ -4,6 +4,7 @@ import {ListGroup} from 'react-bootstrap'
 import {useState, useEffect} from 'react'
 import BookSelectorModal from './BookSelectorModal'
 import GroupBySelectorModal from './GroupBySelectorModal'
+import TagsSearchSelectorModal from './TagsSearchSelectorModal'
 import AddSongModal from './AddSongModal'
 import ImportOptionsModal from './ImportOptionsModal'
 import {useParams, useNavigate} from 'react-router-dom'
@@ -31,9 +32,9 @@ export default function IndexSearchForm(props) {
             //console.log('new',event.ctrlKey)
             document.getElementById('tunebookbuttons').children[0].click()
         } 
-        console.log(`key pressed: ${event.key}`);
+        //console.log(`key pressed: ${event.key}`);
     };
-    useKeyPress(['n'], onKeyPress);
+    //useKeyPress(['n'], onKeyPress);
 
     //const [blockKeyboardShortcuts, setBlockKeyboardShortcuts] = useState(false)
     
@@ -41,15 +42,6 @@ export default function IndexSearchForm(props) {
 // props.updateList(e.target.value)
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     
-    function gatherSelected() {
-        var count = 0
-        var final = {}
-        return props.selected.split(",").forEach(function(key) {
-            if (key && props.tunes[key] && props.tunes[key]._id) final[props.tunes[key]._id] = props.tunes[key] 
-        })
-        console.log("CCC",props.selected,final )
-        return final
-    }
     
     return <div id="tunesearchform" style={{padding:'0.3em', minHeight:'4em', clear:'both', backgroundColor: '#d3d3d385'}} >
       <span style={{float:'right', backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
@@ -58,15 +50,41 @@ export default function IndexSearchForm(props) {
             <Button onClick={function() {props.tunebook.fillMediaPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"danger"} size="small" >{props.tunebook.icons.youtube}</Button>
             <Button onClick={function() {props.tunebook.fillAbcPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"success"} size="small" >{props.tunebook.icons.play}</Button>
         </span>
-         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy('')}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
-         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor  }} type='search' value={props.filter} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
-           <BookSelectorModal forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh();}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>} />
-         <GroupBySelectorModal onChange={function(val) {console.log(val); props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook} />
+         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([])}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
+         
+         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor  }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
+         
+           <BookSelectorModal blockKeyboardShortcuts={props.blockKeyboardShortcuts} forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh();}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>} />
+          
+          <span style={{ marginLeft:'0.1em'}} >
+          
+                <TagsSearchSelectorModal  setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={props.tagFilter} onChange={function(val) { 
+                    props.setTagFilter(val)
+                    props.forceRefresh()
+                    //console.log('change search filter ',val)
+                          //var currentSelection = Object.keys(props.selected).filter(function(item) {
+                            //return (props.selected[item] ? true : false)
+                          //})
+                          //props.tunebook.bulkChangeTunes(currentSelection, 'tags', val)
+                          //navigate('/blank')
+                          //setTimeout(function() {
+                              //navigate('/tunes')
+                          //},500)
+                     
+                    } }
+               />
+              </span>
+           
+         <>{(props.tunes && props.filtered.length < 1500) && <GroupBySelectorModal onChange={function(val) {console.log(val); props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook} />}</>
         
          
     </div>
         
 }
+
+
+ 
+
 //{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}
  //<div style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}   id="tunesearchextras" >
            

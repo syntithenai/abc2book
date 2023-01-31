@@ -50,11 +50,14 @@ function BookSelectorModal(props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{props.title}</Modal.Title>
+          <Modal.Title style={{width:'100%'}}>{props.title}
+          
+          <Button style={{float:'right'}} variant="danger" onClick={function() {props.onChange(''); handleClose()}} >Clear</Button>
+          </Modal.Title>
           
         </Modal.Header>
         <Modal.Body>
-          <input type='search' value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
+          <input type='search'  onFocus={function() {props.setBlockKeyboardShortcuts(true)}} onBlur={function() {props.setBlockKeyboardShortcuts(false)}}  value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
           {(props.allowNew !== false)  && <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>}
         </Modal.Body>
         <Modal.Footer>

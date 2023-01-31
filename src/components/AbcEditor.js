@@ -9,6 +9,8 @@ import LinksEditor from './LinksEditor'
 import ImagesEditor from './ImagesEditor'
 
 export default function AbcEditor(props) {
+  var searchNames = ['Sydney', 'Melbourne', 'Brisbane', 
+                            'Adelaide', 'Perth', 'Hobart'];
   const [abcText, setAbcText] = useState(props.abc);
   const [currentVoice, setCurrentVoice] = useState(0);
   let params = useParams();
@@ -194,6 +196,12 @@ export default function AbcEditor(props) {
                       <Form.Group className="mb-3" controlId="key">
                         <Form.Label>Key</Form.Label>
                         <Form.Control type="text" value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                      </Form.Group>
+                      
+                      <Form.Group className="mb-3" controlId="key">
+                        <Form.Label>Tuning</Form.Label>
+                        
+                        <Form.Control type="text" value={tune.tuning ? tune.tuning : ''} onChange={function(e) {tune.tuning = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="transpose">

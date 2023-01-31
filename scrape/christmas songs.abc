@@ -50,14 +50,14 @@ W: In one horse open sleigh!
 % abcbook-tune_id 627df8de85c08ad8c26a707c
 % abcbook-link-0 https://www.youtube.com/watch?v=-sGafcPI3Vg
 % abcbook-link-title-0 Jingle Bells
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-lastupdated 1670927127366
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                  -2
+%%MIDI transpose                                       -2
 % Titles One title
 % Transcriptions Only 1 transcription
 % Mode major
@@ -99,8 +99,8 @@ W: Jesus Lord, at Thy birth
 % abcbook-tune_id 627df8e519e83fe44988cc84
 % abcbook-link-0 https://www.youtube.com/watch?v=sme8N2pzRx8
 % abcbook-link-title-0 Pentatonix - Silent Night (Live) (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670928707580
@@ -144,13 +144,11 @@ W: Close by me forever, and love me, I pray.
 W: Bless all the dear children in thy tender care,
 W: And take us to heaven, to live with Thee there
 % abcbook-tune_id 627e16be1761e208abf4adc5
-% abcbook-link-0 https://www.youtube.com/watch?v=GjtYtBGrP6Y
-% abcbook-link-title-0 Pentatonix - Away In A Manger (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896076001
+% abcbook-lastupdated 1671685417726
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -197,14 +195,14 @@ W: Fa la la la la, la la la la.
 % abcbook-tune_id 627e16e4ae1962195207df47
 % abcbook-link-0 https://www.youtube.com/watch?v=UqItlHUSN-4
 % abcbook-link-title-0 Pentatonix - Deck The Halls (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 3
 % abcbook-lastupdated 1671686284961
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose    3
+%%MIDI transpose                         3
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Has lots of stepwise movement
@@ -266,8 +264,8 @@ W: We three kings, we three kings
 % abcbook-tune_id 627e176756e6a47f5e1de2ac
 % abcbook-link-0 https://www.youtube.com/watch?v=HDqTL49OwDA
 % abcbook-link-title-0 We Three Kings - Clamavi De Profundis
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670930945250
@@ -322,8 +320,8 @@ W: Me and my drum
 % abcbook-tune_id 627e188cd88b270ddf30fc76
 % abcbook-link-0 https://www.youtube.com/watch?v=qJ_MGWio-vc
 % abcbook-link-title-0 [Official Video] Little Drummer Boy - Pentatonix
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670930860147
@@ -387,8 +385,8 @@ W: "Glory to the newborn King!"
 % abcbook-tune_id 627e189ec5bc1893af1b5938
 % abcbook-link-0 https://www.youtube.com/watch?v=XmtKlOB-0-I
 % abcbook-link-title-0 Hark the Herald (Sing Out Loud) | The Spirituals Choir (Official Music Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670897579140
@@ -455,8 +453,8 @@ W: And Heaven, and Heaven, and nature sing
 % abcbook-tune_id 627e18fa6a2d6cb88bea63fb
 % abcbook-link-0 https://www.youtube.com/watch?v=-Xo64Q2ucQ8
 % abcbook-link-title-0 Pentatonix - Joy to the World (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670927144185
@@ -519,8 +517,8 @@ W:
 % abcbook-tune_id 627e190bc7d1720163c7033d
 % abcbook-link-0 https://www.youtube.com/watch?v=z51apErmAuw
 % abcbook-link-title-0 O Come, All Ye Faithful
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670927168469
@@ -664,8 +662,8 @@ W: A partridge in a pear tree
 % abcbook-tune_id 627e192b0a8aab12b4ea266e
 % abcbook-link-0 https://www.youtube.com/watch?v=1UHmQANFtNs
 % abcbook-link-title-0 Pentatonix - 12 Days Of Christmas (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670929293580
@@ -727,8 +725,8 @@ W: We wish you a merry Christmas and a happy new year
 % abcbook-tune_id 627e195d6d48ca69f120eeee
 % abcbook-link-0 https://www.youtube.com/watch?v=dSJ4EWeHyE4
 % abcbook-link-title-0 We Wish You A Merry Christmas (Live At The Helix In Dubli...
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670930968166
@@ -775,8 +773,8 @@ W: And have yourself A merry little Christmas now.
 % abcbook-tune_id 62a8b5658613a6dead4903ab
 % abcbook-link-0 https://www.youtube.com/watch?v=V4EauuhVEw4
 % abcbook-link-title-0 Have Yourself A Merry Little Christmas
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670926729061
@@ -832,8 +830,8 @@ W: But he waved goodbye, sayin' "Don't cry, I'll be back again some day."
 % abcbook-tune_id 62a8b565935a5eec1038226c
 % abcbook-link-0 https://www.youtube.com/watch?v=Hmw4Fu4XupE
 % abcbook-link-title-0 Ella Fitzgerald - Frosty The Snowman (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670895881914
@@ -886,8 +884,8 @@ W: you'll go down in history!
 % abcbook-tune_id 62a8b565b0c1560fd2b8404a
 % abcbook-link-0 https://www.youtube.com/watch?v=44bL90HP0Ys
 % abcbook-link-title-0 Gene Autry - Rudolph the Red-Nosed Reindeer (Audio)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670927689865
@@ -943,8 +941,8 @@ W: Ooh-ooh-ooh-ooh-ooh
 % abcbook-tune_id 62a8b565f1b5b16cf47d0b5e
 % abcbook-link-0 https://www.youtube.com/watch?v=e7t8YTbQSQc
 % abcbook-link-title-0 Jimmy Boyd - I Saw Mommy Kissing Santa Claus 1952
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670926754270
@@ -1031,8 +1029,8 @@ W: Santa Claus is coming to town
 % abcbook-tune_id 62a8b565ec7c3a9e0e00f99c
 % abcbook-link-0 https://www.youtube.com/watch?v=R8CBoVc_OMI
 % abcbook-link-title-0 Michael Bublé - Santa Claus Is Coming To Town [Official HD]
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670927674707
@@ -1090,8 +1088,8 @@ W: And with his blood mankind hath bought
 % abcbook-tune_id 62a8b56592b8c8c3975e2300
 % abcbook-link-0 https://www.youtube.com/watch?v=0u5UvnKlCTA
 % abcbook-link-title-0 Pentatonix - The First Noel (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670930847275
@@ -1145,11 +1143,11 @@ W: Orana! Orana! Orana to Christmas Day.
 % abcbook-tune_id 62a8b565c9288b2313338647
 % abcbook-link-0 https://www.youtube.com/watch?v=D1PuZk6VBr4
 % abcbook-link-title-0 Carol of the Birds : Australian Christmas Carol sung by Bucko &amp; Champs
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670894939157
+% abcbook-lastupdated 1671697231053
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1186,13 +1184,11 @@ W: Christ the Lord, the newborn King.
 W: 
 W: 
 % abcbook-tune_id 62a8b565ddfe6f22bad6a701
-% abcbook-link-0 https://www.youtube.com/watch?v=WHWqj6gKS9g
-% abcbook-link-title-0 Angels We Have Heard On High
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896060401
+% abcbook-lastupdated 1671685121130
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -1245,8 +1241,8 @@ W: On Christmas Day in the morning
 % abcbook-tune_id 62a8b565b3d705f39d8da183
 % abcbook-link-0 https://www.youtube.com/watch?v=Ak2xeLs8qJ4
 % abcbook-link-title-0 I Saw Three Ships
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670926773236
@@ -1317,8 +1313,8 @@ W: Shall himself find cheering.]
 % abcbook-tune_id 62a8b565cd7dd7537d138edb
 % abcbook-link-0 https://www.youtube.com/watch?v=bMmxhhfQw0c
 % abcbook-link-title-0 Irish Rovers - Good King Wenceslas
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1670896347895
@@ -1390,13 +1386,11 @@ W: Soul immortal shalt thou awaken
 W: With thy last dim journey taken
 W: Home through the night
 % abcbook-tune_id 62a8b5658dce27b8a894e6fc
-% abcbook-link-0 https://www.youtube.com/watch?v=W8DJJeWN8M8
-% abcbook-link-title-0 Perry Como All Through the Night  04/12/58
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896027662
+% abcbook-lastupdated 1671686390681
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -1431,13 +1425,11 @@ W: your evetime song, ye singers.
 W: Gloria, hosannah in excelsis!
 W: Gloria, hosannah in excelsis!
 % abcbook-tune_id 62a8b566a12cbbac6dc16bc7
-% abcbook-link-0 https://www.youtube.com/watch?v=6J_2tKCwu7Q
-% abcbook-link-title-0 King&#39;s College Cambridge 2010   #9 Ding! Dong! Merrily on High
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896263773
+% abcbook-lastupdated 1671686522548
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1514,74 +1506,56 @@ W: And the [D] bells were [G] ringing [A] out for Christmas [D] day [G] [D]
 W: 
 W: ===========================================
 W: 
-W: [Verse 1: Shane MacGowan]
 W: It was Christmas Eve, babe, in the drunk tank
 W: An old man said to me, "Won't see another one"
 W: And then he sang a song, 'The Rare Old Mountain Dew'
 W: I turned my face away and dreamed about you
 W: 
-W: [Verse 2: Shane MacGowan]
 W: Got on a lucky one, came in eighteen-to-one
 W: I've got a feeling this year's for me and you
 W: So, Happy Christmas, I love you, baby
 W: I can see a better time when all our dreams come true
 W: 
-W: [Verse 3: Kirsty MacColl]
 W: They've got cars big as bars, they've got rivers of gold
 W: But the wind goes right through you, it's no place for the old
 W: When you first took my hand on a cold Christmas Eve
 W: You promised me Broadway was waiting for me
 W: 
-W: [Verse 4: Kirsty MacColl & Shane MacGowan & Together]
 W: You were handsome, you were pretty, queen of New York City
 W: When the band finished playing, they howled out for more
 W: Sinatra was swinging, all the drunks, they were singing
 W: We kissed on a corner, then danced through the night
 W: 
-W: [Chorus: Shane Macgowan & Kirsty MacColl]
 W: The boys of the NYPD choir
 W: Were singing, "Galway Bay"
 W: And the bells were ringing out
 W: For Christmas Day
 W: 
-W: [Verse 5: Kirsty MacColl & Shane MacGowan]
 W: You're a bum, you're a punk, you're an old slut on junk
 W: Lying there almost dead on a drip in that bed
 W: You scumbag, you maggot, you cheap, lousy faggot
 W: Happy Christmas, your arse, I pray God it's our last
 W: 
-W: [Chorus: Shane Macgowan & Kirsty MacColl]
 W: The boys of the NYPD choir
 W: Still singing, "Galway Bay"
 W: And the bells are ringing out
 W: For Christmas Day
-W: You might also like
-W: Did you know that there’s a tunnel under Ocean Blvd
-W: Lana Del Rey
-W: The Twelve Days of Christmas
-W: Christmas Songs
-W: Christmas Drillings
-W: Sidemen
 W: 
-W: [Verse 6: Kirsty MacColl & Shane MacGowan]
 W: "I could have been someone" Well, so could anyone
 W: You took my dreams from me when I first found you
 W: I kept them with me, babe, I put them with my own
 W: Can't make it all alone, I've built my dreams around you
 W: 
-W: [Outro: Shane Macgowan & Kirsty MacColl]
 W: The boys of the NYPD choir
 W: Still singing, "Galway Bay"
 W: And the bells are ringing out
 W: For Christmas Day
 % abcbook-tune_id 6344381b37bc47c68bf3345b
-% abcbook-link-0 https://www.youtube.com/watch?v=j9jbdgZidu8
-% abcbook-link-title-0 The Pogues -  Fairytale Of New York (Official Video)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896275749
+% abcbook-lastupdated 1671694146310
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1604,13 +1578,12 @@ W: And so this is Christmas
 W: I hope you had fun
 W: The near and the dear ones
 W: The old and the young
-W: [Chorus: Yoko Ono & Harlem Community Choir]
+W: 
 W: A very merry Christmas
 W: And a happy New Year
 W: Let's hope it's a good one
 W: Without any fear
 W: 
-W: [Verse 2: John Lennon & Harlem Community Choir]
 W: And so this is Christmas (War is over)
 W: For weak and for strong (If you want it)
 W: The rich and the poor ones (War is over)
@@ -1620,13 +1593,11 @@ W: For black and for white (If you want it)
 W: For yellow and red ones (War is over)
 W: Let's stop all the fight (Now)
 W: 
-W: [Chorus: Yoko Ono & Harlem Community Choir]
 W: A very merry Christmas
 W: And a happy New Year
 W: Let's hope it's a good one
 W: Without any fear
 W: 
-W: [Verse 3: John Lennon & Harlem Community Choir]
 W: And so this is Christmas (War is over)
 W: And what have we done? (If you want it)
 W: Another year over (War is over)
@@ -1636,13 +1607,11 @@ W: We hope you have fun (If you want it)
 W: The near and the dear ones (War is over)
 W: The old and the young (Now)
 W: 
-W: [Chorus: Yoko Ono & Harlem Community Choir]
 W: A very merry Christmas
 W: And a happy New Year
 W: Let's hope it's a good one
 W: Without any fear
 W: 
-W: [Outro: Yoko Ono & Harlem Community Choir]
 W: War is over, if you want it
 W: War is over, now
 W: Happy Christmas
@@ -1652,11 +1621,11 @@ W: Happy Christmas (Happy Christmas)
 % abcbook-tune_id 6344381bd865da36a9d13b6d
 % abcbook-link-0 https://www.youtube.com/watch?v=flA5ndOyZbI
 % abcbook-link-title-0 Happy Xmas (War Is Over)
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1670896365351
+% abcbook-lastupdated 1671698349041
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -1699,14 +1668,14 @@ W: Begin and never cease.”
 % abcbook-tune_id 6344381b72dc7fd302574031
 % abcbook-link-0 https://www.youtube.com/watch?v=wevr3Vt37Ec
 % abcbook-link-title-0 King&#39;s College Cambridge 2011   #9 While Shepherd&#39;s watched their flocks by  night
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 2
 % abcbook-lastupdated 1670935138207
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose  2
+%%MIDI transpose                       2
 
 
 X: 26
@@ -1749,8 +1718,8 @@ W: My praise will never cease.
 % abcbook-tune_id 6344381b4db2af24465ceea4
 % abcbook-link-0 https://www.youtube.com/watch?v=FJ9wS2J0GOs
 % abcbook-link-title-0 Handel&#39;s Messiah: For Unto us a Child is Born, Tabernacle Choir
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-lastupdated 1673487216740
@@ -1761,8 +1730,8 @@ W: My praise will never cease.
 X: 27
 T: Drinking White Wine In The Sun
 C:Tim Minchin
-B: steve song book
 B: christmas songs
+B: songs
 M:6/8
 Q: 3/8=100
 V:1 
@@ -2027,10 +1996,10 @@ W: It's sentimental, I know
 % abcbook-tune_id 639da8ab75d803474cfdc7a0
 % abcbook-link-0 https://www.youtube.com/watch?v=fCNvZqpa-7Q
 % abcbook-link-title-0 White Wine In The Sun by Tim Minchin
-
 % abcbook-boost 0
+% abcbook-tags 
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-lastupdated 1671789499312
+% abcbook-lastupdated 1674523347356
 % abcbook-soundfonts 
 % abcbook-repeats 3

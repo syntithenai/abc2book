@@ -180,6 +180,10 @@ var useAbcTools = () => {
                     tune.tablature = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-transpose')) {
                     tune.transpose = line.slice(20).trim()
+                } else  if (line.startsWith('% abcbook-tuning')) {
+                    tune.tuning = line.slice(17).trim()
+                } else  if (line.startsWith('% abcbook-tags')) {
+                    tune.tags = line.slice(14).trim() ? line.slice(14).trim().split(",") : []
                 } else  if (line.startsWith('% abcbook-lastupdated')) {
                     tune.lastUpdated = line.slice(22).trim()
                 } else  if (line.startsWith('% abcbook-soundfonts')) {
@@ -361,11 +365,13 @@ var useAbcTools = () => {
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     + renderWordHeaders(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
-                    + linksRendered.join("\n") + "\n" 
-                    + filesRendered.join("\n") + "\n" 
+                    + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
+                    + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     + "% abcbook-boost " +  ensureInteger(boost,0) + "\n" 
+                    + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
+                    + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 
                     + "% abcbook-lastupdated " +  ensureInteger(tune.lastUpdated) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
                     + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 

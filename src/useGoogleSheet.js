@@ -16,7 +16,7 @@ export default function useGoogleSheet(props) {
   // google login
   var docs = useGoogleDocument(token,refresh,function(changes) {
       return new Promise(function(resolve,reject) {
-          console.log('DOCCHANGE',changes)
+          //console.log('DOCCHANGE',changes)
           var matchingChanges = changes.filter(function(change) {
             if (change.fileId === googleSheetId.current) {
               return true
@@ -27,7 +27,7 @@ export default function useGoogleSheet(props) {
           //console.log('DOCCHANGE match',matchingChanges)
           if (matchingChanges && matchingChanges.length === 1) {
             getGoogleSheetDataById(googleSheetId.current).then(function(fullSheet) {
-              console.log('DOCCHANGE got sheet')
+              //console.log('DOCCHANGE got sheet')
               onMerge(fullSheet)
               resolve()
             })
@@ -54,20 +54,20 @@ export default function useGoogleSheet(props) {
   
   function updateSheet(delay=3000) {
     return new Promise(function(resolve,reject) {
-      console.log('trigger sheet update',delay, googleSheetId.current )
+      //console.log('trigger sheet update',delay, googleSheetId.current )
       //if (recurseLoadSheetTimeout.current) clearTimeout(recurseLoadSheetTimeout.current)
       pausePolling.current = true
       if (googleSheetId.current) { 
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
-          console.log('do sheet update', tunes)
+          //console.log('do sheet update', tunes)
           //alert('save tune ' )
           utils.loadLocalforageObject('bookstorage_tunes').then(function(nowTunes) {
-              console.log('do sheet update NOWTUNES', nowTunes)
+              //console.log('do sheet update NOWTUNES', nowTunes)
               updateSheetById(googleSheetId.current , abcTools.tunesToAbc(nowTunes)).then(function() {
                   //loadSheet()
                   pausePolling.current = false
-                  console.log('done sheet update')
+                  //console.log('done sheet update')
               })
               resolve()
             })
@@ -113,7 +113,7 @@ export default function useGoogleSheet(props) {
       //},props.pollingInterval > 1000 ? props.pollingInterval : 20000)
     //}
     function loadSheet() {
-      console.log('load sheet')
+      //console.log('load sheet')
       doLoad()
       //setupInterval()
     }

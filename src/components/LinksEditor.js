@@ -55,12 +55,12 @@ export default function LinksEditor(props) {
                     
             {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Button variant="success" style={{marginBottom:'0.6em', marginRight:'0.6em'}} ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
                 fileSelected(e,function(data) {
-                    console.log((data ? data.slice(0,50) : 'nodata'),e)
+                    //console.log((data ? data.slice(0,50) : 'nodata'),e)
                     var type = e.target.files[0].type
                     var filename = e.target.files[0].name
                     console.log(type)
                     if (type.startsWith('audio/')) {
-                        console.log('have audioset link')
+                        //console.log('have audioset link')
                         var links = Array.isArray(props.tune.links) ? props.tune.links : []
                         //.split(".").slice(0,-1).join(".")
                         var newLink = {link: data, title:filename, startAt:'', endAt: ''}
@@ -160,6 +160,10 @@ export default function LinksEditor(props) {
                             navigate("/tunes/"+props.tune.id+'/playMedia/'+lk)
                         }} >{props.tunebook.icons.play}</Button>}
                         
+                        {(props.tune && Array.isArray(props.tune.links) && props.tune.links.length > lk && props.tune.links[lk] && props.tune.links[lk].link && props.tune.links[lk].link.indexOf("youtube") !== -1) && <a target="_new" href={props.tune.links[lk].link} ><Button  style={{float:'right', marginRight:'0.3em'}} variant="primary" onClick={function() {
+                            
+                        }} >{props.tunebook.icons.externallink}</Button></a>}
+                        
                         <Form.Label  >Title</Form.Label>
                         <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.title} onChange={function(e) {
                             var links = props.tune.links
@@ -185,7 +189,7 @@ export default function LinksEditor(props) {
                         
                     </Form.Group>
                     <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
-                      <Form.Label>Start At (mm:ss)</Form.Label> 
+                      <Form.Label>Start At (seconds)</Form.Label> 
                        <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.startAt} onChange={function(e) {
                             var links = props.tune.links
                             links[lk].startAt = e.target.value
@@ -196,7 +200,7 @@ export default function LinksEditor(props) {
                     </Form.Group>
                     
                     <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
-                      <Form.Label>End At (mm:ss)</Form.Label> 
+                      <Form.Label>End At (seconds)</Form.Label> 
                        <Form.Control  onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}}  type='text' value={link.endAt} onChange={function(e) {
                             var links = props.tune.links
                             links[lk].endAt = e.target.value

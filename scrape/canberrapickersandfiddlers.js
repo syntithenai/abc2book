@@ -36,28 +36,36 @@ const fs = require('fs');
             //console.log('load  '+link)
              await page.goto(link);
              console.log('loaded  '+i+'/'+link.length+' ' +link)
-             let abc = await page.$$eval('textarea', textareas => {
-                 //console.log('load  ',textareas)
-                 var loaded_codes = textareas.map(function(t) { 
-                     //console.log('script  ',t)
-                     return t.value
-                     //return t.innerText.split("\n")[2]
-                 })
-                 //var finalRecord = {abc: code, links: []}
-                 
-                 return loaded_codes.join("\n\n")
-             });
+             try {
+                let abc = await page.$$eval('textarea', textareas => {
+                     //console.log('load  ',textareas)
+                     var loaded_codes = textareas.map(function(t) { 
+                         //console.log('script  ',t)
+                         return t.value
+                         //return t.innerText.split("\n")[2]
+                     })
+                     //var finalRecord = {abc: code, links: []}
+                     
+                     return loaded_codes.join("\n\n")
+                 });
+             } catch (e) {
+                 console.log(e)
+             }
              //console.log('codes got  ')
-             let links = await page.$$eval('div.my-alternate-classname', frames => {
+             try {
+                 let links = await page.$$eval('div.my-alternate-classname', frames => {
                  //console.log('iframes  ',frames)
                  return frames.map(function(l) {
                      //element.getAttribute 
                      //console.log('iframe  ',l,l.getAttribute('id'))
                      return 'https://www.youtube.com/watch?v='+l.getAttribute('id')
                  })
-             });
+                });
+             } catch (e) {
+                console.log(e)
+             }
              //console.log('links',links)
-             
+             if (!abc) abc = ''
              //console.log('code  ',codes, links)
              //codes.forEach(function(abc,ck) {
                  try {

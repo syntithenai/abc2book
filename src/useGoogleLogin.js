@@ -26,7 +26,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         prompt: '',
         scope: useScopes.join(' '),
         callback: (tokenResponse) => {
-          console.log("initclient callback set token ",tokenResponse)
+          //console.log("initclient callback set token ",tokenResponse)
           setAccessToken(tokenResponse)
           localStorage.setItem('google_login_user','1')
           // auto renew tokens
@@ -86,7 +86,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     } 
     
     function loadCurrentUser(accessToken) {
-        console.log('load current',accessToken)
+        //console.log('load current',accessToken)
         return new Promise(function(resolve,reject) {
           if (accessToken) { 
             var url = 'https://www.googleapis.com/oauth2/v3/userinfo?access_token='+accessToken.access_token
@@ -95,7 +95,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
               url: url,
               headers: {'Authorization': 'Bearer '+accessToken.access_token},
             }).then(function(postRes) {
-              console.log(postRes)
+              //console.log(postRes)
               resolve(postRes.data)
               
             }).catch(function(e) {
@@ -132,7 +132,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     },[])
     useEffect(function() {
       loadCurrentUser(accessToken).then(function(user) {
-          console.log(user)
+          //console.log(user)
           setUser(user)
           
       })

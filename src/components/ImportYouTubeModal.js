@@ -12,7 +12,7 @@ function ImportYouTubeModal(props) {
   const [successes, setSuccesses] = useState(null);
   
   const [options, setOptions] = useState({});
-  const [list, setList] = useState('OLAK5uy_lVBucQ_liBan77IFYx6drkxyzCiF3USYI');
+  const [list, setList] = useState('');
   //const [getPlaylistItems, setGetPlaylistItems] = useState([]);
   
   const handleClose = () => {
@@ -45,7 +45,7 @@ function ImportYouTubeModal(props) {
               resolve()
           } else {
               props.tunebook.utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
-                  console.log(items)
+                  //console.log(items)
                   var youTubeIds = {}
                   var foundTunes = {}
                   // prep lookups
@@ -83,12 +83,12 @@ function ImportYouTubeModal(props) {
   }
   
   function doImport(list) {
-      console.log(list, props.token, options)
+      //console.log(list, props.token, options)
       if (list && list.trim()) {
           getPlaylistItems(list.trim(), ((props.token && props.token.access_token) ? props.token.access_token : null)).then(function(items) {
-            console.log(items)  
+            //console.log(items)  
             saveItems(items).then(function(res) {
-              console.log(res) 
+              //console.log(res) 
               if (res[0] && Object.keys(res[0]).length > 0) {
                   setWarnings(Object.keys(res[0]).length + ' items are already in your tune book. These tunes will be associated with the book '+ props.currentTuneBook)
               } else {
@@ -131,7 +131,7 @@ function ImportYouTubeModal(props) {
               <Button  onClick={function() {
                  //setWarnings(null)
                  //setSuccesses(null)
-                 navigate('/books')
+                 navigate('/blank')
                   setTimeout(function() {
                       navigate('/tunes')
                       handleClose()

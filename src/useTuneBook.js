@@ -7,7 +7,7 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -22,9 +22,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   //})
      
   function navigateToNextSong(currentSongId, navigate) {
-        console.log("NEXT", mediaPlaylist, abcPlaylist)
+        //console.log("NEXT", mediaPlaylist, abcPlaylist)
     if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
-        console.log("NEXT abc")
+        //console.log("NEXT abc")
         var newPL = abcPlaylist
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune + 1 % abcPlaylist.tunes.length
@@ -33,7 +33,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             navigate("/tunes/"+abcPlaylist.tunes[newPL.currentTune].id+"/playMidi") 
         }
     } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
-        console.log("NEXT media")
+        //console.log("NEXT media")
         var newPL = mediaPlaylist
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune + 1 % mediaPlaylist.tunes.length
@@ -43,31 +43,41 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
     } else {
         
-        var useTunes = tunes
-        if (currentTuneBook) {
-          useTunes = {}
-          var filtered = Object.values(tunes)
-          filtered.sort(function(a,b) { 
-              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-          })
-          filtered.forEach(function(val) {
-            if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-              //console.log(val, val.books)
-              useTunes[val.id] = val
-            }
-          })
-        } 
-        function doFallback() {
-          // fallback to first song
-          if (Object.keys(useTunes).length > 0)  {
-            var next = useTunes[Object.keys(useTunes)[0]]
-            if (next && next.id) {
-              setCurrentTune(next.id)
-              navigate('/tunes/' + next.id)
-            }
-          }
-        }
+        //var useTunes = tunes
+        //if (currentTuneBook) {
+          //useTunes = {}
+          //var filtered = Object.values(tunes)
+          //filtered.sort(function(a,b) { 
+              //return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          //})
+          //filtered.forEach(function(val) {
+            //if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
+              ////console.log(val, val.books)
+              //useTunes[val.id] = val
+            //}
+          //})
+        //} 
+        //function doFallback() {
+          //// fallback to first song
+          //if (Object.keys(useTunes).length > 0)  {
+            //var next = useTunes[Object.keys(useTunes)[0]]
+            //if (next && next.id) {
+              //setCurrentTune(next.id)
+              //navigate('/tunes/' + next.id)
+            //}
+          //}
+        //}
         if (currentSongId) {
+            var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
+          console.log("NEXT aa ", useTunes)
+          useTunes.sort(function(a,b) { 
+            return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          })
+          if (groupBy) {
+              useTunes.sort(function(a,b) { 
+                return (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) ? -1 : 1
+              })
+          }
           // find tune index allowing tunebook filter
           var i = 0
           var found = null
@@ -82,16 +92,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               }
               i++
           }
+          //console.log("NEXT found ",found)
           if (found) {
             setCurrentTune(found)
             navigate('/tunes/' + found)
-          } else {
-            doFallback()
           }
-        // no current tunebook means only tunes with no books
-        } else {
-          doFallback()
-        }
+        } 
+        
     }
   }
   
@@ -112,36 +119,24 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var currentTune = newPL.currentTune > 0 ? newPL.currentTune : 0
         newPL.currentTune = currentTune - 1 % mediaPlaylist.tunes.length
         setMediaPlaylist(newPL)
-        if (abcPlaylist.tunes && mediaPlaylist.tunes[newPL.currentTune] && mediaPlaylist.tunes[newPL.currentTune].id) {
+        if (mediaPlaylist.tunes && mediaPlaylist.tunes[newPL.currentTune] && mediaPlaylist.tunes[newPL.currentTune].id) {
             navigate("/tunes/"+mediaPlaylist.tunes[newPL.currentTune].id+"/playMedia") 
         }
     } else {
-            
-        var useTunes = tunes
-        if (currentTuneBook) {
-          useTunes = {}
-          var filtered = Object.values(tunes)
-          filtered.sort(function(a,b) { 
-              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-          })
-          filtered.forEach(function(val) {
-            if (val && val.id && val.books && val.books.indexOf(currentTuneBook) !== -1) {
-              //console.log(val, val.books)
-              useTunes[val.id] = val
-            }
-          })
-        } 
-        function doFallback() {
-          // fallback to first song
-          if (Object.keys(useTunes).length > 0)  {
-            var next = useTunes[Object.keys(useTunes)[Object.keys(useTunes).length - 1]]
-            if (next && next.id) {
-              setCurrentTune(next.id)
-              navigate('/tunes/' + next.id)
-            }
-          }
-        }
+        //console.log("PREV aa")
         if (currentSongId) {
+            
+          var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
+          //console.log("PREVa aa ", useTunes)
+          useTunes.sort(function(a,b) { 
+            return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          })
+          if (groupBy) {
+              useTunes.sort(function(a,b) { 
+                  if (!a[groupBy] ) return 1
+                return (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) ? -1 : 1
+              })
+          }
           // find tune index allowing tunebook filter
           var i = 0
           var found = null
@@ -156,16 +151,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               }
               i++
           }
+          //console.log("PREV found ",found)
           if (found) {
             setCurrentTune(found)
             navigate('/tunes/' + found)
-          } else {
-            doFallback()
           }
-        // no current tunebook means only tunes with no books
-        } else {
-          doFallback()
         }
+        
     }
   }
   
@@ -232,7 +224,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   // 5 seconds debounce on online save
   // allow 10 seconds after save before polling for more updates
   function saveTunesOnline() {
-       updateSheet(5000).then(function() {
+       return updateSheet(5000).then(function() {
           setTimeout(function() {
             pauseSheetUpdates.current = false
           },10000)
@@ -275,12 +267,75 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   
+  function addTunesToTag(tuneIds,tag) {
+      //console.log()
+    if (Array.isArray(tuneIds) && tag && tag.trim()) {
+       pauseSheetUpdates.current = true
+       tuneIds.forEach(function(id) {
+        if (tunes[id]) {
+          var tags = Array.isArray(tunes[id].tags) ? tunes[id].tags : []
+          if (tags.indexOf(tag) === -1) {
+            tags.push(tag.trim())
+            tunes[id].tags = tags
+          }
+        }
+      })
+      setTunes(tunes)
+      saveTunesOnline()
+    }
+  }
+  
+  function removeTunesFromTag(tuneIds,tag) {
+    if (Array.isArray(tuneIds) && tag && tag.trim()) {
+      pauseSheetUpdates.current = true
+      tuneIds.forEach(function(id) {
+        if (tunes[id]) {
+          var tags = Array.isArray(tunes[id].tags) ? tunes[id].tags : []
+          if (tags.indexOf(tag) !== -1) {
+            tags.splice(tags.indexOf(tag),1)
+            tunes[id].tags = tags
+          }
+        }
+      })
+      setTunes(tunes)
+      saveTunesOnline()
+    }
+  }
+  
+  //props.tunebook.bulkChangeTunes(Object.keys(props.selected), key, value)
+  function bulkChangeTunes(tuneIds,key, value) {
+    if (Array.isArray(tuneIds)) {
+      pauseSheetUpdates.current = true
+      tuneIds.forEach(function(id) {
+        if (tunes[id] && key) {
+            if (Array.isArray(tunes[id][key]) && Array.isArray(value) ) {
+                value.forEach(function(v) {
+                    tunes[id][key].push(value)
+                })
+            } else {
+                tunes[id][key] = value
+            }
+            
+          //var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
+          //if (books.indexOf(book) !== -1) {
+            //books.splice(books.indexOf(book),1)
+            //tunes[id].books = books
+          //}
+        }
+      })
+      //console.log('bulk change',tuneIds)
+      setTunes(tunes)
+      
+    }
+    return saveTunesOnline()
+  }
+  
   
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    console.log('apply merge',data)
+    //console.log('apply merge',data)
     return new Promise(function(resolve,reject) {
         utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-            console.log('havetunes',  tunes, tunesHash)
+            //console.log('havetunes',  tunes, tunesHash)
       
             var {inserts, updates, duplicates, localUpdates} = data
             //
@@ -296,7 +351,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 tunes[updates[u].id] = updates[u]
               }
             })
-            console.log('done updates')
+            //console.log('done updates')
             
             
             Object.values(inserts).forEach(function(tune) {
@@ -306,7 +361,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               var newTune = createTune(tune,true)
               tunes[tune.id] = newTune
             })
-            console.log('done inserts')
+            //console.log('done inserts')
             // any more recent changes locally get saved online
             if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
               Object.values(localUpdates).forEach(function(tune) {
@@ -316,7 +371,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               })
               //updateSheet(0)
             } 
-            console.log('done local updates')
+            //console.log('done local updates')
             // any more recent changes locally get saved online
             if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
               Object.values(duplicates).forEach(function(tune) {
@@ -326,12 +381,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               })
               //updateSheet(0)
             } 
-            console.log('done dups')
+            //console.log('done dups')
             if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
-                console.log('FINALLY SET ',tunes)
+                //console.log('FINALLY SET ',tunes)
               setTunes(tunes)
               buildTunesHash()
               indexes.resetBookIndex()
+              indexes.resetTagIndex()
               indexes.indexTunes(tunes)
               setImportResults(null)
               saveTunesOnline()
@@ -345,7 +401,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    console.log('apply',importResults)
+    //console.log('apply',importResults)
     
     var {inserts, updates, duplicates, localUpdates} = data
     //
@@ -361,7 +417,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         tunes[updates[u].id] = updates[u]
       }
     })
-    console.log('done updates')
+    //console.log('done updates')
     
     
     Object.values(inserts).forEach(function(tune) {
@@ -371,7 +427,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       var newTune = createTune(tune,true)
       tunes[tune.id] = newTune
     })
-    console.log('done inserts')
+    //console.log('done inserts')
     // any more recent changes locally get saved online
     if (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) {
       Object.values(localUpdates).forEach(function(tune) {
@@ -381,7 +437,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       })
       //updateSheet(0)
     } 
-    console.log('done local updates')
+    //console.log('done local updates')
     // any more recent changes locally get saved online
     if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
       Object.values(duplicates).forEach(function(tune) {
@@ -391,12 +447,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       })
       //updateSheet(0)
     } 
-    console.log('done dups')
+    //console.log('done dups')
     if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
-        console.log('FINALLY SET ',tunes)
+        //console.log('FINALLY SET ',tunes)
       setTunes(tunes)
       buildTunesHash()
       indexes.resetBookIndex()
+      indexes.resetTagIndex()
       indexes.indexTunes(tunes)
       setImportResults(null)
       saveTunesOnline()
@@ -508,8 +565,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
-  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null) {
-      console.log('importabc', forceBook)
+  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null) {
+      //console.log('importabc', forceBook, limitToTuneId, limitToBookName, limitToTagName)
       buildTunesHash(tunes)
       var duplicates=[]
       var inserts=[]
@@ -522,9 +579,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var intunes = abcTools.abc2Tunebook(abc)
         //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
         intunes.forEach(function(tune) {
-          if ((!limitToTuneId || tune.id === limitToTuneId) && (!limitToBookName || tune.books.indexOf(limitToBookName) !== -1))  {
+          if ((!limitToTuneId || tune.id === limitToTuneId) && (!limitToBookName || tune.books.indexOf(limitToBookName) !== -1) && (!limitToTagName || (Array.isArray(tune.tags) && tune.tags.indexOf(limitToTagName) !== -1)))  {
             var hasNotes = false
             var hasChords = false
+            tune.boost = 0 // reset boost on import
             if (tune.voices) {
                 Object.values(tune.voices).forEach(function(voice) {
                     if (Array.isArray(voice.notes)) {
@@ -624,7 +682,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
       saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus}
-      console.log('imported SABC',final)
+      //console.log('imported SABC',final)
       setImportResults(final)
       return final
   }
@@ -659,11 +717,36 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //console.log("search TUNEBOOKOPTIONS",filter,opts,filtered)
       return filtered
   }
+  
+  
+  
+    function getTuneTagOptions() {
+      var final = {}
+      Object.keys(indexes.tagIndex).forEach(function(tuneTagKey) {
+          final[tuneTagKey] = tuneTagKey
+      })
+      //console.log("GET TUNEBOOKOPTIONS",indexes,final)
+      return final
+  }
+  
+  function getSearchTuneTagOptions(filter) {
+      var opts = getTuneTagOptions()
+      var filtered = {}
+      Object.keys(opts).forEach(function(key) {
+          var val = opts[key]
+          if (val && val.indexOf(filter) !== -1) {
+              filtered[key] = val
+          }
+      })
+    //console.log("search TUNEBOOKOPTIONS",filter,opts,filtered)
+      return filtered
+  }
     
   function resetTuneBook() {
     pauseSheetUpdates.current = true
     setTunes({})
     indexes.resetBookIndex()
+    indexes.resetTagIndex()
     buildTunesHash()
     saveTunesOnline()
   }
@@ -677,7 +760,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
         //console.log('delete tune book book MATCH',book,tune.books.length)
         if (tune.books.length > 1) {
-          console.log('update books lose '+book)
+          //console.log('update books lose '+book)
           //,tune.books.indexOf(book),JSON.parse(JSON.stringify(tune.books)),JSON.parse(JSON.stringify(tune.books.splice(tune.books.indexOf(book),1))) )
           //console.log('before '+JSON.stringify(tune.books))
           tune.books.splice(tune.books.indexOf(book),1)
@@ -748,6 +831,15 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     return res
   }
   
+  function fromSearch(filter, bookFilter, tagFilter) {
+    //console.log('from book',book, tunes)
+    var res = Object.values(tunes).filter(function(tune) {
+        return filterSearch(tune, filter, bookFilter, tagFilter)
+    })
+    //console.log('to abc res',res)
+    return res
+  }
+  
   function fromSelection(selection) {
     //console.log('from book',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
@@ -760,6 +852,51 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //console.log('to abc res',res)
     return res
   }
+  
+  // create an index of list items collated by groupBy
+    function groupTunes(items) {
+        //console.log('gropu tunes',groupBy)
+        var collated = {}
+        if (groupBy) {
+            items.forEach(function(item,itemKey) {
+                var key = ''
+                if (Array.isArray(item[groupBy])) {
+                    //console.log('array',item[groupBy])
+                    key = item[groupBy].sort().filter(function(a) {console.log(a); return (currentTuneBook && a != currentTuneBook)  }).join(", ")
+                } else {
+                    //console.log('no array',item[groupBy])
+                    key = item[groupBy]
+                    if (key > 0) {
+                        key = parseInt(key)
+                    } else if (key && key.trim && key.trim) {
+                        key = key.trim()
+                    } else {
+                        key = ''
+                    }
+                }
+                if (key) {
+                    //console.log('key',key)
+                    if (!collated.hasOwnProperty(key)) {
+                        collated[key] = []
+                        collated[key].push(itemKey)
+                    } else {
+                        collated[key].push(itemKey)
+                    }
+                } else {
+                    //console.log('nokey')
+                    if (!collated.hasOwnProperty('')) {
+                        collated[''] = []
+                    }
+                    collated[''].push(itemKey)  
+                }
+            })
+        }
+        //console.log('gropu tunes coll',collated)
+        
+        return collated
+    }
+  
+  
   function shuffle(array) {
       let currentIndex = array.length,  randomIndex;
 
@@ -771,15 +908,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         currentIndex--;
 
         // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-          array[randomIndex], array[currentIndex]];
+        var tmp = array[randomIndex]
+        array[randomIndex] = array[currentIndex]  
+        array[currentIndex] = tmp
+        //[array[currentIndex], array[randomIndex]] = [
+          //array[randomIndex], array[currentIndex]];
       }
 
       return array;
     }
   function mediaFromBook(book, useTunes) {
     if (!useTunes) useTunes = tunes
-    console.log('from book',book, useTunes)
+    //console.log('from book',book, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
         if (book) {
           if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
@@ -812,6 +952,69 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
     })
     //console.log('to abc res',res)
+    res = shuffle(res)
+    return res
+  }
+  
+  function filterSearch(tune, filter, bookFilter, tagFilter) {
+       //console.log('filterSearch',props.currentTuneBook,props.filter, props.tagFilter)
+        var filterOk = false
+        var bookFilterOk = false
+        var tagFilterOk = false
+        // no filters means show tunes with NO book selected
+        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0)  ) {
+            if (tune.books && tune.books.length > 0) {
+                return false
+            } else {
+                return true
+            }
+        }  else {
+            if (!filter || filter.trim().length === 0) {
+                filterOk = true
+            } else {
+                if (tune && ((tune.name && tune.name.trim().length > 0  && utils.toSearchText(tune.name.trim()).indexOf(utils.toSearchText(filter.trim())) !== -1) || (tune.composer && tune.composer.trim().length > 0  && utils.toSearchText(tune.composer.trim()).indexOf(utils.toSearchText(filter.trim())) !== -1))) {
+                    filterOk = true
+                } 
+            }
+            if (!bookFilter || bookFilter.trim().length === 0) {
+                bookFilterOk = true
+            } else {
+                if (tune && tune.books && tune.books.length > 0 && bookFilter.length > 0) {
+                    tune.books.forEach(function(book) {
+                        if (book.toLowerCase() === bookFilter.toLowerCase()) {
+                            bookFilterOk = true
+                        }
+                    })
+                } 
+            }
+            if (!Array.isArray(tagFilter) || tagFilter.length === 0) {
+                 //console.log('skip tag filt')
+                tagFilterOk = true
+            } else {
+                //console.log(' tag filt',tune.tags,tagFilter)
+                if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilter) && tagFilter.length > 0) {
+                    tagFilterOk = true
+                    tagFilter.forEach(function(tag) {
+                        if (tune.tags.indexOf(tag.toLowerCase()) !== -1) {
+                            //tagFilterOk = true
+                        } else {
+                            tagFilterOk = false
+                        }
+                    })
+                } 
+            }
+            //console.log('FILTER',tune,props.filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
+            return (filterOk && bookFilterOk && tagFilterOk)
+        }
+    }
+  
+  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null) {
+    if (!useTunes) useTunes = tunes
+    console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
+    var res = Object.values(useTunes).filter(function(tune) {
+        return filterSearch(tune, filter, bookFilter, tagFilter)
+    })
+    console.log('to abc res',res)
     res = shuffle(res)
     return res
   }
@@ -866,17 +1069,48 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function fillMediaPlaylist(book, selectedIds = null) {
-        console.log('fill media',book, selectedIds)
-        var fillTunes = {}
+        //console.log('fill media',book, selectedIds)
+        var fillTunes = []
         if (selectedIds) {
             fillTunes=mediaFromSelection(selectedIds)
         } else if (book) {
             fillTunes=mediaFromBook(book)
         }
-        console.log('fill media tunes',fillTunes)
-        
+        //console.log('fill media tunes',fillTunes)
         shuffleArray(fillTunes)
-        setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
+        //console.log('shuffle media tunes',fillTunes)
+        if (Array.isArray(fillTunes)) {
+            fillTunes = fillTunes.sort(function(a,b) {
+                return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+            })
+            setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
+        }
+        setAbcPlaylist(null)
+    }
+    
+    function fillMediaPlaylistFromTag(tag) {
+        console.log('fill media by tag',tag)
+        var fillTunes = mediaFromSearch('','',[tag])
+        fillTunes = fillTunes.filter(function(tune) {
+              var ret = false
+              if (tune.links && tune.links.length > 0) {
+                    tune.links.forEach(function(link) {
+                      if (link.link && link.link.trim()) {
+                          ret = true
+                      }
+                    })
+              }
+              return ret
+        })
+        console.log('fill media tunes',fillTunes)
+        shuffleArray(fillTunes)
+        //console.log('shuffle media tunes',fillTunes)
+        if (Array.isArray(fillTunes)) {
+            fillTunes = fillTunes.sort(function(a,b) {
+                return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+            })
+            setMediaPlaylist({currentTune: 0, book:'', tunes:fillTunes})
+        }
         setAbcPlaylist(null)
     }
     
@@ -910,6 +1144,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes=fromBook(book)
             shuffleArray(fillTunes)
         }
+        fillTunes = fillTunes.sort(function(a,b) {
+            return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+        })
         //console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
         setMediaPlaylist(null)
@@ -919,6 +1156,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, clearBoost,applyImport, importAbc, toAbc, fromBook,fromSelection, mediaFromBook, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist,fillMediaPlaylistFromTag, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes  };
 }
 export default useTuneBook

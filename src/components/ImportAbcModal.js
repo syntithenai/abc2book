@@ -25,7 +25,7 @@ function ImportAbcModal(props) {
     //console.log('import',list)
       //console.log("gotres",res.data.length)
       var results = props.tunebook.importAbc(list,props.currentTuneBook)
-      console.log("gotreeees",results)
+      //console.log("gotreeees",results)
       if (!props.tunebook.showImportWarning(results)) {
           props.tunebook.applyImportData(results)
           navigate("/tunes")

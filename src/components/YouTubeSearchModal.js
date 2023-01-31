@@ -63,7 +63,7 @@ function YouTubeSearchModal(props) {
   function searchOptions(filter) {
     return new Promise(function(resolve,reject) {
       
-      console.log('SEARCH',filter)
+      //console.log('SEARCH',filter)
       axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=' + filter + '&key='+process.env.REACT_APP_GOOGLE_API_KEY).then(function(searchRes) {
         var results = []
         if (searchRes && searchRes.error) {
@@ -86,7 +86,7 @@ function YouTubeSearchModal(props) {
               }
           })
         }
-        console.log(results)
+        //console.log(results)
         resolve( results)
       }).catch((err) => {
           console.log(err)
@@ -108,7 +108,7 @@ function YouTubeSearchModal(props) {
   
     
   function selectLink(link) {
-      console.log('select link ', link, props)
+      //console.log('select link ', link, props)
       props.onChange(link)
       handleClose()
   }
