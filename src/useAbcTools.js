@@ -176,6 +176,8 @@ var useAbcTools = () => {
                     //console.log('FOUNDID',tune.id,line)
                 } else if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
+                } else if (line.startsWith('% abcbook-difficulty')) {
+                    tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-transpose')) {
@@ -225,6 +227,28 @@ var useAbcTools = () => {
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
                                 links[numberParts[0]].title = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-link-start-at-')) {
+                        var parts = line.trim().split('% abcbook-link-start-at-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!links[numberParts[0]]) links[numberParts[0]] = {}
+                                links[numberParts[0]].startAt = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-link-end-at-')) {
+                        var parts = line.trim().split('% abcbook-link-end-at-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!links[numberParts[0]]) links[numberParts[0]] = {}
+                                links[numberParts[0]].endAt = numberParts.slice(1).join(' ')
                             }
                         }
                     } else {
@@ -328,6 +352,12 @@ var useAbcTools = () => {
                     if (link.title) {
                         linksRendered.push("% abcbook-link-title-"+k + ' ' +  ensureText(link.title,"") )
                     }
+                    if (link.startAt) {
+                        linksRendered.push("% abcbook-link-start-at-"+k + ' ' +  ensureText(link.startAt,"") )
+                    }
+                    if (link.endAt) {
+                        linksRendered.push("% abcbook-link-end-at-"+k + ' ' +  ensureText(link.endAt,"") )
+                    }
                 }
             })
         }
@@ -368,6 +398,7 @@ var useAbcTools = () => {
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     + "% abcbook-boost " +  ensureInteger(boost,0) + "\n" 
+                    + "% abcbook-difficulty " +  ensureInteger(tune.difficulty,0) + "\n" 
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 

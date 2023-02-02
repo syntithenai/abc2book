@@ -37,12 +37,15 @@ function LocalSearchSelectorModal(props) {
   },[show])
   
   function selectSetting(setting) {
-    //console.log('select setting ', setting)
-    var tune = props.tunebook.abcTools.abc2json(setting)
-    tune.id = props.currentTune.id
-    tune.books = props.currentTune.books
-    props.tunebook.saveTune(tune)
-    //props.forceRefresh()
+    console.log('select setting ', setting, props.currentTune)
+    if (props.currentTune && setting) {
+        var tune = props.tunebook.abcTools.abc2json(setting)
+        tune.id  = props.currentTune.id
+        tune.books = props.currentTune.books
+        tune.tags = props.currentTune.tags
+        console.log('final tuine ',tune) 
+        props.tunebook.saveTune(tune)
+    }
   }
   
   function selectSettingAsVoice(settingAbc, tune) {
@@ -211,12 +214,9 @@ function LocalSearchSelectorModal(props) {
                   selectSetting(setting); 
                 }
                 setShow(false)
-              }} > Replace Tune</Button>
+              }} > Select</Button>
               
-              <Button  style={{float:'right'}} onClick={function(e) {
-                selectSettingAsVoice(setting, tune); 
-                setShow(false)
-              }} > Import Voices</Button>
+             
               
               <Abc abc={useSetting}  tunebook={props.tunebook} />
               <hr style={{width:'100%'}} />
@@ -248,3 +248,7 @@ function LocalSearchSelectorModal(props) {
   );
 }
 export default LocalSearchSelectorModal
+ //<Button  style={{float:'right'}} onClick={function(e) {
+                //selectSettingAsVoice(setting, tune); 
+                //setShow(false)
+              //}} > Import Voices</Button>

@@ -389,7 +389,9 @@ export default function Abc(props) {
             // SPEAK THE TITLE ?
             if (props.speakTitle && tune) {
               //console.log('speak',tune)
-              window.speak(tune.name)
+              var toSpeak = tune.name
+              if (tune.composer) toSpeak += " by " + tune.composer
+              window.speak(toSpeak)
               setTimeout(function() {
                 startWithMetronome()
               }, 1000)
@@ -414,6 +416,7 @@ export default function Abc(props) {
       setForceStop(false)
       //if (audioContext.current && midiBuffer.current) {
           ////console.log('start ok - tune primed')
+      
       startPrimedTune()
       if (props.onStarted) props.onStarted()
       //}

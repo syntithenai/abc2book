@@ -59,16 +59,45 @@ function TheSessionSearchSelectorModal(props) {
   },[show])
   
   function selectSetting(setting) {
-    //console.log('select setting ', setting, foundTune)
-    var tune = foundTune
-    if (tune) {
-      tune.voices = {'1': {meta:'',notes:setting.abc.split("\n")}}
-      tune.key = setting.key
-      tune.id = props.currentTune.id
-      tune.books = props.currentTune.books
-      props.tunebook.saveTune(tune)
-      //props.forceRefresh()
+    console.log('select setting ', setting, foundTune, props.currentTune)
+    if (props.currentTune && foundTune && setting && setting.abc ) {
+        var tune = foundTune
+        var voiceTune = props.tunebook.abcTools.abc2json(setting.abc)
+        if (props.currentTune) {
+            //Object.keys(props.currentTune).forEach(function(k) {
+                //tune[k] = props.currentTune[k]
+            //})
+            tune.id  = props.currentTune.id
+            tune.name = props.currentTune.name
+            tune.books = props.currentTune.books
+            tune.tags = props.currentTune.tags
+            tune.key = setting.key
+            tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(tune.type)
+            tune.rhythm = tune.type
+            tune.voices = {'1': {meta:'',notes:setting.abc.split("\n")}}
+            console.log('final tuine ',tune) 
+            props.tunebook.saveTune(tune)
+        }
+        //var tune = props.currentTune
+        //// import specific fields
+        //tune.key = newTune.key
+        //tune.rhythm = newTune.rhythm
+        //tune.tempo = newTune.tempo
+        //tune.composer = newTune.composer
+        //tune.meter = newTune.meter
+        //tune.noteLength = newTune.noteLength
+        
     }
+    
+    //var tune = foundTune
+    //if (tune) {
+      //tune.voices = {'1': {meta:'',notes:setting.abc.split("\n")}}
+      //tune.key = setting.key
+      //tune.id = props.currentTune.id
+      //tune.books = props.currentTune.books
+      //props.tunebook.saveTune(tune)
+      ////props.forceRefresh()
+    //}
   }
     
   function selectTune(tuneId) {

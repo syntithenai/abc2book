@@ -184,16 +184,20 @@ export default function SelectedItemsModal(props) {
     if (window.confirm("Are you sure that you want to delete all the selected tunes?")) {
       props.tunebook.deleteTunes(Object.keys(props.selected))
       //setTimeout(function() {
-        props.forceRefresh()
-        handleClose()
         props.setSelected({})
+        props.setSelectedCount(0)
+        handleClose()
+        props.forceRefresh()
+        
       //},1000)
       
       
     }
   }
   
-  
+  function clickDownload() {
+      
+  }
   
   //function fillMediaPlaylist() {
     //var tunes=props.tunebook.mediaFromSelection(props.selected)
@@ -237,7 +241,7 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
                  
              </div>
              
-            
+              <Button style={{float:'right'}} variant="success" onClick={clickDownload} >Download</Button>
               <Button style={{float:'right'}} variant="danger" onClick={clickDelete} >Delete</Button>
           </div>    
          

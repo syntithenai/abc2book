@@ -19,16 +19,20 @@ function BoostSettingsModal(props) {
     setShow(true);
   }
   const boostUp = (e) => {
-      e.preventDefault(); 
-      e.stopPropagation();
-      
-      let newBoost = parseInt(boost > 0 ? boost : 0) + 1
+      if (e) {
+          e.preventDefault(); 
+          e.stopPropagation();
+      }
+      let newBoost = (parseInt(boost > 0 ? boost : 0) + 1) %20
+      //console.log('BUP',newBoost)
       setBoost(newBoost)
       props.onChange(newBoost)
   }
   const boostDown = (e) => {
-      e.preventDefault(); 
-      e.stopPropagation();
+      if (e) {
+          e.preventDefault(); 
+          e.stopPropagation();
+      }
       let newBoost = parseInt(boost) - 1
       setBoost(newBoost > 0 ? newBoost : 0)
       props.onChange(newBoost > 0 ? newBoost : 0)
@@ -60,12 +64,13 @@ function BoostSettingsModal(props) {
         </Modal.Header>
         <Modal.Body style={{height:'40em'}}>
           <Button style={{float:'right', marginLeft: '2em'}}  variant="success" onClick={function() {
-              var b = 0
-              if (parseInt(boost) > 0) {
-                  b = (parseInt(boost) + 1)%20
-              } 
-              setBoost(b)
-              props.onChange(b)
+              //var b = 0
+              //if (parseInt(boost) > 0) {
+                  //b = (parseInt(boost) + 1)%20
+              //} 
+              //setBoost(b)
+              //props.onChange(b)
+              boostUp()
           }} >{props.tunebook.icons.add} Boost</Button>
           
          <span  >{props.explicitSave ? 'How well do you know these tunes?' : 'How well do you know this tune?'}</span>
@@ -78,6 +83,15 @@ function BoostSettingsModal(props) {
                    props.onChange(e.target.value) 
               }     
             }}  />
+          
+          
+          {!props.explicitSave ? <>
+              <hr style={{width:'100%', borderTop:'2px solid black'}} />
+              <h4 style={{marginTop:'1em'}} >Difficulty {props.difficulty} </h4>
+              <input style={{width:'100%'}} type="range"  name="difficulty" min="0" max="20" step="1" value={props.difficulty} onChange={function(e) { 
+                  props.onChangeDifficulty(e.target.value) 
+              }}  />
+           </> : null }
            {props.explicitSave ? <> 
             <Button variant="success" onClick={function() {
                 var currentSelection = Object.keys(props.selected).filter(function(item) {

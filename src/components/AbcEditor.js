@@ -234,6 +234,15 @@ export default function AbcEditor(props) {
                         <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
+                      <Form.Group className="mb-3" controlId="boost">
+                        <Form.Label>Boost</Form.Label>
+                        <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                      </Form.Group>
+                      
+                      <Form.Group className="mb-3" controlId="difficulty">
+                        <Form.Label>Difficulty</Form.Label>
+                        <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                      </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="noteLength">
                         <Form.Label>ABC Note Length</Form.Label>

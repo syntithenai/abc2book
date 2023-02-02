@@ -28,7 +28,16 @@ function ImportAbcModal(props) {
       //console.log("gotreeees",results)
       if (!props.tunebook.showImportWarning(results)) {
           props.tunebook.applyImportData(results)
-          navigate("/tunes")
+          setTimeout(function() {
+              if (props.currentTuneBook) {
+                  navigate("/blank")
+                  setTimeout(function() {
+                    navigate("/tunes")
+                  },200)
+              } else {
+                navigate("/books")
+              }
+          },800)
           
       }
     

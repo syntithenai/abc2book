@@ -30,6 +30,7 @@ export default function MusicSingle(props) {
     let navigate = useNavigate();
     const audioPlayer = useRef(); 
     var youtubeProgressInterval = useRef()
+    var speakTimeout = null
     //var {searchYouTube} = useYouTubeSearch()
     //console.log('single',props)
     const [showMedia, setShowMedia] = useState(false)
@@ -41,6 +42,7 @@ export default function MusicSingle(props) {
     const [mediaRefresh, setMediaRefresh] = useState(new Date())
     const [isPlaying, setIsPlaying] = useState(false)
     const [autoStart, setAutoStart] = useState(false)
+    const [hasSpoken, setHasSpoken] = useState(false)
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
@@ -274,6 +276,7 @@ export default function MusicSingle(props) {
             ////stop()
             //seek(0)
             //start()
+            
             if (props.mediaPlaylist || props.abcPlaylist) {
                 nextLinkOrTune()
             }
@@ -346,7 +349,7 @@ export default function MusicSingle(props) {
                        <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link>
                  </ButtonGroup>   
                 
-                <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+                <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
                 
                 
                 
@@ -455,8 +458,8 @@ export default function MusicSingle(props) {
              {<>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
                  <div id={"abccontainer-"+(autoStart?"Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
-                    {autoStart && <Abc autoStart={true} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
-                     {!autoStart && <Abc autoStart={false} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
+                    {autoStart && <Abc speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
+                     {!autoStart && <Abc  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
                   </div>
              </>}
              
@@ -503,8 +506,14 @@ export default function MusicSingle(props) {
               {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
                         {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
                             onCanPlay={function(event) { 
-                                setMediaLoading(false); 
+                                setMediaLoading(false);
+                                var toSpeak = tune.name
+                                if (tune.composer) toSpeak += " by " + tune.composer
+                                if (!hasSpoken) window.speak(toSpeak)
+                                setHasSpoken(true)
                                 setIsPlaying(true)
+                                
+                                
                             }} 
                             width="1px" height="1px" autoPlay={"true"} 
                             onEnded={function() {
@@ -557,8 +566,14 @@ export default function MusicSingle(props) {
                                 onReady={
                                     function(event) {
                                         setYTMediaPlayer(event.target); 
+                                        console.log('YTREDD')
+                                        var toSpeak = tune.name
+                                        if (tune.composer) toSpeak += " by " + tune.composer
+                                        if (!hasSpoken) window.speak(toSpeak)
+                                        setHasSpoken(true)
                                         event.target.playVideo()
                                         setIsPlaying(true)
+                                        
                                     }    
                                 }
                                 onStateChange={

@@ -12,6 +12,7 @@ export default function SettingsPage(props) {
   const [preRenderAudioCheckbox,setPreRenderAudioCheckbox] = useState(localStorage.getItem('bookstorage_autoprime') === "true"  ? true : false)
   const [mergeWarningsCheckbox,setMergeWarningsCheckbox] = useState(localStorage.getItem('bookstorage_mergewarnings') === "true"  ? true : false)
    const [inlineAudioCheckbox,setInlineAudioCheckbox] = useState(localStorage.getItem('bookstorage_inlineaudio') === "true"  ? true : false)
+   const [announceSongCheckbox,setAnnounceSongCheckbox] = useState(localStorage.getItem('bookstorage_announcesong') === "true"  ? true : false)
   
   function clickPreRenderAudio() {
       var current = localStorage.getItem('bookstorage_autoprime')
@@ -49,6 +50,17 @@ export default function SettingsPage(props) {
       
    }
   
+   function clickEnableAnnounceSong() {
+      var current = localStorage.getItem('bookstorage_announcesong')
+      if (current === "true") {
+        localStorage.setItem('bookstorage_announcesong',"false")
+        setAnnounceSongCheckbox('')
+      } else {
+        localStorage.setItem('bookstorage_announcesong',"true")
+        setAnnounceSongCheckbox(true)
+      } 
+      
+   }
   
     return <div className="App-settings">
     <h1>Settings</h1>
@@ -85,6 +97,12 @@ export default function SettingsPage(props) {
        <div>
          <label>Enable Inline Audio ?<input type="checkbox" onChange={clickEnableInlineAudio} checked={inlineAudioCheckbox} /></label>
          <br/><b>This will make your song book much bigger so online synchronisation will be slower.</b>
+         <br/><b></b>
+       </div>
+       <hr style={{margin:'1em'}}  />
+        <div>
+         <label>Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
+         <br/><b>The software will speak the title before playing the tune.</b>
          <br/><b></b>
        </div>
     </div>

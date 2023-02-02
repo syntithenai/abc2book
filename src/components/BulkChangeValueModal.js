@@ -64,6 +64,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
               <option value="meter">Time Signature</option>
               <option value="tempo">Tempo</option>
               <option value="boost">Confidence</option>
+              <option value="difficulty">Difficulty</option>
               <option value="rhythm">Rhythm</option>
               <option value="composer">Composer</option>
               <option value="tranpose">Transpose</option>

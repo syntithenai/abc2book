@@ -47,7 +47,7 @@ var useIndexes = () => {
     function removeTune(tune, bookIndex) {
         var final = {}
         if (tune && tune.id) {
-            console.log('remove index',bookIndex,tune)
+            //console.log('remove index',bookIndex,tune)
             //return bookIndex
             
             Object.keys(bookIndex).forEach(function(bookName) {

@@ -59,7 +59,7 @@ export default function IndexLayout(props) {
           //console.log("filtered",filtered, 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter)
           
           filtered.sort(function(a,b) { 
-              return (a.name && b.name && a.name.trim() < b.name.trim()) ? -1 : 1
+              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
           })
           if (props.groupBy) {
               setGrouped(props.tunebook.groupTunes(filtered))
@@ -111,6 +111,9 @@ export default function IndexLayout(props) {
         } else  {
             //console.log("no books")
             var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
+            filtered.sort(function(a,b) { 
+                  return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+            })
             if (props.groupBy) {
                   setGrouped(props.tunebook.groupTunes(filtered))
             } else {
@@ -284,7 +287,7 @@ export default function IndexLayout(props) {
                     {tune.key && <Button style={{ marginRight:'1em', float:'right'}} variant={'outline-success'}   >{tune.key}</Button>}
                     {tune.meter && <Button style={{ marginRight:'0.1em', float:'right'}} variant={'outline-success'}   >{tune.meter}</Button>}
                     {tune.tempo ? <Button style={{ marginRight:'0.1em', float:'right'}} variant={'outline-info'}   >{tune.tempo}</Button> : ''}
-                    <span style={{float:'right', marginRight:'0.5em'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+                    <span style={{float:'right', marginRight:'0.5em'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}}  /></span  >
                 </>}
                     
                 <span><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" style={{minWidth:'30%'}} >{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{tune.composer ? ' - ' + tune.composer : ''}</span></Button> </Link></span>
@@ -315,7 +318,7 @@ export default function IndexLayout(props) {
         
         {filtered.length > 0 &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
         
-        {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={selectedCount} />}
+        {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={selectedCount} setSelectedCount={setSelectedCount} />}
         
         {selectedCount > 0 && <span style={{marginLeft:'0.5em'}} >{selectedCount}/{filtered.length} tunes selected</span>}
         {selectedCount === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
