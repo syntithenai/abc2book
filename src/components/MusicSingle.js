@@ -12,6 +12,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import YouTube from 'react-youtube';  
 import LinksEditorModal from './LinksEditorModal'
+import ViewModeSelectorModal from './ViewModeSelectorModal'
 import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
 
@@ -362,12 +363,8 @@ export default function MusicSingle(props) {
                 
                     className=""
                   >
-                    <ButtonGroup aria-label="First group" variant="info" style={{float:'left', marginLeft:'0.2em'}}
-                    >
-                      <Button onClick={function() {props.setViewMode('music')}} variant="secondary">{props.tunebook.icons.music}</Button>{' '}
-                      <Button onClick={function() {props.setViewMode('chords'); console.log('set chords',props.viewMode)}}  variant="secondary">{props.tunebook.icons.guitar}</Button>{' '}
-                      
-                    </ButtonGroup>
+                  
+                  <span style={{float:'left', marginLeft:'0.1em'}} ><ViewModeSelectorModal tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                     
                     
     
