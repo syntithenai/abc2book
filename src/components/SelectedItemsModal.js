@@ -196,7 +196,7 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickDownload() {
-      
+      props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(props.tunebook.fromSelection(props.selected))) 
   }
   
   //function fillMediaPlaylist() {
@@ -241,7 +241,7 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
                  
              </div>
              
-              <Button style={{float:'right'}} variant="success" onClick={clickDownload} >Download</Button>
+              <Button style={{float:'right', marginLeft:'0.2em'}} variant="success" onClick={clickDownload} >Download</Button>
               <Button style={{float:'right'}} variant="danger" onClick={clickDelete} >Delete</Button>
           </div>    
          
@@ -250,7 +250,7 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
                   <Tabs defaultActiveKey="addbook" >
                     <Tab  eventKey="addbook" title="Add">
                       <input type='search' value={filterAdd} onChange={function(e) {filterAddChange(e.target.value)}}   />
-                      {(props.allowNew !== false)  && <Button key="newbook" onClick={newBook}  >New Book</Button>}
+                      {(props.allowNew !== false)  && <Button style={{float:'right'}} key="newbook" onClick={newBook}  >New Book</Button>}
                       <ListGroup  style={{clear:'both', width: '100%'}}>
                         {sortedOptions.map(function(option,tk) {
                           return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function() {clickAddOption(options[option])}} >{options[option]}</ListGroup.Item>

@@ -1,3 +1,4 @@
+import PrivacyContent from '../components/PrivacyContent'
 import { Link  } from 'react-router-dom'
 import {Button, Tabs, Tab, Container} from 'react-bootstrap'
 //<li>Record your practice so you can hear what you sound like.</li>
@@ -15,6 +16,7 @@ export default function HelpPage(props) {
           <li>Import ABC and Music XML format music notation (unzipped single track music XML).</li>
           <li>Search and import tunes from thesession.org.</li>
           <li>Search and import tunes from the included database of abc format tunes scraped from the web.</li>
+          <li>Link Youtube videos to tunes and generate playlists.</li>
           <li>Use wizard tools to fix and apply transformations to music.</li>
           <li>Transpose a tune quickly by clicking on the key signature.</li>
           <li>Search for lyrics.</li>
@@ -41,14 +43,13 @@ export default function HelpPage(props) {
       <ul>
       <li>Once you visit the web page once, you will be able to open it again even if the Internet is disconnected. </li>
       <li>All the information managed by the software is stored on your device. </li>
-      <li>Almost all the features work without Internet. The main exception being access to online tune resources. Once you have imported some tunes they will be available without Internet.</li>
+      <li>Almost all the features work without Internet. The main exception being access to online tune resources. Once you have imported some tunes they will be available without Internet. Playback of YouTube also requires Internet access.</li>
       <li>Mobile devices will show an option to install the software as an App.</li>
       </ul>
       <div style={{fontSize:'1em'}}>
       You can optionally log in to the Tune Book using your Google Account using the green button <Button variant="success">{props.tunebook.icons.login}</Button> on the top menu. 
       <br/><br/>
-      Once logged in, all changes to your Tune Book by adding, deleting or editing tunes are saved to your Google Drive. Additionally any audio recordings are saved to your Google Drive.
-      <br/><br/>
+      Once logged in, all changes to your Tune Book by adding, deleting or editing tunes are saved to your Google Drive. <br/><br/>
       The tune book is loaded from a document in Google Drive named <b>ABC Tune Book</b> (even if it's in the Trash). By renaming this document in Google Drive, you can force the software to create a new tune book. 
       <br/><br/>
       If you log in to the same account on a different device, the software will attempt to synchronise your local database with the version stored online. If your local database needs to be updated, a list of changes will be shown along with choices to merge the changes, discard local changes or logout and ignore the version saved to Google Drive.
@@ -69,27 +70,75 @@ export default function HelpPage(props) {
       
       </Tab>
       <Tab eventKey="books" title="Books">
-      Books is the main way of organising your tunes.
+      Book and tags are the main way of organising your tunes.
       <br/><br/>
-      Each tune can be in many books.
+      Each tune can be in many books and have many tags.
       <br/><br/>
-      The search page allows filtering by book as well as title search.
+      
       <br/><br/>
-      The search list allows selecting multiple tunes and (using the grey dropdown at the top of the list) add or remove all selected tunes from a book.
+      The search page allows filtering by book and tag as well as title search.
+      <br/><br/>
+      The search list allows selecting multiple tunes and (using the grey dropdown at the top of the list) add or remove all selected tunes from a book or tag. The bulk editor also allows for changing a field value in many tunes.
       </Tab>
+      
       <Tab eventKey="editing" title="Editing">
       The tempo of a tune can be changed by clicking on the tempo mark in the music.
       Similarly the key signature can be changed by clicking on the clef or key signature.
       <br/><br/>
       The pencil icon on the music view page opens a more comprehensive editor which is divided into tabs.
       </Tab>
+      
       <Tab eventKey="chords" title="Chords">
       The software library that turns an ABC string into printable music is also able to play the music. Where chords are annotated with the music, it will generate and play an piano accompaniment.
       <br/><br/>
       Chords can be entered into the ABC notes by placing quotes around the chord name <i>eg aaaa"C"abcd| "F#m"dcba "Gbdim" ddd||</i>
+      <b>Chords are not saved automatically. Be sure to use the "Generate Music" button to save your chords.</b>
       <br/><br/>
       The harmony structure for a song can be quickly scaffolded using a more compressed format in the chords tab of the editing page.
+      <br/><br/>
       Chords entered as <i>eg C|F G|G F F C|C . G C</i> are used to generate abc notation.
+      <br/><br/>
+      <b>Chords are not saved automatically. Be sure to use the "Generate Music" button to save your chords.</b>
+      <br/><br/>
+
+      <hr/>
+      Depending on your needs, it is not necessary to include bar lines in entering chords. I find that if I copy the text with embedded chords from <a target='_new' href='https://tabs.ultimate-guitar.com/' >https://tabs.ultimate-guitar.com/</a>, I can delete all the lyrics lines and use the remaining lines of chord symbols to scaffold the harmony.
+      By using the same text but deleting all the chord symbols to paste in as lyrics, the chord blocks and lyrics line up.
+      This approach creates one bar of music per line of chords which may not be rhythmically accurate but is perhaps sufficient for a harmony player to work with.<br/><br/>
+        <hr/>
+      Chords can be forced to display in blocks by editing the ABC notes and adding double bar lines to the end of sections where you want a blank line between chord blocks.
+      <pre>
+      eg<br/>
+      C F G G<br/>
+      C G G C<br/>
+      ===> music notes (ABC)<br/>
+      "C"zzz"F"zzz"G"zzz"G"zzz|<br/>
+      "C"zzz"G"zzz"G"zzz"C"zzz|<br/>
+      <br/>
+      By editing the music to add double bar lines, the lyrics and chord view will show a blank line after double bar lines.<br/>
+      eg<br/>
+      "C"zzz"F"zzz"G"zzz"G"zzz||<br/>
+      "C"zzz"G"zzz"G"zzz"C"zzz|<br/>
+      ====> chord and lyrics view<br/>
+      C F G G<br/>
+      <br/>
+      C G G C<br/>
+      
+      </pre>
+      
+      
+      </Tab>
+      
+      
+     
+      <Tab eventKey="confidence" title="Confidence Tracking">
+      Tunes can be assigned a confidence (and difficulty) score between 0 and 20  using the button with the brain icon.
+      <br/><br/>
+      The benefits to maintaining this information include
+      <ul>
+        <li>Grouping by confidence or difficulty in the list.</li>
+        <li>Playlists are sorted by confidence so you hear your least confident tunes first.</li>
+      </ul>
       </Tab>
       
       
@@ -106,23 +155,23 @@ Lyric search and the chord wizard have made it quick to import a harmony framewo
 <br/><br/>
 It is is possible to write to create decent sounding music with ABC to midi and good soundfonts however most of what I have curated has been minimal. A clunky auto generated piano harmony and optionally the melody. It is a practice/organisation tool.
 <br/><br/>
+Associating Youtube tracks with tunes makes listening to a practice list much more pleasant.
+<br/><br/>
+<hr/>
 MusicXML is the wide spread standard for distributing detailed musical scores. Tools like MuseScore offer the ability to deal with complicated music.
 This tool offers to import MusicXML but the underlying library only works for simple single line melodies.
 <br/><br/>
 If you need to work with piano or orchestral scores, use another tool.
 This tool is best suited to musicians wanting to organise simple tunes and songs or those with an interest in traditional music.
 <br/><br/>
-    <h3>Curation</h3>
-I have a huge pile of paper with word and chords and scraps of music that runs back 35 years. It's grotty.<br/>
-I have many tunes in my head that I can track along with in a session but can only pull back a few by name.<br/>
-I know the words to parts of songs but few well enough to be able to lead a song.
+That said, ABC notation can be used to score multi part and multi instrument music.
 <br/><br/>
-I started with <a href='https://www.vfmc.org.au/FiresideFiddlers/indexBBS.html' target='_new'>Begged Borrowed and Stolen</a>, a collection of trad tunes well known here in the South East Australia. Many of our musical crews' shared tunes are sourced in that book. Then all the scraps of tunes and songs that I'd printed or been given along the way. As I worked through my goal was to ensure every tune could play if only a piano fill from chords. 
 
 
 
-
-
+      </Tab>
+      <Tab eventKey="privacy" title="Privacy">
+        <PrivacyContent/>
       </Tab>
       
     </Tabs>

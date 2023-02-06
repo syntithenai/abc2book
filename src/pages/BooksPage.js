@@ -182,7 +182,7 @@ export default function BooksPage(props) {
                     {props.tunebook.icons.save} Download
                 </Button>
                 </span>
-
+                <div style={{clear:'both'}} > </div>
                 <Tabs defaultActiveKey="books" >
                     <Tab  eventKey="books" title="Your Books">
                         <input style={{float:'left'}} type='search'  value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />

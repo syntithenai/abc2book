@@ -155,6 +155,7 @@ export default function Abc(props) {
          restart()
        } else if (parseInt(props.repeat) === 0) {
          stopPlaying()
+         
          if (props.onEnded) props.onEnded()
          if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
          if (gmidiBuffer && gmidiBuffer.current)  gmidiBuffer.current.seek(0)

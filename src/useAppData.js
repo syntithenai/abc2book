@@ -11,6 +11,15 @@ export default function useAppData() {
   var [filter, setFilter] = useState('')
   var [groupBy, setGroupBy] = useState('')
   var [tagFilter, setTagFilter] = useState('')
+  // list
+  var [filtered, setFiltered] = useState('')
+  var [grouped, setGrouped] = useState({})
+  var [tuneStatus, setTuneStatus] = useState({})
+  var [selected, setSelected] = useState({})
+  var [lastSelected, setLastSelected] = useState({})
+  var [selectedCount, setSelectedCount] = useState({})
+  var [listHash, setListHash] = useState('')
+  
   function forceRefresh() {
     setRefreshHash(utils.generateObjectId())
   }
@@ -58,10 +67,15 @@ export default function useAppData() {
   
   //const [tempo, setTempo] = useState('') //localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
   //const [showTempo, setShowTempo] = useState(false)
-  const [tunesHash, setTunesHashInner] = useState(utils.loadLocalObject('bookstorage_tunes_hash')) 
+  const [tunesHash, setTunesHashInner] = useState({})
+  useEffect(function() {
+      utils.loadLocalforageObject('bookstorage_tunes_hash').then(function(data) {
+        setTunesHashInner(data) 
+      })
+  }, [])
   function setTunesHash(val) {
     setTunesHashInner(val)
-    utils.saveLocalObject('bookstorage_tunes_hash', val)
+    utils.saveLocalforageObject('bookstorage_tunes_hash', val)
   }
   
   
@@ -176,7 +190,7 @@ export default function useAppData() {
   }
   
   
- return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset, abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter} 
+ return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset, abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash} 
   
 }
 //tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

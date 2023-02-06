@@ -1,0 +1,15 @@
+
+The source code for the software is available at https://github.com/syntithenai/abc2book/
+
+The software is developed using the React framework. It is delivered as a standalone web application that works without authentication but relies entirely on Google services for cloud persistence.
+
+The software uses the "Sign In With Google" to gain an Open Auth token for use with other Google services.
+
+A timeout function uses the refresh token to poll and maintain a fresh token while the user is active but the token is not persisted.
+
+The source code for working with YouTube search and playlists uses axios and the REST endpoints to make requests to the YouTube data api.
+
+Specifically
+- the https://www.googleapis.com/drive/v3/files apis for storing and retrieving the logged in users list of tunes.
+- https://youtube.googleapis.com/youtube/v3/playlists and https://youtube.googleapis.com/youtube/v3/playlists for importing and exporting playlists
+- https://youtube.googleapis.com/youtube/v3/search for looking up youtube videos

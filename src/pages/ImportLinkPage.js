@@ -53,13 +53,13 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                                     //forceRefresh()
                                     //console.log('aplay tunes from book',tunes)
                                     //setTunes(tunes)
+                                    setCurrentTuneBook('')
                                     if (params.bookName) {
-                                        setCurrentTuneBook('')
                                     //setTimeout(function() {
                                         setCurrentTuneBook(params.bookName)
                                     }
+                                    setTagFilter([])
                                     if (params.tagName) {
-                                        setTagFilter([])
                                         setTagFilter([params.tagName])
                                     }
                                     //navigate("/tunes")
@@ -67,13 +67,22 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                                     setClickToStart(true)
                                     //}, 200)
                               } else {  
+                                  setTagFilter([])
                                   if (params.tagName) {
-                                    setTagFilter([])
                                     setTagFilter([params.tagName])
                                   }
-                                  setCurrentTuneBook(params.bookName)
+                                  setCurrentTuneBook('')
+                                    if (params.bookName) {
+                                    //setTimeout(function() {
+                                        setCurrentTuneBook(params.bookName)
+                                    }
+                                    if (params.bookName || params.tagName) {
+                                        navigate("/tunes")
+                                    } else {
+                                        navigate("/books")
+                                    }
                                   //console.log("GO TO ",params.bookName  )
-                                  navigate("/tunes")
+                                  
                               }
                           })
                       }

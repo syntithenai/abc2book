@@ -3,7 +3,7 @@ import {Button, Modal, ListGroup} from 'react-bootstrap'
 
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
-  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'composer', books: 'books', tags: 'tags'} //, tags: 'tags'}
+  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'composer', books: 'books', tags: 'tags', tuneStatus: 'tune status',tempo:'tempo'} //, tags: 'tags'}
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);

@@ -25,7 +25,6 @@ function PlaylistManagerModal(props) {
        
         {<>
         <Modal.Body>
-            <Link to="/playlist" ><Button style={{float:'right'}} >Download</Button></Link>
           <input type='text' value={filter} onChange={function(e) {setFilter(e.target.value)}}   />   
         </Modal.Body>
         <Modal.Footer>

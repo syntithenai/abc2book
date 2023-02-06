@@ -1621,7 +1621,7 @@ var useAbcTools = () => {
 
                                     const chord = parseChord(chordLetters.join(''));
                                     if (chord.error) {
-                                        console.log("chord parser error",chord.error)
+                                        //console.log("chord parser error",chord.error)
                                     } else {
                                         var rendered = renderChord(chord)
                                         //console.log(chord,rendered);

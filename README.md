@@ -2,7 +2,7 @@
 
 Try it out  [http://tunebook.net ](https://tunebook.net/) 
 
-
+## Overview
 <div style={{paddingTop:'2em',clear: "both"}} >This tool helps you to find, collect, print and memorise tunes. It includes features to
         <ul>
           <li>Import ABC and Music XML format music notation (unzipped single track music XML).</li>
@@ -29,6 +29,23 @@ Try it out  [http://tunebook.net ](https://tunebook.net/)
         </div>
         
 
+## Technical Overview
+
+The tunebook is delivered as a standalone web application. 
+It works on most devices without any setup by simply loading a web page.
+Once loaded and populated with data,it works without ongoing access to the Internet.
+
+The software has no central database. All cloud persistence features rely on login and document storage with Google.
+The https://tunebook.net site is hosted with Github pages.
+
+When used without logging in, the software includes NO tracking features. 
+
+The software has been built using the React framework and relies heavily on [abcjs](https://paulrosen.github.io/abcjs/) for rendering and playback of ABC notation.
+
+The scrape folder includes scripts for scraping data from Internet sources. 
+
+
+
 ## Resources
 
 - https://thesession.org/
@@ -43,8 +60,7 @@ Try it out  [http://tunebook.net ](https://tunebook.net/)
 - http://www.stephenmerrony.co.uk/ABC/Carols/
 - https://bushtraditions.wiki/tunes/index.php/Advanced_Search
 - https://sheetmusic-free.com/
-http://jimsrootsandblues.com/fiddle-tune-notation/
-eval(document.querySelector('.entry-content script').innerText.split("\n")[2]); console.log(abc)
+- http://jimsrootsandblues.com/fiddle-tune-notation/
 
 ## Code Libraries
 - https://qiuxiang.github.io/aubiojs/tempo.html

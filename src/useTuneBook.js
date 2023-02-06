@@ -1020,9 +1020,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   function mediaFromSelection(selection) {
-    //console.log('m from sel',selection)
+    console.log('m from sel',selection)
     var final = []
-    if (selection) {
+    if (selection && selection.split) {
         var res = selection.split(",").forEach(function(tuneId) {
             //console.log('m from sel',tuneId)
             if (tunes[tuneId]) {
@@ -1069,7 +1069,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function fillMediaPlaylist(book, selectedIds = null) {
-        //console.log('fill media',book, selectedIds)
+        console.log('fill media',book, selectedIds)
         var fillTunes = []
         if (selectedIds) {
             fillTunes=mediaFromSelection(selectedIds)
@@ -1129,7 +1129,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         var fillTunes = []
         var useBook = book
         var sel = []
-        var selectedMess = selected ? selected.split(",") : []
+        var selectedMess = selected && selected.split ? selected.split(",") : []
         selectedMess.forEach(function(val) {
           if (val && val.trim().length > 0 ) sel.push(val)
         })

@@ -38,7 +38,7 @@ function BoostSettingsModal(props) {
       props.onChange(newBoost > 0 ? newBoost : 0)
   }
   useEffect(function() {
-      setBoost(props.value)
+      setBoost(parseInt(props.value) > 0 ? parseInt(props.value) : 0)
   },[props.value])
   
   function showOrBoost(e) {
@@ -55,12 +55,12 @@ function BoostSettingsModal(props) {
     <>
       <Button onClick={showOrBoost} style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="secondary" alt={'Confidence'} >
         <span  style={{position:'absolute', top:props.value !== '' ? '1px': '12px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.reviewsmall}</span> 
-        <Badge variant="secondary" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} onClick={showOrBoost}>{parseInt(props.value) > 0 ? props.value : 0}</Badge>
+        <Badge variant="secondary" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} onClick={showOrBoost}>{parseInt(props.value) > 0 ? props.value : 0}{parseInt(props.difficulty) > 0 ? ":" + props.value : ''}</Badge>
       </Button>
 
       <Modal  onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Confidence</Modal.Title>
+          <Modal.Title>Confidence {parseInt(boost) > 0 ? parseInt(boost) : ''}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{height:'40em'}}>
           <Button style={{float:'right', marginLeft: '2em'}}  variant="success" onClick={function() {
@@ -76,7 +76,6 @@ function BoostSettingsModal(props) {
          <span  >{props.explicitSave ? 'How well do you know these tunes?' : 'How well do you know this tune?'}</span>
           <br/>
 
-          <h4 style={{marginTop:'1em'}} >{boost} </h4>
           <input style={{width:'100%'}} type="range"  name="boost" min="0" max="20" step="1" value={boost} onChange={function(e) {if (props.explicitSave) {
                 setBoost(e.target.value)
               } else {

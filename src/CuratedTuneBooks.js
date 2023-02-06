@@ -22,9 +22,10 @@ export default {
     //'mandira': {group:'Friends',link:'songs.abc', image:'mandira.jpeg', book: 'songs', tag:"mandira"},
     //'bhavit': {group:'Friends',link:'songs.abc', image:'bhavit.jpeg', book: 'songs', tag:"bhavit"},
     'kameruka choir': {group:'Collections', link:'songs.abc', image:'kamerukachoir.jpeg', book: 'songs', tag:"kameruka choir"},
-    'kameruka bush dance': {group:'Collections', image:'kamerukabushdance.jpeg' , book: 'tunes', link:'tunes.abc', tag:"kameruka bushdance"},
-    'sean kenan irish music': {group:'Collections', link:'tunes.abc', image:'seankenanirishmusic.jpeg', book: 'tunes', tag:"sean kenan irish music"},
-    
+    'kameruka bush dance': {group:'Collections', image:'kamerukabushdance.jpeg' , book: 'tunes', link:'tunes.abc', tag:"kameruka bush dance"},
+    'sean kenan irish music': {group:'Collections', link:'tunes.abc', image:'seankenanirishmusic.jpeg', book: 'tunes', tag:"sean kenan book"},
+    'good tune book': {group:'Collections', link:'tunes.abc', image:'goodtunebook.jpeg', book: 'tunes', tag:"good tune book"},
+
 
 
 

@@ -50,7 +50,7 @@ export default function IndexSearchForm(props) {
             <Button onClick={function() {props.tunebook.fillMediaPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"danger"} size="small" >{props.tunebook.icons.youtube}</Button>
             <Button onClick={function() {props.tunebook.fillAbcPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"success"} size="small" >{props.tunebook.icons.play}</Button>
         </span>
-         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([])}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
+         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([]); props.setSelected({}); props.setSelectedCount(0); props.setFiltered(''); props.setGrouped({}); props.setListHash('')}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
          
          <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor  }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
          

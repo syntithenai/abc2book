@@ -11,12 +11,28 @@ import SelectedItemsModal from './SelectedItemsModal'
 
 
 export default function IndexLayout(props) {
-    var [filtered, setFiltered] = useState('')
-    var [grouped, setGrouped] = useState({})
-    var [tuneStatus, setTuneStatus] = useState({})
-    var [selected, setSelected] = useState({})
-    var [lastSelected, setLastSelected] = useState({})
-    var [selectedCount, setSelectedCount] = useState({})
+    //var [filtered, setFiltered] = useState('')
+    //var [grouped, setGrouped] = useState({})
+    //var [tuneStatus, setTuneStatus] = useState({})
+    //var [selected, setSelected] = useState({})
+    //var [lastSelected, setLastSelected] = useState({})
+    //var [selectedCount, setSelectedCount] = useState({})
+    
+    var listHash = props.listHash
+    var setListHash = props.setListHash
+    var filtered = props.filtered
+    var grouped = props.grouped
+    var tuneStatus = props.tuneStatus
+    var lastSelected = props.lastSelected
+    var selectedCount = props.selectedCount
+    var selected = props.selected
+    var setFiltered = props.setFiltered
+    var setGrouped = props.setGrouped
+    var setTuneStatus = props.setTuneStatus
+    var setSelected = props.setSelected
+    var setLastSelected = props.setLastSelected
+    var setSelectedCount = props.setSelectedCount
+    
     
     function filterSearchNoBooks(tune) {
         if (tune.books && tune.books.length > 0) {
@@ -39,100 +55,139 @@ export default function IndexLayout(props) {
     
     useEffect(function() {
         //console.log("IL boot")
-      var filtered = Object.values(props.tunes).filter(filterSearch)
-      filtered.sort(function(a,b) { 
-          return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-      })
-      
-      setFiltered(filtered)
-      setSelected({})
-      setSelectedCount(0)
+        if (filtered === '') {
+            console.log('RUN SEARCH on init')
+          var filtered = Object.values(props.tunes).filter(filterSearch)
+          console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+          filtered.sort(function(a,b) { 
+              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          })
+          
+          setFiltered(filtered)
+          setSelected({})
+          setSelectedCount(0)
+        } else {
+            console.log('RUN SEARCH init use cache')
+            console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+        }
     },[])
     
     
     
     useEffect(function() {
-      //console.log("IL currentTuneBook", props.currentTuneBook, props.filter,  props.tagFilter)
-      if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)) {
-          //console.log("filter")
-          var filtered = Object.values(props.tunes).filter(filterSearch)
-          //console.log("filtered",filtered, 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter)
-          
-          filtered.sort(function(a,b) { 
-              return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-          })
-          if (props.groupBy) {
-              setGrouped(props.tunebook.groupTunes(filtered))
-          } else {
-              setGrouped(null)
-          }
-          
-          //console.log("filterd", filtered)
-          //if (groupBy) {
+        var newHash = JSON.stringify([props.groupBy, props.filter,props.currentTuneBook, props.tagFilter])
+      //console.log('CHANGE', 'OLD',listHash,'NEW', newHash)
+      if (listHash !== newHash) {
               
-          //} 
-          setFiltered(filtered)
-          setSelected({})
-          setSelectedCount(0)
-          var tuneStatus = {}
-          //setTimeout(function() {
-              filtered.forEach(function(tune) {
-                var hasNotes = false
-                var hasChords = false
-                if (tune.voices) {
-                    Object.values(tune.voices).forEach(function(voice) {
-                        if (Array.isArray(voice.notes)) {
-                            for (var i=0 ; i < voice.notes.length; i++) {
-                                if (voice.notes[i]) {
-                                    hasNotes = true
-                                    //console.log('has chords',(voice.notes[i].indexOf('"') !== -1),voice.notes[i])
-                                    if (voice.notes[i].indexOf('"') !== -1) {
-                                        hasChords = true
+              
+          //console.log("IL currentTuneBook", props.currentTuneBook, props.filter,  props.tagFilter)
+          if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)) {
+              //console.log('RUN SEARCH on change')
+              setGrouped({})
+              setFiltered({})
+              setSelected({})
+              props.startWaiting()
+              setSelectedCount(0)
+              //console.log("filter")
+              var filtered = Object.values(props.tunes).filter(filterSearch)
+              console.log('F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+              
+              filtered.sort(function(a,b) { 
+                  return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+              })
+              
+              
+              //console.log("filterd", filtered)
+              //if (groupBy) {
+                  
+              //} 
+              setFiltered(filtered)
+              //setSelected({})
+              //setSelectedCount(0)
+              var tuneStatus = {}
+              var tuneStatusGroups = {}
+              //setTimeout(function() {
+                  filtered.forEach(function(tune, tuneKey) {
+                    var hasNotes = false
+                    var hasChords = false
+                    if (tune.voices) {
+                        Object.values(tune.voices).forEach(function(voice) {
+                            if (Array.isArray(voice.notes)) {
+                                for (var i=0 ; i < voice.notes.length; i++) {
+                                    if (voice.notes[i]) {
+                                        hasNotes = true
+                                        //console.log('has chords',(voice.notes[i].indexOf('"') !== -1),voice.notes[i])
+                                        if (voice.notes[i].indexOf('"') !== -1) {
+                                            hasChords = true
+                                        }
+                                        if (hasNotes &&  hasChords) {
+                                            break;
+                                        } 
                                     }
-                                    if (hasNotes &&  hasChords) {
-                                        break;
-                                    } 
                                 }
                             }
-                        }
-                    })
+                        })
+                    }
+                    var hasLyrics = props.tunebook.hasLyrics(tune)
+                    tuneStatus[tune.id] = {
+                      hasLyrics:hasLyrics,
+                      hasNotes: hasNotes,
+                      hasChords: hasChords
+                    }
+                    var tuneStatusKey = []
+                    if (hasLyrics) tuneStatusKey.push('lyrics')
+                    if (hasNotes) tuneStatusKey.push('notes')
+                    if (hasChords) tuneStatusKey.push('chords')
+                    if ((Array.isArray(tune.links) && tune.links.length > 0)) tuneStatusKey.push('media')
+                    if (!tuneStatusGroups.hasOwnProperty(tuneStatusKey.join(","))) {
+                        tuneStatusGroups[tuneStatusKey.join(",")] = []
+                    }
+                    tuneStatusGroups[tuneStatusKey.join(",")].push(tuneKey)
+                  })
+                  setTuneStatus(tuneStatus)
+                  if (props.groupBy) {
+                      if (props.groupBy === "tuneStatus") {
+                          setGrouped(tuneStatusGroups)
+                      } else {
+                        setGrouped(props.tunebook.groupTunes(filtered))
+                      }
+                  } else {
+                      setGrouped(null)
+                  }
+            } else if (props.filter.length <= 2 && props.filter.length > 0) {
+              //console.log("more input")
+              setFiltered({})
+              setSelected({})
+            } else  {
+                console.log("no books, tags or filter")
+                var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
+                filtered.sort(function(a,b) { 
+                      return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+                })
+                if (props.groupBy && props.groupBy !== 'tuneStatus') {
+                      setGrouped(props.tunebook.groupTunes(filtered))
+                } else {
+                      setGrouped(null)
                 }
-                tuneStatus[tune.id] = {
-                  hasLyrics:props.tunebook.hasLyrics(tune),
-                  hasNotes: hasNotes,
-                  hasChords: hasChords
-                }
-              })
-              setTuneStatus(tuneStatus)
-        } else if (props.filter.length <= 2 && props.filter.length > 0) {
-          //console.log("more input")
-          setFiltered({})
-          setSelected({})
-        } else  {
-            //console.log("no books")
-            var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
-            filtered.sort(function(a,b) { 
-                  return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-            })
-            if (props.groupBy) {
-                  setGrouped(props.tunebook.groupTunes(filtered))
-            } else {
-                  setGrouped(null)
-            }
 
-            setFiltered(filtered)
-            setSelected({})
-          
+                setFiltered(filtered)
+                setSelected({})
+              
+            }
+            
+            setTimeout(function() {
+                //console.log('dosdcroll',props.scrollOffset)
+                window.scroll(0,props.scrollOffset)
+                props.stopWaiting()
+            },300)
+            //props.tunebook.utils.scrollTo("topofpage",props.scrollOffset)
+            
+          //},100)
+        } else {
+            console.log('HASHMATCH')
         }
-        
-        setTimeout(function() {
-            //console.log('dosdcroll',props.scrollOffset)
-            window.scroll(0,props.scrollOffset)
-        },300)
-        //props.tunebook.utils.scrollTo("topofpage",props.scrollOffset)
-        
-      //},100)
-    },[props.groupBy, props.filter,props.currentTuneBook, props.tunes, props.tagFilter])
+      setListHash(JSON.stringify([props.groupBy, props.filter,props.currentTuneBook, props.tagFilter]))
+    },[props.groupBy, props.filter,props.currentTuneBook, props.tagFilter])
     
     function selectAllToggle(groupKey=null) {
         if (groupKey === null) {
@@ -311,7 +366,7 @@ export default function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={props.forceRefresh}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  />
+            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={props.forceRefresh}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} filtered={props.filtered} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}/>
         </div>
         
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >

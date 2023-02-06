@@ -14,11 +14,11 @@ V:1
 % abcbook-tune_id 4385
 % abcbook-boost 16
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,sean kenan book,good tune book
+% abcbook-tags celtic tunes,sean kenan book,good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 0
 % abcbook-tuning 
-% abcbook-lastupdated 1675421280006
+% abcbook-lastupdated 1675475632312
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -380,13 +380,14 @@ V:1
 "D"d2 e fgf | "A"edc dAA | "G"BAG "D"FED | "A"EDC "D"DA,B, | "A"CDE "D"Ddd |
 "A"Aee "D"Aff | "A7"Agg "D"fed | "A"edc "D"d2 d |"D"d2 e d2 d | "D"dcB z3 |]
 % abcbook-tune_id 629c16a781734f87d0bd05ce
+% abcbook-link-0 https://www.youtube.com/watch?v=ktH6dJKgQXs
 % abcbook-boost 11
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421839198
+% abcbook-lastupdated 1675479922792
 % abcbook-soundfonts 
 % abcbook-repeats 3
 %%scale 0.71
@@ -407,13 +408,15 @@ V:1
 cd|:"Am"e2A AGA|ede gfe|"G"d2 G GFG|BGB dBd|"Am"e2 A AGA|ede gfe|"G"dge dcB|1 "Am"A3 Acd:|2 "Am"A3 A3||
 |:"Am"aba age|aga b2 a|"G"gag ged|ede g2 e|"Am"aba age|aga b2 a|"G"gfg edB|"Am"A3 A3:|
 % abcbook-tune_id 6342d5be17f882538dfcda62
+% abcbook-link-0 https://www.youtube.com/watch?v=WkI7ngLjz6Y
+% abcbook-link-start-at-0 89
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags australian traditional tunes,australian traditional tunes wiki,kameruka bush dance,ralph cullen,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421916619
+% abcbook-lastupdated 1675481379515
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % NFF Book 2009
@@ -448,7 +451,7 @@ V:1
 % NFF Book 2006
 
 X: 12
-T: Rosbif
+T: Rosbif Waltz
 B: tunes
 B: good tune book
 M:3/4
@@ -460,13 +463,14 @@ AB|:"Am"c2AB cA|"C"c2AB cA|"G"B2GA BG|"Am"A2A4| "Am"c2AB cA|"C"c2AB cA|"G"BA GA 
 |:"Am"e2f2e2|"Am"c2c2c2|"Am"e2f2e2|"G"d2d2d2|"G"d2dB GB|"G"d2dB GB|"G"d4c2|"Am"A6:|
 |:"Am"c3B c2|"G"d4d2|"C"e2g2f2|"C"e4 e2|"F"a3g f2|"C"e3d c2|1 "G"d4d2|"Am"e6:|2 "G"d4c2|"Am"A4||
 % abcbook-tune_id 629eed41d90a4aa29bc6da3a
+% abcbook-link-0 https://www.youtube.com/watch?v=HC8l9gU8_9E
 % abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags ralph cullen,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421757290
+% abcbook-lastupdated 1675468537870
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -487,13 +491,14 @@ V:1
 "Em"Bee fee | "Em"aee fed | "Em"Bee fee | "D"faf def |
 "C"g2f g2e | "C"def g2d | "C"edc d2A | "D"BAG FED ||
 % abcbook-tune_id 63443e6b1331ccc2097f6e3f
+% abcbook-link-0 https://www.youtube.com/watch?v=ltI5omQFotE
 % abcbook-boost 17
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,nick hutten,ralph cullen,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421329273
+% abcbook-lastupdated 1675476175882
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % Rhythm Jig
@@ -546,13 +551,14 @@ BA|"G" G4 D2|"D" D3 E F2|"Em" G6-|"Bm" G2 g3 f|"C" e3 G G2|"G" d3 G B2|"Am" A6|"
  |:GF|"C" E3 E E2|"Am" e3 G G2|"Bm" d6-|"Em" d4 BA|"C" G3 A B2|"Am" e2 G3 A|"G" B6-|"Bm" B2 c2 dg|
  "C" e4 EG|"D7" F3 G AF|"G" G6-|"Em" G3 A BG|"Am" Ec- c2 A2|"D7" F4 G2|"G" G6-|G4:|
 % abcbook-tune_id 63453f56ee28bdd5687fdbf0
+% abcbook-link-0 https://www.youtube.com/watch?v=SD17oPuFSSM
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,ralph cullen,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421304884
+% abcbook-lastupdated 1675475885118
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -635,13 +641,14 @@ d2|
 dcA EDF| \
 G4
 % abcbook-tune_id 634540443bb193c10c32dbd8
+% abcbook-link-0 https://www.youtube.com/watch?v=PX6Zmq3o-HU
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags ralph cullen,world music tunes,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421289577
+% abcbook-lastupdated 1675475679624
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % (c) SSF February 2006
@@ -669,13 +676,14 @@ fg|:"D" a2 af a2 af|af a2 b2 a2|"G" g2 ef g2 ef|gf g2 a2 g2|
  |:"D" d2 fe d2 fe|de fg a4|"A" e2 c2 A2 c2|AB cd ef ec|
  "D" d2 fe d2 fe|de fg a2 ef|"A" gf ed cA Bc|1 "D" d2 f2 d2 fe:|2 "D" d2 f2 d2||
 % abcbook-tune_id 6345472aa1fda3ff292c592a
+% abcbook-link-0 https://www.youtube.com/watch?v=MI8UzzLJdPk
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags old time tunes,ralph cullen,good tune book
+% abcbook-tags old time tunes,ralph cullen,good tune book,canberra pickers and fiddlers
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421312776
+% abcbook-lastupdated 1675476126685
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -695,13 +703,14 @@ GF| "A"E2A2 ABcd| efec "D"d2cd| "A"edcB ABce| "G"BGEF G2GF|
 ef| "G"g2ef g2ef| gfec "D"d2cd| "A"edcB ABce| "G"BGEF G2GF|
     "A"E2AG ABcd| efec "D"dBcd| "A"ea2b "E7"aged| "A"c2A2 A2 :|
 % abcbook-tune_id 63454da3ef06af44d438779c
+% abcbook-link-0 https://www.youtube.com/watch?v=4ZJZrOhwEQA
 % abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,ralph cullen,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421700366
+% abcbook-lastupdated 1675478907983
 % abcbook-soundfonts 
 % abcbook-repeats 3
 %%text 9/1/98.  Also known as "The Little Beggerman" and "The Red Headed Irishman".
@@ -728,13 +737,14 @@ V:1
 |:~"D"f3 fga|"A"efg efg|~"D"f3 ~"G"g3|"A"ecA GFE|
 "D"DFA dcd|"A"ecA efg|"D"f/g/af "G"gec|1 "A"edc d2 e:|2 "A"edc d2 A||
 % abcbook-tune_id 62a420d1cd98a6fc9bd362dc
+% abcbook-link-0 https://www.youtube.com/watch?v=za-Jm76W_Lg
 % abcbook-boost 16
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,nick hutten,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421861454
+% abcbook-lastupdated 1675481795059
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -757,44 +767,20 @@ cd|:e3 ecA|ecA Bcd|e3 ecA|Bcd cBA|
  |:cAc cAc|dBd dBd|cAc cAc|BGB BGB|
  cAc cAc|dBd dBd|cae fed|1 cdB A2B:|2 cdB A3||
 % abcbook-tune_id 63455f7bcdea8b9d5b7e67e4
+% abcbook-link-0 https://www.youtube.com/watch?v=tK_1Be9Tm_s
+% abcbook-link-end-at-0 178
 % abcbook-boost 17
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,nick hutten,steve ryan,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675416690894
+% abcbook-lastupdated 1675480140697
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
 
 X: 21
-T: The Devil Among The Tailors
-B: tunes
-B: good tune book
-M:6/8
-Q: 3/8=100
-K:Amajor
-V:1 
-AcA cAc|ece aea|faf dfd|eae cec|
- dfd BdB|cec AcA|BdB GBG|1 A2A A3:|2 A3 A3||
- efe efe|ded ded|cdc cdc|BcB BcB|
- efe efe|ded ded|cdc cdc|B2B B3|
- AcA cAc|ece aea|faf dfd|eae cec|
- dfd BcB|cec Aca|BdB GBG|A2A A3||
-% abcbook-tune_id 634560181232bd8b9e0b3c81
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags celtic tunes,nick hutten,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675420370314
-% abcbook-soundfonts 
-% abcbook-repeats 3
-
-
-X: 22
 T: Father Kelly's
 B: tunes
 B: good tune book
@@ -822,7 +808,7 @@ V:1
 % abcbook-repeats 3
 
 
-X: 23
+X: 22
 T: Whiskey before Breakfast
 B: tunes
 B: good tune book
@@ -835,6 +821,40 @@ V:1
 "D"A,B,D(E D2) D(E|FA)BF A(FED)|"G"GAB(c "D"dB)GB|"A"AGF(E "D"D4):|
 |:"D"B d2 (B d4)|(ef)ed c(B A2)|"Em"c e2 (c e2) (ef)|"A7"gfed c(B (3ABc)|
 "D"d2 fd "A"c2 ec|"G"BAB(c "D"BA)FD|"G"G2 BG "D"F2 AF|"A7"EDE(F "D"D4):|]
+W: Early one day the sun wouldn't shine
+W: I was walking down the street not feeling too fine
+W: I saw two old men with a bottle between 'em
+W: And this was the song that I heard them singing
+W: 
+W: Lord preserve us and protect us,
+W: We've been drinking whiskey 'fore breakfast
+W: 
+W: Well I stopped by the steps where they was sitting
+W: And I couldn't believe how drunk they were getting
+W: I said "old men, have you been drinking long?"
+W: They said "just long enough to be singing this song"
+W: 
+W: Lord preserve us and protect us,
+W: We've been drinking whiskey 'fore breakfast
+W: 
+W: Well they passed me the bottle and I took a little sip
+W: And it felt so good I just couldn't quit
+W: I drank some more and next thing I knew
+W: There were three of us sitting there singing this tune
+W: 
+W: Lord preserve us and protect us,
+W: We've been drinking whiskey 'fore breakfast
+W: 
+W: One by one everybody in the town
+W: They heard our ruckus and they all came down
+W: And pretty soon all the streets were ringing
+W: With the sound of the whole town laughing and singing
+W: 
+W: Lord preserve us and protect us,
+W: We've been drinking whiskey 'fore breakfast
+W: 
+W: Lord preserve us and protect us,
+W: We've been drinking whiskey 'fore breakfast
 % abcbook-tune_id 63ae8f1ceb69dc05f43b53fc
 % abcbook-link-0 https://www.youtube.com/watch?v=O3maOvSbO9g
 % abcbook-boost 20
@@ -843,12 +863,12 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421959427
+% abcbook-lastupdated 1675468902319
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 24
+X: 23
 T: Arkansas Traveler
 B: songs
 B: traditional songs
@@ -909,93 +929,7 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-repeats 1
 
 
-X: 25
-T: Whiskey Before Breakfast
-B: songs
-B: good tune book
-B: tunes
-M:4/4
-Q: 1/4=160
-K:D
-V:1 
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzzzzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzz"D"zzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzzzzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzz"D"zzzz|
-"D"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
-"D"zzzz"A"zzzz|"G"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzz"D"zzzz|
-W: Early one day the sun wouldn't shine
-W: I was walking down the street not feeling too fine
-W: I saw two old men with a bottle between 'em
-W: And this was the song that I heard them singing
-W: 
-W: Lord preserve us and protect us,
-W: We've been drinking whiskey 'fore breakfast
-W: 
-W: Well I stopped by the steps where they was sitting
-W: And I couldn't believe how drunk they were getting
-W: I said "old men, have you been drinking long?"
-W: They said "just long enough to be singing this song"
-W: 
-W: Lord preserve us and protect us,
-W: We've been drinking whiskey 'fore breakfast
-W: 
-W: Well they passed me the bottle and I took a little sip
-W: And it felt so good I just couldn't quit
-W: I drank some more and next thing I knew
-W: There were three of us sitting there singing this tune
-W: 
-W: Lord preserve us and protect us,
-W: We've been drinking whiskey 'fore breakfast
-W: 
-W: One by one everybody in the town
-W: They heard our ruckus and they all came down
-W: And pretty soon all the streets were ringing
-W: With the sound of the whole town laughing and singing
-W: 
-W: Lord preserve us and protect us,
-W: We've been drinking whiskey 'fore breakfast
-W: 
-W: Lord preserve us and protect us,
-W: We've been drinking whiskey 'fore breakfast
-% abcbook-tune_id 62a20e4aab39c971b19be83d
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags steve ryan,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421962612
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 26
-T: The Walk Around
-B: good tune book
-B: tunes
-M:6/8
-L:1/8
-Q: 3/8=100
-K:G
-V:1 
-cd|:e2A AGA|ede gfe|d2 G GFG|BGB dBd|!
-e2 A AGA|ede gfe|dge dcB|1 A3 Acd:|2 A3 A3||!
-|:aba age|aga b2 a|gag ged|ede g2 e|!
-aba age|aga b2 a|gfg edB|A3 A3:|
-% abcbook-tune_id 62a07850e4a80b1e6d2a5de4
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags australian traditional tunes,australian dance tunes,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421919628
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 27
+X: 24
 T: Andy de Jarlis
 C:Traditional
 B: good tune book
@@ -1013,19 +947,19 @@ V:1
 % abcbook-tune_id 6298c2450dee82dcf2e7c5e2
 % abcbook-link-0 https://www.youtube.com/watch?v=ciDD1GQ9JWQ
 % abcbook-link-1 https://www.youtube.com/watch?v=ciDD1GQ9JWQ
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-tuning 
-% abcbook-lastupdated 1675415065473
+% abcbook-lastupdated 1675471430264
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%MIDI transpose   -2
 
 
-X: 28
+X: 25
 T: Boston Boy
 C:Adam Steffey
 B: good tune book
@@ -1058,7 +992,7 @@ DCA,B, CDEG | "F"FEFE FED^F | "G"G^FGA BcdB | "C"cGFE C2 [ec][ec]|
 % abcbook-repeats 1
 
 
-X: 29
+X: 26
 T: Buffalo Gals
 B: good tune book
 B: tunes
@@ -1086,7 +1020,7 @@ V:dg
 % abcbook-repeats 1
 
 
-X: 30
+X: 27
 T: Forked Deer
 C:Traditional
 B: good tune book
@@ -1117,7 +1051,7 @@ Ac |: "D"defg agfa | "G"gfeg "A"fedc | "D"defg agfa |
 % abcbook-repeats 1
 % arr Jim Kendrick
 
-X: 31
+X: 28
 T: Ger the Rigger
 B: good tune book
 B: tunes
@@ -1135,18 +1069,18 @@ e2 | "A"e2A2e2A2 | efed c2A2 | "D"d3c defg | "A"a2e2"E7"fece |
 % abcbook-link-0 https://www.youtube.com/watch?v=YEGaRbTcPTE
 % abcbook-link-title-0 Ger the Rigger (traditional)
 % abcbook-link-start-at-0 10
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675429302201
+% abcbook-lastupdated 1675433169909
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 32
+X: 29
 T: Give The Fiddler A Dram
 B: good tune book
 B: tunes
@@ -1191,7 +1125,7 @@ W: Come on and give the fiddler a dram
 % abcbook-repeats 1
 
 
-X: 33
+X: 30
 T: John Brown's March
 B: good tune book
 B: tunes
@@ -1207,19 +1141,19 @@ DE |:"G" G2 [G4G,] GABe | d2B2 BAGB | A4 B2BA | "Em"G2GE EDDE |
 "C"g2gf e2d2 | e2f2 g3e | "G"d2B2 AcBA |[1 G2GF GABd :|[2 G3G GEDE ||
 % abcbook-tune_id 6298c25d37aa7a15cfc7a4bc
 % abcbook-link-0 https://www.youtube.com/watch?v=d2B31PNb8VY
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675432628105
+% abcbook-lastupdated 1675471632321
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % bdh
 % <a href="http://thesession.org/tunes/17230#setting33020" rel="nofollow">http://thesession.org/tunes/17230#setting33020</a>
 
-X: 34
+X: 31
 T: Old French
 B: good tune book
 B: tunes
@@ -1236,19 +1170,21 @@ V:1
 |:cd|"A"efed c2A2|AEAc e2dc|"G"BGBd gfed|"A"cAce a2cd|
 "A"efed (3cdc A2|AEAc e2dc|"G"BGBd gfed|"A"c2A2 A2:||
 % abcbook-tune_id 6298c279ee1c010d903df3c4
+% abcbook-link-0 https://www.youtube.com/watch?v=jS7yT01lwwI
+% abcbook-link-start-at-0 25
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421414972
+% abcbook-lastupdated 1675476691112
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 35
-T: Old Joe Clark
+X: 32
+T: Old Joe Clark [1]
 B: good tune book
 B: tunes
 M:4/4
@@ -1269,68 +1205,12 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421423640
+% abcbook-lastupdated 1675476812700
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 36
-T: Old Joe Clark
-C:Herschel Sizemore's version
-B: good tune book
-B: tunes
-M:4/4
-L:1/8
-Q: 1/4=100
-K:Amix
-V:1 
-|:"A"{_e}[e2e]ef gfgf | eafe cede | {_e}[ee]eeg fecd | "E"ee^gb geee |
-"A"c'b^gb "E"aeee | "A"agfe "D"dffa | "A"edcf "E"ecBc |[1 A2"A"AA A2{_e}[ee][ee] :|[2 A2"A"AA A2{_e}F^G ||
-"A"AAA2 A2AB | ceef ecAF | EAAB "E (G)"=cBAF | "A"EF^GB AFED |
-"A"{^G}AAAB AFFB | Acde f^gaf | edcf "E"ecBc | "A"A2AA [F2A][FA][^GA] ||
-"A"[A2A][A2A] A2AB | cAce cBAF | EFAB "E (G)"=cBAF | "A"E2AB =cAFA |
-"A"{G}A2AB ABAc | def^g afed | dfec "E"B^GGB | "A"A2AA A2 cd ||
-% abcbook-tune_id 6298c27923eb8a42bace4d0b
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421431667
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 37
-T: Ragtime Annie
-C:Kenny Baker's
-B: good tune book
-B: tunes
-M:C|
-L:1/8
-R: Rag
-Q: 1/4=100
-K:D
-V:1 
-DE|: "D"FFBF DFBF | DFBF A2FE | DFAB dAFD | "A7"GFEG c2Bc |
-ABcA BAcA | BFGA cA (3BcB | ABcd egfe |[1 "D"d2cd (3BdB AF :| [2 "D"dBAF D2fg||
-"D"a2(a2 a)gfd | [A6f] fg | a2(a2a2)g2 | "G"[B6g] ef | "A7"g2efg2ef | gfef gfed |
-cAcB ABAG | "D"[F4A] [D2A]fg || afbf afde | fdeg fedA | "D7"=cdfg afga |
-"G"[B6g]ef | gfga bfge | "D"fdfg a2fa | "A7"ecBc egfe | "D"[d3f][df][d2f] ||
-% abcbook-tune_id 6298c279677a7461e688ec3e
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421671028
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 38
+X: 33
 T: Ragtime Annie
 C:Old-Time, Bluegrass
 B: good tune book
@@ -1349,19 +1229,20 @@ fg| "D"a2ab afd2| A6 fg| a2ab agf2| "G"g6 ef|
 =c2 "D7"B2A2|:[K:G]"G"[G6B6] AB| "C"[E6c6] cB| "D"A2f2 f2ef| "G"gfga gedc|
 "G"D2B2 B2AB| "C"E2c2 c2cB| "D"A2f2 f2ef|[1 "G"gfga g2dc :|[2 "G"g6 |]
 % abcbook-tune_id 6298c279081920c022154d2a
+% abcbook-link-0 https://www.youtube.com/watch?v=BCFX5E6tvQk
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421674793
+% abcbook-lastupdated 1675478727354
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 39
-T: Rights Of Man, The
+X: 34
+T: The  Rights Of Man
 B: good tune book
 B: tunes
 M:4/4
@@ -1376,26 +1257,27 @@ GA |: "Em"(3BcB (3ABA (3GAG (3FGF | EFGA B2ef | "G"gfed "Em"edcB |
 bagf egfe | "D"d^cde fefg | afdf a2 gf | "Em"eBeg "D"fdfa |
 "Em"gfga bgef | gfed "B"Bg (3fgf | [1 "Em"e2 B2 E2 ga:| [2 "Em"e2 B2 E2|]
 % abcbook-tune_id 6298c27979e187c8576712e2
+% abcbook-link-0 https://www.youtube.com/watch?v=li48CfB4fys
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421729375
+% abcbook-lastupdated 1675477664649
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 40
-T: Silver Spire, The
+X: 35
+T: The Silver Spire
 B: good tune book
 B: tunes
 M:4/4
 L:1/8
 R: reel
 Q: 1/4=100
-K:Dmaj
+K:D
 V:1 
 FE |: "D"D2 FE DFAc | dcde fdAF | "G"GABG "D"FADF |
 "A"GFED CEA,C | "D"D2 FE DFAc | dcde fdAF |
@@ -1404,45 +1286,47 @@ FE |: "D"D2 FE DFAc | dcde fdAF | "G"GABG "D"FADF |
 "A"fdgf eA (3BBc | "D"defd "A"ceAc | "D"dcdB AFDF |
 "G"GABG "D"FADF | [1 "Em"EA,CE "D"D2 CB,:| [2 "Em"EA,CE "D"D4|]
 % abcbook-tune_id 6298c2873389073c67139b60
+% abcbook-link-0 https://www.youtube.com/watch?v=UQNG97UNQ6Y
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421810588
+% abcbook-lastupdated 1675479753472
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 41
+X: 36
 T: The Waltz of the Little Girls
 B: good tune book
 B: tunes
 M:3/4
 L:1/8
+R: waltz
 Q: 1/4=100
 K:Dmaj
 V:1 
-%R: waltz
 dc BA|:"D"F2 FE DE|F2 dc BA|F2 FE DF|"Em"G2 GF GA|B2 BA GF|
 E2 EF GA|B2 BA Bc|BA dc BA||"D"F2 FE DE|F2 dc BA|F2 FE DF|
 "Em"G2 GF GA|B2 BA GF|E2 EF GA|(3BcB AB cA|[1 "D"d3c BA:|[2 "D"d2||
 |:"D"DF Ad|"A"c2 cB AF|"D"DF BF AF|"A"E3 A Ec|
 "D"d2 DF Ad|"A"c2 cB AF|"D"DF BF AF|"A"E3 A Ec|[1 "D"d2:|[2 "D"d6|]
 % abcbook-tune_id 6298c297643dac5486c7bafb
+% abcbook-link-0 https://www.youtube.com/watch?v=gDluCf3uGWQ
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421940716
+% abcbook-lastupdated 1675481448657
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 42
+X: 37
 T: The Westphalia Waltz
 B: good tune book
 B: tunes
@@ -1458,70 +1342,20 @@ V:1
 "G" [g4B] (3ggg | "GM7"[f4B] (2fff | "G6"[e2B]f2g2 | "G"[B6G] | [B2G]A2G2 | [B2G]A2G2 | "Am"[c3E]B cd | "D"[c6A] |
 "Am"[A4c4e4] (3eee | "Am/G#"[^G4c4e4] (3eee | "Am/G"[=G2c2e2]f2g2 | "D7"[f4d] e2 | "D"[d3F] ^c de |[1 d2^c2=c2 | "G"([B6G} | [B6G]):|[2 d2F2A2 | "G"[G6B,] |]
 % abcbook-tune_id 6298c297bed97d27cd9177ae
+% abcbook-link-0 https://www.youtube.com/watch?v=1qRERXgV3Fs
+% abcbook-link-start-at-0 71
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421947463
+% abcbook-lastupdated 1675481753937
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 43
-T: Whiskey Before Breakfast
-B: good tune book
-B: tunes
-M:4/4
-L:1/8
-R: reel
-Q: 1/4=100
-K:Dmaj
-V:1 
-|: "D"DEFG A4 | ABAF EDEF | "G"[G4B] "D"[F4A] | "A"EFED CA,B,C |
-"D"DEFG A4 | ABAG FDEF | "G"GBAG "D"(3 FGF ED | "A"CDEC "D"D2 z2:|
-|: "D"DEFA d2A2 | dBAF ED-D2 | DEFA "E"EFGB | edcB "A"A2A2  |
-"D"fAdf "A"eAce | "G"dABd  "D"AFAd | "G"GBAG "D"(3 FGF ED | "A"CDEC "D"D2 z2 :|
-% abcbook-tune_id 6298c29765e9b8f5cf7c7321
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421965981
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 44
-T: Whiskey Before Breakfast
-B: good tune book
-B: tunes
-M:4/4
-L:1/8
-R: reel
-Q: 1/4=100
-K:Dmaj
-V:1 
-|: "D"DEFG A2 AA| ABAG FDEF | "G"G2 BG "D"F2 AF | "A"EDEF GFEF |
-"D"DEFG A2 AA | ABAG FDEF | "G"G2 BG "D"F2 AF | "A"EDEF "D"D2 DD :|
-|: "D"DFAc d2 cd | efed cB A2 | "Em"e2 ef e2 ef | "A"gfed cABc |
-"D"d2 fd "A"c2 ec | "G"BABc "D"dBAF | "G"G2 BG "D"F2 AF | "A"EDEF "D"D2 D2 :|
-% abcbook-tune_id 6298c297e9c2e705f9c65e09
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421970099
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 45
+X: 38
 T: Jump At The Sun
 B: good tune book
 B: tunes
@@ -1534,19 +1368,80 @@ V:1
 EGB ^A2B|eBB "Am"=cBA|"B7"GAF "Em"E2 B:|
 "Em"eBB gfe|"B7"fBB agf|"Em"gfe gfe|"B"fBB "B7"c2B|
 "Em"eBB gfe|"B7"fBB agf|"Em"ezB "Am"=cBA|"B7"GAF "Em"E2:|
+W: I was a swindler and a drinker
+W: The red haired tinker’s son
+W: When the pots and pans a clinker
+W: A man born on the run
+W: From the hills of fair Kilderry
+W: Killarney to Doolin
+W: With the wheeling and the dealing
+W: And a heart that was made of tin
+W: 
+W: Vaaa Vaa Vaa I’m as free as I can be
+W: I’m a tinker and a traveller
+W: You’ll never burden me
+W: A son of Judas Iscariot
+W: Forever on the run
+W: If you think that you can chain us
+W: You might as well jump at the sun
+W: My father was jailed for stealin’
+W: Me mother’s black as a witch
+W: My sister ran off with the Sheridan clan
+W: My brother’s drunk in a ditch
+W: I fastened horns to a jackass
+W: And sеll it as a cow
+W: Take my drinkin' over thinkin'
+W: And my wagon over thе plow
+W: 
+W: Vaaa Vaa Vaa I’m as free as I can be
+W: I’m a tinker and a traveller
+W: You’ll never burden me
+W: A son of Judas Iscariot
+W: Forever on the run
+W: If you think that you can chain us
+W: You might as well jump at the sun
+W: 
+W: Vaaa ahhh ahh
+W: Vaaa ahhh ahh
+W: 
+W: We get our dancing from the sunlight
+W: Our music from the trees
+W: Our manners from the ocean
+W: Our schooling from the breeze
+W: Every lassie is a princess
+W: Every ladie’s born a king
+W: Forever from the fireside
+W: You’ll hear the tinker sing
+W: 
+W: Vaaa Vaa Vaa I’m as free as I can be
+W: I’m a tinker and a traveller
+W: You’ll never burden me
+W: A son of Judas Iscariot
+W: Forever on the run
+W: If you think that you can chain us
+W: You might as well jump at the sun
+W: 
+W: Vaaa ahhh ahh
+W: Vaaa ahhh ahh
+W: 
+W: Vaaa ahhh ahh
+W: Vaaa ahhh ahh
+W: 
+W: You might as well jump at the sun
 % abcbook-tune_id 63443e19c1a786ecc15de560
-% abcbook-boost 0
+% abcbook-link-0 https://www.youtube.com/watch?v=OQal3L3EPYc
+% abcbook-boost 13
 % abcbook-difficulty 0
 % abcbook-tags ralph cullen,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472403226
+% abcbook-lastupdated 1675433315759
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
 
-X: 46
+X: 39
 T: Blacktown Jig
 C:Ray Schloeffel
 B: good tune book
@@ -1576,7 +1471,7 @@ V:1
 % abcbook-repeats 1
 % NFF Book 2018
 
-X: 47
+X: 40
 T: The Price Of A Pig
 B: good tune book
 B: tunes
@@ -1602,7 +1497,7 @@ V:1
 % abcbook-repeats 3
 
 
-X: 48
+X: 41
 T: Anniversary Waltz
 B: good tune book
 B: tunes
@@ -1632,7 +1527,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 49
+X: 42
 T: Angel Tarantella
 B: good tune book
 B: tunes
@@ -1651,7 +1546,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 50
+X: 43
 T: The Arran Boat Song
 B: good tune book
 B: tunes
@@ -1665,18 +1560,19 @@ V:1
  [1 e3 fe2|g3 fe2|dB3 d2|e6:|
  [2 E3 FE2|d3 BG2|AF3 D2|E6||
 % abcbook-tune_id 63ce6af3f4ab61c56caabdfb
+% abcbook-link-0 https://www.youtube.com/watch?v=zTa0AM6-GCw
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675416612179
+% abcbook-lastupdated 1675480027851
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 51
+X: 44
 T: Colin Charlton's Reel
 B: good tune book
 B: tunes
@@ -1695,7 +1591,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 67985
+X: 40350
 T: Crabbit Shona
 B: good tune book
 B: tunes
@@ -1727,7 +1623,7 @@ A|:"D" AdA FAA|"A7" GA EA EA|"D" FdA FAA|"G" GBB "Bm" BAF|
 % abcbook-repeats 1
 
 
-X: 43569
+X: 17849
 T: Dancia Pelegrina
 B: good tune book
 B: tunes
@@ -1755,7 +1651,7 @@ FG|:A2F [Bd]2F|A2d dcd|e2d e2f|dcB AFG|
 % abcbook-repeats 1
 
 
-X: 88230
+X: 54248
 T: Dedicado a Joe
 B: good tune book
 B: tunes
@@ -1776,18 +1672,18 @@ V:1
 % abcbook-tune_id 63ce6af328bc13826dad241d
 % abcbook-link-0 https://www.youtube.com/watch?v=gpNH5ycH3Fg
 % abcbook-link-title-0 Dedicado a Jos (Reel)
-% abcbook-boost 0
+% abcbook-boost 2
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675426770215
+% abcbook-lastupdated 1675471509183
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 51671
+X: 47764
 T: Den Toppede Høne Fra Vendsyssel (Jig)
 B: good tune book
 B: tunes
@@ -1818,7 +1714,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 56
+X: 49
 T: The Deil among the Tailors
 B: good tune book
 B: tunes
@@ -1838,13 +1734,13 @@ W: Repeat 2nd part after 3rd part (i.e., ABCB)
 % abcbook-tune_id 63ce6af3b2da18f8b5697543
 % abcbook-link-0 https://www.youtube.com/watch?v=r7J1v79XyQo
 % abcbook-link-title-0 The De&#39;il Amang the Tailors
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675427150759
+% abcbook-lastupdated 1675471664393
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%topmargin 3cm
@@ -1856,7 +1752,7 @@ W: Repeat 2nd part after 3rd part (i.e., ABCB)
 % Time_signature 4/4
 % Has_accompaniment_chords No chords
 
-X: 33
+X: 18339
 T: Doc Boyd's Jig
 B: good tune book
 B: tunes
@@ -1885,7 +1781,7 @@ A|dcd AFA|dfb a2f|gfg Ace|dfd AFA|
 % abcbook-repeats 1
 
 
-X: 58
+X: 51
 T: Far from Home (Reel)
 B: good tune book
 B: tunes
@@ -1904,7 +1800,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 23024
+X: 49740
 T: Flogging Reel
 B: good tune book
 B: tunes
@@ -1937,7 +1833,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 60
+X: 53
 T: Frank Collins' Second Reel
 B: good tune book
 B: tunes
@@ -1956,7 +1852,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 42657
+X: 4367
 T: Fred Picknell's March
 B: good tune book
 B: tunes
@@ -1974,18 +1870,18 @@ V:1
 % abcbook-tune_id 63ce6af3ee80543efb4c4b34
 % abcbook-link-0 https://www.youtube.com/watch?v=2V_2Q-QVUmQ
 % abcbook-link-title-0 Fred Picknell&#39;s March
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675429013506
+% abcbook-lastupdated 1675472082166
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 62
+X: 55
 T: Gran Cuntradanza
 B: good tune book
 B: tunes
@@ -2023,7 +1919,7 @@ F/G/A/B/ ce | e/d/c/B/ d/c/B/A/ | GB G2:|
 % Text Has notes text
 % Has_accompaniment_chords No chords
 
-X: 63
+X: 56
 T: Harry Axford's Schottische
 B: good tune book
 B: tunes
@@ -2042,7 +1938,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 64
+X: 57
 T: Joe Cormier's Reel
 B: good tune book
 B: tunes
@@ -2061,7 +1957,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 5626
+X: 62154
 T: Josefin's Vals (Waltz)
 B: good tune book
 B: tunes
@@ -2078,23 +1974,32 @@ g4f2| "C"e6|"G"d6| "C"c2e2d2|c2B2A2| "G"B2>c2 B2| "D"A2B2c2:| "Em"B2A2G2|
 "D"F4G2| "C"G6| C2D2C2| "G"B,2D2G2|"D"F2E2F2| "G"G6|G2)|
 % abcbook-tune_id 63ce6af3d25e3e69a65b2c88
 % abcbook-link-0 https://www.youtube.com/watch?v=G9CMMOtcNKk
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675433006256
+% abcbook-lastupdated 1675470878040
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 66
+X: 58258
 T: Le Reel De Voyageur
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Le Reel Des Voyageurs, Le Voyageur, Les Reel Des Voyageurs, The Traveler's, The Woodchoppers
+K:Amajor
 V:1 
+|:"A"A2cA eAcA|EAce "E"dAcA|"A"EAeg "D"fefg|
+ [1 "A/C#"a2 ed "E/B"ceBe:|2 "A/C#"a2 ed "E"cefg||
+ |:"A"agae "A/C#"agae|"D"f2 ed "E"cefg|"A"a2 g2 "F#m"f2 ed|
+ [1 "E"f2 ed "A"cefg:|2 [M:6/4] "D"f2 ed "A/C#"c2 E2 "E/B"B2 AA||
+
 % abcbook-tune_id 63ce6af3ce918ffd33c71994
 % abcbook-link-0 https://www.youtube.com/watch?v=3X4-b24Llp0
 % abcbook-boost 0
@@ -2103,12 +2008,12 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472179670
+% abcbook-lastupdated 1675475002068
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 67
+X: 60
 T: Lindahls Polka Efter Bror Dahlgren (Polka)
 B: good tune book
 B: tunes
@@ -2127,7 +2032,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 68
+X: 61
 T: Marcha Nupcial De Chorin El Llagareru (Jig)
 B: good tune book
 B: tunes
@@ -2146,12 +2051,20 @@ V:1
 % abcbook-repeats 1
 
 
-X: 69
+X: 62
 T: Mazurka Limousin
 B: good tune book
 B: tunes
+M:3/4
+L:1/8
+R: Mazurka
 Q: 1/4=100
+K:Em
 V:1 
+efe|c2cefe|B2B2AG|F2BAGF|G2Eefe|c2cefe|B2B2AG|BAG2F2|1E3:|2E6||
+
+|:EFGAB^c|d2A2F2|EFGEAG|F6|EFGAB^c|d2A2F2|EFGBAGF|1E6:|2E3||
+
 % abcbook-tune_id 63ce6af3954875b9d24ab6fd
 % abcbook-link-0 https://www.youtube.com/watch?v=ctqAT2AVGSU
 % abcbook-boost 0
@@ -2160,12 +2073,20 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472179708
+% abcbook-lastupdated 1675475716744
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords
 
-
-X: 70
+X: 63
 T: Millers Reel
 B: good tune book
 B: tunes
@@ -2184,12 +2105,21 @@ V:1
 % abcbook-repeats 1
 
 
-X: 71
+X: 83869
 T: Munster Bank (Polka)
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: Aontas, Art O'Keefe's, Art O'Keeffe's, Dan Sweeney's, Hayden's Fancy
+N: AKA: John Leary's, Johnny Leary's, Murphy's
+K:Amajor
 V:1 
+|:A/B/A/F/ EF|AB ce|fe c2|BA F2|
+ A/B/A/F/ EF|AB ce|fe c2|BA A2:|
+ |:fe ce|fe ce|a>f ec|(3B/c/B/A F2|A/B/A/F/ EF|AB ce|fe c2|BA A2:|
+
 % abcbook-tune_id 63ce6af366cb3fbca7ab2f31
 % abcbook-link-0 https://www.youtube.com/watch?v=4U_Z7ibV6CM
 % abcbook-boost 0
@@ -2198,17 +2128,27 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472179735
+% abcbook-lastupdated 1675476279317
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 72
+X: 54940
 T: Pasucais De La Sacristana (Jig)
 B: good tune book
 B: tunes
+R: march
 Q: 1/4=100
+K:Amajor
 V:1 
+[M:6/8]
+ EAB|:c3 ABc|d2f agf|efe dcB|c2A EAB|
+ c3 ABc|d2f agf|efe dcB|1 A3 EAB:|2 A3 cBA||
+ B2B dcB|c2A cBA|B2B dcB|Ace cBA|
+ B2B dcB|f2e agf|efe dcB|A3 cBA|
+ B2B dcB|c2A cBA|EGB dcB|Ace cBA|
+ F2F dcB|f2e agf|efe dcB|A3||
+
 % abcbook-tune_id 63ce6af334f1746bef586e4e
 % abcbook-link-0 https://www.youtube.com/watch?v=uzqlCu3mYRM
 % abcbook-boost 0
@@ -2217,17 +2157,23 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472179748
+% abcbook-lastupdated 1675477085347
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 73
-T: Polka De Pe Faulon
+X: 66
+T: Polka du Pe Faulon
+C:trad.
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:2/4
+L:1/8
+Q: 1/4=120
+K:C
 V:1 
+eg ce|ed/2e/2 fd|df Bd|dc/2d/2ec|eg ce|ed/2e/2 fd|df Bd|ce c2:|
+|:Ge e>d|cBA2|fdBd|c/2B/2c/2d/2 ec|Ge e>d|cBA2|fdBG|edc2:||
 % abcbook-tune_id 63ce6af38481204a882eea8f
 % abcbook-link-0 https://www.youtube.com/watch?v=ItQHwNH51hk
 % abcbook-boost 0
@@ -2236,17 +2182,33 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421641249
+% abcbook-lastupdated 1675478196339
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords
 
-
-X: 74
+X: 48168
 T: Reel Des Eboulements
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: La Belle Catherinette, Medley Des Éboulements, Reel Des Éboulements, Reel Eboulements, Reel Printemps, 3/4 Of Dad's
+K:Amajor
 V:1 
+aA~A2 cAeA|Bcde f2fg|aA~A2 cAeA|fdge ~a3g|
+ aA~A2 cAeA|Bcde f2fg|agfe fedc|1 dfec A2fg:|2 dfec A2ed||
+ cAEA cAeA|Bcde f2ed|cAEA cAeA|fdge a2ed|
+ cAEA cAeA|Bcde f2fg|agfe fedc|1 dfec A2ed:|2 dfec A2AF||
+ EAAB cABA|GABc dBEB|GBEB GBEB|GBEB A2cA|
+ eAAB c2BA|GABc defg|agfe fedc|1 dfec A2AF:|2 defg a2||
+
 % abcbook-tune_id 63ce6af34cedba43d250cb32
 % abcbook-link-0 https://www.youtube.com/watch?v=RstOPiixAS8
 % abcbook-boost 0
@@ -2255,31 +2217,12 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421714083
+% abcbook-lastupdated 1675478984459
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 75
-T: Rosbif Waltz
-B: good tune book
-B: tunes
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 63ce6af3fca3d6d3b374c41e
-% abcbook-link-0 https://www.youtube.com/watch?v=HC8l9gU8_9E
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags ralph cullen,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421765360
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 76
+X: 68
 T: Sam's Tarantella
 B: good tune book
 B: tunes
@@ -2298,31 +2241,52 @@ V:1
 % abcbook-repeats 1
 
 
-X: 77
+X: 76531
 T: Sheepskin and Beeswax (Reel)
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Aunt Jemima's Plaster, Bee's Wax, Bee's Wax And Sheep Skin, Bees Wax, Sheep Skin, Beeswax
+N: AKA: Beeswax Sheepskin, The Irish, Le Reel Irlandais, Major Morrison's, Sheep Skin And Bees Wax
+N: AKA: Sheepskin & Beeswax, Sheepskin And Beeswax, Sheepskins Beeswax
+K:Adorian
 V:1 
+|:A3G BAGB|AGAB gfef|(3gfe fg efed|Beed BAAG|
+ A3G BAGB|AGAB gfef|(3gfe fg efed|1 Beed BAAG:|2 Beed BAAg||
+ |:a3b a2 ga|bagf e3f|(3gfe fg efed|Beed BABd|
+ a3b a2 ga|bagf e3f|(3gfe fg efed|1 Beed BABd:|2 Beed BAAG||
+
 % abcbook-tune_id 63ce6af3d659ec893d1cb116
-% abcbook-link-0 https://www.youtube.com/watch?v=bkplSnX40sE
+% abcbook-link-0 https://www.youtube.com/watch?v=loTm7g-KkFs
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421802700
+% abcbook-lastupdated 1675479682709
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 78
+X: 34462
 T: Tom Sullivan's (Polka)
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: An Spailpín Fánach, The Bog Road, Bóthar An Phortaigh, Box About The Fireplace, Did You Wash Your Father's Shirt
+N: AKA: The Disappointed Coquette, Gather Round The Fire, John And Julia Clifford's, Spailpin Fanach, Tom's
+N: AKA: The West Cork
+K:Dmixolydian
 V:1 
+|:"D"F>G AB|"C" cA AG|"D" Ad d^c|"D" dz "A"d>e|
+ "D"fd ed|"A" cA A>B|"C"cA GE|"D" D2D2:|
+ |:"D"fd ed|"A" cA A2|"D" fd ef|"G" g2 "A"a>g|"D"fd ed|"A" cA A>B|"C" cA GE|"D" D2D2:|
+
 % abcbook-tune_id 63ce6af3243423125f13c4a7
 % abcbook-link-0 https://www.youtube.com/watch?v=KQwlXfvDR8Y
 % abcbook-boost 0
@@ -2331,12 +2295,12 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1674472179836
+% abcbook-lastupdated 1675481825881
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 79
+X: 71
 T: Toureendarby (Polka)
 B: good tune book
 B: tunes
@@ -2355,7 +2319,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 80
+X: 72
 T: Valze De Mezzanotte (Waltz)
 B: good tune book
 B: tunes
@@ -2374,7 +2338,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 81
+X: 73
 T: Margaret's Waltz
 B: tunes
 B: good tune book
@@ -2393,46 +2357,18 @@ E3 FAB|ce3 AB|c2 c2 B2|A6||
 % abcbook-tune_id 63da59347be18328517f06d3
 % abcbook-link-0 https://www.youtube.com/watch?v=8BOx-6vFDVw
 % abcbook-link-1 152
-% abcbook-boost 0
+% abcbook-boost 13
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421251956
+% abcbook-lastupdated 1675474182100
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%gchordfont "itim-music,Itim" 20
 
-X: 82
-T: Mississippi Sawyer  [1]
-B: tunes
-B: good tune book
-M:C|
-L:1/8
-Q: 1/4=100
-K:D
-V:1 
-f(g|a2) a(f a2) a(f|a2) a(f ab)a(f|g2) g(e g2) ge|g2 ge abag|
-f2 fe fgfe|defg a2af|edef gecA|d2 dd d2:|
-|:fe|d2 fe d2 fe|defg a2 cB|A2 cB A2 cB|ABcd egfe|
-d2 fe d2 fe|defg a2 fg|afaf gecA|d2 dd d2:|]
-% abcbook-tune_id 63da5934917b24b31e60fb0b
-% abcbook-link-0 https://www.youtube.com/watch?v=MI8UzzLJdPk
-% abcbook-link-1 36
-% abcbook-link-2 312
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421321643
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%gchordfont "itim-music,Itim" 20
-
-X: 83
+X: 74
 T: Old Joe Clark
 C:Traditional American
 B: tunes
@@ -2461,8 +2397,8 @@ V:1
 % abcbook-repeats 1
 %%gchordfont "itim-music,Itim" 20
 
-X: 84
-T: Ookpik Waltz / Oot Pik Waltz / Utpick Waltz / Eskimo Waltz
+X: 75
+T: Ookpik Waltz
 B: tunes
 B: good tune book
 L:1/8
@@ -2485,74 +2421,13 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421873276
+% abcbook-lastupdated 1675470597694
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % %%vskip .3cm
 %%gchordfont "itim-music,Itim" 20
 
-X: 85
-T: Ragtime Annie
-C:Trad arr. \251 2019 Ben Paley
-B: tunes
-B: good tune book
-M:C|
-L:1/8
-R: reel
-Q: 1/4=95
-K:D
-V:1 
-DE |: F2BF AFBF | AFBA - A2DE | F2BF AFBF | Ac-cc c3B |
-ABcA BABc | ABcA BAcB | ABcd egfe |1 decd BcAE :|2 d6 fg |
-[| a4 - afd2 | A6 fg | a4 g4 | B6 ef |
-gfed cdef | gfed cdef | gfed cBAG | F6 fg |
-a4 - afd2 | f6 fe | d4 =c4 | B8 |
-gb-bb - bage | fa-ab afdB | ABcd egfe | d6 !fine!|]
-c2 |: B4 BAG=F | Ec-cd c4 | FGFE DEFD | GABc BAGE |
-D2Bc BAG=F | Ec-cd c4 | FGFE DEFE |1 GAGF G2A2 :|2 GEDB, G,2 |]
-% abcbook-tune_id 63da5934f9d10dbcc60315e2
-% abcbook-link-0 https://www.youtube.com/watch?v=_IFPTm1Z0GY
-% abcbook-link-1 129
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421678602
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%gchordfont "itim-music,Itim" 20
-
-X: 86
-T: Saint Anne's reel
-B: tunes
-B: good tune book
-M:C|
-L:1/8
-R: reel
-Q: 1/4=100
-K:D
-V:1 
-|: "D"f2fg fedB | A2AF DFA2 | "G"B2BG DGB2 | "D"A2{B}AF DFAd | "D"f2fg fedB |
-A2AF DFA2 | "G"BGBd "A7"cAce | dfec "D"d4 :: "D"fdAd fdfa | "Em"aggf g2ef | "A7"gfec Aceg |
-baa^g "(D)"a2a=g | "D"fdAd fdfa | "Em"aggf g2ef | "A7"gfec Aceg | "D"fd"A7"ec "D"d4 :|
-% abcbook-tune_id 63da5934ce123949713c4bc1
-% abcbook-link-0 https://www.youtube.com/watch?v=AXRD-Rj23Ao
-% abcbook-link-1 22
-% abcbook-link-2 216
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421831316
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%gchordfont "itim-music,Itim" 20
-
-X: 87
+X: 76
 T: Westphalia Waltz
 C:Trad.
 B: tunes
@@ -2580,27 +2455,7 @@ DEF|"G"G4A2|"Em"B4e2|"Bm"d6-|d3DEF|"G"G4A2|"E"B4c2|"Am"A4-AB|A4G2|
 % abcbook-repeats 1
 %%gchordfont "itim-music,Itim" 20
 
-X: 88
-T: Ookpik Waltz / Oot Pik Waltz / Utpick Waltz / Eskimo Waltz
-B: tunes
-B: good tune book
-M:3/4
-R: waltz
-Q: 1/4=100
-V:1 
-% abcbook-tune_id 63da5934a05781f971ffe5f2
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421881203
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 31106
+X: 90570
 T: Aires de Pontevedre
 B: good tune book
 B: tunes
@@ -2629,7 +2484,7 @@ e2|:"A"a2 e2 c2 de|"A"fedc B3 c|"A"dedc B2 cd|"A"edcB A2 e2|
 % abcbook-repeats 1
 
 
-X: 32038
+X: 85004
 T: Arrival Of The Queen Of Sheeba
 B: good tune book
 B: tunes
@@ -2662,7 +2517,7 @@ g2g2f2f2 e2e2d2d2|c2c2d2d2 g4 G4|B2B2e2e2 A2A2^c2c2|! d2g2a2A2 d4 F2A2|d2d2c2c2 
 % abcbook-repeats 1
 
 
-X: 91
+X: 79
 T: Arthur Morris Set Tune
 B: good tune book
 B: tunes
@@ -2681,7 +2536,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 51776
+X: 97597
 T: As The Sun Was Setting
 B: good tune book
 B: tunes
@@ -2710,7 +2565,7 @@ e2a g>ag|e2d c>BA|1 B>AG A>BA|E2E:|2 e>de A>GE|A3||
 % abcbook-repeats 1
 
 
-X: 3677
+X: 22356
 T: Bancroft's Descent
 B: good tune book
 B: tunes
@@ -2741,7 +2596,7 @@ e|:"D"fdd ~a2g|"D"fag fdd|"A"eAA ~g2f|"A"efd eAA|
 % abcbook-repeats 1
 
 
-X: 4391
+X: 10225
 T: Banks of Lough Gowna
 B: good tune book
 B: tunes
@@ -2772,27 +2627,35 @@ V:1
 % abcbook-repeats 1
 
 
-X: 91757
+X: 80019
 T: The Belltable
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+R: jig
+Q: 3/8=100
+N: AKA: The Corafean
+K:Dmajor
 V:1 
+|:"D" Add dcB|ABG FED|iF3 FED|"A" iE3 EFG|
+ "D" Add dcB|ABG FED|dfa"A" gec|edc"D" d2 B:|
+ |:"D" Adf ia3|agf"G" efg|"D" if3 ged|"A" cdc"G" BcB|
+ "D" Adf ia3|agf"G" efg|"D" if3"G" gec|"A" edc"D" d2 B:|
 
-W: 
 % abcbook-tune_id 63dce1b7e7bddea84072e646
+% abcbook-link-0 https://www.youtube.com/watch?v=cB90ZWL7hIM
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420087878
+% abcbook-lastupdated 1675480180736
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 96
+X: 84
 T: Bella Ciao
 C:Traditional
 B: good tune book
@@ -2825,7 +2688,7 @@ V:1
 % Time_signature 2/2
 % Has_accompaniment_chords No chords
 
-X: 97
+X: 85
 T: The Bear Dance
 B: good tune book
 B: tunes
@@ -2859,7 +2722,7 @@ ea ea|ea e>d|cA BG|A2 A2:|
 % Time_signature 2/4
 % Has_accompaniment_chords No chords
 
-X: 18807
+X: 3135
 T: Borea Piemontese
 B: good tune book
 B: tunes
@@ -2876,16 +2739,16 @@ g/b/g/b/ g/b/g/b/|  fe e2|  f/g/a/g/ f/a/f/a/|  ed d2|  de/d/ cB|  dc c2|  cd/c/
 % abcbook-tune_id 63dce226282a0de22be4aec9
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675424384943
+% abcbook-lastupdated 1675474552586
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 31372
+X: 99974
 T: Catalina
 B: good tune book
 B: tunes
@@ -2919,7 +2782,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 27133
+X: 26449
 T: Cliffs of Moher
 B: good tune book
 B: tunes
@@ -2949,27 +2812,36 @@ V:1
 % abcbook-repeats 1
 
 
-X: 70379
+X: 53251
 T: The Cowboy Jig
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+R: jig
+Q: 3/8=100
+N: AKA: Charley The Prayermaster, Charlie The Prayermaster, The Cowboys, Girls Of The Town
+K:Gmajor
 V:1 
+|:GDE G2A|Bgf gdB|ABc B2A|B3 AGE|
+ GDE G2A|Bgf gdB|ABc B2A|1 BGG G2A:|2 BGG GBd||
+ |:e3 edB|egf edB|d3 d2B|dge dBG|
+ c2d e2d|egB A2e|dBG B2A|1 BGG GBd:|2 BGG G2A||
 
-W: 
 % abcbook-tune_id 63dce26e6811f66960dd651e
+% abcbook-link-0 https://www.youtube.com/watch?v=7XdLOu4CBkU
+% abcbook-link-start-at-0 45
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420270696
+% abcbook-lastupdated 1675480252069
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 84905
+X: 43031
 T: Cuil Aodha
 B: good tune book
 B: tunes
@@ -3001,7 +2873,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 42980
+X: 10491
 T: Danish Double Quadrille
 B: good tune book
 B: tunes
@@ -3023,27 +2895,51 @@ W:
 % abcbook-repeats 1
 
 
-X: 38395
+X: 92
 T: The Dark Island
+C:Iain McLaughlin
 B: good tune book
 B: tunes
+M:3/4
+L:1/8
+R: waltz
 Q: 1/4=100
+K:D
 V:1 
+Bd \
+| "Em"[e4B4]   fe | "Bm"[d4B4] ed | "G"[B3G3] A GB | "D"[A4D4] de \
+|     [f3A3] e d2 |     [a4d4] de |    [f3d3] d af | "A"[e4A4]   ||
+Bd \
+| "Em"[e4B4]   fe | "Bm"[d4B4] ed | "G"[B3G3] A GB | "D"[A4D4] de \
+|     [f3d3] d af |  "A"[e4A4] fe | "G"[d3G3] e dB | "D"[d4F4]   |]
+fg \
+|  "D"[a3d3] f a2 | [f3d3] e d2 |  "G"   B G3    AB | "D"[A4D3] (3cde \
+|     [f3A3] f ed | [a4d4]   de | "(Bm)"[f3d3] d af | "A"[e4A4]  ||
+Bd \
+| "Em"[e4B4]   fe | "Bm"[d4B4]   ed | "G"[B3G3] A GB | "D"[A4D4] de \
+|     [f3d3] d af |  "A"[a3d3] e fe | "G"[d3G3] e dB | "D"[d4D4]   |]
 
-W: 
 % abcbook-tune_id 63dce2ad39c54af54ac9be87
+% abcbook-link-0 https://www.youtube.com/watch?v=Rbo5pBmVs68
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420333396
+% abcbook-lastupdated 1675480293348
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords
 
-
-X: 12589
+X: 76755
 T: Davy’s Brae
 B: good tune book
 B: tunes
@@ -3061,18 +2957,18 @@ V:1
 % abcbook-link-0 https://www.youtube.com/watch?v=-XRQKYTMpfc
 % abcbook-link-title-0 Jigs: Davy&#39;s Brae / Tam&#39;s Hunting Horn / The 19th Hole / Donald Ian Rankine
 % abcbook-link-end-at-0 66
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675426559404
+% abcbook-lastupdated 1675472628627
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 99488
+X: 52242
 T: Deccan Street
 B: good tune book
 B: tunes
@@ -3083,16 +2979,16 @@ W:
 % abcbook-tune_id 63dce2bebde937ce7e408694
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420350784
+% abcbook-lastupdated 1675474630290
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 89038
+X: 78938
 T: Dinkey’s
 B: good tune book
 B: tunes
@@ -3125,7 +3021,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 108
+X: 96
 T: Doudlebska polka
 B: good tune book
 B: tunes
@@ -3167,7 +3063,7 @@ F/F/ F/F/F G|.B .B.A B|"C" c c/c/c c|c4 |]
 % Time_signature 2/4
 % Has_accompaniment_chords Has chords
 
-X: 63057
+X: 33284
 T: Drunken Parson
 B: good tune book
 B: tunes
@@ -3197,7 +3093,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 67609
+X: 3630
 T: Dusty Windowsills
 B: good tune book
 B: tunes
@@ -3231,27 +3127,35 @@ V:1
 % abcbook-repeats 1
 
 
-X: 36657
+X: 44375
 T: The Fairies Hornpipe
 B: good tune book
 B: tunes
+M:4/4
+R: hornpipe
 Q: 1/4=100
+N: AKA: An Leanbh Sidhe, The Faeries', The Fairies, The Fairy Boy, The Fairy's
+K:Gmajor
 V:1 
+BAF|GFGA BdcB|AGAB G2Bc|dgfg edcB|cedB A2Bc|
+ dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+ |:Bc|dggf g2fe|dedc B2AG|ABcd edcB|Add^c d2B=c|
+ dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
 
-W: 
 % abcbook-tune_id 63dce33ea0522756c36372fd
+% abcbook-link-0 https://www.youtube.com/watch?v=3AHBYOoHf2I
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420478335
+% abcbook-lastupdated 1675480366996
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 65408
+X: 37937
 T: Far Away
 B: good tune book
 B: tunes
@@ -3281,7 +3185,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 7962
+X: 58178
 T: Farmer’s Jamboree
 B: good tune book
 B: tunes
@@ -3309,7 +3213,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 8418
+X: 77458
 T: Fermoy Lasses
 B: good tune book
 B: tunes
@@ -3338,7 +3242,7 @@ GE ~E2 BE ~E2|GFGA B2BA|GE ~E2 BE ~E2|FADF AcBA|
 % abcbook-repeats 1
 
 
-X: 12758
+X: 66352
 T: Fiery Clockface
 B: good tune book
 B: tunes
@@ -3356,38 +3260,50 @@ V:1
 % abcbook-tune_id 63dce372c038451b595aea0f
 % abcbook-link-0 https://www.youtube.com/watch?v=wkY6ktW5c5c
 % abcbook-link-title-0 Fiery Clockface
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675428591698
+% abcbook-lastupdated 1675472899469
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 81039
+X: 25540
 T: The Flogging Reel
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: The Flaggon, The Flagon, Floggan, The Floggin, Floggin'
+N: AKA: The Floggin', Floggin's, The Humours Of Bantry Bay, Kiss The Gunner's Daughter, The Newry Lass
+N: AKA: Ríl An Lasctha
+K:Gmajor
 V:1 
+|BG (3GGG BGdG|BG (3GGG Bdgd|BG (3GGG BGdB|AFDF ABcA|
+ BG (3GGG BGdG|BG (3GGG Bdgd|BG (3GGG BGdB|AFDF ABcA||
+ gfgd BGBd|gfge fgaf|gfge dBGB|AFDF ABcd|
+ gfgd BGBd|gfge fgaf|gfge dBGB|AFDF ABcA||
+ Bdgd Bdgd|Bdgd BG (3GGG|Adfd Adfd|Adfd BG (3GGG|
+ Bdgd Bdgd|Bdef gfga|bfaf gedB|AFDF ABcA||
 
-W: 
 % abcbook-tune_id 63dce37be344b7b115b5080d
+% abcbook-link-0 https://www.youtube.com/watch?v=nDcSox_J4AA
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420539665
+% abcbook-lastupdated 1675480410832
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 84969
+X: 16254
 T: Fred Finn's
 B: good tune book
 B: tunes
@@ -3416,7 +3332,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 75288
+X: 69974
 T: Galician Muineira
 B: good tune book
 B: tunes
@@ -3434,36 +3350,44 @@ V:1
 % abcbook-tune_id 63dce3bd959c65b556cffefe
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675429033965
+% abcbook-lastupdated 1675474705257
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 12044
+X: 23715
 T: The Galway Hornpipe
 B: good tune book
 B: tunes
+M:4/4
+R: hornpipe
 Q: 1/4=100
+N: AKA: The Bald Headed Bachelor, Cornphíopa Na Gaillimhe, Dan Lowry's, McDermott's, McDermott's No.1
+K:Dmajor
 V:1 
+|:AF|"D" {A}D2 .FA dAFD|"A" E{D}E{F}EF "G" G2 FE|"D" {A}D2 FA d2 .df|"G" edcB "A" (3(.A.B.A) (3(.G.F.E)|
+ "D" {A}D2 (3.F.G.A dAFD|"A" E{D}E{F}EF "G" G2 (3.E.F.G|"A" AdcB AGFE|"D" {A}.D2 .F2 .D2:|
+ |:de|"D" fefg fedc|"G" B^ABc .B2 (3.B.c.d|"E7" e^def e=dcB|"A" (3.A.B.A ^G>B A2 (3.A.B.c|
+ "D" dcde fdAF|"G" G{A}G{F}GA B.dcB|"A" AdcB (3.A.B.A (3.G.F.E|"D" {A}.D2 .F2 .D2:|
 
-W: 
 % abcbook-tune_id 63dce3ca3f0d7a5d40027b9d
+% abcbook-link-0 https://www.youtube.com/watch?v=aAUCn0bPfUc
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420618188
+% abcbook-lastupdated 1675480467888
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 69738
+X: 21652
 T: Garibaldi’s March Waltz
 B: good tune book
 B: tunes
@@ -3485,7 +3409,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 31421
+X: 18510
 T: George Bailey’s First Reel
 B: good tune book
 B: tunes
@@ -3508,7 +3432,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 23898
+X: 4006
 T: Going to the Well for Water
 B: good tune book
 B: tunes
@@ -3529,18 +3453,18 @@ A2f A2f A2f fed|Bgg Bgg Bgg gfe|
 % abcbook-link-1 https://www.youtube.com/watch?v=ZpjrLb4zxOI
 % abcbook-link-title-1 Caoimhín Ó Raghallaigh - Going To The Well For Water
 % abcbook-link-start-at-1 25
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675425181334
+% abcbook-lastupdated 1675433181331
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 123
+X: 111
 T: Hayden Fancy
 B: good tune book
 B: tunes
@@ -3576,27 +3500,36 @@ af f/e/d/f/|af f>e|dB cd|ed d2:|
 % Time_signature 2/4
 % Has_accompaniment_chords No chords
 
-X: 12673
+X: 96659
 T: The High Road to Linton
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Domhnall Beag An T-Siucair, High Rd To Linton, Jenny Goes To Linton, Jenny's Gone To Linton, Kitty Got A Clinking
+N: AKA: Kitty Got A Clinking Coming From The Races, Kitty Got A Clinking Going To The Fair
+K:Amajor
 V:1 
+|:"A"ceef a2ae|"D"f2fe "A"a2ae|ceef a2ae|"D"faec "E"B2"A"A2:|
+ |:"A"ceeg "D"fddf|"A"ecce "E7"fBBd|"A"ceeg "D"fddf|"A"ecac "E"B2"A"A2:|
+ |:"A"a2a2 efa2|efae faef|a2a2 efae|"D"faec "E"B2"A"A2:|
+ |:"A"cdec "D"defd|"A"cdec "E"BcdB|"A"cdec "D"def^g|afec "E"B2"A"A2:|
 
-W: 
 % abcbook-tune_id 63dce42783deb88d909c04e6
+% abcbook-link-0 https://www.youtube.com/watch?v=VoS9SxiOAyw
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420711863
+% abcbook-lastupdated 1675480539501
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 5073
+X: 34127
 T: Home Ruler
 B: good tune book
 B: tunes
@@ -3625,7 +3558,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 126
+X: 114
 T: Horses Branle (Brawl)
 B: good tune book
 B: tunes
@@ -3643,13 +3576,13 @@ _B A/G/ _B A/G/ | FG A2 | DE FG | AG G2 :||
 % abcbook-tune_id 63dce4361cff777500ab56c0
 % abcbook-link-0 https://www.youtube.com/watch?v=8KkPlHOndGw
 % abcbook-link-title-0 Horse&#39;s Brawl (Live)
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675431063649
+% abcbook-lastupdated 1675433202431
 % abcbook-soundfonts 
 % abcbook-repeats 1
 % Titles One title
@@ -3661,7 +3594,7 @@ _B A/G/ _B A/G/ | FG A2 | DE FG | AG G2 :||
 % Time_signature 4/4
 % Has_accompaniment_chords No chords
 
-X: 20088
+X: 72291
 T: Hot Punch
 B: good tune book
 B: tunes
@@ -3695,27 +3628,38 @@ a/g/|f2 d dcd|B2 d A2 d|f2 d faf|d3 def|
 % abcbook-repeats 1
 
 
-X: 91390
+X: 46527
 T: The House in Rose Valley
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+K:Edorian
 V:1 
+B4E2|E4E2|B4A2|Bdd4|
+ B4d2|e4(3BAG|A4F2|F4B2|
+ E4E2|e4d2|B4A2|Bdd4|
+ F4A2|B4d2|B4A2|FEE4:|
+ |:F4A2|E4E2|D4F2|AB4BA/F/|
+ E3FE2|e4d2|B4F2|Aee2d2|
+ B4E2|E4E2|B4A2|Bdd4|
+ B4d2|e4B2|AFF4|E6:|
 
-W: 
 % abcbook-tune_id 63dce44380b9f1c38b28cecf
+% abcbook-link-0 https://www.youtube.com/watch?v=kZLUZCDkErU
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420739599
+% abcbook-lastupdated 1675480588847
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 4660
+X: 28895
 T: Hughie Shorty’s Reel
 B: good tune book
 B: tunes
@@ -3741,7 +3685,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 37992
+X: 6172
 T: Huntsmen’s Chorus
 B: good tune book
 B: tunes
@@ -3770,7 +3714,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 11599
+X: 74599
 T: Ingelas Vals
 B: good tune book
 B: tunes
@@ -3781,16 +3725,16 @@ W:
 % abcbook-tune_id 63dce45c276d1f8a1d780808
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675420764650
+% abcbook-lastupdated 1675474726197
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 91735
+X: 90246
 T: Jack’s The Lad
 B: good tune book
 B: tunes
@@ -3809,18 +3753,18 @@ dc|:d2 D2 D2 AG|FAdc dfed|e2 EF ^GBed|ce a2 a2 bc'|
 % abcbook-tune_id 63dce4684c3ce15fda405f85
 % abcbook-link-0 https://www.youtube.com/watch?v=_1njy073MYE
 % abcbook-link-title-0 Jack&#39;s the Lad
-% abcbook-boost 0
+% abcbook-boost 15
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675431814568
+% abcbook-lastupdated 1675433453709
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 1332
+X: 87223
 T: Jesse Polka
 B: good tune book
 B: tunes
@@ -3843,7 +3787,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 30846
+X: 81785
 T: Jim Keefe's Polka
 B: good tune book
 B: tunes
@@ -3873,7 +3817,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 18943
+X: 85214
 T: Johnny Cope
 C:Traditional
 B: good tune book
@@ -3937,118 +3881,191 @@ W: If I face them again Deil brak ma legs,
 W: So I wish you a' good morning.'
 % abcbook-tune_id 63dce5b0c6d678718ffb8439
 % abcbook-link-0 https://www.youtube.com/watch?v=EeIufFgQf44
-% abcbook-boost 0
+% abcbook-boost 18
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675432854764
+% abcbook-lastupdated 1675433226958
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 11647
+X: 124
 T: La Musgana
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+L:1/8
+R: Jig
+Q: 3/8=100
+K:C
 V:1 
+G|:cBc def|ecc cgg|gde fgf|edc dcB|
+cBc def|ecc cgg|gde fed|1c3 c2G:|2 c3G|AB||
+|:c2G d2G|e2g gfe|d2e fed|e2c GAB|
+c2G d2G|e2g gfe|d2e fed|1c3 GAB:|2c3c2||
 
-W: 
 % abcbook-tune_id 63dce5bad0e9bab79b691df8
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421114521
+% abcbook-lastupdated 1675474843458
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords
 
-
-X: 73400
+X: 67224
 T: La Partida
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+N: AKA: The Game
+K:Bminor
 V:1 
+FGF^EF|:"Bm"d3FdF|d3FdF|"F#"de/d/c^Bc2|zEFE^DE|
+ "F#"c3EcE|c3EcE|"Bm"cd/c/B^AB2|zFGF^EF|
+ "B7"B2^A(BB)=c|B2A(GG)F|"Em"FG/F/E^DE2|zgfedc|
+ "Bm"b,^a,b,cde|"F#"fgfedc|"Bm"b,c/b,/^a,b,df|1 BFGF^EF:|2 BzF2F2||
+ |:"F#"feFfeF|feFfeF|"Bm"edFedF|edFedF|
+ "F#"dcFdcF|dcFdcF|"Bm"cBFcBF|cBFcBF|
+ "B7"BAFBAF|BAFBAF|"Em"FG/F/E^DE2|zgfedc|
+ "Bm"b,^a,b,cde|"F#"fgfedc|"Bm"b,c/b,/^a,b,df|1 BzF2F2:|2 B||
 
-W: 
 % abcbook-tune_id 63dce5c274b1f33ce7ede638
+% abcbook-link-0 https://www.youtube.com/watch?v=H2uaib2XNs4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421122659
+% abcbook-lastupdated 1675474768559
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 71976
+X: 126
 T: Lady Charlotte Murray
+C:Niel Gow
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:D
 V:1 
+A/G/ \
+| "D"F2D DFA | dAF AFD | "C"E/=F/GE =CEG | =cGE =CEG \
+| "D"F2D DFD | dAF AFD | "C"G=cG "A7"EFG | "D"AFD D2 :|
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"f2d "(Bm)"dfd | "D"afd "A7"efg | "Bm"fdf "A7"ece | "D"dAF D2 ||
+"A7"a/g/ \
+| "D"f2d dfd | afd "G7"de=f | "C"e2=c cec | ge=c "A7"efg \
+| "D"afa "A7"geg | "Bm"fdf "A7"edc | "D"Adc "A7"cBc | "D"dAF D2 |]
 
-W: 
 % abcbook-tune_id 63dce5d14756462ba5406698
+% abcbook-link-0 https://www.youtube.com/watch?v=T19qr95W_6w
+% abcbook-link-start-at-0 8
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421137535
+% abcbook-lastupdated 1675474958629
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords
 
-
-X: 96461
+X: 127
 T: Levi Jackson Rag
+C:R-15
 B: good tune book
 B: tunes
+M:C|
+R: rag
 Q: 1/4=100
+K:G
 V:1 
-
-W: 
+"D7"d2 e2f2 | "G"g4 d4 | edBd- "D7"dBA2 | "G"G8 | D8 | "Bb"=F4 _B4 | d=fgf- fdc2 | "Am"d8 | "D7"e4f4 |
+| "G"g4 d4 | edBd- dBA2 | "C"G8 | E6 _E2 | "G"D4 "E7"d4 | "A7"BGA_B- "D7"BGA2 | "G"G4- "C"G4- | "G"G2 |]
+[|"G7"G2 F2=F2 | "C"EGAC EGEG | ACEG EGAc | "Am"e2ee- edc2 | A8 |
+ "E"^GB^cE GBGB | ^cE^GB GBce | "C#m"^g2gg- gfe2 |^c8 ||
+ "E"^g2gg- gfe2 | "A7"=g2gg- gfe2 | "D"f2ff- fede | "D7"fafe defa 
+| "G"bage- "E7"edB2 | "A7"edBA- "D7"AGE2 | "G"G4- "C"G4- |"G"G2 |]
 % abcbook-tune_id 63dce5d9eb4f7d34563c1a70
+% abcbook-link-0 https://www.youtube.com/watch?v=pJm0ha1c2ZA
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421145525
+% abcbook-lastupdated 1675475151341
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords
 
-
-X: 81476
+X: 35930
 T: Liza Lynn
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+K:Amajor
 V:1 
+E2 A3 B|c4 Bc|d2 A3 F|D4 F2|
+ E2 G2 B2|g2 f2 g2|a2 ef ed|c4 CD|
+ E2 A2 B2|c4 Bc|d2 A2 F2|D4 F2|
+ E2 G2 B2|g2 f2 g2|a2 ag ab|a4||
+ ea az zA|Ac cz zA|df fd Bd|F3 A GF|
+ E2 G2 B2|g2 f2 g2|1 a2 ef ed|c3 B cd|2 a2 ag ab|a4:|
 
-W: 
 % abcbook-tune_id 63dce5e93f41c46bf990960a
+% abcbook-link-0 https://www.youtube.com/watch?v=8V6bIn5OGc8
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421161940
+% abcbook-lastupdated 1675475253622
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 85601
+X: 40714
 T: The Long Water
 B: good tune book
 B: tunes
@@ -4068,7 +4085,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 80224
+X: 70512
 T: Long Weekend at Home
 B: good tune book
 B: tunes
@@ -4077,38 +4094,54 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce5fa1360f5066ebef772
+% abcbook-link-0 https://www.youtube.com/watch?v=JXjo_FxCIYc
+% abcbook-link-end-at-0 204
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421178266
+% abcbook-lastupdated 1675479278574
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 39519
+X: 63148
 T: The Maids of Ardagh
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: Back O' The Haggard, Back Of The Haggard, The Back Of The Haggard, Back Of The Haggart, The Back Of The Haggart
+N: AKA: Ballyscadden, I Have A Bonnet Trimmed With Blue, Johnny Leary's, Let's Have A Ceilidh, Liberton Pipe Band
+N: AKA: Maid Of Ardagh, The Maid Of Ardagh, The Maids Of Ardagh, Maids Of Ardath, The Maids Of Ardath
+N: AKA: Sliabh Mhachaire, Toormore No. 2, Toormore Polka #2, Toormore Polka No. 2, The Toormore
+N: AKA: Tourmore Polka #2, The Tourmore Polka #2, Tourmore Polka 2, Tourmore Polka No. 2, The Tourmore Polka No. 2
+N: AKA: The Tourmore, Tuar Mor No. 2, The Tuar Mór Polka #2, The Tuar Mór Polka No. 2, Tuar Mór Polkas 2
+N: AKA: The Tuar Mór
+K:Dmajor
 V:1 
+|:FA/A/ BA|dd/e/ f2|fe/f/ gc|ed BA|
+ FA/A/ BA|dd/e/ f2|fe/f/ gc|ed d2:|
+ |:ef/e/ ce|f/f/e a2|ef/e/ ce|fe c/B/A|
+ ef/e/ ce|f/f/e a2|ef/e/ dB/c/|1 BA A2:|2 BA AG||
 
-W: 
 % abcbook-tune_id 63dce613593d5b41b02d5d7f
+% abcbook-link-0 https://www.youtube.com/watch?v=88i2K4tv5dA
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421203825
+% abcbook-lastupdated 1675480907585
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 99964
+X: 5563
 T: Marche Nuptial
 B: good tune book
 B: tunes
@@ -4119,16 +4152,16 @@ W:
 % abcbook-tune_id 63dce61b929d809b4001fc8f
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421211853
+% abcbook-lastupdated 1675475531302
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 66868
+X: 34364
 T: Marsch efter Lars Pang
 B: good tune book
 B: tunes
@@ -4137,218 +4170,316 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce65a615f4a6cc6bf0270
+% abcbook-link-0 https://www.youtube.com/watch?v=09gKrGUxwRY
+% abcbook-link-start-at-0 4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421274049
+% abcbook-lastupdated 1675475570779
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 27999
+X: 53930
 T: Midnight on the Water
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+K:Dmajor
 V:1 
+DE|:"D" F2 F2 FE|"D" F2 F2 FE|"D" FA3 AB|"D" AF ED DE|
+ "D" Fd2D "G" B2|"D" A3F (3DED|"A" FA2F ED|1 "D" D4 (3DED:|2 "D"D2 (3DEF (3ABc||
+ |:"D" d3c de|"Bm" dc BA Bc|"D" d2 dB AF|"D" D2 d3d|
+ "Em" e4 ef|"Em" e2 d2 ed|"Bm" f2 fa fe|"D" dc BA Bc|
+ "G" d3c de|"G" dc BA Bc|"D" d2 dB AF|"D" D3F DE|
+ "D" Fd2D "G" B2|"D" A3F (3DED|"A" FA2F ED|1 "D"D2- (3DEF:|2 "D" D3E||
 
+W:  never thought much of that fancy dancing
+W: With my two left feet and my roving eye.
+W: But when the band plays that slow air in three-four time,
+W: I could dance with my darling until morning comes.
 W: 
+W: Chorus:
+W: Play me a fiddle tune, sing me a song!
+W: Banish misfortune, my time is not long!
+W: Midnight on the water, so steady and slow.
+W: The lark in the morning, one more for the road.
+W: Midnight on the water, so steady and slow.
+W: Let's have another drink and set them up Joe.
+W: 
+W: Well, I've done all my dancing down in those bar-rooms.
+W: Dancing and drinking they go hand in glove.
+W: So give a beer to the fiddler, and play all the old tunes
+W: So I can dance closer to the one that I love!
+W: 
+W: 2 × Chorus
 % abcbook-tune_id 63dce673f1b68ca9fa6a1553
+% abcbook-link-0 https://www.youtube.com/watch?v=EhUaqbcx10A
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421299526
+% abcbook-lastupdated 1675475828408
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 97151
+X: 11632
 T: Muniera de Chantada
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+R: jig
+Q: 3/8=100
+K:Dminor
 V:1 
+A|:D3 EFG|A3A2A|AGA B2A|
+ A3 E3|E3 FGA|B3BAG|ABA GFE|
+ F2E D2A|D3 EFG|A3A2A|AGA d2c|
+ c3 B3|Bcd e2d|d3 A3|ABA GFE|1 D3D2A:|2 D3d2^c||
+ K:D
+ |:A2B c2A|B3 A2G|E2F G2A|
+ F2D d2c|A2B c2A|B3 A2G|E2F G2A|1 D3d2c:|2 D3DdA||
+ |:c2B2GE|B2A2FD|A2G2EC|
+ B2A2dA|c2B2GE|B2A2FD|A2G2EF|1 D3DdA:|2 D3D2||
 
-W: 
 % abcbook-tune_id 63dce69c0a03f0005b03d24a
+% abcbook-link-0 https://www.youtube.com/watch?v=MkV-eJ6awpw
+% abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421340511
+% abcbook-lastupdated 1675476238553
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 8382
-T: The Munster Bank
-B: good tune book
-B: tunes
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 63dce6a5647c8c05d29a80f4
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421349835
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 68240
+X: 49073
 T: Music For A Found Harmonium
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Music For The Found Harmonium, Tune For A Found Harmonium
+K:Dmajor
 V:1 
+DE|:FDGD FDDD|FDGD FDDD|FDGD FDDD|EDCD FDDD:|
+ |:EDCD EDCD|FDCD FDCD|GDED CDGD|1 FDDD D2 DD:|2 FDDD D2 D=F||
+[K: Cmaj] 
+|:cFEF GFEF|cFEF E2EF|cFEF GFEF|cFEF E2 EF:|
+[K: Fmaj]
+BFDF GFDF|BFDF GFDF|BFEF GEEG|BFEF GEEG|
+^cGEG cGGG|^cGEG cGGG|^cGEG cGGG|^cGEG cGGG| 
+[K: Dmaj]
+|:FDGD FDDD|FDGD FDDD|FDGD FDDD|EDCD FDDD:|
+ |:EDCD EDCD|FD=CD FDCD|GDED CDGD|1 FDDD D2 DD:|2 FDDD D2DE||
 
-W: 
 % abcbook-tune_id 63dce6b1e26f5d39eb13595b
+% abcbook-link-0 https://www.youtube.com/watch?v=yJg1NNyke2E
+% abcbook-link-start-at-0 20
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421361251
+% abcbook-lastupdated 1675476359593
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 55769
+X: 53985
 T: The New Rigged Ship
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Da New Riggid Ship Yo, Da New Riggit Ship, The New Rigged Ship, The New Riggit Ship, The New-rigged Ship
+K:Adorian
 V:1 
+eg|:a3b ageg|agab agef|g3e fgag|1 f2d2d2eg:|2 f2d2d2ed:|
+ |:^cecA B2 ed|^cecA E2 ed|^cecA B2 ed|1 ^c2A2A2ed:|2 ^c2A2A2AB:|
+ |:cdec BcdB|ABAF GFED|cdec BcdB|1 c2A2A2AB:|2 c2A2A4:|
 
-W: 
 % abcbook-tune_id 63dce6c13cf1235170dd1af9
+% abcbook-link-0 https://www.youtube.com/watch?v=cwCoX_1MC2c
+% abcbook-link-start-at-0 104
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421377164
+% abcbook-lastupdated 1675481109077
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 8570
+X: 40266
 T: O the Breeches Full of Stitches
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: The Breeches Full Of Stitches, The Irish Lad's A Jolly Boy, O The Britches Full Of Stitches, Oh The Breeches Full Of Stitches, Oh The Britches Full Of Stitches
+N: AKA: Oh! The Breeches Full Of Stitches, Oh! The Britches Full Of Stitches, Witches' Britches
+K:Cmajor
 V:1 
+|:"C"c>d ec|"C"dc ec|"C"c>d ec|"F"dc A2|
+ "C"c>d ec|"C"dc eg|"F"c>d cA|"G"AG G2:|
+ |:"C"g>a ge|"C"dc de|"F"g2 ge|"F"dc A2| "Am"g2 ge|"Am"dc de|"G"c>d cA|"G"AG G2:|
 
+W: Oh, my breeches full of stitches,
+W: Oh, my breeches buckled on.
 W: 
 % abcbook-tune_id 63dce6d1ac50241b9b465a45
+% abcbook-link-0 https://www.youtube.com/watch?v=1iyfy--v1Mg
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421393564
+% abcbook-lastupdated 1675476581964
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 82942
-T: OKeefe's Slide
+X: 139
+T: O'Keefe's slide
+C:Trad.
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:12/8
+L:1/8
+R: Slide
+Q: 3/8=160
+K:Em
 V:1 
+"Em"E2B B2A FEF A2D|"D"E2B B2A F2D DEF|"Em"E2B B2A FEF A3|"D"FEF A2B F2E E3:|:
+"Em"B2e e2f e2d B2A|"Em"B2e e2f e2d B2c|"D"d2e d2B A2F D2E|"D"FEF A2B F2E E3:|
 
-W: 
 % abcbook-tune_id 63dce6e01a71bd4a85cac6a1
+% abcbook-link-0 https://www.youtube.com/watch?v=m0iU1r2Z2hs
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421408739
+% abcbook-lastupdated 1675476621982
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords
 
-
-X: 58226
+X: 17443
 T: The Oslo Waltz
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+N: AKA: Kristiana-Valsen
+K:Gmajor
 V:1 
+|:(3B^cd|ed (3B^cd GB|D2 G2 B2|E3F G2|D4 G2|F4 A2|d4 c2|B2 BA Bc|B4 (3B#cd|
+ ed Bd GB|D2 G2 B2|E3F G2|D4 G2|F4 A2|d4 F2|G6|G4:|
+ |:Bc|d6|g5g|g2 f2 e2|B4 c2|d3e d2|c2 B2 A2|G3F GA|B4 Bc|
+ d6|g5g|g2 f2 e2|B4 c2|d3e d2|c2 B2 A2|G6|G4:|
+ A2|B6|B4 A2|G6-|G6|B,2 D2 G2|B2 d2 _e2|e6-|e6|
+ c6|c4 B2|A6-|A4 G2|F4 A2|d4 c2|B6|DE FG A2|
+ B6|B4 A2|G6-|G6|B,2 D2 G2|B2 d2 _e2|e6-|e4 f2|
+ g6|g2 f2 e2|d6|g4 c2|B6|A6|G6-|G4||
 
-W: 
 % abcbook-tune_id 63dce70c301ac676886599a4
+% abcbook-link-0 https://www.youtube.com/watch?v=Uz9CwiFkbYk
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421452723
+% abcbook-lastupdated 1675481206756
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 81011
+X: 77204
 T: Padraig O’Keefe’s
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+R: jig
+Q: 3/8=100
+N: AKA: O'Keefe's, Old Torn Petticoat, Padraig O'Keefe's
+K:Dmajor
 V:1 
+aff gee|fed B2A|aff gee|fed d2f|
+ aff gee|fed B2A|GAB dBA|FEE E3:|
+ |:GAB d2B|dBe dBA|GAB dBA|Bee eee|
+ GAB d2B|dBe dBA|GAB dBA|FEE E3:|
 
-W: 
 % abcbook-tune_id 63dce717b3050a74c61c214c
+% abcbook-link-0 https://www.youtube.com/watch?v=TfixcQ6ld7s
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421463529
+% abcbook-lastupdated 1675477014660
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 6248
+X: 11844
 T: Pat The Budgie
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Pat De Budgie, Pat The Budgie Breakdown
+K:Dmajor
 V:1 
+|:D2 DF A3 F|GFGB e3 d|cA ~A2 ^GABc|1 dcde fdAF:|2 ~d2 ce d2 ef||
+ |:g2 gf gbag|fddc d2 Bd|cA ~A2 cdec|1 dcde fedf:|2 ~d2 ce d2 fg||
+ |:a2 z2 b3 f|abaf dafd|cA ~A2 cdec|1 dcde fdfg:|2 ~d2 ce d4||
 
-W: 
 % abcbook-tune_id 63dce7262c0260c50a4fa1af
+% abcbook-link-0 https://www.youtube.com/watch?v=9eTJ2Y0y7Q8
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421478198
+% abcbook-lastupdated 1675477167878
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 80795
+X: 96644
 T: Pete Brady’s Chubby Cheeks
 B: good tune book
 B: tunes
@@ -4359,16 +4490,16 @@ W:
 % abcbook-tune_id 63dce72dd5819694ef7cebf2
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421485934
+% abcbook-lastupdated 1675477349729
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 22206
+X: 69453
 T: Phillipe Bruneau’s Reel
 B: good tune book
 B: tunes
@@ -4377,38 +4508,56 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce735de1a9b3916a4e161
+% abcbook-link-0 https://www.youtube.com/watch?v=nxpYx2psMtc
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421493549
+% abcbook-lastupdated 1675477385877
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 14606
+X: 145
 T: Pifferata Degli Abba
 B: good tune book
 B: tunes
+M:2/4
+L:1/16
+R: Polka
 Q: 1/4=100
+K:G
 V:1 
+dd |: g2d2 B2d2 | G3A G2GB | d2BG d2BG | AGAB Adef |
+gfed cBAF | GFGA G2GB |dcBA DFAF |1 G4 Gdef :|2 G6 d2 ||
+|: BcBA G2d2 | BcBA Gdef | gfed cdBG | d2f2 d2dd |
+BcBA Gddd | BcBA Gdef | gfed cBAG |1 DFAF G2B2:|2 DFAF G3||
 
-W: 
 % abcbook-tune_id 63dce73c47a06be105c61802
+% abcbook-link-0 https://www.youtube.com/watch?v=J2yaIS5O0mg
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421500205
+% abcbook-lastupdated 1675477541271
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords
 
-
-X: 81236
+X: 28597
 T: Pink Elephants
 B: good tune book
 B: tunes
@@ -4417,18 +4566,20 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce742bd00faa118a57141
+% abcbook-link-0 https://www.youtube.com/watch?v=VgHTRQ4d-gw
+% abcbook-link-start-at-0 218
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421506661
+% abcbook-lastupdated 1675477955999
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 72657
+X: 55589
 T: Polka du Morvan
 B: good tune book
 B: tunes
@@ -4437,18 +4588,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce7d037fde0e08f42944a
+% abcbook-link-0 https://www.youtube.com/watch?v=sfObH-hJHGQ
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421648350
+% abcbook-lastupdated 1675478043835
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 67367
+X: 60357
 T: Polka du pas Berry
 B: good tune book
 B: tunes
@@ -4457,18 +4609,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce7d5289371ea316583a8
+% abcbook-link-0 https://www.youtube.com/watch?v=tGitc1gSy0k
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421653758
+% abcbook-lastupdated 1675478121000
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 40325
+X: 25757
 T: Polka du Tsa
 B: good tune book
 B: tunes
@@ -4477,18 +4630,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce7dc1126009f1f948593
+% abcbook-link-0 https://www.youtube.com/watch?v=S02XgArgS7Q
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421660529
+% abcbook-lastupdated 1675478225253
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 99401
+X: 73917
 T: Quant’e Bello Lu Primo Ammor
 B: good tune book
 B: tunes
@@ -4497,18 +4651,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce7e275345be3c8383720
+% abcbook-link-0 https://www.youtube.com/watch?v=kqcxGrhbXRM
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421666237
+% abcbook-lastupdated 1675478644979
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 19384
+X: 21018
 T: Raimondos Cucina
 B: good tune book
 B: tunes
@@ -4517,58 +4672,80 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce7f5e8e7852b2552c14a
+% abcbook-link-0 https://www.youtube.com/watch?v=UDnjgcHyLGw
+% abcbook-link-start-at-0 88
+% abcbook-link-end-at-0 175
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421685788
+% abcbook-lastupdated 1675478868478
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 41550
+X: 22541
 T: The Rambler
 B: good tune book
 B: tunes
-Q: 1/4=100
+M:6/8
+R: jig
+Q: 3/8=100
+N: AKA: An Fánaí, Father Hanley's, Father O'Hanley's, The House In The Glen, The Rambler's
+N: AKA: The Traveller
+K:Amajor
 V:1 
+|:"A"ECE E2 A|"A"FEC E2 e|"D"fec ABc|"E"dcd BAF|
+ "A"ECE E2 A|"A"FEC E2 e|"D"fec ABc|"E"BAG "A"A3:|
+ |:"A"ece Ace|"A"aga "D"faf|"A"ece fec|"E"cBA Bcd|
+ "A"ece Ace|"A"aga "D"faf|"A"ece fec|"E"BAG "A"A3:|
 
-W: 
 % abcbook-tune_id 63dce7ffb0be76ef96b50b7a
+% abcbook-link-0 https://www.youtube.com/watch?v=xfMeJvgANzg
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421695039
+% abcbook-lastupdated 1675481270560
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 64207
+X: 7048
 T: Red Haired Lass
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: Ag Lomairt Na gCaorach, The Crusheen, Dipping The Sheep, Jim Seery's, The Kildoney Lasses
+N: AKA: Peter Kennedy's Fancy, Red Haired Lass, The Red Haired Lass, Red Haired Lasses, The Red Haired Lassie
+N: AKA: The Redheaded Lassie, Shearing The Sheep
+K:Gmajor
 V:1 
+"G"DGGF G2 BG|"Bm"G2 BG AGEG|"C"DGGF GABd|"D"egdB c2 BA|
+ "G"DGGF G2 BG|"Bm"G2 BG AGEG|"C"DGGF GABd|"D"egdB c2 Bc||
+ "G"d2 gd edgd|"Bm"d2 gd BGBc|"C"d2 gd edef|"D"gedB c2 Bc|
+ "G"d2 gd edgd|"Bm"d2 gd BGBd|"C"c3A "G"B3A|"C"GABd "D"egdB||
 
-W: 
 % abcbook-tune_id 63dce80c760d4e13e29070a6
+% abcbook-link-0 https://www.youtube.com/watch?v=nxuzFCIuzGQ
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421708814
+% abcbook-lastupdated 1675478940619
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 11762
+X: 23791
 T: Rita Croker’s Set Tune
 B: good tune book
 B: tunes
@@ -4588,87 +4765,120 @@ W:
 % abcbook-repeats 1
 
 
-X: 85814
-T: Sam’s Tarantella
-B: good tune book
-B: tunes
-Q: 1/4=100
-V:1 
-
-W: 
-% abcbook-tune_id 63dce85165a1b6d3d4e9ed85
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675421777153
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 45508
+X: 84944
 T: Sandpit Reel
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: The Sandpit
+K:Gmajor
 V:1 
+|:E2 GF EGBG|ceBA BFFG|E2 GF EGBG|A2 Bd eE E2|
+ E2 GF EGBG|ceBA BF F2|ecdB cABG|A2 Bd eE E2:|
+ |:eBce B2 AG|Ac (3BAG BF F2|eBce B2 AG|A2 (3Bcd eE E2|
+ eBce B2 AG|Ac (3BAG BF F2|ecdB cABG|A2 (3Bcd eE E2:|
+ Begb e2 Be|d2 Bd FAFD|Begb e2 Be|fdAF GE E2|
+ Begb e2 Be|d2 Bd FAFD|Begb e2 Be|fdAF GE E2|
+ g>g ge Begb|dfAd FD D2|gbeg Begb|fdAF GE E2|
+ g>g ge Begb|dfAd FD D2|geBe fdAF|GB (3FGA (3GFE FD|
+ Begb e3 f|geBG FA (3GFE|Begb e2 Be|fdAF GE E2|
+ Begb e2 Be|(3fga fd (3FGA FD|Begb e2 Be|fdAF GE E2|
+ g>g ge Begb|dfAd FD D2|gbeg Begb|fdAF GE E2|
+ b>b bg ebge|fdAG (3FGA FD|geBe fdAF|GB (3FGA (3GFE FD|
+ E2 GF EGBG|ceBA BFFG|E2 GF EGBG|A2 Bd eE E2|
+ E2 GF EGBG|ceBA BF F2|ecdB cABG|A2 Bd eE E2|
+ eBce B2 AG|Ac (3BAG BF F2|eBce B2 AG|A2 (3Bcd eE E2|
+ eBce B2 AG|Ac (3BAG BF F2|ecdB cABG|A2 (3Bcd eE E2|
+ K: D
+ |:B2 dc Bdfd|gbfe fccd|B2 dc Bdfd|e2 fa bB B2|
+ B2 dc Bdfd|gbfe fc c2|bgaf gefd|e2 fa bB B2:|
+ |:bfgb f2 ed|eg (3fed fc c2|bfgb f2 ed|e2 (3fga bB B2|
+ bfgb f2 ed|eg (3fed fc c2|bgaf gefd|e2 (3fga bB B2:|
+ K: G
+ Begb e3 f|geBG FA (3GFE|Begb e2 Be|fdAF GE E2|
+ Begb e2 Be|(3fga fd (3FGA FD|Begb e2 Be|fdAF GE E2|
+ g>g ge Begb|dfAd FD D2|gbeg Begb|fdAF GE E2|
+ b>b bg ebge|fdAG (3FGA FD|geBe fdAF|GB (3FGA (3GFE FD|
+ E2 GF EGBG|ceBA BFFG|E2 GF EGBG|A2 Bd eE E2|
+ E2 GF EGBG|ceBA BF F2|ecdB cABG|A2 Bd eE E2|
 
-W: 
 % abcbook-tune_id 63dce856c0bf5a1a95319355
+% abcbook-link-0 https://www.youtube.com/watch?v=JXjo_FxCIYc
+% abcbook-link-start-at-0 204
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421782642
+% abcbook-lastupdated 1675479239446
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 14565
-T: Schottis Fran Lima
+X: 156
+T: Schottis fraan Lima
 B: good tune book
 B: tunes
+M:C|
+R: schottis
 Q: 1/4=100
+K:Dm
 V:1 
-
-W: 
+A=B^cd e2ef|d2de ^c2^c2|A=B^cd e2ef|(3gagfg a4|
+A=B^cd e2ef|d2de ^c2^c2|defg age^c|dfe^c d4:|
+|:agef g2g2|afde f2f2|e^cA^c e^cA^c|defg a4|
+agef g2g2|afde f2f2|e^cA^c e^cA^c|dfe^c d4:|
 % abcbook-tune_id 63dce85b48886ea31c3dc207
+% abcbook-link-0 https://www.youtube.com/watch?v=RRrEWJmhim4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421787825
+% abcbook-lastupdated 1675479446807
 % abcbook-soundfonts 
 % abcbook-repeats 1
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords
 
-
-X: 14367
+X: 40931
 T: Sheehan’s
 B: good tune book
 B: tunes
+M:4/4
+R: reel
 Q: 1/4=100
+N: AKA: The Black-eyed Sailor, The Broom, Fess, Joe O'Connell's Dream, Lord Wellington
+N: AKA: Lord Wellington's, Ríl Uí Shiodhacháin, Sheean's, Sheehan, Wellington's
+K:Gmajor
 V:1 
-
-W: 
+D|:"G"{EF}G2 BG DGBG|"D7"ABcA "G"BGGB|"Am"AGAB cABG|EAAG "D7"FDEF|! "G"{EF}G2 BG DGBd|"C"cBAB "D7"cdef|"G"gedB "C"{B}c2 Bc|"D7"dBcA "G"BG G2:|! |:"G"g2 bg dgbg|gbag fede|"D"f2 af dfaf|"G"gbag "D7"fedf|! "G"g2 bg dgbg|gbag "D7"fedf|"G"gedB "C"{B}c2 Bc|"D7"dBcA "G"BG G2:|
 % abcbook-tune_id 63dce862d6b3f2618b9a04f5
+% abcbook-link-0 https://www.youtube.com/watch?v=WNq2Qvb-Cek
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421794738
+% abcbook-lastupdated 1675479621500
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 58093
+X: 81361
 T: Solingsvalsen
 B: good tune book
 B: tunes
@@ -4677,18 +4887,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce87a6573a8c7d7216814
+% abcbook-link-0 https://www.youtube.com/watch?v=Aax5tv-ke7E
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421818555
+% abcbook-lastupdated 1675479894173
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 20570
+X: 72670
 T: Teddy Creighton’s Step Dance
 B: good tune book
 B: tunes
@@ -4699,16 +4910,16 @@ W:
 % abcbook-tune_id 63dce89831f787ba92554445
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book
+% abcbook-tags good tune book,no youtube available
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421848597
+% abcbook-lastupdated 1675479945315
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 19482
+X: 48220
 T: Tha M’Eudail Is Maighear’s Mo Graidh
 B: good tune book
 B: tunes
@@ -4717,18 +4928,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce89ff97691ce828ba6d2
+% abcbook-link-0 https://www.youtube.com/watch?v=fBArdwEamRc
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421855566
+% abcbook-lastupdated 1675479969527
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 79531
+X: 98657
 T: Valliance Polka
 B: good tune book
 B: tunes
@@ -4737,38 +4949,47 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce8bf7f24caf9e79285b7
+% abcbook-link-0 https://www.youtube.com/watch?v=oketVYC11FE
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421887593
+% abcbook-lastupdated 1675481862062
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 77921
+X: 13789
 T: Vals from Orsa
 B: good tune book
 B: tunes
+M:3/4
+R: waltz
 Q: 1/4=100
+N: AKA: Macklins Vals, Macklins Vals From Orsa, Vals Fra Orsa, Walts Orsa
+K:Dmajor
 V:1 
+|:A3A A2|B2 AG FA|d3d de|d2 cA de|f4 a2|a2 gf ed|Ac eg fe|1 d2 Bd BG:|2 d4 a2||
+ b2 gb gb|a2 fd fa|ab ag ec|A2 df a2|b2 gb gb|a2 fd fa|ab ag ec|1 d4 (3fga:|2 d6||
+ A2 d2 g2|f3e d2|d2 gb gb|a3f d2|de =f2 d2|e4 c2-|c2 Bd BG|A6|
+ A2 f2 a2|g3f g2|A2 d2 f2|e3d e2|AB c2 d2|B3A B2|AB AG EC|D6||
 
-W: 
 % abcbook-tune_id 63dce8c7cf2d740674643375
+% abcbook-link-0 https://www.youtube.com/watch?v=NV4UUVIPK0U
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421895075
+% abcbook-lastupdated 1675481896607
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 79288
+X: 56108
 T: Vitti’ na Crozza
 B: good tune book
 B: tunes
@@ -4777,18 +4998,19 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce8d02874b4cd371f1ee0
+% abcbook-link-0 https://www.youtube.com/watch?v=cvjcJBjjdS4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421904516
+% abcbook-lastupdated 1675481935964
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 83386
+X: 38777
 T: Waldegger
 B: good tune book
 B: tunes
@@ -4797,72 +5019,109 @@ V:1
 
 W: 
 % abcbook-tune_id 63dce8d568a43ab6240917fc
+% abcbook-link-0 https://www.youtube.com/watch?v=cvLu2kxWiyM
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421909712
+% abcbook-lastupdated 1675481973847
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 53507
+X: 72879
 T: Walter Bulwer’s No 1
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: Walter Bulwer's #2, Walter Bulwer's No 2, Walter Bulwer's No. 2
+K:Dmajor
 V:1 
+|:Ad dc/d/|eB B2|c/d/e c/d/e|fd d>B|
+ Ad dc/d/|eB B2|c/d/e AB/c/|dd d2:|
+ |:ee f2|ee c2|dd B/c/d|ee c/d/e/f/|
+ ee f2|ee c2|dd B/d/c/B/|Ac A2:|
+ |:Ad dc/d/|eB B2|c/d/e c/d/e|fd d>B|
+ Ad dc/d/|eB B2|c/d/e AB/c/|dd d2:|
+ K: Gmaj
+ |:B2 Bc|d2 de|d2 d>d|dc c2|
+ A2 AB|c2 cd|c2 c>d|cB B2|
+ B2 Bc|d2 de|dd gg/d/|fe e>e|
+ ee f>e|ed B>e|ed cA|1 GF ED:|2 G2 G2||
 
-W: 
 % abcbook-tune_id 63dce8e7eec2bcae8dcb7747
+% abcbook-link-0 https://www.youtube.com/watch?v=g3thYiEW-jE
+% abcbook-link-end-at-0 115
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421927902
+% abcbook-lastupdated 1675482163684
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 16647
+X: 96150
 T: Walter Bulwer’s Polka No 2
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: Walter Bulwer's #1, Walter Bulwer's No 1, Walter Bulwer's No. 1
+K:Dmajor
 V:1 
+|:B/c/|d/c/B gf|eA A>B|c/B/A fe|ed B>c|
+ d/c/B gf|eA A>G|F/G/A/B/ c/d/e/f/|g2- g:|
+ [K: DMaj] |:f/g/|af/g/ af/g/|a/g/f e2|ea g/f/e|
+d/c/d/e/ f/e/f/g/| af/g/ af/g/|a/g/f e2|ea g/f/e|d2- d:|
 
-W: 
 % abcbook-tune_id 63dce8ed5aeef557b470cd6a
+% abcbook-link-0 https://www.youtube.com/watch?v=g3thYiEW-jE
+% abcbook-link-end-at-0 115
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421933920
+% abcbook-lastupdated 1675482191436
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 5865
+X: 15900
 T: Wiggen
 B: good tune book
 B: tunes
+M:2/4
+R: polka
 Q: 1/4=100
+N: AKA: Hoy Tune, Viggen
+K:Dmajor
 V:1 
+B/A/|FA dF|A3 B/A/|GB dG|B3 c/B/|
+ Ac e3/2f/|gf e3/2d/|1 cA BA|F3 B/A/:|2 cA Bc|d3 B/A/||
+ |:F/A/d/A/ F/A/d/A/|F/A/d/A/ F/A/d/A/|G/B/d/B/ G/B/d/B/|G/B/d/B/ G/B/d/B/|
+ A/c/e/c/ A/c/e/c/|A/c/e/c/ A/c/e/c/|1 A3/2A/ BA|F3 B/A/:|2 A3/2A/ Bc|d2 de||
+ |:f3/2f/ ff|fe dc|B3/2B/ BB|B z "^Hoy
+"z2|
+ A/c/e/c/ A/c/e/c/|A/c/e/c/ A/c/e/c/|1 A3/2A/ BA|F2 de:|2 A3/2A/ Bc|d3||
 
-W: 
 % abcbook-tune_id 63dce928f6d94d51dd8bd26b
+% abcbook-link-0 https://www.youtube.com/watch?v=Etxxrls4wJg
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675421992791
+% abcbook-lastupdated 1675482230133
 % abcbook-soundfonts 
 % abcbook-repeats 1
