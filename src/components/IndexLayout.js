@@ -67,8 +67,8 @@ export default function IndexLayout(props) {
           setSelected({})
           setSelectedCount(0)
         } else {
-            console.log('RUN SEARCH init use cache')
-            console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+            //console.log('RUN SEARCH init use cache')
+            //console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
         }
     },[])
     
@@ -90,7 +90,7 @@ export default function IndexLayout(props) {
               setSelectedCount(0)
               //console.log("filter")
               var filtered = Object.values(props.tunes).filter(filterSearch)
-              console.log('F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+              //console.log('F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
               
               filtered.sort(function(a,b) { 
                   return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1

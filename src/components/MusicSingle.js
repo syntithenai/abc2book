@@ -356,7 +356,7 @@ export default function MusicSingle(props) {
                 
                 <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
                 
-                <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { console.log('tag change',val) ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
+                <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
 
   
                 <ButtonToolbar

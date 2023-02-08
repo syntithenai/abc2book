@@ -92,7 +92,7 @@ export default function ChordsWizard(props) {
 
 
     function doMergeChordsIntoNotes(origNotes) {
-        //console.log("merge",props.notes)
+        //console.log("merge",origNotes,props.notes)
         //return
         
         const parsed = props.tunebook.abcTools.parseAbcToBeats(origNotes)

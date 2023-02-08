@@ -7,13 +7,21 @@ import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
 import LinksEditor from './LinksEditor'
 import ImagesEditor from './ImagesEditor'
+import Select from 'react-select';
+import CreatableSelect from 'react-select/creatable';
+import AsyncCreatableSelect from 'react-select/async-creatable';
+
+import useMusicBrainz from '../useMusicBrainz'
+
 
 export default function AbcEditor(props) {
   var searchNames = ['Sydney', 'Melbourne', 'Brisbane', 
                             'Adelaide', 'Perth', 'Hobart'];
+  const allowedChordSites = "site:https://tabs.ultimate-guitar.com OR site:https://www.azchords.com/ OR site:https://www.chordsbase.com/ OR site:https://www.chords-and-tabs.net/ OR site:https://akordy.kytary.cz/ OR site:https://www.guitaretab.com/"
   const [abcText, setAbcText] = useState(props.abc);
   const [currentVoice, setCurrentVoice] = useState(0);
   let params = useParams();
+  var musicBrainz = useMusicBrainz()
   // 10 voices supported in textarea selection by click
   const textareaRef_0 = useRef(null);
   const textareaRef_1 = useRef(null);
@@ -49,7 +57,10 @@ export default function AbcEditor(props) {
     //return function() {
         //console.log('UNLOAD',chordsChanged)
     //}
+    
   }, [props.abc]);
+  
+  
   
   
   function onWarnings(warnings) {
@@ -188,9 +199,21 @@ export default function AbcEditor(props) {
                         <Form.Label>Title</Form.Label>
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
                       </Form.Group>
+                      
                       <Form.Group className="mb-3" controlId="title">
                         <Form.Label>Composer</Form.Label>
-                        <Form.Control type="text" placeholder="" value={tune.composer ? tune.composer : ''} onChange={function(e) {tune.composer = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
+                        
+                      <AsyncCreatableSelect
+                            value={tune.composer ? {value:tune.composer, label:tune.composer} : {value:'', label:''}}
+                            onChange={function(val) {tune.composer = val.label; tune.id = params.tuneId; saveTune(tune)  }}
+                            defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
+                            isClearable={false}
+                            blurInputOnSelect={true}
+                            createOptionPosition={"first"}
+                            allowCreateWhileLoading={true}
+                            
+                          />
+                      
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="key">
@@ -211,17 +234,35 @@ export default function AbcEditor(props) {
                       
                       <Form.Group className="mb-3" controlId="rhythm">
                         <Form.Label>Rhythm</Form.Label>
-                        <Form.Select value={tune.rhythm ? tune.rhythm : ''} onChange={function(e) {tune.rhythm = e.target.value; tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(e.target.value); tune.id = params.tuneId; saveTune(tune)  }} >
-                          <option value=""></option>
-                          {Object.keys(props.tunebook.abcTools.getRhythmTypes()).map(function(type,key) {
-                            return <option value={type} key={key} >{type}</option>
-                          })}
-                        </Form.Select>
+                      
+                        <CreatableSelect
+                            value={tune.rhythm ? {value:tune.rhythm, label:tune.rhythm} : {value:'', label:''}}
+                            onChange={function(val) {tune.rhythm = val.label; if(props.tunebook.abcTools.timeSignatureFromTuneType(val.label)) {tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(val.label)};   tune.id = params.tuneId; saveTune(tune)  }}
+                            options={Object.keys(props.tunebook.abcTools.getRhythmTypes()).map(function(type,key) {
+                                return {value:type, label: type}
+                            })}
+                            isClearable={false}
+                            blurInputOnSelect={true}
+                            createOptionPosition={"first"}
+                            allowCreateWhileLoading={true}
+                            
+                          />
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="meter">
                         <Form.Label>Time Signature</Form.Label>
-                        <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}  />
+                        <CreatableSelect
+                            value={tune.meter ? {value:tune.meter, label:tune.meter} : {value:'', label:''}}
+                            onChange={function(val) {tune.meter = val.label; tune.id = params.tuneId; saveTune(tune)  }}
+                            options={props.tunebook.abcTools.getTimeSignatureTypes().map(function(type,key) {
+                                return {value:type, label: type}
+                            })}
+                            isClearable={false}
+                            blurInputOnSelect={true}
+                            createOptionPosition={"first"}
+                            allowCreateWhileLoading={true}
+                            
+                          />
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="tempo">
@@ -283,7 +324,7 @@ export default function AbcEditor(props) {
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
                     <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Lyrics</Button></a>
-                    <a target="_new" href={"https://www.google.com/search?q=chords "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Chords</Button></a>
+                    <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ? '"' + tune.composer+ '"' : '')  +  " " + allowedChordSites} ><Button>Search Chords</Button></a>
                     <a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search YouTube</Button>
                     </a>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
@@ -293,7 +334,8 @@ export default function AbcEditor(props) {
                   <Tab eventKey="chords" title="Chords" >
                     <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
                     <br/><br/>
-                    <a style={{float:'right'}}  target="_new" href={"https://www.google.com/search?q=chords "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Chords</Button></a>
+                    <a style={{float:'right'}}  target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ? '"' + tune.composer+ '"' : '')  +  " " + allowedChordSites } ><Button>Search Chords</Button></a>
+                    
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   

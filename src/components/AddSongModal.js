@@ -1,34 +1,64 @@
 import {useState, useEffect} from 'react'
-import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup} from 'react-bootstrap'
+import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup, Form} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
 import {useNavigate} from 'react-router-dom'
 import YouTubeSearchModal from './YouTubeSearchModal'    
-
+import AsyncCreatableSelect from 'react-select/async-creatable';
+import CreatableSelect from 'react-select/creatable';
+import useMusicBrainz from '../useMusicBrainz'
+import TagsSelectorModal from './TagsSelectorModal'
 
 function AddSongModal(props) {
+    //console.log('props.tagFilter',props.tagFilter)
   const navigate = useNavigate()
+  const musicBrainz = useMusicBrainz()
   const [show, setShow] = useState(props.show ==="addTune");
   const [songTitle, setSongTitle] = useState('')
+  const [songTags, setSongTags] = useState()
   const [songMeter, setSongMeter] = useState('')
+  const [songRhythm, setSongRhythm] = useState('')
   const [songWords, setSongWords] = useState('')
   const [songChords, setSongChords] = useState('')
   const [songComposer, setSongComposer] = useState('')
+  const [songComposerId, setSongComposerId] = useState('')
   const [songNotes, setSongNotes] = useState('')
   const [songImage, setSongImage] = useState(null)
   const [songMedia, setSongMedia] = useState(null)
+  const [worksOptions, setWorksOptions] = useState([])
+  
+  useEffect(function() {
+      setSongTags(Array.isArray(props.tagFilter) ? props.tagFilter : [])
+  },[props.tagFilter])
+  
+  useEffect(function() {
+      setSongTags(Array.isArray(props.tagFilter) ? props.tagFilter : [])
+  },[])
+  
+  useEffect(function() {
+      //console.log('composer change', songComposerId)  
+      if (songComposerId) {
+        musicBrainz.worksByArtist(songComposerId, songTitle).then(function(works) {
+          //console.log('works',works)  
+          var filterWorks = works.map(function(work) {
+              return {value:work.title, label:work.title}
+          })
+          filterWorks.sort(function(a,b) {
+            return (a && b && a.label < b.label)  ? 1 : -1
+          })
+          //console.log('f works',filterWorks)  
+          setWorksOptions(filterWorks)
+        })
+      } else {
+          setWorksOptions([])
+      }
+  },[songComposerId])
   
   const handleClose = () => {
       setShow(false);
       setForceNewTune(false)
       setSongTitle('')
-      setSongMeter('')
-      setSongWords('')
-      setSongChords('')
-      setSongComposer('')
-      setSongNotes('')
-      setSongImage(null)
-      setSongMedia (null)
+      clearForm()
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
   }
   const handleShow = () => setShow(true);
@@ -58,12 +88,17 @@ function AddSongModal(props) {
   const [forceNewTune, setForceNewTune] = useState(false)
   const [matchingTunes, setMatchingTunes] = useState([])
   useEffect(function() {
-      //console.log(props.tunes)
+      
       if (songTitle.length > 1 && props.tunes) {
-          setMatchingTunes(Object.values(props.tunes).filter(filterSearch))
+          const matching = Object.values(props.tunes).filter(filterSearch).sort(function(a,b) {
+            return (a && b && a.name < b.name)  ? -1 : 1
+          })
+          setMatchingTunes(matching)
           setForceNewTune(false)
+          //console.log('set tunes',songTitle,matching,props.tunes)
       } else {
           setMatchingTunes([])
+          //console.log('clear tunes')
       }
   },[songTitle])
   
@@ -113,19 +148,13 @@ function AddSongModal(props) {
   }
   
   function addTuneToBook(tune, book) {
-    var books = tune.books
+    var books = Array.isArray(tune.books) ? tune.books : []
     books.push(book.toLowerCase())
     tune.books = [...new Set(books)]
     props.tunebook.saveTune(tune); 
     props.setFilter('') ; 
     setSongTitle('')
-    setSongWords('')
-    setSongNotes('')
-    setSongComposer('')
-    setSongMeter('')
-    setSongChords('')
-    setSongImage(null)
-    setSongMedia(null)
+    clearForm()
     props.forceRefresh()
     // force refresh list
     var finalTuneBook=props.currentTuneBook
@@ -150,15 +179,12 @@ function AddSongModal(props) {
           return false
         }
     })
-    var t = {name:songTitle, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, meter:songMeter, files:(songImage ? [{data:songImage,type:'image'}] : []), links:(songMedia ? [{link:songMedia}] : [])}
+    var t = {name:songTitle, tags: songTags, books :(props.currentTuneBook ? [props.currentTuneBook] : []), voices: { '1': {meta:'',notes: cleanNotes}}, words: songWords.trim().split("\n"), composer: songComposer, rhythm: songRhythm, meter:songMeter, files:(songImage ? [{data:songImage,type:'image'}] : []), links:(songMedia ? [{link:songMedia}] : [])}
     //console.log('ADD TUNE',t)
     props.tunebook.saveTune(t); 
     props.setFilter('') ; 
     setSongTitle('')
-    setSongWords('')
-    setSongNotes('')
-    setSongComposer('')
-    setSongMeter({})
+    clearForm()
     setSongChords({})
     props.forceRefresh()
     // force refresh list
@@ -217,6 +243,20 @@ function AddSongModal(props) {
       readFile(event.target.files[0])
   }
   
+  
+  function clearForm() {
+      setSongTags([])
+      setSongRhythm('')
+      setSongMeter('')
+      setSongWords('')
+      setSongChords('')
+      setSongComposer('')
+      setSongComposerId('')
+      setSongNotes('')
+      setSongImage(null)
+      setSongMedia (null)
+  }
+  
 //<YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook} links={props.tune.links}  onChange={function(links) {
                     //var tune = props.tune
                     //tune.links = links; 
@@ -226,7 +266,7 @@ function AddSongModal(props) {
                 //triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
                 //value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
             ///>
-  return (
+    return (
     <>
       <Button variant="success" title="Add Tune" onClick={handleShow}>
         {props.tunebook.icons.fileadd} Add 
@@ -234,19 +274,68 @@ function AddSongModal(props) {
 
       <Modal show={show} onHide={handleClose} backdrop="static"  keyboard="false" >
         <Modal.Header closeButton>
-          <Modal.Title>Add a Tune</Modal.Title>
+          <Modal.Title>Add a Tune </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div style={{marginLeft:'0.3em'}} >{(songTitle.length > 0 && forceNewTune) &&<Button style={{float:'right'}}  variant="success" onClick={addTune} >Add</Button>}
-          {(songTitle.length === 0) &&<Button style={{float:'right'}} variant="secondary" >Add</Button>}
-           <div>Add tune to &nbsp;&nbsp;&nbsp;<ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')}</Button>}   />
-           </ButtonGroup>
+            {(songTitle.length > 0 && forceNewTune) &&<Button size="lg" style={{marginLeft:'1em',float:'right'}}  variant="success" onClick={addTune} >{props.tunebook.icons.add} Add</Button>}
+            {!(songTitle.length > 0 && forceNewTune) &&<Button size="lg" style={{marginLeft:'1em',float:'right'}} variant="secondary" >{props.tunebook.icons.add} Add</Button>}
+             
+            <div>Add tune to &nbsp;&nbsp;&nbsp;
+               <ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={props.currentTuneBook} onChange={function(val) {props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')}</Button>}   />
+               </ButtonGroup>
            </div>
-           <br/>
-          <label>Title <input type="text" value={songTitle} autoFocus={true} onChange={function(e) {setSongTitle(e.target.value) }} /></label>
+           
+           <div style={{clear:'both'}} >
+               <Form.Group className="mb-3" controlId="tags">
+                   <Form.Label>Tags</Form.Label>
+                   <div style={{clear:'both'}} ></div>
+                   <span>
+                   <TagsSelectorModal  forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions}  value={songTags}  onChange={function(value) {setSongTags(value) ; props.setTagFilter(value) }} showTags={true} />
+                   <span >{Array.isArray(songTags) && songTags.map(function(selectedTag) {
+                      return <Button key={selectedTag} style={{marginLeft:'0.2em'}} variant="outline-info" >{selectedTag}</Button>
+                    })}</span>
+                    </span>
+               </Form.Group > 
+           </div> 
+           
+        </Modal.Body>
+        <hr/>
+        <Modal.Body > 
+            <div style={{marginLeft:'0.3em'}} >
+               
+           
+           
+           
+           <div style={{clear:'both'}} ></div>
+           <Form>
+           
+           <Form.Group className="mb-3" controlId="composer">
+                <Form.Label>Composer </Form.Label>
+                <AsyncCreatableSelect
+                         
+                            value={songComposer ? {value:songComposerId, label:songComposer} : {value:'', label:''}}
+                            onChange={function(val,type) {setSongComposerId(val.value); setSongComposer(val.label)  }}
+                            defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
+                            isClearable={false}
+                            blurInputOnSelect={true}
+                            createOptionPosition={"first"}
+                            allowCreateWhileLoading={true}
+                            styles={{
+                                control: (baseStyles, state) => ({
+                                  ...baseStyles,
+                                  minWidth: '400px',
+                                }),
+                            }}
+                          />
+            </Form.Group>
+           
+          <Form.Group className="mb-3" controlId="title">
+                <Form.Label>Title</Form.Label>
+                 <Form.Control type="text" value={songTitle} autoComplete={"off"} onChange={function(e) {setSongTitle(e.target.value) }} />
+          </Form.Group>
           {!forceNewTune && <>
                <ListGroup >
-                  <ListGroup.Item variant="success" action onClick={function() {setForceNewTune(true)}}>
+                  <ListGroup.Item variant="success"  onClick={function() {clearForm(); setForceNewTune(true)}}>
                         New Tune
                   </ListGroup.Item>
                   {matchingTunes.map(function(tune,tk) {
@@ -256,29 +345,88 @@ function AddSongModal(props) {
                   })}
                 </ListGroup>
           </>}
+          {!forceNewTune && <>
+               <ListGroup >
+                  {worksOptions.filter(function(work) {
+                        if (!songTitle) return true
+                        if (work && work.label && work.label.toLowerCase().indexOf(songTitle.toLowerCase()) !== -1) {
+                            return true
+                        }
+                        return false
+                      }).sort(function(a,b) {
+                          return (a && b && a.label < b.label) ? -1 : 1
+                      }).map(function(work,tk) {
+                      return <ListGroup.Item key={tk} disabled={props.currentTuneBook ? false : true} variant="info"  onClick={function() {
+                        //addTuneToBook({name:work.label, composer: songComposer, tags: songTags,books :(props.currentTuneBook ? [props.currentTuneBook] : []) , notes:[] , voices:{} ,words: [] ,links: []},props.currentTuneBook); return false  
+                          setForceNewTune(true)
+                          setSongTitle(work.label)
+                          
+                        } }>
+                        {work.label}
+                      </ListGroup.Item>
+                  })}
+                </ListGroup>
+          </>}
           {forceNewTune && <>
-              <label>Composer <input type="text" value={songComposer} onChange={function(e) {setSongComposer(e.target.value) }} /></label>
-              
-              <label style={{display:'block'}}>  Meter <select  value={songMeter} onChange={function(e) {setSongMeter(e.target.value) }} >
-              <option></option>
-              <option>4/4</option>
-              <option>3/4</option>
-              <option>2/4</option>
-              <option>6/8</option>
-              <option>9/8</option>
-              <option>12/8</option>
-              </select></label>
+              <br/>
               
               
-              <label>Lyrics&nbsp;&nbsp;
-              {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
-              <textarea  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/></label>
+              <Form.Group className="mb-3" controlId="rhythm">
+                <Form.Label>Rhythm</Form.Label>
+              
+                <CreatableSelect
+                    value={songRhythm ? {value:songRhythm, label:songRhythm} : {value:'', label:''}}
+                    onChange={function(val) {setSongRhythm(val.label); if(props.tunebook.abcTools.timeSignatureFromTuneType(val.label)) {setSongMeter(props.tunebook.abcTools.timeSignatureFromTuneType(val.label))}}}
+                    options={Object.keys(props.tunebook.abcTools.getRhythmTypes()).map(function(type,key) {
+                        return {value:type, label: type}
+                    })}
+                    isClearable={false}
+                    blurInputOnSelect={true}
+                    createOptionPosition={"first"}
+                    allowCreateWhileLoading={true}
+                    styles={{
+                        control: (baseStyles, state) => ({
+                          ...baseStyles,
+                          minWidth: '400px',
+                        }),
+                    }}
+                 />
+              </Form.Group>
+              
+              <Form.Group className="mb-3" controlId="meter">
+                <Form.Label>Time Signature</Form.Label>
+                <CreatableSelect
+                    value={songMeter ? {value:songMeter, label:songMeter} : {value:'', label:''}}
+                    onChange={function(val) {setSongMeter(val.label)  }}
+                    options={props.tunebook.abcTools.getTimeSignatureTypes().map(function(type,key) {
+                        return {value:type, label: type}
+                    })}
+                    isClearable={false}
+                    blurInputOnSelect={true}
+                    createOptionPosition={"first"}
+                    allowCreateWhileLoading={true}
+                    styles={{
+                        control: (baseStyles, state) => ({
+                          ...baseStyles,
+                          minWidth: '400px',
+                        }),
+                    }}
+                  />
+              </Form.Group>
+              
+              <Form.Group className="mb-3" controlId="lyrics">
+                <Form.Label>Lyrics</Form.Label>
+                  {songTitle && <a target="_new" href={"https://www.google.com/search?q=lyrics "+songTitle + ' '+(songComposer ? songComposer : '') + (songWords ? ' ' + songWords.slice(0,50) : '')} ><Button>Search Lyrics</Button></a>}
+                  <Form.Control as='textarea'  value={songWords} onChange={function(e) {setSongWords(e.target.value) }} rows='4' style={{width:'100%'}}/>
+              </Form.Group>
+              
               {localStorage.getItem('bookstorage_inlineaudio') === "true" && <>
                   <hr/>
-              <label>Image&nbsp;&nbsp;
-                <input type='file' onChange={imageSelected}/>
+              <Form.Group className="mb-3" controlId="image">
+                <Form.Label>Image</Form.Label>
+                <Form.Control type='file' onChange={imageSelected}/>
                 {songImage && <img style={{width:'150px'}} src={songImage}  />}
-              </label>
+              </Form.Group>
               <hr/>
               <label>Media&nbsp;&nbsp;
                 <input type='file' onChange={mediaSelected} />
@@ -304,6 +452,7 @@ function AddSongModal(props) {
                 </Tab>
               </Tabs>
             </>}
+            </Form>
             </div>
         </Modal.Body>
       </Modal>

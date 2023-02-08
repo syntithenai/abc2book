@@ -77,6 +77,8 @@ function TagsSelectorModal(props) {
         <span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.tag}</span> 
         <Badge style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{props.value ? props.value.length : 0}</Badge>
       </Button>
+      
+        
      
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

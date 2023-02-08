@@ -174,6 +174,9 @@ var useAbcTools = () => {
                 if (line.startsWith('% abcbook-tune_id')) {
                     tune.id = line.slice(17).trim()
                     //console.log('FOUNDID',tune.id,line)
+                } else if (line.startsWith('% abcbook-tune_composer_id')) {
+                    tune.composerId = line.slice(26).trim()
+                    //console.log('FOUNDID',tune.id,line)
                 } else if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
                 } else if (line.startsWith('% abcbook-difficulty')) {
@@ -395,6 +398,7 @@ var useAbcTools = () => {
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     + renderWordHeaders(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
+                    + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     + "% abcbook-boost " +  ensureInteger(boost,0) + "\n" 
@@ -615,6 +619,10 @@ var useAbcTools = () => {
         'three-two':  '3/2',
         'mazurka':  '3/4'
       }
+    }
+    
+    function getTimeSignatureTypes() {
+        return ['2/4','3/4','4/4','6/8','9/8','12/8','3/2']
     }
 
     function timeSignatureFromTuneType(type) {
@@ -1660,7 +1668,7 @@ var useAbcTools = () => {
                             return filler.join(" ")
                         }
                     }).join("|")
-                }).join("\n")
+                }).join("\n").replace("|\n\n","||\n\n")
             }
     }
 
@@ -1747,10 +1755,10 @@ var useAbcTools = () => {
                         return ''
                     }
                 }).join("")
-            }).join("\n") //+ "||"
+            }).join("\n").replace("|\n\n","||\n\n") //+ "||"
     }
     
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes, getTuneImportHash}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes, getTuneImportHash, getTimeSignatureTypes}
 }
 export default useAbcTools;

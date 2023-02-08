@@ -1,3 +1,9 @@
+@media print {
+  div {
+    break-inside: avoid;
+  }
+}
+
 .App-books .nav-tabs .nav-item button {
   font-size:1.6em !important;
   font-weight: 500 !important;

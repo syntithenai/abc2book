@@ -981,7 +981,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             } else {
                 if (tune && tune.books && tune.books.length > 0 && bookFilter.length > 0) {
                     tune.books.forEach(function(book) {
-                        if (book.toLowerCase() === bookFilter.toLowerCase()) {
+                        if (book && book.toLowerCase && bookFilter && bookFilter.toLowerCase &&  book.toLowerCase() === bookFilter.toLowerCase()) {
                             bookFilterOk = true
                         }
                     })
