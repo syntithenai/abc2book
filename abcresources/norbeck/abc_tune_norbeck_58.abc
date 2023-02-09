@@ -1,0 +1,592 @@
+This file contains 43 schottises and reil\"anders (#1 - #43).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Last updated 1 May 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+M:C|
+R:schottis
+Z:id:hn-schottis-%X
+
+X:1
+T:Luring #1
+R:schottis
+H:efter Luringen och Spel-Bengten
+O:Sm{\aa}land
+Z:hn-schottis-1
+M:C|
+K:D
+a2a>g e>ce>g|g>fa>f d2f>g|a2a>g e>ce>g|f2a>f d4:|
+|:A>Bc<d e2g2|f>aa>g e2c2|A>ce>c d2d2|E>^GB2 (3BcBA2|
+A>Bc<d e2g2|f>aa>g e2c2|A>ce>c d2d2|E>^GB2 A4:|
+
+X:2
+T:Luring #2
+R:schottis
+H:efter Luringen och Spel-Bengten
+O:Sm{\aa}land
+Z:hn-schottis-2
+M:C|
+K:D
+d2dd c2A2|c2cc B2A2|A3A A2A2|A>cec dcBA|
+d2dd c2A2|c2cc B2A2|A3A A2A2|A>cec d4:|
+|:A2=fe =f2g2|a2aa g2e2|e3e e2e2|(3e=fedc dcBA|
+A2=fe =f2g2|a2aa g2e2|e3e e2e2|(3e=fedc d4:|
+
+X:3
+T:Luring #3
+R:schottis
+H:efter Luringen och Spel-Bengten
+O:Sm{\aa}land
+Z:hn-schottis-3
+M:C|
+K:Ddor
+^g>^ga>a b2a2|^f>^f^g>^g a2^g2|e>e^f>^f =g2^f2|d2d2 c4:|
+|:D>EF>G F>ED>E|F>EF>G A2A2|A>Bc>d c>BA>B|c2c2 B4|
+D>EF>G F>ED>E|F>EF>G A2A2|A>Bc>d c>BA>B|c2B2 A4:|
+
+X:4
+T:Luring #4
+R:schottis
+H:efter Luringen och Spel-Bengten
+O:Sm{\aa}land
+Z:hn-schottis-4
+M:C|
+K:Gmix
+G>AB>c d2d2|f>ec>e d2d2|e>fe>d c>dc>B|B2G2 E4|
+G>AB>c d2d2|f>ec>e d2d2|e>fe>d c>BE>G|B2A2 A4:|
+|:a>ga>c' a2g2|f2(3efe d4|e>fe>d c>dc>B|B2G2 E4|
+a>ga>c' a2g2|f2(3efe d4|e>fe>d c>BE>G|B2A2 A4:|
+
+X:5
+T:Imeland och Grimeland
+R:reil\"ander
+O:Norge
+Z:hn-schottis-5
+M:C|
+K:Amix
+E>DE>F E2E2|E>Ac>B B2A2|c3B G2G2|G>Be>c A2A2|
+E>DE>F E2E2|E>Ac>B B2A2|c2c>B G>Be>c|A2A2 A4:|
+|:a>ga>b g2g>f|e>fe>c A2A2|c3B G2G2|G>Be>c A2A2|
+a>ga>b g>ag>f|e>fe>c A2A2|c2c>B G>Be>c|A2A2 A4:|
+
+X:6
+T:Norsk Reil\"ander
+R:reil\"ander
+O:Norge, R\"oros
+Z:hn-schottis-6
+M:C|
+K:Dm
+A>^cd>e f2f2|f>ee>^c A2A2|A>BA>G F>ED>F|(3A=BAG>=B (3=BcBA2|
+A>^cd>e f2f2|f>ee>^g a2a2|a>ge>g f>ed>f|e2^c2 d4:|
+|:f>ef>g f>ed2|d>ef>d ^c2A2|F>AG>A F>AG>A|F>AG>=B (3=BcBA2|
+A>^cd>e f2f2|f>ee>^g a2a2|a>ge>g f>ed>f|e2^c2 d4:|
+
+X:7
+T:Norsk Reil\"ander
+R:reil\"ander
+H:Se \"aven #11
+O:Norge
+Z:hn-schottis-7
+M:C|
+K:Dm
+DEFG A2A2|A=BG=B A2F2|FEGE F2DF|ED^CE D2A,2|
+DEFG A2A2|A=BG=B A2F2|FEGE F2DF|1 ED^CE D4 :|2 ED^CE D2ag||
+K:D
+|:f2d2 dfed|c2A2 A3F|GFEF GABd|c2A2 A2ag|
+f2d2 dfed|c2A2 A3F|GFEF GECE|1 D2F2 D2ag:|2 D2F2 D4||
+K:Dm
+|:d2d2 c3B|AGAB AFDE|F2F2 GABG|ABAG A=B^cA|
+d2d2 c3B|AGAB AFDE|F2F2 EDCE|D2D2 D4:|
+
+X:8
+T:Schottis fr{\aa}n Lima
+R:schottis
+H:\"Aven i Am
+O:Lima, Dalarna
+Z:hn-schottis-8
+M:C|
+K:Dm
+A=B^cd e2ef|d2de ^c2^c2|A=B^cd e2ef|(3gagfg a4|
+A=B^cd e2ef|d2de ^c2^c2|defg age^c|dfe^c d4:|
+|:agef g2g2|afde f2f2|e^cA^c e^cA^c|defg a4|
+agef g2g2|afde f2f2|e^cA^c e^cA^c|dfe^c d4:|
+
+X:9
+T:Schottis efter Per Myr, Fun\"asdalen
+R:schottis
+H:\"Aven i Ador
+O:H\"arjedalen
+Z:hn-schottis-9
+M:C|
+K:Edor
+E>DE>F G2G2|B>Ac>A B2B2|d>ed>c A2A2|A>ce>c G2G2|
+E>DE>F G2G2|B>Ac>A B2B2|d>ed>c A>AF>D|E2E2 E4:|
+|:e>fe>c d>ed>B|c>dc>A B2B2|E>DE>F G2G2|B>Ac>A B2B2|
+e>fe>c d>ed>B|c>dc>A B2B2|E>DE>F G>AG>E|F2D2 E4:|
+
+X:10
+T:Vill ni k\"opa sill?
+R:schottis
+H:efter min far, som l\"arde den som ung efter ett hembitr\"ade
+H:fr{\aa}n Blekinge.
+O:Stockholm
+Z:hn-schottis-10
+M:C|
+K:G
+GABA G2GA|Bcdc B4|ABcA FDEF|GABG D4|
+GABA G2GA|Bcdc B4|ABcA FDEF|1 G2G2 G4:|2 G2G2 GBcd||
+|:e2c2 e2e2|dBGB d4|
+w:Hej-san grab-bar, vill ni k\"o-pa sill?
+cBAG FDEF|G2GB d4|
+w:Fem-ton \"or-e val-en el-ler vil-ket ni vill.
+e2c2 e2e2|dBGB d4|cBAG FDEF|1 G2G2 GBcd:|2 G2G2 G4||
+
+X:11
+T:Norsk Reil\"ander
+R:reil\"ander
+H:Se \"aven nr 7
+O:Norge
+Z:id:hn-schottis-11
+M:C|
+K:Amix
+ABcd eege|feec A2cA|B2G2 GGBd|c2A2 A2E2|
+ABcd eege|feec A2cA|B2G2 GGBd|c2A2 A4:|
+|:a2a2 a2ba|g2e2 e3f|edcB cdeg|f2ed e2fg|
+a2a2 a2ba|gfed e3f|edcB cBAG|A4 A4:|
+
+X:12
+T:Schottis efter Magnus Andersson
+R:schottis
+C:efter Magnus Andersson, Eskilskulla
+O:Sm{\aa}land
+Z:id:hn-schottis-12
+M:C|
+K:D
+A2fe d2d2|Addc B2B2|Bgge cAce|dcdf A4|
+A2fe d2d2|Addc B2B2|Bgge cAce|1 d2f2 d4:|2 d2f2 d3f||
+|:afdf Adfa|(3agaba g2ef|gece Aceg|(3gfgag f2df|
+afdf Adfa|a2a2 b3b|bafa agec|1 d2f2 d3f:|2 d2f2 d4||
+
+X:13
+T:Schottis efter Fl\"ojtisten Olofsson, Skillingmark
+R:reil\"ander
+O:V\"armland
+Z:id:hn-schottis-13
+M:C|
+K:D
+DEFG A2A2|GABc d2d2|cdef a2a2|Aaa2 Aff2|
+DEFG A2A2|GABc d2d2|cdef aABc|1 d2f2 d2FE:|2 d2f2 d2B2||
+|:a2f2 d2B2{cB}|AGFA d2d2|cAcd e2{f}e2|dAde f2{g}f2|
+a2f2 d2B2{cB}|AGFA d2d2|dFAd cABc|d2f2 d2B2:|
+|:AGFA d2d2|dFAd f2f2|Pfede Pfede|Pfedf a2{b}a2|
+Pgfef g2{a}g2|f{gf}ede f2{g}f2|dABd cAce|1 d2f2 d2B2:|2 d2f2 dGFE||
+
+X:14
+T:Schottis fr{\aa}n Idre
+R:schottis
+C:efter Storbo-J\"ons
+O:Idre, Dalarna
+Z:hn-schottis-14
+M:C|
+K:Dm
+aage f2ed|^c2A2 A4|A=B^cd e2ec|d^cdf a4|
+aage f2ed|^c2A2 A4|A=B^cd e2ec|d2d2 d4:|
+|:f2fg f2ed|e2a2 a2ge|f2fg f2ed|efe^c A4|
+f2fg f2ed|e2a2 a2ge|f2df e2d^c|d2d2 d4:|
+|:Addd d^ced|^c2A2 A2ag|f2fg f2ed|efe^c A4|
+Addd d^ced|^c2A2 A2ag|f2df e2d^c|d2d2 d4:|
+
+X:15
+T:Munterschottis
+T:Schottis fr{\aa}n Hammarn\"aset
+R:schottis
+O:J\"amtland
+Z:id:hn-schottis-15
+M:C|
+K:Gm
+D2|G>^FGA B>ABc|d>^cd=e f2a2|a>g=eg ^f2d2|d>cAc BAG^F|
+G>^FGA B>ABc|d>^cd=e f2a2|a>g=eg ^f2d2|d>cAB G2:|
+|:=B2|d>c=Bd g2d2|d>cAc _B2G2|A>G^FA d2d2|d>cAc B2G2|
+d>c=Bd g2d2|d>cAc _B2G2|A>G^FA d2d2|d>cAB G2:|
+
+X:16
+T:Rheinl\"ander efter Omas Per Nilsson
+R:schottis
+O:Transtrand, Dalarna
+Z:id:hn-schottis-16
+M:C|
+K:Dm
+A|A^ced c2A2|Aaag f2d2|dfe<d ^cAc<e|edd^c A3A|
+A^ced c2A2|Aaag f2d2|dfe<d ^cAc<e|edd^c d3:|
+|:A|d^cd<e f4|d^cd<f e4|A^GA^c egfe|ded<^c A3A|
+A^ced c2A2|Aaag f2d2|dfe<d ^cAc<e|edd^c d3:|
+
+X:17
+T:Schottis fr{\aa}n Idre
+R:schottis
+O:Idre, Dalarna
+Z:id:hn-schottis-17
+M:C|
+K:D
+D2FA d2d2|FAde f2f2|gfed c2Bc|d2AG FED2|
+D2FA d2d2|FAde f2f2|gfed c2Bc|d2dc d4:|
+|:a2a2 g2eg|=f2ed e4|=f2ag f2ed|cded c2A2|
+a2a2 g2eg|=f2ed e4|=f2ag f2ed|cdec d4:|
+P:variant
+|:D2F>A d2d2|D2F>A d>ed>c|e>fe>c A2B>c|d2c>B A>GF>E|
+D2F>A d2d2|D2F>A d>ed>c|e>fe>c A2B>c|d2d2 d4:|
+|:a2a2 g2e>g|f2d2 e4|=f2a>g f2e>d|c>de>d c2A2|
+a2a2 g2e>g|f2d2 e4|=f2a>g f2e>d|c>de>c d4:|
+
+X:18
+T:Schottis efter Timas Hans
+R:schottis
+O:Ore, Dalarna
+Z:id:hn-schottis-18
+M:C|
+K:D
+Adcd A2FA|Adcd B4|"+"[e2A2]"+"[A2D2] "arco"g2eg|fedc B2A2|
+Adcd A2FA|Adcd B4|"+"[e2A2]"+"[A2D2] "arco"c2Bc|d>edc d4:|
+|:f2fe dcdf|efec A4|B2GB d2B2|ABAG F2D2|
+ABAF A2FA|dcde f4|"+"[e2A2]"+"[A2D2] "+"[e2A2]"+"[A2D2]|d>edc d4:|
+|:fgfe d2A2|dcdb a3f|gagf e2A2|gfgb a2d2|
+f2fe d2A2|dcdb a3f|gfed ceBc|1 d2dc d4:|2 d2dc d2DE||
+|:F2AF G2GE|DFAd f2fa|gfed c2Bc|dfed cBAG|
+F2AF G2GE|DFAd f2fa|gfed c2Bc|1 d2dc d2DE:|2 d2dc d4||
+
+X:19
+T:Schottis efter Kvarnmyr Lars Jonsson
+R:schottis
+O:Lima, Dalarna
+Z:id:hn-schottis-19
+M:C|
+K:G
+DG>A|B>DG<A B>DG<B|d>ed<c B2b2|a>ba<f d>ef<a|g>ed<c B>AG>F|
+G>FG>B d>DG<B|d>ed<c B2b2|a>ba<f d>ef<a|g>gg>f g:|
+|:zg>a|b>ag<f g>ed<A|F>Ad<f f<aa>b|a<c'c'<f f<aa>f|g>gg<b b>ag>a|
+b>ag<f g>ed<A|F>Ad<f f<aa>b|a<c'c'<f f<aa>f|g>gg>f g:|
+
+X:20
+T:Schottis
+R:schottis
+Z:id:hn-schottis-20
+M:C|
+K:D
+D2FA d2BA | d2BA d2d2 | D2FA d2BA | d2BA c2c2 |
+A2ce g2fe | g2fe a2a2 | abaf g2ec | e2d2 d2z2 :|
+|: abaf dfA2 | abaf dfA2 | f2ed f2ed | f2ed e4 |
+gage ceA2 | gage ceA2 | g2fe a2gf | e2dc d4 :|
+
+X:21
+T:L{\aa}ngt ner i Sm{\aa}land
+R:schottis
+C:Roger Tallroth
+Z:id:hn-schottis-21
+M:C|
+K:Ddor
+D>AA>A A<BA2|G>BB>B B<cB2|d>ed>c A>Bc2|B>AG2 F4|
+D>AA>A A<BA2|G>BB>B B<cB2|G2G2 F>GF>D|C2D2 D4:|
+|:A>^FA2 B2d2|e>dc2 d4|A>^FA2 G>AB2|c>BG2 A4|
+A>^FA2 B2d2|c>BG2 =F4|F2F2 E>FE>D|C2D2 D4:|
+
+X:22
+T:Sugghugg
+R:schottis
+C:Olov Johansson
+Z:id:hn-schottis-22
+M:C|
+K:Gm
+G>Bd2 g2-g>g|=f2d2 g2-g>d|d>_ed>c B>AB>d|c2A2 =F4|
+G>Bd2 g2-g>g|^f>df<a g2-g>d|d>_ed>c B2G2|A2F2 G4:|
+|:G2d2 g2-g>g|^f>ga<f g4|d'2=b2 g>ab>g|a2d'2 d4|
+G2d2 g2-g>g|^f>ga<f g4|D2=F2 G2A>B|A2F2 G4:|
+
+X:23
+T:Vr{\aa}lk{\aa}da
+R:schottis
+C:Roger Tallroth
+Z:id:hn-schottis-23
+M:C|
+K:Am
+c2c>B A>^GA>c|c>BB>^G E4|c2c>B A>^GA>c|c>BB>^d e4|
+c2c>B A>^GA>c|c>BB>^G E2-E>=G|^F>ED2 E2-E>C|1 B,>A,G,2 A,4:|2 B,>A,G,2 A,2A,2-||
+|:A,>G,A,>C C<B,B,2-|B,>A,B,>D C2C2-|C>A,C>E G>AG>E|^F>AF>D E2E2-|
+E>A,A,>C C<B,B,2-|B,>A,B,>D C>DE>G|^F>ED2 E2-E>C|1 B,>A,G,2 A,2A,2-:|2 B,>A,G,2 A,z3||
+
+X:24
+T:Schottis av Thore H\"ardelin d.y.
+R:schottis
+C:Thore H\"ardelin d.y.
+Z:id:hn-schottis-24
+M:C|
+K:D
+AG|F2D2 DFAF|E2A,2 A,2ed|c2AA Acec|dcdf A2AG|
+F2D2 DFAF|E2A,2 A,2ed|c2AA Acec|1 d2f2 d2:|2 d2f2 defg||
+|:a2ab agf2|g2ga gfe2|A2Ac eAce|dcde fefg|
+a2ab agf2|g2ga gfe2|A2Ac eAce|1 d2f2 defg:|2 d2f2 d2||
+
+X:25
+T:Schottis fr{\aa}n Lindome
+R:schottis
+O:V\"asterg\"otland
+Z:id:hn-schottis-25
+M:C|
+K:D
+g|fgeg fged|cdAc e2e2|cdAc e2ec|defg a3g|
+fgeg fged|cdAc e2e2|Acef (3gag ec|e2 d2 d3:|
+|:A|defg a2a2|b2b2 g3e|cdef g2 (3gfg|a2f2 d3A|
+defg a2a2|b2b2 g3e|Acef gfec|e2 d2 d3:|
+
+X:26
+T:Schottis fr{\aa}n Haver\"o
+R:schottis
+Z:id:hn-schottis-26
+M:C|
+K:Dm
+D2DE FGFE|D2A2 A4|d^cde f2f2|efe^c A2A2|
+D2DE FGFE|D2A2 A4|d^cde f2f2|1 e2{f}e^c d4:|2 e2{f}e^c d3f||
+|:a2a^g a2a2|fg(3f/g/f/e f2f2|e2{f}e^c A2A2|{G}FGFE (3E/F/E/D D2|
+a2a^g a2a2|fg(3f/g/f/e f2f2|e2{f}e^c Acec|1 d2d2 d3f:|2 d2d2 d4||
+
+X:27
+T:Schottis fr{\aa}n Barseb\"ack
+T:Rhenl\"andare efter Per Munkberg
+R:schottis
+H:efter Per Munkberg, Barseb\"ack
+O:Sk{\aa}ne
+M:C|
+L:1/8
+K:D
+AG | F2AG E2AF | D2FA d2d2 | cege cdec | dfdB A2AG | 
+F2AG E2AF | D2FA d2d2 | cege cdec | d2f2 d2 :| 
+|: A2 | Affd A2AA | Affd B2B2 | Bgge eccA | Aaaf fddA | 
+Affd A2AA | Affd B2B2 | Bgge cdec | d2f2 d2 :| 
+
+X:28
+T:Skuttungeschottis
+R:schottis
+Z:id:hn-schottis-28
+M:C|
+K:D
+Ad|f2Ad f2ed|dccc c4|B2G2 B2AG|GFFF F2Ad|
+f2ff f2ed|dccc c2ef|gfga bgec|d2dc d2:|
+|:FG|A2A2 Adfd|dcce g4|geec A2A2|afdA F2FG|
+A2A2 Adfd|dccc c2ef|gfga bgec|d2dc d2:|
+
+X:29
+T:Schottis fr{\aa}n Blyberg
+R:schottis
+O:Dalarna
+Z:id:hn-schottis-29
+M:C|
+K:D
+DFAF DFAF|GABA G2G2|Acec Acec|defe d2d2|
+DFAF DFAF|GABA G2G2|Acec Acec|d2d2 d2A2:|
+|:A2(3fff fedc|B2(3ggg gfed|c2a2 a2^ga|bafd A2A2|
+A2(3fff fedc|B2(3ggg gfed|c2aa agec|1 d2d2 d2A2:|2 d2d2 d2z2||
+
+X:30
+T:B\"ol-Olle
+R:schottis
+H:efter Tros Olof Olsson
+O:Dalarna
+O:Sweden
+Z:id:hn-schottis-30
+M:C|
+K:Bm
+Bcde f2f2|{fg}f2ed B4|cdcA c2c2|Bcdc B4|
+Bcde f2f2|{fg}f2ed B4|cdcA c2c2|Bcdc B4:|
+K:D
+|:A2fe d2AF|G2G2 GBed|c2c2 cAfe|d2d2 d4|
+A2fe d2AF|G2G2 GBed|c2c2 cAfe|d2d2 d4:|
+
+X:31
+T:Reil\"ander efter Ringenesen
+R:reil\"ander
+O:Norge
+Z:id:hn-schottis-31
+M:C|
+K:D
+DFE<D F2F2|DFE<D f2f2|gfed cBA2|cBAG FED2|
+DFE<D F2F2|DFE<D f2f2|gfed cABc|1 d2f2 d4:|2 d2f2 d2ef||
+|:g2B2 g2fe|d<fA2 d2cB|cDEF GABc|dcde fdef|
+g2B2 g2fe|d<fA2 d2cB|cDEF GABc|1 d2f2 d2ef:|2 d2f2 d4||
+
+X:32
+T:Reil\"ander
+R:reil\"ander
+O:Norge
+Z:id:hn-schottis-32
+M:C|
+K:A
+c2cB c2cB|cdcB BAAc|efed BcdB|cdcB A2E2|
+c2cB c2cB|cdcB BAAc|efec edBG|A2B2 A4:|
+|:agae b2a2|cdef fecA|BABc dBGB|A2B2 A4|
+agae b2a2|cdef fecA|BABc dBGB|A2B2 A4:|
+
+X:33
+T:Schottis fr{\aa}n V\"asterbotten
+R:schottis
+O:V\"asterbotten
+Z:id:hn-schottis-33
+M:C|
+K:Dm
+^g|:a2eg fede|f2A2 f2e^c|d^cde fefg|1 a=bag a2a^g:|2 a=bag a3A||
+|:_B2BA BdcB|B2AG A2GF|EGce gecG|FAcf a2fA|
+_B2BA BdcB|B2AG A2GF|EGce gece|1 f2a2 f3A:|2 f2a2 f3||
+
+X:34
+T:Schottis fr{\aa}n V\"asterbotten
+R:schottis
+O:V\"asterbotten
+Z:id:hn-schottis-34
+M:C|
+L:1/8
+K:Am
+A^GAB cEGB|BAA^G A3e|e=de^f gB^df|^fee^d e2e2:|
+|:eaa<a e2^c2|eaa<a e2^c2|B2E2 B2BB|=cAA^G A2A2:|
+
+X:35
+T:Schottis fr{\aa}n \"Osterg\"otland
+R:schottis
+O:\"Osterg\"otland
+Z:id:hn-schottis-35
+M:C|
+L:1/8
+K:D
+A2fe dedB | ABAF D2D2 | ABAG E2E2 | ABAF D2D2 |
+A2fe dedB | ABAF D2D2 | ABAF AGEC |1 E2D2 D4 :|2 E2D2 D3A ||
+|: BAGB dBGB | AFAd f2f2 | eAce gece | dAde f2d2 |
+BAGB dBGB | AFAd f2f2 | eAce gece | d2dd d4 :|
+
+X:36
+T:Schottis efter C A Lindblom
+R:schottis
+O:\"Osterg\"otland
+Z:id:hn-schottis-36
+M:C|
+L:1/8
+K:G
+G2GA B2Bc | d2de d2B2 | c2cd c2A2 | d2dc B2D2 |
+G2GA B2Bc | d2de d2B2 | c2cd c2BA | A2G2G2 z2 :|
+|: G2cc c2e2 | G2BB B2d2 | DA[FD]A DA[FD]A | G2Bd g4 |
+G2cc c2e2 | G2BB B2d2 | DA[FD]A DA[FD]A | G2[g2B2] [g4B4d4] :|
+
+X:37
+T:Schottis efter Pelle Fors
+R:schottis
+O:\"Osterg\"otland
+Z:id:hn-schottis-37
+M:C|
+L:1/8
+K:G
+(3ded Bd g2B2 | (3BcB Ac e4 | DEFG ABcd | ed^cd B4 |
+(3ded Bd g2B2 | (3BcB Ac e3e | fedc dcBA | G2G2 G4 :|
+|: bagf edcB | A2E2 A2AG | FDFA c2Bc | edBG D4 |
+bagf edcB | A2E2 A2AG | FDFA d2F2 | G2G2 G4 :|
+
+X:38
+T:Pilekn\"ackaren
+R:schottis
+H:efter Johan Jakob Bruun
+O:Sk{\aa}ne
+Z:id:hn-schottis-38
+M:C|
+L:1/8
+K:G
+DGBA G2G2 | DGBA G2G2 | EAcB A2AG |1 F2EF G2z2 :|
+[2 F2EF G2Bc |: d2B2 B2Bc | d2B2 B2AB | c2cB A2AG |
+[1 F2EF G2Bc :|2 F2EF G2z2 |: G2B2 d2f2 | g2ee e2d2 |
+c2c2 B2G2 | A2F2 G2z2 :|
+W:Ja' har va't i H\"o-ja, ja' har va't i Star-by,
+W:ja' ha va't i K\"all-na {\aa} Gry-de-valls kru.
+W:D\"a-\"ar fick vi kaf-fe, d\"a-\"ar fick vi g\"o-ga,
+W:d\"a-\"ar fick vi pi-le-e-kn\"ac-ka-re sju.
+W:// \"A' de' lik' n{\aa}n-ting, \"a' de' lik' n{\aa}n-ting,
+W:a-att sju pi-le-kn\"ac-ka-re satt i go' ro? //
+W:// Ja' har druc-kit sju pi-le-kn\"ac-ka-re,
+W:ja' kan dric-ka sju \"an-nu! //
+
+X:39
+T:Schottis efter Anders Fredrik Andersson
+R:schottis
+H:Tryserum
+O:Sm{\aa}land
+Z:id:hn-schottis-39
+M:C|
+K:D
+A>BAG FAdc | BcBA G2ed | c2c>B A>ABc | dcde fafd |
+A>BAG FAdc | BcBA G2ed | c2c>B A>ABc | d2f2 d2A2 :|
+|: f2f2 d2ef | g2g2 e3d | cdcB A>ABc | dcde fafd |
+fgfe d2ef | g2b2 e3d | cdcB A>ABc | d2f2 d2A2 :|
+
+X:40
+T:Johan p{\aa} Snippen
+R:schottis
+Z:id:hn-schottis-40
+M:C|
+K:G
+D2 | G2G>A B2B>c | d2d>c B3B | A2A>B c2B>A | G2FE D2D2 |
+G2G>A B2B>c | d2d>c B3B | A2A>B cAFA | G2G>G G2 :| z2 |
+|: G2c>e G2c>e | G>Gc>G e2e2 | G2B>d G2B>d | G>GB>G d2d2 |
+D2F>A D2F>A | c>cc>B A2A2 | D2F>A D2F>A |[1 B>c B>A G2G2 :|
+[2 G2G2 G2 ||
+
+X:41
+T:Akta dig f\"or flickor
+R:schottis
+H:efter Axel Andersson, Nyk\"oping
+O:S\"ormland
+Z:id:hn-schottis-40
+M:C|
+L:1/8
+K:G
+GABc d2g2 | GABc d2g2 | a2ag f2ef | g2fe dcBA |
+GABc d2g2 | GABc d2g2 | a2ag f2ef | g2g2 g4 :|
+K:D
+a2fd A2df | a2gf g2g2 | g2ec A2ce | g2fe f2f2 |
+a2fd A2df | a2ga bagf | edcB Agfe | d2d2 d4 :|
+
+X:42
+T:Reil\"ander fr{\aa}n Gruer finnskog
+R:reil\"ander
+O:Norge
+Z:id:hn-schottis-42
+M:C|
+L:1/8
+K:D
+A>GF>A d2d2 | d>cA>c e2e2 | e>fg>a f>de>c | d>BG>B B2A2 |
+A>GF>A d2d2 | d>cA>c e2e2 | e>fg>a f>de>c |1 d2d2 d4 :|2 d2d2 d3 ||
+|: f | a2 (3fff f2f>a | a>g (3eee e>fe>f | g>fd>f a>ge>c | d>BG>B B2A2 |
+a2 (3fff f2f>a | a>g (3eee e>fe>f | g>fd>f a>ge>c |1 d2d2 d3 :|2 d2d2 d4 ||
+|: A>Bc>d e2e>f | f>ed>f f2e2 | A>Bc>d e2e>a | a>a^g>b a4 |
+A>Bc>d e2e>f | f>ed>f f2e2 | g>fd>f a>ge>c | d2d2 d4 :|
+
+X:43
+T:Reinlender fr{\aa} {\AA}seral
+R:reil\"ander
+H:etter Gunnar Austegard
+H:c# is played a bit flat all the way
+O:Norge, Agder
+Z:id:hn-schottis-43
+M:C|
+L:1/8
+Q:1/2=80
+K:Amix
+e2fe f2e2 | c2AB c2dc | c2BA B2AG | A>Bcd e2e2 |
+e2fe f2e2 | c2AB c2c2 | c>BAc BAGB | A2AB A4 ||
+g2eg f2e2 | c2AB c2dc | dcBA B2AG | A>Bcd e2e2 |
+g2eg f2e2 | c2AB c2c2 | c>BAc BAGB | A2AB A4 ||
+|: D2a2 a2ge | f>edc d4 | cdef ^g2a2 | fecd e3f |
+^g2a2 a2^g2 | f>edc d3f | efd2 cABG | A2AB A4 :|
+|: D2Bc c2B>A | A2cd d2c>d | e>fe>d c>AB>G | A2AB A4 :|
+

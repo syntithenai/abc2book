@@ -1,0 +1,200 @@
+This file contains 9 horas (#1 - #9).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These horas are dance tunes from Romania.
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+
+Last updated 7 May 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:hora
+M:C|
+L:1/8
+Z:id:hn-%R-%X
+
+X:1
+T:Hora Lautareasca
+R:hora
+O:Romania
+Z:id:hn-hora-1
+M:C|
+L:1/8
+Q:1/2=120
+K:Bphr ^d =c
+B^df |: "B"b^a^c'b "B/F#"bac'b | "B"b^a^c'^a "B/F#"b3^g |
+   "Am-5"=a^gba "Am-5/D#"agba | "Am-5"a^gbg "Am-5/D#"a2B2 |
+   "Em"z^def "Em/B"=ge^ab | "Em"^c'2b^a "Em/B"gefg |
+   [1 "A#dim"=a2gf "A#dim/E"e^deg | "B"f3B "B/F#"^dfa2 :|
+   [2 "A#dim"=a2gf "A#dim/E"efe^d | "B"^dB=cA "B/F#"B3e ||
+|: "B"^defg "B/F#"afg2 | "B"e^deg "B/F#"fffB |
+   "Em/G"ggg2 "B7/F#"fffB | "Em/G"ggg2 "B7/F#"fffe |
+   "B"^defg "B/F#"afg2 | "B"e^deg "B/F#"fffB |
+   "Am-5"g2fg "Am-5/D#"efe^d |1 "B"^dB=cA "B/F#"B3e :|2 "B"^dB=cA "B/F#"B3B ||
+|: "Am-5"B=cAB "Am-5/D#"cABc | "Am-5"^dB=cd "Am-5/D#"edcB |
+   "Am-5"AB=c^d "Am-5/D#"efe^d |1 "B"^dB=cA "B/F#"Bdf2 |
+   "Am-5"B=cAB "Am-5/D#"cABc | "Am-5"^dB=cd "Am-5/D#"e3a |
+   "Am-5"aggf "Am-5/D#"efe^d | "B"^dB=cA "B/F#"B3B :|2 "B"^dB=cA "B/F#"B3g |
+   "Am-5"a^gba "Am-5/D#"a=ggf | "Am-5"fee^d "Am-5/D#"d=ccB | 
+   "Am-5"AB=c^d "Am-5/D#"efed | "B"^dB=cA "B/F#"B ||
+
+X:2
+T:Hora ca din la caval
+R:hora
+H:A version of #3
+D:Gheorghe Zamfir
+O:Romania
+Z:id:hn-hora-2
+M:C|
+L:1/8
+Q:1/2=120
+K:Ador ^d =c
+"Am"e2^d2 "Am/E"e2d2 | "Am"cAc2 "D#dim"^d3c | 
+   "E"e2^d2 "E/G#"cAc2 | "Am"^deec "Am/E"e4 |
+   [1 "Am"e2^d2 "Am7/G"e2d2 | "F#m7b5"cAc2 "D#dim"^d3c | 
+      "E"e2^d2 "E/G#"ceec | "Am"A4 A4 :|
+   [2 "Am"ABc^d "Am7/G"e2^d2 | "F#m7b5"cAc2 "D#dim"^d3c | 
+      "E"e2^d2 "E/G#"ceec | "Am"A4 A4 || 
+|: "Am"ABc^d "Am/E"e2^d2 | "Am"cAc2 "D#dim"^d3c | 
+   "E"e2^d2 "E/G#"cAc2 | "Am"^deec "Am/E"e4 | 
+   "Am"ABc^d "Am7/G"e2^d2 | "F#m7b5"cAc2 "D#dim"^d3c | 
+   "E"e2^d2 "E/G#"ceec | "Am"A4 A4 :| 
+|: "C"efgf "C/G"aggf | "C"fee^d "D#dim"dddc | 
+   "E"e2^d2 "E/G#"cAc2 | "Am"^deec "Am/E"e4 | 
+   "Am"a2a2-"Am7/G"a2g2 | "F#m7b5"fefe "D#dim"^dddc | 
+   "E"e2^d2 "E/G#"ceec | "Am"A4 A4 :| 
+
+X:3
+T:Hora batrineasca
+R:hora
+H:First part also played one octave down
+H:See also #2
+O:Romania
+Z:id:hn-hora-3
+M:C|
+K:Ador ^d =c
+|: ABc^d eA^de | cABc ^d3c | eA^de cAc2 | ^deec e4 |
+   ABc^d eA^de | cABc ^d3c | eA^de cAec | Aece A4 :|
+|: aefg afgf | e3c ^d3c | eA^dA cAc2 | ^deec e4 |
+   g2a2- a2g2 | fefe ^dddc | e2^d2 cAec | Aece A4 :|
+|: eA^de eA^de | cAc2 ^d3c | eA^de cAc2 | ^deec e4 |
+   [1 eA^de eA^de | cAc2 ^d3c | eA^de cAec | Aece A4 :|
+   [2 ABc^d eA^de | cAc2 ^d3c | eA^de cAec | Aece A4 || 
+
+X:4
+T:Hora
+R:hora
+S:Youtube "Hora Nr.172"
+O:Romania
+Z:id:hn-hora-4
+M:C|
+L:1/8
+K:Ephr ^g =f
+|: d^c=cB ABAG | GEFD EGB2 | d^c=cB ABAG | GEFD E4 :|
+|: EEB,E EEEE | FEDF EEEB, | EFGA BBAG | GEFD EGB2 |
+   EEB,E EEEE | FEDF EEEB, | EFGA BBAG | GEFD E4 :|
+|: AGAB ccBA | AGAB cABc | ddcB BAAG | GEFD EGB2 |
+   AGAB ccBA | AGAB cABc | ddcB BAAG | GEFD E4 :|
+|: dcBA ABAG | GEFD EGB2 | dcBA ABAG | GEFD E4 :|
+
+X:5
+T:Hora Din Arges
+R:hora
+S:Youtube "Hora Nr 137"
+O:Romania
+Z:id:hn-hora-5
+M:C|
+L:1/8
+K:Bphr ^d =c
+|: BcAc BBBF | BcAc BBBF | Bcde fed2 | dBde f4 |
+   aaaf gag2 | gefg dddB | cdc2 cABc | B2F2 B4 :|
+|: B2f2 fede | ddcd cBcA | B2f2 fede | d2cd cBcA |
+   B2f2 fede | fgab c'bag | agf2 fed2 | cBAc B4 :|
+|: BcAc BBBF | BcAc BBBF | Bcde fed2 | dBde f4 |
+   aaaf gag2 | gefg dddB | cdc2 cBAc | B2F2 B4 :|
+|: Bcde fed2 | dBde fffc | defg agf2 | fdfg a4 |
+   fgab c'ba2 | agfg fffc | ded2 cBAc | B2F2 B4 :|
+|: BcAc BBBF | BcAc BBBF | Bcde fed2 | dBde f4 |
+   aaaf gag2 | gefg dddB | cdc2 cBAc | B2F2 B4 :|
+
+X:6
+T:Hora moldoveneasca
+R:hora
+D:Marcel Budala
+Z:id:hn-hora-6
+M:C|
+L:1/8
+K:Em
+cBAF GGGF | AF^DF EGB2 | cBAF GGGF | AF^DF E4 :|
+|: B2ee e^def | gfe^c d3c | e^cd2 zB=cA | B8 |
+B2ee e^def | gfe^c d3c | eedB ^cd^Ac | B8 :|
+|: Bcde dccB | BAAG FGAB | c2AG FDEF | GFGA BcdG |
+Bcde dccB | BAAG FGAB | c2BA GEF^D | E8 :|
+|: cBAF GGGF | AF^DF EGB2 | cBAF GGGF | AF^DF E4 :|
+
+X:7
+T:Hora floraselor
+R:hora
+S:Marcel Budala on Youtube
+Z:id:hn-hora-7
+M:C|
+L:1/8
+K:Dphr ^f
+cdd2 d2dc | dcfd cBAG | Bcc2 c2c2 | cBcd cBAG |
+Bcc2 cBBA | cFGA BGAB | cBBA AFGA | FECE D4 :|
+|: GFGA BAAG | GFGA BGAB | cBBA AFGA | FECE DDDD |
+GFGA B2AG | GFGA BGAB | cBBA AFGA | FECE D4 :|
+|: DEFD FGFD | DEFG GAFD | FCDE FGFD | EA,C2 DA,FA, |
+DEFD FGFD | DEFG GAFD | FCDE FGFD | EA,C2 D4 :|
+|: AB^c2 cdBA | AFGA ABAG | FCDE FGFD | EA,C2 D4 |
+AB^c2 cdBA | AFGA ABAG | FCDE FGFD | EA,C2 D4 :|
+|: DEFD FGFD | DEFG GAFD | FCDE FGFD | EA,C2 D4 |
+DEFD FGFD | DEFG GAFD | FCDE FGFD | EA,C2 D4 :|
+
+X:8
+T:Hora lui Florian
+R:hora
+S:Trio Polifonic on Youtube
+H:Played in F on the recording, but transposed here.
+Z:id:hn-hora-8
+M:C|
+L:1/8
+K:G
+^FGBd fg=fd | e=fd2 zcde | =f2ec dBcA | Bcd^f gdBG |
+^FGBd fg=fd | e=fd2 zcde | =f2ec dBcA | B7g |
+^fg_b2 fg=fd | e=fd2 zcde | =f2ec dBcA | Bcd^f gdBG |
+^FGBd fg=fd | e=fd2 zcde | =f2ec dBcA | B4 zcde ||
+|: =f2ec dBcA | B^FGA Bcde | =f2ec dBcA | Bcd^f gdBG |
+=f2ec dBcA | B^FGA Bcde | =f2ec dBcA |1 B4 zcde :|2 B4 z^FG^G ||
+A^GA=G FDFA | dfag fffd | e^deA ggge | fde^c d^FG^G |
+A^GA=G FDFA | dfag fffd | e^deA ggge | fde^c d^FG^G |
+ABAG F2a^g | abag fffd | e^deA ggge | fde^c d^FG^G |
+A^GA=G FDFA | dfag fffd | e^deA ggge | fde^c d=cBA ||
+
+X:9
+T:Hora de la Gaesti
+R:hora
+S:Trio Polifonic on Youtube
+H:Played in Bbmix on the recording, but transposed here to a more decent key.
+Z:id:hn-hora-9
+M:C|
+L:1/8
+K:Amix
+cdec decd | BBBA BcdB | cBdc ed=f2 | eAcd e3B |
+cde2 decd | BBBA Bcde | g2=fe ecde | c_BGB A4 |
+d2d3 Bc^A | BBBA BcdB | cBdc ed=f2 | eAcd e3B |
+cde2 decd | BBBA Bcde | g2=fe ecde | c_BGB A3=B ||
+|: cBA3 EAB | cde2 e4 | a2b2- b2a^g | f^gf^d e3e |
+f^gaf b2ag | f^gf^d eee=d | e=ddc cBBc | dccB cde2 |
+cBA3 EAB | cde2 e4 | a2b2- b2a^g | f^gf^d e3e |
+f^gaf b2ag | f^gf^d eee=d | e=ddc cBBc | dB^GB A3B :|
+

@@ -1,0 +1,127 @@
+This file contains 7 rid\'ees (#1 - #7).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These rid\'ees are Breton dance tunes from Brittany/Bretagne.
+
+Last updated 3 May 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:rid\'ee
+M:6/4
+L:1/8
+Z:id:hn-%R-%X
+O:Bretagne
+
+X:1
+T:Rid\'ee
+R:rid\'ee
+H:Also played in Em
+O:Bretagne
+D:Pennou Skolm
+Z:id:hn-ridee-1
+M:6/4
+L:1/8
+Q:1/4=200
+K:Am
+AeeA e2de fedc | BABc dedc (3Bcd cB |
+AeeA e2de fedc | BABc ded2 (3Bcd cB ||
+(3ABA EA Bc (3ABA FA Bc | (3ABA DA Bc dc Bd cB |
+(3ABA EA Bc (3ABA FA Bc | A2 (3cBA Bc dc Bd cB ||
+
+X:2
+T:Rid\'ee
+R:rid\'ee
+O:Bretagne
+D:Kornog: IV
+D:L\'unasa
+Z:id:hn-ridee-2
+M:6/4
+L:1/8
+Q:1/4=200
+K:Am
+AGAB c2 Bc dcAE | AGAB c2 Bc dcA2 :|
+|: e2 Ae eA cABd (3cBA | e2 Ae eA cABc A2 :|
+P:variations
+|: AEAB c2 Bc dcAG | AEAB c2 Bc dcA2 :|
+|: e2 Ae-eA cABd cA |1 e2 Ae-eA cABc AA :|2 e2 Ae-eA cABc AE ||
+
+X:3
+T:Rid\'ee
+R:rid\'ee
+H:Also played in Bm
+O:Bretagne
+D:Skeduz: Rag ar Plinn
+Z:id:hn-ridee-3
+M:6/4
+L:1/8
+Q:1/4=200
+K:Em
+EGFE (3BcB G2 AB AG/F/ | EGFE B2 G2 AG A2 :|
+|: (3ABA GA BEG2 BAGF | EA (3AGA BEG2 (3FGF E2 :|
+
+X:4
+T:Rid\'ee
+R:rid\'ee
+H:Also played in Bm
+O:Bretagne
+D:Skeduz: Rag ar Plinn
+Z:id:hn-ridee-4
+M:6/4
+L:1/8
+Q:1/4=200
+K:Em
+EBAG FGA2 GFED | EBAG FGAF (3ABA GF |
+EBAG FGA2 GFED | EBAG FGA2 GFEF ||
+G2FD (3GAG FD EFGB | (3ABA GB AFA2 GFED |
+EGFD G2FD EFGB | (3ABA GB AFA2 GFE2 ||
+
+X:5
+T:Rid\'ee
+R:rid\'ee
+O:Bretagne
+D:Skeduz: Rag ar Plinn
+Z:id:hn-ridee-5
+M:6/4
+L:1/8
+Q:1/4=200
+K:D
+fgaf d2 (3fgf edee | fgaf dcdf ede2 :|
+fgaf d2 (3fgf edcA | Bcdf e2fg fed2 |
+fgaf dcdf edcA | Bcdf e2 (3efg fed2 ||
+
+X:6
+T:Boules Et Guirlandes
+R:rid\'ee
+O:Bretagne
+D:Skolvan: Swing & Tears
+Z:id:hn-ridee-6
+M:6/4
+L:1/8
+Q:1/4=200
+K:Em
+EFGB (3ABA GA BGED | EFGB A2 GA BGE2 :|
+|: c2Ac BA GF EFGB | c2Ac BA GF GB A2 :|
+
+X:7
+T:Rid\'ee
+R:rid\'ee
+O:Bretagne
+D:Skolvan: Swing & Tears
+Z:id:hn-ridee-7
+M:6/4
+L:1/8
+Q:1/4=200
+K:G
+GddB dd ABcd cB | GddB dd ABcd cB |
+GdcB dd ABcd cB | GdcB d2 ABcd cB ||
+G2FG Bc BGFG AF | G2FG BG cdcB GF |
+G2FG Bc BGFG AA | G2FG BG cdcB G2 ||
+

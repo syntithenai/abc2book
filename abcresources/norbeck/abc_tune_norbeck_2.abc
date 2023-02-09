@@ -1,0 +1,737 @@
+This file contains 39 airs (#1 - #39).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 25 September 2020.
+
+(c) Copyright 2002-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+Z:id:hn-air-%X
+R:air
+
+X:1
+T:Down the Hill
+R:air
+H:Originally in Gdor and notated in 6/8 time.
+H:Version 1 from O'Neill's. Version 2 from Petrie Collection
+H:Related to "The Blooming Meadows" single jig#23
+Z:id:hn-air-1
+M:3/4
+L:1/8
+Q:1/4=160
+K:Ador
+BAG | E2A2A2 | A3EAB | cBABcA | BAGABG | AGEDEF | G4A2 |
+B2c2A2 | G2E2D2 | E2A2A2 | A4Bc | BAGABc | d2B2d2 |
+efg2e2 | d2B2e2 | A3BAG | A3 :|
+|: Bcd | e2a2a2 | a3eab | c'babc'a | b2g2e2 | d2g2g2 | g4a2 |
+bagabg | a2g2ed | e2a2a2 | a3eab | c'babc'a | bagabg |
+a2g2e2 | d2B2e2 |1 A3BAG |A3 :|2 A3BAG | A2^c2e2 ||
+|: a2e2^c2 | A2^ceA^c | eA^ce^ce | g2d2B2 | G3BdB |
+G3AB=c | d2c2B2 | cBABcA | dcBcdB | e2a2^g2 | a3bc'b |
+a2=g2e2 | d2B2e2 |1 A3BAG | A2^c2e2 :|2 A3BAG | A3 || z ||
+P:version 2
+AG | E2A2A2 | A4B2 | cBABcA | BAGABG | AGEDEF | G4A2 |
+B2c2A2 | G2E2D2 | E2A2A2 | A4c2 | BAGABc | dcBcdB |
+e2f2g2 | d2B2e2 | A6- | A4 ||
+cd | e2a2a2 | a4b2 | c'babc'a | b2g2e2 | d2g2g2 | g4a2 |
+b2c'2a2 | g2e2d2 | e2a2a2 | a4b2 | c'babc'a | bagabg |
+a2g2e2 | d2B2^G2 | A6- | A4 ||
+a^g | a2e2c2 | A2c2e2 | a2e2c2 | A2c2e2 | g2d2B2 | G2B2d2 |
+g2d2B2 | G2B2d2 | cBABcA | dcBcdB | e2a2^g2 | a2b2c'2 |
+a2g2e2 | d2B2e2 | A6- | A4 ||
+
+X:2
+T:Eagle's Whistle, The
+T:Fead an Iolair
+T:O'Donovan's March
+T:Gol na mBan san \'Ar
+R:air
+S:EB
+H:See also march#16. The Irish title means "Lament of the Women in the Battle".
+B:Roche Collection, vol. 2, No. 321
+Z:id:hn-air-2
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+GA | B2 dB AG | B{c}B dB AG | A2 {c}AB AG | A2 {c}AB AG | 
+B{c}B dB AG | B2 dB A/B/A | G2 {A}GB A/B/A | G2 {A}G2 :|
+|: Bd | {ef}e2 de gd | e2 dB AG | A2 {c}AB AG | A2 {c}A2 Bd | 
+e2 de gd | {ef}e2 dB A/B/A | G2 {A}GB A/B/A | G2 {A}G2 :|
+P:Roche version
+|: B2 dBAG | B2 dBAG | A2 ABAG | A2 ABAG |
+B2 dBAG | B2 dBAB | G2 GBAF | G2 GBAG :|
+|: e2 dBgd | e2 dBAG | A2 ABAG | A2 ABAG |
+e2 dBgd | e2 dBAB | G2 GBAF | G2 GBAG :|
+
+X:3
+T:Tabhair dom do l\'amh
+T:Give Me Your Hand
+T:Da Mihi Manum
+R:air
+C:Ruaidhr\'i Dall \'O Cath\'ain (c. 1570 - 1650 or 1653)
+Z:id:hn-air-3
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+D2 | E2G2G2 | G4D2 | E2G2G2 | G4D2 | E2G2G2 | G2A2B2 |
+B2e2d2 | B4AG | A2A2ed | B2B2dB | A2ABAG | E4D2 |
+E2G2G2 | G4D2 | E2G2G2 | G4 || D2 | E2G2G2 | G2A2B2 |
+dedBAB | G4D2 | E2G2G2 | G2A2B2 | B2e2d2 | B4AG |
+A2A2ed | B2B2dB | A3Bcd | e4dB | d2d2e2 | g4ed |
+e2e2g2 | a4de | g2g2de | g2g2de | g2g2a2 | b6 ||
+b2b2b2 | b4ag | a2agab | a4gf | e2e2ge | d2d2ed |
+B2B2dB | A4BA | G2GABd | =f4ed | e2e2g2 | e4dB |
+d2d2ed | B2B2dB | A2AcBA | G4 ||
+P:variations
+D2 | E2G2G2 | G4D2 | E2G2GA | G4D2 | E2G2G2 | G2A2B2 |
+B2e2de | B4AG | A2A2ed | B2B2dB | A2ABAG | E4D2 |
+E2G2G2 | G4D2 | E2G2G2 | G4 || D2 | E2G2G2 | G2A2B2 |
+dedBAB | G4D2 | E2G2G2 | G2A2B2 | B2e2de | B4AG |
+A2A2ed | B2B2dB | A2ABcd | e4dB | d2d2e2 | g4ed |
+e2e2 (3geg | a4ge | g2g2de | g2g2de | g2g2 (3aga | b6 ||
+b2b2b2 | b4ag | a2agab | a4gf | e2e2ge | d2d2gd |
+B2BdcB | A3cBA | G2GABd | =f4ed | e2e2g2 | e4dB |
+d2d2gd | B2B2dB | A2AcBA | G4 ||
+
+X:4
+T:An Rogaire Dubh
+T:Black Rogue, The
+T:Did You See the Black Rogue
+R:air
+S:Sean Ryan and Ciara Ryan on Clare FM
+B:Bunting 1840 (in key of A)
+Z:id:hn-air-4
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+D2 | G3ABG | A2B2d2 | G2A2B2 | d4g2 | G3ABG | A2B2d2 | A4G2 | G4 :|
+(3def | g4ga | g4-ga | g2f2e2 | d2B2d2 | e4g2 | e4g2 | e2d2B2 | d2e2f2 |
+g2f2e2 | d2B2d2 | e2f2g2 | G2GABG | A2B2d2 | A4G2 | G4 ||
+(3def | g2G2g2 | g2G2g2 | gagfed | BABdBd | e2G2g2 | e2G2e2 | egedB2 | d2e2f2 |
+g2G2ge | d2B2d2 | e2f2g2 | G2GABd | g2a2b2 | A4G2 | G4 ||
+P:Bunting version
+|: D2 | G2GABG | A2B2d2 | G2A2B2 | d4g2 | G3ABG | A2B2d2 | A4G2 | G4 :| z2 |
+d2e2f2 | g4a2 | g4a2 | g2f2e2 | d2B2d2 | e4g2 | e4g2 | e2d2B2 |
+d2e2f2 | g2f2e2 | d2B2d2 | e2f2g2 | G2GABG | A2B2d2 | A4G2 | G6 ||
+d2e2f2 | g2G2g2 | g2G2g2 | gagfe2 | BABdBd | e2G2g2 | e2E2e2 | efedB2 |
+d2e2f2 | g2G2g2 | d2B2d2 | e2f2g2 | G2GABd | g2a2b2 | A4G2 | G4 ||
+
+X:5
+T:Molly MacAlpin
+T:Carolan's Dream
+R:air
+C:William (Laurence) Connellan (c. 1645 - c. 1700) (?)
+C:Thomas Connellan (c. 1640 - 1698) (?)
+H:This was one of Turlough O'Carolan's favourite tunes and
+H:he probably added his own adaptations to it, see second
+H:version. Hence it is also called "Carolan's Dream".
+H:O'Carolan is said to have stated that he would have traded all
+H:his own tunes in order to be the composer of Molly MacAlpin.
+H:See also hornpipe#26 "Poll Ha'Penny"
+Z:id:hn-air-5
+M:C|
+L:1/8
+Q:1/2=50
+K:Am
+|: AB | c2 A>A A2 GA | dc A>G G2 cd | e2de dcA>A | A6 de |
+f2gf e2fe | dcde a3a | gede dc A>A | A6 :|
+|: ef | gega g3a | gede g2eg | agab ageg | a6 ag |
+f2gf e2fe | dcde a3a | gede dc A>A | A6 :|
+P:Carolan's Dream
+|: AB | c2 B>A A2 GA | c2 BA G2 cd | e2de dcBA | A4 A2 de |
+f2fg e2ef | dcde a3g | aged dcAG | A6 :|
+|: ef | gede g3a | gede g3e | agab ageg | a6 ag |
+f2fg e2ef | dcde a3g | aged dcAG | A6 :| 
+
+X:6
+T:Molly St. George
+T:Molly Saint George
+R:air
+C:Thomas Connellan (c. 1640 - 1698) (?)
+Z:id:hn-air-6
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+de/f/ | g2 gf ed | d2 ed cB | c2 B2 A>G | E4 A/B/d |
+e2 ge dB | A2 B/c/d D2 | E2 GA/B/ AG | G4 :|
+DE/F/ | GA B2 AB/c/ | B2 cB AG | cB cd ef | g4 ef/g/ |
+a2 ba ge | d2 ed cB | c2 cd Bc | A4 AB |
+cB cd ef | g4 fe | d2 dB AG | E4 Bd |
+e2 ge dB | A2 B/c/d D2 | E2 GA/B/ A>G | G4 || 
+
+X:7
+T:Planxty Davis
+T:Killiecrankie
+R:air
+C:Thomas Connellan (c. 1640 - 1698)
+H:Also played as a set dance
+Z:id:hn-air-7
+M:C|
+L:1/8
+Q:1/2=80
+K:D
+FG | A2AB A2FG | AFAB A3B | AGFE DEFG | A2AB A2FA | 
+B2Bc B2FA | BABc B2dB | AGFE DEFA | B2Bc B2b2 | 
+bafb afeg | fedf e2de | fedc BAdF | A2AB A2dc | 
+B2AB d2cd | e2de f2ed | BABc d2F2 | E4D2 :|
+|: fg | a2ab a2fg | agab a2fg | agfe defg | a2ab a2fa |
+b2bc' b2fa | bafa b2bg | agfe defa | b2ba b2fa |
+bafb afeg | fedf e2de | fedc BAdF | A2AB A2dc |
+B2AB d2cd | e2de f2ed | BABc d2F2 | E4D2 :| 
+
+X:8
+T:Lady Iveagh
+R:air
+C:Thomas Connellan (c. 1640 - 1698)
+H:Turlough O'Carolan probably adapted this piece and named it "Miss Crofton"
+H:see carolan#25
+Z:id:hn-air-8
+M:C
+L:1/8
+Q:1/4=90
+K:Ador
+A2 dB A2 B/A/G/E/ | G3 A G2 A/G/E/D/ | B3 A B/d/e dB | GFGB A4 :| 
+|: g>f ga g2 a/g/e/d/ | ag g/a/b a2 b/a/g/e/ | g3 a g2 fg | a4 e2 g2 | 
+a3 g/a/ bagb | a2 g<e gedg | e2 dB d2 dB/A/ | G>FGB A4 :|
+
+X:9
+T:Huntingtone Castle
+R:air
+O:Scottish
+Z:id:hn-air-9
+M:6/8
+L:1/8
+Q:3/8=70
+K:Em
+B, | E>FE G2A | B2A F>ED | E>FE G2A | B>AB d2e |
+f>ed B>dB | ABA F>ED | E>FE G>AB | A>GF E2 :|
+|: d | e>fe d>cB | A>BA F>ED | Eee e>fg | fe^d e2f |
+g>af e>fd | B>dA F>ED | E>FE G>AB | AGF E2 :|
+
+X:10
+T:Idir Deighric 'gus Breo'
+T:Idir Deighric agus Breo
+R:air
+Z:id:hn-air-10
+M:6/8
+L:1/8
+Q:3/8=60
+K:Amix
+A>BA A>GA | c>de f2a | g<ec d2B/A/ | G2E G2E/G/ |
+A>BA A>GA | c>de f2a/f/ | g<ec d2B//A//G/ | A3 A3 :|
+|: a>ba g>ag | f>ed c2d | ea/e/f/g/ f>ed | e>cA G2E/G/ | 
+A>BA A>GA | c>de f2a/f/ | g<ec d2B//A//G/ | A3 A3 :|  
+
+X:11
+T:F\'ainne Geal an Lae
+T:Bright Dawn of the Day, The
+R:air
+B:Goodman manuscripts
+Z:id:hn-air-11
+M:C|
+L:1/8
+Q:1/2=70
+K:G
+GA | B2B2 B2AB | d3e fedB | A2AB G3A | B6 GA |
+B2B2 B2AB | d3e fedB | A2AB A3G | G6 ||
+BA | Bdef g2fg | eged BABd | e2e2 f2d2 | e3f gfed |
+B2B2 B2AB | d3e fedB | AGAB A3G | G6 ||
+P:variations
+GA | B2B2 B2AB | d3e fedB | AGAB G2A2 | B6 GA |
+B2B2 B2AB | d3e fedB | AGAB G2GA | G6 ||
+BA | Bdef g2fg | efed B2Bd | e2e2 f2df | e3f gfed |
+B2B2 B2AB | d3e fedB | AGAB G2GA | G6 ||
+
+X:12
+T:Dawning of the Day, The
+R:air
+C:Edward Walsh (1805-1850)
+Z:id:hn-air-12
+M:C|
+L:1/8
+Q:1/2=70
+K:G
+GA | B2B2 B2AB | d2d2 e2dB | G2A2 G3F | G6 Bd |
+e3d e2g2 | B3A G2B2 | d2B2 g2B2 | A6 Bd |
+e3d e2g2 | B3A G2B2 | d2B2 g2B2 | A6 GA |
+B2B2 B2AB | d2d2 e2dB | G2A2 G3F | G6 ||
+
+X:13
+T:South Wind, The
+R:air
+Z:id:hn-air-13
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+c2 | B3 A G2 | B2 c2 d2 | A3 B A2 | A4 c2 |
+B3 A G2 | E3 D E2 | G6- | G4 :|
+|: d2 | g4 g2 | g2 f2 e2 | d4 e2 | d4 c2 |
+[1 B3 A G2 | B2 c2 d2 | A4 B2 | A4 d2 :|
+[2 B3 A G2 | c3 A F2 | G6- | G4 ||
+
+X:14
+T:Spanish Cloak, The
+T:Munster Cloak, The
+T:An Fhallaingin Mhuimhneach
+R:air
+Z:id:hn-air-14
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+G2 GA BG | A2 AB cA | G2 GA Bd | c2 A2 d2 |
+G2 GA BG | A2 AB cA | d2 de fd |1 c2 A2 d2 :|2 c2 A2 f2 ||
+|: g2 ga gf | d2 g2 a2 | b2 a2 g2 | f2 g2 a2 |
+b2 a2 g2 | f2 de fd | dc Ad cA |1 A2 G2 G2 :|2 AG FG AF ||
+
+X:15
+T:For Ireland I Won't Say Her Name
+T:Ar \'Eirinn N\'i Neosfainn C\'e H\'i
+R:air
+Z:id:hn-air-15
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+GA | B2 D3 D | E2 G3 A | B6- | B4 GA |
+B2 D3 D | E2 G3 B | A6- | A4 GA |
+B2 D3 D | E2 c3 A | B6- | B3 BAG |
+E4 D2 | E2 G3 A  | G6- | G4 ||
+Bc | d4 BA | G3 B d2 | e6- | e4 ge |
+d4 BA | G3 A (3BAG | A6- | A4 GA |
+B2 D3 D | E2 c3 A | B6- | B3 BAG |
+E4 D2 | E2 G3 A | G6- | G4 ||
+
+X:16
+T:Roslyn Castle
+R:air
+O:Scottish
+Z:id:hn-air-16
+M:2/4
+L:1/16
+Q:1/4=70
+K:Em
+GF | E2Bc B2AB | cBAG F2GF | E2ef g2fe | defd B2AB |
+cBAG F2GA | BGFE d2ef | gefd eBAB | G2F2 E2 :|
+|: gf | e2ef g2fg | baga f2gf | eBef g2fg | baga f2AB |
+cBAG F2GA | BGFE d2ef | gefd eBAB | G2F2 E2 :|
+
+X:17
+T:Casadh An tS\'ug\'ain
+R:air
+H:Also played with doubled parts
+H:See also "An Suisin B\'an", set dance#18
+H:See also "Casadh An tS\'ug\'ain", slow air#4
+Z:id:hn-air-17
+M:C|
+L:1/8
+Q:1/4=110
+K:G
+GA | B2GE D2DE | G2AB c2Ac | BAGD E2E2 | E6 DE |
+G2G2 A2GA | B2GE D2DE | G2GF G4- | G6 ||
+Bd | e2e2 d3g | e2eg edcB | c2Ac BAGD | E6 DE |
+G2G2 A2GA | B2GE D2DE | G2GF G4- | G6 || 
+
+X:18
+T:Celia Connellan
+R:air
+C:Thomas Connellan (c. 1640 - 1698)
+Z:id:hn-air-18
+M:C|
+L:1/8
+Q:1/2=55
+K:Dm
+A2 | d4 d2c2 | A4 BAGF | G3A G2F2 | G2A2 c4 |
+d3e d2c2 | A4 cAGF | F3G F2E2 | D2E2 F4 ||
+F2GA c2A/G/F | E4 AGFE | D3E D2C2 | D2E2 F3E |
+DEFG A2e2 | d3e fedc | A2GA d2E2 | D3C D2 ||
+P:variations
+A2 | A2d2 d2c2 | A4- AB/A/GF | G3A G2F2 | G2A2 c4 |
+d3c dedc | A4 cAGF | F3G F3E | D2E2 F4 ||
+F2GA cAGF | E4 AGFE | D3E D3C | D2E2 F3E |
+DEFG A2e2 | d3e fedc | A2GA d2E2 | D3C D2 ||
+
+X:19
+T:Gracious Fair Lady, The
+T:An Fhinne-bhean mhodhamhuil
+R:air
+H:Song air from the Goodman Manuscripts (1860s)
+Z:id:hn-air-19
+M:C|
+L:1/8
+Q:1/2=60
+K:G
+GA | B2B2 c2BA | Bdef g2fg | dcAG GABc | d6 GA |
+B2B2 c2BA | Bdef g2fg | efde BdAB | G6 :|
+|: G2 | g2fg a2d2 | egfa gfed | B2AG GABc | d6 GA |
+B2B2 c2BA | Bdef g2fg | efde BdAB | G6 :|
+
+X:20
+T:Trip o'er the Mountain, The
+T:Trip over the Mountain, The
+T:Trip We Took over the Mountains, The
+R:air
+H:Also played with doubled parts
+Z:id:hn-air-20
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+D2 | D2 G2 GA | B2 G2 G2 | A2 G2 A2 | f3 gaf |
+g2 d2 d2 | d2 c2 A2 | G3 BAG | F3 AGF |
+D2 G2 GA | B2 G2 G2 | A2 G2 A2 | f3 gaf |
+g2 d2 d2 | d2 c2 A2 | G3 BAF | G4 ||
+g2 | g2 d2 g2 | g3 gag | f2 d2 e2 | f3 gaf |
+g2 d2 d2 | d2 c2 A2 | G3 BAG | F4 g2 |
+g2 d2 g2 | g3 gag | f2 d2 e2 | f3 gaf |
+g2 d2 d2 | d2 c2 A2 | G3 BAF | G3 AGF ||
+P:variations
+D2 G2 GA | B2 G2 GB | A2 G2 A2 | f3 gaf |
+g2 d2 de | d2 c2 A2 | G3 BAG | F3 AGF |
+D2 G3 A | B2 G2 GB | A2 G2 A2 | f3 gaf |
+g2 d2 de | d3 cAF | G3 BAF | G4 ||
+g2 | g2 d2 g2 | g3 bag | f2 d3 e | =f3 ga^f |
+g2 d2 d2 | d2 c2 AF | G3 BAG | F4 g2 |
+g2 d2 g2 | g3 bag | f2 d2 e2 | f3 gaf |
+g2 d2 d2 | d3 cAF | G3 BAF | G3 AGF ||
+
+X:21
+T:Moran's Return
+T:To Daunton Me
+R:air
+H:Also played in F
+Z:id:hn-air-21
+M:C|
+L:1/8
+Q:1/2=60
+K:D
+F/G/A | B2E2 E2AG | F2D2 D2de | fedc dBAF | E2EF GFGA |
+B2E2 E2AG | F2D2 D2de | fedc dBAF | E2D2 D2 ||
+FE | D2d>c d3e | fedc B2AF | B2e2 e3f | gfed e2de |
+f2gf e2fe | dedB A2de | fedc dBAF | E2D2 D2 ||
+
+X:22
+T:Love Is a Tormenting Pain
+T:Love's a Tormenting Pain
+T:Is Galar Cr\'aidhte an Gr\'adh
+R:air
+C:William Connellan (c. 1645 - c. 1700) (?)
+H:Originally in key of F
+Z:id:hn-air-22
+M:3/4
+L:1/8
+Q:1/4=80
+K:G
+d2 | e2 d>e g2 | G4 G//A//B3/ | d2 ed BA | B4 d2 |
+e2 d>e g2 | G4 A2 | B4 A//G//F3/ | G4 :|
+d2 | d2 d2 e>f | g4 b2 | g4 f2 | e4 d2 |
+d2 ed Bd | e2 d>e f>e | f2 d2 d2 | d4 (3def |
+g2 f2 e2 | d2 c2 B2 | A2 B>A G>d | B4 d2 |
+e2 d>e g2 | G4 A2 | B4 A2 | G4 || 
+
+X:23
+T:Forlorn Queen, The
+T:R\'ioghan i nUaigneas
+R:air
+B:Bunting 1796
+D:Michael Tubridy
+Z:id:hn-air-23
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+g2 dega | b4 z2 | a2 ga g/a/b | a/g/e d2 d2 |
+g2 dega | b4 z2 | a2 ga g/a/b | a2 g2 ||
+de | =f4 f2 | e4 de | g2 e2 dc | B2 B2 Bd |
+e2 eg ed | B4 e/d/B | A2 GA G/A/B | A2 G2 de |
+=f4 f2 | e4 d/e/f | g2 fe dc | B2 B2 B/c/d |
+e2 e>ged | B4 e/d/B | A2 GA B2 | A2 G4 || 
+
+X:24
+T:Dermot O'Dowd
+R:air
+B:Bunting 1796
+Z:id:hn-air-24
+M:3/4
+L:1/8
+Q:1/4=160
+K:Ador
+AG | E2A2A2 | A2 BAGA | B2 Bd BA | G2E2D2 |
+E2A2A2 | A2 BAGA | B2 d2 ef | g4 || 
+ed | edegab | a2 bagf | g2 gaba | g2e2d2 |
+e2 eged | B2 B2 A>G | E2A2A2 | B2 A2 || 
+
+X:25
+T:Young Girl Milking the Cow, The
+T:Pretty Girl Milking Her Cow, The
+T:An Cail\'in Deas Ag Cr\'uite Na mB\'o
+R:air
+H:See also The Banks of Sullane, song#93
+H:Also played as a slow air
+Z:id:hn-air-25
+M:3/4
+L:1/8
+Q:1/4=120
+K:Ador
+AB | c2 e3 c | B2 d3 B | A2 G4- | G4 AB |
+c2 e3 c | B2 d3 B | A6- | A4 AB | 
+c2 e3 c | B2 g3 B | A2 G4- | G4 gf |
+ed cB AG | E2 A3 B | A6- | A4 :|
+|: AB | c3 def | g3 edB | A2 G4- | G4 AB |
+c3 def | g2 e2 g2 | a6- | a4 ba | 
+g3 edB | d3 BdB | A2 G4- | G4 gf |
+ed cB AG | E2 A3 B | A6- | A4 :|
+
+X:26
+T:Blackbird and the Thrush, The
+T:An Londubh agus an Ch\'eirseach
+R:air
+Z:id:hn-air-26
+M:3/4
+L:1/8
+Q:1/4=120
+K:Dm
+A2 A2 Bc | d2 d2 d/e/f | e2 cABc | d4 f>d |
+c2 BA GF | G2 AB AG | F2 D2 DF | D4 ||
+DE | F2 G2 AB | A/G/F D2 d/e/f | e2 cABc | d4 f>d |
+c2 BA GF | G2 AB AG | F2 D2 DF | D6 ||
+
+X:27
+T:Geafta\'i Bhaile Bu\'i
+R:air
+Z:id:hn-air-27
+M:4/4
+L:1/8
+Q:1/4=60
+K:G
+GA | B>A BD G3G | Gg gd g3 d/c/ | B>D GA B2 AG | E6 GA |
+B>A BD G3G | Gg g>d g3 d/c/ | BD GA B2 A>G | G6 d2 ||
+dB de g3e | ed ge d3 d/c/ | BD GA B2 AG | E6 GA |
+B>A BD G3G | Gg gd g3 d/c/ | BD GA B2 AG | G6 || 
+
+X:28
+T:Autumn Child
+R:air
+C:Brendan O'Regan
+Z:id:hn-air-28
+M:C|
+L:1/8
+K:Edor
+B=c | B2EF G2AG | F2EF D2B,A, | B,EEF GABc | d2cB ABcd |
+B2EF G2AG | F2EF D2B,A, | B,EEF GABA |1 GEFD E2 :|2 GEFD EFGA ||
+|: B2e2 d3e | c2BA BEFE | DEFG A2Bc | d2cB ABcd |
+B2EF G2AG | F2EF D2B,A, | B,EEF GABA |1 GEFD EFGA :|2 GEFD E2 ||
+
+X:29
+T:Hector the Hero
+R:air
+C:James Scott Skinner (1843-1927), Scotland
+Z:id:hn-air-29
+M:3/4
+L:1/8
+K:G
+GA | B3 A G2 | e3 d B2 | d6- | d4 GA |
+B3 A G2 | e3 d B2 | A6- | A4 GA |
+B3 A G2 | e3 d B2 | d4 G2 | e g3 e2 |
+d G3 B2 | A4 G2 | G6- | G4 :|
+|: Bd | e3 d e2 | g3 f e2 | d6- | d4 Bd |
+e3 g (3edB | d G3 B2 | A6- | A4 Bd |
+e3 d e2 | g3 f e2 | d4 G2 | e g3 e2 |
+d G3 B2 | A4 G2 | G6- | G4 :|
+
+X:30
+T:Drunk At Night And Dry in the Morning
+R:air
+S:Sally Simpson
+O:Scottish
+Z:id:hn-air-30
+M:3/4
+L:1/8
+K:A
+EAB | c4 cd | cB AB c2 | E2 A2 A/B/c | d3 cBd |
+cB AB c2 | ED CD E2 | F2 A2 G2 | A3 :| z3 ||
+A2 f2 f2 | A2 e2 e2 | A2 e3f | e3 dcB |
+A2 f2 f2 | A2 e2 e2 | A2 c3d | c3 BAB |
+cB AB c2 | ED CD E2 | F2 A2 A/B/c | d3 cBd |
+cB AB c2 | ED CD E2 | F2 A2 G2 | A4 ||
+A,/B,/C/ | D2 FD FD | C2 EC EC | E2 A2 A/B/c | d3 cBA |
+D2 FD FD | C2 EC EC | E2 A2 G2 | A4 ||
+A,/B,/C/ | D2 FD FD | C2 EC EC | E2 A2 A/B/c | d3 cBd |
+cB AB c2 | ED CD E2 | F2 A2 G2 | A3 ||
+
+X:31
+T:It Was a Magic Mist That Put Me Astray One Night
+T:Ce\'o Draoigheachta She\'ol Oidhche chum F\'aghain m\'e
+R:air
+B:Goodman manuscripts, http://port.itma.ie/score/ITMA_1401
+Z:id:hn-air-31
+M:3/4
+L:1/8
+K:Am
+A/B/c/d/ | e2 ea ge | dc B2 AF | A2 G2 A/B/c/d/ | d2 d2 fe | dc A2 GB | A4
+A/B/c/d/ | e2 ea ge | dc B2 AG | G2 G2 A/B/c/d/ | d2 d2 (3fed | dc A2 G2 | A4 ||
+eg | a2 a2 (3baf | ge d2 dc | B2 A2 eg | a2 a2 ba | ge d2 ea | g4
+Bd | e2 ea ge | ge d2 BA | A2 G2 A/B/c/d/ | d2 d2 gf | ed B2 G2 | A4 :|
+
+X:32
+T:Nathaniel Gow's Lament for the Death of His Brother
+R:air
+C:Nathaniel Gow (1763-1831), Scotland
+H:See also jig#354, jig#355 "The Gallowglass"
+H:Nathaniel Gow composed this tune when his brother William Gow (1751-1791) died.
+Z:id:hn-air-32
+M:6/4
+L:1/4
+K:Am
+A/B/ | c>BA eBd | c>AA A2A/B/ | c>BA e^fg | B>GG G2A/B/ |
+c>BA eBd | cea e2d | cBA EA^G | AAA A2 :|
+e | a^ga e=g/f/e/d/ | cAA A2A/B/ | cBA e^fg | BGG G2e |
+a^ga e=g/f/e/d/ | cAA e2d | c>BA EA^G | AAA A2e |
+a>^ga e=g/f/e/d/ | cAA A2A/B/ | cBA e^fg | BGG G2e |
+aeg fdB | ecA B^GE | ABc Be/d/c/B/ | c>AA A2 ||
+
+X:33
+T:Da Slockit Light
+R:air
+C:Tom Anderson (1910-1991), Shetland
+O:Shetland
+Z:id:hn-air-33
+M:C|
+L:1/8
+K:D
+FE | D3F A2d2 | fedc d3A | B2d2 A2d2 | BAGF EGFE |
+D3F A2d2 | fedc d3A | B2G2 AGFE | D6 :|
+g2 | f2a2 e3c | d3e dcBA | f2a2 e2^g2 | a6 =g2 |
+f2a2 e3c | d3e dcBA | B2G2 AGFE | D6 g2 |
+f2a2 e3c | d3e dcBA | B2d2 A2d2 | BAGF EGFE |
+D3F A2d2 | fedc d3A | B2G2 AGFE | D6 ||
+
+X:34
+T:Hawk of Ballyshannon, The
+T:Seabhac na h\'Eirne
+T:Hawk of Lough Erne, The
+T:Port Athol
+R:air
+C:Ruaidhr\'i Dall \'O Cath\'ain (c. 1570 - 1650 or 1653)
+H:O'Carolan took this melody and made a song called "Miss Moore",
+H:"O'Moore's Fair Daughter" or "Katherine O'Moore". Often played in Dm.
+Z:id:hn-air-34
+M:4/4
+L:1/8
+K:Em
+G>F | E3F G2A2 | B2e2 e2d2 | e>fg2 d2BA | B2de d2BA |
+G2E2 E2DB, | D4 B,2G>F | E3F G2A2 | B2AG A2GB |
+A4 A2A2 | A6 G/A/B | dBde d2Bd | e2f2 g3f |
+edB2 dBA2 | G2ED B4 | G2ED E2D/E/F | E6 :|
+|: GA | B2A2 G2E2 | G2E2 D2B,2 | D2D>B, D2D>B, | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g2e2 | d2BA B2AG | A4 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA B2d2 | e3f g3f |
+edB2 dBA2 | G2ED B4 | G2ED E2D/E/F | E6 :|
+P:variations
+|: GF | E3F G2A2 | B2e2 e2d2 | efg2 d2BA | Bde2 d2BA |
+G2E2 E2E2 | D>EDB, D2GF | E3F G2A2 | B4 A2G2 |
+AGAB A2A2 | A4 GABd | dBde d2Bd | e3f g4 |
+edB2 dBA2 | AGED B,2B2 | G2ED B,2E2 | E6 :|
+|: GA | B2A2 G2E2 | G2E2 D2B,2 | D2E/D/B, D2E/D/B, | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g2e2 | d2BA B2AG | A4 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA GBd2 | e3f g4 |
+edB2 dBA2 | AGED B,2B2 | G2ED B,2E2 | E6 :|
+P:more variations
+|: GF | E3F G2A2 | B2e2 e2d2 | efg2 d2BA | B2de d2BA |
+G2E2 E4 | DCB,C D2GF | E3F G2A2 | B4 B2AG |
+FGAB A2A2 | A6 B2 | dBde d2Bd | edef g3f |
+edBe dBAB | AGED B,2B2 | AGFE E2D/E/F | E6 :|
+|: GA | B3A G2E2 | G3E D2B,2 | D3E D2B,2 | D4 B,2D2 |
+G2B/A/G d2Bd | e2de g3e | d2BA B2AG | A2A2 A4 |
+B2d2 B2d2 | G2B2 G2B2 | d2BA B2d2 | edef g3f |
+edBe dBAB | AGED B,2B2 | AGFE E2D/E/F | E6 :|
+
+X:35
+T:Christmas Day Ida Mornin'
+R:air
+D:Kevin Henderson
+O:Shetland
+Z:id:hn-air-35
+M:6/8
+L:1/8
+Q:3/8=100
+K:D
+f2d f3 | e2d c2A | B2G d2c | B2G G2d |
+e2f g2f | e2d c2B | ABA ABc | d3 d2e |
+f2a a2f | e2d c2A | B2G d2c | B2G G2d |
+e2f g2f | e2d c2B | ABA ABc | d3 def ||
+|: e3 (4edef | g3 B2B | A2A A2A | B2c d2B |
+e3 (4edef | g3 B2B | A2e d2B |1 A3 A3 :|2 A3 Ade ||
+
+X:36
+T:Inisheer
+R:air
+C:Thomas Walsh
+Z:id:hn-air-36
+M:3/4
+L:1/8
+K:G
+DGA | B2BA Bd | B2BA Bd | E2EB AB | D3 BAG |
+B3 ABd | B3 ABd | G3B A/G/F | G3 :|
+ABd | e3 fed | B3 ABd | ef ed Bd | e3 dBd |
+e3 fed | B3 ABd | G3B A/G/F | G3 ABd |
+e2ef ed | B3 ABd | gf ed Bd | e3 dBd |
+e2ef ed | B2BA Bd | G3B A/G/F | G3 ||
+
+X:37
+T:An Londubh is an Ch\'eirseach
+T:Blackbird and the Thrush, The
+R:air
+Z:id:hn-air-37
+M:C|
+L:1/8
+K:G
+DF | G3A B2AG | F2G2 A2 (3Bcd | f3e dcAF |1 G3F D2 :|2 G3 (3A/G/F/ G2 ||
+d2 | d3e =f2dB | c3 (3d/c/B/ c2dc | B3d cBAB | G3F D2
+(3DEF | G3A B2AG | F2G2 A2Bc | d2f>e dcAF | G3 (3A/G/F/ G2 ||
+
+X:38
+T:Mountains of Pomeroy, The
+R:air
+Z:id:hn-air-38
+M:C
+L:1/8
+K:G
+B>c | d3B dcBA | G2 A>G E2 GE | D2 DE G2 AB | c6 Bc |
+d3B dcBA | G2 AG E2 GE | D3E G2 G>A | G6 GA ||
+B2 B/A/G/F/ G2 AB | c2 d>e d2 ge | d2 BA G2 AB | c6 A/B/c |
+d3e dcBA | G2 A>G E2 GE | D2 DE G2 GF | G6 || 
+
+X:39
+T:Miss Hamilton
+R:air
+C:Cornelius Lyons (1680-1750)
+H:Also played with doubled parts.
+Z:id:hn-air-39
+M:C
+L:1/8
+K:G
+B2 d2 cBAG | d>c B/c/d D2D2 | E2 DC B,DGD | CB,A,G, A,2 A,2 |
+BdcB AGAF | GBAG ED/E/ G2 | dBAG EF/G/ DC | B,2 A,2 G,2 G,2 ||
+dedc cBAG | dedc cBAG | Bdgd edcB | cBAG A2 A2 |
+B/c/d cB AGAF | G/F/G/A/ BG ED/E/ G2 | dBAG EF/G/ DC | B,2 A,>G, G,2 G,2 ||
+

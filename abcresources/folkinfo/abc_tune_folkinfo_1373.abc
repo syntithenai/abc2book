@@ -1,0 +1,19 @@
+%%scale 1
+%%barsperstaff 3
+X:1
+T:Midsummer Carol.
+B:Songs of the West by S. Baring-Glould.
+S:William Aggett of Chagford.
+M:4/4
+L:1/4
+K:G
+G|B B3/4 c1/4 B E3/4 F1/4|(G3/4A1/4) G3/4 F1/4 E E1/2 B1/2|
+w:'Twas ear-ly I walked on a mid-*sum-mer morn-ing, The
+d ((3B1/2c1/2) d1/2 e d3/4 d1/4|c (B3/2A1/4) B3/2 G1/2|B B3/4 c1/4 B E3/4 F1/4|
+w:fields and *the mea-dows were decked and *gay, The small birds were sing-ing, the
+(G3/4 A1/4) G3/4 F1/4 E E1/2 B1/2|d3/4 d1/4 ((3B1/2c1/2) d e d3/4 d1/4|^c B3/4 ^A1/4 B B3/4 B1/4|
+w:wood-*lands a-ring-ing, 'Twas ear-ly in the morn-ing, at the break-ing of day, I will
+d (3(B1/2c1/2) d1/2 e d1/2 c1/2|(d1/2B1/2) G1/2 A1/2 B E1/2 F1/2|G3/4 G1/4 A3/4 A1/4 B B3/4 A1/4|
+w:play on *my pipes, I will sing *thee my lay! It is ear-ly in the morn-ing. at
+B E3/4 ^D1/4 E z|]
+w:break-ing of day. 

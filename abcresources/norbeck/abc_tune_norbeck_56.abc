@@ -1,0 +1,66 @@
+This file contains 2 sandansko horo (#1 - #2).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Sandansko horo is a dance in 22/16 from Bulgaria.
+
+The uneven meter is 22/16 = 2+2+2+3+2+2+2+3+2+2/16
+(Count 1 2 3 4 & 1 2 3 4 & 1 2)
+
+Last updated 11 July 2019.
+
+(c) Copyright 2018-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+O:Bulgaria
+R:sandansko horo
+M:22/16
+L:1/16
+
+
+X:1
+T:Sandansko horo
+R:sandansko horo
+S:Sylvain Barou on Youtube
+H:See also #2
+O:Bulgaria
+O:Macedonia
+Z:id:hn-sandanskohoro-1
+M:22/16
+L:1/16
+Q:2/16=180
+K:Em
+E2B2A2 B2A GAAGBA A2G GFFE |1 EFG2GF A2G GFFEFD E2D EFGA :|
+[2 EFG2GF A2G GFFEFD E2B E2E2 ||
+|: EFG2GF A2G F2FEFG A2B AGFE | EFG2GF A2G F2FEFD E2B E2E2 :|
+|: e2b2a2 b2a gaagba a2g gffe |1 efg2gf a2g gffefd e2d efga :|
+[2 efg2gf a2g gffefd e2B e2e2 ||
+|: efg2gf a2g f2fefg a2b agfe | efg2gf a2g f2fefd e2B e2e2 :|
+|: GAAGBE A2G GFFEEF G2E GFFE | GAAGBE A2G GFFEFD E2B E2E2 :|
+|: EFFDE2 F2D EFGAF2 E3 BGFE | EFFDE2 F2D EFGAF2 E3 E2E2 :|
+
+X:2
+T:Sandansko horo
+R:sandansko horo
+H:See also #1
+D:Theodosii Spassov Quartet
+O:Bulgaria
+Z:id:hn-sandanskohoro-2
+M:22/16
+L:1/16
+Q:2/16=180
+K:Edor
+E2B2A2 B3 GAAGBA A2G GFFE |1 EFG2GF A2G GFFEFE E2D EFGA :|
+[2 EFG2GF A2G GFFEFE EEE E2E2 ||
+|: EFG2GF A2G GFFEGA A2B AGGF | EFG2GF A2G GFFEFE EEE E2E2 :|
+|: e2beae b2b a2agba a2g gffe |1 efg2gf a2g gffefe e2e efga :|
+[2 efg2gf a2g gffefe e2e e2e2 ||
+|: efg2gf a2g gffega a2b aggf | efg2gf a2g gffefe e2e e2e2 :| !fine!
+|: fga2ag g2f fgabc'b a2g fggf |1 fga2ag g2f fgabag gfg f2fd :|
+[2 fga2ag g2f fgabag gfg f2f2 ||
+

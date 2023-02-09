@@ -31,9 +31,9 @@ export default function MusicEditor(props) {
             <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {navigate("/tunes/"+tune.id)}} >{props.tunebook.icons.close}</Button>
             
             <span style={{marginLeft:'0.1em'}} >
-                <LocalSearchSelectorModal  value={tune ? tune.name : ''} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                <LocalSearchSelectorModal  value={tune ? tune.name : ''} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
                 
-                <TheSessionSearchSelectorModal value={tune ? tune.name : ''} currentTune={tune}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+               
             </span>
             
             <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal  abc={abc} tune={tune} tunebook={props.tunebook}  /></span>
@@ -44,7 +44,8 @@ export default function MusicEditor(props) {
             
            
         </div>
-        <AbcEditor pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}  />
+        <AbcEditor pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
         
     </div>
 }
+//  <TheSessionSearchSelectorModal value={tune ? tune.name : ''} currentTune={tune}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />

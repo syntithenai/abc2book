@@ -1,0 +1,25 @@
+%%scale 1
+X:1     %Music
+T:Carter's Health
+B:Broadwood, L, 1893, English County Songs, London, Leadenhall Press
+S:John Burberry, gamekeeper, Sep 1892
+Z:Lucy Broadwood
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 'Song' @
+%!INSTR 'Choir aahs' 4 5200 @
+M:C     %Meter
+L:1/8     %
+K:Bb
+G2 |B3 B A A A A |G G G2 A2                               
+w:Of all the hors-es in the mer-ry green-wood 
+G^F |G2 d2 e2 dc | d2 G2 G2 ::
+w:The_ bob-tailed mare bears the bells a-way
+A2 B2 |c2 AB  c2 A B |c2 A B c2     
+w:There is Hey, there is Ree, there is Hoo, there is Gee,        
+BA |G2 d2 e2 dc |d2 G2 G2 :|
+w:But the bob-tailed mare bears the bells a-way.
+z4 |G2 z2 A2 z2 | B2 z2 c2 
+w:Hey, Ree, Hoo Gee, 
+BA |G2 d2 e2 dc |d2 G2 G2 |]
+w:But the bob-tailed mare bears the bells a-way.

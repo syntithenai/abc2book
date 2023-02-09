@@ -1,0 +1,251 @@
+% A collection of Highland tunes taken from an early nineteenth
+% century collection by Alexander McKay of Islay (b.1775).  These
+% are all unfamiliar to me from anywhere else, though I haven't
+% made a systematic effort to trace them.  They're interesting in
+% part because of the simplicity of the settings, none of the arty
+% twiddles found in Simon Fraser's collection.  (They have bass
+% lines for the piano as well; mostly one-finger stuff, four notes
+% to the bar, no triads).  The collection contains other tunes,
+% mostly either dull or well-known from earlier sources.  I haven't
+% modernized the Gaelic spelling.
+
+% Jack Campin, September 2000 <http://www.campin.me.uk/>
+
+X:1
+T:Brigis Lachlainn
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:D Minor
+Dddc defc|ABcA GFEC|Dddc defa|gece d/d/d d2:|
+defg afdf|ecgc acgc|defg afdf|ecge d/d/d d2:|
+
+X:2
+T:Doideag Mhuileach
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:6/8
+L:1/8
+K:A Minor
+c|G2F E2D|C2D     E2 A|G2E CDE|G3 G2A|G2F E2D|CDE     c3  |AGE DEG|A3  A2 c   |
+  G2F E2D|C2D     E2 A|G2E CDE|c3 c2d|e2c d2B|c2A     G2 c|AGE DEG|A3 (A2{B})||
+  c2d efg|edc ({c}B2)G|AcA AGE|A3 G2A|c2d efg|edc ({c}B2)G|ABc EFG|A3  A2 B   |
+  c2d efg|edc ({c}B2)G|AcA AGE|c3 c2d|efg edc|BAG     ABc |AGE DEG|A3 (A2{B})|]
+
+X:3
+T:Na Logaisean
+N:a Very Old Reel
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:D Minor
+A|G/G/G c2 AFFA|BGGA cAFA| G/G/G c2 AFFA| BAGA  FDD:|
+e|fedf     cdcA|fede fgag|(fe)df    cdcA| BAGA  FDDe|
+  fedf     cdcA|fede fgag| fadf     cfAc|(BA)GA FDD|]
+
+X:4
+T:Reabart More, or Big Robert
+N:a Very Old Reel
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:A
+d|Aaed     cA {c}d2|cA A/A/A dBGB|Aaed     cA {c}d2|cABG AEE:|
+e|cA A/A/A BGGB    |cA A/A/A dBGB|cA A/A/A BGGe    |cABG AEE:|
+
+X:5
+T:The Guraguag
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:A Dorian
+B|dedB A/A/A e2|dcBA G2GB|d2Bg A/A/A e2|dBgB A2A:|
+f|gaba gfeg    |dGBA G2ef|gaba gfeg    |dBgB A2ef|
+  gabg afge    |dcBA G2Gg|afge fdeg    |dBgB A2A|]
+
+X:6
+T:Tha'n Doarach Sa Bhailie So
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:A Mixolydian
+B|e2ed cAAB|G2GB dBGB|d2dg fded|ceae cAA:|
+B|cAae cAAe|BGdG BGGB|d2dg fded|ceae cAA:|
+
+X:7
+T:Och A Bhodaich Na Ri Rium
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:E Minor
+e|.d.c.B.A G>AB>e|d>GB>G d>GB>e|.d.c.B.A GABG  |B>ee>d  e2e     :|
+g| d>eg>a  b>ga>b|gedB   gdde  | d>eg>a  b>ga>b|ea{b}ag e2(e/f/g)|
+   d>eg>a  b>ga>b|gedB   d>eg>a| bgab    egBG  |Beed    e3      |]
+
+X:8
+T:Colla Citheach
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:6/8
+L:1/8
+K:G
+BAG    BAA   |BAG        ged |BAG    BAA   |BAG    e2e   :|
+B2z/g/ B2z/a/|e2z/g/ ({g}f)ed|B2z/g/ B2z/a/|e2z/g/ e2z/d/ |
+B2z/g/ B2z/a/|e2g/z/ ({g}f)ed|B2g/z/ B2a/z/|e2g/z/ e2d/z/|]
+
+X:9
+T:Maol nan Crogan. a Reel.
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:D
+F|D/D/D (FE) D2 DB,|A,2(A,B,) E3 F|D/D/D (FE) D2DB,|A,2 (A,B,) D2D:|
+f|d/d/d (fe) d2(dA)|B2  Bd    e3 f|d/d/d (fe) d2dB |AFAB       d2de|
+  d/d/d (fe) d2 dA |B2  Bd    e2eg|afge       fdec |dBAF       D2D|]
+
+X:10
+T:A North Highland Reel
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:G
+b|g2     dg  egfa|gedB       gddb|g/g/g (dg) egfa|gedB G2G:|
+B|G/G/G (BG) AEEA|G/G/G (BG) AGBG|cABG       AEEa|gedB G2G:|
+
+X:11
+T:Cailleach am Fhraoich
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:6/8
+L:1/8
+K:G
+g|eAA edB|eAA A2g|eAA edB|dBG G2g|eAA edB|cBA a2e|gag g2e|dBG G2:|
+g|aAA edB|AAA A2g|aAA edB|gGG G2g|agf edB|cBA a2e|gab efg|dBG G2:|
+
+X:12
+T:Cuiribh Sreang Air Na Bodaich
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:A Dorian
+e|BGd2 eBd2|BGd2 eged|BGd2 ged2|BGdB ({B}A2)A:|
+e|dBg2 aeg2|dBg2 fgae|dBg2 aeg2|dGdB     A2 Ae|
+  dBg2 aeg2|dBg2 fgae|degb ageg|dGdB {(B}A2)A|]
+
+X:13
+T:Ho Mo Chaileagan. a Jig.
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:6/8
+L:1/8
+K:G
+g2d BdB|d2A Bde|g2d BdB|d2B ABe|g2d BdB|d2A Bde|f2d e2B|   d2B ABe:|
+f2d e2B|d2A Bde|f2d e2B|d2B ABe|f2d e2B|d2A Bde|fga efg|{e}d2B ABe:|
+
+X:14
+T:Ha Toll Air A Bhata
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:G
+g|d2dB d2de|dedB gage|   deBg dGdB|A/A/A AB e2e:|\
+f|g2dB d2de|
+            gagf e2de|[1 g2de dGdB|A/A/A AB e2e:|\
+                      [2 gbeg deBg|A/A/A AB e2e|]
+
+X:15
+T:Bata Bharra
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:9/8
+L:1/8
+K:A
+e|:cBA AEA AEA|cBA AEA fga|cBA AEA Adc|dBG GAB d2e:|
+   cde eca ecA|cde ece fga|cde eca ece|dBG GAB d2e |
+   cde eca ecA|cde ece efg|agf ged cec|dBG GAB d2e|]
+
+X:16
+T:Ma Hurraman. a Reel.
+S:Alexander Mackay, A collection of Reels...
+B:NLS Glen.344
+N:Mc16 in Gore's Scottish Fiddle Music Index
+N:Gore guesses 1802, a note (by Murdoch Henderson?)
+N:on the titlepage says there's an 1832 watermark.
+Z:Jack Campin, <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:G
+G2Gg BGGg|dBBg   d2    (dB)|G2Gg dBBg|eAAB c2(BA):|
+G2Gg ecdB|G2(GB) d/d/d (dB)|G2Gg ecdB|eAAB c2(BA):|
+gdBg dgBa|gdBd   gbaf      |gdBg dgBg|eAAB c2 Ac :|
+BGBd ecdc|BGBc   dedc      |BGBd ecdB|eAAB c2 Ac :|

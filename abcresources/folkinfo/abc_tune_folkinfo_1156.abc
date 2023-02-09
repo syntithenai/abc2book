@@ -1,0 +1,18 @@
+%%scale 1
+X:1     %Music
+T:The Bonnie Lass o' Fyvie
+B:Milner D,Kaplan P, 1983,Songs of England,Ireland and Scotland,Oak,New York
+F:http://www.folkinfo.org/songs
+S:Greig, Folk Songs of the North-East
+Q:1/4=160 
+M:4/4     %Meter
+L:1/8     %
+K:G
+D2 |G4 (G2A2) |G4 D4 |({D}G2F2) G2 A2 | G4 z2 
+w:There was a_ troop o' I--rish dra-goons
+D2 |G4 (B2c2) |{c}d4 (c2B2) |A4 D4 | D4 z2 
+w:Cam' march-ing_ doon through_ Fy-vie O;
+d2 |B2 A2 B2 c2 |{c}d4 D2 D2 |G2 A2 G2 E2 |C4 z2 
+w:The Cap-tain's faun in love wi' a bon-nie, bon-nie lass,
+E2 |D4 G2 G2 |({G}A2G2) F2 E2 |D4 {E}G4 | G4 |]
+w:lHer name it is called_ Pret-ty Peg-gy O. 

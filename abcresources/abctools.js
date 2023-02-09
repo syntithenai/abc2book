@@ -668,7 +668,7 @@ var useAbcTools = () => {
     function stripText(text) {
       var result = ''
       if (text && text.trim) {
-          result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
+          result = text.trim().replace(/[^a-zA-Z ]/g, ' ').toLowerCase().trim()
       }
       return result
     }
@@ -1311,6 +1311,6 @@ var useAbcTools = () => {
     }
     
 
-    return {abc2json, json2abc, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType,  getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, isChord, getTuneImportHash, getTimeSignatureTypes}
+    return {abc2json, json2abc, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType,  getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, isChord, getTuneImportHash, getTimeSignatureTypes, stripText}
 }
 module.exports = useAbcTools;

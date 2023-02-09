@@ -1,3 +1,7 @@
+//# https://abcnotation.com/tunes
+
+
+
 const fs = require('fs')
 const path = require('path')
 const useAbcTools = require('./abctools')
@@ -45,7 +49,7 @@ function getNotesFromAbc(abc) {
         }    
     })
     var notes = noteLines
-    console.log('GET ABC',noteLines)
+    //console.log('GET ABC',noteLines)
     //try {
         //notes = abcjs.extractMeasures("X:9\nK:G\n"+noteLines.join("\n"))
         //console.log('GET ABC notes',m)
@@ -69,6 +73,7 @@ function stripText(text) {
 }
 var settings={}
 function pushSetting(title,id) {
+    //console.log("push settings",title,id)
     if (!Array.isArray(settings[title])) settings[title] = []
     settings[title].push(id)
 }
@@ -90,14 +95,7 @@ var limit = 50000000
 var seenNotesHash = {}
 
 
-var folderKey = 'folktunefinder'
-var folderIndex = 0
-var dir = __dirname+'/'+folderKey+'/'
-var fileNames = fs.readdirSync(dir)
-for (var filenameKey in fileNames)  {
-    var filename = fileNames[filenameKey]
-    //console.log('filename', filename)
-    if (filename.startsWith('abc_tune_')) {
+function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
         var parts = filename.split(".")
         var parts2 = parts[0].split('_')
         var id = parts2[parts2.length - 1]
@@ -106,16 +104,32 @@ for (var filenameKey in fileNames)  {
           var tunebook = tools.abc2Tunebook(data)
           //console.log(tunebook)
           tunebook.forEach(function(tune,tuneKey) {
-            var title = tune.name //innerParts[0].trim()
+            var title = tools.stripText(tune.name) //innerParts[0].trim()
             if (title && title.toLowerCase().trim().endsWith(", the")) {
                 title = "The "+title.slice(0,-5)
                 //console.log('HACK TITLE',title)
             }
+            if (title && title.toLowerCase().trim().endsWith(" the")) {
+                title = "The "+title.slice(0,-4)
+                //console.log('HACK TITLE',title)
+            }
+            var titleParts = title.split(' ').filter(function(item) {
+               return   (item.trim().length > 1) ? true : false
+            }).map(function(item) {
+                if (item.length > 1) {
+                    return item.slice(0,1).toUpperCase() + item.slice(1)  
+                } else {
+                    return item
+                }
+            })
+            title = titleParts.join(' ')
+            
+            //console.log('TITLE',title)
             var notes = JSON.stringify(tune.voices)
             // skip if notes have been seen before
             var hash = cyrb53(notes)
             //console.log(title,notes)
-            if (!seenNotesHash[hash] && title && title.length > 0 && id && id.length > 0) {
+            if ((forceDups || !seenNotesHash[hash]) && title && title.length > 0 && id && id.length > 0) {
                 seenNotesHash[hash] = true
                 var tk = folderIndex+'-'+id + "-" + tuneKey
                 index.lookups[tk] = title
@@ -154,6 +168,34 @@ for (var filenameKey in fileNames)  {
         } catch (err) {
           console.error(err)
         }
+        //console.log("SSS",settings)
+}
+
+var folderKey = 'folktunefinder'
+var folderIndex = 0
+var dir = __dirname+'/'+folderKey+'/'
+var fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.startsWith('abc_tune_')) {
+        processFile(filename,dir,folderIndex,folderKey)
+    }
+    count++
+    if (count > limit) break;
+
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
+
+folderKey = 'thesession'
+folderIndex = 1
+dir = __dirname+'/'+folderKey+'/'
+fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.startsWith('abc_tune_')) {
+       processFile(filename,dir,folderIndex,folderKey)
     }
     count++
     if (count > limit) break;
@@ -162,84 +204,69 @@ for (var filenameKey in fileNames)  {
 };
 
 
+folderKey = 'jimsroots'
+folderIndex = 2
+dir = __dirname+'/'+folderKey+'/'
+fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.endsWith('.abc')) {
+       processFile(filename,dir,folderIndex,folderKey)
+    }
+    count++
+    if (count > limit) break;
 
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
 
-//folderKey = 'thesession'
-//folderIndex = 1
-//dir = __dirname+'/'+folderKey+'/'
-//fileNames = fs.readdirSync(dir)
-//for (var filenameKey in fileNames)  {
-    //var filename = fileNames[filenameKey]
-    ////console.log('filename', filename)
-    //if (filename.startsWith('abc_tune_')) {
-        //var parts = filename.split(".")
-        //var parts2 = parts[0].split('_')
-        //var id = parts2[parts2.length - 1]
-        //try {
-          //const data = fs.readFileSync(dir + filename, 'utf8')
-          //var tunebook = tools.abc2Tunebook(data)
-          ////console.log(tunebook)
-          //tunebook.forEach(function(tune,tuneKey) {
-            //var title = tune.name //innerParts[0].trim()
-            //if (title && title.toLowerCase().trim().endsWith(", the")) {
-                //title = "The "+title.slice(0,-5)
-                ////console.log('HACK TITLE',title)
-            //}
-            //var notes = JSON.stringify(tune.voices)
-            //// skip if notes have been seen before
-            //var hash = cyrb53(notes)
-            ////console.log(title,notes)
-            //if (!seenNotesHash[hash] && title && title.length > 0 && id && id.length > 0) {
-                //seenNotesHash[hash] = true
-                //var tk = folderIndex+'-'+id + "-" + tuneKey
-                //index.lookups[tk] = title
-                //var titleParts = stripText(title).split(' ')
-                //titleParts.forEach(function(tokenDirty) {
-                    //var token  = tokenDirty.trim()
-                    //if (token.length > 1) {
-                        ////console.log(tokenDirty,"R", token)
-                        //var existing = index.tokens[token]
-                        //if (!Array.isArray(existing)) {
-                            //existing = []
-                        //}
-                        //existing.push(tk)
-                        //if (token.endsWith('s')) {
-                            //var key = token.slice(0,-1)
-                            //var existingS = Array.isArray(index.tokens[key]) ? index.tokens[key] : []
-                            //existingS.push(tk)
-                            //index.tokens[key] = existingS
-                        //}
-                        //if (token.endsWith('ing')) {
-                            //var key = token.slice(0,-3)
-                            //var existingS = Array.isArray(index.tokens[key]) ? index.tokens[key] : []
-                            //existingS.push(tk)
-                            //index.tokens[key] = existingS
-                        //}
-                        //if (token.endsWith('ed')) {
-                            //var key = token.slice(0,-2)
-                            //var existingS = Array.isArray(index.tokens[key]) ? index.tokens[key] : []
-                            //existingS.push(tk)
-                            //index.tokens[key] = existingS
-                        //}
+folderKey = 'misc'
+folderIndex = 3
+dir = __dirname+'/'+folderKey+'/'
+fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.endsWith('.abc')) {
+       processFile(filename,dir,folderIndex,folderKey, true)
+    }
+    count++
+    if (count > limit) break;
 
-                        //index.tokens[token] = existing
-                    //}
-                //})
-                //pushSetting(stripText(title), tk)
-            //}
-          //})
-        //} catch (err) {
-          //console.error(err)
-        //}
-    //}
-    //count++
-    //if (count > limit) break;
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
 
-////if (isFile) files.push({ filepath, name, ext, stat });
-//};
+folderKey = 'norbeck'
+folderIndex = 4
+dir = __dirname+'/'+folderKey+'/'
+fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.endsWith('.abc')) {
+       processFile(filename,dir,folderIndex,folderKey, true)
+    }
+    count++
+    if (count > limit) break;
 
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
 
+folderKey = 'folkinfo'
+folderIndex = 5
+dir = __dirname+'/'+folderKey+'/'
+fileNames = fs.readdirSync(dir)
+for (var filenameKey in fileNames)  {
+    var filename = fileNames[filenameKey]
+    //console.log('filename', filename)
+    if (filename.endsWith('.abc')) {
+       processFile(filename,dir,folderIndex,folderKey, true)
+    }
+    count++
+    if (count > limit) break;
 
+//if (isFile) files.push({ filepath, name, ext, stat });
+};
 
 
 index.settings = settings

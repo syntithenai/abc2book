@@ -75,7 +75,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           })
           if (groupBy) {
               useTunes.sort(function(a,b) { 
-                return (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) ? -1 : 1
+                  if (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase && b[groupBy].toLowerCase && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) {
+                    return -1
+                  } else if (a[groupBy] && b[groupBy] && a[groupBy].join && b[groupBy].join && a[groupBy].join(",").toLowerCase().trim() < b[groupBy].join(",").toLowerCase().trim()) {
+                      return -1
+                  } else {
+                    return 1
+                  }
               })
           }
           // find tune index allowing tunebook filter
@@ -133,8 +139,13 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           })
           if (groupBy) {
               useTunes.sort(function(a,b) { 
-                  if (!a[groupBy] ) return 1
-                return (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) ? -1 : 1
+                  if (a[groupBy] && b[groupBy] && a[groupBy].toLowerCase && b[groupBy].toLowerCase && a[groupBy].toLowerCase().trim() < b[groupBy].toLowerCase().trim()) {
+                    return -1
+                  } else if (a[groupBy] && b[groupBy] && a[groupBy].join && b[groupBy].join && a[groupBy].join(",").toLowerCase().trim() < b[groupBy].join(",").toLowerCase().trim()) {
+                      return -1
+                  } else {
+                    return 1
+                  }
               })
           }
           // find tune index allowing tunebook filter

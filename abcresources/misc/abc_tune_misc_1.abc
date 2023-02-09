@@ -1,0 +1,137 @@
+% Some American tunes from a Scottish source.  This is a single sheet
+% dating from around 1805.  I've given the complete score, including
+% the bass line.  Multi-voice ABC is not yet standardized; I've only
+% tested these with Barfly, but they should work in Muse or one of the
+% recent versions of abc2ps without much modification.  Some programs
+% may have trouble with different default note lengths in different
+% voices.  That's a bug, and I'm not going to adapt this file to suit.
+
+% If anybody knows some words for these, please let me know.
+
+% Please don't redistribute this without including the complete file
+% here (e.g. it's ok to make a version without the bass for your own
+% use but add this as well if you pass it on).  If the ABC standard
+% changes to make the multi-voice stuff work differently, I'll upload
+% a new version of this.
+
+X:1
+T:Oh dear, I wish I had not come here
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:G
+[V:1] [L:1/16] B3c   A2A2|GABG A2B2 |d3g  e2c2 |BGAF  G4   :|
+[V:2] [L:1/8]  G,D   F,D |E,^C D,D  |B,G, CG,  |DD,   G,G,,:|
+%
+[V:1] [L:1/16] defd  g2g2|fgaf ged^c|defd g2=c2|BGAF  G4    |
+[V:2] [L:1/8]  G,,G, B,G,|DD,  G,A, |F,D, G,C, |D,D,, G,,2  |
+%
+[V:1] [L:1/16] defd  g2g2|fgaf ged^c|defd g2=c2|BGAF  G4   |]
+[V:2] [L:1/8]  G,,G, B,G,|DD,  G,A, |F,D, G,C, |D,D,, G,,2 |]
+
+X:2
+T:The Whim
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+N:the upbeats don't add up but I've left them as in the original
+V:1
+V:2 bass
+M:2/4
+K:D
+[V:1] [L:1/16] f2| a2fd     a2fd|g2ec g2ec  | defg     abag|fdec  d4   :|
+[V:2] [L:1/8]  z | D,D      D,D |A,,A, A,,A,| F,D,     F,G,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] c2| dBAF     E3G |FDFD  FDFD | dBAF     E3g |fdec  d4   :|
+[V:2] [L:1/8]  z |[D,2D,,2] A,,2|D,,D, D,,D,|[D,2D,,2] A,,2|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] g2| fddf     gfed|cAAA  A3g  | fddf     gfga|bgec  d4   :|
+[V:2] [L:1/8]  z | D,A,     D,A,|E,A,  A,,A,| D,A,     G,E,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] c2| dBAF     E3G |FDFD  FDFD | dBAF     E3g |fdec  d4   :|
+[V:2] [L:1/8]  z |[D,2D,,2] A,,2|D,,D, D,,D,|[D,2D,,2] A,,2|A,A,, D,D,,:|
+
+X:3
+T:Mammy's gone away, and Daddy's dead for ever
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:D
+[V:1] [L:1/16] abaf  d2d2 |dcde  fBB2 |abaf  d2d2|dBAG  FDD2 :|
+[V:2] [L:1/8]  D,,D, D,,D,|F,D,  G,G, |F,D,  F,G,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] A2FA  A2FA |A2FA  BEE2 |A2FA  defe|dBAG  FDD2  |
+[V:2] [L:1/8]  D,,D, D,,D,|D,,D, A,,A,|D,,D, F,G,|A,A,, D,D,, |
+%
+[V:1] [L:1/16] A2FA  A2FA |A2FA  BEEB |A2FA  defe|dBAG  FDD2 |]
+[V:2] [L:1/8]  D,,D, D,,D,|D,,D, A,,A,|D,,D, F,G,|A,A,, D,D,,|]
+
+X:4
+T:Row the boat ashore
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:A
+[V:1] [L:1/16] d2|cBcA  F2EG |B2BB B2ed |cBcA  F2EG|A2AA A2 :|
+[V:2] [L:1/8]  z |A,,A, D,C, |E,E,,E,z  |A,,A, D,E,|A,,A,A,,:|
+%
+[V:1] [L:1/16] d2|cBce  fgaf |ecBA  AGFE|Acea fdBG |A2AA A3d |
+[V:2] [L:1/8]  z |A,,A, A,,A,|A,,A, E,D,|C,A,, D,E,|A,,A,A,,z|
+%
+[V:1] [L:1/16]    cBce  fgaf |ecBA  AGFE|Acea fdBG |A2AA A2 |]
+[V:2] [L:1/8]     A,,A, A,,A,|A,,A, E,D,|C,A,, D,E,|A,,A,A,,|]
+
+X:5
+T:Rickets Dance
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:G
+[V:1] [L:1/16] G2GA  B2G2|A2AB  c2A2|G2GA   B2G2 |AGFE   D4    |
+[V:2] [L:1/8]  G,,2  G,2 |F,2   D,2 |G,2    G,,2 |D,2    C,2   |
+%
+[V:1] [L:1/16] G2GA  B2G2|A2AB  c2A2|BdBG   AcAF |G4     G4   :|
+[V:2] [L:1/8]  B,,2  G,,2|F,,2  D,,2|G,,B,, D,D,,|G,,D,, G,,,2:|
+%
+[V:1] [L:1/16] B2Bc  d2B2|dBdB  d2B2|A2AB   c2A2 |cAcA   c2A2  |
+[V:2] [L:1/8]  G,,G, G,G,|G,,G, G,,2|D,,D,  D,D, |D,,D,  D,,2  |
+%
+[V:1] [L:1/16] B2Bc  d2B2|dBdB  d2B2|cBAG   FGAF |G2G2   G4   :|
+[V:2] [L:1/8]  G,,G, G,G,|G,,G, G,,2|C,G,,  D,D,,|G,,D,, G,,,2:|
+%
+[V:1] [L:1/16] {DEF}[E2G2][E2G2] [F2D2][F2D2]|[E2C2][E2C2] [D4B,4] |\
+                     E2c2         A2F2       | GFGA         G2(3DEF|
+[V:2] [L:1/8]        G,,G,        G,,G,      | G,,G,        G,,G,  |\
+                     C,2          D,D,,      | G,,G,        G,,2   |
+%
+[V:1] [L:1/16]      [E2G2][E2G2] [F2D2][F2D2]|[E2C2][E2C2] [D4B,4] |\
+                     E2c2         A2F2       | G4           G4    :|
+[V:2] [L:1/8]        G,,G,        G,,G,      | G,,G,        G,,2   |\
+                     B,,2         D,D,,      | G,,D,,       G,,,2 :|
+
+
+% ---------------------------------------------------------------------------
+% Jack Campin                       *                http://www.campin.me.uk/
+% ---------------------------------------------------------------------------

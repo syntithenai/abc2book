@@ -1,0 +1,684 @@
+%abc
+%%abc-alias Paul Hardy's Possible Tunebook
+%%abc-creator ABCexplorer 1.6.1 [18/06/2022]
+%%vskip 2cm
+%%textfont * 36
+%%center Paul Hardy's Possible Tunebook
+%%vskip 2cm
+%%textfont * 24
+%%center Introduction
+%%vskip 1cm
+%%textfont * 14
+%%begintext justify
+%%This tunebook contains tunes that I have encountered but maybe not yet learned to play properly on my English concertina,
+%%but may eventually be incorporated into Paul Hardy's Session Tunebook.
+%%endtext
+%%text
+%%begintext justify
+%%Most are traditional tunes from the British Isles, many of Celtic origin, including many Irish,
+%%Scottish and English dance tunes, but others are from an eclectic mix of sources.
+%%Some have been adapted from Internet resources, in abc, midi or visual score formats.
+%%Others have been learned by ear or handouts from various sessions in the UK and US.
+%%All are believed free of current copyright (unless noted explicitly), or else appear to have been
+%%placed in the public domain as part of the ongoing live folk music tradition. Please let me know
+%%if you are the owner of any that are under access restrictions and I'll remove them.
+%%endtext
+%%text
+%%begintext justify
+%%I have tried to present simple versions of most tunes, without much decoration and interpretation,
+%%so add your own triplets, grace notes and variations. I have included guitar chords,
+%%often adapted from computer-suggested ones - use these as guidance, not definitive!
+%%Tunes in 4/4 time that have the rhythm indication "Hornpipe" should usually be 'swung' - lengthen
+%%the first and shorten the second in every pair of quavers - as in "Thursday". Elsewhere these
+%%are sometimes written as 'dotted quaver, semiquaver', but that ratio of 3:1 seems too high - perhaps
+%%try for around 2:1.
+%%endtext
+%%text
+%%begintext justify
+%%This tunebook has been prepared using the abcm2ps software, with help from abc2midi, abcmus, Melody Assistant,
+%%ABCexplorer, and EasyABC. A big thank you goes to those creative and dedicated people who give their time to
+%%create and maintain low-cost or free and open source software for abc music editing and output.
+%%endtext
+%%text
+%%begintext justify
+%%The current version of this and the full session tunebook, in ABC and in PDF forms, is downloadable from
+%%Paul's web site at www.paulhardy.net.
+%%endtext
+%%text
+%%center Copyright Paul Hardy (paul@paulhardy.net) 2004-2022.
+%%center This work is licenced under a Creative Commons "Attribution Non-Commercial Share Alike" cc by-nc-sa licence.
+%%center See http://creativecommons.org/licenses/by-nc-sa/3.0/ - Contact Paul Hardy for commercial licensing terms.
+%%vskip 1cm
+%%center Original version of July 2004, this version of 18 June 2022.
+%%vskip 2cm
+%%multicol start
+%%leftmargin 7cm
+%%EPS ..\concertina_bw256.eps
+%%multicol end
+%%newpage
+% --------------------------------- The Start ---------------------------------------
+
+X:1501
+T:Aberdaugleddau
+R:Jig
+C:Trad.
+O:Wales
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:C
+"C"CDE E2D|C3 G,3|"G"EFG G2F|"C"E3 C3|c2B c2G|"F"A2B "C"c2E|"Dm"F2E D2C|"G7"D3 G,3|
+"C"cde e2d|c3 G3|"G"efg g2f|"C"e3 c3|c'2b c'2g|"F"a2b c'2f|"C"e3 "G7"d3|"C"c3-c3||
+"C"C2E G2E|"G7"DB,G, G,A,B,|"C"C2EG2E|"G7"D3G,3|"C"C2E G2E|"F"A2F E2D|"C"EFG "G7"G,A,B,|"C"C3 C3|
+"C"cde g2e|"G7"dBG GAB|"C"c2e g2e|"G7"d3 G3|"C"c2e g2e|"F"a2f e2d|"C"efg "G7"GAB|"C"c3 c3|]
+
+X:1503
+T:Aberdaugleddau 2
+R:Jig
+C:Trad.
+O:Wales
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+"G"GAB "Bm"B2 A | "G"G3 D3 | Bcd "D7"d2 c | "G"B3 G3 | g2 f g2 d | "C"e2 f "G"g2 B | "Am"c2 B A2 G | "D7"A3 D3 |
+"G"GAB "Bm"B2 A | "G"G3 D3 | Bcd "D7"d2 c | "G"B3 G3 | g2 f g2 d | "C"e2 f g2  c | "G"B3 "D7"A3 | "G"G6 ||
+"G"G2 B d2 B | "D7"AFD DEF | "G"G2 B d2 B | "D7"A3 D3 | "G"G2 B d2 B | "C"e2 c B2 A | "G"Bcd "D7"DEF |"G"G3 G3 |
+"G"GAB d2 B | "D7"AFD DEF | "G"G2 B d2 B | "D7"A3 D3 | "G"G2 B d2 B | "C"e2 c B2 A | "G"Bcd "D7"def | "G"g3 g3 |]
+
+X:1536
+T:Air 36
+R:Air
+C:Gruijtters 1746
+O:Flanders
+Z:Paul Hardy's Parts Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/4
+Q:1/4=140
+K:Am
+A | "Am"A e c d | e2 e A | "G"B d "Am"c B | A3 A | "F"f f f e | "Dm"d2 "G"d g | "Am"c c c "G"B | "C"c3 :|
+|:c| "Am"e f "G"g G |"Am"c2 c c | "F"f e "Dm"d c | "E"B3 c | "Am"A B c A | "Dm"d2 d e | "Am"c d "E"e ^G | "Am"A3 :|
+|: e|"Am"e a "E"a ^g | "F"a g/f/ "Am"e e | e a a "G"g | "B"^f2 "Am"e :|
+|: g|"F"f e "Dm"d f | "Am"e d/e/ c e | "Dm"d c "Am"B c |"G"d/c/B/c/ "Am"A2 |
+"Am"A/B/c/d/ "Em"e e | "Am"e a "E"^g2 | "Am"A/B/c/d/ e d/c/ | "E"B2 "Am"A :| A2 ||
+
+X:1502
+T:Allexander
+R:Jig
+C:Trad. via W Clarke 1858
+O:England, Suffolk, Feltwell
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+d|"G"BcB d2d|"C"cBA"G"B2G|GFG"D"A2G|"G"BcB"D"A2A|
+"G"BcBd2d|"Am"cBA"G"B2G|GFG"D"A2G|FEF"G"G2:|
+|:A|"D"ABA AFd|Afd Aaf|"A7"ge^c "D"dfa|"A7"agf e2A|
+"D"ABA AFd|Afd Aaf|"A7"ge^c "D"dfa|"A7"ge^c "D"d2:|
+|:B|"C"cdc "D"aga|"G"BcB gfg|"C"cdc "D"aga|"G"Bgf gdB|
+"C"cdc "D"aga|"G"BcB gfg|"C"cdc "D"aga|"D7"dgf "G"g2:|
+
+X:3002
+T:Cabri Waltz
+R:Waltz
+C:Trad.
+O:?
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+zB,A,B,|"G"G,2B,3D|"G7"D3D (3B,A,G,|"C"C2E3G|"C#dim"E3G FE|"D"D>E F>G A>B|"D7"(3c>dc B2A2|"C" G3 A G>E|"D"D4 (3B,A,B,|
+"G"G,2B,3D|"G7"D4 (3DB,G,|"C"C2E3G|"A"E3G FE|"D"D>E F>G A>B|"D7"c2B2A2|"G"G2 G>A "C"G>F|"G"G3A Bd||
+g4 (3gag|"D"f4 Ac|"C"e2 e>g ed|"G"B4 (3Bc^c|"D7"d3e d=c|A3D FA|"G"G3A "C"A>G|"G" G4||
+
+X:3603
+T:Cup Of Tea, The
+R:Reel
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=140
+K:Edor
+|:"Em"BAGF GEEF|GEBE GEE/E/E|BAGF GEEF|"D"FDAG FDD/D/D|
+"Em"BAGF GEEF|GEBE GEEA|BAGF GABc| "A7"dBAG "D"FDD2 :|
+|: "D"d2e/f/g fdec|"Bm"d2eg fBB/B/B|"D"d2eg fdec|"A7"dBAG "D"FDD2|
+"D"d2e/f/g fdec|dfaf "G"g2fg|"D"afge "G"fdec|"A7"dBAG "D"FDD2 :|
+|: "D"FAdA FABA|FAdA "A"FEE/E/E|"D"FAdA "G"BABc|"A7"dBAG "D"FDD2|
+"D"FAdA FABA|FAdf "A"fee/e/e|"D"fdec "G"dBAF|"A7"dBAG "D" FDD2:|
+
+X:3602
+T:Carolan's Air (Am)
+T:Carolan's Welcome(Am)
+R:Waltz
+C:Turlough O'Carolan (1670-1738)
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/4
+L:1/8
+Q:1/4=80
+K:Am
+c3/2B/|"Am"A2 c3/2d/ e2|A2 c3/2d/ e2|"G"d3/2e/ dc BA|"Em"(3GAB G2 E2|"Am"c3 B A2|"G"d3 c B2|"Am"ce "Em"E2 G2|"Am"A4 c3/2B/||
+"Am"A2 c3/2d/ e2|A2 c3/2d/ e2|"G"d3/2e/ dc BA|"Em"(3GAB G2 E2|"C"g3 f e2|"F"a3 "G"g ed|"Am"ce"Em"dc Bc|"Am"A4 A2||
+"Am"e2 a3/2b/ c'2|e2 a3/2b/ c'2|"F"c'bag "G"ab|"C"c'2 e2 e2|"Dm"f2 af ed|"C"e2 ge dc|"Dm"d2 "Am"e2 "Em"g2|"Am"a6||
+"F"ageg a2|"C"gede g2|edcd ec|"G"d2 B2 G2|"Am"c3 B A2|"G"d3 c B2|"Am"ce "Em"E2 G2|"Am"A4|]
+
+X:3604
+T:Catching of Fleas, The
+R:Triple Hornpipe
+C:Trad. in Playford 1670.
+O:England
+M:6/4
+L:1/4
+Q:3/4=70
+K:D
+%%MIDI beatstring fmpfmp
+%%MIDI gchord cfccfc
+A| "D"F>ED A2 d| "A"c>BA e>dc | "D"dAF "A"ecA| "F#m"fe>c "D"d2:|
+|:f | "A"e>fd "F#m"c>dB| "F#"^AFB AFd| "G"BGc/2d/2 "A"ecd/2e/2 | "Bm"fe>d "D"d2 f|
+"A"e>fd c/2d/2eF| "Bm"B/2c/2dB "F#m"A/2B/2 cF| "Em"e/2f/2ge "Bm"f>ed/2c/2| "D"d c2 "Bm"B2:|
+
+X:4501
+T:Diamond Waltz
+R:Waltz
+C:Trad. via Rob Fawcett
+O:???
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/4
+L:1/8
+Q:3/4=60
+K:D
+AG|"D"F2 d3 F|"G"G3 B AG|"D"FA de fg|"D"a2 f3d|"Bm"B3 c d2|"D"A2 d2 F2|"Em"G2 E3 F|"Em"G3 E|
+AG|"D"F2 d3 F|"G"G3 B AG|"D"FA de fg|"D"a2 f3d|"Bm"B3 c d2|"D"A2 d2 (3EFG|"D"F2 D3 D|[1 "D"D4:|[2 D2 "D"D2||
+|:FG|"D"A2 a3 a|"D"a4 ga|"Em"b2 e3 e|"A"e4 ag|"D"fg ab af|"Em"gf e3 d|"F#m"c2 A3 B|"D"A3 G|
+[1 "D"FG|"D"A2 a3 a|"D"a3 b/a/ ga|"Em"b2 e3 e|"A"e4 fe|"D"d3 c A2|"G"G2 F2 G2|"D"A2 d3 d|"D"d3 G:|
+[2 FG|"D"AD FA de|"D"fg ab af|"Em"bg e2 e2|"A"e4 fe|"D"d3 c A2|"G"G2 F2 G2|"D"A2 d3 d|d4|]
+
+X:4000
+T:Dorrington Lads
+T:Willy Allan's Favourite
+R:Slipjig
+C:Trad.
+O:England, Northumberland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:9/8
+L:1/8
+Q:3/8=70
+K:G
+e|"G"dGB dB/c/d/B/ gdB|"G"dGB dB/c/d/B/ cAe|"G"dGB dB/c/d/B/ gdB|"Am"c2A AB/c/d/B/ cA:|
+|:e|"G"d2g feg fdg|"Bm"feg fdf ec/d/e/c/|"Bm"d2g feg fdf|"Am"c2A Ac/d/e/c/ cAe|
+"Bm"dBg fdg f/e/d/f/g/e/|"Bm"dBg fdf ec/d/e/c/|"Bm"dBg fdg f/e/d/f/g/e/|"Am"c/B/A/B/c/B/ Ac/d/e/d/ cA:|
+
+X:6901
+T:Easter Hymn
+T:Jesus Christ Is Risen Today
+R:March
+C:Trad. Lyra Davidica 1708
+O:England after Bohemia
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/4
+Q:1/4=110
+K:C
+"C"C E G C|"F"F A A G|"C"E/F/G/C/ "D"F "C"E/F/|"G"E D "C"C2|"F"F G A "C"G|"D"F "G"E "C"E D|"C"E/F/G/C/ "D"F "C"E/F/|"G"E D "C"C2|
+"G"B c d G|"C"c d e2|"G"B/c/d/G/ "C"c B/c/|"G"B A G2|G/A/ B/G/ "C"c E|"F"F A A G|"C"c/B/c/G/ "F"A/B/ c/d/|"G"c B "C"c2|]
+W:Jesus Christ is risen today, Alleluia; Our triumphant holy day, Alleluia.
+W:Who did once upon the cross, Alleluia; Suffer to redeem our loss, Alleluia!
+
+X:6001
+T:Farewell to Ireland
+R:Reel
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:2/2
+L:1/8
+Q:1/2=60
+K:G
+"Am"A,3C E3F|"G"GEDB, "Em"G,A,B,G,|"Am"A,3C E3F|"G"GED=F "Am"EA,A,G,|
+A,3C E3F|"G"GEDB, "Em"G,zgf|"Em"edeg "D"a3f|"G"gedB "Em"BAAB,||
+"Am"A,3C "Am"EA,CE|"G"GEDB, "Em"G,A, B,/2A,/2G,|"Am"A,3C "Am"E3F|"Bm"FEDB, "Em"B,A,A,G,|
+"Am"A,G,A,C "Am"EA,CF|"G"G/2F/2E DB, "G"DG, G, g|"Em"ede/2f/2g "D"abaf|"G"gedB "Am"eAAg||
+K:D
+"D"a3 a "Am"agef|"Em"g2af gede|"D"agab "Am"agef|"G"gedB "Em"BAAg|
+"Am"agef "Em"g3e|"G"dedB "G"GABd|"A"A/2A/2A cA "Em"Bdef|"G"gedB "D"BAA^g||
+"D"a2 Aa "Am"agef|"Em"g3a "G"gedg|"D"a3b "Am"agef|"G"gedB "D"BAAa|
+"Am"agef "Em"g3e|"G"d3B "G"GABd|"A"A/2A/2A c/2B/2A "A"ecAa|"G"gedB "D"Aa^ga||
+"A"eAc/2B/2A "A"eAc/2B/2A|"G"dGBG "G"dBGd|"A"eAc/2B/2A "Em"Bdef|"G"gedB "D"BAAa|
+"A"eAc/2B/2A "A"eAc/2B/2A|"G"d3B "G"GABd|"A"A/2A/2A c/2B/2A "Em"B/2c/2d eg|"G"gedB "D"Aa^ga||
+"Am"eAA/2A/2A "A"edce|"G"dGG/2G/2G "G"dGBd|"A"eA c/2B/2A "A"ec Aa|"G"gedB "Em"BA e/2f/2g|
+"A"eAc/2B/2A "A"eAc/2B/2A|"G"d3B "G"GABd|"D"A/2A/2A BA "Bm"B/2c/2d ef|"G"gedB "D"BAA^g||
+"A"aece "A"aece|"G"gdBd "G"gdBd|"A"aece "D"a3f|"G"gedB "D"BAA^g|
+"Am"agef "Em"gage|"G"d2dB "G"GABd|"A"A/2A/2A c/2B/2A "Em"Bdea|"G"gedB "D"BAA^g||
+"A"aece "A"aece|"G"gdBd "G"gdBd|"A"aece "D"a3g|"G"gedB "Em"B B GB|
+"D"Aa3 "Em"g3e|"G"d3B "G"GABd|"A"A/2A/2A c/2B/2A "Bm"B/2c/2d ef|"G"gedB "Em"BAAB,||
+
+X:6502
+T:Flocks in a Cluster
+R:Jig
+C:Trad.
+O:England, Shropshire
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+D|"G"G>AG BGd|gag g2 d|BGB dcB|B3"D"A2 B|
+"C"cec "G"BdB|GBd g2 f/g/|"D"afd "A7"ge^c|"D"d3-d2:|
+|:f/g/|"D"afd "G"dAB|"C"cdc "Am"cBA|"G"GBd dcB|B3 "D"A2 B|"C"c>ec "G"B>dB|
+"G"GBd g2d|BGB dGg|"C"e3 "G"d2e|"D"d>cB "D7"c>BA|"G"G3 G2:|
+
+X:6000
+T:Frieze Britches
+R:Jig
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=80
+K:D
+"D"FED "C"EFG|"D"AdB "Am"=cAG|"D"A2A "G"BAG|"D"FAF "C"GFE|"D"FED "C"EFG|"D"AdB "Am"=cAG|"D"FAF "C"GEA|"D"DED D3:|
+|:"D"d2e fed|"Am"e2d "A"cAG|"D"A2A "G"BAG|"D"FAF "C"GFE|"D"d2e fed|"Am"e2d "A"cAG|"D"FAF "C"GEA|"D"DED D3:|
+|:"D"DED "Am"=c3|"D"AdB "Am"=cAG|"A"AB^c "D"d3|"D"ded "A"cAG|"D"DED "Am"=c3|"D"AdB "Am"=cAG|"D"FAF "C"GEA|"D"DED D3:|
+|:"D"d2e fdd|add fdd|"A"c2d eAA|"D"fAA "A"eAA|"D"d2e fdd|add fdd|faf "C"gec|1 "A"edc "D"d3:|2 "A"edc "G"d2 g||
+"D"fed "A"edc|"D"ded "A"cAG|"D"A^GA "G"BA=G|"D"FAF "C"GFE|"D"fed "A"edc|"D"ded "A"cAG|"D"FAF "C"GEA|"D"DED "G"D2g|
+"D"fed "A"edc|"D"ded "A"cAG|"D"A^GA "G"BA=G|"D"FAF "C"GFE|"D"fed "C"efg|"D"afd "A"cAG|"D"FAF "C"GEA|"D"DED "D"D3|]
+
+X:7003
+T:Gardener's Delight
+R:Jig
+C:Chris Drinkwater, 2011
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+"G"G2B"D7"A2c|"G"Bdg "C"ece|"G"dBd "D7"cAF|"G"GAB "D7"A2d|
+"G"G2B"D7"A2c|"G"Bdg "C"ece|"G"dBd "D7"cAF|cAF "G"G3:|
+|:"G"dBd dBd|"D7"cAc cAc|"G"BGB BGB|"D"AFE D2e|1
+"G"dBd dBd|"D7"cAc cAc|"G"BGB BGB|"D7"A6:|2
+"G"G2B"D7"A2c|"G"Bdg "C"ece|"G"dBd "D7"cAF|cAF "G"G3|]
+
+X:7027
+T:Gravel Walks, The
+R:Reel
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=180
+K:Ador
+|:"Am"A2eA (3cBA eA|A2 eA "G"BAGB|"Am"A2 eA Bdef|"G"gedc BAGB:|
+"Am"A2 aA gAfA|A2eA "G"BAGB|"Am"A2 aA gAfa|"G"gedc BAGB|
+"Am"A2 aA gAfA|A2eA "G"BAGB|"Am"A2 aA gAfa|"G"gedc BAGB|
+|:"Am"(3cBA BG A2 AB|cAAc "G"BGBd|"Am"cAAG A2 ef|"G"gfge dBGB:|
+K:C
+|:"C"c2ec acgc|c2gc "G"BAGB|"C"c2gc acga|"Am"gedc "G"BAGB|
+"C"c2ec acgc|c2gc "G"BAGB|"Am"ABcd egfa|"G"gedc BAGB:|
+
+X:7501
+R:Jig
+T:Green Shoots of Spring, The
+C:Alan Day 2022
+N:Transcribed by David Barnert
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:Am
+G|"Am"A3-A2G|A2GE2D|E2AA2G|A3-A2B|"Am"c2A"G"B2G|"D"A2GE2D|"Em"E2AA2G|"Am"A3-A2:|
+|:G|"Am"A3"G"B3|"Am"c3A3|"Am"c3"G"d3|"Em"e3-e2g|"D"a2ge2d|"Am"e2cA2B|1"Am"c2Ac2d|"Em"e3-e2:|2"Am"c2A"G"B2G|"Am"A3-A2|]
+
+X:8000
+T:High Level Hornpipe
+R:Hornpipe
+C:James Hill 1815-1860
+O:England, Newcastle
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+BA|"G"GBDG B,DGB|dgBd GBAG|"D"AcFA DFAc|"D7"ed^cd ed=cA|
+"G"GBDG B,DGB|dgBd GBAG|"C"EFGA "D"Bc^cd|"D7"edcA "G"G2:|
+K:D
+|:AG|"D"FdAd FdAd|FDFA dAFA|"G"BdGd BdGd|BGBd gdBd|
+"A"ceAe ceAe|cAce gece|"D"dcdf "A7"egce|"D"dcde d2:|
+
+X:8001
+T:High Road to Linton, The
+R:Reel
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=120
+K:Amix
+|:"A"cefe a2ae|"F#m"f2fe a2ae|"A"cefe a2ae|"F#m"faec B2A2:|
+|:"F#m"ceeg fddf|"A"ecce fBB2|"F#m"ceeg fddf|"A"ecAc B2A2:|
+|:"A"a2a2 efa2|"A"efae faef|"A"a2a2 efae|"F#m"faec B2A2:|
+|:"A"c2ec defe|"A"c2ec Bcdc|"A"c2ec defg|"A"afec B2A2:|
+
+X:9501
+T:Irish Molly Barn Dance
+R:Hornpipe
+C:Trad.
+O:England after Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+Bc|"G"d^c de (3dBG (3DGB|"Am"d^c =cA E2 AB|"Am"cB cd (3cAF (3DFA|"G"dc A_B =B2 Bc|
+|"G"d^c de (3dBG (3DGB|"C"cd ef g2 fe|"G"dB ed cA FG|"G"(3ABA GF G2:|
+|:D2|"Em"ED EF GF GA|"Em"Be e^d e2 (3edA|"G"Dd d^c d=c BA|"G"Gg gf g2 D2|
+|"Em"ED EF GF GA|"Em"Be e^d e2 ef|"Em"(3gfe (3fed ed BA|"Em"G2 F2 E2:|
+D2|"G"B2B3 B c^c|"G"d2 d3 B AG|"D"F2 A2 d2^c2|"C"c3-c2 D ED|
+"C"c2 c3 c Bc|"Em"e2e3 e ^de|"D"f2 e2 A2 ^A2|"G"B3-B2 D ED|
+|"G"B2B3 B c^c|"G"d2 d3 B AG|"Em"e2 ^de f2 B2|"Em"g3-g2 g fe|
+"G"d2 d3 d ^cd|"Em"e2 E4 FG|"G"B2 A>B c2 BA|Gd (3edB G2|]
+
+X:10601
+T:Jack Warrel's Hornpipe
+R:Slipjig
+C:in Thomas Marsden, 1705
+O:England, Lancashire
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:9/4
+L:1/4
+Q:3/4=80
+K:Ddor
+%%MIDI beatstring fmpfmpfmp
+%%MIDI gchord ccfccfccf
+|:"F"A2 B c B A "G"B A G | "F"A F A "G"B A G "Dm"F2 D | "G"B2 c d c B "Am"c B A | "G"B A G G A B "Dm"A2 G :|
+|:"F"F3/ G/A/B/ c B A "G"B A G | "F"A F A "G"B c/B/A/G/ "Dm"F2D | "G" G3/A/B/c/d c B "C"c B A | "G"B A G G A B "Dm"A2 G :|
+|:"F"c A F F c F "G"B A G | "F"A F A "G"B A G "Dm"F2 D | "G"d B G G d G "Dm"A F  D |  "G"B A G G A B "Dm"A2 G :|
+|: "F"f2 f f c f "C"e2 d | "F"c A A A2 G "Dm"F2 D | "G"g2 g g G g "Dm"f3/ e/ f | "G"e/`f/ g G G A B "Dm"A2 G :|
+
+X:12601
+T:Lasses of Duns
+T:Lassies of Dunse
+R:Jig
+C:Trad.
+O:Scotland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=100
+K:D
+f/g/|"D"afd "A"ecA|"D"d2A A2=c|"G"BGB "D"AGF|"A7"E2E E2|
+f/g/|"D"afd "A"ecA|"D"d2A "A"A2G|"D"FDF "A7"ECE|"D"D3 D2:|
+|:F/G/|"D"AFA "G"BGB|"D"AFA d2A|"G"BGB "D"AGF|"A7"E3 E2|
+f/g/|"D"afa "Em"geg|"D"fdf "A"ecA|"G"B/c/dB "A7"c/d/ec|"D"d3 d2:|
+
+X:13033
+T:Miss Drummond of Perth's Favourite Scotch Measure
+R:Reel
+C:Niel Gow
+O:Scotland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+AB|"Am"c2Bc A2AB|c2cd e2dc|"G" B2g2 G2d2|BcdG "E"E2 AB|
+"Am"c2Bc A^GAB|cBcd e2^f^g|a2e2 "Dm"fedc|"E"B4 "Am"A2:|
+|:ab|"Am"c'2 "G"b2 "Am"a2(3^gab|a2e2 z2^f2|"G"g3a gabc'|dcBA G2AB|
+"Am"cBcA "Dm"dcdB|"Am"ede^f gfge|a2e2 "Dm"fedc|"E"B2 ^G2 "Am"A2:|
+|:(3E^F^G|"Am"A^GAB cBcd|edcB ABcA|"G"BdGd BdGB|"Em"gabg GABG|
+"Am"A^GAB cBcd|edcB ABcA|"G"BcdB "E"e2d2|B2 ^G2 "Am"A2:|
+|:a^g|"Am"aeae aeae|ABcd edcB|"G"gdgd gdgd|GABc (3dcBab|
+"Am"c'2ba "E"b2a^g|"Am"a2bc' e2dc|"D"d2ef "E"edcB|"Am"c2 A2 A2:|
+
+X:14006
+T:New York Girls
+T:Can't You Dance The Polka?
+R:Polka
+C:Trad.
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+P:A2B2A
+M:2/2
+L:1/4
+Q:1/4=170
+K:G
+d|"G"GB dB|"C"ce-eg|"D"fd cd|"G"B3 d|g>g gd|"C"fe ce|"D7"dd cA|"G"GA Bc|
+"G"d3 B|"C"c e3|"D"d2 c2|"G"B G3|g3 d|"C"fe c2|"D7"d>d cA|"G"A G2!fine!:|
+|:d|"G"zBdB|"C"c>BAG/A/|"G"BBc/B/A/G/|"D"AAB/c/B/A/|"G"zBdB|"C"c>BAG/A/|"G"BBc/B/A/G/|"D7"A2"G"G:|
+
+X:14001
+T:Nutting Girl (with Slows)
+R:March
+C:Trad.
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+P:A.AB.(CB)2
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+P:A
+B>A | G2 G>A B>A G>B | d2 (3cdc A2 G>F | G2 B>c d2 g2 | d4 d3 B |
+c>de>c A2 B>c | B>c d>B G2 A>B | c2 (3AcA F2 D2 | G4 G2||
+P:B
+B>A | G2 g2 g>e f>g | (3fgf d2 d2 B>c | d2 e>f (3gag f>e |f4 f3 e |d2 g2 g3 f | e2 d2 d3 B|
+A2 B2 c2 d2 | e>f g>e d>B c>A |G2 G>A B>A G>B | d2 (3cdc A2 G>F | G2 B>c d2 g2 |
+d4 d3 B |c>de>c A2 B>c | B>c d>B G2 A>B | c2 (3AcA F2 D2 | G4 G4 ||
+P:C
+[M:2/4] B3 A |[M:2/2] G4 G4 | (3BcB A2 B3 c | d4 d4 |d3 c B3 A |G4 B3 c | d4 g4 | d8 | [M:2/4] d2 B2 |
+[M:3/4] c>d e>c A2 | c2| B>c d>B G2 AB | (3cdc A2 F2 D2 | G4 G2 |]
+
+X:15002
+T:Oh! Dear! What can the matter be?
+R:Jig
+C:Trad. - Variations by Tom Clough
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+Q:3/8=80
+K:G
+d3 d3|dBg dBG|c3 c3|cAB cBA|d3 d3|dBg dBG|ABc BcA|G3 G2 d:|
+dBc dBc|dBg dBG|cAB cAB|cAB cBA|dBc dBc|dBg dBG|ABc BcA|G3 G2 d:|
+L:1/16
+"Var I"
+|:d2BcdB g2BcdB|d2BcdB edcBAG|c2ABcA a2ABcA|c2ABcA agfed^c|
+d2BcdB g2BcdB|d2BcdB edcBAG|E2G2c2 B2c2A2|G6 G4 Bc:|
+"Var II"
+|:dcBcdB dcBcdB|d2B2g2 d2B2G2|cBABcA cBABcA|c2A2a2 g2f2e2|
+dcBcdB dcBcdB|d2B2g2 d2B2G2|E2G2c2 B2c2A2|G6 G4 Bc:|
+"Var III"
+|:d2B2G2 D2G2B2|dGBdgd bagfed|e2c2A2 D2F2A2|FDFAdA agfed^c|
+d2B2G2 D2G2B2|dGBdgd bagfed|E2G2c2 B2c2A2|G6 G4 Bc:|
+L:1/8
+"Var IV"
+|:d2 b B2 g|GBd DGB|c2 a A2 c|DFA cBA|d2 b B2 g|GBd DGB|EGc BcA|G3 G2 B/c/:|
+L:1/16
+"Var V"
+:|edcBAG edcBAG|BGBdgd bagfed|fedcBA fedcBA|FDFAdA agfed^c|
+edcBAG edcBAG|BGBdgd bagfed|E2G2c2 B2c2A2|G6 G4 Bc:|
+L:1/8
+"Var VI"
+|:d (3BdB e (3cec|d (3BdB BAG|c (3AcA a (3bag|f (3gfe d (3ed^c|
+d (3BdB e (3cec|d (3BdB BAG|EGc BcA|[1 G3 G2 B/c/:|[2 G3 G3|]
+
+X:16001
+T:Peacock Rag
+R:Rag
+C:Trad.
+N:As played by Gus Vandergriff
+O:USA
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=140
+K:D
+F2G2^G2|"D"A2f2 -fed2|A4 ^G2A2|"G"B2g2 -gfe2|"E7"B4 e2d2|
+"A7"c2a2 -aege|f2e2 B2c2|1"D"dcdf -"G"fdB2|"A7"A2:|2"D"dcdf -"A7"fce2|"D"d2a2 a2_b2||
+|:"B7"b2ba bab2|a4 g2f2|"E7"e2ef ^gbgf|e6d2|
+"A7"c2a2 -aege|f2e2 B2c2|1"D"dcdf -"G"fdB2|"A"A2a2 a2_b2:||2"D"dcdf -"A7"fce2|"D"d2|]
+
+X:16000
+T:Planxty Scott
+R:Air
+C:O'Carolan 1670-1738
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/4
+L:1/4
+Q:1/4=120
+K:D
+"D"D>EF/G/ |A2B|ABd |F>ED|"Em"EFA |B2 d/e/|"Bm"fg/f/e/d/ |B2d|
+"D"D>EF/G/ |A2B|ABd |"Bm"F>ED|"G"GA/G/F/E/ |"Bm"FG/F/E/D/|"A"EE/F/G/A/ |"Bm"B2c|
+d/f/e/d/c/e/ |"D"d2 c/B/|"G"B/A/G/A/B/c/ |"D"A2 B/c/|"Bm"dFd |FdF|"D"EDD |D2z||
+"Bm"dDF |de/d/c/B/|"D"A>Bd |"Bm"FED|"A"eEe/f/ |e2 d/e/|"Bm"fg/f/e/d/ |B2 (3A/B/c/|
+"D"dAd |"Bm"d/c/d/e/f/e/|"G"d/e/d/B/A/G/ |"Bm"F>ED|"G"G/A/BG |"D"F/G/AF|"Em"E/F/GE |"Bm"F>ED|
+"D"FAA |A>FD|"G"GBB |"Bm"B>cd|"D"AF/A/F |"Em"GE/G/E|"D"FDD |D2z||
+
+X:18001
+T:Rosbif Waltz
+R:Waltz
+C:Trad.
+O:France
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/4
+L:1/8
+Q:1/4=120
+K:Am
+AB|"Am"c2AB cA|c2AB cA|"Em"B2GA BG|"Am"A2A4|"Am"c2AB cA|c2AB cA|"Em"BA GA BG|"Am"e2e4|
+"Am"e2cd ec|"Dm"d2d4|"Am"c2AB cA|"Em"B2B4|"Am"c2AB cA|cB AB cA|"Em"BA GA BG|"Am"A2A2:|
+|:A2|"Am"e2f2e2|c4c2|e2f2e2|"Dm"d4d2|"G"d2dB GB|d2dB GB|"Dm"d4c2|"Am"A4:|
+|:A2|"Am"c3B c2|"Dm"d4d2|"C"e2g2f2|"Am"e3d c2|"Dm"a3g f2|"Am"e3d c2|"Dm"d4c2|"Am"A4:|
+
+X:19603
+T:Sadlers Wells
+R:Slow Jig
+C:Trad. Playford 1726
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/4
+L:1/4
+Q:3/4=50
+K:Em
+%%MIDI beatstring fppmpp
+%%MIDI gchord cffcff
+^d|"Em"eBg "B7"fBa|"Em"gfe "B7"^d2B|"Em"eBd "Am"GcB|"Em"GA2 "Bm"B2^c|
+"Bm"dBf -"F#7"f^cd|"F#7"e^cB ^A2F|"Em"Bge "Bm"fbB|"F#7"Fd^A "Bm"B2:|
+|:d/2c/2|"G"BdG gdB|"C"ecB "Am"A2B|"D7"cAF fad|"D7"cBc "G"B2"B7"^d|
+"Em"eBg "B7"fB^g|"B7"af^d "Em"efg|"Em"BAG "Am"cBA|"B7"Bg^d "Em"e2:|
+
+X:19502
+T:Sadler's Wells Hornpipe
+R:Hornpipe
+C:Trad.
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+BA|"G"G2G,2 G,cBA|BdBG GFED|"C"C2EC"G"B,2DB,|"D7"A,2A2 A2BA|
+"G"G2G,2 G,cBA|BdBG GFED|"C"c2BA"G"B2AG|"D"D2 "G"G2 G2:|
+|:ef|"G"g2dg "C"ecBA|"G"BdBG "Em"GFED|"C"C2EC"G"B,2DB,|"D7"A,2A2 A2ef|
+"G"g2dg "C"ecBA|"G"BdBG "Em"GFED|"C"c2BA"G"B2AG|"D"D2"G"G2 G2:|
+
+X:19902
+T:Sumer Is Icumen In
+R:March
+C:Trad 13th C
+N:3 or 4 part 2-measure round
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:6/8
+L:1/8
+K:D
+"D"d2 c "G"B2 c|"D" d2 d "A"(c>BA)|"D" F2 F "Em"G2 E|"D" F3 "A"z3|"D"D2F "Em"E2 G|"D"F2 F "Em"E2 D|"D" F2 A "G"B2 B|"D" A3 z3|
+"D"d3 "G"B3|"D" d3 z3|"D" A2 F "Em"G2 E|"D"F2 A "G"G2 F|"D"D2 F "Em"E2 C|"D" D3 "Em"z3|"D" F2 F "G"E2 G|"D" A2 A B2 c|
+"D"d2 "G"c B2 c|"D"d3 z3|"D" A3 B3|"D" A3 "Em"G2 F|"D"D2 F "Em"G2 E|"D" (F3 "Em"G2) A|"D" F2 A "G"E2 C|"D"D3 z3|]
+
+X:19020
+T:Speed the Plough (minor)
+R:Reel
+C:Trad. Variant
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=120
+K:Em
+"Em"EFGA BcBG|BcBG BcBG|"Am"A2cA "Em"G2BG|"B7"A2F2 F4|
+"Em"EFGA BcBG|BcBG BcBG|"Am"A2cA "Em"G2BG|"B7"F2 "D"D2 "Em"E4:|
+|:"Em"e2e2 eBGB|e2dc B2G2|"Am"A2cA "Em"G2BG|"B7"A2F2 F4|
+"Em"e2e2 eBGB|e2dc B2G2|"Am"A2cA "Em"G2BG|"B7"F2 "D"D2 "Em"E4:|
+
+X:20501
+T:Tankard of Ale
+R:Triple Hornpipe
+C:Trad.
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:3/2
+L:1/8
+Q:1/2=60
+K:C
+%%MIDI beatstring fpppmpppmppp
+%%MIDI gchord czfzczfzczfz
+|:"Am"(ABcA) "F"(fedc) "Dm"(dcBA)|"G"(G2 .B2) (B2"Em"E2) (G2B2)|"Am"(ABcA) "F"(fedc) "Dm"(dcBA)|"Em"(E2 "Am".A2) (A2"Em"E2)"Am"(C2A,2):|
+|:"Am"(agae) "F"(fedc) "G"(BcdB)|"Em"(gfgd) (edcB) "Am"(ABcA)|(agae) "F"(fedc) "G"(BcdB)|"Em"(E2 "Am".A2) (A2"Em"E2)"Am"(C2A,2):|
+|:"Am"(ecAc) "Dm"(fdBd) "Am"(ecAc)|"G"(G2 .B2) (B2"Em"E2) (G2B2)|"Am"(ecAc) "Dm"(fdBd) "Am"(ecAc)|"Em"(E2 "Am".A2) (A2"Em"E2)"Am"(C2A,2):|]
+
+X:20503
+T:Tommy Peoples' Mazurka
+R:Mazurka
+C:Trad.
+O:Ireland
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+N:From playing of Tommy Peoples 1948-2018
+M:3/4
+L:1/8
+Q:1/4=150
+K:D
+FG|"D" AF A2 dc|"G" BG B2 ef|"A" ge c2 Bc|"D" BA F2 FG|
+"D" AF A2 dc|"G" BG B2 ef|"A" g>e cA Bc|"D" d2 d2:|
+|:fg|"D" af dA cd|"G" c2 B2 ef|"A" ge cA Bc|"D" B2 F2 fg|
+"D" af dA cd|"G" c2 B2 ef|"A" g>e ce fe|"D" d2 d2:|
+
+X:20502
+T:Tribute to Lennart
+R:Hornpipe
+C:Lennart Alfredsson
+N:Lennart Alfredsson (1958-2018) was a founder member of Eken Morris in Stockholm in 1979.
+O:Sweden
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+(3DEF|"G"Gd BG "D"Dc AF|"G"Gg fg "Em"e2 "D"d2|"C"cd ec "G"Bc dB|"D"AG AB "D7"AD EF|
+"G"Gd BG "D"Dc AF|"G"Gg fg "Em"e2 "D"d2|"C"cd ec "G"Bc dB|"D7"A2 f2 "G"g2:|
+|:(3def|"G"g2 dc BA GB|DG Bd "D"DF Ac|"G"GB dg "C"e2 "D7"(3def|
+"G"g2 dc BA GB|DG Bd "D"DF Ac|"C"ed "D7"cF "G"G2:|
+
+X:24501
+T:Whitefryer's Hornpipe
+R:Hornpipe
+C:Trad. Walsh 1730
+O:England
+Z:Paul Hardy's Possible Tunebook 2022 (see www.paulhardy.net). Creative Commons cc by-nc-sa licenced.
+M:4/4
+L:1/8
+Q:1/4=160
+K:Dmix
+|:"Am"cBAG "D"FGAF|"Em"GABG "D"A2D/E/D/z/|F2D/E/D/z/ F2Az |[M:2/4]"Am"A3B|
+[M:4/4]"Am"cBAG "D"FGAF|"Em"GABG "Am"ABcA|"G"B2Gz G2z B:|
+|:"Am"cBcd "Em"e4|g2(3efg "D"agfe|defd "Em"efge|"Am"a zA2 A3 B|
+"Am"cBcd "Em"e4|g2(3efg "D"agfe|defd "Am"ABcA|"G"B2Gz G3 B:|
+
+

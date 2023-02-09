@@ -1,0 +1,4614 @@
+This file contains 272 polskas (#1 - #272).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These polskas are of the even rhythm type from eastern Sweden,
+suitable for the sl\"angpolska or polon\"as dance.
+
+Last updated 29 January 2021.
+
+(c) Copyright 2002-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+
+M:3/4
+L:1/16
+R:sl\"angpolska
+Z:id:hn-sp-%X
+
+X:1
+T:Nittonbundna
+T:V\"avpolskan
+R:sl\"angpolska
+H:efter Pelle Fors (1815-1908), R\"on\"o, \"Osterg\"otland
+H:Enligt Pelle Fors kom denna polska fr{\aa}n Jakob M{\aa}ne, Sk\"allvik, d\"od
+H:i slutet av 1700-talet.
+H:Pelle Fors hette egentligen Petter Magnus Johansson. Han var f\"odd i
+H:V\"astra Ed i Sm{\aa}land och hade l\"art sig spela av Ristman (Carl Ulrik
+H:Retzman 1786-1832) fr{\aa}n Lofta i Sm{\aa}land.
+H:Pelle Fors bodde i cirka 60 {\aa}r p{\aa} Vikbolandet.
+N:St\"amning AEAE
+B:SvL \"Ogl 338
+O:\"Osterg\"otland
+Z:id:hn-sp-1
+M:3/4
+L:1/16
+K:Am
+AB |: (cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) (e^f)ed (cd)cB |
+(cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) g2{ag}e2 e2AB |
+(cB)(A^G) A2"+"E2 "+"A,2"arco"a2-|a^g(bg) (e^f)ed (cd)cB |
+(cB)(A^G) (G2A2) A4 |1 (a^g)(bg) (g2a2) a2AB :|2 (a^g)(bg) (g2a2) a2z2 ||
+|: [B4E4] {B}[c4E4] ([B3E3]^G) | (A^G)(AB) (c{dc}B)(AG) G2{AG}E2 |
+[B3E3][BE] (dc)(Bc) (A^G)(AB) | (cB)(A^G) (E^F)ED (CD)(CB,) |
+A,4 {B}[c4E4] ([B3E3]^G) | (A^G)(AB) (c{dc}B)(AG) G2{AG}E2 |
+[B3E3][BE] (dc)(Bc) (A^G)(AB) | (c{dc}B)A^G ^G2A2 [A4E4A,4] :|
+|: .e2.a2 .a2.a2 .a2.^c'2 | ^c'2b2 bc'ba b2c'2 |
+ea^c'a ea^c'a ea^c'a | ebd'b ebd'b ebd'b |
+ea^c'a ea^c'a ea^c'a | ebd'b ebd'b ebd'b |
+(A^c)ea (^ga)g^f (ef)ec | (A^c)ea (^ga)g^f (ef)ed |
+(=cB)A^G (AB)cd (e=f)ed | (cB)A^G (AG)AE (DC)B,A, |
+(A^c)ea (^ga)g^f (ef)ec | (A^c)ea (^ga)g^f (ef)ed |
+(=cB)A^G (AB)cd (e=f)ed |1 (cB)A^G (^G2A2) A4 :|2 (cB)A^G (^G2A2) A2 ||
+
+X:2
+T:Str\"omkarlspolskan
+R:sl\"angpolska
+H:efter Pelle Fors, via br\"oderna Hellstr\"om. Jfr #173
+N:St\"amning AEAC#. o = flageolett
+O:\"Osterg\"otland
+Z:id:hn-sp-2
+M:3/4
+L:1/16
+K:A
+c2(3BcB A2B2 c2A2 | edcd e8 | c2{dc}Bc d2dB c2cA |
+BcBG AGAE DCB,A, | c2(3BcB A2B2 c2A2 | edcd e8 |
+c2{dc}Bc d2dB c2cA | BcBA G2A2 A4 :||: A3B cBAB c2A2 |
+E2"+"[c2A2] "arco"[c2A2]"+"[A2E2] "arco"A2"+"[E2A,2] |
+"arco"[E3A,3]B cBAB c2A2 | E2"+"[c2A2] "arco"[c2A2]"+"[A2E2] "arco"A2"+"[E2A,2] |
+"arco"A2Bc dedB cdcA | BcBA G2A2 A4 :||: CEAE CEAE CEAE |
+DFAF DFAF DFAF | CEAE CEAE CEAE | DFAF DFAF DFAF |
+CEAE B,EAE A,2B=c | d=cBA G2A2 A4 :||: "o"c'4 "o"a4 "o"e4 |
+"o"c'4 "o"a4 "o"e4 | "o"c'2"o"c'2 "o"a2"o"a2 "o"e4 |
+"o"c'2"o"c'2 "o"a2"o"a2 "o"e4 | CEAE CEAE CEAE | DFAF DFAF DFAF |
+CEAE CEAE CEAE | DFAF DFAF DFAF | CEAE B,EAE A,2B=c |
+d=cBA G2A2 A4 :|
+
+X:3
+T:Sparvens polska
+T:Sparvpolskan
+R:sl\"angpolska
+H:efter Fredrik Wilhelm Larsson, H\"alleforsn\"as
+O:S\"ormland
+Z:id:hn-sp-3
+M:3/4
+L:1/16
+K:Am
+E3^G A2B2 A2G2|E2^GA B2d2 c2B2|A3^G A2B2 c2A2|A2A2 ^GABG E4|
+E3^G A2B2 A2G2|E2^GA B2d2 c2B2|ABcd e2c2 B2A2|1 ^G2BG A8:|2 ^G2BG A6 B2||
+|:c2ec c2ec c2ec|B2dB B2dB B2dB|c2ec c2ec c2ec|B2dB B2dB B2dB|
+c3B A2c2 B2^G2|E2^GA B2d2 c2B2|ABcd e2c2 B2A2|1 ^G2BG A6 B2:|2 ^G2BG A8||
+W:H\"or du sparve lilla, far du inte illa, medan vintern \"ar s{\aa} l{\aa}ng och kall.
+W:Men f\"orutan m\"oda, skaffar du din f\"oda, du \"ar minst bland f{\aa}glar all.
+
+X:4
+T:Ingen kan dansa polska som min Ann-Sofi
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Variant 2 efter Anders Fredrik Andersson, Tryserum.
+H:Jfr #76 (delarna i omv\"and ordning).
+H:Pelle Fors (Petter Magnus Johansson) var f\"odd i Ukna, Sm{\aa}land, 1815,
+H:men levde st\"orre delen av sitt liv i R\"on\"o, Vikbolandet,
+H:\"Osterg\"otland. Han dog d\"ar 1908. Han l\"arde sig spela fiol
+H:av Johannes L{\aa}ng fr{\aa}n L{\aa}ngserum, som i sin tur hade l\"art sig av
+H:Klockare S\"oderlund fr{\aa}n Yxnerum. Pelle Fors var skomakare och
+H:fiolspelare, och spelade p{\aa} br\"ollop och danser.
+O:\"Osterg\"otland, Sm{\aa}land
+Z:id:hn-sp-4
+M:3/4
+L:1/16
+K:Dm
+f2(3gfe f2a2 c'2a2 | a2e2 f2gf e2c2 | c2eg ag^fg abag |
+f2d2 d^ce^c A4 :| A2d2 d2ed ^cAce | e2f2 f2gf e=ceg | 
+g2a2 afdf abag |[M:4/4] e2fe d2ed ^c2A2 A4 |
+[M:3/4] A2d2 d2ed ^cAce | e2f2 f2gf e=ceg | g2a2 afdf abag |
+e2fe d^ce^c d4 ||
+P:variant 2
+|: f4 f2a2 c'3a | a2af gfef e4 | e2g2 g2a2 a2f2 | d2d2 ed^cd A4 :|
+|: A2d2 d2ed ^c2e2 | e2e2 f2gf e2gf | e2g2 g2a2 a2g2 |
+[M:4/4] g2ag e2fe d2ed ^c2A2 | [M:3/4] A2d2 d2ed ^c2e2 |
+e2e2 f2gf e2gf | e2g2 g2a2 a2g2 | [M:4/4] g2ag e2fe d4 d4 :|
+
+X:5
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+H:Spelas \"aven i Am, se #86
+B:SvL Sml 17
+O:Sm{\aa}land
+Z:id:hn-sp-5
+M:3/4
+L:1/16
+K:Gm
+G3A BAG^F F2G2|G3A BAG^F F2G2|G^FGA BABc d^cd=e|f=ed^c c2d2 d2D2|
+G3A BAG^F F2G2|G3A BAG^F F2G2|G^FGA BABc d^cd=e|f=ed^c c2d2 d4:|
+K:G
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G2d2|d2g2 gfaf d4|
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G3B|A2F2 F2G2 G4|
+d'4 b4 g4|d2ed c2c2 e2d2|B2Bc A2AB G2d2|d2g2 gfaf d4|
+d2g2 gfga g4|d2ed c2c2 e2d2|B2Bc A2AB G3B|A2F2 F2G2 G4||
+
+X:6
+T:Pehr H\"orbergs julpolska
+R:sl\"angpolska
+C:Pehr H\"orberg (1746-1816), Risinge, \"Osterg\"otland
+O:\"Osterg\"otland
+Z:id:hn-sp-6
+M:3/4
+L:1/16
+K:Dm
+d2 |: ^c3d A2G2 F2E2 | D2FF D2FF A2F2 | D2F2 A2FD A2FD |
+A3A B2A2 G2E2 | C2E2 G2EC G2EC | G3G A2G2 F2E2 | D2d2 ed^cd e2^c2 |
+A2BA GFED AFED |1  ^CDE^C D6 d2 :|2  ^CDE^C D6 D2 ||
+|: D2dd D2ee D2ff | f2ef gfed ^c2A2 | A,2DD A,2EE A,2FF |
+F2EF GFED ^C2A,2 | D2DD E2EE F2FF | (3GAG FG A8 | D2dd D2ee D2ff |
+f2ef gfed ^c2A2 | A,2DD A,2EE A,2FF | F2EF GFED ^C2A,2 |
+D2DD E2EE F2FF | (3GAG FG A8 | F4 DFA,F DFA,F | E4 ^CEA,E ^CEA,E |
+F4 DFA,F DFA,F | E4 ^CEA,E ^CEA,E | D3^F A2^c2 d2=F2 |
+[1  ED^CE D6 D2 :|2  ED^CE D4 d2 || 
+
+X:7
+T:Hej filidonko
+R:sl\"angpolska
+H:efter Johan Erik Taklax, Korsn\"as, \"Osterbotten
+O:\"Osterbotten
+Z:id:hn-sp-7
+L:1/16
+Q:1/4=130
+K:A
+a^gaf {fg}f2e2 e2e2|{cd}c2c2 A2cA {Bc}B2^G2|ABA^G A2B2 c2d2|
+e2f2 =g{ag}fed {fg}f2e2|e2a2 a^gaf {fg}f2e2|e2e2 {cd}c2c2 A2cA {Bc}B2^G2|
+ABA^G A2B2 c2d2|e2f2 =g{ag}fed e4 e4 |:ABcd ef=g2|=g2d2 d2B2 B=GBd|
+d2c2 c2c2|Acec Adfd {de}d2B2|B=GBd {de}d2c2|A2ce a^gae dcBA|A^GBG A4 A4:|
+
+X:8
+T:Sl\"angpolska efter Sven Wallin
+T:Polska efter systrarna Forsstr\"omsson
+R:sl\"angpolska
+H:efter Sven Wallin, Tving, Blekinge
+O:Blekinge
+Z:id:hn-sp-8
+M:3/4
+L:1/16
+K:Am
+e4 efed d2cB | cdef gagf {fg}f2e2 | e4 efed d2cB | cdef gagf {fg}f2e2 |
+A3B cBcd e2ed | cBA^G G2A2 A4 :||: "pizz"e2"arco"cc c2cc c2cc |
+dcBA ^G2BB B2B2 | A2cc c2cc c2cc | dcBA ^G2BB B2E2 | A^GAB cBcd e4 |
+a2a^g b2bg e2eg | a2a^g abag e3d | cBA^G G2A2 A4 :| 
+P:variant
+|: e4 efed edcB | cdef gagf f2e2 | e4 efed edcB | cdef gagf f2e2 |
+A3B cBcd e2ed | cBA^G G2A2 A4 :||: c3c A2c2 A2c2 | B3B ^G2B2 G2B2 |
+c3c A2c2 A2c2 | B3B ^G2B2 G2B2 | A^GAB cBcd e2e^g | a2a^g b2bg e3^g |
+a2a^g b2bg efed | cBA^G G2A2 A4 :|
+
+X:9
+T:Polska
+R:sl\"angpolska
+H:Ocks{\aa} spelad i Gm eller Dm
+O:Sk{\aa}ne, Sm{\aa}land?
+Z:id:hn-sp-9
+M:3/4
+L:1/16
+K:Am
+E2A^G A2B2 c2c2 | B2B^G BGBd c2B2 | ABcB ABcB A2^GA |
+B2B^G EFED C2B,2 | E2A2 A2B2 c2c2 | B2B^G BGBd c2B2 |
+ABcB ABcd e2ed | cBA^G G2BG A2A2 :||: e2c2 c2e2 d2c2 |
+BABc BABc d2B2 | e2c2 c2e2 d2c2 | BABc BABc d2B2 | 
+c2Ac B2^GB c2A2 | B2B^G BGBd c2B2 | ABcB ABcd e2ed |
+cBA^G G2BG A2A2 :| 
+
+X:10
+T:Gubben Laugrens Polska
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-10
+M:3/4
+L:1/16
+K:Dm
+e4 e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d3e f2ef|gfed ^cdc=B A4|
+[e4A4] e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d2e2 f2ag|fed^c c2d2 d4:|
+|:f2ff =c2cc A2c2|f3a g_beg g2f2|{fe}f2ef d3e f2ef|gfed ^cdc=B A4|
+[e4A4] e^cAc e^cAc|d2e2 e^cAc e3e|{fe}f2ef d2e2 f2ag|fed^c c2d2 d4:|
+
+X:11
+T:Polska fr{\aa}n Gotland
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-11
+M:3/4
+L:1/16
+K:Dm
+D2FA A2d2 d2e2|f2ed e2c2 c3d|c2de fgag f2ed|d^cdf ed=cB AGFE|
+D2FA A2d2 d2e2|f2ed e2c2 c3d|c2de fgag f2ed|fed^c c2d2 d4:|
+|:f2fa fcfa bagf|e2eg eceg agfe|d3f dAdf gfed|d^cec A3B AGFE|
+D2FA A2d2 d2e2|f2ed e2c2 c3d|c2de fgag f2ed|fed^c c2d2 d4:|
+
+X:12
+T:Polska fr{\aa}n Blackstad
+T:Den melancoliska pollonessen
+R:sl\"angpolska
+H:version 1 efter kantor P.A. Nilsson, Blackstad, Tjust, Sm{\aa}land
+H:melancoliska-namnet kommer fr{\aa}n Anders Petter Dufvas notbok
+B:Version 1 SVL \"Ogl 305, version 2 Bagge 57
+O:Sm{\aa}land, \"Osterg\"otland
+Z:id:hn-sp-12
+M:3/4
+L:1/16
+K:Dm
+D2DF A2^c2 d2e2|f2ef gfed ^c2c2|d^cde fgfe d2f2|efed =cdcB AGFE|
+D2DF A2d2 f2a2|a2ga b2ba g2e2|f2af e2ge d^cdf|age^c c2d2 d4:|
+|:f2fe f2fe f2a2|e2e^c e2ec e2f2|d2d^c d2dc d2f2|efed =cdcB AGFE|
+D2DF A2d2 f2a2|a2ga b2ba g2e2|f2af e2ge d^cdf|age^c c2d2 d4:|
+P:version 2
+|: D2DF A2c2 d2e2 | f2ef gfed ^c2A2 | d^cde f2fe d2f2 |
+efed ^cdec AGEF | D2DF A2d2 f2a2 | a2ga b2ba g2e2 |
+f2af e2ge d^cdf | age^c c4 d4 :||: f2fe f2fe f2g2 |
+efe^d efed e2f2 | d2d^c d2dc d2f2 | efed ^cdc=B AGFE |
+D2DF A2d2 f2a2 | a2ga b2ba g2e2 | f2af e2ge d^cdf | age^c c4 d4 :|
+
+X:13
+T:Polska fr{\aa}n Blackstad
+R:sl\"angpolska
+H:fr{\aa}n Blackstad, Tjust, Sm{\aa}land, jfr #92
+O:Sm{\aa}land
+Z:id:hn-sp-13
+M:3/4
+L:1/16
+K:Am
+e2ea e3f efed | cdcB A2AB cBcd | e2e^f g2ga g2f2 | e2ed e^fed e4 :|
+|: e2=fg a3g f2e2 | d2ef g2gf efed | c2de f/g/f/e/fe d2c2 |
+B/c/B/A/BA ^GABG E4 | A3B cBcB c{Bc}BA=G | ABcd edef e2e2 |
+e2ae d2c2 {Bc}B2A2 | cBA^G A8 :|
+P:version 2:
+|: e2ea e3f efed | cdcB A2AB cBcd | e2ef g2ga g2f2 |
+e2ed efed e4 :||: e2fg a3g f2e2 | d2ef g2gf efed |
+c2de f2fe d2c2 | BcBA GABG E4 | A3B cBcB cBAG | ABcd edef e2e2 |
+e2ae d2c2 B2A2 | cBAG A8 :|
+
+X:14
+T:Grannas flickor
+R:sl\"angpolska
+H:efter C.G. {\AA}strand, Horn. Jfr #51 i Gm, samt #150, #172, #208
+O:\"Osterg\"otland
+Z:id:hn-sp-14
+M:3/4
+L:1/16
+K:Am
+E2 | A2AB cdcB A^GAB | cBcd e4 c4 | cde^f g2ag ^fd^fa | abag e6 :||:
+c2 | c2e2 g2a2 ^f2a2 | abag e2e2 c2c2- | c2e2 g2a2 ^f2a2 |
+abag e2e2 c2dc | B2cB A2Ac e2c2{dc} | B2{cB}A^G ^G2A2 A2 :| 
+P:version 2
+E2 | A2AB cdcB A^GAB | cBcd e4 c4 | cdef gagf eceg | abag e6 :||: c2 |
+c3e g2gf d3f | abag e4 c4 | c3e g2gf d2df | abag e2e2 c2(3cdc |
+B2(3BcB A2Ac e3c | cBA^G ^G2A2 A2 :| 
+P:version 3
+E2 |: A2AB cdcB A^GAB | cBcd d2e2 e2e2 | cAce abag dAd^f |
+[1 abag eg^fe dcBA :|2 abag e6 || 
+
+X:15
+T:Polska efter Byss-Calle
+R:sl\"angpolska
+H:efter Byss-Calle, \"Alvkarleby, Uppland
+B:57 l{\aa}tar efter Byss-Calle nr 32
+O:Uppland
+Z:id:hn-sp-15
+M:3/4
+L:1/16
+K:G
+d3B G2G2 BGBd|A2AB G2G2 BGBd|c2ce d2Bd cBAG|FGAB AGFE D4|
+d3B G2G2 BGBd|A2AB G2G2 BGBd|c2ce d2Bd cBAG|FGAB A2BA G4:|
+|:d2d2 d2ef g2g2|g2fe d2ef g2B2|cBce d2Bd cBAG|FGAB AGFE D4|
+d2d2 d2ef g2g2|g2fe d2ef g2B2|cBce d2Bd cBAG|FGAB A2BA G4:|
+
+X:16
+T:G\"okpolska
+R:sl\"angpolska
+H:efter Pelle Fors. o = flageolett p{\aa} G-str\"angen. Jfr #171
+O:\"Osterg\"otland
+Z:id:hn-sp-16
+M:3/4
+L:1/16
+K:G
+"o"g4 "o"d6e2- | e2d2- d2cd c2B2 | "o"g4 "o"d6e2- | e2d2- d2cd c2B2 | 
+GFGB AFAc BGBc | ecAF G2"+"D2 "arco"B,2"+"G,2 | "o"g4 "o"d6e2- |
+e2d2- d2cd c2B2 | "o"g4 "o"d6e2- | e2d2- d2cd c2B2 | GFGB AFAc BGBc |
+ecAF A2G2 G4 :||: B3A G2A2 B2c2 | d3c d2e2 f2d2 | d2f2 gfga b2g2 | 
+gfga abag f2d2 | d2dB c2cA B2BG | AGFA G2D2 B,2G,2 | B3A G2A2 B2c2 |
+d3c d2e2 f2d2 | d2f2 gfga b2g2 | gfga abag f2d2 | d2dB c2cA B2BG |
+AGFG A2G2 G4 :| 
+
+X:17
+T:K\"aringtr\"atan
+R:sl\"angpolska
+H:efter Pelle Fors via Arvid Bergvall.
+O:\"Osterg\"otland
+Z:id:hn-sp-17
+M:3/4
+L:1/16
+K:G
+G2BG D2FA A2G2|G2BG D2FA A2G2|B2GB d2ef gaba|gfgb agfe dcBA|
+G2BG D2FA A2G2|G2BG D2FA A2G2|B2GB d2ef gaba|gfdf a2g2 g4:|
+|:bgdg bgdg b2a2|afdf afdf a2g2|bgdg bgdg b2a2|afdf afdf a2g2|
+d2ef g2B2 cBcd|ecAF A2G2 G4:|
+
+X:18
+T:Svanpolska efter Pelle Fors
+R:sl\"angpolska
+H:\"Aven i Gm, #47. Jfr #121.
+H:St\"amning AEAE. o = flageolett
+H:takt 4 och 8 i andra delen \"aven |c'2a2 ba^ga ^f2e2| eller |c'2a2 aba^g ^g2e2|
+B:SvL \"Ogl 344
+O:\"Osterg\"otland
+Z:id:hn-sp-18
+M:3/4
+L:1/16
+K:Am
+"o"a4 "o"b4 "o"e3e|gag^f d2d2 e3B|cdcB A^GAB cdcB|A2a2 a^gbg e4|
+"o"a4 "o"b4 "o"e3e|gag^f d2d2 e3B|cdcB A^GAB cdcB|{cd}c2{dc}BA ^G2A2 [A4E4A,4]:|
+|:E^GAB cdcB ABcd|e2a2 a^gbg ag^fg|e2^g2 a2b2 b2c'2|c'2a2 aba^g ag^fg|
+E^GAB cdcB ABcd|e2a2 a^gbg ag^fg|e2^g2 a2b2 b2c'2|c'2a2 aba^g ag^fg|
+eceg ^fdfd ecec|eceg ^fdfd ecec|cdcB ABcd e=feB|c2{dc}BA ^G2A2 [A4E4A,4]:|
+
+X:19
+T:K\"aringtr\"atan
+R:sl\"angpolska
+H:efter Pelle Fors. Se \"aven #20, #177
+N:St\"amning AEAC#
+O:\"Osterg\"otland
+Z:id:hn-sp-19
+M:3/4
+L:1/16
+K:A
+[c4A4E4A,4] e3c dcde|f3d efec d2c2|[c4A4E4A,4] e3c dcde|f2gf e8:|
+|:[E2A,2]"+"[c2A2] "arco"[A2E2]"+"[c2A2] "+"[c2A2]"+"[c2A2]|
+"arco"A,CEC A,DFD A,CEC|
+[E2A,2]"+"[c2A2] "arco"[A2E2]"+"[c2A2] "+"[c2A2]"+"[c2A2]|
+"arco"A,CEC A,DFD A,CEC|[E2A,2]Bc d2dB c2cB|cBAB G2A2 A4:|
+
+X:20
+T:Sju och sjutti k\"arringar
+R:sl\"angpolska
+H:efter Karl August Lindblom, Rejmyre, Skedevi, \"Osterg\"otland
+H:Se \"aven #19
+H:St\"amning: AEAC#
+B:SVL \"Ogl 319
+O:\"Osterg\"otland
+Z:id:hn-sp-20
+M:3/4
+L:1/16
+K:A
+[c4A4] e3c (5d/e/d/c/d/e2 | f2e2 e2d2 d2c2 |
+[c4A4] e3c (5d/e/d/c/d/e2 | f2e2 e8 :|
+|: A,2"+"[c2A2E2A,2] "arco"[c2A2]"+"[c2A2E2A,2] "arco"[c2A2]"+"[c2A2E2A,2] |
+A,CEC A,DFD A,CEC |
+A,2"+"[c2A2E2A,2] "arco"[c2A2]"+"[c2A2E2A,2] "arco"[c2A2]"+"[c2A2E2A,2] |
+A,CEC A,DFD A,CEC | A,2Bc d2dB c2cA | cBAG G2A2 A4 :|
+
+X:21
+T:F\"ortvivlans polska
+R:sl\"angpolska
+H:efter Johan Jakob Bruun (1818-1889), S\"arsl\"ov, S\"odervidinge, 
+H:som h\"ort den av "tattaren och rackaren" Bolin i S\"arsl\"ov.
+B:SvL Sk{\aa}ne 574
+O:Sk{\aa}ne
+Z:id:hn-sp-21
+M:3/4
+L:1/16
+K:Dm =b
+{b}a^g(ab) (c'b)ag a4 | {e}d(^cd)e (fe)dc d4 | ^f3e d2e2 f2g2 |
+a2(ab) g2(ga) ^f4 :||: .a2.f2 .f2.f2 (ac').c'2 |
+.g2.e2 .e2.e2 (gc').c'2 | .^g2.e2 .e2.e2 (gc')c'c' |
+{b}a2a^g a2ab (c'b)(ag) | {b}a2ag f2fe (d{ed}^c)de | 
+(fe)d^c [A2A2][d2D2] [d4D4]:|
+
+X:22
+T:Polska efter Lovisa {\AA}strand
+R:sl\"angpolska
+H:Hon hade den efter sin mormor, Helena M{\aa}nsson, Misterfall, Kisa
+B:SvL \"Ogl 471, efter Lovisa {\AA}strand, Falla, Horn
+O:\"Osterg\"otland
+Z:id:hn-sp-22
+M:3/4
+L:1/16
+K:D
+d3e f2d2 A4 | F2FG E2EF D4 | D3D F2F2 A2A2 | d2cd e2c2 A4 |
+d3e f2d2 A4 | F2FG E2EF D4 | D3D F2F2 A2A2 | d2cd e4 d4 :|
+|: D2FE D2FE D2EF | G2BA G2BA G2B2 | A3c d2e2 f2d2 | d2cd e2dc d2A2 |
+D2FE D2FE D2EF | G2BA G2BA G2B2 | A3c d2e2 f2d2 | d2cd e2ec d4 :|
+
+X:23
+T:\"Ostg\"otasverpen
+T:Sverpa-dansa
+R:sl\"angpolska
+H:efter "Lasse i Svarven", V\"astervik (Lars-Johan Sundell) (1874-1923).
+H:F\"odd i Ydre. Lasse i Svarven hade den efter Anders Gustav Johansson,
+H:L\"ov{\aa}sa, Sund, Ydre.
+H:St\"amning A,EAe
+O:\"Osterg\"otland
+Z:id:hn-sp-23
+M:3/4
+L:1/16
+K:A
+[e4A4E4A,4] [e2A2E2A,2]fe [dE4]cBA | (GA).B.c .d.e.f.g [.a2.A2][.a2.A2] |
+[A2E2A,2]ce ([aA4]gae) ([dE4]cBA-) | [A2E12](d2 B2)e2 (dcBA) |
+([E2A,2][e2A2]) [e2A2E2A,2]fe [dE4]cBA | (GA).B.c .d.e.f.g [.a2.A2][.a2.A2] |
+[A2E2A,2]ce ([aA4]gae) ([dE4]cBA) | ([cE4]B).A.G ([G2A2][.A2.A2]) [A4A4] :|
+|: [e4A4E4] [c2E2]([c2E2] [dE4])cBc | [d4E4] [B2E2]([B2E2] ([cE4])BAB) |
+[c4E4] [A2E2]([A2E2] [BE4]AGA) | .B.c.d.c .B.A.G.F E4 |
+[e4A4E4] [E2A,2]([c2E2] ([dE4])cBc) | [d4E4] [E2A,2]([B2E2] [cE4])BAB |
+(cA).B.c .d.e.f.g .a2.c2 | (cB).A.G ([G2A2][.A2.A2]) [A4A4] :|
+|: ([e4A4E4A,4] [e2A2E2A,2])fe (dc).B.A | .E.B.G.B .E.B.G.B .E.B.G.B |
+([d4E4A,4] [d2E2A,2])ed (cB).A.G | .A,.E.C.E .A,.E.C.E .A,.E.C.E |
+([e4A4E4A,4] [e2A2E2A,2])fe (dc).B.A | .E.B.G.B .E.B.G.B .E.B.G.B |
+([d4E4A,4] [d2E2A,2])ed (cB).A.G | .A,.E.C.E .A,.E.C.E A,4 :|
+
+X:24
+T:Polska efter Lasse i Svarven
+T:Barockpolskan
+R:sl\"angpolska
+H:Lasse i Svarven hade den efter "G\"oran i L\"app"
+H:Jfr #164, #48, #131.
+O:\"Osterg\"otland
+Z:id:hn-sp-24
+M:3/4
+L:1/16
+K:Dm
+a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) | d2(d^c d2).e2 .f2.g2 |
+(agbg a4) A4 | a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) |
+d2(d^c) (de)(fe) (fg)(ag) | (fed^c) d4 D4 :||: .f2(FE .F2)(fe fag^f) |
+.g2(c=B .c2)(C=B, .C4) | .g2(c=B .c2)(g^f g_bag) | .a2(=fe .f2)(FE .F4) |
+a(ba)(g f)(gf)e (defd) | e(fe)(d c)(dc)=B (ABcA) |
+d2(d^c) (de).f.e (fg).a.g | (fed^c) (c2d2) D4 :|
+P:varianter
+|:ab{ab}ag fg{fg}fe defd | efed cdc=B AB{Bc}BA | d3^c d2e2 f2g2 |
+aba^g g2a2 a4 | ab{ab}ag fgfe defd | efed cdc=B AB{Bc}BA |
+d3^c de{g}fe fgag |1 fed^c c2d2 d4 :|2 fed^c c2d2 d2e2 |: .f2FE .F2fe fag^f |
+.g2c=B .c2C=B, C2g^f | .g2c=B .c2g^f g2ag | a2=fe .f2FE .F2g2 |
+ab{ab}ag fg{fg}fe defd | efed cdc=B AB{Bc}BA |
+d3^c de{g}fe fgag | fed^c c2d2 d4 :|
+
+X:25
+T:N\"ockla-H\"arpa
+R:sl\"angpolska
+H:efter Lasse i Svarven, som hade den efter A.G. Johansson i Sund, Ydre.
+H:St\"amning A,DAd
+O:\"Osterg\"otland
+Z:id:hn-sp-25
+M:3/4
+L:1/16
+K:Dm
+[d3A3D3A,3](f a2)(af) ([d2A2][dA][eA]) |
+([fA3]e).d[.^cz] [d2d2][A2A2] [GA4]^FED |
+[d3A3D3A,3](f a2)(af) ([dA][eA])([dA][eA]) |
+([fA3]e).d[.^cz] (c2[d2d2]) [d4d4] :|
+K:D
+|: ([A2D6]d2) (ABAF) ([DA,4]FDF) | ([A2D4]d2) ([BD4]cBA) ([G2A,2][B2D2]) |
+([A2D6]d2) (ABAF) ([DA,4]FDF) | ([A2D4]d2) ([BD4]cBA) ([G2A,2][B2D2]) |
+([A2D4]d2) ([AD4]BAF) ([FA,4]GFE) | ([FA,3]EDC) (C2[D2D2]) [D4D4] :|
+
+X:26
+T:Sl\"angpolska fr{\aa}n Blekinge
+R:sl\"angpolska
+H:efter systrarna Ulla och Britt Forsstr\"omson, M\"orrum
+H:jfr #106, #235
+D:Version 1 efter "Den Fule"
+D:Version 2 efter Valramn/Lure
+O:Blekinge
+Z:id:hn-sp-26
+M:3/4
+L:1/16
+K:Am
+AB |: c2cA B2BG A2AG | AGAB cBcd e2AB | c2cA B2BG A2AA |1 G2A2 A6AB :|
+[2 G2A2 A4 c2d2 |: e4 g4 e4 | e2de d4 B3c | d2dB d2dB cBcd | edcB cBcd c2d2 |
+e4 g4 e4 | e2de d4 B3c | d2dB d2dB cBcd | edcB cBcd e2AB | c2cA B2BG A2AG |
+AGAB cBcd e2AB | c2cA B2BG A2AA |1 G2A2 A4 c2d2 :|2 G2A2 A4 ||
+P:version 2
+A3B |: c2cA B2BG E2EG | AGAB cBcd e2AB | c2cA B2BG E2G2 |
+[1 G2A2 A4 A3B :|2 G2A2 A4 c2d2 ||
+e4 g4 e4 | e2de d4 B3c | d2dB d2dB cBcd | edcB cBAB c2d2 |
+e4 g4 e4 | e2de d4 B3c | d2dB d2dB cBcd | edcB cBAG A2AB |
+c2cA B2BG E2EG | A2AB cBcd e2AB | c2cA B2BG E2G2 | G2A2 A4 ||
+
+X:27
+T:\"Ostra Ryd
+R:sl\"angpolska
+H:efter Anders Larsson, Backa
+O:\"Osterg\"otland
+Z:id:hn-sp-27
+M:3/4
+L:1/16
+K:Am ^f
+A3B cBAG E4|c2ec d2f2 e4|efed cdcB A2AB|{cd}cBAG A4 E4|
+A3B cBAG E4|c2ec d2f2 e4|efed cdcB A2AB|{cd}cBAG A4 A4:|
+|:e3f g2ga g2fe|gfed d2cB c4|cdef g2ga g2fe|gfe^d d2e2 e4|
+c2ec B2eB A2eA|Acec B2cB A4|e2e2 gfed c2B2|B/c/BAG A4 A4:|
+
+X:28
+T:Polska efter Lorens Brolin
+R:sl\"angpolska
+H:efter Lorens Brolin, Abbek{\aa}s, Sk{\aa}ne
+B:SvL Sk{\aa}ne 1001
+O:Sk{\aa}ne
+Z:id:hn-sp-28
+M:3/4
+L:1/16
+K:Am
+ea^ga edcB A^GAB | cBce B/c/BA^G A2E2 | E2cB A^GAB c2c2 |
+cde^f gfag edcB | Aa^ga edcB A^GAB | cBce B/c/BA^G A2E2 |
+E2cB A^GAc e2e2 | cBA^G G2A2 A4 | ea^ga edcB A^GAB |
+cBce B/c/BA^G A2E2 | E2cB A^GAB c2c2 | cde^f g2a2 e4 |
+ea^ga edcB A^GAB | cBce B/c/BA^G A2E2 | E2cB A^GAc e2e2 |
+cBA^G {G}A4 A2B2 |: c4 c3c e2c2 | =G4 G/A/G=F2 {FE}F2E2 | e4 c3e g2g2 |
+EGce g^fed f2e2 | ea^ga edcB A^GAB | cBce B/c/BA^G A2E2 |
+E2cB A^GAc e2e2 |1 cBA^G G2A2 A2B2 :|2 cBA^G G2A2 A4 ||
+
+X:29
+T:Polska fr{\aa}n W\"astervik
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-29
+M:3/4
+L:1/16
+K:D
+A3G F2G2 A2B2 | A2AF A2d2 f4 | e3d c2d2 e2c2 | d2dc dcBA F2G2 |
+A3G F2G2 A2B2 | A2AF A2d2 f4 | e3d c2d2 e2c2 |1 d4 d4 F2G2 :|2 d4 d8 ||
+|: A2Ad f2d2 f2d2 | A2Ac e2c2 e2c2 | A2Ad f2d2 f2d2 | A2Ac e2c2 e2c2 |
+A3G F2G2 A2B2 | A2AF A2d2 f4 | e3d c2d2 e2c2 |1 d4 d8 :|2 d4 d4 F2G2 ||
+
+X:30
+T:Dur{\aa}moll
+R:sl\"angpolska
+H:efter Ludvig Olsson, Enshult
+O:Sm{\aa}land
+Z:id:hn-sp-30
+M:3/4
+L:1/16
+K:G
+g4 g/a/g/f/ga g2g2 | d2dd B/c/B/A/Bc d2B2 | B/c/BAB c2BA B2AG |
+F2D2 C2B,2 A,2G,2 | g4 g/a/g/f/ga g2g2 | d2dd B/c/B/A/Bc d2d2- |
+d2g2 e3g f2a2 | g/a/gfg a4 g4 :|
+K:Gm
+|: B4 {c}BABc d2B2 | BcBA B2g2 f4 | g2dg g2b2 a3g | f=efg a2f2 d4 |
+d2g2 g2d2 dcBA | B2f2 f2c2 cBAG | d2g2 g2d2 dcBA | B2f2 f2c2 cBAG |
+GABG ABcA B2AG | ^F2DF G4 G4 :|
+
+X:31
+T:Didans
+R:sl\"angpolska
+H:efter August Bengtsson, Bredvassa, Loftahammar
+B:SvL Sml 31
+O:Sm{\aa}land
+Z:id:hn-sp-31
+M:3/4
+L:1/16
+K:D
+D4 a2af g2ge | cAce f2fd e2A2 | A4 a2af g2ge | cAce f2fd e2A2 |
+A2AB G2GA F2FG | E2EF GFGE F2D2 | A4 a2af g2ge | cAce e4 d4 :|
+|: gagf efed cdcB | ABcd edcB A4 | gagf efed cdcB | ABcd edcB A4 |
+DFAF EGAG F2D2 | DFAF EGAG F2D2 | gagf efed cdcB | ABcd e4 d4 :|
+
+X:32
+T:Polska fr{\aa}n Vetlanda
+R:sl\"angpolska
+H:jfr #62, #120, #41. F\"orsta varianten efter S{\aa}gsk\"ara
+B:Wallmans samling nr 17, Sumlen 1976
+O:Sm{\aa}land
+Z:id:hn-sp-32
+M:3/4
+L:1/16
+K:Dm
+A3^c d2c2 d2e2 | gfef d2d2 ^c4 | A2f2 fed=c dcAc | cBGB B2A2 A4 :|
+|: A2ff fefg a2a2 | gagf efef g2g2 | f2ff fefg a2a2 |
+gagf efef g2g2 | f3e d3f e2d2 | ^cA=Bc c2d2 d4 :|
+P:ur boken
+|: A3^c d2c2 d2e2 | gfef d2d2 =c4 | cfef fedc dcAc | cABG G2A2 A4 :|
+|: f2fe fefg a2a2 | gagf efef g2g2 | f2fe fefg a2a2 |
+gagf efef g4 | f2fe d2df e2e^c | A2A^c c2d2 d4 :|
+
+X:33
+T:Polska fr{\aa}n Uppland
+R:sl\"angpolska
+H:Spelas i Dm eller Gm
+O:Uppland
+Z:id:hn-sp-33
+M:3/4
+L:1/16
+K:Dm
+a2a2 b2b2 a2a2 | g2g2 a4 e4 | fefa gbge fafd | ege^c d2dA F2D2 |
+a2a2 b2b2 a2a2 | g2g2 a4 e4 | fefa gbge fafd |1 ege^c d4 d4 :|2
+ege^c d4 d2e2 |: f2f2 (3e2e2^c2 e2A2 | d3e fefg a2a2 | f2f2 (3e2e2^c2 e2A2 |
+d3e fefg a2a2 | b3a gagf efed |1 ^c2e^c d4- d2e2 :|2 ^c2e^c ^c2d2 d4 ||
+K:Gm
+d2d2 e2e2 d2d2 | c2c2 d4 A4 | BABd cecA BdBG | AcA^F G2GD B,2G,2 |
+d2d2 e2e2 d2d2 | c2c2 d4 A4 | BABd cecA BdBG |1 AcA^F G4 G4 :|2
+AcA^F G4 G2A2 |: B2B2 (3A2A2^F2 A2D2 | G3A BABc d2d2 | B2B2 (3A2A2^F2 A2D2 |
+G3A BABc d2d2 | e3d cdcB ABAG |1 ^F2AF G4- G2A2 :|2 ^F2AF F2G2 G4 ||
+
+X:34
+T:En sup till
+R:sl\"angpolska
+H:efter August Str\"omberg, J\"at
+H:Jfr #79, #189, #230
+O:Sm{\aa}land
+Z:id:hn-sp-34
+M:3/4
+L:1/16
+K:Gm
+G4 ^F4 G4 | A3G ^F2G2 A4 | B3d c2B2 A2G2 | ^FGAF D8 |
+w:En sup till, det be-h\"ov-er jag, f{\aa}r jag in-te det s{\aa} m{\aa}r jag in-te bra,
+G4 ^F4 G4 | A3G ^F2G2 A4 | B3d c2B2 A2G2 |1 ^FGAF G8 :|2 ^FGAF G6=B2 ||
+w:En, tv{\aa}, tre, fy-ra el-ler fem, f{\aa}r jag in-te det s{\aa} g{\aa}r jag in-te hem. g{\aa}r jag in-te hem.
+K:G
+|: d2B2 BGBd BGBd | d2c2 AFAc AFAc | B2AB c2B2 A2G2 | FGAF D6 B2 |
+d2B2 BGBd BGBd | d2c2 AFAc AFAc | B2AB c2B2 A2G2 |1 FGAF G6 B2 :|2 FGAF G8||
+
+X:35
+T:Polska efter Pelle Pettersson
+R:sl\"angpolska
+H:Pelle Pettersson var klarinettspelman i N\"arke p{\aa} 1800-talet
+D:Bl{\aa} Bergens Borduner
+O:N\"arke
+Z:id:hn-sp-35
+M:3/4
+L:1/16
+K:A
+c2e2 c2c2 c4 | c2Bc d2c2 B2A2 | AGFG A2E2 F2E2 |
+c2e2 c2c2 c4 | c2Bc d2c2 B2A2 | GABc B4 A4 :|
+|: A2c2 c2A2 BAFA | G2B2 B2G2 AGFG | A2c2 c2A2 BAFA |
+G2B2 B2G2 AGFG | A2c2 G2A2 F2GF | EFGE F4 F4 :|
+
+X:36
+T:Polska efter Blinda Pelle
+R:sl\"angpolska
+H:efter Pehr Falkenstr\"om, Askersund
+D:Bl{\aa} Bergens Borduner
+O:N\"arke
+Z:id:hn-sp-36
+M:3/4
+L:1/16
+K:Dm =b
+a3a a2c'2 c'2a2 | a2g2 g2bg a3e | f2gf e2fe d2ed | ^cdec A4 A4 |
+a3a a2c'2 c'2a2 | a2g2 g2bg a3e | f2gf e2fe d2ed | ^cdec d4 d4 :|
+|: A3A A2^c2 d2e2 | f2gf e2fe d^cec | A3A A2^c2 d2c2 | A2^ce d2d2 c2A2 |
+d3^c A2A^c d2e2 | f2gf ed^ce d2c'2 | c'2a2 a2gb a2f2 | ed^ce d4 d4 :|
+
+X:37
+T:Polska efter Gabriel Herlitz
+R:sl\"angpolska
+H:efter Gabriel Herlitz, Visby (1812-1889)
+O:Gotland
+Z:id:hn-sp-37
+M:3/4
+L:1/16
+K:A
+e2a2 gfed cAce | e2a2 gfed c2e2 | a4 gfed cdef |1 edcB A2GF E4 :|2
+edcB B2AB A4 |: AcAc AcAc edcd | BdBd BdBd edcB | AcAc AcAc edcd |
+BdBd BdBd edcB | A2a2 gfed cdef | edcB B2AB A4 :|
+
+X:38
+T:Skaffarepolskan
+R:sl\"angpolska
+H:efter Florsen i Burs
+H:andra delen jfr #45 & #78
+O:Gotland
+Z:id:hn-sp-38
+M:3/4
+L:1/16
+K:D
+D2FA dcBA GFED | DFAd dcBc c2d2 | d2ef gfge gfed | dcdf edcB AGFE |
+FDFA dcBA GFED | DFAd dcBc c2d2 | d2ef gfge gfed | cdBc c2d2 d4 :|
+|: d3d' d'2d'2 d'2d'2 | d'3c' c'2a2 a2c'2 | c'3b b2g2 g2b2 |
+b3a a^gab a4 | e3f g2g2 bgeg | g3f f2f2 afdf | f3e e2e2 gfge |
+dcdf edcB AGFE | FDEF GABc defg | bgec c2d2 d4 :|
+
+X:39
+T:Isbrytaren
+R:sl\"angpolska
+C:Byss-Kalle (1783-1855)
+O:Uppland
+Z:id:hn-sp-39
+M:3/4
+L:1/16
+K:G
+dB|G2dB G2bg d2gd|B2dB G2Bd cBAG|FGAB c2ed cBAF|GFGB AGFE D2dB|
+G2dB G2bg d2gd|B2dB G2Bd cBAG|FGAB c2ed cBAG|FGAF G6:|
+B2|d2Bd g4 B2d2|:d2cd edcB A3B|cBcd e2e2 A3B|cdcB dcBA G2B2|
+d2Bd g4 B2d2|d2cd edcB A2c2|B2d2 g2b2 a3g|1 fgaf g6G2|G2Bd g4 B2d2:|2 fgaf g6||
+|:g2|fgaf efge gfed|^cdec d2AF D2FA|GBdg gece edBd|dcAc c2Bd g3g|
+gece edBd dcAc|BAGF G6d2|BGBd BGBd edcB|AFAc AFAc dcBA|
+GBdg gece edBd|dcAc c2Bd g3g|gece edBd dcAc|BAGF G6:|
+
+X:40
+T:{\AA}kerbyst{\aa}let
+R:sl\"angpolska
+H:efter Per Hellstedt. Jfr #206
+O:Uppland
+Z:id:hn-sp-40
+M:3/4
+L:1/16
+K:G
+g2z2 d3c BcBA | GABc d2de d2fa | c'2a2 b2g2 agfe | d3f afdf a2ab |
+c'2c'a bd'bg a2a2 | d3f afdf a2ab | c'2c'a bd'bg a2a2 |
+dfaf g3(3a/g/f/ g4 :| g4 Pb2gb d'4 | d'3Pb gbd'b c'4- |
+c'afa d2c'2 c'/d'/c'/b/c'2 | b2d'b gbd'b g4 | Pb2gb d'4 d'4 |
+d'3Pb gbd'b c'4- | c'afa d2c'2 c'/d'/c'/b/c'2 | b2d'b gbd'b g3d ||
+|: d<gbg d<gbg d<gbg | d<faf d<faf d<faf | d<gbg d<gbg d<gbg |
+d<faf d<faf d<faf | d3Pc BGBd gfgb | bafa Pa2g2 g/a/g/f/g2 :|
+
+X:41
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:efter Anselm och Allan Hellstr\"om, Vikbolandet
+H:Besl\"aktad med #32
+O:\"Osterg\"otland
+Z:hn-sp-41
+M:3/4
+L:1/16
+K:Dm =b
+A4 d3e/d/ ^c2d2 | e2f2 d2e2 ^c2A2 | AGAB =cdcB GDGB | ded^c A8 :|
+|: A4 f4 e=ceg | g2a2 abaf d3e | e2f2 f2gf e=ceg | g2a2 abaf d3e |
+e2f2 fg/f/e2 A3^c | ^c2d2 d8 :|
+
+X:42
+T:Pennknivsm\"ordaren
+R:sl\"angpolska
+O:Uppland
+Z:hn-sp-42
+M:3/4
+L:1/16
+K:Am
+abag =fgfd e2e2 | c2ed cBA^G A2E2 | A^GAB c2d2 e2^f2 | d^cd^f aba^g e4 |
+abag =fgfd e2e2 | c2ed cBA^G A2E2 | A^GAB c2ce dcBA | ^GABG A8 :|
+|: E2c2 E2c2 E2c2 | c2B2 =G2BB B2B2 | cBA^G ABcd e=fed | cdcB ABA^G E4 |
+E2c2 E2c2 E2c2 | c2B2 =G2BB B2B2 | cBA^G ABcd e=fed | cBA^G A8 :|
+
+X:43
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-43
+M:3/4
+L:1/16
+K:D
+A2d2 d2A2 FDFA|A2d2 d2A2 F2A2|d2df e2eg f2d2|A2A2 G2G2 F2D2|
+A2d2 d2A2 FDFA|A2d2 d2A2 F2A2|d2df e2eg f2d2|ABAG G4 F4:|
+|:dfag e2c2 e2c2|Aceg f2d2 f2d2|dfag e2c2 e2c2|Aceg f2d2 f2d2|
+fdAF F2E2 E2C2|A,CEG F4 D4:|
+
+X:44
+T:Polska efter Olof Styrlander
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-44
+M:3/4
+L:1/16
+K:G
+G2gf g2d2 B2G2 | G2gf g2d2 B2G2 | G2AB cdcB A2A2 | DFAF G8 :| 
+|: DFAF DFAF DFAF | D2GA BcBA B2G2 | DFAF DFAF DFAF | 
+D2GA BcBA B2G2 | G2e2 e2f2 f2g2 | gfed e2ef g4 | gece edBd dcAF | 
+[1  D2FA G4 G4 :| [2  D2FA G4 g4 || 
+
+X:45
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:jfr #78, #175, andra delen jfr #38
+O:\"Osterg\"otland
+Z:id:hn-sp-45
+M:3/4
+L:1/16
+K:D
+A2d2 d2A2 FDFA | A2d2 d/e/dcd e3f | g>(ag>)(f e>)(fe>)(d c>)(dc>)B |
+A2d2 d2A2 FDFA | A2d2 d/e/dcd e3f | gfga b2a2 agec | e2d2 d8 :|
+|: Td2c2 c2c2 e2c2 | Tc2B2 B2B2 d2B2 | TB2A2 A8 | TA2G2 G2G2 B2G2 |
+TG2F2 F2F2 A2F2 | TF2E2 E3F | GFGA B2A2 AGEC | E2D2 D8 :|
+
+X:46
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-46
+M:3/4
+L:1/16
+K:G
+g4 f4 g4 | agfe d2c2 B2G2 | g2fg b2g2 d2B2 | A2B2 c2A2 a2g2 |
+fgfe d8 :||: c4 B2A2 B2G2 | g4 f2e2 f2d2 :||: DFAF DFAF DFAF |
+DGBG DGBG DGBG | DFAF DFAF DFAF | DGBG DGBG DGBG |
+A2B2 c2d2 e2=f2 | g^fe^c ^c2d2 d4 :| 
+
+X:47
+T:Svanpolska efter Pelle Fors
+R:sl\"angpolska
+H:\"Aven i Am, #18. Jfr #121.
+H:o = flageolett
+O:\"Osterg\"otland
+Z:id:hn-sp-47
+M:3/4
+L:1/16
+K:Gm =e
+"o"g4 "o"a4 "o"d3e | fgfe ^c2c2 d3A | BcBA G^FGA BcBA |
+G2g2 g^fa^f d4 | "o"g4 "o"a4 "o"d3e | fgfe ^c2c2 d3A |
+BcBA G^FGA BcBA | {Bc}B2{cB}AG ^F2G2 [G4D4G,4] :|
+D^FGA BcBA GABc | d2g2 g^fa^f g^fe^f | d2^f2 g2a2 a2b2 |
+b2g2 gag^f g^fe^f | D^FGA BcBA GABc | d2g2 g^fa^f g^fe^f |
+d2^f2 g2a2 a2b2 | b2g2 gag^f g^fe^f | dBdf ecec dBdB |
+dBdf ecec dBdB | BcBA GABc dedA | B2{cB}AG ^F2G2 [G4D4G,4] |
+P:varianter p{\aa} andra delen (takt 4 & 8)
+D^FGA BcBA GABc | d2g2 g^fa^f g^fe^f | d2^f2 g2a2 a2b2 |
+b2g2 ag^fg e2d2 | D^FGA BcBA GABc | d2g2 g^fa^f g^fe^f |
+d2^f2 g2a2 a2b2 | b2g2 gag^f ^f2d2 | dBdf ecec dBdB |
+dBdf ecec dBdB | BcBA GABc dedA | B2{cB}AG ^F2G2 [G4D4G,4] |
+
+X:48
+T:Koiviston Polska
+R:sl\"angpolska
+H:Version 1 \"ar fr{\aa}n s\"odra Karelen
+H:L{\aa}ten finns i m{\aa}nga av Nokias mobiltelefoner
+H:\"aven i Gm, #131. Jfr \"aven #24 och #164.
+O:Finland
+Z:id:hn-sp-48
+M:3/4
+L:1/16
+K:Am
+|: efed cdcB A2c2 | BcBA ^GAG^F E2FG | A2^GA B2AB c2Bc |
+d2cd e4 e4 :||: g2g2 gagf e2e2 | f2f2 f2ed e2[c2e2] | g2g2 gagf e2e2 |
+f2f2 f2ed e2d2 | cBcd e2c2 B2A2 | cBA^G G4 A2B2 | cBcd e2c2 B2A2 |
+cBA^G G4 A4 :|
+P:version 2
+|: efed cdcB ABcA | BcBA ^GAG^F E2FG | A2^GA B2AB c2Bc |
+d2cd e4 e4 :||: e2ef g2g2 f2e2 | d^cde f2f2 e2d2 :| cBcd e2c2 B2A2 | 
+cBA^G G4 A2B2 | cBcd e2c2 B2A2 | cBA^G G4 A4 || 
+
+X:49
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-49
+M:3/4
+L:1/16
+K:Bm
+f3f B2f2 B2f2|g3f e2f2 g2a2|e3e A2e2 A2e2|f3e d2e2 f2g2|f2gf e2d2 c2B2|
+ABcA B8:||:c3c E2c2 E2c2|d3c B2c2 d2e2|c3c E2c2 E2c2|d3c B2c2 d2e2|
+e3e A2e2 A2e2|f3e d2e2 f2g2|f2gf e2d2 c2B2|ABcA B8:|
+
+X:50
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+H:jfr #234
+B:SvL Sk 305, ur Johan Magnus Theorins notbok fr{\aa}n V\"axj\"o
+O:Sm{\aa}land
+Z:id:hn-sp-50
+M:3/4
+L:1/16
+K:Bm
+B4 A4 B4 | d2f2 e2dc c2d2 | B2B2 A2A2 B2B2 | d2f2 e2dc d4 |
+F2GA B2AB c2Bc | d2cd e2cB A2F2 | F2GA B2AB c2Bc | d2cd e2cB A2F2 |
+F2GA B2c2 d2B2 | c2BA B8 :|
+K:F#m
+|: f4 e4 f4 | g2a2 b2ag g2a2 | f2f2 e2e2 f2f2 | g2a2 b2ag a4 |
+c2de f2ef g2fg | a2ga bagf e2c2 | c2de f2ef g2fg | a2ga bagf e2c2 |
+c2de f2g2 a2f2 | g2fe f8 :|
+
+X:51
+T:Grannas flecker
+R:sl\"angpolska
+H:efter Pelle Fors, via br\"oderna Hellstr\"om
+H:En visa "grannas flecker g{\aa}r i vall med korna"
+H:\"Aven i Am, #14, #150, #172, #208
+B:Variant 2 SvL \"Ogl nr 349, efter Carl August M{\aa}nsson
+O:\"Osterg\"otland
+Z:id:hn-sp-51
+M:3/4
+L:1/16
+K:Gm
+D2 | G3A BcBA G^FGA | BABc d4 B4 | d3^f gagf cAc=e |
+gag^f d_edc BcBA | G3A BcBA G^FGA | BABc d4 B4 | d3^f gagf cAc=e |
+[1 gag^f d6 :|2 gag^f d8 |: d3^f gagf cAc=e | gag^f d4 B4 |
+BABd fgfd BABd | fgfd c4 A4 | A2BA GABc d_edc |1 BcBA G^FAF G4 :|
+[2 BcBA G^FAF G2 ||
+P:variant fr{\aa}n SvL
+D2 | G3A BcBA G^FGA | BABc d4 B4 | d3^f gagf c=Bc=e |
+{=f}gag^f d_edc BcBA | G3A BcBA G^FGA | BABc d4 B4 |
+d3^f gagf c=Bc=e |1 {=f}gag^f d6 :|2 {=f}gag^f d8 ||
+|: d3^f gagf c=Bc=e | gag^f d4 B4 | BFDF Bdfd BFDF | Bdfd c4 A4 |
+{A}BABc d_edc BcBA |1 G^FAF [G8G,8] :|2 G^FAF [G6G,6] ||
+
+X:52
+T:Polska fr{\aa}n M\"oklinta
+R:sl\"angpolska
+H:efter klockare Robert Landin (1850-1907)
+D:SW{\AA}P: [sic]
+O:V\"astmanland
+Z:id:hn-sp-52
+M:3/4
+L:1/16
+K:D
+A2d2 cdec d4|A2f2 efge f4|a2gf g2fe f2ed|cdcB ABAG FGFE|
+D2d2 cdec d4|A2f2 efge f4|a2gf e2d2 c2B2|cBA^G A8:|
+|:A2e2 a2gf g2ed|B2f2 g2fe f2ed|c2a2 B2g2 A2f2|efed cdcB A4|
+A2d2 cdec d4|A2f2 efge f4|a2gf g2fe f2ed|cdec d8:|
+
+X:53
+T:Inte s\"orjer jag f\"or mina barn \"ar sm{\aa}
+R:sl\"angpolska
+H:efter Johan August Pettersson, Tolg, Sm{\aa}land
+H:\"Aven i Am. Jfr #137
+B:SvL Sml 120
+O:Sm{\aa}land
+Z:id:hn-sp-53
+M:3/4
+L:1/16
+K:Am
+E3A A2A2 G2G2 | A2A2 G2A2 B4 |
+w:In-te s\"or-jer jag f\"or mi-na barn e sm{\aa}
+B2B2 e2BB c2cc | {GA}B2A2 G2G2 A4 :|
+w:fem-ton ligg-er i vag-gan och fem-ton var jag g{\aa}r.
+|: c2(B2 c2)(d2 e4) | {ef}e4 B4 d4 |
+e4 A2A2 c2c2 | B2B2 G2G2 A4 :|
+W:Annan text:
+W:1. Inte s\"orjer jag f\"or mina barn \"ar sm{\aa}
+W:   femton ligger i graven och resten \"ar s{\aa} f{\aa}.
+W:2. Inte s\"orjer jag f\"or kassan den \"ar tom
+W:   inte r{\aa}r jag f\"or att p{\aa}ven bor i Rom
+W:3. Inte s\"ojer jag f\"or \"angen bliver gr\"on
+W:   d\"ar \"ar gr\"aset mjukt och lilla blomman sk\"on
+W:Vers 1 \"aven:
+W:   Somma b\"orja krypa, andra b\"orja g{\aa}
+W:Del 2:
+W:   Hustru min \"ar sn\"aller, fast\"an hon gn\"aller, 
+W:   N\"ar det sen blir kv\"aller, slumra alla s\"ott. 
+W:Vers 2, del 2:
+W:   Han har m{\aa}nga pengar, feta, lata dr\"angar, 
+W:   Som i mjuka s\"angar slumra in s{\aa} s\"ott. 
+W:Vers 3, del 2:
+W:   D\"ar ska vi spatsera, jag och barnen flera. 
+W:   D\"ar ska vi regera, sedan slumra s\"ott. 
+W:4. Inte s\"orjer jag, f\"or visan ej \"ar l{\aa}ng, 
+W:   Barnet sjunger v\"al en l\"angre n{\aa}gon g{\aa}ng. 
+W:   Sen jag livets grader, genomg{\aa}tt s{\aa} glader, 
+W:   Vill jag be Gud Fader att f{\aa} slumra s\"ott. 
+W:   Hopp fallerallalera, Fallallerallerala! 
+W:   Hopp fallerallalera, Fallallerallerala! 
+W:
+
+X:54
+T:Polska fr{\aa}n Kumla
+R:sl\"angpolska
+H:efter O Larsson, Kumla. Jfr #190
+O:N\"arke
+Z:id:hn-sp-54
+M:3/4
+L:1/16
+K:G
+d2g2 g2f2 f2e2 | f2af d6c2 | B2AB c2B2 A2G2 | BAGF G2D2 B,2G,2 | 
+d2g2 g2f2 f2e2 | f2af d6c2 | B2AB c2B2 A2G2 | A2F2 F4 G4 :| 
+|: G2B2 B2A2 A4 | A2c2 c2B2 B4 | B2d2 d2c2 c4 | c2e2 e2d2 d4 | 
+d2g2 g2f2 f2e2 | f2af d6c2 | B2AB c2B2 A2G2 | A2F2 F4 G4 :| 
+
+X:55
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-55
+M:3/4
+L:1/16
+K:Dm =b
+HD(^FA)(F D)(GB)(G D)(FA)F | A2a2-a^gbg g2a2 | HD(^FA)(F D)(GB)(G D)(FA)F |
+A2a2-a^gbg a2ae | =fefg afaf Pfeed | d^cAc e2d2 d4:|
+d2=fa a2fa a2fd | A2^ce e2ce Pfedc | d2=fa a2fa a2fd |
+A2^ce e2ce Pfedc | d2e=f g2_ba gfed | ^cdec d8 |
+P:andra delen \"aven s{\aa} h\"ar
+d2=fa a2fa a2fd | A2^ce gage Pfedc | d2=fa a2fa a2fd |
+A2^ce gage Pfedc | d2e=f g2_ba gfed | ^cdec d8 ||
+
+X:56
+T:Polska fr{\aa}n Wrigstad
+R:sl\"angpolska
+B:Wallmans samling nr 6, Sumlen 1976
+O:Sm{\aa}land
+Z:id:hn-sp-56
+M:3/4
+L:1/16
+K:D
+dcdc dcdc dcde|f2fe d2dc B4|BABA BABA BABc|d2dc B2BA G3F|
+E2G2 B2e2 g2e2|edcd e4 d4:||:fgef d2d2 e3f|gfef g2g2 e4|
+fgef d2d2 e3f|gfed c2d2 d4:|
+
+X:57
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-57
+M:3/4
+L:1/16
+K:Gm
+GABc d4 g4 | g^faf d6 =f2 | e2d2 c2B2 A2G2 | ^F2A2 d6A2 |
+B2d2 A2c2 G2B2 | A2G2 ^F2A2 d3A | B2d2 A2c2 G2B2 | BAG^F G4 G,4 :|
+|: f2g2 e4 d2f2 | e2d2 c2A2 B4 | g2a2 b4 a2g2 | g^faf d6 =f2 | 
+e2d2 c2B2 A2G2 | ^F2A2 d6A2 | B2d2 A2c2 G2B2 | BAG^F G4 G,4 :|
+
+X:58
+T:Polo fr{\aa}n Lyngs{\aa}sa
+R:sl\"angpolska
+H:ur Johan Fogelbergs notbok fr{\aa}n 1824. Johan Fogelberg var f\"odd 1806
+H:och bodde i Lunnag{\aa}rd, Arings{\aa}s socken.
+O:Sm{\aa}land
+Z:id:hn-sp-58
+M:3/4
+L:1/16
+K:Em
+B2e2 e2ef gfge | f2fd B2Bd fgaf | agbg gfaf fede |1 Bedf e2eB G2E2 :|
+[2 Bedf f4 e4 || gbag fagf egfe | defg afge d4 | GABc defg agbg |
+d2de dcBc B4 | B2e2 e2ef gfge | f2fd B2Bd fgaf | agbg gfaf fede | 
+Bedf f4 e4 ||
+
+X:59
+T:Polska Fr{\aa}n Gotland
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-59
+M:3/4
+L:1/16
+K:D
+a3g f2d2 f2a2|a2gf g2ab e2fg|g2fe d2B2 c2d2|e2dc d2cB A2Bc|d2AG F2ED B4|
+A2Bc d2A2 F2D2|a2a2 b2b2 c'2c'2|a2a2 d'2a2 f2d2|ABcd efge b2g2|egec d8:|
+|:e3d d2c2 c2e2|efed cdcB c2A2|ABA^G A2B2 c2d2|e2f^g a2ed c2BA|A3B =c4 c4|
+=c2BA B2dB G4|B2G2 G2B2 B2d2|d2cd edcB A4|a2a2 b2b2 c'2c'2|a2a2 d'2a2 f2d2|
+ABcd efge b2g2|egec d8:|
+
+X:60
+T:Polska efter Lars Lagergren
+R:sl\"angpolska
+H:efter Lars Lagergren, Likvide, Hemse, Gotland (d ca 1880)
+O:Gotland
+Z:id:hn-sp-60
+M:3/4
+L:1/16
+K:F
+A3G G2F2 F4|B3A A2G2 G3E|C3C B2A2 G2F2|EFDE CDB,C A,B,G,A,|
+A3G G2FG F4|B3A A2GA G3E|C3C B2A2 G2F2|EFGA G2AG F4:|
+|:A2c2 c2Bc dcBA|G2B2 B2AB cBAG|F2FF G2GG FEFA|c=Bcd cBcd c3_B|
+A2c2 c2Bc dcBA|G2B2 B2AB cBAG|F2FF G2GG FEFA|cBAG G2AG F4:|
+
+X:61
+T:Polska efter Skr\"addaren J. Lindberg
+R:sl\"angpolska
+H:spelad p{\aa} fl\"ojt af Skr\"addaren J. Lindberg, Marsj\"o.
+H:Version 2 ur notbok fr{\aa}n August Widmark, Ving{\aa}ker.
+B:A.P. Andersson 1880
+O:S\"ormland
+M:3/4
+L:1/16
+K:G
+g2gb g2gb g2gb | g2fg agfe d4 | d2ef gage dedB | dcBc A2G2 G4 :|
+|: B2BA G2Bc d2cB | A2AG F2AB c2BA | B2BA G2Bc d2cB |
+A2AG F2AB c2BA | d2ef gage dedB | dcBc A2G2 G4 :|
+P:version 2
+|: gdgb gdgb gdgb | edef gfge e2d2 | eceg fdfa g2e2 | dcBc A2G G4 :|
+|: BcBA GABc dedc | ABAG FGAB cdcA | BcBa GABc dedc | ABAG FGAB cdcA |
+eceg fdfa g2e2 | dcBc A2G2 G4 :|
+
+X:62
+T:Gamle skor
+R:sl\"angpolska
+H:jfr #32, #120. \"Aven i Gm
+O:Gotland
+Z:id:hn-sp-62
+M:3/4
+L:1/16
+K:Dm =b
+A3^c d2c2 d2e2 | e2f2 d2d2 =c4 |
+w:H\"a'_ dan-sa ja me m\"ain-e gamb-le sko!
+w:Ing-ge got-lands-sor-kar j\"a de till at tro!
+e2ed =c2cB A2AB | cBA^G G2A2 A4 :|
+w:Hof-fal-li ral-la-li la-la-li ral_la-di ral-lal-la!
+|: f3e f2g2 a2a2 | g2ge =c2e2 g4 |
+w:Sum-li j\"a f\"o st\"au-re, sum_li j\"a f\"o sma,
+f3e f2g2 a2a2 | gage =c2e2 g4 | f4 d2d2 =c4 |
+w:sum-li j\"a f\"o gamb-le {\aa}r_kar_ in-te ga. Haj, fal-li-ra!
+e2ed =c2cB A2AB | cBA^G G2A2 A4 :|
+w:Hof-fal-li ral-la-li la-la-li ral_la-di ral-lal-la!
+
+X:63
+T:Amerikanar'n
+R:sl\"angpolska
+H:efter Adolf Lindman, \"Osterg\"otland
+O:\"Osterg\"otland
+Z:id:hn-sp-63
+M:3/4
+L:1/16
+K:D
+([D3/A3/][F/A/]).[FA].[FA] ([D3/A3/][F/A/]).[FA].[FA] ([D3/A3/][F/A/]).[FA].[FA] | \
+(L[D3A3][FA]) .A3.d f4 | ((5fgfef) .g2.f2 .e2.d2 | .c2.B2 (AB).A.G (FG)FE |
+([D3/A3/][F/A/]).[FA].[FA] ([D3/A3/][F/A/]).[FA].[FA] ([D3/A3/][F/A/]).[FA].[FA] | \
+(L[D3A3]F) .A3.d f4 | ((5fgfef) .g2.f2 .e2.d2 | (cd).e.c d4 z4 :|
+|: (Ad).f.d (Ad).f.d (Ad).f.d | (Ac).e.c (Ac).e.c (Ac).e.c | \
+(DG).B.G (DG).B.G (DG).B.G | (DF).A.F (DF).A.F (DF).A.F |
+(D3F) (A2d2) (f2a2) | ((5aba^ga) (b2a2) (=g2e2) | [e3c3]d [d4D4] z4 :|
+
+X:64
+T:Polska efter Petter Duva
+T:Polska fr{\aa}n Gladhammar
+R:sl\"angpolska
+H:efter Petter Duva, Verkelb\"ack
+O:Sm{\aa}land
+Z:id:hn-sp-64
+M:3/4
+L:1/16
+K:D
+d2c2 d2f2 A4 | G2F2 E2EG F2D2 | d2c2 d2f2 A4 | G2F2 E2EF D4 :|
+|: f2d2 d2f2 d2f2 | g2e2 e2g2 e2g2 | f2d2 d2f2 d2f2 |
+g2e2 e2g2 e2g2 | f3a g2f2 e2d2 | c2Bc d8 :|
+P:variant
+|: d2c2 d2f2 A4 | G2F2 E2G2 F2D2 | d2c2 d2f2 A4 | GFE2 F4 D4 :|
+|: f2d2 d2f2 d2f2 | g2e2 e2g2 e2g2 | f2d2 d2f2 d2f2 |
+g2e2 e2g2 e2g2 | f2a2 g2f2 e2d2 | edc2 d4 d4 :|
+
+X:65
+T:Sunhultspolskan
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-65
+M:3/4
+L:1/16
+K:Am
+A2a2 a^gbg g2e2|e2a2 a^gbg e4|ede^f gfed cdcB|cBA^G G2A2 A2E2:|
+|:c2c2 BcdB =G3B|cde^f gfed d2e2|c2cc BcdB =G3B|cde^f gfed d2e2|
+c2dc B2cB A2A2|cBA^G ABcd e2a2|cBA^G ABcd e2a2|cBA^G G2A2 A2E2:|
+
+X:66
+T:Kom Lunkom
+R:sl\"angpolska
+B:Sm{\aa}l\"andsk musiktradition 61 i Em
+O:Sm{\aa}land
+Z:id:hn-sp-66
+M:3/4
+L:1/16
+K:Gm =e
+d4 G4 G2B2 | A2G2 =F4 D4 |
+w:Kom Lunk-om, och h\"ang dig p{\aa} mig,
+G3^F G2A2 B2c2 | c2d2 d8 :|
+w:jag ska k\"o-ra dig till M\"on-ster-{\aa}s :|
+|: B3c d2(3ded c2B2 | A3B c2(3cdc B2A2 :|
+w:Har du me-ra__ peng-ar f{\aa}r du {\aa}k-a__ l\"ang-re :|
+G3^F G2A2 B2c2 | d2^F2 G4 G4 ||
+w:an-nars f{\aa}r du sti-ga av och g{\aa}, sa'n.
+
+X:67
+T:Mikaelidagen
+R:sl\"angpolska
+O:G\"astrikland
+Z:id:hn-sp-67
+M:3/4
+L:1/16
+K:Dm =b
+D2E2 E2F2 D2E2 | F2G2 A4 F2F2 | A2d2 c4 A4 | G2F2 A8 :|
+w:R\"att nu lid-er det mot Mi-ka-e-li, d{\aa} har jag tj\"an-at ut mitt {\aa}r
+|: A2B2 c4 G3E | (FE)FG A4 F3D | D2E2 (F2A2) (A2G2) | E2F2 D8 :|
+w:N\"ar de and-ra de gr{\aa}_ta och s\"or-ja, s{\aa} f\"al-ler jag_ alls_ in-gen t{\aa}r
+
+X:68
+T:Plirar man lagom
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-68
+M:3/4
+L:1/16
+K:Dm =b
+D2DD (D2A2) A3A | B2(AG) A4 E4 |
+w:Plir-ar man la_gom p{\aa} herr-g{\aa}rds_dr\"ang-ar
+F3A G2F2 E2DD |1 D2^CD E8 :|2 D2^CD E6 ||
+w:ras-ka \"ar de v\"al men de har ing-en must. har ing-en must.
+A2 | A2cB A4 F2A2 | G2AB A4 E4 | F3A G2F2 E2D2 | (^CD)EF D6
+w:De gap-a p{\aa} \"ang-a', {\aa} pet-a i mat-a, s{\aa}-som kom-ma de fr{\aa}n fr\"am_man-de kust.
+A2 | A2cB A2F2 F2A2 | G2AB A4 E4 | F3A G2F2 E2DD | (^CD)EF D8 ||
+w:De krok-na i s\"ang-a, fast de skryt-a {\aa} gap-a ras-ka \"ar de v\"al men de har_ ing-en must.
+
+X:69
+T:Hur du v\"ander dig
+R:sl\"angpolska
+H:Text jfr #109, #169
+O:\"Osterg\"otland
+Z:id:hn-sp-69
+M:3/4
+L:1/16
+K:Dm =b
+d2A2 d2f2 e2d2 | e3d e2g2 f2e2 |
+w:Hur du v\"an-der dig {\aa} hur du sv\"ang-er dig s{\aa}
+f3e d2e2 f2f2 | e2e2 d8 :|
+w:la-ga att du har en trogen v\"an.
+|: a2f2 f4 f2a2 | g2f2 (f2e2) e4 |
+w:Snart f\"or-g{\aa}r di-na ung-doms-da_gar
+a2f2 f4 f2a2 | g2f2 (f2e2) e4 |
+w:snart f\"or-g{\aa}r di-na ung-doms-da_gar
+d2A2 d2f2 e2d2 | e3d e2g2 f2e2 |
+w:ald-rig kom-ma de, nej, ald-rig kom-ma de, nej,
+d2c2 d2b2 a2g2 | f2e2 d8 ||
+w:ald-rig kom-ma de, h\"ar mer i-gen.
+
+X:70
+T:Polska efter Ola Lans
+R:sl\"angpolska
+O:Sk{\aa}ne
+Z:id:hn-sp-70
+M:3/4
+L:1/16
+K:Am ^f
+e2a2 a2g2 gagf | edef gagf e2[e2A2]| \
+e2a2 a2g2 gagf | edef gagf e4 :|
+|: B2-B2 e2-e2 c2G2 | cde=f gagf e2-e2 | \
+B2-B2 e2-e2 c2G2 | cde=f gagf e2-e2 | \
+c2a2 g2P^f2 e2d2 | dcBc d4 c4 :|
+
+X:71
+T:Kruspolskan
+R:sl\"angpolska
+H:efter Gotthard Sj\"oman, Ventlinge, som hade den efter
+H:sin far Nils Petter Sj\"oman.
+B:\"Olands folkliga visor och melodier s184
+O:\"Oland
+Z:id:hn-sp-71
+M:3/4
+L:1/16
+K:Am ^f
+e3c A2A2 c2c2 | d2d2 f2fd e4 | c3e g2e2 c2c2 | d2d2 f2fd e4 |
+e3g b2b2 a2a2 | g2g2 e2e2 c2c2 | d2B2 PB2A2 A4 :|
+|: A3B c2A2 B4 | B2AB c2A2 A4 | A3B c2A2 B4 | B2AB c4 A4 :|
+W:Inte krusar ja' f\"or du \"ar n\"att och grann
+W:f{\aa}r jag inte dig s{\aa} tar ja' v\"al en ann'
+W:
+
+X:72
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+H:efter Karl August Lindblom, Rejmyre, Skedevi, \"Osterg\"otland
+H:F\"orsta delen jfr #213
+B:Version 2: C A Lindblom 4
+O:\"Osterg\"otland
+Z:id:hn-sp-72
+M:3/4
+L:1/16
+K:D
+A2BA G2B2 A4 | A2Bc d2A2 GFED | A2BA G2B2 A4 |1 ABcd e2ce d4 :|
+[2 ABcd e2ce d2e2 |: f4 fgfe f2a2 | e3f e2d2 e2f2 | g4 gagf g2b2 |
+efed c2e2 a4 | a2fa ageg gfdf |1 fece e2d2 d2e2 :|2 fece e2d2 d4 ||
+P:version 2
+|: A4 G4 F4 | A2Bc d2A2 GFEF | A2A2 G2G2 F2A2 | ABcd e2d2 d4 :|
+|: f4 fgfe f2a2 | e2d2 c2d2 e2f2 | g4 gagf g2b2 | e2d2 c2e2 a4 |
+fdfa ageg gfdf | fece e2d2 d4 :|
+
+X:73
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+H:efter Karl August Lindblom, Rejmyre, Skedevi, \"Osterg\"otland
+B:C A Lindblom 64
+O:\"Osterg\"otland
+Z:id:hn-sp-73
+M:3/4
+L:1/16
+K:D
+A4 AGFG AGFG | A2A2 d2f2 a4 | gagf efed cdcB | ABcd efed cdcB |
+A4 AGFG AGFG | A2A2 d2f2 a4 | gagf efed cdcB | ABcd e4 d4 :|
+|: cdcB ABcd e2ef | g2ga f2fg e2d2 | cdcB ABcd e2ef | g2ga f2fg e4 |
+A4 AGFG AGFG | A2A2 d2f2 a4 | gagf efed cdcB | ABcd e4 d4 :|
+
+X:74
+T:Polska efter Lasse i Svarven
+R:sl\"angpolska
+H:Efter L.J. Sundell, V\"astervik
+B:SvL \"Ogl 306
+O:Sm{\aa}land, \"Osterg\"otland
+Z:id:hn-sp-74
+M:3/4
+L:1/16
+K:D
+d2dc d2A2 F2D2 | d2dc d2ef e4 | f2ef g2fe f2ed | (ef)ed (cd)cB c2A2 |
+d2dc d2A2 F2D2 | d2dc d2ef e4 | f2ef g2fe f2ed | (cd)ec d4 D4 :|
+|: (fa)fd (fa)fd (fa)fd | (eg)ec (eg)ec (eg)ec | d2dc B2Bc d2f2 |
+efed cdcB c2A2 | (Bd)BG (Bd)BG (Bd)BG | (Ad)AF (Ad)AF (Ad)AF |
+G2F2 E2g2 f2ed | (cd)ec d4 D4 :|
+
+X:75
+T:V{\aa}ngapolskan
+R:sl\"angpolska
+H:Spelades \"aven av Pelle Fors. Jfr #183
+B:Version 1: SvL \"Ogl 314, version 2: C A Lindblom 89
+O:\"Osterg\"otland
+Z:id:hn-sp-75
+M:3/4
+L:1/16
+K:D
+D2FA d4 d4 | d2cd e2de fedc | d2b2 b2a2 a2g2 | g2f2 efed cBAG |
+F2D2 D2F2 F2ED | A,2{E}A2 A,2{E}A2 A,2{E}A2 | F2D2 D2F2 F2ED |
+A,2{E}A2 A,2{E}A2 A,2{E}A2 | DEFG ABcd efge | bage c2d2 d4 :|
+|: A2ce a4 a4- | a2^ga b2bg e4 | a2ba e4 c4 | d2f2 edcB AGFE |
+FAdA FAdA FAdA | B2G2 G2B2 Bdcd | e2ed cded cded | d2f2 edcB AGFE |
+F2D2 D2F2 F2ED | A,2{E}A2 A,2{E}A2 A,2{E}A2 | F2D2 D2F2 F2ED |
+A,2{E}A2 A,2{E}A2 A,2{E}A2 | DEFG ABcd efge | bage c2d2 d4 :|
+P:version 2
+|: D2FA d4 d4 | d2cd e2de fedc | d2b2 b2a2 a2g2 | f2ed cdec A4 |
+{G}F2D2 D2F2 F2ED | [E2A,2][E2A,2] [E2A,2][E2A,2] [E2A,2][E2A,2] |
+{G}F2D2 D2F2 F2ED | [E2A,2][E2A,2] [E2A,2][E2A,2] [E2A,2][E2A,2] |
+DEFG ABcd efga | bgec c2d2 [d4D4] :||: A2ce a4 a4 | a2ga b2bg e4 |
+a2ba e4 c4 | d3f edcB A4 | FAdA FAdA FAdA | B2G2 G,2B2 B2d2 |
+cdec cdec cdec | d3f edcB A4 | {G}F2D2 D2F2 F2ED |
+A,EAE A,EAE A,EAE | DEFG ABcd efga | bgec c2d2 [d4D4] :|
+
+X:76
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Jfr #4 (delarna i omv\"and ordning), #174 (samma andradel)
+B:SvL \"Ogl 348
+O:\"Osterg\"otland
+Z:id:hn-sp-76
+M:3/4
+L:1/16
+K:Dm
+A3(^c d2)e2 (cA)ce | e3(f gf)ed (^cd)ef | g2ab (af)df (ab)ag |
+(ef)ed (^cd)c=B (AG)^FG | A3(^c d2)e2 (cA)ce | e3(f gf)ed (^cd)ef | 
+g2ab (af)df (ab)ag | ecec [d8F8] :||: {fgfe}f2c2 f2"gliss"(a2 c'2)a2 |
+a2gf (ec)ef (ga)ge | {fgfe}f2c2 f2"gliss"(a2 c'2)a2 |
+a2gf (ec)ef (ga)ge | f2af e2ge d2e2 | (fe)d^c c2d2 [d4F4] :|
+
+X:77
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Variant 1: Anselm & Allan Hellstr\"om, Vikbolandet, efter Pelle Fors
+B:Variant 2: SvL \"Ogl 365, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+B:Variant 3: SvL Sml 9, efter Anders Fredrik Andersson, Tryserum
+B:Variant 4: Bagge 3
+B:Variant 5: Folkmusik fr{\aa}n \"Oland, efter Joh. Magnusson, Borgholm
+O:\"Osterg\"otland, Sm{\aa}land, \"Oland
+Z:id:hn-sp-77
+M:3/4
+L:1/16
+K:G
+d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g4 | d4 c4 (B/c/B/A/B2) |
+G2AB (cB)AF G2D2 | d4 c4 (B/c/B/A/B2) | G2AB (cd)ef g2(g2 |
+d2)(d2 c2)(c2 B2)(B2 | G2)AB (cB)AF F2G2 :||: D2f2 d2f2 (fg)af |
+d2g2 D2g2 (ga)bg | d2f2 D2f2 (fg)af | d2g2 D2g2 (ga)bg |
+d2ef (ga)ge (ed)dB | (dc)AF A2G2 G4 :|
+P:variant 2
+|:Ld4 Lc4 LB4 | G2Bc d2ef gfge | d2B2 c2A2 B2G2 | G2{AG}FG AGFE DCB,A, |
+G,2d2 d2Ac BcBA | G2Bc d2ef gfge | d2Bd c2Ac B2GB | BdcA A2G2 G4 :|
+|: D2f2 fafd fafd | G2g2 gbgd gbgd | D2f2 fafd fafd |
+G2g2 gbgd gbgd | d2ef gage dedc | BcBA A2G2 G4 :|
+P:variant 3
+|: d2d2 c2c2 B2B2 | GABc d2ef g2g2 | d2dB c2cA B2d2 | dcAF A2G2 G4 :|
+|: d3f f2d2 f2af | d3g g2d2 g2bg | d3f f2d2 f2af | d3g g2d2 g2bg | 
+d2ef gagf g2fe | d2B2 G2Bd g2g2 | d2dB c2cA B2d2 | dcAF A2G2 G4 :|
+P:variant 4
+|: d2(dB) c2cA B2(BA) | G2(AB) cdef gfge | d2(dB) c2(cA) B2(BA) |
+G2(AB) cBcA A2G2 :||: D2fA fAfA (fa)fd | G,2gB gBgB (gb)gd |
+D2fA fAfA (fa)fd | G,2gB gBgB (gb)gd | d2ef (gf)ge d2(dB) |
+(cB)cA A2G2 G2 z2:|
+P:variant 5
+|: d2dB c2cA B4 | G2AB cdef g4 | d2dB c2(3cdc B2G2 | ABcA A4 G4 :|
+|: d2f2 f2f2 gfed | ^cdef g2g2 agfe | d2f2 f2f2 gfed |
+^cdef g2g2 agfe | d2dB c2(3cdc B2G2 | ABcA A4 G4 :|
+
+X:78
+T:Nu \"a de jul igen
+T:Skr\"addarepolskan
+R:sl\"angpolska
+H:jfr #45, andra delen jfr #38. Nils Olsson hade den efter organisten
+H:Johan Arvid Hultgren (1825-1908), som troligen hade den efter Ristman.
+H:Hultgren var ursprungligen fr{\aa}n norra Tjust.
+B:Variant 1: SvL \"Ogl 56, efter Gustaf Andersson, Risinge
+B:Variant 2: SvL \"Ogl 367, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+B:Variant 3: Bagge 7
+O:\"Osterg\"otland
+Z:id:hn-sp-78
+M:3/4
+L:1/16
+K:D
+P:variant 1
+A2dd d2A2 FGFE | D2dd d2A2 FDFA |
+w:Nu \"a de jul i-gen_ d\"a_ v\"an-der_ om i-gen_ ja_
+d2df e2eg f2a2 | a2ag b2bg a4 :|
+w:tror att_ ju-la_ r\"ack-er \"an te_ p{\aa}__ska.
+|: b2g2 gfgb b2g2 | agfe dcdf a2f2 | gfed cdef gfge |
+dcBc dcdA FGFE | D2g2 gfgb b2g2 | agfe defg a2f2 | gfed cdef gfge |
+dcBc c2d2 d4 :|
+P:variant 2
+|: A2dd d2A2 FGFE | D2dd d2A2 FDFA | d2df e2eg f2a2- | a2{ba}ga b2g2 a4 :|
+|: a2g2 gfga b2g2 | g2fe defg a2f2 | gfed cdef gfge |
+dcBc dedA FGFE | a2g2 gfga b2g2 | g2fe defg a2f2 | gfed cdef gfge |
+dcBc e2d2 d4 :||: d2d'd' d'2d'2 d'2d'2 | d'2c'c' c'2c'2 c'2c'2 |
+c'2bb b2b2 b2b2 | b2aa a2a2 a4 | a2g2 gfga b2g2 | g2fe defg a2f2 |
+f2ed cdef gfge | dcBc e2d2 d4 :|
+P:variant 3
+|: A3d d2A2 F2A2 | A3d d2A2 F2A2 | d2d2 e2e2 f2f2 | g2(fg) a4 a4 :|
+|: a3g g2g2 b3g | g3f f2f2 a3f | f2(ef) e2e2 g3e | dcBc d4 d4 :|
+.d3d' d'2d'2 f'3d' | d'3c' c'2c'2 e'3c' | c'2(bc') b2b2 d'3b |
+c'bab a4 a4 | a3g g2g2 b3g | g3f f2f2 a3f | f2(ef) e2e2 g3e |
+dcBc d4 d4 || 
+
+X:79
+T:Br\"annvinspolskan
+R:sl\"angpolska
+H:Jfr #34, #189, #230
+B:SvL \"Ogl 368, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+O:\"Osterg\"otland
+Z:id:hn-sp-79
+M:3/4
+L:1/16
+K:C
+c4 B4 c4 | d3c B2c2 d4 | e4 f2e2 d2c2 | B2A2 G2F2 E2G2 |
+c4 B4 c4 | d3c B2c2 d2e2 | f2ag fgfe dedc | BAGB d2c2 c4 :|
+|: c2e2 e2g2 g2g2 | g2fg agfe g2f2 | d2f2 f2f2 f2f2 |
+f2ef gfed d2c2 | c2e2 e2g2 g2g2 | agfg agfe g2f2 | d2f2 f2f2 f2f2 |
+gfef gfed d2c2 | EGcc EGcc EGcc | c2G2 E2G2 F2D2 | EGcc EGcc EGcc |
+c2G2 E2G2 F2D2 | G2EG c2Gc e2g2 | (gf)dB d2c2 c4 :|
+
+X:80
+T:Hopp j\"aklar i lull
+R:sl\"angpolska
+B:SvL \"Ogl 419, efter Karl Gustaf Bergstr\"om, Rimforsa
+O:\"Osterg\"otland
+Z:id:hn-sp-80
+M:3/4
+L:1/16
+K:G
+g4 d2(dc B4) | A2AB cBA2 G4 | G3A B2c2 d2e2 | (5fgagf e4 d4 :|
+w:Hopp, j\"ak-lar i lull, i-kv\"all ska ja supa mig full
+|: G3B dBGB d2c2 | D2FA (cA)FA c2B2 | G3B dBGB d2c2 |
+D2FA (cA)FA c2B2 | G3(A B2)c2 d4 | d3d e2f2 g4 |
+d2dd g2g2 B3d | (dc)Bc A4 G4 :|
+
+X:81
+T:Polska efter Carl Johan Nilsson
+R:sl\"angpolska
+H:Han hade den efter Lars L\"ofgren, K{\aa}rtorp, K\"attilstad
+B:SvL \"Ogl 443, efter Carl Johan Nilsson, \"Askeb\"ack, Kisa
+O:\"Osterg\"otland
+Z:id:hn-sp-81
+M:3/4
+L:1/16
+K:G
+G2(3AGF G2A2 B2G2 | [D2G,2]d2 d2e2 f2d2 | D2g2 g2g2 b2g2 |
+g2g2 (ag)fg d4 :||: B2d2 (edBd) (edBd) | (A2c2) (dcAc) (dcAc) | 
+B2d2 (edBd) (edBd) | (A2c2) (dcAc) (dcAc) | d2ef (gf)ge d2dc |
+(dc)Bc A2(AF) G4 :|
+
+X:82
+T:Polska efter C G {\AA}strand
+R:sl\"angpolska
+H:Han hade den efter en skr\"addarm\"astare Reinhold i Hycklinge
+B:SvL \"Ogl 468, efter C G {\AA}strand, Falla, Horn
+O:\"Osterg\"otland
+Z:id:hn-sp-82
+M:3/4
+L:1/16
+K:D
+A2Bc d2e2 f2g2 | (ag)fg a2a2 f2d2 | (gb)ge (fa)fd (eg)ec |
+(dc)Bc d2dA FDFA | A2Bc d2e2 f2g2 | (ag)fg a2a2 f2d2 | 
+(gb)ge (fa)fd (eg)ec | (dc)Bc c2d2 d4 :||: A2c2 egec egec |
+d2d2 fafd fafd | A2c2 egec egec | d2d2 fafd fafd | 
+gbge fafd egec | dcBc d2dA FDFA | A2c2 egec egec |
+d2d2 fafd fafd | A2c2 egec egec | d2d2 fafd fafd | 
+gbge fafd egec | dcBc c2d2 d4 :|
+
+X:83
+T:Flickan st{\aa}r p{\aa} golvet
+R:sl\"angpolska
+B:Version 1: SvL \"Ogl 498, fr{\aa}n Norra Vi. 
+B:Version 2: Bagge \"Ogl 41
+B:Version 3: A.P. Andersson 1880
+O:\"Osterg\"otland, S\"ormland
+Z:id:hn-sp-83
+Z:version 1 transponerad fr{\aa}n Dm
+M:3/4
+L:1/16
+K:Am
+c2c2 B2B2 A2A2 | c2c2 d2d2 e4 :| c2c2 c2e2 g2f2 |
+d2f2 a2g2 e4 | c2c2 B2B2 A2A2 | cBA^G ^G2A2 A4 ||
+P:version 2:
+c2(cd) B2(Bc) A2A2 | e2e2 {f}d2d2 e4 | c2(cd) B2(Bc) A2A2 |
+e2(ef) d2(df) e4 :||: e3c c3e g2f2 | d3f a2g2 e4 |
+c2(cd) B2(Bc) A2(AB) | (cB)A^G A2E2 C2E2 | e3c c3e g2f2 |
+d3f a2g2 e4 | c2(cd) B2(Bc) A2(AB) | (cB)A^G A4 A,2 z2 :|
+P:version 3:
+c2cd B2Bc A2A2 | e2e2 d2cd e4 :| c2cB c2e2 g3e | d2f2 a2g2 e4 |
+c2cd B2Bc A2AB | cBA^G G2A2 A4 ||
+W:Text fr{\aa}n SvL:
+W:1. Flickan st{\aa}r p{\aa} golvet som en fager ros.
+W:Denna vackra gossen vill hon sova hos. Trall...
+W:2. Flickan sad' till gossen: Vill du bli min v\"an?
+W:Ja g\"arna om det vore uti denna kv\"all. Trall...
+W:3. Vill du bli min v\"an, s{\aa} r\"ack dig hit min hand.
+W:Och h{\aa}ller du mig k\"ar, s{\aa} tar du mig i famn. Trall...
+W:4. Mitt upp p{\aa} golvet b\"addas upp en s\"ang.
+W:D\"ar jag skulle vila med min lilla v\"an. Trall...
+W:Text fr{\aa}n Folk och Rackare:
+W:1. Flickan st{\aa}r p{\aa} golvet fager som en ros.
+W:Denna vackra gosse vill hon sova hos.
+W:Tv{\aa} och tv{\aa} i dansen, en och en g{\aa}r fri
+W:Mister du balansen d{\aa} \"ar allt f\"orbi
+W:2. Gossen st{\aa}r p{\aa} golvet reslig som ett tr\"ad
+W:Denna vackra flicka skall jag sova med.
+W:Tv{\aa} och tv{\aa} i dansen, en och en sl{\aa}s ut
+W:Mister du balansen d{\aa} \"ar allting slut.
+W:
+
+X:84
+T:Polska efter C G {\AA}strand
+R:sl\"angpolska
+H:efter hans fru och hennes mormor
+B:SvL \"Ogl 472, efter C G {\AA}strand, Falla, Horn
+O:\"Osterg\"otland
+Z:id:hn-sp-84
+M:3/4
+L:1/16
+K:C ^f
+g4 g2{ag}e2 c2a2 | (a2g2) g2f2 f2ef | g2ag e2ge c2c2 | c2{d}BA G4 G4 |
+g4 g2{ag}e2 c2a2 | (a2g2) g2f2 f2ef | g2ag e2ge c2c2 | c2{d}BA G4 c4 :|
+|: (dc)BA [G2G,2]B2 [G2G,2]B2 | [G2G,2]B2 cBAB c4 |
+(dc)BA [G2G,2]B2 [G2G,2]B2 | [G2G,2]B2 cBAB c4 |
+a2g2 f2{gf}e2 d2c2 | (cB)AB G4 c4 :|
+
+X:85
+T:Polska efter C G {\AA}strand
+R:sl\"angpolska
+B:SvL \"Ogl 484 efter C G {\AA}strand, Falla, Horn
+O:\"Osterg\"otland
+Z:id:hn-sp-85
+M:3/4
+L:1/16
+K:Am ^f
+A3B c3d e3f | g2g2 (ag)fg e2d2 | dfaf dfaf d2ff |
+{g}f2{gf}e^d ^d2e2 e4 :| [M:1/4] e4 |: [K:A][M:2/4] (ag)ae cAc2 |
+(BG)Bd (cA)ce | (ag)ae cAc2 | BGBd dcBG | AGAE CA,CE |
+(ag)ae cAc2 | (BG)Bd (cA)ce | (ag)ae cAc2 | BGBd dcBG | G2A2 [A4A,4] :|
+
+X:86
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+H:Spelas \"aven i Gm, se #5
+O:Sm{\aa}land
+Z:id:hn-jp-86
+M:3/4
+L:1/16
+K:Am
+A3B cBA^G ^G2A2 | A3B cBA^G ^G2A2 | A^GAB cBcd e^de^f |
+g^fe^d ^d2e2 e4 :| [K:A] |: e2a2 a2{b}ag a2a2 | e2fe d2d2 f2e2 |
+c2cd B2Bc ABcd | e2a2 agbg e4 | e2a2 a2{b}ag a4 | e2fe d2d2 f2e2 |
+c2cd B2Bc A3c | dcBA G2A2 A4 :|
+
+X:87
+T:Polska efter Nisse Didan
+R:sl\"angpolska
+B:SvL Sml 33, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-87
+M:3/4
+L:1/16
+K:D
+d2ef g2ge f2fg | a2af g2ge f2d2 | d2ef g2ge f2fg | agfe c2d2 d4 :|
+[K:G] |: G2B2 d2B2 c2B2 | A2AB c2Ac B2A2 | G2B2 d2B2 c2B2 |
+A2AB c2Ac B2A2 | G2AB c2Ac B2AG | FGAF G8 :| [K:D] |: AFAF BGBG A2d2 |
+cdef gfge f2d2 | AFAF BGBG A2d2 | cdef gfge d4 :||: f4 d4 A4 |
+g2f2 e2e2 d2c2 | e4 c4 A4 | f2f2 gfge d4 :|
+
+X:88
+T:K\"ohlen
+R:sl\"angpolska
+H:Ida hade den efter spelmannen K\"ohlen. Jfr #182
+B:SvL Sml 47, efter Ida-Sofia Jonsson-Erlandsson, B\"ackebo
+O:Sm{\aa}land
+Z:id:hn-sp-88
+M:3/4
+L:1/16
+K:Am
+(vE2 | [A3A3])B (cB)(cd) e2a2 | a3^f (df)(af) f2ed |
+^c2ce (g^f)(ge) c2e2 | (=cB)(A^G) (G2A2) [A2A2](E2 | 
+[A3A3])B (cB)(cd) e2a2 | a3^f (df)(af) f2ed | ^c2ce (g^f)(ge) c2e2 |
+(=cB)(A^G) (G2A2) [A2A2] :||: x2 | (Ac)(ec) (Ac)(ec) c2B2 |
+(E^G)(BG) (EG)(BG) G2A2 | (Ac)(ec) (Ac)(ec) {cd}c2B2 |
+(E^G)(BG) (EG)(BG) {GA}G2A2 | [A2A2]([AA]B) (cB)(cd) e2(ed) |
+(cB)(cA) (^G2A2) [A2A2] :|
+
+X:89
+T:Flickornas Michaelidans
+R:sl\"angpolska
+B:SvL Sml 48, efter Ida-Sofia Jonsson-Erlandsson, B\"ackebo
+O:Sm{\aa}land
+Z:id:hn-sp-89
+M:3/4
+L:1/16
+K:Am
+ve>(fe)>(d c)>(Bc)>(B A2A>(c | B)>(AB)>(A ^G2A2) A,4 |
+A2A>(B c)>(Bc)>(d e2)e>(^f | g)>(^fg)>(e ^d2e2) [e4e4] :|
+|: e2(ea) a2(a^f) a2a2 | ^f2(fg) f2(fe) d2d2 | d2(e^f) g2(gf) g2g2 |
+e2(e^f) e2(ec) B2c2 | A2(AB) (cB)(cd) e2(ed) | (cB)(cA) (^G2A2) [A4A,4] :|
+
+X:90
+T:Polska efter Ida i Rye
+R:sl\"angpolska
+B:SvL Sml 49, efter Ida-Sofia Jonsson-Erlandsson, B\"ackebo
+O:Sm{\aa}land
+Z:id:hn-sp-90
+M:3/4
+L:1/16
+K:D
+(vA2 | !fz!Ld2).d.f .e.d.c.B A2(A2 | d2).d.f .e.d.c.B A2(A2 | 
+d2)(de) .=f.e.f.g a2(d2 | ^f2).e.c (e2d2) d2 :||: A2 |
+{[eA]}!fz![=f2A2].f.a .f.d.f.a (a2gf) | [e2A2].e.g .e.c.e.g (g2=fe) |
+{[eA]}!fz![=f2A2].f.a .f.d.f.a (a2gf) | [e2A2].e.g .e.c.e.g (g2=fe) |
+.d.c.d.e .=f.e.f.g a2(d2 | !fz!^f2).e.c (e2d2) d2 :|
+
+X:91
+T:Polska fr{\aa}n \"Osterg\"otland
+R:sl\"angpolska
+H:jfr #106.
+B:Variant 1: Bagge 12. Variant 2: W{\ae}nerbergs samling, Sumlen 1976
+O:\"Osterg\"otland
+Z:id:hn-sp-91
+M:3/4
+L:1/16
+K:Dm
+a3f d2d2 ^c2c2 | d2d2 e2e2 fefg | a3f d2d2 ^c2c2 | (A4 .d4) z4 :|
+fefg a4 f2 z2 | gfga b4 g2 z2 | gfef g2e2 g2e2 | fefg a4 f2 z2 |
+a3f d2d2 ^c2c2 | d2d2 e2e2 fefg | a3f d2d2 ^c2c2 | (A4 .d4) z4 || 
+K:Am
+e3c A2A2 ^G2G2 | A2A2 B2B2 {d}cBcd | e3c A2^G2 A2c2 |
+[1 E2^F^G A4 A2z2 :|2 E2^F^G A4 A2z |: B | {d}cBcd e2c2 e2c2 |
+dcde f4 d4 | {c}BABc d2B2 d2B2 | cBcd e4 c4 | e3c A2A2 ^G2G2 |
+A2A2 B2B2 {d}cBcd | e3c A2^G2 A2c2 |1 E2^F^G A4 A2z :|2 E2^F^G A4 A2z2 ||
+
+X:92
+T:Ena tocka d\"aka
+R:sl\"angpolska
+H:jfr #13
+O:Sm{\aa}land
+Z:id:hn-sp-92
+M:3/4
+L:1/16
+K:Am
+e2(ef) e2(ef) e2d2 | c2B2 A4 E4 |
+w:en-a_ tock-a_ d\"a-ka vill eg ha san,
+A3B c2d2 e2^f2 | g2^f2 e4 e4 |
+w:som f\"or-st{\aa}r att tyck-a om mig bra san,
+e3c c2e2 d2c2 | d3B B2d2 c2B2 |
+w:som \"ar huld o tro-gen, o kan g{\aa} p{\aa} kro-gen, 
+A3G A2B2 c2d2 | e2G2 A4 A4 :|
+w:o kan ta en sup s{\aa} v\"al som ja, san.
+|: e4 A4 G4 | c3d e4 e4 | e2(ef) e2(ef) e2d2 | c2B2 A4 A4 :|
+w:hej hopp-san, i ga-lopp-san, in-te_ gif-ter_ jag mig \"an s{\aa} br{\aa}tt san.
+P:Sofias variant p{\aa} sista delen
+|: e4 A4 G4 | c3d e4 e4 | g3f e2d2 c2d2 |1 c2B2 A4 G4 :|2 c2B2 A4 A4 ||
+w:hej hopp-san, i ga-lopp-san, in-te_ gif-ter_ jag mig \"an s{\aa} br{\aa}tt san.
+W:ist\"allet f\"or "huld och trogen" har Sofia "redobogen"
+W:
+
+X:93
+T:N\"ar som flickorna de gifta sig
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-93
+M:3/4
+L:1/16
+K:Am
+e2(ef) e2(ef) e2d2 | c2B2 A4 B4 |
+w:N\"ar som_ flick-or_na de gif-ta sig, d{\aa}
+c3B A2B2 c2d2 | d2e2 e8 :|
+w:f{\aa}r de an-nat till att t\"an-ka p{\aa}.
+|: e3c c2c2 c4 | e3d d2d2 d4 |
+w:Ha sin lil-la v\"an, sv\"ang-a om i-gen,
+e2f2 g4 B4 | c3B c2d2 e4 | 
+w:ald-rig n{\aa}n-sin \"ov-er-gi-va den,
+def2 e2e2 c2c2 | B2cB A8 :|
+w:f\"orr_\"an d\"o-den dem {\aa}t-skil__jer.
+
+X:94
+T:Handskarna du gav mig
+R:sl\"angpolska
+H:efter Ida i Rye (1852-1931)
+O:Sm{\aa}land
+Z:id:hn-sp-94
+M:3/4
+L:1/16
+K:D
+d3c d2e2 f2d2 | g3f e2d2 c2A2 :|
+w:Hand-skar-na du gav mig, dom gick in-te p{\aa} mig.
+d3c d2e2 f2d2 | g3f e2d2 c2A2 :|
+w:Vill du in-te ha mig, f{\aa}r du l{\aa}-ta va' mig.
+|: d4 B4 B2d2 | =c2B2 A4 G4 |
+w:s\"ag, s\"ag, om du vill ha mig, s{\aa}
+F2A2 d4 f4 | e2=c2 d4 f4 | e2=c2 d8 :|
+w:f{\aa}r du mig, s{\aa} st{\aa}r du dig, s{\aa} st{\aa}r du dig.
+% takt 2 & 4 \"aven | g3f efed c2A2 |
+
+X:95
+T:S\"orpings gater
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om. Jfr #130, #178, #193, #248
+O:\"Osterg\"otland
+Z:id:hn-sp-95
+M:3/4
+L:1/16
+K:G
+B2BB B2B2 A2A2 | B2B2 A4 G4 |
+w:K\"ann-er du grann-as Britt-a, jo jo men san,
+B2BB c2cc B2B2 | dcBc A4 G4 ||
+w:K\"ann-er du dot-er-a henn-es, jo_ jo_ men san.
+B2B2 B2B2 A2A2 | B2B2 B2B2 A2AA | 
+w:G{\aa}r p{\aa} S\"or-pings gat-er, s\"al-jer pann-e-kak-er, i-
+B2B2 c2c2 B2Bd | dcBc A4 G4 ||
+w:bland f\"or fyr-a \"or-e, i-bland_ f\"or_ fem, san.
+|: G3G B2G2 B2G2 | B3B d2B2 d2BB | 
+w:Ha de rall-an lall-an, ha de rall-an lall-an, i-
+d3d g2g2 d2dd | B2B2 A4 G4 :|
+w:bland f\"or fyr-a \"or-e, i-bland f\"or fem, san.
+
+X:96
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om
+O:\"Osterg\"otland
+Z:id:hn-sp-96
+M:3/4
+L:1/16
+K:D
+d3d B4 e4 | dcBc d2A2 F2A2 | d3d B2B2 e2e2 | dcBc d8 :|
+|: d3d e4 a4 | a2f2 g2e2 f2d2 | d3d e4 a4 | a2f2 g2e2 f2d2 |
+d3d B2B2 e2e2 | dcBc d8 :|
+P:Jfr Bagge nr 18:
+edcd B4 e4 | dcBc d2A2 F2A2 | edcd B2B2 e2e2 | dcBc d6 z2 :|
+|: edcd e4 a4 | a2a2 fgfe f2gf | edcd e4 a4 | a2a2 fgfe f2gf |
+edcd B4 e4 | dcBc d6 z2 :|
+
+X:97
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om
+O:\"Osterg\"otland
+Z:id:hn-sp-97
+M:3/4
+L:1/16
+K:D
+A2d2 d2c2 d2B2 | TB2A2 A2G2 TG2F2 | A3d f3d A2A2 | G2G2 F8 :|
+|: edef g2e2 c2A2 | ABAG F2D2 F2A2 | edef g2e2 c2A2 |
+ABAG F2D2 F2A2 | A2d2 d4 f4 | (ed)ef g2g2 e2e2 | c2c2 d8 :|
+
+X:98
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om
+H:Jfr Sm{\aa}l\"andsk musiktradition I:40 i Eb-dur
+O:\"Osterg\"otland
+Z:id:hn-sp-98
+M:3/4
+L:1/16
+K:G
+G3B AFAc BGBd | d2gf edef f2g2 | gece edBd dcBA | GFGB AGFE DCB,D |
+G3B AFAc BGBd | d2gf edef f2g2 | gece edBd dcBA | GFDF A2G2 G4 :|
+|: D2FA cAFA cAFA | G2Bd gdBd gdBd | D2FA cAFA cAFA | G2Bd gdBd gdBd |
+d2gf edef f2g2 | d2gf edef f2g2 | gece edBd dcBA | GFDF A2G2 G4 :|
+
+X:99
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om
+O:\"Osterg\"otland
+Z:id:hn-sp-99
+M:3/4
+L:1/16
+K:G
+D3G G2B2 B/c/B/A/B2 | G3B B2d2 dedB | cdec A2A2 GFEF | GFGB AGFE DCB,D |
+D3G G2B2 B/c/B/A/B2 | G3B B2d2 dedB | cdec A2A2 GFEF | D2EF G8 :|
+|: g/a/gfg e4 c4 | c2e2 e2g2 gagf | f2d2 dBGB dedc | A2A2 GFEF GFGB |
+AGFE DCB,A, G,2g2 | e2e2 cAce eggf | f2d2 dBGB dedc | A2A2 GFEF D2EF |
+G12 :|
+
+X:100
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Anselm och Allan Hellstr\"om
+O:\"Osterg\"otland
+Z:id:hn-sp-100
+M:3/4
+L:1/16
+K:G
+{B}d3B G2Bd g4 | g2fg abag f2d2 | d2g2 B2c2 d2e2 | dcAF GFGD CB,A,G, |
+d3B G2Bd g4 | g2fg abag f2d2 | d2g2 B2c2 d2e2 | dcAF G8 :|
+|: A2F2 D2F2 A2c2 | c2Bc dedc B2G2 | A2F2 D2F2 A2c2 | c2Bc dedc B2G2 |
+d3B G2Bd g4 | g2fg abag f2d2 | d2g2 B2c2 d2e2 | dcAF G8 :|
+
+X:101
+T:Klara Stj\"arnor
+R:sl\"angpolska
+O:Uppland
+Z:id:hn-sp-101
+M:3/4
+L:1/16
+K:Gm
+G2AB G2AB G2AB | cBAG d4 d4 | d2=e^f g2a2 b2g2 | ^fgaf d2c2 B2A2 |
+G2AB G2AB G2AB | cBAG d4 d4 | d2=e^f g2a2 b2g2 | ^fgaf g8 :|
+|: B2d2 B2d2 edcB | A2c2 A2c2 dcBA | G2B2 G2B2 cBAG | ^FGAF D8 |
+B2d2 B2d2 edcB | A2c2 A2c2 dcBA | G2B2 G2B2 cBAG | ^F2=EF G8 :|
+
+X:102
+T:Martins Begravning
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-101
+M:3/4
+L:1/16
+K:G
+G3A B2BA B2G2 | BABc d2de d2B2 | d2ef g4 d3c | B2AG A8 :|
+|: B2B2 cBAG A2A2 | B2B2 cBAG A2A2 | B2BB c4 B2d2 | dcAF G8 :|
+
+X:103
+T:Dansen ungdom
+T:Dansa flickor
+R:sl\"angpolska
+O:Sm{\aa}land
+Z:id:hn-sp-103
+M:3/4
+L:1/16
+K:Em
+B2B2 G4 B4 | BdcB A2A2 B4 |
+w:Dan-sen ung-dom me_dan_ ni f\"or-m{\aa}r
+B2G2 E3F G2F2 |1 E2D2 E4 B4 :|2 E2D2 E4 E4 ||
+w:inn-an e-der ung-a {\aa}r f\"or-svin-na. {\aa}r f\"or-svin-na.
+|: {Bc}d3B G2BG F2BF | G2GF G2A2 B4 |
+w:Ja, det g{\aa}r s{\aa}_ lust-igt,_ ja det_ g{\aa}r s{\aa} l\"att.
+{Bc}d3B G2BG F2BF | G2GF E2D2 E4 |
+w:Ack, det g{\aa}r s{\aa}_ lust-igt,_ ack det_ g{\aa}r s{\aa} l\"att.
+{Bc}d3B G2BG F2BF | G2GF G2A2 B4 |
+w:Ja, det g{\aa}r s{\aa}_ lust-igt,_ ja det_ g{\aa}r s{\aa} l\"att.
+E3F G2F2 E2D2 | E4 E8 :|
+w:Inn-an ung-a {\aa}r f\"or-svinn-a.
+P:variant
+|: B4 G2G2 B4 | d2cB A2A2 B4 | B3G E2F2 G2F2 | E2D2 E4 B4 |
+B2B2 G4 B4 | d2cB A2A2 B4 | E3F G2F2 E2D2 | E4 E8 :|
+|: d3B G2G2 F2F2 | G3F G2A2 A2B2 | d3B G2G2 F2F2 | G3F E2D2 D2E2 |
+d3B G2G2 F2F2 | G3F G2A2 A2B2 | E3F G2F2 E2D2 | E4 E8 :|
+
+X:104
+T:Ack, ack, om det vore dag
+R:sl\"angpolska
+H:jfr #107
+Z:id:hn-sp-104
+M:3/4
+L:1/16
+K:Gm
+D4 D4 ^F2G2 | A2B2 G6 D2 |
+w:Ack, ack, om det vo-re dag, och
+G3^F G2A2 B2G2 | B2A2 A8 :|
+w:all-a flick-or sto-do p{\aa} en rad.
+|: A2=F2 F2F2 A2A2 | B2G2 G2G2 B2B2 |
+w:Och jag fing-e tag-a den som mig be-ha-ga',
+A4 =F4 A2G2 | =E2=F2 D8 :|
+w:ack, ack, om det vo-re dag.
+W:1. Ack, ack, om det vore dag,
+W:   och alla flickor stodo p{\aa} en rad.
+W:   Och jag finge taga den som mig behaga',
+W:   ack, ack, om det vore dag.
+W:2. Ack, ack, om det vore kv\"all,
+W:   och alla flickor sutto p{\aa} ett spj\"all.
+W:   Och jag i spj\"allet droge, och de i askan sloge,
+W:   Ack, ack, om det vore kv\"all.
+W:3. Ack, ack, om det vore natt,
+W:   och alla flickorna i s\"angen satt.
+W:   Och jag i s\"angen l{\aa}ge, och mig ingen s{\aa}ge,
+W:   Ack, ack, om det vore natt.
+W:4. Ack, ack, om det ville gry,
+W:   och bort fr{\aa}n flickorna jag finge fly.
+W:   Och jag ville gr{\aa}ta, och mig sj\"alv f\"orl{\aa}ta,
+W:   ack, ack, om det ville gry.
+W:5. Ack, ack, om det b\"orja' om,
+W:   och alla flickorna tillbaka kom.
+W:Vers 2 \"aven:
+W:   och alla flickor h\"angde p{\aa} ett spj\"all,
+W:   och jag finge t\"anda, och jag finge br\"anna,
+W:Vers 3 \"aven:
+W:   och jag d\"ari l{\aa}ge, och mig ingen s{\aa}ge,
+W:Kan \"aven sjungas med "gossar" ist\"allet f\"or "flickor".
+W:
+
+X:105
+T:Polska efter Bruun
+R:sl\"angpolska
+B:SvL Sk 531, efter J. Bruun som hade den efter modern som sj\"ong den
+O:Sk{\aa}ne
+Z:id:hn-sp-105
+M:3/4
+L:1/16
+K:Dm =B
+d3^c d2e2 f2d2 | e3f e2f2 e2f2 | d2d^c d2e2 f2d2 | ed^cB A4 A4 :|
+|: a2f2 f2f2 a4 | gfed cdef g4 | a2f2 f4 a4 | gfed cdef g4 |
+a2gf g2fe f2ed | e2d^c d4 d4 :|
+
+X:106
+T:Pigornas Michaelidans
+T:Pigornas Michaelidans och dr\"angarnas dito
+T:Polska fr{\aa}n Skatel\"ov
+R:sl\"angpolska
+H:jfr #26, #91, #235.
+B:Version 1: Svl Sml 156 efter J Dahl, Skatel\"ov.
+B:Version 2: Trad Sv Folkd nr 32
+B:Version 3: Sm{\aa}l\"andska mus.trad. I:214 efter Carl-Gustaf Tullberg, H\"ogahult, N\"obbele.
+O:Sm{\aa}land, Blekinge
+Z:id:hn-sp-106
+M:3/4
+L:1/16
+K:Am
+e2eB c2cA B2B^G | E2E^G A2AB cBcd | e2eB c2cA B2B^G | E^GBG B2A2 A2z2 :|
+|: ABcd e2e2 c4 | c2e2 f2ef d4 | dBGB dBGB dBGB | cBcd e2e2 e2e2 |
+e2eB c2cA B2B^G | E2E^G A2AB cBcd | e2eB c2cA B2B^G | E^GBG B2A2 A2z2 :|
+P:version 2
+|: e2eB c2cA B2B^G | E2E^G AGAB cBcd | e2eB c2cA B2B^G | E2E^G A8 :|
+|: c3d e4 g4 | e2e2 e2de d4 | B2Bc d2dB d2dB | cBcd edcB c4 |
+e2eB c2cA B2B^G | E2E^G AGAB cBcd | e2eB c2cA B2B^G | E2E^G A8 :|
+P:version 3
+|: e2eB c2cA B2BG | E2EF G2GA B2Bc | e2eB c2cA B2BG | E2FG A8 :|
+|: [M:2/4] cBcd e2g2 |[M:3/4] gfef gfef d2z2 |[M:2/4] dBGc d3d |[M:3/4]
+f2ef gfed e4 | e2eB c2cA B2BG | E2EF G2GA B2Bc | e2eB c2cA B2BG | E2FG A8 :|
+
+X:107
+T:Ack, ack, om det vore kv\"all
+R:sl\"angpolska
+H:jfr #104
+B:SvL \"Ogl 497, fr{\aa}n Tidersrum
+O:\"Osterg\"otland
+Z:id:hn-sp-107
+M:3/4
+L:1/16
+K:Am
+E4 E4 ^G2A2 | B3A A6 E2 |
+A2^G2 A2c2 e2c2 | c2B2 B4 z4 :|
+|: B2=G2 G2B2 B2B2 | c2A2 A2c2 c2B2 |
+B4 =G4 ^F2F2 | A2=G2 E4 z4 :|
+W:Ack, ack, om det vore kv\"all,
+W:och alla flickor sutto p{\aa} ett spj\"all.
+W:Och jag i spj\"allet droge, och de i askan sloge,
+W:Ack, ack, om det vore kv\"all.
+W:
+
+X:108
+T:Lilla v\"annen s\"ota
+R:sl\"angpolska
+B:SvL \"Ogl 495 fr{\aa}n Asby
+O:\"Osterg\"otland
+Z:id:hn-sp-108
+M:3/4
+L:1/16
+K:G
+D2G2 G2G2 F2D2 | D2A2 A2A2 B2G2 | G2F2 A4 z4 :|
+|: d2d2 B2B2 G2G2 | c2c2 A2A2 F2F2 | D2F2 G4 z4 :|
+W:Lilla v\"annen s\"ota, var f{\aa}r jag dig m\"ota?
+W:Var du vill!
+W:Uti \"angen gr\"ona, uti lunden sk\"ona?
+W:Om du vill!
+W:
+
+X:109
+T:Hur skall jag till lilla v\"annen komma
+T:Hur du v\"ander och hur du sv\"anger dig
+R:sl\"angpolska
+H:Text jfr #69, #169
+B:SvL \"Ogl 496 fr{\aa}n Asby
+O:\"Osterg\"otland
+Z:id:hn-sp-109
+M:3/4
+L:1/16
+K:G
+D2G2 G2G2 G2G2 | F2A2 (c2B2) G2B2 | B2A2 A2A2 F2A2 | G2E2 D8 :|
+B3c d4 B2G2 | F2G2 A2B2 c2D2 | D2D2 c2B2 A2G2 | F2G2 A8 |
+B3c d4 B2G2 | F2G2 A2B2 c4 | D2D2 c2B2 A2G2 | F2A2 G8 ||
+W:1. Hur skall jag till lilla v\"annen komma,
+W:   som varken {\aa}ker, rider eller g{\aa}r?
+W:   Jag skall v\"anta till sol och sommardag
+W:   och segla \"over de b\"oljor bl{\aa}.
+W:2. Hur du v\"ander och hur du sv\"anger dig,
+W:   s{\aa} laga att du har en trogen v\"an.
+W:   Ty snart f\"org{\aa}r dina unga dagar
+W:   och komma aldrig mer igen.
+W:
+
+X:110
+T:Ge mej ett par nya skor
+R:sl\"angpolska
+H:SvL \"Ogl 494 fr{\aa}n Norra Vi
+O:\"Osterg\"otland
+Z:id:hn-sp-110
+M:3/4
+L:1/16
+K:Dm
+D2E2 F2G2 A2^c2 | ^c2d2 d2=c2 A2A2 |
+w:Ge_ mig_ ett par ny_a_ skor, de 
+A2c2 c2B2 G2B2 | B4 A4 z2D2 |
+w:gam-la har jag dan-sat s\"on-der. Och
+D2E2 F2G2 A2^c2 | ^c2d2 d2=c2 A2A2 |
+w:al-drig vill jag ha de gam-la skor-na mer, och 
+A2c2 c2B2 G2B2 | B4 A4 z2 ||
+w:al-drig vill jag tj\"a-na b\"on-der.
+F2 | F4 A2G2 E2E2 | E4 G2F2 D4 |
+w:Den gr{\aa} rock-en {\aa} och bl{\aa} rock-en p{\aa},
+F2F2 A2G2 E2E2 | E2E2 G2F2 D2F2 |
+w:bon-de-dr\"ang i fjol och n\"amn-de-man i {\aa}r, och
+F2F2 A2G2 E2G2 | F4 D4 z4 ||
+w:n\"ast-a {\aa} s{\aa} blir jag herr-e!
+
+X:111
+T:Fyra skilling har jag supit opp
+R:sl\"angpolska
+B:SvL \"Ogl 501
+O:\"Osterg\"otland
+Z:id:hn-sp-111
+M:3/4
+L:1/16
+K:D
+A2A2 F2F2 A2A2 | G2G2 F4 A4 |
+w:Fy-ra skil-ling har jag sup-it opp och
+B2A2 F2F2 A2G2 | E4 D4 z2A2 |
+w:s{\aa} den lil-la svar-ta ko-na, och
+A2A2 F4 A4 | G2G2 F4 A4 |
+w:in-te har jag mer i-gen \"an
+B2A2 F2F2 A2G2 | E4 D4 z2 ||
+w:sj\"al-va knop-pen ut-av hor-na.
+A,2 | A,2A,2 D4 F2F2 | E2E2 F6 A,2 |
+w:Och li-te ban-nor, det har jag f{\aa}tt, och
+A,2A,2 D4 F2F2 | E2E2 F4 z2A2 | 
+w:f{\aa}r jag me-ra, s{\aa} g\"or det gott, f\"or
+B2A2 F2F2 A2G2 | E4 D4 z4 ||
+w:jag har dan-sat s\"on-der skor-na.
+
+X:112
+T:Tr\"atpolskan
+R:sl\"angpolska
+B:SvL Sml 11, efter Anders Fredrik Andersson, Tryserum
+O:Sm{\aa}land
+Z:id:hn-sp-112
+M:3/4
+L:1/16
+K:D
+D3a a4 f4 | d2{edc}d{f}e d2cB AGFE | D3F A3d d2fg | f2ed cdec A4 |
+D3a a4 f4 | d2{edc}d{f}e d2cB AGFE | D3F A3d d2fg | f2ed c3d d4 :|
+|: D3F AFBG- G2A2- | A2=f2{gfe} f3g g2a2 |  D3F AFBG- G2A2- |
+A2=f2{gfe} f3g g2a2 | =f2{gfe}fg a2ae f2fd | {e}dcd^f edcB AGFE |
+D3F AFBG- G2A2- | A2=f2{gfe} f3g g2a2 | =f2{gfe}fg a2ae f2{gf}ed |
+cdec A3d d4 :|
+% Takt 2, 4, 8 i andra reprisen \"aven | f3g fefg g3a |
+
+X:113
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+B:SvL Sml 19, efter Karl Andersson, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-113
+M:3/4
+L:1/16
+K:G
+BcBA G2A2 B2c2 | d2de d4 B4 | G2g2 g2e2 f2g2 | agfe d8 |
+c2Ac cBAG F2D2 | B2B2 c2c2 d4 | e2dc c2B2 B2A2 | A2G2 G8 :|
+|: D2GF G2B2 G2B2 | B2AB cBAG F2D2 | D2GF G2B2 g2B2 | ABcB A4 G4 |
+g2B2 ABcA B2G2 | g2B2 ABcA B2G2 | G2AB c2Ac B2AG | FGAF G4 G,4 :|
+|: d4 dcBc d2g2 | d4 dcBc d2g2 | g2fe d2c2 B2G2 | c4 BcdB A4 |
+G,2B2 G,2B2 G,2B2 | B2AB cBAG F2D2 | G,2B2 G,2B2 G,2B2 | B2AB cBAG F2D2 |
+d2d2 e2f2 g2B2 | cBcA A4 G4 :|
+
+X:114
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+H:jfr #116
+B:SvL Sml 18, efter Karl Andersson, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-114
+M:3/4
+L:1/16
+K:G
+G2g2 g2f2 e2fg | agfe d4 B2d2 | d2g2 g2f2 e2fg | agfe d8 :|
+|: cBcd e4 c4 | dcBc d4 B4 | cBAB c2A2 F2A2 | A2G2 G2B2 d2B2 |
+cBcd e4 c4 | dcBc d4 B4 | B2AB c2A2 F2A2 | A4 G8 :|
+
+X:115
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+H:jfr #127
+B:SvL Sml 20, efter Karl Andersson, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-115
+M:3/4
+L:1/16
+K:D
+a2af b2bg a4 | agfg a2af g2e2 | a2af b2bg a2af | agfe e4 d4 :|
+|: f2fd g2ge f2e2 | d2de fede f2d2 | f2fa g2ga f2g2 | agfe e2d2 D4 :|
+|: A4 F2FA G2GB | A4 F2FA G2F2 | DEFG ABcA d2f2 | e2ce d2A2 F2D2 |
+e4 c2ce d2df | e4 c2ce d2c2 | ABcd efge f2d2 | e4 c2ce d2df |
+e4 c2ce d2c2 | ABcd efge f2d2 | cdec d8 :|
+
+X:116
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+H:jfr #114
+B:SvL Sml 34, efter Lars August Bengtsson, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-116
+M:3/4
+L:1/16
+K:G
+G2g2 g2f2 e2fg | agfe d4 B2d2 | d2c2 c2A2 A2c2 | dcBA B2G2 G2B2 |
+dcBc Acec Acec | dcBA GBdB GBdB | cBAB c2c2 d2d2 | e2g2 fgaf g4 :|
+|: gfga b6 g2 | agfg a6 f2 | gfga b6 g2 | agfg a6 f2 | agfg e6 g2 |
+agfe f2d2 d2B2 | dcBc Acec Acec | dcBA GBdB GBdB | dcBc Acec Acec |
+dcBA GBdB GBdB | cBAB c2c2 d2d2 | e2g2 fgaf g4 :|
+
+X:117
+T:Pollonesse fr{\aa}n Edshult
+R:sl\"angpolska
+B:Sm{\aa}l\"andsk musiktradition 166
+O:Sm{\aa}land
+Z:id:hn-sp-117
+M:3/4
+L:1/16
+K:A
+e2 |: eaga efed c2A2 | Acec Ad=fd d2e2 | eaga efed c2A2 |
+[1 cBA=G G2A2 A2 e2 :|2 cBA=G G2A2 A4 |: Acec Adfd d2e2 |
+efef B=gBg g2a2 | Acec Adfd d2e2 | efef B=gBg g2a2 | 
+eaga efed c2A2 | cBA=G G2A2 A4 :|
+
+X:118
+T:Pollonaisse fr{\aa}n Edshult
+R:sl\"angpolska
+B:Sm{\aa}l\"andsk musiktradition 167
+O:Sm{\aa}land
+Z:id:hn-sp-118
+M:3/4
+L:1/16
+K:A
+cABc de=fe dcBA | cABc defg g2a2 | cABc de=fe dcBA | cABG G2A2 A,4 :|
+|: e2a2 a2c'2 d'4 | e2fe edcd d2c2 | cABc de=fe dcBA |
+[1 A2e2 fe^de E4 :|2 cABG G2A2 A,4 ||
+
+X:119
+T:Pollonesse fr{\aa}n Djursdala
+R:sl\"angpolska
+B:Sm{\aa}l\"andsk musiktradition 184
+O:Sm{\aa}land
+Z:id:hn-sp-119
+M:3/4
+L:1/16
+K:Am
+e4 cBce dcdf | e2e2 ag^fg a4 | gagf efed cBcA | cBAG G2A2 A4 :|
+|: cdec c2B2 B2G2 | BcdB c2A2 A4 | cdec c2B2 B2G2 | BcdB c2A2 A4 | 
+e4 cBce dcdf | e2e2 ag^fg a4 | gagf efed cBcA | cBAG G2A2 A4 :|
+
+X:120
+T:{\AA} h\"ar s{\aa} dansar jag med lilla v\"annen min
+R:sl\"angpolska
+H:efter Skr\"addaren M\"aster Plut (Anders Magnus Andersson, 1812-1888), V\"astervik
+H:jfr #32, #62
+B:Sm{\aa}l\"andsk musiktradition 268
+O:Sm{\aa}land
+Z:id:hn-sp-120
+M:3/4
+L:1/16
+K:Am
+E2 | E3^G G3A A2B2 | dcBc A2B2 ^G2B2 |
+w:{\AA} h\"ar s{\aa} dan-sar jag med lil_la_ v\"an-nen min,_
+dcBc A2B2 =G2E2 | GFED E4 z2 :||: c2 | cBcd d2e2 e2B2 |
+w:fem_ton_ mar-ker gull har hon i kis-tan sin.
+dcBc A2B2 G2B2 | c3d d2e2 e2B2 | dcBc A2B2 G2E2 |
+.C2.C2 .D2.D2 .E2.E2 | .C2.C2 EDCD LE4 | .C2.C2 .D2.D2 .E2.E2 |
+.C2.C2 EDCD LE4 | C2C2 D2D2 E2E2 | ^GEGB A4 z2 :|
+
+X:121
+T:Polska efter M\"aster Plut
+R:sl\"angpolska
+H:efter Skr\"addaren M\"aster Plut (Anders Magnus Andersson, 1812-1888), V\"astervik
+H:Jfr #18, #47.
+B:SvL \"Ogl 344
+O:Sm{\aa}land
+Z:id:hn-sp-121
+M:3/4
+L:1/16
+K:Dm
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG G2A2 | A2d2 {e}(3d2^c2d2 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG A2F2 | FED^C E2D2 D4 :|
+|: D3E {G}FEFG G2A2 | A2c2 cBGB B2A2 | D3E {G}FEFG G2A2 |
+A2c2 cBGB B2A2 | A2^c2 .d2.e2 .f2.d2 | {e}(3d2^c2d2 e4 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG G2A2 | A2d2 {e}(3d2^c2d2 A4 |
+Ld4 Le4 LA4 | {d}c3B GABG A4 | D3^C DEFG A2F2 | FED^C E2D2 D4 :|
+
+X:122
+T:Polska efter Petter Olas Anna
+R:sl\"angpolska
+H:efter Petter Olas Anna (1828-1903), J\"at
+B:Sm{\aa}l\"andsk musiktradition 310
+O:Sm{\aa}land
+Z:id:hn-sp-122
+M:3/4
+L:1/16
+K:Gm =e
+d3c BcBA G2B2 | ABAG FGAB ^c2d2 | d3c BcBA G2B2 | ABAG F2G2 G4 :| [K:G]
+|: dcBd g2B2 d2c2 | cBcd e2A2 c2B2 | dcBd g2B2 d2c2 | cBcA F2G2 G4 :|
+
+X:123
+T:Polska efter Gustaf Elfstr\"om
+R:sl\"angpolska
+H:efter fl\"ojtisten Gustaf Elfstr\"om (1844-1927), J\"at
+B:Sm{\aa}l\"andsk musiktradition 311
+O:Sm{\aa}land
+Z:id:hn-sp-123
+M:3/4
+L:1/16
+K:D
+D3F FEGF E2D2 | F2A2 G2B2 A4 | d2df e2eg f2d2 | dfaf edcB AGFE |
+D3F FEGF E2D2 | F2A2 G2B2 A4 | d2df e2eg g2b2 | gfed c2d2 d4 :|
+|: DFAF DFAF DFAF | DGBG DGBG DGBG | DFAF DFAF DFAF | DGBG DGBG DGBG |
+A2dd d2FF F2E2 | GFGA B2GG G2F2 | A2dd d2FF G2g2 | efed c2d2 d4 :|
+
+X:124
+T:Polska efter Petter Ola
+R:sl\"angpolska
+H:efter Petter Ola (1826-1891), J\"at
+B:Sm{\aa}l\"andsk musiktradition 312
+O:Sm{\aa}land
+Z:id:hn-sp-124
+M:3/4
+L:1/16
+K:Am
+e4 d4 c4 | e2gg agff f2e2 | e2cc cddd e2c2 | dcBA ^G2A2 A4 :|
+A2cc dcBA ^G2G2 | ^G2BB dcBc A2A2 | A2cc dcBA ^G2G2 | ^G2BB dcBc A4 | 
+e4 d4 c4 | e2gg agff f2e2 | e2cc cddd e2c2 | dcBA ^G2A2 A4 ||
+|: A2^G2 A2B2 c2A2 | c2B2 A2B2 E4 | C3B, A,2^G,2 A,2B,2 |
+C2E2 D2F2 E2^G2 | A2^G2 A2B2 c2A2 | c2B2 A2B2 E4 | E2^G2 B2d2 c2B2 |
+A4 a4 z4 :|
+
+X:125
+T:Pigopolskan
+R:sl\"angpolska
+H:efter Pehr H\"orberg
+O:Sm{\aa}land
+Z:id:hn-sp-125
+M:3/4
+L:1/16
+K:Gm
+G2G^F G2A2 BAG=F | B2BA B2c2 dcBA | g4 d3c dcBA |
+BcBA G2^F2 D3D | G2G^F G2A2 BAG=F | B2BA B2c2 dcBA |
+g4 d3c dcBA | BAGF G8 :||: d2c2 d4 d2A2 | a3g f2=e2 f4 |
+=e3f g2f2 e2d2 | c2cd B2Bc A4 | d2c2 d4 d2A2 |
+BcBA G2F2 D3B, | D2EF G4 B2A2 | F2DF G8 :|
+
+X:126
+T:Sl\"angpolska fr{\aa}n Glanshammar
+R:sl\"angpolska
+D:Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+O:N\"arke
+Z:id:hn-sp-126
+M:3/4
+L:1/16
+K:D
+A,2D2 D4 D3E | F2DF F2A2 A4 | A2Bc d2ef gfed |
+cdcB ABAG FGFE | A,2D2 D4 D3E | F2DF F2A2 A4 |
+A3B c2d2 e2f2 | agec c2d2 d4 :||: f2ef d2f2 d2f2 |
+fede c2ee c2e2 | d3c B2Bc d2f2 | edcB B2A2 A4 |
+B2AB G2B2 G2B2 | BAGA F2AA F2A2 | GEFG ABcd e2ef |
+agec c2d2 d4 :|
+
+X:127
+T:Opp {\aa} ud {\aa} g{\aa}
+T:Tr\"askopolskan
+R:sl\"angpolska
+H:jfr #115, #212
+B:SvL Sk{\aa}ne 48, efter N\"as Ingars (Inga Persdotter, D\"onaberga, Hj\"ars{\aa}s, 1835-1911)
+O:Sk{\aa}ne
+Z:id:hn-sp-127
+M:3/4
+L:1/16
+K:D
+a2a2 b2b2 a4 | agfg a2a2 g2f2 |
+w:Opp {\aa} ud {\aa} {\aa}, fal-le ral-le ral-la lal-la
+a2a2 b2b2 a4 | agfg e4 d4 :|
+w:sto-ra tr\"a-skor p{\aa}, fal-le ral-le ral-la.
+|: f2f2 g2g2 f4 | fede f2f2 e2d2 |
+w:Vars en sup \"an-nu, fal-le ral-le ral-la lal-la
+w:F{\aa} vi en-te fem, fal-le ral-le ral-la lal-la,
+f2f2 g2g2 f2a2 | agfg e4 d4 :|
+w:Kan-ske f{\aa} vi sju,_ fal-le ral-le ral-la.
+w:G{\aa} vi hem i-gen,_ fal-le ral-le ral-la.
+
+X:128
+T:Byggna'n
+R:sl\"angpolska
+C:Byss-Calle, \"Alvkarleby, Uppland
+O:Uppland
+Z:id:hn-sp-128
+M:3/4
+L:1/16
+K:F
+F2A2 c2f2 a2c'2 | gagf efde c2f2 | dBdf eceg fcfa |
+ageg f2d2 cBAG | F2A2 c2f2 a2c'2 | gagf efde c2f2 |
+dBdf eceg fcfa | ageg f8 :||: a2af cAcf a2af |
+g2ge cGce gcgc | a2af cAcf acac | g2ge cGce g2ge |
+f2fd BFBd f2d2 | cdcB ABcd c2f2 | dBdf eceg fcfa |
+ageg g2f2 f4 :||: FAcf f2A2 BABc | d2dc BABd G3B |
+A2c2 f2a2 gagf | efge f2d2 cBAG | FAcf f2A2 BABc |
+d2dc BABd G3B | A2c2 f2a2 gagf | efge f8 :|
+c<afa c<afa c<afa | c<geg c<geg c<geg | c<afa c<afa c<afa |
+c<geg c<geg c<geg | Bfdf Bfdf Bfdf | cdcB ABcd c2f2 |
+dBdf eceg fcfa | ageg f8 :|
+
+X:129
+T:Polska fr{\aa}n Gladhammar
+R:sl\"angpolska
+H:efter Johan Petter Landholm
+O:Sm{\aa}land
+Z:id:hn-sp-129
+M:3/4
+L:1/16
+K:D
+A2d2 d2f2 f2ed | A2c2 e2g2 g2a2 | f2fg e2ef d2d2 |
+edcd edcB A4 | A2d2 d2f2 f2ed | A2c2 e2g2 g2a2 |
+f2fg e2ef d2d2 | fedc c2d2 d4 :||: f2fd f2a2 a2f2 |
+e2ec A2ce g2e2 | f2fd f2a2 a2f2 | e2ec A2ce g2e2 |
+d2dc d2f2 f2e2 | e2ec e2g2 g2a2 | f2fg e2ef d2d2 |
+fedc c2d2 d4 :|
+
+X:130
+T:N\"ar ja' gick {\aa} fria'
+R:sl\"angpolska
+H:Jfr #95, #178, #193
+O:N\"arke
+Z:id:hn-sp-130
+M:3/4
+L:1/16
+K:G
+D2 | G3A B2Bc B2G2 | B3c d2de d2B2 |
+w:{\AA} n\"ar ja' gick {\aa}_ fri-a' te min f\"or-sta_ flec-ka,
+d3d c2c2 B2B2 | AFAB G6 :|
+w:d{\aa} va' ho' s{\aa} dum s{\aa} ho'_ sa'_ nej.
+|: A2 | B2Bc BBAA A2A2 | B2Bc d2cB A2A2 |
+w:{\AA} n\"ar in-te flec-ke-ra vill ha mig, d{\aa} f{\aa}r v\"al gum-me-ra ta mig,
+w:{\AA} n\"ar in-te gum-me-ra vill ha mig, d{\aa} f{\aa}r v\"al flec-ke-ra ta mig,
+B2AB c2dc B2cB | AFAB G6 :|
+w:hopp fal-le-ra ral-la ra ral-la ral-la ral-lan lej.
+w:och d{\aa}_ f{\aa}r dom_ {\aa}t-er_ta_ sitt_ nej.
+
+X:131
+T:Koiviston polska
+R:sl\"angpolska
+H:\"Aven i Am, #48. Jfr \"aven #24 och #164.
+O:Finland
+Z:id:hn-sp-131
+M:3/4
+L:1/16
+K:Gm
+|: dedc BcBA G2B2 | ABAG ^FGF=E D2EF | G2^FG A2GA B2AB | c2Bc d4 d4 :|
+f4 fgfe d2d2 | e2e2 e2dc d2B2 | f4 fgfe d2d2 | e2e2 e2dc d2c2 |
+BABc d2B2 A2G2 | BAG^F F4 G2A2 | BABc d2B2 A2G2 | BAG^F F4 G4 ||
+
+X:132
+T:Sl\"angpolska fr{\aa}n S\"odermanland
+R:sl\"angpolska
+H:efter Axel Axelsson, \"Osttorp
+O:S\"ormland
+Z:id:hn-sp-132
+M:3/4
+L:1/16
+K:A
+|: ABcd e3a g2a2 | fgfe fgaf f2e2 | cAce agae dcBA | cBAG A2E2 C2A,2 |
+ABcd e3a g2a2 | fgfe fgaf f2e2 | cAce agae dcBA | cBAG G2A2 A4 :|
+|: AEAc AEAc d2B2 | BGBd BGBd d2c2 | AEAc AEAc d2B2 | BGBd BGBd d2c2 |
+ABcd e3a g2a2 | fgfe fgaf f2e2 | cAce agae dcBA | cBAG G2A2 A4 :|
+
+X:133
+T:Huggaremamma
+R:sl\"angpolska
+O:N\"arke
+Z:hn-sp-133
+M:3/4
+L:1/16
+K:Am
+c2Ac B2^GB A2=g2 | ^fe^df e2e2 B3B | cBcd e2fe dcBc | A^GAB cABG E4 |
+c2Ac B2^GB A2=g2 | ^fe^df e2e2 B3B | cBcd e2c2 B3A | ^GABc A8 :|
+|: a2ba g2c'g e2c2 | e2fe dcBc A2^G2 | A3B cBcd e2g2 | ^fe^df e4 e3e |
+a2ba g2c'g e2c2 | e2fe dcBc A2^G2 | A3B cBcd e2c2 | BA^GB A8 :|
+
+X:134
+T:Sl\"angpolska efter Per Erik Olsson
+R:sl\"angpolska
+H:efter Per Erik Olsson, Hidinge, N\"arke
+O:N\"arke
+Z:id:hn-sp-134
+M:3/4
+L:1/16
+K:A
+|: e4 cAce dcdf | e2e2 cAce dcdf | e2e2 agfe fedc | c2B2 B2Be c2A2 |
+e4 cAce dcdf | e2e2 cAce dcdf | e2e2 agfe fedc | c2Bc B4 A4 :|
+|: E3A A2c2 c2e2 | e2d2 dBGB d2c2 | E3A A2c2 c2e2 | e2a2 afdf e4 |
+E3A A2c2 c2e2 | e2d2 dBGB d2c2 | A2ce agfe fedc | c2Bc B4 A4 :|
+
+X:135
+T:Sl\"angpolska fr{\aa}n Kumla
+R:sl\"angpolska
+H:efter Olov Larsson, Hidinge
+O:N\"arke
+Z:id:hn-sp-135
+M:3/4
+L:1/16
+K:D
+|: dedc d2A2 F3A | dcde d2A2 f4 | e3f g2e2 f2d2 | d2cd e2c2 A3c |
+dedc d2A2 F3A | dcde d2A2 f4 | e3f g2e2 f2d2 | cdec c2d2 d4 :|
+|: fafd fafd fafd | eaec eaec eaec | d3c B2c2 d2e2 | d2cB A4 A2A2 |
+BdBG BdBG BdBG | AdAF AdAF AdAF | G3F E2g2 f2d2 | fedc c2d2 d4 :|
+
+X:136
+T:Polska efter G Lungstr\"om
+R:sl\"angpolska
+B:SvL N\"arke 119
+O:N\"arke
+Z:id:hn-sp-136
+M:3/4
+L:1/16
+K:D
+|: A2d2 FDFA dcdf | e2c2 Acec Aceg | f2ag e2gf d2fa | agec d2A2 FDFA |
+A2d2 FDFA dcdf | e2c2 Acec Aceg | f2ag e2gf d2fa | agec c2d2 d4 :|
+|: a2a2 fdfa fdfa | g2b2 b2b2 b4 | g2g2 eceg eceg | f2a2 a2a2 a4 |
+A2d2 FDFA dcdf | e2c2 Acec Aceg | f2ag e2gf d2fa | agec c2d2 d4 :|
+
+X:137
+T:Inte s\"orjer jag f\"or barnen di \"ar sm{\aa}
+R:sl\"angpolska
+H:jfr #53. I boken \"ar den i Cm.
+B:Svenska folkvisor, Topelius bokf\"orlag 1978
+O:Sm{\aa}land
+Z:id:hn-sp-137
+M:3/4
+L:1/16
+K:Dm
+A2A2 F2F2 G2G2 | A2A2 ^c2c2 d4 |
+w:In-te s\"or-jer jag f\"or barn-en de \"a' sm{\aa},
+=c2cB A2AB c2A2 | cBGB B2A2 A4 :|
+w:Hopp fal-le-ral-lal-le-ra fal-lal-le-ral-le-ra-la-la.
+|: A2A2 A2GA B2A2 | A2G2 G2FG A2F2 |
+w:Hus-tru min \"ar_ sn\"al-ler, fast-\"an barn-et_ gn\"al-ler,
+A2A2 A2GA B2A2 | A2G2 AGFG F4 :|
+w:n\"ar det sen blir_ kv\"al-ler slum-ra al_la_ s\"ott.
+W:1. Inte s\"orjer jag f\"or barnen de \"a' sm{\aa},
+W:   Hopp fallerallallera fallalleralleralala.
+W:   Hustru min \"ar sn\"aller, fast\"an barnet gn\"aller,
+W:   n\"ar det sen blir kv\"aller slumra alla s\"ott.
+W:2. Inte s\"orjer jag, f\"or kassan \"ar s{\aa} tom, hopp fallerallalera fallallerallerallala.
+W:Inte r{\aa}r jag f\"or att p{\aa}ven bor i Rom, hopp fallerallalera fallallerallerallala.
+W:Han har m{\aa}nga pengar, feta, lata dr\"angar,
+W:som i mjuka s\"angar slumra in s{\aa} s\"ott.
+W:3. Inte s\"orjer jag f\"or \"angen bliver gr\"on, hopp fallerallalera fallallerallerallala.
+W:D\"ar \"ar gr\"aset mjukt och lilla blomman sk\"on, hopp fallerallalera fallallerallerallala.
+W:D\"ar ska vi spatsera, jag och barnen flera.
+W:D\"ar ska vi regera, sedan slumra s\"ott.
+W:4. Inte s\"orjer jag f\"or visan ej \"ar l{\aa}ng, hopp fallerallalera fallallerallerallala.
+W:Barnet sjunger v\"al en l\"angre n{\aa}gon g{\aa}ng, hopp fallerallalera fallallerallerallala.
+W:Sen jag livets grader genomg{\aa}tt s{\aa} glader,
+W:vill jag be gud fader att f{\aa} slumra s\"ott.
+W:
+
+X:138
+T:Polska fr{\aa}n Ydre
+R:sl\"angpolska
+H:Spelas \"aven i Gm
+O:\"Osterg\"otland
+Z:id:hn-sp-138
+M:3/4
+L:1/16
+K:Dm
+f4 e4 d4 | A=B^cd edeg f2e2 | d2ba g2f2 e2d2 | ^cded ^c2A2 d2e2 |
+f4 e4 d4 | A=B^cd edeg f2e2 | d2ba g2f2 e2d2 |1 ^cde^c d8 :|
+[2 ^cde^c d6 ag |: a2F2 F2a2 a2gf | g2E2 E2g2 g2fe |
+f2ef d2ef gfed | d2^cd ed^c=B A2ag | a2F2 F2a2 a2gf |
+g2E2 E2g2 g2fe | f2ef d2ef gfed |1 ^cd=B^c d6 ag :|2 ^cd=B^c d8 ||
+P:variant av andra delen:
+|: a2F2 F2a2 a2gf | g2E2 E2g2 g2fe | fefg afge fde^c |
+d^cdf ed^c=B A2ag | a2F2 F2a2 a2gf | g2E2 E2g2 g2fe |
+fefg afge fde^c |1 A^ce^c d6 ag :|2 A^ce^c d8 ||
+
+X:139
+T:Polska efter Mats Wessl\'en
+R:sl\"angpolska
+O:Uppland
+Z:id:hn-sp-139
+M:3/4
+L:1/16
+K:Gm
+G3A B4 B4 | B2AG ^F2G2 A2D2 | G^FGA BABc d2B2 | A2G^F G2D2 B,2G,2 |
+G3A B4 B4 | B2AG ^F2G2 A2D2 | G^FGA BABc d2B2 | A2G^F G8 :|
+|: B6d2 B2d2 | B2d2 cdcB A2=F2 | B6d2 B2d2 | B2d2 cdcB A2^F2 |
+G6A2 ^F2A2 | G2B2 A2c2 B4 | G^FGA BABc d2B2 | A2G^F G8 :|
+
+X:140
+T:Polska efter Johan Jacob Bruun
+R:sl\"angpolska
+B:SvL Sk{\aa}ne 533
+O:Sk{\aa}ne
+Z:id:hn-sp-140
+M:3/4
+L:1/16
+K:Dm
+A2d2 d2^c2 ^c2A2 | A=B^cd e6^c2 | d2d^c d2e2 f2g2 | a2a2 gabg a4 | 
+A2d2 d2^c2 ^c2A2 | A=B^cd e6^c2 | d2^c2 d2e2 f2ed | e2d^c d4 D4 :| 
+|: f2a2 f2a2 bagf | e2g2 e2g2 agfe | f2a2 f2a2 bagf |
+e2g2 e2g2 agfe | d^cde fefg abag | fed^c e4 d4 :|
+
+X:141
+T:M{\aa}nssons polska
+T:Polska fr{\aa}n Gusum
+R:sl\"angpolska
+H:efter Ivar Hultqvist, Norrk\"oping. Jfr #179
+B:SvL \"Ogl 304
+O:\"Osterg\"otland
+Z:id:hn-sp-141
+M:3/4
+L:1/16
+K:D
+D3F A3d f2d2 | edcd A4 F4 | A2BA G2E2 E2c2 | c2Bc d2A2 F2D2 |
+D3F A3d f2d2 | edcd A4 F4 | A2BA G2E2 E2c2 | c2Bc d8 :| 
+|: d3f f3a a2f2 | gagf g2b2 b4 | A3c c2e2 e2c2 | dedc d2f2 f4 |
+d3f f3a a2f2 | gagf g2b2 b4 | A3c c2e2 e2c2 | edcd e4 d4 :|
+
+X:142
+T:Fans k\^onster, sa Granlundsgubben om {\aa}ngb{\aa}ten
+R:sl\"angpolska
+H:efter Per Ericsson i Granlund, Helgar\"o
+B:Folkmusik fr{\aa}n norra S\"odermanland, K.P. Leffler
+O:S\"ormland
+Z:id:hn-sp-142
+M:3/4
+L:1/16
+K:G
+[G2G,2]Bd g2gf g2e2 | agfe d4 e4 | c2cd B2Bc A2Ac |
+BAGF G2D2 B,2D2 | [G2G,2]Bd g2gf g2e2 | agfe d4 e4 |
+c2cd B2Bc A2Ac | BAGF G4 G,4 :||: G2B2 B2AB A4 |
+A2c2 c2Bc B4 | B2d2 d2Bd [d4D4] | ^c2e2 e2c2 d4 |
+d2ef g2d2 B2G2 | AcAF G4 G,4 :|
+
+X:143
+T:Skr\"addarpolska
+R:sl\"angpolska
+H:efter Pehr Eriksson, "Granlundsgubben", Helgar\"o
+B:K.P. Leffler
+O:S\"ormland
+Z:id:hn-sp-143
+M:3/4
+L:1/16
+K:D
+D2DE FEDE F2D2 | DEFG AGFG A2F2 | ABcd efge gfed |
+cdec d3A F2D2 | D2DE FEDE F2D2 | DEFG AGFG A2F2 |
+ABcd e2f2 g2a2 | bgec d4 D4 :||: d2d2 Acec Acec |
+d2d2 Acec Acec | d2d2 efge gfed | cdec d3A F2D2 |
+d2d2 Acec Acec | d2d2 Acec Acec | ABcd e2f2 g2a2 |
+bgec d4 D4 :|
+
+X:144
+T:Blekingpolskan
+T:Blekingepolskan
+R:sl\"angpolska
+O:Uppland
+Z:id:hn-sp-144
+M:3/4
+L:1/16
+K:D
+|: d2fd A2A2 BA^GA | d2fd A2A2 TB2A2 | f2ef gage f2fd |
+efed cdec A4 | d2fd A2A2 BA^GA | d2fd A2A2 TB2A2 | 
+f2ef gage f2fd | efec d8 :||: f3g a2af a2af |
+b2bg a2af g2e2 | f3g a2af a2af | b2bg a2af g2e2 |
+d2fd A2A2 BA^GA | d2fd A2A2 TB2A2 | f2ef gage f2fd |
+efec d8 :| [K:G] |: G2FG B2GB d2Bd | gfed c4 B4 |
+B2AB cdcA B2BG | ABAF GAGD B,2D2 | G2FG B2GB d2Bd |
+gfed c4 B4 | B2AB c2B2 A2G2 | F2EF G8 :|
+|: D4 B,2D2 B2G2 | E3D CB,CD C4 | E4 ^C2E2 A2E2 |
+F3G FED^C D4 | G2FG B2GB d2Bd | gfed c4 B4 |
+B2AB c2B2 A2G2 | F2EF G8 :|
+
+X:145
+T:Sl\"angpolska efter Byss-Calle
+R:sl\"angpolska
+B:57 l{\aa}tar efter Byss-Calle nr 25
+O:Uppland
+Z:id:hn-sp-145
+M:3/4
+L:1/16
+K:G
+d4 d^cde dcde | d3=c c2B2 B2g2 | gece edBd cBAG |
+FGAB AGFE D2GB | d4 d^cde dcde | d3=c c2B2 B2g2 |
+gece edBd cBAG | FGAF G8 :||: D2FA cBAG FGAF |
+D2GB d2BG DGBG | D2FA cBAG FGAF | D2GB d2BG DGBd |
+g3e e2c2 c4 | g3d d2B2 B2cd | e3d c2B2 A2FA | cAFA G8 :|
+
+X:146
+T:L\"astringe Storpolska
+R:sl\"angpolska
+H:efter Anders Andersson
+O:S\"ormland
+Z:id:hn-sp-146
+M:3/4
+L:1/16
+K:D
+A2F2 DFAF DFAF | DGBG DGBG DGBG | A2F2 DFAF DFAF |
+F3E E2E2 E4 | A2F2 DFAF DFAF | DGBG DGBG DGBG | ABcd e2f2 g2e2 |
+dcBc e2d2 d4 :||: A2d2 f2a2 bafa | g2b2 b2g2 ageg |
+f2a2 a2fa f2ed | cdef g2eg f2df | efec d2AG F2DF |
+A2d2 f2a2 bafa | g2b2 b2g2 ageg | f2a2 a2fa f2ed |
+cdef g2eg f2df |1 efec e2dc d3d :|2 efec e2dc d4 ||
+
+X:147
+T:Polska efter Blomgren
+R:sl\"angpolska
+H:efter Johan Christian Blomgren, H\"asslunda
+O:Sk{\aa}ne
+Z:id:hn-sp-147
+M:3/4
+L:1/16
+K:D
+D2DF E2EG F2E2 | DEFG ABcA d4 | f2fa g2f2 e2d2 | cdef edcB AGFE |
+D2DF E2EG F2E2 | DEFG ABcA d4 | f2fa g2f2 e2d2 | cdec d8 :|
+|: f2fa g2gb a2c2 | d2f2 efge f2d2 | f2fa g2gb a2c2 | d2f2 efge d4 |
+D2DF E2EG F2E2 | DEFG ABcA d4 | f2fa g2f2 e2d2 | cdec d8 :|
+
+X:148
+T:Polska efter Anders Kengo
+R:sl\"angpolska
+H:efter Anders Kengo, Jeppo
+O:\"Osterbotten, Finland
+Z:id:hn-sp-148
+M:3/4
+L:1/16
+K:Am
+Bd |: c2BA ^GABA G2GB | A2AB cB^GB BeBd | c2BA ^GABA G2GB |
+A2AB cB^GB e2e2 :||: efed cdcB A^GAB | Bedc dcBA ^G2A2 |
+B2e2 edfd e4 | e3d c2BA ^G2AB | Bedc dcBA ^G2A2 |
+BcBA ^G2E2 AGAB |1 cBA^G A4 A4 :|2 cBA^G A4 A2 ||
+
+X:149
+T:Polska efter Johan Jansson
+R:sl\"angpolska
+H:efter Johan Jansson, Peders\"ore
+O:\"Osterbotten, Finland
+M:3/4
+L:1/16
+K:Dm
+A2=B^c d2eg f2ed | d2^c=B c2d2 edcB | A2=B^c d2eg f2ed |
+ed^c=B A2GB A4 :||: f4 fefg a2af | f2ed ^cdef g2ge |
+fefa ageg gfdf | fed^c e2d2 d4 :|
+
+X:150
+T:Grannas flecker
+R:sl\"angpolska
+H:Se \"aven #14, #51, #150, #172
+B:Bagge 32
+O:\"Osterg\"otland
+Z:id:hn-sp-150
+M:3/4
+L:1/16
+K:Am
+A2B2 cdcB A2B2 | cBcd e4 c4 | e2^g2 a2a2 fdfa |
+abag efed cdcB | A2B2 cdcB A2B2 | cBcd e4 c4|
+e2^g2 a2a2 fdfa | abag e8 :||: e2^g2 a2a2 fdfa |
+abag e4 c4 | c2e2 g2g2 eceg | gagf d4 B4 |
+cBcd e2c2 A2c2 | cB^GB B2A2 A4 :|
+
+X:151
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+B:SvL \"Ogl 296
+O:\"Osterg\"otland
+Z:id:hn-sp-151
+M:3/4
+L:1/16
+K:D
+ABAG F2A2 d4 | fgfe d2f2 a4 | gagf efed cdcB | ABcd efed c2B2 |
+ABAG F2A2 d4 | fgfe d2f2 a4 | gagf efed cdcB | ABcd e4 d4 :|
+|: e2e2 c2ec Acec | A2a2 a^geg b2a2 | e2e2 c2ec Acec |
+A2a2 a^geg b2a2 | a3f d2c2 d2f2 | efed B6 B2 |
+A3A g2f2 e2d2 | cdef e4 d4 :|
+
+X:152
+T:Polska efter Nils Olsson
+R:sl\"angpolska
+H:Uppgavs ha kommit fr{\aa}n Uppland.
+B:SvL \"Ogl 372, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+O:\"Osterg\"otland
+Z:id:hn-sp-152
+M:3/4
+L:1/16
+K:Gm
+G2A2 BABc B2G2 | G2g2 ^fgaf g4 | d2dB e2ec d4 | BcBA G2A2 B2c2 |
+dcBA G4 G,4 :||: BdBG BdBG BdBG | ABA^F DFAc B2A2 | BdBG BdBG BdBG |
+ABA^F DFAc B2A2 | G2g2 ^f=efa g4 | d2dB _e2ec d4 | BcBA G2A2 B2c2 |
+dcBA G4 G,4 :|
+
+X:153
+T:Polska fr{\aa}n R\"on\"o
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-153
+M:3/4
+L:1/16
+K:Dm
+D3E FEFG A2d2 | d^cec c2A2 A2G2 | F2FG E2EF D3F | FED^C D2C2 C2A,2 |
+D3E FEFG A2d2 | d^cec c2A2 A2G2 | F2FG E2EF D3F | FED^C C2D2 D4 :|
+|: F2F2 A2F2 A2F2 | A2c2 cdcB G4 | ECEG ECEG ECEG | ECEG G2A2 A2F2 |
+D3E FEFG A2d2 | d^cec c2A2 A2G2 | F2FG E2EF D3F | FED^C C2D2 D4 :|
+
+X:154
+T:Polska efter Adolf Aronsson
+R:sl\"angpolska
+B:SvL \"Ogl 293, efter Adolf Aronsson, Borg
+O:\"Osterg\"otland
+Z:id:hn-sp-154
+M:3/4
+L:1/16
+K:Dm
+e2 | fgab a3a bagf | efga g3g agfe | fgab a3a bagf | gaba g3g agfe |
+f2af fege d^cde | fed^c A=Bcd efge | f2af fege d^cde |
+fed^c c2d2 d2 :||: e2 | fcfa fcfa bagf | eceg eceg agfe |
+fcfa fcfa bagf | eceg eceg agfe | f2af fege d^cde |
+fed^c A=Bcd efge | f2af fege d^cde | fed^c c2d2 d2 :|
+
+X:155
+T:Polska efter Bruun
+R:sl\"angpolska
+H:efter Johan Jacob Bruun, S\"arsl\"ov
+O:Sk{\aa}ne
+Z:id:hn-sp-155
+M:3/4
+L:1/16
+K:Dm
+f2e2 (3d2^c2d2 A4 | ^c2d2 (3e2f2g2 a4 | a2b2 a2g2 e2g2 |
+f2e2 (3d2^c2d2 A4 | f2e2 (3d2^c2d2 A4 | ^c2d2 (3e2f2g2 a4 |
+a2b2 a2g2 e2g2 |1 g2f2 d8 :|2 g2f2 d6a2 |: a4 f2a2 f2a2 |
+a2g2 e2g2 e2g2 | f2e2 d2e2 f2g2 | a2^c2 d2e2 f2g2 | a4 f2a2 f2a2 |
+a2g2 e2g2 e2g2 | f2e2 d2e2 f2g2 |1 a2^c2 d6a2 :|2 a2^c2 d8 ||
+
+X:156
+T:Sl\"angpolska fr{\aa}n H\"o\"or
+R:sl\"angpolska
+H:inspelningen jag f{\aa}tt den ifr{\aa}n g{\aa}r i Em. Jfr #187, #228
+O:Sk{\aa}ne
+Z:id:hn-sp-156
+M:3/4
+L:1/16
+K:Dm
+A3^G A4 ^c4 | d2d^c d4 e4 | f2ef g2f2 e2d2 | d2^cd e4 e4 :|
+|: f2fd c4 A2c2 | B2BG A4 F4 | G2G2 A2A2 G2F2 | E2EF D8 :|
+
+X:157
+T:Polska efter Victorin
+R:sl\"angpolska
+H:efter sergeant Victorin. SvL Sk{\aa}ne 567
+O:Sk{\aa}ne
+Z:id:hn-sp-157
+M:3/4
+L:1/16
+K:Gm
+d2de d2de d2d2 | d2de d2de d2d2 | d2de f2fg g4 :|
+|: b4 a2gg g2f2 | f2ee g2ee e2d2 | d2de g2ee e2d2 | dfed d4 c4 :|
+
+X:158
+T:Polska efter Bruun
+R:sl\"angpolska
+H:Version 1: efter Johan Jacob Bruun (1818-1889)
+H:Version 2: Svl Sk{\aa}ne 338 efter Ored Andersson, Linder\"od
+H:jfr Sk{\aa}nska Melodier 87, 151
+O:Sk{\aa}ne
+Z:id:hn-sp-158
+M:3/4
+L:1/16
+K:Gm
+G3B d2^f2 g2b2 | a2=f2 d4 B4 | d2dB c2cA B2BG | A2AG ^FGAF D4 |
+G3B d2^f2 g2b2 | a2=f2 d4 B4 | d2dB c2cA B2BG | BAG^F F2G2 G4 :|
+|: d4 B3d B3d | d3c A3c A3c | d2d2 B3d B2d2 | d2c2 A2c2 B2A2 |
+G3B d2^f2 g2b2 | a2=f2 d4 ^f4 | g2g2 a2a2 b2b2 | a2ag ^f2af d4 |
+d2dB c2cA B2BG | BAG^F F2G2 G4 :|
+P:version 2:
+|: D2 | G2B2 d2^f2 g2b2 | a2^f2 d4 B4 | d2Bd c2Ac B2GB |
+BAG^F G2BA GDB,G, | G2B2 d2^f2 g2b2 | a2^f2 d4 B4 | d2Bd c2Ac B2GB |
+BAG^F A4 G2 :||: GA | B2B2 B2B2 B2d2 | d2c2 A2F2 A2c2 |
+d4 B2d2 B2d2 | d2c2 A2F2 AcBA | G2B2 d2^f2 g2b2 | a2^f2 d4 B4 |
+g4 a4 b4 | a2g2 ^fgab d4 | d2Bd c2Ac B2GB | BAG^F A4 G2 :|
+
+X:159
+T:Polska efter J J Bruun
+R:sl\"angpolska
+B:SvL Sk{\aa}ne 512
+O:Sk{\aa}ne
+Z:id:hn-sp-159
+M:3/4
+L:1/16
+K:D
+d2dc d2A2 d2A2 | f2fe f2d2 f2d2 | e2ef g2f2 e2d2 | cBcd edcB A4 |
+d2dc d2A2 d2A2 | f2fe f2d2 f2d2 | g2ba g2f2 e2d2 | cdec d2f2 d4 :|
+|: e2ef g2e2 f2d2 | c2cd e2c2 f2d2 | e2ef g2f2 e2d2 | c2cd edcB A4 |
+e2ef g2e2 f2d2 | c2cd e2c2 f2d2 | g2ba g2f2 e2d2 | cdec d2f2 d4 :|
+
+X:160
+T:Sl\"angpolska efter Blomgren
+R:sl\"angpolska
+H:efter Johan Christian Blomgren, H\"asslunda
+O:Sk{\aa}ne
+Z:id:hn-sp-160
+M:3/4
+L:1/16
+K:Dm
+d2fd e2ge f2af | g2bg a2f2 e2d2 | ^cdef edc=B A2c2 |
+d2fd e2ge f2af | g2bg a2f2 e2d2 |1 ^cdec d6 A2 :|2 ^cdec d8 ||
+|: b2a2 g2f2 e2f2 | d2f2 efge f4 | b3a g2f2 e2f2 | d2f2 efge f4 | 
+abag f2e2 d2ef | gafg efde ^c2A2 | defd efge fgaf |
+gabg a2f2 e2d2 |1 ^cdec d8 :|2 ^cdec d6 A2 ||
+
+X:161
+T:Sl\"angpolska efter Tydell
+R:sl\"angpolska
+O:Sk{\aa}ne
+Z:id:hn-sp-161
+M:3/4
+L:1/16
+K:D
+DEFG A2A2 F2D2 | GFGA B2B2 G2E2 | e2ef e2d2 c2B2 | ABcA d2AG FED2 |
+DEFG A2A2 F2D2 | GFGA B2B2 G2E2 | e2ef e2d2 c2B2 | ABcA d8 :|
+|: d2de f2fg f2ed | c2cd e2fe c2A2 | d2c2 B2c2 d2f2 |
+efed cdcB A2G2 | FEFG A2A2 F2D2 | GFGA B2B2 G2E2 | e2ef e2d2 c2B2 |
+ABcA d8 :|
+
+X:162
+T:Sl\"angpolska efter Blomgren
+R:sl\"angpolska
+H:efter Johan Christian Blomgren, H\"asslunda
+O:Sk{\aa}ne
+Z:id:hn-sp-162
+M:3/4
+L:1/16
+K:Am
+A^GAB c2c2 B2B2 | A2a2 c'ba^g a2e2 | fedc edcB dcBA | ^G2A2 B2e2 E4 |
+A^GAB c2c2 B2B2 | A2a2 c'ba^g a2e2 | fedc edcB dcBA |1 ^GABG A6 E2 :|
+[2 ^GABG A6 B2 |: cecA cecA cecA | dcde f2e2 d2c2 | BdBG BdBG BdBG |
+cBcd e2c2 B2^G2 | A^GAB c2c2 B2B2 | A2a2 c'ba^g a2e2 | fedc edcB dcBA |
+[1 ^GABG A6 B2 :|2 ^GABG A6 E2 ||
+
+X:163
+T:L\"arbropolskan
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-163
+M:3/4
+L:1/16
+K:Am
+ABcA B2=G2 E2G2 | ABcd e2c2 B2A2 | =f3e d2c2 B2A2 |
+^G2E2 e2E2 ^F2G2 | ABcA B2=G2 E2G2 | ABcd e2c2 B2A2 |
+f3e d2c2 B2^G2 | E2^F^G A8 :||: c3B c2e2 g2e2 | e2dc dcBA =G2=F2 |
+EDEF G2AB c2e2 | dBGB d4 c4 | c3G c2e2 d2c2 | B3G B2d2 c2B2 |
+A3^G A2c2 B2A2 | ^G2E2 e2E2 ^F2G2 | ABcA B2=G2 E2G2 |
+ABcd e2c2 B2A2 | f3e d2c2 B2^G2 | E2^F^G A8 :|
+
+X:164
+T:Blinde-Hans' polska
+R:sl\"angpolska
+H:Jfr #24, #48, #131.
+O:Gotland
+Z:id:hn-sp-164
+M:3/4
+L:1/16
+K:Dm
+abag fgfe d3e | f2ed ^cdec A4 | d3^c d2e2 f2g2 |1 aba^g g4 a4 :|
+[2 aba^g g4 a3e |: fefg a2f2 f2f2 | f2ef g2ag fed^c |
+defg a2f2 f2f2 | f2ef g2ag fed^c | d3e fefg a3g |1 fed^c e4 d3e :|
+[2 fed^c e4 d4 ||
+
+X:165
+T:Sma sorkarna
+R:sl\"angpolska
+H:efter Helena M{\aa}rtensson (d 1880), Burs
+H:N\"ar gossarna ej vilja dansa med flickorna, utan \"aro tr\"otta,
+H:taga flickorna mod till sig ock dansa ensamma, varvid de
+H:uppst\"amma nedanskrivna melodi och t\"axt
+O:Gotland
+Z:id:hn-sp-165
+M:3/4
+L:1/16
+K:Dm
+f4 e2^c2 d2e2 | f3f e2^c2 d2e2 | f3f e2^c2 d2e2 |
+w:Sma sor-kar-na di sta b\"ai dur-ar-ne u s\"air pa j{\aa}m-fr\"aur-na di
+f3e d2f2 e2d2 | ^c4 A8 :||: f3g a4 g3b | a2gf e2g2 g2b2 |
+w:vill s{\aa} mi-k\"a g\"an-ne dan-s\"a. Vi' ni dan-s\"a sma sor-kar_ ung_ge, ska
+a2f2 d4 f2f2 | ^c2ce d8 :|
+w:j{\aa}m-fr\"aun sjung-g\"a: fa-ral-la-di-da!
+
+X:166
+T:Gamble M\"orti
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-166
+M:3/4
+L:1/16
+K:Am ^f
+e2a2 ^g4 a4 | e2a2 ^g4 a4 | e2f2 =g4 g2e2 | f2d2 e8 :|
+w:Gamb-le M\"or-ti, gamb-le M\"or-ti, dan-sar \"aut-e \"ai h\"aus_ar.
+[K:D] |: f3d e2c2 A4 | f3d e2c2 A4 | a2g2 f4 e2d2 | c4 d8 :|
+w:Dan-sar d\"au sum ja, dan-sar d\"au sum ja, dan-sar \"aut-e \"ai h\"aus-ar.
+W:1. Gamble M\"orti, gamble M\"orti, dansar \"aute \"ai h\"ausar.
+W:   Dansar d\"au sum ja, dansar d\"au sum ja, dansar \"aute \"ai h\"ausar.
+W:2. Astu J\"orgen, Astu J\"orgen, star u f\"ailar pa g\"aigu.
+W:   F\"ailar d\"au sum ja, f\"ailar d\"au sum ja, star u f\"ailar pa g\"aigu!
+W:3. K\"anegasi, k\"anegasi, star pa itt bain u l\"oid\"as.
+W:   L\"oid\"as d\"au sum ja, l\"oid\"as d\"au sum ja, star pa itt bain u l\"oid\"as!
+W:
+
+X:167
+T:Groddaliran
+R:sl\"angpolska
+H:spelad p{\aa} vevlira av "Grodd-Ole", Olof Larsson (1768-1837) fr{\aa}n Grodda i Fleringe.
+O:Gotland
+Z:id:hn-sp-167
+M:3/4
+L:1/16
+K:G
+G2F2 G2A2 A2B2 | B2G2 A2B2 c4 | B2A2 B2G2 B2d2 | edcB A4 A4 |
+G2F2 G2A2 A2B2 | B2G2 A2B2 c4 | B2A2 B2c2 d2c2 | B2A2 G4 G4 :|
+|: B2c2 d2e2 e2d2 | c2B2 c2d2 d2c2 | B2A2 B2G2 B2d2 | edcB A4 A4 |
+G2F2 G2A2 A2B2 | B2G2 A2B2 c4 | B2A2 B2c2 d2c2 | B2A2 G4 G4 :|
+
+X:168
+T:Gubbdansen
+R:sl\"angpolska
+O:Gotland
+Z:id:hn-sp-168
+M:3/4
+L:1/16
+K:Dm
+f3e f4 a4 | a2ba g2ag f2e2 | d3e fefg a3f | f2e2 e2^c2 A4 :|
+|: ^c3c d2d2 e2e2 | f2f2 gfed e4 | ^c3c d2d2 e2e2 | f2f2 gfed e4 |
+a3a b2a2 g2f2 | f2ef g2f2 e3d | fed^c c4 d4 :|
+
+X:169
+T:Hur du v\"ander dig
+R:sl\"angpolska
+H:Text jfr #69, #109
+B:LC Wiede nr 314:2
+O:\"Osterg\"otland
+Z:id:hn-sp-169
+M:3/4
+L:1/16
+K:G
+G2A2 A2B2 B2G2 | A2B2 B2c2 c2d2 |
+w:Hur du v\"and-er dig och hur du sv\"ang-er dig s{\aa}
+e2d2 B2B2 d2c2 | A2B2 G4 z4 :|
+w:lag-a att du har en trog-en v\"an.
+F2G2 A4 A2B2 | c2d2 c4 B2G2 | 
+w:Snart f\"or-g{\aa} di-na ung-a dag-ar och
+F2G2 A4 A2B2 | c2d2 c4 B2G2 |
+w:snart f\"or-g{\aa} di-na ung-a dag-ar och
+G2A2 A2B2 B2G2 | A2B2 B2c2 c2d2 |
+w:ald-rig kom-ma de och ald-rig kom-ma de och 
+e2d2 B2B2 d2c2 | A2B2 G4 z4 :|
+w:ald-rig kom-ma de h\"ar mer i-gen.
+
+X:170
+T:Skrattpolskan
+R:sl\"angpolska
+H:efter Lars Erik Larsson, Floda
+H:se \"aven #264
+B:SvL \"Ogl 15
+O:S\"ormland
+Z:id:hn-sp-170
+M:3/4
+L:1/16
+K:Dm
+A2=B^c d2ed c2A2 | d3f e2fg a4 | a2ba g2f2 e2d2 | d2^cd e2c2 A4 |
+A2=B^c d2ed c2A2 | d3f e2fg a4 | a2ba g2f2 e2d2 | ^c2e2 d8 :|
+|: f2A2 f2A2 f2A2 | f3e e8 | f3d d2d2 d2d2 | d3^c A8 |
+w:****** *** ha ha ha ha ha ha
+f2gf e4 d4 | A2^c2 e2g2 f2e2 | d3^c d2b2 a2^g2 |1 a2^c2 d8 :|
+[2 a2^c2 d6 f2 |: afcA FAcf afc2 | b2ge c2eg bgeg |
+afcA FAcf afc2 | b2ge c2eg bgeg | f2e2 d2f2 e2d2 |
+A2^c2 e2g2 f2e2 | d2b2 a2g2 f2ed |1 ^cdec d6 f2 :|2 ^cdec d8 ||
+
+X:171
+T:Kaffeb\"onan
+T:Bremans polska
+R:sl\"angpolska
+H:efter C A Lindblom. Jfr #16, jfr Bagge 76
+B:SvL \"Ogl 48
+O:\"Osterg\"otland
+Z:id:hn-sp-171
+M:3/4
+L:1/16
+K:A
+e2a2 e4 f4 | f2ef e2d2 d2c2 | e2a2 e4 f4 | f2ef e2d2 d2c2 |
+e2a2 afdf fece | edBG G2A2 A4 :| A3c e2e2 gegb | b2a2 afdf f2e2 |
+c2Bc d2Bd cdcB | ABcd efed cdcB | A3c e2e2 gegb | b2a2 afdf f2e2 |
+c2Bc d2Bd c2Ac | cBAG G2A2 A4 ||
+P:variant p{\aa} andra delen
+A3c e2e2 gegb | b2a2 afdf f2e2 | cAce fdBd ecAc | ABcd efed cdcB |
+A3c e2e2 gegb | b2a2 afdf f2e2 | cAce fdBd ecAc | dBGB B2A2 A4 ||
+
+X:172
+T:Grannas flickor
+R:sl\"angpolska
+H:han hade den efter sin far, Anders Fredrik Lindell, fr{\aa}n Askersund
+H:Se \"aven #14, #51, #150, #208
+B:SvL \"Ogl 268, efter Frans August Lindell, Motala
+O:N\"arke
+Z:id:hn-sp-172
+M:3/4
+L:1/16
+K:Am ^f
+A2AB c2cB A2AB | cBcd e2z2 c4 | e3f g2ga f2fg | a2ag e2ed cdcB |
+A2AB cdcB A2AB | cBcd e2z2 c4 | e3f g2ag f2ef | a2ag e2z2 z4 :|
+|: e3f g2ga f2fg | a2(3gag e4 c4 | A3c/e/ A3c/e/ A3c/e/ |
+(5gfgag d2d2 B2B2 | cAAc e2c2 c2B2 | B2G2 [B2G2]A2 A4 :|
+
+X:173
+T:Pinntorpapolska
+R:sl\"angpolska
+H:efter Pelle Fors, upptecknad av R L R\"a\"af 1888. Jfr #2
+H:Om den elaka Pinntorpafrun. Polskan b\"orjar med f\"oljande ord:
+H:"S\"ota fan ta mig inte \"an", d\"arefter d{\aa} fan s\"atter klorna i henne
+H:j\"amrar hon sig "aj, aj, aj". Detta betecknas av den s.k.
+H:"pumpningen" i andra reprisen, som Pelle Fors ibland spelade m{\aa}nga
+H:g{\aa}nger om igen och som han beledsagade med "knackslag" av str{\aa}ken
+H:p{\aa} fiolen. Slutligen s\"ager fan "jag tar dig, jag tar dig, jag tar
+H:dig", varmed tredje reprisen b\"orjas.
+O:\"Osterg\"otland
+Z:id:hn-sp-173
+M:3/4
+L:1/16
+K:A
+c2B2 A2B2 c2d2 | edcd e8 | c2c2 d2d2 c2c2 | BGBG A4 E3D |
+C2B,2 A,4 z4 | c2B2 A2B2 c2d2 | edcd e8 | c2c2 d2d2 c2c2 |
+BGBG G3A A4 :||: E2B2 cBAB c2A2 | A,2c2 A2A2 E2E2 |
+c2c2 A2A2 E2E2 | c2cd B2Bc AGAB | cABG G3A A4 :|
+|: CEEC CEEC CEEC | D=FFD DFFD DFFD | CEEC CEEC CEEC |
+D=FFD DFFD DFFD | c2cd B2Bc AGAB | cABG G3A A4 :|
+
+X:174
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:efter Pelle Fors, upptecknad av R L R\"a\"af 1888. Jfr #76
+O:\"Osterg\"otland
+Z:id:hn-sp-174
+M:3/4
+L:1/16
+K:D
+A2F2 AFAc e2d2 | e2c2 eceg b2a2 | fgaf efge dcde | fece dcdA GFED |
+A2F2 AFAc e2d2 | e2c2 eceg b2a2 | fgaf efge dcde | fece e3d d2 z2 :|
+K:Dm
+|: f2c2 f2a2 c'2a2 | a2gf eceg agfe | f2c2 f2a2 c'2a2 | a2gf eceg agfe |
+fgaf fege dcde | fece d^cdA G^FED | f2c2 f2a2 c'2a2 | a2gf eceg agfe |
+f2c2 f2a2 c'2a2 | a2gf eceg agfe | fgaf fege dcde | fece e3d d2 z2 :|
+
+X:175
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:efter Pelle Fors, upptecknad av R L R\"a\"af 1888. Jfr #45, #78, #38
+O:\"Osterg\"otland
+Z:id:hn-sp-175
+M:3/4
+L:1/16
+K:D
+A2d2 d2A2 FDFA | A2d2 edcd e4 | e2f2 g2f2 e2c2 | dcdf edcB AGFE |
+A2d2 d2A2 FDFA | A2d2 edcd e4 | e2f2 gfga b2g2 | agfg e3d d4 :|
+|: d2d'2 d'2d'2 d'2d'2 | d'2=c'2 c'2c'2 c'2c'2 | =c'2b2 b2b2 d'2b2 |
+c'bab b3a a4 | g2g2 g2g2 b2g2 | agfg fdfg a2f2 | g2f2 ecef gfga |
+bgfg e3d d4 :|
+
+X:176
+T:N\"ackens polska
+R:sl\"angpolska
+H:Version 1 efter Pelle Fors, R\"on\"o, upptecknad av R L R\"a\"af 1888.
+H:Version 2 efter Pelle Fors, upptecknad av Carl Erik S\"odling.
+H:Version 3 fr{\aa}n Gotland
+O:\"Osterg\"otland, Gotland
+Z:id:hn-sp-176
+M:3/4
+L:1/16
+K:Gm
+GABc d4 ^f4 | d'2d'2 g2g2 f2d2 | d2d2 B2B2 d2d2 | cBA^F G4 z4 :|
+d2B2 Bcd=e fgfd | d2c2 dc=Bc d4 | d2B2 Bcd=e fgfd | d2c2 dc=Bc d4 |
+d2d2 B4 d2B2 | A2B2 d2g2 ^f2g2 | d2d2 B4 d2B2 | A2B2 d2g2 ^f2g2 | 
+d2d2 B4 d2B2 | A^FAF G4 z4 ||
+P:version 2
+|: G3B d4 f3g | b2b2 g2g2 f2f2 | d3d B4 d3c | cdcB G4 z4 :|
+d2B2 B2d2 f3d | d2c2 c2d/c/B/c/ d4 | d2B2 B2d2 f3d | d2c2 c2d/c/B/c/ d4 |
+B3d c4 d3c | c3B G2g2 f2g2 | d3d B4 d3c | cdcB G4 z4 ||
+P:version 3
+|: G3B d4 ^f4 | a3b g2g2 f2f2 | d2d2 B4 d3c | A3B G4 z4 :|
+B2B2 d2d2 f3d | c2c2 c2Bc d4 | B2B2 d2d2 f3d | c2c2 dcBc d4 |
+B3d c4 d3c | A3B G4 g4 | ^f2g2 d2B2 d3c | A3B G4 g4 |
+^f2g2 d2B2 d3c | A3B G4 ||
+
+X:177
+T:K\"aringtr\"atan
+R:sl\"angpolska
+H:efter Pelle Fors, upptecknad av R L R\"a\"af 1888. Jfr #19, #20
+O:\"Osterg\"otland
+Z:id:hn-sp-177
+M:3/4
+L:1/16
+K:A
+c2e2 efec dcdf | f2e2 efec edcB | c2e2 efec dcdf | f3e e4 z4 :|
+|: c2c2 A2A2 E2E2 | C2CA, B,A,B,D CDCB, | c2c2 A2A2 E2E2 |
+C2CA, B,A,B,D CDCB, | c2cd B2Bc AGAB | cABG G3A A4 :|
+
+X:178
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:efter Pelle Fors, upptecknad av R L R\"a\"af 1888. Jfr #95, #130, #193
+O:\"Osterg\"otland
+Z:id:hn-sp-178
+M:3/4
+L:1/16
+K:D
+D2D2 F2D2 F2D2 | DEFG A2F2 A2F2 | A2A2 d2d2 f2f2 | fdfd dcdA GFED |
+D2D2 F2D2 F2D2 | DEFG A2F2 A2F2 | A2A2 d2d2 f2f2 | AcAc d4 z4 :|
+|: e2f2 gfef e2e2 | e2f2 gfef e2e2 | e2f2 g2f2 e2d2 |
+dcdf edcB AGFE | e2f2 gfef e2e2 | e2f2 gfef e2e2 |
+e2f2 g2a2 b2g2 | agfe d4 d4 :|
+
+X:179
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Fr{\aa}n br\"oderna Hellstr\"om. Jfr SvL \"Ogl 304, #141
+O:\"Osterg\"otland
+Z:id:hn-sp-179
+M:3/4
+L:1/16
+K:G
+G3B d2g2 b2g2 | agfg d2B2 B2{cB}A2 | [A2D2]f2 [A2D2]f2 [A2D2]f2 |
+{fg}f2ef g2d2 B2G2 | G3B d2g2 b2g2 | agfg d2B2 B2{cB}A2 |
+[A2D2]f2 [A2D2]f2[A2D2]f2 | {fg}f2ef g4 g4 :||: G2B2 B2d2 d3B |
+cdcB c2c2 e2A2 | [A2D2]f2 [A2D2]f2[A2D2]f2 | {fg}f2ef g2d2 B2G2 |
+G2B2 B2d2 d3B | cdcB c2c2 e2A2 | [A2D2]f2 [A2D2]f2[A2D2]f2 |
+{fg}f2ef g4 g4 :|
+
+X:180
+T:Polska efter Finnmark Hellstr\"om
+R:sl\"angpolska
+O:\"Osterg\"otland
+Z:id:hn-sp-180
+M:3/4
+L:1/16
+K:G
+D3G G2B2 cBAB | G3B B2d2 d2B2 | A3c e2d2 d2B2 | dedc c4 B4 |
+D3G G2B2 cBAB | G3B B2d2 d2B2 | A3c e2d2 d2B2 | dedc B8 :|
+|: d3g g2f2 fgfe | c2e2 efed d2B2 | G3B B2d2 d2e2 | dcAF G2D2 B,2G,2 |
+d3g g2f2 fgfe | A3c efed B4 | G2B2 B2d2 d2ed | cdef [g8B8] :|
+
+X:181
+T:Polska fr{\aa}n Tuna
+R:sl\"angpolska
+B:Wallmans samling nr 31, Sumlen 1976
+O:Sm{\aa}land
+Z:id:hn-sp-181
+M:3/4
+L:1/16
+K:Dm
+d2fd e2ge fefg | a2a^g a2ae d^c=BA | d2fd e2ge fefg | age^c c2d2 d4 :|
+|: d2a2 a2g2 f2e2 | f2ef gfef f2e2 | d2a2 a2g2 f2e2 | f2ef gfef f2e2 |
+f2f2 gfef d2d2 | d2d2 edcB A2A2 | a2ab g2ga fefg | age^c c2d2 d4 :|
+
+X:182
+T:Polska fr{\aa}n Borgholm
+R:sl\"angpolska
+H:efter Joh. Magnusson, Borgholm. Jfr #88.
+O:\"Oland
+Z:id:hn-sp-182
+M:3/4
+L:1/16
+K:Am
+E2 | A2AB cBcd e2A^c | e2A^c e2g2 e2a2 | a4 a^faf g2e2 |
+[M:2/4] e2=c2 c2B2 |[M:3/4] EABA B2A2 z2 :||: z2 | Ace2 Ace>c e2d2 |
+E^GB2 EGd>G B2A>E | A2AB cBcd e2c2 |[M:2/4] c2B2 E2^G2 |
+[M:3/4] B2A2 A4 z2 :|
+
+X:183
+T:Ristmanpolskan
+R:sl\"angpolska
+H:Efter Carl Ulrik Retzman (1786-1832), Lofta sn, Tjust
+H:Jfr. #75
+O:Sm{\aa}land
+Z:id:hn-sp-183
+M:3/4
+L:1/16
+K:Dm
+D3F A2d2 f2a2 | c'2c'a b2bg a4 | f2ag eceg agab | c'2c'a b2bg a4 |
+f2ag eceg a2^c2 | ^c2d2 dcec A4 | D3F A2d2 f2d2 | ^cAce e2ce d4 :|
+|: D3F A2d2 f2d2 | ^c2Ac e2ec A2(3GFE | F2D2 D2F2 AFAF |
+G2E2 E2FG AGFE | F2D2 D2F2 AFAF | G2E2 E2FG AGFE | D3F A2d2 f2d2 |
+^cAce e2ce d4 :| [K:D] |: e2(3dcd e4 a4 | a2^ga baga e4 |
+a2c'a e2e2 c3c | d2ed c2ec A4 | FAdA FAdA FAdA | GBdB GBdB GBdB |
+cded cded cdec | d2d2 cdec A4 | F2D2 D3F A>FAF | G2E2 E2FG AGFE |
+F2D2 D2F2 A>FAF | G2E2 E2FG AGFE | D3F A2d2 f2d2 | ^cAce e2ce d4 :|
+
+X:184
+T:Johan B\"orgessons polska
+R:sl\"angpolska
+C:Riksdagsmannen Johan B\"orgesson i Kr{\aa}ktorp
+H:Spelad av honom sj\"alv d{\aa} kyrkoherde Sv. W{\ae}nerberg dansade f\"orsta
+H:dansen med hans sonhustru p{\aa} dess br\"ollop 1799 i Virsersum
+B:W{\ae}nerbergs samling, Sumlen 1976
+O:Sm{\aa}land
+Z:id:hn-sp-184
+M:3/4
+L:1/16
+K:Gm
+d4 e4 d4 | c4 d6 c2 | B2AB c2B2 A2G2 | G2^FG A2F2 D4 |
+d4 e4 d4 | c4 f6 e2 | d2c2 B2A2 G2B2 | A2G^F G4 G,4 :|
+|: g2a2 b4 a2g2 | g2^fg a2f2 d2f2 | g2a2 b2a2 b2g2 | ^fgaf g4 G4 |
+g2a2 b4 a2g2 | g2^fg a2f2 d2=f2 | e2d2 c2B2 A2G2 | ^FGAF G4 G,4 :|
+
+X:185
+T:Ristmans polska
+R:sl\"angpolska
+B:SvL \"Ogl 366, efter Nils Olsson, Sj\"ogestad, V{\aa}nga
+O:\"Osterg\"otland
+Z:id:hn-sp-185
+M:3/4
+L:1/16
+K:D
+DFAF DFAd f2d2 | d2ef gfge f2d2 | DFAF DFAd f2d2 | cded c2A2 a4 :|
+|: a4 fdfa fdfa | a2b2 gegb b2a2 | a2ba gfed cdef | gagf edcB AGFE |
+D2a2 fdfa fdfa | a2b2 gegb b2a2 | a2ba gfed cdef | gfed c2d2 d4 :|
+
+X:186
+T:H\"or du lilla s{\aa}ta
+R:sl\"angpolska
+H:efter Bengt H{\aa}kansson (1842-1926), J\"at, fl\"ojt och fiol.
+B:Sm{\aa}l\"andsk musiktradition I:321, ur A Str\"ombergs melodisamling
+O:Sm{\aa}land
+Z:id:hn-sp-186
+M:3/4
+L:1/16
+K:D
+f2(fd) B2(BG) A2A2 | B2(Bd) c2(ce) (dc)de | f2(fd) B2(BG) A2A2 |
+(BA)Bc e2d2 d4 :||: (fe)fg a2(ag) f2d2 | (g2e2) (f2d2) (e2c2) |
+(BA)GF (ED)EF G2B2 | (cB)cd c2e2 a4 | (fe)fg a2(ag) f2d2 |
+(g2e2) (f2d2) (e2c2) | (BA)GF (ED)EF G2B2 | (cB)ce e2d2 d4 :|
+W:H\"or du lilla s{\aa}ta,
+W:hvarf\"or skall du gr{\aa}ta,
+W:h\"ar i Sverige \"ar tiden sv{\aa}r...
+W:
+
+X:187
+T:Spelman spelar
+R:sl\"angpolska
+H:efter Lisa Bolling, Gr\"anna. Jfr #156, #228
+O:Sm{\aa}land
+Z:id:hn-sp-187
+M:3/4
+L:1/16
+K:Dm
+A,2A,2 D4 E4 | F2EF G4 A4 | A3A B3B A3A |
+w:Spel-man spe-lar, al-la vill dan-sa, lus-tig Kers-ti lil-la
+[1 G2FG A4 z4 :|2 G2FG A4 z2 |: A2 | d3d c4 F3A |
+w:k\"an-ner du mig? k\"an-ner du mig? Men vi ska dan-sa me'n
+c3B G4 E3E | F2G2 A2A2 F2FF | E2E^C D6 :|
+w:vi \"ar ung-a det kom-mer snart en dag n\"ar det os-ar i-gen.
+
+X:188
+T:Klang min vackra bj\"allra
+R:sl\"angpolska
+H:jfr #215, #237
+B:Version 1: Spelmansmusik fr{\aa}n Sverige, Danmark och Norge
+B:Version 2: W{\ae}nerbergs samling, Sumlen 1976
+O:\"Osterg\"otland
+Z:id:hn-sp-188
+M:3/4
+L:1/16
+K:F
+a3f c2c2 B2B2 | A2A2 cBAB c4 | a3f c2c2 B2B2 | A2A2 cBAB c4 |
+d3B f2d2 B2d2 | c3B A2B2 c4 | d3B f2d2 B2d2 | c3B A2B2 c4 |
+d3d b2a2 g2f2 | efga g4 f4 || e3f g2ga g2ga | g2f2 e2d2 c4 |
+e3f g2ga g2ga | g2f2 e2d2 c4 | a3f c2c2 B2B2 | A2A2 cBAB c4 |
+d3B f2d2 B2d2 | c3B A2B2 c4 | d3d b2a2 g2f2 | efga g4 f4 ||
+P:version 2
+|: f2af c2c2 B2B2 | A2A2 B2AB c4 | f2af c2c2 B2B2 | A2A2 B2AB c4 |
+d2B2 f2d2 B2d2 | c2cB A2AB c4 | d2B2 f2d2 B2d2 | c2cB A2AB c4 |
+c4{dcBc} b2a2 g2f2 | efga g4 f4 :| g2ga g2f2 e2d2 |
+c2c=B c2d2 e2f2 | g2ga g2f2 e2d2 | edcB d4 c4 | f2af c2c2 B2B2 |
+A2A2 B2AB c4 | f2af c2c2 B2B2 | A2A2 B2AB c4 | d2B2 f2d2 B2d2 |
+c2cB A2AB c4 | d2B2 f2d2 B2d2 | c2cB A2AB c4 | c4{dcBc} b2a2 g2f2 |
+efga g4 f4 ||
+
+X:189
+T:Gr\"oistampin
+R:sl\"angpolska
+H:efter Karl W\"ast (f 1876) fr{\aa}n Replot
+H:jfr #34, #79, #230
+O:\"Osterbotten, Finland
+Z:id:hn-sp-189
+M:3/4
+L:1/16
+K:Dm
+d4 ^c4 d4 | e3d ^c2d2 e4 | f2ef g2fg a3g |1 f2e2 d2^c2 A4 :|
+[2 f2e2 f2e2 d4 || f3e d^cdf a2f2 | f2ed ed^cd e4 | f3e d^cdf a2f2 |
+f2e2 d2^c2 A4 | d4 ^c4 d4 | e3d ^c2d2 e4 | f2ef g2fg a3g |
+f2e2 f2e2 d4 ||
+
+X:190
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+H:jfr #54
+B:Version 1: C A Lindblom 11
+B:Version 2, 3: Bagge 73, 60
+B:Version 4: R\"a\"af 16 (Sumlen 1976)
+O:\"Osterg\"otland
+Z:id:hn-sp-190
+M:3/4
+L:1/16
+K:G
+d2ef g2g2 f2f2 | e2e2 d4 d4 | B2AB c2c2 B2B2 | A2A2 G4 G4 :|
+|: G2B2 B2AB A4 | A2c2 c2Ac B4 | B2d2 d2Bd c4 | c2e2 e2ce d4 |
+d2ef g2g2 f2f2 | e2e2 d4 d4 | B2AB c2c2 B2B2 | A2A2 G4 G4 :|
+P:version 2
+d2(ef) g2g2 f2f2 | (ef)ge d6 c2 | B2(AB) c2(Ac) B2(GB) |
+(BA)GF G2D2 B,2G,2 | d2(ef) g2g2 f2f2 | (ef)ge d6 c2 |
+B2(AB) (cB)ce d2B2 | (dc)AF G4 g4 :||: G3B B6 G2 | A3c c6 A2 |
+B3d d6 B2 | (cB)ce g2e2 d4 | d2(ef) g2g2 f2f2 | (ef)ge d6 c2 |
+B2(AB) (cB)ce d2B2 | (dc)AF G4 g4 :|
+P:version 3
+|: d4 g4 f3f | e3e d4 z4 | d4 c4 B3B | A3A G4 z4 :| G3B B3A A4 |
+A3c c3B B4 | B3d d2c2 c2c2 | c3e e2d2 d2d2 | d4 g4 f3f |
+e3e d4 z4 | B4 c4 B3B | A3A G4 z4 ||
+P:version 4
+K:A
+e2fg a2a2 g2g2 | f2ef e8 | c2Bc d2d2 c2c2 | B2AB A8 :|
+|: A2c2 c2B2 B4 | B2d2 d2c2 c4 | c2e2 e2d2 d4 | d2f2 f2e2 e4 |
+e2fg a2a2 g2g2 | f2ef e8 | c2Bc d2d2 e2c2 | B2AB A8 :|
+
+X:191
+T:Polska
+R:sl\"angpolska
+H:jfr #192, #207, #224, "Flickorna dansar p{\aa} t{\aa}"
+B:Bagge 75
+O:\"Osterg\"otland
+Z:id:hn-sp-191
+M:3/4
+L:1/16
+K:A
+e2(fe) (dc)BA a4 | e2(fe) dcBA f4 | e2(ce) d2(Bd) c2A2 |
+(cB)AG (AB)cd efga | e2(fe) (dc)BA a4 | e2(fe) (dc)BA f4 |
+e2(ce) d2(Bd) c2A2 | cBAG A4 A,4 :||: A3B c2cA B2(BG) |
+A2c2 (BA)GF (F2E2) | A3B c2(cA) B2(BG) | (AG)Ac c2e2 e4 |
+A3B c2(cA) B2(BG) | A2c2 (BA)GF (F2E2) | A3B c2(cA) B2(BG) |
+(AG)Ac c2e2 e4 | (ed)cd e2a2 (f2d2) | (ed)cd B2e2 (c2A2) |
+(ed)cd e2a2 (f2d2) | (BG)EG A4 A,4 :|
+
+X:192
+T:Flickorna dansa p{\aa} t{\aa}
+R:sl\"angpolska
+H:jfr #191, #207, #224
+O:Sk{\aa}ne
+Z:id:hn-sp-192
+M:3/4
+L:1/16
+K:A
+e2fe dcBA a2a2 | e2fe dcBA d2d2 | fece edBd dcAc |
+cBAG A2E2 C2A,2 | e2fe dcBA a2a2 | e2fe dcBA d2d2 |
+fece edBd dcAc | cBAG G2A2 A4 :||: B3B B2B2 B2d2 |
+d3c c2A2 A2c2 | d3d d2f2 a2f2 | f2e2 e2fe dcBA |
+e2fe dcBA a2a2 | e2fe dcBA d2d2 | fece edBd dcAc | cBAG G2A2 A4 :|
+
+X:193
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+H:jfr #95, #130, #178
+B:Version 1: C A Lindblom 2
+B:Version 2: W{\ae}nerbergs samling, Sumlen 1976
+O:\"Osterg\"otland
+Z:id:hn-sp-193
+M:3/4
+L:1/16
+K:D
+d2d2 f2d2 f2d2 | f2f2 a2f2 a2f2 | a2a2 g2g2 f2f2 | e2dc d4 D4 :|
+|: f4 e2e2 e2e2 | f2ed e2e2 e2e2 | f2ef g4 f4 | e2dc d4 D4 :|
+P:version 2
+K:A
+|: A2AB c2A2 c2A2 | c2cd e2c2 e2c2 | e2e2 a4 e2d2 | c2B2 A4 A2z2 :|
+|: c2c2 B2B2 B2B2 | c2c2 B2B2 B2B2 | c2c2 d2d2 c2c2 | B2B2 A4 A2z2 :|
+
+X:194
+T:Polska efter Lars August Bengtsson
+R:sl\"angpolska
+B:SvL Sml 35, efter Lars August Bengtsson, Loftahammar
+Z:id:hn-sp-194
+M:3/4
+L:1/16
+K:G
+G2B2 A2c2 B2d2 | e2f2 g4 B4 | c2d2 e2d2 c2B2 | A2G2 FGFE D4 |
+G2B2 A2c2 B2d2 | e2f2 g4 B4 | c2d2 e2d2 c2B2 | AGFA G8 :|
+|: d4 B2dB G2e2 | e2d2 d2c2 c2B2 | d4 B2dB G2e2 | e2d2 d2c2 c2B2 |
+G2B2 A2c2 B2d2 | e2f2 g4 B4 | c2d2 e2d2 c2B2 | AGFA G8 :|
+
+X:195
+T:Knister, knaster, knaster
+R:sl\"angpolska
+H:efter Konrad Hellqvist, Finsp{\aa}ng, f\"odd 1864 i Mell\"osa, S\"ormland
+B:SvL \"Ogl 17
+O:\"Osterg\"otland, S\"ormland
+Z:id:hn-sp-195
+M:3/4
+L:1/16
+K:Bb
+B3c d2B2 d2B2 | d2de f2d2 f2d2 |
+w:Knis-ter knas-ter knas-ter, k\"ar-ing-en stek-te pl{\aa}s-ter
+w:Ben-et te {\aa} svi-da, gum-man te {\aa} gni-da,
+f2f2 b4 f4 | e2e2 d4 :|
+w:la-de p{\aa} sitt su-ra ben.
+w:aj aj aj mitt su-ra ben.
+F2d2 d2ed c2c2 | d2c2 d2ed c2c2 | 
+c2d2 e2ce d2Bd | c2Ac B2F2 D2B,2 |
+F2d2 d2ed c2c2 | d2c2 d2ed c2c2 | 
+c2d2 e2ce d2Bd | c2Ac B8 ||
+W:Knister knaster knaster, k\"aringen stekte pl{\aa}ster
+W:Benet te {\aa} svida, gumman te {\aa} gnida,
+W:lade p{\aa} sitt sura ben.
+W:aj aj aj mitt sura ben.
+W:
+W:Gubben l{\aa}g p{\aa} ugnen, var s{\aa} illa kummen
+W:f\"or han inte br\"annvin kunde f{\aa}.
+W:Och gumman l{\aa}g i aska', hade en t{\aa}r i flaska',
+W:gubben fick inte en t{\aa}r \"and{\aa}.
+
+X:196
+T:{\AA}kermans polska
+R:sl\"angpolska
+C:fl\"ojtspelaren Lars Niclas {\AA}kerman (1781-1852) fr{\aa}n Sindarve i Hemse
+O:Gotland
+Z:id:hn-sp-196
+M:3/4
+L:1/16
+K:D
+D2DE FEFG A2Bc | dcde fefg a2f2 | gagf efed cdcB | ABcd edcB AGFE |
+D2DE FEFG A2Bc | dcde fefg a2f2 | gagf efed cdcB | ABcd edcB AGFE |
+DFAF DFAF EGAG | DFAF DFAF EGAG | FAdc BAgf e3d | cABc c2d2 d4 :|
+|: e2cA EAcA eAcA | f2dA FAdA fAdA | e2cA EAcA eAcA | f2dA FAdA fAdA |
+DFAF DFAF EGAG | DFAF DFAF EGAG | FAdc BAgf e3d | cABc c2d2 d4 :|
+
+X:197
+T:Rullande Gubben
+R:sl\"angpolska
+B:SvL Sk{\aa}ne 47, efter N\"as Ingars (Inga Persdotter, D\"onaberga, Hj\"ars{\aa}s, 1835-1911)
+O:Sk{\aa}ne
+Z:id:hn-sp-197
+M:3/4
+L:1/16
+K:Am
+c2c2 c2dc B2G2 | G2B2 B2cB A4 |
+w:H\"or du, rul-lan-de gub-be, vill du l{\aa}-na mej hus?
+c2c2 c2dc B2G2 | G2BB BBcB A4 || 
+w:Har du peng-ar p{\aa} lom-man, ska du f{\aa} k\"an-na mina mus.
+e4 e2ef e2c2 | e2g2 g2ga g2e2 | e4 e2ef e2c2 | c2dc B2cB A4 :|
+
+X:198
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:efter Anselm och Allan Hellstr\"om
+H:sista takten i f\"orsta delen \"aven ^C2EC C2D2 D4
+O:\"Osterg\"otland
+Z:id:hn-sp-198
+M:3/4
+L:1/16
+K:Dm
+A2 |: d3^c e2c2 c2A2 | ABAG A4 E4 | FGFE D^CDE FGFD |
+E2^C2 A,CEC E2D2 | D2d2 d2^c2 e2c2 | ^c2A2 ABAG A2AE |
+FGFE D^CDE FGFE |1 ^C4 D6 (3A=B^c :|2 ^C4 D8 |: A2a2 =baga bage |
+c2eg agfg agfe | A2a2 =baga bage | c2eg agfg agfe |
+f2ef d2ef gfed |1 ^cdec d8 :|2 ^cdec d6 ||
+
+X:199
+T:Polska efter Bengt H{\aa}kansson
+R:sl\"angpolska
+H:efter Bengt H{\aa}kansson (1842-1926), J\"at, som trakterade b{\aa}de fl\"ojt
+H:och fiol. Han sj\"ong ocks{\aa} g\"arna visor till psalmodikonackompanjemang.
+B:Sm{\aa}l\"andsk musiktradition I:309, ur A Str\"ombergs melodisamling
+O:Sm{\aa}land
+Z:id:hn-sp-199
+M:3/4
+L:1/16
+K:G
+G2[B2D2] [B2D2][B2D2] [B2D2][B2D2] | cBAG FGAB c2A2 |
+G2[B2D2] [B2D2][B2D2] [B2D2][B2D2] | cBAG FGAB c2A2 |
+d2(ef g2)d2 cBcA | F2G2 G4 z4 :||: (df)f(f fa)af Tf2d2 |
+(dg)g(g gb)bg Tg2f2 | (df)f(f fa)af Tf2d2 | (dg)g(g gb)bg Tg2f2 | 
+efge fgaf Tg2d2 | cBcA F2G2 G4 :|
+
+X:200
+T:Himlens polska
+R:sl\"angpolska
+O:Finland
+Z:id:hn-sp-200
+M:3/4
+L:1/16
+K:Gm
+G3A G2F2 G2A2 | B3c B2A2 B2c2 | d2cd e2dc d2cB | B2AG FGAF D2F2 |
+G3A G2F2 G2A2 | B3c B2A2 B2c2 | d2cd e2dc B2AG |1 BAGF G4 G2DF :|
+[2 BAGF G4 G2B2 |: d4 d3e d2c2 | B2A2 A2F2 D2B,2 | f4 f3g f2e2 |
+d2c2 c2Bc B4 | a4 a4 g4 | f3g a2f2 d2B2 | b2b2 a2a2 g2g2 |
+f3g a2f2 d2fd | e3d c2B2 A2G2 |1 BAGF G4 G2B2 :|2 BAGF G4 G4 ||
+
+X:201
+T:Vid S\"atra kvarn
+R:sl\"angpolska
+H:Version 1 efter Gustav Bostr\"om, Torstorp, Risinge,
+H:som hade den efter sin mor Charlotta Kristina Bostr\"om.
+H:Version 2 efter Johan Oskar Carlsson, Bjursj\"ob\"ack, Risinge,
+H:vars mor ocks{\aa} brukade sjunga den.
+B:SvL \"Ogl 5, SvL \"Ogl 40
+O:\"Osterg\"otland
+Z:id:hn-sp-201
+M:3/4
+L:1/16
+K:G
+G3B d4 g4 | g2fg a2f2 d4 | d2f2 a2f2 d2f2 | g2g2 e2ce d4 ||
+d2cd e2c2 A2c2 | c2Bc d2B2 G2B2 | d2cd e2c2 A2c2 | c2Bc d2B2 G2B2 |
+G3B d2g2 g2B2 | dcBc A4 G4 ||
+P:version 2
+|: G3B d4 g4 | g2fg agfe d4 | defg a2a2 fdfa | g2g2 ege^c d4 :|
+|: B2AB c2A2 A2c2 | c2Ac B2G2 G2B2 | B2AB c2A2 A2c2 |
+c2Ac B2G2 G4 | G2AB cdef g2B2 | dcBc A4 G4 :|
+W:Text till version 1:
+W:    Vid S\"atra kvarn d\"ar st{\aa}r en milesten,
+W:    som Hans i Ingelsta och gruvefogden gjort.
+W:    Och d\"ar var pr\"ast och klockare,
+W:    och flickorna de plockade.
+W:    Hans i Ingelsta och gruvefogden.
+W:
+
+X:202
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+B:SvL \"Ogl 43
+O:\"Osterg\"otland
+Z:id:hn-sp-202
+M:3/4
+L:1/16
+K:F
+F4 FGAB cdeg | f4 c2dc B2A2 | c2dc B2cB A2F2 | G2A2 B2d2 cBAG |
+F4 FGAB cdeg | f4 c2dc B2A2 | c2dc B2cB A2c2 | c2eg bgeg f4 :|
+|: a2f2 f2f2 f2ga | b2g2 g4 g4 | a4 fgfe f2a2 | gagf efge c4 |
+a2f2 f2f2 f2ga | b2g2 g4 g4 | a4 fgfe f2a2 | gagf efge f4 :|
+
+X:203
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+B:SvL \"Ogl 44
+O:\"Osterg\"otland
+Z:id:hn-sp-203
+M:3/4
+L:1/16
+K:D
+A2d2 c2d2 B2c2 | ABcd e6 c2 | d2ef g2f2 e2d2 | cdcB ABAG FGFE |
+D2d2 c2d2 B2c2 | ABcd e6 c2 | d2ef g2f2 g2e2 |
+d3c [c4E4] [d2F2]z2 :||: A4 aAaA gAgA | fAfA gAgA fAfA |
+f2ef g2f2 e2d2 | cdcB ABAG FGFE | D4 aAaA gAgA | fAfA gAgA fAfA |
+f2ef g2b2 g2e2 | d3c [c4E4] [d2F2]z2 :|
+
+X:204
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+B:C A Lindblom 77
+O:\"Osterg\"otland
+Z:id:hn-sp-204
+M:3/4
+L:1/16
+K:D
+d2d2 fafd egec | d2d2 fafd egec | d2ef g2f2 e2d2 | d2cB ABAG F2D2 |
+d2d2 fafd egec | d2d2 fafd egec | d2ef g2f2 e2d2 | cdec d4 D4 :|
+|: a4 A2a2 bagf | g2A2 A2g2 agfe | f2ed d2ef gfed | d2cd efed c2A2 |
+A2d2 fafd egec | A2d2 fafd egec | d2ef g2f2 e2d2 | cdec d4 D4 :|
+
+X:205
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+B:C A Lindblom 86
+O:\"Osterg\"otland
+Z:id:hn-sp-205
+M:3/4
+L:1/16
+K:G
+d4 d2Bd c2Ac | B2GB d2Bd g4 | d4 d2Bd c2Ac | B2GB A2F2 D4 |
+d4 d2Bd c2Ac | B2GB d2Bd g4 | d4 d2Bd c2Ac | B2A2 G8 :|
+|: g2f2 e2d2 e2f2 | gfga b4 B4 | g2f2 e2d2 e2f2 | gfga b8 |
+g2f2 e2d2 e2f2 | gfga b4 B4 | d4 d2Bd c2Ac | B2A2 G8 :|
+
+X:206
+T:Polska fr{\aa}n H\"ogsj\"o
+R:sl\"angpolska
+H:efter C. A. Hertsmann, H\"ogsj\"o. Jfr #40
+B:A.P. Andersson 1880
+O:S\"ormland
+Z:id:hn-sp-206
+M:3/4
+L:1/16
+K:F
+f4 cdcB ABAG | F2f2 eceg f4 | b3a a2g2 g2f2 | efed cdcB A2c2 |
+f4 cdcB ABAG | F2f2 eceg f4 | b3a a2g2 g2f2 | eceg g4 f4 :|
+|: f3a a2c'2 c'2c'2 | a2c'2 d'c'ba b4 | e3g g2b2 b2b2 |
+g2b2 c'bag a4 :| FAcA fAcA FAcA | Bdfd bdfd Bdfd | cege bege cege | 
+fefa gfed cBAG | FAcA fAcA FAcA | Bdfd bdfd Bdfd | cege bege cege | 
+fefa g4 f4 ||
+
+X:207
+T:Polska
+R:sl\"angpolska
+H:efter Lars Persson, G\"olstugan, Ving{\aa}ker. Jfr #191, #192, #224
+H:"Flickorna dansar p{\aa} t{\aa}"
+B:A.P. Andersson 1880
+O:S\"ormland
+Z:id:hn-sp-207
+M:3/4
+L:1/16
+K:A
+e2fe dcBA c'2a2 | e2fe dcBA f4 | fece edBd dcAc | cBGB ABcd efga |
+e2fe dcBA a4 | e2fe dcBA f4 | fece edBd dcAc | cBGB A4 A,4 :|
+|: Acec Acec Acec | e2ef efed cdcB | Acec Acec Acec |
+e2ef efed cdcB | A2Ac B2Bd c2e2 | dcBA G4 A4 :|
+
+X:208
+T:Polska
+R:sl\"angpolska
+H:Se \"aven #14, #51, #150, #172
+B:A.P. Andersson 1880
+O:S\"ormland
+Z:id:hn-sp-208
+M:3/4
+L:1/16
+K:Am
+A2AB c2cB A2B2 | c2d2 e4 c2e2 | e2g2 g2f2 d2f2 | a2g2 e4 z4 :|
+|: e2g2 g2f2 d2f2 | a2g2 e4 c4 | c2Bc d4 e4 | g2f2 d4 B4 |
+cBcd e2e2 c2c2 | B2B2 A4 z4 :|
+
+X:209
+T:Polska efter Abraham Hagholm
+R:sl\"angpolska
+B:SvL \"Ogl 112, efter Abraham Hagholm, Godeg{\aa}rd
+O:\"Osterg\"otland
+Z:id:hn-sp-209
+M:3/4
+L:1/16
+K:Gm
+{ABc}B4 BA^FA [G4G,4] | G2g2 g^faf d4 | d2=f2 fedc d2B2 |
+BAG^F GFGD CB,A,G, | {ABc}B4 BA^FA [G4G,4] | G2g2 g^faf d4 |
+d2=f2 fedc d2B2 | BA^FA A2G2 G4 :|
+|: A2B2 cBAB cBAB | G2d2 d2cd edcB | A2B2 cBAB cBAB |
+G2d2 d2cd edcB | G2g2 g^faf d4 | d2=f2 fedc d2B2 | BA^FA A2G2 G4 :|
+|: BFBd BFBd edcB | AFAc AFAc dcBA | BFBd BFBd edcB |
+AFAc AFAc dcBA | G^FGA BABc d4 | {=efg}f4 f_edc d2B2 | BA^FA A2G2 G4 :|
+
+X:210
+T:Polska efter J.J. Bruun
+R:sl\"angpolska
+B:SvL Sk 535, efter J.J. Bruun, S\"arsl\"ov, sjungen av hans moder.
+O:Sk{\aa}ne
+Z:id:hn-sp-210
+M:3/4
+L:1/16
+K:Am
+c3d efge f2e2 | e2a2 a^ga=g f2e2 | c3d e2eg f2f2 | e2e2 c4 A4 :|
+|: ABcB ABcB ABcd | efge f4 e4 | ABcB ABcB ABcd | efge f4 e4 |
+e2a^g a2a=g e4 | g2ge gfed c4 | d2df e2e2 d3B | c3A B4 A4 :|
+
+X:211
+T:Polska efter J.J. Bruun
+R:sl\"angpolska
+B:SvL Sk 549, efter J.J. Bruun, som hade den efter Per Valdemar Lethin, Lund.
+O:Sk{\aa}ne
+Z:id:hn-sp-211
+M:3/4
+L:1/16
+K:Am
+A4 A2c2 B2A2 | B4 B2d2 c2B2 | A4 A2c2 B2A2 | ^G4 A8 :|
+|: e4 c2e2 d2c2 | d4 B2d2 c2B2 | e4 c2e2 d2c2 | d4 B2d2 c2B2 |
+A4 A2c2 B2A2 | B4 B2d2 c2B2 | A4 A2c2 B2A2 | ^G4 A8 :|
+
+X:212
+T:Tr\"askopolskan
+T:Polska efter Per Larsson Lindahl
+R:sl\"angpolska
+H:jfr #127, #115
+B:SvL Sk 1361
+O:Sk{\aa}ne
+Z:id:hn-sp-212
+M:3/4
+L:1/16
+K:C
+e2e2 f2f2 e4 | edcd efed d2cd | e2e2 f2f2 e2g2 | {a}gfe2 d4 c4 :|
+|: c2e2 d2f2 {g}fed2 | c2e2 d2f2 {g}fed2 | c3e g3g g3g | gfed d4 c4 :|
+
+X:213
+T:Polska efter Nils Bernhard Ljunggren
+R:sl\"angpolska
+H:F\"orsta delen jfr #72, andra delen jfr #214
+B:SvL Sml 228, efter Nils Bernhard Ljunggren, Markaryd
+O:Sm{\aa}land
+Z:id:hn-sp-213
+M:3/4
+L:1/16
+K:D
+A4 G2FG A4 | A2Bc dcdA GFED | A4 G2FG A4 | Adcd e2c2 d4 :|
+|: ABcd e2e2 f2f2 | g2g2 f2f2 e2e2 | ABcd e2ee f2ff | g2gg f2ff e4 |
+a4 faaf [d4f4] | [g4B4] egec A2A2 | ABcd efge fafd | egec d8 :|
+
+X:214
+T:Polska efter Anders Bredal
+R:sl\"angpolska
+H:efter Nils Bernhard Ljunggren, Markaryd, som hade den efter
+H:Anders Bredal, Markaryd. Andra delen jfr #213
+D:Anders Norudde: Kan sj\"alv!
+O:Sm{\aa}land
+Z:id:hn-sp-214
+M:3/4
+L:1/16
+K:A
+d | c2Bc A2A2 A2Bc | dedc BcBA G2Ed | c2Bc A2A2 A2Bc |
+dedc BcBA G2E2 |1 c2A2 d2B2 e2c2 | BcBA GAGF E3 :|2 c2A2 d2B2 e3c |
+dBGB B2A2 A4 |: EFGA B2B2 c2c2 | d2d2 c2c2 B2B2 | EFGA B2BB c2cc |
+d2dd c2cc B4 | e4 c2ec A3c | d4 BdBG E2E2 | EFGA BcdB cecA |
+BdBG G2A2 A4 :|
+
+X:215
+T:Skrap Ollas polska
+T:River jag s\"onder i kras
+R:sl\"angpolska
+H:efter Karl Fahlstr\"om "Glysen", som bodde i Karlskoga-Grythyttans bergslag.
+H:Nedtecknad i V\"astg\"otetorp, Loka 1910. D-bas. Jfr #188.
+D:Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+O:V\"astmanland
+Z:id:hn-sp-215
+M:3/4
+L:1/16
+K:D
+f3d A2A2 G2G2 | FDEF GFGB A2A2 | f3d A2A2 G2G2 | FDEF GFGB B2A2 |
+B3A B2c2 d2B2 | A2AG F2G2 A4 | B2BA B2c2 d2B2 | ABAG F2G2 A4 |
+B2B2 g2f2 e2d2 | c2Bc e4 d4 :||: A2A2 GFEG F2F2 | F2F2 FDEF D2F2 |
+A2A2 GFEG F2D2 | F2F2 EDEF D4 | B2B2 g2f2 e2d2 | c2Bc e4 d4 :|
+[K:Dm] |: A2a2 a2ga a2e2 | e2fg f2ef f2d2 | d2d^c d2e2 e2f2 |
+f2ef d2ed ^c2A2 | A2a2 a2ga a2e2 | e2fg f2ef f2d2 |
+d2d^c d2e2 f2e2 | d2^cd e4 d4 :|
+
+X:216
+T:Livets f\"astem\"o
+R:sl\"angpolska
+H:efter Karl Fahlstr\"om "Glysen", Karlskoga-Grythyttans bergslag.
+H:Han hade l{\aa}ten efter Fritter Petters Lundstedt, M{\aa}rdshyttan, Lindesberg.
+D:Anders Norudde: Kan sj\"alv! (spelas i Dm p{\aa} skivan)
+O:V\"astmanland
+Z:id:hn-sp-216
+M:3/4
+L:1/16
+K:Gm
+G^FGA BABc d^cd^f | a2a2 gag=f fd2d | B2Bd A2AB G2AG |
+^FD^FA G2AG ^F2D2 | G^FGA BABc d^cd^f | a2a2 gag=f fd2d |
+B2Bd A2AB G2AG | ^FD^FA G4 G4 :| B2BA B2Bd B2Bd | d2cB A2cA A2cA |
+B2BA B2Bd B2Bd | d2cB A2cA A2cA | B2d2 A2c2 G2AG | ^FD^FA G4 G4 ||
+B2BA B2Bd B2Bd | d2cB A2cA A2cA | B2BA B2Bd B2Bd | d2cB A2cA A=FA2 |
+c2cA c2cA B2d2 | d2cB A2cA A=FA2 | c2cA c2cA B2d2 |
+d2cB A2cA A=FA2 | BABc d2d2 B2cB | AG^FA G4 G4 ||
+
+X:217
+T:Polska fr{\aa}n Brotorp
+R:sl\"angpolska
+H:efter Anders Persson, Brotorp, Hallingeberg, Tjust
+D:Pelle Bj\"ornlert: Fors
+O:Sm{\aa}land
+Z:id:hn-sp-217
+M:3/4
+L:1/16
+K:Dm
+A2d2 fe^ce e2d2 | AGAB cBAG B2A2 | F2AF E2GE D^CDE |
+FED^C DEFG A4 | A2d2 fe^ce e2d2 | AGAB cBAG B2A2 | F2AF E2GE D^CDE |
+FED^C C2D2 D4 :||: f2fa fcfa bagf | egeg eceg agfe |
+f2fa fcfa bagf | egeg eceg agfe | d^cde fefg a2d2 | f2ed ^c2d2 d4 :|
+
+X:218
+T:Sl\"angpolska fr{\aa}n Glanshammar
+R:sl\"angpolska
+D:Anders Norudde: Kan sj\"alv! (spelas i A p{\aa} skivan)
+O:N\"arke
+Z:id:hn-sp-218
+M:3/4
+L:1/16
+K:D
+f | a2af g2ge f2fa | gfge dcdA GFED | a2af g2ge f2fa | gfge e4 d3 :|
+|: z | D2D2 F2F2 A2A2 | d2df edcB AGFE | DFAF DGBG DFAF | E2EF GFEF D3 :|
+
+X:219
+T:Polska efter J.J. Bruun
+R:sl\"angpolska
+B:SvL Sk 573, efter J.J. Bruun, S\"arsl\"ov
+O:Sk{\aa}ne
+Z:id:hn-sp-219
+M:3/4
+L:1/16
+K:A
+cd | efed cdef e2a2 | afdf fece d2de | fdDd fdDd fdDd |
+faga bagf f2e2 | efga baga f4 | fece edBd d2c2 | Acec Adfd ceaf |
+[1 ecdB G4 A2 :|2 ecdB G4 A4 |: B2B2 c2d2 edcB | c2e2 ecAc ecAc |
+BABc dcde f2e2 | edcd c2e2 e2fg | a4 a2ga bagf | f2e2 efed d2c2 |
+Acec Adfd ceaf |1 ecdB G4 A4 :|2 ecdB G4 A2 ||
+
+X:220
+T:Polska efter Per Larsson Lindahl
+R:sl\"angpolska
+B:SvL Sk 1357
+O:Sk{\aa}ne
+Z:id:hn-sp-220
+M:3/4
+L:1/16
+K:Dm =B
+B2 | A2g2 {g}fed^c d3e | A2g2 {g}fed^c d3e | A2g2 f3e e2d2 |
+d2^c2 A4 A2 :||: B2 | A2B2 {d}cBA^G B2A2 | A2B2 {d}cBA^G B2A2 |
+A2AB ^c2cd e2eg | ^fed^c d4 d2 :|
+
+X:221
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+B:SvL Sml efter Karl Andersson, Loftahammar
+O:Sm{\aa}land
+Z:id:hn-sp-221
+M:3/4
+L:1/16
+K:Dm
+A2d2 d2^cd e2de | e2f2 gfef gfef | d2de fefg g2a2 | abag g2a2 a4 :|
+|: fcfa fcfa a2gf | eceg eceg g2fe | fcfa fcfa a2gf |
+eceg eceg g2fe | a2a2 g2f2 e2d2 | fe^ce d8 :|
+
+X:222
+T:Polska fr{\aa}n \"Oland
+R:sl\"angpolska
+H:SvL \"Ol, efter Anders Johan Eriksson, Gl\"omminge
+O:\"Oland
+Z:id:hn-sp-222
+M:3/4
+L:1/16
+K:C ^f
+G4 [e4c4] [e4c4] | dcBA GABc d2dB | G2G2 c2e2 c2e2 | dcBc A2G2 G4 :|
+|: g2g2{ag} e2e2 c2eg | bgeg f2d2 d2ef | g2g2 e2e2 c2eg |
+bgeg f2d2 d2d2 | cBce gfdf a2g2 | B2GB d2c2 c4 :|
+
+X:223
+T:Kvintf\"orflyttningen
+R:sl\"angpolska
+H:efter Johannes Johansson "Spel-Jocke", Torpa, Ydre
+O:\"Osterg\"otland
+Z:id:hn-sp-223
+M:3/4
+L:1/16
+K:D
+A2d2 F3A GFED | A2dA F2AA GFED | d2fd A2df agfg | efed cdef gfec |
+d2fd A2df agfg | efed cdef gfga | b3g a3f gfga | bgec c2d2 d4 :|
+[K:A] |: e2a2 c3e dcBA | e2ae c2ee dcBA | eac'a eac'a eac'a |
+ebd'b ebd'b ebd'b | eac'a eac'a eac'a | ebd'b ebd'b ebd'b |
+e2fg agae dcBA | cBAG A4 A4 :|
+
+X:224
+T:Polska efter Spel-Jocke
+R:sl\"angpolska
+H:efter Johannes Johansson "Spel-Jocke", Torpa, Ydre
+H:jfr #192, #191, #207, "Flickorna dansar p{\aa} t{\aa}"
+O:\"Osterg\"otland
+Z:id:hn-sp-224
+M:3/4
+L:1/16
+K:A
+e2fe dcBA A2a2 | e2fe dcBA A2f2 | fece edBd c2A2 |
+cBAG A2E2 C2A,2 | e2fe dcBA A2a2 | e2fe dcBA A2f2 |
+fece edBd c2A2 | cBGB A4 A4 :||: B3(3c/B/A/ B2Bd c2A2 |
+cBAG A2E2 C2A,2 | BcBA B3d c3c | ABcd f2e2 e4 | c2ce a2ag f2fe |
+d2de fgfe dcBA | cAce abag fgfe | dcde fgfe dcBA | e2ec Adfd Acec |
+cBGB A4 A4 :|
+
+X:225
+T:Polska
+R:sl\"angpolska
+B:Version 1: SvL \"Ogl 470, efter Carl Gustaf {\AA}strand, Horn
+B:Version 2: SvL Sk{\aa}ne 181
+B:Version 3: Bagge 50
+B:Version 4: SvL Sml 24, efter Karl Andersson, Loftahammar
+O:\"Osterg\"otland, Sk{\aa}ne, Sm{\aa}land
+Z:id:hn-sp-225
+M:3/4
+L:1/16
+K:D
+DFAd BGBd cdef | gfgf edcB AGFE | DFAd BGBd cdef | gfge c2d2 d4 :|
+|: fdfa fdfa a2g2 | gdgb gdgb b2a2 | fdfa fdfa a2g2 |
+gdgb gdgb b2a2 | fdef gfga b2f2 | agec c2d2 d4 :|
+P:version 2:
+|: DFAd BGBd cdef | gfge dcdA GFED | DFAd BGBd cdef | gfge e2d2 d4 :|
+|: Adfd Adfa a2g2 | edef gfga b2a2 | fdfa gfge gbag | fedc e2d2 d4 :|
+P:version 3:
+|: AFA=c BGBd ^cdef | gfge d2A2 GFED | AFA=c BGBd ^cdef |
+gfge e2d2 d4 :||: abaf d2fa a2g2 | egec A2b2 b2a2 | fdfa eceg fdfa |
+agec d2A2 F2A2 | D2a2 fdfa a2g2 | egec A2{e2}b2 b2a2 |
+fdfa gega fdfa | agec e2d2 d4 :|
+P:version 4:
+|: AFAd BGBd cdef | gfge dcBA G2FG | AFAd BGBd cdef | gfge e2d2 d4 :|
+|: f4 f2df a2f2 | g4 g2eg b2g2 | a2af gfgf g2a2 | bgec d8 :|
+
+X:226
+T:Polska fr{\aa}n \"Osterg\"otland
+R:sl\"angpolska
+H:jfr #115, #127, #212, #227
+B:Bagge 69
+O:\"Osterg\"otland
+Z:id:hn-sp-226
+M:3/4
+L:1/16
+K:D
+a4 b4 a4 | f2fg abaf agfg | f2a2 a2b2 b2a2 | fdfa agec d4 :|
+|: A2d2 d2f2 f2a2 | agbg e2fg agfe | dcde fefg abaf | agec e2d2 d4 :|
+
+X:227
+T:Polska efter Ored Andersson
+R:sl\"angpolska
+H:jfr #115, #127, #212, #226
+B:SvL Sk{\aa}ne 325, efter Ored Andersson, Linder\"od
+O:Sk{\aa}ne
+Z:id:hn-sp-227
+M:3/4
+L:1/16
+K:C
+g4 a4 g4 | gfef gagf f2e2 | g2g2 a2a2 g2e2 | gfed d4 c4 :|
+|: e4 f4 e4 | edcd efed d2c2 | e2e2 f2f2 e2g2 | gfed d4 c4 :|
+
+X:228
+T:Kom Kersti, s{\aa} skola vi sv\"anga
+R:sl\"angpolska
+H:efter Erik Hjulander, Gustavsberg, Floda (upptecknad av Gustaf Wetter)
+H:Jfr #156, #187
+O:S\"ormland
+Z:id:hn-sp-228
+M:3/4
+L:1/16
+K:Am
+E2E2 E4 E2^G2 | B2^G2 A4 B4 | c3B A2c2 B2A2 | A2^GA B8 :|
+|: e4 e2d2 B2AB | A4 ^G4 A4 | A2B2 c2d2 B2AB | A8 :|
+W:Kom Kersti, s{\aa} skola vi sv\"anga
+W:k\"anner jag dig r\"att s{\aa} har du nog lust.
+
+X:229
+T:Lackstr\"oms polska
+R:sl\"angpolska
+H:ur Tr\"astadsamlingen fr{\aa}n Blackstad
+O:Sm{\aa}land
+Z:id:hn-sp-229
+M:3/4
+L:1/16
+K:Dm
+A2d2 d2^c2 d2e2 | e2f2 f2e^c d4 | A4 d2^c2 d2e2 |
+efed =cdcB ABcA | A2d2 d2^c2 d2e2 | e2f2 f2e^c d4 |
+dfaf =cege dfaf | f2e^c d8 :||: d2(3efg a4 a4 | a2ga b2ag a4 |
+e3f g2g2 g2a2 | f2ef d8 | A4 d2^c2 d2e2 | e2f2 f2e^c d4 |
+dfaf =cege dfaf | f2e^c d8 :|
+
+X:230
+T:Polska efter August Fredin
+R:sl\"angpolska
+H:upptecknad i Loftahammar av August Fredin. Jfr #34, #79, #189
+O:Sm{\aa}land
+Z:id:hn-sp-230
+M:3/4
+L:1/16
+K:D
+d2fd c2ec d4 | f2ed cdef g3e | f2ef ageg f2c2 | d3f edcB A4 |
+d2fd c2ec d4 | f2ed cdef g3e | f2ef ageg f2d2 | c2ec d8 :|
+|: d2de fdfa d'2d'2 | d2de fdfa d'4 | d3d fdfa d'2d'2 |
+d3d fdfa d'4 | d'2d'c' b2ba g2b2 | e3f gfge f2a2 | a2fa g2eg f2d2 |
+c2ec d8 :|
+
+X:231
+T:Polska fr{\aa}n Sk{\aa}ne
+R:sl\"angpolska
+Z:id:hn-sp-231
+M:3/4
+L:1/16
+K:Dm =B
+D2d2 d2c2 cdcB | AGAB cdcB A2D2 | D2d2 d2c2 cdcB | AGAB cdcB A4 :|
+|: E4 A4 F2C2 | FGAB cdcB A2A2 | E4 A4 F2C2 | FGAB cdcB A4 |
+A2d2 c2B2 A2G2 | GFEF G4 F4 :|
+
+X:232
+T:Polska fr{\aa}n Vrankunge
+R:sl\"angpolska
+H:efter Anders Svensson i Vrankunge
+Z:id:hn-sp-232
+M:3/4
+L:1/16
+K:Am
+cBAG G2A2- A2AB | cBA2 c2e2 B4 | cBAG G2A2- A2AB | cBcB cBAG A4 |
+cBAG G2A2- A2AB | cBA2 c2e2 B4 | cBAG G2A2- A2AB | cBcB cBAG A4 :|
+|: A2a2 a2ga g2e2 | gfef gagf gfed | efga gfgf eded | cBAG A2E2 C2E2 |
+A2a2 a2ga g2e2 | gfef g3f gfed | efga gfgf eded | cBAG G2A2 A4 :|
+
+X:233
+T:Polska fr{\aa}n Loftahammar
+R:sl\"angpolska
+S:efter Karl Andersson, Loftahammar, ur k\"allorna till SvL, Sm{\aa}l 17
+H:En variant till Gotlandspolskan "Vill du f\"olja mig och plocka rovor"
+H:Se \"aven variant efter J J Bruun, Sk{\aa}ne, "Gu'ske l\"of f\"or dinne sk\"aggede gubben"
+O:Sm{\aa}land
+Z:id:hn-sp-233
+M:3/4
+L:1/16
+K:D
+d2dA F2FA d2A2 | B2BG E4 c4 | d2ef g2e2 f2e2 | d2f2 edcB A4 |
+d2dA F2FA d2A2 | B2BG E4 c4 | d2ef g2e2 f2d2 | cdec d4 D4 :|
+|: DFAF DFAF DFAF | DGBG DGBG DGBG | Acec Acec Acec | d2A2 edcB A4 |
+DFAF DFAF DFAF | DGBG DGBG DGBG | Acec Acec Acec | d2A2 edcB A4 |
+d2dA F2FA d2A2 | B2BG E4 c4 | d2ef g2e2 f2d2 | cdec d4 D4 :|
+
+X:234
+T:Polska fr{\aa}n Sm{\aa}land
+R:sl\"angpolska
+H:jfr #50
+B:ur Johan Magnus Theorins notbok fr{\aa}n V\"axj\"o
+O:Sm{\aa}land
+Z:id:hn-sp-234
+M:3/4
+L:1/16
+K:G
+G4 F4 G4 | B2d2 c2BA A2B2 | G2G2 F2F2 G2G2 | B2d2 c2BA B4 |
+D2EF G2FG A2GA | B2AB c2AG F2D2 | D2EF G2FG A2GA | B2AB c2AG F2D2 |
+D2EF G2A2 B2G2 | A2GF G8 :|
+K:D
+|: d4 c4 d4 | f2a2 g2fe e2f2 | d2d2 c2c2 d2d2 | f2a2 g2fe f4 |
+A2Bc d2cd e2de | f2ef gfed c2A2 | A2Bc d2cd e2de | f2ef gfed c2A2 |
+A2Bc d2e2 f2d2 | e2dc d8 :|
+
+X:235
+T:Polska efter Johan Eric Blomgren
+R:sl\"angpolska
+H:Jfr #26, #106
+B:Notbok fr{\aa}n 1785
+O:H\"asslunda, Sk{\aa}ne
+Z:id:hn-sp-235
+M:3/4
+L:1/16
+K:Am
+e2ec A2cA ^G2E2 | A^GAB cBcA B4 | e2ec A2cA ^G2E2 | A^GAB A4 A,4 :|
+|: c2cd e4 c4 | dcde fefg f4 | d2dB G2B2 d2B2 | cBcd edef e4 |
+e2ec A2cA ^G2E2 | A^GAB cBcA B4 | e2ec A2cA ^G2E2 | A^GAB A4 A,4 :|
+
+X:236
+T:Polska efter Johan Eric Blomgren
+R:sl\"angpolska
+B:Notbok fr{\aa}n 1785
+O:H\"asslunda, Sk{\aa}ne
+Z:id:hn-sp-236
+M:3/4
+L:1/16
+K:Dm
+D2DE FEFG A4 | d^cde fefg a4 | F2a2 E2g2 D2f2 | d^cdf edc=B AGFE |
+D2DE FEFG A4 | d^cde fefg a4 | fefa gfeg fedf | ed^ce d4 D4 :|
+|: d2de fefg a2^c2 | defg fefd ^c2A2 | D2DE FEFG A2^C2 | DEFG FDFD ^C2A,2 |
+D2DE FEFG A4 | d^cde fefg a4 | F2a2 E2g2 D2f2 | ed^ce d4 D4 :|
+
+X:237
+T:Respolska
+R:sl\"angpolska
+H:jfr #188, #215
+B:M 19, Johan August Ericsson, Nyk\"oping
+O:S\"ormland
+Z:id:hn-sp-237
+M:3/4
+L:1/16
+K:C
+e3c G2G2 F2F2 | E2E2 GFEF G4 | e3c G2G2 F2F2 | E2E2 GFEF G4 |
+A3F c3A F3A | G3F E3F G4 | A2AF c2cA F2FA | G3F EDEF G4 |
+A3F f2e2 d2c2 | Bcde d4 c4 || B3c d2de d2de | d2c2 B2A2 G4 |
+B3c d2de d2de | d2c2 B2A2 G4 | e3c G2G2 F2F2 | E2E2 GFEF G4 |
+e3c G2G2 F2F2 | E2E2 GFEF G4 | A3F c3A F3A | G3F E3F G4 |
+A2AF c2cA F2FA | G3F EDEF G4 | A3F f2e2 d2c2 | Bcde d4 c4 ||
+
+X:238
+T:Polska fr{\aa}n H\"alleforsn\"as
+R:sl\"angpolska
+H:efter Fredrik Wilhelm Larsson, H\"alleforsn\"as
+O:S\"ormland
+Z:id:hn-sp-238
+M:3/4
+L:1/16
+K:Am
+g3f e2d2 e2c2 | c2Bc d2c2 B2A2 | E3A A2B2 c2d2 | e2fe d2ef e4 |
+g3f e2d2 e2c2 | c2Bc d2c2 B2A2 | E3A A2B2 c2B2 | G2BG A8 :|
+|: E4 A4 B4 | c2Bc d2c2 B2A2 | E3A A2B2 c2d2 | e2fe d2ef e4 |
+E4 A4 B4 | c2Bc d2c2 B2A2 | E3A A2B2 c2B2 | G2BG A8 :|
+
+X:239
+T:Polon\"as fr{\aa}n Sexdrega
+R:sl\"angpolska
+H:Finns \"aven i Ma 6 efter Petter Dufva, Verkeb\"ack, Sm{\aa}land, samt
+H:i M 189 (\"Osterg\"otland), M 19 (S\"ormland), Ma 17 (N\"arke) samt
+H:fler gamla notb\"ocker, vilket visar hur spridda dessa l{\aa}tar var.
+O:V\"asterg\"otland, Sexdrega
+Z:id:hn-sp-239
+M:3/4
+L:1/16
+K:A
+e2ae c2c2 c4 | A2cA E2E2 E4 | E2AE A2cA B4 | E2BE B2dB c4 |
+e2ag agfe dcBA | cBAG A4 A4 :|
+|: c2cA c2cA cedc | B2BG B2BG BdcB | A2AF A2AF AcBA | GABG E4 E4 |
+F2FE F2Ac d4 | E2ED E2AB c4 | ABAG A2B2 dcBA | cBAG A4 A4 :|
+
+X:240
+T:Polska efter Einar Viklund
+R:sl\"angpolska
+O:Nyland (?)
+Z:id:hn-sp-240
+M:3/4
+L:1/16
+K:D
+A3F D2F2 G2B2 | A2BA G2AG F2A2 | d3d A2c2 d2f2 | e2fe d2ed c2A2 |
+A3F D2F2 G2B2 | A2BA G2AG F2A2 | d3d A2c2 d2f2 | efec d8 :|
+|: f3f A2f2 A2f2 | f2ef g2eg f2d2 | e3e A2e2 A2e2 | e2de f2df e2d2 |
+f3f A2f2 A2f2 | f2ef g2eg f2d2 | e2f2 g2eg f2df | e2c2 d8 :|
+
+X:241
+T:Polska fr{\aa}n S\"ormland
+R:sl\"angpolska
+Z:id:hn-sp-241
+M:3/4
+L:1/16
+K:G
+d2c2 B4 G4 | c2B2 A4 D4 | G2GF G2A2 B2c2 | d2de d2c2 B2c2 |
+d2c2 B4 G4 | c2B2 A4 D4 | G2GF G2A2 B2c2 | A2F2 G8 :|
+|: D2D2 D2D2 D2D2 | D2E2 E2E2 E2F2 | G3A B2A2 G2F2 | G4 DEDC B,2C2 |
+D2D2 D2D2 D2D2 | D2E2 E2E2 E2F2 | G3A B2A2 G2F2 | G4 G8 :|
+
+X:242
+T:Dj\"avulspolska fr{\aa}n S\"ormland
+R:sl\"angpolska
+O:S\"ormland, Flen ?
+Z:id:hn-sp-242
+M:3/4
+L:1/16
+K:A
+A2Ac efec A2Ac | cBAG A2E2 C2E2 | A2Ac efec A2Ac | cBAG A4 a4 :|
+|: e4 A4 E4 | B2B2 cBAB c2A2 | e2e2 A2A2 E2E2 | B2B2 cBAB c2A2 |
+AcAc efec A2Ac | cBAG A4 a4 :||: DFAF DFAF DFAF | CEAE CEAE CEAE |
+B,EdE B,EdE B,EdE | A,EcE A,EcE A,EcE | AcAc efec A2Ac | cBAG A4 a4 :|
+
+X:243
+T:Polska fr{\aa}n M\"ork\"o
+T:Polska efter Anders Gustaf Andersson
+R:sl\"angpolska
+S:Session at Sj\"atte Tunnan
+O:S\"ormland, M\"ork\"o
+Z:id:hn-sp-243
+M:3/4
+L:1/16
+K:Ddor
+F2E2 D4 F2A2 | G2B2 A4 ^c2e2 | d3^c d2e2 f2g2 | a2(3efg a2g2 e2^c2 |
+F2E2 D4 F2A2 | G2B2 A4 ^c2e2 | d3^c d2e2 f2g2 |1 a2^ce d8 :|2 a2^ce d6e2 ||
+|: f3e f2a2 f2d2 | efed e2g2 e2^c2 | d3^c d2e2 f2g2 | a2g2 e2^c2 A4 | 
+f3e f2a2 f2d2 | efed e2g2 e2^c2 | d3^c d2e2 f2g2 |1 a2^ce d6e2 :|2 a2^ce d8 ||
+
+X:244
+T:Polska fr{\aa}n M\"ork\"o
+T:Polska efter Anders Gustaf Andersson
+R:sl\"angpolska
+O:S\"ormland, M\"ork\"o
+Z:id:hn-sp-244
+M:3/4
+L:1/16
+K:A
+a3a a2b2 c'2a2 | b2b2 c'bab c'2a2 | a3a a2b2 c'2a2 | b2b2 c'bab c'2a2 |
+e3f e2d2 c2B2 | A2Bc d2Bd c3B | A2ce a2ed c2BA | E2GB A4 A4 :|
+K:Am
+|: e3e e2f2 e2c2 | d3f e2d2 c2B2 | A2c2 B2A2 ^G2E2 | ^G2A2 B2e2 E4 |
+e3e e2f2 e2c2 | d3f e2d2 c2B2 | A2c2 B2A2 ^G2E2 | ^G2BG A4 A4 :|
+
+X:245
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+H:Folkmusikkommissionens samling: \"Og 11:019-023
+H:Avskrifter av Allan Mannerberg ur l\"osa blad, nedskrivna av hans fader,
+H:Kyrkoherden i Kisa Carl G:son Manneberg (1853-1930), som var fl\"ojtist.
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-245
+M:3/4
+L:1/16
+K:G
+G2B2B2d2 d2g2 | g3b agfa g4 | e2ce d2Bd c2B2 | e2ce d2Bd c2B2 | e2ed c2cB A2AG |
+F2FG AGFE D4 | G2B2B2d2 d2g2 | g3b agfa g4 | e2ce d2Bd c2Ac | B2A2 A4 G4 :|
+|: D2F2F2A2A2d2 | d3f ed^ce d4 | f3b e3ea3g | f3e e2de d4 | gfga g2=f2f2e2 |
+e2dc d2cB c4 | agab a2g2g2^f2 | f2ed e2d^c d4 | G2B2B2d2 d2g2 | g3b agfa g4 |
+e2=ce d2Bd c2Ac | B3A A2GA G4 :|
+
+X:246
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-246
+M:3/4
+L:1/16
+K:D
+A2 | dfdA egec d2A2 | dfdA egec d4 | B2cd A2cd G2cd | F2Ad fedc d4 |
+fdAF DFAd e4 | fdBd ecAc E2d2 | cBA^G G6 :||: A2 | AGFG A2F2 D4 | =c4 BcBA GAGF |
+E8 EFGA | B2c2 d2f2 efed | cdcB A8 | dfdA egec d2B2 | ABAG FGFE D4 |
+FAEG DFEG FAEG | D4 D3D D2 :|
+
+X:247
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-247
+M:3/4
+L:1/16
+K:D
+d2df e2eg f2fa | g2gb a4 a4 | f2ef g2f2e2d2 | c2d2 edcB A4 |
+d2df e2eg f2fa | g2gb a4 a4 | f2ef g2fg b2g2 | e2c2 d4 d4 :|
+|: f2a2g2f2e2d2 | d2c2 A4 A4 | f2a2g2f2e2d2 | d2c2 A4 A4 |
+d2df e2eg f2fa | g2b2b2a2 a4 | f2ef g2fg b2g2 | e2c2 d4 d4 :|
+
+X:248
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+H:Jfr #95, #130, #178, #193
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-248
+M:3/4
+L:1/16
+K:D
+d2de fede f2d2 | f2fg agfg a2f2 | a2a2d'2d'2a2g2 | f2fg e2ef d4 :|
+|: f2f2 f2ef e4 | f2f2 f2ef e4 | f2ef g2fg b2g2 | e2c2 d4 D4 :|
+
+X:249
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-249
+M:3/4
+L:1/16
+K:D
+d4 A4 d4 | f2g2e2c2 d4 | f4 d4 f2a2 | a2g2e2c2 d4 |
+d4 A4 d4 | f2g2e2c2 d4 | f4 d4 f2a2 | a2g2e2c2 d4 |
+d2d2f2f2a2a2 | b2b2g2g2b2b2 | a2a2f2f2d2d2 | e2c2 d4 d4 :|
+|: f2f2f2f2f2f2 | f4 e2e2e2e2 | f2f2f2f2f2f2 | f4 e2e2e2e2 |
+d2d2f2f2a2a2 | b2b2g2g2b2b2 | a2a2f2f2d2d2 | e2c2 d4 d4 :|
+
+X:250
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-250
+M:3/4
+L:1/16
+K:D
+A2d2d2f2f2d2 | A2e2e2g2g2e2 | A2a2g2f2e2d2 | d2cd edcB A4 |
+A2d2d2f2f2d2 | A2e2e2g2g2e2 | A2a2g2f2e2d2 | cdec c2d2 D4 :|
+|: a2f2f2a2a2f2 | g2e2e2g2g2e2 | f2d2d2f2f2d2 | d2cd edcB A4 |
+a2f2f2a2a2f2 | g2e2e2g2g2e2 | f2d2d2f2f2d2 | d2cd edcB A4 |
+A2d2d2f2f2d2 | A2e2e2g2g2e2 | A2a2g2f2e2d2 | cdec c2d2 D4 :|
+
+X:251
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-251
+M:3/4
+L:1/16
+K:D
+A2d2d2A2F2A2 | A2d2 d2cd e4 | f2ef g2f2e2d2 | c2d2 edcB A4 |
+A2d2d2A2F2A2 | A2d2 d2cd e4 | f2ef g2e2 b2g2 | e2c2 d4 d4 :|
+|: A2[f2d2][f2d2][f2d2][f2d2][f2d2] | [f2d2][e2c2][e2c2][e2c2][e2c2][e2c2] |
+[e2c2]B2B2B2B2B2 | B2AB A8 | A2[B2G2][B2G2][B2G2][B2G2][B2G2] |
+[B2G2][A2F2][A2F2][A2F2][A2F2][A2F2] | F2[A2A,2][A2A,2][A2A,2][A2A,2][A2A,2] |
+[A4A,4] [d4D4] z4 :|
+
+X:252
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-252
+M:3/4
+L:1/16
+K:D
+d'2a2f2d2 d'4 | b2c'b b2a2 g4 | g2ba g2f2e2d2 | cdec d2A2F2D2 |
+d'2a2f2d2 d'4 | b2c'b b2a2g2e2 | c2e2a2c'2b2a2 | ^gabc' b6Ta2 :|
+|: a2g2f2d2 b4 | g2f2g2e2 a4 | g2ba g2f2e2d2 | cdec A4 G4 |
+F2FG A2F2B2G2 | E2EF G2E2A2G2 | F2FG A2F2B2G2 | E2EF G2E2A2G2 |
+F2A2d2g2 g2fe | cdef e6Td2 :|
+
+X:253
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-253
+M:3/4
+L:1/16
+K:G
+G2Bd d2g2g2a2 | bagf agfe e2d2 | cBAB c2ec B2dB | A2A2 ABcA GFED |
+G2Bd d2g2g2a2 | bagf agfe e2d2 | B2dg A2ce G2Bd | dcAF F6G2 :|
+|: d4 cBcA GFED | DGBd dcAc c2B2 | Bdge edBd dcAF | GFGB AGFE DCB,A, |
+G,2Ad d2g2g2a2 | bagf agfe e2d2 | B2dg A2ce G2Bd | dcAF F6G2 :|
+
+X:254
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-254
+M:3/4
+L:1/16
+K:D
+d2dA F2FA F2D2 | d2de f2fg a4 | b2gb a2fa g2e2 | d2cd edcB A4 |
+d2dA F2FA F2D2 | d2de f2fg a4 | b2gb a2fa g2e2 | fedc d4 D4 :|
+|: fafd fafd fafd | cecA cecA cecA | BdBG BdBG BdBG |
+FAFD FAFD FAFD | b2gb a2fa g2e2 | agfe e4 d4 :|
+
+X:255
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-255
+M:3/4
+L:1/16
+K:D
+[f2d2][f2d2][e2c2][e2c2] [f4d4] | [f2d2][f2d2][e2c2][e2c2] [f4d4] |
+A2A2d2d2f2f2 | e2d2c2B2 A4 |
+[f2d2][f2d2][e2c2][e2c2] [f4d4] | [f2d2][f2d2][e2c2][e2c2] [f4d4] |
+A2A2d2d2f2f2 | e2c2 d4 d4 :|
+|: a2a2f2f2d2d2 | e2e2c2c2 A4 | a2a2f2f2d2d2 | e2c2 d4 d4 :|
+
+X:256
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-256
+M:3/4
+L:1/16
+K:D
+d4 c2cd B2Bd | cdcB A2G2G2F2 | D2DF E2EG F2FA | D2DF E2EG F2FA |
+d4 c2cd B2Bd | cdcB A2G2G2F2 | D2DF E2EG F2FA | A2Bc d4 D4 :|
+|: f2f2 agfg agfg | a2f2f2d2d2A2 | g2g2 bgeg bgeg | b2g2g2e2e2c2 |
+d4 c2cd B2Bd | cecB A2G2G2F2 | D2DF E2EG F2FA | A2Bc d4 D4 :|
+
+X:257
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-257
+M:3/4
+L:1/16
+K:G
+G2Bd g2d2B2G2 | D2FA c2A2F2D2 | E2C2C2E2 e4 | d2BG G2d2 d4 |
+edcB cBAG AGFG | c2B2 B4 A4 :||: d2BG GABc =f4 | edcB c2C2 C4 |
+e2c2c2A2 A2gf | fedc d2D2D4 | G2Bd gdBG DGce | d2ed c2dc B4 |
+e2c2c2e2e2g2 | d2B2B2d2d2g2 | gfed edcB cBAG | FGAB A4 G4 :|
+
+X:258
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-258
+M:3/4
+L:1/16
+K:G
+G2B2A2c2B2d2 | d2ef g2f2g2a2 | b2ab c'2b2a2g2 | fgfe dedc B2A2 |
+G2B2A2c2B2d2 | d2ef g2f2g2a2 | b2ab c'2b2a2g2 | f2ga a4 g4 :|
+|: g2bg d2d2d2d2 | edcB c2c2c2c2 | BcBA G2G2G2G2 | AGFE D2D2 D4 |
+g2bg d2d2d2d2 | edcB c2c2c2c2 | BcBA G2A2B2c2 | d2ef a4 g4 :|
+
+X:259
+T:Polska efter Carl G:son Mannerberg
+R:sl\"angpolska
+O:Kisa, \"Osterg\"otland
+Z:id:hn-sp-259
+M:3/4
+L:1/16
+K:D
+d2cd e2ce d2A2 | F3D GABG A4 | d2cd e2ce g2e2 | fedc d4 D4 :|
+|: A2AB A2F2F2D2 | G2G2 BAGF G4 | G2B2B2G2G2E2 | E2G2 B2GB A4 |
+d2cd e2ce g2e2 | fedc d4 D4 :|
+
+X:260
+T:Polska efter C A Lindblom
+R:sl\"angpolska
+H:efter Karl August Lindblom, Rejmyre, Skedevi, \"Osterg\"otland
+B:C A Lindblom 18
+O:\"Osterg\"otland
+Z:id:hn-sp-260
+M:3/4
+L:1/16
+K:D
+D2FA d2d2 d4 | ABcd e2e2 e4 | f2ef g2f2 e2d2 | c2B2 A2G2 F2E2 |
+D2FA d2d2 d4 | ABcd e2e2 e4 | f2ef g2f2 e2d2 | cdec d4 D4 :|
+|: A2df a2a2 a4 | gfef g2g2 g4 | f2ef g2f2 e2d2 | c2B2 A2G2 F2A2 |
+A2df a2a2 a4 | gfef g2g2 g4 | f2ef g2f2 e2d2 | cdec d4 D4 :|
+
+X:261
+T:Bisonpolska
+R:sl\"angpolska
+C:Olov Johansson
+D:V\"asen
+Z:id:hn-sp-261
+M:3/4
+L:1/16
+K:Ador
+E2- | E2A2 c4 B3A | B2G2 G6G2- | G2B2 d2d2 B2B2 | c4 e2dc d2B2 | c2A2 E6E2- |
+E2A2 c4 B3A | B2G2 G6G2- | G2B2 d2d2 B2B2 | c4 e2dc d2B2 | c2A2 A6 :|
+|: E2- | E2A2 c4 e2g2 | f4 f2ed e4- | e2g2 f2df a2gf | g2e2 c4 e2g2 |
+f4 f2ed e4- | e2g2 f2ed e2c2 | A2E2 =F4 A2c2 | B2G2 G6G2- |
+G2B2 d2d2 B2B2 | c4 e2dc d2B2 | c2A2 A6 :|
+
+X:262
+T:Grevelius
+R:sl\"angpolska
+H:Efter Andreas Grevelius
+D:V\"asen: Linnaeus
+O:Sm{\aa}land
+Z:id:hn-sp-262
+M:3/4
+L:1/16
+K:Dm
+abga fgeg f2e2 | d2fd A2G2 F2E2 | D2FA d2ef gfed | d^cdf edcd A4 |
+abga fgeg f2e2 | d2fd A2G2 F2E2 | D2FA d2ef gfed | fed^c c2d2 d4 :|
+|: c3d c2B2 A2G2 | FGAB cBAG F4 | A,E^cE A,EcE A,EcE |
+A,FdF A,FdF A,FdF | A,E^cE A,EcE A,EcE | d^cdf edcd A4 |
+abga fgeg f2e2 | d2fd A2G2 F2E2 | D2FA d2ef gfed | fed^c c2d2 d4 :|
+
+X:263
+T:Polska efter Magnus Theorin
+R:sl\"angpolska
+H:Efter Magnus Theorin
+D:S{\aa}gsk\"ara
+O:V\"axj\"o, Sm{\aa}land
+Z:id:hn-sp-263
+M:3/4
+L:1/16
+K:Dm
+d2D2 F2A2 d2f2 | e2A2 c2e2 g2f2 | e2d2 g2f2 e2d2 | c2Bc A4 A4 |
+d2D2 F2A2 d2f2 | e2A2 c2e2 g2f2 | e2d2 g2f2 e2d2 | c2Bc d4 d4 :|
+|: a2F2 F2a2 a2f2 | g2E2 E2g2 g2e2 | f4 d4 g2fe | dcBc A4 A4 |
+a2F2 F2a2 a2f2 | g2E2 E2g2 g2e2 | f2d2 a2a2 g2f2 | e2dc d4 d4 :|
+
+X:264
+T:Skrattpolska
+R:sl\"angpolska
+H:efter Per Ericsson i Granlund, Helgar\"o
+H:se \"aven #170
+B:Folkmusik fr{\aa}n norra S\"odermanland, K.P. Leffler
+O:S\"ormland
+Z:id:hn-sp-264
+M:3/4
+L:1/16
+K:Dm
+A2^c2 d2ed c2A2 | d3e fefg a4 | a2ba g2f2 e2d2 | d2^cd e2c2 A4 |
+A2^c2 d2ed c2A2 | d3e fefg a4 | a2ba g2f2 e2d2 | fed^c d8 :|
+|: z2f2 f2f2 f2f2 | f2e2 e8 | z2d2 d2d2 d2d2 | d2c2 A8 |
+w:****** *** * ha ha ha ha ha ha ha ha
+f4 e4 d4 | A2^c2 e2g2 f2e2 | d2a2 g2f2 e2d2 | fed^c d8 :|
+|: a3f a3f a3f | a3g e8 | f3e d2d2 d2d2 | d2^c2 A8 |
+f4 e4 d4 | A2^c2 e2g2 f2e2 | d2a2 g2f2 e2d2 | fed^c d8 :|
+
+X:265
+T:Polska fr{\aa}n V{\aa}nga
+R:sl\"angpolska
+H:Efter Nils Olsson, som hade den efter Johan Arvid Hultgren (1825-1908)
+H:som hade den efter Ristman.
+O:\"Osterg\"otland
+Z:id:hn-sp-265
+M:3/4
+L:1/16
+K:D
+dAdf eceg f2a2 | a2g2 eceg fdAF | D2f2 eceg fdfa | agec e2d2 d4 :|
+|: f2a2 fdfd Adfd | A2g2 ecec Acec | A2a2 fdfd Adfd | A2g2 ecec Acec |
+dAdf eceg f2a2 | agec e2d2 d4 :|
+
+X:266
+T:Hej, se p{\aa} hur hurtigt jag kan dansa
+R:sl\"angpolska
+H:Nedtecknad av Carl Erik S\"odling. FMK Upprop 26b:048
+Z:id:hn-sp-266
+M:3/4
+L:1/16
+K:Am
+e3A A2A2 ^G2A2 | c2(Bd) c4 A4 | e2(de) g2g2 e2c2 |1 d2(ef) e4 E4 :|2 d2(ef) e4 e3e ||
+w:Hej, se p{\aa} hur hur-tigt jag kan_ dan-sa, al-la_ flic-kor tit-ta nu p{\aa}_ mej.
+(fedc) B2B2 c2d2 | (edcB) A2A2 c2e2 | (fedc) B2B2 c2d2 | (edcB) A2A2 c2e2 |
+(a^g)(ae) =g2f2 e2d2 | c2(Bc) A4 a4 ||
+w:* * * * * * * * * * * * tjo!
+
+X:267
+T:Polska efter Pelle Fors
+R:sl\"angpolska
+H:Efter Carl August M{\aa}nsson. St\"amning AEAE. FMK Sm 16:016
+O:\"Osterg\"otland
+Z:id:hn-sp-267
+M:3/4
+L:1/16
+K:A
+{E}A4 (cB)(GB) {G}A4 | (AG)Ac (BA)GF E2D2 | (CE)Ac [e2c2][e2c2] [f4d4] |
+e3c (BA)Bd (cA)ce | {E}A4 (cB)(GB) {G}A4 | (AG)Ac (BA)GF E2D2 |
+(CE)Ac [e2c2][e2c2] [f4d4] | e3c (BA)Bd (cA)ce | e2ae .c.A.c.A BABc |
+e2ae .c.A.c.A BABc | e2ga bagf efed | cBAG AGAE (DC)B,C |
+[E2A2]ae .c.A.c.A BABc | [E2A2]ae .c.A.c.A BABc | e2ga bagf efed |
+cBAG (G2A2) A4 :||: A2ce ecAc e4 | E2GB (dc)Bc (dc)Bc | A2ce ecAc e4 |
+E2GB (dc)Bc (dc)Bc | e2ae cAcA BABc | e2ae cAcA BABc | e2ga bagf efed |
+cBAG (G2A2) A4 :|
+
+X:268
+T:Polonesse in E moll No 1
+R:sl\"angpolska
+H:efter Anders Larsson, Backa, \"Ostra Ryd, M 189.
+H:Jfr. #269 i Dm
+O:\"Osterg\"otland
+Z:id:hn-sp-268
+M:3/4
+L:1/16
+K:Em
+EFGA B4 e4 | ^defd B4 B4 | c2B2 A2G2 F2E2 | EF^GA B4 B4 |
+g2b2 f2a2 e2g2 | f2e2 ^d2f2 B2A2 | g2b2 f2a2 e2g2 | f2e^d e4 E4 :|
+|: d2de d4 B4 | c2BA B4 G4 | d2de d4 B4 | c2BA B8 | c2B2 A2G2 F2E2 | EFGA B8 |
+g2b2 f2a2 e2g2 | f2e2 ^d2f2 B2A2 | g2b2 f2a2 e2g2 | f2ed e8 :|
+
+X:269
+T:Pollonesse No. 74 efter Andreas Dahlgren
+R:sl\"angpolska
+H:Ma 7, F{\aa}gelvik, Tryserum. Jfr #268 i Em
+O:Sm{\aa}land
+Z:id:hn-sp-269
+M:3/4
+L:1/16
+K:Dm
+DEFG A4 d4 | ^cdec A8 | B2A2 G2F2 E2D2 | DEFG A8 |
+f2fa e2ef d2e2 | f2ed ^c2e2 A4 | f2fa e2ef d2a2 | fed^c c4 d4 :|
+|: =c2cd c4 A4 | B2AG A4 F4 | =c2cd c2c2 A2A2 | B2AG A8 | B2A2 G2F2 E2D2 | DEFG A6 e2 |
+f2fa e2ef d2e2 | f2ed ^c2e2 A4 | f2fa e2ef d2a2 | fed^c c4 d4 :|
+
+X:270
+T:Pollonesse efter Adolf Fredrik Stare
+R:sl\"angpolska
+H:Adolf Fredrik Stare (1787-1810) f\"oddes i Eskilstuna.
+H:Flyttade till {\AA}bo f\"or studier, d\"ar notboken blev kvar.
+H:https://www.youtube.com/watch?v=ldpXyzZiTvM
+O:S\"ormland, Finland
+Z:id:hn-sp-270
+M:3/4
+L:1/16
+K:D
+d2dc d2f2 A4 | B2BA B2d2 F4 | G2GF E2g2 f2ed | d2cd edcB A2Bc |
+d2dc d2f2 A4 | B2BA B2d2 F4 | G2GF E2g2 f2ed | cdec d4 D4 :|
+|: f2fe d2f2 a2f2 | efed c2e2 a2e2 | d2dc B2c2 d2f2 | edcB B4 A4 |
+BcBA G2B2 d2B2 | ABAG F2A2 d2F2 | G2GF E2g2 f2af | gedc d4 D4 :|
+
+X:271
+T:Polska efter Petter Dufva
+R:sl\"angpolska
+H:fr{\aa}n b\"orjan i D #272
+O:Sm{\aa}land
+Z:id:hn-sp-271
+M:3/4
+L:1/16
+K:G
+G2F2 E4 A4 | G2F2 G2D2 B,2D2 | G2E2 c4 B4 | A2GF G8 :|
+|: F2G2 A4 d4 | d2c2 c2B2 B2A2 | F2G2 A4 d4 | d2c2 c2B2 B2A2 |
+G2E2 c4 B4 | A2GF G8 :|
+
+X:272
+T:Polska efter Petter Dufva
+R:sl\"angpolska
+H:\"aven i G #271
+O:Sm{\aa}land
+Z:id:hn-sp-272
+M:3/4
+L:1/16
+K:D
+d2c2 B4 e4 | d2c2 d2A2 F2D2 | d2B2 g4 f4 | e2dc d4 D4 :|
+|: c2d2 e4 a4 | a2g2 g2f2 f2e2 | c2d2 e4 a4 | a2g2 g2f2 f2e2 |
+d2B2 g4 f4 | e2dc d4 D4 :|
+

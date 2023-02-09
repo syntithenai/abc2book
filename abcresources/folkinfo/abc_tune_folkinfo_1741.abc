@@ -1,0 +1,77 @@
+X:1     %Music
+T:When Jesus Wept (Round)     %Tune name
+C:     %Tune composer
+N:     %Tune infos
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 '' @
+%!INSTR '...' 0 0 @
+M:3/4     %Meter
+L:1/8     %
+K:Eb
+z4 C2 |G4 F2 |(G3/2A/ B2) E2 |(G3/2F/ E2) D2 |
+w:When Je-sus wept,__ a fall---ing
+C4 C2 |C4 C2 |(E2 D2) C2 |C4 G,2 |
+w:tear In mer-cy flowed_ be-yond all
+G4 E2 |(c2 G2) B2 |(E2 F2) G2 |G4 G2 |
+w:bound When Je--sus groaned_ a trem-bling
+G4 E2 |(G3/2F/ E2) D2 |(E2 A2) G2 |(E3/2D/ C2) B,2 |
+w:fear siezed all__ the guilt_ y world__ a-
+C4 z2 | z3 | z3| z3| z3| 
+w:round
+z3| z3| z3| z3| z3 | z3| z3| z3|]
+V:2     %
+%!STAVE 0 '' @
+%!INSTR 'Piano 1' 0 15 @
+M:3/4     %Meter
+L:1/8     %
+K:Eb
+z6 |z6 |z6 |z6 |
+z4 C2 |G4 F2 |(G3/2A/ B2) E2 |(G3/2F/ E2) D2 |
+w:When Je-sus wept,__ a fall---ing
+C4 C2 |C4 C2 |(E2 D2) C2 |C4 G,2 |
+w:tear In mer-cy flowed_ be-yond all
+G4 E2 |(c2 G2) B2 |(E2 F2) G2 |G4 G2 |
+w:bound When Je--sus groaned_ a trem-bling
+G4 E2 |(G3/2F/ E2) D2 |(E2 A2) G2 |(E3/2D/ C2) B,2 |
+w:fear siezed all__ the guilt_ y world__ a-
+C4 z2 | z3| z3| z3|z3| z3| z3| z3| z3|]
+w:round
+V:3     %
+%!STAVE 0 '' @
+%!INSTR 'Piano 1-2' 0 15 @
+M:3/4     %Meter
+L:1/8     %
+K:Eb
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z4 C2 |G4 F2 |(G3/2A/ B2) E2 |(G3/2F/ E2) D2 |
+w:When Je-sus wept,__ a fall---ing
+C4 C2 |C4 C2 |(E2 D2) C2 |C4 G,2 |
+w:tear In mer-cy flowed_ be-yond all
+G4 E2 |(c2 G2) B2 |(E2 F2) G2 |G4 G2 |
+w:bound When Je--sus groaned_ a trem-bling
+G4 E2 |(G3/2F/ E2) D2 |(E2 A2) G2 |(E3/2D/ C2) B,2 |
+w:fear siezed all__ the guilt_ y world__ a-
+C4 z2 | z3| z3| z3| z3|]
+w:round
+V:4     %
+%!STAVE 0 '' @
+%!INSTR 'Piano 1-3' 0 15 @
+M:3/4     %Meter
+L:1/8     %
+K:Eb
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z6 |z6 |z6 |z6 |
+z4 C2 |G4 F2 |(G3/2A/ B2) E2 |(G3/2F/ E2) D2 |
+w:When Je-sus wept,__ a fall---ing
+C4 C2 |C4 C2 |(E2 D2) C2 |C4 G,2 |
+w:tear In mer-cy flowed_ be-yond all
+G4 E2 |(c2 G2) B2 |(E2 F2) G2 |G4 G2 |
+w:bound When Je--sus groaned_ a trem-bling
+G4 E2 |(G3/2F/ E2) D2 |(E2 A2) G2 |(E3/2D/ C2) B,2 |
+w:fear siezed all__ the guilt_ y world__ a-
+C4 z2 |]
+w:round
+%End of file

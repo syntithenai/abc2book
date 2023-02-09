@@ -1,0 +1,128 @@
+This file contains 8 gavottes (#1 - #8).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These gavottes are Breton dance tunes from Brittany/Bretagne.
+I've also included dans fisel here, since as far as I understand they are from the gavotte family.
+
+Last updated 4 December 2018.
+
+(c) Copyright 2018 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:gavotte
+M:4/4
+L:1/8
+Z:id:hn-%R-%X
+O:Bretagne
+
+X:1
+T:Dans Fisel
+R:gavotte
+D:Humdingers: Live in Oslo
+O:Bretagne
+Z:id:hn-gavotte-1
+M:4/4
+L:1/8
+K:A
+Bc dc e2 c2 | dB AG A2 A2 :|
+|: Bc dc e2 c2 | dd Bd cA GA |
+Bc dc e2 c2 | dB AG A2 A2 :|
+
+X:2
+T:Dans Fisel
+R:gavotte
+D:Humdingers: Live in Oslo
+O:Bretagne
+Z:id:hn-gavotte-2
+M:4/4
+L:1/8
+K:Bm
+FB Bc dB e2 | dB cd B2 B2 :|
+FB Bc dB e2 | d2 (3Bcd cB A2 |
+FB Bc dB e2 | dB cd B2 B2 |
+FB Bc dB e2 | dc Bd cB AE |
+FB Bc dB e2 | dB cd B2 B2 ||
+
+X:3
+T:Dans Fisel
+R:gavotte
+D:Humdingers: Live in Oslo
+O:Bretagne
+Z:id:hn-gavotte-3
+M:4/4
+L:1/8
+K:Bdor
+d2 (3cdc (3BcB A2 | AF GA B2 B2 :|
+|: (3ded c2 (3BcB A2 | GA Bc d2 cd |
+e2 ed cB A2 | AF GA B2 B2 :|
+
+X:4
+T:Heuliad da\~ns fisel
+R:gavotte
+D:Penno\`u Skoulm
+O:Bretagne
+Z:id:hn-gavotte-4
+M:4/4
+L:1/8
+K:Bm
+BA dc de B2 | de cA B2 B2 | (3ABc dc de B2 | de cA B2 B2 ||
+|: Bf ef ge f2 | (3efg a2 (3gfe fd | B2 dc de B2 | de cA B2 B2 :|
+
+X:5
+T:Gavotten Ar Menez
+R:gavotte
+D:Kornog: Ar Seizh Avel
+O:Bretagne
+Z:id:hn-gavotte-5
+M:4/4
+L:1/8
+K:Am
+eg dd de cd |1 eg dd c2 cd :|2 eg dd c2 c2 ||
+Ac cd de e2 | dc Bc B2 A2 | (3cBA cd de e2 | dc Bc B2 Ae ||
+
+X:6
+T:Gavotten Ar Menez
+R:gavotte
+D:Kornog: Ar Seizh Avel
+O:Bretagne
+Z:id:hn-gavotte-6
+M:4/4
+L:1/8
+K:G
+GA (3BAG AB AB | cB AF G2 GD |
+GA (3BAG AB A2 | cB AF G2 GD ||
+|: GA (3BAG AB A2 | (3Bcd ed B2 B2 |
+G>A BG AB AB | cB AF G2 GD :|
+
+X:7
+T:Gavotten Ar Menez
+R:gavotte
+D:Kornog: Ar Seizh Avel
+O:Bretagne
+Z:id:hn-gavotte-7
+M:4/4
+L:1/8
+K:Amix
+Ac (3edc de cA | dc dg f2 ec :|
+|: Ac (3edc de cA | (3Bcd BG (3Bcd BG |
+Ac (3edc de cA | dc BG B2 A2 :|
+
+X:8
+T:Gavotte
+R:gavotte
+H:Also played in Em
+O:Bretagne
+Z:id:hn-gavotte-8
+M:4/4
+L:1/8
+K:Bm
+(3dcB cd ef df | ec ed B2 B2 :|
+|: fg fe de f2 | (3fed cd ef df |
+B2 cd ef df | ec ed B2 B2 :|
+

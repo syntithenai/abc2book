@@ -1,0 +1,53 @@
+This file contains 2 country dances (#1 - #2).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 26 December 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:country dance
+Z:id:hn-countrydance-%X
+M:2/4
+L:1/8
+
+X:1
+T:Duke of Perth, The
+R:country dance
+H:See also polka#91
+O:Scotland
+Z:id:hn-countrydance-1
+M:2/4
+L:1/8
+K:G
+G/A/B/c/ dB | gB dB | gB dB | aA A/c/B/A/ |
+G/A/B/c/ dB | gB dB | cA d>c | BG G2 :|
+|: g>a ge | a>b af | g>a ge | be ef |
+g>a ge | a>b af | gd ed/c/ | BG G2 :| 
+
+X:2
+T:Maxwell's Rant
+R:country dance
+Z:id:hn-countrydance-2
+M:2/4
+L:1/8
+K:G
+e/f/ | gG BG | FA Ae/f/ | gG Bd | g3 e/f/ |
+gG BG | FA AG/F/ | EG FA | G3 :|
+|: d | g>a bg | a/g/f/e/ dd | g>f gb | a3 d |
+g>a bg | a/g/f/e/ dg/a/ | bg af | g3 :|
+

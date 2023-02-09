@@ -1,0 +1,28 @@
+X:1     %Music
+T:The Merchant's Daughter
+T:The Constant Farmer's Son
+B:Broadwood, L, 1908, English Traditional Songs and Carols, London, Boosey
+N:Reprinted by EP Publishing Limited, Rowman & Littlefield, Totowa, New Jersey, 1974
+S: Mr Baker, 1896
+Z:Lucy Broadwood
+F:http://www.folkinfo.org/songs
+M:3/4     %Meter
+L:1/8     %
+K:F
+c2 |A F c A2 F |(A3/2G/) F2 z     
+w:It's of a mer--chant's daugh--ter   
+C  |F F A2 F2 |d4 z
+w:In Lon-don town did dwell 
+d |c2 A2 ((3:2AG) F | (A3/2G/) F2 z
+w:So mod-est, fair_ and hand--some; 
+C |FA c2 (G3/2A/) | G4 z 
+w:her par-ents loved her_ well;
+c |f3/2e/ c3 c |f3/2e/ c2           
+w:She was ad-mired by lord and squire, 
+(G3/2A/) | B3/2B/ c2 A2 | Hd4 
+w:but all their thoughts were vain
+    d2 |cA (AG) z F | A3/2G/ F2 z
+w:For on-ly one_ A farm-er's son.
+C |FA c2 (GA) | HF4  |]
+w:young Mar-y's heart did_ gain.
+%End of file

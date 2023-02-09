@@ -1,0 +1,104 @@
+This file contains 5 frailachs (#1 - #5).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Frailach (also spelled freilach, freilakh, freylekh, freylech) are klezmer dance tunes.
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in klezmer music.
+
+Last updated 19 September 2018.
+
+(c) Copyright 2017-2018 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:frailach
+M:4/4
+L:1/8
+Z:id:hn-%R-%X
+
+X:1
+T:Di Zilberne Kasene
+T:Silver Wedding, The
+R:frailach
+O:Klezmer
+Z:id:hn-frailach-1
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+A de | f4 zA de | ff3 zA de | f2 ed ee d^c | a4 zA ^cd |
+e4 zA ^cd | ee3 zA ^cd | e2 g2 fe f/e/d |
+[1 ^c/d/e d/^c/B A :|2 ^c/d/e d/^c/B A2 z2 ||
+|: AB ^cd ef ga | b8 | a8 | g8 | f8 | eA ^ce dz z2 |
+eA ^ce dz ef | g/f/e f/e/d e/d/^c d/^c/B | A8 :|
+|: ^c/d/e d/^c/B AB ^c2- | ^cA ^ce d^c BA  | ^c/d/e d/^c/B AB ^cz |
+e/d/^c d/^c/B A2 z2 :| 
+
+X:2
+T:Sherele
+T:Small Scissors
+R:frailach
+H:Also played in Gphr =B
+Z:id:hn-frailach-2
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dphr ^f
+DC=B,C D2 E2 | D8 | ^FEDE F2 G2 | A8 | AB c2 c2 c2 |
+cB BA AG G^F | ^FG A2 A2 A2 | AG G^F FE ED | C=B, CD EG ^FE | D8 :|
+|: G4 B4 | d8 | dc cB BA AG | A2- A/B/c/B/ A4 |
+A3B c3d | e8 | ed dc cB BA | G2- G/A/B/A/ G4 :|
+|: AG ^F2 FE D2 | DG^FG A2 d2 | AG ^F2 FE D2 | EDCE D4 :|
+
+X:3
+T:Af Shabes in Vilna
+T:On the Sabbath in Vilna
+R:frailach
+H:Also played in C
+Z:id:hn-frailach-3
+M:4/4
+L:1/8
+Q:1/4=140
+K:G
+DG/G/ GG AB cd | BG AG Bc^cd | DG/G/ GG AB cd | BG AF G4 :|
+|: e=f ed de dc | BG AG Bc^cd | e=f ed de dc | BG AF G4 :|
+|: A_B AG FG A2 | _B/A/G FE FG A2 | A_B AG FG A2 | _B/A/G FE E4 :|
+
+X:4
+T:Freylekhs fun der khupe
+R:frailach
+Z:id:hn-frailach-4
+M:4/4
+L:1/8
+Q:1/4=120
+K:Ddor ^g
+D2 E/F/^G/F/ GA AA | c/B/A A/^G/F A/G/F F/E/E/D/ |
+D2 E/F/^G/F/ GA AA | d3A dc BA |
+D2 E/F/^G/F/ GA AA | c/B/A A/^G/F A/G/F F/E/E/D/ |
+c/B/c/B/ c/B/A (3dcB (3A^GF |1 B/A/^G F/E/D/E/ D3 A, :|
+[2 B/A/^G F/E/D/E/ D2 z/A/^G/A/ ||
+|: d3A d3A | dA dA dA dA | dc BA ^G>F ^G/F/E/D/ |
+dc BA ^G/B/A- A2 | dc BA ^G>F ^G/F/E/D/ |
+[1 EE F/E/D/^C/ D2 z/A/^G/A/ :|2 EE F/E/D/^C/ D3E ||
+|: ^FA A/=G/G/F/ FA A/G/G/F/ | A/^G/A/B/ c/B/A/G/ Ad dd |
+^FA A/=G/G/F/ G3^G |1 B/A/^G/F/ ^G/F/E/F/ D3E :|2 B/A/^G/F/ ^G/F/E/F/ D3 A, ||
+
+X:5
+T:Freylach No. 8
+R:frailach
+Z:id:hn-frailach-5
+M:4/4
+L:1/8
+Q:1/4=140
+K:Gphr =B
+BA G2 BA G2 | BA GA GF F2 | =EF GA Bc BA | G2 B2 d2 g2 |
+BA G2 BA G2 | BA GA GF F2 | =EF GA Bc BA | G8 :|
+|: G2 e2 dcBc | d3c BAGF | G2 e2 dcBc | d8 |
+cBcB cBAG | FFGA GF F2 | fedc BAGF | G8 :|
+

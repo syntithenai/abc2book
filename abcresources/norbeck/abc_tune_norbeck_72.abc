@@ -1,0 +1,425 @@
+This file contains 22 way\~nus (#1 - #22).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These tunes are way\~nu (waynu, huayno), sikuri, sikuriada and cacharpaya from Peru, Bolivia and Argentina.
+The rhythm is often "irregular", because only the beat is important. They could be written
+in 1/4 time, but that would make the music very hard to read because of all the syncopations.
+I have therefore chosen a mixture of 2/4, 3/4 and 4/4 to make them more readable.
+
+Last updated 24 March 2021.
+
+(c) Copyright 2017-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:waynu
+Q:1/4=90
+M:2/4
+L:1/8
+Z:id:hn-%R-%X
+
+X:1
+T:Recuerdos de Calahuayo
+R:waynu
+O:Peru
+Z:id:hn-waynu-1
+M:3/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:3/4]"Em"B/ee/ ee/dd/c | "G"B/dd/ dd/cc/B |[M:2/4] "Am"AB/cc/e | "Em"B4 :|
+|:[M:3/4] "Am"A/cc/ cc/BB/A | "G"G/BB/ "B"BB/AA/F | "Em"EE/F/ "G"GG/"B"GA/F |
+[1 [M:2/4]"Em"E4 :|2 [M:3/4] "Em"E3/"G"BBB/ "B"AF | "Em"EE/F/ "G"GG/"B"GA/F |
+"Em"E3/"G"BBB/ "B"AF | "Em"EE/F/ "G"GG/"B"GA/F |[M:2/4] "Em"E4 ||
+|:[M:3/4] "C"gf/ee/g "D"d/e/d |[M:2/4] "G"B4 :|
+|:[M:2/4] "B"BB/AG/F | "Em"G/AB/ "G"d2 | "B"BB/AG/F |[M:3/4] "B"G/AF/ "Em"E4 :|
+
+X:2
+T:Munawanqui
+R:waynu
+O:Peru
+Z:id:hn-waynu-2
+M:2/4
+L:1/8
+Q:1/4=90
+K:Edor
+"Intro" "Em"EG/Bee/ | "G"BA/"B"BA/G/F/ | "Em"E3/"B"BA/G/F/ |
+"Em"EG/"B"BA/G/F/ | "Em"EE/GE/B, | "Em"EE/GE/B, | "Em"E4 ||
+|: !S!"Em"G/BA/ GG |[M:3/4] "C"eg e3/gf/e |[M:2/4] "D"d/dd/ eA | "G"B4 :|
+|: "G"d/dB/ "D"dd |[M:3/4] de "G"G3/"D"dB/A |[M:2/4] "G"G/GG/ "B"AF | "Em"E4 :|
+|: "Em"G/BA/ GG |[M:3/4] "C"eg e3/gf/e |[M:2/4] "D"d/dd/ eA | "G"B4 :|
+|: "G"d/dB/ "D"dd |[M:3/4] de "G"G3/"D"dB/A |[M:2/4] "G"G/GG/ "B"AF | "Em"E4 :|
+"C"e/f/g/f/ e/d/e/d/ | "G"B/BA/ BB | "C"zd/e/ ge | "G"B4 |
+"C"e/f/g/f/ e/d/e/d/ | "G"B3/Bd/c/d/ | "Em"ed/"B"BA/G | "Em"E3 B ||
+"D"d/dd/ A/Ae/ | "G"B/BA/ BB | "D"z/dd/ A/Ae/ | "G"B4 |
+"C"e/f/g/f/ e/d/e/d/ | "G"B3/Bd/c/d/ | "Em"ed/"B"BA/G | "Em"E4 ||
+"Outro" "Em"EG/Bee/ | "G"BA/"B"BA/G/F/ | "Em"E4 ||
+
+X:3
+T:Way\~nu
+R:waynu
+O:Peru?
+Z:id:hn-waynu-3
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+"C"(3gfe "G"d/dB/ | "G"de/d/ "G"B>A | "G"(3GAB "G"B/BA/ |1 "G"Bd "G"B2 :|
+[2 "G"Bd "G"B>g |: "G"ga/b/ "G"b/ag/ | "D"a/g/a/b/ "C"g>e | "C"(3ege "Em"e/dB/ |
+"D"de "G"g>g | "G"ga/b/ "G"b/ag/ | "D"a/g/a/b/ "C"g>e | "C"eg/e/ "Em"e/dB/ |
+"Bm"de "Em"e2 :||: "G"b/b/a/b/ "C"a/g/e/g/ | "D"f/af/ "G"g2 |
+"G"b/b/a/b/ "Am"a/g/e/g/ | "Bm"f/ag/ "Em"e2 :||: "Bm"B/d/f/a/ "C"ge/g/ |
+"D"f/af/ "G"g2 | "Bm"B/d/f/a/ "C"ge/g/ | "Bm"f/ag/ "Em"e2 :|
+
+X:4
+T:Cacharpaya del Indio
+R:waynu
+C:Nicolas Garcia
+O:Peru
+Z:id:hn-waynu-4
+M:4/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:4/4] Be ed/ee/f g>g | f/ed/ BA/BB/e d>d |
+AG/F/ E/FGGG/ AF |[M:2/4] E/e/B/e/ Be :|
+|:[M:4/4] Ac cB/cc/d e>e | d/ed/ BA/BB/e d>d |
+AG/F/ E/FGGG/ AF |1 [M:2/4] E/e/B/e/ Be :|2 [M:3/4] E3/eef/ g>g ||
+|:[M:4/4] f/ed/ BA/BB/e d2 | AG/F/ E/FGGG/ AF |
+[1[M:3/4] E3/eef/ g>g :|2 [M:2/4] E/e/B/e/ Be ||
+
+X:5
+T:Ag\"uita de Putina
+R:waynu
+O:Peru
+Z:id:hn-waynu-6
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:3/4] B/BB/ e/ee/ fg | e3/ff/g e>e | e/gg/ ff/fec/ | [M:2/4] B>B e/ee/ |
+[M:3/4] d/BBBB/ AF |[M:2/4] G3/AA/G/F/ | E/e/B/e/ Be :|
+|: A/cc/ B/BB/ | A/Ac/ e>e |[M:3/4] d/BBBB/ AF |[M:2/4] G3/AA/G/F/ |
+[1 E/e/B/e/ Be :|2 E3/Ac/B/A/ |: B/B/B/A/ G/F/E |[M:3/4] G/BBBB/ AF |
+[M:2/4] G3/AA/G/F/ |1 E3/Ac/B/A/ :|2 E/e/B/e/ Be ||
+W:Ag\"uita, ag\"uita de Putina, palomitay,
+W:c\'omo quieres que me vaya, ay, ay, ay, ay,
+W:sabiendo que te he querido, palomitay?
+W:
+W:Tu padre, tu madre, no quieren ya
+W:que yo te siga queriendo, palomitay.
+W:
+W:Ay, mi palomita, linda flor,
+W:que yo te siga queriendo, palomita.
+
+X:6
+T:Adios, Pueblo de mi Waychu
+R:waynu
+O:Peru
+Z:id:hn-waynu-6
+M:4/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:4/4] Be ee/ed/c B2 |[M:3/4] ce BB/AG/F |[M:2/4] E/e/B/e/ Be :|
+|:[M:4/4] Ac BB/AA/c B2 |[M:3/4] ce BB/AG/F |1 [M:2/4] E/e/B/e/ Be :|
+[2 [M:3/4] E3/ed/c B2 |: ce BB/AG/F |1 [M:3/4] E3/ed/c B2 :|
+[2 [M:2/4] E/e/B/e/ Be ||
+W:|: Adi\'os, pueblo de mi Waychu,
+W:pueblo donde yo he nacido. :|
+W:|: Adi\'os, casita querida.
+W:Ya me voy, ya me estoy yendo. :|
+W:|: Palomita! Ya me voy, ya me estoy yendo. :|
+W:
+W:|: Hasta mi zampo\~na llora,
+W:siento un ca\~no vac\'io. :|
+W:|: C\'omo no he de llorar yo,
+W:si me quitan lo que es m\'io. :|
+W:|: Palomita! Ya me voy, ya me estoy yendo. :|
+
+X:7
+T:Alturas de Wallpacayu
+R:waynu
+O:Bolivia
+Z:id:hn-waynu-7
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:3/4] B/BB/ g3f |[M:2/4] e/fee/d/c/ | B/g/f/g/ dg :|
+|: [M:3/4] B/BB/ e3d |[M:2/4] BB/AA/G/F/ |1 E/e/B/e/ Be :|
+[2 E3/EF/G/A/ |: B3/BB/d | F/AAA/G |1 E3/EF/G/A/ :|2 E/e/B/e/ Be ||
+|: FA FA | GB GB | FF/AA/G/F/ |1 E/e/B/e/ Be :|2 E3/ee/d/c/ ||
+|: B3/AA/G/F/ |1 E3/ee/d/c/ :|2 E/e/B/e/ Be ||
+
+X:8
+T:Sikuri
+R:waynu
+O:Bolivia?
+Z:id:hn-waynu-8
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:4/4] GA BB/ee/d/c/ B2 |[M:3/4] ef g>e d/e/d/c/ |[M:2/4] B/g/f/g/ dg :|
+|:[M:2/4] e/eec/A | B/BBG/E | GB/AA/G/F/ |1 E/e/B/e/ Be :|
+[2 [M:3/4] E3/ef/g e2 |:[M:2/4] BB/AA/G/F/ |1 [M:3/4] E3/ef/g e2 :|
+[2 E/e/B/e/ Be ||
+
+X:9
+T:Sikuri
+R:waynu
+O:Bolivia
+Z:id:hn-waynu-9
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+B/ddB/d | gg gg | f/ffa/f | e/eeg/e | d/d/B/dd/d/d/ :|
+|: gf ff | ed dg |[M:3/4] f/edc/B/A/ GG |[M:2/4] A/AAc/A |
+[1 g/g/d/g/ dg :|2 G3/GA/B/c/ |: dd/ef/g | [M:3/4] f/edc/B/A/ GG |
+[M:2/4] A/AAc/A |1 G3/GA/B/c/ :|2 g/g/d/g/ dg ||
+
+X:10
+T:Waynu
+R:waynu
+O:Bolivia?
+Z:id:hn-waynu-10
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:3/4] B/ee/ ee/dc/B |[M:2/4] A/AG/ A>F | G/BB/ B/BA/ | GF/EF/G |
+E/e/B/e/ Be :||: GB G/GG/ | FA G2 | G/BB/ B/BA/ | GF/EF/G |
+[1 E/e/B/e/ Be :|2 E3/edB/ |: A/AG/ A>F | G/BB/ B/BA/ | GF/EF/G |
+[1 E3/edB/ :|2 E/e/B/e/ Be ||
+
+X:11
+T:Poussiganga
+R:waynu
+O:Bolivia?
+Z:id:hn-waynu-11
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+b3 a | gf eg | B3/gf/e | Be/BA/G/F/ | E/e/B/e/ Be :|
+|: g/gf/ g/fe/ | B3/gf/e | Be/BA/G/F/ |1 E/e/B/e/ Be :|
+[2 E3/gf/e |: Be/BA/G/F/ |1 E3/gf/e :|2 E/e/B/e/ Be ||
+
+X:12
+T:Festival de Yotala
+R:waynu
+O:Bolivia
+Z:id:hn-waynu-12
+M:2/4
+L:1/8
+Q:1/4=90
+K:Edor
+GA Bc | dB/ddd/ |[M:3/4] c/cc/ ce/BB/A/G/ |[M:2/4] Ee/g/ e/g/e/g/ :|
+|: B/dd/ c/cc/ | B/BB/ e>e | dc/BB/A/G/ |1 Ee/g/ e/g/e/g/ :|2 E3/EF/G/A/ ||
+|: B/BB/ e/ee/ | dc/BB/A/G/ |1 E3/EF/G/A/ :|2 Ee/g/ e/g/e/g/ ||
+
+X:13
+T:Cacharpaya de Yotala
+R:waynu
+O:Bolivia
+Z:id:hn-waynu-13
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:4/4] bb bb/aaa/ b>b |[M:3/4] aa aa/gef/ |[M:2/4] a3/ge/g/e/ |
+BB/AA/G/F/ | E/E/G/E/ G/E/G/E/ :||: EE/DEF/ | GA B>e |
+d/d/B/d/ e>d | BB/AA/G/F/ | E/E/G/E/ G/E/G/E/ :|
+
+X:14
+T:El Humahuaque\~no
+R:waynu
+O:Argentina
+Z:id:hn-waynu-14
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+B | ee/ee/e | g3 f/e/ | dd/dc/e | d3 :|
+|: z | BB/BA/d | BB/BA/d | BB/BA/G | E3 :|
+|: z | e/ef/ g2 | ^c/cd/ ed | B3 :|
+|: z | BB/BA/d | BB/BA/d | BB/BA/G | E3 :|
+
+X:15
+T:La Quebrada de Humahuaca
+R:waynu
+O:Argentina
+Z:id:hn-waynu-15
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+e/ee/ e/fg/ | g/fe/ ed | B/BB/ AG | E3/E3/E :|
+d/dd/ e/BA/ | G/Ed/ de | B/BB/ AG |1 E3/E3/E :|
+[2 E>d de |: B/BB/ AG |1 E>d de :|2 E3/E3/E ||
+
+X:16
+T:El Sicuri
+R:waynu
+O:Bolivia?
+Z:id:hn-waynu-16
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:3/4] BB ee/ee/d |[M:2/4] e>e e/gg/ | g/edB/A | B>B B/dd/ | d/BAG/E |
+[M:3/4] G>G F/AA/ A/G/F/E/ | [M:2/4] D3/EF/G/F/ | E/e/B/e/ Be :|
+|: G/BB/ A/AA/ |[M:3/4] dd/eB/A G>G |[M:2/4] G/BB/ A/AA/ |
+[M:3/4] dd/eB/A G>G |[M:2/4] F/AA/ A/G/F/E/ | D3/EF/G/F/ | E/e/B/e/ Be :|
+
+X:17
+T:Ayacucho
+R:waynu
+O:Peru
+Z:id:hn-waynu-17
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+[M:2/4] G/A/B/d/ B/d/B/d/ |[M:3/4] e/g/e/d/ d/BA/ B2 |
+[M:2/4] G/A/B/d/ B/d/B/d/ |[M:3/4] e/g/e/d/ d/B/A/G/ E2 :|
+|:[M:2/4] ge/ed/g | e/dde/d/B/ | B/A/G/E/ G2 |
+g3/ed/g | e/dde/d/B/ | B/A/G/E/ E2 :|
+
+X:18
+T:Ojos Azules
+R:waynu
+O:Peru
+Z:id:hn-waynu-18
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+BB Bd | B2 GA |[M:3/4] B2 GA BB |[M:2/4] A2 FG | E4 :|
+|: G>F EE | D2 GA |[M:3/4] B2 GA BB |[M:2/4] A2 FG | E4 :|
+W:Ojos azules, no llores,
+W:No llores ni te enamores.
+W:Lloraras cuando me vaya,
+W:Cuando remedio ya no haya.
+W:
+W:Tu me juraste quererme,
+W:Quererme toda la vida.
+W:No han pasado dos, tres dias,
+W:Tu te alejas y me dejas.
+W:
+W:En una copa de vino,
+W:Quisiera tomar veneno.
+W:Veneno para matarme,
+W:Veneno para olvidarte.
+
+X:19
+T:A las orillas del Titicaca
+R:waynu
+D:Los Incas
+O:Peru/Bolivia
+Z:id:hn-waynu-19
+M:3/4
+L:1/8
+Q:1/4=90
+K:Em
+B/BB/ e2 g2 | e/dB/ d2 e2 |
+G/GG/ e2 g2 | e/dB/ d2 e2 ||
+G/AB/ d2 e2 | B/AG/ E2 G2 |
+G/AB/ d2 e2 | B/AG/ E2 E2 ||
+W:|: A las orillas del Titicaca :|
+W:|: grab\'e tu nombre sobre la arena :|
+W:
+W:|: Vino la ola y lo borr\'o todo :|
+W:|: Y de tu nombre no qued\'o nada :|
+W:
+W:|: Sobre las pe\~nas grab\'e tu nombre :|
+W:|: Vino la lluvia y lo borr\'o todo :|
+W:
+W:Sobre las pe\~nas grab\'e tu nombre
+W:Vino la lluvia y lo borr\'o todo
+W:|: Y de tu nombre no qued\'o nada :|
+
+X:20
+T:Dos Palomitas
+R:waynu
+O:Argentina
+Z:id:hn-waynu-20
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+G/GF/ GA | B/BA/ BB | e2 d2 | B4 |
+B/ed/ BA | G/GF/ GA | B2 A2 | G4 :|
+|: e2 d2 | B4 | e2 d2 | B4 |
+B/ed/ BA | G/GF/ GA | B2 A2 | G4 :|
+P:instrumental variations
+|: G/GF/ GA | B/BA/ BB | ee/gd/e | B4 |
+B/ed/ BA | G/GF/ GA | BB/dG/A | G4 :|
+|: e2 d2 | B4 | e2 d2 | B4 |
+B/ed/ BA | G/GF/ GA | BB/dG/A | G4 :|
+W:Dos palomitas se lamentaban llorando
+W:y la una a la otra se consolaban diciendo:
+W:"{\textquestiondown}Qui\'en te ha cortado tus bellas alas, paloma?
+W:{\textquestiondown}Fue alg\'un falsario que ha sorprendido tu vuelo?"
+W:
+W:|: "Ay, ay, ay, paloma,
+W:{\textquestiondown}Fue alg\'un falsario que ha sorprendido tu vuelo?" :|
+W:
+W:"Quiso el ingrata que yo mis alas le diera
+W:para ir volando los dos juntitos al cielo.
+W:Por su cari\~no le di mis alas, y luego,
+W:abandonada de desenga\~no, me muero."
+W:
+W:|: "Ay, ay, ay, paloma,
+W:{\textquestiondown}Fue alg\'un falsario que ha sorprendido tu vuelo?" :|
+
+X:21
+T:Saririway
+R:waynu
+H:The first verse is in the Aymar\'a language
+O:Bolivia
+Z:id:hn-waynu-21
+M:3/4
+L:1/8
+Q:1/4=90
+K:Em
+B/BB/ c/ccc/B |[M:2/4] cd e/ee/ | B/BBG/E |
+[M:3/4] G/BB/ A/AAA/F | GF E/e/B/e/ B/e/B/e/ :|
+|: B/cB/ A3/AA/G |[M:2/4] AB c/cc/ | B/BBG/E |
+[M:3/4] G/BB/ A/AAA/F |1 GF E/e/B/e/ B/e/B/e/ :|
+[2 GF E3/cc/B |:[M:2/4] cd e/ee/ | B/BBG/E |
+[M:3/4] G/BB/ A/AAA/F |1 GF E3/cc/B :|2 GF E/e/B/e/ B/e/B/e/ ||
+P:song
+|: B/BB/ c4 |[M:2/4] ee e2 | B3/BG/E |
+[M:3/4] G/BB/ A3F | BG E4 :|
+|: zE/D/ EF GA |[M:2/4] B3/BG/E |
+[M:3/4] G/BB/ A3F | BG E4 :|
+W:Saririway sarjamiway, viditay,
+W:qhipaririwa jachkani.
+W:Ukarataki jachkasmay, viditay,
+W:suertemata amtasisina.
+W:
+W:Yo no siento de tu olvido, viditay,
+W:siento de haberte querido.
+W:Se esto te digo cantando, viditay,
+W:tu recordaras llorando.
+
+X:22
+T:Chunguinada
+R:waynu
+O:Peru
+Z:id:hn-waynu-22
+M:2/4
+L:1/8
+Q:1/4=90
+K:Em
+E/GB/ | e3g | ed dB | d/eg/ ed |1 B4- | B2 :|2 B4 ||
+ee eg | ed dB | d/eg/ ed | B2- B/A/B/G/ | D3 A/B/ | G2 E2- | E2 ||
+

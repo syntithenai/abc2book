@@ -1,0 +1,182 @@
+This file contains 10 mui\~neiras (#1 - #10).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Mui\~neiras are dance tunes from Galicia in northwestern Spain.
+
+Last updated 3 November 2018.
+
+(c) Copyright 2018 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+M:6/8
+R:muineira
+Z:id:hn-%R-%X
+O:Galicia
+
+X:1
+T:Mui\~neira De Chantada
+R:muineira
+H:Original key Cm
+D:Milladoiro
+O:Galicia
+Z:id:hn-muineira-1
+M:6/8
+L:1/8
+K:Dm
+D2A | D3 EFG | A3- A2A | AGA B2A | A3 E3 |
+E3 FGA | B3- BAG | ABA GFE | F2E D2A |
+D3 EFG | A3- A2A | AGA d2c | c3 B3 |
+Bcd E2d | d3 A3 | ABA GFE | D3 :|
+K:D
+|: d2c | A2B c2A | B3 A2G | E2F G2A | F2D d2c |
+A2B c2A | B3 A2G | E2F G2A | D3 :|
+|: zdA | c2B BGE | B2A AFD | A2G GEC | B2A AdA |
+c2B BGE | B2A AFD | A2G GEF | D3 :|
+
+X:2
+T:Muineira de Casu
+R:muineira
+D:L\'unasa
+O:Galicia
+Z:id:hn-muineira-2
+M:6/8
+L:1/8
+K:A
+AB/c/d |: efe dcd | e2e Acd | efe dcB | c2A Acd |
+efe dcd | f2e Acd | efe dBc |1 A2E Acd :|2 A3 a2f ||
+|: ecd edf | edc Acd | efe dcd | f2e a2f |
+ecd edf | edc Acd | e2e dBc |1 A3 a2f :|2 A3 ABc ||
+|: d3 dcd | e2e ABc | d2d dcB | c2A ABc |
+d2d dcd | f2e Acd | efe dBc |1 A2A ABc :|2 A2A Acd ||
+
+X:3
+T:Mui\~neira De Cabana
+R:muineira
+H:Original key Cm
+D:Milladoiro
+O:Galicia
+Z:id:hn-muineira-3
+M:6/8
+L:1/8
+K:Dm
+d2^c | ABA GEG | FED D^CD | EFG A2c | B2A d2^c |
+ABA GEG | FED D^CD | EFG GFE | D3 :|
+|: DEF | D2D D^CD | E2E EFG | A2F G2E | FED DEF |
+D2D D^CD | E2E EFG | ABA GFE | D3 :|
+K:D
+|: FGA | AFD BGB | AFD FED | CEG BGB | AFD FGA |
+AFD BGB | AFD FED | CBA GFE | D3 :|
+
+X:4
+T:Mui\~neira de Lugo
+R:muineira
+H:Original key C
+O:Galicia
+Z:id:hn-muineira-4
+M:6/8
+L:1/8
+K:D
+dc | A3- Adc | A3- Adc | ABA GFG | B2A- Adc |
+A3- Adc | A3- Adc | ABA GFE |1 D4 :|2 D3 ||
+|: F2F | F2G AGF | E3 G2G | G2A BAG | F2D F2F |
+F2G AGF | E3 B2B | ABA GFE |1 D3 :|2 D3-D || 
+
+X:5
+T:Galician Jig
+R:muineira
+O:Galicia
+Z:id:hn-muineira-5
+M:6/8
+L:1/8
+K:C
+g gag | e2g gag | d2g g2a | bag fed | e2c gag |
+e2g gag | d2d GBd | GBd fed |1 c2 :|2 c3 gag |
+|: bag fga | g2e gag | bag fed | c3 gag |
+bag fga | g2e gag | bag fed |1 c3 gag :|2 c2 ||
+
+X:6
+T:Galician Jig
+R:muineira
+O:Galicia
+Z:id:hn-muineira-6
+M:6/8
+L:1/8
+K:A
+efe cBA | ~A3 cBA | efe cBA | ~A3 B3 |
+efe cBA | ~A3 cBA | ABA Bcd | efe A3 :|
+|: ABc def | efe cBA | ABc def | efe c3 |
+ABc def | efe cBA | efe cBA | BcB A3 :|
+|: ~a3 ece | ~a3 fdf | ~a3 efe | dBe ecA |
+~a3 ece | ~a3 fdf | ~a3 efe | dcB A3 :|
+|: ABc ABc | ABc d2B | Bcd d2B | Bcd ~e3 |
+ABc ABc | ABc d2B | Bcd ~e3 | dcB A3 :|
+
+X:7
+T:Mui\~neira De Chao
+R:muineira
+H:Original key C
+O:Galicia
+Z:id:hn-muineira-7
+M:6/8
+L:1/8
+K:D
+DEF | DEF DEF | ~G3 EFG | EFG EFG | ~A3 DEF |
+DEF DEF | ~G3 EFG | ABA GFE | D3 :|
+|: DED | B3- BFG | A3- AEF | ~G3 GFE | ~A3 DED |
+B3- BFG | A3- AEF | ~G3 GFE | D3 :|
+
+X:8
+T:Mui\~neria De Freixido
+R:muineira
+C:Gumersindo Parapar
+H:Original key C
+H:Also played in G or A
+O:Galicia
+Z:id:hn-muineira-8
+M:6/8
+L:1/8
+K:D
+DEF |: FEF FED | A2F DEF | FEF GAB | A2F DEF |
+FEF FED | A2F DEF | FDF ECE |1 D3 DEF :|2 D2A AGF ||
+|: E2B BAG | F2d dcB | cBA GFE | D2A AGF |
+E2B BAG | F2d dcB | cBA GFE |1 D2A AGF :|2 D3 ABc ||
+|: d3 d=cB | =c3 cBA | B3 BAG |1 A3 ABc :|2 A2F DEF ||
+|: G2B BAG | A2F DEF | G2B BAG | A3 AGF | E2A AFE |1 D3 DEF :|2 D3 ||
+
+X:9
+T:Mui\~neira de Praducelo
+R:muineira
+O:Galicia
+Z:id:hn-muineira-9
+M:6/8
+L:1/8
+K:D
+dcd | A3 dcd | A3 dcd | ABA GFG | B2A
+dcd | A3 dcd | A3 dcd | ABA GFE | D3 :|
+|: DEF | G2G GFE | F2F FED | E2E EFG | A2A
+DEF | G2G GFE | F2F FED | E2E EDC | D3 :|
+
+X:10
+T:Mui\~neira de Piadela
+R:muineira
+D:Lizgairo
+O:Galicia
+Z:id:hn-muineira-10
+M:6/8
+L:1/8
+K:C
+cBc | G2E FAG | GEC EGF | FDB, EAG | GEC
+cBc | G2E FAG | GEC EGF | FDB, DED | C3 :|
+|: EDC | B,CD G2F | EDC EDC | B,CD DCD | EDC
+EDC | B,CD G2F | EDC EDC | B,CD DED | C3 :|
+|: zEF | GAB cBc | A2G cBc | GAG FEF | GEC
+CEF  | GAB cBc | A2G cBc | GAG FED | C3 :|
+|: EDC | B,CD G2F | EDC EDC | B,CD DCD | EDC
+EDC | B,CD G2F | EDC EDC | B,CD DED | C3 :|
+

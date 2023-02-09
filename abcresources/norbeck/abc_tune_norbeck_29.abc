@@ -1,0 +1,132 @@
+This file contains 4 kopanitsas (#1 - #4).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These kopanitsa (kopanica) are dance tunes from Bulgaria.
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+
+The uneven meter is 11/16 = 4+3+4/16
+
+Last updated 13 July 2019.
+
+(c) Copyright 2017-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:kopanitsa
+M:11/16
+L:1/16
+Z:id:hn-%R-%X
+
+X:1
+T:Kolev's Kopanitsa
+R:kopanitsa
+H:Originally in Ddor, but transposed for the simple system flute.
+O:Bulgaria
+Z:id:hn-kopanitsa-1
+M:2+2+3+2+2/16
+L:1/16
+Q:1/8=220
+K:Edor
+|: GAAG ~B2A AGBA | GFFE GAB G2G2 | 
+   GAAG ~B2G AGBA | GFFD ~E2B, ~E2E2 :| 
+|: GFFD ~E2B, CDEF | GFFD ~E2B, GAAB, | 
+   GFFD ~E2B, CDEF | GFFD ~E2B, ~E2E2 :| 
+|: eddc Bcd ~e2eB | eBgf efd ~e2eB | 
+   eddc Bcd ~e2eB | eBgf efd ~e2e2 :| 
+|: eAgf efd eAcd | eAgf efd e2a2 | 
+   eAgf efd eAcd | eAgf efd ~e2e2 :| 
+|: eAgf efd eAcd | efga aga ~g2gd | 
+   gabd bag gfag | gffd ~e2A ~e2e2 :| 
+|: gabd bag gdbd | gabd bag ~g2gd :| 
+|: GAAD BAG GE~F2 | FD~E2 DEF G2A2 | 
+   GAAD BAG GE~F2 | FD~E2 DEA E2E2 :| 
+|: GFEF DEF ~G2GD | GFEF DEF ~E2EA, | 
+   GFEF DEF ~G2GD | GFEF DEF ~E2E2 :| 
+
+X:2
+T:Kopanitsa a la Turka
+R:kopanitsa
+S:Serdar Deli on Youtube. Variations from Balkanatolia.
+H:Originally played in Ephr #g, C#phr ^d or Aphr ^c but transposed for
+H:simple system flute.
+O:Bulgaria
+Z:id:hn-kopanitsa-2
+M:2+2+3+2+2/16
+L:1/16
+Q:1/8=220
+K:Bphr ^d =c
+Bcde fge f{e}ff{e}f | fa{f}gf ede f{e}ff{e}f |
+   Bcde fge f{e}ff{e}f |1 df{d}ed cBA BFBF :|2 df{d}ed cBA Bz3 ||
+|: Ja4-a^gb a=g{e}fe | fg{f}g{f}g gfa {f}gfed | defg a^gb a=gfe |
+   [1 fgfe {c}d2c BFBz :|2 fgge {c}d2c Bz3 ||
+|: df{ef}ed cBA Bcde |1 df{ef}ed cBA BFB2 :|2 df{ef}ed cBA Bz3 ||
+|: def{e}f def def{e}f | def{e}f edc Bcde | def{e}f def def{e}f |
+   [1 def{e}f edc BFBz :|2 def{e}f edc Bz3 ||
+P:variations for parts 1&2
+|: Bcde fge fzf{e}f | fa{f}gf ede fzf{e}f |
+   Bcde fge fzf{e}f |1 df{d}ed cBA BFBF :|2 df{d}ed cBA Bz3 ||
+|: ^gaa2 a^gb a=g{e}fe | fgg2 gfa {f}gfed | defg a2g f2e2 |
+   [1 d2ed cBA BFBz :|2 d2ed cBA Bz3 ||
+|: df{ef}ed cBA Bcde | df{ef}ed cBA BFB2 | df{ef}ed cBA Bcde |
+   [1 df{ef}ed cBA BFBz :|2 df{ef}ed cBA Bz3 ||
+|: def{e}f def def{e}f | def{e}f edc Bcde | def{e}f def def{e}f |
+   [1 def{e}f edc BFBz :|2 def{e}f edc Bz3 ||
+
+X:3
+T:Gankino Horo
+R:kopanitsa
+S:Boris Karlov
+O:Bulgaria
+Z:id:hn-kopanitsa-3
+M:2+2+3+2+2/16
+L:1/16
+Q:1/8=220
+K:Ddor ^g =f
+|: "Dm"D2^cd dzd d=cBA | cBA^G GFA G2FE | D2EF FDA ^G2FA | ^G2FE EDF "E"EEED :|
+|: "Dm"D2EF FDA ^G2FE | D2dd dcB A^GFE | D2EF FDA ^G2FA | ^G2FE EDF "E"EEED :|
+K:A
+|: "E7"Bcdd dBd "A"cccA | "E7"ecdd dBd "A"cccA |
+   "E7"Bcdd dBd "A"cccA | "E"BAGA BBe B2 z2 :|
+K:Ddor ^g =f
+|: "E"AB^G2 "Dm"FED "E"EEEB, | "E"AB ^G2 "Dm"FED "E"EEEB, |
+   "E"AB^G2 ABG ABGz | "E"AB^G2 "Dm"FED EEEB, :|
+K:D
+|: "A7"efgg geg "D"fffd | "A7"afgg geg "D"fffd |
+   "A7"efgg geg "D"fffd | "A"edcd "E7"eea "A"ezz2 :|
+
+X:4
+T:Pazardjishka kopanitsa
+T:Pazardzhishka kopanitsa
+R:kopanitsa
+O:Bulgaria
+Z:id:hn-kopanitsa-4
+M:11/16
+L:1/16
+Q:1/8=220
+K:Amix
+ABcd Bcc cBBG | BGA2 Bcc cBBG | ABcd Bcc cBBG | BGA2 A3 A2A2 :|
+|: eAcd dAc cAB2 | cABc c2B B2A2 | BGB2 c2B B2Bc |1 B2AE ABc dce2 :|2 B2A2 A3 A2A2 ||
+|: ABc2 cd2 c2B2 | Bcd2 Bc2 cBA2 | GABc c2A c2c2 | B2A2 A3 A2A2 :|
+|: eAcd dAc cAB2 | cABc c2B B2A2 | BGB2 c2B B2Bc |1 B2AE ABc dce2 :|2 B2AE A3 A2A2 ||
+|: BGB2 c2B B2Bc | B2AE ABc dce2 | BGB2 c2B B2Bc | B2AE A3 A2A2 :|
+K:Amix _b
+|: ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_Bc dce2 |
+ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_BA AEA2 :|
+|: A_BB2 GBe c2_BA | AEG2 A_BA AGFE | A_BB2 GBe c2_BA | AEG2 A_BA AEA2 :|
+K:Amix
+|: deed dcB c2BA | cddc cBA AGFE | FCF2 FAB c2c2 |1 cddc Bde c2c2 :|2 dccB BAG FCF2 ||
+|: FCF2 FAB c2c2 | cddc Bde c2c2 | cddc Bde c2c2 |1 dccB BAG F^GA2 :|2 dccB BAG FCF2 ||
+cAc2 ABc ddd2 | deed dcB cccA | c2c2 ABc d2d2 | dccB BAG F^GA2 |
+cAc2 ABc ddd2 | deed dcB cccA | cAc2 ABc d2dA | dccB BAG F^GAB ||
+K:Amix _b
+|: ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_Bc dce2 |
+ecd2 dc_B c2BA | AEG2 A_BA AGFE | A_BB2 GBe c2BA | AEG2 A_BA AEA2 :|
+|: A_BB2 GBe c2_BA | AEG2 A_BA AGFE | A_BB2 GBe c2_BA | AEG2 A_BA AEA2 :|
+

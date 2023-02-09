@@ -1,0 +1,281 @@
+This file contains 7 musette waltzes (#1 - #7).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These musette waltzes are from France - mostly from the 1930's and WW2.
+They are played as "swing" waltzes, preferrably with "jazzy" guitar accompaniment.
+
+Last updated 29 February 2020.
+
+(c) Copyright 2017-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+
+R:valse musette
+Z:id:hn-musette-%X
+M:3/4
+L:1/8
+Q:1/4=200
+
+X:1
+T:Retour Des Hirondelles
+R:valse musette
+C:Robert Trogn\'ee (1907-1972) & Beniamino Pagano
+H:Sharon Shannon plays this in D, but it's originally in C, which is also
+H:a much better key for this tune on the simple system flute.
+H:There is also a third part, which I have skipped here.
+D:Sharon Shannon
+O:France
+Z:id:hn-musette-1
+M:3/4
+L:1/8
+Q:1/4=200
+K:C
+"G7"G^FGB^AB | d^cdfef | a^ga=gfe | dcB ||
+|: EF^F | "C"G^FGcBc | e^deg^fg | a2 za a2 | a3 EF^F | G^FGcBc | e^deg^fg | "G7"a2 za a2 | a3
+Ade | fefgfe | d^cded=c | B2 zb b2 | b3 B^AB | A2 za a2 | a3 A^GA | "C"G2 zg g2 | g3
+EF^F | G^FGcBc | e^deg^fg | a2 za a2 | a3 FG^G | "A7"A^GA^c^Bc | e^deg_ba | "Dm"g2 zf f2 | f3
+FG^G | A^GAd^cd | fefd^cd | "C"G^FGcBc | e^decBc | "G7"G^FGB^AB | e4d2 | "C"c6 | z3 :|
+|: G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | ^cGdGfG | "C"eGcEAE | G2z
+G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | fGeGdG | "C"(3cdc (3e^de (3g^fg | c'zz :|
+P:variations
+|: EF^F | "C"G^FGcBc | e^deg^fg | a2 za a2 | a3 EF^F | G^FGcBc | e^deg^fg | "G7"a2 za a2 | a3
+Ade | fefgfe | d^cded=c | B2 zb b2 | b3 BcB | A2 za a2 | a3 ABA | "C"GFGcec | GAGF
+EF | G^FGcBc | e^deg^fg | a2 za a2 | a3 FG^G | "A7"A^GA^c^Bc | eAeg_ba | "Dm"g2 zf fe | f3
+FG^G | A^GAd^cd | fefa^ga | "C"G^FGcBc | e^deg^fg | "G7"G^FGB^AB | e4d2 | "C"cEGceg | c'zz :|
+|: G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | ^cGdGfG | "C"eGcEAE | G2z
+G^FG | "G7"BG^FGdG | ^FGBGFG | "C"cG^FGeG | ^FGcGFG |
+"G7"fGeGdG | fGeGdG | "C"(3cdc Bceg | c'zz :|
+
+X:2
+T:Le Petit Accord\'eon
+R:valse musette
+D:Joe Burke
+O:France
+Z:id:hn-musette-2
+M:3/4
+Q:1/4=200
+K:Em
+B,2 |: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E2 D3E ||
+|: "D7"FGABcB | AGFDEF | "G"GFGABc | d3 BAG |
+"D7"~F3 GAB | ~c3 AFA | "G"G2 GABc | d3 BAG |
+"D7"FGABcB | AGFDEF | "G"G2 GABc | d3 BAG |
+"D7"F2 FGAB | c2 cAFA | "G"G2 GFGA |1 G2 D3E :|2 G4 B,2 ||
+|: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E2 "E"^G2A2 ||
+K:E
+"E"B6 | "C#dim"c6 | "E"B6- | B2 e2 f2 | "E"(3gag (3fgf (3efe | "B"(3ded (3cdc (3BcB | "F#m"AGF^EFG | A3 GAB |
+"F#m"c6 | "B7"d6 | "F#m"c6- | c2 f3g | "F#m"(3aba (3gag (3fgf | "C#m"(3efe (3ded (3cdc | "E"(3BcB ^AB eg | b2 G2 A2 |
+"E"B6 | "C#dim"c6 | "E"B6- | B2 e2 f2 | "E"(3gag (3fgf (3efe | "C#7"c'4 b2 | "F#m"b4 a2 | a3 bc'b |
+"F#m"af ca fc| af ca fc | "E"ge Bg eB | ge Bg eB | "B7"fd Bf dB | fd Bf dB | "E"e3 ee2 | e4 ||
+K:Em
+B,2 |: "Em"G6 | "B7"FE^DEFG | "Em"E3 FGF | E4 d2 | "Am"c6 | "E7"BA^GABc | "Am"A3 BcB | A4 A2 |
+"B7"^d6- | ^dB^c^def | "Em"g4-gf |1 geBGEG | "D"A4-AF | "C"GFE^DEG | "B7"F6 | B4 B,2 :|
+[2 geBGEF | "C#dim"G4 EG | "B7"F2 G2 F2 | "Em"E6- | E4 ||
+
+X:3
+T:Valse des Niglos
+T:Les Niglos
+R:valse musette
+C:Gusti Malha
+O:France
+Z:id:hn-musette-3
+M:3/4
+L:1/8
+Q:1/4=200
+K:Em
+^DEFGA |: "Em"B2 g3 ^d | f2 e2 c2 | (3BcB GGF=F | E6 | E2 F2 G2 | G2 F2 E2 |
+"B7"^DE F4- | F6 | B2 f3 e | ^d2 c2 (3BcB | AAFF=FE | ^D6 | ^D2 E2 F2 |
+F2 G3 ^D | "Em"FE G4 | z^D EFGA | (3BcB ^ABg^d | f2 e2 c2 | (3BcB GG F=F | E6 |
+"E7"E2 F2 ^G2 | ^G2 A2 B2 | "Am"AB c4- | c4 (3A^G=G | FAAcce | eccAAF |
+"Em"A3 G G2 | z G FE^DE | "Edim"G6 | "Ebdim"F4 (3FGF |1 "Em" E6- | E6 :|
+[2 "Em"E6- | E2 E2 ^D2 ||
+|: "D7"DEFGAB | cABcfe | "G"d3 B B2 | z g egeg | "D7"(3fgf ed c2 |
+z f dfdf | "G"(3efe dc B2 |1 z2 E2 ^D2 | "D7"DEFGAB | cABcfe | "G"d3 B B2- |
+B2 z2 (3^cd^d | "Em"e3 e e2 | "C7"g2 f2 e2 | "B7"^d6 | z2 E2 ^D2 :|
+[2 "G"z2 z2 (3^cd^d | "Em"e3 e e2 | "C7"g2 f2 e2 | "B7"^d6- |
+^d4 (3^c=d^d | "Em"e3 e e2 | "C7"g2 f2 e2 | "B7"b6 | z ||
+^DEFGA | "Em"B2 g3 ^d | f2 e2 c2 | (3BcB GGF=F | E6 | E2 F2 G2 | G2 F2 E2 |
+"B7"^DE F4- | F6 | B2 f3 e | ^d2 c2 (3BcB | AAFF=FE | ^D6 | ^D2 E2 F2 |
+F2 G3 ^D | "Em"FE G4 | z^D EFGA | (3BcB ^ABg^d | f2 e2 c2 | (3BcB GGF=F | E6 |
+"E7"E2 F2 ^G2 | ^G2 A2 B2 | "Am"AB c4- | c4 (3A^G=G | FAAcce | eccAAF |
+"Em"A3 G G2 | z G FE^DE | "Edim"G6 | "Ebdim"F4 (3FGF | "Em"E6- | E6 ||
+K:E
+"E"B2 c2 d2 | c2 B2 c2 | e2 g2 e2 | c2 B2 G2 | B6 | "Edim"c6 | "B7"d6- | d6 |
+B2 c2 a2 | f2 c2 e2 | (3ded c2 B2 | A6 | fdBdfb | "B7#5"=gdBdgb |
+"E"g z fedB | c6 | B2 c2 d2 | c2 B2 c2 | e2 g2 e2 | c4 B2 | "E7"e6 | f6 |
+"A"f6 | e6 | cdefde | cdefdf | "E"(3efe d2 =d2 | "C#7"cbg=fcB |
+"F#7"^A4 c=d | "B7"d2 (3ded cd | "E"e6 | z ||
+K:Em
+^D EFGA | "Em"B2 g3 ^d | f2 e2 c2 | (3BcB GGF=F | E6 | E2 F2 G2 | G2 F2 E2 |
+"B7"^DE F4- | F6 | B2 f3 e | ^d2 c2 (3BcB | AAFF=FE | ^D6 | ^D2 E2 F2 |
+F2 G3 ^D | "Em"FE G4 | z^D EFGA | (3BcB ^ABg^d | f2 e2 c2 | (3BcB GGF=F | E6 |
+"E7"E2 F2 ^G2 | ^G2 A2 B2 | "Am"AB c4- | c4 (3A^G=G | FAAcce | eccAAF |
+"Em"A3 G G2 | z G FE^DE | "Edim"G6 | "Ebdim"F6 | "Em"(3EFE ^DEGB | e2 ||
+
+X:4
+T:Indiff\'erence
+R:valse musette
+C:Tony Murena (1917-1970)
+O:France
+Z:id:hn-musette-4
+M:3/4
+L:1/8
+Q:1/4=200
+K:Em
+B,EGBd | "Em"(3cdc B4 | z Begbd' | "B7"(3c'd'c' b4 | z B^dfab |
+(3c'd'c' c'2  (3e'f'e' | ^d'2 (3c'=d'c' b2 | b6 ||
+|: z B,EGBd | "Em"(3cdc B4 | z Begbd' | (3c'd'c' b4 |
+z B,EGBd | cBe^dfe | gfagfe | "B7"(3efe ^d4 | z2 agfg | f3 e^de | ^d3 cBc | B6 |
+z2 ag fg | fe^dedc | BcBAGF | "Em"(3FGF E4 |
+z B,EGBd | (3cdc B4 | z Begbd' | (3c'd'c' b4 | 
+z B,EGBe | "E7"=fedcBA | ^GABcde | "Am"(3ded c4- | c2
+A2B2 | ceAc F2 | z ABcBA | "Em"BeGBE2 | z EFGFE | "F#dim"G6 | "B7"(3FGF E2 ^D2 | "Em"E6 :|
+z3 |: "Em"GFE | "B7"^DFAcB^A | B^dfc'b^a | "Em"be'gbeg | Begbag |
+"B7"ac'fa^df | B^dfagf | "Em"egBeGB | E3
+GFE | "B7"^DFAcB^A | B^dfc'b^a | "Em"be'gbeg | Begbag |
+"B7"ac'fa^df | B^dfagf |1 "Em"e2 ^degb | e'3 :|2 "Em"e2 ^deBG | E ||
+B,EGBd | "Em"(3cdc B4 | z Begbd' | (3c'd'c' b4 | z
+B,EGBd | cBe^dfe | gfagfe | "B7"(3efe ^d4 | z2 agfg | f3 e^de | ^d3 cBc | B6 |
+z2 agfg | fe^dedc | BcBAGF | "Em"(3FGF E4 | z
+B,EGBd | (3cdc B4 | z Begbd' | (3c'd'c' b4 |
+z B,EGBe | "E7"=fedcBA | ^GABcde | "Am"(3ded c4- | c2
+A2B2 | ceAc F2 | z ABcBA | "Em"BeGBE2 | z EFGFE| "F#dim"G6 | "B7"(3FGF E2 ^D2 | "Em"E6 ||
+"Em"E2 E2 _E2 | "G"D6 | B4 B2 | "B7"B6 | ^D6 | "E7"E2 ^G2 B2 | e4 e2| "Am"e6 | A6 |
+"D7"d6 | A2 B2 c2 | "G"B6 | G6 | "F#7"F4 F2 | F2 G2 F2 | "B"F6 |
+"D7"FF E2 _E2 |"G"D6 | B4 B2 | "B7"B6 | ^D6 | "E7"E2 ^G2 B2 | e4 e2 | "Am"=f6 | e6 |
+"Am"e4 e2 | "C#dim"f4 g2 | "G"g6 | "E7"d2 c2 B2 | "A7"B6 | "D7"A4 B2 | "G"G6 | G ||
+B,EGBd | "Em"(3cdc B4 | z Begbd' | (3c'd'c' b4 | z
+B,EGBd | cBe^dfe | gfagfe | "B7"(3efe ^d4 | z2 agfg | f3 e^de | ^d3 cBc | B6 |
+z2 agfg | fe^dedc | BcBAGF | "Em"(3FGF E4 | z
+B,EGBd | (3cdc B4 | z Begbd' | (3c'd'c' b4 |
+z B,EGBe | "E7"=fedcBA | ^GABcde | "Am"(3ded c4- | c2
+A2B2 | ceAc F2 | z ABcBA | "Em"BeGBE2 | z EFGAB | "F#dim"g6 | "B7"(3fgf e2 ^d2 | "Em"e6 ||
+
+X:5
+T:Modestie
+R:valse musette
+C:Andr\'e Poirrier
+O:France
+Z:id:hn-musette-5
+M:3/4
+L:1/8
+Q:1/4=200
+K:C
+ede | "C"d3 cdc | B3 GAB | A6- | A3 ede | d3 cdc | "A7"BG^GAB_B | "Dm"A6- | "A7"A3
+fef | "Dm"e3 d^cd | "G7"g3 ege | "C"d3 cBc | e3 cec | "D7"B3 A^GA | d3 BdB | "Dm"A2 A2 ^A2 | "G"B3
+ede | "C"d3 cdc | B3 GAB | A6 | z GAG^FG | "C7"_B6- | _B BABce | "F"d2 A4- | A6 |
+f2 e2 f2 | "Fm"e2 d2 e2 | "C"d2 c2 E2 | "A7"B4 "D7"A2 | "G7"G4 ^G2 | "G9"A4 B2 | "C"cEGceg | c'6 ||
+K:G
+"G"BddBBe | e6 | BddBBf | f6 | a2 g2 f2 | e2 g2 f2 | "D7"c6 | z DEFG^G |
+AccAAd | d6 | AccAAf | f6 | g2 f2 e2 | d2 f2 e2 | "G"B6 | z ded^c=c |
+BddBBe | e6 | BddBBf | f6 | "G7"g2 =f2 d2 | A2 B2 =f2 | "C"e6 | z GABce |
+g2 e2 c2 | A3 Bcd | "G"B6- | B3 dcB | "D7"A^GABcd | ed^cdef | "G"g6- | g3 ||
+K:C
+ede | "C"d3 cdc | B3 GAB | A6- | A3 ede | d3 cdc | "A7"BG^GAB_B | "Dm"A6- | "A7"A3
+fef | "Dm"e3 d^cd | "G7"g3 ege | "C"d3 cBc | e3 cec | "D7"B3 A^GA | d3 BdB | "Dm"A2 A2 ^A2 | "G"B3
+ede | "C"d3 cdc | B3 GAB | A6 | z GAG^FG | "C7"_B6- | _B BABce | "F"d2 A4- | A6 |
+f2 e2 f2 | "Fm"e2 d2 e2 | "C"d2 c2 E2 | "A7"B4 "D7"A2 | "G7"G4 ^G2 | "G9"A4 B2 | "C"cEGceg | c'6 ||
+K:F
+z c=Bcde | "F"f4 e2- | e2 f4 | e4 d2- | d2 e4 | d4 c2- | c2 A4 | "C7"B6 | z
+GABcd | e4 d2- | d2 e4 | d4 c2- | c2 d4 | c4 B2- | B2 G2 ^G2 | "F"A6 | z
+c=Bcde | f4 e2- | e2 f4 | e4 d2- | d2 c4 | "F7"_e4 d2- | d2 ^f4 | "Bb"g6- | g6 |
+a4 g2- | g2 "Bbm"a4 | "F"g4 f2- | f2 e4 | "G7"d4 e2- | e2 "C7"g4 | "F"f6- | f3 ||
+K:C
+ede | "C"d3 cdc | B3 GAB | A6- | A3 ede | d3 cdc | "A7"BG^GAB_B | "Dm"A6- | "A7"A3
+fef | "Dm"e3 d^cd | "G7"g3 ege | "C"d3 cBc | e3 cec | "D7"B3 A^GA | d3 BdB | "Dm"A2 A2 ^A2 | "G"B3
+ede | "C"d3 cdc | B3 GAB | A6 | z GAG^FG | "C7"_B6- | _B BABce | "F"d2 A4- | A6 |
+f2 e2 f2 | "Fm"e2 d2 e2 | "C"d2 c2 E2 | "A7"B4 "D7"A2 | "G7"G4 ^G2 | "G9"A4 B2 | "C"cEGceg | c'3 ||
+
+X:6
+T:La Bourrasque
+R:valse musette
+C:Michel P\'eguri (1883-1958)
+O:France
+Z:id:hn-musette-6
+M:3/4
+L:1/8
+Q:1/4=200
+K:D
+AdcA | B2E2E2 | c2E2E2 | cAcece | Ha2 ||
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gf e4- | "Gm"e2 (3ABA ^GA | "D"fe d4- | d2 (3ABA ^GA | "A7"cBAcBA | cBAcBA | "D"d6- | d3 ||
+K:G
+DGB | "G"(3ddd dDGB | (3ddd dDGB | "D7"(3ccc cEFA | (3ccc cEFA |
+(3fff fEFA | f6 | "G"egdfce | d3
+DGB | "G"(3ddd dDGB | (3ddd dDGB | "D7"(3ccc cEFA | (3ccc cEFA |
+(3fff fEFA | f6 | "G"(3GBd (3gdB (3GBd | g2 ||
+K:D
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gf e4- | "Gm"e2 (3ABA ^GA | "D"fe d4- | d2 (3ABA ^GA | "A7"cBAcBA | cBAcBA | "D"d6- | ddcdef ||
+K:G
+"G"g2 (3fgf (3efe | "E7"(3ded c2 B2 | "D7"dcBdcA | F2 (3ABA ^GA |
+(3fgf (3efe (3ded | (3cdc (3BcB A2 | "G"AGFAGE | Dd^cdef |
+"G"g2 (3fgf (3efe | "E7"(3ded c2 B2 | "D7"dcBdcA | F2 (3ABA ^GA |
+(3fgf (3efe (3ded | (3cdc (3BcB (3ABA | "G"G3 g g2 | g2 ||
+K:D
+AdcA | "D"B6- | BABdcA | F6- | F2 AdcA | BAdced | "B7"b4 a2 | "A7"(3aba ge c2- | c2
+AdcA | B6- | BABdcA | G6- | G2 E^DEF | GFEFGA | BABcde | "D"f6- | f2
+AdcA | B6- | BABdcA | F6- | F2 (3ABA ^GA | "B7"B4 A2 | (3ABA GFEF | "Em"G6- | G2
+(3BcB ^AB | gBgBgB | gBgBgB | "D"fAfAfA | f2 (3efe (3ded |
+"A7"(3cdc (3BcB (3ABA | (3GAG (3FGF (3EFE | "D"DFAdfa | d'2 ||
+
+X:7
+T:L'Interdite
+R:valse musette
+C:Tony Murena (1917-1970) & Roger Erb\'e
+Z:id:hn-musette-7
+M:3/4
+L:1/8
+Q:1/4=200
+K:Em
+GFEFG | (3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | de^ce=ce | BeAeGe | F AGFGA |
+(3GAG FA c2 | z AGFGA | (3GAG FA c2 | z AGFGA | 
+(3GAG FAce | ^deceBe | AeGeFe | E GFEFG |
+(3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | =fe^de=de | ceBe^Ge | AcBABc |
+(3BcB Ac f2 | z GAGAB | AGFG e2 | z GFEFG |
+(3FGF ^EFcB | AGFE^DF | EGBegb | e'2 z2 ||
+|: B2 | B^DFAcB | BEGBcB | B^DFAcB | BGBe=fe | 
+eAce^fe | eGBefe |1 gfe^deg | f2 z2 :|2 gfe^def | e ||
+GFEFG | (3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | de^ce=ce | BeAeGe | F AGFGA |
+(3GAG FA c2 | z AGFGA | (3GAG FA c2 | z AGFGA | 
+(3GAG FAce | ^deceBe | AeGeFe | E GFEFG |
+(3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | =fe^de=de | ceBe^Ge | AcBABc |
+(3BcB Ac f2 | z GAGAB | AGFG e2 | z GFEFG |
+(3FGF ^EFcB | AGFE^DF | EGBegb | e'2 z2 ||
+G2 | e2 d2 c2 | d6 | e2 d2 c2 | d6 |
+e2 d2 c2 | d2 A3 B | c6- | c2 e2 f2 |
+g2 f2 e2 | f6 | g2 f2 e2 | f6 | 
+g2 f2 e2 | ^d3 e f2 | e6- | e6 |
+=f2 Acdf | e4 d2 | g2 Gceg | B4 A2 |
+=f2 Acdf | e4 d2 | g6- | g6 |
+a2 Ad=fa | g4 e2 | =f2 Acdf | e4 d2 | 
+e2 GAce | d4 B2 | c6- | c ||
+GFEFG | (3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | de^ce=ce | BeAeGe | F AGFGA |
+(3GAG FA c2 | z AGFGA | (3GAG FA c2 | z AGFGA | 
+(3GAG FAce | ^deceBe | AeGeFe | E GFEFG |
+(3FGF EG B2 | z GFEFG | (3FGF EG B2 | z GFEFG |
+(3FGF EGBe | =fe^de=de | ceBe^Ge | AcBABc |
+(3BcB Ac f2 | z GAGAB | AGFG e2 | z GFEFG |
+(3FGF ^EFcB | AGFE^DF | EGBegb | e'2 ||
+

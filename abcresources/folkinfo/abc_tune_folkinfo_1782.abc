@@ -1,0 +1,77 @@
+X:1     %Music
+T:Nowell Nowell: The Boares Head
+C:Smert:     %Tune composer
+N:Remarks:     %Tune infos
+S:Musica Britannica, Vol IV -  Mediaeval Carols
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 'Song' @
+%!INSTR 'Piano' 4 0 @
+M:3/4     %Meter
+L:1/8     %
+K:G
+"^Burden 1"c2 |c4 A2 |G2 c4 |BA3/2 G/G3/2 E/F | G4 z2 |A4 AA |G2 A2 Gc |
+w:No-well, no-well, no-well,_ no----well, ti-ding es good I__
+d e2 d cB | GA G c2 B |c2 F2 GA |Bc3/2 B/A G2 |F6 |
+w:think____ to____ tell._________
+"^burden 2"z4 c2 |c4 A2 |G2 c4 |BA3/2 G/ G2 F | G4 z2 |A4 AA |G2 A2 Gc |
+w:No-well, no-well, no-well,__ no-- well, ti-din-ges good,_ I_
+d e2 d cB | A2 Gc de-|ed3/2 c/c3/2 A/B |c6 |          
+w:think____ to__________ tell.
+z4 c2 |c4 A2 |Bc d3/2c/ dB |A2 G2 Ac |
+w:The boar-es head_ that___ we__ bring
+Bc d c2 B |
+w:____
+c2 z2 c2 |B3 c d2 |e3 d B2 |
+w:here be-to-ke-neth_ a Prince
+A2 G G2 F |[M:2/4][L:1/16]G4 z2 G2 |[M:3/4][L:1/8]AG E2 FA |
+w:___ with-out____
+GF GE D2 |C4 z2 |E3/2F/ G A2 G |
+w:____ peer is__ born_
+E2 GA Gc |BA Gc de-|ed3/2 c/ c2 B |
+w:this day__ to__ buy___ us___
+c4 z2 |B4 c2 |de f d2 c |d6 |
+w:dear; No-------well,
+B4 c2 |
+w:No--
+de3/2 d/d Bc |d6 |]
+w:------well.
+V:2     %
+%!STAVE 0 '' @
+%!INSTR 'Piano 1' 0 15 @
+M:3/4     %Meter
+L:1/8     %
+K:G
+z2- |z4 z2 |z6 |z6 |
+z6 |z6 |z6 |
+z6 |z6 |z6 |
+z6 |z6 |z4 g2 |g2 ec d2 |z c2 A2 A |
+GF GB c2 |d4 d2 |e4 ee |ge d2 ge |
+d c2 d ef |d2 eg ag |eg a g2 f |g6 |
+z6 |z6 |z6 | z6 |z6 |z6 |z6 |z6 | z6 |z6 |z6 |z6 |z6 | z6 |z6 | z6 |z6 |z6 |z6 |z6 | z6 |z6 | z6 |z6 |z6 |z6 |z6 | z6 |z6  |]
+V:3     %
+%!STAVE 0 '' @
+%!INSTR 'Piano 1-2' 0 15 @
+M:3/4     %Meter
+L:1/8     %
+K:G
+c2 |c4 f2 |e4 c2 |d3/2c/ B2 A2 |
+B4 z2 |f4 ff |e2 cd e2 |
+fg ef ag-|gf ge d2 |c2 f2 ef |
+ge c f2 e |f6 |z4 c2 |c4 f2 |e4 c2 |
+d3/2c/ B2 A2 |G6 |c4 cc |e2 f2 e2 |
+fe cf ed |ef ge fg- |g2 fe d2 |c6 |
+z4 c2 |e4 f2 |g2 f d2 g-|gf ge f2 |
+ce fc d2 |c2 z2 A2 |G4 G2 |c4 ed- |
+d c2 B A2 |
+M:2/4     %Meter
+L:1/16     %
+G2c2 d2e2 |
+M:3/4     %Meter
+L:1/8     %
+fg3/2 f/e d3/2c/ |
+cd e c2 B |A4 z2 |c2 c4 |
+c4 c2 |c2 c4 |B2 c2 d2 |
+c4 z2 |g4 a2 |g3/2f/ d2 e2 |e6 |G2 B2 A2 |
+Bc d2 A2 |D6 |]
+%End of file

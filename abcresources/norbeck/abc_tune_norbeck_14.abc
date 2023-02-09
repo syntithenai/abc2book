@@ -1,0 +1,76 @@
+This file contains 4 hallings (#1 - #4).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Last updated 4 July 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:halling
+Z:id:hn-%R-%X
+M:2/4
+L:1/8
+
+X:1
+T:Halling efter Per Myhr
+R:halling
+O:Sweden, H\"arjedalen
+Z:id:hn-halling-1
+M:2/4
+L:1/8
+Q:1/4=115
+K:Dmix
+aa/b/ af/a/ | Pge/g/ fd/f/ | aa/b/ af/a/ | Pge/c/ d>f :| 
+|: g/z/f d>c | Ac/B/ GA | E/F/E/D/ CD | FA ^GA |
+E/F/E/D/ CD | FA ^GA | Tf>e dc | d2 d>f :| 
+
+X:2
+T:Lugumleik
+R:halling
+H:efter Hans W. Brimi
+D:Ale M\"oller, Sten K\"allman, Thomas Ringdahl: Vind
+D:Den Fule: Lugumleik
+O:Norway
+Z:id:hn-halling-2
+M:1/4
+Q:1/4=100
+K:Ddor
+A, | DF/E/ | CC | DF | Ac | c/B/A/G/ | BB/c/ | AA/F/ | DA, |
+DF/E/ | CC | DF | Ac | c/B/A/G/ | BB/c/ |[1 AA- | A :|
+[2 AA- | A |: c/B/ | GG- | GA/F/ | DD- | DF/E/ | CC |
+EE/F/ | DD/F/ | AA- | Ac/B/ | GG- | GA/F/ | DD- | DF/E/ |
+CC | EE/F/ |[1 DD | DF/A/ | A :|[2 DD | D ||
+
+X:3
+T:Halling efter Mats Berglund
+R:halling
+Z:id:hn-halling-3
+M:2/4
+L:1/8
+K:Dm
+A,<C D>E | FF/D/ EE/C/ | A,A,/C/ D>E | FF/D/ ED/C/ |1 D2 D2 :|2 D2 D>E ||
+|: FF/E/ F/A/F/D/ | EE/D/ ED/E/ | FF/E/ F/A/F/D/ | EE/D/ ED/E/ |
+[1 FD/F/ ED/C/ | D2 D>E :|2 (3FDF (3EDC | D4 ||
+|: [K:Dlyd] f>e d/e/f/g/ | ag/e/ gf | f>e d/e/f/g/ | ag/e/ f2 |
+f>e d/e/f/g/ | ag/e/ gf |[K:Dm] A,<C D>E | FF/D/ ED/C/ | D4 :|
+
+X:4
+T:Halling efter Per L\"of
+T:Halling fr{\aa}n Eksh\"arad
+R:halling
+O:V\"armland, Eksh\"arad
+Z:id:hn-halling-4
+M:2/4
+L:1/8
+K:Ddor
+A/a/g/b/ a2 | a/g/e/g/ f>e | fa/g/ eg/f/ | d/f/e/d/ ^cA- | 
+A/a/g/b/ a2 | a/g/e/g/ f>e | fa/g/ eg/f/ | d/f/e/^c/ d2 :|
+|: Ad/^c/ de- | ef/e/ fe/^c/ | Ad/^c/ de/g/ | f/e/d/^c/ dA/F/ | 
+Dd/^c/ de- | ef/e/ fe/^c/ | Ad/^c/ de/g/ | f/e/d/^c/ d2 :|
+

@@ -585,14 +585,14 @@ var useAbcTools = () => {
 
 
 
-    //function settingFromTune(tune) {
-        //var useSetting = parseInt(tune.useSetting) > 0 ? parseInt(tune.useSetting) : 0
-        //if (tune && tune.settings && tune.settings.length > useSetting) {
-          //return tune.settings[useSetting]
-        //} else {
-            //return {key:'', abc: ''}
-        //}
-    //}
+    function settingFromTune(tune) {
+        var useSetting = parseInt(tune.useSetting) > 0 ? parseInt(tune.useSetting) : 0
+        if (tune && tune.settings && tune.settings.length > useSetting) {
+          return tune.settings[useSetting]
+        } else {
+            return {key:'', abc: ''}
+        }
+    }
 
 
     function getTextFromSongline(songline) {
@@ -1759,6 +1759,6 @@ var useAbcTools = () => {
     }
     
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes, getTuneImportHash, getTimeSignatureTypes}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, parseAbcToBeats, getNoteLengthsPerBar, getNoteLengthFraction, renderChords, parseChordText, renderAllChordsAndNotes, getTuneImportHash, getTimeSignatureTypes, settingFromTune}
 }
 export default useAbcTools;

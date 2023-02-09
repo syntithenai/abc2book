@@ -59,6 +59,13 @@ export default function utilsFunctions(props) {
       return text ? text.toLowerCase().trim() : ''
     }
     
+    function stripText(text) {
+      var result = ''
+      if (text && text.trim) {
+          result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
+      }
+     return result
+    }
         
     function scrollTo(id, offset) {
         var element = document.getElementById(id);
@@ -165,14 +172,6 @@ export default function utilsFunctions(props) {
             return []
         }
     } 
-    
-    function stripText(text) {
-        var result = ''
-        if (text && text.trim) {
-            result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
-        }
-       return result
-    }
     
     function resetAudioCache() {
       

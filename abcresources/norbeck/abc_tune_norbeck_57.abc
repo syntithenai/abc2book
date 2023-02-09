@@ -1,0 +1,111 @@
+This file contains 4 Swedish songs (#1-#4).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Last updated 22 February 2020.
+
+(c) Copyright 2002-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:sang
+L:1/8
+Z:id:hn-sang-%X
+
+X:1
+T:Sk\"ankl{\aa}t efter Carl August M{\aa}nsson
+R:s{\aa}ng
+H:Jfr #3
+B:SvL \"Ogl 339, efter Carl August M{\aa}nsson, Broxvik, Jonsberg (1865-1934)
+O:\"Osterg\"otland
+Z:id:hn-sang-1
+M:C
+L:1/8
+Q:1/4=80
+K:Gm
+DG GG GB d2 | f>d dB B2 A>c |
+w:Mun-sj\"or l\"o-ser p{\aa} sin pung, h\"ar \"ar ras-ka dr\"ang-ar_
+BA GG BB A>G | FG AG F2 D2 |
+w:Ge en slant till spe-le-man, f\"or han har n\"o-tit str\"ang-ar.
+D2 d2 d>c BA | G4 z4 ||
+w:O, ho, h\"ar \"ar lust och ro.
+
+X:2
+T:{\AA}r 1718
+R:s{\aa}ng
+H:Jag har f{\aa}tt denna s{\aa}ng fr{\aa}n Titti Knutsson, som f{\aa}tt den fr{\aa}n en v\"an
+H:som f{\aa}tt den fr{\aa}n sin far.
+H:S{\aa}ngen \"ar ett slags parodi p{\aa} de bev\"aringsvisor som finns med mer
+H:seri\"ost tema.
+Z:id:hn-sang-2
+M:6/8
+L:1/8
+K:G
+D | G2G E2E | D3 B,2D | G2G A2A | B3-B2
+G | E2E E2E | D3 G2G | A2A F2F | G3-G ||
+GG | BBB BBB | AAA DDD | GGG G2E | DDD B,2
+B, | C2C E2E | D3 G2G | A2A F2F | G3-G2 ||
+W:{\AA}r sjuttonhundra arton, ja' ut ti' he'a for
+W:M\"a' sju riksdaler banko {\aa} mat i p\^ose stor.
+W:Skoa roale roale kokeleko, l\"at p{\aa} hagale-p\^ojka f\"arnemo tro,
+W:M\"a' sju riksdaler banko {\aa} mat i p\^ose stor.
+W:
+W:{\AA} far min han sa te' mej ja' sku' halt e' lita smul,
+W:{\AA} mor min ho sa te' mej ja' sku' rulla s\^om ett hjul,
+W:Skoa...
+W:
+W:{\AA} n\"ar ja' k\^om p{\aa} v\"agen gav l\"ojtnant te' ett skr\"an,
+W:{\AA} ropte buss p{\aa}'n l\"ansman, va' fan \"a' d\"a f\"or f\"an?
+W:
+W:{\AA} n\"ar ja' k\^om p{\aa} he'a, d{\aa} sa' di ja' va' lat,
+W:D{\aa} k\^om jag ner te' k\"oket, d\"ar fick ja' laga mat.
+W:
+W:Var m\^orr\^on kl\^ocka fyra f{\aa}r ja' upp {\aa} hugga ve'
+W:{\aa} sedan \"osa \"artera m\"a' ena storer schlev.
+W:
+W:F\"or Gud {\aa} fosterlandet va l\^ovet i min sj\"al,
+W:Ja' r\"orde \^om i gr\"oten f\"or fosterlandets v\"al.
+
+X:3
+T:Spelmans-sk{\aa}l
+R:s{\aa}ng
+H:Nedtecknad av Carl Erik S\"odling. FMK Upprop 26b:005
+H:Jfr #1
+Z:id:hn-sang-3
+M:C
+L:1/8
+Q:1/4=80
+K:Dm
+D>D D>D D>D A2 | G>B A>G F2 E || E | E>F G>E F>G A>A |
+w:Mun-sj\"or l\"o-ser p{\aa} sin pung, fr\"oj-det e-der fr\"an-der, {\aa} ge en hur-tig spe-le-man f\"or
+w:Jung-frun
+D>F E>D ^C2 D2 | D2 A2 A>G E>F | D4 z2 z2 ||
+w:han har n\"o-te str\"ang-e. H{\aa}, ho, h\"ar \"a lust {\aa} ro.
+W:Tack {\aa} tack ska munsj\"or (jungfrun) ha f\"or sin sk\"ank {\aa} g{\aa}va,
+W:En vacker f\"astm\"o (f\"astman) ska han (hon) ha s{\aa}vida jag f{\aa}r r{\aa}da,
+W:H{\aa}, ho, h\"ar \"a lust {\aa} ro.
+
+X:4
+T:Risinge-visan
+R:s{\aa}ng
+H:Nedtecknad av Carl Erik S\"odling. FMK Upprop 26a:011
+Z:id:hn-sang-4
+M:C
+L:1/8
+K:Ddor
+A | D2 F>G A2 cd | (f>d) {e}d>c A3 A | c2 A>G F2 A>G | (G3F) D2 z :|
+w:O \"Os-ter_-g\"ot-land och Fin_-sp{\aa}ng-a l\"an, ja du \"ar en kro-na f\"or an_-dra.
+w:In-om di-na gr\"an-ser bo re-de-li-ga m\"an, hvem v{\aa}-gar v\"al mot dem \"an klan_-dra.
+c | F2 F>A A2 G>A | F2 F>D A3 A |
+w:O Ri-sing-e soc-ken med \"a-ra och dygd, si
+D2 F>G A2 cd | (f>d) {e}d>c A3 A | c2 A>G F2 A>G | (G3F) D2 z ||
+w:d\"ar \"ar min hem-ort och f\"a_-der-ne-bygd, d\"ar jag hit till verl-den \"ar f\"od_-der.
+W:Men fast\"an jag i livet \"ar kastad likt en sp{\aa}n p{\aa} havet, det djupa och vida.
+W:Och mina \"agodelar ej annat \"ar \"an l{\aa}n, jag likav\"al f{\aa}tt tiga och lida.
+W:Jag lever dock i hoppet att denna enkla s{\aa}ng
+W:blir sjungen i min hembygd d{\aa} jag \"ar d\"od en g{\aa}ng, och m{\aa}nga m{\aa}nga skola mig beklaga.
+

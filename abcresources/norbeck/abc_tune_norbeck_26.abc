@@ -1,0 +1,659 @@
+This file contains 43 polskas (#1 - #43).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These polskas are of the even rhythm type.
+
+Last updated 1 May 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+Z:id:hn-jp-%X
+R:polska J
+M:3/4
+L:1/16
+
+X:1
+T:Eklundapolska #1
+R:polska J
+C:Viksta-Lasse
+O:Uppland
+Z:id:hn-jp-1
+M:3/4
+L:1/16
+K:Dm
+A2a2 a2^ga baga | A2a2 a2^ga baga | a2ag fefg a2f2 |
+f2ed ^cdec A4 | A2a2 a2^ga baga | A2a2 a2^ga baga |
+a2ag fefg afed | ^cdec d8 :||: a2ab a2ab a2ab |
+g2gb g2gb g2gb | f2fa f2fa f2fa | f2ed ^cdec A4 :|
+|: A2d2 ^cdec d4 | A2f2 efge f4 | A2d2 ^cdec d4 |
+A2cA G2BG A4 | A2cA G2BG F2AF | EFE^C D8 :| 
+
+X:2
+T:Polska fr{\aa}n Leksand
+R:polska J
+O:Leksand, Dalarna
+Z:id:hn-jp-2
+M:3/4
+L:1/16
+K:Ador
+e2-|e3e ag3 e2gf|d2fd e6e2-|e3e ag3 e2gf|d2fd e6B2|
+cBcd e2ec A2B2|cBcd e2ec A2B2|cBcd e2ec A2cB|^G2BG A6:|
+K:D
+|:f2-|f2a2 abaf a2a2|b4 gagf g2g2|a4 fafd efed|cdcB ABAG FGFE|
+D2a2 abaf a2a2|b4 gagf g2g2|a4 fafd efed|c/d/cBc d6:|
+
+X:3
+T:Polska
+R:polska J
+Z:id:hn-jp-3
+M:3/4
+L:1/16
+K:Gm
+D2|G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G3A|B2AG G^FAF D4|
+G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G2BG|D^FAF G6:|
+|:c2|d3c BABc d2de|c3A =F=EFA c2cd|BcBA G^FGA B2dB|B2AG G^FAF D4|
+d3c BABc d2de|c3A =F=EFA c2cd|dBBA G^FGA d3B|(3ABAG^F G6:|
+
+X:4
+T:Polska fr{\aa}n Enviken
+R:polska J
+O:Enviken, Dalarna
+Z:id:hn-jp-4
+M:3/4
+L:1/16
+K:Gm
+A2|B3B (3ABAG^F G3B|d2d2 c2Bc d3d|g3g d2d2 B2B2|B2AG G2AG ^F4|
+B3B (3ABAG^F G3B|d2d2 c2Bc d3d|g3g d2d2 B2B2|A2G^F G6:|
+K:G
+|:B2|d3d e2e2 f3f|g2ag f2gf e2fe|d3d e2e2 f2f2|gagB d6B2|
+d3d b2b2 a2a2|c3e abaf g3B|c2Bc efed cdcA|FGAF G3B d3B|
+d3d b2b2 a2a2|c3e abaf g3B|c2Bc efed cdcA|FGAF G6:|
+
+X:5
+T:Pekkos Pers br\"ollopspolska
+R:polska J
+H:efter Hjort Anders
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-5
+M:3/4
+L:1/16
+K:Gm
+d2 | {g^f}g3g d2(3cdc B3B | (3BcBAG ^FGAF D4- | D2D^F G^FGA BABc |
+d2d2 dc=ec d4 | (5g^fgfg d2(3cdc B3B | (3BcBAG ^FGAF D4- |
+D2D^F GFGA BABc | dcA^F G6 :||: A2 | BFDF BABd fdfd |
+(3cdcAc ecAc B3B | (3BcBAB G4 B3B | (3BcBAG ^F2AF D3g | 
+(5^f/g/f/g/f/g2 d3c A2Ac | BAG^F G6 :| 
+
+X:6
+T:Pekkos Pers storpolska
+R:polska J
+H:efter Hjort Anders Olsson
+H:Bingsj\"o, Dalarna
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-6
+M:3/4
+L:1/16
+K:D
+D2 | F3A d2d2 fafd | cdec [A6A6]A2 | ABcd e2ce {fg}f2ef |
+gagf efed c3d | efec [d6D6]D2 | F3A d2d2 {fg}f2ef |
+g2g2 fgfe d3c | {cd}c2B2 [B6E6]B2 | {Bc}B2AG A2d2 {fg}f2ed | 
+c3e a2a2 {cd}c3d |1  efec [d6D6] :|2  efec [d8D8] ||
+|: [f3A3D3]f d2d2 f2a2 | efed cBcd e2f2 | [g4B4D4G,4] gagf efed |
+cdcB ABAG FDFA | d2fd {cB}c2ec {dc}d2f2 | efed cBcd e2f2 |
+[g2B2]gb abag {fg}f2ef | gagf efed {cd}c3d |1  efec [d8D8] :|
+[2 efec [d6D6] |: D2 | F3A d4 {edc}d4 | [A2F2][A2F2] [A4A4] [A4A4] |
+[EA,]FED [E2A,2][F2A,2] [G4G,4] | [B4G4] {Bc}B2AG [A4F4] | 
+[A2D2][A2D2] [d2D2][d2D2] fgfe | d2{cd}c2 [B6E6]d2 |
+cdef {gf}g2ag {fg}f2ed | cdec [d6D6] :| 
+
+X:7
+T:Pekkos Olles
+R:polska J
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-7
+M:3/4
+L:1/16
+K:Dm
+DEFG A4 d4|A2BA G2AG F2AF|D2f2 f2ef gfed|^c2a2 age^c A4|
+DEFG A4 d4|A2BA G2AG F2AF|D2f2 f2ef gfed|age^c d8:|
+|:A2df a2a2 g4|A2^ce gage f3f|fafd ege^c d3e|f2ed ^c2ec A4|
+A2df a2a2 g4|A2^ce gage f3f|fafd ege^c d3e|f2ed ^c2ec d4:|
+
+X:8
+T:H\"o\"ok-Olles storpolska
+R:polska J
+O:R\"attvik, Dalarna
+Z:id:hn-jp-8
+M:3/4
+L:1/16
+K:D
+dedA FGFD E4|A3A c2e2 a4|abaf gage fgfd|efec d2dA F2A2|
+d2dA FGFD E4|A3A c2e2 a4|abaf gage fgfd|efec d8:|
+|:d2fe d2fe d2fe|cded cded cded|G2BA G2BA G2BA|FGAG FGAG FGAG|
+F3A d2f2 f2ed|c3d e2g2 f2ed|g2bg f2af e2ed|cdec d8:|
+|:ABAG F2A2 d3c|BcBA G2B2 e3f|g2bg f2af e2ed|cdec A8|
+ABAG F2A2 d3c|BcBA G2B2 e3f|g2bg f2af e2ed|cdec d8:|
+
+X:9
+T:Polska efter Pekkos Per
+R:polska J
+H:* is a quarter tone between g and g#
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-9
+M:3/4
+L:1/16
+K:Dm
+f/g/f/e/f2 d2(3^cdc A4 | f/g/f/e/f2 f2ed e4 |
+e2(3=B^cB ABAG ^F2AF | G2=BG BA3 A4 :| 
+|: {fg}f3e fa3 "*"g/a/g/f/g2 | =c/d/c/B/c2 eg3 agfe |
+[1 e2f2 (3ded(3^cdc A3e | ^ga3 (3bag(3aga a4 :|
+[2 e2f2 d2(3^cdc A3c | ^cd3 d8 || 
+
+X:10
+T:Polska efter H\"o\"ok Olle
+R:polska J
+O:R\"attvik, Dalarna
+Z:id:hn-jp-10
+M:3/4
+L:1/16
+K:Gdor
+D2 | G3A BcBA G3A | BABc {dc}d6e2 | {fefe}f3g a2(3gag e3g |
+g2(3^fg^f d3c B/c/B/c/BA | G3A BcBA G3A | BABc {dc}d6e2 |
+{fefe}f3g a2(3gag =e3g | g2(3^fg^f d6 :||: d2 | g2(3ag^f g4 {g}a4 |
+=fgfe {fefe}f4 d4 | g2(3ag^f g2=b2 a2(3gag | e4 {fefe}f4 d3c |
+BABc {dc}d4 d3f | e2^c2 {d^c}d4 d3=c | BABc d2cA ^F4 | G6 :| 
+
+X:11
+T:Gr{\aa}tl{\aa}ten
+R:polska J
+H:efter Hjort Anders Olsson
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-11
+M:3/4
+L:1/16
+K:Ddor
+[A2D2] | [d3D3]^c ABAG {FE}F2AF | E^CEC C2D2 D4 |
+A2A^c {dc}d3e f2ag | f2(3fgf e6A2 | [d3D3]^c ABAG DFAF | G2BG A6A2 |
+A3^c {dc}d3e {fe}f2af | {ef}e2^ce [d6D6] :||: e2 | f2ed {cB}c2c2 A3c |
+B2AG A6AB | A2B2 c4 ABcd | ^fdfd {ef}e4 A4 | G3G =c2c2 A3A |
+G2AG F6E2 | [D4A,4] {fe}f2gf e2fe | d2d2 {cd}^c6 c2 | d3e f2fa f3f |
+gfed ^c2ec A4- | A2A^c d2de {fe}f2af | e2^ce d6 :| 
+
+X:12
+T:Polska efter Hultkl\"appen
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-12
+M:3/4
+L:1/16
+K:Am
+A2E2 E2A2 ABcA|B2^G2 G2B2 BcdB|cBA^G ABcd e2^f^g|a2e2 e=fed cBA^G|
+A2E2 E2A2 ABcA|B2^G2 G2B2 BcdB|cBA^G ABcd e2cA|E^GBG A8:|
+|:e2^f^g a2fa f2d2|d2e^f =g2B2 c2d2|e2de =f2d2 e2c2|BA^GA BA^GA E4|
+e2^f^g a2fa f2d2|d2e^f =g2B2 c2d2|e2de =f2d2 e2c2|BA^GA B4 A4:|
+
+X:13
+T:Nyckelharpspolska
+R:polska J
+H:efter Per Ferm, Delsbo
+O:H\"alsingland
+Z:id:hn-jp-13
+M:3/4
+L:1/16
+K:D
+A2 | A2d2 ABAG F2E2 | DEFG A2Bc d2A2 | ABcd e3f g2f2 |
+g3b f2a2 e2c2 | d2a2 ^gaba A4 | A2d2 ABAG F2E2 | DEFG A2Bc d2A2 |
+ABcd e3f g2f2 | g3b f2a2 e3g | fedc d6 :||: g2 | fgfe d2G2 B3A |
+ABA[^GD] [A2D2][F2D2] d2cd | e2A2 c2e2 g2e2 | b2g2 agec d2g2 | 
+fgfe d2G2 B3A | ABA[^GD] [A2D2][F2D2] d2cd | e2A2 c2e2 g2e2 |
+bgec d6 :| 
+
+X:14
+T:Polska efter From-Olle
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-14
+M:3/4
+L:1/16
+K:G
+d3g b4 b4 | d2Bd dcAc B2G2 | d3g g2b2 b2g2 | d2Bd dcAc B2G2 | 
+D4 {cd}c3B A2G2 | F3E D2C2 B,2A,2 | G,A,B,C DEFG A2c2 | BAGF G8 :| 
+|: d2BG DGBd c2B2 | c2AF DFAc B2A2 | e4 dedB c2A2 | G3B AGFE D4 | 
+d2BG DGBd c2B2 | c2AF DFAc B2A2 | GABc d2e2 f2d2 | g3a/g/ fefa g4 | 
+G2AB c2ed cBAG | FGAF G8 :| 
+
+X:15
+T:Trollet i Sk\"akten
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-15
+M:3/4
+L:1/16
+K:D
+A,2DD D2D2 F2ED|E2A,2 A,2A,2 G2FE|DEFG ABcd e2f2|g2ec d2dA GFED|
+A,2DD D2D2 F2ED|E2A,2 A,2A,2 G2FE|DEFG ABcd e2f2|g2ec d8:|
+|:a3g fgfe dedB|A2A2 AGEG F4|a3g fgfe dedB|A2A2 AGEG F4|
+DEFG F2F2 E2E2|DEFG F2F2 E4|DEFG F2F2 E2E2|DEFG F2F2 E4|
+DEFG ABcd e2f2|g2ec d8:||:[a3d3][d'f] [d'4f4] [d'3f3][d'f]|
+[d'2f2][c'e][c'e] [c'2e2][c'2e2] [c'3e3][c'e]|
+[c'2e2][bd][bd] [b2d2][b2d2] [b2d2][b2d2]|[b3d3][ac] [a4c4] [a4c4]|
+A4 g4 g4|a2gf edcB AGFE|DEFG F2F2 E2E2|DEFG F2F2 E4|DEFG F2F2 E2E2|
+DEFG F2F2 E4|DEFG ABcd e2f2|g2ec d8:|
+
+X:16
+T:Polska efter Kus Nisse
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-16
+M:3/4
+L:1/16
+K:D
+A3F DEFG AB=cA | B2G2 G2B2 Bd^cd | e3c ABcd efge | f3d d2f2 f2d2 | 
+cdef gfga b2g2 | fedc [d8D8] :||: [a2A2][A2F2] [A2F2][a2A2] agfa |
+[g2B2][B2G2] [B2G2][g2B2] [g4B4] | e3c ABcd efge | f3d d2f2 f2d2 | 
+cdef gfga b2g2 | fedc [d8D8] :| 
+
+X:17
+T:Erik Isaks polska
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-17
+M:3/4
+L:1/16
+K:G
+G2AB B2AB cBAB|G2AB c2Bc dcBc|d3d e2d2 f2d2|B3d g2d2 b2g2|
+G2AB B2AB cBAB|G2AB c2Bc dcBc|d3d e2d2 f2d2|bafa g8:|
+|:g2b2 bagf e2d2|^c2a2 afge f2d2|d2ef gfed =cBAG|FGAB AGFE DCB,A,|
+G,2b2 bagf e2d2|^c2a2 afge f2d2|d2ef gfed =cBAG|AdFA G8:|
+
+X:18
+T:Loka-Britas Polska
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-18
+M:3/4
+L:1/16
+K:D
+e2-|e2g2 g2ag f2c2|efe2 d6d2|c3d e2f^g a3c|dcdf e2ea A4|
+e2g2 g2ag f2c2|efe2 d6d2|c3d e2f^g a3c|1 c2d2 d6:|2 c2d2 d8||
+K:Ddor
+|:ABAG E2E2 F3G|A2Ac G2B2 B2A2|ABAG E2E2 F3G|A2Ac G2B2 B2A2|
+ABAG E2E2 D3F|EFED ^C2C2 A4-|A2AG E2E2 F3G|A2c2 G2B2 B2A2|
+A3^c d2e2 fefg|1 a2^c2 d8:|2 a2^c2 d6||
+
+X:19
+T:Ryttarpolskan
+R:polska J
+H:efter Persapojkarna, Delsbo
+O:H\"alsingland
+Z:id:hn-jp-19
+M:3/4
+L:1/16
+K:D
+D2-|D2DD D2DD D4|f2d2 dedc c2A2|AAA2 AAA2 A4|egec d2dA GFED-|
+D2DD D2DD D4|f2d2 dedc c2A2|AAA2 AAA2 A4|egec d6:|
+|:A2-|A2b2 a4 e3f|g2ag f2gf e4-|e2b2 g3f e2d2|c2dc B2Bc A4-|
+A2b2 a4 e3f|g2ag f2gf e4-|e2b2 g3f efed|cdec d6:|
+
+X:20
+T:N\"ackens Polska
+R:polska J
+H:efter Magnus Olsson, Bolln\"as
+O:H\"alsingland
+Z:id:hn-jp-20
+M:3/4
+L:1/16
+K:Dm
+D3F A4 ^c3d | e2ef d2de ^c2cd | e2ef ded=B =c4 | A_BAG FEFG A2F2 |
+F2GF ED^CD E2A,2 | D3F A4 ^c3d | e2ef d2de ^c2cd | e2ef ded=B =c4 |
+A_BAG FEFG A2F2 | ED^CE D8 :||: F3A A2c2 c3A | A2G2 AGFG A2FF |
+FEFG AGAB c2A2 | A2G2 (3GAGFG A4 | F3A A2c2 c3A | A2G2 AGFG A2FF |
+FEFG AGAB c2A2 | A2G2 (3GAGFG A4 | FGFE D2D2 d3A | ^cdef ed^ce d2A2 |
+A_BAG FEFG A2F2 | ED^CE D8 :| 
+
+X:21
+T:Kringpolska
+R:polska J
+H:efter Carl Sved, Delsbo
+O:H\"alsingland
+Z:id:hn-jp-21
+M:3/4
+L:1/16
+K:Am
+A2^GA (3BcBAB c3B | A2c2 e2ce a4 | [e4E4] [E4A,4] c3c- |
+(3cdcBA B6A2- | A2cB A2Bd c3B | {cd}c2eg {^fg}^f3e d3c |
+{Bc}B3A ^G3A {Bc}B2^G2 |1  A4 Ac3 E4 :|2  A4 A6A2- || 
+K:Em
+A3c e4 f4 |: {a}g4 (3gagf2 g4 | {fg}f2e2 eb3 g4 |
+{fg}f2e2 d4 {fg}f2d2 | e4 e2g2 [B4-F4-] | [B4F4] e4 f4 |
+{a}g4 (3gagf2 g4 | {fg}f2e2 eb3 g4 | {fg}f2e2 d3e {fg}f2d2 | 
+[1 e4 e4 [B4F4] | [B4F4] e4 f4 :|2  e4 e6e2- || 
+K:Am
+|: e2^f^g a2^f2 =g3e | d2e^f g2e2 c4 | B2A2 A4 c4 | B2A2 B6A2- |
+A2cB A2Bd c3B | {cd}c2eg {^fg}^f3e d3c | {Bc}B3A ^G3A {Bc}B3^G |
+[1 ^GA3 A6e2- :|2  ^GA3 A8 || 
+
+X:22
+T:Polska efter Hultkl\"appen
+R:polska J
+Z:id:hn-jp-22
+M:3/4
+L:1/16
+K:Dm
+A2=B^c d4 A4|(3fgfed e4 A4|fefg agfe gfed|fed^c d2A2 (3FGFED|
+A2=B^c d4 A4|(3fgfed e4 A4|fefg agfe gfed|fed^c d8:|
+|:a3a f2a2 f3a|bagf e2g2 e3g|agfe d2f2 a3f|gfed ^cdec A4|
+a3a f2a2 f3a|bagf e2g2 e3g|agfe d2f2 a3f|gfed ^cdec A4|
+A2=B^c d2f2 e2a2|fed^c d8:|
+
+X:23
+T:Riddar-Lasses l{\aa}t
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-23
+M:3/4
+L:1/16
+K:Dm
+a4 D4 E4 | F2GF E2D^C D4 | a4 D4 E4 | F2GF E2D^C D4 |
+A3^c d2e2 fefg | a2a2 ^ge^g=b a4 | a4 D4 E4 | F2GF E2D^C D4 |
+a4 D4 E4 | F2GF E2D^C D4 | A3^c d2e2 fefg | a2^ce d8 :| 
+|: ^f2a2 gage =c2e2 | ^f2a2 gage =c2e2 | a3g =b2g2 a2^f2 |
+g^fed ^c2e^c A4 | ^f2a2 gage =c2e2 | ^f2a2 gage =c2e2 |
+a3g =b2g2 a2^f2 | g^fe^c d8 :| 
+
+X:24
+T:Polska efter Bytt-Lasse
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-24
+M:3/4
+L:1/16
+K:Dm
+A2d2 ABA^G G2A2|A2f2 efed d2^c2|^cdef g2ag f2d2|e2^c2 ABA^G B2A2|
+A2d2 ABA^G G2A2|A2f2 efed d2^c2|^cdef g2ag f2d2|e2^c2 d8:|
+|:A2a2 g4 e4|c=Bcd c8|cdef g2ag f2d2|e2^c2 ABA^G B2A2|
+A2a2 g4 e4|c=Bcd c8|cdef g2ag f2d2|e2^c2 d8:|
+
+X:25
+T:Polska fr{\aa}n Medelpad
+R:polska J
+Z:id:hn-jp-25
+M:3/4
+L:1/16
+K:Am
+ABA^G A2B2 cBcd|e2eg (3^fgfed f2e2|ABA^G A2B2 cBcd|d2e2 BeB=G E4|
+ABA^G A2B2 cBcd|e2eg (3^fgfed f2e2|e2ae Acea Acec|E^GBG A8:|
+|:A2a2 g2a2 f2(3fgf|e2ae Acea Acec|A2Bc d2fd c2BA|A2=G2 G2e2 E4|
+A2a2 g2a2 f2(3fgf|e2ae Acea Acec|A2Bc d2Bd cecA|E^GBG A8:|
+
+X:26
+T:Persapojkarnas polska
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-26
+M:3/4
+L:1/16
+K:Ador
+A2a2 a2ba g2eg | f2ed e2c2 {Bc}B2A2 | A2a2 a2ba g2eg |
+f2ed e2g2 b2g2 | f2^d2 efg2 e4 :||: e3^c A2^c2 e2fa |
+g3g agfe d4 | d3B G2B2 d3e | =f2f2 gfed =c4 | c3B A2c2 e2c2 | 
+BcBA ^G2A2 E4 | e3^c A2^c2 e2fa | g3g agfe d4 | d3B G2B2 d3e |
+=f2f2 gfed =c4 | c3B A2c2 e2c2 | (3BcBA^G A8 :| 
+
+X:27
+T:Polska efter Nils H\"agg
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-27
+M:3/4
+L:1/16
+K:Gm
+g2|^fgaf a2g2 {BA}B3d|f2gf e2dc d3A|{BA}B3d A2B2 G3B|AcA^F D6g2|
+^fgaf a2g2 {BA}B3d|f2gf e2dc d3A|{BA}B3d A2B2 G3B|AcA^F G6:|
+|:D2|D4 B6Bd|f2gf e2dc d2Bd|f2gf e2dc d3g|^fgaf a2g2 {BA}B3B|AcA^F G6:|
+
+X:28
+T:Polska fr{\aa}n Bingsj\"o
+R:polska J
+O:Dalarna
+Z:id:hn-jp-28
+M:3/4
+L:1/16
+K:D
+D3F A2A2 d2f2 | efed cdef g4 | D3F A2A2 d2d2 | A2BA G2AG F2AF |
+D3F A2A2 d2f2 | efed cdef g4 | g2gg b2gb a2g2 | egec d8 :|
+|: D2FA d2d2 c4 | A2ce g2g2 f4 | d2dd b2gb a2g2 | egec d2A2 FGFE |
+D2FA d2d2 c4 | A2ce g2g2 f4 | d2dd b2gb a2g2 | egec d8 :|
+
+X:29
+T:Nylandspojkarnas nerifr{\aa}n
+T:Polska efter Nylands Erik
+R:polska J
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-29
+M:3/4
+L:1/16
+K:A
+A,2CE A4 c4 | e2a2 f2ed c4 | B4 B2c2 d2dB | EGBG A2AE C2EC |
+A,2CE A4 c4 | e2a2 f2ed c4 | B3c d2fd c2ec | B2AG A8 :|
+|: ABcd e2ae c2ec | ABcd e2ce a4 | Adfd Adfd Adfd | Acec Acec Acec |
+Adfd Adfd Adfd | Acec Acec Acec | cdcB A4 E4 | A2A2 B2AB c4 | 
+B3c d2e2 f2a2 | gabg a8 :|
+
+X:30
+T:Nylandspojkarnas mitt i
+T:Polska efter Nylandsgubben
+R:polska J
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-30
+M:3/4
+L:1/16
+K:D
+|: A2FA B2B2 A4 | A2FA d2d2 A4 | B3A G2F2 E4 | a3g f2ef d4 |
+A2FA B2B2 A4 | A2FA d2d2 A4 | B3A G2F2 E3D | CDEC D8 :|
+|: abaf d2f2 d2f2 | abae c2e2 c2e2 | f3e d2c2 B3A | ^GABG ABAE C2E2 |
+abaf d2f2 d2f2 | abae c2e2 c2e2 | f3e d2c2 B3A | ^GABG A8 :|
+
+X:31
+T:Eklundapolska #3
+R:polska J
+C:Viksta-Lasse
+O:Uppland
+Z:id:hn-hp-31
+M:3/4
+L:1/16
+K:G
+|: g2fg b2g2 d2B2 | cBcd egec A3c | B2AB cdcA BcBG | A2d2 d8 |
+g2fg b2g2 d2B2 | cBcd egec A3c | B2AB cdcA BcBG | ABAF G8 :|
+|: B3B c2c2 B2B2 | A2d2 d8 | B3B c2c2 B2B2 | ABAF D8 |
+B3B c2c2 B2B2 | A2d2 d6B2 | G2AB cdcA BcBG | ABAF G8 :|
+
+X:32
+T:Hjortingens polska
+R:polska J
+H:efter Hjort Anders Olsson
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-32
+M:3/4
+L:1/16
+K:A
+E2 | A3B c2d/c/B c2B2 | e3c {B}A4 TE4- | E3a/b/ a2Tg2 Tf2e2 |
+^defg Ta4 Tg3f | {ef}Te2^de f2df e3B |1 G2BG E4 E2 :|2 G2BG E6 ||
+|: TD2 | C3E A2E2 F3=G | {=GFE}F3A B2F2 {^GA}G2TA2 |
+{GF}G3B e2B2 c2Td2 | c2e2 Tf3c ^d3e | ^d2f2 b2f2 g3a |
+Tg2fe ^defg Ta2A2- | A2Bc d2fe dcBA | GABG A6 :|
+|: e2- | e2fe dcBA GABc | d2fd e6 e2- | e2fe dcBA GABc |
+BAGA E6 :||: TD2 | C3E A2E2 F3=G | {=GFE}F3A B2F2 {^GA}G2TA2 |
+{GF}G3B e2B2 c2Td2 | c2e2 Tf3c ^d3e | ^d2f2 b2f2 g3a |
+Tg2fe ^defg Ta2A2- | A2Bc d2fe dcBA | GABG A6 :|
+
+X:33
+T:Getingen
+R:polska J
+H:efter Hans Dalfors
+O:Ore, Dalarna
+D:Ola B\"ackstr\"om
+Z:id:hn-jp-33
+M:3/4
+L:1/16
+K:A
+=f  |: e3d cdef g2a2 | b2=c'2 a4 =g3g | =f2ed cdef =g2ag |
+=f2ed f2e2 e3f | e3d cdef g2a2 | b2=c'2 a4 =g3g |
+=f2ed cdef =g2ag |[1 =f2ed f2e2 e3f :|[2 =f2ed f2e2 e3d |
+|: c3c d2d2 c2e2 | e3d BdBG B2A2 | c3c d2d2 c2e2 |
+dcdf e6 d2 | c3c d2d2 c2e2 | e3d BdBG B2A2 |
+c3c d2d2 c2e2 | dcdf e4 a3a | g2eg f2ed c2BA |
+[1 GABc B2A2 A3d :|[2 GABc B2A2 A2 z2 |]
+
+X:34
+T:Polska
+R:polska J
+Z:id:hn-jp-34
+M:3/4
+L:1/16
+K:A
+A3c efed c2e2 | a3f d2fd e4 | A3c efed c2ec | B2AG A2ce a4 |
+A3c efed c2e2 | a3f d2fd e4 | A3c efed c2ec |1 B2AG A6E2 :|2 B2AG A6ag||
+|: f3d Adfd Adfd | e3c Acec Acec | d3B EGBG EGBG | AGAB cBcd e2ag |
+f3d Adfd Adfd | e3c Acec Acec | d3B EGBG EGBG |1 A4 A6ag:|2 A4 A6E2 ||
+
+X:35
+T:Polska efter Ante Sundin
+R:polska J
+O:Medelpad
+Z:id:hn-jp-35
+M:3/4
+L:1/16
+K:A
+A2zB c4 c3d/c/ | BABc d2cd B4 | ABcd e2a2 f2ed | cBAG A2AE C2E2 |
+A2zB c4 c3d/c/ | BABc d2cd B4 | ABcd e2a2 f2ed | cBAG A6E2 :|
+|: ABcd efec efec | A2de fafd fafd | ABcd efec efec | A2Bc d2B2 G2B2 |
+A3c efec efec | A2de fafd fafd | ABcd e2a2 f2ed | cBAG A6E2 :|
+
+X:36
+T:Polska fr{\aa}n Ore
+R:polska J
+O:Ore, Dalarna
+Z:id:hn-jp-36
+M:3/4
+L:1/16
+K:Gm
+D2|G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G3A|B2AG G^FAF D4|
+G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G2BG|D^FAF G6:|
+c2|d3c BABc d2de|c3A =F=EFA c2cd|dBBA G^FGB d3B|B2AG G^FAF D4|
+d3c BABc d2de|c3A =F=EFA c2cd|dBBA G^FGB d3B|(3ABAG^F G6||
+P:variant p{\aa} 2a delen
+c2|d3c BABc d2de|cdcA =F=EFA c2cd|BcBA G^FGA B2dB|B2AG ^FGAF D4|
+d3c BABc d2de|cdcA =F=EFA c2cd|BcBA G^FGA B2dB|(3ABAG^F G6||
+
+X:37
+T:Flinken
+R:polska J
+O:H\"alsingland
+Z:id:hn-jp-37
+M:3/4
+L:1/16
+K:Ddor
+D3E F2FD E2EC | D2DE F2FD A3c | dcde f2fg e2ef | dcdf feec A2AF |
+DCDE FAFD EGEC | DCDE FGFD A3c | dcde fega egec |1 cAAc d8 :|
+[2 cAAc d6 |: fg | a3g e2eg f2fe | dcdf e2A2 a4 | abag edeg fgfe |
+dcdf egec A2fg | a3g e2eg f2fe | dcdf e2A2 a4 | abag e2g2 f2df |
+[1 geec d6 :|2 geec d8 ||
+
+X:38
+T:G\"oksbypolska
+R:polska J
+C:Eric Sahlstr\"om, Uppland
+Z:id:hn-jp-38
+M:3/4
+L:1/16
+K:Dm
+F2AF E2AE D3E|FGFE DFAd f4|e3d ^cAce gece|ded^c dedA F2AF|
+F2AF E2AE D3E|FGFE DFAd f4|e3d ^cAce gece|d4 d4 d4:|
+|:a2a2 a2fa c'afa|a2g2 g2eg bgeg|g2f2 f2df afdf|e3d ^c2ec A4:|
+F2AF E2AE D3E|FGFE DFAd f4|e3d ^cAce gece|ded^c dedA F2AF|
+F2AF E2AE D3E|FGFE DFAd f4|e3d ^cAce gece|d4 d4 d4||
+|:c2AF C2FA c2=Bc|d2_BF D2FB d2df|efed cdcA FAcf|agfe gfef c2AB|
+c2AF C2FA c2=Bc|d2_BF D2FB d2df|efed cdcA FAcf|agfe g4 f4:|
+
+X:39
+T:Gladl{\aa}ten
+R:polska J
+H:efter Pekkos Helmer
+O:Bingsj\"o, Dalarna
+Z:id:hn-jp-39
+M:3/4
+L:1/16
+K:A
+e2 | a4 efed c3e | a4 a2ga b3g | a4 efed c3A | B4 B6 e2 | 
+a4 efed c3e | a4 a2ga b3g | a4 efed c3A |1 BG3 A6 :|2 BG3 A6 c2 ||
+|: d3f e3d c3A | B3A GA3 B3c | d3f e3d c3A | B4 B6 c2 | 
+d3f e3d c3A | B3A GA3 B3c | d3f e3d c3e | a4 a2ga b3g | 
+a4 efed c3A |1 B2AG A6 c2 :|2 B2AG A6 ||
+
+X:40
+T:Kusen
+T:Polska efter Kus-Erik
+R:polska J
+O:H\"alsingland, Delsbo
+Z:id:hn-jp-40
+M:3/4
+L:1/16
+K:E
+e2fg a2af g2ge | b2bg a2af gfed | e2fg a2af g2ge | gfed e2ge B4 |
+e2fg a2af g2ge | b2bg a2af gfed | e2fg a2af g2ge |1 gfed e8 :|2 gfed e6 ||
+K:A
+|: f2 | e2d2 c4 c2Bc | d2c2 B6 f2 | e2d2 c4 c2Bc | d2c2 B4 B2c2 |
+B2G2 A3G A2B2 | cBcd e2fg a3g | f2e2 d2fd c2ec |1 B2AG A6 :|2 B2AG A8 ||
+
+X:41
+T:Polska efter Ante Sundin
+T:Polska efter Larsh\"oga Jonke
+R:polska J
+O:Medelpad
+Z:id:hn-jp-41
+M:3/4
+L:1/16
+K:A
+efed cBcd e2fg | a2af b2bg a4 | efed cdef =g2ag | f2e^d f2e2 e4 :|
+|: e2a2 B2aB c2ac | d2fa Acec B4 | B2B2 c2c2 d2d2 | c2e2 EGBG A4 |
+A4 B4 c2Bc | d2ed cdef g2a2 | bagf efed cBcd | EGBG A8 :| 
+
+X:42
+T:Br\"annvinspolska efter Hultkl\"appen
+R:polska J
+O:H\"alsingland, Bergsj\"o
+Z:id:hn-jp-42
+M:3/4
+L:1/16
+K:A
+A4 AcBc AcBc | A2A2 BABd c4 | A4 AcBc AcBc | A2A2 BABd c4 |
+B4 Bdcd Bdcd | B2B2 cBce d4 | c2ce agae dcBA | cAce agae dcBA |
+Adfd Acec B2e2 | E2GB B2A2 A4 :|
+|: ABcd e2c2 A3c | e2e2 fedc d4 | E2GB d2BG E2GB | e2ea gfed c2B2 |
+ABcd e2c2 A3c | e2e2 fedc d4 | E2GB d2BG E2GB | e2ea gfed c2B2 |
+ABcd e2a2 f2ed | cBAG B2A2 A4 :|
+
+X:43
+T:L\"ordagskv\"allen
+R:polska J
+C:Lars Fredriksson
+O:H\"alsingland
+Z:id:hn-jp-43
+M:3/4
+L:1/16
+K:Bb
+f2ga b2a2 g2f2 | edcB ABcA B4 | B2Bd c2ce d2Bd | dcAc B2F2 E2D2 |
+f2ga b2a2 g2f2 | edcB ABcA B4 | B2Bd c2ce d2Bd |1 dcAc B8 :|2 dcAc B6 F2 |
+|: EBgB EBgB EBgB | DBfB DBfB DBfB | Fcac Fcac Fcac | Fdbd Fdbd Fdbd |
+EBgB EBgB EBgB | DBfB DBfB DBfB | f2gf e2d2 c3B |1  F2Ac B6 F2 :|2  F2Ac B6 A2 ||
+|: G2GA BABc d2B2 | g2fe d4 B4 | edcB ABcA B2G2 | ^FGAF G2D2 B,2G,2 |
+G2GA BABc d2B2 | g2fe d4 B4 | edcB ABcA B2G2 | ^FGAF G8 :|
+

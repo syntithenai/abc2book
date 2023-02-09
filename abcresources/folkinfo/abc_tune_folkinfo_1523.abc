@@ -1,0 +1,24 @@
+X:1     %Music
+T:Lyke Wake Dirge     %Tune name
+N: Hacked together from the Lyke2.mid on www.mudcat.org and a set of lytics from elsewhere
+Q:1/4=60     %Tempo
+V:1     %
+M:4/4     %Meter
+L:1/8     %
+K:Em
+E2 D2 E4 |E2 D2 E4 |G3 F G2 F2 |_E8 |E2 E2 D2 F2 |[M:6/4]E2 E2 _E6 E2 |[M:4/4]E2 E2 E2 E2 |^C6 E2 |E2 E2 D2 F2 |E2 E2 _E4 |G3 F G2 F2 |_E6 E2 |E2 E2 D2 F2 |[M:6/4]E2 E2 _E6 E2 |[M:4/4]E2 E2 E2 E2 |^C8 |]
+w:This ae nighte, this ae nighte,   Ev-ery nighte and alle,   Fire and fleet and can-dle-lighte,   And Christe re-ceive thy saule. When thou from hence a-way art past,  Ev-ery nighte and alle,   To Whin-ny-muir thou com'st at last;     And Christe re-ceive thy saule. 
+V:2     %
+M:4/4     %Meter
+L:1/8     %
+K:Em
+[A,2E,2] [G,2D,2] [A,4E,4] |[B,2G,2] [G,D,]F, [E,4B,,4] |[B,3E,3] [A,D,] [B,2E,2] [A,D,][F,B,,] |[F,8B,,8] |[G,2C,2] [G,2C,2] [F,2B,,2] [A,2B,,]D, |[M:6/4 ][G,2C,2] [F,B,,][E,A,,] [F,6B,,6] [F,B,,][D,G,,] |[M:4/4]
+[E,2B,,2] [E,2B,,2] [G,2E,2] [F,B,,][D,G,,] |[E,6A,,6] [A,2A,,]B,, |[G,2C,2] [G,2C,2] [F,2B,,2] [A,2D,2] |[G,2C,2] [G,A,,][E,A,,] [F,4B,,4] |[B,3E,3] [A,D,] [B,2E,2] [A,D,][F,B,,] |[F,6B,,6] [F,2B,,2] |
+[G,2C,2] [G,2C,2] [F,2B,,2] [A,2B,,]D, |
+M:6/4     %Meter
+L:1/8     %
+[G,2C,2] [F,B,,][E,A,,] [F,6B,,6] [F,B,,][D,G,,] |
+M:4/4     %Meter
+L:1/8     %
+[E,2B,,2] [E,2B,,2] [G,2E,2] [F,B,,][D,G,,] |[E,8A,,8] |]
+     %End of file

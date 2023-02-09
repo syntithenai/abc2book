@@ -1,0 +1,69 @@
+This file contains 3 reels (#1101-#1103).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 2 September 2021.
+
+(c) Copyright 2014-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:reel
+M:C|
+Z:id:hn-%R-%X
+
+X:1101
+T:Eileen O'Callaghan's
+T:Grogan's Favourite
+T:Geoghan's
+T:Geoghegan's
+T:Geoghegan's Fancy
+T:Geehan's
+R:reel
+Z:id:hn-reel-1101
+M:C|
+L:1/8
+K:G
+G2BG DGBA | G2Bd cAFA | G2BG DGBc | defd cAFA |
+G2BG DGBA | G2Bd cAFA | GB~B2 dB~B2 | defd cAFA :|
+|: dggf g2fg | adfd adfe | dggf g2fe | defd cAFA |
+dggf g2fg | ~a3b agfe | dg~g2 bg~g2 | defd cAFA :| 
+
+X:1102
+T:Gaelic Reels #1
+R:reel
+D:Rob Roy soundtrack (performed by Capercaillie)
+Z:id:hn-reel-1102
+M:C|
+L:1/8
+K:Amix
+A2Ac e2ef | gefd e2dB |1 A2Ac e2ef | gefd B2AB :|2 d2ef gaag | efgd B2A2 ||
+|: g2fg aeef | gefd e2dB |1 g2fg aeeg | deed B2A2 :|2 d2ef gaag | efgd B2A2 ||
+
+X:1103
+T:Roddy MacDonald's Fancy
+T:Roddy McDonald's Fancy
+R:reel
+H:See also "The Blackberry Blossom" #117
+Z:id:hn-reel-1103
+M:C|
+L:1/8
+K:A
+af | ecBe cAAB | c2cB ceaf | ecBe cAAB | cffe f2 :|
+|: af | ecef a2af | ecBc ecaf |1 ecef afec | Bffe f2 :|2 ecBe cAAB | cffe f2ec ||
+|: B2Bc ~A3B | c2cB ceaf | ecBe cAAB |1 cffe f2ec :|2 cffe f2ef ||
+a2ef aefa | efae faef | a2ef afec | Bffe f2ef |
+a2ba f2fa | e2fe ceaf | ecBe cAAB | cffe f2 || 
+

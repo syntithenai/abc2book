@@ -1,0 +1,28 @@
+X:1
+T:Busk, Busk, Bonnie Lassie
+S:Charlotte Higgins
+B:MacColl and Seeger, Traveller's Songs from England and Scotland, Routledge And Kegan Paul, 1977
+Z:Ewan MacColl and Peggy Seeger
+F:http://www.folkinfo.org/songs
+M:3/4     %Meter
+L:1/8     %
+K:D
+"^Verse 1"A2 |D4 FA |B2 A2 (AF) | D2 G2 FF | (F E2)
+w:Busk, busk, bon-nie las-sie and_ come a-lang wi' me_ 
+F E z |D2 D2 FA | B2 (AB) (cd) |F G3 E2 |D4 ||
+w:    I will tak' ye tae Glen-is-la_ near_ bon-nie Glen-shee.
+"^Verses 2-4"AF | D2 D2 (FA) |B2 A2 AF | D2 G2 F2 |(F E3)
+w:O, do you see yon_ shep-herds as they all march a-long_
+FE |D2 D2 FA |B2 A2     
+w:Wi' their plaid-ies buck-led roond them          
+Bc |d2 c2 (Bc) |(B A3)       
+w:And their sheep they graze_ on?_      
+(Bc) |d2 c2 B2 |A2 A2       
+w:Busk_ busk, bon-nie lass-ie,     
+(GE) D2 G2 FF |(F D3)     
+w:And_  come a-lang wi' me,_       
+FE |D2 D2 FA |B2 (AB)       
+w:I will tak' ye tae Glen-is-la_      
+(cd) |F G3 E2 |D4 z2 |]
+w:Near_ bon-nie Glen-shee.
+%End of file

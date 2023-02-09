@@ -1,0 +1,985 @@
+This file contains 59 hornpipes (#101 - #159).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 27 November 2020.
+
+(c) Copyright 1996-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:hornpipe
+M:C|
+Z:id:hn-hornpipe-%X
+
+X:101
+T:When the Tide Comes In
+T:Factory Smoke
+R:hornpipe
+C:James Hill (?) (1811-1853), Northumberland
+Z:id:hn-hornpipe-101
+M:C|
+K:Gm
+dc | BAGF GABc | d2G2 Gbag | f2dc BcdB | c2AG F2dc |
+BAGF GABc | dg^fa g3d | edcB cedc | B2G2 G2 :|
+|: ga | bgdB gdBG | DGBd gabg | afcA fcAF | CFAc fcAc |
+BAGF GABc | dg^fa g3d | edcB cedc | B2G2 G2 :|
+
+X:102
+T:Acrobat, The
+R:hornpipe
+H:Original key Bb
+Z:id:hn-hornpipe-102
+M:C|
+L:1/8
+K:D
+AG|FAde fdba|(3gec (3gec c'2c'b|a^g=ge cc'ba|^gaba fdAG|
+FAde fdba|(3gec (3gec c'2c'b|a^g=ge cc'bc|d2f2 d2:|
+|:ed|cefe c'a^ga|f^efb d'b^ab|^ge^de =f^f=g^g|(3ac'b (3a^gf ef (3e_ed|
+cefe c'a^ga|f^efb d'b^ab|^ge^de =f^f=g^g|(3aba ^gb a2:|
+
+X:103
+T:Dance of the Honey Bees, The
+R:hornpipe
+C:Charlie Lennon
+Z:id:hn-hornpipe-103
+M:C|
+L:1/8
+K:D
+AG|:F2EF DFAF|(3GAG FG E3F|GFGA (3Bcd ed|cege cAGE|
+FGEF DFAF|G2FG E3F|G2GA (3Bcd ed|1 cAGE D2AG:|2 cAGE DEFA||
+|:dAaA fAdA|GFEF DEFA|Beed Bded|(3Bcd ef gece|
+dAaA fAdA|GFEF DEFA|Beed (3Bcd ed|1 cAGE DEFA:|2 cAGE D2||
+
+X:104
+T:Tomorrow Morning
+R:hornpipe
+Z:id:hn-hornpipe-104
+M:C|
+L:1/8
+K:D
+(3gfe|dAFA defd|ecAc efge|fafd Bded|c2A2 A2fe|
+dAFA defd|ecAc efge|fafd Acec|d2dc d2:|
+|:fg|afdf a2gf|gece g2ag|fafd Bded|c2A2 A2fe|
+dAFA defd|ecAc efge|fafd Acec|d2dc d2:|
+P:variations
+|:(3gfe|dAFA dAfA|ecAc eAgA|(3fga fd Bged|cdBc A2 (3ABc|
+dAFA defd|ecAc efge|fafd Acec|d2dc d2:|
+|:fg|afdf a2gf|gece g2fe|fafd Bged|ceBe A2 (3gfe|
+dAFA defd|ecAc efge|(3fga fd Acec|d2dc d2:|
+
+X:105
+T:Smoky Chimney, The
+R:hornpipe
+Z:id:hn-hornpipe-105
+M:C|
+L:1/8
+K:D
+(3ABc|dcde fdAF|GFGA BGE2|efge cABc|defd AGFA|
+dcde fdAF|GFGA BGE2|efge cABc|d2dc d2:|
+|:de|fefg afdf|gfga bgeg|f2df bagf|edcB A2de|
+fefg afdf|gfga bgeg|f2df e2ce|d2dc d2:|
+
+X:106
+T:Sheridan's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-106
+M:C|
+L:1/8
+K:G
+B,D|GFGA Bdgf|agfc ed^cd|BGDG cAFG|ABcB AG (3FED|
+G,B,D=F ECEG|(3FED FA GBAc|Bgfg cAFD|(3GGG (3AGF G2:|
+|:fg|afdg bgfa|gfge dcBd|ceAc BcdG|FAcB AG (3FED|
+G,B,D=F ECEG|(3FED FA GBAc|Bgfg cAFD|(3GGG (3AGF G2:|
+
+X:107
+T:Glengesh Hornpipe, The
+T:Dr. Peter's Hornpipe
+R:hornpipe
+S:Anders Clarh\"all
+Z:id:hn-hornpipe-107
+M:C|
+L:1/8
+K:D
+dB|ADFA BG (3Bcd|ADFA d2cd|eAce fd (3fga|edcB AGFG|
+ADFA BG (3Bcd|ADFA d2cd|eAce faec|d2f2 d2:|
+|:cd|eAce fdfa|eAce f2fd|ea^gf edcB|(3ABA ^GB A2=G2|
+FDFA dfaf|g2B2 b2ag|(3faf df (3efe ce|dfec d2:|
+
+X:108
+T:Paddy Fahy's
+R:hornpipe
+C:Paddy Fahey (1916-2019)
+H:See also #74
+Z:id:hn-hornpipe-108
+M:C|
+L:1/8
+K:G
+B,A, | G,B,DG BAGF | ECCB, CEGc | (3Bcd gd (3B^cd Dd | cBAG (3FED (3CB,A, |
+G,B,DG BAGF | ECCB, CEGc | (3Bcd gd (3B^cd DF | (3ABA GF G2 :|
+|: Bc | dggf gdBd | (3cBA ag fg (3agf | gdBd ecAG | Fdd^c ded=c |
+(3Bcd BG cBcA | (3Bcd fa gfdc | (3Bcd gd (3B^cd DF | (3ABA GF G2 :|
+
+X:109
+T:Andy Kerrin's
+T:Winter's Night, A
+R:hornpipe
+D:Cathal McConnell: On Lough Erne's Shore
+Z:id:hn-hornpipe-109
+M:4/4
+L:1/8
+K:Em
+E2ED EFGA | B2BA B2e2 | B2e2 B2AB | GBFB E2ED |
+E2ED EFGA | B2BA B2e2 | B2e2 B2AB | GBFB E2 (3def ||
+|: g2B2 dBGB | cABG EGFE | DEFG ABcd | (3efe d^c d2 (3def |
+g2B2 dBGB | cABG EGFE | DEFG AcBA |1 G2B2 G2 (3def :|2 G2B2 G2F2 ||
+
+X:110
+T:Pachelbel's Frolics
+T:Pachelbel's Hornpipe
+T:PJ's Pecurious Pachelbel Special
+T:Kohler's Hornpipe
+R:hornpipe
+H:See also #129 in C
+B:Kohlers Repository, originally in C
+Z:id:hn-hornpipe-110
+M:C|
+L:1/8
+K:D
+(3ABc | dcde fefg | ~a3b agfd | BABc dcdB | ABGA ~F3A | 
+GFGA BABc | dcde faba | gfed (3Bcd ef |1 gece d2 :|2 gece d2 || 
+|: a2 | fada fada | eaca eaca | dfBf dfBf | AGAB =cAFA | 
+GFGA BABc | dcde fga2 | gfed (3Bcd ef |1 gece d2 :|2 gece d2 || 
+P:variations
+|: (3ABc | d2dc defg | agab agfd | BABc dedB | ABGA ~F3A | 
+~G3A BABc | dcde faba | gfed (3Bcd ef |1 gedc d2 :|2 gedc d2 || 
+|: fg | ~a2fa dafa | ~a2ea caea | ~f2df Bfdf | A^GAB =cAFD | 
+GFGA BABc | dcde fga2 | gfed (3Bcd ef |1 gedc d2 :|2 gedc d2 || 
+P:original version
+|: (3ABc | dcde defg | a^gab afed | BABc dedB | AFdB AFDF | 
+GFGA BABc | dcde faba | gfed Bdce | fedc d2 :| 
+|: ag | fada fada | eaca eaca | dfBf dfBf | AdFd AdFd | 
+GFGA BABc | dcde faba | gfed Bdce | fedc d2 :| 
+
+X:111
+T:Jack's The Lad
+T:Sailor's Hornpipe, The
+T:College Hornpipe, The
+R:hornpipe
+H:See also #128
+B:O'Neill's 1737
+Z:id:hn-hornpipe-111
+M:C|
+L:1/8
+K:D
+(3ABc | d2D2 D2AG | FAdc defd | e2E2 E2ed | cea^g a2f2 |
+gfga bagf | gfec dcBA | Bdce dfeg | f2d2 d2 :|
+|: AG | FAdA FAdA | B2G2 G2GF | GBeB GBed | c2A2 A2ef |
+gfga bagf | gfec dcBA | Bdce dfeg | f2d2 d2 :|
+
+X:112
+T:Greencastle Hornpipe, The
+R:hornpipe
+H:Also in G, #113
+D:Beginish
+Z:id:hn-hornpipe-112
+M:C|
+L:1/8
+K:D
+DE | F2ED F2ED | d2cd B2AG | F2ED F2ED | G2FG EAAG |
+F2ED F2ED | d2cd B2AG | FAdA BGEC | D2CE D2 :|
+|: de | fedc Bcde | fedc B2cd | edcB ABcd | edcB A2Bc |
+dcdA BdAF | GFEF GABc | d2cd BGEC | D2CE D2 :|
+
+X:113
+T:Greencastle Hornpipe, The
+R:hornpipe
+H:Also in D, #112
+Z:id:hn-hornpipe-113
+M:C|
+L:1/8
+K:G
+dc | BGDG BGDG | g2fg e2dc | BGDG BGDG | c2Bc A2dc |
+BGDG BGDG | g2fg e2dc | Bdfe dcAF | G2GF G2 :|
+|: ga | bagf efga | bagf e2fg | agfe defg | agfe d2ef |
+gfgd e2dB | cBAB cdef | gfgd ecAF | G2GF G2 :|
+
+X:114
+T:Her Golden Hair Hanging Down Her Back
+T:Her Lovely Hair Flowed Down Her Back
+R:hornpipe
+C:Martin "Junior" Crehan (1908-1998)
+H:Also played in Ador, #100
+Z:id:hn-hornpipe-114
+M:C|
+K:Bm
+de | fedf e2dB | AF~F2 ABde | fedf e2de | fbba b2ag |
+fedf e2dB | AF~F2 ABde | fedf edBA | B2BA Bc :|
+|: de | faab afef | dBAB d2de | fbba b2ag | fedf e2de |
+faab afef | dBAB dcde | fedB edBA | B2BA Bc :|
+
+X:115
+T:Planxty Joe Burke
+R:hornpipe
+C:Charlie Lennon
+H:Originally in G
+Z:id:hn-hornpipe-115
+M:C|
+L:1/8
+K:D
+DEFG Adcd | Gdcd Fdcd | DEFG Adcd | gfed ceag |
+fefg afdA | Gdcd Fdcd | cdcd fedc |1 dAFA D4 :|2 dAFA D2 ag ||
+|: fg (3agf bagf | ef (3gfe agfe | defd gfed | caec AGFE |
+DEFG Adcd | Gdcd Fdcd | cdcd fedc |1 dAFA D2ag :|2 dAFA D4 || 
+
+X:116
+T:Staten Island
+R:hornpipe
+H:Also played as a reel. 2nd part cf. "Mrs. Crotty's" #155
+Z:id:hn-hornpipe-116
+M:C|
+L:1/8
+K:D
+AG | FDFG A2Bc | dfec dcBA | B2GB A2FA | GEED E2AG |
+FDFG A2Bc | dfec dcBA | d2cd efge |1 f2d2 d2 :|2 f2d2 defg ||
+|: a2fa gfeg | fedf ecAB | =c2c2 efge | =c2c2 efge |
+a2fa gfeg | fedf ecAc | d2cd efge |1 f2d2 defg :|2 f2d2 d2 ||
+P:variations
+|: AF | DEFG A2FA | dfec dcBA | B2GB AFDF | G2E2 E2AF |
+DEFG A2FA | dfec dcBA | d2 (3Bcd efge |1 fddc d2 :|2 fddc defg ||
+|: agfa g2eg | fedf ecAB | =cBcd efge | =cBcd efge |
+agfa g2eg | fedf ecAB | d2 (3Bcd efge |1 fddc defg :|2 fddc d2 ||
+
+X:117
+T:Cuckoo, The
+R:hornpipe
+Z:id:hn-hornpipe-117
+M:C|
+L:1/8
+K:G
+dc | BABd cBcA | d2ge dBGF | EccB AGFG | (3ABA (3GFE D2dc |
+BABd cBcA | d2ge dBGF | EccB AGFG | (3ABA GF G2 :|
+|: ga | bg~g2 dgBg | bg~g2 dgBg | c'a~a2 eaca | c'a~a2 eaca |
+bg~g2 dgBg | bg~g2 dgBg | (3aba (3gag (3fgf (3efe | (3ded (3cdc B2 :|
+P:variations
+|: dc | BGDG cAFA | d^cde dBGF | EcBc AGFG | (3ABA (3GFE DCB,D |
+BGDG cAFA | d^cde dBGF | EccB AGFG | ADFA G2 :|
+|: ga | bg~g2 dgBg | bg~g2 dgBg | c'a~a2 eaca | c'a~a2 eaca |
+bg~g2 dgBg | bg~g2 dgBg | a2 (3gag (3fgf (3efe | (3ded (3cdc B2 :|
+P:more variations
+|: dc | B2Bd c2ce | d2 (3gfe dBGF | EccB AGFG | (3ABA (3GFE Dedc |
+BABd cBce | dgge dBGF | EccB AGFG | (3ABA GF G2 :|
+|: ga | bgfg dgBg | bgfg dgab | c'a^ga eaca | c'a^ga eaca |
+bgfg dgBg | bgfg dgBg | a2 (3gag (3fgf (3efe | decd B2 :|
+
+X:118
+T:Fisher's
+T:Fisher's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-118
+M:C|
+L:1/8
+K:D
+(3ABc | dAFA GBAG | FDFA GBAG | FDFA GBAG | FDDF E2 (3ABc |
+dAFA GBAG | FDFA GBAG | FGAB cdec | d2f2 d2 :|
+|: cd | ecAc efge | fdAd fagf | ecAc efgf | edcB A2dc |
+BGDG BdcB | AFDF A2FA | BdcB cdec | d2f2 d2 :|
+
+X:119
+T:McGivney's Favourite
+T:McGivney's Fancy
+T:Jackie Tar
+T:Jacky Tar
+R:hornpipe
+H:See also #38
+Z:id:hn-hornpipe-119
+M:C|
+L:1/8
+K:Em
+(3Bcd | e2ef ~e3f | edBA B2AB | d2de d2gd | edBG AdBA |
+GFGA Bgfg | edBd efg2 | EFGA BcBA | G2E2 E2 :|
+|: GA | BGEG BGEG | BGAF E2FG | AFDF AFDF | AFGE D2 (3DEF |
+GFGA Bgfg | edBd efg2 | EFGA BcBA | G2E2 E2 :|
+
+X:120
+T:Bird's Hornpipe, The
+R:hornpipe
+Z:id:hn-hornpipe-120
+M:C|
+L:1/8
+K:Ador
+ce | ~g3a gecG | cega g2eg | a2ab agec | ageg a2ba |
+~g3e d2ed | cdeg a2ag | (3efg ed cAdc |1 A2 (3GAB AB :|2 A2 (3GAB A2ed ||
+|: cAAG AcBA | GEDE G2AB | cAAG A2cd | eg~g2 aged |
+cAAG AcBA | GEDE G2EG | ~A3c BAGB |1 A2 (3GAB A2ed :|2 A2 (3GAB A2 || 
+
+X:121
+T:Seanbhean Bhocht
+T:An tSeanbhean Bhocht
+T:Bonaparte Crossing the Alps
+R:hornpipe
+H:Cf "Toomgraney Castle" #88
+Z:id:hn-hornpipe-121
+M:C|
+L:1/8
+K:Ador
+ed | cABG AcBA | GEDE G2Bd | (3efg fa gedc | B2G2 G2ed |
+cABG AcBA | GEDE G2Bd | (3efg fa gedB | B2A2 A2 :|
+|: (3efg | agab agef | gedB G2ef | gfga gfef | gedB GBAG |
+E2A2 AcBA | GEDE G2Bd | (3efg fa gedB | B2A2 A2 :|
+
+X:122
+T:Strand Hornpipe, The
+T:Lass on the Strand, The
+R:hornpipe
+D:D\'onal Murphy: Happy Hour
+Z:id:hn-hornpipe-122
+M:C|
+L:1/8
+K:G
+ga | bgdB GBdg | fecA E2FE | DdcA FDEF | GABc d2ga |
+bgdB GBdg | fecA E2FE | DdcA FDEF | G2B2 G2 :|
+|: AG | FGAB cDEF | GABc d2AG | FGAB cDEF | GABc d2ga |
+bgdB GBdg | fecA E2FE | DdcA FDEF | G2B2 G2 :|
+P:variations
+|: ga | bgdB GBdg | fecA E2 (3gfe | dcAF DFAF | GABc dfga |
+bgdB GBdg | fecA E2 (3gfe | dcAF DFAF | G2 (3FGA G2 :|
+|: AG | FGAB cAFA | GABc d2BG | FGAB cBcA | GABc dfga |
+bgdB GBdg | fecA E2 (3gfe | dcAF DFAF | G2 (3FGA G2 :|
+
+X:123
+T:City Of Savannah, The
+R:hornpipe
+C:Frank Livingston
+D:Matt Molloy: Stony Steps
+Z:id:hn-hornpipe-123
+M:C|
+L:1/8
+K:D
+dB | ADFA dfaf | gaba gfed | cded cdBc | (3ABA ^GA =GAFG |
+ADFA dfaf | gaba gfed | cdBc ABGA | FABc d2 :|
+|: zf | e2ce aec'e | be^ge aec'e | fece aec'e | ^gbe^g a2ba |
+~a2^ga =geca | ~a2^ga fdA2 | (3gag A2 (3fgf A2 | (3efe (3ABc d2 :| 
+
+X:124
+T:Hawk, The
+R:hornpipe
+C:James Hill (1811-1853), Northumberland
+H:Originally in E
+Z:id:hn-hornpipe-124
+M:C|
+L:1/8
+K:D
+(3ABc | d2fd Adfe | dfeg fagf | e2ge Begf | (3efe (3dcB ABcA |
+d2fd Adfe | dfeg fagf | edef gABc | dAfe d2 :|
+|: (3AAA | Aafd Agec | Afdc dcBA | BAcB dced | fegf e2ef |
+gafg efde | caBg AfGe | cdef gABc | dAfe d2 :|
+
+X:125
+T:Flowers of Antrim, The
+T:McDermott's
+R:hornpipe
+H:See also The Sligo Fancy, #126
+Z:id:hn-hornpipe-125
+M:C|
+L:1/8
+K:D
+|: fe | dcdA FABA | GFGE C2ED | CDEF GABc | (3dfe (3dcB A2fe |
+dcdA FABA | GFGE C2ED | CDEF GABc |1 d2f2 d2 :|2 d2f2 d2 ||
+|: AG | FAdA FAdA | FAdB A2GF | E=c~c2 E=c~c2 | E=c~c2 ABAG |
+FAdA FAdA | FAdA G2FG | Eeed cABc |1 d2f2 d2 :|2 d2f2 d2 ||
+
+X:126
+T:Sligo Fancy, The
+R:hornpipe
+H:See also The Flowers of Antrim, #125
+Z:id:hn-hornpipe-126
+M:C|
+L:1/8
+K:G
+ba | gfge B2ed | cBcA E2AG | FGAB cdef | (3gba (3gfe d2ba | 
+gfge B2ed | cBcA E2AG | FGAB cdef | g2b2 g2 :|
+|: Bc | dBgB dgBc | dBgB d2cB | cAfA cfAB | (3cBA fA c2Bc |
+dBgB dgBc | dBgB d2cB | cAag fdef | g2b2 g2 :| 
+
+X:127
+T:Eleanor Neary's
+R:hornpipe
+D:De Dannan: Ballroom
+D:Kathleen Collins: My Book of Songs
+Z:id:hn-hornpipe-127
+M:C|
+L:1/8
+K:A
+AB | cBcd cBAG | FCFG AGAB | cB (3ABc fecA | BcAF E2AB |
+cBcd cBAG | FCFG Aagf | ecdB cABG | A2GB A2 :|
+|: ED | CA,CE FDFA | (3GFE BG AGAB | cBAc fedc | BcAF E2ED |
+CA,CE FDFA | (3GAB (3EFG Aagf | ecdB cABG | A2GB A2 :|
+P:variations
+|: AB | c3d cBAG | FCFG AGAB | cB (3ABc fcec | (3BcB AF E2AB |
+~c3d cBAG | FCFG Aagf | ecdB (3cde BG | A2AG A2 :|
+|: ED | C3E F3A | (3GAB (3EFG AGAB | cBAc dcdc | (3BcB AF ECDB, |
+(3CBA, CE FDFA | (3GFE BG Aagf | ecdB (3cde BG | A2AG A2 :|
+
+X:128
+T:Sailor's Hornpipe, The
+T:College Hornpipe, The
+R:hornpipe
+H:Standard English version. See also #111
+Z:id:hn-hornpipe-128
+M:C|
+L:1/8
+K:G
+gf | g2G2 G2dc | Bdgf gabg | a2A2 A2ag | fed^c d2ef |
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2 G2 :|
+|: dc | Bdgd Bdgd | e2c2 c2ed | ^ceae ^ceae | f2d2 d2ef |
+gfed edcB | cBAG GFED | EGFA GBAc | B2G2 G2 :|
+
+X:129
+T:Kohler's Hornpipe
+R:hornpipe
+H:See also #110
+B:Kohlers Repository
+Z:id:hn-hornpipe-129
+M:C|
+L:1/8
+K:C
+(3GAB | cBcd cdef | g^fga gedc | AGAB cdcA | GEcA GECE | 
+FEFG AGAB | cBcd egag | fedc AcBd | edcB c2 :| 
+|: gf | egcg egcg | dgBg dgBg | ceAe ceAe | GcEc GcEc | 
+FEFG AGAB | cBcd egag | fedc AcBd | edcB c2 :| 
+
+X:130
+T:Blackbird, The
+T:An Londubh
+R:hornpipe
+H:See also set dance#6
+H:Version 2 has taken the first part from hornpipe#139 "The Stranger"
+D:Mick O'Brien and Caoimhin O'Raghallaigh: Kitty Lie Over 
+D:Angelina Carberry and Martin Quinn
+Z:id:hn-hornpipe-130
+M:C|
+L:1/8
+K:D
+GA | B3d A2Bc | d2AG F2DE | FGAF GBAG | F2D2 DFGA |
+~B3d A2Bc | d2AG F2D2 | FGAF GBAG | F2D2 DE ||
+|: FG | Addc dfeg | fded cAGB | Addc deag | f2d2 d2fe |
+dcAF GABc | d2AG F2D2 | FGAF GBAG |1 F2D2 DE :|2 F2D2 DF ||
+P:version 2
+K:Dmix
+|: dc | B2BG A2 (3ABc | dcAF G2FG | AFDE FAGE | DEFG Aedc |
+B2BG A2 (3ABc | dcAF G2FG | AFDE FAGE | D2DC D2 :|
+|: (3EFG | Add^c d2 (3efg | fded =cAGB | Add^c dfag | f2d2 d2 (3gfe |
+d=cAF G2 (3AB^c | d2AG FADE | FGAF GBAG | F2D2 D2 :|
+
+X:131
+T:Kildare Fancy, The
+R:hornpipe
+D:Nathan Gourley and Joey Abarta: Copley Street
+Z:id:hn-hornpipe-131
+M:C|
+L:1/8
+K:D
+dB | AFDF AFdB | (3ABA FA fedc | BGBd gefd | edcB A2dB |
+AFDF AFdB | (3ABA FA fedc | BGBd gefd | ec (3ABc d2 :|
+|: de | fdcd (3Bcd AF | Ddcd fdcd | eA~A2 fA~A2 | (3efe (3dcB A2de |
+fdcd BdAF | Ddcd fdcd | eAfA gAfA | ec (3ABc d2 :| 
+P:variations
+|: dB | AFDF AFdB | (3ABA FA fedc | BGBd (3gfe fd | (3efe (3dcB A2dB |
+AFDF AFdB | (3ABA FA fedc | BGBd (3gfe fd | ec (3ABc d2 :|
+|: de | fdcd (3Bcd AF | DFAd fd (3Bcd | eA~A2 fA~A2 | (3efe (3dcB A2de |
+fdcd (3Bcd AF | DFAd fd (3Bcd | eAfA gAfA | (3efe (3ABc d2 :| 
+
+X:132
+T:Ebb Tide, The
+T:Neap Tide, The
+R:hornpipe
+D:Tommy Keane & Jacqueline McCarthy: The Wind among the Reeds
+Z:id:hn-hornpipe-132
+M:C|
+L:1/8
+K:G
+dc | BdAB GABc | d2G2 G2bg | fdcA BcdB | cABG =F2dc |
+B2AB GABc | defd g2 (3efg | fdcB cAdc | BdG2 G2 :|
+|: ga | bgdB gdBG | DGBd gdbg | aAcA =fAcA | D=FcF dFcF |
+BdAB GABc | defd g2 (3efg | fdcB cAdc | BdG2 G2 :|
+
+X:133
+T:Honeysuckle Hornpipe, The
+R:hornpipe
+D:Matt Cunningham
+Z:id:hn-hornpipe-133
+M:C|
+L:1/8
+K:D
+(3ABc | d2cA (3Bcd AF | DFAF GBAG | FAdA FAdf | (3efe (3dcB AB (3cBA |
+d2cA (3Bcd AF | DFAF GBAG | FAdB AGFE | FAD2 D2 :|
+|: (3ABc | dcde fdec | defg a2af | geeg fddf | edcB AB (3cBA |
+d2cA (3Bcd AF | DFAF GBAG | FAdB AGFE | F2D2 D2 :|
+P:variations
+|: (3ABc | d2cA BdAF | DFAF GBAG | FAdA FAdf | edcB ABcA |
+d2cd BdAF | DFAF GBAG | FAdB AGFE | D2CE D2 :|
+A2 | d3e fAeA | defg a2fa | gfeg fedf | edcB AB (3cBA |
+d2cA (3Bcd AF | DFAF GBAG | FAdB (3ABA (3GFE | F2D2 D2 ||
+FA | d2de fafe | defg abaf | gfeg fedf | edcB ABcA |
+d2cA (3Bcd AF | DFAF GBAG | (3FGA dB AGFE | D2CE D2 ||
+
+X:134
+T:Kilcooley Wood
+R:hornpipe
+C:Sean Ryan (-1985)
+Z:id:hn-hornpipe-134
+M:C|
+L:1/8
+K:G
+GE | DGGA BGcA | BGAF GABc | dg~g2 fgag | fdcA (3Bcd AF |
+DGGA BGcA | BGAF GABc | dg~g2 fdcA |1 (3Bcd AF G2 :|2 (3Bcd AF GA ||
+|: Bc | dg~g2 fgaf | dgga bgaf | defg abag | fdcA BGAF |
+DGGA BGcA | BGAF GABc | dg~g2 fdcA |1 (3Bcd AF GA :|2 (3Bcd AF G2 ||
+
+X:135
+T:Blackbird, The
+R:hornpipe
+D:Padraig McGovern & Peter Carberry: Forgotten Gems
+Z:id:hn-hornpipe-135
+M:C|
+L:1/8
+K:D
+fe | dcAF GFD2 | (3EFG AB =cBcA | d2AF GBAG | F2D2 D2 (3ABc |
+d2AF GFD2 | (3EFG AB =c3A | d2AF GBAG | FAD2 D2 :|
+|: zA | d2 (3efg adfa | gfga gfdA | defg abag | (3fgf d2 d2 (3efg |
+ag (3fga g2fe | dcde fd (3efe | dcAF GBAG | F2D2 D2 :|
+|: zE | DEFG AB (3=cBA | d^cde dcAF | D2 (3EFG AdAG | (3FGF D2 D2AF |
+D2 (3EFG AB=cA | d^cdg fd (3efe | dcAF GBAG | F2D2 D2 :|
+
+X:136
+T:Wonder, The
+R:hornpipe
+C:James Hill (1811-1853), Northumberland
+H:Originally written in Bb
+D:De Danann
+D:Dubliners
+D:Dan\'u
+Z:id:hn-hornpipe-136
+M:C|
+L:1/8
+K:G
+(3DEF | GdBG FcAF | GABG D2GF | EGAB cBAG | Fd~d2 edcA |
+GdBG FcAF | GABG D2GF | Eedc BAGF | A2G2 G2 :|
+|: AG | FAd^c dBAG | FAd^c dfed | ^cdef gece | d^cde d2=c2 |
+BcBA ^GBe2 | ABA=G FAd2 | egfe (3ded (3cBA | GgdB G2 :|
+P:variations
+|: (3DEF | GdBG FcAF | (3GFG BG D2GF | EGAB cBAG | FAd^c ed (3=cBA |
+GdBG FcAF | (3GFG BG D2GF | Eedc BAGF | AGGF G2 :|
+|: FG | Add^c dBAG | FAd^c dfed | ^cdef gece | d^cde d2=c2 |
+BcBA ^GBe2 | ABA=G FAd2 | (3efg fe dcBA | (3GFG BA G2 :|
+
+X:137
+T:An P\'aist\'in Fionn
+R:hornpipe
+H:See also slow air#19
+D:Jackie Daly and Kevin Burke: Eavesdropper
+D:L\'unasa: The Merry Sisters of Fate
+Z:id:hn-hornpipe-137
+M:C|
+L:1/8
+K:Edor
+(3Bcd | egfe de (3fed | gbag f2gf | efed BAGA | BdcA B2 (3Bcd |
+egfe defd | gbag f2gf | efed BAFB |1 E2ED E2 :|2 E2ED E2 ||
+|: EF | GABc dBBd | cAAc dBBA | GABc dBBA | Beed e2EF |
+GABc dBBA | Beef g2gf | efed BAFB |1 E2ED E2EF :|2 E2ED E2 || 
+
+X:138
+T:Groves Hornpipe, The
+R:hornpipe
+D:Matt Molloy
+D:Seamus Ennis
+Z:id:hn-hornpipe-138
+M:C|
+L:1/8
+K:G
+BA | G2GF GABc | dGBG AFDE | ~F3E FGAB | cd (3gfe dcAF |
+G2GF GABc | dGBG AGFD | dfeg fdcA | A2G2 G2 :|
+|: zA | B2BA Bcde | fdcA AF~F2 | DF~F2 AF~F2 | ABcA BG~G2 |
+B2BA Bcde | (3fed cA dBcA | dfeg fdcA | A2G2 G2 :|
+|: (3ABc | dggf g2fg | abag fgfe | d^cde fefg | abag fgfe |
+dggf g2fg | abag fgfe | d^cde fdcA | A2G2 G2 :|
+|: dB | Gd (3Bcd Gd (3Bcd | Fc (3ABc Fc (3ABc | Gd (3Bcd GdBc | d^cde fdcA |
+Gd (3Bcd Gd (3Bcd | Fc (3ABc Fc (3ABc | dfeg fdcA | A2G2 G2 :|
+|: Bd | gd (3Bcd gd (3Bcd | fc (3ABc fc (3ABc | gd (3Bcd gd (3Bcd | AG (3ABc AD (3FGA |
+dedB cecA | (3BcB GB ADFA | dfeg fdcA | A2G2 G2 :| 
+P:variations
+|: GE | DGGF GABc | dGBG AGFD | ~F3E FGAB | cdfe (3ded (3cBA |
+GBAF GABc | dGBG AGFD | dfeg fdcA | AGGF G2 :|
+|: GA | B2BA Bcde | fdcd AF~F2 | DF~F2 AF~F2 | ABcA BGGA |
+B2GA Bcde | fdcA dBcA | d2 (3efg fdcA |1 AGGF G2 :|2 AGGF GA ||
+|: Bc | dggf g2fg | abag ~f3e | d^cde ~f3g | abag (3fga e^c |
+dggf g2fg | abag (3fga e^c | df (3efg fdcA | AGGF G2 :|
+|: dB | Gd (3Bcd Gd (3Bcd | Fc (3ABc Fc (3ABc | Gd (3Bcd GdBc | d^cde fdcA |
+Gd (3Bcd Gd (3Bcd | Fc (3ABc Fc (3ABc | dfeg fdcA | AGGF G2 :|
+|: Bd | gd (3Bcd gd (3Bcd | fc (3ABc fc (3ABc | gd (3Bcd gd (3Bcd | AGAB ADFA |
+dedB (3cde cA | (3Bcd BG ADFA | df (3efg fdcA | AGGF G2 :| 
+
+X:139
+T:Stranger, The
+T:Boys of Ballysimon, The
+T:Boys from Ballysimon, The
+T:Poll Halpenny
+R:hornpipe
+S:Recording of Elizabeth Crotty
+H:See also "The Blackbird", #130
+B:O'Neill's
+B:The Dance Music of Willie Clancy
+D:Martin O'Connor
+Z:id:hn-hornpipe-139
+M:C|
+L:1/8
+K:Dmix
+dc | B2BG A2 (3ABc | dcAF G2FG | AFDD FAGF | DEFG A2dc |
+B2BG A2 (3ABc | dcAF G2FG | AFDD FAGF | D2D2 D2 :|
+FG | Adde f2 (3efe | dcAF A2FG | Adde f2 (3efe | d2d2 d2FG |
+Adde f2 (3efe | dcAF G2FG | AFDD FAGF | D2D2 D2FG |
+Adde f2 (3efe | dcAF A2FG | Adde f2ed | cdec defg |
+afge (3fed ed | dcAF G2FG | AFDD FAGF | D2D2 D2 ||
+P:version 2
+K:D
+|: (3dcA | B2 (3BAG A2 (3ABc | (3dcA (3AGF G2 (3EFG | AFDE FAGE | DEFG A2dc |
+(3BcB (3BAG A2 (3ABc | dcAF G2 (3EFG | AFDE FAGE | D2D2 D2 :|
+|: (3EFG | Adde f2ef | dcAG A2 (3EFG | Adde f2ef | gfef d2 (3efg |
+af (3gfe fdec | dcAG A2 (3EFG | AFDE FAGE | D2D2 D2 :|
+
+X:140
+T:Friendly Visit, The
+R:hornpipe
+D:Paul McGrattan
+Z:id:hn-hornpipe-140
+M:C|
+L:1/8
+K:G
+BA | G2DG BG (3Bcd | c2AB cdef | g2dg ecAG | FGAB cAFA |
+G2DG BG (3Bcd | c2AB cdef | gdBG FAdc | B2G2 G2 :|
+|: (3def | g2dB GBdg | (3efe cA E3g | (3fgf ed ^cdeg | (3fgf (3efe dcBA |
+G2DG BG (3Bcd | c2AB cdef | gdBG FAdc | B2G2 G2 :| 
+
+X:141
+T:McMahon's Hornpipe
+R:hornpipe
+C:Sean Ryan (-1985)
+S:Recording of Eddie Clarke from Miltown Malbay 1984
+D:Matt Cunningham
+Z:id:hn-hornpipe-141
+M:C|
+L:1/8
+K:G
+DGBG cGBG | DGBd gfga | bg~g2 egdB | cBAG FGEF |
+DGBG cGBG | DGBd gfga | bg~g2 egdB |1 cAFA G2DD :|2 cAFA G2ga ||
+|: bggb agef | gfgd edBd | eB~B2 eBgB | eB~B2 AGEG |
+DGBG cGBG | DGBd gfga | bg~g2 egdB |1 cAFA G2ga :|2 cAFA G2DD || 
+P:variations
+|: DGBG cGBG | DGBd ~g3a | bg~g2 egdB | cBAG FD (3DEF |
+GABG cGBG | DGBd ~g3a | bg~g2 egdB |1 cAFA G2 (3GFE :|2 cAFA G2ga ||
+|: bg~g2 agef | gagd edBd | eB~B2 efgf | edcB AG (3EFG |
+DGBG cGBG | DGBd gfga | bg~g2 egdB |1 cAFA G2ga :|2 cAFA G2 (3GFE || 
+
+X:142
+T:Cliff Hornpipe, The
+T:Higgin's Hornpipe
+R:hornpipe
+C:James Hill (1811-1853), Northumberland
+D:Leo Rowsome: Classics of Irish Piping
+Z:id:hn-hornpipe-142
+M:C|
+L:1/8
+K:D
+DFAF GABG | FAde fdAF | GBeg fedc | (3efe (3dcB (3ABA (3GFE |
+DFAF GABG | FAde fdAF | GBeg fedc |1 (3efe d2 d2AF :|2 (3efe d2 d2fd ||
+|: eA~A2 Agfg | eA~A2 A2ef | (3gag (3fgf edcd | (3efe (3dcB (3ABA (3GFE |
+DFAF GABG | FAde fdAF | GBeg fedc |1 (3efe d2 d2fd :|2 (3efe d2 d2AF ||
+P:variations
+|: DFAF EGBG | FAde fdAF | GBeg FAdf | (3efe (3dcB (3ABA (3GFE |
+DFAF EGBG | FAde fdAF | GBeg fedc |1 eddc d2AF :|2 eddc defd ||
+|: eA~A2 eAfA | eAAG A2ef | gefd edcd | (3efe (3dcB (3ABA (3GFE |
+DFAF EGBG | FAde fdAF | GBeg fedc |1 eddc defd :|2 eddc d2AF ||
+P:version 2
+|: DFAF DGBG | FAde fdAF | GBef g2gf | edcB (3AGF (3GFE |
+DFAF DGBG | FAde fdAF | GBef gecd |1 eddc d2 (3AGF :|2 eddc d3f ||
+|: eABA E2ef | g2fg eABA | E2ef gfgf | edcB (3AGF (3GFE |
+DFAF DGBG | FAde fdAF | GBef gecd |1 eddc d3f :|2 eddc d2 (3AGF ||
+
+X:143
+T:Quarrelsome Piper, The
+R:hornpipe
+Z:id:hn-hornpipe-143
+M:C|
+L:1/8
+K:G
+(3DEF | (3GAG (3FGF (3EFE D2 | BAGB AGEF | GBdg ecAF | Ggfe (3ded (3cBA |
+(3GAG (3FGF (3EFE D2 | BAGB AGEF | GBdg ecAF | GBAF G2 :|
+|: (3Bcd | eB~B2 gB~B2 | eBgB eB~B2 | dA~A2 fA~A2 | dgfe (3ded (3cBA |
+(3GAG (3FGF (3EFE D2 | BAGB AGEF | GBdg ecAF | GBAF G2 :| 
+
+X:144
+T:Miss Thompson's
+R:hornpipe
+C:Errington Thompson, Northumberland, England
+D:Sharon Shannon
+D:Battlefield Band: Home Is Where the Van Is
+O:England
+Z:id:hn-hornpipe-144
+M:C|
+L:1/8
+K:D
+(3ABc | d2df edcB | A2AB AGFE | DFAF DGBG | DFAF GFED |
+d2df edcB | A2AB AGFE | DFAd fedc | d2dc d2 :|
+|: cd | ecec Acec | fdfd Adfd | gege fdfd | edcB A2A2 |
+B2BG DGBG | AFAF DFAG | FAde fedc | d2dc d2 :|
+
+X:145
+T:Liverpool Hornpipe, The
+R:hornpipe
+H:Also in G, #148
+Z:id:hn-hornpipe-145
+M:C|
+L:1/8
+K:D
+DE | FDFA dfaf | gfec dcBA | GBGB FAFA | EDEF GFED |
+FDFA dfaf | gfec dcBA | dfaf bgec | d2dc d2 :|
+|: (3ABc | dfdf cece | BABc dcBA | GBGB FAFA | EDEF GFED |
+FDFA dfaf | gfec dcBA | dfaf bgec | d2dc d2 :| 
+P:variations
+|: AG | (3FED FA dfaf | ~g3e dcBA | G2BG F2AF | EDEF GBAG |
+FDFA dfaf | gfec dcBA | dfaf bgec | d2d2 d2 :|
+|: (3ABc | d2fd c2ec | ~B3c dcBA | GABG FGAF | ~E3F GBAG |
+FDFA dfaf | gfec dcBA | dfaf bgec | d2d2 d2 :| 
+
+X:146
+T:Johnston's Hornpipe
+R:hornpipe
+H:Four-part version. See #91 for three-part version.
+Z:id:hn-hornpipe-146
+M:C|
+K:D
+dB |: AFdA ^GdB^G | AFdA ^GdB^G | ABcB AGFG | AGFG EFG^G |
+AFdA ^GdB^G | AFdA ^GdB^G | ABcB AGFG |1 ~E3F DEFG :|2 ~E3F D2 ||
+|: dc | Bcde fdBf | gfeg fdBd | (3ccc F2 (3ccc F2 | cF^Ac fedc |
+Bcde fdBf | gfeg fdBd | (3ccc FF cF^Ac | fedc B2 :|
+|: FG | Adfe dcBA | GBeB gfed | cec'b agfe | (3fgf (3efe d2FG |
+Adfe dcBA | GBeB gfed | cec'b agfe | (3dfa (3d'af d2 :|
+|: (3abc' | d'2ad' (3dfa d'a | (3bc'b gb e2c'b | (3aba ge cABc | defa ^gabc' |
+d'2ad' (3dfa d'a | (3bc'b gb e2c'b | (3aba ge cABc | d2dc d2 :|
+
+X:147
+T:Harvest Home
+R:hornpipe
+H:Usually played in D, #44. This is Mrs. Crotty's version.
+D:Edel Fox
+Z:id:hn-hornpipe-147
+M:C|
+L:1/8
+K:G
+BdGd BdGd | gbaf gfed  | eaab c'abg | (3aba (3gfe dcBA |
+BdGd BdGd | gbaf gfed | (3efg ab c'afa |1 g2gf gedc :|2 g2gf g2fg ||
+|: addd eddd | c'ddd eddd | eaab c'abg | (3aba (3gfe dcBA |
+BdGd BdGd | gbaf gfed | eaab c'afa |1 g2gf g2 (3efg :|2 g2gf gedc :|
+
+X:148
+T:Liverpool Hornpipe, The
+R:hornpipe
+H:Usually played in D, #145.  This is Mrs. Crotty's version.
+D:Edel Fox
+Z:id:hn-hornpipe-148
+M:C|
+L:1/8
+K:G
+dc | BGBd g2ab | c'd'c'a gedB | c2ec B2dB | AGAB cedc |
+BGBd g2ab | c'd'c'a gedc | BdBd c'afa |1 g2gf ge :|2 g2gf g2 ||
+|: de | g2gg f2ff | edef gedB | c2ec B2dB | AGAB cedc |
+BGBd g2ab | c'd'c'a gedc | BdBd c'afa |1 g2gf g2 :|2 g2gf ge ||
+
+X:149
+T:Thomond Bridge
+R:hornpipe
+H:Also played in G or in F
+Z:id:hn-hornpipe-149
+M:C|
+L:1/8
+K:D
+(3ABc | dBAF GBAG | F2D2 D2de | fedc dfed | c2A2 A3F |
+(3GBd g2 (3FAd f2 | (3EGB e2 (3DFA d2 | cdef gece | d2dc d2 :|
+|: AG | FdAd FdAd | fedc BAGF | Ee~e2 Be~e2 | gfed cBAG |
+FdAd FdAd | fedc BAGF | GBAG FEDC | E2D2 D2 :| 
+P:variations
+(3ABc | dBAF GBAG | F2D2 D2de | fedc dfed | c2A2 A3F |
+GBdg FAdf | EGBe DFAd | cdef gece | d2dc d2 :|
+|: AG | Fd~d2 Ad~d2 | fedc BAGF | EeBe GeBe | gfed cBAG |
+Fd~d2 AdFd | fedc BAGF | GBAG FEDC | E2D2 D2 :| 
+
+X:150
+T:An Spailp\'in F\'anach
+R:hornpipe
+H:Cf. #14.
+Z:id:hn-hornpipe-150
+M:C|
+L:1/8
+K:G
+gf | efed B2BA | GABG E2EF | G2GF GABc | dedc B2gf |
+efed BcBA | GABG E3G | FGAF DEFA | G2GF G2 :|
+|: GA | Bdef g2fg | agfe d2Bd | edef gfed | e2f2 g2fg |
+efed BcBA | GABG E3G | FGAF DEFA | G2GF G2 :|
+
+X:151
+T:Flaherty's
+R:hornpipe
+Z:id:hn-hornpipe-151
+M:C|
+L:1/8
+K:D
+FG | A2FD A,DFA | dced BcdB | A2FD A,DFA | BAGF EFG^G |
+A2FD A,DFA | dced BcdB | AdcB AGFE | (3DED CE D2 :|
+|: dc | BABc dcdf | bagf edcB | cEEF GFGB | ec (3dcB A2FG |
+(3ABA FD A,DFA | dced B2dB | AdcB AGFE | (3DED CE D2 :|
+
+X:152
+T:Good Natured Man, The
+T:Steamboat, The
+R:hornpipe
+H:Sometimes attributed to James Hill, but first appears in print in 1831,
+H:so it's improbable that Hill composed it.
+Z:id:hn-hornpipe-152
+M:C|
+L:1/8
+K:G
+(3def | g2bg d2gd | BcdB G2AB | cded cBAG | FGEF D2ef |
+g2bg degd | BcdB GBAB | cded cBAF |1 A2GF G2 :|2 A2GF GABc ||
+|: d^cdB g2gf | edec a2ag | f2fa g2ga | fgaf dfef |
+g2bg d2gd | BcdB GBAB | cded cBAF |1 A2GF GABc :|2 A2GF G2 ||
+
+X:153
+T:Sportsman's Hornpipe, The
+R:hornpipe
+S:Albin Sundin
+Z:id:hn-hornpipe-153
+M:C|
+L:1/8
+K:Ador
+AB | c2cA B2BA | GABc dBGB | cBcA BABG | E2A2 A2AB |
+c2cA B2BA | GABc dBGB | gfge dBAG | E2A2 A2 :|
+|: AG | ABcd efge | afdf edcB | ABcd efge | afdf e2 (3efg |
+a2af g2ge | c2ce dBGB | cBcA BABG | E2A2 A2 :| 
+
+X:154
+T:Fairy Queen, The
+R:hornpipe
+D:Conal O'Grada: The Top of Coom
+Z:id:hn-hornpipe-154
+M:C|
+L:1/8
+K:D
+d2~d2 d2AG | FDFA dAFA | GABG E2ef | gece dcBA |
+df (3edc d2AG | FDFA dAFA | GABG E2ef | gece d3A :|
+|: df~f2 gece | da~a2 ba~a2 | fdAF G2ef | ge~e2 gece |
+df~f2 ~g3a | ba~a2 baag | fdAF G2ef | gece d3A :|
+
+X:155
+T:Mrs. Crotty's
+T:Pooka, The
+R:hornpipe
+H:Also played in C. Cf. 2nd part of "The Arkansas Traveller" reel#1067
+H:and 2nd part of "Staten Island" hornpipe#116.
+D:Jack Talty: In Flow
+Z:id:hn-hornpipe-155
+M:C|
+L:1/8
+K:D
+(3efg | a2fa g2eg | f2df eAce | dcdf efge | fAdf e2 (3efg |
+a2fa g2eg | fadf eAce | dcdf efge |1 f2d2 d2 :|2 f2d2 dfgf ||
+|: edBA B2dB | AGFG ABcA | dcdf efge | fAdf efgf |
+edBA B2dB | AGFG AB (3cBA | d3f edeg |1 f2d2 dfgf :|2 f2d2 d2 ||
+
+X:156
+T:Kit O'Mahoney's
+T:Kit O'Mahony's
+R:hornpipe
+H:Cf. first two parts of jig#392
+D:Nathan Gourley and Joey Abarta: Copley Street
+Z:id:hn-hornpipe-156
+M:C|
+L:1/8
+K:G
+B3G ABAG | (3EFG AB cAFA | BG (3Bcd cAGF | D2G2 G3A |
+~B3G ABAG | (3EFG AB cdeg | ~f3d cAGF |1 D2G2 G3A :|2 D2G2 G2 (3DEF ||
+|: GABc d2g2 | defd cAGF | GABc d2ef | ~g3f d2ef |
+~g3e ~f3d | (3efg ed (3Bcd eg | ~f3d cAGF |1 D2G2 G2 (3DEF :|2 D2G2 G3A ||
+P:variations
+|: BdBG ABAG | FGAB cAFA | BABd cAGF | D2G2 G2GA |
+BdBG ABAG | FGAB cAFe | fefd ecAF |1 D2G2 G2dc :|2 D2G2 G3D ||
+|: GABc d2g2 | defd cAFA | GABc d2ef | gagf d2ef |
+gage fgfd | efed ^cdeg | fefd ecAF |1 D2G2 G2D2 :|2 D2G2 G2dc ||
+
+X:157
+T:Boys of Scart, The
+T:Boys from Scart, The
+R:hornpipe
+S:Aoife N\'i Chaoimh & Paudie O'Connor on Youtube
+Z:id:hn-hornpipe-157
+M:C|
+L:1/8
+K:G
+dc | BGBd BGBd | gfge dBGB | ecdB cABG | E2A2 A2dc |
+BG (3Bcd BG (3Bcd | gfge dBGB | ecdB cABG | D2G2 G2 :|
+|: Bc | dg~g2 dg~g2 | dgba gfed | ea~a2 ea~a2 | eaaf gfef |
+dg~g2 dg~g2 | dgba gfef | dfaf gfef | g2fa g2 :|
+
+X:158
+T:Freddie Kimmel's
+R:hornpipe
+S:Aoife N\'i Chaoimh & Paudie O'Connor on Youtube
+H:Third part cf "Johnston's Hornpipe" #91
+Z:id:hn-hornpipe-158
+M:C|
+L:1/8
+K:D
+AG | FAfe dcBA | GBef gfed | cBAa geBc | (3ded (3cdc (3BcB AG |
+FAfe dcBA | GBef gfed | cBAa geBc | d2 (3cde d2 :|
+|: (3ABc | d2D2 DFAd | B2G2 E3d | (3cdc (3BcB AGFE | DEFG AB (3cBA |
+d2D2 DFAd | B2G2 E3d | (3cdc (3BcB ABce | d2c2 d2 :|
+|: de | f2de f2de | fdad bdad | (3cBA eA fAeA | (3Bcd eg bage |
+f2de f2de | fdad bdad | cdeg bage | d2 (3cde d2 :|
+
+X:159
+T:Across the Fence to the Neighbour's Wife
+T:Across the Fence
+T:Crossing the Fence
+R:hornpipe
+C:Brendan McGlinchey
+D:Dolores Keane & John Faulkner: Broken Hearted I'll Wander
+Z:id:hn-hornpipe-159
+M:C|
+L:1/8
+K:G
+(3DEF | G2BG ABcA | dgge dBGB | c3d BGDB | (3cBA BG AF~F2 |
+GDB,D G,B,DG | BG (3ABc dBGB | dg (3Bcd edcF |1 AGGF G2 :|2 AGGF GBAG ||
+|: (3FED A,D FAcA | BGDG Bcdg | ec~c2 dB~B2 | cAag fdcA |
+DB~B2 Dc~c2 | d^cde dBGB | dg (3Bcd edcF |1 AGGF GBAG :|2 AGGF GABc ||
+|: dg~g2 dgbg | ~g2bg agfg | ea~a2 agfe | ed^ce d2d=c |
+(3Bcd BG (3ABc AF | GDB,D GABc | dg (3Bcd edcF |1 AGGF GABc :|2 AGGF G2 ||
+P:variations
+|: GA | B2BG cBcA | dgge dBGB | cBcd BGDB | BAAG AF~F2 |
+GDBD GABc | dgge dBGB | dG (3Bcd edcF | AGGF G2 :|
+|: AG | FDAD FAcA | BG~G2 DGBg | ec~c2 dB~B2 | cAag fd (3cBA |
+DB~B2 Dc~c2 | d2 (3ed^c dBGB | dg (3Bcd edcF | AGGF G2 :|
+|: Bc | dggf g2bg | ~g2bg agfg | eaag a2ag | fed^c d2d=c |
+(3Bcd BG (3ABc AF | GDBD GABc | dg (3Bcd edcF | AGGF G2 :|
+

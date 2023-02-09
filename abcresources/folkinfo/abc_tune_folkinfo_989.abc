@@ -1,0 +1,28 @@
+%%scale 1
+X:1
+T:Idumea
+C:Charles Wesley
+B:Original Sacred Harp. Denson Rev. 1971
+B:Sacred Harp Publishing Co. Inc. Bremen, Georgia 30110.
+M:3/2
+L:1/4
+Q:150
+V:4 bass
+K:Am
+[V:1] "Treble"c2 | e4 d2 | c4 d2 | e4 e2 | d4 (ed) | e4 (dc) | A4 |]
+w:And I am born to die. To lay this* bo-dy* down
+[V:2] "Alto"A2 | c4 (BA) | G4 G2 | A4 c2 | B4 (AB) | c4 (BG) | c4 |]
+w:And I am* born to die. To lay this* bo-dy* down
+[V:3] "Tenor"A2 | A4 (GA) | c4 (dc) | A4 e2 | g4 (ed) | c4 d2 | e4 |]
+w:And I am* born to* die. To lay this* bo-dy down
+[V:4] "Bass"A,2 | A,4 D,2 | E,4 E,2 | A,,4 A,2 | G,4 (CB,) | A,4 G,2 | E,4 |]
+w:And I am born to die. To lay this* bo-dy down
+%
+[V:1] |: A2 | c4 (cB) | A4 (cd) | e4 (BA) | G4 g2 | e4 (ed) | c4 [d2G2] |1 [e4A4] :|2 [e6A6] |]
+w: And must my* tremb-ling* spir-it* fly In-to a* world un-known?
+[V:2] |: c2 | G4 (AB) | c4 G2 | [c4E4] (Bc) | [d4G4] c2 | c4 (GF) | E4 G2 |1 E4 :|2 E6 |]
+w: And must my* tremb-ling spir-it* fly In-to a* world un-known?
+[V:3] |: e2 | g4 (ed) | e4 (dc) | A4 (GE) | G4 G2 | A4 (GA) | c4 (dc) |1 A4 :|2 A6 |]
+w: And must my* tremb-ling* spir-it* fly In-to a* world un-*known?
+[V:4] |: A,2 | G,4 (A,B,) | A,4 E,2 | A,,4 C,2 | G,4 C,2 | A,,4 (C,D,) | E,4 E,2 |1 A,,4 :|2 A,,6 |]
+w: And must my* tremb-ling spir-it fly In-to a* world un- known?

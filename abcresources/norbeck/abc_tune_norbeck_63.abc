@@ -1,0 +1,599 @@
+This file contains 39 slides and single jigs (#101 - #139).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 26 April 2021.
+
+(c) Copyright 2016-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:slide
+Z:id:hn-%R-%X
+M:6/8
+L:1/8
+
+X:101
+T:no name
+R:slide
+H:Also played in A, #102
+Z:id:hn-slide-101
+M:6/8
+L:1/8
+K:G
+G2E D2E | G2A BAB | d2B A2G | E2A ABA |
+G2E D2E | G2A BAB | d2B ABA |1 G3 G2A :|2 G3 G2g ||
+|: g2f e2d | B2e ege | d2B A2G | E2A ABA |
+[1 g2f e2d | B2e ege | d2B ABA | G3 G2g :|
+[2 G2E D2E | G2A BAB | d2B ABA | G3 G2A ||
+
+X:102
+T:no name
+R:slide
+H:Also played in G, #101
+Z:id:hn-slide-102
+M:6/8
+L:1/8
+K:A
+A2F E2F | A2B cBc | e2c B2A | F2B BcB |
+A2F E2F | A2B cBc | e2c BcB |1 A3 A2B :|2 A3 A2a ||
+|: a2g f2e | c2f faf | e2c B2A | F2B BcB |
+[1 a2g f2e | c2f faf | e2c BcB | A3 A2a :|
+[2 A2F E2F | A2B cBc | e2c BcB | A3 A2B ||
+
+X:103
+T:Gneeveguilla Slide, The
+R:slide
+Z:id:hn-slide-103
+M:6/8
+L:1/8
+K:G
+def |: g2d ded | B2G GFG | ABA DFA | G2B def |
+g2d ded | B2G GFG | ABA DFA |1 G3 G2d :|2 G3 G2B ||
+|: ~d3 e2d | b3 bag | aba e2f | gag edB |
+~d3 e2d | b3 bag | a2g e2f |1 g3 g2e :|2 g2d ||
+
+X:104
+T:Torn Petticoat, The
+R:slide
+H:See also reel#294, reel#570
+Z:id:hn-slide-104
+M:6/8
+L:1/8
+K:Ador
+e2d |: c2A BAG | A2G E2D | EFG A2B | c2d e2d |
+c2A BAG | A2G E2D | EFG A2B |1 A3 e2d :|2 A3 A2B ||
+|: c2d e2f | g2e d2g | e2a a2e | g2e d2B |
+[1 c2d e2f | g2e d2g | e2a a2g | a3 A2B :|
+[2 c2A BAG | A2G E2D | EFG A2B | A3 ||
+
+X:105
+T:Kishkeam Lasses, The
+T:Rural Felicity
+T:Joe Cooley's Delight
+R:slide
+H:See also #133, #134, #17
+Z:id:hn-slide-105
+M:6/8
+L:1/8
+K:D
+d2d dcd | e2E EFG | ~A3 ABG | F2D DFA |
+d2d dcd | e2E EFG | ABA GFE |1 D3 DFA :|2 D3 D2e ||
+|: f2d Ade | faa agf | g2e Bcd | e2f gfe |
+f2d Ade | faa agf | gec Ace |1 d3 d2e :|2 d2e f2e ||
+
+X:106
+T:Farewell to Lissycasey
+T:Paddy Breen's
+R:single jig
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-slide-106
+M:6/8
+L:1/8
+K:G
+G2B G2B | G2B ded | BAB E2D | FAG FED |
+G2B G2B | G2B ded | BAB E2D | FAF G3 :| 
+|: GBd ~g3 | f2e e2d | e2d e2f | e2d BAB | 
+GBd g2g | f2e e2d | BAB E2D | FAF G3 :|  
+
+X:107
+T:Across the Road
+T:Cronin's
+T:Paddy Cronin's
+R:slide
+H:Also played in Edor #137
+D:Catherine McEvoy, Caoimh\'in \'O Raghallaigh & M\'iche\'al \'O Raghallaigh
+Z:id:hn-slide-107
+M:6/8
+L:1/8
+K:Ador
+ABc B2G | A2B c2d | e2A cBA | e2A cBA |
+G2B dBG | A2B c2d | e2A cBA |1 B2A G2B :|2 B2A G2f ||
+|: gag f2g | a2g fed | e2A cBA | e2A cBA |
+gag f2g | a2g fed | e2A cBA |1 B2A G2f :|2 B2A G2B ||
+
+X:108
+T:O'Keeffe's
+R:slide
+H:Also in A, #93
+D:Catherine McEvoy, Caoimh\'in \'O Raghallaigh & M\'iche\'al \'O Raghallaigh
+Z:id:hn-slide-108
+M:6/8
+L:1/8
+K:G
+DEF |: G2e dBG | F2A E2G | FGA DEF | G2B DEF |
+G2e dBG | F2A E2G | FGA DEF |1 G3 G2D :|2 G2A B2c ||
+|: d2B g2B | d2c A2B | cBA ege | d2B G2B |
+d2B g2B | d2c A2g | fed cBA |1 G2A B2c :|2 G3 g3 ||
+|: fed c2e | e2d B2d | fed cBA | G2A B2d |
+fed c2e | e2d B2d | fed cBA |1 G3 g3 :|2 G2d ||
+
+X:109
+T:Dawley's Delight
+T:Scart, The
+R:slide
+D:Catherine McEvoy, Caoimh\'in \'O Raghallaigh & M\'iche\'al \'O Raghallaigh
+Z:id:hn-slide-109
+M:6/8
+L:1/8
+K:D
+dcB | A2D FED | F2A ABA | G2A F2A | E2F G2B |
+A2D FED | F2A d2f | efe B2c | d3 :|
+|: def | a2f a2f | a2f d2f | ebb b2a | b3 baf |
+a2f a2f | fef d2f | efe B2c | d3 :|
+
+X:110
+T:Hop, Skip, Jump! #2
+R:slide
+C:Maire Breathnach
+S:Sharon Shannon, Maire Breatnach, Mary Custy, Siobhan Peoples on Youtube
+Z:id:hn-slide-110
+M:6/8
+L:1/8
+K:D
+D2F A2d | B2A F2E | DFA d2e | f3 fgf |
+e2d B2d | A2F D2E | FED A2F |1 E3 EFE :|2 E3 e2f |
+|: g2f edB | AFA d2e | f2e ede | f2B b2a |
+g2f edB | AFA d2e | fed BAF |1 E3 e2f :|2 E3 EFE ||
+
+X:111
+T:Hop, Skip, Jump! #3
+R:slide
+C:Maire Breathnach
+S:Sharon Shannon, Maire Breatnach, Mary Custy, Siobhan Peoples on Youtube
+Z:id:hn-slide-111
+M:6/8
+L:1/8
+K:E
+B2c efg | b2g f2a | g2f efg | f2e c2e |
+B2c efg | b2g f2a | gfe fec |1 e3 edc :|2 e3 efg ||
+|: f2B b2a | gfe B2e | c2e B2e | A2e GBe |
+f2B b2a | gfe B2e | cBG B2G |1 E3 efg :|2 E3 E3 ||
+
+X:112
+T:Didn't She Dance and Dance
+T:She Didn't Dance and Dance
+R:slide
+H:See also "My Mind Will Never Be Easy", slip jig#52
+Z:id:hn-slide-112
+M:6/8
+L:1/8
+K:Edor
+g2f |: e2d B2A | G2F G2A | Bdd edB | d3 dgf |
+e2d B2A | G2F G3 | efg fed |1 e2f g2f :|2 e3 e2d ||
+Bcd e2f | g2f g2B | BAB d2B | d3 B2A | 
+Bcd e2f | g2f g2a | bag agf | e3 e2d | 
+Bcd e2f | g2f g2B | BAB d2B | d3 g2a | 
+bag agf | gfe fed | efg fed | e2f ||
+
+X:113
+T:Denis Murphy's
+T:Abbey's Green Isle
+R:slide
+H:Also in A, see #127
+D:Dennis Doody
+Z:id:hn-slide-113
+M:6/8
+L:1/8
+K:G
+B3 BAB | d2B G2A | BAB d2B | A3 G2A |
+B2B BAB | d2B G2A | B2e e2d | e3 e2d :|
+|: B2d g2f | g2e dBA | B2d g2f | g3 a3 |
+bag agf | gfe fed | B2e e2d | e3 e2d :|
+P:variations
+|: B3 BAB | dBA G2A | BAB d2B | A2B G2A |
+B2B BAB | dBA G2A | B2e e2d |1 e2g fed :|2 e3 e2d ||
+|: B2g g2f | g2e dBA | B2g g2f | g3 g2a |
+bag agf | g2e fed | B2e e2d |1 e3 e2d :|2 e2g fed ||
+
+X:114
+T:Scattery Island
+R:slide
+H:See also #21
+D:Dennis Doody
+Z:id:hn-slide-114
+M:6/8
+L:1/8
+K:D
+F2A d2f | F2A d2f | e2A cBA | e2A cBA |
+F2A d2f | F2A d2f | e2A cBA |1 f2e d2A :|2 f2e d2f ||
+|: a2d f2e | d3 def | g2f e2d | Bcd efg |
+a2d f2e | d3 def | ged cBA |1 f2e d2f :|2 f2e d2A ||
+
+X:115
+T:Well I Know What Kitty Wants
+R:slide
+S:Buckley Sisters on Youtube
+H:See also polka#19
+D:Dennis Doody
+Z:id:hn-slide-115
+M:6/8
+L:1/8
+K:G
+G2F G2A | B2e ege | d2B BAB | d2B B2A |
+G3 G2A | B2e ege | d2B ABA |1 G3 G2D :|2 G3 G2f ||
+|: g2f e2d | e2f gfe | d2B BAB | d2B B2A |
+g2f e2d | e2f gfe | d2B ABA |1 G3 G2f :|2 G3 G2D ||
+P:variations
+|: G3 G2A | B2g gfe | d2B BAB | d2B ABA |
+G3 G2A | B2g gfe | d2B ABA |1 G3 DEF :|2 G3 GBd ||
+|: g2f e2d | e2f gfe | d2B BAB | d2B BAB |
+g2f e2d | e2f gfe | d2B ABA |1 G3 GBd :|2 G3 DEF ||
+
+X:116
+T:Man From Gleannt\'an, The
+R:slide
+H:Also played in Amix
+D:Dennis Doody
+Z:id:hn-slide-116
+M:6/8
+L:1/8
+K:Gmix
+d2G BAG | d2G BAG | d2G BAG | c2G e2G | 
+d2G BAG | d2G BAG | ded cBA |1 G3 ABc :|2 G3 G2g ||
+|: g2f d2e | f2d c2g | g2f d2e | g2e a2e | 
+g2f d2g | f2d c2e | ded cBA |1 G3 G2g :|2 G3 ABc ||
+
+X:117
+T:Wallop the Cat
+T:Where is the Cat?
+R:slide
+H:Also played in A #118
+Z:id:hn-slide-117
+M:6/8
+L:1/8
+K:G
+DED G2D | E2D G2D | DED G2B | A2G E2D |
+DED G2D | E2D G2A | BdB c2B | A2G E2D :|
+|: BAB d2B | AGE c3 | BAB d2B | A2G E2D |
+B3 d2B | AGE c3 | ege d2B | A2G E2D :|
+P:variations
+|: DED G2D | E2D G2E | DED G2B | ABG E3 |
+DED G2D | E2D G2A | BdB c2B | ABG E2D :|
+|: B3 d2B | AGE c3 | BAB d2B | ABG E2D |
+BAB d2B | AGE c2g | ege d2B | ABG E2D :|
+W:Wallop the cat, he's fine and fat,
+W:wallop the cat from under the table.
+
+X:118
+T:Wallop the Cat
+T:Where is the Cat?
+R:slide
+H:Also played in G #117
+Z:id:hn-slide-118
+M:6/8
+L:1/8
+K:A
+EFE A2E | F2E A2E | EFE A2c | B2A F2E |
+EFE A2E | F2E A2B | cec d2c | B2A F2E :|
+|: cBc e2c | BAF d3 | cBc e2c | B2A F2E |
+c3 e2c | BAF d3 | faf e2c | B2A F2E :|
+P:variations
+|: EFE A2E | F2E A2F | EFE A2c | BcA F3 |
+EFE A2E | F2E A2B | cec d2c | BcA F2E :|
+|: c3 e2c | BAF d3 | cBc e2c | BcA F2E |
+cBc e2c | BAF d2a | faf e2c | BcA F2E :|
+
+X:119
+T:T\'eir Abhaile
+T:Go Home
+T:Behind the Bush in the Garden
+T:Wha'll Be King But Charlie?
+R:slide
+Z:id:hn-slide-119
+M:6/8
+L:1/8
+K:Ador
+c2A AGE | c2A AGE | G2E D2E | GAG EFG |
+A2B c2d | eag e2d | cBA BAG | A3 A2B :|
+|: c2B c2d | efg e2d | c2B c2d | e3 A2B |
+c2B c2d | eag e2d | cBA BAG | A3 A2B :|
+
+X:120
+T:Sergeant Cahill's Favourite
+R:slide
+Z:id:hn-slide-120
+M:6/8
+L:1/8
+K:G
+D2E G2A | B2d dBG | B2B ABA | G2A BGE |
+D2E G2A | B2d dBG | B2B ABA |1 G3 G2E :|2 G3 GBd ||
+|: g2d e2d | g2d e2d | B2B ABA | G2A BGE |
+D2E G2A | B2d dBG | B2B ABA |1 G3 GBd :|2 G3 G2E ||
+
+X:121
+T:No name
+R:slide
+Z:id:hn-slide-121
+M:6/8
+L:1/8
+K:D
+A2A ABc | d2d def | g2e f2d | e2d Bcd |
+A2A ABc | d2e fef | a2f efe |1 d3 dcB :|2 d3 def ||
+|: g2g gfe | f3 fed | e2e efg | a3 d2B |
+A2A ABc | d2e fef | a2f efe |1 d3 def :|2 d3 dcB ||
+
+X:122
+T:No name
+R:slide
+Z:id:hn-slide-122
+M:6/8
+L:1/8
+K:Amix
+e2A ABA | e2f g2f | e2A ABA | Bcd Bcd |
+e2A ABA | e2f g2f | efe dcB | A3 c2d :|
+|: e2a agf | e2f g2f | e2A AGA | Bcd Bcd |
+e2a agf | e2f g2f | efe dcB | A3 c2d :|
+
+X:123
+T:Meentogues Lad, The
+R:slide
+Z:id:hn-slide-123
+M:6/8
+L:1/8
+K:Amix
+A2c e2c | d2f a2f | e2c A2c | B2c dcB |
+A2c e2c | d2f a2f | efe dcB | A3 A3 :|
+|: a3 a2f | g3 gfe | d2f a2f | e3 e2c |
+A2c e2c | d2f a2f | efe dcB | A3 A3 :|
+
+X:124
+T:Hare in the Corn, The
+R:slide
+Z:id:hn-slide-124
+M:6/8
+L:1/8
+K:G
+B2B A2G | BdB AGA | B2e d2B | ABA AGA |
+B3 AGA | BdB AGA | B2e d2B |1 G3 B2A :|2 G3 GBd ||
+|: e3 edB | e2f g2B | BAB d2B | ABA ABd |
+e/f/ge edB | e2f g2B | BAB d2B |1 G3 GBd :|2 G3 B2A ||
+
+X:125
+T:Charming Lovely Nancy
+R:slide
+H:Descended from the schottische/barndance "Maggie Pickens"
+H:/ "The Whole Chicken in the Soup"
+Z:id:hn-slide-125
+M:6/8
+L:1/8
+K:G
+G2E D2E | G2A B3 | cBA BAG | A2G EDE |
+G2E D2E | G2A B3 | d2B ABA | G3 G3 :|
+|: efg d2B | c2e d3 | d2B A2G | E2A ABA |
+[1 efg d2B | c2e d3 | d2B ABA | G3 G3 :|
+[2 G2E D2E | G2A B3 | d2B ABA | G3 G3 ||
+
+X:126
+T:She Hasn't the Thing She Thought She Had
+R:slide
+H:Cf. "The Abbeyfeale Slide" #98
+H:Descended from the song "The Perfect Cure" composed by J. Blewett in the
+H:1850's, which became very popular at the time.
+D:Dan\'u: Ten Thousand Miles
+Z:id:hn-slide-126
+M:6/8
+L:1/8
+K:D
+F2A D2d | c2B A2G | F2A DEF | E3 E2G |
+F2A D2d | c2B A2G | F2A GFE |1 D3 D2E :|2 D3 D2e ||
+|: f2e d2c | Bcd A2d | f2e def | e3 ede |
+f2e d2c | Bcd A2G | F2A E2A |1 D3 D2e :|2 D3 D2E ||
+P:Variations
+|: FGA D2d | c2B A2G | FGA D2F | E3 EDE |
+FGA D2d | c2B A2G | FAF EFE |1 D3 D2E :|2 D3 D2e ||
+|: f2e d2A | BdB AFA | f2e d2f | e3 ede |
+f2e d2c | BdB A2G | FAF EFE |1 D3 D2e :|2 D3 D2E ||
+
+X:127
+T:Abbey's Green Isle
+T:Denis Murphy's
+R:slide
+H:Also in G, see #113
+D:Dennis Doody
+Z:id:hn-slide-127
+M:6/8
+L:1/8
+K:A
+c3 cBc | ecB A2B | cBc e2c | B2c A2B |
+c2c cBc | ecB A2B | c2f f2e | f3 f2e :|
+|: c2a a2g | a2f ecB | c2a a2g | a3 a2b |
+c'ba bag | a2f gfe | c2f f2e | f3 f2e :|
+
+X:128
+T:When The Cock Crows It Is Day
+R:slide
+H:See also #13
+Z:id:hn-slide-128
+M:6/8
+L:1/8
+K:G
+GAB AGE | c2E c2D | GAB AGE | A2D A2D |
+GAB AGE | c2d ege | dBG AGE |1 G3 G2D :|2 G3 GBd ||
+|: g2e dBG | c3 c2d | e/f/ge dBG | A3 ABd |
+g2e dBG | c2d e/f/ge | dBG AGE |1 G3 GBd :|2 G3 G2D ||
+
+X:129
+T:Moss Murphy's
+T:John Joe Hartnett's
+T:John Joe Harnett's
+R:slide
+Z:id:hn-slide-129
+M:6/8
+L:1/8
+K:Ador
+ABA e2d | d2B G3 | ABA e2d | def g2A |
+ABA e2d | d2B G2g | efg e2d |1 B2A EFG :|2 B2A ABd ||
+|: e2d e2f | g2f e2d | Bcd e2f | g2f g2a |
+bag agf | g2f e2d | efg e2d |1 B2A ABd :|2 B2A EFG ||
+
+X:130
+T:John Joe Hartnett's
+R:slide
+Z:id:hn-slide-130
+M:6/8
+L:1/8
+K:G
+GAG G2D | GBd g2e | ded B2A | GAG GED |
+GAG G2D | GBd g2e | ded B2A | G3 G2D :|
+|: G2A B2d | edB g3 | edB g2e | dBG AGE |
+G2A B2d | ~e3 efg | afd def | g3 g2D :|
+
+X:131
+T:John Joe Hartnett's
+R:slide
+D:\'Eamonn O'Riordan & Tony O'Connell: Rooska Hill
+Z:id:hn-slide-131
+M:6/8
+L:1/8
+K:D
+AFA d2B | AFA d2f | ede fed | ede fdB |
+AFA d2B | AFA dB/c/d | ede efe |1 d3 B3 :|2 d3 d2b ||
+|: aba a2g | f/g/af f2e | def gfe | def adf |
+abf a2g | f/g/af f2e | def gfe |1 d3 d2b :|2 d3 B3 ||
+
+X:132
+T:John Joe Hartnett's
+R:slide
+D:\'Eamonn O'Riordan & Tony O'Connell: Rooska Hill
+Z:id:hn-slide-132
+M:6/8
+L:1/8
+K:D
+~A3 BAB | d2e fed | ~e3 fed | e2d B/c/dB |
+AFA BAB | d2e fed | efa fed |1 e3 edB :|2 e3 efg ||
+|: a2f d2e | f2g a2f | b2g b2g | b2g b2g |
+a2f g2e | f2d eB/c/d | ~e3 fed |1 e3 efg :|2 e2d B/c/dB ||
+
+X:133
+T:Kishkeam Lasses, The
+T:Rural Felicity
+R:slide
+H:See also #105, #134, #17
+Z:id:hn-slide-133
+M:6/8
+L:1/8
+K:D
+dcd e2d | c2E EFG | ~A3 ABG | F2D DFA |
+d2d ded | c2E EFG | ABA GFE |1 D3 DFA :|2 D3 D2e ||
+|: f2d d2c | d2f agf | e2A A2c | e2f gfe |
+f2d d2c | d2f agf | e2A ABc |1 d3 d2e :|2 d3 ABc ||
+
+X:134
+T:Kishkeam Lasses, The
+T:Rural Felicity
+R:slide
+H:See also #105, #133, #17
+Z:id:hn-slide-134
+M:6/8
+L:1/8
+K:D
+dcd efd | c2E EFA | ~B3 BAG | F2D D2A |
+dcd efd | c2E EFG | AGF GFE |1 FGE D2A :|2 DED D2E ||
+|: F2A d2B | c2B G3 | ABA G2E | B2A F2E |
+F2A d2B | c2B G2F | EFG ABc |1 d3 d2A :|2 d3 ABc ||
+
+X:135
+T:Flying Pig, The
+R:slide
+C:Aog\'an Lynch
+D:Slide
+Z:id:hn-slide-135
+M:6/8
+L:1/8
+K:Em
+e3 g3 | edB A2B | GBd g2b | a2b g2f |
+e2f g2e | edB A2B | G2B d2B |1 A2f g2f :|2 A2B d2B ||
+|: c2d e2d | def a2f | g2b a2g | gfe d2B |
+[1 c2d e2d | def a2f | g2b a2g | f3 d2B :|
+[2 cde g2e | dBA G2A | F2A G2F | D3 ABd ||
+
+X:136
+T:Mickey Callaghan's Slide
+R:slide
+H:A version of "Patsy Geary's" #6
+D:Mick O'Brien & Caoimh\'in \'O Raghallaigh: Kitty Lie Over
+Z:id:hn-slide-136
+M:6/8
+L:1/8
+K:D
+~A3 DFA | BAF AFG | AdB AFA | d3 d2e |
+~f3 g2f | e/f/ge d2B | AFF DFD | EFE EFG |
+~A2B AFA | BAF AFG | AdB AFA | d3 d2e |
+fef g2f | e/f/ge d2B | Aaa f2e | d3 d2e ||
+|: f2e f2e | f2e fga | ~A3 BAF | ~A3 ABd |
+~e3 e2e | efe efg | f/g/af gfe |1 d3 d2e :|2 dfe dcB || 
+
+X:137
+T:Paddy Cronin's
+T:Across the Road
+R:slide
+H:Also played in Ador #107
+D:Jack Talty & Cormac Begley: "Na Fir Bolg"
+Z:id:hn-slide-137
+M:6/8
+L:1/8
+K:Edor
+EFG F2D | E2F G2A | B2E GFE | B2E GFE |
+D2F FED | E2F G2A | B2E GFE | F2E D3 :|
+|: ded c2d | e2d cBA | B2E GFE | B2E GFE |
+ded c2d | e2d cBA | B2E GFE | F2E D3 :|
+
+X:138
+T:Slide Dubh
+R:slide
+C:Peadar \'O Riada
+Z:id:hn-slide-138
+M:6/8
+L:1/8
+K:D
+f2d e2d | Bcd A2d | B2d A2d | B2A A2d |
+f2d e2d | Bcd A2B | d2e fef |1 d3 d2e :|2 d3 d2A ||
+|: d2e fef | a2f afe | d2e fed | B2d A2B |
+d2e fef | a2f afe | d2e fef |1 d3 d2A :|2 d3 d2e || 
+
+X:139
+T:Slide Chaoimh\'in
+R:slide
+C:Peadar \'O Riada
+Z:id:hn-slide-139
+M:6/8
+L:1/8
+K:D
+FGF E2D | F3 F2A | BdB A2B | d3 d2A | def d2B |
+[1 AFA AFA | BAF A2F | E3 E2D :|2 AFA AFE | DEF E2D | D3 D2F ||
+|: A2F A2F | AFE D2F | A2d B2d | BAF E2F |
+A2F A2F | AFE D3 | dcB AFE |1 F2E D2F :|2 F2E D2E ||
+

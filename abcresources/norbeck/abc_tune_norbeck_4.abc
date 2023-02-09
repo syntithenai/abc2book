@@ -1,0 +1,447 @@
+This file contains 27 barndances (#1 - #27).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 17 August 2020.
+
+(c) Copyright 2012-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:barndance
+M:C|
+Z:id:hn-barndance-%X
+
+X:1
+T:Bluebell Polka, The
+R:barndance
+Z:id:hn-barndance-1
+M:C|
+L:1/8
+K:G
+(3Bdg | b2ba gfge | d2d2 B3G | FGAB c2e2 | ed^cd B2 (3Bdg |
+b2ba gfge | d2d2 B3G | FGAB cdef | g2g2 g2 :|
+K:D
+|: B2 | A2A2 FAdf | a2a2 f4 | a2^ga =g2e2 | b2a2 ^g2a2 |
+A2A2 FAdf | a2a2 f4 | a2^ga =g2e2 | d2f2 d2 :|
+K:G
+|: (3Bdg | b2b2 gfge | d2d2 B2G2 | FGAB c2e2 | ed^cd B2 (3Bdg |
+b2b2 gfge | d2d2 B2G2 | FGAB cdef | g2g2 g2 :|
+K:C
+|: z2 | e2e2 efg2 | e2e2 efge | f2f2 fdBd | fefg fdBd |
+e2e2 efg2 | e2e2 efge | fefg fdBd | c2e2 c2 :|
+K:G
+(3Bdg | b2ba gfge | d2d2 B3G | FGAB c2e2 | ed^cd B2 (3Bdg |
+b2ba gfge | d2d2 B3G | FGAB cdef | g2g2 g2 :|
+
+X:2
+T:Merry Girl, The
+R:barndance
+H:See also polka#95
+D:John McKenna & Michael Gaffney 1934 (Decca)
+Z:id:hn-barndance-2
+M:C|
+L:1/8
+K:G
+D2B2 BAB2 | D2^c2 d^cd2 | fedc AGEF | G2F2 EDEF |
+D2B2 BAB2 | D2^c2 d^cd2 | fedc AGEF | A2G2 G4 :|
+|: gdBd g3a | f2e2 ede2 | fcAc f3f | e2d2 d^cd2 |
+gdBd g3a | f2e2 edef | d2fe dcBA | G2F2 G4 :|
+
+X:3
+T:Ballybunion Hop, The
+T:Glenbeigh Hornpipe, The
+R:barndance
+Z:id:hn-barndance-3
+M:4/4
+L:1/8
+K:G
+BA | GABc dg (3fga | g2B2 d3B | ceAB cBcA | (3Bcd GA B2BA |
+GABc dg (3fga | g2B2 d3B | ceAB cAFA |1 G2 B2 G2 :|2 G2 B2 GA ||
+|: Bc | d2 b2 c2 a2 | Bggf gdBG | FGAB cAFA | GFGA BABc |
+d2 b2 c2 a2 | Bggf gdBG | FGAB cAFA | G2 B2 G2 :|
+
+X:4
+T:Petronella
+R:barndance
+S:Session tape with Mairead Ni Mhaonaigh and Frankie Kennedy
+H:Also as hornpipe#57
+H:Actually a german from Donegal. Originally an English country dance.
+Z:id:hn-barndance-4
+M:C|
+K:D
+F2AF E2AE|.D2.D2 D2FA|d2cd e2d2|cdec ABAG|
+F2AF E2AE|.D2.D2 D2FA|d2cd e2de|f2d2 d2z2:|
+|:A2f2 A2f2|g2gf edcB|A2ec Acec|fgfe dcBc|
+A2f2 A2f2|g2gf edcB|A2ec Acec|d2d2 d2z2:|
+
+X:5
+T:Bill Malley's
+R:barndance
+C:Bill Malley
+D:Martin Hayes: Under the Moon
+Z:id:hn-barndance-5
+M:C|
+L:1/8
+K:G
+G3A B2GB | dedB G2d2 | B2G2 d2G2 | B2A2 A2D2 |
+G3A B2GB | dedB G2Ac | B2AG E2DE |1 G4 G2D2 :|2 G4 G2g2 |
+|: e2d2 g3e | dedB G2g2 | e2d2 g3d | B2A2 A2g2 |
+e2d2 g3e | dedB G2Ac | B2AG E2DE |1 G4 G2g2 :|2 G4 G2D2 |
+
+X:6
+T:Kilnamona Barndance
+R:barndance
+D:Martin Hayes: Under the Moon
+Z:id:hn-barndance-6
+M:C|
+L:1/8
+K:G
+dGBd GABd | d2c2 A3B | c2A2 e3e | e2d2 B4 |
+dGBd GABd | d2c2 A3B | c2A2 e2d2 | G4 G4 :|
+|: b4 bagb | a3a agef | gage d2Bd | e2a2 a2ga |
+b3b bagb | a3a agef | gage d2Bd |1 e2g2 g4 :|2 e2g2 g4 ||
+
+X:7
+T:Lucy Farr's
+R:barndance
+Z:id:hn-barndance-7
+M:C|
+L:1/8
+K:G
+(3DEF | G4 G4 | GABG E2D2 | B4 B4 | BcdB A3A |
+BcdB G3G | GABG E2D2 | DEGA BddB | A2G2 G2 :|
+|: A2 | BcdB G2G2 | GABG E2D2 | DEGA BddB | B2A2 A3A |
+BcdB G2G2 | GABG E2D2 | DEGA BddB | A2G2 G2 :|
+
+X:8
+T:James Gannon's
+T:Gannon's Favourite
+R:barndance
+Z:id:hn-barndance-8
+M:C|
+L:1/8
+K:G
+B2AB e2dB | d2cA E2FG | AGAB cAFA | GABG D2B,2 |
+B2AB e2dB | d2cA E2FG | AGAB cAFA |1 G2B2 G4 :|2 G2g2 g2gf ||
+|: e^def gfga | b2d2 d3B | cBAB cdef | g2B2 d2gf | 
+e^def gfga | b2d2 d3B | cBAB cAFA |1 G2g2 g2gf :|2 G2B2 G4 ||
+
+X:9
+T:Mrs. Kenny's
+T:Woodland Flowers
+R:barndance
+C:Felix Burns (1864-1920), Scotland
+H:Also played by Matt Molloy in D
+D:Michael Coleman
+Z:id:hn-barndance-9
+M:C|
+K:C
+(3EF^F | Gedc Gedc | A2df a4 | (3aba ge (3fgf AB | (3cBc (3ecA G2 (3EF^F |
+Gedc Gedc | A2df a4 | (3aba ge (3fgf AB |1 (3cBc ed c2 :|2 (3cBc ed c2c2 ||
+K:G
+(3bag dg (3bag dg | (3c'ba ea (3c'ba eg | fd^cd e2f2 | (3gfa (3gfe (3ded B2 |
+(3bag dg (3bag dg | (3c'ba ea (3c'ba eg | fd^cd e2f2 | g2f2 g4 ||
+BABd cBce | d2g2 g3f | edeg agfe | d6 (3edc |
+B2g2 g2 (3dcB | A2f2 f3g | aeeg fefa | (3gfg b2 g2 ||
+P:Last part played like this by Michael Coleman:
+AGAc BABd | B2g2 g3f | edeg agfe | d4 d2 (3cdc |
+B2g2 g2 (3BcB | A2f2 f3g | aeeg fefa | (3gfg ba g2 ||
+
+X:10
+T:If There Weren't Any Women in the World
+T:If We Hadn't Any Women in the World
+T:Bereffoy, The
+R:barndance
+H:Also played in A
+D:Hammy Hamilton
+D:Harry Bradley
+D:James Morrison
+Z:id:hn-barndance-10
+M:C|
+L:1/8
+K:G
+Bc | dedB GA (3BAG | E2E2 D2GA | BGBd edBG | A2AB A2Bc |
+dedB GA (3BAG | E2E2 D2GA | B2dB AGAB | G2GF G2 :|
+|: cd | e2ef g2gf | eddB d2 (3Bcd | edBd gedB | A2AG A2Bc |
+dedB GABG | E2E2 D2GA | B2dB AGAB | G2GF G2 :|
+P:variations
+|: Bc | dedB GABG | EAGE D2GA | BGBd gedB | A2AG A2Bc |
+dedB GABG | EAGE D2GA | B2BG AGAB | G2GF G2 :|
+|: Bd | e2ef g3f | e2d2 d2GA | B2AB edBG | A2AG A2Bc |
+dedB GABG | EAGE D2GA | B2BG AGAB | G2GF G2 :|
+
+X:11
+T:Peach Blossoms
+R:barndance
+Z:id:hn-barndance-11
+M:C|
+L:1/8
+K:D
+A2fA A2fA | B2g2 g2ed | ceae cea^g | b2a2 f3A |
+A2fA A2fA | B2g2 g2ed | ceba ^ga=ge |1 d2fe d3A :|2 d2fe d2cB ||
+|: A2A2 Bcde | fdAF A3B | cBGE c3a | bafd A2FG |
+A2A2 Bcde | fdAF A3c | dcBc dgfe |1 d2fe d2cB :|2 d2c2 d3=c ||
+K:G
+|: B2GB dgbg | a2e2 e2ag | f2c2 c2fe | d2B2 B2dc |
+BDGB dgbg | a2e2 e2ag | fdcA dcAF |1 G2B2 G2dc :|2 G2B2 G3A ||
+
+X:12
+T:Joe Bane's Scottische
+T:Joe Bane's Schottische
+T:Bill Malley's Schottische
+R:barndance
+C:John MacDonald (1821-1893), Scotland
+S:Andrew McNamara on Clare FM
+H:A version of the Scottish march "Dornoch Links"
+H:Bars 2 & 6 of 2nd part can be interchanged
+Z:id:hn-barndance-12
+M:C|
+L:1/8
+K:A
+af | eAAB c2BA | e2A2 A2af | eAAB c2BA | c2B2 B2Ac |
+eAAB c3B | ABce a3f | e3f ecAc |1 B2A2 A2 :|2 B2A2 AB ||
+|: ce | a3b afea | fece faaf | e3f ecAB | c2B2 B2ce |
+a3b afea | f3e faaf | e3f ecAc |1 B2A2 AB :|2 B2A2 A2 ||
+
+X:13
+T:Cameron Highlanders, The
+R:barndance
+C:James Scott Skinner (1843-1927), Scotland
+H:Originally a march in four parts
+D:Dan\'u: Think before You Think
+Z:id:hn-barndance-13
+M:C|
+L:1/8
+K:D
+AF | D2FA D2FA | B2AF ~A3F | D2FA D2FA | GAFG E2FE |
+D2FA D2FA | B2AF Adcd | B3A FAEA | FDDC D2 :|
+|: FA | BdBA FAEA | FDDC D2FA | B2BA FADE | FEED E2FA |
+B2BA FAEA | FDDC D2FA | B2BA FAEA | FDDC D2 :|
+P:variations
+|: AF | D2FA DAFA | B2AF A2FE | D2FA DAFA | GAFG E2FE |
+D2FA DAFA | B2AF Adcd | B3A FAEA | FDDC D2 :|
+|: dc | BdBA FAEA | FDDC D2FA | B2BA FADE | FEED E2dc |
+B2BA FAEA | FDDC D2dc | B2BA FAEA | FDDE D2 :|
+
+X:14
+T:Gypsy Princess
+R:barndance
+Z:id:hn-barndance-14
+M:C|
+L:1/8
+K:G
+GA | B2B2 B2B2 | ABAG E2D2 | G2GB d3B | dedB AGGA |
+B2BB B2BB | ABAG E2D2 | G2GB dedB |1 A2G2 G2 :|2 A2G2 G2 ||
+|: Bc | d2de g3e | dedB AGGA | d2de g3e | dedB A2Bc |
+d2de g3e | dedB A2G2 | G2GB dedB |1 A2G2 G2 :|2 A2G2 G2 ||
+P:version 2
+|: B2BB B2B2 | ABAG E2D2 | G2GB d2Bd | e2dB A2GA |
+B2BB B2B2 | ABAG E2D2 | G2GA BddB |1 A2G2 G3A :|2 A2G2 GABc ||
+|: d2dd d2d2 | ABBA GABd | e2ee e2e2 | ABBA GABc |
+d2dd d2d2 | ABBA GABd | g2ge dBGA |1 B2A2 G2Bc :|2 B2A2 G3A ||
+
+X:15
+T:Around The Fairy Fort
+R:barndance
+C:Vincent Broderick (1920-2008)
+Z:id:hn-barndance-15
+M:C|
+L:1/8
+K:D
+DE | F2F2 FEDF | A2A2 A2FA | B2B2 AFDE | F2E2 E2DE |
+F2F2 FEDF | A2A2 A2FA | dcBA BAFE |1 F2D2 D2 :|2 F2D2 D2 ||
+|: (3ABc | d2d2 d2cd | e2e2 e2fe | defg agfe | f2B2 B2 (3ABc |
+d2d2 d2cd | e2e2 e2fe | dcBA BAFE | F2D2 D2 :|
+|: DE | F2DF A2FA | B2FB A2DE | F2DF A2FA | B2E2 E2DE |
+F2DF A2FA | B2FB A2FA | dcBA BAFE | F2D2 D2 :|
+
+X:16
+T:New Broom, The
+R:barndance
+C:Vincent Broderick (1920-2008)
+Z:id:hn-barndance-16
+M:C|
+L:1/8
+K:G
+G2GB d2Bd | e2dB d2BA | ~G3A B2AG | A2E2 E2 (3DEF |
+G2GB d2Bd | e2dB d2Bd | edge dBAc |1 B2G2 G2 (3DEF :|2 B2G2 G2ga ||
+|: b2ba ~g3a | bgag egd2 | edge dBGA |1 BAAG A2ga |
+b2ba g3a | bgag (3ege d2 | edge dBAc | B2G2 G2ga :|2 BAAG A2BA |
+~G3B d2Bd | e2dB d2Bd | edge dBAc | B2G2 G2 (3DEF ||
+
+X:17
+T:Peacock's Feather
+R:barndance
+H:See also hornpipe#20, song#38, song#152
+D:Len Graham & Joe Holmes: After Dawning
+Z:id:hn-barndance-17
+M:C|
+L:1/8
+K:Dmix
+AG | FD (3DDD D2DE | FEFA G2FG | AGAB cBAG | F2A,B, C2AG |
+FD (3DDD D2DE | FEFA G2FG | AGAB cBAG | F2D2 D2 :|
+|: zB | c2Bc dcBc | d2cB c2Bc | d2cA G2FG | A2A,B, C2AG |
+FD (3DDD D2DE | FEFA G2FG | AGAB cBAG | F2D2 D2 :|
+
+X:18
+T:Mick Carr's
+R:barndance
+D:Terry Bingham
+Z:id:hn-barndance-18
+M:C|
+L:1/8
+K:G
+DGGB d2 (3Bcd | gdBG c2cd | DFAB c2cd | (3efg dc B2Bd |
+DGGB d2 (3Bcd | gdBG c2cd | DEFG ABcA |1 (3GAG FA G2Gd :|2 (3GAG FA G2Bc ||
+|: dedc BGGB | dedB g2AB | cdcB A=FFA | cdcA d2Bc |
+dedc BGGB | dedB g2fg | efge dcBA |1 (3GAG FA G2Bc :|2 (3GAG FA G2Gd ||
+
+X:19
+T:Martin O'Connor's
+R:barndance
+D:Terry Bingham
+Z:id:hn-barndance-19
+M:C|
+L:1/8
+K:Edor
+FA | BA (3Bcd ecdB | AFEF DEFG | ABcA dABF | E2ED E2 :|
+|: FA | BA (3Bcd g2 (3fgf | edBc d2df | efed BA (3Bcd | edfd edBd |
+g2 (3fgf efdB | AFEF DEFG | ABcA dABF | E2ED E2 :|
+
+X:20
+T:Bonaparte Crossing the Rhine
+R:barndance
+D:Sharon Shannon: Out the Gap
+Z:id:hn-barndance-20
+M:C|
+L:1/8
+K:D
+FG | ABAF A2de | fefa f2ed | ~B3d AFED | E2EF E2DF |
+ABAF A2de | fefa f2ed | ~B3d AFEF | D2DE D2 :|
+|: de | faaf a2fe | dcde ~f3e | fdfa bafa | e2ef e2de |
+faab a2fe | dBde d2cB | AFdB AFEF | D2DE D2 :|
+
+X:21
+T:no name
+R:barndance
+D:Sharon Shannon: Out the Gap
+Z:id:hn-barndance-21
+M:C|
+L:1/8
+K:A
+AF | ECEF EA,CE | FAAF A2AB | ABcB AcBA | F2FE F2AF |
+ECEF EA,CE | FAAF A2af | eccB AcBA | F2A2 A2 :|
+|: AB | ceef e2ce | faab a3f | eccB AcBA |
+[1 F2FE F2AB | ceef e2ce | faaf a2fa | eccB AcBA | F2A2 A2 :|
+[2 F2FE F2AF | ECEF EA,CE | FAAF A2af | eccB AcBA | F2A2 A2 ||
+
+X:22
+T:If There Weren't Any Men In The World
+T:Hills of Tara, The
+R:barndance
+Z:id:hn-barndance-22
+M:C|
+L:1/8
+K:G
+Bc | d2G2 GBAB | c2E2 E2AG | FGAB cBcd | e2d2 B2Bc |
+d2G2 GBAB | c2E2 E2AG | FGAB cADF | A2GF G2 :|
+|: (3Bcd | g2g2 f2fd | efec A2AG | FGAB cBcd | e2d2 B2 (3Bcd |
+g2g2 f2fd | efec A2AG | FGAB cADF | A2GF G2 :|
+
+X:23
+T:Far Away from Home
+T:Far from Home
+T:Michael Coleman's
+R:barndance
+Z:id:hn-barndance-23
+M:C|
+L:1/8
+K:G
+GE | D2DE G2GA | B2BA Bcd2 | d2de dBAB | GEED E2GE |
+D2DE G2GA | B2BA Bcd2 | d2ge dBAB | G2GF G2 :|
+|: ga | b2bg a2af | gage d2Bc | d2ge dBAB | GEED E2ga |
+babg abaf | gage d2Bc | d2ge dBAB | G2GF G2 :|
+
+X:24
+T:Ballroom Favourite, The
+R:barndance
+D:John McKenna & Michael Gaffney
+Z:id:hn-barndance-24
+M:C|
+L:1/8
+K:D
+FG | A2f2 A4 | B2g2 B4 | cBcd edcd | (3efe dB AGFG |
+A2f2 A4 | B2g2 B4 | cBcd edcd | (3efe dc d2 :|
+|: df | a2ba f2d2 | cdef g4 | gfge c2A2 | defg a3f |
+a2ba f2d2 | cdef g4 | gfge cA (3Bcd | (3efe dc d2 :|
+
+X:25
+T:Ballroom Favourite #2, The
+T:Michael Gaffney's
+R:barndance
+D:Harry Bradley: As I Carelessly Did Stray
+D:John McKenna & Michael Gaffney
+Z:id:hn-barndance-25
+M:C|
+L:1/8
+K:D
+(3fed A2 (3fed Ac | dfbf a4 | (3gfe B2 (3gfe Bd | cdec A2ag |
+(3fed A2 (3fed Ac | dfbf a4 | g2fe B2c2 |1 edBc d2ag :|2 edBc d2 ||
+(3ABc | dfed BAFA | dfed B3c | dfed BAFA | B2c2 d2 (3ABc |
+dfed BAFA | (3dcd fd B2Bc | dfed BAFA | B2c2 d2ag ||
+
+X:26
+T:Kitty Sean Cunningham's
+T:Kitty Sean's Barn Dance
+R:barndance
+Z:id:hn-barndance-26
+M:C|
+L:1/8
+K:G
+Bc | d<gdB GBDG | F2E2 E2AB | cdcA FDFA | d2 (3^cde d2B=c |
+d<gdB G2DG | F2E2 E2AB | cBcA FDEF |1 G2B2 G2 :|2 G2B2 GBAG ||
+|: F2FE FAcA | G2GF GABc | dAFA DFAd | B2BA B2ef |
+gagf gdBd | c2cB c2AB | cBAF dcAF |1 G2GF GBAG:|2 G2GF G2 ||
+
+X:27
+T:New Irish Barn Dance
+T:Balen i Karlstad
+T:Te dans m\"a Karlstat\"osera
+R:barndance
+C:Erik Uppstr\"om (1881-1968), Stockholm, Sweden
+D:De Dannan
+D:Flanagan Brothers
+Z:id:hn-barndance-27
+M:C|
+L:1/8
+K:D
+fe | d2dB A2AF | GFGA B2BG | A^GAc e2eg | fgfe defe |
+dedB A2AF | GFGA B2BG | A2cB AGFE | D2FE D2 :|
+K:A
+|: (3Bcd | e2e2 e3d | c2Ac e2e2 | B2^AB e2e2 | c2Ac e2 (3Bcd |
+e2e2 e3d | c2Ac e3d | e2gf edcB | A2c2 A2 :|
+K:D
+|: fe | d2dB A2AF | GFGA B2BG | A^GAc e2eg | fgfe defe |
+dedB A2AF | GFGA B2BG | A2cB AGFE | D2FE D2 :|
+K:G
+|: (3DEF | G6 e2 | d6 B2 | cBcB c2A2 | BABA B2D2 |
+G6 e2 | c6 e2 | d2fe dcBA | G2B2 G2 :|
+|: g2 | g2ec G2e2 | d2BG D2D2 | DEFG AcBA | GABc d2g2 |
+g2ec G2e2 | d2BG D2D2 | DEFG AcBA | G2B2 G2 :|
+K:D
+|: fe | d2dB A2AF | GFGA B2BG | A^GAc e2eg | fgfe defe |
+dedB A2AF | GFGA B2BG | A2cB AGFE | D2FE D2 :|
+

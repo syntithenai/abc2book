@@ -1,0 +1,19 @@
+%%scale 1
+X:1     %Music
+T:The Seasons of the Year
+B:Broadwood, L, 1893, English County Songs, London, Leadenhall Press
+S:John Burberry, gamekeeper, 1892
+Z:Lucy Broadwood
+M:6/8     %Meter
+L:1/8     %
+K:F
+A |A A A G2 A |B c d B z    
+w:The sun it goes down, the sky it looks red,   
+L:1/8     %
+c |A A A G E A |A3/2 G/ ^F E2
+w:Down on yon-der pil-low I lay down my head, 
+B |c B A (dc) d |e c A (AG)                 
+w:I lift up my eyes_ to see the stars shine_                                 
+ c |c B A G E D |E A ^G A2 z |]
+w:But still this young dam-sel she runs in my mind.
+%End of file

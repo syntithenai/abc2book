@@ -1,0 +1,25 @@
+X:1
+T:Russell
+T:Hark, hark, let us behold
+C:Composer:     %Tune composer
+N:Collected by George Gardiner, H328, from George Blake, 16 Jul 1906
+Q:1/4=120     %Tempo
+V:1     %
+%!STAVE 0 'Melody' @
+%!INSTR 'Piano 1' 0 0 @
+M:2/2     %Meter
+L:1/8     %
+K:A
+A4|c2 e2 c2 A2 |B6 B2 |c2 A2 B2 G2 |A6
+w:Hark, hark, let us be-hold the glo-rious birth of  Christ;
+A2 |c2 e2 c2 A2 | B6
+w: Glad ti-dings we are told,
+B2 |c2 A2 B2 G2 | A6
+w:to all our hu-man race
+A2 |E2 E2 E2 A2 |F2 F2 (FG)
+w:Let us re-joice in heav'n our Lord_ 
+A2 | B2 B2 (Bc) d2 | c2 A2
+w:To sing his praise with one ac-cord
+A2 E2 |F2 F2 (FG) A2 |(B3 c B2) G2 |A4 ||
+w:To sing his praise with__ one__ ac-cord
+%End of file

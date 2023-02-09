@@ -1,0 +1,357 @@
+This file contains 20 set dances and ceili dances (#1 - #20).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 2 September 2021.
+
+(c) Copyright 1997-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:set dance
+Z:id:hn-setdance-%X
+
+X:1
+T:Job of Journeywork, The
+R:set dance
+Z:id:hn-setdance-1
+M:C|
+K:Dmix
+(3gfe|:dcAG FGAB|(3cBA BG A2 (3gfe|d2 (3gfe dcAF|GBAF DEFG|
+~A3F GFEF|~D3E FGAF|A2d2 (3gfe d^c|1 d2d^c d2 (3gfe:|2 d2d^c d2de||
+|:f2 (3def gfe^c|d^cde fdA2|f2 (3def gfed|fagf g2 (3efg|
+afge ~f3e|d^cde fgfe|dcAG FGAB|(3cBA BG A2 (3gfe|d2 (3gfe dcAF|GBAF DEFG|
+~A3F GFEF|~D3E FGAF|A2d2 (3gfe d^c|1 d2d^c d2de:|2 d2d^c d2||
+P:variations
+(3gfe|:dcAG FGAB|cABG A2 (3gfe|d2 (3gfe dcAF|GA (3GFE DEFG|
+A2 (3AGF GFEF|~D3E FGAF|A2d2 ^cdec|1 d2de d2 (3gfe:|2 d2de d2de||
+|:f2ef gfed|ded^c A2de|f2ef gfed|ded^c defg|
+ag (3fga gfef|d2de fgfe|dcAG FGAB|(3cBA BG A2 (3gfe|d2 (3gfe dcAF|GA (3GFE DEFG|
+(3ABA (3AGF GFEF|~D3E FGAF|A2d2 ^cdec|1 d2de d2de:|2 d2de d2||
+
+X:2
+T:King of the Fairies, The
+R:set dance
+Z:id:hn-setdance-2
+M:C|
+K:Edor
+B,2|EDEF GFGA|B=cBA GFGA|B2E2 EF (3GFE|FGFE D2B,2|
+EDEF GFGA|BAGB d3=c|B2E2 GFED|E2ED E2:|
+|:B2|efed Bdef|gagf efed|e2B2 BABc|dedc Bc (3dcB|
+e2B2 Bdef|gagf efed|Bd (3efg fedf|e2ed e3f|
+g3e f3d|edBc d3e|dBAF GABc|dBAF GFED|
+B,2E2 EFGA|B2e2 edef|e2B2 BAGF|E2ED E2:|
+P:variations
+|:B,2|E2EF G2GA|B2B2 G3A|BEED EFGE|FGAF D2B,2|
+EDEF GFGA|BAGB d2d=c|B2E2 GFED|E2ED E2:|
+|:B2|e2e2 Bdef|gagf edef|e2B2 BABc|dedc BcdB|
+e2B2 Bdef|gagf efed|Bdeg fedf|e2e2 edef|
+g3e f3d|edBc d3e|dBAF GABc|dBAF GFED|
+B,2E2 EFGA|B2e2 edef|e2B2 BAGF|E2ED E2:|
+
+X:3
+T:Se\'an \'O Duibhir an Ghleanna
+R:set dance
+H:Paddy Glackin's version is missing the third bar of the second part.
+H:See also mangled hornpipe version hornpipe#17
+H:See also slow air#27
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Willie Clancy
+Z:id:hn-setdance-3
+M:C|
+K:Dmix
+de|f2ge a2ge|fde^c dcde|(3fed (3cAG A2AB|
+c2cd ed (3cAG|(3AdB (3cAF G2 {A}(3GFG|A2 (3AAA A2:|
+|:AB|c2AB cdef|g2ge a2ag|"this bar not in P.Glackin's version"ab (3agf g2ag|
+f2fg afge|fde^c dedc|(3ABA Gc A2de|
+f2ge a2ge|fde^c dcde|(3fed (3cAG A2AB|
+c2cd ed (3cAG|(3AdB (3cAF G2 {A}(3GFG|A2 (3AAA A2:|
+P:variations
+|:de|f2~g2 abag|fd (3ed^c dcde|fd (3cAG A2AB|
+cBcd ed (3cAG|Ad (3cAF G2 {A}(3GFG|A2AG A2:|
+|:AB|cBAB cdef|g2 {a}(3gfg a2ag|ab (3agf g2ag|
+fefg abag|(3fed e^c dcde|fd (3cAG A2de|
+f2~g2 abag|fd (3ed^c dcde|fd (3cAG A2AB|
+cBcd ed (3cAG|Ad (3cAF G2 {A}(3GFG|A2 {B}(3AGA A2:|
+
+X:4
+T:Garden of Daisies, The
+R:set dance
+H:Also played with c# all the way
+H:Related to "Sliabh Geal gCua na Feile" slow air#3
+D:Paddy Moloney & Sean Potts: Tin Whistles
+Z:id:hn-setdance-4
+M:C|
+K:D
+fg|a2 (3agf gbag|~f3a gfef|dcde (3fed (3edc|dedc AGFG|
+AB (3=cBA d^cAG|~F3G AB (3=cBA|dcdf ed (3cde|d2dc d2:|
+|:(3ABc|dcde ~f3g|abaf defg|a2 (3agf gbag|fgfe defg|
+a2 (3agf gbag|fefa gfef|dcde fd (3edc|dedc A2fg|
+a2 (3agf gbag|~f3a gfef|dcde fd (3edc|dedc AGFG|
+AB (3=cBA d^cAG|~F3G AB (3=cBA|dcdf ed (3cde|d2dc d2:|
+
+X:5
+T:Piper in the Meadow Straying
+R:set dance
+Z:id:hn-setdance-5
+M:C|
+K:G
+Bc|dedc B2BA|GFGA B2Gd|ABcA GAFA|G2B2 B2 (3ABc|
+dedc (3Bcd BA|~G3A B2Gd|ABcA GAFA|G2BA G2:|
+|:z2|~A3B c2A2|BGBc d2dB|cAcd e2A2|d2de f2fe|
+dedc B2BA|GFGA B2Gd|ABcA GAFA|G2B2 B2 (3ABc|
+dedc (3Bcd BA|~G3A B2Gd|ABcA GAFA|G2BA G2:|
+
+X:6
+T:Blackbird, The
+R:set dance
+H:An unusual version. The most common version is #8
+H:See also hornpipe#130
+D:Bothy Band: Out of the Wind, into the Sun
+Z:id:hn-setdance-6
+M:C|
+K:Dmix
+GA|B2=cB A2B^c|d2AG F2DE|FGAF G=cAG|F2D2 D2:|
+|:FG|Add^c d2eg|fded =cAG2|Add^c dfag|f2d2 d2 (3gfe|
+d=cAF G2Ad|dAAG F2DE|FGAF G=cAG|F2D2 D2:|
+
+X:7
+T:Rodney's Glory
+R:set dance
+H:Related to "Princess Royal", #11
+Z:id:hn-setdance-7
+M:C|
+K:Ador
+ed|c2Bc AB (3cBA|BGEF G2cd|e=fed cde^f|gfge d=fed|
+c2Bc AB (3cBA|BGEF G2ed|(3cdc BA GA (3BAG|A2AG A2:|
+|:cd|eaab aged|e=fed c2A2|g2 (3e^fg agec|dcAF G2E2|
+AGAB cBcd|edeg a2ab|aged cdef|gfge d=fed|
+c2Bc AB (3cBA|BGEF G2ed|(3cdc BA GA (3BAG|A2AG A2:|
+P:variations
+|:ed|(3cdc Bc ABcA|BGEF G2 (3Bcd|eged cde^f|gedc d=fed|
+(3cdc Bc AcBA|BGEF G2Bd|c2BA GABG|A2AB A2:|
+|:cd|eaag abag|eged c3d|(3efg fg agec|dcAF G2EG|
+AGAB cBcd|ed (3efg a2ab|aged cdef|gfge d=fed|
+(3cdc Bc ABcA|BGEF G2ed|(3cdc BA GABG|A2AB A2:|
+
+X:8
+T:Blackbird, The
+R:set dance
+H:See also #6, and slow air#16
+D:Bothy Band: Out of the Wind, into the Sun
+Z:id:hn-setdance-8
+M:C|
+K:Dmix
+dc|:B2Bd c2Bc|AGFG ABcA|d^cde d=cAF|GAGF D2DE|FEFG A2 (3gfe|
+d2de dcAF|1 [M:3/2] GAGF D2 (3DDD D2dc:|2 [M:3/2] GAGF D2 (3DDD D2de||
+|: [M:C|] fede fdgd|abag fgaf|g2gf gbaf|gagf d^cde|
+fede fdgd|abag fgaf| [M:3/2] gagf d2d^c defg|
+[M:C|] a2ag fgaf|g2ge f2fe|dcAG ABcd|efge a2z2|A2AB AGFD|
+c2 (3edc dcAF|1 [M:3/2] GAGF D2 (3DDD D2de:|2 [M:3/2] GAGF D2 (3DDD D2||
+P:variations
+dc|: [M:C|] BGBd cABG|ABAG AB (3cBA|~d3e dcAF|GBAF D2DE|(3FED FG A2fe|
+d2d^c d=cAF|1 [M:3/2] GBAF D2CE D2dc:| [M:3/2] GBAF D2CE D2de||
+|: [M:C|] fede (3faf (3gag|abag fg (3agf|g2gf gbag|fgfe d^cde|
+fede f2g2|~a3g fg (3agf| [M:3/2] gagf d2 (3ed^c defg|
+[M:C|] abag fgaf|gage effe|dcAB cBcd|efgb a2z2|ABAG FGAB|
+cBce dcAF|1 [M:3/2] GBAF D2CE D2de:|2 [M:3/2] GBAF D2CE D2||
+
+X:9
+T:Bonaparte's Retreat
+R:set dance
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+Z:id:hn-setdance-9
+M:C|
+K:G
+DGGF GBAG|FAde fefg|agfa gfde|fdcA (3BAG (3cAF|
+DGGF GBAG|FAde fefg|agfd cAFG|1 AGGF G2 (3GFE:|2 AGGF G2de||
+|:fefg f2 (3def|gfga gfde|fgag fdcA|(3GFG AF GFED|
+f2fg f2 (3def|gfga g2fg|agbg ag (3fga|g2 (3agf g2fg|
+agbg agfd|f2fa gfde|fgag fdcA|(3GFG AF GFDC|
+DGGF GBAG|FAde fefg|agfa gfde|fdcA BGAF|
+DGGF GBAG|FAde fefg|agfd cAFG|1 (3ABA GF G2de:|2 (3ABA GF G2 (3GFE||
+
+X:10
+T:Ace and Deuce of Pipering, The
+R:set dance
+H:See also #13
+D:Noel Hill & Tony McMahon: \'I gCnoc na Gra\'i
+Z:id:hn-setdance-10
+M:C|
+K:G
+dc|BGcA BGcA|BGcA B2AG|d2e^c d2ec|dfe^c dcBA|e2fd ed^cB|Adde d=cBA|
+(3BcB cA B2AG|FGAB cBcA|G2ge fdcA|FGAB cAFG|AGGF G2FG|AGGF G2:|
+|:GF|G2=f2 e2f2|G2=fe fdcA|G2g2 ^f2g2|d2ga gfdc|A2=f2 e2f2|d^cde fefg|
+afge fde^c|d2eg fdcA|G2ge fdcA|FGAB cAFG|AGGF G2FG|AGGF G2:|
+P:variations:
+|:dc|(3BcB cA BdcA|BdcA BAGB|(3ded e^c d2ec|dfe^c dcBA|e2fd ed^cB|
+Add^c d=cAc|BGcA B2AG|FGAB cdcA|G2eg fdcA|FGAB cAFG|AGGF G2 FG|AGGF G2:|
+|:GF|G2=f2 e2f2|G=ffg fdcA|G2g2 ^f2g2|d^cdg fd=cA|=F2=f2 e2f2|d^cde fd (3efg|
+agfa gfdc|BdcA B2AF|G2ge fdcA|FGAB cAFG|AGGF G2FG|AGGF G2:|
+
+X:11
+T:Princess Royal
+R:set dance
+S:Jonas Lindholm
+H:A set dance version of the O'Carolan tune, carolan#14.
+H:Related to "Rodney's Glory", #7
+Z:id:hn-setdance-11
+M:C|
+K:Ador
+ed|:c2B2 A2e=f|edcB A2 (3e^fg|^f2d2 d2e=f|edcB c2BA|
+B2g2 B2cB|ABAG E2ed|c2 (3ABc BAGB|1 A2AG A2ed:|2 A2AG ABcd||
+|:eaag a3b|aged e3d|(3efg (3fga gfge|dcBA G2AB|
+c2Bc d2cd|efge a3g|f2A2 f2gf|e2 (3ABc d2ed|
+c2 (3BcB ABcd|e2E2 E2ed|c2 (3ABc BAGB|1 A2AG ABcd:|2 A2AG A2||
+
+X:12
+T:Saint Patrick's Day
+R:set dance
+H:see also march#3
+Z:id:hn-setdance-12
+M:6/8
+Q:3/8=110
+K:G
+~G3 GBd | gfe dBG | cBc AFD | EFE E2D | ~G3 GBd |
+gfe dBG |1 cBc AFD | E2F G2D :|2 cde dBG | E2F G2B ||
+|: def gag | fed e2B | def gag | fed e2B | def gbg |
+fed efg | GAG GBd | gfe dBG | cBc AFD | EFG AFD |
+GAG GBd | gfe dBG | cde dBG |1 E2F G2B :|2 E2F G2D ||
+P:version 2
+|: GAG GAB | ded dBG | AGA BGD | EFE E2D |
+GAG GAB | d2e dBG | AGA BGD |1 E2F G2D :|2 E2F G2B ||
+|: def g2e | fed edB | def g2e | fed e2d | def g2e |
+fed efg | GAG GAB | d2e dBG | AGA BGD | EFE E2D |
+GAG GAB | ded dBG | AGA BGD |1 E2F G2B :|2 E2F G2D ||
+
+X:13
+T:Ace and Deuce of Pipering, The
+R:set dance
+H:See also #10
+D:Matt Molloy, Se\'an Keane, Liam O'Flynn: The Fire Aflame
+Z:id:hn-setdance-13
+M:C|
+L:1/8
+K:Ador
+cB|BAAG ~A3c|BAAG ~A3B|BAdB BAdB|BAdB c3d|
+e2fd e2fd|egfd edBd|~g3e ~f3d|egfd edBd|
+cAdB cABA|GABc dBcB|A2af gedB|1 GABc d2:|2 A2AG A2||
+|:cB|BAAG ~A3c|BAAG ~A3c|B2g2 f2g2|B2ga gfed|
+e2a2 abag|e2ab aged|B2g2 f2gf|eagb ~a3b|
+(3c'ba bg a2ed|cAdB cABA|GABc dBcB|A2af gedB|1 GABc d2:|2 A2AG A2||
+|:cB|BAAG ~A3c|BAAG ~A3c|B2g2 gedB|(3cBA dB c3d|
+e2fd edBd|(3cBA dB c2BA|~g3e fedf|egfd edBd|
+(3cBA dB cABA|GABc dBcB|A2af gedB|1 GABc d2:|2 A2AG A2||
+
+X:14
+T:Blackthorn Stick, The
+R:set dance
+Z:id:hn-setdance-14
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+d|BAG E2G|DB,D EGF|G2D GAB|cdc BAG|BdB A2D||
+|:GAB cdc|BAG Bcd|edc BAG|EGE DB,D|1 EGF G2D:|2 EGF G2||
+
+X:15
+T:Drunken Gauger, The
+R:set dance
+Z:id:hn-setdance-15
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+D|GAB c2A|BAG AGE|GBd g2e|dBe dBG|
+c2A BdB|AGA BGE|DEG AGA|BGG G2:|
+|:D|GBd g2e|dBe dBG|Ace a2a|agb age|
+dBd g2e|dBe dBG|c2A BdB|AGA BGE|
+GAB c2A|BAG AGE|GBd g2e|dBe dBG|
+c2A BdB|AGA AGE|DEG AGA|BGG G2:|
+
+X:16
+T:Is The Big Man Within?
+R:set dance
+Z:id:hn-setdance-16
+M:9/8
+L:1/8
+Q:3/8=110
+K:D
+F|AGF G2E E2F|GFE F2D D2F|AGF G2E E2c|dcB AFD D2:|
+M:6/8
+|:E|F2A ABc|ded cBA|Bcd AGF|BGE EFG|
+F2A ABc|ded cBA|Bcd AGF|AFD D2:|
+
+X:17
+T:Miss Brown's Fancy
+T:Planxty Browne
+R:set dance
+C:Turlough O'Carolan (1670-1738) or Nathaniel Gow (1763-1831)
+Z:id:hn-setdance-17
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+g | dBG GAB | EFE E2c | AFD DEF | G2G G2g |
+dBG Bcd | EFE E2c | AFD DEF |1 G3 G2 :|2 GBA Gga ||
+|: bgb afd | efg gfe | dBg dBG | AFD Dga |
+bgb afd | efg gfe | faf ge^c | d3 de=f |
+ece dBd | cAc BdB | Ace dBG | FAF DEF |
+GAB EFG | ABc def | gdB cAF |1 G3 Gga :|2 G3 G2 ||
+
+X:18
+T:An Suisin B\'an
+T:White Blanket, The
+R:set dance
+H:See also "Casadh An tS\'ug\'ain", air#17
+Z:id:hn-setdance-18
+M:C|
+L:1/8
+K:G
+(3GAB | cEED EFGE | DE (3GAB c3A | BAGE D2EG |
+A2AB ADGA | BAGE DEDE | G2GA G2 :|
+|: Bd | e2ed efge | dB (3GAB c3A | BAGE D2EG |
+A2AB ADGA | BAGE DEDE | G2GA G2 :|  
+
+X:19
+T:Sweets of May
+R:set dance
+Z:id:hn-setdance-19
+M:6/8
+L:1/8
+Q:3/8=110
+K:G
+B2G AFD | GAG GAB | AGG GAB | c2B Adc |
+B2G AFD | GAG GBc | BGG AFD |1 GAG G2d :|2 G3 F2G ||
+|: ABA A2G | E2F G2E | ABA c2d | e2d c2B |
+ABA A2G | E2F G2E | ABA BAG |1 A3 F2G :|2 A3 ABc ||
+|: d3 d^cd | D3 DED | c3 cBc | D3 DEF |
+G2D G2A | B2G B2c | d3 DEF |1 G3 ABc :|2 G3 G2d ||
+
+X:20
+T:High Cauled Cap, The
+T:High Caul Cap
+R:set dance
+H:See also "Highland Laddie" march#31. Also played in D.
+Z:id:hn-setdance-20
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+D | G>A Bd | c/B/A/G/ B/A/G/A/ | BA AG/A/ | BA AD |
+G>A Bd | c/B/A/G/ B/c/B/A/ | GE ED/E/ | GE E :|
+|: z | eg dB | c/B/A/G/ B/A/G/A/ | BA AG/A/ | BA Ad |
+eg dB | c/B/AG/ B/c/B/A/ | GE ED/E/ | GE E :|
+

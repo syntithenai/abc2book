@@ -1,0 +1,189 @@
+This file contains 6 rachenitsas (#1 - #6).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These rachenitsa (rachenica, racenica, ruchenitsa) are dance tunes from Bulgaria.
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+
+The uneven meter is 7/16 = 2+2+3/16
+
+Last updated 11 July 2019.
+
+(c) Copyright 2017-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:rachenitsa
+M:7/16
+L:1/16
+Z:id:hn-%R-%X
+
+X:1
+T:Delijska Rachenitsa
+R:rachenitsa
+C:Ivan Shibilev
+O:Bulgaria
+Z:id:hn-rachenitsa-1
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Dphr ^f
+|: d2^fg a2a | a2a2 ~a2g | abb2 a2g | gag^f edc |
+[1 d2^fg a2a | a2a2 ~a2g | abb2 a2g | g2a2 z3 :|
+[2 c2de e2e | d2e2 ^f2g | agg^f edc | dAd2 d3 ||
+|: c2de e2e | d2e2 ^f2g | agg^f edc | de^fg ~a2d |
+   c2de e2e | d2e2 ^f2g | agg^f edc | dAd2 d3 :|
+|: d'4-d'3 | c'4-c'3 | bc'ba g^fg | abbd b2d |
+   a2b2 c'2d' | c'2b2 a2g | gag^f edc |1 de^fg abc' :|2 dAd2 d3 ||
+|: a2b2 c'2d' | c'2b2 a2g | gag^f edc | de^fg ~a2d |
+   a2b2 c'2d' | c'2b2 a2g | gag^f edc | dAd2 d3 :|
+|: ga^f2 gag | ^fAde ~f2d | gA^f2 edc | de^fg ~a2d |
+   ga^f2 gag | ^fAde ~f2d | gA^f2 edc | dAd2 d3 :|
+
+X:2
+T:Varbishka Ratchenitsa
+R:rachenitsa
+H:Originally in C, but Kornog transposed it for the simple system flute.
+O:Bulgaria
+Z:id:hn-rachenitsa-2
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:D
+|: g2z2 g2f | fdff fed | eeez eez | dAde ffd | gdag g2f | fdff fed | eeez eez | dAdA d3 :|
+!segno!|: d2ff fed | gggd ggf | fdff fed | eeeA ez2 | d2ff fed | gggd ggf | fdff fed | eeeA e3 !fine! :|
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | gdag g2f | fdff fed | eeeA eeA | dAdA d3 :|
+|: d2ff fed | gggd g2f | fdff fed | eeeA eeA | d2ff fed | gggd ggf | fdff fed | eeeA e3 :|
+|: e2bb bag | aaad agf | a2gf efd | eeee a2b | e2bb bag | aaad agf | a2gf efd | eeeB e3 :|
+|: aagf efd | eeee a2b | aagf efd | eeee dcB | aagf efd | eeee a2b | aagf efd | eeeB e3 :|
+K:Dphr ^f
+=B=cd_e fga | agf_e fAd | fggf f_e_b | agf_e dd=c | d_ef2 fag | f_ed2 fga | agff f_ed | d=c=BA d3 |
+=B=cd_e fga | agf_e fAd | fagf f_e_b | agf_e dd=c | _b=c'c'b bag | gff_e fga | agff f_ed | d=c=BA d3 ||
+K:Cmix ^f
+|: ^fggg _bag | g=c_ba g=fe | ^fga2 g_ba | g=fee gG=c | ^fggg _bag | g=c_ba g=fe | ^fga2 g_ba | g=fee =c3 :|
+K:Dphr ^f
+|: =c2dd dgf | fAdg gf_e | fffA =cgf | fd_ed daA | =c2dd dgf | fAdg gf_e | fffA =cgf | fd_ed d3 :| 
+P:Kornog version
+K:D
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | ggag g2f | fdff fed | eeeA eeA | dAdA d3 :|
+!segno!|: d2f2 fed | ~g3d g2e | fdff fed | eeeA eee | d2f2 fed | ~g3d g2e | fdff fed | eeeA e3 !fine! :|
+|: g2z2 g2f | fdff fed | eeeA eeA | dAde ffd | ggag g2f | fdff fed | eeeA eeA | dAdA d3 :| 
+|: d2f2 fed | ~g3d g2e | fdff fed | eeeA eee | d2f2 fed | ~g3d g2e | fdff fed | eeeA e3 :| 
+|: e2bb bag | ~a3d agf | a2g2 efd | ~e3e abb | e2bb bag | ~a3d agf | a2gg efd | ~e3B e3 :|
+|: aagf efd | ~e3e a2b | aagf efd | ~e3e dcB | aagf efd | ~e3e a2b | aagf efd | ~e3B e3 :|
+K:Dphr ^f
+|: =B=cd_e fga | agf_e ffe | fgaf agf | agf_e ddA |1 d_efg fag | f_ed2 fga | agff f_ee |
+  d=cBA d3 :|2 b=c'c'b bag | gff_e fga | agff f_ee | d=c=BA d3 || 
+K:Cmix ^f
+|: ^fg~g2 _bag | g=c_ba gge | ^fga2 gaa | ggee g=ce | ^fg~g2 _bag | g=c_ba gge | ^fga2 gaa | ggee =c3 :|
+K:Dphr ^f
+|: =cdd2 fgf | fdfg gfd | ~f3d =cgf | fd_ed d3 | =cdd2 fgf | fdfg gfd | ~f3d =cgf | fd_ed d3 :|
+
+X:3
+T:Bulchenska Rachenitsa
+R:rachenitsa
+D:Ivo Papasov
+O:Bulgaria
+Z:id:hn-rachenitsa-3
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Aphr ^c
+A2a2 gag | ^f2fe fed | e^fgf g=fe | e2ed ^c_BA |
+   A^cea gag | ^f2fe fed | e^fgf g=fe |1 e2ea e3 :|2 e2ea e=f^f ||
+|: gfed ^c_BA | _B2BA BAG | A_B^cd dcB | A_B^cd e=f^f |
+   g=fed ^c_BA | _B2BA BAG | A_B^cd dcB | A2AE A3 :|
+A2a2 g2a | ^f4 fed | e^fgf g=fe | e2e2 eee |
+   A^cea gag | ^f4 fed | e^fga g=fe | e2z2 e=f^f ||
+|: gfed ^c_BA | A_B3 BAG | A_B^cd dcB | A_B^cd e=f^f |
+   g=fed ^c_BA | A_B3 BAG | A_B^cd dcB | A2AE A3 :|
+|: f2d2 ~d3 | f2gf gfe | e2^c2 ~c3 | e2fe fed |
+   d2_B2 ~B3 | d2ed ed^c | A^cea g_ba | gfed ^c_BA :|
+
+X:4
+T:Svatbarska Rachenitsa
+R:rachenitsa
+O:Bulgaria
+Z:id:hn-rachenitsa-4
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Am
+c2de ~e2d | dced ~d2c | cddc cBG | AGAB ~c2G |
+   c2de ~e2d | dced ~d2c | cddc cBG | ~A2AE A3 :|
+|: cddA cdd | cBAB ~c2G | cd~B2 GAB | AGAB ~c2G |
+   cddA cdd | cBAB ~c2G | eddc cBG | ~A2cd ~A3 :| !fine!
+K:A
+|: Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA |
+   Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA A3 :|
+|: AB~B2 dcA | c2cA ~B3 | B2de cde | c2cA ~B3 |
+   AB~B2 dcA | c2cA ~B3 | B2de cde | c2BA A3 :|
+K:Aphr ^c
+|: =fedc _BA=G | A_B~c2 Acd | =fedc _BA=G | ~A2AE cde |
+   =fedc _BA=G | A_B~c2 Acd | =fedc _BA=G | ~A2AE A3 :|
+K:A
+|: Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA |
+   Aede ~c2c | AB{c}BA ~c2c | eAde ~c2c | AB{c}BA AEA :|
+!D.C. al fine!
+
+X:5
+T:Bulcenska racenica
+R:rachenitsa
+H:Originally in Cmix but transposed to fit the simple system flute
+O:Bulgaria
+Z:id:hn-rachenitsa-5
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Dmix
+defg ggf | fcde ffe | ecde eed | dAde ffd | 
+   d2ag aag | fcde ffe | ecde eed | d2aA d3 :| !fine!
+|: a2aa aaa | a2a2 agf | a2aa aaa | az3 eed :|
+|: defg ggf | fcde ffe | ecde eed | dAde ffd | 
+   d2ag aag | fcde ffe | ecde eed | d2aA d3 :|
+|: a2aa aaa | a2a2 agf | a2aa aaa | az3 eed :|
+K:Ddor
+|: aAga =fga | =ffed daA | aAgA =fga | =ffed dAd |
+   aAga =fga | =ffed daA | Aaga =fga | =ffed dAd :|
+K:Dmix
+|: cddd agf | fdga fff | cddA =fAe | eAe=f dAA |
+   cddd agf | fdga fff | cddA =fAe | eAe=f dz2 :|
+K:Ddor
+|: aAga =fga | =ffed daA | aAgA =fga | =ffed dAd |
+   aAga =fga | =ffed daA | Aaga =fga | =ffed dAd :|
+K:Dphr ^f
+|: d_efg agf | f_edc gcc | gff_e fg2 |1 f_edc cGc :|2 f_edc cz2 ||
+|: gff_e fg2 | f_edc gcc | gff_e fg2 |1 f_edc cGc :|2 f_edc cz2 ||
+K:Dmix
+|: cddd agf | fdga fff | cddA =fAe | eAe=f dAA |
+   cddd agf | fdga fff | cddA =fAe | eAe=f dz2 :|
+!D.C. al fine!
+
+X:6
+T:Mileva ruchenitsa
+R:rachenitsa
+C:Ivan Milev
+H:Played: AABBAABBCCDD solos AABB
+O:Bulgaria
+Z:id:hn-rachenitsa-6
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Ephr ^g
+^G2A2 B2B | B2B2 B2A | BdcB A^GA | B2z2 z2E |
+^G2A2 B2B | B2B2 B2A | ^GBAG FED |1 EF^GA B2E :|2 E2EB, E3 ||
+|: BccB A2A | ABBA ^G2G | ^GAAG FED | EF^GA B2E |
+dccB A2A | ABBA ^G2G | ^GAAG FED | E2EB, E3 :|
+|: B2cd d2d | d2d2 d2c | cAc2 c2c | c2c2 c2B |
+EFDE F^GA | BccB A^GF | ^GAAG FED | EF^GA B2E |
+B2cd d2d | d2d2 d2c | cAc2 c2c | c2c2 c2B |
+EFDE F^GA | BccB A^GF | ^GAAG FED | E2EB, E3 :|
+|: EFDE F^GA | BccB A^GF | ^GAAG FED | EF^GA B2E |
+A2A2 ABc | dccB A^GF | ^GAAG FED | E2EB, E3 :|
+

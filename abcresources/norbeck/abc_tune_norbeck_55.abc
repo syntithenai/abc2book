@@ -1,0 +1,83 @@
+This file contains 5 ronds (#1 - #5).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These ronds are Breton dance tunes from Brittany/Bretagne.
+
+Last updated 3 May 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:rond
+M:4/4
+L:1/8
+Z:id:hn-%R-%X
+O:Bretagne
+
+X:1
+T:Rond de St. Vincent
+R:rond
+O:Bretagne
+D:Kornog: Ar Seizh Avel
+Z:id:hn-rond-1
+M:4/4
+Q:1/4=180
+K:C
+gg {b}ag fe dg | fg {b}ag fe d2 :|
+|: cd e{f}e de f2 | gf ec de cg :|
+
+X:2
+T:Rond de St. Vincent
+R:rond
+O:Bretagne
+D:Kornog: Ar Seizh Avel
+Z:id:hn-rond-2
+M:4/4
+Q:1/4=180
+K:Am
+AB cA {B}AG AE | AB cA {B}AG AF | AB cA {B}AG A2 :|
+|: Ac Bc dc B2 | AA {c}BA GG A2 | Ac Bc dc B{c}B | AA {c}BA G2 A2 :|
+
+X:3
+T:Rond de St. Vincent
+R:rond
+O:Bretagne
+D:Kornog: Ar Seizh Avel
+Z:id:hn-rond-3
+M:4/4
+Q:1/4=180
+K:BPhr
+FF BB cB AG | FF B2 cB AG | (3FGA B2 cB AG | FF BB cB AG ||
+|: fg fe dc B{c}B | AB ^cB AG FB | (3FGA B2 A=c Bc | dd cA B{c}B AG :|
+
+X:4
+T:Rond-de-Loudeac
+R:rond
+O:Bretagne
+Z:id:hn-rond-4
+M:4/4
+Q:1/4=180
+K:Ador
+A | Ac BA GA AG | Ac BA G2 A2 | Ac BA GA AG | Ac BA G3 :|
+|: A | Bc dc BA BF | Bc dc B3 :|
+|: B | Ac ec GB dB | AB cd ed cB | Ac ec GB dB | AB cB GA A :|
+
+X:5
+T:Rond de Saint-Vincent
+R:rond
+D:Skeduz: Rag ar Plinn
+O:Bretagne
+Z:id:hn-rond-5
+M:4/4
+Q:1/4=180
+K:Bm
+Bf Bc (3ded BA | Bf Bc dc BA :|
+|: Bc dd B2 AB | ce dB (3cdc BA |
+Bc d2 (3BcB AB | ce dB cd BA :|
+

@@ -1,0 +1,626 @@
+This file contains 33 Carolan Tunes (#1 - #33).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 6 October 2020.
+
+(c) Copyright 1997-2020 Henrik Norbeck. This file:
+- May be distributed freely (with restrictions below).
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-%X
+
+X:1
+T:Planxty Fanny Powers
+T:Fanny Powers
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-1
+M:3/4
+L:1/4
+Q:1/4=160
+K:G
+D |: G2D | G>AB | c2B | A2G | GFE | DFD | F2G | A2c |
+B>AG | Bcd | e2A | A>BG | GFE | DGF | G3 |1 G2D :|2 G2d ||
+|: dB/c/d | dB/c/d | G>BG | GBd | ec/d/e | ec/d/e | A>cA | AcA |
+B>cd | efg | f>ga | d2c | B>AG | DGF | G3 |1 G2d :|2 G2 ||
+P:variations
+D |: G2D | G>AB | c2B | A2G | F>GE | DFD | F2G | A>Bc |
+B>AG | B>cd | e2A | A2G | GFE | DGF | G3 |1 G2D :|2 G>AB/c/ ||
+|: dB/c/d | dB/c/d | G>AG | GBd | ec/d/e | ec/d/e | A>BA | ABc |
+B>cd | e>fg | f>ga | d2c | B>AG | A/B/cF | G3 |1 G>AB/c/ :|2 G2 ||
+
+X:2
+T:Planxty Irwin
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also in D, #9
+Z:id:hn-carolan-2
+M:3/4
+L:1/4
+Q:1/4=160
+K:G
+d | g2f | e>fg | ddc | B>AG | c2A | B>cd | F2G | A2d |
+g2f | e>fg | ddc | B>AG | c2A | B/c/dd | G2A | G2 :|
+|: d | g2g | g>fg | a>ba | afd | b2b | a>bg | f>ge |
+d>ef | g2f | e>fg | ddc | B>AG | c2A | B/c/dd | G2A | G2 :|
+
+X:3
+T:Sheebeg and Sheemore
+T:Sheebeg Sheemore
+T:S\'i Beag S\'i M\'or
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Probably the first tune composed by O'Carolan. S\'i Beag and S\'i M\'or
+H:are two hills in Co. Leitrim associated in the local folklore with two
+H:bands of fairies continually at war with each other.
+Z:id:hn-carolan-3
+M:3/4
+L:1/8
+Q:1/4=160
+K:D
+de | f2fed2 | d3ed2 | B4A2 | F4A2 | BABcd2 | e4de | f2f2e2 | d4f2 |
+B4e2 | A4d2 | F3GE2 | D4f2 | B4e2 | A4dc | d2dec2 | d4 :|
+|: de | f2fed2 | edefa2 | b2b2a2 | f4ed | e2e2a2 | f4ed | d4B2 | B4A2 |
+F2GFGE | D4f2 | B4e2 | A4a2 | bagfed | e2e/f/edc | d2dedc | d4 :|
+
+X:4
+T:O'Carolan's Concerto
+T:Mrs. Power
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-4
+M:2/4
+Q:1/4=100
+K:D
+d2dd d2cB | ABGA F2A2 | E2A2 D2A2 | Bcde dcBA |
+d2a2 fgaf | efge fgaf | gabg fdfa | gfed dcBA |
+BGBd gBgB | AFAd fAfA | GEGB efed | cdBc A2AG |
+FGAF EFGE | FGAF GABG | A2d2 fedc | d2dc d4 :|
+|: d2b2 agfe | d2a2 c2a2 | B2gB ABcd | ecBA d3f |
+edcB caaa | Bggg Afff | edcB caaa | Bggg bgbg |
+afaf edcB | cABG AFGE | DAFA DAFA | GEBE GEBE |
+FAdc BAGF | EFGA BcdB | A2d2 fedc | d2dc d4 :|
+
+X:5
+T:Loftus Jones
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-5
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+g4 f2e2 | d3c BcdB | cBAB G3A | BcBA G2A2 |
+BcdB cdec | d2cB cBAG | FGFE D3F | GAGF E2c2 |
+dcdB cBcA | G2D2 E2F2 | G2E2 F2G2 | A2F2 G2A2 |
+B2G2 A2B2 | c4 d4 | cBAG FGAF | G2DC B,2D2 | G3A G4 :|
+|: A2F2 G2E2 | F2D2 E2F2 | G2B2 F2B2 | E4F4 |
+BBB2 AAA2 | GABc B3A | GABc dcBA | G2F2 E4 |
+B,EGE B,EGE | DFDF DFDF | EGEG EGEG | FAFA FAFA |
+GBGB GBGB | GBGB GBGB | efg2 f2gf | e4 e2f2 |
+gbgb fafa | ecec dBdB | cAcA BGBG | AGFE DEFD |
+G2DC B,2D2 | AGFE D2d2 | cBAG FGAF | G2DC B,2D2 | G3A G4 :|
+
+X:6
+T:O'Carolan's Ramble to Cashel
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Another version "O'Carolan's Quarrel with the Landlady" #10
+Z:id:hn-carolan-6
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+BA | G4 G2 | G2 g2 a2 | ba gf ed | g2 f2 g2 |
+e6 | e2 f2 g2 | ed cB AG | A4 BA |
+G4 G2 | G2 g2 a2 | ba gf ed | g4 f2 |
+e2 fe dc | d2 ed BA | B2 E2 E2 | g4 f2 |
+e2 fe dc | d2 ed BA | B2 E2 E2 | E4 :|
+|: ga | b6 | ba gf e2 | d2 f2 g2 | a2 b2 c'2 |
+ba gf ed | ef g4 | ed cB AG | A4 BA |
+G4 G2 | G2 g2 a2 | ba gf ed | g4 f2 |
+e2 fe dc | d2 ed BA | B2 E2 E2 | g4 f2 |
+e2 fe dc | d2 ed BA | B2 E2 E2 | E4 :|
+
+X:7
+T:Morgan Megan
+T:Morgan Magan
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-7
+M:2/4
+Q:1/4=100
+K:G
+D2 | D2G2 G2AB | cBAG Bcd2 | e2A2 A2G2 | GFEF D2EF |
+G3A G2A2 | G2FE D2G2 | FGA2 A2EG | F2D2 D2EF |
+GABG A2F2 | G6 || B2 | c3B A2Bc | d4 e4 |
+d2B2 cBAG | AGFE D2EF | GABG A2F2 | G6 || dc |
+B2d2 d2ef | g2G2 Bcd2 | g2G2 Bcd2 | edcB A3c |
+BABc d2B2 | e2c2 d2B2 | cBA2 d2G2 | F2D2 D2GF |
+E2C2 C2GD | E2C2 C2AE | F2D2 D2DE | FED2 d2Bc |
+d3B edcB | cBAG FGAF | D2G2 BAGF | G6 ||
+P:variations
+GE | D2G2 G2AB | cBAG Bcd2 | e2A2 A2AG | GFEF D2EF |
+G3A GFGA | G2FE D2G2 | FGA2 A3G | F2D2 D2EF |
+G2B2 AGAF | G6 B2 | c3B ABc2 | d2d2 e4 |
+d2B2 cBAG | AGFE D2EF | G2B2 AGAF | G6 ||
+dc | B2d2 d2ef | g2G2 Bcd2 | g2G2 Bcd2 | edcB A3c |
+BABc d2B2 | e2c2 d3B | c2A2 BAG2 | F2D2 D2GF |
+E2C2 C3D | EDCB, C2AG | F2D2 D3E | FED2 D2Bc |
+d2Bd edcB | cBAG AGFE | D2G2 AGAF | G6 ||
+
+X:8
+T:Blind Mary
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-8
+M:2/4
+L:1/8
+Q:1/4=70
+K:D
+A | d2 d>c | B>A AF/G/ | A>B AF | E3 F/G/ |
+Af f>e | dB AD/E/ | F>G E>D | D3 ||
+d/e/ | f>g fd | e/d/c/B/ AB/c/ | dD DE/F/ | E3 A/G/ |
+F>G Ad | f>e dD/E/ | F>G E>D | D3 ||
+
+X:9
+T:Planxty Irwin
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also in G, #2
+Z:id:hn-carolan-9
+M:3/4
+L:1/4
+Q:1/4=160
+K:D
+|: A | d2c | B>cd | A2G | F>ED | G2E | F>GA | C2D | E2c |
+d2c | B>cd | A2G | F>ED | G2E | F>GA | D2E | D2 :|
+|: A| d2d | d>cd | e>fe | ecA | f2f | e>fd | c>dB | ABc |
+d2c | B>cd| A2G | F>ED | G2E | F>GA | D2E | D2 :|
+
+X:10
+T:O'Carolan's Quarrel with the Landlady
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Another version "O'Carolan's Ramble to Cashel" #6
+Z:id:hn-carolan-10
+M:3/4
+L:1/8
+Q:1/4=160
+K:Em
+BA | G3AB2 | g4ga | bagfed | g4gf | e3fed | e2f2gf | edcBAG | A4BA |
+G3AB2 | g4ga | bagfed | g4gf | e2fedB | d2edBA | B6 | B4gf |
+e2fedB | d2edBA | B2e2e2 | e4 ||
+ga | b2g2b2 | bagfed | d2f2g2 | a4 (3abc' | bagfed | e2f2gf | edcBAG | A3cBA |
+G3AB2 | g4ga | bagfed | g4f2 | e2fedB | d2edBA | B6 | e4f2 |
+e2fedB | d2edBA | B2e2e2 | e4 ||
+
+X:11
+T:Hewlett
+T:Planxty Hewlett
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-11
+M:3/4
+L:1/8
+Q:1/4=160
+K:D
+AF | D2D2FG | ABc2A2 | d2f2fg | fed2dB |
+A2F2FA | GFGABG | AFD2DE| D4 :|
+|: A2 | A2D2AB | A2D2AB | A2d2de | dcBAGF |
+G2GFGA | G2GFGA | GFGABG | AFD2E2 |
+FEF2G2 | ABc2A2 | d2f2fg | fed2dB |
+A2F2FA | GFGABG | AFD2DE | D4 :|
+
+X:12
+T:Planxty George Brabazon
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-12
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+ge | d2G2 cBAG | d2G2 cBAG | e2A2 ABcd | edcB A2Bc |
+d2cB g2fe | edcB cBAG | BAGE DEGA | B2G2 G2 :|
+|: ga | b2gb a2fa | g2eg edcB | e2A2 ABcd | edcB A2ga |
+b2gb a2fa | g2eg edcB | cBAG DEGA | B2G2 G2 :|
+
+X:13
+T:O'Carolan's Draught
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-13
+M:2/4
+L:1/16
+Q:1/4=70
+K:G
+D2 |: GABc defd | g2fe d2Bd | e2ce d2Bd | c2Bc AcBA |
+GABc defd | gfed ^cbag | gfed A2^c2 |1 d3e dcBA :|2 d6 f>g||
+afga bagf | e/f/gfe ed=cB | edef gfga | bagf efga |
+bBbB aBaB | gBgB fBfB | edef gfed | e2ed e3f |
+gfed cBAG | e2d2 d2BG | c2Bc ABGA | FGAF DEFD |
+EFGE FGAF | GABG ABcA | d2g2 bagf | g2gf g2 ||
+
+X:14
+T:Princess Royal
+T:Miss MacDermott Roe
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:See also set dance#11 and set dance#7
+Z:id:hn-carolan-14
+M:C|
+L:1/8
+Q:1/4=140
+K:Em
+BA | G2F2 E2BA | G2F2 E2B2 | c2B2 A2dc | BcBA G2B2 |
+ABAG FGFE | D2C2 B,2BA | G2FE GFED | E4E2 :|
+|: B2 | e2>d2 e2f2 | g2G2 G2g2 | gfed cBAG | FGAF D2EF |
+G2FG A2GA | B2B2 e4 | d4 c2dc | B4 A2BA |
+AGGF EGFE | D2C2 B,2BA | G2FE GFED | E4 E2 :|
+
+X:15
+T:Charles O'Connor
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-15
+M:6/8
+Q:3/8=120
+K:D
+A |: d2A d2A | BAG FGA | Bcd ecA | dfa a2g |
+fef BcB | ede ABA | dcB AFA |1 d3 d2A :|2 d3 dcB ||
+|: A2D FED | BGB AFA | DFA FDA | GEe c2A |
+f2f fef | fef fdB | e2e eae | eae ecA |
+dcB AFE | FAd f2e | dcB AFA |1 d3 dcB :|2 d3 d2 ||
+P:variations
+A |: d2A d2A | BAG FGA | Bcd ecA | dfa a2g |
+faf BAB | efe AGA | dcB AFA |1 dAF D2A :|2 dAF D3 ||
+|: ABA FED | BGB AFD | FAD FAD | GBe c2A |
+f2f faf | faf fdB | e2e eae | eae ecA |
+dcB AFE | FAd f2e | dcB AFA |1 dAF D3 :|2 dAF D2 ||
+
+X:16
+T:Lord Inchiquin
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-16
+M:3/4
+Q:1/4=160
+K:D
+A2 | d2defe | d2edcB | A2F2A2 | f4e2 | d2edcB | A2G2F2 | G2BAGF | E4ag |
+f3ed2 | d2c2B2 | A2F2A2 | f4e2 | d2edcB | Ad3F2 | E3FE2 | D4 :|
+|: A2 | ABcde2 | e2d2e2 | f2d2f2 | e4fe | defga2 | a3bg2 | f2d2f2 | e4fe |
+defga2 | a3bg2 | f2g2e2 | d4f2 | gfe2e2 | e2f2d2 | c2d2B2 | A4ag |
+f3ed2 | d2c2B2 | A2F2A2 | g4fe | d2edcB | Ad3F2 | E3FE2 | D4 :|
+
+X:17
+T:Planxty Madam Maxwell
+T:Madame Maxwell
+T:Mrs Maxwell
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-17
+M:C|
+L:1/8
+Q:1/2=90
+K:D
+ABA2 AFD2|F2A2 A2d2|cdec defd|efge f3e|
+d2A2 GFED|G2B2 B2d2|c2A2 e2dc|d4 d4:|
+|:a2d2 a2gf|g2b2 b2ag|f2df a2gf|g2e2 e3g|
+fgaf gabg|a2g2 f2e2|d2cd efed|c2A2 A2Bc|
+d2d2 cBAG|F2D2 D3d|cde2 fed2|c2A2 A2Bc|
+dcBA BAGF|G2B2 B3A|BAGF AGFE|D4 D4:|
+
+X:18
+T:O'Carolan's Welcome
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Similar to "Planxty Judge" #29
+Z:id:hn-carolan-18
+M:3/4
+L:1/8
+Q:1/4=120
+K:Em
+GF | E2 G>A B2 | E2 GA B2 | AB AG FE | D/E/F D2 B,2 |
+[1 G3 F E2 | A3 G F2 | GB B,2 D2 | E4 :|
+[2 d3 c B2 | e3 d BA | G/A/B AG FG | E4 ||
+GA | B2 e>f g2 | B2 ef g2 | gf ed ef | g2 B2 B2 |
+c2 ec BA | B2 dB AG | A2 B2 d2 | e4 e2 |
+ed Bd e2 | dB AB d2 | BA GA BG | A2 F2 D2 |
+G3 F E2 | A3 G F2 | GB B,2 D2 | E4 ||
+
+X:19
+T:John O'Connor
+T:Planxty Connor
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:First part cf. Padraig O'Keeffe's, slide#44
+Z:id:hn-carolan-19
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+D | G2G FED | E2F G2A | B2G c2A | BAG cBA |
+Bcd EGE | FGA DED | GFE DB,D | G3 G2 :|
+|: B | ded def | g3 g3 | cdc cBc | e3 e3 |
+dcB cBA | Bcd D2D | EFG AFD | G3 G2 :|
+|: A | BGE EGE | AFD DFD | EGE FAG | F3 D2c |
+Bcd dBG | cde ecA | GFE AFD | G3 G2 :|
+
+X:20
+T:Carolan's Receipt
+T:Planxty John Stafford
+T:Carolan's Receipt for Drinking
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-20
+M:C|
+L:1/8
+Q:1/2=80
+K:G
+g>f | edcB cBAG | E2G>A G2gf | edcB cBcd | e2AB A2Bc |
+dBde d2ef | g2fe d2BA | BAGE AGED | E2GA G2 ||
+Bc | dBde dBAG | EFGA G2Bc | dBde d2Bd | e2ed e3g |
+G2 G/A/B A2 A/B/c | B2 c/d/e d3d | efgf edBd | e2ed e2ga |
+babg agae | gfgd edcB | cBcd efgf | edgB A4 |
+BcBA G2eg | dgBA G2GA | BAGE AGED | E2GA G2 ||
+
+X:21
+T:O'Carolan's Devotion
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also played in Gdor, #22
+Z:id:hn-carolan-21
+M:3/4
+L:1/8
+Q:1/4=80
+K:Ador
+a>b | c'2 c'/b/a a/b/c' | g2 e>f g2 | edcB A>G | G4 A>B |
+c2 c/d/e e/d/c | d2 egae | dcBA A>A | A4 :|
+A>G | E2 G2 G2 | G>A G=FE>D | E2 A2 A2 | A>B AG F>E |
+E2 c2 c2 | c>dc>BA>B | G2 g2 g2 | g4 a>b |
+c'2 c'>ba>b | c'2 e2 e2 | e>d c>de>f | g2 B2 B2 |
+c>B A>Bc>d | e2 A2 G/A/B | AG F>EE>F | E4 ef |
+g2 g/a/b g/a/b | ag fe e/f/g | ed cB AG | G4 G/A/B |
+c2 c/d/e e/d/c | d2 egae | dcBA A>A | A4 ||
+
+X:22
+T:O'Carolan's Devotion
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also played in Ador, #21
+Z:id:hn-carolan-22
+M:3/4
+L:1/8
+Q:1/4=80
+K:Gdor
+g>a | b2 b/a/g g/a/b | f2 d>e f2 | dcBA G>F | F4 G>A |
+B2 B/c/d d/c/B | c2 dfgd | cBAG G>G | G4 :|
+G>F | D2 F2 F2 | F>G F_ED>C | D2 G2 G2 | G>A GF E>D |
+D2 B2 B2 | B>cB>AG>A | F2 f2 f2 | f4 g>a |
+b2 b>ag>a | b2 d2 d2 | d>c B>cd>e | f2 A2 A2 |
+B>A G>AB>c | d2 G2 F/G/A | GF E>DD>E | D4 de |
+f2 f/g/a f/g/a | gf ed d/e/f | dc BA GF | F4 F/G/A |
+B2 B/c/d d/c/B | c2 dfgd | cBAG G>G | G4 ||
+
+X:23
+T:O'Carolan's Lament
+R:carolan
+C:Turlough O'Carolan (1670-1738) ?
+Z:id:hn-carolan-23
+M:3/4
+L:1/8
+Q:1/4=100
+K:Em
+GA | B2 Bc BA | B2 e2 GA | B2 Bc BG | A4 GA |
+B2 Bc BA | B2 e2 ef | g2 fe df | e4 ||
+ef | g2 fe df | ed B2 ef | g2 fe df | e4 ef |
+g2 fe df | ed B2 GA | B2 AG FG | E4 ||
+
+X:24
+T:Carolan's Cup
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-24
+M:3/4
+L:1/8
+Q:1/4=160
+K:Bm
+de | f3gfe | d2f2a2 | e4dB | A4fe | d2c2B2 | A2F2A2 | B2b2a2 | b2f2e2 |
+f3gfe | d2f2a2 | e2gfed | c4fe | d2c2B2 | A2F2A2 | B6 | B4 :|
+|: c2 | d3edc | d4f2 | a3baf | a4f2 | e3fed | e2f2a2 | b6- | b2f2a2|
+b2a2fe | d2f2a2| e4dB | A4fe | d2c2B2 | A2F2A2 | B6 | B4 :|
+
+X:25
+T:Miss Crofton
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+C:Thomas Connellan (c. 1640 - 1698)
+H:Turlough O'Carolan probably adapted Thomas Connellan's air "Lady Iveagh"
+H:and named it "Miss Crofton". See air#8
+Z:id:hn-carolan-25
+M:4/4
+L:1/8
+Q:1/4=90
+K:Ador
+|: AB e>d A2 B/A/G/E/ | G>A B>A G>A G/E/D | EA BA/B/ A2 B>e | d>B AA A4 :| 
+|: ee/d/ eg g2 ge/d/ | ee/d/ ea a2 b/a/g/e/ | ee/d/ eg g2 ge/d/ | e>a aa a2 g>a | 
+b>a g>b a2 ag/e/ | e>d e/f/g/f/ e2 ed/B/ | B>e ee e2 dB/A/ | GE/G/ AA A4 :| 
+
+X:26
+T:Captain O'Kane
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also played with single parts
+H:Original in O'Neill's has d sharps in bars 5 & 7 of 2nd part
+H:See also "The Wounded Hussar", slow air#22
+Z:id:hn-carolan-26
+M:3/4
+L:1/8
+Q:1/4=140
+K:Em
+ED | B,2E2F2 | G4 FE | FGAGFE | D2E2F2 | G2B2G2 | BAGFED | B,2E2E2 | E4 ED |
+B,2E2F2 | G4 FE | FGAGFE | D2E2F2 | G2B2G2 | BAGFED | B,2E2E2 | E4 :|
+|: EF | G2B2B2 | B4 AG | F2A2A2 | A4 dc | B3ed2 | e3fg2 | B2e2d2 | e4ef |
+g2f2e2 | d3cB2 | A2F2d2 | D2E2F2 | G2B2G2 | BAGFED | B,2E2E2 | E4 :|
+
+X:27
+T:Eleanor Plunkett
+T:Planxty Eleanor Plunkett
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+Z:id:hn-carolan-27
+M:3/4
+L:1/8
+Q:1/4=80
+K:G
+GA | B3 B A/B/A | G4 ag | e3 eed | B3 BAG | E2 A2 AB | A4 :|
+|: ga | b2 aged | e3 Bef | g3 d g/a/b | a2 bagf | g2 agfe | d2 B3 d |
+e2 g3 G | B2 dBAG | E2 A2 AB | A4 :|
+P:variations
+|: GA | B2 B2 AG | G2 G2 ag | e2 e2 ed | B2 B2 AG | E2 A2 AB | E2 A2 :|
+|: ga | b2 aged | e4 ef | g2 g2 b2 | a2 bagf | g2 agfe | d2 B2 d2 |
+e2 g2 G2 | B2 B2 AG | E2 A2 AB | E2 A2 :|
+
+X:28
+T:Madam Judge
+T:Mrs. Judge
+T:Abigail Judge
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Often played before Planxty Judge, #29.
+H:O'Carolan composed these tunes to be played together
+D:Ashplant
+Z:id:hn-carolan-28
+M:C|
+L:1/8
+Q:1/2=80
+K:Em
+ED | B,2E2 E2G2 | FGFE D2B2 | BAGF AGFE | D4 B,2D2 |
+E2F2 G2A2 | BcBA G2e2 | efg2 B2g2 | f4 e2e2 |
+edB2 B2e2 | dedB G2B2 | AGFG A2G2 | F4 E2D2 |
+B2G2 c2A2 | d2B2 e2B2 | cBAG BAGF | E4 E2 :|
+|: GA | B2B2 c2B2 | BAGF G2d2 | efg2 B2g2 | efg2 B2g2 |
+fga2 d2a2 | gfge babg | dBde BABc | B4 B2g2 |
+gfef g2f2 | e3f e2dc | B2cB A2G2 | G2F2 E2D2 |
+EFGA B2e2 | DEFG A2d2 | BABG BAGF | E4 E2 :|
+
+X:29
+T:Planxty Judge
+T:Planxty Mrs. Judge
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Often played after Madam Judge, #28. O'Carolan composed these tunes
+H:to be played together. Similar to "Carolan's Welcome" #18
+D:Ashplant
+Z:id:hn-carolan-29
+M:3/4
+L:1/8
+Q:1/4=220
+K:Em
+E2G2B2 | E2G2B2 | G2AGFE | F2B,2B,2 | D2d2F2 | E2e2B2 | G2AGFG | E6 :|
+|: B2d2g2 | B2d2g2 | gfedef | g2d2B2 | c2cBAG | A2d2D2 | B2e2E2 | e4d2 |
+edBde2 | dBABd2 | BAGABG | A2F2D2 | EFG2E2 | FGA2F2 | GAB2B,2 | E6 :|
+
+X:30
+T:Carolan's Farewell to Music
+T:Carolan's Farewell
+T:Farewell to Music
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Originally in Gdor
+Z:id:hn-carolan-30
+M:4/4
+L:1/8
+Q:1/4=50
+K:Ador
+E | A2AB c2 (3cBA | G>A B/d/e/f/ g>a b/a/g/e/ |
+e>d B/d/e/f/ g>e e/d/B | e>d Bc Ac B/A/G/E/ |
+A2AB c2 c/B/A | AA (3BAG a>g (3abc' | e2eg d2de | cB B/A/B/c/ A3 ||
+e | a2ab agab | agab ac' b/a/g/e/ | g2ga gega |
+bagb ac' b/a/g/e/ | a3g agab | (3abc' (3abc' bage |
+gfga b/c'/a/b/ g/a/f/g/ | e/f/d/e/ c/d/B/c/ A>c B/A/G/E/ |
+A2AB c2 c/B/A | B2 (3BAG a>g (3abc' | e2eg d2de | cB B/A/B/c/ A3 ||
+
+X:31
+T:Henry McDermott Roe
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+D:Tomas O'Canainn
+D:Marcas \'O Murch\'u
+Z:id:hn-carolan-31
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+D2 | G2 GA BA | G2 E2 D2 | GF GA Bc | d2 B2 G2 |
+ce dc BA | Bd gd BG | A2 AB cA | B2 G2 E2 |
+G2 GA BA | G2 E2 D2 | GF GA Bc | d2 B2 G2 |
+ce dc BA | Bd gB Ac | B2 G2 G2 | G4 :|
+|: (3def | g2 ga gf | e2 d2 B2 | ed ef ga | b2 g2 e2 |
+g2 ga gf | e2 d2 B2 | ed eg fa | g4 (3def |
+g2 ga gf | e2 d2 B2 | ed ef gf | ed cB AG |
+ce dc BA | Bd gB Ac | B2 G2 G2 | G4 :|
+
+X:32
+T:Planxty Burke
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+H:Also in Gdor
+D:Clannad
+Z:id:hn-carolan-32
+M:3/4
+L:1/8
+K:Edor
+B2 | E3FGA | B4A2 | G2B2G2 | A2F2D2 | D2F2D2 | d2F2D2 | DEF2D2 | A2F2D2 |
+EFG2E2 | B2G2E2 | EFG2E2 | e2G2E2 | d4d2 | d2e2f2 | d6 | B4 :|
+|: de | f2e2d2 | e2d2c2 | d2c2B2 | A2B2c2 | d2c2B2 | e2d2c2 | d2c2B2 | A2F2D2 |
+EFG2E2 | B2G2E2 | E2G2E2 | B2G2E2 | d4d2 | d2e2f2 | d6 | B4 :|
+|: A2 | Bcd2d2 | d2edc2 | d2edcB | A2F2D2 | E4e2 | e2fed2 | e2B2c2 | d4de |
+f2e2d2 | c2B2A2 | Bcd2B2 | A2F2D2 | d4A2 | Bcd2A2 | G6 | E4 :| 
+P:variations
+|: B2 | E2EFGA | B4A2 | G2A2B2 | A2F2D2 | D2E2D2 | A2F2D2 | D2E2D2 | d2F2D2 |
+EFG2E2 | B2G2E2 | EFG2E2 | e2G2E2 | d4d2 | d2e2f2 | d6 | B4 :|
+|: de | f2e2d2 | e3dc2 | d2c2B2 | A2B2c2 | d2c2B2 | e2d2c2 | d2c2B2 | A2F2D2 |
+EFG2E2 | B2G2E2 | E2G2E2 | B2G2E2 | d4d2 | d2e2f2 | d6 | B4 :|
+|: A2 | d2e2c2 | d2e2c2 | d2c2B2 | A2F2D2 | e4e2 | e2f2d2 | e2B2c2 | d4de |
+f2e2d2 | c2B2A2 | Bcd2B2 | A2F2D2 | d4A2 | Bcd2A2 | G6 | E4 :| 
+
+X:33
+T:Mr. O'Connor
+T:Mister O'Connor
+R:carolan
+C:Turlough O'Carolan (1670-1738)
+D:De Danann: The Mist Covered Mountain
+Z:id:hn-carolan-33
+M:3/4
+L:1/8
+K:Em
+B2 E2 F2 | GAGF E2 | e2 E2 F2 | GFGA B2 |
+Bc A2 B2 | BAGF B2 | BAGF E2 | D2 F2 ED |
+E2 G2 e2 | eBef g2 | GBGB E2 | b3 a g2 |
+FAFA D2 | a2 g2 f2 | fgfe f2 | d4 B2 |
+E2 G2 F2 | E2 A2 G2 | F2 B2 A2 | G2 c2 B2 |
+BAGF B2 | AGFE F2 | B,2 E2 D2 | E6 :|
+|: B,DEF G2 | B3 A G2 | F2 G2 E2 | D2 B2 B,2 |
+edef g2 | f2 d2 a2 | be ba g2 | f4 ed |
+efed e2 | G2 F2 E2 | ded^c d2 | GAGA F2 |
+BcBA B2 | E2 G2 F2 | E2 A2 GF | G4 A2 |
+B2 GBGB | d2 Dd Dd | e2 BeBe | f2 Ff Ff |
+gfga b2 | agfg a2 | ge B2 ^d2 | e6 :|
+

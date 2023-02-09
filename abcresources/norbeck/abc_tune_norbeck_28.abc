@@ -1,0 +1,112 @@
+This file contains 4 kolos (#1 - #4).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These kolos are dance tunes from Serbia.
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+
+Last updated 8 March 2020.
+
+(c) Copyright 2017-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:kolo
+Z:id:hn-%R-%X
+M:2/4
+L:1/16
+
+X:1
+T:Varvarinsko Kolo
+R:kolo
+D:Sava Jeremic
+O:Serbia
+Z:id:hn-kolo-1
+M:2/4
+L:1/16
+Q:1/4=120
+K:Ador ^d =c
+e8 | e^dcA cBc2 | c2e2 e^dcA | e^dc2 cBc2 |
+e8 | e^dcA cBc2 | c2e2 e^dcA | e^dcA c4 :|
+|: A6 Bc | =dcBA B2BE | ^GABc =dcBA | B2e2 BAB2 |
+A6 Bc | =dcBA B2BE | Bce^d BA^GA | B2B^G E4 :|
+K:Edor
+|: ^AB3-B4 | B^AGE G4 | G2B2 G2B2 | B^AGE G4 |
+^AB3-B4 | B^AGE G4 | G2B2 G2B2 | B^AGE G4 :|
+|: E6 FG | =AGFE F4 | E2FG =AGFE | F4 B,4 |
+E6 FG | =AGFE F4 | E2FG =AGFE | F4 F4 :|
+
+X:2
+T:Tabanovachko Kolo
+R:kolo
+O:Serbia
+Z:id:hn-kolo-2
+M:2/4
+L:1/16
+Q:1/4=120
+K:Edor ^A =G
+^ABGB ABGB | ^ABGB AGFE | ^ABcd eBdc | dcB^A B4 | 
+^ABGB ABGB | ^ABGB AGFE | FGB2 BGFE | B^AGF E4 :| 
+|: FGFG =AGFE | cdcd edcB | ^ABcd cBAG | ^ABGB AGFE | 
+   FGFG =AGFE | cdcd edcB | ^ABcd cBAG | B^AGF E4 :| 
+|: ^deeB e=dcB | ^ABdc BABE | FGFG B^ABE | FGB^A GFGE | 
+   FGFG B^ABE | FGB^A GFGE | FGB2 BGFE | F2FB F4 :| 
+|: FGFG B^ABE | FGB^A GFGE | FGFG B^ABE | FGB^A GFGE | 
+   FGFG B^ABE | FGB^A GFGE | FGB2 BGFE | F2FB F4 :| 
+
+X:3
+T:Kolo iz Srbije
+R:kolo
+O:Serbia
+Z:id:hn-kolo-3
+M:2/4
+L:1/16
+Q:1/4=120
+K:Bphr ^d =c
+fagf egfe | ^dfed c2cA | ^dfed c2dc | B2BA Bc^de | 
+fagf egfe | ^dfed c2cA | ^dfed c2dc | B2B^G E4 :| 
+K:Ador ^d =c
+|: A3A e^dc2 | B2c2 BB^GE | e^dc2 A2c2 | B3A ^GEFG | 
+   A3A e^dc2 | B2c2 BBBB | e^dc2 A2c2 | BBB^G E4 :| 
+K:A
+|: AAcA eAcA | f/g/f/e/f2 e2c2 | d2d2 B2cd |1 edc2 cBA2 :|2 edc2 c4 || 
+|: AAcA eAcA | eAcA eAcA | d2d2 B2cd |1 edc2 cBA2 :|2 edc2 c4 || 
+|: f2f2 d2ef | gfe2 e2c2 | d2d2 B2cd | edc2 cAcA | 
+   f2f2 d2ef | gfe2 e2c2 | d2d2 B2cd |1 edc2 c4 :|2 edc2 GABc || 
+|: d2z2 c2cA | B4 G2de | fed2 dcB2 | ABcd fdec | 
+   d2z2 c2cA | B4 G2de | fed2 dcB2 |1 B2e2 GABc :|2 B2e2 B2E2 || 
+K:Bm
+|: fgaf agf2 | f2a2 afaf | agf2 f2a2 | afaf a2a2 | 
+   fgaf agf2 | f2a2 afaf | agf2 fedc |1 dcB2 BABA :|2 dcB2 BABc || 
+K:A
+|: d2z2 c2cA | B4 G2de | fed2 dcB2 | ABcd fdec | 
+   d2z2 c2cA | B4 G2de | fed2 dcB2 |1 B2e2 GABc :|2 B2e2 B2E2 || 
+
+X:4
+T:Moravac Kolo
+R:kolo
+O:Serbia
+Z:id:hn-kolo-4
+M:2/4
+L:1/16
+K:Dmix
+D4 G2F2 | EDGF E2E2 | F2D2 EDGF | E2E2 E2ED |
+DFAF G2F2 | EDGF E2E2 | F2D2 EDGF | EEEA EEE2 :|
+|: F4 A2FA | G2GF GAFD | F2A2 AFBA | G2GF GAFD :|
+|: A,DEF G2F2 | FEGF E2EA | G2F2 FEGF |1 E2EA E2E2 :|2 EDEF GABc ||
+|: dcBA GBAG | FAGF E2E2 | G2F2 FEGF |1 EDEF GABc :|2 E2EA E2E2 ||
+P:variations
+|: ~E2ED ~E2ED | ~E2ED ~E2ED | ~E2ED ~E2ED |1 ~E2EA ~E2ED :|2 ~E2EA E4 ||
+|: D4 G2F2 | FDGF ~E2ED | G2F2 FDGF | ~E2EA E2ED |
+D2AF G2F2 | FDGF ~E2ED | G2F2 FDGF | ~E2EA E4 :|
+F4 A2AF | G2GE GAFD | F2FD A2BA | G2GE GAFD |
+F2FD dcBA | G2GE GAFD | F2FD A2BA | G2GE GAFD ||
+|: ^CDEF G2F2 | FDGF E2ED | G2F2 FDGF |1 E2EA E2ED :|2 EDEF GABc ||
+|: dcBA GBAG | FAGF E2ED | G2F2 FDGF |1 EDEF GABc :|2 E2EA E4 ||
+

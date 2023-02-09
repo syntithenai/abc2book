@@ -1,0 +1,543 @@
+This file contains 27 miscellaneous tunes (#1 - #27).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Contains miscellaneous tunes that don't fit into any of my main categories.
+
+Last updated 1 September 2021.
+
+(c) Copyright 2017-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:misc
+Z:id:hn-%R-%X
+
+X:1
+T:Tico-Tico No Fub\'a
+R:misc
+C:Zequinha de Abreu (1880-1935), Brazil
+Z:id:hn-misc-1
+M:4/4
+L:1/8
+Q:1/4=200
+K:Am
+|: e^de | fe2a ze^de | fe2^g ze^de | fe=d'b ^ged^c | =c4 za^g=g|
+fa2d' zc'af | ea2c' zc'ba |1 bB^d^f ac'ba | ^g4 z :|2 be^gb e'd'c'b | a4 z ||
+|: ba^g | =gceg ceg^g | a2f2 zba^g | =gBdf Bdfg | a2e2 zc'c'c' |
+c'bbb zaaa | afff zbbb | bggb affa | g4 zba^g |
+=gceg ceg^g | a2f2 zba^g | =gBdf Bdfg | a2e2 zc'b_b |
+a^gab d'c'bc' | e'=gc'e' g'^f'=f'e' | d'c'ba gfed | c4 z :|
+K:A
+|: Ace | aAcg zAce | fAce zAce | fAce zAce | fBde zBde |
+aBdg zBde | fBde zBde | aBdg zBde | fAce zAce |
+aAcg zAce | fAce zAce | fec^A fec^A | B^ABc d3z |
+dcde fgab | c'd'^d'e' f'e'=d'c' | bagf edcB | A4 z :|
+
+X:2
+T:Imperial March from Star Wars
+T:Darth Vader Theme
+R:misc
+C:John Williams, USA
+Z:id:hn-misc-2
+M:4/4
+L:1/8
+Q:1/4=120
+K:Bb
+"Gm"G2 G2 G2 "Ebm"E>B | "Gm"G2 "Ebm"E>B "Gm"G4 | 
+"Gm"d2 d2 d2 "Ebm"e>B | ^F2 E>B "Gm"G4 |
+"Gm"g2 G>G g2 ^f>=f | "C#m"=e/^d/=e z ^G ^c2 =c>=B |
+"Ebm"_B/A/B z E ^F2 E>F | "Gm"B2 G>B d4 |
+"Eb"g2 G>G "Gm"g2 ^f>=f | "C#m"=e/^d/=e z ^G ^c2 =c>=B |
+"Ebm"_B/A/B z E ^F2 E>B | "Gm"G2 "Ebm"E>B "Gm"G4 ||
+
+X:3
+T:Na Sopkakh Manchurii
+T:The Hills of Manchuria
+R:misc
+C:Ilya Alekseevitch Shatrov (1885-1952), Russia
+H:Original key Fm. See also #8 in Gm.
+Z:id:hn-misc-3
+M:3/4
+L:1/8
+Q:1/4=160
+K:Dm
+"Dm" A6- | A2 F2 G2 | A6- | A6 | "A7" G2A2^c2 | f4 e2 |
+"Dm" d6- | d6 | A2d2f2 | "A7" ^c4d2 | "Gm6" e2d2B2 | e4d2 |
+"A7" A2d2e2 | f4e2 |1 "Dm" d6- | d6 :|2 "Dm" d6- | d2 {B}A^GAB ||
+|: "A7" A3EE2 | z2F2G2 | "Dm" A6- | A2 c=Bcd |
+"C7" c3GG2 | z2A2B2 | "F" c6- | c2c2 "Gdim" ^c2 |
+"Dm" d3AA2 | (3ABA ^G2A2 | "C" c4 "Bb"B2 | z2c2B2 | 
+"Dm" f2e2d2 | "A7" ^c4e2 |1 "Dm" d6- | d2 {B}A^GAB :|2 "Dm" d6- | d2 d2 ^c2 ||
+|: "D7" d4_e2 | d4=c2 | "Gm" c4B2 | B2A2G2 |
+"C7" c4d2 | c4B2 | "Dm" B2A2^G2 | A2^G2A2 |
+"Dm" d2F2A2 | d2f3e | "Gm" d2c2B2 | "Gm6" d4B2 |
+"Dm" F2A2G2 | "A7" E4F2 |1 "Dm" D6- | D2d2^c2 :|2 "Dm" D6- | D2 z2 z2 ||
+
+X:4
+T:Tonight I Had the Strangest Dream
+T:I natt jag dr\"omde
+R:misc
+Z:id:hn-misc-4
+M:3/4
+L:1/8
+Q:1/4=160
+K:G
+d2 | d4 B2 | G4 d2 | d4 BA | G4 g2 | g4 e2 | c2 d2 e2 | d6- | d4
+d2 | d4 c2 | A4 d2 | d4 BA | G4 B2 | A4 B2 | c2 B2 A2 | G6- | G4 ||
+g2 | g4 e2 | c4 g2 | g4 d2 | B4 d2 | d4 d2 | d2 e2 d2 | d6- | d4
+g2 | g4 e2 | c4 g2 | g4 d2 | B4 B2 | A4 B2 | c2 B2 A2 | G6- | G4 || 
+
+X:5
+T:Berendans
+R:misc
+D:Dervish: Boys of Sligo
+D:King's Galliard
+D:Galway Express
+O:Flemish
+Z:id:hn-misc-5
+M:2/4
+L:1/8
+Q:1/4=100
+K:Am
+eA A/B/c/d/ | eA A>B | cc Bc | de/d/ cd |
+[1 eA A/B/c/d/ | eA A>B | cc B/A/G/B/ | A2 A2 :|
+[2 ea ea | eA A>B | cc B/A/G/B/ | A2 A>B ||
+|: ce d/c/B | ce d/c/B | g/d/B/d/ g_B | Af e^g |
+ae cB | A/G/A/B/ c/d/e | f/e/d/c/ B/A/G/B/ |1 A2 A>B :|2 A2 A2 ||
+
+X:6
+T:Lullaby of Birdland
+R:misc
+C:George Shearing (1919-2011), England/USA
+H:Transposed from original Ab to fit the simple system flute
+Z:id:hn-misc-6
+M:4/4
+L:1/8
+Q:1/4=160
+K:Bb
+|: "Gm"d2 cB AG2=E- | "A7"=E2 G^F-"D7"^F2 zD- |
+"Gm"D2 AG-G2 zE- | "Cm7"E2 dc-"F7"c2 zf- |
+"Bbmaj7"f2 ed cB2G- | "Cm7"Gdc^F- ^Fdc=F- |
+[1 "Bbmaj7"F4 zc BE- | "Db7#11"EBAD- "D7"D4 :|
+[2 "Bbmaj7"F4 "F7"zF AB | "Bbmaj7"z8 ||
+"G7"d2 e=e f2 f_e | "Cm7"zc3-c2 z2 |
+"Cm7"c2 ^cd "F7"e2 ed- | "Bbmaj7"d4 z4 |
+"G7"d2 e=e f2 f_e | "Cm7"zc3-c2 z2 |
+"Cm7"c2 ^cd "F7"e2 ed- | "Bbmaj7"dedc "C7#5"z4 ||
+
+X:7
+T:Thunderstruck
+R:misc
+C:Angus Young & Malcolm Young
+H:This is the guitar riff for the song, transposed for ITM instruments.
+H:Originally in key of B.
+D:AC/DC
+Z:id:hn-misc-7
+M:C|
+L:1/8
+Q:1/2=130
+K:Amix
+|: cAeA cAeA | cAeA cAeA :||: dA=fA dA=fA | dA=fA dA=fA :|
+|: cAeA cAeA | cAeA cAeA :||: dA=fA dA=fA | dA=fA dA=fA :|
+|: aAgA fAgA | fAeA fAdA | eAcA dAcA | dAcA dAcA :|
+|: aAgA fAgA | fAeA fAdA | eAcA dAcA | dAcA dAcA :|
+
+X:8
+T:Na Sopkakh Manchurii
+T:The Hills of Manchuria
+R:misc
+C:Ilya Alekseevitch Shatrov (1885-1952), Russia
+H:Original key Fm. See also #3 in Dm.
+Z:id:hn-misc-8
+M:3/4
+L:1/8
+Q:1/4=160
+K:Gm
+"Gm" d6- | d2 B2 c2 | d6- | d6 | "D7" c2d2^f2 | b4 a2 |
+"Gm" g6- | g6 | d2g2b2 | "D7" ^f4g2 | "Cm6" a2g2e2 | a4g2 |
+"D7" d2g2a2 | b4a2 |1 "Gm" g6- | g6 :|2 "Gm" g6- | g2 {e}d^cde ||
+|: "D7" d3AA2 | z2B2c2 | "Gm" d6- | d2 f=efg |
+"F7" f3cc2 | z2d2e2 | "Bb" f6- | f2f2 "Cdim" ^f2 |
+"Gm" g3dd2 | (3ded ^c2d2 | "F" f4 "Eb"e2 | z2f2e2 | 
+"Gm" b2a2g2 | "D7" ^f4a2 |1 "Gm" g6- | g2 {e}d^cde :|2 "Gm" g6- | g2 g2 ^f2 ||
+|: "G7" g4_a2 | g4=f2 | "Cm" f4e2 | e2d2c2 |
+"F7" f4g2 | f4e2 | "Gm" e2d2^c2 | d2^c2d2 |
+"Gm" g2B2d2 | g2b3a | "Cm" g2f2e2 | "Cm6"g4e2 |
+"Gm" B2d2c2 | "D7" A4B2 |1 "Gm" G6- | G2g2^f2 :|2 "Gm" G6- | G2 z2 z2 ||
+
+X:9
+T:Nokia Tune
+T:Mobile Ring Tone
+T:Grande Valse
+T:Gran Vals
+R:misc
+H:Bars 13-16 from "Gran Vals" by Spanish guitarist Francisco T\'arrega (1852-1909)
+Z:id:hn-misc-9
+M:3/4
+L:1/8
+Q:1/4=200
+K:D
+ag B2 c2 | fe G2 A2 | ed F2 A2 | d6 ||
+
+X:10
+T:Valse Corse
+T:Corsican Waltz
+R:misc
+C:Ren\'e Vallecalle
+Z:id:hn-misc-10
+M:3/4
+L:1/8
+Q:1/4=200
+K:Dm
+{^g}a6- | a2 eg fe | d2 zD D2 | D2 A^c de |
+f2 e2 d2 | f2 e2 d2 | e6- | e2 ^c2 A2 |
+ge ^cA ce | ge ^cA ce | ^c6- | ^c2 ^c'2 a2 |
+ge ^cA ce | ge ^cA ce | B2 A2 ^G2 | A6 |
+{^g}a6- | a2 eg fe | d2 zD D2 | D2 A^c de |
+f2 e2 d2 | c2 B2 A2 | G6- | G2 Ac BA |
+|: G2 GB e2 | GB e2 d2 | A2 Ad f2 | Ad f2 e2 |
+^c2 Ac e2 | A^c e2 c2 | d2 A2 F2 |1 D2 Ac BA :|2 D2 z2 ||
+|: cc | c2 d2 c2 | d2 c2 d2 | c6- | c4 cc |
+c2 d2 c2 | d2 c2 d2 | c4 =B2 | _B4 dd |
+d2 e2 d2 | e2 d2 e2 | d6- | d2 ba gf |
+gf ef gf | ed cB AG | ^G6 | A2 z2
+cc | c2 d2 c2 | d2 c2 d2 | c6- | c2 FA cf |
+a6 | ba ga ba | g3 a g2 | d4 d2 |
+d2 e2 f2 | e4 d2 | f6- | f2 e2 d2 |
+c4 =B2 | _B2 A2 G2 | F3 f f2 | f2 z2 :|
+|: aa | ge ^cA ce | ge ^cA ce | af dA df | af dA df |
+ge ^cB A^G | AB AG FE | DE FG AB | cd ef ga |
+ge ^ga ga | ge ^cA ce | af dA df | af dA df |
+ge ^cB A^G | AB AG FE | DF Ad fa | d'2 z2 :| z2 ||
+|: c6 | cd ef ga | f6- | f2 f2 e2 |
+^c6 | A=B ^cd ef | d6- | d2 d2 ^c2 |
+=c6 | cd ef ga | f6- | f2 f2 e2 |
+d2 A2 d2 | f2 g2 ^g2 |1 a6- | a2 d2 ^c2 :|2 a6- | a6- ||
+a6- | a2 eg fe | d2 zD D2 | D2 A^c de |
+f2 e2 d2 | f2 e2 d2 | e6- | e2 ^c2 A2 |
+ge ^cA ce | ge ^cA ce | ^c6- | ^c2 ^c'2 a2 |
+ge ^cA ce | ge ^cA ce | B2 A2 ^G2 | A6 |
+{^g}a6- | a2 eg fe | d2 zD D2 | D2 A^c de |
+f2 e2 d2 | c2 B2 A2 | G6- | G2 Ac BA |
+|: G2 GB e2 | GB e2 d2 | A2 Ad f2 | Ad f2 e2 |
+^c2 Ac e2 | A^c e2 c2 |1 d2 A2 F2 | D2 Ac BA :|2 dF Ad fa | d'2 ||
+
+X:11
+T:Internationale, The
+T:L'Internationale
+T:Internationalen
+R:misc
+C:Pierre De Geyter (1848-1932)
+Z:id:hn-misc-11
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+D | G3F AG DB, | E4 C3E | A3G FEDC | B,4 z2
+D2 | G3F AG DB, | E4 C2 AG | F2 A2 c2 F2 | G4 z2
+BA | F3F EF GE | F4 D2 ^CD | E2 EE A3G | F4 z2
+zA | A3F DD^CD | B4 GE FG | F2 A2 G2 E2 | D4 z2
+BA | G4 D3B, | E4 C2 AG | F4 E2 _E2 | D4 z2
+D2 | B4 A3D | G4 F3F | E3^D E2 A2 | A4 z2
+BA | G4 D3B, | E4 C2 AG | F4 E3D | B4 z2
+B2 | d4 c2 B2 | E2FG A2 c2 | B3G A3F | G4 z2 z ||
+
+X:12
+T:Talijanska
+R:misc
+H:Originally in key of G minor.
+H:From the film "Time of the Gypsies".
+Z:id:hn-misc-12
+M:3/4
+L:1/8
+Q:1/4=200
+K:Am
+"E7"e2ee ee | ef ed cB | "Am"c2cc cc | cB Ac BA |
+"E7"^GA Bc de | fe ^de ^f^g | "Am"a6- | a6 ||
+"Am"(3cdc A2AB | (3cdc A2AB | (3cdc A2Ac | e6 |
+"Dm"(3fgf d2de | (3fgf d2de | (3fgf d2df | a6 |
+"E7"^ga ba ^gf | ef ed cB | "Am"AB cB cd | e6 |
+"Dm"fe fd ef | "Am"e^d ec =de | "E7"^de f^f g^g | "Am"a6 ||
+K:F
+"F"A2 AB c2 | A2 c2 A2 | "C7"B2 Bc BA | G6 |
+"C7"B2 Bc d2 | B2 d2 B2 | "F"c2 cd cB | A6 |
+"Dm"f2 fe df | "Am"ec A4 | "Bb"d2 dc Bd | "F"cA F4 |
+"Gm"GA BA GA | BA GA Bc | "C"dc =Bc de | "F"f6 ||
+
+X:13
+T:Whistler and His Dog, The
+R:misc
+C:Arthur Pryor (1869-1942)
+H:Originally in the key of C.
+Z:id:hn-misc-13
+M:6/8
+L:1/8
+Q:3/8=110
+K:D
+A3 |: a2f dcB | c2B A2^A | B2F ^E2F | A3- AFE |
+D2E FAB | d2B A2B | cec B2c | e3 A3 |
+a2f dcB | c2B A2^A | B2f g2f | B3- B2B/c/ |
+d2B/c/ d2B/c/ | de^e faf | e3- e3 |1 d3- d2A :|2 d3- d2e ||
+f2f/g/ fce | d2e fed | c2d c2d | B2B A2G |
+F2c f2c | f^AB c2d | B2f b2f | b3 Bcd |
+e2e/f/ eBd | c2d edc | B2c B2c | A2A ^G2F |
+E2B e2B | e^GA B2c | A2e a2e | a3 ||
+A^GA | B2d c2G | c2e d2A | d2f e2c | e2g f2d |
+b2e/f/ gce | GBE GCE | A,2 (3e/^f/g/ a2 (3E/F/^G/ | A3 A3 ||
+a2f dcB | c2B A2^A | B2F ^E2F | A3- AFE |
+D2E FAB | d2B A2B | cec B2c | e3 A3 |
+a2f dcB | c2B A2^A | B2f g2f | B3- B2B/c/ |
+d2B/c/ d2B/c/ | de^e faf | e3- e3 | d3- d3 ||
+K:G
+|: D3 G3 | FEF D3 | G2B d2e | fef d3 |
+g2g e2e | dBA GAB | E3- EGB | d3 d3 |
+D3 G3 | FEF D3 | G2B d2e | fef d3 |
+g2g e2e | dBA GAB | A3- A3 |1 G>DD DDD :|2 G3- G2A ||
+K:D
+a2f dcB | c2B A2^A | B2F ^E2F | A3- AFE |
+D2E FAB | d2B A2B | cec B2c | e3 A3 |
+a2f dcB | c2B A2^A | B2f g2f | B3- B2B/c/ |
+d2B/c/ d2B/c/ | de^e faf | e3- e3 | d3 ||
+
+X:14
+T:Son Ar Chistr
+R:misc
+C:Jean Bernard & Jean-Marie Prima
+D:Alan Stivell
+D:Skooter (How Much Is the Fish?)
+D:Bran
+O:Bretagne
+Z:id:hn-misc-14
+M:3/4
+L:1/8
+K:Em
+A | AF G2 E2 | EA AG FA | AF G2 E2 | FD E3 :|
+|: E | GA B2 B2 | cA B3 B | AA G2 E2 |
+EA AG FA | AF G2 E2 | FD E3 :|
+P:variations
+A | AF G2 E2 | EA AG FA | AG/F/ G2 EF/G/ | FD E3 :|
+|: E | GA B2 BA/B/ | cA B3 B | A/G/F G2 E2 |
+EA AG FA | A/G/F G2 EF/G/ | FD E3 :|
+
+X:15
+T:Itzikel
+R:misc
+H:Also called "Freilach" or "Frailach", but it's not a freilach,
+H:it's a klezmer listening piece.
+H:Also played in Em or Dm
+D:Kevin Burke: Open House
+D:L\'unasa
+Z:id:hn-misc-15
+M:4/4
+L:1/8
+K:Am
+EAcA Acec | d2dc dec2 | cege cege | d2dc dec2 |
+cddc cBB_B | A8 | cddc cBB_B |1 A8 :|2 A4 cAce ||
+|: a6 gf | e6 e2 | aeae aagf | e6 e2 |
+a6 g2 | b6 g2 | aeae aagf | e6 d2 |
+cdef efef | efef e2d2 | dAAd dAAd | dcde d2c2 |
+cddc cBB_B | A8 | cddc cBB_B |1 A4 cAce :|2 A8 || 
+
+X:16
+T:La Rotta
+R:misc
+H:14th century Italian tune.
+Z:id:hn-misc-16
+M:2/4
+L:1/8
+K:Edor
+B/c/ | dc/d/ Be | e/d/c/d/ BB/A/ | A/G/F/G/ E/F/G/E/ | F2 F
+B/c/ | dc/d/ Be | e/d/c/d/ BB/A/ | A/G/G/F/ F/E/E/D/ | E3 :|
+|: B | EE/D/ EE/F/ | GG/A/ BB/c/ |
+dc/d/ BB/A/ |1 A/G/F/G/ E/F/G/E/ | F2 F :|2 A/G/G/F/ F/E/E/D/ | E3 ||
+
+X:17
+T:Tourdion
+T:Quand je bois du vin clairet
+R:misc
+H:Published by Pierre Attaingnant (France) in 1530.
+H:Angelo Branduardi used this tune (in 6/8) for his song "Donna ti voglio cantare"
+H:Blackmore's Night used this tune for their song "Play Minstrel Play"
+Z:id:hn-misc-17
+M:3/4
+L:1/8
+K:Em
+EFGAGF | E3FGA | BAGGAF | G2FED2 | EFGAGF | E2G2F2 | E4D2 | E6 :|
+|: B3ABc | B4B2 | dcBAGF | G3FE2 | B3ABc | B2AGF2 | E4D2 | E6 :|
+
+X:18
+T:Saltarello
+R:misc
+H:14th century Italian
+D:Dead Can Dance
+Z:id:hn-misc-18
+M:2/4
+L:1/8
+K:Edor
+GA |: BE BE | BE B2 | AF/G/ A/G/F/G/ | EB E2 |
+EF G/F/G/E/ | DA D2 | E2 A>F |1 G2 F/E/D/E/ | F2 B2 | F2 G/F/G/A/ :|
+[2 G2 F/E/D/F/ | E2 B2 | E2 ||
+FG | AE AE | AE A/G/F/G/ | EB E2 | A/G/F/G/ F/E/F/G/ |
+AE AE | AE A/G/F/G/ | EB E2 | D/E/F/G/ E/F/G/A/ ||
+|: BE BE | BE B2 | AF/G/ A/G/F/G/ | EB E2 |
+EF G/F/G/E/ | DA D2 | E2 A>F |1 G2 F/E/D/E/ | F2 B2 | F2 GA :|
+[2 G2 F/E/D/F/ | E2 B2 | E2 ||
+cd |: e4- | e4- | e4- | e3 d | c/d/e/d/ c/d/e/d/ |
+c/d/e/c/ d/e/d/c/ |1 d/c/B/c/ dB :|2 d/c/B/c/ dA ||
+
+X:19
+T:Branle des chevaulx
+T:Branle des chevaux
+T:Horses' Branle
+T:Horse's Brawl
+T:Horses Bransle
+R:misc
+H:France 1589
+Z:id:hn-misc-19
+M:2/4
+L:1/8
+K:G
+G>A BB | cB Ac | BA GF | E2 D2 |
+G>A BB | cB Ac | BG AF | G2 G2 :|
+|: dc/B/ AA/B/ | cB/A/ GB | AG FG | A2 A2 |
+dc/B/ AA/B/ | cB/A/ GB | AG GF | G2 G2 :|
+|: _BA/G/ BA/G/ | FG A2 | DE FG | A_B AG |
+_BA/G/ BA/G/ | FG A2 | DE FG | GF G2 :|
+
+X:20
+T:La Valsounette
+R:misc
+C:Jacky Molard, Bretagne, France
+Z:id:hn-misc-20
+M:3/4
+L:1/8
+K:Am
+EA cB AG | FA cB A^G | Ac e^g ab | c'3 c' ba |
+ge ba ge | ^f2 f^g af | ^ge ed BA | ^GA BG F=G |
+EA cB AG | FA cB A^G | Ac e^g ab | c'3 c' bc' |
+d'c' ba d'c' | b3 e f2 | e^g be c'b |1 a3 G AG :|2 a4 ||
+a2 | b^g ge eb | b^g ge ec' | c'a ae ec' | c'a ae eb |
+b^g ge eb | b^g ge e2 | FE FG AB | (3cBc (3dcd (3e^ga |
+b^g ge eb | b^g ge ec' | c'a ae ec' | c'a ae bc' |
+d'c' ba d'c' | b3 e f2 | e^g be c'b | a3 G AG ||
+
+X:21
+T:Happy One-Step, The
+R:misc
+D:Sharon Shannon
+Z:id:hn-misc-21
+M:C
+L:1/8
+K:G
+dGB d2 GBd | gce g2 age | dGB d2 BBA | AGGE D2GB |
+dGB d2 GBd | gce g2 age | dGBG AGED |1 EGG G3 GB :|2 EGG G3 ga ||
+bdb b2 dbd | ada a2 dad | bdb b2 dbd | c'dc' c'2 dc'd |
+bdb b2 dbd | ada a2 dad | bdb b2 dbd | c'dbd adge ||  
+
+X:22
+T:Pas d'\'et\'e \`a l'Henri Caillaux
+T:Polka d'Auvergne
+T:Auvergne Polka
+R:misc
+O:Auvergne, France
+Z:id:hn-misc-22
+M:2/4
+L:1/8
+K:G
+DE/F/ GG | F/G/A/F/ G2 | A/B/c/A/ BG | A/B/c/A/ B/G/F/E/ |
+DE/F/ GG | F/G/A/F/ G2 | A/B/c/A/ Bd | d/c/B/A/ G2 :|
+|: dB G/B/d/B/ | G/B/d/B/ cA | cA F/A/c/A/ | F/A/c/A/ BG |
+dB G/B/d/B/ | G/B/d/B/ cA | cA F/A/c/A/ | F/A/c/A/ G2 :|
+
+X:23
+T:L'amor de la bic\`ota
+R:misc
+H:See also #24
+O:Auvergne, France
+Z:id:hn-misc-23
+M:2/4
+L:1/8
+K:D
+EF/G/ AA | F/G/A/B/ A2 | EE/F/ G/E/F/G/ | A/D/E/D/ CA, |
+EF/G/ AA | F/G/A/B/ A2 | G/A/G/E/ F/G/A/D/ | C/D/E/F/ D2 ||
+|: E/F/G/E/ F/G/A/D/ | CE/D/ CA, |
+E/F/G/E/ F/G/A/D/ |1 C/D/E/C/ D2 :|2 C/D/E/F/ DA, ||
+
+X:24
+T:L'amor a la bic\`ota
+T:L'amour olo bicetto
+R:misc
+H:See also #23. Original key C
+D:Aligot \'El\'ements
+O:Auvergne, France
+Z:id:hn-misc-24
+M:2/4
+L:1/8
+K:D
+D/E/F/G/ AA | G/A/B/G/ AF | E/F/G/E/ F/G/A/D/ | C/D/E/D/ CA, |
+D/E/F/G/ AA | G/A/B/G/ AF | E/F/G/E/ F/G/A/D/ |1 C/D/E/C/ DA, :|2 C/D/E/C/ D2 ||
+|: E/F/G/E/ F/G/A/D/ | C/D/E/D/ CA, |
+E/F/G/E/ F/G/A/D/ |1 C/D/E/C/ DD :|2 C/D/E/C/ DA, ||
+P:variations
+|: D/E/F/G/ AA | G/A/B/G/ AF | E/F/G F/G/A | C/D/E/D/ CB,/A,/ |
+D/E/F/G/ AA | G/A/B/G/ AF | E/F/G/E/ F/G/A/D/ |1 C/D/E/C/ DA, :|2 C/D/E/C/ D2 ||
+|: E/F/G/E/ F/G/A/D/ | C/D/E/D/ C/B,/A, |
+E/F/G/E/ F/G/A/D/ |1 C/D/E/C/ DD :|2 C/D/E/C/ DA, ||
+
+X:25
+T:Axel F
+R:misc
+C:Harold Faltermeyer
+H:Beverly Hills Cop theme
+H:Originally in Fm
+Z:id:hn-misc-25
+M:4/4
+L:1/8
+Q:1/4=120
+K:Am
+A2 c3/AA/dAG | A2 e3/AA/fec | Ae aA/GG/EBA- | A4 z4 ||
+
+X:26
+T:Yakety Sax
+T:Benny Hill Theme
+R:misc
+C:Boots Randolph
+Z:id:hn-misc-26
+M:C|
+L:1/8
+K:D
+B2 =c2^c2 |: d2d2 BAFF | AFB2 AFED | D2DF-FABA | d4 zABA |
+d2d2 BAFF | AFB2 AFEF | A2AB cecB | A4 zABA |
+d2d2 d2d2 | d2d2 BAFD | G2G2 G2G2 | B2de =fe2f |
+^f=efe fa2e | faf=e dBA2 | b=f2d e2d2 |1 d4 zB=c^c :|2 d4 ze=f^f ||
+K:G
+g2f2 ^efef | =e2d2 ^c2d^d | e2=d2 ^cdcd | =c2B2 ^A2B2 |
+G2G=A Bded | g2g2 edBG | d2de faf2 | d4 zded |
+g2g2 g2g2 | g2g2 edBA | c2c2 c2c2 | egag _bg3 |
+G2GB-B2d2 | A2Bc-cded | g2g2 edBA | G2 ||
+ 
+
+X:27
+T:Badinerie
+R:misc
+C:Johann Sebastian Bach (1685-1750)
+H:Badinerie from Orchestral Suite No. 2 in B minor
+Z:id:hn-misc-27
+M:2/4
+L:1/16
+Q:1/4=120
+K:Bm
+b2d'b f2bf | d2fd B4 | FBdB cBcB | ^Acec d2B2 | 
+b2d'b f2bf | d2fd B4 | dcd2 dcd2 | b2d2 d2c2 | f^ef2 fef2 | d'2f2 f2^e2 |
+cfaf ^gfgf | ^e^gbg agag | faf^e fbfe |
+fc'f^e fd'fe | fd'c'b c'a^gf | a2^g2 f4 :|
+|: f2af c2fc | A2cA F4 | =c2B2 e2^df | a2gf g2e2 |
+g2bg e2ge | c2ec A4 | Adfd eded | cege fefe | dfdc dgdc | dadc dbdc |
+dbag afed | f2e2 d4 | fef2 fef2 | d'2f2 f2e2 | ede2 ede2 | c'2e2 e2d2 |
+b2d'b a2g2- | g2b/a/g/f/ e4- | e2g/f/e/d/ =cege | =cBcB ^A2F2 |
+G2F2 B2^Ac | e2dc d2B/c/d/e/ | f2df b2f2 | edcd c2B2 :|

@@ -1,0 +1,60 @@
+This file contains 2 geampara (#1-#2).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+Geampara is a dance from Romania in uneven time signature
+7/16 (2+2+3/16). Also called geamparele, geamparalele or gemparaua.
+
+Last updated 28 April 2020.
+
+(c) Copyright 2017-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+M:2+2+3/16
+L:1/16
+R:geampara
+Z:id:hn-%R-%X
+O:Romania
+
+X:1
+T:Geampara
+R:geampara
+D:Roar Engelberg
+O:Romania
+Z:id:hn-geampara-1
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Ador ^d =c
+Bccc ccc | eddc cBA | Bce2 ABc | eddc cBA |
+defd efg | a2gf edc | d2cB ABc | B4-B3 :|
+|: def^g aga | b2a^g af=g | aa=gg efe | =dddB ^ccA |
+^defd efg | aagg ee=c | eecc ABc | B4-B3 :|
+|: Bccc ccc | edcc cBA | BceE ABc | edcc cBA |
+defd efg | aagf eec | edcc ABc | B4-B3 :|
+|: EDE^G AB^c | defd efg | aagg eae | =dddB ^ccA |
+^defd efg | aagg ee=c | edcc ABc | B4-B3 :|
+|: Bccc ccc | edcc cBA | BceE ABc | edcc cBA |
+defd efg | aagg eec | edcc ABc | B4-B3 :|
+
+X:2
+T:Geampara
+R:geampara
+O:Romania
+Z:id:hn-geampara-2
+M:2+2+3/16
+L:1/16
+Q:1/8=220
+K:Gdor ^c
+AAAG _BAG | D2E^F GGF | AAG^F DEF | G^FGA =B3 |
+AAAG _BAG | ^FGA_B ^cde | =fed^c _BAG | G^FFE E3 :| !fine!
+|: eeed =fed | ^cde=f eed | =fed^c _BAG | G^FFE =B3 |
+eeed =fed | ^cde=f eed | =fed^c _BAG | G^FFE E3 :|
+

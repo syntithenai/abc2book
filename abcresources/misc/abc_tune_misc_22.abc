@@ -1,0 +1,3334 @@
+I:abc-charset utf-8
+X:1
+T:All the trees they are so high
+T:Taken down from Jas. Parsons, Sept. 1888, by S.B.G. again 1889 by H.Fl. Sheppard.
+%%VWML:SBG-1-1-20-2
+F:http://www.vwml.org/record/SBG/1/1/20
+Z:Original Sibleius Transcription by Martin and Shan GraebeL:1/8
+M:6/8
+I:linebreak $
+K:Bb
+D/ D/ | G2 G G2 A | B3- B2 A/ A/ | G2 D E2 E | D3- D2 F | F2 G A2 B |$ d2 d c2 B | A2 G A2 A | 
+D3- D2 B/ c/ | d3- d2 (3d/e/ d/ | d3- d2 c/ B/ | A2 G G2 A |$ (A D3) z B/ c/ | d2 d c2 B | 
+G3- G2 (3F/G/ A/ | A3- d2 (3c/d/e/ | !fermata!d3 z2  |] 
+T:Taken down from Roger Hannaford, May 1890 by H.Fl.S.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D2 | G2 G G GABc | AFDD D2 D2 | AAAA ABcd | BGGG G2 B,C |$ DDBc dBcB | cAGF D2 DE | =FFED E2 DC | 
+D2 G4  |]
+T:Taken down from Matthew Baker, Sept. 1890, by F.W.B.  
+N:[Time sig. in mss. given as 6/8 – Ed.]
+%%score ( 1 2 )
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D | G2 B>G A2 c>A | G>ED>C B,3 _B, | EDEG A2 (3cBA | G>ED>B, D3 D | G2 BG A2 [cd][Ac] |$ BG GE E2 B,C | 
+DAGE C2 B,C | D2 G2 z2 D>D | E2 GE D2 B,C | D2 G2 z2 z  |] 
+T:Irish version, sent me by Mary O’Bryan, 
+T:Abbey View, Cahir, Tipperary. Practically same as Roger Hannaford’s air.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D2 | G2 G G G2 AB | GAFD D2 D2 | BcdB GcBG | AGFE D2 B2 |$ cdcB GccB | GAGF DC BB | 
+AG ED B,C B,C | (C2 D2) G2  |] 
+
+X:2
+T:All the trees
+T:Taken down by L.E. Broadwood from old man, Dunsfold, Surrey, Sept. 1896
+%%VWML:SBG-1-1-20-1
+F:http://www.vwml.org/record/SBG/1/1/20
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:G
+C2 | C2 G2  G2 G2 | G2 A2 B2 G2 | A2 F2  D2 C2 | D6 D2 | D2 A2  A2 A2 | 
+A2 B2 c2 A2 | B2 G2  G2 G2 | A6 A2 | A2 A2  B2 c2 | 
+d2>A2 B2 c2 | B2 A2  G2 A2 | D4 E2 D2 | G2 G2  F2 G2 | (A2 D2) E2>D2 | D8 | G6 |]
+
+X:3
+T:Scottish air from Johnson’s Musical Museum
+%%VWML:SBG-1-1-20-0
+F:http://www.vwml.org/record/SBG/1/1/20
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+C2 | E D E G FE DC | G E G A G3 G | (cBc) d c B AG | E D E G A3 A |$ d c B A c2 BA | 
+c c c d/e/ E2 DC | G E D C D2 G F | E2 AB A2  |] 
+T:Taken down from W. Aggett by F.W.B. Sept 30. 1890
+%%score ( 1 2 )
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+d | f3 d2 d | f3 g2 f | f2 d d2 ^c | d3 z2 d | f2 f g3 | f3 g2 f | f=ed d2 f |$ f2 z2 AB | 
+c3 A2 B | c3 B2 A | A2 G2 |"^or" G G | d2 d d2 c | d3 c2 B | d3 G2  |] 
+T:As also sung by W. Aggett, Chagford.
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+B2 B | d2 c d2 e | f3 g2 f | d2 c B2 G | B4 d | f2 f g3 | f3 g2 f | f=ed d2 f | c3 |$ GA | 
+B2 B A2 B | c3 B2 A | A G2 |"^or he began" z6 |[K:Bb][M:6/8] GA | G2 dc cB |"^or" G2 | 
+G3 d2 c/ z/ | 
+T:“My bonnie Laddie’s lang a growin’” 
+T:From “The British Minstrel” Glasgow, 1844, vol 2. p. 36
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+z A | B2 BB e2 dc | d2 ef B3 A | B2 (Bg){g} f3 e | defg{f} e2 ef |$ g2 (fe) f2 gf | edef B2 Be | 
+d<eB>A G3 A | B e3 z2 ef |$ gbag f2 gf | eede B2 Be | d<=cB>A G3 A | B e3 z2  |] 
+T:All the trees - Langworthy
+%%score ( 1 2 )
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+V:1 treble nm="P1"
+V:2 treble 
+V:1
+A | G2 E C2 E | (G2 A) A2 A | DE F ED C | A,2 z C | C2 C C2 C | D2 E E-D C | D2 E DC B, |$ 
+A,3 z2 A | G2- E C2 E | G2 A A2 A | DE F EDC | A,2 z A,/C/ | C2 D C2 B, | A,3 A,2 A, | 
+A,3 !fermata!E2  | ]
+V:2
+x | x6 | x6 | x6 | x4 | D2  E2  | x6 | x6 |$ x6 | x6 | x6 | x6 | x4 | x6 | x6 | x6 | 
+T:All the trees - Vance
+L:1/8
+M:4/4
+I:linebreak $
+K:E
+F2 | B2 B>c d2 c>B | B>A F>F !fermata!F3 G | A2 A>A A>B c>c | B>G E>G !fermata!F3 F |$ 
+e3 B c>d !fermata!e2 | !fermata!f>d (B>B) B>c B>A | F>G A>c B>G E2 | D>E F<!fermata!B |] 
+
+
+
+X:4
+T:Arscott
+C:Air as sung at Tetcott, taken down by Mr. Richards, Schoolmaster, Tetcott.
+%%VWML:SBG-3-1-15-0
+F:http://www.vwml.org/record/SBG/3/1/15
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+E/ E/ | B B B B B (B/ B/) | c A A A2 B | G G G F G A | B E E E2 E :|$ d e e e e f g | g d d d2 d | 
+w: ||||* * * * Ri|fol- de- rol lol- de- rol _|fol- de- rol- lol came|
+e e e g f e | d B B B ||$ G | B B B B B B | c A A A A B | G G G F G A | B E E E !fermata!E2 |] 
+w: fol- de- rol lol- de- rol|lol- de- rol- lol|Came|o'er from * Pencarrow ||||
+T:Arscott
+T:“Difyrwch gwyr  Dyfl.” E. Jones: 
+T:Musical relicks of the Welsh Bards, 1794 vol. I. p. 129.
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+F | F A A A c A | B G G G2 G | (A A) A B A G | F D D D2 z | d d (g e) d | c>d c/B/ A2 A |$ 
+d2 d/e/ (f e) d | (^c A) A A2 A/B/ | c d c c B A | (B G) G G2 A/B/ | c A F (B A) G | F D D D2  |] 
+T:Arscott
+T:Dear Catholick Brother, 
+T:from D’Urfey’s Pills to purge Melancholy ed. 1719-20. vol. VI. p. 277
+L:1/4
+M:3/4
+I:linebreak $
+K:C
+D | A A A | B A A/G/ | F F F | F2 F | E E E | E A A | A D D | D2 (d/e/) |$ f (g/f/)(e/d/) | 
+w: ||||||||||
+e e e/d/ | c c c | c2 A | d d d | d2 e/d/ | c A A | A2 || F/G/ | A A A |] 
+w: |||||||* Fa|la, la, la|
+T:Arscott
+T:Taken down from J. Benney, Butcher, Menheniot by F.W.B. Apl. 1891
+L:1/4
+M:3/4
+I:linebreak $
+K:F
+C | C G G | G A B | A F F | F2 G | _E E C | D _E F | G C C | C2 G/A/ | B c B |$ A !fermata!G A | 
+w: |||||||||||
+B A G | F2 C | G G G | B A G | F D D | D C B, |$ G G G | G A B | A G F | F2 G | E D C | D E F | 
+w: |||||* And sing|Fol-|
+G c =B | c3 |] 
+w: ||
+X:5
+T:Arscott
+T:Mr. W. C. Richards, Schoolmaster, Tetcott, 
+T:Sent me, at my request this correction.
+%%VWML:SBG-1-1-5-0
+F:http://www.vwml.org/record/SBG/1/1/5
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+z2 z z2 E/ E/ | B B B B B (B/ B/) | c A A A2 B | G G G F G A | B E E E2 d | e e e e g g |$ 
+f d d (d/ d/) B | e e e g f e | d B B (B/ A/) G |"^Chorus" B3/2 B/ B d3/2 d/ d | c3/2 A/ A A2 B | 
+G3/2 G/ G F3/2 G/ A | B3/2 E/ E E2  |] 
+
+X:6
+T:Brixham Town
+T:(J. Webb)
+%%VWML:SBG-1-1-39-0
+F:http://www.vwml.org/record/SBG/1/1/39
+C:Taken down from J. Webb, Post Bridge, by H.Fl.Sh. 1887
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G | G2 c c c c3 d | e e e d | e3 d/c/ | c e g g | a3 g | f3/2 d/ e3/2 c/ | d3 d |$ e d e g | 
+c3 e | d c B A | G3 e/f/ | g g g a | f3 g/f/ | e3 c/ d3 B/ | c3 |] 
+T:Brixham town
+T:(N. Tawton)
+C:Version sent me from N. Tawton.
+L:1/4
+M:4/4
+I:linebreak $
+K:Bb
+F | F B B B | B3 B | d d d d | d3 B | f f f f | f3 e | d2 c2 | c3 |$ c | d d d f | B3 d | 
+e d c B | F3 A | B B B A | G3 E | F2 A2 | B4 |] 
+
+X:7
+T:By Chance it Was 
+T:Parsons
+%%VWML:SBG-1-1-1-0
+F:http://www.vwml.org/record/SBG/1/1/1
+C:Melody taken down by S.B.G. from Jas. Parsons
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+D | G3 ^F G3 A | B3 c d2 A2 | B3 A B3 A | G4 D2 | G3 ^F G3 A |$ B3 c d2 D2 | G3 ^F G2 F | 
+D4 G/A/ | B3 B A3 G | B3 c d3 d |$ A3 B A3 B | G4 G | A3 B A3 G | B3 c d3 e | d3 c B3 A | G4  |] 
+T:By chance it was -Tyndall
+T:Sent by Tyndall
+F:http://www.vwml.org/record/SBG/1/1/1
+C:Melody sent by B. Tyndall, as that to which the song was sung by the Cook, as well as he can recall it.
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/4
+I:linebreak $
+K:G
+D | G F G3 A | B c B3 A | F A G2 F2 | E3 z z D | G F G3 A |$ B c B3 G | F A G2 F2 | E3 z z D | 
+c d c3 D | B c B3 G |$ F A G2 F2 | (E2 E3) D | B, D E3 F | G A B3 B | B3 G A c | (d2 d3)  |] 
+
+
+
+X:1
+T:Flowers & weeds - Parsons 1
+C:Taken down by Jas. Parsons, Sept. 1888, by S.B.G.
+C:[pencil note indicating that the key sig. should be G – Ed.]
+%%VWML:SBG-1-1-47-0
+F:http://www.vwml.org/record/SBG/1/1/47
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/16
+M:6/8
+I:linebreak $
+K:G
+D D | G2 F2 G2 A2 G2 A2 | (B6 B4) A A | c2 B2 G2 A2 B2 A2 | (G6 G4) d d | e3 d B2 c4 d c |$ 
+d3 c A2 B4 GA | B4 AG F4 GF | (E6 E4) GB | A2 c2B2 A4 FD | G8  |] 
+T:Flowers & weeds - Parsons 2
+T:Another version of same air, as sung on another occasion by Jas. Parsons.
+L:1/16
+M:6/8
+I:linebreak $
+K:D
+D D | G2 F2 G2 A2 G2 A2 | B6 B4 G G | G2 F2 G2 A2 G2 A2 | (G6 G4) Bc | B3 AG B4 cd |$ 
+d3 c A2 B4 GA | B4 AG F4 GF | (E6 E4) G2 | B2 A2c2 B4 AF | (G6 G2)  |] 
+T:Flowers & weeds - Campbells
+T:“O once my Thyme was young” Campbells “Albyn’s Anthology” 1816, p. 40.
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+dc | B2 BA F2 EF | A6 de | f2 d2 e3 f | B6 d e |$ f2 d d e3 d | dB B A !fermata!d2 d c | 
+BA F E E2 F A | B6 z2 |] 
+T:Flowers & weeds - Northumbrian Minstrelsy
+T:“Rue & Thyme.” Northumbrian Minstrelsy 1882, p. 90.
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+cB | A2 (GF) D2 (EG) | G4 z2 E2 | c2 c2 d2 e2 | A4 z2 (cd) |$ e2 c e d2 AB | cB AG E2 c B | 
+A2 (Ac) D2 (EG) | A4 z2  |] 
+T:Flowers & weeds - Dyer
+T:Taken down from J. Dyer, Mawgan in Pydar July 1891  
+T:Was sung in C. time – here turns into 6/8
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G B G A c B | (G3 G2) G/B/ | d d d d B B | (A3 A2) B/c/ |$ d d d B B | c c cB A D | 
+G BG A cB | G4 z2 |] 
+
+
+
+X:9
+T:Parson Hogg - Snow
+C:Taken down by S.B.G. from Edmund Snow’s singing  Nov. 1888
+%%VWML:SBG-1-1-33-0
+F:http://www.vwml.org/record/SBG/1/1/33
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:A
+z2 z z2 A | A2 c E2 F | A2 c A2 E | A2 A (BA) B | c3 A2 E |$ A2 c G2 B | F2 A E2 E | F2 E F2 E | 
+A3 A2 E | C2 F E2 A | G2 B E2 E |$ (AG) A B2 B | c3 A2 A | d2 B c2 A | B2 G A2 E | CD E EF G | 
+A3 A2  |] 
+T:Parson Hogg - Whitfield
+T:From H. Whitfeld, Brushmaker, Market Alley, Plymouth, as sung by his grandfather, circ. 1830.
+L:1/16
+M:6/8
+I:linebreak $
+K:Bb
+F2 | F2>B2 B4 A4 | G3 c c4 B4 | d4 B4 B3 F | D6 F2 F2 | F3 B B4 A4 | G3 c c4 B4 |$ d4 B4 B3 F | 
+w: ||||||||
+D6 F4 G2 | F4 G3 G E4 | G4 F2 E2 D4 | F4 E2 D2 C4 | B,4 D6 F2 | F4 G3 G E4 |$ B4 A2 G2 F4 | 
+w: |||||||
+B4 d3 c e4 | A2 c6 B2 z2 |: F3 B B6 z2 | d3 B B6 F2 |$ D6 F4 z2 | F4 G3 G G2 E4 | B4 A2 G2 F4 | 
+w: ||Tal- ly ho!|Tal- ly ho The|hounds Sir!|He thought it no crime|at an- y time|
+B4 d3 c e4 | A2 c6 B2 z2 :| 
+w: To Tal- ly ho|the hounds, Sir.|
+
+
+
+X:9
+T:Roving Journeyman - Parsons
+C:Taken down from Jas. Parsons, Sept. 1888, by S. B. Gould.  
+%%VWML:SBG-1-1-51-0
+F:http://www.vwml.org/record/SBG/1/1/51
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+A | D2 D D2 E | F2 F F2 G | A2 A G2 F | (D3 D2) (F/G/) | A2 d d2 _e |$ d2 B G2 A | B2 A G2 F | 
+D3 B2 c | d2 d d2 c | B2 B B2 c | d2 d c2 B |$ (A3 A2) B | D2 D D2 E | F2 G !fermata!A2 G | 
+E2 F E2 E | D3- D2  |] 
+T:Roving Journeyman - Aggett
+T:Taken down from W. Aggett, Sept. 1890, by F.W.B. at Chagford.
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+A | A2 =B c2 A | d2 d e2 e | e2 A A2 ^G | (A3 A2) c/d/ | e2 A A2 c | e2 f f2 f |$ e2 A A2 =G | 
+A3 A2 A | A2 A c2 d | e2 e e2 d | e2 A A2 =G | A6 |] 
+T:Roving Journeyman - Chappell
+T:The Budgeon is a fine delicate trade Chappell n. ed. p. 124
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+D | G2 G ^F2 D | B2 B A2 c | B2 G A2 ^F | G3- G2 :|$ B/c/ | d2 d d2 B | c2 c c2 A | B2 G c2 B | 
+B2 A3"^&c." D |] 
+
+
+
+X:9
+T:Twas on a Sunday morning - Hard
+C:Taken down, Oct 1888, from Robt. Hard, Sth. Brent, by H. Fl. S.
+%%VWML:SBG-1-1-17-0
+F:http://www.vwml.org/record/SBG/1/1/17
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+B | d3/2 B/ G E | D G2 G | F/A/ d f3/2 e/ | d3 d | d/ d/ B G E | D G2 G | F/-A/ d f3/2 e/ |$ 
+d3 B | c3/2 B/ c d | e B2 B | A G F A | d3 e | d3/2 B/ G E | D G2 e | d3/2 G/ B A | 
+!fermata!G3  |] 
+T:Twas on a Sunday morning - Mori
+T:Air of Frank Mori, pub. 1853.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+B | d2 B G2 A | (D3 G) G | A2 A c2 c | (B3 A2) B | d2 B G2 A | (D3 G2) B | A2 A B2 A | d3- d2 B |$ 
+(c2 e) A2 B | (c e2) A2 A | B2 B BA | (A3 !fermata!d2) d | d2 B G2 A | (D3 G2) B | dG c B2 A | 
+G2 z z3 |] 
+
+
+
+X:1
+T:As Johnny Walked Out
+T:Taken down from Jas. Parsons, Sept. 1888, by S.B.G.
+%%VWML:SBG-1-1-65-0
+F:http://www.vwml.org/record/SBG/1/1/65
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:F
+FG | A2 A2 A2 A2 | B2 B2 A2 A2 | G2 G2 A2 G2 | F4z2 A2 | c2 c2 c2 d2 | d2 c2 c2 G2 | G2 G2 A2 G2 |
+ G4z2 FG | A2 A2 A2 G2 |A2 A2 A2 G2 | c2 c2 e2 d2 | c4z2 FA | c2 c2 f2 d2 | c2 A2 c2 dc | 
+B2 A2 G2 F2 | c4z2 FA | c2 c2 f2 d2 |c2 A2 A2 FG | A2 F2 {A}G2>F2 | F4 z2||
+T:Taken down from an old singer at Widdecombe in the Moor in 1850, by T. S. Cayser.
+M:4/4
+L:1/8
+K:G
+GA | BB BB BA AG | A2 G>G G2|| GB | dd dd ed BG | d2 A>A A2 ||G2 | GB BB BA AB |
+cc cc (d2 c)|dd ge dc B>B|(AG) BAG2 ||
+T:“As Jocky was walking one midsummer morn” 
+T:“The Sex”
+T:Clio & Euterpe, London 1758 p. 34
+M:6/8
+L:1/8
+K:G
+D | G>A GG Bd | cA AA2d | E>c AF d>c | B>G BA2A | B>^c d^c2c/d/ |
+eA F2 A/A/|B  G2 BA2d | G>E AF2A | BG2z2e/|^c A> d2|F> GED2 A/a/:||
+|:F/G/|A2c/B/ ccd | cBA Bd | eB ec A>A | G>A FE2B/c/ |
+d2 B/d/ c A>c | Bd c/B/ A2D | E>F GA Bc | dc BA2 B/d/ |c>A cB G>B | AG FG2 ||
+
+
+X:3
+T:As Johnny Walked Out
+T:Taken down by L.P. Wyatt Edgell from Thos. Thorn.
+%%VWML:SBG-1-1-68-0
+F:http://www.vwml.org/record/SBG/1/1/68
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:F
+FG | A2 A>A AG GA | B2 B>B BA FA | c2 d>c c2 AA | GB AG F4 ||
+
+X:4
+T:Fathom the bowl
+C:Taken down from Robt. Hard, Sth. Brent, Oct. 1888, by H.F.S.  
+%%VWML:SBG-1-1-86-0
+F:http://www.vwml.org/record/SBG/1/1/86
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/8
+L:1/8
+K:D
+A/G/ | FGA | dcB | AAG | F2 D | FGA | Bcd | edc | d2 d/d/ |ffe | ddA |
+ dde | f2 e | ddc | Bcd | AAG |FE D/D/ |FGA | Bcd | edc | d2z||
+T:Fathom the bowl 
+T:Sent me by H. Whitfeld, Brushmaker, Market Alley, Plymth. as sung by his Grandfather.
+M:6/8
+L:1/8
+K:C
+G | cBc GEG | G>GF DC2 | G>AF> cB>G | Bdc BG2 | 
+G>GA BcG |G>Gc/ G/E F2 | E>DC EGc/A/ | dGAB !fermata!c2 ||
+P:Chorus
+z2G2G D|E2(F2 E2) |G2 (A2  d2)| c cBdc!fermata!B|
+w:I'll fa-thom the bo-wl, I'll Fa-thom I'll fa-th -om
+G3G !fermata!c2|d2e2 cA|F2G2 A2|B2!fermata!c4 |
+w:O give me ye Punch lad-le I'll fa-thon ye Bowl
+T:Fathom the bowl
+T:Sent me by Lucy E Broadwood, Lyne, Rusper, Horsham as sung in Sussex. 
+T:See her “Sussex Songs” Stanley Lucas, & 1ọ  1890  No. 20
+M:3/4
+L:1/8
+K:C
+G2 | c2 B2 c2 | G2 [F2A2] D2 | GA G2 E2 | C4 e2 | d2 B2 A2 | G2 d2 c2 | B2 c2 A2 | G4 GG | c2 e2 c2 |
+d2 B2 G2 | c2 A2 F2 | !fermata!(3EFE !fermata!D3 D |E3 F G2 | A2 d3 c |B3A B2 | c4 G2 | G2 D3 E|
+F4 G2 | G2 E3 F| G6 | A2 dc BA |!fermata!G4 G2 |c3 d e2| f2 d2  c2| B3 A B2| c4> ||
+T:Fathom the bowl 
+T:Jones, Bardic Relics, 1794. I. p. 144  “Glân meddwdad mwyn”. “Good humoured & fairly tipsy.
+M:3/4
+L:1/8
+K:C
+C4 | E2 F2 G2 | c2 B2 A2 | G3 AGF | E4 C2 | E2 F2 G2 | A2 B2 c2 | d2 c2 B2 |c4:|
+cd  e2 e2 d2 |c4 B2 | c2 ce df | (e4 d2) | c2 c>dB>c | A2 A>BG>A |
+FEFAGF|EFEDC2|E2F2G2|A2B2c2|d>ec2B2|c6||
+X:5
+T:Fathom the bowl
+C:From Barrett’s “English Folksongs” 1891, No. 40 
+%%VWML:SBG-1-1-87-0
+F:http://www.vwml.org/record/SBG/1/1/87
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:C
+z2z2G2 | c2>B2 cB | c2 G2 ED | C2 E2 G2 | c4 c2 | (d2>e2) dc | B2 G2 B2 | A2 c2 ^F2 | G4 GF |
+E2G2G2|ABc2G2|A2d3c|(c2B2)G2|c3de2|c2G2E2|F2D2G2|
+C4G2|G2E3F|G4G2|A2d2c2|(c2B2)G2|c3de2|c2G2E2|F2D2G2|C4||
+
+X:6
+T:Green broom
+C:Taken down from J Woodrich, Oct. 1888, by H.FL.S.
+%%VWML:SBG-1-1-58-0
+F:http://www.vwml.org/record/SBG/1/1/58
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:G
+z3z2D | GFG (BA)G | FGA G2A | BAB dcB |
+ A2 D D2D | BAB dcB |AGE D2D | DcB AGA | G2 G G2 ||
+T:Green broom
+T:Sent me by Bruce Tyndall Esq. Exmouth, as heard from a Devonshire Cook, 1840
+M:3/8
+L:1/8
+K:D
+A, | DED | FED | DFA | A2 B/c/ | d2 c/B/ | EF^G | A2 A | BGE |BGE |
+DCA | BGE | DC A,/A,/ | DED | FED | A2 A | d2 c/B/ |AFA | GEC | D3 ||
+T:Green broom
+T:D’Urfey, “Pills to Purge Melancholly”  VI. p. 100
+M:3/4
+L:1/8
+K:D
+d2 | d2 f2 g2 | a2>b2 a2 | a2 f2 d2 | d2 d2 e2 | f2 a2 f2 | f2 a2 f2 | e4 e2 | d2 e2 f2 | f2 e2 d2 |
+g2 a2 b2 | b4 b2 | a2 f2 d2 | d2 e2 f2 | g4 e2 | g4 b2 | a2 f2 d2 | f2 a2 A2 |d4 ||
+T:Green broom
+T:“Northumbrian Minstrelsy” 1882, p. 98
+M:6/8
+L:1/8
+K:G
+D | GGG BAB | GBc d2B | ccc AGA | D2 AA2D |
+w:There was an old man *who lived in the West, His tradews the cit-ting of the broom, green broom. There
+ GGG BAB |GBd d2g | fed Ad^c | (d3d2)d | gfg dcB |
+w:was an old man *who lived in the West, His trade was the cut-ting of broom*He had a lazy lad* whose
+ecA !fermata!GFD  |GGG BAB |GBd !fermata!g2 e|ded cBA|(G3G2) ||
+w:name it was Jack *who'd lie in his bed * till noon *till noon, who'd lie in his bed* till noon
+T:Green broom
+T:Taken down from Jas. Ellis, Chaddlehanger, Lamerton.
+M:6/8
+L:1/8
+K:G
+G | GBB BAG | Bdd d2e/f/ | gfe dBG | d2 dd2g | gfe fff |
+gfe d2G | GBd def | gfe d2[GB] | Bcd edc |B2 AG2 ||
+X:1
+T:Green broom - miss templer
+C:Taken down by Mrs. Weekes from the singing of W. Weekes Esq. 1887
+%%VWML:SBG-1-1-59-0
+F:http://www.vwml.org/record/SBG/1/1/59
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:C
+C | CEE (ED)E | CEG G2A3/2B|ccc AGE|G2GG2 c/c/|cAF DEF | 
+AFD C3 B,/G,/|CCC ECE | GEG!fermata!c2 A/A|<GA/G FDB,|C2z2 |
+
+
+X:8
+T:A Maiden Sweet In May
+C:Taken down from Jas. Parsons by S.B.G. 1887
+%%VWML:SBG-1-1-75-0
+F:http://www.vwml.org/record/SBG/1/1/75
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:G
+DEF | G2 G2 G2 G2 | A2 GF2z G2A | B2 B2 d2 cB | A2:|
+zA|BA Bc dd AB|cd AG FE D/D/|G2AF GA Bd|(B2A) AG2|| 
+T:Maiden sweet in may
+T:Taken down from Jas. Parsons by H.Fl.S.
+M:4/4
+L:1/8
+K:G
+DEF | G2 GG G2 FG | A2 FG G2zA | B2 BB d2 cB | BA AA A2zA |
+ B>A B>c dd AB |cd c>A GF ED | G2 AF GA Bd | B2 A2 G2 ||
+T:Maiden sweet in may - parsons 3 - 1890
+T:Taken down from Jas. Parsons by S.B.G. July 1890 to words of a diff. metre.
+M:4/4
+L:1/8
+K:G
+DEF | G2 GG G2 FA | A2 GFG2zA | B2 AB c2 d2  cB| A BA GA B2 A|
+ BA Bc dd AB| cd AG GF  (D2| D3) zE/E/|G2 BG AB cd|B2 A2(G2|G3) ||
+T:Maiden sweet in may
+T:“She rown’t in her apron”​Scot’s Musical Museum, V. p. 437
+M:4/4
+L:1/8
+K:F
+F2 F2  c2 AG | F2 GA  c4 | f2 d2 d2 BA | G2 Ac  d3e |
+w:Our young lady's*a hunt-ing *gone sheets nor blan-kets*has she*taen But
+ f2 ff f2 ga | F>F FG  BA GF | G2 f2 d2 cA  |G4  F4 ||
+w:she's barn *her auld*son or she came hame* And *she's row'd him in here ap-ron
+
+X:9
+T:Millers last will - helmore 1
+C:Taken down from J Helmore, Sth. Brent, by F.W.B. Aug. 1888
+%%VWML:SBG-1-1-71-1
+F:http://www.vwml.org/record/SBG/1/1/71
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:2/4
+L:1/8
+K:F
+F | AG G/G/ A | G>F FF | EG FG | CC CC | Ac cc |Bc AF | 
+A/G/!fermata!B7/2 E/|GF FF|Ac cc | Bc AF|AG |B7/2 E/|GFF4 ||
+W:Note by F.W.B. “It is neither in 4 nor in 3 time. Some bars in one, some in the other.”
+T:Millers last will
+T:Taken down again from same by same, on another occasion.
+M:2/4
+L:1/8
+K:A
+A| cB  B2>c2 | BA 2< A2 A| GB A2>B2 | EE2< E2 A| ce  e2>e2 |de2< c2 A|
+ cB  d2>G2 | BA2< A2 A |ce e2>e2 | de2< c2 A |cB d2>G2 | BA !fermata!A4||
+W:Taken down again from same by same, on another occasion.
+W:Note by F.W.B. “Not right all through tho’ suiting the execution better.”
+W:
+T:Millers last will
+T:Northumbrian Minstrelsy”, 1882, p. 94, 
+T:a variant of “The Oxfordshire Tragedy” Chappell p. 190.
+M:4/4
+L:1/8
+K:D
+FE | D2 D2  d2 AG | FF E2 D2 c2 | d2 d2  e2 A2 | B2 ^G2 A2 de | f2 e2  d2 D2 |
+ F2 A2 |d2 dc | B2 B2  B2 dB | A2 B2 F2 DE | F2 A2  d2 AG | F2 E2 D2 ||
+T:Millers last will
+T:Noted by Miss F.J. Adams, Mutley.
+L:1/16
+M:3/8
+K:G
+D2|GA B2 AG |FG A2D2 | GA B2 AG | FG A2D2 | 
+GA B2 AG | FG A2 BA | GG G2C2 | DC B,4 | "slowly"G4 F4G4 ||
+
+X:10
+T:Months
+C:Taken down from J. Potter, Post Bridge by H.FLS. 1888
+%%VWML:SBG-1-1-112-0
+F:http://www.vwml.org/record/SBG/1/1/112
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:Eb
+E2 EE2E | e2>B2 Bc | d2 dc2B | A3z2A | B>B BG2E |(A3A2)c | B2 ED2E | F3z2B |
+ B2 BG2A |F3D2B, | E2 EF2G | A3B3 | cd ed2e |c2 BG2E | (FG) AF2D | E2z2z ||
+T:Months 
+T:Taken down from H. Westaway, Belstone by H.FL.S. 1889
+M:4/4
+L:1/8
+K:Eb
+BE ED EE FG | EE DE  E3B | Be ee Bc_d2  B | AF GA B3 B | 
+Be ee Bc_d B | A A/A/ Bc dc BG | EF GA Be cA | GE D>E E2 ||
+
+X:11
+T:Silly old man - weekes
+C:Taken down by Mrs. Weekes from the singing of W. Weekes Esq. 1887
+%%VWML:SBG-1-1-111-0
+F:http://www.vwml.org/record/SBG/1/1/111
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:G
+z2zz2d | Bdd d2d/d/ | (d3d2)d/d/ | Bcd eec | (A3A2)A | BBB EEF |
+(G3G2)G | A>A d2 B |(G3  G2) d/d/ | B2 dd d2d |(d3d2)d | Bcd e2c | (A3A2)z||
+T:Silly old man - stevens
+T:Taken down from Sue Stevens, by S.B.G. 1888
+M:6/8
+L:1/8
+K:G
+d8  c8 | B[ce]d ddd | (d3 d2) d| Bcd cec|
+w:Aw! aw!
+(A3 A2)A/A/ |BAB EEF2| (G3 G2)G |AAA d2 B| (G3 G2) |
+T:Silly old man - reay
+T:Taken down by S. Reay from the singing of the late Dr. Reed of Tiverton: in 1848;
+M:9/8
+L:1/8
+K:G
+G|Bcd ddd d2B | ccd eed  c2 c | BAB EEF G2G | 
+ABAd2B c2 c | BAB  E2 FG2G |A>BAd2B  c2 |[ca] ||
+T:Silly old man - the rant
+T:“Give ear to my frolicsome ditty” or “The Rant”. 
+T:The air to which “Saddle to Rags” is sung in the N. of England, Chappell, p. 553-4.
+T:“The Rant” or Winifred’s Knot in “The Dancing Master”
+M:9/8
+L:1/8
+K:G
+D|G>AG  GFE F!fermata!D D |G>FG AGA B2B/c/ | d>ed dBG A!fermata!F  D | EFG AFD G2 :||
+D|G2G B>cBA2D|G2G B>ABc2c|d2d d>cB A2D|G>AG G2AG||
+T:Silly old man - mason
+T:Mason’s ”Nursery Rhymes & Country Songs” 1877. A Devonshire version.
+M:3/8
+L:1/8
+K:F
+c|Acc | cdc | c2c | ABc | ddB | G zG | A>AA | DDE | F2F |GAA | c2c | F2 ||
+
+X:12
+T:Sweet nightingale - stevens
+C:Sent me by E.F. Stevens of Terrace, St Ives, as the air to which sung by the miners in Cornwall, 1850.
+%%VWML:SBG-1-1-91-0
+F:http://www.vwml.org/record/SBG/1/1/91
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:G
+D2 | G2 G2 D2 | G4 Ac | B2 B2 A2 | B4 GB | d2 d2 B2 |c2 B2 A2 | G6 | z4Bc | d2 d2 B2 |
+c4 Bc | d2 G2 A2 | (D2 E2) F2 | G2 A2 B2 |c2 d2 e2 | (d2>c2 B2) |
+ (c2>B2 A2) | (B2>A2 G2) |A4 D2 | G2 B2 d2 | c2 B2 A2 | G4 z2||
+T:Sweet nightingale - whitfeld
+T:From H. Whitfeld, Brush-maker, Market Alley Plymouth, 
+T:as sung by his mother a century ago when a girl.
+M:3/4
+L:1/8
+K:G
+D2 | G2 G2 BA | G4 GA | B2 B2 A2 | B4 GB | d2 d2 c2 |B2 G2 cB | A6 | z4Bc |
+ d2 B2 d2 |!fermata!c2 AB c | d2 G2 AF | D2 E2 F2 | G2 A2 B2 |c2 d2 e2 | (d2>c2 B2) | (c2>B2 A2) |
+( B2>A2 G2 |d4 )Bc | d2 B2 d2 | c2>B2 A2 | G4z2 |"Chorus"Bc| d2 B2  d2 | c2>B2  A2 | G4 z2||
+T:Sweet nightingale - dr arne
+T:Dr. Arne’s melody 1761, “Thomas & Sally”.
+M:3/8
+L:1/8
+K:Eb
+B | e2 G/E/ | B2 G | cFG | A2 G |e>dc | dG=B | c2 G | e2 d |c>d B | 
+cF=A | B2z | z2B |e2 B_d | c2  c | fce | dB/B/ |e>fg | fed | !fermata!e2z |
+
+X:13
+T:Ye maidens pretty - parsons
+C:Taken down from J. Parsons by S.B.G.  Jan. 1888
+%%VWML:SBG-1-1-101-0
+F:http://www.vwml.org/record/SBG/1/1/101
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/8
+L:1/8
+K:G
+DDD | GG2 | FGA | BG2 | ABc |dB2 | FGE | D3 | DDD |GE2 | EFG | 
+AG2 | cBA |dG2 | cBA | G3 | Bcd |ec2 | ABc | dB2 | GAB |cB2 | 
+GcB | A3 | DDD |GE2 | EFG | AG2 | cBA |dG2 | cBA | G3 ||
+
+
+
+X:20
+T:Blow away ye morning breezes- hard
+C:Version sent me from N. Tawton.
+%%VWML:SBG-1-1-140-0
+F:http://www.vwml.org/record/SBG/1/1/140
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+%%score ( 1 2 )
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+V:1 treble nm=
+V:2 treble 
+V:1
+c3/2 c/ c c | c e d c | d3/2 B/ G B | d4 | e e g e | c e f d | c2 B2 | c2 ||$ c3/2 d/ c B | 
+A c G3/2 G/ | f g f d | e4 z c | e3/2 e/ g e | c e e d/B/ | c3/2 c/ B3/2 c/ | c4 |] 
+V:2
+x4 | x4 | x4 | x4 | x4 | x4 | E2 D2 | E2 ||$ x4 | x4 | x4 | x6 | x4 | x4 | x4 | x4 |] 
+
+X:21
+T:Blue muslin - woodrich
+C:Taken down from J. Woodrich, by H.Fl.S. 1888
+%%VWML:SBG-1-1-122-0
+F:http://www.vwml.org/record/SBG/1/1/122
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/16
+M:4/4
+I:linebreak $
+K:G
+z8 z4 D4 | G4 G3 G G4 G3 B | B3 A B3 A G4 G4 | B2 B2 B3 B B3 B A3 B | d3 e d3 e d4 d2 d2 |$ 
+e4 e3 c d4 d3 B | c3 c d3 c B4 B4 | c3 B c3 B c3 B A3 B | e3 d c3 B A4 G3 A | B4 A3 B c4 A4 |$ 
+G8 ||"^After verse 5 & folowing verses" e3 e e3 c e4 e4 | d3 d d3 B d4 d3 d | e6 c2 d6 B2 | 
+c4 A4 G8 |] 
+T:Blue muslin - cheshire - rev partridge
+T:Cheshire version sent by Rev. F. Partridge, S. Clether.
+L:1/4
+M:4/4
+I:linebreak $
+K:A
+A A B B/ B/ | e (e/d/) c/ z B/ | A A B B | e e/ d/ c z |$ A/ B/ A/ F/ E z | A/ B/ A/ F/ E z | 
+w: I will give you the|keys of * * *|||Mad- am will you walk?|Mad- am will you talk?|
+A/ B/ A/ F/ E d | c B A z |] 
+w: Mad- am will you walk &|talk with me?|
+T:Blue muslin - mason
+T:Mason’s “Nursery Rhymes & Country Songs” Metzler 1877.
+T:“A variety of “The Little Market Woman” & “Mrs. Bond”
+L:1/8
+M:4/4
+I:linebreak $
+K:E
+E F G A B2 B B | ce d c B3 B | A A F2 G G E E | F2 D2 E4 |$ B B B B G2 G2 | A2 A2 F3 F | 
+G G F E F2 D2 | E4 z4 |] 
+T:Blue muslin - fj adams
+T:noted by Miss F.J.Adams from old nurse abt. 1825
+L:1/8
+M:3/4
+I:linebreak $
+K:D
+D | D F A A B =c | B A G F2 z | D F A A B =c | B A G F2 G |$ F D D E G E | F D D E G E | 
+B c B A F D | F2 E D2 z |] 
+
+
+X:22
+T:Bonny bunch of roses - hard
+C:As taken down from R. Hard by the Schoolmaster, Sth. Brent, Sep. 1888.
+%%VWML:SBG-1-1-147-0
+F:http://www.vwml.org/record/SBG/1/1/147
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:Bb
+FGA | B3 c d3 c | (B3 A) F3 D | E2 (FG) A2 FE | D2 B,2 B,3 F | B2 cd d3 c |$ (B3 A) F3 D | 
+E2 FG A2 FE | D2 B,2 B,2 B,2 | D2 (E3 D) E2 | F2 G2 F4 | B3 A B2 c2 |$ d2 c2 B4 | c2 d2 d2 e2 | 
+dc B3 A F2 | D2 E2 FG AG | FE D2 B,2 B,2 |] 
+T:Bonny bunch of roses - sth brent (hard
+T:As taken down at Sth. Brent by H.Fl.S. Oct. 1888  
+T:[Fair Copy MSS. attributes to R. Hard – Ed.]
+M:4/4
+L:1/8
+M:4/4
+I:linebreak $
+K:Bb
+F | B3 c d3 c | B3 A F2 D2 | EF G2 A2 FE | D3 B, B,2 :| D | EDEF |$ GGFF | BABc | dcBc | c d d e | 
+dc BA G3 | EF/G/ BA/G/F | DB, !fermata!B,  |] 
+T:Bonny bunch of roses - fry
+T:Taken down from Edm. Fry by F.W.B. Jan 4. 1889.
+L:1/16
+M:2/4
+I:linebreak $
+K:C
+(3GAB | c2d2e2(3dcd | c2 G4 E>F | G2GA _BA (3AGF | G2C2C2 G2 | c2d2e2 (3dcd |$ c2 G4 E>F | 
+(5:4:6G2A2_B3AGF | E2C2C2 E2 | F2E2F2(3GAB | c2 G4 G2 | c2d2e2(3dcd |$ c2 G4 EG | c2d2e2(3dcd | 
+c2 G4 C2 | G2GA_BA (3AGF | G2C2 C2  |] X:23
+T:Chimney sweep (helmore)
+C:Taken down from J. Helmore Sth. Brent by F.W.B. September 1888
+%%VWML:SBG-1-1-115-0
+F:http://www.vwml.org/record/SBG/1/1/115
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:Ab
+E | A2 c3/2 B/ | A2 (E>D) | C D E F | E3 e/>d/ | c3/2 B/ c d | c B z E | A A A A | F3 F/ F/ |$ 
+d B B F | (AG) A B | c2 A c | (BAGF | ED(C)B, | A,2) E E | A2 F F | B2 G2 | A A z2 |] X:24
+T:Hal an tow - matthews
+C:Sent by J. Matthews, St. Austell, as taken down by him.
+%%VWML:SBG-1-1-137-0
+F:http://www.vwml.org/record/SBG/1/1/137
+Z:Original Sibleius Transcription by Martin and Shan Graeb
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+F2 FG A2 AB | c2 c2 c2 de | f2 c2 cd c B | A4 F2 z2 | 
+F2 FG A2 A B |  c2 c2 de | "alternate"cB cd de|f2 c2 cd cB | A4 F2 z2 | (d2 d2) d2 cB | 
+(A2 c2) c2 de | f2 c2 cd cB | (A6 F2) z2 B2 | d2 d2 d2 c B | A2 c2 c2 de |"Alternate"AG AB de| f2 c2 cd cB | (A4 F2) z2 |] 
+T:Hal an tow - davis gilbert
+T:From Davies Gilbert’s Christmas Carols, 2nd Ed. 1823
+T:The “Helston Foray”.
+L:1/8
+M:4/4
+I:linebreak $
+K:Eb
+E2 E>F E2 GA | B2 B>c B2 cd | e2 B2 Bc BA | G4 E4 :|$ B | c2 c2 c2 BA | GA Bc B2 cd | 
+e2 B2 Bc BA | G2 E4 z2 :|
+T:Hal an tow - forfar
+T:From W.B. Forfar’s “Helson Furry Dance” Cunnock Helston, 1883.
+L:1/16
+M:2/4
+I:linebreak $
+K:G
+G2>A2B2c2 | d2d2 d2(ef) | g2d2 (ded)c | B4 G4 :: e2e2e2 (dc) | B(cd)e d2(ef) | g2d2 dedc | 
+[GB]4 G4 :| 
+
+T:Hal an tow - specimens of cornish &c
+T:From “Specimens of Cornish Provincial Dialect 
+T:collected by Uncle Jan Trenoodle” Lond. J.R. Smith, 1846.
+T:This has been used by Chappell for the words “The Well of S. Keyne”
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+A2 A A2 G | AcA F2 A | B2 c d2 c/ c/ | (2:3:2BA G2 B | A2 A A G F |$ G ^F G2 D A | B2 c d2 c | 
+w: Rob- in Hood and|Little _ _ John They|both are gone to the|fair _ O! And|we will go to the|mer- ry green wood to|see what they do|
+(2:3:2BA G3 || A | (A3 A2) F | G3 D2 B | A2 F F2 E | (F3 F2) F |$ A3 G3 | F3 z3 | B3 A2 G | 
+w: there _ O!|And|for _ to|chase O! To|chase the buck &|doe _ With|Ha- lan-|tow|Rum- _ ble|
+A3 z2 F | G3 ^F3 | G3 z2 A | B2 c d2 c | (2:3:2BA !fermata!G2 z |] 
+w: O For|we were|up as|soon as any _|day _ O!|
+
+
+
+X:25
+T:Hal an tow - jones bardic museum
+C:From Jones Bardic Museum 1802, II. p. 97.
+%%VWML:SBG-1-1-139-0
+F:http://www.vwml.org/record/SBG/1/1/139
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:Eb
+E2 (E>F) E2 GA | B2 (B>c) B2 (cd) | e2 B2 (Bc) (BA) | G4 E4 | E2 E3/2 F/ E2 (([EG][FA])) | 
+[GB] [GB] ([GB]>[Ac]) [GB]2 [Ac]d |$ [Ge]2 B2 Bc BA | G4 E2 || B2 | c2 c2 c2 (BA) | 
+(GA) B c B2 (cd) | e2 B2 (Bc) (BA) | (G4 E4) |$ [Ec]2 [Ec]2 [Ec]2 (BA) | GA B c !fermata!B2 cd | 
+e2 .B2 B3 A | G2 E2 !fermata!E2 :| E2 (E>F) E2 [EG][FA] | B2 B>c B2 (cd) |$ e2 B2 Bc BA | 
+G2 E2 E3 E | (E2 E)F E2 G A | (B2 B)c B2 cd |$ e2 B2 Bc BA | G4 E3 B | c2 c2 c2 BA | 
+GABc B2"^&c."  |] 
+
+X:26
+T:Hearty good fellow - hard
+C:Taken down from Robt. Hard, Sth. Brent, Sept. 1889 by S.B.G.
+%%VWML:SBG-1-1-142-0
+F:http://www.vwml.org/record/SBG/1/1/142
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+G2 | G2 B B B2 B B | B2 A3/2 G/ G2 G G | G2 B d d2 e d | d2 c B A2 z A |$ G2 B B d2 d d | 
+e2 d c B3 B | d2 c B A2 G A | B2 A G E2 |: B B |$ B2 E E E2 F G | A2 B c d3 d | e2 d c B2 A G | 
+E2 F2 G4 |] 
+T:Hearty good fellow - kidson
+T::Taken down in Yorkshire by F. Kidson.
+L:1/4
+M:3/4
+I:linebreak $
+K:D
+A | A f f | f e f | d f d | B2 a | a f d | d f a | a g f | e2 z/ e/ | d f a |$ a ^g a | b a g | 
+w: ||||||||||||
+f2 a | b a g | f2 e | d f d | B3 |$ c e c | A3 | d f a | b2 b | a g f | e f d | B2 c | d3 |] 
+w: ||||||||* And|I in my|pock- et had|one pen-|ny|
+
+
+X:27
+T:Old singing man -huggins
+C:Taken down from Will. Huggins, by F.W.B.  Sept. 1889
+%%VWML:SBG-1-1-150-0
+F:http://www.vwml.org/record/SBG/1/1/150
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+BA | G E E E D C | D G2 z z D | G F E D E E | A3 z B A | G E E E D C | D G2 z z D |$ G F E D F G | 
+A3 z G G | B B B B A G | B d2 z z G | G G G G A B | A3 z G G |$ B B B B A G | B d2 z2 A | 
+A A A A B A | G3 !fermata!G BA | G F E D E F | G3 z3 |] 
+
+X:28
+T:Saucy sailor (parsons)
+C:Taken down from Jas. Parsons, by S.B.G. October 1888.
+%%VWML:SBG-1-1-120-0
+F:http://www.vwml.org/record/SBG/1/1/120
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:E
+E2 E E2 B, | G2 G G2 E | (DC) D E3 | G2 A B2 G | c2 c (BG) E | (DC) D E3 |$ B2 B e2 e | 
+d2 c B2 G | (cd) c B3 | E2 F G2 E | e2 B (dc) B | c2 B A2 C | D2 F E3 |] 
+T:Saucy sailor (forty sailors songs)
+T:From “Forty Sailor Songs” by F. Tozer
+L:1/8
+M:3/8
+I:linebreak $
+K:F
+A | c/ d/ c B | A/ c/ F F | A G G | A2 A | c3/2 d/ c/ B/ | A/ c/ F F | G C E | F2 |] 
+T:Saucy sailor (barrett)
+T:From Barrett’s “English Folk Songs” 1896. No. 32. Words Such’s Broadside, B.
+L:1/8
+M:3/4
+I:linebreak $
+K:F
+z2 E F | GE C2 F G | AG F2 A c | d2 c2 A A |$ G4 B c | d2 c2 B A | c c F2 AF | G B D2 E2 | 
+F4  |] 
+T:Saucy sailor (miss mason)
+T:Taken down at Laughane, Carmarthenshire by Miss Mason, same as Barrett’s
+L:1/8
+M:3/4
+I:linebreak $
+K:F
+E F | (GE) C2 GA | (BA) F2 F A | c2 (dc) A F | G4 B c |$ (d>cA3/2) c/ c d | B3/2 A/ F2 GA | 
+B2 C2 DE | F4 z  |] 
+T:Saucy sailor (sacherley)
+T:Taken down from Mary Sacherley, Huckaby Br. by F.W.B.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | DG G2 FG | Ac d3 B | Bd G2 FG | ED D3 B | dB A2 G2 | AB A3 A |$ dB A2 G2 | AB !fermata!A3 D | 
+DG G3 B | cd e3 d | Bd G3 F | cA G3 z |] 
+
+
+
+X:29
+T:The squire & fair maid - hoskins
+C:Taken down from J. Hoskins, by H.Fl.S. 1888.
+%%VWML:SBG-1-1-128-0
+F:http://www.vwml.org/record/SBG/1/1/128
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:C
+d | c B c d | e B c/B/ G | B B e d | B2 z G | B B c d | e d B G |$ d d d/c/ A | G2 z d | 
+g d d/e/ d | g e d c | B B c/e/ c | B2 z G | B B c d |$ e e d G/A/ | d d d/c/ A | G2 z || 
+"^chorus" d | g d d d | g d d B |$ c c e e | B2 z G | B B c c | d e B G | d d d/c/ A | G2 z|] 
+T:The squire & fair maid - smith
+T:Taken down from H. Smith, Two Bridges by H.Fl.S. 1890.
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+G | c2 B ABc | d2 B G2 G | ceg gfe | e3 d2 e/f/ | gag gfe |$ g2 e c2 G | c2 d e2 e | edc A2 c | 
+G2 c c2 d | efa g2 B | (c3 c2)  |] 
+
+
+X:30
+T:Tythe pig - helmore
+C:Taken down from J. Helmore, Sth. Brent, Nov. 1888 by F.W.B.
+%%VWML:SBG-1-1-151-0
+F:http://www.vwml.org/record/SBG/1/1/151
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+z4 z3 c | c B A G F G A A | G E F D C3 c | c B A G F G A A | G E F D C3 c |$ c c c c d c c c | 
+d c c A G3 G | A B c A B d3/2 d/ | c B A G F3 C |$ D E F D E G z G | A c c3/2 d/ c3 c | 
+d c c A A F3/2 F/ | A G F E F4 |] 
+ X:1
+T:Bonny blue handkerchief- woodrich
+C:Taken down from J. Woodrich by F.W.Bussell, Nov. 1888.
+%%VWML:SBG-1-1-180-0
+F:http://www.vwml.org/record/SBG/1/1/180
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:C
+C/D/ | CCA GED | CCD C2E | EED DGA | BGAG2E/G/ | 
+GEG A/B/ c c/B/ |AGED2C/E/ | GG c/B/ A/G/E G, | G,B,D/F/C2 |
+T:Bonny blue handkerchief- parsons
+T:Taken down by me in Oct. 1888 from Parsons (?)
+M:2/4
+L:1/16
+K:G
+D2 | G2GA B2AG | D2ED G2>D2 | E2FG A2EA | d2AB G2>G2 A | 
+B2BG A2dd |c2BB d2>G2 A | B2dB e2dB | G2AF G6 |
+T:Bonny blue handkerchief- barrett
+T:Tune to “Paul Jones” in Barrett’s “English Folk Songs” 1891; No. 33.
+M:3/4
+L:1/8
+K:C
+CE | G2 G2 c2 | A2 G2 C>D | D2 C2 C2 | C4 ED | C2 E2 G2 |c4 d>c | B2 G2 G2 | G4 G2 | 
+G2 E2 G2 |AB c2 A2 | G2 E2 C2 | D4 CE | G2 G2 c2 |A2 G2 C>D | D2 C2 C2 | C4 |
+T:Bonny blue handkerchief- fone
+T:Taken down to “Paul Jones” from Saml. Fone, by F.W.B. July. 1893.
+M:3/4
+L:1/8
+K:Ddor
+D2 | F2 A2 B2 | B2 A2 D2 | E2 D2 D2 | D4 D2 | E2 D2 E2 |G2 F2 F^G | A2 c2 B2 | A4 A2 | 
+B2 G2 B2 |c4 ed | dc B2 A2 | d4 DF | A2 A2 Bc |B2 A2 D2 | E2 D2 D2 | D6 |
+
+
+X:1
+T:Childe of plimstock - doige
+T:Sent me by Mrs. Gibbons as sung by Eliz. Doidge.Same air at Shaugh, 
+T:Sung to Childe ye. Hunter circ. 1830, says Miss Phillips of Abbots Kerswell.
+%%VWML:SBG-1-1-170-0
+F:http://www.vwml.org/record/SBG/1/1/170
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:Dm
+FG | A2 A2 A2>A2 | A2 d2 d2 cB | A2 A2 BA GF | E6 FG | 
+A2>A2 BA GF |GA Bc d2 cB | Ad AF ED EF | D4 z2||
+
+
+
+X:1
+T:Cicely sweet - hurrell
+C:Air as sent by J.S. Hurrell, Kingsbridge, 1888.
+%%VWML:SBG-1-1-174-0
+F:http://www.vwml.org/record/SBG/1/1/174
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:2/4
+L:1/16
+K:C
+C2 | C2C2 G2 F3 F|F2 E2>D2  E4| C2 C3G G6 F|F2EDE4 |
+C3C DE2  EE|EC DEF4 |E4DC  CC|A2>c2G4 |G,4G,3 G,G,4G,4 |C4 z2|
+T:Cicely sweet - dialogue & duet - dale
+T:“A Dialogue & Duet for Sylvia & Cymon” in Dale’s Collection circ. 1798. 
+T:Same exactly pub. by G. Walker, 106, Gt. Portland St. circ 1816.
+T:-see below
+M:4/4
+L:1/8
+K:F
+[F2A2] [C2F2] [A2c2] [FA]>[Ac] | cB AG A4 | A2 F2 c2 Ac | cB AG A4 | 
+CFFG A>B GF |GA B>c B|BAGFF2F4<|!fermata!d4 BAGF|C2 G>FF4 |
+T:Cicely sweet - sent s devon
+T:Sent me by a correspondent (name & letter mislaid) from Sth. Devon.
+M:2/4
+L:1/8
+K:Eb
+E2 EG | B2>B2 | A2 GF | G4 | E2 EG |B2>B2 | AG AB | G4 | E2 EG |
+GF F2 | F2 FA | AG G2 | G2 FE |EG B2 | c2 e3/2c |B2GE |B,2CD |E2 |
+T:Cicely sweet - sylvia sweet - walker
+T:“Sylvia Sweet as Morning Air”. pub. by Walker of Gt. Portland St. 1816 or later.
+M:4/4
+L:1/8
+K:F
+A2 F2 c2 A>c | cB AG A4 | A2 F2 c2 Ac | cB AG A4 | CF FG A>B A2 |GF GA c>c B2 |
+ BA GF F2 F2 | d6 BA | GF C2 G>E F4 |"Duet"[F2A2] [C2F2] [A2c2] | [FA][Ac] [Ac][GB] [FA][EG] [F4A4] | [A2F2] [FC]>F c2 | 
+[AF][cG] [Ac][GB] [FA][EG] [F4A4] |[CA,]F [FA,][GC] [AF]>[BG] | [A2F2] [EG][DF] [EG][FA] [GB]>[Ac] | [G2B2] [BF]A [FG]F [F2D2] | [F4D4]< !fermata![d4A,4] |[BC]A [GC][FC] C2 [GC]>E | F4 |
+
+
+X:1
+T:Cottage thatched with straw - watts
+C:Taken down by F.W.B. from J. Watts, Nov. 1888.
+%%VWML:SBG-1-1-184-0
+F:http://www.vwml.org/record/SBG/1/1/184
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:Eb
+B>G | E>E E2 F2 | (3GGG G2 B>e | (3dBB c2 =A2 | B4 B>G | (3EEE E2 F3/|
+(3GGG G2BB|B3/2 F/ GGF|E4 F3/2 G/|A2 A/A/A2 F3/2F|<G G/G2B3/2e/|
+(3dBB c2=AA|B4 (3Bcd|e2 d2z2|c2 B2zEF/  (3GFG A2D2|E4 "Chorus"E3/2F/|(3GGG G2E2|
+B4 E3/2F/|(3GGG B2G2|F4 (3Bcd|e2 d2z2|c2 B2z EF/ (3GFG A2D2|!fermata!E6 ||
+T:Cottage thatched with straw - kidson
+T:Taken down in Worcestershire by F. Kidson, Leeds. 1893
+M:6/8
+L:1/8
+K:C
+C/D/ | EE EF2G | A2 GC2G/A/ | cc EF2A | (G3G2)C/D/ | EEE F2F |GAG C2D | EEE F2B, | (C3C2)||
+C | DD DD2D |EE EE2E | FF FF2F | (G3G2)(3G/A/B/ | c3B3 |A3G2C D/ | 
+EG FE2D | (C3C2)(3G/A/B/ | c3B3 |A3G2 C/D// | EG FE2D | (C3C2) || 
+EE EG2E |(D3D2) | C3D3 | EE EG2E | (D3D2)(3G/AB |B3B3 | A3G2C//D/ | EGFE2D | (C3C2) ||
+
+
+X:1
+T:Drowned lover - parsons
+C:Taken down from Jas. Parsons, by H.Fl.S. Oct. 1888.
+%%VWML:SBG-1-1-164-0
+F:http://www.vwml.org/record/SBG/1/1/164
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:Bb
+F2 | B2 d2 c2 | B2 F2 [D2F2] | F2 G2 F2 | D4 D2 | E2 E2 B2 |c4 B2 | A2 A2 G2 | F4 AB | c2 c2 c2 |
+f2 =e2 d2 | c2 c2 B2 | A4 A2 | B2 c2 B2 |B2 F2 F2 | G2 B2 G2 | F4 GA | B2>F2 DF |
+B,4 Bc | d2 cB GB | F4 GA | B2 F2 D2 |E2 e2 d2 | c2 B2 A2 | B4 ||
+T:Drowned lover - whitfield
+T:Sent me by H. Whitfeld, brush-maker, Plymouth, 1889
+T:As sung by his grandfather.
+M:3/4
+L:1/8
+K:Bb
+F2 | B2 d2 c2 | B2 A2 G2 | F2 F2 E2 | D4 DC | B,2 D2 F2 |G2 A2 B2 |
+ c2 =B2 c2 | F4 F2 | c2 A2 F2 |c4 cd | e2 d2 c2 | d4 dc | B2 B2 A2 |G4 AB | c2 c2 B2 |!fermata!A3GFz ||
+|:B4c d|G4A B|F4F2 |E2D4 |c2c2B2 |
+!fermata!A2GF Bc|dGc2 BA|G2A2 B2|c2GF Bc|dGe2 dc|!fermata!f3A2 B2 ||
+T:Drowned lover - morgan
+T:Sent me by E.T. Morgan, 91, Coronation Rd. Bristol 
+T:As he remembered hearing it as a child. June 13, 1905
+M:3/4
+L:1/8
+K:G
+D2 | G2 G2 G2 | E2 F2 G2 | A2 B2 A2 | G4 AB | c2 d2 c2 |B2 A2 G2 | A2 G2 E2 | D4 D2 | d2 d2 B2 |
+c2 c2 d2 | (B2 cB) (AG) | A4 DD | G2>B2 AG |E2 F2 G2 | A2 B2 A2 | 
+D4z2 |\
+M:4/4 
+d4 B2 e2|\ 
+M:3/4
+(d4> | d4)  z2d2 |(ed) (cB)  (AG) |E2<G2 GA |B2 A3 G| G4 ||
+
+
+X:1
+T:Forsaken maiden - parsons
+C:Taken down from Jas. Parsons by S.B.G.  Oct 1888
+%%VWML:SBG-1-1-197-0
+F:http://www.vwml.org/record/SBG/1/1/197
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:Dm
+DF | A2 A2 A>B | AF D2 AF | D2 D2 FG | A4 d2 | c2 B2 dd |
+Ac c2 FG | A2 F2 GF | ED C2 A2 | F2 GF EF |D4 |
+T:Forsaken maiden - at chagford
+T:Taken down by F.W.B. 1891 at Chagford.
+M:3/4
+L:1/8
+K:Fm
+FA | c2 c2 ed | d>c B2 cB | [A2F2]>[G2G2] [FA][AB] | c4 FA | c2>d2 e>d |
+dc B2 cB | A2 G2 F>A | c4 e2 | f2 cd e2 |dc B2 f2 | 
+e2 GA B2 | A>G F2 E2 | F2 f2 g2 |f>d c2 _ed | c2 cB G2 | F6 |
+
+
+
+X:1
+T:Green cockade - fry
+C:Taken down from E. Fry, by S.B.G. Jan. 1889.
+%%VWML:SBG-1-1-187-0
+F:http://www.vwml.org/record/SBG/1/1/187
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:2/4
+L:1/8
+K:F
+F | FA cd | dc2F | BB AG | F2>F2 | FA cd |dc2A | dc BA | G2>c2 | de cA |
+Bc Ac | fe dA | c2>A2 | BA GA |dc2A/c/ | dc BA/G/ | F3z ||
+T:Green cockade (northumbrian minstrelsy)
+T:‘My love is newly listed’ from Northumbrian Minstrelsy 1881, p. 97.
+M:4/4
+L:1/8
+K:Bm
+E>F | G>B Bc | d<B BA | GE E^D |E3E/F/ | G>B Bc | d>d e>d | cA B^G |A2 zF |
+ G2B2 B>^c | d>d e>d | ^cA Ac |d2>=c2 | BE GA | B<d =c>A | BG/E/ E>E E2 |
+T:Green cockade - hard
+T:Taken down from R. Hard by H.Fl.S.
+M:4/4
+L:1/8
+K:G
+G2 | G2 B2 | d2 ed | d2 B2 |A2 Bd | c2 A2 | c2 A2 | G3G2 |
+G2B2 |d2d2 |d2B2 |c2d2 |e2d2 |c2B | cd6 |G2 |G2B2 |d2d2 |d2B2 |c2d2 |e2d2 |c2B2 |A2B2 |c2A2 |
+d4 |G2F2 |E4 |c2d2 |e4 |A2G2 |F2D2 |d2d2 |d2e2 |d2e2 |d2B2 |G2B |dc2A2 |B2A2 |G4 |
+
+
+
+X:1
+T:Jan's courtship - rowe
+T:Sent me by R. Rowe, Longabrook, Milton Abbott. 
+T:Same taken down by me from H. Chowen, Burnville, Brentor.  Oct. 1889.
+%%VWML:SBG-1-1-156-0
+F:http://www.vwml.org/record/SBG/1/1/156
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:Em
+z4zF | GF GE2F | GF GE2F | G>F G A> G A | B3z2B | BA Bc BA |
+Bc BA GF | EB BB AB | G2 E/E/|E2 E/E/  E2 =G/A/ | B cB AG A|B2E/E/  E2z ||
+T:Jan's courtship - webber
+T:Sent me by Mr. Webber of Tiverton, as sung in farm-houses about that part. 
+T:There called “Sweet Robin”.
+M:6/8
+L:1/8
+K:Eb
+C |E>FE G>AG | F>GF E2 B,| E>F EG FE | !fermata!F3zz2  B,|E>F E G>F G|AG A !fermata!B2 B/B/| 
+Bc BA GF| Ez !>!B,!>!E3 | B2 BB2 z| c2  B!fermata! e2B|Bc BA  GF|Ez !>!C!>!E2||
+T:Jan's courtship - beggar's opera
+T:“Now Roger; I’ll tell thee, because thou’rt my Son”  
+T:Beggar’s Opera Act III. sc.8 Air XLVIII
+M:6/4
+L:1/4
+K:Gm
+A|BAGBcd|cBAcdc|BAGGBc|(d3d2):||
+|:d|edefed|cBcd2B/c/|d>edcAB|
+G3A3|(B3B2)B/c/|d>edcAd|(G3G2):||
+T:Jan's courtship - spence bate
+T:Sent by M. C. Spence Bate, as taken down from one of the singers at Sth. Brent.
+M:6/8
+L:1/8
+K:F
+AA AA  A2| BBB  BBB | (c/c/c)f ccA |G3z2 G | AAA AAA| BBB B2B/B/ |
+c2 f B/B/ | A2 FF2 |A2A !fermata! A2z |B2 B!fermata!B2z |c2 f c2  B/B/|A2F !fermata!F2z ||
+
+
+X:1
+T:My ladye's coach - parsons - bickle
+T:Taken down from Jas. Parsons by S.B.G. to another ballad. 
+T:But same air as that sung by Anne Bickle.
+%%VWML:SBG-1-1-153-0
+F:http://www.vwml.org/record/SBG/1/1/153
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:Bm
+F2 | F2 F2 GF E2 | D2 E2 F2 F2 | B2 B2 c2 d2 | B4z2 c2 | d2 c2 B2 A2 |
+F2 B2 A2 F2 | B2>c2 d2 c2 | d4z2 F2 | F2 F2 F2 F2 |G2 A2 B2 c2 |
+ d2 c2 B2 B2 | A4z2 A2 | d2 A2 A2 B2 |d2 B2 B2 e2 | d2 c2 B2 A2 | B8 ||
+T:My ladye's coach - hoskins
+T:Taken down at Sth. Brent from J. Hoskins by H.Fl.S. Oct. 1888
+M:4/4
+L:1/8
+K:Ddor
+FG | A2 A2 A2 E2 | F2 G2 D2 d2 | c2>A2 F2 D2 | A6 A=B | c2 c2 B2 A2 |d2 B2 G2 AB |
+ c2 A2 G2 E2 | F6 Bc | d2 B2 B2 A2 |B2 G2 D2 EF | G2 G2 F2 D2 |
+ C6 AB | c2 G2 G2 FG |A2 E2 F2 G2 | A2 D2 D2 C2 | D4 ||
+
+
+
+X:1
+T:Sailor's farewell - helmore
+C:Taken down from J. Helmore by F.W.B. Sept. 1888.
+%%VWML:SBG-1-1-193-0
+F:http://www.vwml.org/record/SBG/1/1/192
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:G
+D | B2 B2 c2 cA | d2>B2 B2 d2 | [e2f2] [c2d2] B2 A2 | G3:||
+ G2 g4 f>g |e2>d2 dB BA | A4> d4 | e2 e2 g2>e2 | dd B2 B2 G2|d3cB2A2|G8||
+T:Sailor's farewell - musical century
+T:H. Carey’s tune 1739. ‘The Musical Century.’
+M:4/4
+L:1/8
+K:F
+E2 | F2 d2 cA BG | E2 F2z2 c2 | f2 a2 fe fd | c4>|
+ a4 | ge fd cA GF |D2 d4 FE | Ff ed cB AG | F4z2||
+
+
+
+X:1
+T:Broken token - hard
+C:Taken down from Robt. Hard, by H.Fl.S. Oct. 1888
+%%VWML:SBG-1-1-227-0
+F:http://www.vwml.org/record/SBG/1/1/227
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:Em
+BBB |B2  AG AB | E2zDGB |d2  ed cd |B2zddd| G2  FE AB | 
+c4 B>A |BE  E2 D2 | G2 A2  (3Bcd |ed !fermata!e2z c|B3  AGF|E4 |
+T:Broken token - ballad singer durham
+T:Taken down from a ballad-singer in the market, Durham, in 1830-5 
+T:by S. Reay, song-school, Newark on Trent.
+M:3/4
+L:1/8
+K:G
+G2| BB  B2 AB | GF2< E2 D| GB d2 ed | cd B2z c| dB  G2 FE |
+AB c2  BA| BE  ED z2|\
+M:2/4
+ G>A (3Bcd |ed ec | B>A GF | G2 ||
+
+
+
+X:2
+T:Cottage on the hill - hard
+C:Taken down by the Schoolmaster, Sth. Brent from R. Hard 1888.
+%%VWML:SBG-1-1-199-0
+F:http://www.vwml.org/record/SBG/1/1/199
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:Bb
+F | Bc (B2A) G | F2 ED2F | B,CB,D2E | FF2< F2B  c|
+ded cAB|(d2c2)Bc | ded c2A|B3z2||
+T:Cottage on the hill - parsons
+T:Taken down from Jas. Parsons, by S.B.G. 1888.
+M:6/8
+L:1/8
+K:Bb
+B | BABd2d | cBAG2A | ABA G^FG | AA/A/ !fermata!D2 Bc | d>ed cBc |
+w:For four-teen long miles I tra-velled one day. A neat li-tle co-tage I passed on my way. Which I ne-ver be-fore *did 
+d3 B2 c | d>ed cBA | B3z2d | dcB c2 c | dcB A2A | BcB AGA |
+w:see, which I ne-ver be-fore *did see. I bold-ly stepped up to that cot-tage door a sweet pret-ty dam-sel she 
+B2B/B/ D2 GA | BcB AGG | d2d gBc | ded c>A/ |B4z2 ||
+w:stood on the floor. Pray* what dost thou want* said she, said she, Pray* what dost thou want said she. 
+T:Cottage on the hill - crossing
+T:Taken down by W. Crossing from an old man on Dartmoor abt. 1857.
+M:6/8
+L:1/8
+K:C
+ccc c>BA | GGF E2D | CCC E>DC | GGGG2 z|
+AAA B>AB |e2 c c>de | f2>d2dc | B>ABc2 z||
+T:Cottage on the hill - kidson 1
+T:Taken down in Yorkshire by Frank Kidson.
+M:6/8
+L:1/8
+K:C
+G | c2 c cBA | G2 GG2F | E2 E EDC | G2 G2<G2 | F3E3 |
+FGA GAB | (c2e2<d2) | G3G3 | ABc BAB |(c3c2) ||
+T:Cottage on the hill - kidson 2
+T:Taken down in Yorkshire by F. Kidson.
+M:6/8
+L:1/8
+K:C
+G | c2 dc2A | (GE) GD2E | FGF EDC | G2 G2<G2 | F3E3 |
+FGA GAB | (c2 e2<d2) | G3G3 | ABc Bcd |(c3c2) |
+
+
+X:3
+T:Evening so clear - huggins
+C:Taken down from W. Huggins by F.W.B. Nov. 1888.
+%%VWML:SBG-1-1-207-0
+F:http://www.vwml.org/record/SBG/1/1/207
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:F
+d2 | c4 A2 F2 | F4 G2 A2 | B4 c2 A2 | G4> d4 | c4 A2 F2 |F4 G2 A2|B4 c2 A2 | 
+G4> C4 | (F2 G2) A2 B2 |(c2 d2) c2 A2 | B2>c2 d2 d2 |
+ c4> c4 | f4 c2>B2 |A6 c>d | (c2 B2) A2 G2 | F6 z2||
+T:Evening so clear - peake
+T:Taken down from J. Peake who learned it in 1840 from a miner from the W. of Cornwall, 
+T:taken down 1891 by H.Fl.S.
+M:4/4
+L:1/8
+K:F
+d2 | c2 AF G2 GA | Bd cA G2 d2 | c2 AF G2 GA | Bd cA G2 |
+F2 |FG AB cd cA |Bc ed c2 fd | dc cA B2 AA | AG FE F2 ||
+T:Evening so clear - musical miscellany
+T:“Susanna’s Complaint” from “Musical Miscellany” I. p.62
+M:3/4
+L:1/8
+K:G
+D2 | D2 G2 G2 | G2>F2 E2 | F2 A2 A2 | A4 G2 | B2>A2 G2 |E2>F2 G2 | D2 G2 G2 | G4 D2 | D2 G2 G2 |
+G2>F2 E2 | FG A2 A2 | A4 G2 | B2>A2 G2 |E2>F2 G2 | D2 G2 G2 | G4 G2 | B2 d2 d2 |d2 cB AG | 
+F2 e2 e2 | e4 c2 | B2>c2 d2 |d2 cB AG | G2 g2 f2 | g4 d2 | e2>f2 g2 |
+ed cB AG | FG A2 A2 | A4 G2 | B2>A2 G2 |E2>F2 G2 | D2 G2 GA | G4 z2||
+
+
+X:4
+T:Green bushes - hard
+C:Taken down from R. Hard, by S.B.G. Oct. 1888.
+%%VWML:SBG-1-1-213-0
+F:http://www.vwml.org/record/SBG/1/1/213
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:G
+D | D2 GA B2 GA | B2 [GA]G2< D2D | B,2 DG A2 BA | [G2A2] [GB][AG] A2Dd  D | 
+B2 AB2d2cB | A2G A2<B2  G | B2[AB]G d2cB | A2G [A2F2]<G2 z||
+T:Green bushes - old man on dartmoor - crossing
+T:Taken down from an old man on Dartmoor in 1858 by W. Crossing, Sth. Brent.
+M:3/4
+L:1/8
+K:F
+C2 | F2 F GF |E2 F2AB | c2 cBG2 | F4 C2 | F2 F2 GF | E2 F2 AB | c2 _e2d2 | c4 AB | 
+c2 f2f_e | c2 d2_e2 | c2 cBG2 | F4 C2 | F3  A GF | E2 F2AB | c2 cBG2 | F4z2||
+T:Green bushes - parsons
+T:Taken down from Jas. Parsons by S.B.G. Oct. 1889.
+M:3/4
+L:1/8
+K:G
+D2 | G2 G2 AG | F2 G2 Bc | d2 d2 B2 | A4 D2 | G2 G2 AG |F2 G2 Bc | d2 e2 d2 | c4 Bc | 
+d2 d2 g2 |d2 d2 AB | c2 c2 d2 | (B2 A2) C2 | G2 G2 AG |F2 G2 d2 | B2 cB A2 | G4 z2||
+T:Green bushes - buckstone
+T:From Buckstone’s “The Green Bushes” popular Irish air as sung by Mrs. Fitzwilliam, 1845.
+M:6/8
+L:1/8
+K:A
+A/c/ | c>Bc AFE | F<AA A2A | Acf e<cA | cB>B B2B/B/ |
+ Ace ecA |fe>c B2A/B/ | c>Bc AFE/E/ | FAA !fermata!Ac/B/A2| c/B/A2 z2||
+T:Green bushes - buckstone 2
+T:“The Green Bushes” written by F.B. Buckstone, comp. by F.W.Fitzwilliam.” pub. Brewer & Co. n.d.
+M:3/4
+L:1/8
+K:A
+AB | c2 A2 F2 | E2 C2 E2 | F2 A2 A2 | A4 A2 | A2 c2 e2 |f2<e2 c2 | c2 B2 B2 | (B4 B>)A | A2 c2 e2 |
+f2 e2 c2 | c2 B2 B2 | c4 AB | c2 A2 F2 |E2 C2 EE | F2<A2 A2 | (A4 Ac/B/ | A4 Ac/B/ |A2)||
+T:Green bushes - connaught & munster
+T:“The Green Bushes” air in Connaught & Munster
+T:Joyce’s “Ancient Irish Music” No. 23
+M:3/4
+L:1/8
+K:A
+E2 | A2 c2 A2 | G>A Bc d2 | e2 fd B>A | G4 (3EFG | A2 c2 A2 |
+GA Bc d2 | e2 ge f^d | e4 ||cd | e2 c2 a2 |f2 e2 f/e/c/B/ |
+ A2 AB c>A | F4 (3EFG | A2 c2 BA |GA B2 cd | e2 fd B>G | A4 ||
+
+
+X:6
+T:Green bushes - burstow
+C:Taken down from H. Burstow, Sussex by L.E.B. Jan. 1894
+%%VWML:SBG-1-1-215-0
+F:http://www.vwml.org/record/SBG/1/1/215
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/4
+L:1/8
+K:F
+C2 | F2 F2 GF | E2 F2 G2 | A2 c2 c2 | G4 G2 | A2 G2 A2 |(GE) C4 | E2 F2>=B,2 | C4 c2 |
+ d2 c2 B2 |c2 G2 (GA) | B2 AG FE | C4 C2 | F2 F2 GF |E2 F2 AB | c2 cB G2 | F4 ||
+T:Green bushes - kidson
+T:Tune as sung at Stockport 1838, given in Kidson’s Trad. Tunes, p. 47.
+M:3/4
+L:1/8
+K:Fm
+F2| F2  G2 F2 | E2 F2 AB | c2 c2 G2 | (E2 F2)  G2 | F3 A (GF) |E2 F2 B2 | c2  c2 =B2 | c4 (AB) |
+c2  f2 f2 | c2 =d2  e2 | GA BA GF | E4  FF | 2< F2 A GF |E2 F2  AB | c2  c2 {BA} G2 | F4 ||
+T:Green bushes - london mag
+T:“Low down in the Broom” a new song, in the “London Magazine 1760. P. 486
+M:4/4
+L:1/8
+K:D
+d | AD EF A>d AF | E>D EF e3 {de}e | D>D EF d>c BA | B>A Bc2< d2||A | 
+d{de}f ed B{Bc}d AF |A2 g>f e2 a>g | {fg}  a2 fd B{AB}d {B} AF | F2 Bc !fermata!d4 ||
+D2 EF d>d BA | (B>A) Bd e2  d/e/f | D2 EF Ad  AG | A2 Bc2< d2 ||
+
+
+X:7
+T:Lullabye
+C:Taken down from recollection of singing of Anne Bickle, Bratton Clovelly, circ. 1840.
+%%VWML:SBG-1-1-251-0
+F:http://www.vwml.org/record/SBG/1/1/251
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/8
+L:1/16
+K:Bb
+B4 cd | B6 | F4 GA | B6 | e4 dc |d6 | A4 GF | F6 | d4 ed |c6 |
+c4 Bc | d6 | B4 cd |G6 | A4 GF | B6 | B4 cd |G6 | A4 GA | B6 ||
+
+
+X:8
+T:May day carol - cayzer
+C:Sent by T. S. Cayzer, as heard by him on Dartmoor in 1850
+%%VWML:SBG-1-1-236-0
+F:http://www.vwml.org/record/SBG/1/1/236
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:G
+GA | Bc BA AG FE | A2 BG2< F2A | GE FG A2 d^c | B4> e4 |
+d^c BA G2 E2 |FG AF d2 e2 | d^c BA GE FG | E6 ||
+T:May day carol - sent by broadwood
+T:“The Moon shines bright” a X’mas Carol taken down in Sussex, 1830, 
+T:sent me by L.E. Broadwood, Lyne, Horsham.
+M:4/4
+L:1/8
+K:Em
+B,2 | E4 E2 F2 | G4 F2 G2 | A4 B2 G2 | F4 B,2 B,2 | E2>^D2 E2 F2 |G4 A4 | B4> e4 |
+ d2 "(#)"c2 B2 A2 | G4 B4 |E2>^D2 E2 F2 | G4 A2 B2 | c4 B2 A2 | B2 G2 F4 |E6 ||
+
+
+X:9
+T:Nancy - friend
+C:Taken down from W. Friend, Lydford by F.W.B. Jan 1889
+%%VWML:SBG-1-1-250-0
+F:http://www.vwml.org/record/SBG/1/1/250
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:3/8
+L:1/8
+K:Am
+(3cBc | dG (3GAG | FG d | cA/G/F | G2 B/>c/ |dgd | e/d/ c c/B/ | AA c/e/ | d2 B/c/ |
+dg(3def | e2 e/>d/  cc/B/ | AAc | d2 c | dc A/>G/ | F (Gd) | cc/A/ F | G2 ||
+T:Nancy - parsons 
+T:Taken down from J. Parsons by F.W.B 
+M:3/4
+L:1/8
+K:Em
+G2 | c2 c2 c2 | c2 ed c2 | d2 G2 G2 | G4 G2 | d2 d2 d2 |d2 d2 d2 | d2 f2 e2 | c4 ef |
+ g2 gf c2 |f2 f2 ge | c2 d2 B2 | c4 ef | g2 ge c2 |f4 ed | G2 B2 d2 | c4 ||
+T:Nancy - ms music book
+T:“Lovely Nancy”​from an MS. Music book of date [unintelligible word– Ed.] 1830.
+M:3/4
+L:1/8
+K:G
+BA | G2 G2 (3GAB | A2 A2 (3ABc | B2 gedB | B2 A2 BA | G2 G2 dB |A2 A2 ge | dedBcA | G6 :|| 
+BA |G2 G2 ge|f2d2Bc|d2 gedB|B2A2BA|G2G2dB|A2A2ge|dedBcA|G4:||
+
+X:10
+T:Rout is out - ginger jack
+C:From ‘Ginger Jack’, Sept 12 1905
+C:[this appears to be written in C. Sharp’s hand, and the music notation is pasted in – Ed.]
+%%VWML:SBG-1-1-228-0
+F:http://www.vwml.org/record/SBG/1/1/228
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:C
+L:1/8
+K:G
+Bc | d2 ed c2 dB | G2>F2 D2 E=F | G2 AB c2 BA | G6 :||de | =fedc B2 c2 |
+(d2 g2) g2 de | =f2 dc B2 c2 | d6 Bc | dded c2 dB |
+G2 GF D2 E=F "Sometimes F#" | G2 AB c2 BA | G6 z2||
+
+
+X:11
+T:Warson hunt - parsons
+C:Taken down from Jas. Parsons, by S.B.G.  Jan. 1889.
+%%VWML:SBG-1-1-210-0
+F:http://www.vwml.org/record/SBG/1/1/210
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:4/4
+L:1/8
+K:F
+C2 | F2>E2 F2 G2 | A2 G2 F2 E2 | D2 C2 D2 E2 | F4z2 G2 | c2 B2 A2 G2 |F2>G2 A2 B2 | A2 G2 F2 E2 |
+ F4z2 c2| c2 d2 c2 f2 |e2 d2 c2 ^c2 | e2>d2 d2 c2 | d4z2 c2 | F2 F2 A2 B2 |
+c2 d2 c2 c2 | F2 F2 G2 E2 | F4z2"Chorus"C2 | F2 E2 F2 G2 |A2 G2 F2 E2 | D2 C2 D2 E2 | F4z2|| |
+
+
+X:12
+T:Why should we be dullards - olver
+C:Taken down from J. Olver, by F.W.B.
+%%VWML:SBG-1-1-233-0
+F:http://www.vwml.org/record/SBG/1/1/233
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:Eb
+B2 AG2A | B2 B (Be2) | e2ed2c |{cd} (c3B3) | B2 B cB>A |G2 A(B2B) | c2 B AGF | E3E3 |
+ ||:G2 AB2A |G2 A2<B2 | e2 ed2c | c/d/c3 B2 | B2 B cBA |G2 AB2B | c2 B AGF | E3E2 :||
+T:Why should we be dullards - fry
+T:Taken down by Edm. Fry, by F.W.B.
+M:6/8
+L:1/8
+K:Eb
+B2 Bd2d | G2 G2<B2 | B=A B fed | d3c3 | dcBe2e |=edcf2F | f2 ed2c | B3B3 | 
+||:G2 AB2A |G2 A2<B2 | e2 ed2c | c3B3 | B2 B cBA |G2 AB2B | c2 BA2F | E3E3 :||
+T:Why should we be dullards - calliope
+T:From “Calliope”  Lond. 1788. same in Davidson’s “Universal Melodist” 1847. I. p. 246.
+M:6/8
+L:1/8
+K:D
+A2 AA2G | F2 GA2z | (Bc) d2 (dc)B |B3 A3 |A2A A2 G | F2G A2A | 
+(AB)G (FG)E | D3 D3 ||c2d e2 A | c2d efg | f2d d2  d2 | (c2 B)A2z |
+ d2dc2B|c2de2e|e2d (cB)c|d3d2c/B/|"Chorus"A2AA2G|F2GA2z|
+Bcd2dcB|PB3A3|A2AA2G|F2GA2A|(AB)G FGE|D3D3||
+T:Why should we be dullards - social powers
+T:“The Social Powers”​From a copperplate engraved sheet song circ. 1765. 
+M:6/8
+L:1/8
+K:F
+(cd)c (cd)c | A2 Bc2z | (cd)c fed|d3c3|(cd)c (cd)c|
+A2Bc2c|(cd)c (BA)G | F3F3:||:f2f (fe)d|e2fg2z|
+(fg)f (ag)f|g3c3|f2f (fe)d|e2fg2c|a2ff2B|d3f3:||
+W:This song referred to by Hannah More in “The Two Shoemakers” 6th Pt. “Stock : 
+W:As I passed by the Grey Hound last night ….. I caught one verse of a song which the club was singing. 
+W:Bring the flask, the music bring / Joy shall quickly find us &c.”
+
+
+X:1
+T:Apple trees - Pote
+C:Taken down by Thos. Pote, Washfield, by S.B.G.
+%%VWML:SBG-1-1-282-0
+F:http://www.vwml.org/record/SBG/1/1/282
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:6/8
+L:1/8
+K:G
+A | B2 AF2D | D4zF | E2 DC2D | E3G2B | A2 FD2D |D4zF | E2 DG2G | 
+D3D2E | F2 FA2A |A3z2G | B2AG2F | E3A2B | A2B^c2d |A4 B|A2 F E2 D|
+E3  D2||"Chorus" D/D/|D2 D D4 D2 ^C | B, ^CD2 B,| A,3D2F | G3 B2G | F3 A3|E2E E3 | A2D4 ||
+
+X:2
+T:Farewell to kingsbridge - Huggins
+C:Taken down from Roger Huggins by H.Fl.S.
+%%VWML:SBG-1-1-274-0
+F:http://www.vwml.org/record/SBG/1/1/274
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+M:2/4
+L:1/8
+K:Eb
+B/B/ | eB AG | FB2B/B/ | cc BA | B3B/B/ | eB AG |(FB2)B/B/ | (Bc) B=A | !fermata!B3 G/A/|
+Bc BA|GB eB | cB AG | F2B/B/ |cB eB | (AG) GF |F>A GF |E2 ||
+
+X:1
+T:The Gipsy Countess -Parsons
+C:Taken down from Jas. Parsons by F.W.B. Dec. 1888.
+%%VWML:SBG-1-1-253-0
+F:http://www.vwml.org/record/SBG/1/1/253
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+K:Bb
+G | G2 d d2 c | d>dd G2 A | B2 c d2 e | f2 f d2 d/d/ | B2 B c2 c |$ d2 d g2 g | f2 d cBc | 
+d2 G G2 D | G2 G d2 d | B2 B G2 A | B2 c d2 e |$ f2 f d2 d | G2 A B2 c | d>=e^f g2 g | f>dd c>Bc | 
+d2 G G2 z ||
+T:The Gipsy Countess-Woodridge
+T:Taken down from J. Woodrich by F.W.B.
+L:1/16
+M:2/4
+K:Eb
+B2 | B3 G B2 B A | G2 F2 E3 E | e2 ed c2 f2 | d2 B2 B2 z B | e4 e2d2 c2 B B | dc BG E2 F2 |$ 
+G2 c2 F2 B A | G2 E2 !fermata!E3"^Chorus" E | G2 B2 B3 G | A2 c2 c3 d | e2 dc Bc B A | 
+G2 E2 E2 z2 ||
+T:The Gipsy Countess - Cheriton
+T:Sent me as sung by P. Cheriton, shoemaker, Tiverton; sent by Rev. Berkley.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D2 | G3 F G2 A2 | G F E D3 z A | A2 _B2 d2 _e2 | (c2 A) G F3 D |$ A2 A _B c2 A G | 
+F2 E2 !fermata!D3 D | G2 D2 G2 A2 | F2 E2 D3 D | D2 d2 d2 e d |$ c3 A !fermata!A2 z D | 
+A3 A/B/ c2 AG/F/ | E2 D3 z2 D/ D/ | A3 A/ A/ B c B AG | F2 E2 !fermata!D2 z2 || 
+T:The Gipsy Countess- Scotts Musical Mus
+T:“Johnny Faa”​Scotts “Musical Museum” II p. 189.
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+G | G2 GA c3 B | AG Ac d3 e | G3 A ce dc | A4 G3 G | G2 GA c3 B |$ AG Ac d3 e | G3 A ce dc | 
+A4 G3 || e | d2 de g3 a | ge d>e c3 e |$ d3 e g3 f | e4 d3 e | d2 d e g3 a | ge dc c3 (d/e/) | 
+G3 A ce dc | A4 G3 z ||
+T:The Gipsy Countess - Fone
+T:Taken down from S. Fone by F.W.B. Mch. 1893.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+B,2 | E2 E>F G2 FE | A2 G>A B2 B,2 | E2 E/F/ G2 F>E | F2 E2 F2 B,2 |$ E2 E>F G2 FE | 
+A2 G>A B2 G/A/ | (B2 .e2) B2 A2 | G2 E2 E2 G2 | A2 G/A/ B2 E2 | e2 d^c B2 GA |$ B2 AF G2 FE | 
+E2 B,2 B,2 B,2 | E2 E>F G2 F>E | (5:4:5ABAGG B2 G>A | B2 e2 BAGF |$ G2 E2 E3 B, | E2 E2 F3 E | 
+A2 A2 B2 G>A | B2 e2 BAGF | G2 E2 E4 || 
+W:Fone heard this 68 years ago from an old woman for whom he used to carry milk when he was a child.
+
+X:1
+T:The Gipsy Countess - Lethbridge
+C:Sent by Lady Lethbridge
+%%VWML:SBG-1-1-253-2
+F:http://www.vwml.org/record/SBG/1/1/253
+Z:Original Sibleius Transcriptio
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+C F G F/G/ | A G/A/ F z | C F G F/G/ | A G/A/ F3/2 E/ | D B/A/ G c/B/ | A F F z |$ C F G F/G/ | 
+A G/A/ F3/2 E/ | D D B G/F/ | E/G/ C C D | C F G F/G/ |$ A G/A/ F3/2 E/ | D B/A/ G c/B/ | 
+A F F D |"^Chorus" D F G F/G/ | A G/A/ F || 
+
+
+
+X:1
+T:The Gosford Beach - Luxton
+C:Taken down from Roger Luxton by H.Fl.S.
+%%VWML:SBG-1-1-279-0
+F:http://www.vwml.org/record/SBG/1/1/279
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+FA | c2 d2 c2 A2 | F3 G F2 CF | A2 c2 (BG)A F | (A4 G2) F A | c3 f/ f/ ed c A |$ (F3 G) A2 F2 | 
+C2 FA (AG B)A | F4 z2 Ac | B2 A2 G2 F2 | A2 B2 c3 c |$ d2 ef ed cB | (A4 G2) FA | c3 f ed cA | 
+F3 F A3 F | C2 F2 AGB A | F4 || 
+T:Gosford beach - Fone
+T:Taken down from Saml. Fone by F.W.B. July 1893
+M:4/4
+L:1/8
+K:C
+CE | G2 FE c2 A2 | G2>E2 C2 E2 | G,2 C2 D2 E2 | F4 G/F/E/F/ E2  CE| GE cA G2 ED2< |
+C2E G2  E2| G,2 E2EDFE |C6  C2| F2 E2 D2 C2 |G2 (3AG^F G2 CE |
+GE c2 BAGF2< |F2G/F/ E2 CE |G>E c2 A2 F2| C2>E2 GFDD| G,2 E2>D2FE |C6 ||
+
+
+X:1
+T:The Grey Mare - Hoskins
+C:Taken down from J Hoskins, Sth. Brent, by H.Fl.S.
+%%VWML:SBG-1-1-261-0
+F:http://www.vwml.org/record/SBG/1/1/261
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:6/4
+I:linebreak $
+K:F
+F | C D E F G A | d3/2 c/ d A2 d | c A F D B A | B3/2 G/ E F2 c |$ c A F F A c | d e f e2 A | 
+A3/2 d/ d c e f | e c c c2 c/B/ |$ A c f d B G | c A F !fermata!E2 C/C/ | 
+F3/2 E/ D !fermata!d c d | G F E D2 z ||
+
+
+
+X:1
+T:Henry Martyn - Luxton
+C:Taken down from Roger Luxton, Halwell, by H.Fl.S. 1889.
+%%VWML:SBG-1-1-266-0
+F:http://www.vwml.org/record/SBG/1/1/266
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:6/4
+I:linebreak $
+K:G
+E | E B B (B A) B | G A G (F A) F | (D F) A (A G) A | d3 z2 G/A/ |$ B B B e d e | 
+(B3/2 c/) B/A/ (G F E | A G A B2) e | d B G F A F | E3 z3 | 
+T:Henry Martyn - Baker
+T:Taken down from Matthew Baker, Lew Down by F.W.B. Sept. 14, 1890.
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+F | c2 c cBc | AcG _E2 F | B2 B BAB | (c3 c2) c/d/ | edc c2 d/e/ |$ f3 F2 F | GFE BAB | 
+c3 c2 F/F/ |"^Though in F tonally Eb throughout. F.W.B." ccB ABG | F6 || 
+T:Henry Martyn - Kidson
+T:Taken down in Yorkshire by Frank Kidson.
+L:1/4
+M:6/4
+I:linebreak $
+K:Eb
+C | C G ^F G C D | E F E D2 D | C =B, C (E D) E | (F E) F G2 B |$ 
+B G B !fermata!B !fermata!=A G/ | F C D (E D) C | (F3 G/A/G/)F/ E2 F | G B G F3/2 C/ | C2 z2  || 
+T:Henry Martyn - Kidson
+T:Taken down in Yorkshire by Frank Kidson.
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+C | F F G A2 G | F E F C2 C | F E F G A B | (c3 c2) A/B/ |$ c B A G A B | c F E D2 B/ B/ | 
+A G F C D E | (F3 F2) z | 
+T:Henry Martyn - Burstow
+T:Taken down from H. Burstow, Sussex by L.E.B. Jan. 1894
+L:1/4
+M:3/4
+I:linebreak $
+K:G
+C | C E G | G E G | G F D | C2 C | F E F | G c B | (G3 | G2) C | [GE] [Gc] c |$ B A G | G C D | 
+(E D) C | _B3 | c/>_B/ G C | E G _B/A/ | G3/2 F/ D | (C3 | C2) ||
+
+X:59
+T:The Ploughboy - Masters
+C:Taken down from J. Masters, Bradstone, by H.Fl.S.
+%%VWML:SBG-1-1-284-0
+F:http://www.vwml.org/record/SBG/1/1/284
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+F G | A B A F E D E F | B3/2 A/ B3/2 c/ B2 d c | B e d c B3/2 A/ B c | B4 z2 e e | 
+f e d c B2 d B |$ A B A F (ED) F A | d B A F E D E F | D2 B3/2 B/ !fermata!B2 d B | 
+A F E D E3/2 D/ E F | D4 z4 || 
+T:The Ploughboy - Parsons
+T:Taken down to this Ballad from J. Parsons by H.FL.S.
+T:"same air to different metre as “No my love not I” No. CCXXVII
+L:1/4
+M:4/4
+I:linebreak $
+K:C
+d | G G A B/c/ | d3/2 e/ =f e | d c A3/2 G/ | G2 z c | d d e f | g g f e |$ d2 d e | f d d/e/ f | 
+g2 f e | d c d A | A2 G A | c d f e | d c A G | G2 z2 ||
+
+X:1
+T:Plymouth Sound - Luxton
+C:Taken down from Roger Luxton by H.Fl.S.
+%%VWML:SBG-1-1-272-0
+F:http://www.vwml.org/record/SBG/1/1/272
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/8
+I:linebreak $
+K:F
+F/ A/ | c c c | d/c/ A F/A/ | c B G | F2 c | A c A | G/A/ B A | G G/F/ D | C2 C/ C/ | F G/A/ B | 
+c A A | B/c/ d e |$ f2 c/ c/ | f c A | c F A | c B A/G/ | F2 F/A/ | c B/A/ G/F/ | f2 f/ e/ | 
+d d/c/ d/e/ | dc c | f c A/B/ |$ c F/A/ c | B A G | F2 F/A/ | c B/A/ G/F/ | f2 f/ e/ | 
+d d/c/ d/e/ | dc c | f c A/B/ | c F/A/ c | B A G | !fermata!F2  || 
+
+
+
+X:59
+T:Something Lacking - Paddon
+T:Taken down from Joseph Paddon, Holcombe Burnell, By SBG
+T:Very difficult to take owing to his varying the key when asked to repeat a verse.
+%%VWML:SBG-1-1-283-0
+F:http://www.vwml.org/record/SBG/1/1/283
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+F | F G A B3/2 A/ A | B B A B F | G A B c3/2 A/ A | (B3 B2) d | d e f c c d |$ e d c d2 d | 
+d c B A G ^F | (d3 d2) B | B A G ^F3/2 =E/ D | G3/2 G/ A d2 B | B3/2 c/ B B A G |$ G d d G2 F | 
+F G A B B A | B3/2 B/ c d2 B/ B/ | B c d e e z/ c/ | G G A B3 ||
+
+
+
+X:59
+T:The Wreck off Scilly - Parsons
+C:Taken down from James Parsons, by S.B.G. 1888.
+%%VWML:SBG-1-1-263-0
+F:http://www.vwml.org/record/SBG/1/1/263
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:Bb
+z2 z F | B G F E | D F B F | B c A G/F/ | B2 z F | B B B c | e d B c |$ B A G3/2 G/ | F2 z F | 
+e d c3/2 c/ | d c B3/2 B/ | A B e d |$ c2 z F | B A c B | f e d c | d3/2 c/ B A | B2 z || 
+
+
+
+X:60
+T:The Bold Dragoon - Crossing
+C:Taken down from a man on Dartmoor by W. Crossing, 1878.
+%%VWML:SBG-1-1-306-0
+F:http://www.vwml.org/record/SBG/1/1/306
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+D | F G D A | G B3/4 B/ A3/4 A/4 | d d c F | B2 A A |$ d d c F | G B A3/2 A/4 A/4 | 
+D F (F E3/4) F/4 | E2 D z/ G/ | G2 E z/ A/ |$ (d2 A) A | d d c F | G B A A/A/ | D D F3/4 F/4 | 
+E2 !fermata!D z || 
+T:The Bold Dragoon - Cleave
+T:Taken down from Richard Cleave, Huckaby Bridge, Jan. 1889, by F.W.B.
+L:1/8
+M:3/4
+I:linebreak $
+K:Eb
+E | E G G2 F2 | F E E2 B2 | B c c2 A2 | cB z2 E2 | E G G2 F2 |$ F E E2 B2 | B c c2 A2 | cB z B | 
+e3/2 d/ e c A c | B2 G3 E | E G G2 F2 | (F2 E2) z2 |$ (G2 F2) z B | e2 B2 z B | e3/2 d/ ecAc | 
+(B2 G2) E2 | E G G2 F2 | (F2 E4) ||
+
+
+
+X:61
+T:Contented Farmer's son - Woolrich
+C:Taken down from J. Woolrich by H.Fl.S.
+%%VWML:SBG-1-1-318-1
+F:http://www.vwml.org/record/SBG/1/1/318
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+K:G
+D | G G A G/F/ | G E D B/c/ | d d c A | G2 z D | G G A G/F/ | G E D B/c/ | 
+d A c B | G2 z B | B c d d | B c d d | c B A G | D3 | 
+"Repeat as Chorus"D | G G A G/F/ | G E D B/c/ | d d e e | d c/B/ A D | G G A/c/ A/F/ | G z z2 |] 
+
+X:62
+T:A Cup of Poison - Cayzer
+C:Taken down on Dartmoor in 1850 from an old man by T.S.Cayzer.
+%%VWML:SBG-1-1-308-0
+F:http://www.vwml.org/record/SBG/1/1/308
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/8
+I:linebreak $
+K:G
+G | G2 B | d2 d | A B A | F D F | GA B | c2 B | c3 B | A2 G |$ G A B | d2 d | A B A | F D F | 
+G A B | c2 B | AG .A | G2 z |] 
+
+X:63
+T:I went to my true love - Woolrich
+C:Taken down from J. Woodrich by F.W.B.  
+%%VWML:SBG-1-1-303-0
+F:http://www.vwml.org/record/SBG/1/1/303
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+FG | A2 FG A2 Bc | d3 e dc B2 | A3 F D2 D2 | E6 DE | F3 E DE FG |$ A3 F G2 A2 | B3 G F2 E | 
+D6 F^G | A2 F^G AB cd | e3 f e2 A^G |$ F2 dc B3 c | A6 A2 | d3 e dc B2 | A3 F A2 ^A2 | 
+cB AG F2 A,2 | D6  |] 
+
+
+
+X:64
+T:Outlandish Knight - Parsons
+C:Taken down from James Parsons, by S.B.G. 1888
+%%VWML:SBG-1-1-292-1
+F:http://www.vwml.org/record/SBG/1/1/292
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D | G2 FE D2 EF | G2 D2 B,3 G | G2 FE D2 EF | G4 z A | B2 AG A2 c2 |$ B2 G2 D3 A | B2 AG A2 BA | 
+G4 z d | d2 cB A2 Bc | d2 G2 d3 d |$ d2 cB A2 GA | B4 z D | G2 FE D2 EF | G2 D2 B,3 G | 
+G2 FE D2 EF | G4 |] 
+T:Outlandish Knight - Gregory
+T:Taken down from Richd. Gregory, Two Bridges by F.W.B.  Jan. 7. 1890.
+L:1/16
+M:2/4
+I:linebreak $
+K:C
+G2 | c2c2A2Bc | d2d2 G2G2 | c2G2c2d2 | e2 fe d2G2 | c2deg2ed | c2ecA2Bc |$ d2edc G2AB | 
+w: |||(Bri- tish Gren- a-|dier) * * * *||||
+dedc G2AB | c4 G4 | c2deg2 ed | c2ec A2Bc | d2ec GAB2 | c6  |] 
+w: ||||||
+T:Outlandish Knight - Setter
+T:Taken down from Will. Setter, Two Bridges by F.W.B.  Jan. 7. 1890.
+L:1/4
+M:3/4
+I:linebreak $
+K:F
+F | B A B | c _e d | c B G | F2 F | _e d c | f =e f | c2 A |$ c d =e | f e f | c A F | B3/2 c/ d | 
+c f A | c B G | F3 |] 
+W:Same ballad taken down from H. Westaway, Belstone, by H.Fl.S. to melody of VI “Cold blows the Wind”.
+W:
+T:Outlandish Knight - Northumbrian Minstrelsy
+T:“The Outlandish Knight” Northumbrian Minstrelsy” p. 48.
+L:1/8
+M:6/8
+I:linebreak $
+K:Eb
+B | B c B ef e | d B B B2 B | B c B e d c | (B3 B2) B |$ B c B e f e | d B G A2 G/A/ | 
+B c B AF D | (E3 E2)  |] 
+T:Outlandish Knight - F.W.B.
+T:Air taken down by F.W.B. Mch. 1891
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+G | d d d/e/ c/A/ | G G/G/ G d | e d f e | g3 d |$ g f/e/ d e/f/ | g d B c | d e/d/ c F | G2  |] 
+T:Outlandish Knight - Fletcher
+T:Taken down by L.E.B. Sept. 93 from M.J. Fletcher, Lifton. Heard by her sung by an old haymaker Egloskerry.
+L:1/8
+M:4/4
+I:linebreak $
+K:E
+E2 | E2 B2 B2 c2 | A2 F2 E2 (ed) | (cB) A2 FG A2 | B6 (Be) |$ e2 dB cB B2 | (cB) (BA) (AG) (EG) | 
+B B c2 A2 F2 | E6  |] 
+
+X:65
+T:Outlandish Knight - Masters
+C:Taken down from J. Masters, May, 1891 by H.Fl.S.
+%%VWML:SBG-1-1-292-0
+F:http://www.vwml.org/record/SBG/1/1/292
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:Bb
+B | d2 dc B2 cd | dc BA B2 de | f2 gf ed c2 | f3 d/e/ |$ f2 gf e2 dc | dc dc B2 Bc | d2 ed cB A2 | 
+G3 |] 
+T:Outlandish Knight - Lugg
+T:Taken down from H. Lugg by E.S. Passmore Feb. 1905.
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+D | G3/2 F/ E F/ G/ | A/ G/ F/ E/ D D | G D B, D | A,3 D |$ G B/ c/ d d | G A/ G/ E G | 
+A B/ A/ D E/ F/ | G3  |] 
+X:66
+T:The Painful Plough - Rickards
+C:Taken down from John Rickards, Lamerton by H.Fl.S.
+%%VWML:SBG-1-1-288-0
+F:http://www.vwml.org/record/SBG/1/1/288
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+c/A/ | F F (F/A/) c | (d c) A G | G F D E | F2 z c/A/ | F F (F/A/) c |$ (d c) A G | G F D E | 
+F2 z c | d c d e | (f d) c A |$ G F G A | G2 z c | F F F/A/ c | (d c) A G | G F D E | F2 z |] 
+T:The Painful Plough - Barretts
+T:From Barrett’s “English Folk Songs” 1891. No. 3. A North Country melody.
+L:1/4
+M:4/4
+I:linebreak $
+K:Bb
+D | G G A A | B A/ G A | B G A A | G2 z D | G G A A |$ B3/2 c/ d d | c B B A | B2 z B | d d c c | 
+B2 A A |$ G G A G | D3 D | G G A A | (B3/2 c/) d d | c B B A | G3  |] 
+
+
+
+X:67
+T:Rosemary Lane - Crossing
+C:Taken down on Dartmoor abt. 1858 by W. Crossing.
+%%VWML:SBG-1-1-311-0
+F:http://www.vwml.org/record/SBG/1/1/311
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/8
+I:linebreak $
+K:C
+E | A G A | C D E | F c B | A2 A/B/ | c c c | B2 E/ G/ | A G ^F |$ E2 E | A c e | c2 A/ B/ | 
+c d F | E2 E | A G E | F F F | (E ^F) ^G | A3 |] 
+T:T:Rosemary Lane - Parsons
+T:Taken down from Jas. Parsons by F.W.B. Mch. 1891
+L:1/4
+M:3/4
+I:linebreak $
+K:C
+G | c G E | E F G | A d B | G2 G | c c G | A E F | G A A | c2 c |$ d g f | e c c | A f d | B2 G | 
+c c G | A G F | G A B | c3 |] 
+T:Rosemary Lane - Luxton
+T:Taken down from Roger Luxton by H.Fl.S.
+L:1/4
+M:3/4
+I:linebreak $
+K:Bb
+F | B B F | D D F | G e d/c/ | B A F | f d B | G E G | F G A | B d e/f/ |$ g3/2 c/d/e/ | f2 c | 
+e/d/ c/B/ A/G/ | F2 f | d B G | E2 G | F2 G/A/ | B2 |] 
+
+
+
+X:68
+T:Strawberry Fair - Masters
+C:Taken down from J Masters, Bradstone.
+%%VWML:SBG-1-1-314-0
+F:http://www.vwml.org/record/SBG/1/1/314
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+D | G G A D | G G/ G/ A2 | A d A d | B/ c/ B/ A/ G D3/4 D/4 |$ G G A D | G G/ G/ A B/ c/ | d3 B | 
+c B A B | c B/ B/ A B | c B A G |$ F/ F/ E !fermata!D2 | G G A d | B/ c/ B/ A/ G D | G G A d | 
+B/ G/ A/ F/ !fermata!G2 |] 
+T:Strawberry Fair - Harkness
+T:From Songs & Madrigals of 15th cent pub. Old English Plain Song & Music Soc. 1891 
+L:1/4
+M:6/4
+I:linebreak $
+K:C
+G2 B c2 A | G c2 B2 B | A G2 A2 F | G2 z z2 G | F2 G A2 F |$ G2 A B2 G | d2 B A d2 | G2 c B2 G | 
+c2 d f e2 |[M:4/4] A c c d | z2 d d |$ c B c A | G3 G |[M:6/4] G2 G c2 d | f e2 A c2 | 
+[M:4/4] d2 z d | d c B c |$ A B G3/2 G/ | G4"^Fine" || G3 A | B2 B2 | c2 G2 | A2 A2 | F2 F2 | 
+G2 F2 | G4 |$ z2 c2 | c3 G | c2 B2 | A2 A2 | e2 d2 |$ d2 c2 | B G (G F/G/ | 
+A/G/F/E/"^Da capo al Segno" F2 | G4) |] 
+
+X:69
+T:The Wrestling Match - Olver
+C:Taken down from Jas. Olver, Launceston by H.Fl.Sh.
+%%VWML:SBG-1-1-287-0
+F:http://www.vwml.org/record/SBG/1/1/287
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:F
+z2 z A | c A F3/2 E/ | (E D2) D | B A B/ B/ B/ G/ | (F E2) C | D3/2 E/ F E | F3/2 A/ c A |$ 
+B3/2 G/ F E | F2 z (A/c/) | B3/2 G/ F E | (D C2) E | F E D C | F A !fermata!c c | d3/2 G/ F E | 
+F3 z |] 
+
+
+
+X:1
+T:As I Walked Out - Fry
+C:Taken down from E. Fry by H.Fl.S.
+%%VWML:SBG-1-1-133-0
+F:http://www.vwml.org/record/SBG/1/1/133
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:D
+B | A F F E | D E E F | A F/E/ D E | F2 B c | d B c e | d c/ B/ c d |$ B A F E/F/ | 
+B2 !fermata!c d/ F/ | F E E2 | F/ G/ A/ F/ D2 | E B/ B/ B A/G/ | F2 E z |] 
+T:As I Walked Out - Bickle
+T:Taken down from Wm. Bickle, Lydford by F.W.B.
+L:1/8
+M:2/4
+I:linebreak $
+K:F
+d | cAAG | G G/G/ GA | cAFA | c d3 d/e/ | fdf>g | fdfd | dcAF |$ c d2 A/B/ | A/>G/G/F/ G2 | 
+A/B/c/A/ G2 | Addc/B/ | A2 G2 :|"^last verse" Addc/B/ | A2 G2 |] 
+T:As I Walked Out - Johnsons Scots Museum
+T:“As I went out one May morning.”​Johnson’s Scotts Museum, 1787, IV. p. 410.
+L:1/8
+M:4/4
+I:linebreak $
+K:Bb
+F2 | B2 B2 B2 FE | DE FG F2 AB | c2 cd cB AG | FG AB c2 dc |$ Bc d =e f2 e d | cB AG F2 GA | 
+B2 AG A2 GF | D2 G2 G2 |] 
+T:As I Walked Out - Parsons
+T:Taken down from Jas. Parsons by F.W.B. Mch/91
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+e | d B B G | A A A B | d B G B | d2 e e | g e g2 | a2 g e | g3 g |$ e d B G | d e e d | e f g B | 
+B/A/A/G/ A2 | A e e d/c/ | B2 A2 |] 
+T:As I Walked Out - Ancient Irish Music
+T:Irish tune in Joyce’s “Ancient Irish Music”
+T:“I’m going to be married on Sunday” No. 417
+L:1/8
+M:6/8
+I:linebreak $
+K:D
+A | d c d e d c | d B A F2 A | d c d B A F | F3/2 E/ E E2 A/ A/ | d c d e d c |$ d B A F B B | 
+A F E E F ^G | A3 d2 B | A F E F D E | D3 D2 |] 
+
+
+
+X:2
+T:Come my Lads - Olver
+C:Taken down from Jas. Olver by F.W.B.1888
+%%VWML:SBG-1-1-353-0
+F:http://www.vwml.org/record/SBG/1/1/353
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+G3/2 G/ G G | G B B A | D3/2 D/ D D | F A A G | G3/2 F/ E c | c c c B |$ B A G F | G G2 | 
+d3/2 B/ B G | c c/4d/4c/4B/4 A2 | d3/2 B/ B G | c c/4d/4c/4B/4 A2 |$ d3/2 d/ d B | 
+c/ c/ d/ d/ e2 | c B A G | F E D2 |"^Chorus" G3/2 G/ G G | G B B A |$ D D3/4 D/4 D D | F A A G | 
+G3/2 F/ E E | c3 c | B A G F | A G2 |] 
+T:Come my Lads - Ackford
+T:Taken down from J. Ackford, Thrushleton, by S.B.G.
+L:1/4
+M:4/4
+I:linebreak $
+K:Bb
+E3/2 F/ E E | E G G F | G3/2 F/ F F | F G F E |$ E3/2 G/ E3/2 G/ | E3/2 G/ G F | B B c D | 
+E E2 |] 
+T:Come my Lads - Gilbert
+T:Taken down from S. Gilbert, Mawgan i/P. by F.W.B.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+G3 G G2 G2 | G2 B2 B2 A2 | D3 D D2 D2 | D2 c2 c2 B2 | G3 G G2 G2 |$ B2 d2 d2 c2 | e2 d2 c2 B2 | 
+w: |||||||
+A4 G4 |[M:6/8]"^Chorus" ABc c3 | B c B A3 |$ A B c d3 | B c B A3 | A B c d2 d (c"^sic" B2) | 
+w: |Let un- ion be|||||
+A2 G G2 A | A2 A G3 |] 
+w: ||
+
+
+
+X:3
+T:Cupid ye Plough Boy - Watts
+C:Taken down by S.B.G. from J. Watts, Alder, 1889
+%%VWML:SBG-1-1-348-0
+F:http://www.vwml.org/record/SBG/1/1/348
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:E
+B | E F G A | B B c B | c B A G | B2 z B | e B B G | A c B B | ^A B G3/2 F/ | B2 z B |$ e B A G | 
+A B c3/2 B/ | c B A G | F2 z B | E G B3/2 B/ | e f B B | c B A F | E3  |] 
+T:Cupid ye Plough Boy - Woodrich
+T:Taken down by F.W.B. from J. Woodrich, 1890.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G3/2 F/ G B2 G | G3/2 F/ G B2 B | d2 d B2 G | (d3 d2) d | dc A A2 c |$ cB G G2 G | F2 c F2 F | 
+(G3 G2) || G | G>F G B2 G | F2 G/F/ E2 E |$ F2 G A2 B | (A3 G2) B | BG D G2 B | BG D G2 G | 
+F>E D E2 F | G3 z2  |] 
+T:Cupid ye Plough Boy - Barretts
+T:From Barrett’s “English Folk Songs” 1891, No. 16.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+B, | G G E D G2 A/B/ c | B B A G E3 D | G G G/A/ B/c/ d =f !fermata!e e | d B G A B3 A |$ 
+G G G/A/ B/c/ d =f e e | d B A B c3 c | B (A/G/ E) D/ D/ G/ G/ B d B | A G E D E3 |] 
+T:Cupid ye Plough Boy - Hard
+T:Taken down from R. Hard by H.Fl.S. 1888
+L:1/8
+M:2/4
+I:linebreak $
+K:Bb
+F | C C D E | F F F3/2 F/ | G3/2 F/ E D | F3 G | B F F D | E/F/ G G3/2 G/ | =E E D C | F3 F |$ 
+B F F D | E F G3/2 F/ | G F =E D | C3 B, | B, D F F | B B F3/2 F/ | G F E/D/ C | B,3  |] 
+
+
+
+X:4
+T:The Dilly Song - Parsons
+C:Taken down from Jas. Parsons  Mch. 1891, by F.W.B.
+%%VWML:SBG-1-1-379-0
+F:http://www.vwml.org/record/SBG/1/1/379
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+c3/2 B/ c d | (B A) G2 | (c B) c d | (B A) G2 :|$ c3/2 B/ c d | e/=f/ g d2 | B G c A | F2 G2 |] 
+T:The Dilly Song - Martin
+T:Sent by S. S. Martyn, Egloshayle Rd, Wadebridge, as sung in that part of Cornwall.
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+d3/2 d/ e d | B2 A2 | DE F D | G2 G2 | d3/2 d/ e d | B2 A2 |$ DE F D | G2 G2 | B3/2 B/ B B | 
+c d e e | d3/2 c/ B A | G3 G |] 
+T:The Dilly Song - Wyndham
+T:Sent me by Miss P. Wyndham, Clouds, Salisbury; a Somerset (?) form of the air. 
+L:1/8
+M:2/4
+I:linebreak $
+K:F
+c>c dc | B2 A2 | c2 dc | A2 F2 | c>c dc | B2 A2 |$ c2 dc | A2 F2 | A>A Bc | dd c2 | B>B AG | 
+F2 F2 :| 
+W:Miss Wyndham says,
+W:“I learnt it from Miss Leslie who heard some sailors singing it on board a private yacht.”
+W:
+T:The Dilly Song - Barrett
+T:Somerset form sent by W.A. Barrett. Sept. 1890.
+%%score [ 1 2 ]
+L:1/8
+M:4/4
+K:F
+V:1 treble nm="[Solo Soprano]"
+V:2 treble nm="[Solo Soprano]"
+V:1
+"Both"(!fermata!c8 |"1st Singer" c>)d cB (Ac) c2 |"2nd S." F2 G G A2 G2 |"1st. S." c3/2 d/ c B (Ac) c2 |"2nd S." F2 G G A2 G2 | 
+c3/2 d/ c B A c c3/2 c/ | F F G G A2 !fermata!G2 :| "a third part with a dronelike an old musette or bagpipe"!fermata!c8 | z8|] 
+V:2
+!fermata!z4 | !fermata!c4 | c/> d/ c/ B/ A/c/ c | F G/ G/ A G | c/> d/ c/ B/ A/c/ c | 
+F G A G | c/> d/ c/ B/ A/c/ c/c/ :| F/F/G/G/ A G | "&c."(A G F E) |]
+T:The Dilly Song - French Canadian
+T:Fr. Canadian air “Il n’y a qu’un seul Dieu” Gagnon’s Chansons de Canada, 1880  Quebec.
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+G G | c2 d2 e2 d c | d2 e2 c2 || c c | B c d B c2 || G G | c2 d2 e2 d c |$ d2 e2 c2 | z2 | c4 G4 | 
+w: |||||||||six urnes|
+A4 G4 | A4 G2 c c | B c d B c2 ||"^&c." z2 z2 z2 |] 
+w: plac- ees|rem- plis a Ca-|na en Ga- la- lie||
+W:At the words “Six urnes placeés” the dancers divided into 2 choirs odd & even numbers, 
+W:Turn & bow to each other’s neighbours, 
+W:At “Cana en Ga-la-lie” they recommence the rhythmical dance.
+
+
+
+X:5
+T:The Dilly Song - Coussemaker
+T:De Twaelf Getallen
+C:TNo. xliii    De Twaelf Getallen  *Flemish air fr. Coussemaker : Chants popul. des Flammands.    Gand 1850
+%%VWML:SBG-1-1-381-0
+F:http://www.vwml.org/record/SBG/1/1/381
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+G2 FA G2 D2 | B B A B (cB) A2 | B A B c B3/2 A/ G c | B2 A2 G2 z2 ||$"^var. 1" G2 A2 G2 D2 | 
+w: Een is _ ee- ne,|een- en God al- lee _ ne,|een is God al- leen, en dal ge-|lou- ven wy|Een is een- e|
+G F G A G2 D2 | c B A B c B A z | c B A G F E D3/2 c/ | B2 A2 G2 z2 ||$"^var. 2" A2 A2 A2 D2 | 
+w: een- en God al- lee- ne|op den berg van Sy- na- i,|Hee- re Jes- um Chris- _ tum dat~ge|lov- en wy|Een is een- e|
+A A G G A2 D2 | E2 G2 F F E E | D4 z4 |] 
+w: een- en God al- lee- ne|Jes- um Xt- um g'loven _|wy.|
+W:• The first is clearly an adaptation of “Adeste fideles”.
+W:
+T:The Dilly Song - Villemarques
+T:Ar Rannone (No 1)
+T:Breton Air fr. Villemarqués Barz Breig1846 “Ar Rannone”. (No.1.)
+L:1/8
+M:2/4
+I:linebreak $
+K:Bb
+dd dd | cc A2 | dd dd | cc A2 | dd dd | cc A2 | G3/2 G/ AA | d d3 | c3/2 c/ cA | B2 !fermata!G2 |$ 
+z2 z G | G^F GA | B2 AG | G^F GA | B2 AG | G^F GA | B2 A z | dd dd |$ cc A2 | dd dd | ee A2 | 
+dd dd | cc A2 | G3/2 G/ AA | d d3 | c3/2 c/ cA | B2 !fermata!G2 |] 
+W:
+T:The Dilly Song - Breton Air
+T:Breton air from Do. “Ar re-unared” (No. viii).  vol.II 
+L:1/4
+M:3/4
+I:linebreak $
+K:G
+D | G2 B | B2 d | d/c/ B A |[M:2/4] A3/2 G/4F/4 | E F |[M:3/4] (G3 | G) D | G2 B | B2 d |$ 
+(d/c/) B A |[M:2/4] A3/2 G/4F/4 | E F |[M:3/4] (G3 | G) z d | d3 | B e e | e d/ z/ d | d2 B |$ 
+d2 c3/4 B/4 |{B} (A3 | A) z D | B2 d | (d/c/) B A |[M:2/4] A3/2 G/4F/4 | E F |[M:3/4] (G3 | 
+G) z  |] 
+
+
+
+X:6
+T:Fair Girl Mind This - Parsons
+C:Taken down from Jas. Parsons by F.W.B.
+%%VWML:SBG-1-1-332-0
+F:http://www.vwml.org/record/SBG/1/1/332
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/8
+I:linebreak $
+K:D
+A | d d d | c A A | A F D | G2 A | A c B | A G E | F D2- | D2 A | d d d | c A F | E D D | G2 G |$ 
+A c B | A G E | F D2- | D2 A | A d d | e d d | d f e | d2 A | A d d | e d c | B A B | A2 A |$ 
+d A A | B A A | B A D | G F G | d2 d | A A G | F D2 | d3 | cA c | B A G | F D2 |] 
+
+
+
+X:7
+T:The Hostess' Daughter - Masters
+C:Taken down from J. Masters by H.Fl.S.
+%%VWML:SBG-1-1-328-0
+F:http://www.vwml.org/record/SBG/1/1/328
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/4
+I:linebreak $
+K:A
+A A c | e3 d c B | A3 B c A | (F2 G) B A G | A2 z A A e | e3 d c B |$ A2 z B c .A | (F2 G) B A G | 
+A2 z c d e | f3 B c d | e3 f e c |$ (A c2) e d c | B3 A c e | e3 d c B | e3 f e c | (E A2) c B G | 
+A4 z  |] 
+
+
+
+X:8
+T:The Jolly Goss Hawk - Westaway
+C:Taken down from H. Westaway by H.Fl.S.
+%%VWML:SBG-1-1-323-0
+F:http://www.vwml.org/record/SBG/1/1/323
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G G G G2 G | A A G F2 G | G F E D> [Ac][Ac] | [B2G2] A G2 d |$ e (d c) B B d | e (d c) B2 G | 
+G A B3/2 B/ c | B2 A G3 |] 
+T:Jolly Goss hawk - Northumbrian Minstrelsy
+T:“The XII Days of X'mas,” Northumbrian Minstrelsy p. 129
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+D | G2 G A | GF E D | G G B G | d3 F | G2 Bd | c A GF | G3 |$"^last verse" D | G2 G A | GF E D | 
+G G B G | !fermata!d4 | c2 A c | B G z2 | c c A c | B G z2 |"^&c"  | 
+T:Jolly Goss hawk - Sprague-Wyatt Edgell
+T:Sung by Mr Sprague (aged 82) Stoke Canon Exeter, 
+T:Taken down by Miss Wyatt Edgell, Spring 1923
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G2 G G G2 G | F2 E D3 D/ D/ | D2 D D2 D D c | B3 A3 |$ G4 |"^chorus" D E F G6 | D E F G6 | 
+w: I|went to my love the|first to- day. It's a|joll- y old hawk and her|wings were|grey.|Then let us see.|Then let us see.|
+D2 F G2 c | B3 A3 | G6 |] $
+w: Who shall win this|maid from|me.|
+L:1/8
+M:2/4
+K:G
+G2 GG | FE D2 |] 
+W:​verse 2 to 6 after Bar 2 Recit.   verses 7 to 12 Recit
+W:It’s a part-ridge bird
+W:Seven cows had calved before
+ 
+
+
+
+X:9
+T:The Mallard - Masters
+C:Taken down from J. Masters by H.Fl.S.
+%%VWML:SBG-1-1-383-0
+F:http://www.vwml.org/record/SBG/1/1/383
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+E | A2 B c2 c | dcB A2 E | c2 d e2 ^f | edB cA :| A2 B cBA | c2 A c2 A |$ A2 B cBA | 
+c2 d !fermata!e2 E | c2 d e2 ^f | edc dcB | c2 d e2 f | edB cA z |] 
+T:The Mallard - Woodrich
+T:Different air to same words taken down from J. Woodrich by F.W.B. Dec. 26. 1890
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+G | c2 c c2 c | BBA G2 G | c2 c d2 d | ec e2 e2 | d3 ccc |$ B4 e | ggg g2 c | ggg [dg][gc][fB] | 
+w: |||||||||
+z4 e!fermata!c | f2 f e2 d/c/ | cB  |] 
+w: And _|so * meat was *||
+
+
+
+X:10
+T:Poor Old Horse - Baker
+C:Taken down from Matt. Baker, by H.Fl.S.
+%%VWML:SBG-1-1-362-0
+F:http://www.vwml.org/record/SBG/1/1/362
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:Bb
+F | B c d c | B2 A G | F G F G | B3 d | e d e c | d2 c A | B A B G | F2 z d | e e d c |$ BG F B | 
+c d e c | d2 z c | d e f d | cB G F | G F G B | B2 || B G | F2 G A | !fermata!B3 z |] 
+T:Poor Old Horse - Parsons
+T:Taken down from Jas. Parsons by F.W.B.
+L:1/8
+M:2/4
+I:linebreak $
+K:Bb
+F | BBBF | B2 Bc | df e d | f2 dB | GF B2 | GGFD |$ F4 d | eedc | BBAB | BBGD | E4 DE | F2 GA | 
+B4 |] 
+T:Poor Old Horse - Masons
+T:Nottingham Melody, “Mason’s Nursery Rhymes & County Songs” 1877.
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+C | F2 F G2 E | F3 A2 B | c c c B B G | F3 E2 F | G2 G E2 G | c2 c E2 E |$ F2 F G2 G | C3 z2 A | 
+B2 A c2 F | (F2 E) D2 C | D2 D B2 G | (F2 E) z2 D |$ C2 F F2 F/ F/ | F2 G A2 B | c2 c BA G | 
+F3 G2 E | C3 D2 E | F3 z2  |] 
+
+
+
+X:11
+T:The Spotted Cow - Parsons
+C:Taken down from J. Parsons by S.B.G. 1888.
+%%VWML:SBG-1-1-342-0
+F:http://www.vwml.org/record/SBG/1/1/342
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+d | B A B c2 A/ A/ | F E F G2 G | B d e c2 e | (c2 A B2) B | c2 d/ d/ e2 d | dc B A2 B/c/ |$ 
+d2 G B2 G | (E3 D2) G | G F G E2 F/G/ | A2 B A2 d | ef g B2 A | G3 G2 z |] 
+T:The Spotted Cow - Helmore
+T:Taken down from Helmore by H.Fl.S. exactly same 1889.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+d | B B B c2 A | F E F G2 G | B d e c2 e | (c2 A) B2 B | c2 d e2 d/ d/ |$ dcB A2 B/c/ | 
+d2 G B2 G | (E3 D2) G | G F G E2 F/G/ | A2 B A2 d | ef g B2 A | G3  |] 
+
+
+
+X:80
+T:A Nutting we will go - Gerard
+C:Taken down from J. Gerard, by F.W.B. 1 Oct. 1890
+%%VWML:SBG-1-1-393-1
+F:http://www.vwml.org/record/SBG/1/1/393
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+"Chorus Only"F/4 F/4 | F A c c | c B G E/ E/ | F F A c |$ c3 A/ A/ | B G G B | A F F A | A G B E | F2  |] 
+T:A Nutting we will go - Setter
+T:Taken down from Will Setter, Two Bridges by F.W.B. Jun. 1890.
+L:1/8
+M:2/4
+I:linebreak $
+K:D
+E | B3/2 A/ B c | B A E A | B3/2 A/ B c | A3 c | e c A c | B G E G | B A G F | E3 ||$ 
+"^chorus" B/ c/ | d B ^A B | f e c B | A A G F | E3 c/B/ | A A G F | E C A, A | A/ c3/2 B c | 
+!fermata!A8 |] 
+T:A Nutting we will go - Hard
+T:Taken down from R. Hard, Sth. Brent  by H.Fl.S. 1889.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+G | GBBd dcAF | GBBd d3 B | cecA BdBG | cAGF G3 || d | dgge f3 d |$ dgge f3 d | dggf edcB | 
+ABce edc[FA] |$ GBBd dcAF | GBBd d3 B | cecA BdBG | cAGF G4 |] 
+W:This is also Jas. Parsons’ air for “A Nutting”
+W:
+T:A Nutting we will go - Bunting
+T:From Bunting’s “Ancient Music of Ireland” 1840 taken down from Duncan a harper, 1792.
+L:1/8
+M:6/8
+I:linebreak $
+K:E
+E | E2 G G2 B | A3 F2 B | E2 G B2 B | (B3 B2) G | A2 A F2 F | G3 E2 E |$ F2 F D2 D | (E3 E2) || 
+B | B2 e e2 c | c2 B B2 G | B2 e e2 c | c3 B2 B |$ B2 e e2 c | c2 B B2 G | GF E F2 G | 
+(B2 A)"^chorus" G2 F | ECB, E2 E | (E3 E2) G |$ FEC F2 F | (F3 F)GA | BAG BAG | eeB{/d} cBG | 
+ECB, E2 E | (E3 E2)  |] 
+
+
+
+X:81
+T:The Barley Raking - Hannaford
+C:Taken down from R. Hannaford by H.Fl.S.
+%%VWML:SBG-1-1-401-1
+F:http://www.vwml.org/record/SBG/1/1/401
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+c | c2 G GA _B | AG F E2 G | A2 G G2 A | c3 c2 c | c2 G GA _B | AG F E2 G |$ A2 A G2 A | c3 c2 c | 
+c2 c d2 e | f2 e d2 B | c2 d e2 c | d2 B G2 G | c2 c d2 e |$ f2 e d2 c | cB A G2 F | E3 C3 :| 
+"^[This added by H.Fl.S.  not sung . . . . . . . . . . . . . . . . . . . . . . . .  .  . .  . ]" E2 F G2 G | AG A F3 | 
+F2 d d2 c | BA B !fermata!c2  |] 
+
+
+X:82
+T:Bell Ringing - Kerswell
+C:Taken down from Geo. Kerswell by F.W.Bussell
+%%VWML:SBG-1-1-391-0
+F:http://www.vwml.org/record/SBG/1/1/391
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:3/4
+I:linebreak $
+K:C
+G | c A c | [FB] G c | F A G | D F E | C E G | F A G | D F E |$ C2 G/ G/ | c G E | F A G | D G F/E/ | 
+D G, G | C E G | F A G | D F E | C2 G/ G/ |$ c A B | G2 G | c A B | G2 G | C E G | F A G | D F E | 
+C2 G/ G/ |$ c A c | B G B | c A c | B G G | C E G | F A A | D F E | C3 |] 
+
+
+
+X:83
+T:Constant Johnny - Luxton
+C:Taken down from Roger Luxton, by H.Fl.S. 1889.
+%%VWML:SBG-1-1-386-0
+F:http://www.vwml.org/record/SBG/1/1/386
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:A
+A2 E2 Ac ec | dc BA f2 e2 | A2 E2 Ac ec | dc BA B4 |$ ce d B e c A2 | AG F G A B B2 | 
+Ae d c c e f d | c A B G A4 |]$"^Bar 2nd. actually sung" d c BA fd ee |] 
+
+
+
+X:84
+T:Deep in Love - Hoare
+C:Sent by Miss O.L.Hoare.
+%%VWML:SBG-1-1-414-0
+F:http://www.vwml.org/record/SBG/1/1/414
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:Bb
+F/ | B A B c/B/ | A G3/4 F/4 F E | D F B c/ d/ | e d c z/ F/ | B d f e/d/ | c G e d/c/ |$ 
+B G F E | D F B z/ F/ | B d f e/d/ | c G e d/c/ | B G F E | D F B2 |]
+W:Same tune Mary Sacherley, but with twists. Same Wm. Nichols, but imperfect.
+W:
+T:Deep in Love - Lethbridge
+T:Sent by Lady Lethbridge, as sung by old nurse.
+L:1/8
+M:3/4
+I:linebreak $
+K:G
+DGF | G2 A3/2 G/ FE | D3 D GF | G2 ABcB | B/A/ z DGB | d3/2 e/ dBAG | AcBAGE |$ D3 C (3B,CD | 
+G2 DGB | d3/2 e/ dBAG | AcBAGE | D3 C (3B,CD | G3  |] 
+
+
+
+X:85
+T:Down by a Riverside - Townsend
+C:Taken down from Jas. Townsend, by H.Fl.S.
+%%VWML:SBG-1-1-399-0
+F:http://www.vwml.org/record/SBG/1/1/399
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G2 GD | GB de | dB GG | BG EF/G/ | AB EG | F2 E2 | D4 || G2 GD | GB de |$ dB Gc | B2 A2 | GFED | 
+G2 GD | GA Be | dB Gc | B2 A2 | GFED | B2 A2 | G4 |] 
+
+
+
+X:86
+T:The Duke's Hunt - Olver
+C:Taken down from Jas. Olver by F.W.B. 1888.
+%%VWML:SBG-1-1-387-0
+F:http://www.vwml.org/record/SBG/1/1/387
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+F/ F/ | (B2 d) c2 d | B2 B B2 B | D2 E F2 E | D2 C B,2 B/ B/ | c3 c2 c | c3 (A2 F) | F3 B3- | 
+B2 z2 z A |$ B2 c d2 c | (Bc) d e2 e | d2 c B2 G | F2 E D2 D | F6 | G2 A B2 G | (c3 A2) F | 
+F3 B2 | B/ c/ |$[M:4/4] d2 d2 c3/2 c/ c2 | F3/2 F/ F E D2 B D | E F G E F e d c | B4 B2 z2 |$ 
+d2 d d c2 c2 | F F F E D2 BD | EF G E Fe d c |[M:6/8]{cd} c3 B2 z |] 
+
+
+
+X:87
+T:Midsummer Carol - Aggett
+C:Taken down from Wm. Aggett by F.W.B. 1890.
+%%VWML:SBG-1-1-420-0
+F:http://www.vwml.org/record/SBG/1/1/420
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+G2 | B2 B3/2 c/ B2 E3/2 F/ | G>A G3/2 F/ E2 E B | d2 (3Bc d e2 d3/2 d/ | c2 B>A B3 G | 
+B2 B3/2 c/ B2 E3/2 F/ |$ G>A G3/2 F/ E2 EB | d3 d (3Bc d e2 d3/2 d/ | ^c2 B3/2 ^A/ B3 B |$ 
+d2 (3Bc d e2 dc | dB G A B2 EF | G2 A3/2 A/ B2 B3/2 A/ | B2 E>^D E4 |] 
+
+
+
+X:88
+T:The Rambling Sailor - Hannaford
+C:Taken down from R. Hannaford by H.Fl.S.
+%%VWML:SBG-1-1-417-1
+F:http://www.vwml.org/record/SBG/1/1/417
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:C
+E | C G F D | C C c B/A/ | G G/A/ F D | C3/2 B,/ C :| E/F/ | G G c c | B G c c/B/ |$ A A G E | 
+"^sung both ways" [EB] [DA] [CG] E/D/ | C G F D | C C c B/A/ | G G/A/ F D | C3/2 B,/ C  |] 
+
+
+
+X:89
+T:A Single & Married Life - Bickle
+C:Taken down from Henry Bickle by F.W.B. Sept. 1890  
+%%VWML:SBG-1-1-419-0
+F:http://www.vwml.org/record/SBG/1/1/419
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:C
+F | F A c c | c3 c/ | d G (3G A B | d c z A | c B B A | A3 F | G3/2 F/ E G |$ G F z2 :| F A c c | 
+c3 c | d c d A | B3 c | f3/2 e/ d3/2 c/ |$ c3/2 B/ A3/2 c/ | f3/2 e/ f e | f f f c | c c d c | 
+A3 F | D E/ F F/ | G F z  |] X:90
+T:Barley straw - Hurrell
+C:Taken down from G. H. Hurrell, Chagford by F.W.B. Sept. 30. 1890.
+%%VWML:SBG-1-1-456-0
+F:http://www.vwml.org/record/SBG/1/1/456
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:Eb
+G, | C C D D | E E F A | G F E D | C3 G, | C C D D | E E F A | G E D3/2 E/ |$ C3 G | G F/F/ E D | 
+C D E F | G G F E | D ^C D G, | C C D D | E E F A |$ G/A/G/F/ E D | C G, C G, | C C D D | 
+E E F A | G/A/G/F/ E D | C3  |] 
+T:Barley straw - Old king Cole
+T:“Old King Cole” written by Hunneman was set by A.S. Rich, & pub. by Prowse of Hanway St. abt. 1830.  
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+EEFE/F/ | GGFG/A/ | BEF^D | E3 B, | EEFE/F/ | GGFG/A/ | GGFG/A/ | BEFB, |$ E2 z G/A/ | BBAA | 
+GGFG/F/ | EFGA | B3 B, | EEFF | GGFc | BAGF | E2  |] 
+T:Barley straw - Wiltshire harvest home
+T:“Wiltshire Harvest Home” Akerman’s “Wiltshire Tales” 1853, p. 122.
+L:1/8
+M:6/8
+I:linebreak $
+K:Ab
+C | F2 F E2 C | A3 G2 c | A2 F G2 =E | (F3 F2) C | F2 F E2 C |$ A2 A G2 B | A2 F G2 =E | 
+(F3 F2) A | c2 c c2 A | B3 G2 G | A A F c2 A |$ (G3 G2) C | F2 F E2 C | A3 G2 c | A2 F G2 =E | 
+(F2 F2) ||"^chorus" A | c3 c3 | c3 B3 |$ A G F cB A | G3 G2 C | F2 F =E2 C | A2 A G2 B | 
+A2 F G2 =E | F4 z  |] 
+
+
+
+X:91
+T:Death & the lady - Hannaford
+C:Taken down from Roger Hannaford by H.Fl.S. May 1890
+%%VWML:SBG-1-1-459-0
+F:http://www.vwml.org/record/SBG/1/1/459
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+cA | F2 A2 D2 E2 | GF A2 c3 c | d2 e2 fe dc | A3 d d2 c2 |$ de f2 ed B2 | d2 AG F2 A2 | 
+D2 E2 F2 GF | F2 EG F4 |] 
+
+
+
+X:92
+T:The Drunken Maidens - Fry
+C:Taken down from Edm. Fry by F.W.B. 1890.  
+%%VWML:SBG-1-1-446-0
+F:http://www.vwml.org/record/SBG/1/1/446
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G | e2 dc | G3 e | e2 cdB | c3 G | e2 dc | G3 f | ecdB | c3 G |$ f2 de | fed d | ede f | g3 G | 
+e2 dc | G3 f | ecd B2 | c4 |] 
+X:93
+T:False Lover - Satterley
+C:Taken down from S. Satcherley by H.Fl.S.
+C:A far finer tune taken down by C. Sharp at Hambridge, Somersetshire
+%%VWML:SBG-1-1-452-0
+F:http://www.vwml.org/record/SBG/1/1/452
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/16
+M:6/8
+I:linebreak $
+K:G
+d2 | A3 B c2 d3 d d2 | A3 B c2 d4 d2 | B3 A G2 A2 A2 A2 | G3 F E2 D4 d2 | A3 B c2 d2 d2 d2 |$ 
+A3 B c2 !fermata!d4 d2 | B3 A G2 A3 G E2 | D2 G4 z4 d2 | B3 A G2 A3 G E2 | 
+D2 !fermata!G4 z2  |] 
+
+
+
+X:94
+T:Green bed - Hannaford not Masters
+C:Taken down from J. Masters, by H.Fl.S.
+T:[R. Hannaford  is written, in a different handwriting, in pencil above J. Masters. 
+T:The melody is attributed to Roger Hannaford in the Fair Copy Mss. – Ed.]
+%%VWML:SBG-1-1-426-0
+F:http://www.vwml.org/record/SBG/1/1/426
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+B/A/ | G G G/A/ B/c/ | d B/c/ d e/ e/ | e d B G | (B2 A) D | G B/c/ d B | G B/G/ E G | 
+E A D E/F/ | G2 z D |$ G G D E/F/ | A3/2 F/ D D | G B/c/ d e | (e2 d) |: D | G A/B/ d B | 
+G B/G/ E G | E A D E/F/ | G3  |] 
+T:Green bed- Gregory
+C:Taken down from R. Gregory, by F.W.B.
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G | ccAB/c/ | d d GG | cGcd | e2 f/e/ dG | ce/f/ge/d/ | ce/c/AB/c/ |$ de/d/ GA/B/ | c2 G2 | 
+ce/f/g e/d/ | ce/c/ AB/c/ | de/c/ GA/B/ | c3  |] 
+T:Green bed - Masters- second tune
+C:Taken down from J. Masters, by H.Fl.S.  
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G | cc de | f2 ed | ed cB | B3 G | cc de | f2 ed | cd ef | g6 g |$ aa gf | e2 de | gf ed | cB AG | 
+c2 de | f2 ed | ed cB | c3  |] 
+T:Green bed - Langworthy
+C:Taken down from Mary Langworthy by Miss B. Bidder.  Jan. 1893.
+L:1/4
+M:4/4
+I:linebreak $
+K:Ab
+E/ E/ | A3/2 A/ A F | E D D E | E3/2 E/ E3/2 E/ | E2 z A | B3/2 A/ B B | e2 B G |$ (A B) c d | 
+B2 z z/ A/ | B3/2 B/ B3/2 B/ | e2 B c | A G A (B/c/) |$ (d c) (B G) | E3/2 A/ E B | (c d) c c/B/ | 
+A3/2 F/ E C | E2 z2 |] 
+
+
+
+X:95
+T:In Yonder Grove - Cole
+C:Taken down from Geo. Cole, by H.Fl.S.
+%%VWML:SBG-1-1-451-0
+F:http://www.vwml.org/record/SBG/1/1/451
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/4
+I:linebreak $
+K:C
+d d G | G2 G B c B | B2 G2 d2 | B c B A f e |$ d2 z G A G | g2 d2 e c | d2 G G G G | f3 d e d | 
+c2 z |] 
+X:96
+T:Loyal Lover - Roberts
+C:Taken down from Anne Roberts, Scobbetor, Widecombe in the Moor, by F.W.B. 1890.
+%%VWML:SBG-1-1-432-0
+F:http://www.vwml.org/record/SBG/1/1/432
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:E
+G | F E F G/A/ | B2 c B | G3/2 F/ E F | G2 G | F E F G/A/ | B2 c B | G3/2 F/ E F |$ G3 G/A/ | 
+B3/2 B/ B G | B3/2 B/ c G | A B c B | G3 c/ c/ | B c A B/ B/ |$ G3/2 G/ F E | F F B G | F3 z | 
+"^chorus" F F/G/ A2 | A B c2 | B c A/ A/ B | G2 F2 |] 
+T:Loyal Lover - Parsons
+T:Taken down from Jas. Parsons, Lew Down, by S.B.G.
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+e | A3 B c2 ^G2 | B3 A2 B | c3 d B2 c | A3 z A | E3 =F E2 D2 |$ E3 A2 B | e3 B d2 cB | A3 z A | 
+B3 c d2 e2 | c3 B A3 A | ^G3 A B3 c |$ A3 z A/ A/ | E3 =F E2 D/ D/ | E3 E A2 (3^G/A/B/A B | 
+e3 B d2 cB | A4  |] 
+
+
+
+X:97
+T:Streams of Nancy - Baker
+C:Taken down from Matthew Baker July 1889, by H.Fl.S.
+%%VWML:SBG-1-1-438-0
+F:http://www.vwml.org/record/SBG/1/1/438
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/8
+I:linebreak $
+K:Bb
+z2 B/ F/ | B A G | G F F | F B B | B2 c/ c/ | d f d | c f c |$ A B G | F2 d/ c/ | B B G | 
+F D F/ F/ | G A B | c2 d/ c/ | B A G |$ G F F/ F/ | F B c | d2 d/ c/ | B A G | G F F/ F/ | 
+B B !fermata!c | !fermata!B2  |] 
+T:Streams of Nancy - Olver
+T:Taken down from James Olver May 1889 by F.W.B.
+L:1/8
+M:3/4
+I:linebreak $
+K:Bb
+F2 | B2 d2 F3/2 E/ | E2 D2 B,3/2 D/ | F2 B2 cB | B4 A>B | c2 f3 e | d2 e>d cB | BA F2 (3GAG |$ 
+F2 z2 A>B |: c2 f2 e/d/c3/4 d/4 | ed c2 B>A | B2 B2 F2 | (d2 f2) d>B |$ B2 c2 F/G/F/E/ | 
+E2 D2 B,D | F2 B2 (3cdc |"""^1st" B4 ||"""^Ending" B8 |] 
+T:Streams of Nancy - Ford
+T:Taken down from Mat. Ford, Menheniot, Apl. 1891 by F.W.B.
+L:1/4
+M:3/4
+I:linebreak $
+K:Bb
+F | B d F/E/ | E D B,/D/ | B B c | B2 A/B/ | c d f | c/d/ _e A/B/ | c F F | F2 B |:$ c d f | 
+c/d/ e d/c/ | B B F | d f3/2 B/ | B B d/>F/ | E D B,/D/ | F B B | B2 z |] 
+T:Streams of Nancy - Templer
+T:Taken down by Miss Templer from singing of Harvesters in 1834.
+L:1/4
+M:6/4
+I:linebreak $
+K:C
+"^[Time sig. given as 6/8, but written in 6/4 - Ed]" G/ | c e G/E/ F E C/E/ | 
+G c d !fermata!c z B/c/ | d !fermata!g f/e/ d/e/ f e/ d/ | c G A G z B/c/ |$ 
+d g f/e/ d/e/ f e/d/ | c G G (e g) f/d/ | c e G F E C/E/ | G c d c z z |] 
+
+
+X:100
+T:Adam & Eve - Rickards
+C:Taken down from John Rickards, Lamerton, by H.Fl.S.
+%%VWML:SBG-1-1-465-0
+F:http://www.vwml.org/record/SBG/1/1/465
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G D G B G B | d3 c2 G/A/ | B c B A G A | G3 z2 D | G D G B G B |$ d3 c2 G/A/ | B c B A G A | 
+G3 z2 B | d B c d B d | e3 d BA |$ G B d d c B | B3 A2 B/A/ | G D G B G B | d3 c2 G/A/ | 
+B c B A G A | G3 z2  |] 
+T:Adam & Eve - from Kidson
+T:Taken down in Yorkshire by Frank Kidson.
+L:1/8
+M:6/8
+I:linebreak $
+K:Bb
+F | B A B d c d | (!fermata!f3 e2) d | d c B B A B | c4 z F | B A B d c d | f3 e2 d |$ 
+d e d c B c | B12 d | f3 f f f f | g3 e2 e | d e f f e d |$ (d3 c2) F | B A B d c d | f3 e2 d | 
+d e d c B c | !fermata!B8 |] 
+T:Adam & Eve - In hurry post haste
+T:“In hurry post haste for a Licence” from “The Opera of Tom Thumb, 
+T:composed & compiled by J. Markordt in which is the mch. admired song sung by Mrs. Kennedy” comp. by late Dr. Arne.
+L:1/8
+M:6/8
+I:linebreak $
+K:A
+E | AGA BAB | c3 A2 B | cdc BAB | A3 z :| e3 e2 c | ded c2 B |$ cBA dcB | AG z E2 E | AGA BAB | 
+c3 A2 B | cd"^compare \"Begone dull care\" "c BAB | A2  |] 
+T:Adam & Eve - Baker at Cuckfield
+T:Noted down from recollection by a Baker at Cuckfield, Sussex, sent me by Miss. L. Broadwood.
+T:
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G3/2 A/ G B A B | c (d2 d2) d/c/ | B3/2 c/ B AGA | (G3 G2) :| c | Bcd dBc | e (c2 c2) B |$ 
+ABc ddG | (F3 F2) D | GAG BAB | c (d2 d2) c | BcB AGA | (G3 G2)  |] 
+T:Adam & Eve - Die Familie Mendelsohn
+T:From ‘Die Familie Mendelsohn”. vol.ii.​
+T:with signature F. Mendelsohn (eim I [?]) Leipzig d. 10th Sept. 1840
+L:1/8
+M:6/8
+I:linebreak $
+K:F
+"^Andante espressivo" C | FC F AF A | c3 B2 B | A c A G F G | F3 
+T:Adam & Eve - Songsters Companion
+T:“Farewell ye green fields & sweet groves”​From “The Songster’s Companion”, 1772, p. 72.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G D G B G B | d3 c3 | B d B A G A | (G3 G2) D | G D G B G B |$ d3 c3 | B d B A G A | 
+(G3 G2) || d | d B d d B d | e3 c3 |$ B c d{e} dcB | PB3 A2 D | G D G B G B | d3 c3 | 
+B d B A G A | G3 G2 z |] 
+W:The air comes from Bach’s (J. Seb.) “Comic Cantata” where a peasant sings it.
+
+
+X:101
+T:As Polly walked out - Smith
+C:Taken down from H. Smith, by H.Fl.S.
+%%VWML:SBG-1-1-501-0
+F:http://www.vwml.org/record/SBG/1/1/501
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/4
+I:linebreak $
+K:C
+Gce | c2 cB A/B/c/A/ | GE C2 z c | cA G2 GF | EF G2 z G | ce g2 ec |$ c/d/e/c/ A2 G G | cegecB | 
+A/B/c/A/ GE CG | EG c2 ec GB | c2  z |] 
+T:As Polly walked out - Parsons
+T:Taken down from Jas. Parsons by F.W.B.  Mch 1891
+L:1/8
+M:3/4
+I:linebreak $
+K:C
+G2 | ce c2 BA | cA G2 E G | A2 F2 ED | EF G3 G | EG f2 (3efg | ec AG G3/2 G/ |$ EG f2 ec | BB c4 | 
+Bd f2 (3efg | ec A2 G3/2 F/ | EG e3 c | Bd c4 |] 
+
+
+
+X:102
+T:Dead maids land - Paddon
+C:Taken down from Thomas Paddon, Holcombe Burnell.
+%%VWML:SBG-1-1-513-0
+F:http://www.vwml.org/record/SBG/1/1/513
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:D
+z z z2 B | G3/2 F/ E F A | (B3 B2) B | d3/2 c/ B A2 B | d3- d2 B | d2 d/ d/ ce c |$ 
+B2 d/ d/ F2 B | F3/2 E/ D D2 E/ F/ | (d>cB) (^A2 B | d3 d2) B | A3/2 F/ E D2 E/ F/ | B3 z3 |] 
+T:Dead maids land - Chappell
+T:“I sowed the seeds of Love,” from Chappell, p. 522.
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+d>B | BA FD E2 F2 | B6 B>c | d2 d2 ce dc | B6 Bc | d2 d2 ce dc |$ B2 B2 F2 d>B | BA FD E2 F2 | 
+(B4 d3) B | BA FD E2 F2 | (d2 B4)  |] 
+T:Dead maids land - Joyce
+T:see also VII air from “Alleyn’s Anthology” & “Rue & Thyme”.
+T:“Come all you maids where’er you be”. Joyce’s Anc. Irish Music No. 74.
+L:1/8
+M:4/4
+I:linebreak $
+K:C
+(cB) | A2 (AG) E2 (DE) | G2 G2 G2 Bd | e2 e2 d2 e2 | c4 E2 cd | e2 e2 d2 e2 |$ A2 AG E2 DE | 
+G2 G2 G>ABd | c4 B3 c | A3 G (ED)(EG) | A6 |] X:103
+T:Everlasting circle - Nankivell
+C:Taken down from Wm. Nankivell, by F.W.B. 1890, same from Parsons.
+%%VWML:SBG-1-1-491-0
+F:http://www.vwml.org/record/SBG/1/1/491
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:Ab
+A2 A A A2 A2 | B B G2 A2 A2 | c2 c2 c2 c2 | c c d c B2 E E | c2 c2 B2 E2 |$ 
+A3/2 G/ A3/2 B/ c2 A B | c2 c2 cB dG | A4 z2 A2 | B4 B2 | c>Bc>d !fermata!e2 f>e | e2 c2 cB dG | 
+A8 |] 
+T:Everlasting circle - Setter
+T:Taken down from Will. Setter, by F.W.B. 1889.
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+C | C F F F | G3/2 G/ G G | A A A G | F/G/A/B/ c c |$ c/c/c/d/ c | c B A G | F/>F/F/>G/ A A/>B/ | 
+c B A G | F2  |] 
+T:Everlasting circle - Woodrich
+T:Taken down from J. Woodrich by F.W.B. Dec. 26. 1890.
+L:1/8
+M:4/4
+I:linebreak $
+K:Ab
+E | A3 B c3 d | e3 c A3 E | A3 B c3 d | ee c2 B3 e | e3 e B3 c |$ d3 z z e2 e | e3 e edBG | 
+A>B c>d e2 af | f2 c2 edBG | A6 |] 
+T:Everlasting circle - Miss Mason
+T:“The Tree in the Valley”. Devonshire; fr. M. H. Mason “Nursery Rhymes & Country Songs”. Metzler 1877
+L:1/16
+M:2/4
+I:linebreak $
+K:F
+C2 | F2 C2 F2 C C | F G AB c2 C2 | F2 C2 F2 C2 | F G A B c2 A A | c6 c c | d2 c2 F2 G2 |$ A4 G4 | 
+F6 C2 | F2 C2 F2 C C | F G AB c2 C2 | F2 C2 F2 C2 |$ F G A B c2 A A || c c d d c2 A A || c6 c c | 
+d2 c2 F2 G2 | A4 G4 | F4  |] 
+T:Everlasting circle - Olver
+T:Taken down from J. Olver by H.Fl.S.  June, 1889
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D | G>B AF G>B d>D | G>B A>F G>B d :| B/c/ |$ dc/B/ cB/c/ dc/B/ cA/G/ | GD GD/D/ G/A/B/c/ de/e/ | 
+dG/G/ BG/G/ BA G  |] 
+
+
+
+X:104
+T:Haymaking song - Woodrich
+C:Taken down from J. Woodrich, Dec. 27, 1890 by F.W.B.
+%%VWML:SBG-1-1-517-0
+F:http://www.vwml.org/record/SBG/1/1/517
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:C
+G | A G A/B/ c | G2 E G | A G E D | C2 G | A G A/B/ c |$ G G E G | A G E D/C/ | G3 G | A G A d | 
+c B A G |$ G c E D | C B, A, G, | C D E c | A F E F | E C D C | C3  |] 
+
+
+
+X:105
+T:Hunting the hare - Nankivell
+C:Taken down from Wm. Nankivell, Sept 29, 1890 by F.W.B.
+%%VWML:SBG-1-1-506-0
+F:http://www.vwml.org/record/SBG/1/1/506
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:C
+G | Gcc cBc | d>dd d2 c | eee edc | d2 d dc G |$ Gcc c3 | Gcc cGE | cBc dBG | e2 d e2 d | 
+cBd c2 G |$ Gcc dBG | Gcc dBG | edc edc | cBd c3 |] 
+
+
+
+X:106
+T:I rode my little horse - Hext
+C:Taken down from John Hext, shepherd, Post Bridge, 1890 by F.W.B.
+%%VWML:SBG-1-1-470-0
+F:http://www.vwml.org/record/SBG/1/1/470
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:G
+d | B d B G | E2 B,C | D D E D | G3 d | B d B G | E2 B,C | D D E D |$ G3 G | c B c d | 
+e d d3/2 d/ | G G d G | GFE D | B d B G | G E E E |$ D D E F | G3"^Chorus" G | D D A3/2 B/ | 
+c3 d/c/ | B d B G | E E B, C | D c B A | !fermata!G4 |] 
+T:I rode my little horse - Fry
+T:Taken down from Edm. Fry, by S.B.G.
+L:1/8
+M:2/4
+I:linebreak $
+K:E
+B | G B G E |{D} C2 z C | B, B, C E | E3 B :| G B E D | C2 z C | B, B, C E |$ E3 G | A G A B | 
+c3 c | BA e e | d c B B | c B A G | B2 B G | B, B, C E | E3  |] 
+
+
+
+X:107
+T:Lowlands of Holland - Musical Museum
+C:“The Lowlands of Holland” from Johnson’s Scott’s Music. Museum II p.118; also Woods “pop. Songs of Scotland” 1891, p.154
+%%VWML:SBG-1-1-482-0
+F:http://www.vwml.org/record/SBG/1/1/482
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/16
+M:4/4
+I:linebreak $
+K:F
+F2 | C3 D F3 G F4 F2 d2 | c2 A2 G2 F2 D6 FD | C2 D2 F3 G | F4 F2 d2 | c2 de f2 A2 c6 c2 |$ 
+f2 e2 d2 c2 d2c2 B2 A2 | G3 A BA GF D4 D3 F | C2>D2 F2 F2 F4 F3 [Bd] | c A3 G3 A F6  |] 
+T:Lowlands of Holland - Joyce's
+T:“The Lowlands of Holland” from Joyce’s “Ancient Irish Mus.” No. 68.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+E>F | G2 G2 (A>F)(EF) | (A3 B) d2 ed | B2 (AF) E2 E2 | D6 E2 | G2 G2 (A>F)EF |$ A3 B d2 (ed) | 
+B2 AF E2 E2 | E6 || A2 | B2 e2 e2 dB | A3 B d2 ed |$ B2 (AF) E2 E2 | D6 D>F | (G3 B) (AF)(EF) | 
+(A3 B) d2 (ed) | B2 (AF) E2 E2 | E6  |] 
+T:Lowlands of Holland - Watts
+T:The tune used by Watts, a difficult one, noted by F.W.B.
+L:1/8
+M:3/4
+I:linebreak $
+K:Ab
+A>B | c4 c>A | F2 G2 A2 | B2 c2 AB | d2 c2 A2 | (3G2 A2 G2 FG | F4 AB | c2 c2 cA | F2 F2 G2 AB |$ 
+d2 c2 BA (3GFG | F4 cd | e2 c2 de | f2 ed c2 | B2 A2 B2 c>d |$ c6 A>B | c2 A2 AG/F/ | B2 c2 AB | 
+d2 c2 (3BAB GF/=E/ | F6  |] 
+
+
+
+X:108
+T:Mower - Parsons Nov 1888
+C:Taken down from James Parsons Nov. 1888, by S.B.G.
+%%VWML:SBG-1-1-476-1
+F:http://www.vwml.org/record/SBG/1/1/476
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:D
+A | d3/2 d/ A B | G F E G | F3/2 E/ D E | F2 z A | B3/2 A/ G E |$ A3/2 G/ F A | d e d B | A2 z A | 
+d3/2 d/ c d | A3/2 G/ F A |$ G F E3/2 E/ | (F2 F) F | G A B3/2 c/ | d e !fermata!d A | 
+G F (E !fermata!A/) D/ | D2 z2 |] 1
+T:Mower - Parsons Jan 1891
+T:Taken down from Jas. Parsons to same words Jan. 1891, by S.B.G.
+T:Same air as Haymakers CIX.
+L:1/8
+M:4/4
+I:linebreak $
+K:D
+E | A2 ^G2 A2 d2 | A3 =G F3 D | (G2 E2) DD ^C2 | D6 FG | A2 B2 c2 d2 |$ A3 G F3 F | 
+(F2 E2) D D ^C2 | D6 AB | c2 d2 c2 B2 | c3 B A2 dc |$ B2 A2 F2 G2 | A4 FG | A2 B2 c2 d2 | 
+A3 G F3 DE | (F2 E2) D D ^C2 | D6  |] 
+T:Mower - Parsons Mar 1891 
+T:Taken down from Jas. Parsons by F.W.B. Mch. 1891
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+F | c3/2 B/ c f | c2 A G/A/ | B G F E | F3 c | c d _e f |$ c3/2 B/ A A | B3/2 G/ F F | F3 B | 
+c c f f | =e d c f |$ e c B A | c3 B/B/ | c d/e/ f f | c3/2 B/ A F/G/ | B3/2 G/ F F | F3  |] 
+W:CII. Saucy Plough Boy.  old words rewritten. see CXII.b.
+
+
+X:109
+T:Tobacco - Roberts
+C:Taken down from Anne Roberts, Scobbetor, by F.W.B. Sept. 30, 1890
+%%VWML:SBG-1-1-507-0
+F:http://www.vwml.org/record/SBG/1/1/507
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:3/4
+I:linebreak $
+K:C
+C | CG, C3 G | FF E2 C/D/ | EE/D/ C B,A,G, | CE D3 D |$ GG/F/EDCB, | A,F/E/ DC B,C | CG, C2 EG | 
+FE D4 | C6 |] 
+T:Tobacco - Potter
+T:Taken down from Jas. Potter, Hartland, Post Bridge by H.Fl.S. Sept. 22. 1890
+L:1/8
+M:3/4
+I:linebreak $
+K:G
+G2 | GD G3 d | cc B3 G/A/ | BA G2 EF | GB A2 Bc |$ dd/c/ BA GF | Ec/B/ A3 F | GD G2 Bd | 
+cB A2 G2 |] 
+T:Tobacco - old man Newton Abbot
+T:Taken down from an old man near Newton Abbot. & sent me.
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+E | F3 E D2 A2 | BA GF c3 c | f3 e d2 c2 | cB AB A3 A |$ A2 B c (dc) (BA) | BA GF G2 F E | 
+D2 d d d2 ^c2 | d2 d4 z2 |] 
+T:Tobacco - Pills to purge melancholy
+T:Same as tune in “Pills to purge Melancholy” III. 292.
+L:1/8
+M:4/4
+I:linebreak $
+K:Bb
+A | B3 A G2 ff | gf ed f3 f | b3 a g2 f2 | fed3/2 e/ d3 d |$ d2 ef gf ed | ed cB c2 BA | 
+G2 g2 g3 ^f | g2 g4 z  |] 
+T:Tobacco - Westaway
+T:Taken down from H. Westaway, Belstone by F.W.B. Oct 1894.
+L:1/8
+M:4/4
+I:linebreak $
+K:G
+D2 | G2 Dc !fermata!B3 (3A/G/B/ | c2 B2 A3 G | G2 Dc BAGB | c2 B2 A2 Bc | d2 dc cBAB |$ 
+w: ||||||
+c2 cB BA GD | G6 FG | A6 Bc | d(ge)c B2 A2 | G4  |] 
+w: * * * * * Think on||* When you|smo- _ ke _ To- bac-|co|
+
+
+X:100
+T:Brown girl - Woodrich
+C:Taken down from J. Woodrich by F.W.B. 1888.
+%%VWML:SBG-1-1-526-0
+F:http://www.vwml.org/record/SBG/1/1/526
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:D
+z2 D | F E F G | F/ F/ D B,/C/ D | E F D C | D3 A | d d Bd | c A F/^G/ A | E E F ^G |$ A3 A | 
+d d B d | c/ c/ A z A | d3/2 e/ d B | (B A3/2) E/ | G A B G | F D B,/C/ D | E F D C | D2  |] 
+T:Brown girl - Setter
+T:Taken down from W. Setter, by F.W.B. 1890. (same as Green Bed)
+L:1/8
+M:4/4
+K:G
+D2 | G2 G2 E2 FG | A2 A2 D2 D2 | G2 D2 [D2B2] A2 | (B4c/B/ A2) D2 | G2 Bc d2 cA |$
+G2 BG "British Grenadiers"E2 FG |(AB) (AG) D2 (EF) | G6 D2 | G2 Bc d2 BA | G2 BG E2 FF | AB AG D2 EF | G4  |]
+T:12 Songs composed by Giordani
+L:1/8
+M:6/8
+K:G
+e | e>fg gB e | d2 B d z B | G2 B e>e d/c/ | B2 z z2 :| d | efg gfe |$ d2 e f2 g | f2 g/e/ =de^c | 
+!fermata!B3 B2 e | d2 B d2 d | e2 f !fermata!g2 e | d3 B2 (B/c/) | (d3 d2) z |] 
+
+
+
+X:101
+T:Enlisting Serjeant - Hard
+C:Taken from R. Hard, Sth. Brent, by H.Fl.S.
+%%VWML:SBG-1-1-539-0
+F:http://www.vwml.org/record/SBG/1/1/539
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/4
+M:4/4
+I:linebreak $
+K:G
+G | G B d e/d/ | (d B) G B/d/ | c A c B | G3 G | G B d e | d B c d |$ e d c B/c/ | d3 G | 
+G B d e | d B c d | e d c B | (A B) c A | d2"^2nd voice" G F |$ E2"^1st voice" c d | 
+e2"^2nd voice" A G | (F D)"^together" d d | d e d e | (d B) G B/d/ | c A B A | G2  |] 
+T:Enlisting Serjeant - Parsons
+T:Taken down from J. Parsons, by F.W.B.
+L:1/8
+M:4/8
+I:linebreak $
+K:Eb
+E | E G B B | BGE A | G A F3/2 F/ | E3 E | E G B | c B A B | cBAG |$ B3 E | E G B B | cBA B | 
+cBAG | F2 G F | B B E3/2 D/ | C B, G B |$ c c F3/2 E/ | D B, G A | B>BBB | BGE A | G A F3/2 E/ | 
+E3  |] 
+
+
+
+X:102
+T:In Bibberly town - Bennett
+C:Taken down from J. Bennett, by F.W.B.
+%%VWML:SBG-1-1-524-0
+F:http://www.vwml.org/record/SBG/1/1/524
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+B | B B c d2 d | B2 c d2 d | c2 B A2 G | F2 D D2 E | =F2 E D2 E | =FE F D2 G |$ G2 G A B c | 
+B2 G G2 G | G3/2 G/ G2 D/ D3/2 E | =F3/2 E/ F D2 G | G2 G A3/2 B/ c | B2 G G2 z |] 
+
+
+
+X:103
+T:Lemonday - Gilbert
+C:Taken down from S. Gilbert, July 1891 by F.W.B.
+%%VWML:SBG-1-1-545-0
+F:http://www.vwml.org/record/SBG/1/1/545
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:4/4
+I:linebreak $
+K:F
+c2 | c2 d c c2 GA | _B2 cB AF C3 e | e2 [cd]c f2 ed | cABc d3 c |$ ee [cd]c f2 ed | cc BA GE FG | 
+AA (3FGA _B A2 F | G2 c>=B c4 |] 
+
+
+
+X:104
+T:Maid & the box - Parsons
+C:Taken down from Jas. Parsons, 1888, by F.W.B.
+%%VWML:SBG-1-1-532-0
+F:http://www.vwml.org/record/SBG/1/1/532
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:2/4
+I:linebreak $
+K:Eb
+B | E E F G | c/ c/ B2 G | A G E E | E3 B | e e c e | d2 B B | F2 G=A | B3 B |$ e e c e | 
+d d B B | e e d c | B3 B | E E FG | c/ c/ B2 A | G G E E | E3  |] 
+T:Maid & the box - Stoneman
+T:Taken down from Stoneman, Cully Hole in Chagford by F.W.B. Oct. 1890
+L:1/4
+M:4/4
+I:linebreak $
+K:F
+F | F A A A | A c c c/A/ | G F F F | F2 F | c c c c |$ d3/2 B/ G G | G F F3/2 F/ | F2 |] 
+"^sometimes he altered ending to" A | B G G G | F3  |] 
+T:Maid & the box - Masters
+T:Taken down from J. Masters by H. Fl. S.
+L:1/8
+M:2/4
+I:linebreak $
+K:C
+G | cccc | cecc | dcde | f3 e | ggec | cAce | dcBA | G2 z G |$ ggec | cAce | dcBA | G3 G | FEGA | 
+Gceg | edcB | c3  |] 
+T:Maid & the box - from Exbourne
+T:Taken down at Exbourne by F.W.B. July 1894
+L:1/8
+M:4/4
+I:linebreak $
+K:Eb
+EF | G/>G/G/G/ B2 AF | FEEE E2 EG | B2 BB e2 BG | A>Bc>_d B2 B2 |$ B2 GB B2 e2 | A>AAc B2 BG | 
+EFGA B2 AF | E>EEE E2  |] 
+
+
+
+X:105
+T:Widdicombe Fair - Collier
+C:Taken down from W.F. Collier Esq., Woodtown, July 1888
+%%VWML:SBG-1-1-92-0
+F:http://www.vwml.org/record/SBG/1/1/92
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/16
+M:6/8
+I:linebreak $
+K:G
+D2 | G4 G2 B4 A2 | F3 E D2 G4 z2 | G3 A G2 B3 A G2 | F3 F G2 A4 D D | G3 G G2 (B2A2) G2 | 
+F3 E D2 E4 D D |$ E4 D2 E4 D2 | E4 D2 E4 D2 | E4 D2 E4 D2 | D3 c B2 A3 G F2 | (d6 d4) c2 | 
+B3 c B2 A3 G F2 | G6  z2 z2 |] 
+T:Widdicombe Fair - Nankivell
+T:Taken down from Wm. Nankivell, Merivale Br. by F.W.B. Sept. 1890
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | GAG GEG | FEF G3 | AFD DEF | (G3 G2) G | A2 A ABc | [dd][Gd][GB] G3 |$"^chorus" DB,D DB,D | 
+DB,"^&c."D D2 E | DcB AGF | G3 G2 G | d2 c BAB | cAF G3 |]  
+T:Widdicombe Fair - Bickle
+T:Taken down from R. Bickle, Two Bridges, Jan. 1890 by F.W.B.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+G2 | G2 G GBA | GFG D3 | G>GG GBd | cBc A2 A |$ A2 A ABc | B2 D G2 D | GDG GDG | d2 c Bcd | 
+cBA G3 |] 
+T:Widdicombe Fair - Davies
+T:From Wm. Davies, Kingsbridge
+L:1/8
+M:6/8
+I:linebreak $
+K:A
+E | A2 c c2 B | A G F E2 z | A A A c B A | G G A B2 B | B2 B B c d |$ c B A G F E | 
+w: |||||||
+A A E A A E/ E/ | A A E A A E |"^&c." z3 z2 E/ E/ | E F E E F G |$ A2 z f2 f | E F E E F G | 
+w: ||and old|uncle * * * * *|* And old||
+A2 z !fermata!f2 f | e d c B A G | (A3 A2)  |] 
+w: |||X:106
+T:Widdicombe Fair - F J Adams
+C:From Miss F.J. Adams as sung by her mother in 1822.
+%%VWML:SBG-1-1-93-0
+F:http://www.vwml.org/record/SBG/1/1/93
+Z:Original Sibleius Transcription by Martin and Shan Graebe
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+G2 A B2 A | G F G D3 | G2 G c2 B | A3/2 c/ B A2 A | A B c d c B | A B G F2 E/D/ |$ G2 D G2 D | 
+G2 D G2 D | G2 D G2 B, | C D E D G F | G3 G c | B d B A G A | G3  |] 
+T:Widdicombe Fair - Westaway
+T:From H. Westaway, Belstone, taken down by F.W.B.
+L:1/8
+M:6/8
+I:linebreak $
+K:G
+D | G2 G B2 A | GEF D2 D | G2 G Bcd | cBc A2 G :| A2 A ABc | BAG FED |$ G2 D D2 D | 
+w: ||* * * * Oh|Ri- fol- la- ri- dol|di- d- le die Oh.||* * * * w. Bill||
+G2 D"^&c." z3 | D/ D/ GDC | B,2 B, !fermata!d2 c | Bcd cBA | G3  |] 
+w: |& old un- cle Tom|Cob- leigh. Here is|un- cle Tom Cob- leigh &|all|

@@ -1,0 +1,20 @@
+%%scale 1
+X:1     %Music
+T:The Sweet Nightingale
+B:Broadwood, Lucy, 1893, English Country Songs, Leadenhall Press, London
+S:Messrs Upfold and Stanford, Cranleigh, Surrey
+Z:Lucy Broadwood
+F:http://www.folkinfo.org/songs
+M:3/4     %Meter
+L:1/8     %
+K:E
+B,2 |E3 E F2 |E4 (EG) |G2 E2 (GB) | (A2{BA}G2)
+w:One morn-ing in May by_ chance I did_ rove_
+(EG) |B2 G2 B2 |c2 B2 E2 |G2 B2 (AG) | (G2{AG}F2) 
+w: I_ sat my-self down by the side of a_ grove,_
+(GA) |B2 G2 e2 |B3 A G2 |A2 F2 B2 | (A2{BA}G2) 
+w:And_ there did I hear the sweet night-in-gale sing_
+B,2 |G3/2G/ A2 B2 |(c2B2) B,2 |E3/2E/ F2 G2 | (F2E) z
+w:I nev-er heard so sweet,_ I nev-er heard so sweet_
+ B2 |e3/2e/ B2 c2 |A2 G2 e2 |G3 A F2 | E4 z2 |]
+w: I nev-er heard so sweet as the birds in the Spring. 

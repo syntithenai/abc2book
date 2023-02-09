@@ -1,0 +1,95 @@
+This file contains 6 polskas (#1 - #6).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note that these polskas are of the uneven rhythm type, with 8th notes
+played with a triplet feel.
+
+Last updated 1 May 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:polska O
+Z:id:hn-op-%X
+M:3/4
+
+X:1
+T:Kom Fattigdom och h\"ang dig p{\aa}
+R:polska O
+O:Boda, Dalarna
+M:3/4
+K:Dm
+FG A^G A^c|e^c d3A|de fg af|1 fe/d/ e4:|2 fe/d/ e3e||
+|:e=c ce ge|fd de fg/f/|e=c cc d=B|1 (3=B2A2c2 E2:|2 =BA A4||
+
+X:2
+T:Polska efter Skinnar Albin Larsson
+R:polska O
+O:Malung, Dalarna
+Z:hn-op-2
+M:3/4
+K:Am
+A^c/e/ a3 ^g/a/|ba/^g/ a3 e|fe de fg|(3agf ed =cB|
+A^c/e/ a3 ^g/a/|ba/^g/ a3 e|fe de fg|(3agf e4:|
+|:ea cd ef|ec AB c2|(3cBc dc B^G|AB cd e2|
+ea cd ef|ec AB c2|(3cBc dc BA|^G2 A4:|
+
+X:3
+T:Offerdals polska
+R:polska O
+H:efter Gustav Persa, Offerdal
+O:J\"amtland
+Z:hn-op-3
+M:3/4
+K:Dlyd
+Af f<d ec|(3def (3fed (3efg|1 af f<d ec|
+(3def (3fed ec:|2 af f<d ed|(3cBc d4||
+K:D
+|:(3ABA G<A FA|cB/A/ (3GAB A2|(3ABA G<A FA|cB/A/ (3GAB A2|
+(3ABA G<A FA|cB/A/ (3GAB Ad|de (3fgf ec|d2 d4:|
+
+X:4
+T:Sunta Luva
+R:polska O
+O:N{\aa}s, Dalarna
+Z:hn-op-4
+M:3/4
+L:1/8
+K:Ador
+A>B cB AG|Ac e2 ef|gf ed cd|ef e3A:|
+|:A>c e2 e>d|f>e e2 c2|cB AG A>c|e>f d2 c>B|G>B A3A:|
+
+X:5
+T:K{\aa}tl{\aa}ten
+R:polska O
+H:efter Sjungar Lars Larsson & Hals Erik Samuelsson
+O:Lima, Dalarna
+Z:hn-op-5
+M:3/4
+L:1/8
+K:Ddor
+A>^c A<c c>d|^c/d/c/B/ AG A2|f/g/f/e/ f2 e>d|^c2 A4|
+A>^c A<c c>d|^c/d/c/B/ AG A2|f/g/f/e/ f2 e>d|e<^c d4:|
+K:Dlyd
+|:d>e f2 d>f|f<e c3 d|e>f g2 g>a|(3bag a4|
+f>e d<f d>f|f<e c2 c>d|(3efg a2 ce|f<e d2 f2|e<^c d4:|
+
+X:6
+T:Polska efter Jonk Jonas
+R:polska O
+O:H\"arjedalen, \"Overhogdal
+Z:id:hn-op-6
+M:3/4
+L:1/8
+K:Dm
+a2 g2 f2 | e>f d>e ^c>e | d>e (3fed (3efg | a2 e^c A2- |
+A2 g2 f2 | e>f d>e ^c>e | d>e (3fed (3^c=B^c | d2 d4 :|
+|: D2 E2 FG | (3ABA GA B2- | B>A FA (3BAG | GF DF (3ED^C |
+D2 E2 FG | (3ABA GA B2- | B>A FA (3BAG | GF D4 :|
+

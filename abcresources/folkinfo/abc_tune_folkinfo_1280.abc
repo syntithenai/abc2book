@@ -1,0 +1,61 @@
+%%scale 0.7
+X:1 %Music
+T:Shepherds Arise
+B:Bob Copper, A Song For Every Season, 1971
+Z:Jim Copper
+F:http://www.folkinfo.org/songs
+Q:1/4=120 %Tempo
+V:1 clef=treble %
+M:4/4 %Meter
+L:1/8 %
+K:D
+D4 E2 E2 |F6 G2 |A2 F2 E2 DF |E6 FG | A2 F2 FE DF | [M:3/2][L:1/8] E4 D2 C2 D4 |
+w:Shep-herds a-rise be not__ a-*fraid with_ ha-***sty_ steps_ pre-pare, 
+M:4/4 %Meter
+L:1/8 %
+E2 C2 D2 E2 |F3 E DE FG | A2 F2 FE D2 |E6
+w:To_ Dav-id's ci-***ty_ Sin___ on earth,
+z2 |z4 z2 A,D |F3 E D2 F2 | E6 
+w: With_ our blest in-fant there
+E2 |F2 G2 A2 F2 |EF G2 FE DF | [M:3/2][L:1/8] F3 F/E/ D2 C2 HD4 |
+w:With our blest in-fant there,_ with our_ blest_ in-***fant there 
+M:4/4 %Meter
+L:1/8 %
+F4 D2 G2 |F6 G2 |F2 E2 D2 FG |A2 G2 F2 EF |
+w:Sing, sing all earth, sing, sing all earth e--ter-----
+G2 F2 ED C2 |D4 F4 |E6 EF |G2 E2 FE D2 |
+w:----nal prai-ses sing, To_ our Re-deem_ er, 
+A3 G F2 F2 |E2 E2 D2 G2 |F4 E4 |D4 z4 |]
+w:To_ our Re-deem-er and our Heaven-ly King 
+V:2 clef=bass
+M:4/4 %Meter
+L:1/8 %
+K:D
+D4 A,2 A,2 |D6 D2 |D4 C2 B,2 |A,6 A,2 |
+w:Shep-herds a-rise be not_ a-fraid with 
+D4 DC B,2 |
+w:ha-**sty 
+M:3/2 %Meter
+L:1/8 %
+A,6 A,2 D,4 |
+w:steps pre-pare, 
+M:4/4 %Meter
+L:1/8 %
+A,4 A,2 A,2 |D6 D2 |
+w:To Dav-id's ci-ty
+D4 DC B,2 |A,6 A,2 |D2 D2 A,2 A,2 |D8 | A,6 
+w:Sin__ on earth, With our blest in-fant there 
+A,2 |D2 D2 D2 D2 |A,2 G,2 A,2 A,2 |
+w: With our blest in-fant there, with our blest
+M:3/2 %Meter
+L:1/8 %
+A,6 A,2 HD4 |
+w:in fant there 
+M:4/4 %Meter
+L:1/8 %
+D4 A,2 A,2 |D6 D2 |C2 B,2 A,2 D2 |D6 CD |
+w:Sing, sing all earth, sing, sing all earth e-ter---
+D4 CB, A,2 |D4 B,4 |A,4 z4 |z8 |
+w:---nal prai-ses sing, 
+D4 D2 D2 |A,2 A,2 B,2 G,2 |A,4 A,4 |D,4 z4 |]
+w:To our Re-deem-er and our Heaven-ly King.

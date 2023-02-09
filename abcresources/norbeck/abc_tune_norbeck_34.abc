@@ -1,0 +1,74 @@
+This file contains 2 miscellaneous Balkan tune (#1 - #2).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+Also note the uneven time signatures
+
+Last updated 11 April 2020.
+
+(c) Copyright 2017-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+L:1/16
+Z:id:hn-miscbalkan-%X
+
+X:1
+T:Smeseno Horo
+T:Smeceno Horo
+T:Bulgarian Bulge
+R:smeseno horo
+H:"Smeseno Horo" means "Crooked Dance"
+H:15/16 bars are 4+4+3+4/16. 18/16 bars are 4+2+3+2+3+4/16.
+O:Bulgaria
+Z:id:hn-miscbalkan-1
+M:15/16
+L:1/16
+Q:1/8=240
+K:Dmix
+^cdd=c cBBA cBA B2AG | [M:18/16] F2FD ED F2D ED cBA B^GA2 |
+[M:15/16] ^cdd=c cBBA cBA B2AG | [M:18/16] F2FD ED F2D ED F2D E^CD2 :|
+M:18/16
+|: F2FD ED F2D ED cBA B2AG | F2FD ED F2D ED cBA B^GA2 |
+F2FD ED F2D ED cBA B2AG | F2FD ED F2D ED F2D E^CD2 :|
+|:[M:15/16] A2AD E=F^GA cBA B2A=G |[M:18/16] ^F2FD ED F2D ED cBA B^GA2 |
+[M:15/16] A2AD E=F^GA cBA B2A=G |[M:18/16] ^F2FD ED F2D ED F2D E^CD2 :|
+M:18/16
+|: F2FD ED F2D ED F2D E^CDE | F2FD ED F2D ED F2D E^CD2 :|
+|: ABBA AG F2D FG ABA AGFD | ABBA AG F2D FG ABA AGF2 :|
+|: BdcB BG A2G FD G2F FGAD | BdcB BG A2G FD G2F FDE2 :|
+|: E=F^GA BE cBA Bc B2A ^GABc | dc2B2A cBA ^GA GA=F ^GDE2 :|
+|: dc2B2A cBA ^GA GA=F ^GABc | dc2B2A cBA ^GA GA=F ^GDE2 :|
+
+X:2
+T:Krivo sadovsko horo
+R:krivo sadovsko horo
+H:Parts B and C played together and repeated.
+Z:id:hn-miscbalkan-2
+M:2+2+2+3+2+2/16
+L:1/16
+Q:2/16=220
+K:Ephr ^g
+E2EF GA BcA BBB2 | BdcB A2 cBA BBB2 | E2EF GA BcA BBB2 | GBAG F2 AGF EEE2 :|
+|: GBAG F2 AGF EFGG | GBAG F2 AGF EEE2 :|
+|: BdcB A2 cBA GABB | BdcB A2 cBA GGG2 :| !fine!
+|: dee2 e2 e2d dcd2 | cdd2 d2 d2c cBc2 | Bcc2 c2 c2B BAB2 | GABB Bd cBA BBB2 |
+[Q:2/16=140] eff2 f2 f2e ede2 | [Q:2/16=180]dee2 e2 e2d dcd2 |
+[Q:2/16=220]GABB Bd cBA BBB2 | GBAG F2 AGF EEE2 :|
+|: BdcB A2 cBA GABB | BdcB A2 cBA GGG2 | BdcB A2 cBA GABB | BdcB A2 cBA GGG2 :|
+|: dee^c d2 dcB edcB | ^ABB2 G2 d^cB cAB2 | dee^c d2 dcB edcB | ^ABB2 G2 d^cB B4 :|
+|: ^ABBE G2 d^cB cAB2 | ^ABBE G2 d^cB cAB2 | ^ABBE G2 d^cB cAB2 | ^ABBE G2 d^cB cAB2 :|
+K:Amix _B
+|: GAAG AE dcB AGA2 | GAAG AE dcB AEA2 | GAAG AE dcB AGA2 | GAAG AE dcB A4 :|
+|: GAAG A2 dcA d2c2 | GAAG A2 =c=BG c2B2 | GAAG A2 dcA d2c2 | GAAG AE dcB A4 :|
+K:Amix
+|: Bcc2 A2 B2A ABc2 | Bcc2 A2 B2A cBA2 :|
+|: Bcc2 c2 d2c fedc | Bcc2 A2 B2A ABc2 | Bcc2 c2 d2c fedc | Bcc2 A2 B2A cBA2 :|
+|: Bcc2 A2 B2A ABc2 | Bcc2 A2 B2A cBA2 | Bcc2 A2 B2A ABc2 | Bcc2 A2 B2A cBA2 :|
+

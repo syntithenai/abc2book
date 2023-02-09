@@ -1,0 +1,20 @@
+%%scale 1
+X:1     %Music
+T:Poor Old Horse
+B: Songs and Ballads of Northern England, Walter Scott Ltd
+Z:John Stokoe
+F:http://www.folkinfo.org/songs
+Q:1/4=100     %Tempo
+M:4/4     %Meter
+L:1/8     %
+K:C
+G |c2 B2 B2 G2 |c c d e f3 
+w:My Cloth-ing once was lin-sey wol-sey fine, 
+e |d3 c B2 G G | A2 ^F F G2 z
+w:My hair un-link't, and my coat it did shine. 
+ =f |e f g G c3 G |c2 de f2 
+w:But now in o-pen fields I'm forc'd for to go, 
+e2 |d d  c2 B B B G | B A G F E2
+w:To face the cold win-ter and the  hail-storm and the snow
+ C E |G2 A2 (Gf) z e |(ed) (cB) c2 z2 |]
+w: Cry-ing, "Poor old horse_ O poor_ old_ horse." 

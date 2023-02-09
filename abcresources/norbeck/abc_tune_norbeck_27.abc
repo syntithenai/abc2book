@@ -1,0 +1,342 @@
+This file contains 24 polskas (#1 - #24).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note that these polskas are played with a short 1st beat, long 2nd beat
+and normal 3rd beat, ratios approximately 2:4:3.
+
+Last updated 1 May 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:polska K1
+M:3/4
+L:1/8
+Z:id:hn-k1-%X
+
+X:1
+T:Farmors Brudpolska
+R:polska K1
+H:efter Gyris Anders
+O:Dalarna
+Z:hn-k1-1
+M:3/4
+L:1/8
+K:Dm
+A2 A^c A^c | A2 A^c A^c | e2 g/a/g/e/ fg | fe d>^c de |
+f2 f/a/f/d/ e^c | A2 A^c A^c | A2 A^c A^c | e2 g/a/g/e/ fg |
+fe d>^c de | f2 f/a/f/d/ e^c | ^c2 d4 :||: a2 a=b ag |
+e2 g/a/g/e/ fg | a2 ac' ag | e2 g/a/g/e/ fg | fe d>^c de |
+f2 f/a/f/d/ e^c | A2 A^c A^c | A2 A^c A^c | e2 g/a/g/e/ fg |
+fe d>^c de | f2 f/a/f/d/ e^c | ^c2 d4 :| 
+
+X:2
+T:Polska fr{\aa}n V\"armland
+R:polska K1
+O:V\"armland
+Z:id:hn-k1-2
+M:3/4
+L:1/8
+K:A
+(3efg a2 a>b | (3agf e2-e>e | f2 de c>d | e<f Pfe e>c |
+(3dBd (3cAc B>G | (3ABc [B4E4] | (3efg a2 a>b | (3agf e2-e>e |
+f2 de c>d | e<f Pfe e>c | (3dBd (3cAc B>G | (3ABc A4 :| 
+|: cB Ac E>A | ec df e>c | (3dBd (3cAc B>G | (3ABc [B4E4] | 
+cB Ac E>A | ec df e>c | (3dBd (3cAc B>G | (3ABc A4 :| 
+
+X:3
+T:Sparve Lille
+R:polska K1
+O:V\"armland
+Z:id:hn-k1-3
+M:3/4
+L:1/8
+K:D
+a|a2 fa fa|ag eg eg|af df ec|d>e fa (3^gfg|
+a2 fa fa|ag eg eg|af df ed|(3cBc d3:|
+|:A|A2 df ec|de fa (3^gfg|a2 fd ec|d2 ef dc/B/|
+A2 df ec|de fa (3^gfg|a2 fd ed|(3cBc d3:|
+P:spelas \"aven s{\aa} h\"ar
+[K:Dlyd]|:a|a2 fa fa|ag eg eg|af df ec|d>e fa (3gfg|
+a2 fa fa|ag eg eg|af df ed|(3cBc d3:|
+|:A|A2 df ec|d>e fa (3gfg|a2 fd ec|d2 ef dc/B/|
+A2 df ec|d>e fa (3gfg|a2 fd ed|(3cBc d3:|
+
+X:4
+T:Springlek efter Perbj\"ors Erik Persson
+R:polska K1
+O:Lima, Dalarna
+Z:hn-k1-4
+M:3/4
+K:D
+A|d>c A>B A2|G2 FD/F/ (3ECE|D2 ge fa|(3gfg a>g fd|
+ec AB A2|G2 FD/F/ (3ECE|D2 ge fd|1 (3cBc d3:|2 (3cBc d4||
+Ac de fa|(3gfg a>g fe|dc de fa|(3gfg a3A|
+c2 de fa|(3gfg a>g fd|ec Ac BG|AF DF EC|D2 D3A|
+c2 de fa|(3gfg a>g fe|dc de fa|(3gfg a3A|
+c2 de fa|(3gfg a>g fd|ec Ac BG|AF DF EC|D2 D3||
+
+X:5
+T:Springlek efter Perbj\"ors Erik Persson
+R:polska K1
+O:Lima, Dalarna
+Z:hn-k1-5
+M:3/4
+K:D
+A|A2 a2 ge|f2 fa ed|dc Ac df|fe ec AA|
+A2 a2 ge|f2 fa ed|dc Ac df|(3ece d3:|
+|:d|d>c A2 cd|e>f f<d ed|dc Ac df|fe ec Ad|
+dc A2 cd|e>f f<d e2|ef ga/g/ fe|c<e d3:|
+
+X:6
+T:Springlek efter Perbj\"ors Erik Persson
+R:polska K1
+O:Lima, Dalarna
+Z:hn-k1-6
+M:3/4
+K:D
+A|A2 d2 fd|d2 B2 ge|fa gf ed|c2 ed Bc/B/|
+A2 d2 fd|d2 B2 ge|fa gf ed|(3cBc d3:|
+|:f|f2 g2 b2-|b2 f2 ge|fa gf ed|c2 ed Bc/B/|
+A2 g2 b2-|b2 f2 ge|fa gf ed|(3cBc d3:|
+
+X:7
+T:Polska efter P{\aa}l Karl
+R:polska K1
+O:Dalarna
+Z:hn-k1-7
+M:3/4
+K:Am
+c|A2 dB cc|d2 ^fe/d/ ec|A2 dB cc|d2 ^fe/d/ ee|eg a2 ag|=fe/d/ e3:|
+|:c|A2 ag ae|=f2 fe/d/ ec|A2 ag ae|=f2 fe/d/ eA|d>c A<c BG|B<c A3:|
+
+X:8
+T:Polska efter Omas Ludvig
+R:polska K1
+O:Dalarna
+Z:hn-k1-8
+M:3/4
+K:Dm =B
+^c | A2 ^ce dB | G2 Bd ^c2 | A2 ^ce dB | GB B<A AA |
+A2 ^ce dB | G2 Bd ^c2 | A2 ^c/d/e/f/ de | ^cB/^c/ d3 :|
+ |: ^c | A2 az ag | ef ga ge | ^cd ef de | ^cB/^c/ A3A |
+A2 az ag | ef ga ge | ^cd ef de | ^cB/^c/ d3 :|
+
+X:9
+T:Polska efter Kings Selma
+R:polska K1
+O:Dalarna
+Z:hn-k1-9
+M:3/4
+K:Am
+A|A2 dc BA/B/|c2 e2 ge|^f2 dc BA/B/|c2 ec A2|
+A2 dc BA/B/|c2 e2 ge|^f2 dc BA/B/|B<c A3:|
+|:e|f>g a2 fa|a2 g/a/g/e/ ce|f>g a2 fa|a2 g/a/g/e/ ce|
+d>^f e2 c2|Bc/B/ A3:|
+
+X:10
+T:Storhurven
+R:polska K1
+S:efter Spak Olof Svensson "Spaken"
+O:S\"arna, Dalarna
+Z:hn-k1-10
+M:3/4
+K:Ddor
+E/E/|EF DE ^C/A,/C/D/|EF DE ^C/A,/C/D/|EF DE ^CD|D2 E3 E/E/|
+EF DE ^C/A,/C/D/|EF DE ^C/A,/C/D/|EF DE ^CD|1 D2 D3:|2 D2 A4||
+|:Ad/^c/ de fa|ge/g/ a>e fa|ge fd e^c|de ^cd/c/ A2-|
+Ad/^c/ de fa|ge/g/ a>e fa|ge fg e/^c/c|1 d2 e4:|2 d2 A3||
+
+X:11
+T:Polska efter Evert {\AA}hs
+R:polska K1
+O:\"Alvdalen, Dalarna
+Z:hn-k1-11
+M:3/4
+K:Ddor
+AA/^c/ de =fa|ag ee/^f/ de|d^c Ac/B/ GA|B2 d/e/d/^c/ A2|
+AA/^c/ de =fa|ag ee/^f/ de|d^c Ac/B/ GB|1 d/e/d/^c/ A4:|2 d/e/d/^c/ A4|z2 A3G||
+|:A2 cB GB|dc A/B/A/G/ E2|A2 cB GB|dc A2 E2|
+A2 cB GB|dc A/B/A/G/ E2|A2 cB (3G^FG|1 A2 A3A:|2 A2 A4|z2 A4||
+
+X:12
+T:Springlek efter Omas Per
+R:polska K1
+H:efter Omas Per Nilsson
+O:Transtrand, Dalarna
+Z:hn-k1-12
+M:3/4
+K:Ddor
+A>^c d<f ec|de fa gb|a2 (3fdf e^c|de ga/g/ fd|
+A>^c d<f ed|1 (3^cBc d4:|2 (3^cBc d3e||
+|:f2 (3afa gf|ef ge/g/ fe|f2 (3afa gf|ef ge/g/ fe|
+d^c (3def e^c|de ga/g/ fd|A>^c d<f ed|1 (3^cBc d3e:|2 (3^cBc d4||
+P:variant
+|:A>^c d<f ec|de fa gb|af df e^c|de ga/g/ e^c|
+A^c df ed|1 (3^cBc d4:|2 (3^cBc d3e||
+|:f2 (3afa gf|ef ge/g/ fe|f2 (3afa gf|ef ge/g/ fe|
+d^c (3def e^c|de ga/g/ e^c|A^c df ed|1 (3^cBc d3e:|2 (3^cBc d4||
+
+X:13
+T:Polska efter Olof Andersson
+R:polska K1
+H:efter Olof Andersson
+O:V\"armland
+Z:hn-k1-13
+M:3/4
+K:A
+[A2E2] a2 fg|(3efg af bg|[A2E2] a2 fg|(3efg ae cA|
+[A2E2] a2 fg|(3efg af bg|[A2E2] a2 fg|(3efg a2 A2-:|
+|:A2 AB/c/ (3dBd|d<c c>A (3cAc|c<B B>c (3dBd|d<c c>A (3cAc|
+c<B BA A>G|(3ABc e3 e|e2 f2 (3dBd|d<c c>A (3cAc|
+c<B B>c (3dBd|d<c c>A (3cAc|c<B BA A>G|(3ABc A4:|
+
+X:14
+T:Polska
+R:polska K1
+S:Sofia Karlsson
+O:Dalarna
+Z:hn-k1-14
+M:3/4
+K:D
+{ba}b2 bg/b/ {ab}a2|e>e a>b {ab}a>g|g2 f/g/f/e/ d>c|
+B2 bg/b/ {ab}a2|e>e a>b a>g|g>f f4:|
+|:{fg}f2 d(3c/d/e/ f>g|{fg}f2 dg {a}b2|b2 a(3b/a/f/ a>g|e2 dc {AB}A2|
+{fg}f2 d(3c/d/e/ f>g|{fg}f2 dg {a}b2|b2 a(3b/a/f/ a>g|e<c d4:|
+
+X:15
+T:Polska efter Marius Nytr{\o}en, Vingelen
+R:polska K1
+O:Norway
+Z:id:hn-k1-15
+M:3/4
+L:1/8
+K:Glyd
+d|dc AB G>B|BA FG D2|G>E FG A<B|B>A Bc d>d|
+dc AB G>B|BA FG D2|G>E FG (3ABA|G2 G3:|
+|:D|(3DEF (3GAB A>F|(3GAB (3ABG D>D|(3DEF (3GAB A>F|(3GAB (3ABe d>D|
+(3DEF (3GAB A>F|(3GAB (3ABG D>D|(3DEF (3GAB A>F|G2 G3:|
+
+X:16
+T:Polska fr{\aa}n \"Alvdalen
+R:polska K1
+O:\"Alvdalen, Dalarna
+Z:id:hn-k1-16
+M:3/4
+L:1/8
+K:Am
+e2 ^gb a>a|a2 =g/a/g/e/ f>f|f>e d<e f>g|a2 f/a/f/d/ e>e|
+e2 ^gb a>a|a2 =g/a/g/e/ f>f|f>e d<e f>g|af/d/ e4:|
+|:B2 c/B/c/d/ e>c|B2 AB c>c|B2 c/B/c/d/ e>c|B2 AG E2|
+B2 c/B/c/d/ e>c|B2 AB c>c|B2 c/B/c/d/ e>c| B2 A4:|
+
+X:17
+T:Polska efter Smed-Per
+R:polska K1
+O:H\"alsingland
+Z:id:hn-k1-17
+M:3/4
+L:1/8
+K:D
+D2 DF E>C|D>E DC D>F|A2 Ac B>^G|(3ABc A^G A>F|
+D2 DF E>C|D>E DC D>F|A2 Ac B>^G|(3ABc A4:|
+K:Ddor
+|:A2 ag e>^c|d>e fg/f/ e>^c|A2 ag e>^c|d>e fg/f/ e>^c|d2 d4:|
+
+X:18
+T:Hambraeuspolskan
+R:polska K1
+O:Orsa, Dalarna
+Z:id:hn-k1-18
+M:3/4
+L:1/8
+K:D
+A|d>c de/f/ gf|d<c A3G|=F2 GB A>G|G=F DE =C>A|
+d>c de/f/ gf|d<c AG =F2-|=F(3G/F/E/ =FG A/B/A/G/|Ec d3:|
+|:A|=ce de c>d|e2 g/f/g/b/ a>g|ef de =cA/c/|e>d Bd/=c/ A>A|
+=ce de c>d|e>g (3bgb a>g|ef de =c>d|e/f/e/^c/ d3:|
+
+X:19
+T:Springlek
+T:N{\aa}sragan
+R:polska K1
+O:Dalarna
+Z:id:hn-k1-19
+M:3/4
+L:1/8
+K:D
+A|A2 a2 g>e|f>e fa gf|d>c (3def g>f|d2 e/f/e/d/ c>A|
+A2 a2 g>e|f>e fa gf|d>c (3def g>e|(3cec d3:|
+|:A|d2 AB G>A|FG EF D2-|D2 de/f/ g>f|d2 e/f/e/d/ c>A|
+d2 AB G>A|FG EF D2-|D2 de/f/ g>e|(3cec d3:|
+
+X:20
+T:Polska fr{\aa}n N{\aa}s
+R:polska K1
+O:N{\aa}s, Dalarna
+Z:id:hn-k1-20
+M:3/4
+L:1/8
+K:Dm
+A2 aa/a/ g>a|f2 fe/d/ e>f|e>^c A<c d>e|(3fdf e<^c A2-|
+A2 aa/a/ g>a|f2 fe/d/ e>f|e>^c A<c d>f|(3e^ce d4:|
+|:A2 A^c d>e|f2 fe/d/ e>f|e>^c A<c d>e|(3fdf e<^c A2-|
+A2 A^c d>e|f2 fe/d/ e>f|e>^c A<c d>f|(3e^ce d4:|
+
+X:21
+T:Faut Marit
+R:polska K1
+O:\"Alvdalen, Dalarna
+Z:id:hn-k1-21
+M:3/4
+L:1/8
+K:Amix
+A2 cd e>c|d2 BG B2-|B2 fg/f/ ef/e/|1 d2 B4:|2 d2 B4-||
+|:B2 GF/G/ A>F|F2 EG B2-|B2 GF/G/ A>F|F2 EG B2-|B2 GF/G/ A>F|F2 E4:|
+
+X:22
+T:Polska fr{\aa}n \"Alvdalen
+R:polska K1
+O:\"Alvdalen, Dalarna
+Z:id:hn-k1-22
+M:3/4
+L:1/8
+K:Dm
+A2 d/e/d/^c/ A>c|e2 g/a/g/e/ f>g|f>e d<^c A>c|d2 f/d/f/d/ e>e|
+A2 d/e/d/^c/ A>c|e2 g/a/g/e/ f>g|f>e d<^c A>c|e2 e4:|
+|: e2 g/a/g/e/ f>e|d/^c/d/e/ (3fed ^c>d|e2 g/a/g/e/ f>e|d/^c/d/e/ (3fed ^c>A|
+^c<=B A>G A>c|e2 e3=c|d2 =c/d/c/A/ =B>A|G<=B A4:|
+
+X:23
+T:Polska efter Omas Per Nilsson
+R:polska K1
+O:Transtrand, Dalarna
+Z:id:hn-k1-23
+M:3/4
+L:1/8
+K:Ddor
+|:e|g>e fd e>d|^cB AG F>G|A2 fe/d/ e>A|^c<e d2 A>e|
+g>e fd e>d|^cB AG F>G|A2 fe/d/ e>A|^c<e d3:|
+|:E|F2 EF D>E|EF ED/E/ F>G|(3AB^c d2 D>E|
+F2 EF D>E|EF ED/E/ F>G|(3AB^c d>e f>e|1 ^c<e d3E:|2 ^c<e d3||
+
+X:24
+T:N\"ackens polska
+R:polska K1
+O:\"Alvdalen, Dalarna
+B:Version 1: Spelmansmusik fr{\aa}n Sverige, Danmark och Norge
+Z:id:hn-k1-24
+M:3/4
+L:1/8
+K:Gm
+G>B dd fa | a=b/a/ (3gag ff | d>c B/A/B/c/ dB | A/^F/A/^F/ FG G2 :|
+|: G>B Bd fd | d^c =e/c/=e/c/ d2 | G>B Bd fd | d^c =e/c/=e/c/ d2 |
+{A}B2 {c}B/A/B/c/ dB | A/^F/A/^F/ FG G2 | g^f{gf} dB dc |
+A/^F/A/^F/ FG G2 :|
+

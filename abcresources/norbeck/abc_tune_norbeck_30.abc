@@ -1,0 +1,199 @@
+This file contains 13 polskas (#1 - #13).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note that these tunes are all played with the 1st beat long and the 3rd beat short,
+ratios approximately 3:3:2 or 3:2:2
+
+Last updated 1 May 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:polska L1
+M:3/4
+Z:id:hn-L1-%X
+
+X:1
+T:Polska efter Gammel-Spaken
+R:polska L1
+O:S\"arna, Dalarna
+Z:id:hn-L1-1
+M:3/4
+K:D
+A2|:g2 f2 ed|e>d cB A2|g2 f2 ed|e>d cB AG|
+A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|1 d2 d2 A2:|2 d2 d2 AA||
+|:A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|e>d cB AG|
+A2 B2 c2|d2 e2 f2|ge/g/ (3fdf (3ece|1 d2 d2 AA:|2 d2 d2||
+
+X:2
+T:Polska efter Magnus Olsson
+R:polska L1
+H:efter Magnus Olsson (1824-1920), Lycke, Arvika
+O:V\"armland
+Z:id:hn-L1-2
+M:3/4
+K:D
+A2 B2 c2|d2 e2 f2|g>f e>d cB|A>G FE D2|
+A2 B2 c2|d2 e2 f2|g>f e>d (3cBc|1 d2 d2 A2:|2 d2 d4||
+|:a2 f2 d'2|a2 f2 ef|g>f e>d cB|A>G FE D2|
+a2 f2 d'2|a2 f2 ef|g>f e>d (3cBc|1 d2 d2 A2:|2 d2 d4||
+
+X:3
+T:Polska efter Jon Andersson
+R:polska L1
+H:efter Jon Andersson (1846-1924), L\"anserud, Norra Finnskoga
+O:V\"armland
+Z:id:hn-L1-3
+M:3/4
+K:Dm
+af|d>d ^c>A cd|e2 f>a g=b|a>f e>d (3^c=Bc|dA FD af|
+d>d ^c>A cd|e2 f>a g=b|a>f e>d (3^c=Bc|d4:|
+|:a2|fg/a/ (3fga (3fga|_b2 _b2 g2|ef/g/ (3efg (3efg|a2 a2 af|
+d>d ^c>A cd|e2 f>a g=b|a>f e>d (3^c=Bc|d4:|
+
+X:4
+T:Polska efter Jon Andersson
+R:polska L1
+H:efter Jon Andersson (1846-1924), L\"anserud, Norra Finnskoga
+O:V\"armland
+Z:id:hn-L1-4
+M:3/4
+K:D
+a>g g<f f2|g>f f<e ef|g>f ed cB|AB/c/ d>A F[AD]|
+a>g g<f f2|g>f f<e ef|g>f ed cB|AB/c/ d4:|
+|:A>F Ad fa|a2 e3f|g>f ed cB|AB/c/ d>A F[AD]|
+A>F Ad fa|a2 e3f|g>f ed cB|AB/c/ d4:|
+
+X:5
+T:Den fan spelte p{\aa} Skjeft{\aa}sen
+R:polska L1
+H:efter Jon Andersson (1846-1924), L\"anserud, Norra Finnskoga
+O:V\"armland
+Z:id:hn-L1-5
+M:3/4
+K:Am
+f2 Pf>e d2|(3efe (3ded c2|c>PB A>^G AB|(3^cAc (3B^GB A2|
+f2 Pf>e d2|(3efe (3ded c2|c>PB A>^G (3AB^c|A2 A2-A2:|
+|:e>=f e>d e^f|^g>a (3b^gb a2|=g>P^f e>^d ef|(3geg (3^fdf e2|
+e>=f e>d e^f|^g>a (3b^gb a2|=g>P^f e>^d (3e^f^g|e2 e2-e2:|
+
+X:6
+T:Hurv efter Bork Julius
+R:polska L1
+H:efter Oskar Julius Nilsson (1871-1939), Lekvattnet, S\"odra Finnskoga
+O:V\"armland
+Z:id:hn-L1-6
+M:3/4
+K:Ddor
+A>^c d>e fa|g>b a>e f2|a4 a2|af e>g fd|d>f e^c A2|
+A>^c d>e fa|g>b a>e f2|a4 a2|ag f>d e2|^c2 d4:|
+|:^c>d e>f de|^c>d e>f de|^c>d e>f d2|d2 e4|
+^c>d e>f de|^c>d e>f de|^c>d e>f d2|^c2 d4:|
+
+X:7
+T:Polska efter Jon Andersson
+R:polska L1
+H:efter Jon Andersson (1846-1924), L\"anserud, Norra Finnskoga
+O:V\"armland
+Z:id:hn-L1
+M:3/4
+K:Dm
+d2 f3/e/4f/4 ed|{d}^c>d (3e^ce d2|P=c2 e2 dc|PB>c (3dBd Pc2|
+d2 f3/e/4f/4 ed|{d}^c>d (3e^ce d2|P=c>A ^G>A (3BcB|A4 A2||
+Pc2 e2 dc|PB>c (3dBd Pc2|A2 A>c BA|^GA (3B^GB A2|
+Pc2 e2 dc|PB>c (3dBd Pc2|e>c A>c (3BA^G|A4 A2||
+P:Nice chords
+"Dm"d2 "Dm"f3/e/4f/4 "A"ed | "A"{d}^c>d "A"(3e^ce "Dm"d2 | 
+"Am"P=c2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Dm"d2 "Dm"f3/e/4f/4 "A"ed|"A"{d}^c>d "A"(3e^ce "Dm"d2|
+"Am"P=c>A "G#dim"^G>A "Bb"(3BcB|"Am"A4 "Am"A2||
+"Am"Pc2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Am"A2 "Am"A>c "Bb"BA|"G#dim"^GA "G#dim"(3B^GB "Am"A2|
+"Am"Pc2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Am"e>c "Am"A>c "G#dim"(3BA^G|"Am"A4 "Am"A2||
+
+X:8
+T:Fanteladda
+T:Finnskogspols
+R:polska L1
+O:V\"armland
+O:Elverum, Norge
+Z:id:hn-L1-8
+M:3/4
+L:1/8
+K:D
+A>B A>G FG | A2 d2 f2 | A>B A>G FE |1 E2 D4 :|2 E2 D2 ||
+|: Ac | e2 e2 Ad | f2 f2 ef | g>f e>d cB | B2 A2 BA |
+G2 G2 AG | F2 F2 GF | E>F G>A Bc |1 d2 d2 :|2 d2 d4 ||
+
+X:9
+T:Jenta p{\aa} Neset
+R:polska L1
+H:efter Laurits Tangen
+O:Austmarka, Kongsvinger, Norge
+Z:id:hn-L1-9
+M:3/4
+L:1/8
+K:Dm
+a2 a2 ge | f2 ag/f/ e>e | f2 f>e ^cd | e>f d^c/d/ A2 |
+a2 a2 ge | f2 ag/f/ e>e | f2 f>e d^c |1 d2 d2 A2 :|2 d2 d2 d2 ||
+|: A2 d>^c de | f2 ag/f/ e>e | f2 f>e ^cd | e>f d^c/d/ A2 |
+d2 d>^c de | f2 ag/f/ e>e | f2 f>e d^c |1 d2 d2 A2 :|2 d2 d4 ||
+
+X:10
+T:Doktor Bergstr\"oms polska
+R:polska L1
+H:efter Magnus Olsson
+O:V\"armland, Arvika
+Z:id:hn-L1-10
+M:3/4
+L:1/8
+K:D
+A>F DF E2- | E>F G>B A2- | A>c e2 e2 | g>f d>f A2 | 
+A>F DF E2- | E>F G>B A2- | A>c e2 ed | (3cBc d4 :|
+|: A2 a2 f2 | d2 b2 g2 | e2 g>f d2- | d2 (3cec A2- |
+A2 a>g fe | d>f f>a gf | e>f g>f ed | cB/c/ d4 :|
+
+X:11
+T:Polska efter Magnus Olsson
+R:polska L1
+H:efter Magnus Olsson (1824-1920), Lycke, Arvika
+O:V\"armland
+Z:id:hn-L1-11
+M:3/4
+L:1/8
+K:D
+A | c>d e>f dc | A2 A<G E2 | (3FEF A>G EC | E>G E>C A,2 |
+c>d e>f dc | A2 A>G E2 | (3FEF A>G EC | D2 D3 :|
+|: A | c>d e>d e>^g | a2 a2 (3gag | f>f e2 cd | e>f d>c A2 |
+c>d e>d e>^g | a2 a2 (3gag | f>f e>d cB/c/ | d2 d3 :|
+
+X:12
+T:Den springdansen som puken spelte da gruekjerka brann
+R:polska L1
+D:Rusk
+Z:id:hn-L1-12
+M:3/4
+L:1/8
+K:G
+B2 | G2 D2 B2 | G2 D2 B2 | A2 FA ce | d>B G>B dc | A2 F<A dF | G4 :|
+|: ef | g>g f>e fa | g>g f>e fa | g>g f>e c2 | e2 d>B G2 | B2 A>D FA | G4 :|
+
+X:13
+T:Finnskogspols efter Johan Olsen Tajet
+R:polska L1
+Z:id:hn-L1-13
+M:3/4
+L:1/8
+K:D
+|: F>A F>A FA | G>B G>B GB | e>d c>A Bc | d>f e>c A2 |
+F>A F>A FA | G>B G>B GB | e>d c>A Bc | d2 d4 :|
+|: d>f d>f df | g2 g4 | c>e c>e ce | f2 f4 |
+F>A F>A FA | G>B G>B GB | e>d c>A Bc | d2 d4 :|
+

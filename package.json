@@ -52,9 +52,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "buildresources": "nodejs ./abcresources/rename_all.js; nodejs ./abcresources/indexes_from_files.js",
     "build": "react-scripts build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; node hackSw.js ",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serveextras": "ws --cors.origin=* -p 4000"
   },
   "eslintConfig": {
     "extends": [

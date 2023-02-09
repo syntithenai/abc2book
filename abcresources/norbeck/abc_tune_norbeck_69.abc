@@ -1,0 +1,407 @@
+This file contains 27 strathspeys (#1 - #27).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 23 August 2020.
+
+(c) Copyright 1997-2020 Henrik Norbeck. This file:
+- May be distributed freely (with restrictions below).
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:strathspey
+Z:id:hn-strathspey-%X
+M:C
+
+X:1
+T:Laird of Drumblair, The
+R:strathspey
+C:James Scott Skinner (1843-1927), Scotland
+H:See also reel#487
+Z:id:hn-strathspey-1
+M:C
+K:A
+(3EFG|:A2c>A E>Ac>e|a2g>a f>ae>c|(3def (3efg (3aed (3cBA|(3Bcd (3cBA (3GFE (3dcB|
+A2c>A E>Ac>e|a2g>a f>ae>c|(3def (3efg (3aed (3cBA|1 (3GFE (3dcB A2 (3EFG:|
+[2 (3GFE (3dcB A2 (3efg|:a2e>a c>aA>a|(3cBA e>A a>ec>e|b2f>b d>bB>f|
+(3dcB f>B b>fd>f|a2e>a c>aA>a|(3cBA e>A a>ec>e|(3def (3efg (3aed (3cBA|
+[1 (3GFE (3dcB A2 (3efg:|2 (3GFE (3dcB A2||
+
+X:2
+T:Iron Man, The
+R:strathspey
+C:James Scott Skinner (1843-1927), Scotland
+Z:id:hn-strathspey-2
+M:C
+K:A
+A2c>A B<GA>B|c2e>c d<Bc>e|f2d>f e2c>e|(3dcB (3cBA G<BB>c|
+A2c>A B<GA>B|c2e>c d<Bc>e|f2d>f e<ac>A|1 (3Bcd (3dcB c<AA>E:|2 (3Bcd (3dcB c<AA>e||
+|:a>Ag>A f>Ae>A|(3cBA e>g a>ec>A|d<Ec>E B<Ec>E|d/c/B c/B/A (3Bcd (3efg|
+a>Ag>A f>Ae>A|c/B/A e>g a>ec>A|d2f>d (3eag (3fed|1 (3cBA (3GAB c<AA>e:|
+[2 (3cBA (3GAB c<AA>E||
+
+X:3
+T:Bog an Lochain
+R:strathspey
+Z:id:hn-strathspey-3
+M:C
+K:Edor
+E2E2 E>FB>F|E2E2 F<D (3BAF|E2E2 E>FB>A|1 B<dA>d F<D (3BAF:|2 B<dA>d F<DD>A||
+|:B2B>A B<EE>A|B2B>A F<DD>A|B2B>A d>ef>e|1 (3dBA d>A F<DD>A:|2 (3dBA d>A F<DD>f||
+e2e2 e>fb>f|e2e2 d>fa>f|e2e2 e>fb>f|g<eb>e (3def a>f|
+g<eb>e g<eb>e|g<eb>e (3def a>f|g<ee>f d>ef>e|(3dBA d>A F<DD>A||
+|:B2B>A B<EE>A|B2B>A F<DD>A|B2B>A d>ef>e|1 (3dBA d>A F<DD>A:|2 (3dBA d>A F<DD>F||
+
+X:4
+T:Drumnagarry Strathspey
+R:strathspey
+D:Altan: Island Angel
+Z:id:hn-strathspey-4
+M:C
+K:G
+G>G, (3B,A,G, (3B,CD G>D|E<A,F>A, G>FE>F|G>G, (3B,A,G, (3B,CD G>D|
+[1 (3EFG (3AGF (3GDC (3B,A,G,:|2 (3EFG (3AGF G2G>c||
+B<GB>d g>dB>d|(3cBA (3BAG A>Bc>d|B<GB>d g>dB>G|(3FGA (3DEF G2G>c|B<GB>d g>dB>d|
+(3cdc (3BcB A>Bc>e|(3dcB (3ABc (3BAG (3FGA|(3GFE (3DEF (3GDC (3B,A,G,||
+
+X:5
+T:Jimmy Lyons' Strathspey
+R:strathspey
+D:Altan: Altan
+Z:id:hn-strathspey-5
+M:C
+K:A
+A>ag>a e<Ac>A|F>Ad>c B>EG>B|A>ag>a e<Ac>A|1 F>AG>B c<AA>G:|2 F>AG>B c<A (3agf||
+|:e<cc>e f<dd>e|d>B^d>f g<ee>f|e<cc>e f>df>a|1 (3gfe (3dcB (3Ace (3agf:|
+[2 (3gbg (3efg a>Ac>B||
+
+X:6
+T:King George IV
+R:strathspey
+D:Tommy Peoples: Traditional Irish Music Played on the Fiddle
+Z:id:hn-strathspey-6
+M:C
+K:Ador
+A,2E>A, {C}B,>A,E>A,|~A,2E>A, {C}B,>A, (3G,A,B,|A,2E>A, {C}B,>A,E>A,|
+[1 B,>DG>E (3DEC (3B,A,G,:|2 B,>DG>E D<B,G,2||
+K:Amix
+|:c>eA>B c<Ae>A|c<eA>f (3gag (3fed|1 c<eA>e c>Ae>f|g>fg>d B<dG>B:|
+[2 e<aA>g A>fe>A|E<GD>E B,>A,{C}B,>G,||
+
+X:7
+T:Cat that Kittled in Jamie's Wig, The
+T:Miss Lyall
+R:strathspey
+H:Francie Byrne plays first version with quarter-tones, which are not notated here.
+H:Also played with doubled parts.
+H:See also reel#143 "Paddy Ryan's Dream"
+D:The Brass Fiddle (Francie Byrne)
+Z:id:hn-strathspey-7
+M:C
+K:Ador
+Bc>B | A<A,A,>B, C>DE>F | G>G{A}G>F G>cB>c | A<A,A,>B, C>D (3Bcd | (3efe (3dcB A>Bc>B |
+A<A,A,>B, C>DE>F | G>DB,>D G>Bc>d | (3efe (3dcB c>AB>G | E<AA>G A>B^c>d ||
+e<aa>^g e>f=g>d | e<aa>f g>ef>d | e<aa>^g e>f=g>f | (3efe (3d=cB c>AB>G |
+e<aa>^g e>f=g>d | e<aa>f g>fg>a | (3bc'b (3agf g>ef>d | (3efe (3d=cB A ||
+P:variations
+Bc>B | A<A,A,>B, C>DE>F | G>G (3AGF G>Bc>B | A<A,A,>B, C>DE>B | (3cBA (3BAG A>Bc>B |
+A<A,A,>B, C>DE>F | G>G (3AGF G>Bc>d | (3edc (3dcB c>AB>G | E<AA>G A>Bc>d ||
+e<aa>f g>fg>d | e<aa>f g2f>g | e<aa>f g>fg>d | (3efe (3dcB A>Bc>d |
+e<aa>f g>fg>d | e<aa>f g>fg>a | (3bag (3agf g>ef>d | (3efe (3dcB A ||
+
+X:8
+T:Marquis of Huntly's Farewell, The
+R:strathspey
+C:William Marshall (1748-1833)
+D:Tommy Peoples
+Z:id:hn-strathspey-8
+M:C
+L:1/8
+K:A
+A,2 ~A,2 C<E E2|:A>B c>A B>A B<c|A,2 ~A,2 C<E E>c|B/A/B/c/ d/c/B/A/ F3A|
+E<A, ~A,2 C<E E2|A>B c>A B>A B<c|d>c d>f e<c c>a|1 B/A/B/c/ d/c/B/A/ F3A|
+EA, ~A,2 C<E E2:|2 B/A/B/c/ d/c/B/A/ F3e|:f/e/d/c/ a>c b>c a2|
+f/e/d/c/ a>g f>e d>c|B<b b>f a/g/f/e/ b2|B<b b>f a>g f>e|
+f/e/d/c/ a>c b>c a2|f/e/d/c/ a>g f>e d>c|d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/|
+[1 B/A/B/c/ d/c/B/A/ F3e:|2 B/A/B/c/ d/c/B/A/ B/A/G/F/ E/D/C/B,/||
+
+X:9
+T:Highland Whisky
+R:strathspey
+C:Niel Gow (1727-1807), Scotland
+S:Annsofi Jonsson
+Z:id:hn-strathspey-9
+M:C
+L:1/8
+K:A
+E | AA/A/ A2 A>Bc<e | BB/B/ B>c d>e f<a | AA/A/ A2 A>B c>d | (3efg a>c B2 A :|
+e | c/B/A (3eAA (3fAA (3eAA | F<B B>A G<B B>d | c/B/A (3eAA (3fAA (3eAA |
+(3efg a>c B2 Ae | c/B/A (3eAA (3fAA (3eAA | F<B B>A G<B B>c | A<c B<d c<e d<f |
+(3efg a>c B2 A ||
+
+X:10
+T:Earl Grey
+R:strathspey
+C:James Hill (1811-1853), Northumberland
+Z:id:hn-strathspey-10
+M:C
+L:1/8
+K:A
+A>BA>E F<AE>c | d>B d/c/B/A/ G<BB>c | A>BA>E F<AE>c |1 (3def (3efg (3aed (3cdB :|
+[2 (3def (3efg a<AA>g || a>Ag>A f>Ae>A | d>B d/c/B/A/ G<BB>g |
+a>Ag>A f>Ae>c | (3def (3efg a<AA>g | a>Ag>A f>Ae>A |
+d>B d/c/B/A/ G<BB>E | A>BA>E F<AEc | (3def (3efg (3aed (3cdB ||
+
+X:11
+T:Braes Of Auchtertyre, The
+R:strathspey
+H:Related to the reel "Miss Monaghan" reel#254, reel#552
+Z:id:hn-strathspey-11
+M:C
+L:1/8
+K:D
+D/D/D D>E F<AA>B | d>ef>e d>BA>d | B/B/B B>A B2b2 | a<da>f e2d2 |
+D3E F<AA>B | d>ef>e d>BA>d | B<dA<d G<dF>d | f/e/d/c/ d>F E2D2 ||
+f>ga>b a<fd>a | b>ge>g f>ed>A | B/B/B B>A B2b2 | a<dg>f e3g |
+f>ga>b a<fd>a | b>ge>g f>ed>A | B<dA<d G<dF>d | f/e/d/c/ d>F E2D2 ||
+
+X:12
+T:Ewie with the Crooked Horn, The
+T:Ewe wi' the Crookit Horn, The
+R:strathspey
+Z:id:hn-strathspey-12
+M:C
+L:1/8
+K:Gmix
+D<GG>A F>GA<F | D<G GA/B/ c>AB<G | A>Bc>B A>GF<C | D<GG>B A<FG2 :|
+K:Gdor
+d<gg>a f>ga<f | d<gg>a f/g/a g2 | d<gg>a b/a/g a/g/f | d<gb>g a>fg2 |
+f<ad>f c>fA<F | G/A/B/c/ d>B c>Ad>e | f<ad>f c>fA<F | G/A/B/c/ d>B c<A G2 ||
+
+X:13
+T:Smith's A Gallant Fireman, The
+R:strathspey
+Z:id:hn-strathspey-13
+M:C
+L:1/8
+K:D
+D2D>F A2A>F | A>Bd>A F2E>D | E2E>F E2E>f | g>fe<d B>A B/c/d | 
+D2D>F A2A>F | A>Bd>A F2E>D | G>BG<B F>AF<A | E>FG>A B>AB>c || 
+d2f>e e<dd>B | A>Bd<A F2E>D | e2e>f e2e>f | g>fe<d B>AB>c | 
+d2f>e e<dd>B | A>Bd<A F2E>D | G>BG<B F>AF<A | E>FG>A B>A B/c/d || 
+
+X:14
+T:Pulling Bracken
+T:Pu'in Bracken
+T:Cutting Bracken
+T:Cutting Ferns
+T:Tha Mi Sgith
+R:strathspey
+H:Also in Ador, #15
+Z:id:hn-strathspey-14
+M:C
+L:1/8
+K:Edor
+E2 e2 d<B d2 | B>A F>E D>E F<D |
+E2 e2 d<B d2 | B>A F<D E2 E2 :|
+|: B>A F>E D>E F<A | B>A F<E A2 A2 |
+B>A F>E D>E F<A | B>A F<D E2 E2 :|
+
+X:15
+T:Pulling Bracken
+T:Pu'in Bracken
+T:Cutting Bracken
+T:Cutting Ferns
+T:Tha Mi Sgith
+T:An Cailin Tuirseach
+R:strathspey
+H:Also in Edor, #14
+Z:id:hn-strathspey-15
+M:C
+L:1/8
+K:Ador
+A2 a2 g<e g2 | e>d B>A G>A B<G |
+A2 a2 g<e g2 | e>d B<G A2 A2 :|
+|: e>d B>A G>A B<d | e>d B<A d2 d2 |
+e>d B>A G>A B<d | e>d B<G A2 A2 :|
+
+X:16
+T:Miss Ramsey's
+T:Lady Mary Ramsay
+R:strathspey
+C:Nathaniel Gow (1763-1831), Scotland
+H:See also reel#445, reel#924. Also played as a fling "The Queen's Shilling" in G.
+Z:id:hn-strathspey-16
+M:C
+L:1/8
+K:D
+D2DB A<FFG | A<FdB A<FFE | D2DB A<FFA |1 (3Bcd AF E2EF :|2 (3Bcd AF E2Ee ||
+|: f<ddf e<cce | dcdB A<FFe |1 f<ddf e<cce | (3dcB AF E2Ee :|
+[2 (3fed (3edc (3dcB A2 | (3Bcd AF E2EF ||
+P:variations
+|: D2DB A<FF2 | AFdB A<FFE | D2DB A<FFA |1 (3Bcd AF EGFE :|2 (3Bcd AF E3g ||
+|: f<ddf e<cce | dcdB A<FF2 |1 f<ddf e<ccA | (3Bcd AF E2Eg :|
+[2 (3fed (3edc (3dcB A2 | (3Bcd (3AGF E3F ||
+
+X:17
+T:Aird Ranters, The
+R:strathspey
+C:Fred Morrison, Scotland
+Z:id:hn-strathspey-17
+M:C
+L:1/8
+K:Ador
+a2ae g<eed | e<aae g<ed2 | e<aae g<eed |1 c<AAG c<AA2 :|2 c<AAG c<AAB ||
+|: c2Bd c<AAG | c<AAG c<AAB | c2Bd c<AAG |1 c<AAG A2AB :|2 c<AAG A2A2 ||
+
+X:18
+T:Mac An Irish
+R:strathspey
+H:Scottish
+Z:id:hn-strathspey-18
+M:C
+L:1/8
+K:D
+A>B d>e f<a f2 | e>d d/d/d B<d e2 | A>B d>e f<a f2 | f>e d>B A2A2 :|
+|: a2 a>g f<a f2 | e>d d/d/d B<d e2 |1 a2 a>g f<a f2 | f>e d>B A2A2 :|
+[2 A>B d>e f<a f2 | f>e d>B A2 A2 ||
+
+X:19
+T:Jessie Smith
+T:Jesse Smith
+T:Miss Jessie Smith
+R:strathspey
+O:Scotland
+Z:id:hn-strathspey-19
+M:C
+L:1/8
+K:D
+A<F F>E D>A G/F/E/D/ | A<F F>A B2 B<d | A<F F>E D>A G/F/E/D/ | D>B A<F E2 E2 :|
+d>e f>d B>e d/c/B/A/ | d>e f<d B2 B2 | d>e f>d B>e d/c/B/A/ | d>B A<F E2 E2 |
+d>e f>d B>e d/c/B/A/ | d>e f<d B2 B>g | (3fed (3cde (3dcB (3ABc | d>B A<F E2 E2 ||
+
+X:20
+T:Munlochy Bridge
+R:strathspey
+O:Scotland
+Z:id:hn-strathspey-20
+M:C
+L:1/8
+K:G
+g | e>d B>A B<G G>B | d>e d<B d2 d>g | e>d B>A B<G G>f | g>e f<d e2 e :| 
+|: d>e g>a b>g a<b | d>e d<B d2 d<g |1 d>e g>a b>g a<b | a>g e<d e2 e<g :|
+[2 e>d B>A B<G G>f | g>e f<d e2 e ||
+
+X:21
+T:Sweetness of Mary, The
+R:strathspey
+C:Joan MacDonald Boes, Cape Breton, Canada
+H:Also played in A
+Z:id:hn-strathspey-21
+M:C
+L:1/8
+K:G
+G>A | B2 (3BAG E2 (3EGA | B>d c<e d2 (3def | g>fe>d d>cB>c | d<g B>G A2 G>A |
+B2 (3BAG E2 (3EGA | B>d c<e d2 (3def | g>fe>d d>cB>c | d<g B>A G2 :|
+g>a | b>dg<b a>df<a | g>fe<g d2 c>B | e>dc<e d>c>B>c | d<g B>G A2 g>a |
+b>dg<b a>df<a | g>fe<g d2 c>B | e>Gc<e d>cB>c | d<g B>A G2 |
+g>a | b>dg<b a>df<a | g>fe<g d2 c>B | e>dc<e d>c>B>c | d<g B>G A2 G>A |
+B2 (3BAG E2 (3EGA | B>d c<e d2 (3def | g>fe>d d>cB>c | d<g B>A G2 ||
+
+X:22
+T:Stirling Castle
+T:Grey Day-Licht, The
+R:strathspey
+C:Professor Bannatyne, Aberdeen
+O:Scotland
+Z:id:hn-strathspey-22
+M:C
+L:1/8
+K:D
+D2 F>A D>A F<A | A,2 C>E A,>E C<E | D2 F>A D>A F>A |
+[1 (3Bcd (3efg (3fed (3cBA :|2 (3Bcd (3efg f<d d>A ||
+|: d2 f>a g>e f>d | B2 g>f e>d (3cBA |1 d2 f>a g>e f>d | (3Bcd (3efg f<d d>A :|
+[2 (3fga (3gfe (3dcB (3AGF | (3GAB (3ABc (3dAG (3FGE ||
+
+X:23
+T:Miss Sarah Drummond Of Perth
+R:strathspey
+C:Niel Gow (1727-1807), Scotland
+H:See also highland#28
+Z:id:hn-strathspey-23
+M:C
+L:1/8
+K:Amix
+A<A e>d B<d e2 | d>g B>g d>=c B<G | A<A e>d B<d e>g | a>e g<B A2 A2 :|
+|: a2 e>a c<a e>f | g2 d>g B<g d>g |1 a2 e>a c<a e>a | g<e g>B A2 A2 :|
+[2 a2 e>a g<b e>g | a>e g<B A2 A2 :|
+
+X:24
+T:Calum's Road
+R:strathspey
+C:Donald Shaw, Scotland
+Z:id:hn-strathspey-24
+M:C
+L:1/8
+K:D
+|: D2 A>F A2 A2 | B2 d>c B>A F>A | B<d D>E F2 E>D | B,<D D/E/F E2 E2 |
+D2 A>F A2 A2 | B<d d>c B>A F<A | B<d D>E F2 E>D | B,<D D>E D4 :|
+|: B2 d>c B2 B2 | A>B A<E F<A- A2 | B2 d>c B2 (3BAB | d2 d>e (3fed (3dBA |
+B2 d>c B2 B2 | A>B A<E F3A | B2 d>E F2 E>D | B,<D D>E D4 :|
+
+X:25
+T:Italian Roast-er
+R:strathspey
+C:Mohsen Amini & David Lombardi
+D:Fourth Moon
+Z:id:hn-strathspey-25
+M:C
+L:1/8
+K:Bdor
+f2 B2 B>d c<B | c2 a2 f3 e | fg a2 g2 f>e | f2 B>d cB c<e |
+f2 B2 B>d c<B | c2 a2 f3 e | fg a2 g2 f>e |1 f/g/a f4 a/g/e :|2 f/g/a f3 e f/g/a ||
+|: b2 B2 B>b a<g | a2 c2 c>f f<e | f2 B2 B>f f<e | a>a a<g f>e f/g/a |
+b2 B2 B>b a<g | a2 c2 c>f f<e | f2 f>e f>e c>e |1 f/g/a f3 e f/g/a :|2 f/g/a f4 a/g/e ||
+
+X:26
+T:Haughs Of Cromdale, The
+R:strathspey
+H:See also slide#62 "Barrack Hill", polka#32 "The Glen Cottage"
+D:The Beaton Family of Mabou
+O:Scotland
+Z:id:hn-strathspey-26
+M:C
+L:1/8
+K:Edor
+B<EE>F B>AF>A | B<EE>F D>EF>A | B<EE>F B>AF>A |1 B>d B/A/G/F/ E2E>e :|
+[2 B>d B/A/G/F/ E2E>F :||: D<dd>e d/c/B/c/ d2 | F<AA>B B/A/G/F/ A2 |
+B<ee>f g>fe>d |1 B>d B/A/G/F/ E2EF :|2 B>d B/A/G/F/ E2Ee ||
+P:Variations
+|: B<EE>d B>AF>A | B<EE<F D>EF>A | B<EE>F B>AF>A |1 B<d A<F E2E>d :|
+[2 B<d A<F E2E>F :||: D<dd>e d/c/B/A/ d2 | F<AA>B A<F A2 |
+e2e>f g>fe>d |1 B<d A<F E2EF :|2 B<d A<F E2Ed ||
+
+X:27
+T:Major Graham
+R:strathspey
+C:Niel Gow (1727-1807), Scotland
+H:Also played in D
+Z:id:hn-strathspey-27
+M:C
+L:1/8
+K:G
+GE | D>E G>G G2 g>e | d<B A>G A2 A>B | D>E G>G G2 g>e | d<B A>B G2 :|
+(3def | g>a g>f e>d e>g | d<B A>G A2 (3def | g>a g>f e>d e<g | d<B A>B G2 d2 |
+g>a g>f e>d e>g | d<B A>G A2 A>B | D>E G<G G2 g>e | d<B A>B G2 ||
+

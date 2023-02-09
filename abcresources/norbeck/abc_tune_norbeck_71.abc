@@ -1,0 +1,260 @@
+This file contains 16 waltzes (#1 - #16).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 20 February 2020.
+
+(c) Copyright 1997-2020 Henrik Norbeck. This file:
+- May be distributed freely (with restrictions below).
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:waltz
+Z:id:hn-waltz-%X
+M:3/4
+L:1/8
+
+X:1
+T:Belltable, The
+R:waltz
+C:Kieran Hanrahan and Maurice Lennon
+Z:id:hn-waltz-1
+M:3/4
+K:D
+d3 e d2|d2 c2 B2|A3 B A2|A2 G2 F2|G2 GA BG|A2 AB cA|G2 GA BG|A2 B2 c2|
+d3 e d2|d2 c2 B2|A3 B A2|A2 G2 F2|G2 GA BG|A2 AB cA|G2 F2 E2|D6:|
+|:a3 b a2|a4 g2|f3 g f2|f2 e2 f2|g3 a g2|g2 f2 g2|a3 b a2|a2 f2 g2|
+a3 b a2|a4 g2|f3 g f2|f2 e2 d2|B3 d g2|f a3 c2|e d3 c2|1 d3 e fg:|2 d4 A2||
+
+X:2
+T:Mrs. Kinney's
+R:waltz
+Z:id:hn-waltz-2
+M:3/4
+K:D
+de|f2 fe dc|d4 FG|A2 G2 E2|A,2 C2 E2|g2 f2 e2|d2 c2 B2|A2 AB AG|F2 G2 A2|
+f2 fe dc|d4 FG|A2 G2 E2|A,2 C2 E2|g2 f2 e2|d2 c2 B2|A2 B2 c2|d4:|
+cB|:A2 fe f2|A2 fe f2|A2 fe f2|ag ba fd|A2 ed e2|A2 ed e2|1 A2 ed e2|ab ag fe:|
+[2 ab ag fe|d4|:FA|d4 ed|c4 dc|B2 G2 B2|A2 F2 D2|d4 cB|c4 BA|A2 G2 E2|D4:|
+
+X:3
+T:Trip to Broadford, The
+R:waltz
+C:Kieran Donnellan
+H:Originally in E
+Z:id:hn-waltz-3
+M:3/4
+K:D
+ED|:FA AF AB|A2 F4|B3 AAF|EA D2 ED|FA AF AB|A2 d3 e|d B2 AAF|1 D4 ED:|2 D3 AAF||
+|:~A3 B de|f3 e fe|d B2 dde|d A2 AAF|~A3 B de|f3 a fe|d B2 AAF|1 D3 AAF:|2 D4||
+
+X:4
+T:Margaret's Waltz
+R:waltz
+C:Pat Shaw, Shetland
+O:Shetland
+Z:id:hn-waltz-4
+M:3/4
+K:A
+AF|E3 F AB|c4 Ac|BA F2 Ac|B4 AF|E3 F AB|c e3 A2|c4 B2|A4:|
+cd|e2 f2 g2|a2 g2 a2|fe d2 f2|e4 cB|A3 B cd|e4 ce|fe d2 (3cAc|B4 cd|
+eA fA gA|aA gA fA|eA dA (3cAc|B4 AF|E3 F AB|c e3 A2|c4 B2|A4||
+
+X:5
+T:Tommy Bhetty's Waltz
+R:waltz
+D:Altan: The Red Crow
+Z:id:hn-waltz-5
+M:3/4
+K:G
+D2|:G3 B dB|G3 B dB|d2 b3 a|ga fg ef|G3 B dB|G3 B dB|D2 F2 A2|c2 (3BcB A2|
+G3 B dB|G3 B dB|d2 b3 a|ga fg ef|d g3 Bc|d3 c AF|G2 B2 BA|1 G4 D2:|2 G3 g fg||
+|:a2 f2 d2|A2 F2 D2|C2 b3 a|ga fg ef|d3 e d2|B3 A B2|D2 F2 A2|c2 (3BcB A2|
+d2 Bc dB|d b3 af|g2 b3 a|ga fg ef|d g3 Bc|d3 c AF|G2 B2 BA|1 G3 g fg:|2 G4||
+
+X:6
+T:Waltz of the Toys
+R:waltz
+C:Michel Faubert, Canada
+Z:id:hn-waltz-6
+M:3/4
+K:D
+fe fg fe|dB AF D2|fe fg fe|dB AF D2|e2 ef ed|c3 d cB|A^G AB cA|dB AF D2|
+fe fg fe|dB AF D2|fe fg fe|dB AF D2|e2 ef ed|c3 d cB|AB AG FE|1 D3 F Ad:|2 D3 d dc||
+dA FA dA|B3 d dB|cA Bc de|f3 f df|bf df bf|g3 e ed|ce Ac ae|f3 d dc|
+BF FB BF|G3 e ed|cB AG FE|F4 F2|GF GA Bc|de f2 d2|ge cA Bc|1 d3 d dc:|2 d3 F Ad||
+
+X:7
+T:New Land, The
+R:waltz
+C:Otis Thomas, Cape Breton, Canada
+S:Nicholas Quemener
+H:Originally in F
+Z:id:hn-waltz-7
+M:3/4
+K:E
+B GF|E3F (3GFE|B4 Bc|B3 G (3FGF|E3 F (3GFE|
+A3 G FG|A c3 e2|c3 A {FG}FE|F3 B (3AGF|
+G3 E GA|G B3 ef|g3 f eB|c4 ea|
+g3 f eg|f d3 e2|c6-|c3:|
+|:B ef|g3 f ga|g2 f2 eB|A3 G AB|A2 B2 c2|
+f3 e fg|f2 e2 d2|G3 F GA|G2 A2 B2|
+e3 d ef|ec dB cA|F2 FE FG|F3 f ec|
+B G3 A2|F d3 e2|c6-|c3:|
+
+X:8
+T:Empty Wallet Waltz
+R:waltz
+C:Fredrik Jakobsson, Sweden
+Z:id:hn-waltz-8
+M:3/4
+K:G
+G2|B3 A G2|E4 G2|A4 B2|A4 B2|d3 B G2|e3 d B2|A3 BAG|E4 G2|
+B3 A G2|E4 G2|A4 B2|A4 B2|G3 F E2|E2 F2 D2|E6|1 E4:|2 E3 FGA||
+Bd d2 B2|Ad d2 A2|GF GB AG|FGFE D2|EG G2 E2|DG G2 AB|c2 cB AG|A3 AGA|
+Bd d2 B2|Ad d2 A2|GF GB AG|FGFE D2|EG G2 E2|DG G2 AB|cB AG GF|G4||
+P:my version
+|:G2|B3 A G2|E4 G2|A3 GAB|A4 B2|d2 dB G2|e3 d B2|A3 BAG|E4 G2|
+B3 A G2|E4 G2|A2 AG AB|A4 B2|G2 GF E2|E3 F D2|E6|1 E4:|2 E3 FGA||
+(3Bcd d2 B2|Ad d2 A2|GF GB AG|FGEF D2|EG G2 E2|DG G2 AB|c2 cB AG|A3 AGA|
+(3Bcd d2 B2|Ad d2 A2|GF GB AG|FGEF D2|EG G2 E2|DG G2 AB|BA AG GF|G4||
+
+X:9
+T:Trip to Skye
+R:waltz
+C:John Whelan
+D:Skolvan
+D:John Whelan & Eileen Ivers
+Z:id:hn-waltz-9
+M:3/4
+L:1/8
+K:D
+f2 ed cB | ce AB ce | d2 ce dc | d2 B2 B2 |
+f2 ed cB | ce AB ce | d2 ce dc | BA FE FA :|
+|: F2 Bc d2 | F2 Bc d2 | ce AB ce | dc BA FE |
+F2 Bc d2 | F2 Bc d2 | ce AB ce | d2 B2 B2 :|
+
+X:10
+T:Valse des Esquimaux
+T:Ookpik Waltz
+R:waltz
+C:Frankie Rodgers (1936-2009), British Columbia, Canada
+H:Danish band La Bastringue have changed this tune around a bit. They play it
+H:in a set together with waltz#11 "Nerissa", and then Marco Pollier made those
+H:into one four part tune for his recording.
+D:La Bastringue
+D:Marco Pollier: Ebony & Brass
+Z:id:hn-waltz-10
+M:3/4
+L:1/8
+K:G
+P:La Bastringue's version
+DGA | B3 BcB | A2 AF ED | E G2 FGA | G2 GD (3GBd |
+e2 ed ef | e2 ed BA | B d2 ^cde | d3 GBd |
+e2 ed ef | e2 ed BA | B d3 BA | G E3 ED |
+C2 CE FE | D F3 ED | E G2 FGA |1 G3 :|2 G3 G (3Bcd ||
+|: e B3 BA | B3 BAB | d4 BA | B3 BAB |
+c3 cdc | Bc BA GF | ED (3EFG FD |1 E4 (3GBd :|2 E3 ||
+P:Original version
+|: DEF | G3 ABd | A F3 (3DED | E G4 A | G3 ABd |
+e4 ef | e d3 BA | B d3 e2 | d2 g2 f2 |
+e4 ef | e d3 (3dBA | B3 d (3BAG | E4 ED |
+C3 D EG | D F3 D2 | E2 G3 A |1 G3 :|2 G3 ABd ||
+|: e2 B3 A | B4 e2 | d2 B3 A | B4 B2 |
+A4 AB | A G3 (3GED |1 E G4 A | G2 B2 d2 :|2 E G4 E | FE D2 (3DEF :|
+
+X:11
+T:Nerissa
+R:waltz
+C:Bob McQuillen (1923-2014), New Hampshire, USA
+H:Danish band La Bastringue play it in a set together with waltz#10, and then
+H:Marco Pollier made those into one four part tune for his recording.
+D:La Bastringue
+D:Marco Pollier: Ebony & Brass
+Z:id:hn-waltz-11
+M:3/4
+L:1/8
+K:G
+|: D | E G3-G D | ED EF GA | B d3-d e | d4 BA |
+G2 GF GB | d4 BA | B3 c/B/ AG | E4-E D |
+E G3-G D | ED EF GA | B2 d2 de | d3 G (3Bcd |
+e2 g2 fe | d4 BA | GB A3 G |1 G4z :|2 G2 B2 d2 ||
+|: g3 gag | e2 d3 g | e2 d3 e | d3 c (3Bcd |
+g3 bag | e2 dg dg | ed GA (3Bcd | A2 G2 E2 |
+D2 E2 G2 | A2 G2 A2 | B2 d3 e | d3 G (3Bcd |
+e2 g2 fe | d4 BA | GB A3 G |1 G2 B2 d2 :|2 G3 ||
+
+X:12
+T:Flatwater Fran
+R:waltz
+C:Phil Cunningham, Scotland
+Z:id:hn-waltz-12
+M:3/4
+L:1/8
+K:G
+DE | G2G2DE | G2G2Bd | e2d2G2 | B4DE | G2G2DE | A2A2GA | B2AGED | E4
+DE | G2G2DE | G2G2Bd | e2d2g2 | B4dB | A2AGAB | AGE2GE | DEG2G2 | G4 :| 
+|: Bd | e2d2G2 | B4Bd | e2d2G2 | B4Bd | e2d2g2 | B2dBAG | A2AGAB | A4
+Bd | e2d2g2 | B2dBAG | A2d3c | B4AG | EAAGAB | AGE2GE | DEG2G2 | G4 :|
+
+X:13
+T:Stone Outside Dan Murphy's Door, The
+R:waltz
+D:De Danann: Ballroom
+Z:id:hn-waltz-13
+M:3/4
+L:1/8
+K:D
+^ga | b2 a2 f2 | d4 d2 | c2 B4- | B4 ef | g2 e2 c2 | A2 B2 A2 | f6- | f2 ^g2 a2 |
+b3 a f2 | d4 d2 | c2 B4 | e4 ef | g2 e2 c2 | A2 B2 c2 | d6- | d2 ||
+c2 d2 | e2 f3 ^g | a2 b3 a | a2 ^g4- | ^g3 agf | e2 B2 c2 | d2 ^g3 f | e6- | e2
+^g2 a2 | b2 a2 f2 | d4 d2 | c2 B2 B2 | e4 ef | g2 e2 c2 | A2 B2 c2 | d6- | d2 ||
+
+X:14
+T:Palm Trees Wave on High
+R:waltz
+D:De Danann: Ballroom
+Z:id:hn-waltz-14
+M:3/4
+L:1/8
+K:A
+c2d2 | e2^d2e2 | f4e2 | A6- | A2B2c2 | d4F2 | G4F2 | E6- | E2F2G2 |
+A4B2 | c4d2 | e4a2 | e4d2 | c3BA2 |1 d4c2 | B6- | B2 :|2 d4G2 | A6- | A2 ||
+
+X:15
+T:Boulavogue
+R:waltz
+D:De Danann: Ballroom
+Z:id:hn-waltz-15
+M:3/4
+L:1/8
+K:G
+D2 | G4D2 | G2B2d2 | g4f2 | e2g2e2 | d4e2 | B3AG2 | A3BAG | E4D2 |
+G4D2 | G2B2d2 | g4f2 | eg3e2 | d4e2 | B3AG2 | A4G2 | G3ABc ||
+d4B2 | d2e2f2 | g4f2 | e2g2e2 | d4e2 | B3AG2 | A3BAG | E4D2 |
+G4D2 | G2B2d2 | g4f2 | e2g2e2 | d4e2 | B3AG2 | A4G2 | G4 ||  
+
+X:16
+T:Pull Down the Blind
+R:waltz
+D:De Danann: Ballroom
+Z:id:hn-waltz-16
+M:3/4
+L:1/8
+K:D
+D2 | D2F3G | A4B2 | A2d3e | f4ef | a2g2f2 | e2^d2e2 | f2d2B2 | A2F2E2 | 
+D2F3G | A4B2 | A2d3e | f4ef | a2g2f2 | e2d2B2 | A2f2e2 | d4 ||
+de | f2d3f | e2c3e | d2c2B2 | A2F2A2 | B3ABd | c3Bcd | e2d2B2 | A3FAd |
+f2d3f | e2c3e | d2c2B2 | A2F2A2 | B3ABd | c3dcB | A2f2e2 | d4 ||
+

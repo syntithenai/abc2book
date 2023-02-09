@@ -1,0 +1,1599 @@
+This file contains 100 reels (#901 - #1000).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 3 February 2021.
+
+(c) Copyright 2014-2021 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:reel
+M:C|
+Z:id:hn-%R-%X
+
+X:901
+T:Maude Miller
+T:Old Maude Miller
+T:Maud Millar
+T:Sporting Molly
+R:reel
+D:NicGaviskey: Home Away from Home
+D:T\'eada: Give Us a Penny and Let Us Be Gone
+D:James Keane: With Friends Like These
+Z:id:hn-reel-901
+M:C|
+L:1/8
+K:Dmix
+dcAG FADF | E2cE dEcE | dcAG FADF |1 Add^c defe :|2 Add^c d3e ||
+f2df efge | afge afge | f2df efge | afge fdde |
+f2df efge | afge ~f3g | afge fde^c | Add^c defe ||
+P:variations
+|: dcAG FDDF | E2cE dEcE | dcAG FDDF |1 Adde fded :|2 Add^c d3e ||
+fAdf efge | a2ge a2ge | ~f3d efgb | a2ge fdde |
+fedf efge | a2ge fefg | a2ge f2e^c | Adde fded ||
+
+X:902
+T:Road to Errogie, The
+R:reel
+C:Adam Sutherland, Scotland
+H:Also played in G, see #903
+H:Originally composed in B
+Z:id:hn-reel-902
+M:C|
+L:1/8
+K:A
+EA~A2 BABc | eA~A2 Bcec | ~f3a ecAc | ~B2cA BAFA |
+EA~A2 BABc | eA~A2 Bcec | f3a ecAc |1 BAcB A2AF :|2 BAcB A2af ||
+ea~a2 a2ba | bc'2b a3e | f2ea- aef2- | feae fecd |
+ea~a2 a2ba | bc'2b a3e | f3a ecAc | BAcB A2af |
+ea~a2 a2ba | bc'2b a3e | f2ea- aef2- | feae fecA |
+EA~A2 BABc | eA~A2 Bcec | f3a ecAc | BAcB A2AF ||
+P:variations
+EA~A2 BABc | eA~A2 Bcea | f2af ecAc | BABc BAFA |
+EA~A2 BABc | eA~A2 Bcea | f2af ecAc | BABc A2AF |
+EA~A2 BABc | eA~A2 Bcec | f3e cBAc | ~B3c BAFA |
+EA~A2 BABc | eA~A2 Bcec | f3e cBAc | ~B3c A2ce ||
+a3a a2ba | c'3b a3e | f2ea- aef2- | feae fece |
+a3a a2ba | c'3b a3e | f2af ecAc | BABc A2ce |
+a3a a2ba | c'3b a3e | f2ea- aef2- | feae fecA |
+EA~A2 BABc | eA~A2 Bcec | f2af ecAc | BAcB A2AF ||
+
+X:903
+T:Road to Errogie, The
+R:reel
+C:Adam Sutherland, Scotland
+H:Also played in A, see #902
+H:Originally composed in B
+Z:id:hn-reel-903
+M:C|
+L:1/8
+K:G
+DG~G2 AGAB | dG~G2 ABdB | ~e3g dBGB | ~A2BG AGEG |
+DG~G2 AGAB | dG~G2 ABdB | e3g dBGB |1 AGBA G2GE :|2 AGBA G2ge ||
+dg~g2 g2ag | ab2a g3d | e2dg- gde2- | edgd edBc |
+dg~g2 g2ag | ab2a g3d | e3g dBGB | AGBA G2ge |
+dg~g2 g2ag | ab2a g3d | e2dg- gde2- | edgd edBG |
+DG~G2 AGAB | dG~G2 ABdB | e3g dBGB | AGBA G2GE ||
+P:variations
+DG~G2 AGAB | dG~G2 ABdg | e2ge dBGB | AGAB AGEG |
+DG~G2 AGAB | dG~G2 ABdg | e2ge dBGB | AGAB G2GE |
+DG~G2 AGAB | dG~G2 ABdB | e3d BAGB | ~A3B AGEG |
+DG~G2 AGAB | dG~G2 ABdB | e3d BAGB | ~A3B G2Bd ||
+g3g g2ag | b3a g3d | e2dg- gde2- | edgd edBd |
+g3g g2ag | b3a g3d | e2ge dBGB | AGAB G2Bd |
+g3g g2ag | b3a g3d | e2dg- gde2- | edgd edBG |
+DG~G2 AGAB | dG~G2 ABdB | e2ge dBGB | AGBA G2GE ||
+
+X:904
+T:Frank's Reel
+R:reel
+C:John McCusker, Scotland
+Z:id:hn-reel-904
+M:C|
+L:1/8
+K:A
+AcBA F2AF | EFAB cABc | d3f ecAe | (3fga ec BdcB |
+AcBA F2AF | EFAB cABc | d3f ecAc |1 BAGB AEFG :|2 BAGB Aefg ||
+aAAg AAfA | effe cABc | dcdf ecAc | Bcde fefg |
+aAAg AAfA | effe cABc | df~f2 ecAc | BAGB Aefg |
+aAAg AAfA | effe cABc | d3f eAce | faec (3Bcd cB |
+AcBA ~F3A | EFAB cABc | d3f ecAc | BAGB A2 (3EFG ||
+
+X:905
+T:Flynn's Reel
+R:reel
+C:Eamon Flynn
+S:Brian Carolan
+Z:id:hn-reel-905
+M:C|
+L:1/8
+K:Edor
+E2GB eBdB | GBAG FDDF | EDEF GFGA | Bdef (3gfe fd |
+eagf eEEF | GBAG FDDF | EDEF GBed |1 BAGF GEED :|2 BAGF GEEA ||
+|: Beef ~g3f | edBG EGBG | Adde ~f3e | dBAF DEFA |
+Beef ~g3f | edBG EGBG | Adde fdec |1 dBAF E3A :|2 dBAF E2ED ||
+	
+
+X:906
+T:Ashplant, The
+R:reel
+H:Also in Edor #285, in F#dor #821
+Z:id:hn-reel-906
+M:C|
+L:1/8
+K:Ador
+EA,~A,2 EDCD | EA,~A,2 G,A,CD | ~E3D EGAB | cAGE DECD :|
+|: E2AE cEAE | E2AG EDCD | EGAB ~c3d | cAGE DECD :|
+
+X:907
+T:Molly from Longford
+R:reel
+D:Peter Carberry: Traditional Irish Music from County Longford
+Z:id:hn-reel-907
+M:C|
+L:1/8
+K:Ador
+GE~E2 GEDE | GE~E2 BcBA | GE~E2 GEDB |1 cABG AcBA :|2 cABG A3d ||
+K:Amix
+cdec d2cd | eAAF GEDd | cdec d2cd | eAAG A3d |
+cdec d2cd | eAAF GEDd | Beed Beed | cABc dcBA ||
+
+X:908
+T:Old Maids of Galway, The
+T:Maids of Galway
+T:Johnny When I Die
+T:Johnny's Gone to France
+T:Paddy's Gone to France
+R:reel
+H:See also #912, #1051
+Z:id:hn-reel-908
+M:C|
+L:1/8
+K:D
+BF~F2 BFAF | E2DE FA~A2 | BF~F2 BFAF | EFDE FDDA |
+BF~F2 B2AF | EFDE FAAd | BABc dBAF | E2DE FDD2 ||
+dfed B2AB | dfed Be~e2 | dfed BdAF | E2DE FDD2 |
+dfed BdAB | dfed Be~e2 | fdec dBAF | EFDE FDDA ||
+
+X:909
+T:Cocktail, The
+T:Manglam, An
+R:reel
+D:Mick O'Brien And Caoimhin O'Raghallaigh: Kitty Lie Over
+D:Cathal McConnell: Long Expectant Comes At Last
+D:Marcas O Murchu: O' Bheal go Beal
+D:Desi Wilkinson: The Three Piece Flute
+Z:id:hn-reel-909
+M:C|
+L:1/8
+K:D
+DF~F2 D2FE | DF~F2 AFEF | DF~F2 D2ed | cABG AFEF :|
+|: A2~A2 EA~A2 | A2~A2 BG~G2 |1 A2~A2 EAAB | =cABG AGEG :|2 A2~A2 E2ag | fgef dBAF ||
+P:variations
+|: DF~F2 D2fe | dF~F2 AEFE | DF~F2 Dfed |1 c2AG EFGE :|2 cAAG EFGE ||
+|: A2~A2 EA~A2 | EA~A2 BAGB |1 A2~A2 EAAB | =cAAG EFGE :|2 A2~a2 abag | f2ef dBAF ||
+P:more variations
+|: DFFE ~F3E | DF~F2 AFEF | DFFE D2Ad |1 cAAG EFGE :|2 cAAG EFGE ||
+|: A4 A2GE | A2GA BAGB |1 A2A2 A3B | =cBcG EFGE :|2 A2~a2 a3g | fdef dBAF ||
+
+X:910
+T:Heathery Cruach, The
+T:Cruach Fraoch, An
+R:reel
+D:Altan: Island Angel
+Z:id:hn-reel-910
+M:C|
+L:1/8
+K:D
+(3ABc | d2AG FDAG | FDAF E2 (3ABc | d2AG FDAG | FGAF Dgfe |
+d2AG FDAG | FDAF E2FG | ABAG FDDE | FGAF D2 :|
+|: ed | cA~A2 cAGB | cBcd efed | cA~A2 cAAG | EFGE Dfed |
+cA~A2 cAGB | cBcd efe2 | f2ed cAAG | EFGE D2 :|
+P:variations
+|: Bc | d2AG FADE | FGAF E2ec | d2AG FADE | FGAF Dgfe |
+d2AG FDDE | FGAF E3G | ABAG FADE | FDAF D2 :|
+|: ed | cAAB cAGB | cBcd efed | cAAB cAAG | EFGE Dfed |
+cAAB cAGB | cBcd efed | efed cAAG | EFGE D2 :|
+
+X:911
+T:Glory Reel, The
+R:reel
+D:Altan: Island Angel
+Z:id:hn-reel-911
+M:C|
+L:1/8
+K:G
+G2BG dGBG | G2BG AFDF | G2BG dGBG | c2Bc AFDF :|
+|: E6 cA | BGEB AFDF | E2~E2 E2cA |1 BdcB AFDF :|2 BdcB AFDf ||
+|: gagf e3f | g2fg e^cAf | gagf eaaf |1 g2fg e^cAf :|2 g2fg e^cAF ||
+
+X:912
+T:Paddy Gone to France
+R:reel
+H:See also #908, #1051
+Z:id:hn-reel-912
+M:C|
+L:1/8
+K:Edor
+BE~E2 BFAF | EFDE FA~A2 | BE~E2 B2AF | EFDE FDD2 :|
+|: d2fd BAFA | d2fd Be~e2 | d2fd BdAF | E2DE FDD2 :|
+
+X:913
+T:Saint Anne's Reel
+R:reel
+H:This is a French Canadian version. See also Irish version #462
+Z:id:hn-reel-913
+M:C|
+K:D
+de | f2fg fedB | A2F2 F2Ad | B2G2 G2Bd | B2A2 A2de |
+f2fg fedB | A2F2 F2Ad | BGBd cAce | d2f2 d2 :|
+|: ag | fdfa fdfa | aggf g2ef | gfed cdeg | baa^g a2a=g |
+fdfa fdfa | aggf g2ef | gfed cdeg | fdec d2 :|
+
+X:914
+T:Antrim Rose
+R:reel
+C:Paddy O'Brien (Offaly)
+Z:id:hn-reel-914
+M:C|
+L:1/8
+K:D
+fd~d2 edBd | Ad~d2 BdAd | fd~d2 edBA | Bdgf e2de |
+fd~d2 edBd | Addc defg | a2ab afeg |1 fedB A2de :|2 fedB A2Bd ||
+|: e2ef edBd | e2df efgf | e2ef edBd | Addc dABd |
+e2ef edBd | e2df efgf | eaab afeg |1 fedB A2Bd :|2 fedB ABde ||
+P:variations
+|: fddf edBd | Ad~d2 ABde | fAdf edBd | Bdgf efde |
+f2df edBd | AddA defg | faab afeg |1 fedB A2ag :|2 fedB A2gf ||
+|: e2ef edBd | e2df efgf | egfd edBd | Adde d2Bd |
+e2ef edBd | e2df efgf | eaab afeg |1 fedB A2gf :|2 fedB A2ag ||
+
+X:915
+T:West Clare Reel
+R:reel
+C:Peadar \'O Riada
+Z:id:hn-reel-915
+M:C|
+L:1/8
+K:Dm
+F2DE FA~A2 | AEGF DCA,F | F2DE FA~A2 | AEGF D3E |
+F2DE FA~A2 | AEGF DCA,2 | dcAG FGAB | AGEA D3d ||
+dcAG FGAd | dcAG FAEd | dcAG FGAB | AEGF D3d |
+dcAG FGAd | dcAG FAE2 | fgef dcAB | AGEA D3E ||
+
+X:916
+T:East Clare Reel
+R:reel
+C:Peadar \'O Riada
+Z:id:hn-reel-916
+M:C|
+L:1/8
+K:G
+dGAG EG~G2 | dGBd edd2 | dGAG EG~G2 | dGef ag~g2 |
+dGAG EG~G2 | dGAG EFG2 | dGAG EFGA | Bdef ag~g2 ||
+|: Bded g2fe | d2BG edd2 |1 Bded g2fe | dBde ag~g2 :|2 gfed eBde | Bdef ag~g2 ||
+
+X:917
+T:Clumsy Lover, The
+R:reel
+C:Neil Dickie, Scotland
+H:Usually played in Amix, #312. Also as a jig#211.
+Z:id:hn-reel-917
+M:C|
+K:Dmix
+FAAB AFDF | GB~B2 cBAG | FAAB AFDF | G2EF GAFE |
+FAAB AFDF | G2BG cBAG | FAAF GECE | EDDE D2DE :|
+FAAF dAFD | G2BG dGBG | FAAF dFAF | G2EF GAFE |
+FAAF dAFA | G2BG dGBG | FAAF GECE | EDDE D2DE |
+F2dF dFdF | G2dG dGdG | F2dF dFdF | G2EF GAFE |
+F2dF dFdF | G2dG dGdG | FAAF GECE | EDDE D2DE ||
+P:Variations:
+|:FA~A2 BAFA|GB~B2 cBAG|FA~A2 BAFA|GEED ~E3G|
+FA~A2 BAFA|GB~B2 cBAG|FAAF GBAG|FDDE D2DE:|
+|:F2AF dFAF|G2BG dGBG|F2AF dFAF|G2EF GAGE|
+F2dF dFdF|G2dG dGdG|FAAF GBAG|FDDE D2DE:|
+
+X:918
+T:Davy Maguire's
+R:reel
+D:Harry Bradley
+Z:id:hn-reel-918
+M:C|
+L:1/8
+K:D
+fdAd ~f3a | geBe gbag | fdAd ~f3e | defd efdg |
+fdAd ~f3a | gebg eg~g2 | fdAd ~f3e | defd efdf ||
+a2ag fgaf | efgB eg~g2 | ~a3g fdec | defd efd2 |
+abag fgaf | efgB eg~g2 | ~a3g fdec | defd efde || 
+
+X:919
+T:Paddy Fahy's Reel
+T:Paddy Fahey's Reel
+R:reel
+C:Paddy Fahey (1916-2019)?
+H:Also in F, #720
+Z:id:hn-reel-919
+M:C|
+K:G
+gfea gedB | G2BG dG (3Bcd | gfea gedB | GA (3Bcd eA~A2 |
+gfea gedB | G2BG dG (3Bcd | bagb a2ge | d2Bd eA~A2 :|
+|: c2Ae cAFA | G2BG dG (3Bcd | c2Ae cAFA | GABd eA~A2 |
+c2Ae cAFA | G2BG dG (3Bcd | bagb a2ge | d2 (3Bcd eA~A2 :|
+
+X:920
+T:Jimmy's Return
+T:Dunrobin Castle
+R:reel
+Z:id:hn-reel-920
+M:C|
+L:1/8
+K:Bm
+f2Bc dfed | (3cBA ce aece | f2Bc dfed | cdec dB~B2 |
+f2Bc dfed | cAce aecA | BcdB cdeg | fdec dB~B2 :|
+|: f2ba faed | cAce aece | f2ba faed | cdec dB~B2 |
+f2ba faed | cAce aecA | BcdB cdeg | fdec dB~B2 :|
+
+X:921
+T:Mossy Banks, The
+R:reel
+D:Kevin Crawford: In Good Company
+Z:id:hn-reel-921
+M:C|
+L:1/8
+K:G
+gedB ~G3A | BAGB AE~E2 | DEGA Bd~d2 | edgd egfa |
+gedB ~G3A | BAGB AE~E2 | DEGA Bdge |1 dBAG EG~G2 :|2 dBAG EGGD ||
+|: ~G3B AEGE | DGBG ABGA | Bd~d2 edge | dBGA BA~A2 |
+~G3B AEGE | DGBG ABGA | Bd~d2 edge |1 dBAc BGGD :|2 dBAc BGBd ||
+|: g2dg egde | gabg agef | g2dg egdB | ABGA BGBd |
+g2dg egde | gabg agef | ~g3a gfed | egfa gdef :|
+
+X:922
+T:Commodore, The
+R:reel
+C:Billy McComiskey and Brendan Mulvihill
+Z:id:hn-reel-922
+M:C|
+L:1/8
+K:D
+~a3f ~g3e | fedf ecAb | ad~d2 bdad | cdef g2fg |
+agfa gfeg | fedf ecAB | cAeA fAef |1 gece defg :|2 gece dBAG ||
+|: FAde =f2df | e=c~c2 GEGc | ADFA dedB | ceag fdAG |
+FAde =f2df | e=c~c2 gceg | aged cAef |1 gece dBAG :|2 gece defg ||
+P:variations
+|: ad~d2 ge~e2 | fd~d2 ecA2 | ad~d2 bdad | cdef gefg |
+agfa gfeg | fedf ecAB | cAeA f2ef |1 gece defg :|2 gece d2AG ||
+|: FAde =f2gf | e=ccB cBAG | FDFA d2Bd | ceag fdAG |
+FAde =f2gf | e=ccB cdeg | aged cdef |1 gece d2AG :|2 gece defg ||
+
+X:923
+T:McCarthy's
+R:reel
+D:Angelina Carberry and Martin Quinn
+Z:id:hn-reel-923
+M:C|
+L:1/8
+K:Dmix
+cB | AD~D2 FGAB | c2cB cAGc | AD~D2 FGAB | cAGE D2cB |
+AD~D2 FGAB | c2cB cdeg | fage d^cAG |1 FAGE D2 :|2 FAGE D3A ||
+|: d2fa afdf | g2fg edB^c | d2fa afdf | g2fd Beef |
+gfe^c d2fd | d2fd e^cAg | fage d^cAG |1 FAGE D3A :|2 FAGE D2 ||
+
+X:924
+T:Miss Ramsey's
+R:reel
+H:See also #445, strathspey#16
+H:First two parts often played twice around before going into third part
+Z:id:hn-reel-924
+M:C|
+K:D
+D3B AF~F2 | AFBF AFEF | D2DB ADFA |1 (3Bcd AF EDCE :|2 (3Bcd AF Ea^ga ||
+|: fddf eAce | dcdA Bcde |1 fddf eAce | dBAG FDD2 :|
+[2 (3fga ec dcBA | (3Bcd AF Egfe ||
+|: dcdf adfa | gbaf gfef | dcdf adfa |1 gbaf egfe :|2 gbaf ea^ga ||
+|: fddf eAce | dcdA Bcde |1 fddf eAce | dBAG FDD2 :|
+[2 (3fga ec dcBA | (3Bcd AF EDCE ||
+P:variations
+|: D3B A2FB | AFBF AFEF | D2DB ADFA |1 B2AF E2EF :|2 (3BcB AF E3g ||
+|: fAdf eAce | dcdA Bcde |1 fAdf eAce | dBAF ~E3g :|
+[2 (3fgf ec dBAd | BdAF EABc ||
+|: d3f adfa | gbaf gfef | dcdf adfa |1 gbaf ~e3f :|2 gbaf ~e3g ||
+|: fdAf eAce | dcdA Bcde |1 fddf eAce | (3Bcd AF ~E3g :|
+[2 (3fga ec dcBA | (3Bcd AF ~E3G ||
+
+X:925
+T:Paddy Fahy's
+T:Paddy Fahey's
+R:reel
+C:Paddy Fahey (1916-2019)
+H:Also played in G, #755, and in D #533
+Z:id:hn-reel-925
+M:C|
+K:C
+cBGF DEFD | G2~G2 BcdB | cBGA Bcde | f2ef dfed |
+cBGF DEFD | G2~G2 BcdB | cBGA Bcdc | BGFD CDEG :|
+|: c2ge fdec | cBGF DEFD | Gc~c2 gcec | cBGF GccB |
+c2de fddc | BdGA _BABc | dgge fefa | gfdc BcdB :|
+P:variations
+|: cBGF DEFD | G2DG BGBd | cBGA Bcde | fdef dfed |
+cBGF DEFD | G2DG BGBd | cBGA Bcdc | BGFD CDEG :|
+|: c2eg fecd | cBGF DEFD | GcBc gceg | fdcB GccB |
+c2de fddc | BGGA _B3c | dggf defd | gfdc BcdB :|
+
+X:926
+T:Moving Bogs Of Powelsboro, The
+T:Moving Bog, The
+R:reel
+C:Paddy Sweeney
+Z:id:hn-reel-926
+M:C|
+L:1/8
+K:G
+BGGF GBAF | D2CD =FDCE | DGG^F G2Bc |1 d=fec dBcA :|2 d=fec d2Bc ||
+dggf g2ag | fdde fdcA | dggf g2ag | fgaf ~g3f |
+defg ~a3g | fde^c defg | afge fde^c | d2eg fd=cA || 
+
+X:927
+T:Reel of Bogie, The
+R:reel
+H:See also #770 and "Old Cuffe Street", #172
+H:Second part also played single
+Z:id:hn-reel-927
+M:C|
+K:Edor
+BE~E2 dEcE | dBAF DEFA | BE~E2 dEcE | EFAF ~E2FA |
+BE~E2 dEcE | EFAF DEFA | BGBd cABc | ~d3A BGEC ||
+DEFA ~d3c | (3Bcd Ad BF~F2 | DEFA dfed | (3Bcd AF EDCE |
+DEFA dcde | fd~d2 defg | gfge fdec | dBAF EAFE |
+DEFA ~d3c | BA~A2 BFAF | DEFA dfed | (3Bcd AF EDCE |
+DEFA ~d3e | fd~d2 defg | gfge fdec | dBAF EGFA ||
+
+X:928
+T:Carmel O'Mahoney's
+T:O'Mahoney's
+T:Carmel Mahoney Mulhaire
+R:reel
+C:Martin Mulhaire (1938-2020)
+H:See also #632
+Z:id:hn-reel-928
+M:C|
+K:D
+|: AF~F2 DF~F2 | AF~F2 ABde | fdad bdaf | efge cABc |
+d2cd BAFE | DAFD ADFA | BG~G2 cA~A2 |1 fage d2dB :|2 fage d2de || 
+|: ~f3e fgfe | df~f2 af~f2 | dFAd fAdf | geed eAce |
+~f3e fgfe | df~f2 af~f2 | ~g3f gbag |1 fgef d2de :|2 fgef defg ||
+|: a2fa b2gb | affe fgaf | geed efga | baa^g a=gfg |
+adfa bdgb | affe fgaf | gefd ecdB |1 cABc defg :|2 AFGE D2DE ||
+|: FA~A2 FADF | ADFA bafa | g2fg efde | cdBc ABGE |
+FA~A2 FADF | ADFA bafa | gefd ecdB |1 AFGE D2DE :|2 AFGE D3B || 
+
+X:929
+T:Ashmolean House
+R:reel
+C:Tommy Gunn
+Z:id:hn-reel-929
+M:C|
+L:1/8
+K:D
+AF~F2 EDB,A, | D2 (3FED FA~A2 | defd efdB | AFDE FEEB |
+AF~F2 EDB,A, | D2 (3FED FAAF | ABde dBAF |1 A,CEG FDDB :|2 A,CEG FDDA ||
+|: defg ~a3b | afdf edBA | defg ~a3b | afdf e3g |
+fd~d2 Ad~d2 | ed (3Bcd egfe | dBAF ABAF |1 A,CEG FDDA :|2 A,CEG FDDB ||
+P:variations
+|: AF~F2 EDB,A, | D2ED FA~A2 | d2fd ~e2dB | AFDE FE~E2 |
+AF~F2 EDB,A, | D2ED FAAB | ABde dBAF |1 A,CEG FDDB :|2 A,CEG FDDA ||
+|: defg ~a3b | afdf eBBA | defg ~a3b | afdf e2de |
+fd~d2 Ad~d2 | ed (3Bcd e2fe | dBAF ~A3F |1 A,CEG FDDA :|2 A,CEG FDDB ||
+
+X:930
+T:Dermie Diamond's
+R:reel
+H:Originally a highland
+Z:id:hn-reel-930
+M:C|
+L:1/8
+K:D
+B2BF ABde | fdef edcd | B2BF ABdb |1 afef dedc :|2 afef d3e ||
+f2af ~g3b | afdf efde | fgaf gabg | afdf efd2 |
+~f3a gabg | afdf efdc | B2BF ABdb | afef d2dc ||
+
+X:931
+T:Starry Lane to Monaghan, The
+T:Ginley's
+R:reel
+C:Ed Reavy (1898-1988)
+D:Peter Carberry, Angelina Carberry, John Blake: Memories from the Holla
+Z:id:hn-reel-931
+M:C|
+L:1/8
+K:Edor
+GEBE eEBE | GFGB AFDF | GEB,E GABd | (3efg fg edcd |
+BEEF G3G | GFGB AFDF | G2BG FGAF |1 EFGA BEEF :|2 EFGA BEE2 ||
+|: gbef gbeg | fddc defa | gbef g2fe | defd Beef |
+geBA ^GABd | cdeg fdef | gbeg f2fe |1 dBAF E2ef :|2 dBAF E2EF ||
+P:variations
+E2BE dEBE | GABG AFDF | GDB,D G2Bd | egfg edcd |
+BEEF GDB,D | G3B AD (3FED | G2BG FGAF | EFGA BEED |
+E2BE dEBE | G3B AFDF | GDB,D G2Bd | egfg edcd |
+BE~E2 GDB,D | G3B AD (3FED | G2BG FGAF | EFGA BEEf ||
+gbef gbeg | fd~d2 Adfd | gbef g2fe | defd e2ef |
+geBA ^GABd | cdeg fddf | gbeg fece | dBA=c BEEf |
+gbef gbeg | fa~a2 afdf | gbef g2fe | dfed Be~e2 |
+geBA ^GABd | cdeg fddf | gbeg fece | dBA=c BEED ||
+
+X:932
+T:Brendan Ring's
+R:reel
+C:Brendan Ring
+S:David Lombardi
+H:Also played in D
+Z:id:hn-reel-932
+M:C|
+L:1/8
+K:E
+e2df eB~B2 | cAFE DF~F2 | e2df eB~B2 | cedf efgf |
+fedf eB~B2 | cAFE DF~F2 | FGGB BAFE | DEFD E4 :|
+|: f2fe defe | dB~B2 Bcde | effe defe | dBAF FE~E2 |
+effe defe | dB~B2 Bcde | effe d3e |1 dBAF E4 :|2 dBAF EFGA ||
+|: BE~E2 BEcE | ~B3A GABG | AF~F2 cAFG | A2GB Acec |
+BE~E2 BEcE | ~B3A GABG | AF~F2 cAFE | DEFD E4 ||
+P:variations
+|: e2df eB~B2 | cAFE DEFD | E2df eB~B2 | cedf e3d |
+e2df eB~B2 | cAFE DEFA |1 GB~B2 Ac~c2 | Bf~f2 defd :|2 GB~B2 cAFE | DEFD E4 ||
+|: ~f3e defe | dBBc d2de | ~f3e fgfe | dBAF BE~E2 |
+~f3e fgfe | dBBc d2de | ~f3e fgef |1 dBAF FE~E2 :|2 dBAF E3A ||
+|: BE~E2 BEcE | ~B3A GABG | AF~F2 cF~F2 | c3B cdec |
+BE~E2 BEcE | ~B3A GABG | A2Fc cAFE | DEFD E4 ||
+
+X:933
+T:Joe Tom's
+T:Joe Tam's
+R:reel
+C:John Faulkner
+D:Tony O'Connell & Andy Morrow
+Z:id:hn-reel-933
+M:C|
+L:1/8
+K:Edor
+E2BE cEBE | E2DB, A,B,DF | E2BE cEBE | cdAG FEDF |
+E2BE cEBE | E2DB, A,B,DF | EFGA Bcde |1 fded cAFD :|2 fded cAdc ||
+|: ~B3e fB~B2 | cBAF Bcde | f2ba faaf | (3gfe fd efga |
+bf~f2 af~f2 | (3gfe fd edcA | ~B3c dcde |1 fded cAdc :|2 fded cAFD ||
+
+X:934
+T:Reel Sam Cormier
+T:Sam Cormier's Reel
+T:Dennis Langtou's
+T:Denis Lanctot's
+R:reel
+C:Denis Lanctot, Ottawa, Canada
+H:Originally composed in E
+D:Sean Smyth: The Blue Fiddle
+Z:id:hn-reel-934
+M:C|
+L:1/8
+K:D
+D2A,D B,DA,B, | D2dA GFEF | DF~F2 Adfe | dBBA BdAF | 
+D2A,D B,DA,B, | D2dA GFEF | DFBF AF~F2 |1 ~E3F DEFE :|2 ~E3F D3f ||
+|: fedA FAdf | eA~A2 edef | fedA BddA | BdAD FEEf | 
+fedA FAdf | eA~A2 edef | gfed fedB |1 ABde fdde :|2 ABde fedA ||
+
+X:935
+T:Pigeon on the Gate, The
+R:reel
+H:Neillidh Boyle's version
+H:See also #140, #141, #420, #532, #653, #654, #655, #656
+Z:id:hn-reel-935
+M:C|
+L:1/8
+K:Gmix
+dG~G2 GedG | G2ce dcAG | FEFd cF~F2 | EFeg fdcA |
+dG~G2 GedG | G2ce dcAG | F2eg abga | fdcA G2~c2 :|
+|: dg~g2 fagf | dg~g2 bgag | dc~c2 Bcde | f2ga fdcA |
+G2~g2 gagf | dg~g2 bgag | dc~c2 gceg | fdcA G2~c2 :|
+
+X:936
+T:Hoch Hey Johnny Lad
+T:Jerry O'Sullivan's
+R:reel
+H:Might originally be a strathspey or a fling
+D:L\'unasa: Kinnitty Sessions
+Z:id:hn-reel-936
+M:C|
+L:1/8
+K:G
+G2GB AGAB | GEDE ~A3B | GFGB AGAB | (3GFE DE G4 :| 
+|: degB AGAB | degd e3d | degB AGAB | (3GFE DE G4 :| 
+
+X:937
+T:Easter Sunday
+R:reel
+C:Paddy O'Brien (Nenagh) (1922-1991)
+D:L\'unasa: Kinnitty Sessions
+Z:id:hn-reel-937
+M:C|
+L:1/8
+K:Ador
+EAAB cBcA | BG~G2 BcdB | AEAB cBce | dBGA BA~A2 |
+EAAB cBce | dG (3Bcd gedg | eaaf g2ab |1 gedB ABAG :|2 gedB ABcd ||
+|: eaag edBA | BG~G2 BcdB | ABcd eaab | g2gf gedg |
+ea~a2 bg~g2 | aged BedB | AE~E2 GABd |1 gedB ABcd :|2 gedB ABAG ||
+
+X:938
+T:Hogties
+R:reel
+C:Phil Cunningham, Scotland
+H:Originally in Ador and with four parts
+D:L\'unasa
+Z:id:hn-reel-938
+M:C|
+L:1/8
+K:Edor
+BABd E2ed | BABc d2cd | BABd E2ed | BABd FE~E2 |
+BABd E2ed | BABc dA (3Bcd | e2dB ABdA | (3Bcd Ad FE~E2 :|
+|: eB~B2 e2dB | BABc d2cd | eB~B2 e2dB | BABd FE~E2 |
+eB~B2 e2dB | BABc dA (3Bcd | e2dB ABdA | (3Bcd Ad FE~E2 :|
+
+X:939
+T:Three Merry Sisters of Fate, The
+R:reel
+S:David Lombardi (version 1)
+H:See also "The Merry Sisters Of Fate", #865
+D:Altan: The Red Crow (version 2)
+Z:id:hn-reel-939
+M:C|
+L:1/8
+K:Bdor
+|: defd efde | fB~B2 fBce |1 defd efdf | eA~A2 eAce :|2 defd ef^ga | eA~A2 eAce ||
+|: a2^ga faea | fB~B2 fBce | a2^ga faed |1 cA~A2 eAce :|2 cdef =gece :|
+P:version 2
+|: defd edce | fB~B2 fBce | defd edcd |1 eA~A2 eAce :|2 eA~A2 eAcd ||
+|: ea^ga fece | fB~B2 fece |1 a2^ga fecd | eA~A2 eAcd :|2 a2^ga feaf | edef =gece ||
+
+X:940
+T:Scallowa Lasses, Da
+T:Da Scallowa Lasses
+T:Scalloway Lasses, The
+R:reel
+O:Shetland
+Z:id:hn-reel-940
+M:C|
+L:1/8
+K:Ador
+eaag egdB | c2ec gcec | eaag eged |1 cABG A4 :|2 cABG A2Ac :|
+|: BE~E2 c2cA | dcde gfed | eaag eged |1 cABG A2Ac :|2 cABG A4 :| 
+
+X:941
+T:Jack Broke da Prison Door
+R:reel
+O:Shetland
+Z:id:hn-reel-941
+M:C|
+L:1/8
+K:G
+G2BG BdBG | cBAB dBAB | G2BG BdBG | ABAG E2D2 :|
+|: g2gd edBG | g2gd eaaf | g2gd edBG | ABAG E2D2 :|
+
+X:942
+T:Donald Blue
+R:reel
+O:Shetland
+Z:id:hn-reel-942
+M:C|
+L:1/8
+K:D
+dBAF AFAB | dBAF E2D2 | dBAF AFAd | BB2A B4 :|
+|: ABde fafd | fafd edB2 | ABde fafd | BB2A B4 :|
+P:Irish version:
+|: dBAF A2FA | dBAF EFD2 | dBAF A2FA |1 ~B3A BABc :|2 ~B3A B2dB ||
+|: ABde ~f3d | gefd edBd | ABde fded |1 ~B3A B2dB :|2 ~B3A BABc ||
+P:Variations of Irish version
+|: dBAF A2FA | dBAF EFD2 | dBAF A2FA |1 ABBA B2AB :|2 ABBA B2dB ||
+|: ABde fa~a2 | g2fg edBd | ABde f2ed |1 ABBA B2dB :|2 ABBA B2AB ||
+
+X:943
+T:Sleep Soond in da Mornin'
+T:Sleep Sound in the Morning
+R:reel
+O:Shetland
+Z:id:hn-reel-943
+M:C|
+L:1/8
+K:Ador
+Aa2g a2ef | gedB GABG | Aa2g a2ef |1 gedB A3G :|2 gedB A3B ||
+|: cAeA cAeA | BcdB G3B |1 cAeA cAeA | BAGB A3B :|2 ABcd efga | gedB A3G ||
+
+X:944
+T:Bonnie Isle O' Whalsay
+R:reel
+O:Shetland
+Z:id:hn-reel-944
+M:C|
+L:1/8
+K:Amix
+edcA B2ed | cAAc BGG2 | edcA B2ed | cAB^G A4 :| 
+|: cdeg fded | cAAc BGG2 |1 cdeg fded | cAB^G A4 :|2 cdef gage | dBGB A4 |  
+
+X:945
+T:Up Downey
+R:reel
+C:Tola Custy
+D:Christy O'Leary & Bert Deivert: Song's Sweet Caress
+Z:id:hn-reel-945
+M:C|
+L:1/8
+K:Edor
+EFGA B2eB | B2GB AGFG | EFGA B2ef | gfeg f2~a2 |
+EFGA Bded | B2GB AGFG | EFGA B2ed | BAGF E4 :|
+|: g2eg fegf | egfe a3f | g2eg fegf | egfe B3f |
+g2eg fegf | egfe a4 | b2gb agfg |1 deed e3f :|2 deed eBGF ||
+P:variations
+|: EFGA Bded | ABGB AGFG | EFGA Bdef | gfeg f2~a2 |
+EFGA Bded | ABGB AGFG | EFGA Bded | BAGF E4 :|
+|: gfeg fegf | egfe a3f | gfeg fegf | egfe B3f |
+gfeg fegf | egfe a4 | abgb agfg |1 deed e3f :|2 deed eBGF ||
+
+X:946
+T:Lasses Trust In Providence
+R:reel
+O:Shetland
+Z:id:hn-reel-946
+M:C|
+L:1/8
+K:D
+d2de fdef | d2fd edBA | d2de fdef |1 dBAF E2A2 :|2 dBAF E2FG ||
+|: A2AB ADFA | d2d2 BABd | A2AB ADFA |1 GFEC D3F :|2 GFEC D4 || 
+
+X:947
+T:1st August
+T:First August
+R:reel
+C:Donogh Hennessy
+D:L\'unasa: The Merry Sisters of Fate
+Z:id:hn-reel-947
+M:C|
+L:1/8
+K:Edor
+DE~E2 GDEG | AB~B2 BAGB | BAAB AGEA | (3Bde dB AGEA |
+GE~E2 GDEG | AB~B2 BAGB | BAAB AGED |1 EGAE GAEG :|2 EGAG ABde ||
+|: fgag fedB | e3d BAGD | EG~G2 A2GA | ~B3d BAGD |
+EG~G2 AG~G2 | (3Bde dB AGEG | DEGB AGAB |1 G2GF GABd :|2 G2GF GBFG ||
+
+X:948
+T:Willafjord
+R:reel
+H:Cf. "Kilfenora Reel" #949
+O:Shetland
+Z:id:hn-reel-948
+M:C|
+L:1/8
+K:D
+A2FA2DFA | B2GB2DGB | A2FA2DFA | EFGA GFED |
+A2FA2DFA | B2GB2DGB | ABcd efge |1 f2d2 d3B :|2 f2d2 d3e ||
+|: f2df2fdf | geaf gfed | f2df2Adf | e2ce Aece|
+f2df2fdf | geaf gfed | ABcd efge |1 f2d2 d3e :|2 f2d2 d3B ||
+
+X:949
+T:Kilfenora Reel, The
+R:reel
+H:Cf. Willafjord #948
+Z:id:hn-reel-949
+M:C|
+L:1/8
+K:D
+A2FA A2FA | B2GB B2GB | A2FA A2FA | EFGA BcdB |
+A2FA A2FA | B2GB B2GB | AdcB AGFE | DDCE D2 :|
+|: Adfd Adfd | Acec Acec | Adfd Adfd | cABc d2cB |
+Adfd Adfd | Acec Acec | d2cB AGFE | DDCE D2 ||
+
+X:950
+T:Spootiskerry
+R:reel
+C:Ian Burns, Shetland
+O:Shetland
+Z:id:hn-reel-950
+M:C|
+L:1/8
+K:G
+G2DE GDEG | DEGA B2AB | G2DE GABd | eged B2AB |
+G2DE GDEG | DEGA B2AB | g2ed edBA |1 B2G2 G2DE :|2 B2G2 G2ef ||
+g2ed edBA | BdBG E2DE | GABd eged | B2A2 A2ef |
+g2ed edBA | BdBG E2DE | GABd eged | B2G2 G2ef |
+g2ed edB2 | BABG E2DE | GABd eged | B2A2 A2DE |
+G2DE GDEG | DEGA B2AB | g2ed edBA | B2G2 G2DE || 
+
+X:951
+T:Head Roaster, The
+R:reel
+C:Mike Katz, California/Scotland
+Z:id:hn-reel-951
+M:C|
+L:1/8
+K:Ador
+A3B ABe2 | de~e2 fged | eaag ed~d2 | eged BGGB |
+A3B BABd | BddB fged | eaag ed~d2 | egdB A2~A2 :|
+|: a2ae g2ge | ~e2ge gaag | e2~e2 degd | eged BGGB |
+[1 eaae g2ge | ~e2ge gaag | e2~e2 degd | egdB A2~A2 :|
+[2 A3B BABd | BddB fged | eaag ed~d2 | egdB A2~A2 :|
+
+X:952
+T:Last Mile, The
+R:reel
+C:Mark Stewart, Scotland
+Z:id:hn-reel-952
+M:C|
+L:1/8
+K:Ador
+eA~A2 g2eA | ~A2g2 edde | eaae ~d3e | gedg edBd |
+eA~A2 g2eA | ~A2g2 edde | a2ge gedg | edBd eA~A2 :|
+|: egge a2eg | gea2 ge~e2 | fddg ddad | dgdd fd~d2 |
+egge a2eg | gea2 ge~e2 | a2ge gedg | edBd eA~A2 :|
+
+X:953
+T:Grainne's Welcome Home
+T:Welcome Home Grainne
+R:reel
+H:see also jig#450 and march#25
+Z:id:hn-reel-953
+M:C|
+L:1/8
+K:Amix
+cdBc ABcd | efec eaed | cdBc ABcA |1 ~d3c dfed :|2 ~d3c dfag ||
+fdfa ecAc | ~e3f ecAg | fdfa ecAc | ~d3c dfag |
+fdfa ecAc | ~e3f ecAc | def^g aecA | dcde (3fga ed ||
+
+X:954
+T:That's Right Too
+R:reel
+C:Liz Carroll
+D:Marco Pollier: Ebony & Brass
+D:Sharon Shannon: Out the Gap
+Z:id:hn-reel-954
+M:C|
+L:1/8
+K:D
+D2FA FEED | d2ef edBd | D2FA FEED | BcdD FE~E2 |
+D2FA FEED | d2ef edBA | BD~D2 BAdB |1 AFEF D4 :|2 AFEF D3f ||
+|: afef d3B | A2FD EFDf | afef d3e | efad effe |
+d2ef edBA | BcdD FEED | BD~D2 BAdB |1 AFEF D3f :|2 AFEF D4 ||
+
+X:955
+T:Ladies' Pantalettes, The
+R:reel
+D:Peter Carberry: Traditional Irish Music from County Longford
+Z:id:hn-reel-955
+M:C|
+L:1/8
+K:Edor
+B2AF ~E3G | F2ED FAAd | BFAF ~E3d | c2BA FEFA |
+BFAF EFGE | F2EF DEFA | BFAF ~E3d | cdBA BE~E2 ||
+|: defd eAef | defe dA~A2 | defd eafe |1 dBAD FEE2 :|2 dBAF EFGA ||
+
+X:956
+T:Caha Mountains
+R:reel
+C:John Dwyer
+D:Angelina Carberry and Martin Quinn
+Z:id:hn-reel-956
+M:C|
+L:1/8
+K:Dmix
+~d3c AcGc | AGEF GEBd | ~c3d ~c3A | GEAG EAGE |
+D2dc AcGc | AGEF GEag | fage d2AF | GEAG FD~D2 :|
+fdd^c defd | ~g3a bgag | f2df ~a3f | ~g3a fd~d2 |
+fde^c defd | ~g3a bgag | fage d2AF | GEAG FD~D2 |
+fgef defd | ~g3a bgag | fadf ~a3f | gceg fd~d2 |
+fde^c defd | ~g3a bgag | fage d2AF | GEAG FD~D2 ||
+
+X:957
+T:Paddy Fahy's
+T:Paddy Fahey's
+R:reel
+C:Paddy Fahey (1916-2019)
+Z:id:hn-reel-957
+M:C|
+L:1/8
+K:C
+c2cB cGEG | F2DF EFGA | _B3G c3d | egdc BGBd |
+c2cB cGEG | F2DF EFGA | _B2Gc c=BGF | EGB,D C2EG :|
+|: ~c3e g^fag | ^fgec G=FEG | F2DF EFGA | Bcde fdBd |
+~c3e g^fag | ^fgec G=FEG | F2DF EG,CE | FDB,D C2EG :|
+
+X:958
+T:Malbay Shuffle, The
+R:reel
+C:Diarmuid Moynihan
+D:L\'unasa: The Merry Sisters of Fate
+Z:id:hn-reel-958
+M:C|
+L:1/8
+K:G
+d3G AG~G2 | EG~G2 AGGB | d2cB AG~G2 |1 DEGB AGAB :|2 DEGB AGGA ||
+~B3d eg~g2 | egdg eg~g2 | BABd eggd | (3efg dB AGEG |
+~B3d eg~g2 | egdg eggd | egdB cABG | DEGB AGAB ||
+
+X:959
+T:Paddy Fahy's
+T:Paddy Fahey's
+R:reel
+C:Paddy Fahey (1916-2019)
+Z:id:hn-reel-959
+M:C|
+L:1/8
+K:Gdor
+B2dB DFBd | c3A FAcA | B2dB DFBd | c=BcA _BGGA |
+BDGA BDGB | ADFA c2=Bc | dg~g2 dc=Bd |1 c=BcF DGGA :|2 c=BcF DGGd ||
+K:Gmix
+|: g^fgd Bdge | =f2cf ABcd | g^fgd ABcA | dg^fa ~g3a |
+bga^f g^fdc | (3Bcd BG DEFA | dg~g2 dcBd |1 cBcF DGGd :|2 cBcF DGGA ||
+
+X:960
+T:Eddie Kelly's
+R:reel
+C:Eddie Kelly (1933-2021), Castlerea, Co. Roscommon
+Z:id:hn-reel-960
+M:C|
+L:1/8
+K:Ddor
+c | AGEC DEDC | A,DDC A,DDC | DEFE F2FG | Acfe d3c |
+AGEC A,3B, | C3D EGcB | dfed cGAc | _BGFE FDD :|
+|: e | fddc d3e | fd~d2 fdeg | fddc defd | eg~g2 ecce |
+fddc defd | ea~a2 gedg | edcB c2cA | _BAGE FDD :|
+P:variations
+|: _B | AGEC DECD | A,D~D2 A,DFD | EFFE F2FG | Acfe d3c |
+AGEC A,3B, | C3D EGcA | dfed cGA_B | AGFE FDD :|
+|: e | fd~d2 d2ge | fAdf eAce | fd~d2 decd | eggf edce |
+fd~d2 defd | ea~a2 gefd | ecdB c2A_B | AGFE FDD :|
+
+X:961
+T:Harsh February
+T:Cold Harsh February, The
+R:reel
+C:Phil Cunningham, Scotland
+Z:id:hn-reel-961
+M:C|
+L:1/8
+K:D
+FABd B2AF | ABdf efde | f2ed BddB | ABdD FEED | 
+FABd B2AF | ABdf efde | f2ed bafb |1 afef d2AG :|2 afef defa ||
+|: bdda bdfe | defd edBA | FABd ABdb | afde fefa | 
+bdda bdfe | defd edBA | FABd ABdb |1 afef defa :|2 afef d2AG ||  
+
+X:962
+T:Jolly Tinker, The
+R:reel
+H:Unusual version. See also #800.
+Z:id:hn-reel-962
+M:C|
+K:Dmix
+d2dA cAGc | AddA cAGc | Addc AdcA | GEED CDEG |
+Ad~d2 fd~d2 | adfd cAGc | Addc AdcA | GEED CDEG ||
+|: AD~D2 A,D~D2 | ~A3d cAGc | ADFD ~E3G |1 AdcA G2FG :|2 AdcA GEFG ||
+|: AddB ~c3B | Ad~d2 adfd | AddB ~c3B |1 cdef gea2 :|2 cdef ge~e2 ||
+|: ad~d2 adbd | ad~d2 eA~A2 | ~a3b a2ed |1 ^cdef gefg :|2 ^cdef g2fe ||
+
+X:963
+T:Take A Message To Julie
+R:reel
+C:Brian Finnegan
+F:Brian Finnegan: When the Party's Over
+Z:id:hn-reel-963
+M:C|
+L:1/8
+K:Edor
+EBAG AE~E2 | GBdB cA~A2 | EBAG AE~E2 | GAdA GAdA |
+EBAG AE~E2 | GBdB cA~A2 | edBA BE~E2 |1 DEFD ~E3D :|2 DEFD E3d ||
+|: eB~B2 GBeB | dA~A2 GAdG | =cG~G2 EG=cG | ^cAAd AAe2 |
+eB~B2 GBeB | dA~A2 GAdG | EDGB AF~F2 |1 DEGF E3d :|2 DEGF ~E3D ||
+
+X:964
+T:Mountain Lark, The
+R:reel
+D:De Danann: De Danann
+Z:id:hn-reel-964
+M:C|
+L:1/8
+K:Edor
+EBBA Bdef | deBd AFDF | EBBA Bdef |1 dBAF BE~E2 :|2 gefd Bee2 ||
+|: eB~B2 efge | fdad bdad |1 eB~B2 efge | fedf efgf :|2 gafg egfe | dBAF BEE2 ||
+P:variations
+|: EBBA Bdef | d2Bd ADFA |1 EBBA Bdef | dBAF BEE2 :|2 EBBA Bde2 | fefd Bee2 ||
+|: eB~B2 efge | fdad bdfa |1 eB~B2 efge | f2df e3f :|2 g3e f3e | dBAF E3F ||
+
+X:965
+T:Musical Priest, The
+R:reel
+H:Usually played in Bm, see #44
+D:Eliot Grasso & Dave Cory: North by NorthWest
+Z:id:hn-reel-965
+M:C|
+K:Ador
+EAAG ABcA | BAGB dBAG | EAAG ABcA |1 BAGB ~A2GF :|2 BAGB ~A3B ||
+ceAG FAdc | BGdG BdGB | ceAB cdef | gedB ~A3B |
+ceAG FAdc | BG~G2 BdGB | c2AB cdef | gedB ~A3B ||
+cAce agfa | gedB GBdB | cAce agfa | ged=f eAAB |
+cAce agfd | cedB DGBd | cABG Aceg | gedB cAAG ||
+
+X:966
+T:Honeymoon, The
+R:reel
+H:Also played with doubled parts
+Z:id:hn-reel-966
+M:C|
+L:1/8
+K:G
+BG~G2 DG~G2 | (3Bcd ef gedc | BG~G2 DG~G2 | BedB A2dc |
+BG~G2 DG~G2 | (3Bcd ef ~g3a | bgaf gfed | (3efg dB A2Bd ||
+~e3f edBA | (3Bcd ef gedc | BG~G2 DG~G2 | BedB A2Bd |
+~e3f edBA | (3Bcd ef ~g3a | bgaf gfed | (3efg dB A2dc ||
+
+X:967
+T:Mother's Delight
+R:reel
+H:Donegal version, played by John Doherty, Paul O'Shaughnessy etc.
+H:See also #82
+Z:id:hn-reel-967
+M:C|
+L:1/8
+K:Gmix
+Bdgd BGGB | Acfc AFFc | Bdgd BGGB | A2D^F AGGc |
+Bdgd BGGB | Acfc AFFc | _B2BA Bd=fd | cA^FG AGGA :|
+|: _B2BA B2GA | _BABd cBAB | Ggga g^fga | =bga^f defd |
+g2^fa gfde | =fdc_B A=FFA | Gg~g2 dg=bg | ^fdcA =BGGA :|
+P:variations
+|: Bdgd BGGB | Acfc AFFA | Bdgd BGGB | A2D^F AGGA |
+Bdgd BGGB | Acfc AFGA | _B2BA Bg=fd | cA^FG AGGA :|
+|: _B2BA B2GA | ~_B3d cBAB | Ggg^f ~g3a | =bga^f defd |
+g2^fa gfde | =fdc_B A=FFA | Gg~g2 dg=bg | ^fdcA =BGGA :|
+
+X:968
+T:John Naughton's
+R:reel
+H:Also played in Ddor, #1011
+Z:id:hn-reel-968
+M:C|
+L:1/8
+K:Edor
+EFGA BE~E2 | GEBE GEDF | EFGA BABc |1 dBAG FDDF :|2 dBAG FDD2 ||
+|: ~e3d BABd | edef gbaf | ~e3d BABc |1 dBAG FDD2 :|2 dBAG FDDF ||
+
+X:969
+T:Stone of Destiny
+R:reel
+C:Maurice Lennon
+Z:id:hn-reel-969
+M:C|
+L:1/8
+K:G
+BddB G2Bd | d2Bd edBA | BddB GABd | gedB ~A3d |
+edBA BGGA | BGAG EGDE | DG~G2 DGBe |1 dBAB G3A :|2 dBAB G3d ||
+|: edBA BGGA | BGAG EGDd | edBA BGGA | BddB ~A3d |
+edBA BGGA | BGAG EGDE | DG~G2 DGBe |1 dBAB G3d :|2 dBAB G3A ||
+P:variations
+|: BddB G2Bd | d2Bd edBA | BddB G2Bd | gedB BAAd |
+edBA BGGA | BGAG EAGE | DG~G2 DGBe |1 dBAB ~G3A :|2 dBAB ~G3d ||
+|: edBA BGGA | BGAG EGD2 | edBA BGGA | BddB ~A3d |
+edBA BGGA | BGAG EAGE | DG~G2 DGBe |1 dBAB ~G3d :|2 dBAB ~G3A ||
+
+X:970
+T:Bunch of Keys, The
+R:reel
+Z:id:hn-reel-970
+M:C|
+L:1/8
+K:Gmix
+DGG^F ~G3A | BGdG eGdG | D=FFE ~F3G | AFcF dFcF | 
+DGG^F ~G3A | BG~G2 Bcde | ^fage fdcA |1 dcA^F G2GF :|2 GBA^F G2Bc ||
+|: dgg^f ~g3a | bg~g2 bga^f | ~d3e ^fefg | a^f~f2 afgf |
+dg^fa ~g3a | bg~g2 g^fde | ^fage fdcA |1 dcA^F G2Bc :|2 BdA^F G2GA ||
+|: BG~G2 BGdG | BG~G2 (3Bcd gd | A=F~F2 AFcF | AF~F2 ABcA |
+BG~G2 BGdG | BGGA Bcde | ^fage fdcA |1 BdA^F DGGA :|2 BdA^F DGGF ||
+
+X:971
+T:Phyllis' Birthday
+R:reel
+C:Josephine Marsh
+Z:id:hn-reel-971
+M:C|
+L:1/8
+K:F
+AF~F2 Acdc | A2GB AGFD | CDFG Ac~c2 | dcAF G2FG |
+AF~F2 Acdc | A2GB AGFD | CDFG Ac~c2 |1 dcAG F2FG :|2 dcAG F3A ||
+|: cdfg afgf | d2cB AFFA | cdfg afgf | dggf g2fd |
+cdfg afgf | dfcB AFFD | CDFG Ac~c2 |1 dcAG F3A :|2 dcAG F2FG ||
+
+X:972
+T:Andy McGann's
+T:John McGrath's Composition
+R:reel
+C:John McGrath (1900-1955)
+D:Craobh Rua
+Z:id:hn-reel-972
+M:C|
+L:1/8
+K:D
+dF~F2 AGFE | DEFD EDB,E | DEFA BFAF | ~E3F EFAc |
+[1 dF~F2 AGFE | DEFD EDB,E | DEFA BFAF | EDCE D2Ac :|
+[2 ~d3B ~c3A | ~B3d AGFE | DEFA (3Bcd AF | EDCE D2Ac ||
+d2fd edfd | ~B3d AGFE | DEFA B2AF | ~E3F EFAc |
+d2fd edfd | ~B3d AGFE | DEFA (3Bcd AF | EDCE D2Ac ||
+d2fd edfd | ~B3d AGFE | DEFA B2AF | ~E3F EFde |
+faba fd~d2 | ~B3d AGFE | DEFA (3Bcd AF | EDCE D3c ||
+P:variations
+|: dF~F2 AGFE | DEFD EDB,E | ADFA BdAF | ~E3D EFGA |
+[1 dF~F2 AGFE | DEFD EDB,E | DEFA (3Bcd AF | EDEF D2Ac :|
+[2 d2fd c2ec | BABd AGFE | D2FA BdAF | EDEF D2 (3ABc ||
+d2fd edfd | ~B3d AGFE | D2FA BdAF | ~E3D EFGA |
+d2fd edfd | ~B3d AGFE | D2FA BdAF | EDEF D2 (3ABc ||
+d2fd edfd | ~B3d AGFE | D2FA BdAF | ~E3D E2de |
+faba fd~d2 | ~B3d AGFE | D2FA BdAF | EDEF D2 (3ABc ||
+
+X:973
+T:Union Street Session
+R:reel
+C:Paul Cranford, Cape Breton, Canada
+S:David Lombardi
+Z:id:hn-reel-973
+M:C|
+L:1/8
+K:D
+d2AG FEDF | EA,~A,2 GFED | EFDF GA (3Bcd | AE~E2 cdec |
+dcAG FEDF | EA,~A,2 GFED | EFDF GA (3Bcd | AE~E2 FDFA :|
+|: d2fd gdfg | aA~A2 cdec | d2fd gdfg | ageg ~f3e |
+d2fd gdfg | aA~A2 cdeg | ~f3d eAcd | e2dc dABc :|
+
+X:974
+T:Ramnee Ceilidh
+R:reel
+C:Gordon Duncan (1964-2005), Scotland
+S:David Lombardi
+Z:id:hn-reel-974
+M:C|
+L:1/8
+K:D
+dBBd A2BA | feef e2de | faaf e2fe | d3e dBAB |
+dBBd A2BA | feef e2de | faaf e2fe | dBAB d3e :|
+|: f2fA Bde2- | ed~d2 edBd | ~f3A Bde2- | edfe d3e |
+f2fA Bde2- | ed~d2 edBd | faaf e2fe | dBAB d3e :|
+P:variations
+|: dB~B2 A2FA | f2gf e2de | f2af e2fe | d3c dBAB |
+dB~B2 A2FA | feef e2de | f2af egfe | dBAB d3e :|
+|: f3A Bde2- | edef edBd | ~f3A Bde2- | efgf edBd |
+f2fA Bde2- | edef edBd | f2af egfe | dBAB d3e :|
+
+X:975
+T:Reel for Grace
+R:reel
+C:Michael McGoldrick
+Z:id:hn-reel-975
+M:C|
+L:1/8
+K:D
+DF~F2 ADFA | df~f2 afeg | f2ed Be~e2 | fedB BAFE |
+DF~F2 ADFA | df~f2 afeg | f2ed Be~e2 |1 fedc dBAF :|2 fedc defg ||
+|: faaf a2ab | afef b3a | faaf a2ab | afed fede |
+f2af egfe | dfed B3d | AF~F2 ABde |1 fedc d2de :|2 fedc dBAF ||
+P:variations
+|: DF~F2 ADFA | df~f2 afed | efed Be~e2 | fedB BAFE |
+DF~F2 ADFA | df~f2 afed | efed Be~e2 | defe d4 :|
+|: faaf a2ab | afef b3a | faaf a2ab | afea fede |
+f2af egfe | dfed B2dB | AF~F2 ABde |1 f2eg fede :|2 f2eg fed2 ||
+
+X:976
+T:Road to Monalea, The
+R:reel
+C:Colm O'Donnell
+S:Jennikel Andersson
+Z:id:hn-reel-976
+M:C|
+L:1/8
+K:Ddor
+dcAc d3e | dcAG EDD2 | cAGA c2ed | cAGE EDD2 |
+dcAc d3e | dcAG EDD2 | EGAB c2ed | cAGE EDD2 :|
+|: dcAc d2cd | eaag egga | gede c3d | eaag edde |
+dcAc d2cd | eaag eg~g2 | cAGA c2ed | cAGE EDD2 :| 
+
+X:977
+T:Palmer's Gate
+R:reel
+C:Joe Liddy (1906-1992)
+H:Also played in F#m
+Z:id:hn-reel-977
+M:C|
+L:1/8
+K:Em
+BE~E2 GABG | A2BA GEDE | ~G3A BAGA | BedB BAGA |
+BE~E2 GABG | AcBA GEDE | GA (3Bcd edBA | GEED E2GA :|
+|: Beed ~e3f | g2fg edBA | G2BG dGBA | GA (3Bcd edBA |
+Beed ~e3f | g2fg edBA | GA (3Bcd edBA | GEED E2GA :|
+
+X:978
+T:Dublin Lasses, The
+R:reel
+H:See also #736 and #70 in G
+D:Ashplant
+Z:id:hn-reel-978
+M:C|
+L:1/8
+K:F
+cF~F2 cFdF | cFFG AGG2 | cF~F2 cdcA | GBAG FDD2 |
+cF~F2 cFdF | cFFG AGG2 | FGAc d2cA | GBAG FDD2 || 
+~f3g abag | fefg adde | ~f3g abag | fdec Adde |
+~f3g abag | fefg add2 | afge f2ed | cAGB ADD2 ||
+
+X:979
+T:Reel Beatrice
+T:Reel B\'eatrice
+R:reel
+H:This French Canadian tune is derived from an Italian polka called "Oggi Nevica"
+H:Also played in Gm or Bm
+O:Quebec
+Z:id:hn-reel-979
+M:C|
+L:1/8
+K:Am
+A,B, |: C2A,C EA,CE | AEED E2AB | c2Ac eAce | aeed e2ab |
+c'bag fedc | BddB d3f | ~e3f edcB |1 A3A, A,3B, :|2 A3A, A,3a ||
+|: a2fa bf~f2 | fe^de ae~e2 | e^def e=ddB | cdcB A3a |
+a2fa bf~f2 | fe^de ae~e2 | e^def e=dcB |1 A3A, A,3a :|2 A2AB A3B ||
+|: cG~G2 EGce | cG~G2 EGce | dB~B2 GBdB | cc'ba gfed |
+cG~G2 EGce | cG~G2 EGce | dB~B2 GBdB |1 cBcd c2AB :|2 cBcd c2 || 
+
+X:980
+T:Pressed for Time
+R:reel
+C:Gordon Duncan (1964-2005), Scotland
+Z:id:hn-reel-980
+M:C|
+L:1/8
+K:Amix
+GAgG AfGA | eGAe GAeA | GA~A2 eAcA | GA~A2 dAcA |
+GAgG AfGA | eGAe GAeA | cA~A2 eAcA | ~A2eA dAcA :|
+|: G3A dAcA | GA~A2 dAcA | cd~d2 ed~d2 | ef~f2 ~a3f |
+eA~A2 BAeA | A2eA dAcA | GA~A2 dAcA | c2ec dBcA :|
+|: g3f geef | gfga geeg | ef~f2 fedc | cd~d2 fedf |
+eA~A2 BAeA | A2eA dAcA | GA~A2 dAcA | c2ec dBcA :|
+|: g3f geef | gfga geeg | ef~f2 fedc | cd~d2 fedf |
+[1 eaae a2ea | aea2 efgf | eaag ~a3g | aA~A2 (3Bcd ef :|
+[2 eA~A2 BAeA | A2eA dAcA | GA~A2 dAcA | c2ec dBcA ||
+P:Flook version
+|: GAgG AfGA | eGAe GAeA | GA~A2 d2cA | GA~A2 d2cA |
+GAgG AfGA | eGAe GAeA | cA~A2 dAcA | ~A2eA e4 :|
+|: GAdA cAGA | ~A2dA cA~A2 | cd~d2 ed~d2 | effe a3f |
+eA~A2 BAeA | ~A2e2 d2cA | GA~A2 dAcA |1 A2e2 d2cA :|2 A2e2 G2 (3Bcd ||
+|: ~g3f geef | ~g3a geeg | e~f2g fedB | dBde f2dB |
+eA~A2 GAeA | ~A2e2 d2cA | GA~A2 dAcA | A2e2 G2 (3Bcd :|
+|: ~g3f geef | ~g3a geeg | e~f2g fedB | dBde f2dB |
+[1 eaae a2ea | aea2 efgf | eAae a3f | gfdA (3Bcd ef :|
+[2 eA~A2 GAeA | A2e2 d2cA | GAA2 dAcA | A2eA e4 ||
+
+X:981
+T:Bunch Of Currants, The
+T:Miss Brady
+T:Esther's Reel
+T:Three-Headed Monster, The
+T:3 Headed Monster, The
+R:reel
+H:Also played with parts in reversed order
+Z:id:hn-reel-981
+M:C|
+L:1/8
+K:Edor
+CDEF GABc | dD~D2 ADFD | EFGA BAGF |1 GBAF GFED :|2 GBAF GEE2 ||
+|: g3e fedf | efga gfed | eB~B2 dBAF |1 GBAF GEE2 :|2 GBAF GFED ||
+P:variations
+|: CDEF GABc | dD~D2 ADFD | EFGA BAGF |1 GBAF GFED :|2 GBAF GEE2 ||
+|: g2eg ~f3d | efga ~g3f | eB~B2 dBAF |1 GBAF GEE2 :|2 GBAF GFED ||
+P:version 2
+|: EFGA BABc | dD~D2 dDFD | EFGA BAGF |1 GBAF GEED :|2 GBAF GEE2 ||
+|: efge fgaf | efge fd~d2 | gfed egfe |1 dBAF GEE2 :|2 dBAF GEED ||
+
+X:982
+T:Mill Stream, The
+T:Millstream, The
+R:reel
+H:Related to "Colonel McRory's" #242, and "Lough Allen" in O'Neill's
+D:Beoga: A Lovely Madness
+Z:id:hn-reel-982
+M:C|
+L:1/8
+K:G
+d2BG ABcA | dGBG c2Bc | d2BG ABcA | BcBA G2Bc :|
+|: d3e fdcA | dggf g2ag | fd~d2 ec~c2 | dBcA GABc :|
+P:variations
+|: d2BG ABce | dGBG c2Bc | dGBG ABce | dBcA G2Bc :|
+|: d3e fdcA | dggf g2ag | fd~d2 ecce | dBcA G2Bc :|
+
+X:983
+T:First Day Of Spring, The
+R:reel
+C:Tommy Peoples (1948-2018)
+Z:id:hn-reel-983
+M:C|
+L:1/8
+K:Gdor
+d2cA GFDF | G2cG dGcG | AdcA GFDF | Gg (3fga g3a |
+bagf dcAg | agfd cAFA | G2cG dGcG |1 AdcA G3c :|2 AdcA G3f ||
+|: ~g3a bg~g2 | gbag fdde | fage f2cf | Afag fdcA |
+~g3a bg~g2 | afge fdcA | G2cG dGcG |1 AdcA G3f :|2 AdcA G3F ||
+|: DG~G2 GdcA | G2cG dGcG | DF~F2 FcAG | F2cF dFcF |
+DG~G2 GdcA | G2cG dGcG | afge fdcA |1 FdcA G3F :|2 FdcA G3c ||
+P:variations
+|: dccA GFDF | G2cG dGcG | AdcA GFDF | Ggfa ~g3a |
+bagf dcAg | agfd cAFA | G2cG dGcG |1 AdcA G2Ac :|2 AdcA G3f ||
+|: g2dg bg~g2 | gbag fdde | ~f3e f2cf | ~a3g fdcf |
+dgga bg~g2 | a2ge fdcA | G2cG dGcG |1 AdcA G3f :|2 AdcA G3F ||
+|: DGGF GdcA | G2cG dGcG | DFFE FcAG | F2cF dFcF |
+DGGF GdcA | G2cG dGcG | agfe fdcA |1 AdcA G2FG :|2 AdcA G2Ac ||
+
+X:984
+T:Up Spinc\'in
+R:reel
+C:Colm O'Donnell
+S:Jennikel Andersson
+Z:id:hn-reel-984
+M:C|
+L:1/8
+K:G
+GEDE ~G3B | AGED EAAB | GEDE ~G3B | dBAd BGGA |
+GEDE GFGB | AGED EA~A2 | GBdG edBe | dBAB ~G3A :|
+|: B2dg edBe | dGBG AGEG | ~B3d edBd | eg~g2 abgd |
+B2gd edBe | dGBG AGEA | GEDE ~G3B | dBAd BGGA :|
+
+X:985
+T:High Drive, The
+R:reel
+C:Gordon Duncan (1964-2005), Scotland
+Z:id:hn-reel-985
+M:C|
+L:1/8
+K:D
+d3e fedA | B2gB BAGB | GA~A2 fedf | eA~A2 efge |
+d3e fedA | B2gB BAGB | GA~A2 fedf | edce d4 :|
+|: a3g ad~d2 | AB~B2 gBdB | GA~A2 fedf | eA~A2 efge |
+[1 a3g ad~d2 | AB~B2 gBdB | GA~A2 fedf | edce d4 :|
+[2 d3e fedA | B2gB BAGB | GA~A2 fedf | edce d4 ||
+|: dAeA fA~A2 | gBBA Bgag | fA~A2 fgaf | eA~A2 efge |
+dAeA fA~A2 | gBBA Bgag | fA~A2 fgaf | edce d4 :|
+|: adda ddad | gddg ddgd | fddf ddfd | edde defg |
+adda ddad | gddg ddgd | GA~A2 fedf | edce d4 :|
+
+X:986
+T:Ronan Boys, The
+R:reel
+C:Liz Carroll
+Z:id:hn-reel-986
+M:C|
+L:1/8
+K:D
+D2 (3FED FAAF | E2DE FAAB | ABde faaf | edBA FEE2 |
+D2 (3FED FAAF | GFED FAdf | gfed B2dB | AFEF EDD2 :|
+|: ~a3g fgag | addc defg | ~a3g fgaf | bdad g2fg |
+~a3g fgaf | g2ed (3Bcd ef | gfed B2dB | AFEF EDD2 :|
+
+X:987
+T:Neil Roy
+R:reel
+H:Scottish
+Z:id:hn-reel-987
+M:C|
+L:1/8
+K:Gdor
+DGGA B2cB | AFcF dFcF | DGGA B2cB | Acfc AGGF |
+DGGA B2cB | AF~F2 dFcF | DGGA B2cB | Acfc AGGF ||
+Ggga b2ag | fcac gcfc | dgga b2ag | fdcA B2AF |
+Ggga bgag | ~f3g agfa | g2fg dfcd | AFcA BGGF || 
+
+X:988
+T:Maggie's Pancakes
+R:reel
+C:Stuart Morrison, Scotland
+Z:id:hn-reel-988
+M:C|
+L:1/8
+K:Bm
+fB~B2 fgfe | dBAB GBdB | cAAd AAec | AfdB ecAc |
+dB~B2 fgfe | dBAB GBdB | cAdA eAce | afec B4 :|
+|: f2dB GBdB | caec dB~B2 | f2dB GBdB | caec Bcde |
+fdd2 fgfe | dBAB GBdB | cAdA eAce | afec B4 :| 
+
+X:989
+T:Morning Dew, The
+T:Joe Cooley's Morning Dew
+R:reel
+H:Joe Cooley's 2-part version. See also #81, #737
+Z:id:hn-reel-989
+M:C|
+L:1/8
+K:Edor
+B2EB GBEB | B2EB ADFA | B2EB GBEd | gedB ADFA :|
+B2eg fded | B2eg fd~d2 | B2eg fded | B2AG FDFA |
+B2eg fded | Bdeg fddc | dfaf gfed | B2Ad Beed ||
+
+X:990
+T:Midsummer's Night
+R:reel
+C:Vincent Broderick (1920-2008)
+H:See also #702
+D:Dervish
+Z:id:hn-reel-990
+M:C|
+L:1/8
+K:G
+egdB ~A3G | EG~G2 EGDG | e2dB A2 (3Bcd | egfa gedg | 
+egdB ~A3G | EG~G2 EGDE | ~G3A BA (3Bcd |1 egdB BABd :|2 egdB cAFA ||
+|: ~G3A BG (3Bcd | ~g3a baga | bage dG (3Bcd | egdg edBA |
+~G3A BG (3Bcd | ~g3a baga | bage dG (3Bcd |1 egfg edBA :|2 egfg edBd ||
+P:variations
+|: eBdB ABAG | EG~G2 EGDG | eBdB A2 (3Bcd | eaag egdg | 
+eBdB ABAG | EG~G2 EGDE | GFGA BA (3Bcd |1 eBdB BAA2 :|2 e2dB cAFA ||
+|: GFGA BG (3Bcd | ~g3a baga | bage dG (3Bcd | egdg edBA |
+~G3A dGBd | ~g3a baga | bage dG (3Bcd |1 e2ge edBA :|2 e2ge edBd ||
+P:more variations
+|: e2dB ~A3G | EG~G2 EGDd | (3efg dB A2 (3Bcd | eaaf gedg | 
+(3efg dB ~A3G | EG~G2 EGDE | GEDE GA (3Bcd |1 egdB BAAd :|2 egdB cAFA ||
+|: G3A dGBd | ~g3a baga | bage dG (3Bcd | ~e3g edBA |
+~G3A BG (3Bcd | ~g3a baga | bage dG (3Bcd |1 ~e3g edBA :|2 ~e3g edBd ||
+
+X:991
+T:New Custom House, The
+T:New Customs House, The
+T:Paddy Kelly's
+R:reel
+C:Paddy Kelly (1906-?), Aughrim, Co. Galway
+H:See also #316
+Z:id:hn-reel-991
+M:C|
+L:1/8
+K:Dmix
+A2DE FGAB | cAGE CEFG | A2DE FGAB | c2ec dcAG |
+A2DE FGAB | cAGE CEFG | ADFD FGAB | cAGE EDD2 :|
+|: Add^c d2cd | ed^cd efge | Add^c d2cd | eaag ed^cd |
+Add^c d2cd | ed^cd efge | afge d2 (3Bcd | eaag ed^cd :| 
+P:variations
+|: AD (3FED FGAB | cAGE CEFG | A2DE FGAB | c3e dcAG |
+ADDE FGAB | cAGE CEFG | ADFD (3EFG AB | cAGE ADD2 :|
+|: Ad~d2 Adfd | ecc2 efge | Ad~d2 Adfa | gfeg fde^c |
+Ad~d2 Adfd | ecc2 efge | afgf ed (3Bcd | eaag edd^c :| 
+
+X:992
+T:Rookery, The
+R:reel
+C:Vincent Broderick (1920-2008)
+Z:id:hn-reel-992
+M:C|
+L:1/8
+K:G
+BGAG EGDG | EGDG EGDE | GABd egdg | egdg edBA |
+~G3A BGBd | e2ed efga | bgag eage |1 dBAc BGGA :|2 dBAc BGG2 ||
+|: b2gb a2ga | b2gb aged | G2Bd egdg | egdg edBA |
+~G3A BGBd | ~e3d efga | bgag e2ge |1 dBAc BGG2 :|2 dBAc BGGA ||
+
+X:993
+T:Humours Of Carrigaholt, The
+R:reel
+Z:id:hn-reel-993
+M:C|
+L:1/8
+K:Dmix
+dcAF G2AG | F2DE FGAB | cBAF G2FG | Add^c defe |
+dcAF GBAG | FDDE FGAB | cBAF G2FG | Add^c d3e ||
+fdde fdgf | ed^cd efge | fd~d2 fdgf | ed^cd e3g |
+fdde fagf | ed^cd efge | agfa gfe^c | dfe^c defe ||
+
+X:994
+T:Maghera Mountain
+R:reel
+C:Martin Hayes
+Z:id:hn-reel-994
+M:C|
+L:1/8
+K:Gdor
+d2cA BGGF | DGGF GABc | dBcA BGGB | AFcF dFcF |
+dBcA BGGF | DGGF GBAG | FGAc fcAc |1 B2AB GABc :|2 B2AB GBAG ||
+|: F2Ac f2ef | ~g3a gfef | ecgc acgc | ecgc acgc |
+BGGF G3B | AFFE F2GA | Bdge fdcA |1 B2AB GBAG :|2 B2AB GABc ||
+
+X:995
+T:Ragged Hank of Yarn, The
+R:reel
+Z:id:hn-reel-995
+M:C|
+L:1/8
+K:Dmix
+A,D~D2 (3EFG AB | c3d cAGE | D2AD (3EFG AB | cAGE EFGE |
+D2AD (3EFG AB | c2ed cAGE | D2AD (3EFG AB | cAGE EDD2 ||
+|: d3e dcAB | c2Bd cAGc |1 d2ce dcAB | cAGE EDD2 :|2 d3e =fded | cAGE EDD2 ||
+P:variations
+D2ED EGAB | c2dB cAGE | D2ED (3EFG AB | cAGE EDCE |
+D2ED EGAB | cGed cAGE | D2ED (3EFG AB | cAGE EDD2 ||
+|: d3e dcAB | cded cAGc |1 Addc dcAB | cAGE EDD2 :|2 Adde ^fded | cAGE EDCE ||
+
+X:996
+T:Bog Carrot, The
+R:reel
+D:Buttons and Bows
+Z:id:hn-reel-996
+M:C|
+L:1/8
+K:D
+FAdA BdAd | BdAF ~E3G | FAdA BdAd | BdAF (3EFE D2 :|
+|: ~f3e defg | afdf e2de | fgfe defe | dBAF (3EFE D2 :|
+|: afdf afdf | ge=ce ge^ce |1 afdf afdf | ge^ce d3f :|2 afge fdec | dBAF (3EFE D2 ||
+P:variations
+|: FAdA BdAB | dBAF ~E3G | FAdA BdAB | dBAF EFD2 :|
+|: ~f3e defg | afdf efde | ~f3e defe | dBAF EFD2 :|
+|: afdf afdf | ge=ce ge=ce |1 afdf afdf | ge^ce defg :|2 afge fdec | dBAF EFD2 ||
+
+X:997
+T:Periwig, The
+R:reel
+H:Originally Scottish
+Z:id:hn-reel-997
+M:C|
+L:1/8
+K:Em
+g2fg agfa | gefg dB~B2 | g2fg agfa |1 gefd ~e3f :|2 gefd ~e3g ||
+|: dB~B2 dGBd | dGBd cA~A2 | dB~B2 GABd |1 g2fd efge :|2 g2fg edef ||
+
+X:998
+T:Miss Langford
+T:Lass of Carracastle, The
+R:reel
+H:See also "Morrison's", #571
+D:Mick O'Brien & Caoimh\'in \'O Raghallaigh: Deadly Buzz
+Z:id:hn-reel-998
+M:C|
+L:1/8
+K:D
+A2dB ADFA | BdAF GFEG | FDDE FA~A2 | (3Bcd eg fedB |
+A3B ADFA | BdAF GFEG | FDDE FA~A2 | (3Bcd eg fddc ||
+|: dfaf g2ef | gfed cA~A2 |1 fgaf g2fg | abag fddc :|2 ~B3d cABc | dfag fedB ||
+
+X:999
+T:Geese in the Bog, The
+T:Lad O'Beirne's Favourite
+R:reel
+H:see also jig#350
+Z:id:hn-reel-999
+M:C|
+L:1/8
+K:D
+dF~F2 AFEF | dFBF A2Bc |1 dF~F2 AFEF | DBBA ~B3c :|2 (3dcB BA BAFE | DBBA ~B3c ||
+d2fd edfe | defe faaf | d2fd edfd | BdcA ~B3c |
+d2fd edfe | defe fa~a2 | abaf gfed | BdcA ~B3c ||
+P:variations
+|: dF~F2 AFEF | dFBF A2Bc |1 dF~F2 AFEF | DBBA ~B3c :|2 (3dcB cA BAFE | DBBA BAFA ||
+d2fd edef | defd faaf | d2fd edfd | BdcA BAFA |
+d2fd edef | defd fa~a2 | bfaf gfed | BdcA ~B3c ||
+P:more variations
+|: dF~F2 AFEF | dFBF A2Bc |1 dF~F2 AFEF | DBBA B2AB :|2 dBcA BAFE | DBBA BdAB ||
+d2fd edfe | defd faaf | d2fd edcA | (3Bcd cA B2AB |
+d2fd edfe | defd fa~a2 | b2af gfed | (3Bcd cA B2AB ||
+
+X:1000
+T:Spirits of Wine, The
+R:reel
+D:John Doherty: The Floating Bow
+Z:id:hn-reel-1000
+M:C|
+L:1/8
+K:A
+ed | cBAc BGED | CEAc e2fg | aece a2ec | dcBA GBed |
+cBAc BGED | CEAc e2fg | aece a2ec | A2AG A2 :|2 A2AG A ||
+|: aga | eccB ceag | fddc dfaf | eccB ceaf | edcA BEGB |
+eccB ceag | fddc dfaf | eAce dBGB |1 Aaec A :|2 Aaec A2 ||
+

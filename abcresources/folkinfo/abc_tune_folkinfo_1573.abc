@@ -1,0 +1,17 @@
+%%scale 1
+X:1     %Music
+T:The Stately Southerner
+B:Alan Lomax, The Penguin Book of American Folk Songs, Penguin, 1964
+F:http://www.folkinfo.org/songs
+M:6/8     %Meter
+L:1/8     %
+K:C
+C |C2 E G2 E |F2 F A2 C |CA,B, C2 C | D3-D2
+w:It was the State-ly Sou-ther-ner that carr-ed the Stripes and Stars,_
+G |(G^F)G G2 A |D2 E F2 G |A2 A B2 A | G3-G2
+w: The whist--ling wind from west-nor'-west blew through her pitch-pine spars,_
+G/G/ |G^FG c2 c |E2 E F2 G |A2 A B2 A | G3-G2
+w: With her star--board tacks a-board, my boys, she hung up to the gale,_
+G/G/ |F2 E G2 E |(FE)F A2 C/C/ |(CA,)B, C2 C | C3-C2z |]
+w:'Twas an au-tumn night we raised_ the light on the Head_ of old Kin-sale._ 
+     %End of file

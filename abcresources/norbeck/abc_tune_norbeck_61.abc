@@ -1,0 +1,226 @@
+This file contains 15 slip jigs (#101 - #115).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 25 December 2020.
+
+(c) Copyright 2018-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:slip jig
+M:9/8
+Z:id:hn-slipjig-%X
+
+X:101
+T:Wink and She'll Follow You
+R:slip jig
+H:See also #63, #71
+Z:id:hn-slipjig-101
+M:9/8
+L:1/8
+K:Ddor
+D2A ABG ABc | ~E3 AGE G2E | D2A ABG ABc |1 BAG AGE G2E :|2 BAG AGE GED ||
+c3 e2c ABc | ~B3 dBG GAB | cAc e2c ABc | BAG AGE GED |
+c3 e2c ABc | ~B3 dBG GB/c/d | gag gdB AdB | cBA BAG AGE ||
+
+X:102
+T:Con's Slip Jig
+R:slip jig
+H:A version of "Andrew Carr". Related to "The Tipperary Hills" hop jig#18
+D:Altan: Another Sky
+Z:id:hn-slipjig-102
+M:9/8
+L:1/8
+K:E
+G2B BGe BGE | ~A3 c2B cde | GBB B^Ac Bcd | eBG EFG F2E :|
+e2c BGB EGB | cff f2g agf | e2c BGB Bcd | eBG EFG F2E |
+e2c BGB BGB | cff f2g agf | e2c B^Ac Bcd | egb bag f2e ||
+
+X:103
+T:Turnpike Way, The
+R:slip jig
+B:Goodman collection
+D:Martin Nolan: Bright Silver Dark Wood
+Z:id:hn-slipjig-103
+M:9/8
+L:1/8
+K:D
+FGA BGB A2G | FGA B2d cAG | FGA BGB ~A3 | cde fed cAG :|
+|: cde fdf e2d | cde f2a ged | cde eag fed | cAA fed cAG :|
+
+X:104
+T:Larry Redican's Slip Jig
+T:Let's Dance
+R:slip jig
+C:Larry Redican (1908-1975)
+H:Originally in F and with parts swapped
+D:Jimmy Keane
+Z:id:hn-slipjig-104
+M:9/8
+L:1/8
+K:G
+~G3 Bdd cee | ~G3 BdB cAF | ~G3 DGG DGF |1 ~E3 AGF G3 :|2 ~E3 AGF GFG ||
+|: AGE EDB, DEG | dBA ABd edg | dBA AGE EDB, |1 DB,A, A,B,D EDB :|2 DB,A, A,B,D E3 ||
+
+X:105
+T:Gingerhogs No. 2
+R:slip jig
+C:Phil Cunningham, Scotland
+Z:id:hn-slipjig-105
+M:9/8
+L:1/8
+K:D
+Add fdd e2f | Add efd GdB | Add fdd e2f | GBd Afd e2d :|
+|: adf fef def | adf efd B2A | adf fed BAF | GBd Afd e2d :|
+
+X:106
+T:For The Love Of Music
+R:slip jig
+C:Liz Carroll
+H:Also played in A
+Z:id:hn-slipjig-106
+M:9/8
+L:1/8
+K:G
+GED DEG AGB | AGG GBd edd | GED DEG AGc | Bee BAB GEE :|
+ged e/f/gB GB/c/d | ged egb a2f | ged e/f/gB AB/c/d | edB dBG ABd |
+ged e/f/gB GB/c/d | ged egb a2a | bee e/f/ge a2g | edB dBG ABA ||
+P:variations
+|: GED DEG A2B | AGG GBd edd | GED DEG A2c | Bee BAB GEE :|
+ged egB G2d | ged egb ~a3 | ged egB ABd | edB dBG AB/c/d |
+ged egB G2d | ged egb ~a3 | bee gee a2g | edB dBG ABA ||
+
+X:107
+T:Terry Hi Ho the Grinder
+R:slip jig
+S:Michael Clarkson on irishflute.podbean.com
+Z:id:hn-slipjig-107
+M:9/8
+L:1/8
+K:Ador
+AGE A2B G2B | A2E ABd e2f | gdB BAB GBA |1 GED GAB dcB :|2 GED GAB d3 ||
+|: efg edB BAB | ~g3 edB d3 | efg edB BAB |1 GED GAB d3 :|2 GED GAB dcB ||
+
+X:108
+T:Cosa Buidhe \'Arda Dearga
+T:Yellow Legs, High Legs, Red Legs
+R:slip jig
+H:Another 4 part version in O'Neill's and O'Farrell's as "Yellow Legs"
+B:Goodman manuscripts
+Z:id:hn-slipjig-108
+M:9/8
+L:1/8
+K:D
+FEF DFD G2E | FEF DFD GED | FEF DFD G2E | GEE c2A GED :|
+|: GEG A2D A2D | GEG A2D GED | GEG A2D A2D | GEE c2A GED :|
+
+X:109
+T:Cronin's Slippery Jig
+R:slip jig
+D:Brendan Begley & Caoimh\'in \'O Raghallaigh: A Moment of Madness
+Z:id:hn-slipjig-109
+M:9/8
+L:1/8
+K:Em
+E2B BGE BGE | FDF AFd AFD | EFG ABc BGE | eBB AGF E3 :|
+eBe geg bge | dAd fdf afd | eBe geg bge | gfe Be^d e3 |
+eBe g2a bge | dAd fdf afd | e/f/ge edB BAG | B/c/dB AGF E2B, ||
+
+X:110
+T:Fiollaigean
+R:slip jig
+H:A Scots Gaelic song in slip jig time, sung without repeated
+H:parts, but works better as a slip jig with repeated parts.
+H:Different versions of 1st and 2nd parts included.
+Z:id:hn-slipjig-110
+M:9/8
+L:1/8
+K:Edor
+~B3 B2E G2A | ~B3 ~e3 edB | ~d3 edB A2d | edB B2A GED :|
+|: ~E3 G2d BAG | G2E G2d BAG | G2E G2A B2d | edB B2A GEE :|
+|: ~B3 dBB BAG | ~B3 ~e3 edB | ~d3 edB BAd | FED BAd BAF :|
+|: ~E3 G2d BAF | ~E3 G2d BAF | ~E3 G2A B2d | eBB B2A GEE :|
+
+X:111
+T:Comb Your Hair and Curl It
+R:hop jig
+H:See also #9
+D:Catherine McEvoy, Caoimh\'in \'O Raghallaigh & M\'iche\'al \'O Raghallaigh: Comb Your Hair and Curl It
+Z:id:hn-slipjig-111
+M:9/8
+L:1/8
+K:Edor
+B2E E2F G2A | Bcd e2c d2c | B2E E2F G2A | Bcd A2F G2E :|
+|: g2e e2d e2g | f2d d2c d2f | g2e e2d e2d | Bcd A2F G2E :|
+
+X:112
+T:Soggy's
+R:slip jig
+C:Se\'an \'Og Graham
+Z:id:hn-slipjig-112
+M:9/8
+L:1/8
+K:A
+~E3 cEB BAE | ~F3 BFA AFE | ~F3 BAB cef | a2f ecB BAF |
+~E3 cEB BAE | ~F3 BFA AFE | ~F3 BAB cef | a2f ecB A3 :|
+|: D2D FGA AGF | G2G EGA BAG | A2e dec eBe | AGF EFG ~A3 |
+~D3 FGA AGF | ~G3 EGA BAG | A2e dec eBe | AGF EFG A3 :|
+P:variations
+|: ~E3 cEB BAE | ~F3 BFA AFE | FEF ~B3 cef | aef ecB BAF |
+~E3 cEB BAE | ~F3 BFA AFE | ~F3 ~B3 cef | gaf ecB ~A3 :|
+|: D2D FGA ABA | G2G EGA BAG | A2e dec eBe | AGF EFG ABA |
+~D3 FGA ABA | ~G3 EGA BAG | Ace dec eBe | AGF EFG A3 :|
+
+X:113
+T:Furnill's Frolic
+R:slip jig
+B:Goodman Collection
+D:Peter Carberrry & P\'adraig McGovern
+Z:id:hn-slipjig-113
+M:9/8
+L:1/8
+K:Dmix
+AdA GAG F2G | ~A3 AFD EFG | AdA GAG FAd | ~c3 AGE GEC :|
+|: F2D E/F/GE DE/F/G | ~A3 AFD EFG | F/G/AD E/F/GE DAd | ~c3 AGE GEC :|
+|: f2d cAG F2G | ~A3 AFD EFA | f2A dge fAB | cec AGE GEC :|
+
+X:114
+T:Open The Door for Three
+R:slip jig
+H:This tune has a long history in Scotland and England:
+H:a simple version of first part was published by Playford in 1652.
+H:See also #79
+D:Martin Nolan: Bright Silver Dark Wood
+Z:id:hn-slipjig-114
+M:9/8
+L:1/8
+K:G
+G2B BGB AFA | G2B BGB c2A | G2B BGB AFA |1 GB/c/d cAF G2D :|2 GBd cAF GB/c/d ||
+|: gdB gdB AGd | gfe def g2d | efg dcB ABc |1 ~B3 cAF G2d :|2 ~B3 cAF G2D || 
+
+X:115
+T:Man Who'll Never Be Able, The
+T:Sir Phillip McHugh
+T:Funny Mistake, The
+R:slip jig
+H:Also in D
+Z:id:hn-slipjig-115
+M:9/8
+L:1/8
+K:G
+G2c BGB c2A | Bdd cAG F2D | G2c BGB c2A |1 Bdd cAF G2D :|2 Bdd cAF G2B ||
+|: ~A3 AFD FED | ABA AGF G2B | ABA AFD FED |1 B2d cAF G2B :|2 B2d cAF G2D || 
+

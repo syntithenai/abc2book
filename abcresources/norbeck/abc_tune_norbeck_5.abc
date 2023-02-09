@@ -1,0 +1,110 @@
+This file contains 6 bourr\'ees (#1 - #6).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+These bourr\'ees are dance tunes from France.
+
+Last updated 3 May 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:bourree
+M:3/8
+L:1/16
+Z:id:hn-%R-%X
+
+X:1
+T:Fil et Bobine
+R:bourree
+C:Jean Blanchard
+O:France
+Z:id:hn-bourree-1
+M:3/8
+L:1/16
+Q:1/8=190
+K:D
+FG | A2 d2 c2 | A3 GAB | =c2 B2 G2 | ABAGFG |
+A2 d2 c2 | A3 GAB | =c2 B2 G2 | A4 :|
+|: FG | A2 F2 D2 | E3 DEF | G2 F2 D2 | EF G2 FG |
+A2 F2 D2 | E3 DEF |1 G2 F2 D2 | E4 :|2 G2 F2 E2 | D4 ||
+
+X:2
+T:La Marion Plora
+T:La Marion Plouro
+R:bourree
+Z:id:hn-bourree-2
+M:3/8
+L:1/16
+Q:1/8=190
+K:Dm
+e2 |: a4 g2 | f2 e4 | ge f2 d2 | ^c2 d2 e2 |
+a4 g2 | f2 e4 | ge f2 ef |1 d4 e2 :|2 d4 A2 ||
+|: d4 ^c2 | d2 e4 | ge f2 d2 | ^c2 A=B ^c2 |
+d4 ^c2 | d2 e4 | ge f2 ef |1 d4 A2 :|2 d4 ||
+
+X:3
+T:Les Poules Hupp\'ees
+T:Crested Hens, The
+R:bourree
+C:Gilles Chabenat
+O:France
+Z:id:hn-bourree-3
+M:3/8
+L:1/16
+Q:1/8=190
+K:Ddor
+D2 DFED | A4 AB | cBAdcB | cBAGEF |
+D2 DFED | A4 AB | cBAdcd |1 A6 :|2 A2 d2 e2 ||
+|: f2 Af Af | _B3 cde | fdgfed | ^c2 d2 e2 |
+f2 Af Af | _B3 cde | fdgfe^c |1 d2 d2 e2 :|2 d6 ||
+
+X:4
+T:La Coccinelle
+R:bourree
+C:Jean Blanchard
+O:France
+Z:id:hn-bourree-4
+M:3/8
+L:1/16
+Q:1/8=195
+K:D
+FG | A2d2c2 | B2A2FG | ABAFEG | F2DEFG |
+A2d2c2 | B2A2FG | ABAGFE | D4 :|
+|: FG | AFDBGE | AFDBGE | ABAFEG | F2DEFG |
+AFDBGE | AFDBGE | ABAGFE | D4 :|
+
+X:5
+T:Une oie, deux oies
+R:bourree
+C:Jean Blanchard
+O:France
+Z:id:hn-bourree-5
+M:3/8
+L:1/16
+Q:1/8=195
+K:Dmix
+F2 | DFA2D2 | B4c2 | BcBAG2 | B2A2F2 |
+DFA2D2 | B4c2 | BcBAGB | A4 :|
+|: F2 | F2A3G | E4B2 | ABAGFE | F2D2F2 |
+F2A3G | E4B2 | ABAGFE | D4 :|
+
+X:6
+T:La Marion Plouro
+R:bourree
+H:The phrygian scale is like a minor scale with a flat second note.
+Z:id:hn-bourree-6
+M:3/8
+L:1/16
+Q:1/8=195
+K:Aphr
+e2 | c4 c2 | B2 c2 d2 | e2 f2 f2 | e2 a2 g2 |
+e2 d2 c2 | B2 c2 d2 | e2 f2 g2 | a4 :|
+a2 |: d2 e2 f2 | a2 g4 | e2 d2 B2 | e2 d2 ^c2 |
+d2 e2 f2 | a2 g4 | e2 d2 B2 |1 A4 A2 :|2 A4 ||
+

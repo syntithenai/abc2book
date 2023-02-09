@@ -1,0 +1,549 @@
+This file contains 38 waltzes (#1 - #38).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Last updated 1 October 2019.
+
+(c) Copyright 2002-2019 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+M:3/4
+L:1/8
+R:vals
+Z:id:hn-%R-%X
+
+X:1
+T:Hin och Bonden
+R:vals
+H:efter Lars Vilhelm Johansson, Lima
+D:Perjos Lars Halvarsson och Mattias Helje
+O:Lima, Dalarna
+Z:id:hn-vals-1
+M:3/4
+L:1/8
+K:G
+BBd | dc Bc AF | D2 FA c2 | cB Bd AF | G2 Bd g2 |
+d>c Bc AF | D2 FA c2 | cB Bd AF | G3 :|
+|: Bdg | b3 agf | g3 fed | cB ce dc | A3 Bcd | e4 d2 | dc ce cA | G3 :|
+
+X:2
+T:Sten{\aa}ldersvalsens kusin
+R:vals
+Z:id:hn-vals-2
+M:3/4
+L:1/8
+K:Amix
+AAA | A2 cA cd | e3 eee | e2 f2 d2 | d2 c2 cd | c2 BG BG | A3:|
+|:Acd | e2 ^g2 fd | ef ed cd | e2 ^g2 fd | ef e2 cd |
+e2 ^g2 fd | ef ed cd | e2 ^g2 fd | e3:|
+
+X:3
+T:Sten{\aa}ldersvalsen
+R:vals
+Z:id:hn-vals-3
+M:3/4
+L:1/8
+K:Ador
+AAA | A2 cA cd | e3 eee | e2 f2 d2 | c3 Bcd | c2 BGBG | A3 :|
+|: Acd | e/f/ e3 d2 | f2 ed cd | e/f/ e3 d2 | f2 ed cd | ef ed fd |
+e3 Acd | e2 f2 d2 | c3 Bcd | c2 BGBG | A3 :|
+
+X:4
+T:Vals efter Abraham Hagholm
+R:vals
+H:\"aven efter Karl August Lindblom
+O:\"Osterg\"otland
+Z:id:hn-vals-4
+M:3/4
+L:1/8
+K:Gm
+dc | d2 Ac BA | B2 GB AG | A2 A2 A2 | d3 edc |
+d2 Ac BA | B2 GB AG | F2 AF AF | G2 z2 :|
+|: d2 | gf ga bg | d3 dcB | B2 A2 A2 | c3 cBA |
+B2 A2 A2 | A2 G2 G2 | G2 G2 ^F2 | G2 z2 :|
+
+X:5
+T:Klarinettvals
+R:vals
+H:efter Karl Bj\"orklund, Bj\"orkek\"arr
+O:V\"asterg\"otland
+Z:id:hn-vals-5
+M:3/4
+L:1/8
+K:F
+c2 cA F2 | d2 dc BA | GF EC EG | FE FG AB | 
+c2 cA F2 | d2 dc BA | GF EC EG | F6 :|
+|: B2 GB GB | BA FC FA | GF EC DE | FE FG AB |
+cB GB GB | BA FC FA | GF EC DE | F6 :|
+|: E2 GE C2 | CF AG F2 | EF GA BG | GF FA F2 |
+E2 GE C2 | CF AG F2 | EF GA BG | F6 :|
+|: C2 FA FA | Ac BA B2 | CD EF GA | BA GA F2 |
+F2 AF A2 | cB dc BA | GE CE GE | F6 :|
+
+X:6
+T:Segloravalsen
+R:vals
+H:efter Johan Hergo Andersson, Seglora, f 1862
+O:V\"asterg\"otland
+Z:id:hn-vals-6
+M:3/4
+L:1/8
+K:A
+e>e e2 e2 | c>d cB A2 | A2 d2 d2 | cd e^g a2 | e2 c2 A2 | B2 BA Bc |
+dc B2 =G2 | A6 :||: a2 a2 b2 | a>b a^g e2 | =ga gf df | e3 dce |
+a=g e2 c2 | e2 c2 c2 | dc B2 =G2 | A6 :|
+
+X:7
+T:Sista Pinnen
+R:vals
+H:efter Karl Styfberg, Vendel
+O:Uppland
+Z:id:hn-vals-7
+M:3/4
+L:1/8
+K:C
+CE EG Gc | c2 ec eg | gf f2 a2 | d3 edc | TB4 G2 | TB4 A2 | A2 G2 F2 |
+E/F/E/D/ EG C2 | CE EG Gc | c2 ec eg | gf f2 A2 | d4 c2 | B3 A G2 |
+e4 d2 | Tc3 Bcd |[1 c6 :|[2 c4 |: e2 | eg ec eg | e2 ge cG | g2 fe fa |
+d2 dg Bd | G3 Bdg | b3 aag | gg' g'e' e'c' | c'g ge ec | cg ec eg |
+c2 ge cG | g2 fe fa | d2 dg Bd | G3 Bdg | b4 a2 | ga gf dB | c4 :|
+|: F2 | E2 GE Gc | F2 AF Ac | E2 G2 c2 | e2 ee e2 | e2 B2 B2 | d2 dd d2 |
+E2 G2 c2 | e2 ee e2 | E2 GE GE | F2 AF Ac | E2 G2 c2 | eg gg g2 |
+G2 Bd ga | b4 a2 | ga gf dB | c4 :|
+
+X:8
+T:Vals efter J Bruun
+R:vals
+O:Sk{\aa}ne
+Z:id:hn-vals-8
+M:3/4
+L:1/8
+K:Em
+d2 dB cA | B2 BG EF | G2 G2 A2 | Bc Bc B2 | d2 dB cA | B2 BG EF |
+G2 GA FG | E4 z2 :||: F2 FG AF | G2 FE ^DE | F2 FG AF | G2 FE =D2 |
+d2 dB cA | B2 BG EF | G2 GA FG | E4 z2 :|
+
+X:9
+T:J\"onsagubbens vals
+R:vals
+H:efter "J\"onsagubben", Olof Jonsson, Undersvik
+O:H\"alsingland
+Z:id:hn-vals-9
+M:3/4
+L:1/8
+K:F
+c2 | c2 F2 A2 | c4 cd | B2 BA Bc | A2 c2 f2 | a2 c2 f2 | a4 a2 | ag gb eg |
+f4 :||: c2 | c2 aa aa | a2 f2 d2 | c2 bb bb | b2 g2 e2 | c2 aa aa | a2 f2 d2 |
+cd ef ge | f4 :||: f2 | a3 g=bg | a4 f2 | e^c A2 ce | d^c de fg | a3 g=bg |
+a4 f2 | e^c A2 ce | d4:|
+
+X:10
+T:Var det, var det du?
+R:vals
+O:H\"alsingland
+Z:id:hn-vals-10
+M:3/4
+L:1/8
+K:Am
+A3^G AB | c3 BA^G | A2 B2 ^GB | A4 c2 | e3^d e^f | g3 ^fe^d | e2 ^f2 ^df | e6 :|
+|: c3 dcB | c2 e2 g^f | d3 ed^c | d2 ^f2 ag | e3 dcB | c3 BA^G | A2 B2 ^GB | A6:|
+P:variationer del 1
+|: ABA^GAB | cdcBA^G | A2B2^GB | A4c2 | e^fe^de^f | gag^fe^d | e2 ^f2 ^df | e6 :|
+
+X:11
+T:Vallpigan
+R:vals
+O:G\"astrikland
+Z:id:hn-vals-11
+M:3/4
+L:1/8
+K:Ador
+Ac | e2 ef df | e2 ec Ac | BA ^GA Bc | A^G AB cd |
+e2 ef df | e2 ec Ac | Be ^de B^G | A4 :|
+|: Ac | e>f e^d ef | g2 b2 g2 | fe ^de fg | B^d fa gf | e^d eb f^d | e4 c2 |
+BA ^GA Bc | E^G Bd cB | A^G Ae B^G | A4 :|
+|: AB | c4 Ac | B4 ^G2 | E^F ^GA Bc | d4 Bd |
+c4 Ac | B4 ^G2 | E^F ^GA Bc | A4 :|
+
+X:12
+T:Vals efter Simons Per
+R:vals
+H:efter Simons Per, Transtrand, Dalarna
+H:\"aven efter Omas Ludvig
+O:Transtrand, Dalarna
+Z:id:hn-vals-12
+M:3/4
+L:1/8
+K:Dm
+eg|f3 f e2|d2 ^c2 d2|^cd e2 d2|^cd ef ge|
+f3 f e2|d2 ^c2 d2|^ce a2 c2|d4:|
+|:A2|A2 ff ff|f2 e2 d2|d2 ga gf|e2 f2 g2|
+ab ag f2|eg fe d2|df eA ^ce|d4:|
+
+X:13
+T:Lar H\"okpers' Vals
+R:vals
+C:Lars H\"okpers
+O:Dalarna
+Z:id:hn-vals-13
+M:3/4
+L:1/8
+K:Dm
+A2|d3 efa|g3 {ag}fed|{^cd}c2 A3 G|F4 D2|F2 DF AG|E4 c2|=B2 GA Bd|A4 A2|
+d3 efa|g3 {ag}fed|{^cd}c2 A3 G|F4 E2|D2 ^CD EF|A2 G3 E|F2 EF E^C|D4:|
+|:A2|AF FD FA|AF FD FA|A2 G2 F2|E4 G2|GE E^C EG|GE E^C EG|G2 A3 G|F4 A2|
+AF FD FA|AF FD FA|A2 d3 c|B4 B2|(3BAB c2 B2|A3 G F2|GF (3EFE D^C|D4:|
+
+X:14
+T:Vals
+R:vals
+Z:id:hn-vals-14
+M:3/4
+L:1/8
+K:Gdor
+D2|G2 BG Bd|dc AB G2|BA FA cB|G2 B2 d2|
+d2 fd fa|ag ef d2|Pfe ce g^f|1 d4:|2 d3||
+K:G
+|:edc|B2 d2 g2|b3 a g2|Pgf e2 d2|Pg3 f e2|
+A2 B2 c2|e3 dcB|dc Bc AF|G3:|z||
+
+X:15
+T:Vals
+R:vals
+Z:id:hn-vals-15
+M:3/4
+L:1/8
+K:Gdor
+D2|G2 G^F GA|B2 BA Bc|d2 dc de|f2 Pfe gf|d2 dc Ac|PB2 A2 G2|^FG A2 F2|D4 D2|
+G2 G^F GA|B2 BA Bc|d2 dc de|f2 Pfe gf|d2 dc Ac|PB2 A2 G2|^FG A2 F2|G4:|
+|:z2|d2 c2 B2|A3 A ^FA|c2 B2 A2|G3 G DG|B2 A2 ^F2|D2 A2 ^F2|G2 d2 ^c2|Pd4 z2|
+d2 c2 B2|A3 A ^FA|c2 B2 A2|G3 G DG|B2 A2 ^F2|D2 A2 ^F2|G3 A G^F|G4:|
+
+X:16
+T:Vals
+R:vals
+Z:id:hn-vals-16
+M:3/4
+L:1/8
+K:Gdor
+DG^F|D2 D^F AF|G3 ABA|D^F FG AF|G3:|
+|:DGB|Bd dc ce|c3 ABA|1 ^FG AG F2|D3:|2 DG BA ^F2|G3||
+
+X:17
+T:Vals efter R\"odmudden
+R:vals
+H:efter R\"odmudden, N\"ossemark
+O:Dalsland
+Z:id:hn-vals-17
+M:3/4
+L:1/8
+K:Am
+(fe)d|B2 c2 (cA)|^G2 A2 B2|(AE) (AB) (cA)|B3 (fe)d|
+B2 c2 (cA)|^G2 A2 B2|c2 (ed) (Bc)|A3:|
+|:z(^cd)|e2 g2 (^fa)|e3 z (^cd)|(eQ=f) (ed) (B=c)|(A^G) A2 (^cd)|
+e2 g2 {^fg}(fd)|e3 z (^cd)|(eQ=f) (ed) (B=c)|A3:|
+
+X:18
+T:Vals efter Denis Emanuelsson
+R:vals
+H:efter Denis Emanuelsson, N\"ossemark
+O:Dalsland
+Z:id:hn-vals-18
+M:3/4
+L:1/8
+K:Ddor
+AB|A2 GB AG|FE D^C D2|f2 eg fe|d2 ^ce A2|
+ag2b a2|a2 ge f2|(3fgf ed ^ce|d4:|
+|:ed|^ce ac ea|^ce ac ea|a^g ba ga|f3 fed|
+^ce ac ea|^ce ac ea|a^g ba ga|f3 fe^c|
+AB ^cd e^f|e4 d^f|e3 ^fed|^cd e^f ^g2|a4 ^g2|
+e2 ^g^f df|e2 d2 B2|=c2 ed Bc|A4 g2|^f2 ag ef|d4:|
+
+X:19
+T:Vals
+R:vals
+H:fr{\aa}n Transtrand?
+O:Dalarna
+Z:id:hn-vals-19
+M:3/4
+L:1/8
+K:Ddor
+a2|Pa^g b^g a2|ef ge f2|ed dg g2|ga fe fg|
+Pa^g b^g a2|ef ge f2|ed a2 ^ce|1 d4:|2 d3||
+|:efa|e3 d^cd|A3 BA^G|AB ^cd ef|d^c de fa|
+e3 d^cd|A3 BA^G|AB ^cd ef|1 d3:|2 d4||
+
+X:20
+T:Werkm\"astarvalsen
+R:vals
+O:R\"attvik, Dalarna
+Z:id:hn-vals-20
+M:3/4
+L:1/8
+K:Am
+ef ed ^cd|ef ed ^cd|e2 a2 b2|g4 e2|f3 e d2|f2 a2 ^g2|e6-|e6:|
+|:a2 g2 ^f2|d3 e f2|(3fgf e2 d2|c3 B A2|e2 d2 c2|
+E2 ^G2 B2|(3BcB AB cB|1 A2 c2 e2:|2 A4 e2||
+
+X:21
+T:Vals efter R\"ost Pe
+R:vals
+O:J\"amtland
+Z:id:hn-vals-135
+M:3/4
+K:G
+B2c2 | d3 d d2 | d2 c2 B2 | g6 | d6 | e3 e e2 | e2 f2 g2 | d3 c BA | G2 F2 G2 |
+A3 A A2 | A2 B2 c2 | e6 | d6 | c2 cB A2 | B2 BA G2 | FA d2 F2 |1  G2 :|2 G6 || 
+|: A2 FA c2 | B2 GB d2 | e2 ^ce g2 | f2 df a2 |
+a2 ef g2 | f2 e^c fa | ag e^c e^c |1 d6 :|2 d2 ||
+
+X:22
+T:Vals
+R:vals
+Z:id:hn-vals-22
+M:3/4
+K:Ddor
+Ad^c|A2 A^c ec|d2 de fe|^c2 cd ec|d3 Ad^c|
+A2 A^c ec|d2 de fe|^c2 cd ec|d3:|
+|:Adf|a2 ag gb|g2 ge fe|d2 fe ^c2|A3 Adf|
+a2 ag gb|g2 ge fe|d2 fe ^c2|d3:|
+
+X:23
+T:Vals
+R:vals
+Z:id:hn-vals-23
+M:3/4
+L:1/8
+K:Amix
+c>c c2 c2 | d2 d2 d2 | c2 BA GB | A>A ce a2 |
+c>c c2 c2 | d2 d2 d2 | c2 BA GB | A6 :|
+|: e>f ed cB | c2 A4 | e>f ed cB | cB A4 | e>f ed cB | c2 g3 f |
+e>f ed cB | A2 a4 | e>f ed cB | c2 BA GB | A6 :|
+
+X:24
+T:Vals efter Spaken
+R:vals
+O:S\"arna, Dalarna
+Z:id:hn-vals-24
+M:3/4
+L:1/8
+K:A
+a2 gf ed | c2 Ac e2 | B2 =GB d2 | c2 Ac e2 |
+ea gf ed | c2 Ac e2 | B2 =GB dc | A6 :|
+|: B2 =GB d2 | c2 Ac e2 | B2 =GB d2 | c2 Ac e2 | 
+f2 df a^g | e4 e2 | f2 d2 d2 | =c4 A2 | B2 =G2 G2 |
+A2 Bc de | f2 d2 d2 | =c4 A2 | B2 =G2 G2 | A6 :|
+
+X:25
+T:Vals
+R:vals
+Z:id:hn-vals-25
+M:3/4
+L:1/8
+K:D
+A2 |: d2 AF Ad | c2 AE Ac | d2 B2 G2 | A3 DEF | G2 g2 f2 | e4 d2 | c2 BA Bc |
+A3 ABc | d2 AF Ad | c2 AE Ac | d2 B2 G2 | A3 DEF | G2 GF E2 | FA fe d2 |
+cd e2 c2 |1 d4 A2 :|2 d3 Adc |: B2 BF Bc | d3 c B2 | A2 E2 FG | F6 | f3 g f2 |
+e3 d c2 | d3 c B2 | c3 Adc | B2 BF Bc | d3 c B2 | e2 ed ef | g4 a2 | f3 e d2 |
+ce a2 c2 |1 d6- | d3 Adc :|2 d6- | d4 ||
+
+X:26
+T:Vals efter Pelle Fors
+R:vals
+B:SvL \"Ogl 352
+Z:id:hn-vals-26
+M:3/4
+L:1/8
+K:G
+d4 Bd | G4 e2 | d4 (3BcB | A4 ([A2D2] | [A2D2]) ff f2 | A2 ff f2 |
+g4 a2 | b4 z2 | d4 Bd | G4 e2 | d4 (3BcB | A4 ([A2D2] | [A2D2]) ff f2 |
+A2 ff f2 | A2 gg gg |1 g4 z2 :|2 g4 |: d'2 | d'2 c'2 c'2 | e4 ec' |
+c'2 b2 b2 | d6 | b2 a2 a2 | d2 d2 f2 | g4 a2 | b4 d'2 | d'2 c'2 c'2 |
+e4 ec' | c'2 b2 b2 | d6 | b2 a2 a2 | d2 d2 f2 | g4 g2 | g4 :|
+
+X:27
+T:Vals efter Pelle Fors
+R:vals
+O:\"Osterg\"otland
+Z:id:hn-vals-27
+M:3/4
+K:C
+G2 | c3 B ce | g4 (3g^fg | ag ec cB | d3 B GA | Bc de fg | 
+a2 a2 g^f | g z Bd c2 | c2 z2 :||: z2 | (3g^fg ag ec | cB d3 B |
+GA Bc de | fa g^f g2 | (3g^fg ag ec | cB d3 B | GA Bc dB | c2 c2 :|
+
+X:28
+T:Pellikvalsen
+R:vals
+H:efter Lejsme Per Larsson
+O:Malung, Dalarna
+Z:id:hn-vals-28
+M:3/4
+K:A
+E2 | E2 AA A2 | Ac ea af | fd dd dd | d2 fa fd | dc cc c2 |
+Ac ea ed | B2 df ec | cA ce dB | EG Bd BG | A4 :|
+|: E2 | E2 cB Ac | cB dc BA | G2 BE GB | A2 fe cA |
+E2 cB Ac | cB dc BA | G2 BE GB |1  A4 :|2 A3 Bcd ||
+|: e2 ae ce | d2 fe dB | G2 BE GB | EG AB cd |
+ce ae ce | d2 fe dB | G2 BE GB |1 A3 Bcd :|2 A4 ||
+
+X:29
+T:Vals fr{\aa}n Transtrand
+R:vals
+H:efter Omas Ludvig
+O:Transtrand, Dalarna
+Z:id:hn-vals-29
+M:3/4
+K:D
+FA dF Ad | fd dA FA | GF Ec Ec | cd AG F2 |
+FA dF Ad | fd dA FA | GF Ec Ec | d6 :|
+|: GF EG BG | FD FA d2 | cB Ac e2 | ed df A2 |
+GF EG BG | FD FA d2 | cB Ac ec | d6 :|
+|: f4 eg | fd Ad cB | A4 GA/G/ | F4 gb | a4 ga/g/ |
+fA Bc de | f4 f2 | dc ed cB | A4 {GA}G2 | F4 ef |
+ga gf ec | A2 ^GA fe | d2 dc de | d6 :|
+
+X:30
+T:Silkesvalsen
+R:vals
+H:efter Lars Orre
+H:egentligen Gm
+O:\"Alvdalen, Dalarna
+Z:id:hn-vals-30
+M:3/4
+K:Gm
+G2 | G2 B2 d2 | g4 g2 | fg fe dc | B4 BA |
+G^F GA Bc | df dB G2 | B2 AB/A/ G^F | G4 :|
+|: d2 | d2 dB df | d2 BB B2 | A2 Ac ec | c2 AF AF |
+G2 GA Bc | df dB G2 | B2 AB/A/ G^F | G4 :|
+P:variant
+|: G2 | G2 B2 d2 | g4 g2 | fg fe dc | B4 BA |
+G^F GA Bc | d2 dB G2 | Bc/B/ A^F A^F | G4 :|
+|: A2 | B2 Bd fd | d2 BG BG | A2 Ac ^ec | c2 A^F A^F |
+G2 GA Bc | df dB G2 | Bc/B/ A^F A^F | G4 :|
+
+X:31
+T:Vals efter Byss-Calle
+R:vals
+B:57 l{\aa}tar efter Byss-Calle nr 18
+O:Uppland
+Z:id:hn-vals-30
+M:3/4
+L:1/8
+K:Am
+E2 | A2 c2 e2 | {e}a4 eg | f2{gf} e2 d2 | c3 d cB |
+A2 c2 e2 | g4 fe | d2 B2 c2{dc} | A4 :|
+B2 |: cG ce ge | ec cc c2 | BG Bd fd | BG GG G2 |
+AG Ac ec | c2 Ac BA | GA Bc dB |1 c4 g2 :|2 c4 ||
+
+X:32
+T:Var det du eller var det ja?
+R:vals
+O:\"Oland
+Z:id:hn-vals-32
+M:3/4
+L:1/8
+K:Ador
+AB | c2 cd Bc | A3 B cd | e2 g2 f2 | e4 :|
+w:Var det du el-ler var det jag, som gick i val-sen s{\aa} bra?
+|: e2 | e2 c2 cc | c2 e2 g2 | f2 d2 dd |
+w:Vi sup-er och vi rum-lar, vi dan-sar och vi
+d2 f2 g2 | e3 d cB | A2 c2 cc | B2 G2 G2 | A4 :|
+w:tum-lar och kom* sk\"o-na flic-ka g{\aa} i val-sen med mej!
+
+X:33
+T:Kn\"appvalsen efter Pelle Fors
+R:vals
+B:SvL \"Ogl 342 efter Carl August M{\aa}nsson
+O:\"Osterg\"otland
+Z:id:hn-vals-33
+M:3/4
+L:1/8
+K:A
+A,2 "+"cz "+"Az | "+"[AE]z "+"cz "+"Az | "arco"Bc BA Bc | dc AG EC |
+A,2 "+"cz "+"Az | "+"[AE]z "+"cz "+"Az | "arco"Bc BA Bc |
+[1 [A3A3] DCB, :|2 [A4A4] z2 |: CE AE CE | DF AF DF | CE AE CE |
+B,E AE B,E | CE AE CE | DF AF DF | CE AE B,E |1 A,4 z2 :|
+[2 A,4 cd |: e3 c de | fe de c2 | ef ed B2 | (3ded c2 A2 |
+e3 c de | fe de c2 | ef ed Bc |1 [A4A4] cd :|2 [A4A4] z2 ||
+
+X:34
+T:Vals efter Gustaf Elfstr\"om
+R:vals
+H:efter fl\"ojtisten Gustaf Elfstr\"om (1844-1927), J\"at
+B:Sm{\aa}l\"andsk musiktradition II:98
+O:Sm{\aa}land
+Z:id:hn-vals-34
+M:3/4
+L:1/8
+K:D
+A2 f2 d2 | d3 c A2 | c2 B2 G2 | B2 A^G A2 | 
+A2 f2 d2 | d3 c A2 | c2 B2 ^G2 | A4 AA :| 
+|: A2 c2 d2 | e3 d cB | A2 d2 f2 | a3 f d2 | e2 ec A2 |
+e2 ec A2 |1 c2 B2 ^G2 | A4 AA :|2 f2 {gf}e2 c2 | d4 z2 ||
+
+X:35
+T:Vals efter Petter Olas Anna
+R:vals
+H:efter Petter Olas Anna, J\"at. F\"orsta reprisen \"aven i Am.
+B:Sm{\aa}l\"andsk musiktradition II:99
+O:Sm{\aa}land
+Z:id:hn-vals-35
+M:3/4
+L:1/8
+K:A
+a2 g2 a2 | e4 c2 | ed BG BG | A2 c2 e2 | a2 g2 a2 | e4 c2 |
+ed BG BG | A4 z2 :||: A2 =c2 c2 | d=c BA G2 | G2 B2 d2 |
+d=c Bc A2 | A2 =c2 c2 | d=c BA G2 | GB d=c Bc | A4 z2 :|
+
+X:36
+T:Vals efter G{\aa}s Anders
+R:vals
+H:Played ABABCBCB
+O:Uppland
+Z:id:hn-vals-36
+M:3/4
+L:1/8
+K:A
+E2 AA A2 | BA GF E2 | E2 cc c2 | c2 Bc A2 |
+A2 ff f2 | f2 df af | fe ce ae |1 c4 A2 :|2 c4 B2 ||
+|: Ad fd fd | AF Ad fd | Ac ec ec | AE Ac ec |
+c2 BB B2 | Bc de fg |1 a3 e ce | ae c2 A2 :|2 ae ce dB | A4 E2 ||
+|: e3 f ec | A4 f2 | e3 a ec | A4 a2 |
+ac' c'2 c'2 | e4 e2 | ae ce ae | c4 f2 :|
+|: Ad fd fd | AF Ad fd | Ac ec ec | AE Ac ec |
+c2 BB B2 | Bc de fg |1 a3 e ce | ae c2 A2 :|2 ae ce dB | A4 f2 ||
+
+X:37
+T:Klappvalsen
+R:vals
+C:Mats Ed\'en
+Z:id:hn-vals-37
+M:3/4
+L:1/8
+K:Amix
+A2 cB AG | A2 cd e2 | e2 gf ed | ef ed cB |
+A2 cB AG | A2 cd e2 | e2 gf ed | e2 z4 :|
+e2 ag ab | a2 gf e2 | e2 g2 g2 | g2 fe fd |
+e2 ag ab | a2 gf e2 | g2 g e2 f | d2 z4 :|
+
+X:38
+T:Vals efter Lasse i Lyby
+R:vals
+B:SvL Sk{\aa}ne #1373
+O:Sk{\aa}ne
+Z:id:hn-vals-38
+M:3/4
+L:1/8
+K:Dm
+a2 ga f2 | e2 c2 A2 | F2 A2 c2 | fe fg a2 |
+a2 ga f2 | e2 c2 A2 | E2 A2 ce |1 d3 efg :|2 d4 e2 ||
+|: fe de fg | a4 (3aga | c'2 a2 c'2 | a4 g2 |
+fe de fg | a4 (3aga | c'2 a2 c'2 | a6 |
+a2 ga f2 | e2 c2 A2 | E2 A2 ce |1 d4 e2 :|2 d6 ||
+

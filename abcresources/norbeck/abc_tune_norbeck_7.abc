@@ -1,0 +1,94 @@
+This file contains 4 cadaneasca (#1-#4).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+
+Note the "strange" key signatures with both sharps and flats. These kinds of scales
+come from Turkish and Arabic music and are common in Balkan music.
+Cadaneasca is a dance from Dobrogea in eastern Romania in uneven time signature
+9/16 (2+2+2+3/16). It is similar to the Bulgarian daichovo horo.
+
+Last updated 7 May 2017.
+
+(c) Copyright 2017 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+M:2+2+2+3/16
+L:1/16
+R:cadaneasca
+Z:id:hn-%R-%X
+O:Romania
+
+X:1
+T:Cadaneasca
+R:cadaneasca
+H:Last part played as intro
+D:Trio Polifonic
+O:Romania
+Z:id:hn-cadaneasca-1
+M:2+2+2+3/16
+L:1/16
+Q:1/8=220
+K:Aphr ^c
+|: ABcd e2 ffd | cedc BA eeA | ABcd e2 ffd | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | ABcd e2 eeA |
+cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BG A3 :|
+|: ABcd e2 ffc | defa fa ffd | ABcd e2 ffd | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | ABcd e2 eeA |
+cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BG A3 :|
+|: cedc BA eeA | cedc BG AAA | cedc BA eeA | cedc BG A3 :|
+
+X:2
+T:Cadaneasca
+R:cadaneasca
+Z:id:hn-cadaneasca-2
+M:2+2+2+3/16
+L:1/16
+Q:1/8=220
+K:Aphr ^c
+cedc BA ccA | cedc BA eeA | cedc BA ccA | cedc BG A3 :|
+|: ABcd e2 fed | cedc BA eeA | ABcd e2 fed | cedc BG A3 :|
+|: cddd dd fed | cedc BA eeA | cddd dd fed | cedc BG A3 :|
+
+X:3
+T:Cadaneasca dreapta can Dobrogea
+R:cadaneasca
+O:Romania
+Z:id:hn-cadaneasca-3
+M:2+2+2+3/16
+L:1/16
+Q:1/8=220
+K:Aphr ^c
+ABcd e2 fed | cedc BA eee | ABcd e2 fed | cedc BG AAA :|
+|: cdd2 d2 fed | ^Bcc2 c2 edc | ABB2 B2 dcB | A2^ga ec AAA |
+cdd2 d2 fed | gfed cB AAA | GABG ce dcB | cedc BG AAA :|
+|: cdeA eA fed | cdeA eA ^gaA | cdeA eA fed | cedc BG AAA :|
+|: ^gaeA cA eeA | ^gaeA cA eeA | ^gaeA cA eed | cedc BG AAA :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | A2^ga ec AAA |
+cddd dd fed | gfed cB AAA | GABG ce dcB | cedc BG A3 :|
+P:variations
+|: ABcd e2 fed | cedc BA deA | ABcd e2 fed | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BA deA |
+cddd dd fed | ^gaeA cA eee | ABBB BB dcB | cedc BG A3 :|
+|: cdeA eA fed | cdeA eA ^gaA | cdeA eA fed | cedc BG A3 :|
+|: ^gaeA cA eee | ^gaeA cA eee | ^gaeA cA eed | cedc BG A3 :|
+|: cddd dd fed | ^Bccc cc edc | ABBB BB dcB | cedc BA deA |
+cddd dd fed | a^gfe dc BBB | GABG c2 dcB | cedc BG A3 :|
+
+X:4
+T:Cadaneasca
+R:cadaneasca
+O:Romania
+Z:id:hn-cadaneasca-4
+M:2+2+2+3/16
+L:1/16
+Q:1/8=220
+K:Am
+^gaea ga e2d | dccB cd eeB | cde^g ae e2d | dBcA BG A3 :|
+Bc d2d2 fed | dccB cd eec | Bc d2d2 fed | dBcA BG A3 |
+Bc d2d2 fed | dccB cd eeB | cde^g ae e2d | dBcA BG A3 ||
+

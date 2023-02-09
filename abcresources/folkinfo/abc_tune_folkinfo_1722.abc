@@ -1,0 +1,51 @@
+%%scale 0.5
+X:1     %Music
+B:Broadwood, L, 1893, English County Songs, London, Leadenhall Press
+S:Davies Gilbert's Ancient English Carols
+Z:Lucy Broadwood
+T:The Servingman and the Husbandman     %Tune name
+V:1    name="Servingman" sname="Serv." %
+%!STAVE 0 'Servingman' @
+%!INSTR 'Piano' 4 0 @
+M:2/4     %Meter
+L:1/16     %
+K:G
+G2 |B3A G2F2 |G6 G2 |A3A A2A2 | B4 B2
+w:Well met my bro-ther friend, all on the high-way rid-ing,
+     A2 |G4 F4 |E2F2 G2A2 |d8- |d4
+w:         So sim-ply all__ a-lone;
+ (B2c2) |d3c B2A2 |G4 G4 |A2G2 A2B2 |B6
+w:I_ pray you to tell me what may your call-ing be
+  A2 |B3c B2A2 |G4 F4 |E4 z4 |
+w:Or are_ you a serv-ing man?
+z8 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 | z2
+z6 |z8 |z8 |z8 |
+z4 z2 B2 |B2B2 B2B2 |g6 e2 |d2d2 d2d2 | d6 
+w:I pray you to tell me what may your call-ing be,
+   B2 |c2d2 e2c2 |B4 A4 |G4 z4 |]
+w:Or are_ you a serv-ing-man?
+V:2   name="Husbandman" sname="Hus." %
+%!STAVE 0 'Husbandman' @
+%!INSTR 'Piano' 4 0 @
+M:2/4     %Meter
+L:1/16     %
+K:G
+z2 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 |
+z4 G,4 |D,3E, D,2C,2 |B,,6 A,,2 |G,,3A,, B,,2C,2 |
+w:O why my bro-ther dear, what makes you to en-
+D,6 D,2 |E,4 E,2E,2 |D,4 D,2C,2 |B,,8- |
+w:quire of a-ny such thing at my hand? *
+B,,4 z2 A,,2 |G,,2G,,2 G,,2G,,2 |G,6 E,2 |D,2D,2 D,2B,,2 |
+w:* But since you are so fain, then I will tell you
+D,6 B,,2 |C,2C,2 C,2A,,2 |B,,4 D,4 |G,,4 z4 |
+w:plain, I am a down-right hus-band-man.
+z4 z2 G,2 |G,2G,2 G,2G,2 |G,6 A,2 |D,2D,2 D,2D,2 |
+w:But since you are so fain, then I will tell you
+D,6 G,,2 |A,,2B,,2 C,2A,,2 |D,4 D,4 |G,,4 z4 |]
+w:plain I am a down-right hus-band-man.
+%End of file

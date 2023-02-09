@@ -23,28 +23,28 @@ function useMusicBrainz() {
     }
     
     
-    function worksByArtist(artistId,query='') {
+    function worksByArtist(artistId) {
         const chunkSize = 100
          return new Promise(function(resolve, reject) {
-            //console.log('MB SEARCH works by ARTIST',artistId,query)
+            console.log('MB SEARCH works by ARTIST',artistId)
             if (artistId) {
                 //clearTimeout(searchTimeout)
                 //searchTimeout = setTimeout(function() {
-                  axios.get('https://musicbrainz.org/ws/2/work?limit='+chunkSize+'&query='+encodeURI(query)+'20AND%20arid:'+artistId+'&fmt=json', axiosOptions).then(function(results) {
-                      if (results && results.data && Array.isArray(results.data.works) && results.data.count > 0) {
-                          if (results.data.works.length < results.data.count) {
-                              // TODO need more queries to iterate results
-                              //console.log('MB SEARCH ARTIST works parital result ',artistId,query,results )
+                  axios.get('https://musicbrainz.org/ws/2/work?artist=' + artistId + '&limit='+chunkSize+'&fmt=json', axiosOptions).then(function(results) {
+                      console.log('MB SEARCH ARTIST works init result ',results )
+                      if (results && results.data && Array.isArray(results.data.works) && results.data['work-count'] > 0) {
+                          if (results.data.works.length < results.data['work-count']) {
+                              console.log('MB SEARCH ARTIST works parital result ',artistId,results )
                               //resolve(results && results.data && results.data.works ? results.data.works : [])
                               var promises = []
-                              const chunks = parseInt((results.data.count - 1) / chunkSize)
-                              //console.log('CUNKS',chunks)
+                              const chunks = parseInt((results.data['work-count'] - 1) / chunkSize)
+                              console.log('CUNKS',chunks)
                               for (var i = 1; i <= chunks ; i++) {
-                                  //console.log('PPPROm',i,chunks)
+                                  console.log('PPPROm',i,chunks)
                                   function aa(i) {
                                       promises.push(new Promise(function(resolve,reject) {
                                           setTimeout(function() {
-                                              axios.get('https://musicbrainz.org/ws/2/work?limit=25&query='+encodeURI(query)+'20AND%20arid:'+artistId+'&fmt=json&offset=' + i, axiosOptions).then(function(res) {
+                                              axios.get('https://musicbrainz.org/ws/2/work?artist=' + artistId + '&limit='+chunkSize+'&fmt=json&offset=' + i, axiosOptions).then(function(res) {
                                                   resolve(res && res.data && Array.isArray(res.data.works) ? res.data.works : [])
                                                })
                                             },1000*i)
@@ -54,7 +54,7 @@ function useMusicBrainz() {
                               }
                               Promise.all(promises).then(function(resultsArray) {
                                 //console.log(resultsArray)    
-                                //console.log('MB SEARCH ARTIST collated extras ',resultsArray )
+                                console.log('MB SEARCH ARTIST collated extras ',resultsArray )
                                 var final = {}
                                 if (results && results.data && Array.isArray(results.data.works)) {
                                     results.data.works.forEach(function(work) {
@@ -66,12 +66,12 @@ function useMusicBrainz() {
                                         if (result.title) final[result.title] = result
                                     })
                                 })
-                                //console.log("FINAL",final)
+                                console.log("FINAL",final)
                                 resolve(Object.values(final))
                                 
                               })
                           } else {
-                              //console.log('MB SEARCH ARTIST works result ',artistId,query,results )
+                              console.log('MB SEARCH ARTIST works result ',artistId,results )
                               resolve(results && results.data && results.data.works ? results.data.works : [])
                           }
                       } else {

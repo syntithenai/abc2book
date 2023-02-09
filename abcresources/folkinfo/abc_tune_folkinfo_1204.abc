@@ -1,0 +1,21 @@
+%%scale 1
+X:1
+T:The Cherry Tree Carol
+M:4/4
+L:1/4
+K:A
+"Part I (General, Legendary)"
+(AG)FE | A2Bc/d/|e/d/c/B/AG | F4 ||
+ecAA | B2E(A/G/) | FDFG | A4 ||
+K:C
+"Part II (Christmas Eve)"
+E2 | cA^GB | AEzA | A3/2G/FA | E2z || c |d3/2c/BA |
+(Gc)zE | DFED | E2z || "Last verse of Part II begins here."E | EA^FB |BGz^F |
+GBAd | d2 || B2 | cGAE | F2FA | AcB^G | A2 ||
+"Part III (Lent: Passiontide)"
+M:3/4
+L:1/4
+K:A
+A | A3/2G/F/A/ | (G/F/)Ec | dcB/d/ | c2c |
+BBA/c/ | (B/G/)EA/c/ | BA/G/F/G/ | A2 ||
+

@@ -1,0 +1,1586 @@
+This file contains 100 hornpipes (#1 - #100).
+You can find more abc tune files at http://www.norbeck.nu/abc/
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+
+Last updated 20 August 2020.
+
+(c) Copyright 1996-2020 Henrik Norbeck. This file:
+- May be distributed with restrictions below.
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+  download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik@norbeck.nu
+
+R:hornpipe
+M:C|
+Z:id:hn-hornpipe-%X
+
+X:1
+T:Plains of Boyle, The
+R:hornpipe
+Z:id:hn-hornpipe-1
+M:C|
+K:D
+FG|AFDE FEDF|(3ABA GB AFD2|fedf edce|dBAB =cABG|
+AFDE FEDF|(3ABA GB AFD2|fedB (3ABA GE|F2D2 D2:|
+|:fg|afdf g2fe|dfed BAFG|(3ABA FA BAFA|~A2FA BAfg|
+afdf g2fe|dfed BAFG|~A3F GBAG|F2D2 D2:|
+P:Variations:
+|:AG|FDDF ADDF|(3ABA GB A2de|fedf edce|dBAB =cAGE|
+FDDF ADDF|(3ABA GB A2de|fedB (3ABA GE|FAD2 D2:|
+|:fg|afdf g2fe|dfed BAFG|~A2fA ~A2gA|~A2fA BAfg|
+afdf g2fe|dfed BAFG|~A3F GBAG|FAD2 D2:|
+
+X:2
+T:Leitrim Fancy, The
+R:hornpipe
+H:Bars 2 and 6 also played |ADGB A2de|
+Z:id:hn-hornpipe-2
+M:C|
+K:D
+AG|FAEA DEFG|(3ABA GB A2de|fdge agec|dBAF GBAG|
+FAEA DEFG|(3ABA GB A2de|fdge agec|Addc d2:|
+|:zg|fefg afeg|fefg a2 (3efg|agec dfec|1 dcAF G3e|
+fefg afeg|fefg a2 (3efg|agec dfec|Addc d2:|2 dcAF GBAG|
+FAEA DEFG|(3ABA GB A2de|fdge agec|Addc d2||
+
+X:3
+T:Rights of Man, The
+R:hornpipe
+C:James Hill (1811-1853), Northumberland (?)
+D:De Dannan: Ballroom
+Z:id:hn-hornpipe-3
+M:C|
+K:Em
+GA|BcAB GAFG|EFGA B2ef|gfed edBd|cBAG A2GA|
+BcAB GAFG|EFGA B2ef|gfed Bgfg|e2E2 E2:|
+|:ga|babg efga|babg egfe|d^cde fefg|afdf a2gf|
+edef gfga|(3bag af gfef|gfed Bgfg|e2E2 E2:|
+P:Variations:
+|:GA|(3Bcd AB GAGF|EFGA B2ef|gfed Bdef|gedB A2GA|
+(3BcB (3ABA (3GAG (3FGF|EFGA B2ef|gfed Bgfg|e2E2 E2:|
+|:ga|bagf efge|bege bege|d2d^c defg|afbf afdf|
+edef gfga|bgaf gfef|gfed Bgfg|e2E2 E2:|
+
+X:4
+T:An Comhra Donn
+T:Brown Coffin, The
+R:hornpipe
+D:Chieftains 1
+Z:id:hn-hornpipe-4
+M:C|
+K:D
+FG|ABAG FAde|fgfe dcdA|BGdB AFDE|FEED E2FG|
+ABAG FAde|fgfe dcdA|BGdB AF (3EFG|F2D2 D2:|
+|:fg|ag (3fed gfec|dcde fdAF|GA (3BAG FADF|Efgf e2fg|
+ag (3fed gfec|dcde fdAF|GA (3BAG (3FGA EG|F2D2 D2:|
+
+X:5
+T:Cronin's Hornpipe
+R:hornpipe
+H:Bar 2 of 2nd part also played |bged e2ga|
+Z:id:hn-hornpipe-5
+M:C|
+K:G
+BA|GABd dBde|gage dega|bage dBGA|BAAG AcBA|
+GABd dBde|gage dega|bage dBAB|G2GF G2:|
+|:(3efg|afd^c dega|beed e2ga|(3bag af gedB|BAAG AcBA|
+GABd dBde|gage dega|bage dBAB|G2GF G2:|
+
+X:6
+T:Kitty's Wedding
+R:hornpipe
+D:Noel Hill & Tony Linnane
+Z:id:hn-hornpipe-6
+M:C|
+K:D
+fe|d2Bd A2FA|BAFA D2 (3FED|B,DA,D DFBF|AFDF E2fe|
+d2Bd A2FA|BAFA D2 (3FED|B,DA,D DFBF|AFEF D2:|
+|:fg|afed bafd|Adfd edBd|DFAd FAde|fdgf e2fg|
+afed bafd|Adfd edBd|DFAd FAdf|eABc d2:|
+
+X:7
+T:Off to California
+R:hornpipe
+Z:id:hn-hornpipe-7
+M:C|
+K:G
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|ABAG E2
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+|:zg|gfeg fedf|edef edBd|gfgd edBG|ABAG E2
+(3DEF|GFGB AG (3DEF|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+P:Variations:
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|ABAG E2
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|AGFA G2:|
+|:zg|gf (3efg fedf|edef edBd|~g3d edBG|ABAG E2
+(3DEF|G2BG AGED|GBdg e2 (3def|(3gag (3fgf edBG|AGFA G2:|
+
+X:8
+T:Flowers of Edinburgh, The
+R:hornpipe
+Z:id:hn-hornpipe-8
+M:C|
+K:G
+GE|D2DE ~G3A|BABd cBAG|FGFE DEFE|D2cA BAGE|
+D2DE GFGA|BGBd efge|dcBA GFGA|B2G2 G2:|
+|:(3def|g2gf gbag|f2fe fagf|edef gfed|Beed e2ge|
+dBGB d2 (3Bcd|egfa g2ge|dcBA GFGA|B2G2 G2:|
+
+X:9
+T:Blackbird, The
+R:hornpipe
+D:De Dannan 1
+Z:id:hn-hornpipe-9
+M:C|
+K:Dmix
+DE | F2FA GFD2 | de (3fed dcAF | G2GF GFDE | FGAF GBAG |
+F2FA GFD2 | de (3fed dcAG | AdcA GcAG | F2D2 D2 :|
+|: fg | agfa gfeg | fde^c d^cA2 | agfa gfde | (3fed gf e2fg |
+(3agf ge f2fe | d^cde fde^c | d^cAF GBAG | F2D2 D2 :|
+P:variations
+|: DE | ~F3A GFD2 | defd d^cAF | G2GA GFDE | FGAF GBAG |
+FEFA GFD2 | defd d^cAG | AdcA GcAG | F2D2 D2 :|
+|: fg | ag (3fed gfe^c | d^cde fdA2 | ag (3fed gfde | (3fed gf e2fg |
+a2ge f2fe | ~d3e fdAG | AdcA GcAG | F2D2 D2 :|
+P:more variations
+|: AG | FEFA GFD2 | defd d^cAF | GFGA GFDE | FG (3AGF GBAG |
+FEFA GFD2 | defd d^cAG | AdcA GBAG | F2D2 D2 :|
+|: de | f2 (3def gfe^c | d^cde fdA2 | f2 (3def gfed | fagf g2 (3efg | 
+afge fde^c | d2de fdAG | AdcA GcAG | F2D2 D2 :|
+
+X:10
+T:Home Ruler, The
+T:Daniel O'Connell, The Home Ruler
+R:hornpipe
+C:Frank McCollum, Ballycastle, Co. Antrim
+D:Noel Hill & Tony Linnane
+Z:id:hn-hornpipe-10
+M:C|
+K:D
+FE|D2FA D2FA|dfed B2dB|~A3B AFDE|(3FED ED B,DA,B,|
+D2FA D2FA|dfed B2dB|~A3B AF (3EFG|F2D2 D2:|
+|:dB|Addc d2df|afbf afed|efed BAde|fded BdAB|
+Addc d2df|afbf afed|efed BAdB|AFEF D2:|
+
+X:11
+T:Poppy Leaf, The
+R:hornpipe
+Z:id:hn-hornpipe-11
+M:C|
+K:G
+(3CB,A,|G,B,DG B,DGB|DGBd GBdg|edcB cBAG|FGAF (3DED (3CB,A,|
+G,B,DG B,DGB|DGBd GBdg|edcB cDEF|G2B2 G2:|
+|:Bc|dBGB dBgd|bagf edcB|cAFA cAfg|agfe dcBA|
+(3BAB (3GAB (3cBc (3ABc|(3dcd (3Bcd e2dc|BgdB cAFA|G2B2 G2:|
+
+X:12
+T:Fairies' Hornpipe, The
+R:hornpipe
+H:Similar to "McNamara's", #27
+H:The ending is also played |ABcd ecAF|G2GF G2|
+Z:id:hn-hornpipe-12
+M:C|
+K:G
+(3DEF|GFGA BdcB|AGAB G2Bc|dgfg edcB|cedB A2Bc|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+|:Bc|dggf g2fe|dedc B2AG|ABcd edcB|Add^c d2B=c|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+
+X:13
+T:Bantry Bay
+T:Little Stack of Wheat, The
+T:Union Hornpipe, The
+R:hornpipe
+H:Also played in A, see #97
+Z:id:hn-hornpipe-13
+M:C|
+K:G
+GA|:BGAG EGDE|G2GF GBAG|EGAB cBAG|EAAG A2AB|
+cecA BdBG|ABAG EGDG|BGAG EGDE|1 G2GF G2GA:|2 G2GF GABc||
+|:d2ed dBGA|B2e2 e3f|gfed BGBd|(3efg fa g2ef|
+gbgf efed|BedB ABGA|BGAG EGDE|1 G2GF GABc:|2 G2GF G2||
+P:Version 2:
+|:dc|BABG EGDF|G2GF G2EG|AGAB cABG|EAAG A2AB|
+cdec BcdB|ABAG E2dc|BABG EGDF|G2GF G2:|
+|:Bc|dBGB dBGB|B2e2 e3f|gfed Bdef|g2gf g2fd|
+edef gage|dedB A2GA|BABG EGDF|G2GF G2:|
+
+X:14
+T:Stack of Barley, The
+R:hornpipe
+H:Also played in A, see #98. Cf #150.
+D:Kevin Burke: Up Close
+Z:id:hn-hornpipe-14
+M:C|
+K:G
+gf|efed B2dB|AGEG AcBA|GFGA BG (3Bcd|egdB A2Bd|
+(3efg ed B2dB|AGEG AcBA|GFGA (3Bcd Ac|B2G2 G2:|
+|:GA|BG (3Bcd g2fg|agfg edBd|g2fg edBd|(3efg dB A2GA|
+(3Bcd ef g2fe|dBAG AcBA|GFGA (3Bcd Ac|B2G2 G2:|
+P:Variations:
+|:gf|(3efg ed B2dB|A2GB AcBA|G2GF GA (3Bcd|e2A2 A2gf|
+efed BedB|AGAB AcBA|~G3A Bedc|B2G2 G2:|
+|:GA|BGBd g2fg|agfg e2dB|dgfg edBd|e2A2 A2Bd|
+edef g2fe|dBAG AcBA|~G3A Bedc|B2G2 G2:|
+
+X:15
+T:Flowing Tide, The
+R:hornpipe
+D:Oisin: Over the Moor to Maggie
+Z:id:hn-hornpipe-15
+M:C|
+K:G
+BA|~G3B dGBd|GBdg (3bag ag|(3efg (3ded (3Bcd ge|dBAG (3edB AF|
+~G3B dGBd|GBdg (3bag ag|(3efg (3ded (3Bcd ge|dBAB G2:|
+|:(3DEF|GFGB AGED|~g3e dBAG|(3cde (3Bcd (3ABc (3GAB|(3cBA (3BAG AGEG|
+DGBc B2Bd|(3cBA (3BAG AGEG|DGBd gdBd|(3cBA GF G2:|
+
+X:16
+T:High Level Hornpipe, The
+R:hornpipe
+C:James Hill (1811-1853), Northumberland
+H:Original tune in Bb, and only 2 parts
+H:James Hill was born in Scotland, moved to Tyneside (he lived in
+H:Gateshead for sure, possibly Newcastle and other places for a 
+H:while) and was active in the mid-1800s.
+H:The third part of this tune was probably added in the 1920's.
+H:The first three-part version I know of was recorded by accordionist
+H:Patrick Lynch in New York in 1924 and 1925.
+D:Paddy Keenan
+D:Johnny Doran (only 2 parts)
+Z:id:hn-hornpipe-16
+M:C|
+K:G
+BA|GBDG BDGB|dgBd GBAG|FADF ADFA|fed^c ed=cA|
+GBDG BDGB|dgBd GBAG|FGAB cBcd|(3fed (3cBA G2:|
+|:AG|(3FAF dA (3FAF dA|(3FAF dA (3FAF dA|BdGd BdGd|BGBd gfed|
+^ceAe ceAe|^cAce gecA|d^cdf afge|(3ded ^ce d2:|
+|:(3def|gdBG ecAF|GdBG DGGF|EcEc DBDB|cBAG GFED|
+DBGF EcAF|GdBG DGGF|(3EGc (3EGc (3DGB (3DGB|ADFA G2:|
+
+X:17
+T:John O'Dwyer Of The Glen
+R:hornpipe
+H:A mangled version of the set dance "Se\'an \'O Duibhir an Ghleanna"
+H:see set dance#3
+D:Paddy Moloney & Sean Potts: Tin Whistles
+Z:id:hn-hornpipe-17
+M:C|
+K:Amix
+fg|adfa gefe|dcAG A2AB|cdec A2 (3AGF|(3GFG AA A2:|
+B2|(3BcB cA (3Bcd ef|gfec d2 (3bc'b|agec ddec|dcAB G2fg|
+adfa gefe|dcAG A2AB|cdec A2 (3AGF|(3GFG AA A2||
+
+X:18
+T:Pride of Petravore, The
+T:Eileen Oge, the Pride of Petravore
+R:hornpipe
+C:William Houston Collisson (1865-1920)
+D:De Dannan: Ballroom
+Z:id:hn-hornpipe-18
+M:C|
+K:Em
+B,2|EDEF GFGA|BcBA G2E2|D2DE FEFG|ABAG FEDF|
+EDEF GFGA|BcBA G2GA|B2Bc BAFG|E2ED E2:|
+|:z2|[e2c2][e2c2] [e3c3]e|dBGA B3c|BAFE FGAB|AGED E2 (3FGA|
+Bdef g2ge|dBGA B3A|B2Bc BAFG|E2ED E2:|
+
+X:19
+T:Stack of Wheat, The
+T:Little Stack of Wheat, The
+R:hornpipe
+S:Mary Bergin
+Z:id:hn-hornpipe-19
+M:C|
+K:G
+BA|GEDE GABG|(3ABA GA (3Bcd ef|gedB GABG|dBAG E2BA|
+GEDE GABG|(3ABA GA (3Bcd ef|gedB GABG|AGEF G2:|
+(3Bcd|ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|dBAG E2 (3Bcd|
+ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|AGEF G2 (3Bcd|
+ed (3Bcd edgd|ed (3Bcd ~e3f|gedB GABG|dBAG E2BA|
+GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2||
+
+X:20
+T:Peacock's Feather, The
+R:hornpipe
+H:See also barndance#17
+D:Frankie Gavin & Alec Finn
+D:Joe Holmes & Len Graham: Chaste Muses, Bards & Sages
+Z:id:hn-hornpipe-20
+M:C|
+K:Ddor
+AG|FDEC D2DE|FEFA G2^FG|Addc dcAG|FDA,B, C2AG|
+FDEC D2DE|FEFA G2^FG|Addc dcAG|F2D2 D2:|
+|:AB|c2cA d2dc|dcA^F G2AB|c2Ad dcAG|FDA,B, C2AG|
+FDEC D2DE|FEFA G2^FG|Addc dcAG|F2D2 D2:|
+
+X:21
+T:Peacock's Feather, The
+R:hornpipe
+H:Descended from the Scottish strathspey "The Glasgow Highlanders"
+D:Frankie Gavin & Alec Finn
+D:M\'aire N\i Chathasaigh and Chris Newman: The Living Wood
+Z:id:hn-hornpipe-21
+M:C|
+K:D
+AG|FE (3FED A2AB|de (3fed B2ef|(3gfe fd ecdB|AGFD E2AG|
+FE (3FED A2AB|defd B2ef|(3gfe fd ecdB|Adfe d2:|
+|:fg|(3agf ge fdec|defd B2ef|(3gfe fd ecdB|AGFD E2AG|
+FE (3FED A2AB|defd B2ef|(3gfe fd ecdB|Adfe d2:|
+
+X:22
+T:Chief O'Neill's
+T:Flowers of Adrigole, The
+R:hornpipe
+H:1st bar of 2nd part also played |=FEFG AGAB|. Also played with ^F in this bar.
+D:Paddy Glackin: In Full Spate
+Z:id:hn-hornpipe-22
+M:C|
+K:Dmix
+de|fefg afge|fded dcAG|~F3D FGAB|cAdc A2de|
+fefg afge|fded dcAG|FEFD GBAG|F2D2 D2:|
+|:DE|=F2FE FGAB|cAdB cAGB|Adde fded|^cAdc A2de|
+f2fg afge|fded dcAG|F2FD GBAG|F2D2 D2:|
+P:variations
+|:de|~f3g (3agf ge|fde^c d=cAG|~F3D (3EFG AB|cAdc A2de|
+~f3g afge|fde^c d=cAG|~F3D GBAG|F2D2 D2:|
+|:DE|=F3E FGAB|cAdB cAGB|Ad~d2 fded|(3^cBA dc A2de|
+fefg (3agf ge|fde^c d=cAG|F2FD GBAG|F2D2 D2:|
+
+X:23
+T:Carrick on Bannow, The
+T:Kingstown Hornpipe, The
+R:hornpipe
+D:Sully and John Keenan: Dublin Banjos
+D:The Sanctuary Sessions.
+Z:id:hn-hornpipe-23
+M:C|
+K:G
+BA|GFGB dgfg|e2ce dBGB|cBAc BAGB|ADFA dBcA|
+GFGB dgfg|e2ce dBGB|cBAc BAGB|ADFA G2:|
+|:ge|d^cdf afdf|abc'b agfe|defg abc'b|agfe dcBA|
+GFGB dgfg|e2ce dBGB|cBAc BAGB|ADFA G2:|
+P:Variations:
+|:(3DEF|GFGA Bddg|ecce dBGB|cBAc BAGB|AGFA dcBA|
+GFGA Bddg|ecce dBGB|cBAc BAGB|AGFA G2:|
+|:(3AB^c|defg afdf|afbf agfe|defg afbf|(3aba (3gfe (3ded (3cBA|
+GFGA Bddg|ecce dBGB|cBAc BAGB|AGFA G2:|
+
+X:24
+T:Derry Hornpipe, The
+R:hornpipe
+H:Played with 2, 3 or 5 parts. Parts 4 and 5: see also "The Elks' Festival", #89
+D:Seamus Ennis: The Fox Chase
+Z:id:hn-hornpipe-24
+M:C|
+K:D
+AG|:F2Ad fdAF|G2Bd gdBG|F2Ad fdAF|E2Ac ecAG|
+F2Ad fdAF|G2Bd g2ag|(3faf df eAce|1 dfec dBAG:|2 dfec defg||
+|:a2fd Adfa|g2ec Aceg|a2fd Adfd|(3efe (3dcB A2fg|
+a2fd Adfa|gfef g2ag|(3faf df eAce|1 dfec defg:|2 dfec dBAG||
+|:(3FED AD BDAD|dcdf ecAG|(3FED AD BDAD|(3EFG FA G2AG|
+(3FED AD BDAD|dcdf ecAg|(3faf df eAce|1 dfec dBAG:|2 dfec defg||
+~a3b afdf|~g3a gece|~a3b afdf|(3efe (3dcB A2fg|
+~a3b afdf|gfef gbag|(3faf df eAce|dfec defg||
+~a3b afdf|~g3a gece|fdge afbg|(3gfe (3dcB A2fg|
+afbf afdf|gfef gbag|fAdf eAce|dfec d2FG||
+|:AFAd fedc|BGBd gfed|cAce (3agf ge|cedB A2FG|
+AFAd fedc|BGBd g2ag|fAdf eAce|1 dfec d2FG:|2 dfec dBAG||
+
+X:25
+T:Bonaparte's March
+T:Bonaparte Crossing the Rhine
+T:Napoleon Crossing the Rhine
+T:Listowel
+R:hornpipe
+H:See also #95
+Z:id:hn-hornpipe-25
+M:C|
+K:Ador
+EG | A2AB AGEG | cdec d2eg | aged cAGE | G2GA G2EG |
+A2AB AGEG | cdec d2eg | aged cABG | A2AG A2 :|
+|: eg | abag e2ed | cdef g2eg | abag edcA | G2GA G2EG |
+A2AB AGEG | cdec d2eg | aged cABG | A2AG A2 :|
+P:variations
+|: (3EFG | A2AB AGEG | cd (3edc d2 (3efg | aged cAGE | G2GA G2 (3EFG |
+A2AB AGEG | cd (3edc d2 (3efg | aged cAGE | A2AB A2 :|
+|: (3efg | aged cdef | gega g2 (3efg | aged cAGE | G2GA G2 (3EFG |
+A2AB AGEG | cd (3edc d2 (3efg | aged cAGE | A2AB A2 :|
+
+X:26
+T:Poll Ha'Penny
+T:Paul Halfpenny
+T:Garra\'i na bhF\'eile\'og
+R:hornpipe
+H:The Irish title means "The Garden of Honeysuckles"
+H:Other titles/related tunes: "Brian the Brave", "Poll/Moll/Paul Ha'Penny",
+H:"Molly MacAlpine", "Molly Halpin".
+H:The tune is descended from air#5
+D:Mary Bergin: Feadoga Stain
+D:Noel Hill agus Tony McMahon: I gCnoc na Grai
+Z:id:hn-hornpipe-26
+M:C|
+K:Amix
+(3GAB|=cAAG A2 (3AB=c|(3d=cB (3AGF G2 (3B^cd|ed^cA d^cAG|~A3G A2de|
+~f3d ~e3c|d2 (3Bcd efge|aged (3=cBA GB|~A3G A2:|
+|:ef|~g3f gfef|g2ga gedg|eaag ~a3g|eaag a2ag|
+~f3d ~e3c|d2 (3Bcd efge|aged (3=cBA GB|~A3G A2:|
+P:Version 2:
+|:AB|=cAAG A2GA|dcAF G2 (3Bcd|edcA dcAG|A2 (3AAA A2ag|
+~f3d efec|d2 (3Bcd efge|agfd =cAGE|A2AG A2:|
+|:ef|gfga gedB|=cdef gafg|e2a2 abag|e2a2 abag|
+~f3d efec|d2 (3Bcd efge|agfd =cAGE|A2AG A2:|
+
+X:27
+T:Pretty Maggie Morrissey
+T:McNamara's
+R:hornpipe
+S:Fiona Lyons, J\"orgen Fischer
+H:Similar to "The Fairie's Hornpipe", #12
+H:Bar 4 of 2nd part, version 2 also played | dGGB A2Bc |
+Z:id:hn-hornpipe-27
+M:C|
+K:G
+Bc|dBGB cAFA|~G3F GABc|dg~g2 eg~g2|dBGB A2Bc|
+dBGB cAFA|~G3F GABc|dg~g2 ecAF|G2GF G2:|
+|:Bc|dg~g2 eg~g2|dg~g2 edBc|dg~g2 eg~g2|dBGB A2Bc|
+dBGB cAFA|~G3F GABc|dg~g2 ecAF|G2GF G2:|
+P:version 2
+|:z2|dBGD cAFD|~G3D GABc|dg~g2 effe|dGGB A2Bc|
+dB~B2 cBBA|G2GD GABc|d2g2 ecAF|GBAF G2:|
+|:z2|dg~g2 effe|dg~g2 effe|dg~g2 effe|d^c=cB A2Bc|
+dB~B2 cBBA|~G3D GABc|d2~g2 ecAF|GBAF G2:|
+
+X:28
+T:Fisherman's Lilt
+R:hornpipe
+Z:id:hn-hornpipe-28
+M:C|
+K:D
+(3ABc|dAFA GBAG|FEFA dFGE|FAdc dcBA|BGEF GABc|
+dAFA GBAG|FEFA dFGE|FAdf gecd|(3efe dc d2:|
+|:de|fddc dfaf|edcd efge|fddc dfaf|(3gfe (3dcB ADFA|
+BG~G2 BG (3Bcd|AF (3ABc defd|Afed Bgec|dfec d2:|
+
+X:29
+T:Johnnie Cope
+R:hornpipe
+H:See also "The Drunken Sailor", #63
+D:Planxty
+D:Fintan Vallely: Traditional Irish Flute Music
+D:Noel Hill & Tony Linnane
+D:Seamus Ennis: The Fox Chase
+Z:id:hn-hornpipe-29
+M:C|
+K:Ador
+EG |: A2AB A2Bd | efed B2AG | EGGF G2GB | BAGB dBAG |
+A2AB A2Bd | efed B2d2 | (3efg fa gedB |1 BAAB AGEG :|2 BAAG A2AB ||
+|: cBcd c2AG | cdef gedB | cBAc e2ed | cdec dBGB |
+cBcd c2AG | cdef gedg | eaag (3efg dB | BAAG A2AB :|
+|: cdcB ABAG | ABcd (3efg dc | BG~G2 dG~G2 | cdec dBGB |
+cdcB ABAG | ABcd (3efg dg | eaag (3efg dB |1 BAAG A2AB :|2 BAAG A2 (3Bcd ||
+|: eaag a2ga | bgaf g2ed | eggf gaba | gabg aged |
+eaag a2ga | bgaf g2ge | d2ef gedB |1 BAAG A2 (3Bcd :|2 BAAB A2ag ||
+|: e2 (3eee feed | e2~e2 fedB | d3e dBAB | defd edBd |
+e3e fedB | eaae fedB | ABdf efdB |1 BAAB A2ag :|2 BAAB A2 (3efg ||
+|: a2e2 efge | a2e2 efag | f2d2 d^cde | fdd^c d2 (3efg |
+a2e2 efge | a2e2 efdB | ABdf efdB |1 BAAB A2 (3efg :|2 BAAB AG ||
+P:variations
+EG |: A2AB A2Bd | efed B2AG | EGGF G2GB | BAGB dBAG |
+A2AB A2Bd | efed B2d2 | (3efg fa gedB |1 BAAB AGEG :|2 BAAB A2AB ||
+|: cBcd c2AG | cdef gedB | cBAc e2ed | cdec dBGB |
+cBcd c2AG | cdef gedg | eaag (3efg ed | BAAB A2AB :|
+|: cdcB ABAG | ABcd (3efg dc | BG~G2 dG~G2 | (3Bcd ec dBGB |
+cdcB ABAG | ABcd (3efg dg | eaag (3efg ed |1 BAAB A2AB :|2 BAAB A2 (3Bcd ||
+|: eaag a2ga | bgaf g2ed | eggf gaba | gabg aged | 
+eaag a2ga | bgaf g2ge | d2ef gedB |1 BAAB A2 (3Bcd :|2 BAAB A2ag ||
+|: e2 (3eee feed | e2~e2 fedB | d3e dBAB | defd edBd |
+e3e fedB | eaae fedB | ABdf efdB |1 BAAB A2ag :|2 BAAB A2 (3efg ||
+|: a2e2 efge | a2e2 efag | f2d2 d^cde | fdd^c d2 (3efg |
+a2e2 efge | a2e2 efdB | ABdf efdB |1 BAAB A2 (3efg :|2 BAAB AG ||
+
+X:30
+T:Independent Hornpipe, The
+T:Independence Hornpipe, The
+R:hornpipe
+S:Live recording of the Chieftains on the Swedish Radio 1991
+Z:id:hn-hornpipe-30
+M:C|
+K:G
+Bc | dgfa (3gab gd | (3efg dc (3Bcd BG | FGAB cBce | (3agf (3gfe d2Bc |
+dgfa (3gab gd | (3efg dc (3Bcd bg | fedB cAFG | (3ABA GF G2 :|
+|: AB | c2 (3BAG (3FAc (3edc | (3Bcd (3Bdg (3bag (3fed |
+c2 (3BAG (3FAc (3edc | (3Bdg (3bdg (3bag (3fed |
+e2 (3ceg (3c'ba (3gfe | d2 (3Bdg (3bag (3fed |
+(3ced (3cBA (3fed (3cBA | (3GBd (3gdB G2 :|
+P:variations
+Bc | dgfa (3gab gd | (3efg dc (3Bcd BG | FGAB cdef | (3aba (3gfe (3ded (3cBc |
+dgfa (3gab gd | (3efg dc (3Bcd BG | Fedc (3BAG (3AGF | (3GBd (3gdB G2
+Bc | dgfa (3gab gd | (3efg dc (3Bcd BG | FGAB cdef | (3aba (3gfe dcBc |
+dgfa (3gab gd | (3efg dc (3Bcd BG | FGAB cAFG | (3ABA GF G2 ||
+|: AB | (3cdc (3BAG (3FGA (3edc | (3Bdg (3Bdg (3bag (3fed |
+(3cBc (3BAG (3FGA (3edc | (3Bdg (3Bdg (3bag (3fed |
+(3efe (3ceg (3c'ba (3gfe | (3ded (3Bdg (3bag (3fed |
+(3egf (3edc (3BAG (3AGF | (3GBd (3gdB G2 :|
+
+X:31
+T:Miss Galvin
+R:hornpipe
+D:Mary Bergin: Feadoga Stain
+D:Paul McGrattan & Paul O'Shaughnessy: Within a Mile from Dublin (B flute)
+Z:id:hn-hornpipe-31
+M:C|
+K:D
+fe|d2cA GEFE|D2FA DAFA|d2cA GE~E2|(3Bcd eg fdec|
+d2cA GEFE|D2FA DAFA|d2cA GE~E2|cdec d2||
+de|fgaf d2de|fgaf gbag|fgaf dcA2|(3Bcd ef ~g3e|
+fgaf d2de|fgaf gbag|fAeA dcA2|(3Bcd ef g2||
+
+X:32
+T:Boys of Ballycastle, The
+R:hornpipe
+D:Kevin Burke: Up Close
+Z:id:hn-hornpipe-32
+M:C|
+K:Em
+ef|gfed ed (3B^cd|edeg B2BA|G2GA BA (3B^cd|e2A2 A2ga|
+bagf gfed|edeg B2BA|G2GA BcBA|G2E2 E2:|
+|:gf|eBBA B2gf|eBBA B2gf|edef gfga|b2e2 e2ga|
+bagf gfed|edeg B2BA|GFGA BcBA|G2E2 E2:|
+
+X:33
+T:Caisle\'an na n\'Or
+R:hornpipe
+C:Martin "Junior" Crehan (1908-1998)
+H:Bars 4 of both parts also played |DG~G2 DF~F2|
+D:Kevin Burke: If the Cap Fits
+D:Matt Molloy & Sean Keane: Contentment is Wealth
+Z:id:hn-hornpipe-33
+M:C|
+K:Gdor
+GF|DGGF G2 (3A=Bc|dcde f2ga|gfdc AdcA|DGGE FEDC|
+DGGF G2 (3A=Bc|dcde f2ga|gfdc AdcA|G2GF G2:|
+|:(3A=Bc|dgga _b2ag|gfde f2ga|gfdc AdcA|DGGE FEDC|
+DGGF G2 (3A=Bc|dcde f2ga|gfdc AdcA|G2GF G2:|
+
+X:34
+T:Bobby Casey's Hornpipe
+R:hornpipe
+H:See also "The Humours of Tullycrine", #86
+D:Kevin Burke: If the Cap Fits
+Z:id:hn-hornpipe-34
+M:C|
+K:Ador
+ed|cAAB ~c3d|eaag (3efe dB|cAAc BAGA|Bdde dBAG|
+AGAB c3d|eaag (3efe dB|cAAc dBGB|A2AG A2:|
+(3Bcd|ea~a2 aged|ea~a2 aged|eg~g2 gedg|eg~g2 gedB|
+AGAB c3d|eaag (3efe dB|cAAc dBGB|A2AG A2(3Bcd|
+eaag aged|eaag aged|eggf ged2|(3efg fa gedB|
+AGAB cBcd|eaag (3efe dB|cAAc dBGB|A2AG A2||
+
+X:35
+T:Dunphy's Hornpipe
+R:hornpipe
+D:Paddy Keenan
+Z:id:hn-hornpipe-35
+M:C|
+K:G
+BA|GDBD GBdg|feed ecAG|FAEA DFAc|BGAF GFED|
+GDBD GBdg|feed ecAG|FAdB cAFG|(3ABA GF G2:|
+|:Bc|(3ded Bd gdBd|gbaf gdBd|gefd ed (3B^cd|ed^ce d2 ef|
+gedc BGBd|ecAG FADF|GBdB cAFG|(3ABA GF G2:|
+
+X:36
+T:Mulqueeny's
+R:hornpipe
+D:Molloy, Peoples, Brady
+Z:id:hn-hornpipe-36
+M:C|
+K:G
+(3GBd g2 fedf|eA^ce d2gf|e2ce dGBd|cBAG FAD2|
+(3GBd g2 fedf|eA^ce d2gf|e2ce dGBd|cAFA G4:|
+|:(3GBd g2 (3GBd g2|(3GBd gB eBd2|(3FAd f2 (3FAd f2|(3FAd fe (3ded (3cBA|
+(3GBd g2 (3GBd g2|(3GBd gB eBdg|f2ed eA^ce|1 dgfe (3ded (3cBA:|2 dgfe defg||
+|:~a2ba afab|afab a2fe|defg adfa|bfge defg|
+~a2ba afab|afab a2fe|de (3fed (3Bcd AF|1 G2Bd defg:|2 G2Bd (3gfe dB||
+
+X:37
+T:Cuckoo's Nest, The
+T:An Spealad\'oir (The Mower)
+R:hornpipe
+H:Parts 2 and 3 sometimes played in opposite order for both versions.
+H:See also #38, song#193
+D:Seamus Ennis: The Fox Chase
+D:Willie Clancy: Erin's Lovely Lea (?)
+D:De Dannan: Star Spangled Molly
+D:Conal O'Grada: The Top of Coom
+Z:id:hn-hornpipe-37
+M:C|
+K:G
+dc|BcBA GBdg|fdcB cedc|BcBG FGAB|c2A2 A2dc|
+BcBA GBdg|fdcB cedc|(3Bcd BG FGAc|B2G2 G2:|
+|:z2|dggf gabg|afd^c d2de|fede fgaf|gfdB cedc|
+BcBA GBdg|fdcB cedc|(3Bcd BG FGAc|B2G2 G2:|
+|:Bc|dBGB dBGB|dBcA G2AB|cAFA cAFA|cBAG F2BA|
+GABc dBdg|bgdB cedc|(3Bcd BG FGdc|B2G2 G2:|
+P:Version 2:
+|:dc|BcBA GBdg|fdcB cedc|BcBG FGAB|c2A2 A2dc|
+BcBA GBdg|fdcB cedc|(3Bcd BG FGAc|B2G2 G2:|
+|:Bc|dBGB dBGB|dBcA G2AB|cA=FA cA=FA|cBAG =F2BA|
+GABc dg~g2|bgdB cedc|(3Bcd BG FGAc|B2G2 G2:|
+|:z2|dggf gabg|afd^c d2de|=fede ^fgaf|gfdB cedc|
+BcBA GBdg|fdcB cedc|(3Bcd BG FGAc|B2G2 G2:|
+
+X:38
+T:Cuckoo's Nest, The
+T:Jackie Tar
+T:Jacky Tar
+R:hornpipe
+H:See also #37, song#193
+H:See also #119
+Z:id:hn-hornpipe-38
+M:C|
+K:Em
+|: GA | Beed efge | dBBA ~B3d | ABde faef | d2A2 A2GA |
+Beed efge | dBGB d2cB | AGFE DEFA | GEED E2 :|
+|: GA | BGEG BGEG | BAGF E2FG | AFDF AFDF | AGFE D2EF |
+~G3E g2fe | dBGB d2cB | AGFE DEFA | GEED E2 :|
+P:variations
+|: Bd | e2ed effe | d2B2 B2dB | ABde (3fga ef | fedB A2 (3Bcd |
+edef g2fe | dBGB d2cB | AGFE DEFA | GEED E2 :|
+|: GA | BGEG BGEG | BAGF E2FG | AFDF AFDF | AGFE DEFD |
+GFGE g2fe | dBGB d2cB | AGFE DEFA | G2E2 E2 :|
+
+X:39
+T:Walsh's Hornpipe
+R:hornpipe
+H:Also played in A, see #42
+Z:id:hn-hornpipe-39
+M:C|
+K:G
+GD|(3GAB DE GBdB|(3cde AB cde2|edBd gdBG|(3ABc BG AGEF|
+(3GAB DE GBdB|(3cde AB cde2|edBd gdBG|(3ABc BA G2:|
+|:(3Bcd|gd (3Bcd ed (3Bcd|gd (3Bcd edBA|GA (3Bcd gdBG|(3ABc BG AGEF|
+(3GAB DE GBdB|(3cde AB cde2|edBd gdBG|(3ABc BA G2:|
+
+X:40
+T:Humours of Ballyconnell, The
+R:hornpipe
+H:Probably descended (via "Ballyhaunis") from the air "Port Gordon",
+H:composed by Ruaidhr\'i Dall \'O Cath\'ain (c. 1570 - 1650 or 1653)
+D:Mary Bergin: Feadoga Stain 2
+Z:id:hn-hornpipe-40
+M:C|
+K:Amix
+ed|(3Bcd ef ecAB|AGEF GABd|cdcB AGEG|ABcd e2dB|
+cdcB cBAB|AEAB cdcB|ABAG ED (3EFG|A2BG A2:|
+|:zE|ABcd e2dc|dcdf g2ed|efga ba (3gab|a2ag a2af|
+gedB =c2AE|AGAB cdcB|ABAG ED (3EFG|A2BG A2:|
+
+X:41
+T:Japanese Hornpipe, The
+R:hornpipe
+H:See also #70
+D:Sully and John Keenan: Dublin Banjos
+Z:id:hn-hornpipe-41
+M:C|
+K:G
+Bc|d2^cd =cdBc|ABGA FGEF|DEFG ABcd|ed^cd B2B=c|
+d2^cd =cdBc|ABGA FGEF|DEFG ABcd|(3fed (3cBA G2:|
+|:DG|B2Bc BAGB|d2A2 A2DF|A2AB AdcA|B2G2 G2DG|
+B2Bc BAGB|d2A2 A2Bc|d2^cd fd=cA|(3GAG FA G2:|
+
+X:42
+T:Willy Walsh's Hornpipe
+R:hornpipe
+H:Also played in G, see #39
+Z:id:hn-hornpipe-42
+M:C|
+K:A
+cB|(3ABc EF Acec|(3def Bc def2|fece aecA|(3Bcd cA BAFG|
+(3ABc EF Acec|(3def Bc def2|fece aecA|(3Bcd cB A2:|
+|:(3cde|ae (3cde fe (3cde|ae (3cde fecB|AB (3cde aecA|(3Bcd cA BAFG|
+(3ABc EF Acec|(3def Bc def2|fece aecA|(3Bcd cB A2:|
+
+X:43
+T:Alexander's Hornpipe
+T:Sandlark Hornpipe, The
+R:hornpipe
+Z:id:hn-hornpipe-43
+M:C|
+K:D
+(3ABc|dAFA DFAd|fdcd Acef|~g3e fdcd|(3efe (3dcB A2 (3ABc|
+dAFA DFAd|fdcd Acef|~g3e fdcd|(3efe dc d2:|
+|:AG|FAdA FAdA|GBdB GBdB|Acec Acec|dfaf (3gfe dA|
+FAdA FAdA|GBdB GBdB|Acef gecd|(3efe dc d2:|
+
+X:44
+T:Harvest Home
+R:hornpipe
+H:One of the most common session tunes. Often played w "The Boys of Bluehill"
+H:See also #147 in G
+Z:id:hn-hornpipe-44
+M:C|
+K:D
+A2|DAFA DAFA|defe dcBA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|
+DAFA DAFA|defe dcBA|eAfA gece|d2f2 d2:|
+|:cd|eA~A2 fA~A2|gAfA eA~A2|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|
+DAFA DAFA|defe dcBA|eAfA gece|d2f2 d2:|
+P:Variations:
+|:AF|DAFA DAFA|dfec dcBA|(3efg (3fga (3gfe (3fed|edcB AGFE|
+DAFA DAFA|dfec dcBA|(3efg (3fga gece|d2f2 d2:|
+|:cd|eA~A2 fA~A2|gAfA eA~A2|(3efg (3fga (3gfe (3fed|edcB AGFE|
+DAFA DAFA|dfec dcBA|(3efg (3fga gece|d2f2 d2:|
+
+X:45
+T:Soldier's Joy
+R:hornpipe
+Z:id:hn-hornpipe-45
+M:C|
+K:D
+dB | AFDF AFDF | A2d2 d2cB | AFDF AFDF | G2E2 E2FG |
+AFDF AFDF | A2d2 d3e | fafd egec | d2dc d2 :|
+|: de | f2fe fagf | edcd egfe | f2fe fagf | edcB A2de |
+f2fd fagf | edcd egfe | fafd egec | d2dc d2 :|
+P:Variations:
+|: dB | AGFE DEFG | A2d2 d2dB | AGFE DEFD | G2E2 E2dB | 
+AGFE DEFG | A2d2 d3e | fafd egec | d2dc d2 :|
+|: dA | defg a2gf | ecef g2fe | defg a2af | edcB A2Ac |
+defg a2gf | ecef g2fe | fafd egec | d2dc d2 :|
+
+X:46
+T:Belfast Hornpipe, The
+T:Sweep's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-46
+M:C|
+K:D
+ag|(3faf df AdFA|DFAd f2ef|gabg efge|cdec A2ag|
+(3faf df AdFA|DFAd f2ef|gfed cABc|(3dcd fe d2:|
+|:zF|GFGA Bcde|fgfe dcdB|A2f2 fef2|G2e2 e3F|
+GFGA Bcde|fgfe dcdB|Afed cABc|(3dcd fe d2:|
+|:ag|(3fgf (3efe (3ded (3cdc|(3BcB (3ABA G2ba|
+(3gag (3fgf (3efe (3ded|(3cdc (3BcB A2ag|
+(3fgf (3efe (3ded (3cdc|(3BcB (3ABA (3GAG (3FGF|Efed cABc|(3dcd fe d2:|
+P:Version of 1st part:
+|:ag|(3faf (3dfd (3AdA (3FAF|DFAd f2ef|gbeg ceAF|GABG E2ag|
+(3faf df AdFA|DFAd f2ef|gabg eABc|d2f2 d2:|
+
+X:47
+T:Boys of Bluehill, The
+R:hornpipe
+H:One of the most common session tunes. Often played w "Harvest Home"
+Z:id:hn-hornpipe-47
+M:C|
+K:D
+FA|BAFA D2FA|BA (3Bcd e2de|faaf egfe|dfed B2dA|
+BAFA D2FA|BA (3Bcd e2de|faaf egfe|d2f2 d2:|
+|:fg|afdf a2gf|efga b2ag|faaf egfe|dfed B2dA|
+BAFA D2FA|BA (3Bcd e2de| faaf egfe|d2f2 d2:|
+P:Variations:
+|:FA|BAFA DAFA|BA (3Bcd e2de|fg (3agf efge|de (3fed B2dB|
+BAFA D2 (3EFA|BA (3Bcd e2de|fgaf egfe|d2dc d2:|
+|:fg|afdf a2gf|gfga b2ag|fgaf ef (3gfe|de (3fed B2dB|
+BAFA D2 (3EFA|BA (3Bcd e2de|fgaf egfe|d2dc d2:|
+
+X:48
+T:Galway Hornpipe, The
+R:hornpipe
+Z:id:hn-hornpipe-48
+M:C|
+L:1/8
+K:D
+FE | D2FA dAFD | CDEF GEFE | D2FA dcdf | (3efe (3dcB (3ABA (3GFE | 
+D2FA dAFD | CDEF G2FG | AdcB AGFE | (3DED CE D2 :| 
+|: de | fefg fedc | BABc B2cd | edef edcB | (3ABA ce a2 (3ABc | 
+dcde fdAF | GFGA BdcB | AdcB AGFE | (3DED CE D2 :| 
+P:variations:
+|: (3A,B,C | D2FA dAFD | CDEF G2FE | D2FA dcdf | edcB AGFE | 
+D2FA dAFD | CDEF GEFG | AdcB (3ABA (3GFE | (3DFA (3dAF D2 :| 
+de | ~f3g fedc | B^ABc B2cd | e^def edcB | (3Ace aec A2 (3ABc | 
+dcde fdAF | GFGA BdcB | AdcB (3ABA (3GFE | (3DFA (3dAF D2 
+de | ~f3g fedc | B^ABc B2cd | e^def edcB | (3ABA ^GB A2 (3ABc | 
+dcde fdAF | GFGA BdcB | AdcB (3ABA (3GFE | (3DFA (3dAF D2 ||
+
+X:49
+T:First of May, The
+T:Four Provinces Fling
+R:hornpipe
+Z:id:hn-hornpipe-49
+M:C|
+K:Ador
+AG | EAAB cBcA | d^cde f2 (3def | gfe^c dfe^c | d^cAF G2AG |
+EAAB cBcA | d^cde f2 (3def | gfe^c dfe^c | A2AG A2 :|
+|: fg | a2af g2ge | (3fga fd e2ed | ^cdef gfge | d^cAF G2AG |
+EAAB cBcA | d^cde f2 (3def | gfe^c dfe^c | A2AG A2 :|
+P:variations
+|: AG | EAAB c2Bc | Adde f2ef | gfe^c dfe^c | d^cAF G2FG |
+EAAB c2Bc | Adde f2ef | gfe^c ded^c | A2 (3GAB A2 :|
+|: fg | a2af g2ge | fgfd e2ef | gfe^c dfe^c | d^cAF G2FG |
+EAAB c2Bc | Adde f2ef | gfe^c ded^c | A2 (3GAB A2 :|
+
+X:50
+T:Blackbird, The
+R:hornpipe
+Z:id:hn-hornpipe-50
+M:C|
+K:Ador
+AB|cBcB AGAe|edec G2 (3DEF|G2ge dBAB|G2E2 E2:|
+|:zB|efga b2ag|agab g2ed|efga b2ag|f2e2 efga|
+b2bg a2ae|d^cdB gab2|B2AG AcBA|G2E2 E2:|
+P:variations
+|:AB|cBcB A^GA^d|e^deB G2 (3DEF|G2ge dBAB|G2E2 E2:|
+|:zB|efga b2ag|agab g2eB|efga b2ag|f2e2 efga|
+babg a^gae|d^cdB gab2|B2AG AcBA|G2E2 E2:|
+
+X:51
+T:Wicklow Hornpipe, The
+T:Road To Boyle, The
+T:Homebrew Hornpipe, The
+R:hornpipe
+H:Bar 4 also played |DG~G2 DGGB|
+D:John Williams
+Z:id:hn-hornpipe-51
+M:C|
+K:D
+FG|ABAF DEFG|AGFD =c2 (3AB^c|dcde fdAF|DGGF G2FG|
+ABAF DEFG|AGFD =c2 (3AB^c|dcde fdAG|F2D2 D2:|
+|:de|~f3d ecAF|Gggf g2 (3efg|agab agec|dcAF G2FG|
+ABAF DEFG|AGFD =c2 (3AB^c|dcde fdAG|F2D2 D2:|
+P:Version 2:
+|:FG|A2AF DEFG|AFed =c2 (3AB^c|d2de fdAG|EGGA G2FG|
+ABAF DEFG|AGAB =c2 (3AB^c|d2de fdAG|F2D2 D2:|
+|:de|f2fd edcA|defd g2 (3efg|a2ab agef|dcAB G2FG|
+A2AF DEFG|AFed =c2 (3AB^c|d2de fdAG|F2D2 D2:|
+
+X:52
+T:Murphy's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-52
+M:C|
+K:G
+(3DEF|GABG EFGE|ABcA FGAF|GBdg ecAG|FGAF DEFD|
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|
+|:Bc|dedc Bcd2|efed ^cdef|~g3d ecAG|FGAF DEFD|
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|
+
+X:53
+T:Byrne's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-53
+M:C|
+K:D
+AG|F2GE AFD2|dA (3Bcd ecAe|fdge fded|cA (3Bcd ecAG|
+F2GE AFD2|dA (3Bcd ecAe|fdge fdec|Addc d2:|
+|:cd|eA~A2 efge|afdf bgeg|afdf geaf|gefd ecAG|
+F2GE AFD2|dA (3Bcd ecAe|fdge fdec|Addc d2:|
+
+X:54
+T:Dan Sullivan's Favourite
+R:hornpipe
+D:Sean Ryan: Take the Air
+Z:id:hn-hornpipe-54
+M:C|
+K:G
+~G3A BAGF|G2 (3Bcd g2 (3Bcd|gdBd ecAG|FGAB cAdB|
+(3GAG DG BAGF|G2 (3Bcd g2 (3Bcd|gdBd ecAF|1 GBAF G2 D2:|2 GBAF G2FG||
+K:D
+|:ABAG FAde|fedc d2cd|eA~A2 gfed|eA~A2 gfed|
+ABAG FAde|fedc d2fg|(3aba (3gag (3fgf (3efe|1 dfec d2 FG:|2 (3ded (3cdc (3BcB (3ABA||
+
+X:55
+T:Redhaired Boy, The
+R:hornpipe
+H:See also reel#843, song#46. Descended from the Scottish tune Gilderoy,
+H:where the earliest versions are in Ador.
+Z:id:hn-hornpipe-55
+M:C|
+K:Amix
+AG|EAAG ABcd|efec d2cd|eAAG ABcA|BGEF G2FG|
+EAAG ABcd|efec d2cd|eaag aged|cABG A2:|
+|:ef|g2gf gfef|gfec d2cd|eAAG ABcA|BGEF G2FG|
+EAAG ABcd|efec d2cd|eaag aged|cABG A2:|
+W:Words from USA:
+W:There was an old soldier and he had a wooden leg
+W:Nothing left on it but an old wooden peg
+W:He'd tune up his fiddle, and he'd rosin up his bow,
+W:and he'd play on his fiddle till the cows came home.
+
+X:56
+T:Buck from the Mountain
+T:McElligott's Fancy
+R:hornpipe
+D:Frankie Gavin: Up and Away
+Z:id:hn-hornpipe-56
+M:C|
+K:D
+FG|AFAd BGBd|AFAd f2fe|dfgf edBc|dBAG FEDF|
+AFAd BGBd|AFAd f2fe|dfgf edBc|dAfe d2:|
+|:ef|gfge cABc|dcde fdef|gfge cABc|dBAG FEDF|
+AFAd BGBd|AFAd f2fe|dfgf edBc|dAfe d2:|
+
+X:57
+T:Petronella
+R:hornpipe
+S:Session tape with Mairead Ni Mhaonaigh and Frankie Kennedy
+H:Actually a german from Donegal. Originally an English country dance. Also as barndance#4
+Z:id:hn-hornpipe-57
+M:C|
+K:D
+F2AF E2AE|.D2.D2 D2FA|d2cd e2d2|cdec ABAG|
+F2AF E2AE|.D2.D2 D2FA|d2cd e2de|f2d2 d2z2:|
+|:A2f2 A2f2|g2gf edcB|A2ec Acec|fgfe dcBc|
+A2f2 A2f2|g2gf edcB|A2ec Acec|d2d2 d2z2:|
+
+X:58
+T:Mullingar Races, The
+T:Rover Through the Bog, The
+R:hornpipe
+Z:id:hn-hornpipe-58
+M:C|
+K:G
+(3DEF|G2BG ABcA|defa gfdc|~B3d cBcA|GBAF DEFD|
+G2BG ABcA|defa gfdc|~B3d cAFG|AGGF G2:|
+|:Bd|~g3a gfdf|g2ag gfde|~f3g afge|fde^c d=cAF|
+G2BG ABcA|defa gfdc|~B3d cAFG|AGGF G2:|
+
+X:59
+T:Scent of the Bog, The
+T:Smell of the Bog, The
+R:hornpipe
+D:Brendan Begley
+Z:id:hn-hornpipe-59
+M:C|
+K:G
+ge|dGBd ecge|dBGB dGBd|~c3A ~B3G|AGFE D2ge|
+dGBd ecge|dBGB dgfg|(3efg cg fdfa|(3gag fa g2:|
+|:ga|(3bag (3agf gBfB|gBfB ed^cd|efga (3bag (3agf|(3gfe (3fed efga|
+bg (3agf gBfB|gBfB ed^cd|egcg (3fga df|gagf g2:|
+P:variations
+|:(3gfe|dGBd edge|dBGB dBed|(3cdc Ac (3BcB GB|(3ABA (3GFE D2 (3gfe|
+dGBd edge|dBGB dgfg|(3efe cg fada|g2gf g2:|
+|:ga|(3bag af gBfB|gBfB edBd|efga (3bag (3agf|(3gfe (3fed efga|
+(3bag af gBfB|gBfB edBd|egcg fada|g2gf g2:|
+
+X:60
+T:Father Dollard's Hornpipe
+R:hornpipe
+D:Mary Bergin: Feadoga Stain 2.
+Z:id:hn-hornpipe-60
+M:C|
+K:D
+AF|D2 (3DDD DEFA|d2fe dcBA|FA~A2 dAfA|(3Bcd AF GEFE|
+D2 (3DDD DEFA|d2fe dcBA|FA~A2 (3Bcd GE|F2D2 D2:|
+|:de|fd~d2 d2de|fd~d2 bgaf|gece Acef|~g3b agfe|
+Ad~d2 (3Bcd AF|Ad~d2 fdBd|Adfa geAc|e2dc d2:|
+
+X:61
+T:O'Callaghan's
+R:hornpipe
+Z:id:hn-hornpipe-61
+M:C|
+K:G
+(3Bcd|efgf eABA|GABd dBGE|DEGA ~B3d|(3efg fg ed (3Bcd|
+g2fg ed (3Bcd|geaf gfed|(3BcB GB (3ABA FA|~G3F G2:|
+|:(3efg|afge dega|bBBA G2 (3efg|afge dega|beed e3g|
+f2 (3def gfeg|(3fgf (3def gfeg|fbaf gfed|(3Bcd ef e2:|
+
+X:62
+T:Cooley's Hornpipe
+R:hornpipe
+C:Paddy O'Brien (Nenagh) (1922-1991)
+D:Noel Hill & Tony Linnane
+D:Mary Bergin: Feadoga Stain 2
+Z:id:hn-hornpipe-62
+M:C|
+K:G
+(3def|gG~G2 EGDC|B,DGB dg~g2|e2ce d2Bd|cAAG A2 (3def|
+gG~G2 EGDC|B,DGB dg~g2|ecAG FAdc|BGGF G2:|
+|:GA|BG (3Bcd edBd|g2bg edBd|~g3e dBGA|BAAG Ad^cd|
+BG~G2 E2cE|~E2cE DGBd|~g3e dBcA|BGGF G2:|
+
+X:63
+T:Drunken Sailor, The
+R:hornpipe
+H:See also "Johnnie Cope", #29
+D:Noel Hill: The Irish Concertina
+D:Sean Keane, Matt Molloy, Liam O'Flynn: The Fire Aflame
+Z:id:hn-hornpipe-62
+M:C|
+K:Ador
+AG|EAAG ABce|edcB AGEF|G2GF GABG|dBGB edcB|
+AECE ABce|edcB AGEF|Ggfa gedB|c2A2 A2:|
+|:zB|c2cB cdef|gdBc dBGA|(3BAG dG eGdc|(3BAG dG eGdB|
+c2cB cdef|gdBc dBGB|Aaag ed (3Bcd|c2A2 A2:|
+(3Bcd|eaag a2ga|bagf ~e3g|(3fed ad bdag|(3fed ad bdad|
+eaag a2ga|bd'ag ecGg|(3efg fa gedB|c2A2 A2 (3Bcd|
+eaag a2c'a|bagf ~e3g|(3fed ad bdag|fdda bdad|
+eaag a2ga|bd'ag ecGg|(3efg fa gedB|c2A2 A2||
+|:zG|EA (3cde EA (3cde|EG (3Bcd EG (3Bcd|EA (3cde EA (3cde|eaed cABG|
+EA (3cde EA (3cde|d2BG DGBd|(3efg fa gedB|c2A2 A2:|
+|:ze|ae (3abc' ae (3abc'|gd (3gab gd (3gab|ae (3abc' ae (3abc'|ged2 eddB|
+cEAc BAGB|cBce d2^cd|(3efg fa gedB|c2A2 A2:|
+P:Version 2:
+|:AB|A2AG ABcd|edcB AGEF|G2GF GABc|dBGB edcB|
+AECE ABcd|edcB AGEF|G2ag edcB|c2A2 A2:|
+|:zB|c2cB cdef|gdBc dBGA|(3BAG dG eGdc|BGGd eGdB|
+c2cB cdef|gdBc dBGB|Aaag edcB|c2A2 A2:|
+|:(3Bcd|eaag a2c'a|bagf ~e3f|gdad bdad|~g3a bagf|
+eaag a2c'a|bagf ~e3d|egfa gedB|c2A2 A2:|
+|:zG|EAcA EAcA|DGBG DGBG|EAcA EAcA|ede=f edcB|
+Acec Acec|d2BG DGBd|egfa gedB|c2A2 A2:|
+|:ze|ae (3abc' ae (3abc'|gd (3gab gd (3gab|ae (3abc' ae (3abc'|gedB eBdB|
+cAcA BGBd|cBce d3=f|(3efg fa gedB|c2A2 A2:|
+
+X:64
+T:An tSeanbhean Bhocht
+R:hornpipe
+D:Padhraic MacMathuna: Blas na Meala
+Z:id:hn-hornpipe-64
+M:C|
+K:G
+(3ABc|dggf gedc|B2G2 GBdB|ceag afdB|c2A2 A2Bc|
+dggf g2BA|GDBD GBdB|ceaf gedc|B2G2 G2:|
+|:dc|(3Bcd gd (3Bcd gd|(3Bcd cA GBdB|ceae ceae|cABG A2dc|
+(3Bcd gd (3Bcd gd|(3Bcd cA GBdB|ceaf gedc|B2G2 G2:|
+|:ga|(3bag af gedc|B2G2 G2ab|(3c'ba bg afdB|c2A2 A2ga|
+(3bag af g2BA|GDBD GBdB|ceaf gedc|B2G2 G2:|
+
+X:65
+T:Murphy's Hornpipe
+R:hornpipe
+D:Padhraic MacMathuna: Blas na Meala
+D:Frankie Gavin & Alec Finn
+Z:id:hn-hornpipe-65
+M:C|
+K:D
+(3ABc|:d2AF d2AF|dcdf ecAg|f2df gfed|c2A2 AB (3cBA|
+d2AF d2AF|dcdf ecAg|fa~a2 bgec|1 d2 (3edc d2 (3ABc:|2 df (3edc defg||
+afdg fa~a2|bged ceag|fa~a2 bged|c2A2 A2 (3efg|
+afdg fa~a2|bged ceag|fa~a2 bgec|d2dc defg|
+afdg fa~a2|bged ceag|fa~a2 bged|c2A2 A2 (3ABc|
+d2AF d2AF|dcdf ecAg|fa~a2 bgec|d2 (3edc dBAG||
+|:(3FGF Dg fdec|dcdf ecAG|FADg fdec|df (3edc dBAG|
+(3FGF Dg fdec|dcdf ecAg|fa~a2 bgec|1 df (3edc dBAG:|2 df (3edc dfag||
+~f3d ~g3e|f2df ecAg|fAdf gfed|c2A2 A2AG|
+(3FED AD BDAD|dcdf ecAg|fa~a2 bgec|d2dc dfag|
+~f3d ~g3e|f2df ecAg|fAdf gfed|c2A2 A2 (3ABc|
+dcdf edeg|fefa ~g3b|agba gfec|(3ded fe d2||
+
+X:66
+T:Belharbour Hornpipe, The
+T:Killeigh Hornpipe, The
+R:hornpipe
+C:John Brady
+H:Bar 1 also played |G2GB G2Bd|
+D:Sean Keane, Matt Molloy, Liam O'Flynn: The Fire Aflame
+Z:id:hn-hornpipe-66
+M:C|
+K:G
+GD|:GA (3AGF G2Bd|(3gag fg dGBd|eGBd BAGB|(3ABA (3GFE D2EF|
+GA (3AGF G2Bd|(3gag fg dGBd|eGBd BAGD|1 G2GB G2GD:|2 GA (3AGF G2Bc||
+|:dGBd eGBd|g2bg eGBd|cecA ~B3G|(3ABA (3GFE D2Bc|
+dGBd eGBd|g2bg eGBG|DGBd BAGD|1 GB (3AGF G2Bc:|2 G2GB G2||
+
+X:67
+T:Ben Hill
+R:hornpipe
+C:Father P.J. Kelly (1925-2006)
+Z:id:hn-hornpipe-67
+M:C|
+K:G
+(3DEF|:GFGA ~B3c|dgge dBGB|cedc BGAB|cBAG FDEF|
+GFGA ~B3c|dgge dBGB|cedc BAFG|1 AGGF G2 (3DEF:|2 AGGF GBdc||
+|:~B3d gfed|c2cB c2cB|AFAf fedc|(3BcB Ac B2 (3DEF|
+GFGA ~B3c|dgge dBGB|cedc BAFG|1 AGGF GBdc:|2 AGGF G2||
+
+X:68
+T:Spellan's Fiddle
+R:hornpipe
+Z:id:hn-hornpipe-68
+M:C|
+K:G
+Bc|dg (3fga gdBA|GFGA BGDC|B,DGF EGcB|ADFA d2Bc|
+dg (3fga gdBA|GFGA BGDC|B,DGF EGcB|ADFA G2:|
+K:D
+FG|:ABAF ABde|fgfd cdef|gbag fagf|(3efe (3dcB A2FG|
+ABAF ABde|~f3d (3Bcd ef|gf (3efg fedc|1 dfec dAFG:|2 dfec dc||
+
+X:69
+T:Callaghan's
+R:hornpipe
+Z:id:hn-hornpipe-69
+M:C|
+K:G
+ABc|:dBcA GBdB|ADFE DFAF|G2GF GBdB|~A3G Agfe|
+dBcA GBdB|ADFE DFAf|g2gf gdcA|G2GF GABc:|
+|:dg~g2 dg~g2|dgfg ed (3Bcd|eaaf gfed|(3Bcd eg gfge|
+dBcA GBdB|ADFD FAdf|g2gf gdcA|G2GF GABc:|
+
+X:70
+T:Japanese Hornpipe, The
+R:hornpipe
+H:See also #41
+D:Seamus Begley and Steve Cooney: Meitheal
+Z:id:hn-hornpipe-70
+M:C|
+K:A
+cd |: e2^de =decd | BcAB GAFG | EFGA Bcde | fe^de c2c=d |
+e2^de =decd | BcAB GAFG | EFGA Bcde |1 (3gfe (3dcB A2cd :|2 (3gfe (3dcB (3Ace a2 ||
+|: c'2e2 c'2e2 | e2b3eef | e2b3eef | e2a2a3b |
+c'2e2 c'2e2 | e2b3efg | a2g2 e2dB |1 A2G2 A4 :|2 A2G2 A3B ||
+|: c2cc cBAc | B2BA BAGA | B3B BAAB | c2A2 A3B |
+c2cc cBAc | B2BA BAGF | E2ED EDB,C |1 A,7B :|2 A,6 ||
+P:variations
+cd |: (3efe ^de =decd | (3BcB AB GAF2 | EFGA Bcde | fe^de c2c=d |
+(3efe ^de =decd | (3BcB AB GAF2 | EFGA Bcde |1 (3gfe (3dcB A2cd :|2 (3gfe (3dcB A2ab ||
+|: c'2e2 c'2ef | e2b3eef | e2b3eef | e2a3eab |
+c'2e2 c'2ef | e2b4ef | gagf (3efe (3dcB |1 AcBG A2ab :|2 AcBG A2 || 
+P:more variations
+cd |: e2^de =decd | BcAB GAFG | EFGA Bcde | fe^de c2c=d |
+e2^de =decd | BcAB GAFG | EFGA Bcde |1 (3gfe (3dcB A2cd :|2 (3gfe (3dcB A2ea ||
+|: c'2c'2 c'2ac' | e'2b4eg | b2b2 b2ac' | e'2a2 a2ea |
+c'2c'2 c'2ac' | e'2b4ef | gagf e2dB |1 A2G2 A2ea :|2 A2G2 A2 ||
+
+X:71
+T:Hills of Coor, The
+T:Hills of Coore, The
+R:hornpipe
+C:Martin "Junior" Crehan (1908-1998)
+D:Cran: The Crooked Stair
+Z:id:hn-hornpipe-71
+M:C|
+K:Ador
+AG | EAAB AGEG | cd (3ede ged2 | (3efg ab gedB | (3cBA BG AGED |
+EAAB AGEG | cd (3ede ged2 | (3efg ab gedB | DEGB A2 :|
+|: Aa | ae (3abc' ae (3abc' | gd (3gab gddg | (3efg ab gedB | (3cBA BG AGED |
+EAAB AGEG | cd (3ede ged2 | (3efg ab gedB | DEGB A2 :|
+P:variations
+|: AG | EAAB AGE2 | cd (3ede ged2 | (3efg ab gedB | (3cBA BG AGED |
+EAAB AGE2 | cd (3ede ged2 | (3efg ab gedB | DEGB A2 :|
+|: (3efg | a2ab agab | gfga gedg | (3efg ab gedB | (3cBA BG AGED |
+EAAB AGEG | cd (3ede ged2 | (3efg ab gedB | DEGB A2 :|
+
+X:72
+T:Skating While the Ice Melts
+R:hornpipe
+D:Brian Finnegan:
+Z:id:hn-hornpipe-72
+M:C|
+K:D
+(3FGA Bd BA^G2|^A2F2 e4|^d2B2 f4|^gfed cBA=G|
+FABd BA^GB|A=GFA ^d4|e2e^e fAc=e|dAGA ~F3z:|
+|:~g3e ~f3d|~e3c d2 (3cdc|B2A2 GAFG|E2F2 G2^G2|
+AFAd BA^GB|A=GFA a3a|bagf eAce|1 dAGA ~F3z:|2 d4 ^A4||
+B2B^d c2ce|^d2df e2e2|fb^ab c'b^ab|=agfe ^dcB_B|
+A2Ac B2Bd|cAce d2d2|ea^ga ba^ga|=gfed cBAG|
+FABd BA^GB|A=GFA ^d4|~e3f ~g3a|bged cBAG|
+FABd BA^GB|A=GFA a3a|bagf eAce|d4 d2 (3def||
+|:g2g2 fdfa|g2c2 d2ef|g2f2 e2d2|1c2B2 A2G2|FABd edcd|gf^ef c'b3|
+fg^ga =gece|dAGA F3z:|2 c2d2 e2^e2|f2fa g2eg|f2e2 ^dB^AB|GA^AB fBB=A|d4 ^A4||
+B2B^d c2ce|^d2df e2e2|fb^ab c'b^ab|=agfe ^dcB_B|
+A2Ac B2Bd|cAce d2d2|ea^ga ba^ga|=gfed cBAG|
+FABd BA^GB|A=GFA ^d4|~e3f ~g3a|bged cBAG|
+FABd BA^GB|A=GFA a3a|bagf eAce|d4 d4||
+
+X:73
+T:Mysterious Number One, The
+R:hornpipe
+D:Cran: The Crooked Stair
+Z:id:hn-hornpipe-73
+M:C|
+K:G
+GA|~B3G A2GE|DGGF G2 (3Bcd|edge dBAG|EAAG A2GA|
+~B3G EFGA|BA (3Bcd efge|dcBA GcBA|G2E2 E2:|
+|:zf|g2fe defg|add^c d3f|~g3f efga|b2a2 a2ga|
+bagb a2gf|edef g2fe|dcBA GcBA|G2E2 E2:|
+
+X:74
+T:Paddy Fahy's
+R:hornpipe
+C:Paddy Fahey (1916-2019)
+H:See also #108
+D:Kevin Crawford: D Flute Album
+Z:id:hn-hornpipe-74
+M:C|
+K:G
+BA |: GBDG BAGF | EcEG ced2 | (3Bcd gd (3Bcd Bd | cBAG (3fed (3cBA |
+GBDG ~B3G | EcEG ced2 | (3Bcd gd (3Bcd DF |1 AGGF ~G3z :|2 AGGF G2 ||
+|: Bc | d2gf gdBd | cdag f2ab | gd (3Bcd ecAG | FADA d3c |
+(3Bcd Bd cBcA | Bdfa gfd2 | (3Bcd gd (3Bcd DF |1 AGGF G2 :|2 AGGF G2 ||
+
+X:75
+T:Echo, The
+R:hornpipe
+D:Kevin Crawford: D Flute Album
+Z:id:hn-hornpipe-75
+M:C|
+K:D
+(3gfe|dAFA dAFA|d2ef dcBc|A2ce (3ABA ce|faef dcBA|
+dAFA dAFA|d2ef dcBA|~g3b afdf|eABc d2:|
+|:z2|dg~g2 bg~g2|dgbg agfg|A2ce (3ABA ce|faef dcBA|
+dg~g2 bg~g2|dgbg agfa|gfgb afdf|eABc d2:|
+
+X:76
+T:Madame Vanoni
+R:hornpipe
+C:James Scott Skinner (1843-1927), Scotland
+H:Originally in Bb and rather different
+D:Brian Finnegan
+Z:id:hn-hornpipe-76
+M:C|
+K:D
+(3ABc|dAeA fAgA|aabc' d'dcB|AEBE cEdE|efge agec|
+BGgB AFfA|GEeG FDdF|G2 (3BAG AecA|dfec d2:|
+|:AG|FAdA FAdA|GBdB GBdB|^GBeB GBeB|Acec acec|
+FAdA FAdA|GBdB GBdB|^GBe=g agec|dfec d2:|
+
+X:77
+T:Stage Hornpipe, The
+R:hornpipe
+D:Paddy Glackin: In Full Spate
+Z:id:hn-hornpipe-77
+M:C|
+K:G
+ef|ga (3gfe dgbd|ceac Bdgd|BG~G2 A2ag|fa (3gfe dgef|
+ga (3gfe dgbd|ceac Bdgd|agfa (3efg fa|ecAF G2:|
+|:GA|BG~G2 (3EFG DB,|G,GAB cBAE|A2AB cBcB|AF (3GFE (3DCB, (3CB,A,|
+G,GAB cBcd|edef ga (3gfe|dbca Bg~g2|ecAF G2:|
+
+X:78
+T:Atlantic Roar, The
+R:hornpipe
+D:Sean Keane: Jig It in Style
+Z:id:hn-hornpipe-78
+M:C|
+K:A
+(3EFG|A3B A2fg|afge fdBA|G2GF GFEG|Bc (3BAG AECE|
+A3B A2fg|afge fdBA|G2GF GFEG|Bc (3BAG A2:|
+|:(3Bcd|(3efe ^df e=dcd|(3efg ac' bgae|ce^df ec=dc|~B3c BEGB|
+e3f edcd|(3efg ac' bgae|(3cdc Ac (3BcB GB|A2GB A2:|
+
+X:79
+T:Golden Eagle, The
+R:hornpipe
+H:Also played in G, #93
+D:Sean Keane: Jig It in Style
+Z:id:hn-hornpipe-79
+M:C|
+K:A
+cB|ACEA cEAc|eAce ac'ba|gfec dBGB|AcBA (3GFE (3dcB|
+ACEA cEAc|eAce ac'ba|gfec dBGB|(3ABA GB A2:|
+|:(3c'c'c'|c'c^eg c'bag|f^efg aga^a|bB^df bagf|(3efe ^df e2bc'|
+d'bge ^defg|agab (3c'ba ba|gfec dBGB|(3ABA GB A2:|
+
+X:80
+T:Tommy Hill's Favourite
+R:hornpipe
+D:Sean Keane: Jig It in Style
+Z:id:hn-hornpipe-80
+M:C|
+K:D
+(3ABc|d2fd ceAF|GFGB AFD2|(3gag fg efdf|(3efe (3dcB AGFA|
+d2fd ceAF|GFGB AGFE|DdcB (3ABA (3GFE|(3DED CE D2:|
+|:gf|eBef gfga|(3bag af gfef|gafg efdf|(3efe (3dcB A2 (3ABc|
+d2fd ceAF|GFGB AGFE|DdcB (3ABA (3GFE|(3DED CE D2:|
+
+X:81
+T:Off to California
+R:hornpipe
+Z:id:hn-hornpipe-81
+M:C|
+K:A
+(3EFG|AcBc AFEF|Acea f2 (3efg|agae fecA|BcBA F2 (3EFG|
+AcBc AFEF|Acea f2 (3efg|agae fecA|BA (3GAB A2:|
+|:z2|ag (3fga gfeg|fefg fece|agae fecA|BcBA F2 (3EFG|
+AcBc AFEF|Acea f2 (3efg|agae fecA|BA (3GAB A2:|
+
+X:82
+T:Proudlock's Hornpipe
+R:hornpipe
+H:A version of "Monk's March", which first appears in Playford 1657.
+H:Sometimes erroneously attributed to James Hill,
+H:who composed a tune with a similar title, which causes the confusion.
+Z:id:hn-hornpipe-82
+M:C|
+K:G
+(3DEF|GFGB AGAB|G2gf gedc|(3Bcd BG (3ABc AF|GFGA GFED|
+GFGB AGAB|G2gf gedc|(3Bcd BG (3ABc AF|G2GF G2:|
+|:Bc|dedc BGAB|cdcB A2Bc|dedc B2g2|agfe dcBA|
+GFGB AGAB|G2gf gedc|(3Bcd BG (3ABc AF|G2GF G2:|
+
+X:83
+T:Lone Bush, The
+R:hornpipe
+C:Ed Reavy (1898-1988)
+D:The Music of Ed Reavy
+Z:id:hn-hornpipe-83
+M:C|
+K:G
+(3DEF | GABd c2dB | GABd c2Bc | dg (3fga gfdc | BGDE =FDCD |
+GABd c2dB | GA (3Bcd c2Bc | dg (3fed cADF | AGGF G2 :|
+|: (3Bcd | gd (3Bcd =fcAc | gdBd =f2 (3de^f | gb (3fga gfdf | gfga fdcA |
+GABd c2dB | GABd c2Bc | dgfd cADF | (3ABA GF G2 :|
+P:variations
+|: (3DEF | GA (3Bcd c2dB | GA (3Bcd c2Bc | dg (3fga gfdc | (3Bcd BG =FDCD |
+GABd c2dB | GA (3Bcd c2Bc | dg (3fed cADF | AGGF G2 :|
+|: (3Bcd | gd (3Bcd =fc (3ABc | gd (3Bcd =f2 (3de^f | gb (3fga gfde | (3fga ge fdcA |
+GABd c2dB | GABd c2Bc | dg (3fed cADF | AGGF G2 :|
+
+X:84
+T:Trumpet Hornpipe, The
+T:Captain Pugwash Theme
+R:hornpipe
+Z:id:hn-hornpipe-84
+M:C|
+K:G
+|:(3GGG G2 (3GGG Gd|BGBd gdBG|(3DDD D2 (3DDD DA|FDFA cAFA|
+(3GGG G2 (3GGG Gd|BGBd g2ag|fagf egfe|1 d2de dcBA:|2 d2de d2Bc||
+|:(3ddd d2 (3ddd d2|efgf edcB|cded cBAG|FGAG FDEF|
+(3GGG G2 (3BBB B2|(3ddd d2 g3b|agfe dcBA|1 G2B2 G2Bc :|2 G2B2 G4||
+
+X:85
+T:Tailor's Twist, The
+R:hornpipe
+D:Paul McGrattan: The Frost is All Over
+Z:id:hn-hornpipe-85
+M:C|
+K:D
+FE | DAFD AFdA | Bged cbag | fedc Bged | cdBc AGFE |
+DAFD AFdA | Bged ceag | fedc Bgec | d2dc d2 :|
+|: zb | ~a3f deed | bagf eAce | ~g3A (3Bcd ef | g2fg egfe |
+d2dc dAFA | Bged ceag | fedc Bgec | d2dc d2 :|
+P:variations
+|: FE | DA,FD AFdA | Bged ceag | fedc Bged | (3cdc (3BcB (3ABA (3GFE |
+DA,FD AFdA | Bged cbag | fedc Bgec | d2dc d2 :|
+|: fg | ~a3f defa | bagf eAce | gfge (3Bcd ef | (3gag (3fgf egfe |
+dfec dAFA | Bged cbag | fedc Bgec | d2dc d2 :|
+
+X:86
+T:Humours of Tullycrine, The
+T:Humours of Tullycreen, The
+R:hornpipe
+H:See also "Bobby Casey's", #34
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-hornpipe-86
+M:C|
+K:Ador
+AG|EAAB cBcd|eaag (3efe dB|c2Ac BAGA|Bdde dBAG|
+AGAB cBcd|eaag (3efe dB|c2Ac BAGB|A2AG A2:|
+|:(3Bcd|eaag aged|eaag aged|dgga g2ed|dgga gedB|
+A2AB cBcd|eaag (3efe dB|c2Ac dBGB|A2AG A2:|
+
+X:87
+T:Mickey Callaghan's Fancy
+R:hornpipe
+D:Michael Tubridy: The Eagle's Whistle
+Z:id:hn-hornpipe-87
+M:C|
+K:G
+BA|GEDE GABA|GEDE GABc|dBeB dBGB|A2AG A2BA|
+GEDE GABA|GEDE GABc|dBeB dBGB|A2G2 G2:|
+|:Bd|e2ed edBd|d2de dBGB|c2cA B2AG|EAAG A2BA|
+GEDE GABA|GEDE GABc|dBeB dBGB|A2G2 G2:|
+
+X:88
+T:Humours of Tuamgreine, The
+T:Humours of Tuamgraney, The
+T:Tuam Greaney Hornpipe
+T:Toomgraney Castle
+T:Loch Leven Castle
+R:hornpipe
+H:Cf "Bonaparte Crossing the Alps" #121
+H:Loch Leven Castle is in Scotland. Tuamgreine is in County Clare.
+D:Tom\'as & Seosamh \'O Ceannabh\'ain: \'O Aird go hAird
+Z:id:hn-hornpipe-88
+M:C|
+K:Ador
+cB|A2AB AGEG|AGAB cBcd|(3efg fa gedc|B2G2 G2cB|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2:|
+(3efg|agab ageg|agab a2ge|dega gedc|B2G2 G2 (3efg|
+agab ageg|agab a2ge|dega gedB|c2A2 A2 (3efg|
+agab ageg|agab a2ge|dega gedc|B2G2 G2cB|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2||
+
+X:89
+T:Elks' Festival, The
+R:hornpipe
+H:Similar to the last two parts of "The Derry Hornpipe", #24
+D:Declan Masterson: End of the Harvest
+Z:id:hn-hornpipe-89
+M:C|
+K:D
+|:FG|AFAd fedc|BGBd gfed|cAce af (3gfe|fcdB AGFG|
+AFAd fedc|BGBd g2ag|fafd Bgec|dfec d2:|
+|:fg|a2fd Adfd|g2ec Agag|fdge afbg|ecdB A2fg|
+a2fd Adfd|g2ec Agag|fdAF Egec|d2dc d2:|
+
+X:90
+T:Showman's Fancy, The
+R:hornpipe
+D:James Morrison (1936)
+D:Humdingers: Live in Oslo
+Z:id:hn-hornpipe-90
+M:C|
+K:D
+FG | AGAB Adfd | B2gf edcB | AGAB AFDF | ~E3D E2FG |
+AGAB Adfd | B2gf edcB | Adfa gecd | eddc d2 :|
+|: cd | edef gece | dcde fdA2 | (3gag (3fgf (3efe (3ded | (3cdc (3BcB A2 FG |
+AGAB Adfd | B2gf edcB | Adfa gecd | eddc d2 :|
+P:version with accidentals
+|: (3FG^G | A^GAB Adfd | Bdgf edcB | A^GAB AFDF | E^DEF E2 (3FG^G |
+A^GAB Adfd | Bdgf edcB | Adfa gece | d2dc d2 :|
+|: (3cd^d | e^def gece | dcde fdAf | (3gag (3fgf (3efe (3ded | (3cdc (3BcB A2 (3FG^G |
+A^GAB Adfd | Bdgf edcB | Adfd gece | d2dc d2 :| 
+
+X:91
+T:Johnston's Hornpipe
+R:hornpipe
+H:Three-part version. See #146 for four-part version.
+H:Third part cf. "Freddie Kimmel's" #158
+D:De Dannan: Anthem
+D:Bobby Gardiner: His Master's Choice
+Z:id:hn-hornpipe-91
+M:C|
+K:D
+dB|:A2dA ^GABG|A2dA ^GABG|ABcB AGFG|AGFG EFG^G|
+A2dA ^GABG|A2dA ^GABG|ABcB AGFG|1 ~E3F DEFG:|2 ~E3F D2dc||
+Bcde fdBf|gfeg fdBd|(3ccc F2 (3ccc F2|cF^Ac fedc|
+Bcde fdBf|gfeg fdBd|cF~F2 cF^Ac|1 fedc B2dc:|2 fedc Bfag||
+f2de f2de|fdad bdad|(3cBA eA fAed|cdef bage|
+f2de f2de|fdad bdad|cdef bage|1 d2f2 d2ag:|2 d2f2 d2||
+
+X:92
+T:New Century, The
+R:hornpipe
+Z:id:hn-hornpipe-92
+M:C|
+K:Gmix
+Bc|:dBG^F GBdB|cA=FE FAcA|BAG^F GA (3Bcd|gb (3ag^f g2ge|
+dedB G2AB|c=fcA F2Ac|BGgd ecd^F|1 AGG^F G2Bc:|2 AGG^F G2GA||
+|:Bcde =fdcA|dDE^F GFGA|Bcde =fdge|a^fd^c d2 (3def|
+gdBG ecA^F|G^FGB AG (3EFG|^FDFA ced^F|1 AGG^F G2GA:|2 AGG^F G2||
+
+X:93
+T:Golden Eagle, The
+R:hornpipe
+H:Also played in A, #79
+Z:id:hn-hornpipe-93
+M:C|
+K:G
+BA|GB,DG BDGB|dGBd gbag|fedB cAFA|GBAG (3FED (3cBA|
+GB,DG BDGB|dGBd gbag|fedB cAFA|(3GAG FA G2:|
+|:(3bbb|bB^df bagf|e^def gfg^g|aA^ce agfe|ed^ce d2ab|
+c'afd ^cdef|gfga bgag|fedB cAFA|(3GAG FA G2:|
+
+X:94
+T:Old Court, The
+R:hornpipe
+C:Jackie Daly
+Z:id:hn-hornpipe-94
+M:C|
+K:Em
+EF|G2GA BcBG|ABAF D2EF|GFEG FEDF|EDCD B,2EF|
+G2GA BcBG|ABAF D2EF|GFEB AGFG|E2ED E2:|
+|:EF|G2GA BAB^c|dedB A2GA|BA (3B^cd edBA|B2e2 e2ed|
+^cBcd edBG|ABAF D2EF|GFEB AGFG|E2ED E2:|
+
+X:95
+T:From Galway to Dublin Town
+T:Napoleon Crossing the Rhine
+R:hornpipe
+S:Jonas Lindholm
+H:See also #25
+D:Dan Sullivan's Shamrock Band
+Z:id:hn-hornpipe-95
+M:C|
+K:Edor
+B,D | E2EG EDB,D | GFGB A2GA | Bdgf edBA | GE~E2 D2B,D |
+E2EG EDB,D | GFGB A2GA | Bdgf edBA | GEED E2 :|
+|: (3Bcd | efed B2BA | GFGB d2 (3Bcd | efed BdBA | GE~E2 D2B,D |
+E2EG EDB,D | GFGB A2GA | Bdgf edBA | GEED E2 :|
+P:variations
+|: ED | B,EEF EDB,D | EFGB A2GA | Beef edBA | GE~E2 D2ED |
+B,EEF EDB,D | EFGB A2GA | Beef edBA | GEED E2 :|
+|: (3Bcd | e2ed B2BA | GFGB d2 (3Bcd | e2ed B2BA | GE~E2 D2ED |
+B,EEF EDB,D | EFGB A2GA | Beef edBA | GEED E2 :|
+W:Napoleon had an army of a hundred thousand men,
+W:He marched them up the hill of Down, he marched them down again.
+W:When they were up, when they were up, on that I'll bet a crown,
+W:Napoleon marched them up the hill, who was it marched them down?
+
+X:96
+T:Galway Bay
+T:Democratic Hornpipe, The
+R:hornpipe
+S:Jonas Lindholm
+H:Also played in Edor
+Z:id:hn-hornpipe-96
+M:C|
+K:Gdor
+GA|BABc dcdf|gfdf gabg|fdbg fdcd|BGGA GFDF|
+~G3A BABG|FEFG AGFD|GABc dcAc|(3BcB G2 G2:|
+|:za|gfdf gabg|gfd_e dBGA|BABc dcd=e|fcdB AGFA|
+(3BcB dB AFcA|BFdB AF_ec|dfga bagf|d2 (3ggg g2:|
+
+X:97
+T:Bantry Bay
+T:Little Stack of Wheat, The
+T:Union Hornpipe, The
+R:hornpipe
+H:Also played in G, #13
+Z:id:hn-hornpipe-97
+M:C|
+K:A
+AB|:cABA FAEF|A2AG AcBA|FABc dcBA|FBBA B2Bc|
+dfdB cecA|BcBA FAEA|cABA FAEF|1 A2AG A2AB:|2 A2AG ABcd||
+|:e2fe ecAB|c2f2 f3g|agfe cAce|fagb a2fg|
+abag fgfe|cfec BcAB|cABA FAEF|1 A2AG ABcd:|2 A2AG A2||
+
+X:98
+T:Stack of Barley, The
+R:hornpipe
+H:Also played in G, see #14
+Z:id:hn-hornpipe-98
+M:C|
+K:A
+ag|fgfe c2ec|BAFA BdcB|AGAB cAce|faec B2ce|
+fafe c2ec|BAFA BdcB|AGAB ceBd|c2A2 A2:|
+|:AB|cAce a2ga|baga fece|a2ga fece|faec B2AB|
+cefg a2gf|ecBA BdcB|AGAB ceBd|c2A2 A2:|
+
+X:99
+T:40th Birthday Hornpipe
+R:hornpipe
+C:Fredrik Jakobsson, Sweden
+Z:id:hn-hornpipe-99
+M:C|
+K:Gmix
+BA|GEDE G2GB|AFAc BG~G2|Acfe dGBd|(3cBA BG AcBA|
+GEDE G2GB|AFAc BG~G2|Acfe dGBd|G2GF G2:|
+|:Bc|dgdB cfcA|BcAB GABG|AD~D2 c2Bc|dedB c2Bc|
+dgdB cfcA|BcAB GABG|AD~D2 c2BA|G2GF G2:|
+
+X:100
+T:Her Golden Hair Hanging Down Her Back
+T:Her Lovely Hair Flowed Down Her Back
+R:hornpipe
+C:Martin "Junior" Crehan (1908-1998)
+H:Also played in Bdor, #114
+Z:id:hn-hornpipe-100
+M:C|
+K:Ador
+cd|edce d2cA|GE~E2 G2cd|edce d2cd|eaag a2g=f|
+edce d2cA|GE~E2 GAcd|edcA dcAG|A2AG AB:|
+|:cd|egg^f gede|cAAB c3d|eaag a2g=f|edce d2cd|
+egg^f gede|cAAB cBcd|edcA dcAG|A2AG AB:|
+
