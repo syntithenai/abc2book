@@ -1,0 +1,23 @@
+X: 4621
+T: Bourrées
+R: slide
+M: 12/8
+K: Gmajor
+"^A" DEF|:G3 B3 A3 G2 A|B2 G A2 B c3- c3|B3 A3 d3 DEF|
+G3 B3 A3 G2 A|B2 G A2 B c2 B A2 G|1 FED G3- G3 DEF:|2 FED G3- G3 F3||
+[M:9/8]
+|:E2 F G2 A GFE|A3 G2 A G2 F|E2 F G3 A3|
+E2 F G2 A GFE|A3 G2 A G2 F|1 EFG AB^c d3:|2 G3 z3 DEF||
+G3 C3 B,3|:"^B" A,3 A,2 C B,2 A,|E3- E2 E E2 F|G2 F E2 A G2 F|G2 F E2 D B,2 C|
+A,3 A,2 C B,2 A,|E3- E2 E E2 F|G2 F E2 A G2 F|1 E3 E2 D B,2 C:|2 E3 A3 B3||
+|:c3 EEE c2 E|{E} =F3 F2 G A2 B|c2 A d2 c B2 A|^G3 A3 B3|
+c3 EEE c2 E|{E} =F3 F2 G A2 B|cBA d2 c B2 ^G|1 A3 A3 B3:|2 A3 z2 A E3||
+|:"^C" A2 ^G A2 B c2 d|e3 e2 e g2 e|f2 g a3 g3|f2 g e2 d B2 c|
+A2 ^G A2 B c2 d|e3 e2 e g2 e|f2 g a2 b a2 e|1 a3 a2 e c2 B:|2 a3 z3 e3||
+|:a2 e =f2 e d3|d2 e =f2 e d2 A|cdc A3 A3|^G3 E3 e3|
+a2 e =f2 e d3|d2 e =f2 e d2 A|c2 d B2 c ^G2 B|1 A3 z2 e e3:|2 [M:6/8] A3 z3||
+|:"^D" A3 A2 G|F3 G3|A6|B3 A2 G|F3 E3|F3 D3|
+A3 A2 G|F3 G3|A6|B3 A2 G|F3 E3|D6:|
+|:E3 F3-|F3 G3|E6|A3 A2 G|F3 E3|F3 D3|
+E3 F3-|F3 G3|E6|A3 A2 G|F3 E3|D6:|
+

@@ -1,0 +1,23 @@
+X: 1
+T: O For I For
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: G^F=F | 
+ECE GcB | AFA d2 c | BGB dgf | ecA G^F=F |
+ECE G2 c | AF/G/A d2 c |1 BGB e2 d | c3 :|2 BAG fed | c3 ||
+|: e2 f | 
+gc'g efg | faf A>dc | BdB GAB | cBA G>ef |
+gc'g e2 g | f/g/af A2 c |1 BAG fed | c3 :|2 BGB e2 d | c3 ||
+S:https://www.folktunefinder.com/tunes/179637
+S:http://www.thesession.org/tunes/display/6979
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

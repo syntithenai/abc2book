@@ -1,0 +1,27 @@
+X: 29
+T: The Trip to Durrow
+M: C|
+L: 1/8
+%Q: 230
+R: Reel
+K: D
+%%slurgraces 1
+|: D2 FD ADFA | defd ~B3 c | dB{d}BA dB{d}BA | FADE FEEF |
+|  D2 FD ADFA | defd ~B3 c | dB{d}BA FAdB | AFEG FDD2 :|
+|: {e}dcde {a}fefg | afdf gfed | (3Bcd ef {a}gebe | {a}gebe {a}gfef |
+|  {e}dcde {a}fefg | afdf gfed | (3Bcd ef gbag |1 fgec ~d3 A :|2 fdec ~d3e ||
+|: fdec {e}dcde | fded ~B3 c | dB{d}BA dB{d}BA | FADE FEEe |
+|  fdec {e}dcde | fded ~B3 c | dB{d}BA FAdB | AFEG FDD2 |
+|  fdec {e}dcde | fded ~B3 c | dB{d}BA dB{d}BA | FADE FEEF |
+|  D2 FD ADFA | defd ~B3 c | dB{d}BA FAdB | AFEG FDD2 :|
+S:https://www.folktunefinder.com/tunes/6410
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

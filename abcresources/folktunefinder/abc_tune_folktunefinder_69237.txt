@@ -1,0 +1,27 @@
+X:378
+T: "Die Koenigstochter"
+N: Z1058
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Tod
+M: 2/4
+L: 1/16
+K: A
+E2 | A2=c2B2cB | A4A2
+B2 | =c2c2dcd2 | e4z2
+e2 | edd2e2d2 | =c4c2
+c2 | d=cd2edc2 | B4
+B2e2 | d2=c2B2A2 | G6
+E2 | A2ed=c2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/69237
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

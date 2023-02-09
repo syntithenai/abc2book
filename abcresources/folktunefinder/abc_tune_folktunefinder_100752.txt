@@ -1,0 +1,21 @@
+X: 25
+T:Walsh's
+R:Hornpipe
+M:4/4
+L:1/8
+K:A
+e2|"A"(3ABc EF Ace2|"D"(3def Bc def2|"A"fece aecA|"E7"(3Bcd cA "F#m"BAF2|
+"A"(3ABc EF Ace2|"D"(3def Bc def2|"A"fece aecA|[1  "E7"(3Bcd "A"cB A2:|[2 "E7"(3Bcd "A"cB A2g2||
+"A"aece fece|aece "E7"fecB|"A"ABce fecA|"E7"(3Bcd cA "F#m"BAF2|
+"A"(3ABc EF Ace2|"D"(3def Bc def2|"A"fece aecA|[1  "E7"(3Bcd cB "A"A2g2:|[2 "E7"(3Bcd "A"cB A2|]
+S:https://www.folktunefinder.com/tunes/100752
+S:http://www.alfwarnock.info/alfs/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

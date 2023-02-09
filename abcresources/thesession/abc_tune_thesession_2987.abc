@@ -1,0 +1,22 @@
+X: 2986
+T: Bath Carnival
+R: jig
+M: 6/8
+K: Gmajor
+V:1
+"G"B2c dcB|"C"efg efg|edc "G"BAG|"D"FAG FED|
+V:2
+G2 A BAG|c2 e g2 e|d2 f g2 e|d2 A c2 d|
+V:1
+"G"B2c dcB|"C"efg "G"efg|"C"edc "D7"BcA|"G"G3 G3:|
+V:2
+G2 A BAG|c3 B3|cde d2 f|gdB G3:|
+V:1
+|:"D"A.D.D "G"B.D.D|"D"cDD "G"BDD|"D"ADD "G"BDD|"D"A2 D LDDD|
+V:2
+|:f.d.d g.d.d|"segue" add gdd|fdd gdd|f2 d Lddd|
+V:1
+ADD "G"BDD|"D"cDD "G"BDD|"D7"AcB AGF|"G"G6:|
+V:2
+fdd gdd|add gdd|c2 A d2 d|gdB G3:|
+

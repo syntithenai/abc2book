@@ -1,0 +1,31 @@
+X:149
+T:Naftule shpil es nokh amol
+O:klezmer
+C:Naftule Brandwine (1925)
+M:4/4
+L:1/8
+Q:1/4=118
+K:C
+V:1
+"C" g zg2 "G" f/e/f/d/ "C" ec |e/f/g gg "G" f/e/f/d/ "C" ec |e/f/g gg "F" a4 |1 "C" ge/g/ "G" fd "C" c/d/e/f/ g/a/b/c'/ :|2
+"C" ge/g/ "G" fd "C" c3  (3c/d/e/ || |:
+K:F
+"F" f/e/f/g/ a2 "C" gg "F" f2 |fg a2 "C" g{(a/}g) "F" f2 |fg ab c'/b/c'/a/ "Bb" b/a/b/g/ |1 "F" a/^g/a/f/ "C" g/^f/g/e/ "F" f3  (3c/d/e/ :|2
+"F" a/^g/a/f/ "C" g/^f/g/e/ "F" f3  (3e/f/^f/ || |:
+K:C
+"C" gz g2 "G" f/e/f/d/ "C" ec |e/f/g gg "G" f/e/f/d/ "C" ec |finee/f/g gg "F" a4 |1 "C" ge/g/ "G" fd "C" c/d/e/f/ g/a/b/c'/ :|2
+"C" ge/g/ "G" fd "C" c3 z||  |:"F" b/(c'3/2 c'6) |c'2 c'2 c'c' c'c' |c'a _b_b a4 |
+af g{(a} g)f4 |fc d{(e} d)c4 |1 "C" cd ef ga {c'}_b/a/ g:|2 "C" z c/d/e fg a_b/a/ g/(f/|
+"F" f6) z2 ||
+"C" e/f/g gg "F" a3 a|"C7" g ga b"F" c' gc'2 |]
+S:https://www.folktunefinder.com/tunes/84026
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

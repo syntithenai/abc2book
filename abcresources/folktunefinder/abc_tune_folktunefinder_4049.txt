@@ -1,0 +1,25 @@
+X: 2
+P: Camptown Jig ("Rein")
+R: jig
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+d \
+|| "G"d2d B2d | e2d B3 | "D7"BA2- A3 | BA2- A2d \
+|  "G"d2d B2d | e2d B3 | "D7"A2c B2A | "G"G3- G2 ||
+|: "G"G2G B2d | g3- "G7"g3 | "C"e2e g2e | "D7"d3- dBc \
+|  "G"d2d B2d | e2d B3 | "D7"A2c B2A | "G"G3- G2 :|
+S:https://www.folktunefinder.com/tunes/4049
+S:http://trillian.mit.edu/~jc/music/abc/England/RapperGB1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RapperGB1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/RapperGB1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

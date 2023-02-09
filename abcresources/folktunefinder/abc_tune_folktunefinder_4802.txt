@@ -1,0 +1,23 @@
+X: 2
+P: S\"usserl (Bb)
+R: zwiefacher
+O: Bavaria
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/44
+L: 1/8
+K: Bb
+|: "Bb"[dB][fd] [fd][ec] | [d2B2] z2 | [dB][fd] [fd][dB] [ge][fd] \
+| "F7"~[f2d2] [ec][dB] | [c2A2] z2 |
+| "Eb"[ge][ge] [ge][bg] [af][ge] | "Bb"~[g2e2] [fd][ec] | [d2B2] z1 \
+| "F7"[fA][fA] [f2A2] [e2c2] | "Bb"[d2B2] z2 z2 :|
+|: "F7"[cA][ec] [ec][dB] | [c2A2] z2 | [cA][ec] [ec][cA] [fd][ec] \
+| "Bb"[dB][fd] [fd][ec] | [d2B2] z2 :|
+S:https://www.folktunefinder.com/tunes/4802
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Suesserl.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

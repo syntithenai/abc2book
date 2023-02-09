@@ -1,0 +1,32 @@
+X:1545
+T:Durham Rangers
+A:Northumberland
+M:4/4
+O:England
+O:Scotland
+R:Reel
+R:Hornpipe
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000080b.html
+%%ID:0000080b
+K:D
+FG|\
+ABAF A2de|fgfe d3A|BcdB ABAF|G2E2 E2FG|\
+ABAF A2de|fgef d2dA|
+BcdB ABAG|F2D2 D2::\
+ag|\
+fefg afdf|edcB Adfa|
+g2bg f2af|g2e2 e2FG|\
+ABAF A2de|fgef d2A2|BcdB ABAG F2D2 D2:|
+S:https://www.folktunefinder.com/tunes/36388
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hornpipe
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

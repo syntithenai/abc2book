@@ -1,0 +1,40 @@
+X: 1
+T:Constant Billy
+M:4/4
+C:
+S:Bacon (CJS (MSS) from Daniel Lock)
+N:triplets in this tune are impossible for both abc2mtex v1.3 and playabc
+N:.1
+A:Field Town (Minster Lovell)
+O:English
+R:Reel
+%:abc2mtex:no
+%:
+%P:A/2.(AB)$^4$
+P:A(AB)4
+K:G
+I:speed 400
+L:1/8
+P:A
+|: D2 | (3:2:2G4d2 BA B2 | cBAG       FE D2 | BA G2 DE F2 | DE F2 G2
+     :|\
+P:B
+   z2 | Bc  d2     ec A2 | (3:2:2B4c2 dB G2 | Bc d2 ed c2 | AB c2 (3:2:2
+d4D2 |\
+        (3:2:2G4d2 BA B2 | cBAG       FE D2 | BA G2 DE F2 | DE F2 G2
+     ||
+% abc2midi cannot handle the shorthand (3::2 and needs the full (3:2:2
+S:https://www.folktunefinder.com/tunes/149507
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Constant_Billy_6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 7657
+T:Polska fr Bj\"orkedet
+R:Polska
+O:Sweden
+A:J\"amtland
+M:3/4
+C:e. Kristian Oscarsson
+K:D
+e>f d2 f2|e>d c2 d2|\
+a2 (3^gab a>f | (3efe (3ded c>d |1
+(3edc d2 e2 :|2 (3edc d4 :: \
+e>c A>c e>e | e<g g/a/g/f/ f>d| f>e e>c e>f |1
+ (3gag (3fed e>c |c<A A4 \
+:|2 (3gag (3fed (3cBc | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/34874
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

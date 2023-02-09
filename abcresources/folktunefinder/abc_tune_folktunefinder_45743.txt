@@ -1,0 +1,42 @@
+X:5
+T:Starod\'avn\'y - Mam\venka
+O:Tjechie
+M:3/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" DD F2 ED |A4 G2 |F2 E2 DE |A,6||
+"Dm" DD A2 A2 |AG F2 FG |AA "G" G2 "A7" AG |"Dm" D2 D2 "C7" E2 |
+"F" FE/D/ C2 F2 |"C" GB "F" A3 G|"G" B AG2 F2 |"A7" E2 "Dm" D4 |
+"F" FE/D/ C2 F2 |"C" GB "F" A3 G|"G" B AG2 F2 |"A7" E2 "Dm" D4|
+|:"Dm" FE D2 "C" C2 |"F" FF/E/ FG AA |"Dm" FE D2 "C" C2 |"F" FF/E/ FG AA |
+"Dm" FG A2 AG |A/G/F "Gm" G3 E|"Dm" D E"G7" F2 "A7" G2 |"Dm" FE D4 |
+FG A2 AG |A/G/F "Gm" G3 E|"Dm" D E"G7" F2 "A7" G2 |"Dm" FE D4 :|
+V:2          %2e stem
+fe d2 ed |f4 e2 |d2 ^c2 d2 |e6 ||
+d2 d2 d2 |fe d2 de |ff e2 fe |f2 f2 e2 |
+c2 c2 d2 |e2 f4 |gf e2 d2 |^c2 d4 |
+c2 c2 d2 |e2 f4 |gf e2 d2 |^c2 d4  |
+|:AG F2 E2 |A2 G2 F2 |AG F2 E2 |A2 G2 F2 |
+DE F2 FE |D3 CB,2 |A,2 B,2 ^C2 |DE F4 |
+de f2 fe |d3 cB2 |A2 B2 ^c2 |d2 d4 :|
+V:3          %3e stem
+d df2 ed |a4 g2 |f2 e2 d2 |^c6 ||
+dd a2 a2 |ag f2 fg |aa g2 ag |d2 d2 e2 |
+fe/d/ c2 f2 |gb a3 g|b ag2 f2 |e2 d4 |
+fe/d/ c2 f2 |gb a3 g|b ag2 f2 |e2 d4 |
+|:fe d2 c2 |ff/e/ fg aa |fe d2 c2 |ff/e/ fg aa |
+fg a2 ag |a/g/f g3 e|d ef2 g2 |fe d4 |
+fg a2 ag |a/g/f g3 e|d ef2 g2 |fe d4 :|
+S:https://www.folktunefinder.com/tunes/45743
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/tjechie.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/tjechie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

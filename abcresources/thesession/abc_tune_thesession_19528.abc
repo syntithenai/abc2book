@@ -1,0 +1,42 @@
+X: 19527
+T: James And The Giant Peach
+R: jig
+M: 6/8
+K: Aminor
+P: version 1
+|:AcG EcA|BGG dBG|AcG EcA|BGG Bcd|
+efe edc|BGG dBG|Ecc BAG|EFG A3:|
+|:age aba|ge^f ged|cAg age|dcA ~G3|
+ABA ~B3|cBc efg|age dBG|1 ABA A3:|2 ABA A2||
+P: version 2
+|:G|Ac/B/A EcA|BGB dBG|AcA EcA|BGE DB/c/d|
+ege edc|BGG dGG|Ecc BAG|EFG A2:|
+|:g|age aba|gef ged|cAg cAe|
+[1 dcA ~G2 g|age aba|gef g2 d|Bgg BAG|EE/F/G A2:|
+[2 dcA ~G2 e|cBA ~B3|cBc egb|age dBG|EE/F/G A2||
+P: version 3
+|:G|Ac/B/A EcA|BGB dBG|AcA EcA|BGE DB/c/d|
+ege edc|BGG dGG|Ecc BAG|EFG A2:|
+|:g|age aba|gef ged|cAG cAe|
+[1 dcA ~G2 g|age aba|gef g2 d|Bgg BAG|EE/F/G A2:|
+[2 dcA ~G2 e|cBA ~B3|cA/B/c egb|age dBG|EE/F/G A2||
+P: version 4
+|:G|AcA E2 c|BGB dBG|AcA E2 c|BGE DBG|
+AcA E2 c|BGB deg|age dBG|EAA A2:|
+|:a|age aba|gef ged|cAG E2 c|
+[1 BGB deg|age aba|gef ~g3|age dBG|EAA A2:|
+[2 BGE DBG|AcA E2 c|BGB deg|age dBG|EAA A2||
+P: version 5
+|:G|AcA E2 c|BGB dBG|AcA E2 c|BGE DBG|
+AcA E2 c|BGB deg|age dBG|EAA A2:|
+|:a|age aba|gef ged|cAG E2 c|BGB deg|
+age aba|gef ~g3|age dBG|EAA A2:|
+|:D|EAA DAA|EAD EAc|dDc BAG|AGE DFG|
+EAA DAA|EAD EAc|dgd BAG|EAA A2:|
+P: version 6
+|:^G|AcA E2 c|B^GB dBG|AcA E2 F|GDG B2 ^G|
+AcA E2 c|B^GB dB=g|a^ga =gec|EFG A2:|
+|:a|age aba|ge=f g2 d|cAG E2 c|
+[1 BGE D2 a|age aba|ge=f g2 B|A^GA =gec|EFG A2:|
+[2 BGE D^GB|AcA E2 e|dBg dgb|c'ba gec|EFG A2||
+

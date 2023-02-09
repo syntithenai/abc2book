@@ -1,0 +1,23 @@
+X:1
+T:Simple Times
+C:copyright 1998 Kaubells
+E:14                   % note spacing
+M:C
+K:C
+\bigskip
+ef|:"C"gage c2Bc|"G"dedB G2ef|"C"g2c'2c'2bc'|"G7"d'c'ba g2ef|
+"C"gage c2Bc|"G"dedB G2ef|"C"gage "G7"fdgB|1"...C"c4 z2ef:|2"...C"c4 z2Bc||
+K:G
+|:"G"d2g2g2Bc|"D7"d2a2a2Bc|"G"d2b2b2ab|"D7"c'2d2d2Bc|
+"G"d2g2g2Bc|"D7"d2a2a2ga|"G"bagb "D7"agfa|1"...G"g4 z2Bc:|2"...G"g4 "G7"z2ef||
+T:last time
+"G"d2g2g2Bc|"D7"d2a2a2ga|"G"bagb "D7"agfa|1"...G"g2G2 "{\it forte}"[B4g4]|]
+S:https://www.folktunefinder.com/tunes/171542
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/simple.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

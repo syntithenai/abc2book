@@ -1,0 +1,16 @@
+X: 11756
+T: Elevator, The
+R: jig
+M: 6/8
+K: Bminor
+[M:9/8]
+"PartA"B2d dcd fdd|Add dcd fdd|G2d dcd fdd|gef dag fed|
+B2d dcd fdd|A2d dcd fdd|G2d dcd fdd|gfe dcB AG[fA]||
+[M:6/8]
+|:"PartB" B2f fef|gfe fde|faf dBA|GBB Acc|
+BBB fef|gfe fdc|ddd dcB|GBd cBA:|
+"PartC" GBd cea|fAA eAA|d2f fef|gfe fdB|
+GBd cea|fAA eAA|f/g/af dBA|GBd cBA|
+GBd cea|fAe eAA|d2f fef|gfe fdB|
+G3 cea|fAA eAA|f/g/af dBA|GBd cBA||
+

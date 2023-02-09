@@ -1,0 +1,24 @@
+X: 22
+T:Harper's Frolick
+% Nottingham Music Database
+S:Mick Peat
+M:2/4
+L:1/4
+K:D
+A/2|:"D"A/2F/2 D/2A/2|"D"F/2A/2 D/2d/2|"A"c/2d/2 e/2c/2|"D"d/4c/4d/4e/4 d/2A/2|\
+"D"F/2A/2 D/2A/2|"D"F/2A/2 D/2d/2|"A"c/2d/2 e/2d/4c/4|\
+[1 "D"d3/2 A/2:|[2 d3/2 g/2|
+"D"f/2de/4f/4|"Em"g/2 "A"eg/2|\
+"D"f/2 "Bm"df/2|"E"e/4d/4c/4B/4 "A"A3/4g/4\
+|"D"f/2de/4f/4|"Em"g/2"A"eg/2|"D"f/2d/2 "A"e/2d/4c/4|"D"d3/2|
+S:https://www.folktunefinder.com/tunes/114279
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

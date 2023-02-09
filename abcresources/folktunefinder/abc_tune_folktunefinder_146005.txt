@@ -1,0 +1,47 @@
+X:2 
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+T:XII Fantasie: Il Grillo
+C: Thomas Morley
+O: The First Book of Canzonets to Two voyces
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/8
+K:C
+T:Tenor
+N: Original clef, C on third line.
+K:C -8va
+L:1/8
+%line 1
+z8 z8 c8 F2 G2 A2 F2 c B c d e f g2 ^f2 g4 ^f2 g2 G2 c2 B2 A2 G2 c2 d2 e4 A2 B2 \
+%line 2
+c B A G F E D2 A4 _B4 "A"A4 z2 a2 ^f2 f2 g3 f e2 c2 f2 g2 d4 G4 z2 c2 A2 A2 _B3 A G A B G \
+%line 3
+A B c4 B2 "B"c4 z2 g2 f3 d e3 c d2 c A B c d B A2 a2 g e ^f g a2 g4 ^f2 "C"g2 G3 G c3 c \
+%line 4
+A3 A d3 c B A G2 G2 c2 B G A2 G c f2 e c 
+d2 c A B2 c2 d3 c B2 A2 G2 A2 B2 c2 d2 e2 d4 \
+%line 5
+G2 c2 B2 A2 G2 f2 e2 d2 c2 G2 _B2 c2 G4 "D"c4 z2 c3 c d3 d e3 c f3 d g3 f e g ^f e ^f2 \
+%line 6
+g2 g3 g f3 f e3 e d3 c A B c d e f g2 f2 e4 d2 d3 d B3 B G3 G c3 c A3 A d3 c \
+%line 7
+ d e f2 e2 "(1)"d e f d e2 ^f2 g2 f d e f g e d3 c A B c d e f g4 ^f2 \
+N: (1) original has d quarter note
+%line 8
+g2 G3 G c3 c A3 A d3 c B A G2 G2 
+c2 B G A2 G c f2 e c d2 c A B2 c2 d3 c B2 A2 \
+%line 9
+G2 A2 B2 c2 d2 e2 d4 G2 c2 F3 G A B c A B2 c4 B2 Hc8 |]
+S:https://www.folktunefinder.com/tunes/146005
+S:http://www.laymusic.org/music/morley/grillo/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

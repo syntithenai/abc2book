@@ -1,0 +1,30 @@
+X: 100
+T: Winder Slide
+C: Joe LaRose (ca.1980)
+N: Also attributed to Rayna Gellert, who recorded it.
+D: "Ways of the World" Yodel 023
+R: reel
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: http://www.mne.psu.edu/lamancusa/tunes/winderslide.pdf
+M: C|
+L: 1/8
+K: D
+de \
+| "D"f2fe f3e | f2 a4 de | fdec dc3 | "G"d3D d3B- \
+|    BdB2 A3D | "A"F2 E4 FD | DB,B,3 A,B,3 | "D"D3E D2 :|
+AB- \
+| BdB2 A3D | "A"F2 E4 FE | "D"DDFF DF3 | A3B A2AB- \
+| BdB2 A3D | "A"F2 E4 FE | DB,B,3 A,B,3 | "D"D2ef- fd"A"e2 | "D"d3D d4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7703
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

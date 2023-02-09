@@ -1,0 +1,26 @@
+X:6254
+T: Staines Morris
+O:england
+M:4/4
+L:1/8
+Q:160
+S:Playford
+A:English
+K:Gm
+d2 g2 =e2 ^f2|g2 f=e d3 e|fgf_e d2 cB|AGAB G4::Bcd=e d2 cB|AGAB G4|Bcd=e
+d2 cB|AGAB G4::\
+B2 B2 F2 F2|GABc d3 =e|fgf=e d2 cB|AGAB G4|B2 B2 F2 F2|GABc d3 =e|fgf=e
+d2 cB|AGAB G4:|
+S:https://www.folktunefinder.com/tunes/26706
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

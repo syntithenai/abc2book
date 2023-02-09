@@ -1,0 +1,26 @@
+X: 1
+T: Jig Of Port Fleadh, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+{A}B2G AGE|DB,D G (3Bcd|gz d edB|edB AGA|
+B2G AGE|D (3B,CD G (3Bcd|gz d edB|cAF G2A|
+{Bc}B2G AGE|DB,D GBd|gz d edB|edB {AB}AGA|
+B2G AGE|DB,D GBd|gz d edB|cAF GBd|
+gz e {g}fed|edB GBd|gag (3fga f|gfe def|
+g2e fed|edB G (3Bcd|gdB ecA|DEF G2d|
+gz e fed|edB GBd|gz g (3fga f|gfe def|
+{ga}g2e fed|edB GBd|gdB ecA|DEF G2A|
+S:https://www.folktunefinder.com/tunes/167769
+S:http://www.thesession.org/tunes/display/5960
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

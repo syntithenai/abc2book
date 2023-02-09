@@ -1,0 +1,23 @@
+X: 1
+T:the Dublin reel
+R:Reel
+O:Ireland
+M:4/4
+K:D
+dF F/F/F dF eF|dF F/F/F AF EF|\
+dF F/F/F df ed|cA BF AF EF::
+eA A/A/A eA fA|eA A/A/A BA FA|\
+eA A/A/A eg fe|dc dA BA FA::
+d2 ce dA FA|dc dA FD FA \
+|1 d2 dc df ed|cd Bc AF EF\
+:|2 d2 df e2 eg|fd Bc d4|]
+S:https://www.folktunefinder.com/tunes/154806
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dublin_reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dublin_reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

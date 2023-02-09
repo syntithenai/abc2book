@@ -1,0 +1,63 @@
+X:10621
+T:Det var je og det var du
+T:Br\aakar-Mari
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Vals
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/brakar-mari-dm/brakar-mari-dm-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:3/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+A^c|[A2d2]d^c de|f3e df|e2A2^c2|d4:|
+V:2
+z2|[D,6D6]|[D,6D6A6]|A2z2z2|[D,4D4A4]:|
+%
+V:1
+a2|a2f2f2|f2g2a2|a2e2e2|e2a2ab|
+V:2
+z2|[D,6D6A6]|[D,6D6A6]|A6-|A6|
+V:1
+a2ag fe|[A3d3]^c df|e2A2^c2|d4|]
+V:2
+[D,6D6A6]|[D,6D6]|A2z2z2|[D,4D4A4]|]
+W:
+W:Det var je og det var du,
+W:det var a' Br\aakarMari,
+W:som tok bort den biten,
+W:s\aa frakken vart for liten.
+W:Det var je og det var du,
+W:det var a' Br\aakarMari.
+W:
+W:Var det du hell var det deg
+W:som b\otte tr\oya for meg
+W:Var det du som braut av n\aala,
+W:sleit ut tr\aaen, drakk av sk\aala
+W:Var det du hell var det deg
+W:som b\otte tr\oya for meg
+W:
+W:Var det du hell var det deg
+W:som slo i kaffen for meg
+W:Var et du som slo av tuten
+W:all kaffen, all gruten
+W:Var det du hell var det deg
+W:som slo i kaffen for meg
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142819
+S:http://abc.musicaviva.com/tunes/norway/brakar-mari-dm/brakar-mari-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/brakar-mari-dm/brakar-mari-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/brakar-mari-dm/brakar-mari-dm-ddad1.abc
+% Rhythm Vals
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 1
+T: the Brolum
+C: Dr. Charles Bannaty
+S: BSFC VII-8
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+f \
+| "A"e2ce fefa | A2cB ceef |1 e2ce fefa | "Bm"B2ce "E"fBBf \
+                          :|2 ecae "D"f2ec | "E"B2cB "A"A3 :|
+|: e \
+| "A"A2cA eAcA | A2cB ceef |1 A2cA eAcA | "Bm"B2ce "E"fBBe \
+                          :|2 ecae "D"f2ec | "E"B2cB "A"A3 :|
+|: e \
+| "A"a2af e2ce | A2cB ceef |1 a2af e2ce | "Bm"B2ce "E"fBBe \
+                          :|2 ecae "D"f2ec | "E"B2cB "A"A3 :|
+|: e \
+| "A"A2Ac A2Ac | A2cB ceef |1 A2Ac A2Ac | "Bm"B2ce "E"fBBe \
+                          :|2 ecae "D"f2ec | "E"B2cB "A"A3 :|
+S:https://www.folktunefinder.com/tunes/16853
+S:http://trillian.mit.edu/~jc/music/abc/reel/Brolum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/Brolum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Brolum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Brolum.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

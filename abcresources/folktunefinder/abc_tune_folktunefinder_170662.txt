@@ -1,0 +1,41 @@
+X: 1
+T: L\aat till far
+C: Pers Erik Olsson, R\"attvik
+O: Sweden
+D: Pers Erik, Pers Hans: L\aatar fr\aan \"Ostbj\"orka
+D: Pers Hans Olsson och Bj\"orn St\aabi (GIGA GCD-25 1995)
+D: H\ojreby spillemandlaug: - p\aa lang afstand (RICO RSCD 5098 1993)
+N: L\aat till Far or "Tune to my Father" was written by the R\"attvik fiddler Pers Erik Olsson
+N: to commemorate the 100th anniversary of the birth of his father, the well-known fiddler Pers
+N: Olof Olsson. Folk fiddling is a generational avocation for this family. The composer is in
+N: turn father to another renowned folk fiddler, Pers Hans Olsson. 
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Dm
+V:1
+ A,2 \
+| D2DE FEDC | D4- D2DE | F2Ac =B2AG | A4- A2A2 |
+| d3c d2c2 | A3G F2AF | G3F E2C2 | D4- D2 :| 
+|: A2 \
+| f3e f2g2 | a3g a2g2 | f3e d2c2 | d3c d2c2 |
+| A3G F2AF |1 G4 F2G2 | A4- A2 :|2 G3F E2C2 | D4- D2 |]
+V:2
+ A2 \
+| "Dm"F2FG "A(m)"AGFE | "Dm"F4- F2F2 | "Dm"D2FA "G"G2FE | "A(Dm)"F2E2- "A"E2E2 |
+| "Bb"B3A B2A2 | "F"F3E "Dm"D2DC | "Gm"B,4 "C"G,4 | "Dm"A,4- A,2 :| 
+|: A2 \
+| "Dm"d3c d2e2 | "Dm"f3e f2e2 | "Dm"d3c B2A2 | "Bb"B3A B2A2 |
+| "F"F3E "Dm"D2FD |1 "Gm"B,4 D2B,2 | "A"A,4- A,2 :|2 "Gm"B,4 ""G,4 | "Dm"A,4- A,2 |]
+S:https://www.folktunefinder.com/tunes/170662
+S:http://trillian.mit.edu/~jc/music/abc/Scand/skanklat/Lat_till_far_Dm_V2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/skanklat/Lat_till_far_Dm_V2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

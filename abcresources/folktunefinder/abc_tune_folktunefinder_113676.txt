@@ -1,0 +1,42 @@
+X:2
+T:America the Beautiful
+C:Samuel Ward, Katherine Lee Bates (words)
+O:USA
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:4/4
+L:1/4
+Q:1/4=84
+K:D  % original key = Bb
+A |: A>F F A | A>E E F | G A B c | A3 A | A>F F A | A>E E e |
+^d e f B | e3 A | f>f e d | d>c c d | e c B A | d3 d | d>B B d |
+d>A A A |
+ [1 B d A e | d3 A :|
+ [2 B2 d2 | A2 e2 | d4 |]
+W:
+W:Oh beautiful for spacious skies,
+W:For amber waves of grain,
+W:For purple mountain majesties
+W:Above the fruited plain!
+W:America! America!
+W:God shed His grace on thee,
+W:And crown thy good with brotherhood,
+W:From sea to shining sea.
+W:
+W:O beautiful for patriot dream,
+W:That sees beyond the years,
+W:Thine alabaster cities gleam,
+W:Undimmed by human tears.
+W:America! America!
+W:God shed His grace on thee,
+W:And crown thy good with brotherhood,
+W:From sea to shining sea.
+S:https://www.folktunefinder.com/tunes/113676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/AmericaTheBeautiful.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/AmericaTheBeautiful.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/AmericaTheBeautiful.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

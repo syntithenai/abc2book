@@ -1,0 +1,28 @@
+X:112
+T: ES RITT EIN RITTER WOHL UEBER FELD
+N: B0142
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 6/8
+L: 1/16
+K: G
+D2 | G4G2A2G2A2 | B4c2d4
+d2 | d2c2B2A4A2 | B2A2B2c4
+d2 | e2d2c2B4B2 | c2B2c2d4
+d2 | B4B2A4B2 | c3dc2B4
+G2 | e4e2d4B2 | d2c2c2A4
+D2 | G4G2A2G2A2 | B4c2d4
+d2 | d2c2B2c2B2A2 | B4A2G4
+S:https://www.folktunefinder.com/tunes/78133
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

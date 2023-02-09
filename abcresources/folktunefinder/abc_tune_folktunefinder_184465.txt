@@ -1,0 +1,21 @@
+X:1
+T:Ragtime Annie
+C:Traditional
+O:American Fiddle Tune
+M:4/4
+L:1/8
+Q:1/2=100
+K:D
+|"D"ABAB AB A2|ABAB "A7"Ac c2|AcBc AcBc
+|1AccB "D"A4:|2AABc "D"d3 A,|A2 AF D3 F
+|A2 GG "G"B,3 E|GEB,E GEB,E|"A7"C2 CB, "D"A,3 D
+|A2 AG F3 E|D2 C2 "G"B,4|GBBB "D"FG A2|"A7"EGFE "D"D2 d z||
+S:https://www.folktunefinder.com/tunes/184465
+S:http://everythingdulcimer.com/tab/ragtime.abc
+S:http://www.everythingdulcimer.com/tab/ragtime.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

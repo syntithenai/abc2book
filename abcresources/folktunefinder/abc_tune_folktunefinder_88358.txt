@@ -1,0 +1,29 @@
+X:1005
+T:the Cambrian Lyrist
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:from a printed tunebook owned by the Winders (Not in photocopy, where from )
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005b1.html
+%%ID:000005b1
+K:G
+G/2A/2 | \
+B2B BAG | d2d dcB | g2g gfe | dcB Adc | \
+B2B BAG | d2d dcB | g2g fef | g2g g2 ::
+g | \
+f2g agf | g2b d2g | f2g agf | gab dec | \
+B2B BAG | d2d dcB | g2g fef | g2g g2 :|
+%%newpage
+%page 82
+S:https://www.folktunefinder.com/tunes/88358
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 74
+T:Turnpike Side
+M:6/8
+L:1/8
+S:Trad, arr Phil Rowe
+Q:300
+K:D
+A|"D"d2d "A"c2A|"G"BdB "D"AGF|"G"G2e "D"F2d|"Em"E2d "A"cBc|
+"D"d2d "A"c2A|"G"BdB "D"AGF|"Em"G2e "D"F2d|"A"cBc "D"d2::
+A|"D"d2f a2b|afd a2f|"A"A2c e2f|ecA e2c|
+"D"d2f a2b|"D"afd "Bm"a2f|"Em"gbg "D"faf|"A"edc "D"d2:|
+S:https://www.folktunefinder.com/tunes/84215
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

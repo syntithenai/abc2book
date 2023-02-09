@@ -1,0 +1,24 @@
+X: 1
+T:Lovely Nancy      %Tune name
+C:     %Tune composer
+N:William Clarke MS,Lincoln,1770      %Tune infos
+Q:1/4=150     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:G
+BA | "G"G2 G2 GB | "D"A2 A2 Ac | "G"B2 ge dB | "D"A4 AA |
+"G"G2 G2 dB | "D"A2 A2 ge | "G"d3/e/ dB "D"AB | "G"G4 :: Bc |
+"G"d2 d2 "C"ge | "G"d4 Bc | "G"d2 d2 gB | "D"A4 BA | "G"G2 G2 dB |
+"D"A2 A2 ge | "G"d3/e/ dB "D"AB | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/20049
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Lovely_Nancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/waltz/Lovely_Nancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Lovely_Nancy_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

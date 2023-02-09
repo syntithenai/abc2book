@@ -1,0 +1,26 @@
+X:25
+T:J'ai vu le loup, le renard et la belette
+C:Trad.
+O:France
+A:Bretagne
+R:En dro
+Z:Michel BELLON
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+%%continueall 1
+cB/A/ GA/B/|c/B/c/d/ ec|cB/A/ GA/B/|cd c2::
+S:https://www.folktunefinder.com/tunes/129986
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm En dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

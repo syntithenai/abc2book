@@ -1,0 +1,27 @@
+X: 1
+T: the Scotsman Over the Border
+R: jig
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: D
+|: "D"~D3 FDF | AFA d2A | "G"BdB BAB | "A7"def edB \
+|  "D"ADD FDF | AFA d2A | "G"BdB BAF | "A7"dAF EFE :|
+|: "D"D2a afa | "G"bag "A7"fge | "D"dfa "Bm"afe | "Em"def "A7"edB \
+|  "D"dfa afa | "G"bag "D"fge | "G"d2B AFA | "A7"dAF EFE :|
+S:https://www.folktunefinder.com/tunes/15037
+S:http://trillian.mit.edu/~jc/music/abc/jig/ScotsmanOverTheBorder_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ScotsmanOverTheBorder_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ScotsmanOverTheBorder_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/ScotsmanOverTheBorder_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

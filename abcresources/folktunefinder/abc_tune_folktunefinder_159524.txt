@@ -1,0 +1,40 @@
+X: 1
+T:Frost is all over, The
+R:jig
+H:See also #67, #263
+H:There is another tune by the same name: #202
+D:Planxty
+Z:id:hn-jig-206
+M:6/8
+W:1. What would you do if the kettle boiled over
+W:   What would I do Only fill it again.
+W:   And what would you do if the cow ate the clover
+W:   What would I do only set it again.
+W:2. The praties are dug and the frost is all over
+W:   Kitty lie over close to the wall.
+W:   How would you like to be married to a soldier
+W:   Kitty lie over close to the wall.
+W:3. The praties all boil and the herring's a roasting
+W:   Kitty lie over close to the wall.
+W:   You to be drunk and me to be sober
+W:   Kitty lie over close to the wall.
+W:4. What would you do if you married a soldier
+W:   what would you do would you follow his gun
+W:   And what would you do if he drowned in the ocean
+W:   what would you do would you marry again
+K:D
+def edB|AFD FED|DFA AFA|Bee edB|
+def edB|AFD FED|DFA AFA|1 Bdd d2A:|2 Bdd d2e||
+|:fdd ede|~f3 d2e|fef def|gfg efg|
+fed B2A|AdF G2A|ABA F2E|1 EDD D2e:|2 EDD D3||
+S:https://www.folktunefinder.com/tunes/159524
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fr/Frost_is_all_over_The_7.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

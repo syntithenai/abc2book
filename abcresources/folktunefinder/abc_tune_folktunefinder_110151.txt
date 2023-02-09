@@ -1,0 +1,25 @@
+X:104
+T:Redwing
+C:Traditional
+M:4/4
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:F
+[| C | "F"F3/2 F/2 F A | c3 F | "Bb"Bd fd | "F"c3 A |\
+"Bb"B B G B | "F"A A F A | "G7"G G G F | "C7"E G c C |
+"F"F3/2 F/2 F A | c3 F | "Bb"Bd fd | "F"c3 A |\
+"Bb"B B G B | "F"A A F A | "G7"G D "C7"E C | "F"F2 f e |
+| "Bb"d2 d3/2d/2 | df ed | "F"c2 A2- | Ac dc |\
+"C7"c2 G2- | Gc dc | "F"c2 A2- | A2 fe |
+"Bb"d2 d3/2d/2 | df ed | "F"c2 A2- | Ac dc |\
+"C7"c2 G2- | G B A G | "F"F4- | F2 |]
+S:https://www.folktunefinder.com/tunes/110151
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

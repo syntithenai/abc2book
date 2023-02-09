@@ -1,0 +1,22 @@
+X: 7
+T: Feder Mikel
+O: Danmark
+B: 358 Danske Folkedansemelodier v.I #136
+R: fynbo
+M: 2/4
+L: 1/16
+K: G
+   dc \
+| "G"B2G2 G2AB | "D7"c2A2 A2dc | "G"B2G2 "D7"A2F2 |1 "G"GABc "D7"d2 :|2 "G"G6 ||
+|: Bc \
+| "G"d2d2 d2g2 | "C"e2c2 c4 | "A7"e2e2 e2a2 | "D7"f2d2 d3c \
+| "G"B2G2 G2AB | "D7"c2A2 A2dc | "G"B2G2 "D7"A2F2 | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/414
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/polka.abc
+% Rhythm Fynbo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

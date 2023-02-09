@@ -1,0 +1,22 @@
+X: 1
+T: Cambridge Road
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: BA |
+G2 B2 G2 BA | G2 B2 G2 BA | GFED EFGF | A2 D2 D2 EF |
+A2 D2 B2 D2 | cBAG A2 AB | cBAG FDEF | G2 B2 G2 :|
+|: BA |
+G2 d2 G2 BA | G2 d2 G2 BA | GFGA BABc | A2 d2 d2 dc |
+B2 G2 A2 F2 | GFEF D2 dc | BAGF EDEF | G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/145302
+S:http://www.thesession.org/tunes/display/7972
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,10 @@
+X: 31375
+T: Paddy O'Rafferty
+R: jig
+M: 6/8
+K: Cmajor
+(c<e).G (G2A)|(Gf).e {e}(d>c).d|(c<e)G (G2A)|(c>d).c (cAG)|
+(c<e).G G2 {B}A|(Gf).e .f.g.a|(g>f).e {e}d>.c.d|(c>d).c (cA).G|
+.c.e.g .c.e.g|.c>.e.g (af).d|(ce).g .a>.b.c'|(c>d).c (cA).G|
+.c.e.g .c.e.g|(ce).g .a>.b!fermata!c'|(gf).e {e}d>.c.d|.c>.d.c (cA).G||
+

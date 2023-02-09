@@ -1,0 +1,31 @@
+X: 1
+T:Chorus Jig
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, July 1996
+N: http://www.lll.hawaii.edu/contra/
+M:2/2
+L:1/8
+P:ABCB
+K:D
+P: A
+AG | F2 DF ABAG | FADF A2 d2 | D3 F ABAF | GFEF G2 AG |
+     F2 DF ABAG | FADF A2 d2 | D3 F ABAF | GFEF G2 B=c ||
+P:B
+K:G
+     dBcA BGFG | Ad^cd A2 B=c| dBcA BGFG | AcBA G2 Bc |
+     dBcA BGFG | ABcd   efge | dBcA BGFG | AcBA G2 ag ||
+P:C
+K:D
+     fddd fddd | fdfg abag | fddd fddd | edef g2 ag  |
+     fddd fddd | fdfg abag | fddd fddd | edef g2 B=c ||
+S:https://www.folktunefinder.com/tunes/148185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chorus_Jig_6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

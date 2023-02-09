@@ -1,0 +1,33 @@
+X:425
+T:L'Araa
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+B:Musicologa Asturiana - La Cancin Tradicional, Modesto Gonzlez Cobas
+Z:La Cancin Tradicional, M.G.C.
+M:6/8
+L:1/8
+Q:3/8=100
+K:Am
+|EAA BcB|c3/2d/4c/4 B-B3|Bdc Bdc|B3/2c/4B/4 A-A3|
+|AAB ccB|A3/2B/4A/4 G-G3|GGA BBA|G2 ^F-F3|GAB cdc|B3/2c/4B/4 A-A3|
+W:y eso de matar la araa 
+W:yo no lo puedo entender
+W:y unos la matan de noche
+W:y otros al amanecer
+W:y otros al amanecer
+W:
+S:https://www.folktunefinder.com/tunes/59312
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

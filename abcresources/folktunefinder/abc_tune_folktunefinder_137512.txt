@@ -1,0 +1,31 @@
+X: 989
+T: Stack the Rags
+T: Cruac Suas Na Giobaltde
+R:double jig
+C:"collected by F.O'Neill"
+S:989 O'Neill's Music of Ireland
+N:Fermata at end of first 8 bars
+N:a tilde has been used to denote a trill
+N:transcription error in original, line 4, bar 4, note 1
+B:O'Neill's 989
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:6/8
+K:F
+d|cAG G2 ^F|D2-G G3|cAG G2 G|f3 e2 d|
+|cAG ~G2 ^F|D2-G G3|^F2 G A2 B|c3 d3|
+|G2 g g3|^faf g3|d2 g g2 e|f3 e2 d|
+|G2 g g3|^faf g3|aba a2 g|f3 d2 c|
+|d2 g g3|^faf g3|d2 g g2 e|f3 f2 g|
+|agf gfe|fed f2 d| cBA A2 A|f3 e2|
+S:https://www.folktunefinder.com/tunes/137512
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0981-1000_rt.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:My shining hour
+M:4/4
+L:1/4
+C:Harold Arlen &
+C:Johnny Mercer
+Q:1/4=240
+%%staves (chords melody)
+K:Eb
+%%text (medium)
+%%vskip 20
+P:A
+V:chords
+"( Ebmaj7" "Ebmaj7"x2 "D7" " "x2 | "Db7" "Cm7"x2 "Gb7 )" " "x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"( Ebmaj7" "Ebmaj7"x2 "D7" " "x2 | "Db7" "Cm7"x2 "Gb7 )" " "x2 | "( Cbmaj7" "Fm7"x2 x2 | "Fm7" "Dm7b5"x2 "Dm7b5" "G7"x"G7 )" " "x ||
+V:melody
+G3A | B2E2 | G3G | G2B,2 |
+S:https://www.folktunefinder.com/tunes/18880
+S:http://trillian.mit.edu/~jc/music/abc/song/My_shining_hour.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/my_shining_hour.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/My_shining_hour.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/my_shining_hour.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

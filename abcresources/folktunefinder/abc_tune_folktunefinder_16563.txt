@@ -1,0 +1,20 @@
+X: 1
+T: Springlek efter Troskari Erik Persson
+M: 3/4
+L: 1/8
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled 340 and ULMA 11642:5:3
+K: Dm
+|: e>f d>^c A>c | e>f (d^c) A>c | e>f d>^c A>c | e2 [a4A4] :|
+|: f>d f>a ~a>g | e>c e>g ~g>e | f>d (f>a) ~a>g | e>c (e>g) ~g>e | f2 (d^c) A>c | ^c2 [d4D4] :|
+S:https://www.folktunefinder.com/tunes/16563
+S:http://trillian.mit.edu/~jc/music/abc/pols/Springlek2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/Springlek2_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

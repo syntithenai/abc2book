@@ -1,0 +1,39 @@
+X: 1
+T: Adjon az Isten
+O: Hungary
+S: Eva Kish, 87-04
+N: Eva says: I didn't even attempt to translate this as it is a masterful work of poetry."
+M: 4/4
+L: 1/8
+P: 4x, repeat last verse
+K: Ddor
+[| [A2D2][AD][BE] [c2F2][d2G2] | [cF][BE][cF][A-D-] [A4D4] |
+w: Ad-jon az Is-ten sze-ren-cs\'et
+w: L\'am-p\'am-ba l\'ang-ot ne kel-jen
+w: Ad-jon az Is-tem f\'eny-e-ket
+| [AD][A2D2][BE] [c2F2][B2E2] | [AD][A2D2][F-_B,-] [F4B,4] |
+w: Sze-rel-met  for-r\'o ke-men-c\'et
+w: Kor-\'an az \'a-gyra he-vert-len
+w: Te-me-t\"ok hely-et \'e-le-tet
+| [AD][A2D2][BE] [c2F2][B2E2] | [AD][A2D2][F-_B,-] [F4B,4] |
+w: \"U-res vig-\'am-ba  ga-bon-\'at
+w: K\'er-d\'es-re  v\'al-aszt \"O k\"uld-j\"on
+w: Ne-kem a k\'e-r\'es  nagy sz\'e-gyem
+| [F_B,][F2B,2][EA,] [F2B,2][G2C2] | [E2A,2][E2A,2] [E4-A,4-] | [E8A,8] |]
+w: \'Ar-va ke-zem-be pa-ro-l\'at.
+w: Hogy hit-ten sz\'el-jel ne d\"ul-j\"on.
+w: Ad-jon ugy-is ha nem k\'e-rem.
+S:https://www.folktunefinder.com/tunes/2774
+S:http://trillian.mit.edu/~jc/music/abc/Balkan/AdjonAzIsten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Hungary/AdjonAzIsten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/AdjonAzIsten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/AdjonAzIsten.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

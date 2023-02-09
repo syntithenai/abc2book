@@ -1,0 +1,28 @@
+X:13486
+T:Polska i Gm fr\aa{}n Haver\"o
+A:Haver\"o, Medelpad
+R:Polska
+O:Sweden
+M:3/4
+L:1/16
+Q:1/4=110
+K:Gm
+D2|G3A BABc d4|d3g g2ag ^f2d2|d2=e^f g2B2 A2F2|\
+G3A B2dB AcA^F|G3A BABc d4|d3g g2ag ^f2d2|\
+d2=e^f g2B2 A2GB|[1D2^FA G6:|[2D2^FA G8|:\
+d3g g2f2 d2c2|f3e dedc d2B2|B2g2 g2f2 d2c2|\
+f3e dedc d2B2|AcA^F G3A B2d2|cAce d2d2 A4|\
+d3g g2f2 d2c2|f3e dedc d2B2|B2g2 g2f2 d2c2|\
+f3e dedc d2B2|AcA^F G3A B2dB|AcA^F G8:|
+%  ABC2Win Version 2.1 1997-08-13%  ABC2Win Version 2.1 1997-08-13
+S:https://www.folktunefinder.com/tunes/116531
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

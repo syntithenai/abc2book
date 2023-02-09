@@ -1,0 +1,28 @@
+X:4660
+T:Polska
+A:Jmtland
+B:SvL J&H1 #303
+C:e. Johan Abraham Olander, Frsn
+M:3/4
+O:Sweden
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c1d.html
+%%ID:00000c1d
+K:D dorian
+vAB/^c/ cd d>A| ^FD ^CD EF/E/| D>^c ce ec| AB/A/ ^GA B^c/B/| \
+AB/^c/ cd d>A|^FD ^CD EF/E/| D>^c ce ec| AB/A/ ^GA B^c/B/| \
+AB/^c/ de fd| ef/g/ a2 (^c>e)| d2 D4::\
+AB/^c/ de f>d| ef/g/ a2 (fa)| gb/g/ eg/e/ ^cd| eg fe/d/ d^c|\
+AB/^c/ de f>d| ef/g/ a2 (fa)| gb/g/ eg/e/ ^cz/c/| AB/^c/ d4:|
+S:https://www.folktunefinder.com/tunes/37011
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

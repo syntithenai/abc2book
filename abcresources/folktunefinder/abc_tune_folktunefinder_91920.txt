@@ -1,0 +1,20 @@
+X: 1839
+T: Harrington Hall
+M:6/8
+L:1/8
+B:O'Neill's 1839
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+Z:probably should be a repeat at start of B part
+K:D
+   A | d2 d ceA | dff f2 g | afd dcd | e>(de/f/) gfe |
+       d2 d ceA | dff f2 g | afd Bgf | edc       d2 :|
+|: g | fdf  fga | fdd dcd  | eAA fAA | g>(fg/a/) gfe |
+       d2 d ceA | dff f2 g | afd Bgf | edc       d2 :|
+S:https://www.folktunefinder.com/tunes/91920
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1801-1850_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

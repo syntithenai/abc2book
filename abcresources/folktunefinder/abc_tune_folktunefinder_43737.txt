@@ -1,0 +1,23 @@
+X:1
+T:Cathy's Waltz
+C:Andy Hornby 2006
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+D GA|:B2BA Bd|B3G AB|c2cB cd|e2d2c2|[1B2BA Bd|
+B3G BG|A2d2e2|f3e dc:|[2B2BG Bd|A2AG AB|G3F GA|G3
+|:d ef|g2g3b|f2f3d|e2eB eB|d3d ed|c2cd cB|
+[1A2Ae fe|d2de dc|B3:|[2A2f2a2|g2gf ga|g4|]
+%%newpage
+%%vskip 2cm
+S:https://www.folktunefinder.com/tunes/43737
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

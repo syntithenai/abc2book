@@ -1,0 +1,24 @@
+X:50
+T:Psalm 116
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/2
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dba.html
+%%ID:00000dba
+K:C
+AA | Bc | AB     | A^G || zA | Bc | (B/A/)^G | A2 ||\
+zA | BB | A(^G/A/) | BA  | ^G2 || zB | AA | (B/A/)^G | A2 |]
+% page 6
+S:https://www.folktunefinder.com/tunes/43573
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

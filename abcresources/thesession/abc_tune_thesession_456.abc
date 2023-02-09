@@ -1,0 +1,20 @@
+X: 455
+T: A Visit To Ireland
+R: jig
+M: 6/8
+K: Gmajor
+B|:ddd GGG|BBB ddd|gfe dcB|cAA ABc|
+ded dBG|Bdd def|gfg ABc|1 BGG GBc:|2 BGG GBd||
+|:gfg aga|bag fed|gfe dcB|cAA A2 d|
+gfg aga|bag fed|gfg ABc|1 BGG GBd:|2 BGG GBc||
+"As Played on Fiddle"
+B|:ded {e}dBG|Bcd def|gfe dcB|cA/A/A ABc|
+~d3 dBG|Bcd def|~g3 ABc|1 BGF GBc:|2 BGF GBd||
+|:~g3 aga|bag {a}fed|gfe dcB|{d}cAA A2 d|
+~g3 ~a3|bag {a}fed|gdB ABc|1 BGF GBd:|2 BGF GBc||
+"As Played on Flute"
+B|:ded {e}dBG|Bcd {e}def|gfe dcB|c2 A ABc|
+d2 z dBG|Bcd {e}def|~g3 ABc|1 BGF GA/B/c:|2 BGF GBd||
+|:~g3 ~a3|bag fed|gfe dcB|c2 A A2 f|
+~g3 ~a3|bag fed|~g3 ABc|1 BGF GBd:|2 BGG GA/B/c||
+

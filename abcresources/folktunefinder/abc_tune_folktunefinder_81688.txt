@@ -1,0 +1,159 @@
+X: 14
+T: Rattvikarnas Ganglat
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:D % 2 sharps
+% Rattvikarnas Ganglat
+% (c) SSF February 2006
+V:1
+[d3/2D3/2]f/2 ag [f3A3]e/2d/2| \
+M: 3/4
+L: 1/8
+c/2d/2e/2f/2g fe2-| \
+edc/2d/2 e/2f/2[gA][fA]| \
+[e3/2A3/2]d/2c BAc/2B/2|
+GB/2A/2[A3F3]
+A| \
+[d3/2D3/2]f/2a g[f2-A2-]| \
+[fA]e/2d/2c/2d/2 e/2f/2gf| \
+[e3A3] dc/2d/2e/2f/2|
+gf[e3/2A3/2]d/2cB| \
+Aa/2a/2A B/2c/2[d2-D2-]| \
+[dD]A[d3/2D3/2]f/2ag| \
+[f3A3] e/2d/2c/2d/2e/2f/2|
+gf2<e2d| \
+c/2d/2e/2f/2[gA] [fA][e3/2A3/2]d/2| \
+cBA c/2B/2GB/2A/2| \
+[A3F3] 
+A[d3/2D3/2]f/2|
+ag[f3A3]e/2d/2| \
+c/2d/2e/2f/2g f[e2-A2-]| \
+[eA]dc/2d/2 e/2f/2gf| \
+[e3/2A3/2]d/2c BAa/2a/2|
+AB/2c/2[d3D3]F| \
+A2A/2F/2 A/2d<fe/2| \
+dcB3/2A/2GF| \
+G3 c/2d/2e2|
+e3/2f/2e dcB| \
+Ac/2B/2G B/2A/2[A2-F2-]| \
+[AF]FA2A/2F/2A/2d/2| \
+f3/2e/2d cBg|
+g/2f/2g/2a/2[b3d3]b| \
+ab/2a/2g a/2g/2fg/2f/2| \
+e3/2d/2c ABc| \
+[d3D3] FA2|
+A/2F/2A/2d<fe/2dc| \
+B3/2A/2G FG2-| \
+Gc/2d/2e2e3/2f/2| \
+edc BAc/2B/2|
+GB/2A/2[A3F3]F| \
+A2A/2F/2 A/2d<fe/2| \
+dcB gg/2f/2g/2a/2| \
+[b3d3] bab/2a/2|
+ga/2g/2f g/2f<ed/2| \
+cAB c[d2-D2-]|[dD]
+V:2
+D,z [AFD]z D,z [AFD]z| \
+M: 3/4
+L: 1/8
+D,z[AFD] zA,,z| \
+[ECA,]zA,, z[ECA,]z| \
+A,,z[ECA,] zA,,z|
+[ECA,]zD, z[AFD]z| \
+D,z[AFD] zD,z| \
+[AFD]zA,, z[ECA,]z| \
+A,,z[ECA,] zA,,z|
+[ECA,]zA,, z[ECA,]z| \
+A,,z[GECA,] zD,z| \
+[AFD]zD, z[AFD]z| \
+D,z[AFD] zD,z|
+[AFD]zA,, z[ECA,]z| \
+A,,z[ECA,] zA,,z| \
+[ECA,]zA,, z[ECA,]z| \
+D,z[AFD] zD,z|
+[AFD]zD, z[AFD]z| \
+A,,z[ECA,] zA,,z| \
+[ECA,]zA,, z[ECA,]z| \
+A,,z[ECA,] zA,,z|
+[GECA,]zD, z[AFD]z| \
+D,z[AFD] zD,z| \
+[AFD]zG,, z[DB,G,]z| \
+A,,z[GECA,] zA,,z|
+[ECA,]zA,, z[ECA,]z| \
+A,,z[GECA,] zD,z| \
+[AFD]zD, z[AFD]z| \
+D,z[AFD] zG,,z|
+[DB,G,]zG,, z[DB,G,]z| \
+D,z[GECA,] z
+D,z| \
+[ECA,]zA,, z[GECA,]z| \
+D,z[AFD] zD,z|
+[AFD]zD, z[AFD]z| \
+G,,z[DB,G,] zA,,z| \
+[GECA,]zA,, z[ECA,]z| \
+A,,z[ECA,] zA,,z|
+[GECA,]zD, z[AFD]z| \
+D,z[AFD] zD,z| \
+[AFD]zG,, z[DB,G,]z| \
+G,,z[DB,G,] zD,z|
+[GECA,]z
+D, z[ECA,]z| \
+A,,z[GECA,] zD,z| \
+[AFD]
+V:3
+A3/2d/2 fe2<d2c/2B/2| \
+M: 3/4
+L: 1/8
+A/2B/2c/2d/2e dc2-| \
+cBA GEF| \
+G3/2B/2A GEA|
+EG2<D2A| \
+A3/2d/2f ed2-| \
+dc/2B/2A/2B/2 c/2d/2ed| \
+c3 BAG|
+EFG3/2B/2cd| \
+ecA EF2-| \
+FAA3/2d/2fe| \
+d3 c/2B/2A/2B/2c/2d/2|
+ed2<c2B| \
+AGE FG3/2B/2| \
+AGE AEG| \
+D3 AA3/2d/2|
+fe2<d2c/2B/2| \
+A/2B/2c/2d/2e dc2-| \
+cBA GEF| \
+G3/2B/2c dec|
+AE2<F2D| \
+D2F/2D/2 F/2A<dc/2| \
+BAG3/2F/2ED| \
+E3 Gc2|
+c3/2d/2c BAG| \
+EAE GD2-| \
+DDD2F/2D/2F/2A/2| \
+a3/2g/2f egb|
+b/2a/2g/2f/2g3g| \
+fde cdd| \
+c3/2B/2A AGE| \
+F3 DD2|
+F/2D/2F/2A<dc/2BA| \
+G3/2F/2E DE2-| \
+EGc2c3/2d/2| \
+cBA GEA|
+EG2<D2D| \
+D2F/2D/2 F/2A<ag/2| \
+feg bb/2a/2g/2f/2| \
+g3 gfd|
+ecd dc3/2B/2| \
+AAG EF2-|F
+%  <A name="D1X15">
+S:https://www.folktunefinder.com/tunes/81688
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Easter_2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

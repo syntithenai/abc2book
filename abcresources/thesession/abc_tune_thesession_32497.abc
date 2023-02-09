@@ -1,0 +1,10 @@
+X: 32496
+T: Plane Tree, The
+R: jig
+M: 6/8
+K: Dminor
+|:DFA DFA|BAG A3|Bcd cBA|GFG A3|
+DFA DFA|BAG A3|Bcd cBA|GFE D3:|
+|:def e2d|cdc A3|Bcd cBA|GFG A3|
+def e2d|cdc A3|Bcd cBA|GFE D3:|
+

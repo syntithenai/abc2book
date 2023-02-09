@@ -1,0 +1,37 @@
+X:8156
+T:Branle double
+C:Claude Gervaise
+O:France
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/gervaise-claude/gervaise-double-4m.abc
+V:1 Program 1 40 %Violin
+V:2 Program 1 110 %Fiddle
+V:3 Program 1 41 %Viola
+V:4 Program 1 42 bass %Cello
+M:C|
+L:1/8
+K:Gdor
+V:1
+d3cB2A2|G2D2GABc|d3cB2A2|G2D2"_Fine"G4|G2G2c2c2|d2d2c2e2|d2f2e2c2|c2=B2"_D.C."c4|]
+V:2
+G2G2G2F2|D2F2D2D2|D2G2G2F2|D2D2D4|E2E2E2G2|G2D2E2G2|G2F2E2F2|G2G2G4|]
+V:3
+D3A,D3C|B,2A,2D2D2|GABcd3c|B2A2G2D2|G2G2G2C2|=B,2B,2C2C2|D2D2C2C2|D2D2C4|]
+V:4
+G,3A, B,CD2|G,2D2G,2G,2|G,3A, B,CD2|G,2D2G,4|C2C2C2C2|G,2G,2C2C2|G,2D2A,2A,2|G,2G,2C4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142918
+S:http://abc.musicaviva.com/tunes/gervaise-claude/gervaise-double-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/gervaise-claude/gervaise-double/gervaise-double-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/gervaise-claude/gervaise-double/gervaise-double-4m.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

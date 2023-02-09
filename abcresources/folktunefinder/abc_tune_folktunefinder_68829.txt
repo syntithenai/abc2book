@@ -1,0 +1,29 @@
+X:283
+T: Sauf - Messe
+N: A0327
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II No. 36
+R: Romanze, Ballade, Lied, Trinklied
+M: 4/2
+L: 1/4
+K: G
+G2 | G2G2A2B2 | c3cc4
+d2ddB2B2 | c2c2A2A2 | d2d2d4 | z2
+A2c2c2 | B2B2A2A2 | G4z2
+B2 | A2A2G4 | z2B2A2A2 | G4z4
+d2d2B2c2 | d4z4
+d2d2B2c2 | d4z4
+d2d2d2e2 | d4B4 | c2c2A2A2 | G4z4
+d2d2d2e2 | d4B4 | c2c2A2A2 | G4z4
+c3de4 | =f4d4 | c4d2=f2 | e8
+d4=f3f | e3dc2B2 | A2d3cB2 | A4G2
+S:https://www.folktunefinder.com/tunes/68829
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

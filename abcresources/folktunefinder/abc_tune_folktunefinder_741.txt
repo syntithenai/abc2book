@@ -1,0 +1,27 @@
+X:107
+T: \'Ciro Kolo
+O: Croatia
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+P: A
+K: A
+|: "A"[AE][cA][ec][ec] [ec][fd][ec][cA] | "E7"[ec][ec][dB][dB] "A"[cA][cA][BG][AE] :| \
+|: "A"[c2A]"E7"[ec][BG] "A"[c2A]"E7"[ec][BG] | "A"[cA][cA]"E7"[BG][BG] "A"[A4E] :|
+P: D
+K: D
+|: "D"[dA][fd][af][af] [af][bg][af][fd] | "A7"[af][af][ge][ge] "D"[fd][fd][ec][dA] :| \
+|: "D"[f2d]"A7"[af][ec] "D"[f2d]"A7"[af][ec] | "D"[fd][fd]"A7"[ec][ec] "D"[d4A] :|
+P: G
+K: G
+|: "G"[GD][BG][dB][dB] [dB][ec][dB][BG] | "D7"[dB][dB][cA][cA] "G"[BG][BG][AF][GD] :| \
+|: "G"[B2G]"D7"[dB][AF] "G"[B2G]"D7"[dB][AF] | "G"[BG][BG]"D7"[AF][AF] "G"[G4D] :|
+S:https://www.folktunefinder.com/tunes/741
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/a.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

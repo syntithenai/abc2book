@@ -1,0 +1,29 @@
+X: 25
+T:Blarney Pilgrim
+% Nottingham Music Database
+P:AABBCC
+S:Alistair Anderson, via EF
+M:6/8
+K:G
+P:A
+D|"G"DED DEG|"C"A2G ABc|"G"BAG "C"AGE|"Am"GEA "D7"GED|
+"G"DED DEG|"C"A2G ABc|"G"BAG "C"AGE|"D7"GED D2:|
+P:B
+d|"G"ded dBG|"Am"AGA "Em"BGE|"G"ded dBG|"C"AGA "D7"GBd|
+"G"g2e dBG|"Am"AGA "Em"BGE|"Em"B2G AGE|"Em"GAG G2:|
+P:C
+G|"D"A2D "Em"B2D|"D"A2D ABc|"G"BAG "C"AGE|"Am"GEA "D7"GED|
+"D"A2D "Em"B2D|"D"A2D ABc|"G"BAG "C"AGE|"D7"GED D2:|
+S:https://www.folktunefinder.com/tunes/65113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

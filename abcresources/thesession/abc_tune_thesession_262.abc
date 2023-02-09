@@ -1,0 +1,20 @@
+X: 261
+T: A Memory Of Friends Past
+R: jig
+M: 6/8
+K: Gmajor
+V: 1
+|:G,B,D GFG|E^DE C2 B,|A,B,C DEF|GDC B,CA,|
+G,B,/C/D GFG|E^DE C2 B,|A,A,/B,/C DEF|1 G3 GDB,:|2 G3- GDG||
+B^AB GDG|cBc A2 G|FAF DEF|GDC B,DG|
+B^AB GDG|cBc A2 G|FAF DEF|G3 GDG|
+B2 B G2 D|c2 c A2 G|F/G/AF DEF|GDC B,CA,|
+G,B,/C/D G2 G|E^DE C2 B,|A,A,/B,/C DD/E/F|G3- G3||
+V: 2
+|:GBd gfg|e^de c2 B|ABc def|gdc BcA|
+GB/c/d gfg|e^de c2 B|AA/B/c def|1 g3 gdB:|2 g3- gdg||
+b^ab gdg|c'bc' a2 g|faf def|gdc Bdg|
+b2 b gdg|c'2 c' a2 g|f/g/af def|gdc BcA|
+b^ab gdg|c'bc' a2 g|faf def|g3 gdg|
+GB/c/d g2 g|e^de c2 B|AA/B/c dd/e/f|g3- g3||
+

@@ -1,0 +1,29 @@
+X:1
+T:Eavesdropper, The
+R:jig
+D:Paddy Keenan: Port an Phiobaire
+D:Dolores Keane &amp; John Faulkner: Broken Hearted I'll Wander
+Z:id:hn-jig-150
+M:6/8
+L:1/8
+K:G
+DBB BAG|Bde dBG|ceg dBG|BAG AGE|
+DBB BAG|Bde dBG|ceg dBA|BGF G2D|
+~G3 BAG|~B3 dBG|cBc dBG|~A3 BGD|
+G2B BAG|Bde dBG|ceg dBA|BGF GBd|]
+gab afd|efg dBG|ceg dBG|BAG ABd|
+gab afd|efg dBG|ceg dBA|BGF GBd|
+~g3 fed|efg dBG|cee dBG|BAA ABd|
+~g3 fed|ege dBG|cee dBA|BGF G2A|]
+</abc>
+<abc>
+S:https://www.folktunefinder.com/tunes/155566
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:jigs:eavesdropper&do=edit&rev=
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

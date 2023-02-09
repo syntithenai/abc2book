@@ -1,0 +1,53 @@
+X:3
+T:Reprise - Cest une dure despartie
+T:(Basse dansse 3)
+C:Tielman Susato
+B:Tielman Susato: Danserye (1551) no. 3
+R:Basse dance
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-03.abc
+M:3/2
+L:1/2
+Q:1/2=210
+K:Gmix
+V:1
+GGG|AcB/A/|A2^G|A2z|EE/D/E/F/|GA>G|G2^F|G2z:|
+V:2
+EEE|FEG|EE2|C2z|CCG,|G,EE|CD2|B,2z:|
+V:3
+CCC|CCD|CB,2|A,2z|G,G,C|B,C>B,|G,A,2|G,2z:|
+V:4
+C,C,C,|F,A,G,|A,E,2|A,,2z|C,C,/B,,/ C,/D,/|E,A,,C,|E,D,2|G,,2z:|
+V:1
+|:ccB|cB>A|A2^G|Ac/B/ A/G/|F/E/F2|E>F G/A/|B/c/dB|c2z|
+V:2
+|:G,>A,B,|G,>A,B,|CE2|CFE|D>C A,/B,/|CEE|DGG|E2z|
+V:3
+|:EED|E2D|CB,2|A,>B, C/B,/|A,/G,/A,F,|G,2C|B,>CD|C2z|
+V:4
+|:C,C,G,|C,/D,/ E,/F,/ G,|A,E,2|F,>G,A,|D,D,D,|C,>D, E,/F,/|G,G,G,|C,2z|
+V:1
+ccB|AGG/F/|E/D/EE|D/C/D/E/F/D/|GEF|GA>G|G2^F|G2z:|
+V:2
+EED|FED|GA2|F>ED|EGF|EA,>B,|CD2|B,2z:|
+V:3
+G,>A, B,/C/|C3/2B,//A,// B,/C/|D2^C|DA,/G,/ A,/B,/|C2A,|G,C>B,|G,A,2|G,2z:|
+V:4
+C,C,G,|F,C,G,|B,A,2|D,2D,|C,C,D,|E,F,>G,|E,D,2|G,,2z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/136270
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-03.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-03/susato-1551-03.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-03/susato-1551-03.abc
+% Rhythm Basse dance
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

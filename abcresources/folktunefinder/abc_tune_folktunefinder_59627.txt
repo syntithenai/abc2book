@@ -1,0 +1,54 @@
+X:740
+T:Vite, vite, vite
+C:Tradicional. Iga de Fidel Maya y Francisco Rodrguez Lavandera
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Iga de Fidel Maya y Francisco Rodrguez Lavandera.
+N:Transcrito de las postales musicales de Pachn de Mels.
+A:Asturies
+B:lbum. Alma Asturiana. Fidel Maya y Francisco Rodrguez Lavandera
+G:Arrg.
+Z:Maya y Lavandera
+M:3/8
+L:1/8
+Q:3/8=70
+E:2 Voces
+K:D
+V:1
+F|
+A2B|AGA|FD2-|DzA|
+d2e|dcA|BA2-|AzF|
+A2B|AGA|FD2-|DzA|
+d2e|dcA|BAF|GFE|
+A2F|GFE|AzA|
+|:AFD|EFG|GEC|[1 D2A:|[2 Dz2||
+V:2
+z|
+D,[A,F,]A,,|C,[A,G,]A,,|D,[A,F,]A,,|D,[A,F,]A,,|
+F,[DA,]A,|G,[CE]A,,|F,[DA,]A,,|D,[A,F,]A,,|
+D,[A,F,]A,,|C,[A,G,]A,,|D,[A,F,]A,,|D,[A,F,]A,,|
+F,[A,D]A,,|G,[CE]A,,|F,[DA,]A,,|E,[A,C]A,,|
+D,[A,F,]A,,|C,[A,G,]A,,|D,[A,F,][A,F,]|
+|:D,[A,=C][A,=C]|D,[G,B,][G,B,]|D,[G,=B,][G,=B]|[1 D,[F,A,][F,A,]:|[2 [A,F,D,]z2||
+W:La Rosina nel rosal
+W:ya se va esfoyando,
+W:xardinera de mio vida
+W:l'agua se la va llevando.
+W:
+W:Entrala y nun temas
+W:soldadito veterano
+W:entrala y nun temas
+W:que yo te dar la mano.
+W:
+S:https://www.folktunefinder.com/tunes/59627
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 38
+T: Salonkyl\"an polkka
+R: polka
+O: trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"A2df a2b2 | abaf a2f2 | "A7"gagf g2e2 | "D"fgfe f2d2 \
+|  "D"d2ef a2b2 | abaf a2f2 | "A7"gagf gfef | e2d2 "D"d4 :|
+|: "A"eefe eefe | e2c2 A3c | "E7"e2d2 B3c | "A"e2c2 A3c \
+|  "A"eefe eefe | e2c2 A3c | "E7"e2d2 BBcB | "A"A2c2 A4 :| [K:G]
+|: "D7(G7)"d4 d4 | "C"e4 e4 | "D7"f2gf e2f2 | "G"g6 Bc \
+|   d2B2 e3d | "C"d2c2 cBAB | "D7"c2A2 f3e | "G"e2d2 dcBc |
+|  "G7"d4 d4 | "C"e4 e4 | "D7"f2gf e2f2 | "G"g6 Bc \
+|   d2B2 e3d | "C"d2c2 cBAB | "D7"cBAB cdef | "G"g2g2 g4 :|
+%%newpage
+S:https://www.folktunefinder.com/tunes/8191
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

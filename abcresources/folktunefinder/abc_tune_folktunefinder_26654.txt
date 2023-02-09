@@ -1,0 +1,26 @@
+X:6202
+T:Spel-Borgens polska
+O:england
+R:Polska
+Q:1/4=120
+M:3/4
+L:1/16
+A:Medelpad
+K:Dm
+A3d A2G2 G2F2|F2E2 (ED)EF D4|A2=B^c d2e2 f2gf|e2fe d2ed ^c2A2|\
+A3d A2G2 G2F2|F2E2 (ED)EF D4|A2=B^c d2e2 f2gf|e2d^c d8::\
+A4 f4 f2a2|a2gf e4 g2eg|f2ef d2e2 f2gf|e3^c c2A2 A2=Bc|\
+d3F E2D2 ^C3D|E2FG A2BA G2AB|A4 f4 f2a2|a2gf e4 g2eg|\
+f2ef d2e2 f2gf|e3^c c2A2 A2=Bc|d3F E2D2 ^C3D|E2FE D8:|
+S:https://www.folktunefinder.com/tunes/26654
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

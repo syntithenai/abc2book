@@ -1,0 +1,30 @@
+X:244
+T: Mai bian shi
+N: C0382
+O: China,Hebei
+S: IV, 72]
+N: typisch fuer Shi diao oder mai ben shi diao.
+R: Xiaodiao. Jiaomai]
+M: 2/4
+L: 1/8
+K: D
+BdA2 | BdA2 | Bd2F | ABA2
+FABd | ABAF | EFEB, | D3
+E | AFAF | EFAF | EFEB, | D4
+BdA2 | BdA2 | Bd2F | ABA2
+deff | Fde2 | ddeB | AFA2
+BdA2 | BdA2 | Bd2F | ABA2
+deff | Fde2 | ddeB | AFA2
+S:https://www.folktunefinder.com/tunes/112671
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. jiaomai]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

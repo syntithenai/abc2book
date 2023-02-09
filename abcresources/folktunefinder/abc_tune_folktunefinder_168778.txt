@@ -1,0 +1,18 @@
+X:1
+T:Jones' Ale
+M:6/8
+L:1/8
+K:F
+ DD| F2 F F2 F| F3 A,2 B,| CCC C2 C| C3 F,2 F| GGG C2 E| G3 F2 G| A2 G FED|\
+ C3- C2 C| FFF C2 C| F2 F A2 F| G2 G C2 E| G2 F EDC| D2 D B,2 D| C2 B, A,2 F,|\
+ C2 CC-D E| F2 G A2 c| B2 G E2 C| F3- FC C| FFF CCC| FFF AGF| GGG C2 E|\
+ G2 F EDC| D2 D B,2 D| CCB, A,G,F,| C2 CC-D E| F2 G A2 c| B2 G E2 C|\
+ F3- F||
+S:https://www.folktunefinder.com/tunes/168778
+S:http://back.numachi.com:8000/dtrad/abc/JONESALE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

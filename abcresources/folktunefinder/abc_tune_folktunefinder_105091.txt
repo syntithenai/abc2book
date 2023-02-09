@@ -1,0 +1,32 @@
+X: 37
+T: Mary Ellen Carter
+M:4/4
+R:song
+L:1/8
+Z:added by Alf warnock alf0@rogers.com - http://members.rogers.com/alf0
+K:F
+|:c2|"F"c2c2 c2B2|"Fmaj7"A2f2 f2ef-|"Gm"f2g2 "C7"g2ef-|"F"f6a2|\
+"Bb"bb2b3a2|"Gm"g2ff4d|"Bb"d3d e2f2|"C"g6a2|
+"F"a3a ab3|"Fmaj7"a2g2 f2e2|"Bb"d2f2 fd3|"F"c5c2c|\
+"Gm"B2B2 BB3|Bc3 dB3|"C"G8-|G4 c2c2|
+"F"c2B2 c2BA-|"Fmaj7"A2f2 f2df-|"Gm"f2g2 "C"g2ef-|"F"f7a|\
+"Bb"b2b2 b3a|"Gm"g2f3f3|"Bb"d2d2 e3f|"C"g4-ga2a|
+"F"a3a a2b2|"Fmaj7"ag3 f2e2|"Bb"d2f2 f3d|"F"c4 c2cB-|"Gm"B2c2 dc3|"C"ce3 g2f3-|"F"fff6|
+[1 "Am"z8|"Gm"z8|"C7"z8|"F"z8|"Am"z8|"Gm"z8|"C7"z8:|
+P:Chorus
+b2>a2|"Gm"g8-|"C7"g4 a4|"C7"gag "Am"f-f4-|f3 fe3|"Bb"d4 d2g2|f4 e2d2|
+"F"c4 AGF2|"C"G6d2|"F"c3d c2BA-|A2f2 d4|
+"Bb"fg3 "C"g3a|"F"a2f2 e2dd-|d3f fd3|"C"c2e2 f4| "F"gf7-|f8||
+P:lick
+FGAB|"F"c7d|c4 cBAG|"Bb"F2D4-DE|D4 CDEF|"Gm"G6A2|G6E2|"Bb"F4 FED2|
+"C"C4 FGAB|"F"c7d|c4 cBAG|"Bb"F2D4-DE|D4 CDEF|"Gm"G6A2|G6A2|"Bb"G4 "C"GFE2|"F"F8|]
+S:https://www.folktunefinder.com/tunes/105091
+S:http://www.alfwarnock.info/alfs/abc/AlfSongs.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

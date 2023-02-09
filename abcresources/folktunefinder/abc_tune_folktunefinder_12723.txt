@@ -1,0 +1,23 @@
+X: 1
+T: Savila se bela loza
+O: Srbija
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+P: C
+K: C
+|: "C"ggab "F"c'c'ba | "C"agg2- gc'ba | "(G)"agg2 gaag |
+| "G"gff2- fggf | "C"e2"G"d2 "C"c4 :: "C"ge"G"fd "C"cee2 | "G"fd"D"ec "G"Bd"(3times)"d2 :|
+P: G
+K: G
+|: "G"ddef "C"ggfe | "G"edd2- dgfe | "(D)"edd2 deed |
+| "D"dcc2- cddc | "G"B2"D"A2 "G"G4 :: "G"dB"D"cA "G"GBB2 | "D"cA"A"BG "D"FA"(3times)"A2 :|
+S:https://www.folktunefinder.com/tunes/12723
+S:http://trillian.mit.edu/~jc/music/abc/Serbia/SavilaSeBelaLoza_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/SavilaSeBelaLoza_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

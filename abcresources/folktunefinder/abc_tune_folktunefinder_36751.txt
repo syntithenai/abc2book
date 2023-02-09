@@ -1,0 +1,28 @@
+X:3360
+T:Marchioness of Huntly's favourite jig
+C:William Marshall
+M:6/8
+O:Scotland
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000009d2.html
+%%ID:000009d2
+K:C min
+G|\
+c2d e2c|d2b fed|c2d e2f|g2E gfe|\
+d2b b=ag|fdB Bcd|e2c {e}dc=B|c3 A2:|
+D|\
+E2C G,2E|FDB, B,2D|C2E D2F|E2G F2A|\
+G2e B2G|FDB, B,2d|{d}e2c {e}dc=B|c3 C2D|
+E2C G,2E|FDB, B,2D|C2c cde|d2B, def|\
+E2g gfe|dcB def|gfe dc=B|c3 C2|]
+S:https://www.folktunefinder.com/tunes/36751
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

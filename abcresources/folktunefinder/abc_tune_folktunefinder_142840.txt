@@ -1,0 +1,27 @@
+X: 1
+T: Braemar Gathering March, The
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|: E | 
+A2 A A>Bc | A>ce f>ec | B2 B B>cA | B>ce f2 a |
+A>AA AcB | A>ce f>ea | f<af eca | A>AA A2 :|
+|: e | 
+ff/f/f f>ga | fd/e/f f>ec | e2 e e>ga | ee/e/e ecB |
+c2 c c>BA | A>cB A>ce | f<af eca | A2 A A2 :|
+|: E | 
+A2 A c>BA | c>eA c>BA | B2 B B>ce | ff/g/a fec |
+AA/A/A c>BA | c>ea c2 e | f<af eca | A>cB A2 :|
+|: a | 
+f>aa f>ea | f<ae f>ec | f>ee e>ca | f<ea ecA |
+c>BA Ac/B/A | B>ce f2 e | f<af eca | AA/A/A A2 :|
+S:https://www.folktunefinder.com/tunes/142840
+S:http://www.thesession.org/tunes/display/6905
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Oblivion
+M:4/4
+L:1/4
+C:Bud Powell
+Q:1/4=240
+K:Eb
+%%text (up)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+B/ z/c/ z/d/ |: "Am7b5"e3d- | "D7"d2 z/c=A/ | "Gm7b5"B3c- | "C7"c2 z/BG/ |
+"Fm7"A3c- | "Bb7"c2 B/c/B/A/ | "Eb6""Em7"G4- | "Em7""A7"G2 "A7"" "C/D/E/F/ ||
+P:B
+"Abmaj7"G3_G- | "Abm7"G>G z/F/E/ | "Gm7"F_F/E/ z/G/ z/B/ | "Cm7"df2e |
+[1"F7"=B4 | zc/d/- d/c/E/E/ | "Fm7"F4 | "Bb7"z>B z/c/ z/d/ :|
+[2"F7"z(3d/_d/c/ =B/G/E/C/ | "Bb7"(3_d/c/_c/ _B/_G/ D/_D/_C/=A,/ | "Eb6"B,z z2 | "T.A."z4 |]
+S:https://www.folktunefinder.com/tunes/18894
+S:http://trillian.mit.edu/~jc/music/abc/song/Oblivion.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/oblivion.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/Oblivion.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/oblivion.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 1
+T: 2. Minuet
+C: G.F.Handel
+M: 3/4
+L: 1/8
+K: Gm
+V: 1
+|: GAB2A2 | Bcd2c2 | d2g2~^f2 | gab2a2 | g2d2e2 | Tc3B/c/d2 | edcBAG | T^F3=E/F/D2 :|
+|: ^f2~g2a2 | d2bagf | =e2~f2g2 | c2agf_e | d2e2f2 | G2e2d2 | c2B2A2 |
+   B3cBc | dcB2f2 | Tf6 | BAG2d2 | Td6 | ^F=ED2G2 | A=Bc2B2 |
+   cde2d2 | =e^fg2a2 | gab2a2 | GAB2A2 | g2B2~A2 |1 G6 :|2 "fine"[G6B,6] ||
+|: g6 | a6 | b2a2g2 | ^fga2d2 | e2d2c2 | d2g^fg2 | B2cBAB | G6 :|
+|: B6 | Tc6 | d2edcB | f2edcd | edefga | b2f2g2 | d2edcd | B6 |
+   g6 | a6 | b2a2g2 | ^fga2d2 | e2d2c2 | d2g^fg2 | B2cBAB | "D.C.al fine"G6 :|
+V: 2
+|: G,2G2^F2 | G2B2A2 | B2G2d2 | B2G2d2 | B2G2c2 | A2D2B,2 | C2D2E2 | D2A,2D2 :|
+|: D2=E2^F2 | G2A2B2 | C2D2=E2 | F2G2A2 | B,2C2D2 | E2C2D2 | E2F2F2 |
+   B,2D2F2 | B2A2G2 | F2A2F2 | G2F2E2 | D2^F2G2 | A,2B,2G,2 | ^F2D2G2 |
+   E2C2G2 | c2A2d2 | B2G2d2 | B,2G,2D2 | B,CD2D2 |1 G,2B,2G,2 :|2 "fine"G,6 ||
+|: G2B2G2 | d2^F2D2| G2=F2E2 | D2^F2G2 | C2D2E2 | B,2A,2G,2 | D2C2D2 | G,2B,2D2 :|
+|: G2F2G2 | E2C2F2 | B2F2G2 | D2E2F2 | G2F2E2 | D2B2C2 | F2E2F2 | D2DCB,A, |
+   B,2B,2G,2 | D2^F2D2 | G2=F2E2 | D2^F2G2 | C2D2E2 | B,2A,2G,2 | D2C2D2 | "D.C.al fine"G,2B,2D2 :|
+S:https://www.folktunefinder.com/tunes/43981
+S:http://trillian.mit.edu/~jc/music/abc/classical/Handel/EasyDuets_2_Minuet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

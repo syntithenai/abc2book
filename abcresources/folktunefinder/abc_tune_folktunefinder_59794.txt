@@ -1,0 +1,37 @@
+X:907
+T:Xiraldilla (CT 441)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Cabranes.
+A:Asturies
+O:Cabranes
+Z:Cancioneru de Torner 441
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+G|: ccG|c2 c|dBc|ded|{c}d2 B|A G2-|[1 GzG :|[2 Gze|
+e2 d|cee|e2 d|cce|e2 d|cee|e2 d|c c2-|cz||
+W:La ronda y la contrarronda
+W:se encontraron en la calle;
+W:pudo ms la contrarroonda,
+W:aunque la ronda era grande.
+W:
+W:Qu guapa eres,
+W:qu bien te estaba
+W:la saya verde
+W:y la colorada.
+W:
+S:https://www.folktunefinder.com/tunes/59794
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

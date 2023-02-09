@@ -1,0 +1,29 @@
+X:1
+%%Copyright 1934, Warner Bros. Inc.
+T:You and the night and the music
+M:4/4
+L:1/4
+C:Arthur Schwartz & Howard Dietz
+Q:1/4=190
+K:Cm
+%%staves (chords melody)
+%%text (medium/up)
+%%vskip 20
+P:A
+V:chords
+"Cm"x2 x2 | "( Dm7b5"x2 "G7 )"x2 | "Cm"x2 "C7"x2 | "Fm"x2 x2 |
+"Dm7b5"x2 x2 | "G7"x2 x2 | "Cmaj7"x2 x2 |[1 "Ab7"x2 "G7"x2 :|[2 x2 x2 ||
+V:melody
+(3GA^F (3GA^F | GG z2 | (3GA^F G/cG/ | F2 z2 |
+S:https://www.folktunefinder.com/tunes/19081
+S:http://trillian.mit.edu/~jc/music/abc/song/You_and_the_night_and_the_music.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/you_and_the_night_and_the_music.abc
+S:http://trillian.mit.edu/~jc/music/book/jazz/you_and_the_night_and_the_music.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/song/You_and_the_night_and_the_music.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

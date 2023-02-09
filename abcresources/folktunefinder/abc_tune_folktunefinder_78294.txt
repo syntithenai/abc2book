@@ -1,0 +1,25 @@
+X:273
+T: GESUND UND FROHEN MUTHES
+N: B0323
+O: Europa, Mitteleuropa, Deutschland
+R: Trink -, Tafel - Lied, religioes
+M: 4/4
+L: 1/8
+K: D
+D,2 | A,3A,A,2A,2 | B,4A,2
+D2 | D3F,F,2F,2 | A,4F,2
+E,2 | F,2^G,2A,2C2 | D4B,4 | A,4z2
+A,2 | A,3A,C2C2 | E4C2
+A,2 | A,3A,D2D2 | F4D2
+A,2 | A,3A,E2E2 | G4E4 | D4z2
+S:https://www.folktunefinder.com/tunes/78294
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Trink -, tafel - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

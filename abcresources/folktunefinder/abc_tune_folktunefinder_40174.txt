@@ -1,0 +1,22 @@
+X:11
+T:De tous les coeurs
+M:3
+L:1/4
+K:C
+%%staves [1 2]
+V:1
+c>d!!B | c3 | cef | g2a | !!g2f | !!e2d | c>d!!B | c3 | eef | dg2 | !!^f2g |1 g3 :|2 g3 |:
+gab | c'2g | (ag)f | g2{f}e | gfe | de2 | !!B2c | d2G | c>d!!B |1 c3 :|2 c3 |]
+V:2
+C>F,G, | C,3 | C2F, | E,2F, | E,2D, | C,2G, | C>F,G, | C,>(G,A,/B,/) | CCF, | G,E,C, | D,D,,2 |
+G,,>G,A,/B,/ :| G,,>D,E,/F,/ |: G,2F, | E,2E, | F,E,D, | C,2C | E,D,C, | B,,C,2 | G,2C, | G,,2G, | E,>F,G, | C,>CB,/A,/ :| C,3 |]
+S:https://www.folktunefinder.com/tunes/40174
+S:http://michel.bellon.free.fr/Musique/abc/HoteterreGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 67
+T:Heaving of the Lead. JC.065
+M:C
+L:1/8
+Q:120
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Air
+O:England
+A:Northamptonshire
+N:MR.Bar 14 following the dotted qu, the qu in theMS is given as a
+N:semi-qu.
+Z:vmp.P. Headford
+K:G
+G>A|B2B2A2c>A|G2F2G2zD|(GA)(Bc)d2zd|ef(ge){e}d2zd|!
+g3fe3d|(^cB)(AG){G}F2zA|d2d2(Be)(fg)|d2^c2d2zd|!
+g3g (gf2)f|(ge)e2{e}d2zd|(dB2)e (cA2)d|BG2^cd4|!
+G>GA2G4|B>Bc2B3B|(Ae)(dc) (cB)(dB)|(Ae)(dc) (cB)(dB)|!
+(cB)(AB) (cB)(cd)|(ed)(ef)g4|B3c{B}A4|G2z2z2|]
+W:Song text exists. See Deacon.|
+S:https://www.folktunefinder.com/tunes/83650
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

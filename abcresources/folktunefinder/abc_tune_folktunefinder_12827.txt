@@ -1,0 +1,35 @@
+X: 18
+T: Sitting in the Stern of a Boat
+T: Mi'm shuidh'an deireadh b\`ata
+C: Rev. William McLeod
+B: Fraser p.66 #161; Hunter #13.
+N:
+N: Fraser says that the Rev. McLeod was minister in Bracadale (Skye) in the 1860's or 1870's.
+N: Hunter says that this tune was composed as the Reverend sailed from Bracadale to his new
+N: parish in Argyllshire.
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+ "(D7)"(3D/E/F/ \
+| "G"G>A GF "C"E2 "G"DG | "(Em)"B>c {Bc}d>B "D7"{B}A2 "C"GE \
+| "G"D>E G>A "Em"B2 g/e/d/c/ | "D7"B>c {B}~A>G "G"G3 :|
+y"(G7)"g \
+| "C"e>^d ef "G"g3 b | "Am"a>g "B7"ab "Em"{g}e2 dB \
+| "G"de/f/ g>a "Em"g>a g/a/g/f/ | "B7"e^d ef "Em"{f}e3 |]
+y"(G7)"g \
+| "C"e>d "G"Bd g2 Bb | "Em"g>e dB "D7"A2 "C"GE \
+| "G"D>E G>A "Em"B2 g/e/d/c/ | "D7"B>c {B}~A>G "G"G3 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/12827
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/air.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

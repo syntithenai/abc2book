@@ -1,0 +1,26 @@
+X: 7760
+T:Schottis fr \AA{}s (Haka p\aa{} dej Britta ...)
+R:Schottische
+R:Polkett
+O:Sweden
+M:4/4
+C:e. Erik Nilsson
+A:J\"amtland
+K:G
+G>Bdg b2g2 | G>Bdg gff2 |\
+f>ece e>dBd |1 d>cAB c2BA :|2 d>cAF G2z2 :|
+|:A|\
+B2(3BAB c2c2 | cBBA AGGB |1 \
+d2 (3dcd e2e2 | d2dB G3A :|2 \
+g>ece edBd | d>cAF G3 :|
+S:https://www.folktunefinder.com/tunes/34977
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Schottische
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

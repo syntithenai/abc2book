@@ -1,0 +1,25 @@
+X:1
+T:Miss Sharpe's Fancy
+C:Charles Sharpe
+R:jig
+G:fiddle jig, early 18th cent.
+S:The Gow Collection of Scottish Dance Music
+M:6/8
+Q:3/8=120
+K:D
+%%MIDI gchord cccccc
+f| d2A AFA| B2A AFA| d2A AGF| ECA, A,2A| d2A AFA| B2A ABc|
+   dgf eac| d3 d2 :| f| afd dfa| ged ceg| fed dcd| ecA A2f|
+   afd dfa| ged ceg| fad egc| d3 d2f| afd dfa| ged ceg|
+   fed dcd| ecA A2d| FAd FAd| GBd BGd| Agf eac| D3 D2|]
+S:https://www.folktunefinder.com/tunes/176315
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/MissSharpesFancy.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/MissSharpesFancy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

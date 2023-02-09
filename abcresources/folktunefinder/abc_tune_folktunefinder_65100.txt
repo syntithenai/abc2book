@@ -1,0 +1,22 @@
+X: 12
+T:The Leaking Bagpipe
+% Nottingham Music Database
+S:The Cantii Collection, via Phil Rowe
+M:6/8
+K:G
+D3 |"Em"E3 B2A|B2G E2G|"D"F3 A2G|A2F DEF|"Em"E3 B2A|"Em"B2c d2e|"G"B2A "C"G2F|\
+S:https://www.folktunefinder.com/tunes/65100
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/jigs.txt
+S:http://www.guitarnut.com/nmd/jigs.txt
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

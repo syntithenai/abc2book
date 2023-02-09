@@ -1,0 +1,38 @@
+X: 1
+T: Loch Leven Castle
+R: reel
+O: RSCDS 21-3(I)
+B: RSCDS 21-3(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "C"efga gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd |
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 :| \
+eg \
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega gede | "C"c2G2 "Em"G2eg |
+| "Am"a2ab ageg | "Am"a^gab a2=ge \
+| "G"dega "E(m)"gede | "Am"c2A2 A2eg \
+|]| "Am"a2ab "Em"ageg | "Am"a^gab "D7"a=ge^f |
+| "G"g^fga "Em"gede | "C"c2G2 "E(m)"G2cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd \
+| "Am"eaga "E(m)"gede | "Am"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/17566
+S:http://trillian.mit.edu/~jc/music/abc/reel/LochLevenCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/LochLevenCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LochLevenCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/LochLevenCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LochLevenCastleR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

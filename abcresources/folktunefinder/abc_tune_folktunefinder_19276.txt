@@ -1,0 +1,24 @@
+X: 1
+T: Cortes Gardens
+C: J.S.Skinner
+R: strathspey
+M: 4/4
+L: 1/8
+K: Em
+B \
+| "Em"E2 G>E B>E G>E | B,>E G>E "D"F<D D>F \
+| "Em"E>G B>^d e>B G>E |1 "Am"A/B/c "B7"B>A "Em"G>F E :|2 "Am"A/B/c "B7"B>^d "Em"e<E E ||
+F \
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"G>B d>f g>d B>G | "Am"A/B/c "B7"B>^d "Em"e<E E>F |
+| "G"G2 D>G B,>G G,>G | B,>G G,>G "A7"E>A, "D7"A,>F \
+| "G"(3GAB "D"(3ABc "Em"Bcd "C"cde |1 "G"dcB "D"cBA "Em"BAG "B7"FE^D :|2 "G"dcB "Am"cBA "Em"GE E |]
+S:https://www.folktunefinder.com/tunes/19276
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/CortesGardensS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

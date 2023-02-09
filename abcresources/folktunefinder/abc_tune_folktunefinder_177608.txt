@@ -1,0 +1,28 @@
+X:1
+T:Muireann's Jig
+M:6/8
+L:1/8
+C:Niall Vallely
+R:jig
+D:Nially & Cillian Vallely: Callan Bridge
+Z:Devin McCabe
+K:BMin
+dBA ~B3|def ede|f2e ede|faf efe|
+dBA ~B3|def ede|fba fed|fee edB:|
+BAB e3|BAB fef|Bba fed|fee edB|
+BAB e2B|BAB fef|baf aba|fee edB:|
+BAF E2F|FDE FDE|FAA ABB|Bdd edB|
+BAF E2F|FDE FDE|FAB def|1fed edB:|2fed e2e|]
+fef b2f|fef ~a3|fba fed|fee ede|
+fef b2f|fef ~a3|baf aba|1fee ede:|2fee edB|]
+S:https://www.folktunefinder.com/tunes/177608
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_muireann_s_jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X: 39
+T:Dror Yikra
+L:1/8
+S: H.Kirsch : Songs and Folk Dances bk 10 (c) 1969 NEGEN
+O: Israel
+I: choreographer Moshiko, E. Gamliel
+M:2/4
+Q:1/4=80
+K:C
+ D                                           |"Em" EE/2D/2 EF/2E/2 |\
+ "Am" A>B "Em" G2                            |"Dm" F/2E/2F "Em" ED |
+ EE/2D/2 EF/2E/2                             |\
+M:3/4
+ "Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |"Em" E4-E D          |\
+L:1/8
+M:2/4
+ "Em" EE/2D/2 EF/2E/2                        |"Am" A>B "Em" G2     |\
+ "Dm" F/2E/2F "Em" ED                        | EE/2D/2 EF/2E/2     |
+M:3/4
+ "Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |\
+L:1/8
+M:2/4
+ "Em" E4                                     |\
+ z "Am" E/2B/2 "Gm" BB                       | B2 B/2A/2c/2B/2     |\
+ "Am" A2 "Em" G>A                            | BA GF               |
+ E>F ED                                      | EE/2D/2 EF/2E/2     |\
+ "Am" A2 "Em" G2                             |"Dm" F/2E/2F "Em" ED |\
+ EE/2D/2 EF/2E/2                             |
+M:3/4
+ "Am" A/2G/2A/2B/2 "Em" G2 "Dm" F/2E/2F/2E/2 |\
+L:1/8
+M:2/4
+ "Em" E4-                                    |E3                   |
+S:https://www.folktunefinder.com/tunes/154581
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Israel/Dror_Yikra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

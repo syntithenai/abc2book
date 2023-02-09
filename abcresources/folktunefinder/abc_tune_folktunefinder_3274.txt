@@ -1,0 +1,27 @@
+X: 1
+P: Scottish Reform (The Prince of Wales)
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: RSCDS-3 (1910)
+M: 6/8
+L: 1/8
+K: D
+|: (F/G/) \
+| "D"ABA AFA | d3- dcB | ABA "B7"AGF | "Em"EGF "A7"EFG \
+| "D"ABA AFA | "Bm"d3- def | "Em"gfg "A7"eag | "D"fdd d2 :|
+|: f/g/ \
+| "D"afd def | "Em"gba "A7"gfe | "D"afd "Em"g2f | "A7"ecA A2f/g/ \
+| "D"afd def | "Em"gba "A7"gfe | "Em"gfg "A7"eag | "D"fdd d2f/g/ |
+| "D"afd def | "Em"gba "A7"gfe | "D"afd "Em"g2f | "A7"ecA ABc \
+| "D"dfd "A"ecA | "Bm"BdB "D"AFD | "Em"GFG "A7"EAG | "D"FDD D2 |]
+S:https://www.folktunefinder.com/tunes/3274
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ42.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:7v. Sancti mei
+C:Orlando Lassusio
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:F treble8
+T:Tenor
+%%MIDI transpose -12
+N:Original clef, C on second line
+%1
+z4 F8 A4 G4 F4 z4 c3 B A G F4 E D C2 F3 E/ D/ E2 F G A B c4 A4
+S:https://www.folktunefinder.com/tunes/58278
+S:http://www.laymusic.org/music/bicinia/sanctimei/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:14
+T:Black Mill
+Z: id:dc-reel-368
+M:C
+L:1/8
+K:A Mixolydian
+gf|edef g2fe|dBGB dBGB|edef gage|dBgB A2:|!
+cd|e2ed eAAB|dBGB dBGB|e2ed eAAB|dBGB A2cd|!
+e2ed eAAB|dBGB dBGB|edef gage|dBgB A2|]!
+S:https://www.folktunefinder.com/tunes/65567
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

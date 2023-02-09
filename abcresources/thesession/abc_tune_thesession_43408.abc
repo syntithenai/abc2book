@@ -1,0 +1,12 @@
+X: 43407
+T: XYZ
+R: hornpipe
+M: 4/4
+K: Gdorian
+|:uD2|"Gm" vG2 BG "F" (AB)cA|"Bb" !slide!d2 fd "F" (cA)F(uA|"Gm" B2) d(uB"F" A2) c(uA|"Eb" G2) BG"D" ^F2 (u=ED)|
+"Gm" vG2 BG "F" (AB)cA|"Bb" !slide!d2 fd "F" (cA)F(uA|"Eb" BA)BG "D" DG^F(uA|"Gm" .G2) vG2- G2:|
+|:ud2|"G" vg^fga g2 d2|(g^fg)a g2 d2|"F" (f=ef)g fag(uf|"C" =e2) vc2- c2 (udc)|
+"Gm" vB2 GB"F" A2 FA|"Gm" B2 GB"F" A2 F(uA|"Eb" BA)BG "D" DG^F(uA|"Gm" .G2) vG2- G2:|
+"^Bars 3-4: Variation 1" B2 fB A2 eA|G2 dG ^F2 dD||
+"^Variation 2" Bg-gB Af-fA|Ge-eG ^Fd-dD||
+

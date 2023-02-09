@@ -1,0 +1,19 @@
+X:1
+T:Chevy Chase
+M:3/4
+L:1/8
+K:G
+ A| BA G3 A| BA G3 B| ce d3 B| A4 z B| ce d3 B| dB G3 d| eg B2 A2|\
+ G4 z||
+S:https://www.folktunefinder.com/tunes/147996
+S:http://back.numachi.com:8000/dtrad/abc/CHEVCHAS.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CHEVCHAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

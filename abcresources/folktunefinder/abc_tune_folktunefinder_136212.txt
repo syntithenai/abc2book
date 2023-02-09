@@ -1,0 +1,19 @@
+X:4
+T:Key signature, Accidentals and Decorations
+M:C
+K:A
+L: 1/4
+ ^C=C_C ^G=G_G | .F/.G/.A/ Ma/Mg/Mf/ Jc J^c  J[c^f] J[c^g]  |\
+ {f}e {C}D {cd}c {E^c}a2 {dedc}d|
+ uc vc'-c'/Mb/Mc'/Ma/ | (b4 | b/).a/.b/.c'/ | ~A ~g \
+% RA Rg MA Mg | .A .g vf/-g/ (u.a/.b/)  | uR~M.c2  Hg4 || % abcm2ps: '-' is not a slur
+ RA Rg MA Mg | .A .g (vf/g/) (u.a/.b/)  | uR~M.c2  Hg4 ||
+S:https://www.folktunefinder.com/tunes/136212
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

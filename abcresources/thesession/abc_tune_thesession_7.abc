@@ -1,0 +1,21 @@
+X: 6
+T: 100 Watt Reels
+R: reel
+M: 4/4
+K: Ddorian
+|:"A".d.DD/D/D .A.DD/D/D|.d.DD/D/D c2Bc|.d.DD/D/D AG^FA|GECE GABc|
+.d.DD/D/D .A.DD/D/D|.d.DD/D/D c2Bc|.dBBA BdcA|1 GECE GABc:|2 GECE G2FG||
+|:"B"A2.F.A .D.A.FA-|AGAB c2Bc|A2.F.A .D.A.F.A|G2.E.G .C.G.E.G|
+.A2.[FA]2 [DA-]2[FA]A-|AGAB c2Bc|.dBBA BdcA|1 GECE G2FG:|2 GECE .G2 z2||
+"C".[fa].dd/d/d .a.d.[df].d|d/d/d.f.d .a.d.[df].d|.[^ce].cc/c/c .e.c.[eg].c|.e.^c.[eg].c .e.c.[eg].c|
+.[df].dd/d/d .a.d.[df].d|d/d/d.f.d .a.d.[df].d|.[^ce].cc/c/c .e.c.[eg].c|.e.^c.[ce].c .[df]2 z2||
+[f-a]3[df] .a.d.[df].d|d/d/d.f.d .a.d.[df].d|.[eg].^cc/c/c .e.c.[eg].c|.e.^c.[eg].c .e.c.[eg].c|
+.[fa].dd/d/d .a.d.[df].d|d/d/d.f.d .a.d.[df].d|.[eg].^cc/c/c .e.c.[eg].c|.e.^c.[ce].c .[df]2 z2||
+"D"a2.A.A f2.A.A|d2.A.A c2Bc|A2.F.A .D.A.F.A|G2.E.G .C.G.E.G|
+"B".A2.[FA]2 [DA-]2[FA]A-|AGAB c2Bc|.dBBA BdcA|GECE G2FG||
+A2.F.A .D.A.FA-|AGAB c2Bc|A2.F.A .D.A.F.A|G2.E.G .C.G.E.G|
+.A2.[FA]2 [DA-]2[FA]A-|AGAB c2Bc|.dBBA BdcA|GECE GABc||.
+|"Variations" "A" {c}/d2 (3 ddd d2 (3 ddd|[Ad-]d (3 ddd c2Bc "etc."||
+"D" a3.A f2.A.c|d3.A c2Bc "etc."||
+"D" a2 (3 ddd .f2 (3 AAA|.d2 (3 AAA c2Bc "etc."||.
+

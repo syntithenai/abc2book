@@ -1,0 +1,25 @@
+X:2
+T:Luck Penny, The
+R:jig
+C:Syracuse session setting
+L:1/8
+M:6/8
+K:G
+&quot;G&quot;BAG &quot;C&quot;AFD|&quot;G&quot;~G3 &quot;D&quot;FGA|&quot;G&quot;BAG &quot;C&quot;BdB|&quot;G&quot;cAG &quot;D&quot;FGA|
+&quot;G&quot;BAG &quot;C&quot;AFD|&quot;G&quot;GBd ~g3|def &quot;C&quot;gdB|1 &quot;D&quot;cAF &quot;G&quot;G2A:|2 cAF G2B|]
+&quot;G&quot;d2g gfg|&quot;D&quot;a2g fga|&quot;G&quot;bag agf|&quot;D&quot;def &quot;G&quot;g2a|
+bag &quot;D&quot;afd|&quot;G&quot;gag &quot;D&quot;fed|def &quot;G&quot;gdB|1 &quot;D&quot;cAF &quot;G&quot;G2B:|2 cAF GBc|]
+P:(ending 1)
+&quot;G&quot;dBG GFG|dBG GAB|&quot;F&quot;cA=F FEF|cA=F FBc|
+&quot;G&quot;dBG GBd|gag &quot;D&quot;fed|def &quot;G&quot;gdB|&quot;D&quot;cAF &quot;G&quot;G (3ABc:|
+</abc>
+S:https://www.folktunefinder.com/tunes/173289
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:jigs:luck_penny&do=edit&rev=
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

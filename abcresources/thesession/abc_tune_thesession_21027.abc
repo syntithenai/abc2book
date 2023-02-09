@@ -1,0 +1,16 @@
+X: 21026
+T: Jump At The Sun
+R: jig
+M: 6/8
+K: Dminor
+|:"twice through +" ^C|DFA ^G2 A|DFA ^G2 A|dAA dAA|BAG FGE|
+DFA B2 A|dFA ^G2 A|d2 A DAA|GFE D2:|
+|:^c|d2 A fed|eAA gfe|dAA fed|e^cA Bce|
+dAd f2 d|eAe g2 e|dAA DAD|GFE D2:|
+|:^C|DFA ^GAA|DFA ^GAA|d2 A dAd|BAG F2 E|
+DAA BAA|dFA ^B2 A|d2 A D2 A|GFE D2:|
+|:^C|DA,D FED|E2 A, GFE|D2 A, FED|E^CA, ^G,2 A,|
+DA,D F2 D|EA,E G2 E|DA,A, DAA|GFE D2:|
+|:"Bpart up an octave" ^c|dAd fed|e2 A gfe|d2 A fed|e^cA ^G2 A|
+dAd fed|eAe gfe|dAA DAA|GFE D2:|
+

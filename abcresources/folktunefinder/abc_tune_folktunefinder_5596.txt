@@ -1,0 +1,35 @@
+X: 1
+P: B\aatsman D\"ack
+O: efter Ceylon Wallin
+R: hambo-polska
+M: 3/4
+L: 1/8
+O: efter Ceylon Wallin
+Z: 1999 John Chambers <jc@trillian.mit.edu>
+K: G
+|: "G"D>G B>G D>G | .B2 B4 | c>B A>G F>G | "D7".A2 A4 \
+|| D>F A>F D>F |  .c2 c4 | d>c B>A G>A | "G".B2 B4 :|
+|: "C"e2 e>d c>e | "G"d>d- d>c B>d | "D7"c>B A>G F>A | "G"G2 (3BGB d2 \
+|| "C"e2 e>d c>e | "G"d>d- d>c B>d | "D7"c>B A>G F>A | "G".G2 G4 :|
+S:https://www.folktunefinder.com/tunes/5596
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Hambo2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/2008NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/Hambo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/program/2008NEFFA/2008NEFFA_Hambo.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Hambo1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/Hambo1.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Hambo01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/CillasWedding/Hambo01.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Hambo01
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Hambo1
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

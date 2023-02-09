@@ -1,0 +1,30 @@
+X: 13993
+T: Frank Jamieson
+R: jig
+M: 6/8
+K: Amajor
+efg|:a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B^df agf|e3 efg|
+a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B2 e dcB|1 : A3 efg:|2 A3 A3||
+K:D
+|:DFA d2 e|fdf agf|gfg B2 e|g3 e2 d|
+c2 B Ace|gba gfe|dfe dcB|ABA GFE|
+DFA d2 e|fdf agf|gfg B2 e|g3 e2 d|
+c2 B Ace|gba gfe|d2 A BAF|1 : D3 A3:|2 D3 ef^g||
+K:A
+a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B^df agf|e3 efg|
+a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B2 e dcB|A3 A3||
+K:G
+|:G,3 B,3|D3 G3|B^AB e2 B|d3 d2 g|
+f2 e A2 B|ced cBA|GBA GFE|D3 D3|
+G,3 B,3|D3 G3|B^AB e2 B|d3 d2 g|
+f2 e A2 B|ced cBA|G2 g edB|1 G3 G3:|2 G3 ef^g||
+K:A
+|:a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B^df agf|e3 efg|
+a3 e3|c3 A3|EAc e2 f|e3 e2 a|
+g2 f e3|b2 g e3|B2 e dcB|1 : A3 efg:|2 A3 z3||
+

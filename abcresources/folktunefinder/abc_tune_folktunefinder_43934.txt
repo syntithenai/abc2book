@@ -1,0 +1,31 @@
+X:345
+T:the Recovery
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:16.10.96
+O:England
+Q:1/8=420
+R:Polka
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000781.html
+%%ID:00000781
+K:G
+Bc|\
+d2de c2cd|B2G2 GABG|c2cA B2BG|A2D2 D2Bc|\
+d2de c2cd|B6 AB|cBAG FGAF|G6 ::
+BG|\
+A2DE FGAc|B2G2 G2AB|c2A2 ABcA|d6 ed|\
+c2AB cAdc|B2G2 G2AB|cBAG FGAF|G6 :|
+S:https://www.folktunefinder.com/tunes/43934
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

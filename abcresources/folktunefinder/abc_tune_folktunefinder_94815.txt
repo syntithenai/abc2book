@@ -1,0 +1,28 @@
+X:220
+U: ~ = !turn!
+%%topmargin 3cm
+T:Woman of the House
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+GB{/c}BA {/c}B2{/c}BA | GABd eBdB | A2AG A2 ((3Bcd) | eB (3.B.B.B eBdB |
+GB{/c}BA {/c}B2{/c}BA | GABd eBdB | A2AG A2GA | BGAG EGG2 ::
+"B1" gfed eB (3.B.B.B | eBgB eB (3.B.B.B | gfed eB (3.B.B.B | eaag a3e |
+gfed eB (3.B.B.B | dgfd eB (3.B.B.B | (3.G.G.G BG A2GA | BGAG EGG2 ::
+{/e}"B2"f2fd edBd | edfd edBd | {/e}f2fd edBd | eaag abag |
+abag edBd | gfgd edBA | (3.G.G.G BG A2GA | BGAG EGG2 :|]
+S:https://www.folktunefinder.com/tunes/94815
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Woman_of_the_House_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Woman_of_the_House_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X: 22699
+T: Lament For Frankie
+R: reel
+M: 4/4
+K: Gmajor
+"Flute"
+|:D3G A4|D3A c3A|B3G c4|A8:|
+g3 fd c3|c3 Bc d3|A8|
+B3 AB c3|B3 AB c3|B3 A|A8||
+"Violin"
+|:D3G A4|D3A c3A|B3G c4|A8:|
+{f}g3 fd c3|c3 Bc d3|A8|
+{F}G3 FD C3|G3FD3C|G3F D4||
+"Flute and Violin together"
+|:D3G A4|D3A c3A|B3G c4|A8:|
+{f}g3 fd c3|c3 Bc d3|A8|
+[G3B3][FA][DB][C3c3]|[G3B3][FA][DB][C3c3]|[G3B3][FA][D4A4]||
+

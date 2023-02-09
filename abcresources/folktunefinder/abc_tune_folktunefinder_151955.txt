@@ -1,0 +1,26 @@
+X:33
+T: Das weinholende Maedchen
+N: Q0129B
+O: Mitteleuropa, Deutschland (BRD) , Rheinland, Niederrhein
+N: Vermutlich keine originale Balladenmelodie sondern Unterlegung des
+N: Balladentextes mit einer anderen Balladenmelodie durch Zuccalmaglio.
+R: Ballade, Werbung
+M: 6/8
+L: 1/8
+K: G
+D | G2GA_Bc | d3A2
+A | d2ddc_B | A2z3
+d | =f_edcde | d3dc
+A | _BAGcBA | G3z2
+S:https://www.folktunefinder.com/tunes/151955
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, werbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

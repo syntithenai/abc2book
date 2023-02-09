@@ -1,0 +1,25 @@
+X:21
+T:Crooked Stovepipe
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:G
+|:\
+G2B2 BcdB|G2B2 BcdB|G2B2 e3B|d2c2 cdcA|
+F2A2 ABcA|F2A2 A2 (3ABc|d2^d2 e2f2|1gfed B2A2:|2g4g2a2||
+|:\
+b3b b2a2|g2g4g2|f2e2 f2g2|a4a2b2|
+c'3c' c'2a2|f2f4e2|d2^d2 e2f2|1g2^g2a2^a2:|2g4g4|]
+S:https://www.folktunefinder.com/tunes/118831
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

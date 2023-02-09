@@ -1,0 +1,26 @@
+X:54
+T:The Road to Tunbridge
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E Phrygian
+|:\
+"Em"EEE2 B3A|B2G2 G2 B2|"Am"AAA2 e3 d|e2A2 "G"A2B2|
+"C"c3d e2g2|"D"dcBA B2G2|"Am"AAA2 "B"B3A|"Em"G2E2 E2 B2:|
+|:\
+"G"GGG2 g3^f|g2d2 d2f2|"Am"eee2 a3g|"Em"a2e2 e2g2|
+"C"g2a2 e2f2|"D"dcBA B2G2|1\
+"Am"AAA2 "B"B3A|"Em"G2E2 E4:|2\
+"F"AAA2 "B"B3A|"C"G2E2 E4|]
+S:https://www.folktunefinder.com/tunes/122778
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,113 @@
+X:2855
+T:Cs\'ard\'as
+C:anon.
+O:Hungary
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/hungary/csardas-a2.abc
+%Posted at abcuser Jan 15th 2001 by Frank Nordberg.
+V:1 Program 1 110 %Fiddle
+V:2 Program 1 40 %Violin
+M:C
+L:1/8
+Q:1/4=132
+K:G
+V:1
+"G"G/G/G/G/ B/B/B/B/ d/d/d/d/ g/g/g/g/|"A"g>f eg "D"f>a df|\
+"A"e>g ^ce "D"d z "B7"^d z|"C"e>d ce "G"dg dB|
+V:2
+G,/G,/G,/G,/ B,/B,/B,/B,/ D/D/D/D/ G/G/G/G/|e>d ^cA d>c BA|\
+^c>e AG F z B z|c>B Ac BdBG|
+%
+V:1
+"D"d^d ec "G"B/=d^c/4d/4 (3(e/4d/4^c/4)d/4e/4 d|"C"e>d ce "G"db ge|\
+"D"d^d ef a/gf/4g/4"G" (3(a/4g/4f/4)g/4a/4 g|\
+"_Fine"Hz2 "C"e2 "D7"f2 "G"Hg2||
+V:2
+FF GA G/BA/4B/4 ^c/4B/4A/4G/4 F|G>F EG BdBG|\
+FF GA c/BA/4B/4 c/4B/4A/4c/4 B|Hz2 e2 f2 Hg2||
+%
+V:1
+K:Gm
+|:"Gm"d2d2 d2d2|"Cm"cde2 "Gm"d3B|\
+"D"AB c2 "Eb"B3G|[1"D7"^FGA2 "Gm"G2 z2:|[2"D7"^FGA2 "Gm"G2 z2||
+V:2
+K:Gm
+|:B2B2 B2B2|ABc2 B3G|\
+^FGA2 G3E|[1D=E^F2 G/F/G/A/ B/A/B/c/:|[2D=E^F2 [B,2G2] z2||
+%
+V:1
+|:"Eb"g^f (g/f/)(g/f/) gag2|"Bb"=f=e (f/e/)(f/e/) "G7"fgf2|\
+"F/C"_ed (e/d/)(e/d/) "F"eg fe|"Bb"ed2^c d4|
+V:2
+|:ed (e/d/)(e/d/) efe2|d^c d/c/d/c/ ded2|c=B (c/B/)(c/B/) ce dc|cB2A B4|
+%
+V:1
+"Cm"c=B (c/B/)(c/B/) cdc2|"Gm"BA (B/A/)(B/A/) BcB2|\
+"D"A2e2 d2^F2|"Gm"AG2^F G/A/G/F/G2:|
+V:2
+C/B,/C/D/ E/D/E/F/ G/^F/G/_A/ G/=F/E/C/|\
+B,/A,/B,/C/ D/^C/D/E/ G/^F/G/A/ B/G/A/B/|\
+A/^G/A/G/ c/=B/c/^c/ d/=c/B/A/ G/^F/D/A/|AG2D G/C/B,/D/ G,2:|
+%
+V:1
+K:G
+|:"G"dBd2 dBd2|"C"ef ge "G"dB "G#dim"d2|\
+"Am".e.e .c.c "D".A.A dd|[1"G"G3F GB c^c:|[2"G"G3F G4||
+V:2
+K:G
+|:BGB2 BGB2|cd ec BGB2|z A z E z F z F|[1GD2B, G,2 z2:|[2GD2B, G,2 z2||
+%
+V:1
+({g/a/}"G"b)b aa gg f3/2(f/4g/4)|"C"aa3 (e2e2)|\
+({f/g/}"D7"a)a gg ff e3/2(e/4f/4)|"G"gg2e (d2d2)|
+V:2
+dd cc BB A3/2(A/4B/4)|cc3 (G2G2)|({A/B/}c)c BB AA G3/2(G/4A/4)|BB2B (G2G2)|
+%
+V:1
+"G"dBd2 dBd2|"C"ef ge "G"dB "G#dim"d2|"Am"ee cc "D"AA d2|\
+"G"G3F G4||"G"GF GA B^A Bc|
+V:2
+BGB2 BGB2|cd ec BGB2|z A z E z F z F|GD2B, G,2 z2||\
+"^pizz"[B,2D2] z2 [B,2G2] z2|
+%
+V:1
+"G"d^c d e d2(ef)|"G"gd3 "Edim"c2B2|"A"BA2^G A(3(B/A/G/)A2|\
+"D"D^C DE F=F ^FG|"D"A^G AB ce dc|
+V:2
+[B,2G2] z2 [B,2G2](cd)|gB3 A2G2|GF2E F/G/F/E/F2|\
+D2 z2 [A,2D2] z2|[A,2D2] z2 [A,2D2] z2|
+%
+V:1
+"G"B<dG2 "D7"A<cF2|"G"AG2F G(3(A/G/F/)G2|\
+({g/a/}"G"b)b aa gg f3/2(f/4g/4)|"C"aa3 e4|\
+({f/g/}"D7"a)a gg ff e3/2(e/4f/4)|
+V:2
+G<BD2 F<AD2|FD2DG4|dd cc BB A3/2(A/4B/4)|cc3 G4|\
+({A/B/}c)c BB AA G3/2(G/4A/4)|
+%
+V:1
+"G"gg2e (d2d2)|"G"dBd2 dBd2|"C"ef ge "G"dB "G#dim"d2|\
+"Am"ee cc "D"AA d2|"G"G3"_D.C. al fine"F G4|]
+V:2
+BB2B (G2G2)|BGB2 BGB2|cd ec BGB2|z A z E z F z F|GD2B, G,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/150481
+S:http://abc.musicaviva.com/tunes/hungary/csardas-a2.abc
+S:http://abc.musicaviva.com/tunes/hungary/csardas-a2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/hungary/csardas-a2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/hungary/csardas-a2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/hungary/csardas-a2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/hungary/csardas-a2.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

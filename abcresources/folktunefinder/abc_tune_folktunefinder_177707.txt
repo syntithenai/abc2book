@@ -1,0 +1,23 @@
+X: 1
+T: The Munster Jig
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20050424021128 by John Chambers jc1742@gmail.com
+K: G
+  D |"G" G2G "D"AGA | "G"Bde gdB | GAB "D"cBA | "G"BGE EDE \
+     | "G"G2G "D"AGA | "G"Bde gdB | "D"cBA "G"BdB | "D"AGF"G"G2 :|
+|: f | "Em"gfg "C"efg | "A"eag "D"fed | "G"gfg "C"efg |"D" afd def \
+     | "G"gfe "D"agf | "Em"gfe "Bm"d2B | "Am"cBA "G"BdB | "D"AGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/177707
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc1742:gmail.com/MunsterJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MunsterJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

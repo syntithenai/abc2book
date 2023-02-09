@@ -1,0 +1,25 @@
+X:780
+T:Happy Clown
+B:Aird's Airs and Melodies vol 2
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000164.html
+%%ID:00000164
+K:G
+D|\
+G2A BAG| d2d d2g| "tr"f2e dcB| c2B AFD|\
+G2A BAG| d2d d2g| fed edc| d3 d2::
+B/c/|\
+dBc ded| dcB c3| cAB cdc| cBA B2d|\
+g2d g2d| g3 gfe| dcB AGF| G3 G2 :|
+S:https://www.folktunefinder.com/tunes/30465
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird2/Aird2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

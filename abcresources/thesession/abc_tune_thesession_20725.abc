@@ -1,0 +1,22 @@
+X: 20724
+T: Johnny Cope
+R: hornpipe
+M: 4/4
+K: Adorian
+A2 A>B A2 B>d|e>fe>d B2 A>G|E>GG>F ~G3 A|B>AG>B d>BG>A|
+B>AA>B A2 B>d|e>fe>d B2 d2|e/f/g f>a g>ed>B|1 B>AA>B A>GE>G:|2 B>AA>B A3 B||
+|:c>Bc>d c2 G2|c>de>f g>ed>B|c>BA>c e3 d|c>de>c d>BG>B|
+c>Bc>d c2 G2|c>de>f g>ed>g|e>aa>g e/f/g e>d|B>AA>B A3 B:|
+|:c>Bc>B A>BA>G|A>Bc>d e/f/g d>c|B>G ~G2 d>G ~G2|c>de>c d>BG>B|
+c>Bc>B A>BA>G|A>Bc>d e/f/g d>g|e>aa>g e/f/g e>d|1 B>AA>B A3 B:|2 B>AA>B A2 B>d||
+|:e2 a2 a2 g>a|b2 a2 g2 e>d|e>fg>f g>ab>a|g>ab>g a>ge>d|
+e2 a2 a2 g>a|b2 a2 g2 g>e|d2 e>f g>ed>B|B>AA>B A2 B>d:|
+|:e4 f>e e>d|e4 f>e d>B|d4 d>BA>B|d>d f>d e>dB>d|e4 f>e e>d|
+e>aa>e f>ed>B|1 A>Bd>f e>dd>B|B>AA>B A2 B>d:|2 A>Bd>f e>fd>B|B>AA>B A3 e||
+a2 e2 e>fg>e|a2 e2 e>fa>g|Tf2 d2 d>^cd>e|Tf2 d2 d3 e|
+a2 e2 e>fg>e|a2 e2 e>fd>B|A>Bd>f e>dd>B|B>AA>B A3 e||
+a2 e2 f/f/e g>e|a2 e2 e2 a>g|Tf2 d2 d>^cd>e|Tf2 d2 d3 e|
+a2 e2 e>fg>e|a2 e2 e>fd>B|A>Bd>f e>fd>B|B>AA>B A4||
+|:e4 f/f/e e>d|e4 f/f/e d>B|d4 d>BA>B|d/d/d f>d e>dB>d|e4 f/f/e e>d|
+e>aa>e f/f/e d>B|1 A>Bd>f e>dd>B|B>AA>B A2 B>d:|2 A>Bd>f e>fd>B|B>AA>B A3 e||
+

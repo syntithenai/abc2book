@@ -1,0 +1,25 @@
+X: 1
+T: Simon Brody
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+|: c \
+| "F"(3fed (3cde f2 c>B | A<F c>F "C7"A<G G>e \
+| "F"(3fed (3cde f2 c>A | "Bb"B<d "C7"G>B "F"A<F F :|
+|| ^c \
+| "Dm"d2 A>d F>A D>A | (3Ade (3fed (3ade (3fed \
+| "C"c2 G>c E>G C>G | (3Gcd (3edc (3gcd (3edc |
+| "F"f2 c>f A>c F>e | "Dm"(3fed "C"edc "Bb"dcB "F"cBA \
+| "Gm"(3Bcd G>B "F"(3ABc F>A | "C7"(3GAF (3CDE "F"F2- F|]
+S:https://www.folktunefinder.com/tunes/19659
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/SimonBrodyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/SimonBrodyS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

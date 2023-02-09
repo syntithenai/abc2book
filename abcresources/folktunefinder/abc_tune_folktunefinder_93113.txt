@@ -1,0 +1,17 @@
+X: 23
+T: Pappani talo, kivinen talo
+M: 3/4
+L: 1/8
+K: Dm
+|: "Dm"A2 DD DF | "Dm"A2 DD DF | "Gm"B2 GG GA | B2 "A7"A4 :| \
+|: "Gm"B2 GG GB | "Dm"A2 DD DE | "Gm"F2 EF "A7"GF | E2 "Dm"D4 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93113
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

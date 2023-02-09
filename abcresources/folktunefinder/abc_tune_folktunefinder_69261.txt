@@ -1,0 +1,28 @@
+X:402
+T: "Dei Heufahrt"
+N: Z1082
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Romanze, Ballade
+M: 6/8
+L: 1/16
+K: A
+E2 | c3BA2A2G2A2 | e2d2B2B4
+B2 | c2B2A2A2G2A2 | B4z6
+B2 | B4B2B2c2^d2 | e2^d2c2B4
+B2 | B2B2B2B2A2F2 | E4z6
+E2 | c3dc2B2A2B2 | A4z6
+E2 | c3dc2B2A2B2 | A2c2e2A2c2
+e2 | f4d2d4f2 | e4c2c4
+e2 | B2c2d2E2F2G2 | A4z6
+S:https://www.folktunefinder.com/tunes/69261
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

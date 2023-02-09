@@ -1,0 +1,25 @@
+X: 5
+T: Reel d'Hotelier
+I: Reel d'HotelierR-114Dreel
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat both part 4 times
+%%vskip 4pt
+%%textfont       Times-Roman 7.0
+AG| "D"FDDD DFAd| "G"BGGF G2ed| "A"cAAA Aceg| "D"fddc d2 :|
+|:ef| "G"gagf g2b2| "D"abaf d2fa| "A"gece Aceg| "D"fddc d2 :|
+%%text Roaring Jelly  R-114
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/107128
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

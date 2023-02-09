@@ -1,0 +1,21 @@
+X:10
+T:Baba Georgia
+M:7/8
+O:Macedonia
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000690.html
+%%ID:00000690
+K:Bb min
+f2 f2 f/e/d2|e2 e2 d/c/B2|c2 d2 d/c/B2 \
+|1e2 B2 c/d/e2 :|2 e2B2 BB2 ||
+|:c2 d2 d/c/B2|c2 d2 c/d/e2|\
+c2 d2 d/c/B2|e2 B2 BB2:|
+S:https://www.folktunefinder.com/tunes/53232
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Exotic/Exotic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

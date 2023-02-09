@@ -1,0 +1,23 @@
+X:583
+T: NIX IN DER GRUBE
+N: E1891
+O: Europa, Mitteleuropa, Deutschland, Sachsen, Schlesien
+R: Kinder - Lied, Spiel
+M: 2/4
+L: 1/8
+K: C
+ | G,2G,A, | G,2E,
+E, | G,G,G,A, | G,2E,z
+G,G,G,A, | G,2E,
+E, | G,G,G,A, | G,2D,z
+G,2G,2 | C4
+S:https://www.folktunefinder.com/tunes/79687
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Kinder - lied, spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

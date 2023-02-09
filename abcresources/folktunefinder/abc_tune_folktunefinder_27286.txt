@@ -1,0 +1,30 @@
+X:6834
+T:The Goban
+O:england
+M:6/8
+L:1/8
+C:Maire Breathnach
+S:Maire Breathnach
+R:Jig
+D:Angels' Candles
+K:G
+B|:cAB AGE|DEG ddB|cAB AGA|EFG A2B|cAB AGE|\
+DEG ddB|cAB AGA|EFG A2B::ccc ddd|ecA BGE|\
+ABA AGE|DEF GAB|ccc dcd|eaf ged|BcA BAG|\
+1EFG A2B:|2EFG Acd||eab age|def g2a|gec =fed|\
+cAE GBd|eab age|def g2a|gec =fed|cAG Acd|\
+eab age|def g2a|gec =fed|cAE GBd|eab c'2b|\
+age g2b|age dBG|EFG A2B||
+S:https://www.folktunefinder.com/tunes/27286
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

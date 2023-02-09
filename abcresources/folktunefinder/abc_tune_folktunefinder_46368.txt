@@ -1,0 +1,29 @@
+X:15093
+T:Scottish Circassian Circle
+% Nottingham Music Database
+S:FTB 1/1, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+(3D/2E/2F/2|"G"G/2D/2B/2A/2 GB|"G"G/2D/2B/2A/2 GB|"Am"A/2D/2c/2B/2 Ac|\
+"D7"A/2B/2A/2G/2 F/2D/2E/2F/2|
+"G"G/2D/2B/2A/2 GB|"G"G/2D/2B/2A/2 GB|"Am"A/2B/2A/2G/2 "D7"F/2D/2E/2F/2|\
+"G"GB G:|
+P:B
+d/2c/2|"G"B/2G/2d/2c/2 Bd|"G"B/2G/2B/2d/2 g/2d/2B/2G/2|"Am"A/2D/2c/2B/2 Ac|\
+"D7"A/2B/2A/2G/2 F/2A/2d/2c/2|
+"G"B/2G/2d/2c/2 Bd|"G"B/2G/2B/2d/2 g/2d/2B/2G/2|\
+"Am"A/2B/2A/2G/2 "D7"F/2D/2E/2F/2|"G"GB G:|
+S:https://www.folktunefinder.com/tunes/46368
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

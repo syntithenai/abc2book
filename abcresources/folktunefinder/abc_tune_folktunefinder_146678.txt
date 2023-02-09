@@ -1,0 +1,29 @@
+X:26
+T:Phone's Lodge
+R:strathspey
+O:Scottish
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C
+Q:300
+K:Amix
+d|c<Ae>A f>de>c|B>G (3Bcd g2 e<a|c<Ae>A f>de>d|c>A(3 cde a2 e<a|
+c<Ae>A f>de>c|B>G (3Bcd g2 e<a|A/A/A e>A f>de>d|c>A(3 cde a2||
+||(3efg|(3agf g2 f>de<g|B>G (3Bcd g2 (3efg|(3agf g2 f>d e<a|c>A(3 cde a2 (3efg|
+(3agf g2 f>d e<g|B>G (3Bcd g2  e<a|c<Ae>A f>de>d|c>A(3 cde a2 e<a||
+||c<AE>A f>de>c|B>G (3Bcd g2 e<a|c<Ae>A f>de>d|c>A(3 cde a2 e<a|
+c<AE>A f>de>c|B>G (3Bcd g2 e<a|A/A/A e>A f>de>d|c>A(3 cde a2||
+||(3efg|(3agf g2 f>d e<g|B>G (3Bcd g2 (3efg|(3agf g2 f>d e<a|c>A(3 cde a2 (3agf|
+(3agf g2 f>d e<g|B>G (3Bcd g2  e<a|c<Ae>A f>de>d|c>A(3 cde a2 a|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/146678
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

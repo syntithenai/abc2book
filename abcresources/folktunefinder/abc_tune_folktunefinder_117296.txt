@@ -1,0 +1,29 @@
+X:10
+T:The Maids Of Mitchelstown
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+H:The 'f#' in bars 10 and 14 are big slides.
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:G
+D2AG EFGB | (3.A.B.A GA cAGE | D2AG EFGB | AcGE ~E2GE |
+D2AG EFGB | (3.A.B.A GA cAGE | DAAG EFGB | AcGE {G}EDD2 ||
+(3.E.F.G AB cEGE | =FAde ~^f2-fd | cAGE =FEFG | AcGE {G}EDD2 |
+(3.E.F.G AB ~c3A | ~d3e ~f3d | cAGE {G}=FEFG | AcdB cAGE ||
+S:https://www.folktunefinder.com/tunes/117296
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

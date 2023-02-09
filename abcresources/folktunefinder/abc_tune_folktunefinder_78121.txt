@@ -1,0 +1,29 @@
+X:100
+T: AUF DEM SCHEITERHAUFEN KLAGET BITTERLICH
+N: B0129
+O: Europa, Mitteleuropa, Deutschland
+R: Ballade, Romanze
+M: 3/4
+L: 1/8
+K: E
+B,B, | EF=G2BB | A=GF2
+GF | E2=G2FD | E2z2
+B,B, | EF=G2BB | A=GF2
+GF | E2=G2FD | E2z2
+=GA | B2B2=cB | BAA2
+BA | =G2B2AG | F4
+=GF | EF=G2FG | BAA2
+=GF | E2=G2FD | E4
+S:https://www.folktunefinder.com/tunes/78121
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

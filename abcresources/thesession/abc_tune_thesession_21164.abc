@@ -1,0 +1,10 @@
+X: 21163
+T: Kathleen O'More
+R: jig
+M: 6/8
+K: Amajor
+|:.e|(a>b).a (ag).a|(b>c').b b2 (a/b/)|(c'>d').c' (c'b).a|(bd'c') b2 (a/b/)|
+(c'>d').a {c'}(ba).b|{ab}(c'>b).a (ba).f|(ec'2) !fermata!b2 {ac'b}|a3-a2:|
+|:e|(a>b).a (ag).a|(b^a/b/d'/)c'/ b2 (e/>=a/)|(c'd'c') (c'b).a|(b{c'b}^a/b/d'/)c'/ b2 =a/>b/|
+(c'>d').c' {c'}(ba>).b|(c/{d'c'}b).a (b{c'b}a).f|!fermata!e3 {efe^defgabc'd'^d'e'd'} (c'2b)|a3-a2:|
+

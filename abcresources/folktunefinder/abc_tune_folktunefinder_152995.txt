@@ -1,0 +1,29 @@
+X:42
+T: Die Brombeerpflueckerin
+N: Q0147I
+O: Mitteleuropa, Deutschland (DDR) , Sachsen, Erzgebirge, Rittersgruen
+N: Vierte und siebte Zeile refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2G2FE | E2D2D2
+D2 | E2c2B2A2 | G4z2
+D2 | G2G2G2FE | E2D2D2
+D2 | E2c2B2A2 | G4z2
+GA | B2B2B2d2 | d2c2A4
+D2F2A2e2 | e2d2B2
+d2 | d2c2E2F2 | G4z2
+GA | B2B2B2d2 | d2c2A4
+D2F2A2e2 | e2d2B2
+d2 | d2c2E2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/152995
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

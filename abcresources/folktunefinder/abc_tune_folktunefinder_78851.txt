@@ -1,0 +1,27 @@
+X:410
+T: JOSEPHUS DER ROEMISCHE KAISER
+N: E0337
+O: Europa, Mitteleuropa, Deutschland, Odenwald
+R: historisches Lied, Tod Kaiser Joseph II (1790)
+M: 6/8
+L: 1/8
+K: G
+D | DGGGAB | B3A2
+d | dBBcAA | B4z
+D | DGGGAB | B3A2
+d | dBBcAA | B4z
+G | G2BB2d | d2Bc2
+B | BAAABc | c2AB2
+D | DGGGAB | B3A2
+d | dBBcAA | A3Gz
+S:https://www.folktunefinder.com/tunes/78851
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Historisches lied, tod kaiser joseph ii (1790)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

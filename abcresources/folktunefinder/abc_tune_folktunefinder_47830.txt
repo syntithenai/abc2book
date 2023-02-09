@@ -1,0 +1,28 @@
+X: 293
+T:Bavarian Air. JaW.292
+M:3/4
+L:1/8
+Q:120
+S:James Winder Ms, Lancashire, 1835-41
+R:Waltz
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:F
+F>F A>A c>c|(a2f2) f>f|(g2b2) e>e|f2a2 A>G|!
+F>F A>A c>c|a2f2 f>f|g2b2e2|f4||!
+f>f|e2g2 f>e|(f2a2) f>f|e2g2 f>e|"sic"f2b2A>G|!
+|F>F A>A c>c|a2f2 f>f|g2b2e2|f6|]
+S:https://www.folktunefinder.com/tunes/47830
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

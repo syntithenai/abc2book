@@ -1,0 +1,23 @@
+X:131
+T: HIER IST GRAS DORT IST GRAS
+N: K2209
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: G
+ | ddB2 | ddB2
+edcB | B2A
+G | GABc | ddd
+B | edcA | A2Gz
+S:https://www.folktunefinder.com/tunes/82491
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

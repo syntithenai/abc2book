@@ -1,0 +1,37 @@
+X: 19
+T:Wembals Hornpipe. BF13.018
+M:2/2
+L:1/8
+Q:150
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Hornpipe
+O:England
+A:Lakes
+N:Bar 3 of the B music has a sharp sign in the
+N:top space ('E') at the begining of the bar.  Which may indicate the the
+N:E flat is to be sharpened i.e. E natural, in accordance with Baroque
+N:usage.  Unfortunately there is also what may be a sharp in the second
+N:space down ('C') before the last note of that bar and a sharp on the
+N:second line down ('D') of the following bar between the two groups of
+N:quavers
+Z:vmp.Cherri Graebe.
+K:B_ major
+F2|Bdfb gfdc|ecdB BAGF|GEDE C2cd|ecdB BAGF|!
+Bdfa gfdc|ecdB BAGF|GEDE C2cd|ecBA B2:|!
+|: (3f"NB"ga|bfdf efcf|dfBf cfAe|\
+"see note re accidentals"Bfcf df=eg|\
+bgf=e f2(3fga|!
+bfdf efcf|dfBf cBAG|DBFB GBAc|ecBAB2:|]
+W:B strain lead in notes semi-quavers in ms. CGP. ||
+S:https://www.folktunefinder.com/tunes/94931
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

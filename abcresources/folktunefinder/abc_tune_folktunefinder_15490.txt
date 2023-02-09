@@ -1,0 +1,34 @@
+X: 1
+T: Jamie Allen
+M: 2/4
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Jamie Allen was a Northumbrian small-pipes player.
+K: G
+ G/A/ \
+| "G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA \
+| "G"Gg "C"ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+|: B/A/ \
+| "G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef \
+| "C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/15490
+S:http://trillian.mit.edu/~jc/music/abc/march/JamieAllen2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/JamieAllen_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/JamieAllen_G2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/JamieAllen2_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/JamieAllen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march/JamieAllen_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: \`a
+T: 
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmin
+|: (3D=E^F | 
+B2 B>A G2 G>D | G>d^c>d e>d=c>B | A2 A>G ^F2 F>E | D>d^c>d e>d=c>A |
+B2 (3ABA G2 (3G^FE | D2 (3d^cd e2 (3d=cB | A>ed>c A2 (3D=EF | G2 ^F2 G2 :|
+|: (3g^fg |  
+e>cG>c e2 (3g^fg | d>BG>B d>D^F>A | ^F>D (3FGA d2 (3cBA | G>D (3GAB d2 (3g^fg |
+e2 (3cGc e2 (3bag | d2 (3BGB d2 (3BAG | (3^F=ED F>A d2 (3cBA | G2 G>^F G2 :|
+S:https://www.folktunefinder.com/tunes/152907
+S:http://www.thesession.org/tunes/display/7094
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

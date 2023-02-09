@@ -1,0 +1,36 @@
+X:9
+T:Larry Marr
+M:3/4
+L:1/8
+Q:1/4=127
+P:AB(CB)
+K:F
+P:A 
+F2G2|\
+A3A A2|c3A A2|G2 F4|d3d d2|
+B4  d2|c4  F2|B4 B2|G4  G2|
+A4  A2|F4  AA|G4 C2|E4  G2|F2||
+P:B
+M:6/8
+CDE|\
+F3  A2G|F3- F3 |d3  B2d|c3-c3|
+B3  G2B|A2A c2A|G2F G2A|G3-G3|
+d2d d3 |ff2-fzd|c2d c2A|c3 z2C|
+F2F F2G|A2A c2A|G2C CDE|F3||
+P:C
+M:3/4
+L:1/8 
+C2|\
+F4 F2|F4 G2|A4 A2|A4 c2|
+d4 d2|B4 d2|c4 z2|B2B2B2|
+G4 B2|A4 A2|F4 AA|G4 C2|
+E4 G2|F4||
+S:https://www.folktunefinder.com/tunes/68344
+S:http://www.folkinfo.org/abcprojects/hugill/shanty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

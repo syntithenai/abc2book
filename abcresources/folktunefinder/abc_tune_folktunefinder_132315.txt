@@ -1,0 +1,26 @@
+X:15
+T:Norman Toy
+Z:Jack Campin  *  May 2000  *  http://www.campin.me.uk/
+M:2/4
+L:1/8
+C:Cushing (1804)
+V:1 % Fife I
+V:2 % Fife II
+K:D
+V:1
+dA dA | df f2|Bg  Af|Ge Ec|dA dA|df f2|Ac eg|fd d2:|
+V:2
+dA dA | FA Ad|GB  Fd|Bc GE|dA dA|FA Ad|eg ge|dF F2:|
+%
+V:1
+FA d=c|=cB B2|A^c eg|fd d2|Ad fg|fd AF|Ge Ec|d2 D2:|
+V:2
+DF DF | FG G2|AA  ce|dF F2|AF AB|AF FD|G2 G2|F2 F2:|
+S:https://www.folktunefinder.com/tunes/132315
+S:http://www.campin.me.uk/Music/colonial.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

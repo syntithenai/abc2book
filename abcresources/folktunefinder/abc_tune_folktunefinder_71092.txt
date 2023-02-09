@@ -1,0 +1,24 @@
+X:062
+%%topmargin 3cm
+T:High Road to Linton
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+e | {/d}ceeg {/g}a2 a>e | fefg {/g}a2 (ae) | ceeg {/g}a2 (ae) | f{/g}aec {dc}B2A ::
+d | {/d}cee{/g}a fddf | ecce fBBd | {/d}(ce)e{/g}a fddf | ec{/g}ac B2 A :|
+S:https://www.folktunefinder.com/tunes/71092
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/High_Road_to_Linton.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0062.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

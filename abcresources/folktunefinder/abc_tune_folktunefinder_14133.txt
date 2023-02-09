@@ -1,0 +1,35 @@
+X: 1
+T: the Dundee City Police Pipe Band
+M: 6/8
+L: 1/8
+R: jig, march
+K: D
+   A  "A"\
+| "D"d>fe d2A | "G"Bd>A B2d | "D"A>BA "F#m"A>af | "Bm"f>ed "A7"e2A \
+| "D"d>fe d2A | "G"Bd>A B2d | "D"A>af  "A7"e>de |  "D"d3 d2  :|
+y2 g "B1"\
+| "D"a>gf "A7"e>de | "D"fa>A "G"B2d | "D"A>BA "F#m"A>af | "Bm"f>ed "A7"e2g \
+| "D"a>gf "A7"e>de | "D"fa>A "G"B2d | "D"A>af  "A7"e>de |  "D"d3 d2  ||
+y2 g "B2"\
+| "D"a>gf "A7"e>de | "D"fa>A "G"B2d | "D"A>BA "F#m"A>af | "Bm"f>ed "A7"e2A \
+| "D"d>fe d2A | "G"Bd>A B2d | "D"A>af  "A7"e>de |  "D"d3 d2 |]
+|: A  "C"\
+| "D"d>fe f>AA | d>fA "G"B2d | "D"A>fe "F#m"f2a | "Bm"f>ed "A7"e2A \
+| "D"d>fe f>AA | d>fA "G"B2d | "D"A>af "A7"e>de | "D"d3 d2  :|
+y2 g "D1"\
+| "D"f>aa A>aa | fa>A "G"B2d | "G"G>BB  "D"A>dd | "D"fa>f "A7"e2g \
+| "D"f>aa A>aa | fa>A "G"B2d | "D"A>af "A7"e>de | "D"d3 d2g ||
+y2 g "D2"\
+| "D"f>aa A>aa | fa>A "G"B2d | "G"G>BB  "D"A>dd | "D"fa>f "A7"e2A \
+| "D"d>fe f>AA | d>fA "G"B2d | "D"A>af "A7"e>de | "D"d3 d2  |]
+S:https://www.folktunefinder.com/tunes/14133
+S:http://trillian.mit.edu/~jc/music/abc/jig/DundeeCityPolicePipeBand_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/DundeeCityPolicePipeBand_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/DundeeCityPolicePipeBand_D.abc
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

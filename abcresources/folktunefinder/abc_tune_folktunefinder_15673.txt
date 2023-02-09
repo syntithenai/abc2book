@@ -1,0 +1,37 @@
+X:1
+T:Scotland The Brave
+C:Trad.
+P:March
+F:http://www.asahi-net.or.jp/~pt9t-fjt/midi_abc.html 2006-7-6
+E:7
+L:1/8
+M:4/4
+K:Hp
+e |\
+{g}A2 {GdGe}A>B {gcd}c{e}A {gcd}ce |\
+{ag}a2{g}a2 {GdG}ae {gcd}c{e}A |\
+{Gdc}d2 {g}f>d {gcd}ce {gcd}c{e}A |\
+{GdG}B2{gef}e2{A}e>f {g}e/>d/{g}c/>B/ |
+{g}A2 {GdGe}A>B {gcd}c{e}A {gcd}ce |\
+{ag}a2{g}a2 {GdG}ae {gcd}c{e}A |\
+{Gdc}d2 {g}f>d {gcd}ce {gcd}c{e}A |\
+{GdG}B2{g}A>B {G}A2 {gcd}ce ||
+|| {ag}a2 {g}a2 {GdG}ae {gcd}c{e}A|\
+{ag}a2 {g}a2 {GdG}ae {gcd}ce |\
+{ag}a2 {g}a>g {a}f2{ag}a>g |\
+{a}fa {f}gf {gef}ed {gcd}cB |
+{g}A2 {GdGe}A>B {gcd}c{e}A {gcd}ce |\
+{ag}a2 {g}a2 {GdG}ae {gcd}c{e}A |\
+{Gdc}d2 {g}f>d {gcd}ce {gcd}c{e}A |
+{CdC}B2 {g}A>B {G}A3||
+S:https://www.folktunefinder.com/tunes/15673
+S:http://www.asahi-net.or.jp/~pt9t-fjt/midi_abc.html
+S:http://trillian.mit.edu/~jc/music/abc/march/ScotlandTheBrave_Hp.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/ScotlandTheBrave_Hp.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

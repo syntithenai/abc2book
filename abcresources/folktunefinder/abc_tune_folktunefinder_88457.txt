@@ -1,0 +1,24 @@
+X:1500
+T:Scotch wallace Blede
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+N: How do you garble a title like that 
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001237.html
+%%ID:00001237
+K:C
+(G>G)(G>E) G>Ac2 | (A>A)(A>G) (A>B)(c>d) | (e>f)(d>e) (c>d)(ed) | c<AA<G G4 ||
+(e>e)(e>d) (e>f)g2 | (d>d)(d>c) d>ef>a | (g>e)d>e (c>d)(e>d) | c<A(AG) G4 |]
+S:https://www.folktunefinder.com/tunes/88457
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

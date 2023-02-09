@@ -1,0 +1,27 @@
+X:1
+T:Ton simple plin
+%T:TS1
+G:Kazimodal
+R:Das Plin
+C:Traditionnel
+Q:C2=160
+P:A4
+M:4/4
+S:tienne Grandjean
+K:C
+P:A
+\large
+"Am"Ag/2g/2 gf "G"fe "C"c2 | "Dm"de/2d/2 "F"cd "G"ef "Em"e2 ::\
+"Am"e2 "G"de dc "Em"Be/2e/2 | "Em"ed "F"c"G"B "Am"A2 A2 :|
+\bigskip
+S:https://www.folktunefinder.com/tunes/134373
+S:http://kazimodal.trad.org/partitions/plinn/LE_plin/LE_plin.abc
+% Rhythm Das plin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

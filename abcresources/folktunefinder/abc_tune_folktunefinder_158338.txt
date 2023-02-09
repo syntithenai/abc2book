@@ -1,0 +1,31 @@
+X: 1
+T:Flatworld
+M:3/4
+L:1/8
+Q:1/4=180
+S:Blowzabella
+P:A,B,A,B,A,C
+Z:Malcolm Downi
+K:Am
+P:A
+e de|ce Be Ae|F3 A cA|f3 e dc|B3 e de|!
+ce Be Ae|F3 e dc|B3 d cB|A3:|!
+P:B
+|:B cB|AB cA ag|f3 e dc|Bc dB gf|e3 d cB|!
+AB cA fe|d3 c BA|[1B3 d cd|B3:|[2B3 d cB|A3||!
+P:C (Last time only instead of B)
+|:B cB|AB cA ag|f3 e dc|Bc dB gf|e3 d cB|!
+AB cA fe|d3 c BA|[1B3 d cd|B3:|[2B3 d cB|c3 e dc|B3 d cB|A4-A2||!
+S:https://www.folktunefinder.com/tunes/158338
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flatworld_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flatworld_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flatworld_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flatworld_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

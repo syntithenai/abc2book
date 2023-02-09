@@ -1,0 +1,23 @@
+X:1231
+T:"The Messenger"         (reel)                1231
+C:after Chief  F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+D2"^Segno"|:G2(Bd) g2(dg)|edcB ABcA|BGGB g2dg|[1ecAF GFED:|[2ecAF G2||
+(ef)|gfeg fddf|gfef g2ef|gfeg fedc|BGAF G2(ef)|
+gfeg fddf|gfef g2ga|bgaf gedc|BGAF GFE"^Dal Segno"D|]
+S:https://www.folktunefinder.com/tunes/175505
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1231-Messenger.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1201-1300/1231-Messenger.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

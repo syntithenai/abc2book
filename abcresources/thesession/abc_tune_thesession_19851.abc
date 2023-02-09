@@ -1,0 +1,22 @@
+X: 19850
+T: Jesse
+R: reel
+M: 4/4
+K: Gmajor
+z d_dc|:"G"B2(ce)d2(^cd)|gz/ (d/^cd)"Am" .f.e.^d.e|
+"Am"a2 {ga}(.g.e) "D7"g2 (.f.c)|f z/ {cd}(c/B.c) "(G)".e.d "(D)"._d.c|
+"G" B2 (.c.e) d2 (.^c.d)|b z/ {ga}(g/.f.g) "C" .a.e.^d.e|
+a z/ "C#dim"g/.f.e "G/D" .g.d "E7".^c.d|1 "Am" e/g/f/e/ "D7"d/c/B/A/ "G"G.d._d.c:|2 "Am"e/g/f/e/ "D7"d/c/B/A/ G2 z2||
+K: C
+(E=F^F)|:"C" (G4G)(EFG)|"F"(A4A)(FGA)|"G7"B4 "G7" (A2B2)|
+"C" A z/ (G/^FA) G(EF^F)|G(G/^F/G)G/F/ "C"G(EFG)|
+"F".A(A/^G/ A)(A/G/A)(FGA)|"G7"B4 "G7"(A2B2)|1 "C"d z/c/.B.d.c (EF^F):|2 "C"d z/"(C#"c/Bd"D)"cz3||
+K:G
+|:"G"D/E/F/G/ A/B/c/d/ e/d/B/G/ D g|"D7" f/e/c/A/ F f"G"e/d/B/G/ D z|
+"G" D/E/F/G/ A/B/c/d/ e/d/B/G/ D g|1 "Am" f/e/c/A/ "D7" e/d/c/A/ "G" G2 z2:|2 "Am" f/e/c/A/ "D7" e/d/c/A/ "G" G2 z d||
+|:"G" b/d/d/d/ a/d/d/d/ g/d/d/d/ d/d/d/d/|g/d/d/d/ f/d/d/d/ "Am" e/c/c/c/ c/c/c/c/|
+L:1/16
+"Am"accc gccc "D7"fccc cccc|fccc eccc "(G" dBBB "D7)"BBBB|
+"G" bddd addd gddd dddd|g3 (a/g/fg) fg "C(Am)"a2 e4 ^de|"C"a4 "C#dim"{ga}(.f2.e2)"G/D".g2.d2"E7".^c2.d2|
+[1"Am"egfe "D7"dcBA "G"G2.d2._d2.c2:|2 "Am"egfe "D7"dcBA"G" G4 z4||
+

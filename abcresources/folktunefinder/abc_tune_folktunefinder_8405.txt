@@ -1,0 +1,25 @@
+X: 200
+P: Old Bagpipe Tune (sl\"angpolska)
+O: Magnus Gustafsson
+N: Aug 1993 workshop
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/16
+K: G
+z2 \
+| "G"{B}B2B2 G4 B4 | (Bd)cB "D"A2A2 "G"{A}B4 \
+| "Em"B2G2 E3F G2F2 |1,3 " D"~E2D2 "Em"{D}E4 B4 :|2,4 " D"~E2D2 "Em"{D}E4 E2 :|
+|: Bc \
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 B2Bc \
+| "G"d2dB G2BG "D"F2BF | "Em"G2GF "D"(~E2D2) "Em"E2Bc |
+| "G"d2dB G2BG "D"F2BF | "G"G2GF G2A2 B4 \
+| "Em"E3F G2F2 "D"~E2D2 | "Em"{D}E4 E6 :|
+S:https://www.folktunefinder.com/tunes/8405
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Book_Pols.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X: 1
+T: the Annandale Strathspey
+C: Anna Robertson
+R: strathspey
+B: RSCDS 33-7
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+A2 \
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "Bm"g>f e<d | "Em"B2 e2 "A7"e2 F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d |1 "G"B2"Em"[d2G2] "D"[d2F2] "A7"F>E :|2 "G"B2"Em"[d2G2] "D"[d2F2] "A7"A2 ||
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4- e2A2 |
+| "G"B3 c d>c d>B | "D"A>B A>F D2 F2 \
+| "A"E2 A>B "(B7)"c>A "E7"B<^G | "A"A6 "A7"A2 |
+|| "D"[a2f2d2A2] a>g f>g a>f | "Em"g>a g>f "A7"e2 A2 \
+| "Bm"f3 e "E7"d>e f<d | "A7"e4 A>G F>E |
+| "D"D2 D>E F<D F>G | A3 B A>B "(G)"d>e \
+| "D"f3 d "D7"g>f e<d | "G"B2"Em"[d2G2] "D"[d2F2] |]
+S:https://www.folktunefinder.com/tunes/19173
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AnnandaleS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/AnnandaleS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AnnandaleS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

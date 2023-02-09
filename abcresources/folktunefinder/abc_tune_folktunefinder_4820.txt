@@ -1,0 +1,24 @@
+X: 1
+P: Du, du liegst mir am Herzen
+O: Trad deutsche <1820
+R: waltz
+M: 3/4
+L: 1/4
+K: C
+[|"C"[E3C3]        | [E3C3]       |    [EC][DB,][EC]  | "G7"[G2B,2][FB,]  \
+|    [D3B,3]       | [D3B,3]      |    [DB,][GE]>[FD] |  "C"[E3C3]        |
+| "C"[E3C3]        | [E3C3]       |    [EC][DB,][EC]  | "G7"[G2B,2][FB,]  \
+|    [DB,][EC][FD] | [AF][GE][FD] | "C"[E3-C3-]       |     [EC]z2        |
+|:"F"[A3F3] | "C"[G3E3] | "G7"[B3G3] | "C"[c3E3] | "Dm"[DB,][EC][FD] \
+|1  "G7"[AF][GE][FD] | "C"[E3-C3-] | [EC]z2 \
+:|2 "G7"[AF][GD]B,   | "C"C3-      | Cz2   :|
+S:https://www.folktunefinder.com/tunes/4820
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Waltz_DuLiegstMirAmHerzen.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

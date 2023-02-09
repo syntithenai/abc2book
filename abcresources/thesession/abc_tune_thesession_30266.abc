@@ -1,0 +1,10 @@
+X: 30265
+T: Old Langolee
+R: jig
+M: 6/8
+K: Dmajor
+(d3 .f)zz|e>d.e (f<d).B|.A.B.c .d2.b|(a>g).f {f}(e2d)|
+d3 .fzz|.e>.d.d (f<d).B|.A.B.c (d2.b)|.a>.g.f {f}.e.dz!fermata!||
+(f>g).a (a>b)=.c'|(bg).b (af).d|.f>.g.a .a.b=c'|b^a.c !fermata!d'2d|
+(df).a (d'>c/).b|(ag).f (f>e).d|(dA).d (dA).d|(fg).f {f}(e2d)||
+

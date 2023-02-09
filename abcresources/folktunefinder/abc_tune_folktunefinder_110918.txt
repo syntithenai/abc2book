@@ -1,0 +1,17 @@
+X:1
+T:XII. Fine knacks for ladies,
+T:Cantus
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:F
+c2 c c f2 c2 | c2 d c2 =B c2 | z c d d c3 A
+S:https://www.folktunefinder.com/tunes/110918
+S:http://www.laymusic.org/music/dowland/knacks/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

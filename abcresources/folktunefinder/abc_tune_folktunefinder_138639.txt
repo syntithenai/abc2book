@@ -1,0 +1,26 @@
+X:20
+T:Lord Lindsay's March (#54)
+M:4/4
+L:1/8
+S:Aird's Selections, 1782-97
+R:March
+K:D
+(3ABc|d2 dd d2 fd|e2 ee e2 ge|f2 ff fagf|edcB AGFE|
+dAFA dfed|ecAc egfe|fadf gece|d2 dd d2||
+fg|afdf aa b/2a/2g/2f/2|gece gg a/2g/2f/2e/2|
+fdBd fa b/2a/2g/2f/2|edcB AGFE|DFAd fdAF|
+EGBd gecA|fadf gece|d2 dd d2||
+%
+% An almost identical setting is named "Capt. Hillman's
+% March" in the same volume.
+S:https://www.folktunefinder.com/tunes/138639
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

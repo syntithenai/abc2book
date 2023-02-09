@@ -1,0 +1,25 @@
+X:65
+T:a Trip to Carlisle
+O:england
+N:Can be played in D
+M:6/8
+A:North-West
+R:Jig
+K:F
+F|\
+FGF cAF| dBG cAF| FGF cAF| fga g2F|\
+FGF cAF| dBG cAF| def gfe| f3 f2::\
+c|\
+cdc gec| afd gec| cdc gec| b2a g2c| \
+cdc gec| afd gec| def efg| f3 f2:|
+S:https://www.folktunefinder.com/tunes/20514
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

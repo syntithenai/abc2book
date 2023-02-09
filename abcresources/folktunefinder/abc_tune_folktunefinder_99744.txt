@@ -1,0 +1,30 @@
+X: 13
+T:Sadlers Wells
+% Nottingham Music Database
+S:Playford
+M:6/4
+L:1/4
+K:Dm
+P:A
+^c|"Dm"dAf "A7"eAg|"Dm"fed "A7"^c2A|"Dm"dAc "Gm"FBA|"Dm"FG2 "Am"A2=B|
+"Am"cAe -"E7"e=Bc|"E7"d=BA ^G2E|"Dm"Afd "Am"eaA|"E7"Ec^G "Am"A2:|
+P:B
+c/2B/2|"F"AcF fcA|"Bb"dBA "Gm"G2A|"C7"BGE egc|"C7"BAB "F"A2"A7"^c|
+"Dm"dAf "A7"eA^f|"A7"ge^c "Dm"def|"Dm"AGF "Gm"BAG|"A7"Af^c "Dm"d2:|
+S:https://www.folktunefinder.com/tunes/99744
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_redhawk_nmd.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/playford.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_redhawk_nmd.abc
+S:http://www.guitarnut.com/nmd/playford.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/SadlersWells.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/SadlersWells_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/SadlersWells.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/SadlersWells_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

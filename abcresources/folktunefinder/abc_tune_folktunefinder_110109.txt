@@ -1,0 +1,29 @@
+X:62
+T:Kaleidoscope
+C:Colin Hume, 1990
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:D
+P:A
+|: "D"A/G/F/E/ "D7"DA | "G"B2 "D/F#"A2 | "Em"B/A/G/F/ "E7"EB | "A"c2- "A7"cd/e/ |\
+"D"fd "A7/C#"ec | "Bm"dB "F#m/A"cA | "G"B/c/d/e/ "E7"fd | "A7"e2 "D"d2 :|
+%%vskip 0
+P:B
+K:G
+|: "G"B3/2A/ "^/"GB | "D"AD- "^/"DB | "Am"cE "A7"FG | "D"A2- "D7"AD |\
+"G"dB/A/ "G7"G2 | "C"ec/B/ "Am"A2 | "D7"f3/2e/ "^/"dc | "D7"BA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/110109
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

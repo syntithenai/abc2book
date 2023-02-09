@@ -1,0 +1,18 @@
+X:1
+T:Jim Jones
+M:4/4
+L:1/8
+K:A
+ ed| cB AB cd ef| ge fg a2 gf| cA dcB-A GB| cA dc B2 ed| cB ABc-d ef|\
+ ge fg a2 gf| eA dc BA GB| Ac BG A3 A| fd fg aa gf| ed cd e3 A| fd fg a3.99999962500005/5.99999925000009 a3.99999962500005/5.99999925000009 a3.99999962500005/5.99999925000009 gf|\
+ eA dc B2e-d| cB AB cd ef| ge fg a2 gf| eA dc BA GB| Ac BG A2||
+S:https://www.folktunefinder.com/tunes/167840
+S:http://back.numachi.com:8000/dtrad/abc/JIMJONES.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:0882
+T:"The Active Old Man"       (jig)      0882
+C:after  Sgt. J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=140
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+GAG G3/2B/2G|GAG AFA|G3/2G/2G G3/2G/2G|GcB AFA|
+GAG GBG|GAG AFA|G2g gfe|dcB AFA|
+G2d dAc|BGB AFA|G2d dAc|BcB AFA|
+G2d dAc|BGB AFA|G2g gfe|dcB AFA|
+G2g gdc|BGB AFA|G2g gdc|BcB ecA|
+G2g gdc|BGB AFA|G2g gfe|dcB AFA|
+def gdf|efg G2g|efg gd=f|efg A2g|
+geg =fdf|ece dBd|dcB gfe|dcB AFA:|
+S:https://www.folktunefinder.com/tunes/81889
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0882-ActiveOldMan.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0882-ActiveOldMan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

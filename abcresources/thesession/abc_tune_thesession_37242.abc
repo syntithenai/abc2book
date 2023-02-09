@@ -1,0 +1,26 @@
+X: 37241
+T: Six Twenty Twostep
+R: jig
+M: 6/8
+K: Gmajor
+V:1 gchord=down
+P:A
+D3|"G"G2G "D"FGA|"G"G2G "(D)"G2D|"G"B2B "D"ABc|"G"B3B2"(B)"B|"C"c2c "D"A2c|"G"B2B "(B)"G2B|"Am(C)"ABA "A(C#)"GFE|"D"D3 "D"d3|
+"G"G2G "D"FGA|"G"G2G "(D)"G2D|"G"B2B "D"ABc|"G"B3B2"Em"B|"C"c2A "D"F2e|"G"d2c "B"B2d|"C"ded "D"cBA|"G/"G z2||
+K:D
+P:B
+"A7"A3|"D"A2B "A"B2A|"D"Afd "A"A2A|"D"A2f "A"fef|"A(E)"(g3 g2)"(A)"A|"A(E)"A2c "(A)"c2 B|"A(E)"B2 A "(A)"A2A|"A(E)"ded "(A)"c2B|"D"B2_B "(A)"A2A|
+"D"A2=B "(A)"B2A|"D"Afd "(A)"A2A|"D"a2d "(F#)"d2c|"G"(B3 "(D)"B2)B|"G"B2g "(D)"g2B|"D(F#)"A2f "(D)"f2d|"A"c2A "(A)"ABc|"D/"dz2||
+K:G
+P:A"
+"D7"D3|"G"G2G "D"FGA|"G"G2G "(D)"G2D|"G"B2B "D"ABc|"G"B3B2"Em"B|"C"c2A "D"F2e|"G"d2c "B"B2d|"C"ded "D"cBA|"G/"G z2||
+K:C
+P:C
+|"G7"=F3|"C"E3 "(G)"B,3|"C"C3 "(G)"E3|"C"A2G "(G)"G2^F|"C"G3"(G)"G3|"C"E3 B,3|"C"C2E A2G|G3G3|B,3B,2C|
+"Dm"D3 "A"^C3|"Dm"D2A, "(A)"F2E|"Dm"D2D "A"^CDE|"Dm"D3"(C)"D3|"G(B)"D2^D "(G)"E2F|"D"^F2c "(F#)"B2A|"G"G2G "D7"AG^F|"G"(G3 "G7"G3)|
+"C"E3 "(G)"B,3|"C"C3 "(G)"E3|"C"A2G "(G)"G2^F|"C"(G3 "(G)"G3)|"C"e3 "B"c3|"Am"G3 "G"E3|"F"B2A "(C)"A2^G|"F"(A3 "(E)"A3)|
+"Dm"f2e "(F)"d2^c|"G"d3 "G7"G3|"C"e2d "(G)"cBA|"C"G3 "(E)"G2^G|"F"A2c "(C)"cBA|"C(E)"G2e "(C)"edc|"G"BAG "G7"FED|"C/"C z2||
+K:G
+P:A"
+"D7"D3|"G"G2G "D"FGA|"G"G2G "(D)"G2D|"G"B2B "D"ABc|"G"B3B2"Em"B|"C"c2A "D"F2e|"G"d2c "B"B2d|"C"ded "D"cBA|"G/"G z2||
+

@@ -1,0 +1,30 @@
+X: 220
+T: Penobscot Memory
+C: Vince O'Donnell
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/8
+K: G
+D2|\
+"G"Dd3d2|"F"A=F2GAF|"G"G3ABc|d2B2G2|\
+"C"Ge3e2|"G"d3BGB|"F"A6-|"D"A4D2|
+"G"Dd3d2|"F"A=F2GAF|"G"G3ABc|B2G2D2|\
+"C"EG3G2|"D"DA3BA|"C"G6-|"G/B7"G2G2F2|
+"Em"E4E2|e3fge|"D"fgfed2-|"Bm"d2f2a2|\
+"C"g4g2-|g2f2e2|"G"d6-|"B7"d2G2F2|
+"Em"E4E2|"C"g4g2|"G"ed-d4|"Em"e4B2|\
+"Am"A3Bc2-|"D"c2B2A2|"C"G6-|"G"G4||
+S:https://www.folktunefinder.com/tunes/113229
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

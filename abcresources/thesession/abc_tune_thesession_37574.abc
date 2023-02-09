@@ -1,0 +1,19 @@
+X: 37573
+T: Smeceno Horo
+R: barndance
+M: 4/4
+K: Dmixolydian
+M:15/8
+K:C
+^cdd =cc BBA cBA cBAG|[M:18/8] ^FD FD ED FD EDD cBA B^G A2|
+[M:15/8] ^cdd =cc BBA cBA cBAG|[M:18/8] ^FD FD ED FD EDD FDD E^C D2:|
+|:^FD FD ED FD EDD cBA cBAG|^FD FD ED FD EDD cBA B^G A2|
+^FD FD ED FD EDD cBA cBAG|^FD FD ED FD EDD FDD E^C D2:|
+|:[M:15/8] {B}AA {B}AA D=F^GA cBA cBA=G|[M:18/8] ^FD FD ED FD EDD cBA B^G A2|
+[M:15/8]{B}AA {B}AA D=F^GA cBA cBA=G|[M:18/8] ^FD FD ED FD EDD FDD E^C D2:|
+|:^FD FD ED FD EDD FDD ED^CD|^FD FD ED FD EDD FDD E^C D2:|
+|:AB {c}BA {c}AG {G}^FFD FGA {d}BA {c}AG ^F2|AB {c}BA {c}AG {G}^FFD FGA {d}BA {c}AG ^F2:|
+|:Bdc B2A {c}AAG ^F2 G2 F2 GA2|Bdc B2A {c}AAG ^F2 G2 F2 DE2:|
+|:EF^GA B2 cB ABc B2A ^GABc|dc2 B2A cBA^G A^GAE FD E2:|
+|:dc2 B2A cBA^G A^GDE ^GABc|dc2 B2A cBA^G A^GAE =FDE2:|
+

@@ -1,0 +1,30 @@
+X: 1
+T: Kolo Kalendara
+O: Croatia
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: Play twice in each key.
+N: Typical tamburica-band kolo, very bouncy.
+N: Best with lots of mandolin-type instruments.
+M: C|
+L: 1/8
+P: A
+K: A
+|: "A"[e2c][dB][cA] [e2c][dB][cA] | [e2c][dB][cA] "E7"[B4E] :| \
+|: "A"[A2E]-[AE][B/G][c/A] "E7"[dB][cA][dB][ec] | "A"[c2A]-[cA][d/B][c/A] "E7"[B4E] :|
+P: D
+K: D
+|: "D"[A2F][GE][FD] [A2F][GE][FD] | [A2F][GE][FD] "A7"[E4A,] :| \
+|: "D"[D2A,]-[DA,][E/C][F/D] "A7"[GE][FD][GE][AF] | "D"[F2D]-[FD][G/E][F/D] "A7"[E4A,] :|
+P: G
+K: G
+|: "G"[d2B][cA][BG] [d2B][cA][BG] | [d2B][cA][BG] "D7"[A4D] :| \
+|: "G"[G2D]-[GD][A/F][B/G] "D7"[cA][BG][cA][dB] | "G"[B2G]-[BG][c/A][B/G] "D7"[A4D] :|
+S:https://www.folktunefinder.com/tunes/170457
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ko/Kolo_Kalendara_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

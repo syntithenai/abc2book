@@ -1,0 +1,25 @@
+X: 25
+T:Lochiel House
+M:4/4
+L:1/16
+Q:240
+R:March
+K:D
+A2|"D"d3e d2A2 "G"BcdB "D"A2GF|"G"G2B2 "D"A2d2 "E7"f2e2 "A7"e2f2|
+"D"d3e d2A2 "G"BcdB "D"A2GF|"A7"EFGA Bcde "D"f2d2 d2::!
+fg|"D"a3b a2gf "A7"g3a g2fe|"D"f2ed "Bm"a2gf "Em"f2e2 "A7"e2fg|
+"D"a3b"Bm"a2gf "Em"g3a "A7"g2fe|"D"f2ed "A7"A2c2 "D"d4-d2:|
+S:https://www.folktunefinder.com/tunes/119763
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

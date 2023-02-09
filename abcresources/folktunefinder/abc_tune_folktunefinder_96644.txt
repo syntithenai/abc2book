@@ -1,0 +1,21 @@
+X:120
+T:Garrett Barry's
+M:6/8
+R:jig
+K:Dmix
+|:DEF G3|AGE c2A|dcA d2e|fed cAG|
+|~F3 GFG|AGA cde|dcA GEA|1~D3 D2A:|2~D3 D2A||
+|:dcA d2e|fed ege|dcA c2d|egd ecA|
+|dcA d2e|fed ege|dcA GEA|1~D3 D2A:|2~D3 D2 z||
+S:https://www.folktunefinder.com/tunes/96644
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

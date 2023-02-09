@@ -1,0 +1,28 @@
+X: 33774
+T: Raven's
+R: jig
+M: 6/8
+K: Dmajor
+|:dfe dBA|FAA BAA|dfe fdB|GBd ABc|
+def fef|geg gag|fed cAG|1 EAG FDD:|2 EAG FD c
+|:dBf gef|dBB ABG|FAc BcA|EAG ~F3|dce edf
+[1 feg gag|fed cAG|EAG FDc:|2 feg gba|ged Bdd|
+cAG FDD||
+"Variation #1"
+K:Dm
+A|:dfe dBA|FAA BAA|dfe fdB|GBd A=B^c|
+def fef|1 g_eg gag|fdc AGF|EAG FDD:|2 g_eg bag|fdc ABG|EAG FDD||
+ecg afg|ecc BcA|^FAd cdA|^Ged ^cAA|^c=Bd dce|1 edf fgf
+ed^c BAG|EAG FDd:|2 edf gba|ged Bdd|cAG FDD||
+"Variation #2"
+A|:dfe dBA|FAA BAA|dfe fdB|GBd A=B^c|
+def fef|1 g_eg gag|fdc AGF|EAG FDD:|2 g_eg bag|fdc ABG|EAG FDD||
+|:AFc dBc|AFF EFD|E^G=B ABG|1 ^F=B^A ^GFF|^A^G=B BA^c|
+^c=Bd ded|^c_BG _BdB|EAG FDD:|2 ^F^A^c =BcA|_Ac_e _dec|_B_df _efd|
+ceg fge|d^fa gaf|eg=b abg|^fa^c' =bc'a|g=bd' ^c'd'b|a^c'e' d'e'c'|
+=bd'^f' e'f'd'|^c'e'g' ^f'g'e'|d'^f'a' g'a'f'|d'^f'a' g'a'f'|d'f'a' g'a'f'|
+d'f'a' g'a'f'|^c'e'a' g'a'e'|^c'e'a' g'a'e'|=c'e'g' f'g'e'|=bd'g' 'f'g'd'|
+_bd'f' _e'f'd'|ac'f' _e'f'c'|g=bd' c'd'b|f_ac' bc'a|e^g=b abg|aea e^ce|
+^cAc ece|dAd _eBG|EA^c ece|dAd _eBG|A^ce gfe|d^ce edf|
+feg gag|fed Bdd|^cAG FDD||
+

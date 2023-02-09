@@ -1,0 +1,22 @@
+X: 1
+P: Dans p\aa Kolbotten (Polska fr\aan \AAmot)
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+R: 16th-note polska
+L: 1/8
+K: Gm
+|:"Gm"D>d (c>B) (A>G) | "Gm"GA/B/ (c/B/)A/G/ "D"^FD | "D"D^F/A/  DF/A/  D(F/A/) | "Gm"GA/B/ (c/B/)A/G/ "D"^FD |
+| "D"D^F/A/  DF/A/  D(F/A/) | "Gm"GA/B/ (c/B/)A/G/ "D"^FD | "D"D>d (cA) "Gm"(Bd) | "D"(D/^F/)A/F/ "Gm"G4 :|
+|:"D"D>A, (B,C) D2 | "Gm"D>G (FE) D2 | "D"D>A, (B,C) D2 | "Gm"D>G (FE) D2 |
+| "D"D^F/A/ dA/F/ D2 | "Gm"DG/B/ dB/G/ D2 | "D"D>d (cA) "Gm"(Bd) | "D"(D/^F/)A/F/ "Gm"G4 :|
+S:https://www.folktunefinder.com/tunes/8953
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Misc1.abc
+% Rhythm 16th-note polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

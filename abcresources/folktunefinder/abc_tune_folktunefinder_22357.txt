@@ -1,0 +1,23 @@
+X:1907
+T:Farmer's tune
+O:england
+M:4/4
+L:1/8
+K:D
+Ac|\
+d2fe cece | defd A2Ad | B2b2bagf | gfed dcBA |\
+d2fd cece | defd A3A | Bbag fedc | e4 d2::\
+fg|\
+a2af afaf | bagf g2ef | g2ge gege | agfef3A |\
+d2fd cece | defd A2Ad | Bbag fedc | e4 d2:|
+S:https://www.folktunefinder.com/tunes/22357
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

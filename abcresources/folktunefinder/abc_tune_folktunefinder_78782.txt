@@ -1,0 +1,26 @@
+X:341
+T: WENN GRUEN DIE EICHEN STEHEN
+N: E0191A
+O: Europa, Mitteleuropa, Deutschland, Wetterau; Lahnkreis; Dillkreis
+R: erzaehlendes Volks - Lied, Sage, Familien - Geschichte
+M: 4/4
+L: 1/8
+K: D
+A,F,A, | D3A,F,A,B,A, | A,G,G,2z
+DCD | E3DCB,A,G, | F,4z
+A,A,D | F3EDCB,A, | A,G,G,2z
+EDF, | B,3B,A,A,B,C | D4z
+A,A,D | F3EDCB,A, | A,G,G,2z
+EDF, | B,3B,A,A,B,C | D4z
+S:https://www.folktunefinder.com/tunes/78782
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Erzaehlendes volks - lied, sage, familien - geschichte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Scott Meikle
+C: George Meikle
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+AG \
+|: "F"FAcd "C7/E"cA^GA | "Dm"FAcd "C7"cA^GA \
+|  "F"FAcd "D7/F#"cBAc | "Gm"B2G2 "G7"G3^d |
+|  "C"eGfG "G7"gGfG | "C"eGgG "G7/B"fGeG \
+|  "C"ec=Bc "C7/E"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f2c2 "C7"d2e2 |
+|: "F"fcgc "C/E"acgc | "Dm"fcac "C7"gcfc \
+|  "F"fcgc "A/F"acgc | "C7/G"e2c2 "C7"c3d |
+| "C"ecfc "/G"gcfc | "C"ecfc "/G"gcfc \
+| "C"ec=Bc "C7/E"dcde |1 "F"fAeA "C7"dAcA :|2 "F"f4 f2 |]
+S:https://www.folktunefinder.com/tunes/18088
+S:http://trillian.mit.edu/~jc/music/abc/reel/Scott_Meikle_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/George_Meikle/Scott_Meikle_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Scott_Meikle_F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,49 @@
+X: 13
+T: Ask me now
+M: 4/4
+L: 1/8
+C: Thelonious Monk
+Q: 1/4=72
+K: Db
+%%staves (chords melody)
+%%text (ballad)
+%%vskip 20
+P: A
+V: chords
+"Gm7"x2 "C7"x2 "F#m7"x2 "B7"x2 | "Fm7"x2 "Bb7"x2 "Em7"x2 "A7"x2 |\
+"Ebm7"x4 "Ab7"x4 | "B7"x4 "Bb7"x4 |
+[1 "Eb7"x4 "D7"x4 | "Dbmaj7"x4 "Eb7"x4 |\
+"Ebm7"x4 "Ab7"x4 | "B7"x2 "Bb7"x2 "A7"x2 "Ab7"x2 :|
+[2 "Eb7"x4 "D7"x4 | "Dbmaj7"x4 "Eb7"x4 |\
+"Ebm7"x4 "Ab7"x4 | "Db6"x8 ||
+V: melody
+c=G=EC =B,=B3  | BF=DB, =A,=A3 | ABAB A2=E2 | F8 |
+[1 FDB,=G, _G,2<_F2 | ED (3CDF cB3 | dB (3GEB, F3=E   | F8 :|
+[2 FDB,=G, _G,2<_F2 | ED (3CDF cB3 | dB (3GEB, F2>A,2 | D8 ||
+P: B
+V: chords
+"Ebm7"x4 "Ab7"x4 | "Dbmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 | "Dbmaj7"x4 x4 |
+"Eb7"x4 x4 | x4 x4 | "Ebm7"x4 x4 | "Gb7"x4 x4 ||
+V: melody
+EFGA c3B | A8 | EFGA _c3__B | A8 |
+[fd][ec][dB][FD] [=A3c3][ce] | [B8=G8] | BAGB, FE3 | _fedB _fe3 ||
+P: A
+V: chords
+"Gm7"x2 "C7"x2 "F#m7"x2 "B7"x2 | "Fm7"x2 "Bb7"x2 "Em7"x2 "A7"x2 |\
+"Ebm7"x4 "Ab7"x4 | "B7"x4 "Bb7"x4 |
+"Eb7"x4 "D7"x4 | "Dbmaj7"x4 "Eb7"x4 |\
+"Ebm7"x4 "Ab7"x4 | "Db6"x8 |]
+V: melody
+c=G=EC =B,=B3  | BF=DB, =A,=A3 | ABAB A2=E2 | F8 |
+FDB,=G, _G,2<_F2 | ED (3CDF cB3 | dB (3GEB, F2>A,2 | D8 |]
+S:https://www.folktunefinder.com/tunes/87514
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

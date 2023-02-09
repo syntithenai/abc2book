@@ -1,0 +1,24 @@
+X:393
+T: "Die geraubte Koenigstochter"
+N: Z1073
+O: Europa, Mitteleuropa, Deutschland
+R: Romanze, Ballade, Jaeger - Lied
+M: 6/8
+L: 1/16
+K: G
+D2 | G4A2B4G2 | A4G2F4
+A2 | d4B2A4FD | G4E2D4z2
+G2G2G2D2B,2G,2 | G2G2G2D2B,2
+G2 | G4A2B3cB2 | A4BAG4z
+G | G4A2B3cB2 | A4BAG4
+S:https://www.folktunefinder.com/tunes/69252
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

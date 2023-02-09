@@ -1,0 +1,29 @@
+X:293
+T: Alte Zecher - Melodie
+N: A0336
+O: Europa, Mitteleuropa, Deutschland
+N: Trillers Singbuch 1555.
+R: Romanze, Ballade, Lied, Trinklied
+M: 3/2
+L: 1/2
+K: D
+D | D2A | A2E | G=F2 | E2
+E | D2E | =FGE | D2
+D | D2A | A2E | G=F2 | E2
+E | D2E | =FGE | D2
+D | G2G | G2A | =cB2 | A2
+B | =c2G | A2E | G=F2 | E2
+E | G2G | D2E | =FD2 | =C2
+c | BA2 | d=cB | =cB2 | A2
+S:https://www.folktunefinder.com/tunes/68839
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied, trinklied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

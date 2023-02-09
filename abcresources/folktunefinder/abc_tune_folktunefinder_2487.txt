@@ -1,0 +1,18 @@
+X: 1
+T: TEST: Roll
+%%staffwidth 400
+K: C
+|: RD2DE RF2FG | RA2AB cdRd2 :|
+S:https://www.folktunefinder.com/tunes/2487
+S:http://trillian.mit.edu/~jc/music/abc/test/Orn_Roll.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Orn_Roll.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Orn_Roll.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Orn_Roll.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

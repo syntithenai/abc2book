@@ -1,0 +1,27 @@
+X: 1
+T: the Jolicure Jig
+C: J.Duncan Keppie
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+a2g \
+| "D"fed "G"BcB | "D"ABA "(A7)"F2E | "D"DEF ABA | "A7"G2E C2B, \
+| A,B,C "D"DFD | "A7"CDE GBA | "E7"^GEB GdB | "A7"A3 a2g |
+| "D"fed "G"BcB | "D"ABA "(A7)"F2E | "D"DEF "Bm"ABA | "Em"G2E "A7"C2B, \
+| A,B,C "D"DFD | "G"B,CD "Em"EGF | "A7"EFG ABc | "D"d3 d2e ||
+|| "D"fgf aba | ded f2d | ABc dAF | "A7"BGE C2 f \
+| "Em"gag bc'b | "A7"efe gba | "E7"^gfg efg | "A"a3 "A7"a2g |
+| "D"fgf aba | ded f2d | ABc dAF | "A7"BGE C2 f \
+| "Em"gag bc'b | "A7"efe gag | "D"fdA "A7"GFE | "D"D3- D3 |]
+S:https://www.folktunefinder.com/tunes/14441
+S:http://trillian.mit.edu/~jc/music/abc/jig/JolicureJ_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/JolicureJ_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

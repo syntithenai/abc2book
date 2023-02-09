@@ -1,0 +1,36 @@
+X: 1
+T: Roxburgh Castle
+R: reel
+N: Also in A.  This is a common Morris-dance tune, in hornpipe rhythm.
+N: Kennedy 1-11
+N: Raven p.188 (identical to the Kennedy version)
+N: Brody p.237
+N: Karpeles and Schofreld, p.7 (in A), p.42 (in G)
+K: G
+|: (3DEF \
+| "G"G2GB dBGB | "C"c2ce "G"dBGB | "C"c2ec  "G"B2dB | "Am"AGAB "D7"AcBA |
+| "G"~G2GB dBGB | "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :|
+|: (3def \
+| "G"gdBd edBd | gdBd edcB | "C"c2ac "G"B2gB | "Am"AGAB "D7"AcBA |
+| "G"~G2GB dBGB | "C"~c2ce "G"dBG2 | "C"gfge "D7"dcBA | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/13679
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RoxburgCastle_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/RoxburgCastle_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r32/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/hornpipe/RoxburghCastleR.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel/RoxburghCastleR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:Karl XII vals
+S:efter Gs-Anders
+O:Uppland
+B:Melodier frn Upplands bruk och Fyris bygder hfte 2, nr. 28
+R:Vals
+M: 3/4
+L: 1/8
+K: G
+([gB]f) (ga) bg | d2 (BG) Bd | (cB) (Ad) fa | (ga) (bg) dB |
+(gf) (ga) bg | d2 (BG) Bd | (cB) (Ad) fa |1 [g4B4]!fine! zd :|2 [g4B4] zB |] |:
+(dB) (GB) dB | (cA) (FA) cA | (BG) (EG) cB | (AG) (FE) D2 |
+(BG) (EG) cB | (AG) (FA) ed | {/d}(cB) (cD) FA |1 G4 zB :|2 G4 zD |] |:
+D2 {/c}(BA) B2 | (BG) (GD) [E2C2]- | [E2C2]{/d}(cB) c2 | (cB) (AG) FE |
+D2 {/c}(BA) Bc | d2 (dB) dg | e2 (e^c) ef |1 d4 zD :|2 d4 z!D.C.!d |]
+S:https://www.folktunefinder.com/tunes/169241
+S:http://www.folkwiki.se/pub/cache/Karl_XII_vals_6f7aca.latin.abc
+S:http://www.folkwiki.se/pub/cache/Karl_XII_vals_6f7aca.abc
+S:http://www.folkwiki.se/pub/cache/Karl_XII_vals_6f7aca.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

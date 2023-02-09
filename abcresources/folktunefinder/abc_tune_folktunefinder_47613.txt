@@ -1,0 +1,31 @@
+X: 76
+T:Minuet,A. JaW.076
+M:3/4
+Q:1/4=120
+S:James Winder Ms, Lancashire, 1835-41
+R:Minuet
+O:England
+A:Wyresdale,Lancashire
+H:1/8
+Z:vmp.Chris Partington, Aug 2004
+K:G
+e^de2f2|B2(^d3^c/d/)|e2EFGA|BABcB2|!
+e^de2f2|B2(^d3^c/d/)|e2EFGA|B6:|!
+|gfg2a2|d2(f3e/f/)|g2fedc|B2GABc|!
+d2(d3c/d/)|edcBAG|A2F4|G6|!
+BAB2g2|AGA2f2|GFG2e2|F2G2A2|!
+cBAGFE|^d4e2|GFF4|E6|]
+S:https://www.folktunefinder.com/tunes/47613
+S:http://www.village-music-project.org.uk/abc/winder_jas.abc
+S:http://www.andyhornby.net/Music/James%20Winder%201835%20MS.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

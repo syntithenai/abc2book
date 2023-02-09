@@ -1,0 +1,20 @@
+X:60
+T:Blackberry Blossom
+Z: id:dc-reel-14
+M:C
+L:1/8
+K:G Major
+ge|dBAc BGG2|dBBA B2ge|dBAc BGG2|eaa^g a2:|!
+ef|g3f gaba|gfgb agef|g3f gabg|eaa^g a=gef|!
+g3f gaba|gfgb a2ga|bgaf gedg|eaa^g a2|]!
+S:https://www.folktunefinder.com/tunes/65944
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Reels.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

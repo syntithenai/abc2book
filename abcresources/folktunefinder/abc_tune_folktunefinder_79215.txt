@@ -1,0 +1,25 @@
+X:111
+T: JAENSKEN VON BREMEN
+N: E1164
+O: Europa, Mitteleuropa, Deutschland, Westfalen
+R: Trink -, Zech - Lied
+M: 3/4
+L: 1/4
+K: G
+ | ddc | _BAG | FGA | D2
+d | _edc | _BAd | D2F | Gz
+d | ddc | _BAG | FGA | D2
+d | _edc | _BAd | D2F | Gz
+d | D2F | Gzd | D2F | Gz
+d | _edc | _BAd | D2F | Gz
+d | D2F | Gzd | D2F | Gz2
+S:https://www.folktunefinder.com/tunes/79215
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Trink -, zech - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

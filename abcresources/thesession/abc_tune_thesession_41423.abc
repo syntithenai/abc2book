@@ -1,0 +1,14 @@
+X: 41422
+T: Twins On A Swing
+R: jig
+M: 6/8
+K: Edorian
+ADD ABc|ADD A/B/cA|GED ~E3|GAc d2 c|
+ADD ABc|ADD D/E/FD|E2 C A,B,C|1 DFA:|2 D2 E||
+ABc Ad^c|d2 e fed|edc dgg|a2 g fed|
+e2 f edc|Adc ADD|CA,G, A,DD|1 D2 E:|2 DFA||
+BEE Bcd|BEE B/c/dB|AFE ~F3|ABd e2 d|
+BEE Bcd|BEE E/F/GE|F2 D B,CD|1 EGB:|2 E2 F||
+Bcd Be^d|e2 f gfe|fed eaa|b2 a gfe|
+f2 g fed|Bed BEE|DB,A, B,EE|1 D2 E:|2 DFA||
+

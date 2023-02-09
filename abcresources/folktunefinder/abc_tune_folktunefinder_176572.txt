@@ -1,0 +1,34 @@
+X: 132070
+T: Molly Wee
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: G
+c | d_fd cAG | AGF GFD | FGA cAG | FGA GAc |
+d_fd dcA | GFD FGA | GA^c d=cA | cAG G2 :|
+c | dgg fgf | dcA GAc | dGG dcA | GAc de_f |
+dgg fgf | dcA GAc | dGG dcA | cAG G2 :|
+D | G2G FGA | d2d ^cd_f | g2g agf | dcA GFD |
+G2G FGA | d2d dcA | FGA dcA | cAG G2 :|
+c | dgg agf | gfd fga | gfd d^cA | =cAG FAc |
+[1 dgg aga | _fef dcA | FGA dcA | cAG G2 :|
+[2 de_f g2a | gfd dcA | FAc dcA | cAG G2 ||
+c | dgg agf | gfd fga | gfd d^cA | =cAG FAc |
+d2g _f2g | d2f cAG | FGA dcA | cAG G2 ||
+S:https://www.folktunefinder.com/tunes/176572
+S:http://www.qmcorp.net/webabc/collections/liddy/molly_wee.abc
+S:http://www.qmcorp.net/webabc/m/132070.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 3
+T: The Arkansas Traveler
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/16
+K: D
+|:A,B,|\
+"D"DFED "G"B,2B,2|"A"A,2A,2 "D"D4|"Em"E2E2 F2F2|"A"EFED B,2 A,B,|
+"D"DFED "G"B,2B,2|"A"A,2A,2 "D"D2 (3ABc|"Em"dcdA "G"BdAG|"A"FDEC "D"D2:|
+|:fg|\
+"D"agfa "G"gfeg|"D"fedf "A"edBA|"Bm"dcdf edeg|"Em"fedf "A"e2fg|
+"D"agfa "G"gfeg|"D"fedf "A"edBA|"Em"dcdA "G"BdAG|"A"FDEC "D"D2:|
+S:https://www.folktunefinder.com/tunes/113012
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

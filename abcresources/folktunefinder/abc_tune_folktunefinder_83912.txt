@@ -1,0 +1,21 @@
+X: 3
+P: (Reel of) Stumpie (Wap an' Rowe)
+O: Trad (1734)
+Z: John Chambers <jc@trillian.mit.edu>
+R: polka
+M: 2/4
+L: 1/8
+K: G
+|:"G"Bd g2 | g/f/e/d/ g2 | Bd g2 | "Am"aA "D7"A2 \
+| "G"Bd g2 | g/f/e/d/ g2 | Bd "D7"A>c | "G"BG G2 :|
+|:"G"Bd dc/B/ | "C"ce e>c | "G"Bd "Em"e/d/B/G/ | "Am"BA "D7"A2 \
+| "G"Bd dc/B/ | "C"ce e>c | "G"Bd "D7"A>c | "G"BG G2 :|
+S:https://www.folktunefinder.com/tunes/83912
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR18_C.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

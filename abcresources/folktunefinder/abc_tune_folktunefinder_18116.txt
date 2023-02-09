@@ -1,0 +1,32 @@
+X:1
+T:Silver Spire, The
+M:4/4
+L:1/8
+S:Music of Corktown, Vol. 1
+R:Reel
+K:D
+|: A,C \
+| D2 FE DFAc | dcde fdAF | GABG FADF | (3GFE FD EGFE |
+| D2 FE DFAc | dcde fdAF | GABG FADF | EDCE D2 :|
+|: z2 \
+| A,B,=CD EFGE | FDEF GABc | dcdA Bcde | fdgf ecAc |
+| defd ceAc | dcdB AFDF | GABG FADF | EDCE D2 :|
+S:https://www.folktunefinder.com/tunes/18116
+S:http://trillian.mit.edu/~jc/music/abc/reel/SilverSpire.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SilverSpire1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/SilverSpire.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/SilverSpire.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/SilverSpire1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/reel/SilverSpire.abc
+S:http://www.firepowr.com/abc/SilverSpire.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

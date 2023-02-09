@@ -1,0 +1,22 @@
+X:61
+T:Teddy O'Neill
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F|FBc dcB|fBc dcB|fdB fdB|fgf edc|FBc dcB|fBc dcB|fff f2e|dBB B2::
+z|A2z G2z|FAd fed|cBc edc|dfe dcB|A2z G2z|FAd fed|cBc edc|dfe d2:|
+S:https://www.folktunefinder.com/tunes/90048
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

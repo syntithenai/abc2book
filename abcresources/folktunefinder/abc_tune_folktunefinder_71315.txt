@@ -1,0 +1,25 @@
+X:286
+%%topmargin 3cm
+T:Muschats Cairn
+C:James Porteous
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+G,B, D2 B,D ~G2 | DG B2 DCB,A, | B,D G2 DG B2 | cAGF G2 G,2 :: GB d2 Bd g2 | cBAG FADF |
+GB d2 Bd g2 | cAGF G2 G,2 | GBdg bgdB | caBg ADFD | GD B,2 EC A,2 | AFDF G2 G,2 |]
+S:https://www.folktunefinder.com/tunes/71315
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Muschats_Cairn.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0286.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

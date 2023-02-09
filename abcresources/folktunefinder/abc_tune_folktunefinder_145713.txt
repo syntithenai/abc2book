@@ -1,0 +1,30 @@
+X: 64
+T: Lee's Double -- Clog
+R:clog
+B:Ryan's Mammoth Collection
+N:160 956
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:F
+ u((3cde) |\
+(f>.a)(g>.e) "^SEGUE"f>ca>f | b>ge>g f>dc>B |\
+ A>Fc>F d>Fc>F | "4"A>GG>^F G>cd>e |
+f>ag>e f>ca>f | b>ge>g f>dc>B | A>Bc>d e>fg>a |\
+ b>ge>g f2:|
+|:u(f>.g)|\
+(a>.f)(c>.f) "^SEGUE"A>cf>g | a>fc>f A>cf>a |\
+ b>ag>^f g>dg>=f | e>gf>d c>ef>g |
+a>fc>f A>cf>g | a>fb>g e>cd>e | f>cd>B c>AB>G |\
+ "4"A>FE>G F2:|
+S:https://www.folktunefinder.com/tunes/145713
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/KL.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

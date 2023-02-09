@@ -1,0 +1,33 @@
+X: 114
+T:Waltz. CJF.114
+M:3/8
+L:1/16
+Q:60
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:vmp.P J Headford 2000
+K:G
+d^c|d2g4|d2b4|a(gegaf)|g<b d2 d^c|!
+d2g4|d2b4|abc'afa|g4:|!
+|:BA|B2e4|B2g4|(fe^def)d|e<g b2 B<A|!
+B2e4|B2b4|fgagfg|e4:|!
+dc|.B.d.g.d.b.g|.B.d.g.d.b.g|cfafcf|gbafdc|!
+Bdgdbg|Bdgdbg|^ga=gfed|g4:|!
+|:B2|B^ABcdB|{f}e2A2A2|{a}gfefge|{^a}b2B2B2|!
+efgfeg|fgagfa|gfegf^d|e4:|!
+|:d2|b4a2|g2f2g2|^g2a2b2|c'>ba>gf>e|!
+d4{g}f>e|d4{g}f>e|d2e2f2|g4:|]
+S:https://www.folktunefinder.com/tunes/49669
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

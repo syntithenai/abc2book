@@ -1,0 +1,33 @@
+X:875
+T:Jig Jazz
+R:jig
+C:Brendan Power
+D:Niall Keegan: Don't Touch the Elk
+Z:Devin McCabe
+M:6/8
+L:1/8
+K:EDor
+efa ~b2a|fed ~B2A|BdB ~d3|Bdd bfd|
+!efd' b2a|fed ~B2A|BdB ~d3|1~B3 B2z:|2B2e fab||
+!d'bc'- c'2a|bd'a- abf|fed ~B2A|G2A Bcd|
+!eab d'2b|c'2a ~b2a|fed ~B2A|B2e fab|
+!d'e'c'- c'2a|bd'a- abf|fed ~B2A|G2A Bcd|
+!eab d'2b|c'2a bc'd'|e'c'd' bc'a|bga fed||
+!:efa ~b2a|fed ~B2A|BdB ~d3|Bdd bfd|
+!efd' b2a|fed ~B2A|BdB d2d|1~B3 B2z:|2B3 c3||
+!d2d- dBA|d2d efa|b/2b/2b a fed|efa b/2b/2b a|
+!fed efa|b/2b/2b a fed|edB d2B|~A3 AGF|
+!D2d dBA|d2d efa|b2a fed|~e2 ~f2 ~a2|
+!b2a fed|efa bc'd'|e'c'd' bc'a|bga fed||
+S:https://www.folktunefinder.com/tunes/48251
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

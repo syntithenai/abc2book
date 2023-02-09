@@ -1,0 +1,26 @@
+X:1
+T:Ragtime Cowboy Joe
+M:4/4
+L:1/8
+K:C
+ G3/2 G/2 G3/2 ^G/2 A3/2 A/2 A3/2 _A/2| G3 ^G A2 _A3/2 A/2| G3/2 G/2 G3/2 ^G/2 A3/2 A/2 A3/2 =G/2|\
+ ^F e2 d- d2 G2| G ^G3 A _A3| G2 ^G A- A2 c2| e2 c2 c d3| c4- c2 z2|\
+ d3/2 d/2 d3/2 ^d/2 e3/2 e/2 e3/2 _e/2| d2 ^d e- e3 z| d3/2 d/2 d3/2 ^d/2 e3/2 e/2 e3/2 =d/2|\
+ B2 A2 G4| G2 ^G A- A2 _A2| G2 ^G A- A3 z| B2 B2 B2 B2| B4- B| G A3/2 B/2|\
+ c4- c2 c3/2 B/2| c3/2 B/2 c3/2 B/2 c3/2 B/2 c3/2 ^c/2| d4- d2 d3/2 ^c/2|\
+ d3/2 ^c/2 d3/2 e/2 d3/2 =c/2 A3/2 ^A/2| B4- B2 B3/2 ^A/2| B3/2 ^A/2 B3/2 A/2 B3/2 G/2 =A3/2 B/2|\
+ c3/2 B/2 c3/2 d/2 e3/2 d/2 c3/2 e/2| d3/2 e/2 d3/2 c/2 A3/2 G/2 A3/2 B/2|\
+ c4- c2 c3/2 B/2| c3/2 B/2 c3/2 B/2 c3/2 B/2 c3/2 ^c/2| d2 e2 d2 c2|\
+ A4 c3 B| A3/2 B/2 c3/2 B/2 A3/2 B/2 c3/2 B/2| A3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009 c3/2 B/2 A3/2 B/2 c3/2 d/2|\
+ e2 e2 e d3| e3/2 d/2 eg e d3| e2 g2 e d3| c4- c||
+S:https://www.folktunefinder.com/tunes/184476
+S:http://back.numachi.com:8000/dtrad/abc/RAGTMJOE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/RAGTMJOE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

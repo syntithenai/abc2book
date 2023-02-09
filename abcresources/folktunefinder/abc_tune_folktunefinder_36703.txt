@@ -1,0 +1,25 @@
+X:3120
+T:Leken hinnes Kokk-Sofia
+L:1/8
+M:3/4
+O:Sweden
+R:Polska
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ec7.html
+%%ID:00000ec7
+K:A
+(3EFG A2 B2 | c2 d2 c2 | f>d c<d B>d | (3cAc (3BGB A2 |\
+(3EFG A2 B2 | c2 d2 c2 | f>d  c<d B>a | (3gfg a4 ::
+e>d c<e a>g | f>e d<c d>c | B>A G<A B>c | (3dBd (3cAc B2 |\
+e>d c<e a>g | f>e d<c d>c | B>A G<A (3efg | a2 a4:|
+S:https://www.folktunefinder.com/tunes/36703
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

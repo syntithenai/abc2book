@@ -1,0 +1,27 @@
+X:97
+T: Der Scheintod
+N: Q3058F
+O: Mitteleuropa, Niederlande
+N: Melodievergleich zu Q0058  und Q0058G, anderes Lied.
+N: Taktart in "Taktwechsel" korrigiert.
+R: geistlich
+M: 3/2
+L: 1/8
+K: D
+D2=F2G2 | A6G=FG2G2 | A4z2
+A2=c2d2 | e4d2=c2B4 | A4z2
+A2A2A2 | =c6A2A2G2 | =F4
+=c4d6A2 | A4G2=F2E4 | D4z2
+S:https://www.folktunefinder.com/tunes/132199
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:585
+T:An Suisin Ban (D)
+C:Chieftains
+R:hornpipe
+H:
+Z:
+M:4/4
+K:D
+F|:"G"GB,B,A, B,CDB,|"D"A,B, (3DEF "G"G2 GE|"D"FEDB, A,2 B,D|"E"E2 EF "A"EA,DE|
+"D"FEDB, "A"A,B,A,B,|1"G"D2 DE "D"D2 (3DEF:|2"G"D2 DE "D"D2 FA||
+|:"G"B2 BA BcdB|"D"AFDF "G"G2 GE|"D"FEDB, A,2 B,D|"E"E2 EF "A"EA,DE|
+"D"FEDB, "A"A,B,A,B,|1"G"D2 DE "D"D2 FA:|2"G"D2 DE "D"D2 (3DEF||
+S:https://www.folktunefinder.com/tunes/67419
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

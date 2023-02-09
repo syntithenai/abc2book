@@ -1,0 +1,25 @@
+X:7
+T: Ritter Ulrich
+N: A0013A
+O: Europa, Mitteleuropa, Deutschland
+N: Melodie nach Nicolai, Almanach II, No 21, S.210
+R: Romanze, Ballade, Lied
+M: 6/4
+L: 1/8
+K: E
+E2 | E4A2A4=G2 | A4B2=c4
+B2 | A4A2=G2=F2E2 | A4=G=FE4
+AB | =c2B2A2=G4A2 | E4=D2=C4z2
+=G4=F2E2F2G2 | A2B2A2=G4A2 | =F6E4
+S:https://www.folktunefinder.com/tunes/68553
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

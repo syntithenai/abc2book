@@ -1,0 +1,29 @@
+X:880
+T:the Young man Delight --- or the Cuckoo's Nest
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001093.html
+%%ID:00001093
+K:D mixolydian
+DE | \
+FEFD f2ed   | cAGF B2AG | FEFD CDFC | c2G2 G2AG | \
+FEFD fg(af) | cAGF B2AG | FEFD CDEG | F2D2 D2 ::
+A2 | \
+d2d2 fgaf | d2A2 A2AB | c2c2 efge | c2G2 G2fe | \
+dcde f2ed | cAGF B2AG | FEFD CDEG | F2D2 D2 ::
+FG | \
+AFDF AFDF | AGFE D2EF | GECE GECE | GFED C2FG | \
+AFDF AFDF | AGFE f2(fg) | agfe fedc | d2D2 D2::
+S:https://www.folktunefinder.com/tunes/88333
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

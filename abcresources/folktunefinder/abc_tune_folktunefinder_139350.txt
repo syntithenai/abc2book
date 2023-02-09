@@ -1,0 +1,23 @@
+X:8
+T:A Fig for a Kiss
+R:slip jig
+S:Niall Keegan
+M:9/8
+L:1/8
+K:G
+G2 B E2 B BAG|F2 A d2 A AGF|G2 B E2 B BAG|B/c/dB AGF E3:|!
+g2 e g2 e edB|f2 d dcd fed|g2 e g2 e edB|cBA GBd e3|!
+g2 e g2 e edB|f2 d dcd fed|gfe fed edA|B/c/dB AGF E3||
+% Output from ABC2Win  Version 2.1 f on 01/12/2001
+S:https://www.folktunefinder.com/tunes/139350
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/SCAT2001.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/SCAT2001.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

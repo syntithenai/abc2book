@@ -1,0 +1,25 @@
+X:1
+T:Stagshaw Bank Fair
+C:Trad
+R:reel
+S:Northumbrian Minstrelsy
+Z:Manuel Waldesco" <mwal:wanadoo.es> tradtunes 2002-4-2
+M:4/4l
+K:G
+dc|\
+M:4/4
+BGGB cAAc| BGGc Bdgd | BGGB cAAc| Bgd^c d3::e| dBdg eceg| fdef gage|\
+dBdg eceg|fdef g2 fe| dBB2 ec c2| dB B2 AFDd| edef gage| dBcA G4:|
+S:https://www.folktunefinder.com/tunes/18159
+S:http://trillian.mit.edu/~jc/music/abc/reel/StagshawBankFair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Wales/reel/StagshawBankFair_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/StagshawBankFair_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

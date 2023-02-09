@@ -1,0 +1,32 @@
+X: 1
+T: the Telegraph Post
+O: Kerr's 4th
+B: Kerr's 4th
+R: hornpipe
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+"G7"gf \
+| "C"eg ec "G7"df dB  | "C"cd ec     G2 c2 |"Dm"d^c de "D7"fe d=c | "G"B2 g2 "G7"g2 gf |
+| "C"eg ec "G7"df dB  | "C"cd ec "C7"G2 c2 | "F"Aa  gf "G7"ed cB  | "C"d2 c2     c2   :|
+|: G2 \
+| "C"GE Gc  "F"AF Ac  | "G"BG Bd "Am"c2 de |"Dm"fe  fg  "F"ag fe | "G"dc BA G2 G2 |
+| "F"A^G AF "G"BA B=G |"Am"cB cA  "G"d2 cB | "C"ca  gf "G7"ed cB | "C"d2 c2 c2   :|
+S:https://www.folktunefinder.com/tunes/13703
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/TelegraphPost_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TelegraphPost_C.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

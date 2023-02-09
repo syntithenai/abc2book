@@ -1,0 +1,24 @@
+X: 1
+T: Freylachs in D minor (1)
+M: C
+L: 1/8
+K: Em
+B,EG "B"\
+| "Em"B2 Bc B2 AG | "Am"A2 A_B A2 zG | "Em"GF FG "Dm"GE/G/ =F/E/D | "Em"^AB2A B/=A/G G/F/E |
+| "Em"B2 B{d}c B2 AG | "Am"A2 A_B A2 zG | "Em"GF FG "Dm"GE/G/ =F/E/D | "Em"E2 z3 :|
+|: B,EG "C"\
+| "Em"B2 AG "Am"A{B}A GF | "Em"G2 FE G/F/E "D"DG | "Em"GF FG GE/G/ "Dm"=F/E/D | "Em"E2 z3 :|
+|: DEF "D"\
+| "G"G2 "D7"A2 "G"B2 "D7"c2 | "G"d6 zd | "D7"dc cd dB/d/ c/B/A | "G"B3 ^A B/=A/G G2 |
+| "Gm"G_B AG AB2 B | "A"^c/d/e d/c/_B A2 zG | "Em"GF FG "Dm"GE =F/E/D | "Em"E2 z3 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6965
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Frei_Dm_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

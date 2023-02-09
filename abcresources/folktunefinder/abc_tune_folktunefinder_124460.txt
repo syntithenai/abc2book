@@ -1,0 +1,82 @@
+X:28 
+T:Variation no. 28 
+C:J.S.Bach 
+M:3/4 
+Q:350 
+V:4 bass 
+L:1/16 
+K:G 
+[V:1] bzz2 d'zz2 gzz2 | azz2 d'zz2 fzz2| 
+[V:2] [L:1/32] zdededed zdededed zdededed | zdededed zdededed zdededed | 
+[V:3] [L:1/16]z12 | z12 | 
+[V:4] G,2[K: treble]B2 A2[K: bass]F,2 E,2A2 | F,2A2 G2E,2 D,2F2| 
+% 
+[V:1] gzz2 bzz2 azz2 | fzz2 ^c'zz2 d'zz2| 
+[V:2] zdededed zdededed z^cdcdcdc | zdededed zdededed zdededed | 
+[V:3] z12 | z12 | 
+[V:4] E,2G2 F2G,2 A,2E2 | D,2F2 E2G,2 F,2=C2 [K: treble]| 
+% 
+[V:1] z8 =f2d2 | e2[K: bass]A,2 z2[K: treble]z2 z2a2 | 
+[V:2] [L:1/16]g2[K: bass]G,2 A,2[K: treble]e2 z2B2 | c2[K: bass] z2 B,2[K:treble]^f2 g2^c2 | 
+[V:3] [L:1/32]zGAGAGAG zGAGAGAG zGAGAGAG | zGAGAGAG zGAGAGAG zGAGAGAG | 
+[V:4] B,zz2 Czz2 Dzz2 | Czz2 Dzz2 Ezz2 | 
+% 
+[V:1] b2[K:bass]A,2 B,2E,2 F,2z2 | z2[K:treble]=c'2 b2a2 g2f2 | 
+[V:2] d2[K:bass]F,2 G,2^C,2 D,2D,,2 | G,,2[K:treble]e2 d2c2 B2[A2c2]| 
+[V:3] zGAGAGAG zGAGAGAG zFGFGFGF | zGAGAGAG zGAGAGAG zGAGAGAG [K:bass]| 
+[V:4] Dzz2 Ezz2 A,zz2 | B,zz2 Czz2 Dzz2 [K:bass]| 
+% 
+[V:1] z12 |z12 |z12 |z12 | 
+[V:2] [Bdgb]gfg eBAB GBeg | afef dAGA FAdf | ge^de BGFG EGB=d | ^cGFG E^CB,C A,CEG | 
+[V:3] [L:1/16] z12 | z12 | z12 | z12 | 
+[V:4] G,B,A,B, [K:treble] EGFG BGE^C [K:bass] | E,A,G,A, [K:treble] DFEF AFDB,[K:bass] | E,G,F,G, [K:treble] B,E^DE GEB,G, | A,E=DE GAGA GE^CA, [K:bass]| 
+% 
+[V:1] Fzz2 Gzz2 Azz2 | Bzz2 Azz2 Gzz2 | 
+[V:2] [L:1/32] zDEDEDED zDEDEDED zDEDEDED | zDEDEDED zDEDEDED zDEDEDED | 
+[V:3] [L:1/32] zF,G,F,G,F,G,F, zF,G,F,G,F,G,F, zF,G,F,G,F,G,F, | zF,G,F,G,F,G,F, zF,G,F,G,F,G,F, zF,G,F,G,F,G,F, | 
+[V:4] D,zz2 B,,zz2 A,,zz2 | G,,zz2 A,,zz2 B,,zz2| 
+% 
+[V:1] Azz2 Bzz2 Azz2 | FD^CD [K:bass] A,F,E,F, D,4 [K:treble] :| 
+[V:2] zDEDEDED  zDEDEDED z^CDCDCDC | z8z8z8 :| 
+[V:3] zF,G,F,G,F,G,F, zF,G,F,G,F,G,F,  zE,F,E,F,E,F,E, | D,,2F,,2E,,2F,,2 A,,2D,2^C,2D,2 F,8 :| 
+[V:4] A,,zz2 G,,zz2 A,,zz2 | z12 :| 
+% 
+[V:1] |: FAGA dfef af=cA | Bdcd gbab d'b=fd | e2B2 c2^D2 E2[K:bass]G,2 | ^F,2[K:treble]e2 ^dfef afdf | 
+[V:2] |: z12z12 | z12z12 | z12z12 | z12z12 | 
+[V:3] |: z12z12 | z12z12 | z12z12 | z12z12 [K:treble]| 
+[V:4] |: D2E,2 F,2=C2 D,2[K:treble]F2 | G2A,2 B,2=F2 G,2B2 | cG=FG ECB,C A,CEA[K:bass] | ^DB,^A,B, ^F,^D,^C,D, B,,D,F,=A,[K:treble]| 
+% 
+[V:1] Bzz2 ^czz2 ^dzz2 | ezz2 ^dzz2 ezz2| 
+[V:2] zgagagag zgagagag zgagagag | zgagagag zgagagag zgagagag | 
+[V:3] zEFEFEFE zEFEFEFE zEFEFEFE | zEFEFEFE zEFEFEFE zEFEFEFE | 
+[V:4] G,zz2 A,zz2 B,zz2 | =Czz2 B,zz2 Czz2| 
+% 
+[V:1] ^czz2 Bzz2 =Azz2 | eGFG Be^de (g/=f/e)(f/e/=d) | e2E2 ^D2=D2 ^C2e2| 
+[V:2] zgagagag zgagagag zfgfgfgf | z12z12 | z12z12 | 
+[V:3] zEFEFEFE zEFEFEFE z^DEDEDED [K:bass] | C,2E2^D2E2 B,2G,2F,2G,2 E,2G,2B,2=D2 [K:treble] | zGAGAGAG zGAGAGAG zGAGAGAG | 
+[V:4] A,zz2 B,zz2 B,zz2 | z12 | Czz2 B,zz2 A,zz2| 
+% 
+[V:1] d2D2 ^C2=C2 B,2d2 | Ezz2 Dzz2 Ezz2| 
+[V:2] z12z12 | zcdcdcdc zcdcdcdc zcdcdcdc | 
+[V:3] zEFEFEFE zEFEFEFE zEFEFEFE | z12z12 | 
+[V:4] B,zz2 A,zz2 G,zz2 | A,2e2 =f2^f2 g2[K:bass]A,2| 
+% 
+[V:1] Fzz2 Ezz2 Fzz2 | Bzz2 czz2 dzz2| 
+[V:2] zcdcdcdc zcdcdcdc zcdcdcdc | zGAGAGAG zFGFGFGF z=FGFGFGF | 
+[V:3] z12z12 | z12z12 | 
+[V:4] D,2[K:treble]f2 g2^g2 a2D2[K:bass] | =G,2G,,2 _A,,2=A,,2 _B,,2=B,,2 | 
+% 
+[V:1] E2e2 =f2^f2 g2^g2 | aFEF =GBAB cAFD | GBAB dgfg b4 :| 
+[V:2] z12z12 |z12z12 | z12z12 :| 
+[V:3] zCDCDCDC zB,CB,CB,CB, z_B,CB,CB,CB, | z12z12 |z12z12 :| 
+[V:4] C,zz2 D,zz2 E,zz2 | F,DCD =B,G,F,G, D,F,A,C | B,G,F,G, D,B,,A,,B,,G,,4 :|
+S:https://www.folktunefinder.com/tunes/124460
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

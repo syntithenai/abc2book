@@ -1,0 +1,23 @@
+X: 12
+T: Whiskey and Beer
+R: slipjig
+O: Trad
+B: Cole p.58
+D: Boys of the Lough ___
+Z: John Chambers <jc:trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|: "D"ABA A2G F2G | ABA AGF "A7"G3 | "D"ABA A2G F2G | "A7"A2d d2c "D"d3 :|
+[| "D"A2g f2d "A7"e2c | "D"ABA A2B "C"=c2B | "D"A2g f2d "A7"e2c | "A7"A2d d2c "D"d3 ||
+|| "D"A2g f2d "A7"e2c | "D"ABA A2B "C"=c2^c | "D"d2A A2G F2G | "A7"A2d d2c "D"d3 |]
+S:https://www.folktunefinder.com/tunes/13011
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/slipjig.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

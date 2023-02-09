@@ -1,0 +1,32 @@
+X:235
+T:the Famous Derbyshire Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000308.html
+%%ID:00000308
+K:D
+D2 d4 A2 F2 D2 | C2 E4 B,2  C4  | D2 d4  A2 F4     | D2 F4  A2 G2 E2 |
+D2 d4 A2 FGAF  | E2 cd edcB cdec| D3 d edcB FGAF   | DEFG  FGAF EFED |
+D2 d2 edcB AGFA| E2 cd edcB cdec| feec dcBA FGAF   | D2 d2 edcB cdec |
+fedc dcBA FGAF | E2 cd edcB cdec| d2 f2 D2 G2 F2 A2| D2 f2 D2 f2 cdec|
+d2 f2 D2 G2 F2 A2 | e2 fe fefe fedc|d2 ed edcB AGFE| DEFG  FGAF EFGE |
+DEFG AFGA BAGF | EDEF EDCB, CDEC| D6 A,2 B,4       | DEFG A2 D2 C2 E2|
+B,2 D2 C2 E2 DEFD|CDEF EDCB, CDEC| A,B,CA, B,CDB, DEFG|AGFE DEFD CDEC |
+D2 FD E2 GE FGAF|Ddcd edcB  cdec| defd d2 D2 F2 A2 | D2 F4   A2 G2 E2||
+S:https://www.folktunefinder.com/tunes/110763
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,12 @@
+X: 21039
+T: Jump At The Sun
+R: jig
+M: 6/8
+K: Dminor
+|:DFA ^G2A|DFA ^G2A|d2A d2A|BAG AFE|
+DFA ^G2A|DFA ^G2A|d2A BAG|1 FGE D2F:|2 FGE D2^c||
+|:dAA def|eAA gfe|dAA def|eAA BAA|
+dAA def|eAA gfe|dAA BAG|FGE D2^c:|
+|:dAA eAA|fAA eAA|dAA FAA|BcB A2^c|
+dAA eAA|fAA eAA|dAA BAG|1 FGE D2^c:|2 FGE D2F||
+

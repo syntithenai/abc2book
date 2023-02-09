@@ -1,0 +1,26 @@
+X:22
+T: The White Cockade 
+N: HA022
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge
+M: 2/2
+L: 1/8
+K: D
+d2 | A2F2F2ED | F2F2F2
+d2 | A2F2F2ED | F2E2E2
+DE | F2F2GFED | F2A2d3
+e | fedcd2cB | A2F2F2
+FG | A2F2d2F2 | A2A2A3
+B | A2F2d2cd | e2E2E2
+DE | F2F2GFED | F2A2d3
+e | fedcd2cB | A2F2F2
+S:https://www.folktunefinder.com/tunes/135717
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

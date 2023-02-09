@@ -1,0 +1,10 @@
+X: 40625
+T: Tony's Trek
+R: jig
+M: 6/8
+K: Dmajor
+DEF ABA|AFE D3|DEF ABc|B3 A3|
+DEF ABA|AFE D2E|FAF EFE|E3 D3:|
+DFA def|edB AFE|DFA def|edB d3|
+DFA def|afd ecA|B2B AFA|Bdd d3:|
+

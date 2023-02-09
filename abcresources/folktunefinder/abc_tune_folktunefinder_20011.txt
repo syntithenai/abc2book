@@ -1,0 +1,42 @@
+X: 1
+T: Juhlavalssi
+C: Erkki Ojanen
+N: Omistettu Erkki  Ala-K\"onnille
+N: kaustisen juhlavalssi
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+|: D2 \
+| "Gm"G3 D B,D | G2 A2 B2 | "D7"A4 ^F2 | D4 c2 \
+| "Gm"B4 {BcB}AB | "F7"cA F2 e2 | "Bb"d6- | d2 z2 d2 |
+| "Cm"c3 B {cB}AG | "D7"^FA d2 c2 | "Gm"B4 (3ABA | G4 [fF][gG] \
+| "Dm"[a3A3] [fF] [dD][fF] | "A7" [=e2=E2] [^c2^C2] [A2A,2] | "Dm"[d6D6]- | [d2D2] z2 D2 ||
+| "Gm"G3 D B,D | G2 A2 B2 | "D7"A4 ^F2 | D4 c2 \
+| "Gm"B4 {BcB}AB | "F7"cA F2 e2 | "Bb"d6- | "D7"d4 d2 |
+| "Gm"g4 d2 | "Cm"f3 e de | "Bb"d3 B AG | "Eb"B4 c2 \
+| "Gm"d3 B AG | "D7"A^F D2 B2 | "Gm"G6- | G2 z2 |]
+|: DE \
+| "Bb"F3 G FE | D2 F2 B2 | "F7"A4 (3GAG | F3 A cd \
+| "Eb"e3 d ec | "F7"A2 c2 e2 | "Bb"d3 e dc | B2 F2 B2 |
+| "Bb"d4 (3ded | B2 d2 g2 | "F"f4 c2 \
+| "F"A3 G (3FGF | "C7"=E3 F GA | BG D2 =E2 | "F"F6- | F2 z2 :|
+|: f2 \
+| "Bb"b2 z2 f2 | (3fgf ed cB | "F7"A4 c2 | f4 f2 \
+| "Eb"a3 bag | "F7"(3fgf ce dc | "Bb"B4 d2 | f4 f2 |
+| "Bb"b2 z2 f2 | (3fgf ed cB | "Eb"G2 c=B ce | "Cm"g3 a b2 \
+| "F7"ab ag fg | (3fgf ce dc | "Bb"B6- | B2 z2 :|
+S:https://www.folktunefinder.com/tunes/20011
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Juhlavalssi_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/waltz/Juhlavalssi_Gm.abc
+S:http://terrytraub.org/abc/JuhlavalssiW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

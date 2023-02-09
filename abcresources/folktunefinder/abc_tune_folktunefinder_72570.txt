@@ -1,0 +1,25 @@
+X:113
+T: In einer glueckseligen Stund'
+N: D0169
+O: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+N: Grundton  ; Inzipit = Variante zum Lied
+R: Liebes - Lied
+M: 6/8
+L: 1/16
+K: D
+A,2 | F3ED2D2E2F2 | E4z2z4
+A2 | c3BA2G2E2A2 | F4z2z4
+D2 | D2F2A2d2c3B | B2A2z2z4
+A2 | c3BA2GGE2A2 | F4z2z4
+D2 | D2F2A2d2c3B | B2A2z2z4
+A2 | c3BA2GGE2A2 | F4z2z4
+S:https://www.folktunefinder.com/tunes/72570
+S:http://ifdo.ca/~seymour/runabc/esac/dva0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

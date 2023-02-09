@@ -1,0 +1,25 @@
+X:490
+T:Mrs Parker's Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000625.html
+%%ID:00000625
+K:A
+E2|\
+A2ABcA | d2d2B2 | c2c2A2 | BGE2E2 |\
+A2ABcA | d2B2B2 | F2FAGB | A4 ::
+E2 |\
+e2e2ce | d2d2Bd | c2c2Ac | BGE2E2 |\
+e2cdef | d2Bcde | F2FAGB | A4 ::
+S:https://www.folktunefinder.com/tunes/95729
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

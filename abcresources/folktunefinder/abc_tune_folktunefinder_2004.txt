@@ -1,0 +1,37 @@
+X: 67
+T:42 Regmt Farewell.The,(etc). JMP.067
+T:Farewell to Edinbourghe,aka. JMP.067
+T:Miss Forbes Farewell. JMP.067
+M:C|
+L:1/8
+Q:160
+C:"72...Miss Forbes Farewell."..to Edinburgh
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Misc.
+O:Scotland
+A:Perth
+N:"to Edinbourghe"aka Bill Hall's no2..'Miss Forbes Farewell' written in
+N:pencil in a
+N:different writing
+N:
+N:"1" d and c written in pencil above the two G's
+H:1799
+Z:vmp.C. Graebe
+K:G major
+GA | (B3B/)d (cB)(AG) | .B2.d2.e2.g2 | (d3d/)e dB(AG) | B2A2A2 GA |!
+(B3B/)d (cB)(AG) | .B2.d2.e2.g2 | (d3d/)e dB(GA) | B2"1"G2G2 :|!
+|:de | (g3g/)a (gf)(ed) | (ed)(ef) g2e2 | (d3d/)e dBAG | B2A2A2 de |!
+ (g3g/)a gfed | edef g2e2 | (d3d/)e dB(GA) | B2 G2G2 :|]
+S:https://www.folktunefinder.com/tunes/2004
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:3
+T:Quintus
+T:Leave alas this tormenting
+C: Thomas Morley (1595)
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/2
+Q:1/2=90
+K:F
+N: Original clef, C on third line, so this is a tenor G clef, sounding an octave lower than written
+%%MIDI transpose -12
+z2 G > G B2 A A B2 G G2 G G2 G B A2 A2 z B A G ^F G2
+S:https://www.folktunefinder.com/tunes/110963
+S:http://www.laymusic.org/music/morley/tormenting/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Bay Tree
+C: Andy Cutting
+Z: Steve Mansfield
+M: 3/4
+L: 1/8
+R: waltz
+K: G Major
+|: B4 AB | d4 BA | G2 FG Ac | B2 A2 GA |
+B4 AB | d4 BA | G2 FG AB |[1 A3 :|[2 A4 GA ||
+|: B2 GD GB | c2 AF Ac | d2 BG Bd | e4 dc |
+B2 GB dB | c2 Ac ec | d2 BG Bd |[1 e4 dc :|[2 e6 |]
+S:https://www.folktunefinder.com/tunes/136819
+S:http://www.thesession.org/tunes/display/7953
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

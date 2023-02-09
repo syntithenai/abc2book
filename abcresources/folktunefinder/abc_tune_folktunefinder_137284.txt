@@ -1,0 +1,30 @@
+X: 5
+T:First Morris, Badby
+M:6/8
+L:1/8
+A:Badby
+P:A3BC
+K:D
+P:A
+|:D|GFG A2A|ede d2d|GFG AGF|EDE D2:|
+P:B
+A|dcd edc|dcd B2A|dcd edc|dcd B2A|
+BAB G3 |ABc d3 |G2G AGF|EDE D2||
+P:C
+M:2/4
+L:1/8
+|:D|G>F G2 |A2  A2 |B<e de |d2  d2 |
+G>F G2 |A>G F2 |ED  E2 |D2  D :|
+S:https://www.folktunefinder.com/tunes/137284
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

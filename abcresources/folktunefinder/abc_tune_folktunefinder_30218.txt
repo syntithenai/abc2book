@@ -1,0 +1,28 @@
+X:0
+T:Macleod of Mull
+G:march
+M:6/8
+L:1/8
+Q:3/8=84
+K:BMin
+   f2B  B>cA|A>ce f2a |e>ce f>ec|A>Bc    e2f |
+   a>cc B>cA|B>ce f2e |f>aa f<ae|f>ec    B3 :|
+   a2f  a>ff|e>fa f2c |e>ce f>ec|A>Bc    e2f |
+[1 a2f  a>ff|e>fa f2e |f>aa f<ae|f>ec    B3 :|
+[2 a>cc B>cA|B>ce f2e |f>aa f<ae|f>ec    B3 ||
+   B>cA B3  |B>ce f>ga|c<AB c2B |c2A     c<ef|
+   B>cA B3  |B>ce f2e |f>aa f<ae|f>ec [1 B3 :|\
+                                      [2 B2f||
+   a2f  e>ff|B>ff f2e |f>aa e>ff|A>ee    e2c |
+[1 a2f  e>ff|B>ff f2e |f>aa f<ae|f>ec    B2f:|
+[2 B2B  c>Bc|B>ce f2e |f>aa f<ae|f>ec    B2 |]
+S:https://www.folktunefinder.com/tunes/30218
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

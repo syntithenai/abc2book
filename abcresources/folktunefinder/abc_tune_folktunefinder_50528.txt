@@ -1,0 +1,28 @@
+X: 20
+T:Eileen g
+M:4/4
+L:1/8
+Q:150
+R:March
+K:Em
+"Em"E3F G3A|B>c B>A G2 E2|
+"D"D3E F3G|A>B A>G F2 D2|
+"Em"E3F G3A|B>c B>A G3A|
+"Bm"B2 B>c B>A G>F|
+1 "Em"E4-E2 D2:|2 "Em"E4-E4|:
+"C"e4 e4|"G"d>B G>A B4|
+"Bm"B>A F2 F2 A2|"Em"A>G E2 E4|
+"C"e4 g3e|"G"d>B G>A B4|
+"B"B2 B>c B>A G>F|"Em"E4 E4|
+S:https://www.folktunefinder.com/tunes/50528
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

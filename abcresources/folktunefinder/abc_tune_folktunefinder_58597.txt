@@ -1,0 +1,37 @@
+X:1
+T:Mazurka : Valrie
+E:12
+Z:Roger Ngaret (94-95)
+R:mazurka
+C:Valrie
+S:Bouzous 95 - violon
+A:Bretagne
+M:3/4
+L:1/16
+K:C
+T:A1 - B1
+Q:1/4=130
+E2G2 | "C"c4 c2d2 e2c2 | G8 c2d2 | e4 e2d2 c2e2 |\
+e2d2 G4 E2G2 | c4 c2d2 e2c2 | G8 c2d2 | e4 e2d2 B2G2 |1 c8 :|2\
+c6 |: G2 E2G2 | "G"A4 A2G2 E2G2 | A6G2 A2B2 | "C"c4 d4 c2B2 | \
+"G"A4 G2G2 E2G2 | A4 A2G2 E2G2 | A6G2 A2B2 | "C"c4 d4 A2B2 |1 c6 :|2 c8 |]
+T:A2 - B2=B1
+E2G2 | c4 c2B2 c2A2 | G8 c2d2 | e4 e4 d2c2 |\
+c2d2 d4 E2G2 | c4 c2B2 c2A2 | G8 c2d2 | e4 e4 d2B2 |1 c8 :|2\
+c6 |: G2 E2G2 | "G"A4 A2G2 E2G2 | A6G2 A2B2 | "C"c4 d4 c2B2 | \
+"G"A4 G2G2 E2G2 | A4 A2G2 E2G2 | A6G2 A2B2 | "C"c4 d4 A2B2 |1 c6 :|2 c8 |]
+T:A3 - B3
+E2G2 | c4 c2d2 e2c2 | G8 e4 | "G"d4 d2c2 B2c2 |\
+d2e2 d2G2 E2G2 | "C"c4 c2d2 e2c2 | G8 c2d2 | e4 e2d2 B2G2 | c8 ::\
+c2B2 | "G"A4 A2A2 A2A2 | "C"E6A2 A2A2 | G4 (3A2B2c2 d2e2 | \
+"G"d4 c4 B4 | A4 A2A2 A2A2 | "C"E6A2 A2A2 | G4 (3A2B2c2 d2B2 | "G"A8 :|
+S:https://www.folktunefinder.com/tunes/58597
+S:http://termen.free.fr/danses/mazurkas/MazurkaValerie.abc
+% Rhythm Mazurka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

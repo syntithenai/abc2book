@@ -1,0 +1,28 @@
+X:405
+T:John Doherty's Father's Tune
+R:Reel
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+H:The last tune that John Doherty's father played.
+H:Unusual in having 2 extra bars in the second part.
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+DEGA ~B2DB | Adfd cAFA | {A}GFGA ~B2BG |1 AdcA {B}AGGE :|2 AdcA AGG2 ||
+gbag fdde | fdge {a}fdef | fedg fdcA | dgga fgfa | bgag {a}fede | =fafd cA^FA |
+{A}GFGA ~B2{d}BG | Adfd cAFA |{A}GFGA ~B2{d}B2 | AdcA {B}AGGF || G4
+S:https://www.folktunefinder.com/tunes/117959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book2.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

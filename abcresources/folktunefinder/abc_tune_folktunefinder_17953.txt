@@ -1,0 +1,19 @@
+X: 4
+P: Fiddler on the Roof
+M: 4/4
+L: 1/4
+K: A
+e \
+| "A"ae ee | e3 c | "G"dd cd | "A"e3 e \
+| "A"ae ee | e3 c | "G"dd "F"=c_B | "A"A3 :|
+|: "A"AA/B/ cd | e/^d/e/f/ dc | "G"dd/e/ dB | "A"cc/d/ cB\
+| "A"AA/B/ cd | e/^d/e/f/ dc | "G"dd "F"=c_B | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/17953
+S:http://trillian.mit.edu/~jc/music/abc/reel/RapperGB1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: DREAM
+C: J.Mercer
+M: C
+L: 1/8
+K: C
+|:"C"c8- | c2dc d2c2 | "B7"B8- | B8 | "C"A8- | A2BA B2A2 | "A7"G8- | G8 | "F"F8- | F2GF "Fm"G2F2 |
+S:https://www.folktunefinder.com/tunes/154317
+S:http://trillian.mit.edu/~jc/music/book/fake/B/Dream_C.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/C/Dream_C.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/T/Dream_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/fake/B/Dream_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/fake/C/Dream_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/fake/T/Dream_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

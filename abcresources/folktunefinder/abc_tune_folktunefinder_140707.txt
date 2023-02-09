@@ -1,0 +1,25 @@
+X:25
+T:Scottish du Gers
+R:Scottish
+A:Gascogne
+O:France
+C:Trad.
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+F2G2 A2Bc|d2F2 A4|BAGF EDEF|GABc B2A2|
+F2G2 A2Bc|d2F2 A4|BAGF EFGE|D2F2 D4||
+d2d2 c4|B2B2 A4|BAGF EDEF|GABc B2A2|d2d2 c4|B2B2 A4|BAGF EFGE|D2F2 D4|]
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+S:https://www.folktunefinder.com/tunes/140707
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

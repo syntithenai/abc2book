@@ -1,0 +1,22 @@
+X:1785
+T:Firetur fr Kallehave
+M:6/8
+O:Denmark
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000090b.html
+%%ID:0000090b
+K:G
+GFG D3 | BAB G3 | ABA ABA \
+|1 FDF A3 :|2 FDF G3 ::\
+dBd cAc | BDB A3 | GAB dcB | ABA G3 ::\
+F2G A2B | c2d e2d | e2d e2d | cBA G3 ::\
+DDD BBB | DDD ccc | DED DED | DEF G3 :|
+S:https://www.folktunefinder.com/tunes/36436
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:175
+T:Tobin's Favourite
+R:jig
+C:Trad, arr Phil Rowe
+S:Nottingham Music Database
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:"D"DFA dcd|"A7"ecA cde|"D"fef "G"gfg|"A"ecA "A7"GFE|
+"D"DFA dcd|"A7"ecA cde|"D" (4fgaf "A7"gec|[1 edc "D"dFE:|[2 edc "D"dfe|
+|:dfa agf|"A" (4efge "A7"efg|"D"fef "G"gfg|"A"ecA "A7"GFE|
+"D"DFA dcd|"A7"ecA cde|"D"fga "A7"gec|edc "D"d2z:|
+S:https://www.folktunefinder.com/tunes/125327
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

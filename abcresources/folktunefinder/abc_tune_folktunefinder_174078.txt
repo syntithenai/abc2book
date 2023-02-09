@@ -1,0 +1,25 @@
+X: 03
+T:Manchester Quadrille p2 Les Beaux Arts
+C:Ellis Knowles
+A:Lancashire
+B:Plain Brown Tune Book
+S:DrAJDoyle:aol.com tradtunes 2003-1-1
+M:2/4
+L:1/16
+Q:100
+K:C
+c3d dcBA | G6 cB | A2Bc G2ed | c4 B2g2 | \
+G2e2d2c2 | G6 cB | A2Bc G2AB | c2e2c2 z2 ||!
+g3e Bege | f4 d2f2 | eceg eceg | d2G2G2 z2 | \
+g3e Bege | f4 d2f2 | egfe dfed |  c2e2c2 z2 ||
+S:https://www.folktunefinder.com/tunes/174078
+S:http://trillian.mit.edu/~jc/music/abc/England/quadrille/ManchesterQuadrilleP2LesBeauxArts_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/ManchesterQuadrilleP2LesBeauxArts_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

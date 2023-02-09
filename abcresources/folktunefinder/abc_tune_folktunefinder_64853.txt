@@ -1,0 +1,25 @@
+X:525
+T:Garster's Dream
+% Nottingham Music Database
+S:Peter Kennedy, via EF
+M:4/4
+K:G
+M:6/8
+P:A
+D|"G"G2B BGB|"C"cdc "G"BAG|"D7"FGA ABA|"D7"AdA FED|
+"G"G2B BGB|"C"cdc "G"BAG|"Am"F2E "D7"DEF|"G"G3 G2:|
+P:B
+d/2f/2|"G"gag gdB|"D7"ABA ABd|"G"gag gdB|"D7"ded def|
+"G"gag gdB|"Am"AcB "D7"AGE|"C"G2E "D7"DEF|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/64853
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/jigs.abc
+S:http://www2.redhawk.org:8080/irish/nmd/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,13 @@
+X: 23414
+T: Les Filles D'Anost
+R: waltz
+M: 3/4
+K: Gmajor
+GA|:"G" B2 D2 G2|"G" B4 AG|"D" A2 D2 F2|"D" A6|"Em" PB2 AG AB|"C" cB AG FG|1 "D" AB cB MA2|%8
+"G" B2 .G2 GB:|2 $"D" AB cB (3AGF|"G" G4- GB:|3"D" AB cB (3AGF|"G" G4{/A} FG|:"D" A2 D2 F2|%14
+"D" (3ABA GF GA|"Em" B2 E2 G2|$ F4 GE|"C" cB AG FG|"D" AB cB AG|1 "D" FE FG A2|%20
+"G" B2 PG2 FG:|2 "D" F2 E2 MF2|"G" G4 FG:|3"D" F2 E2 F2|$"G" G4- GB||3"D" F2 E2 F2|%26
+"G" G2 (3DGD B,D|"G" !fermata![B,DGB]6|[B,DGB] z z2 z2|:"G" [B,DG]3 [B,DG] [B,DG]2-|%30
+"G" [B,DG]2 [B,DG]3 [B,DG]|"D" [A,DF]3 [A,DF] [A,DF]2-|"D" [A,DF] z [A,DF]2 [A,DF]2|$ %33
+"Em" [B,EG]3 [B,EG] [B,EG]2-|"Em" [B,EG] z [B,EG]2 [B,EG]2|"C" [C-EG]6|"D" [CFA]6:|%37
+

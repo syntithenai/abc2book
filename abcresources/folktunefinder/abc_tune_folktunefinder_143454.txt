@@ -1,0 +1,28 @@
+X: 1
+T: BRIGHTON CAMP
+S: MDT - under Eynsham
+O: Bampton
+P: A.(AB2)4
+Q:1/2=116
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+P: A
+D2 | G2Bc d2ef | g2dc BAG2 | Bcd2 e2f2 | g4 f2ag |
+     e2dc ((3BcB)A2 | B2G2 E3G | FGAF D2((3DEF) | G4 G2 ||
+P: B
+Bc | d2B2 dcAB | c2E2 GFD2 | G3F GABc | dedc B2gf |
+     e2dc ((3BcB)A2 | B2G2 E3G | FGAF D2((3DEF) | G4 G2 ||
+S:https://www.folktunefinder.com/tunes/143454
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brighton_Camp_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

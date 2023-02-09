@@ -1,0 +1,28 @@
+X:87
+T: DU HERZGELIEBTER MEIN, KOMM DU ZU MIR HEUT ABEND
+N: Z0087
+O: Europa, Mitteleuropa, Deutschland, Herzogtum Berg
+R: Sagen - Lied, Romanze, Tod
+M: 6/8
+L: 1/8
+K: E
+G | E2=GAGF | =G2z3
+=F | =D2=F=GFE | =F2z3
+=G | E2=GAGF | =GEz3
+=F | =D2=F=GFE | =F=Dz3
+A | GAB=cBA | E2z
+A3 | GAB=cBA | E3z2
+S:https://www.folktunefinder.com/tunes/68946
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Miss Campbell
+C: Adam Rennie
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+| "G"G2G2 BAGB | d2d2 dcBc | d2g2 "(D7)"f2e2 | "G"d4 z2D2 | "D7"D2D2 FEDF | A2A2 AGFG |
+| A2c2 A2F2 |1 "G"G6 :|2 "G"G4 GABc |: "G"d3B G2G2 | "D7"c3A F2F2 | "G"d3B "Em"G2G2 |
+| "Am"A4- "D7"A2D2 |  "G"d3B G2G2 | "Am"c3A "D7"F2F2 | "C"G2B2 "D7"A3F |1 "G"GDEF "D7"GABc :|2 "G"G4 z2 |]
+S:https://www.folktunefinder.com/tunes/16164
+S:http://trillian.mit.edu/~jc/music/abc/polka/MissCampbell_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Adam_Rennie/MissCampbell_G3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/polka/MissCampbell_G3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

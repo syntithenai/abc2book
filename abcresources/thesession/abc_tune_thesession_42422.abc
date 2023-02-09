@@ -1,0 +1,18 @@
+X: 42421
+T: West End, The
+R: hornpipe
+M: 4/4
+K: Dmajor
+AG|:FGAF D2 d2|cdec A3 f|gfed B2 ed|c2 A2 A2 AG|
+FGAF D2 d2|cdec A3 f|gfed Bdce|1 d4- d2 AG:|2 d4- d2 fg||
+afdf a2 a2|gece g2 g2|fedc d2 ed|c2 A2 A2 fg|
+afdf a2 a2|gece g2 g2|afdf gece|d2 f2 d2 fg|
+afdf a2 a2|gece g2 g2|fedc d2 ed|c2 A2 A2 AG|
+FGAF D2 d2|cdec A3 f|gfed Bdce|d4- d2||
+A,2|:"D"DEFD A,2 F2|"A"EFGE "D"F2 d2|"Em"edcB G2 cB|"A"AGFG E2 A,2|
+"D"DEFD dA F2|"A"EFGE CE c2|"Em"BAGF "G"GB "A"A2|1 "D"DFAF D2 A,2:|2 "D"DFAF [d4F4D4]||
+"D"fdAd f2 ef|ecAc e2 ec|"D"dcBA "Em7"BGAB|"A"A2 E2 C4|
+"D"fdAd fd A2|"A"ecAc ec A2|"D"F2 FA "Em"BG "A"E2|
+"D"FDA,D F2 A2|FDFA fd A2|"Em7"BGEG "A"ec A2|"D"dcBA "Em7"G2 GF|
+"A"E2 C2 [c4A4A,4]|"D"d3 d AFDF|"A"A3 g ec"D"dA|"Em"B2 c2 "G"d2 "A"A2|"D"FAEA F2||
+

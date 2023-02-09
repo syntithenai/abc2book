@@ -1,0 +1,24 @@
+X: 29
+T:The George or Folly Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:ps
+K:GMin
+F2B,4G2F2B,2|BAGF GCEF D4|edcB cGBc BAGF|GFED ECDFA,4|
+F2B,4G2F2B,2|BAGF GCEF D4|edcB A2f2edcB|AFGD ECDA,B,4||
+f2B4b2g2e2|cdec f2B2A4|Bcde fBAB gBAB|babg afg=ef2|
+f2_a4gf gede|g2b4ag af=ef|b2fdg2ecf2dB|AFED ECDA,B,4||
+S:https://www.folktunefinder.com/tunes/138381
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

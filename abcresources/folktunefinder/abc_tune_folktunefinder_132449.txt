@@ -1,0 +1,31 @@
+X: 28
+T:Princess Royal, Bledington 1
+M:4/4
+L:1/8
+A:Bledington
+P:AAB(CB)2
+K:Am
+P:A
+AB|c2Bc A2ed |c2Bc A2e2|f2d2 defg|e2d2 c3e|
+ddc2 B2A2 |GAGF E2e2|dcBA G2B2|A4   A2 ||
+P:B
+e^f|g2e2 e^fge|a2e2 d4  |aafe dcBA|B2G2 G4 |
+A2AB c2c2 |d2d2 g4  |g2e2 f4  |e2A2 d4 |
+cBAG ABcd |e2e2 A2e2|dcBA G2B2|A4   A2 ||
+P:C
+A2B2 c4   |B2c2 A4  |e2d2 c4  |B2c2 A4 |
+e4   f4   |d4   d2e2|f2g2 e4  |d4   c3e|
+ddc2 B2A2 |GAGF E2e2|dcBA G2B2|A4   A2 ||
+S:https://www.folktunefinder.com/tunes/132449
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

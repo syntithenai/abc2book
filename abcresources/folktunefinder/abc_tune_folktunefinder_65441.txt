@@ -1,0 +1,24 @@
+X: 19
+T:Squire of Bensham
+% Nottingham Music Database
+S:NPTB, via EF
+M:4/4
+K:C
+M:6/8
+P:A
+c/2d/2|"C"edc "F"A2F|"C/e"G2c "G7/d"E2c|"C"edc g2c|"Dm"Bdd "G7"d2c/2d/2|
+"C"edc "F"A2c|"C"G2c "Am"E2c|"Dm"def "G7"e2d|"C"edc c2:|
+P:B
+|:c/2d/2|"C"ed"C/e"c g2c|"F"c'2a "G7"g2c|"C"edc g2c|"Dm"Adc "G7"BAG|
+"C"ed"C/c"c g2c|"F"c'2a "G"ggf|"Am"abc' "G7/b"bd'b|[1"C"c'ge c2:|[2 "C" c'ge c3|
+S:https://www.folktunefinder.com/tunes/65441
+S:http://abc.sourceforge.net/NMD/nmd/jigs.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

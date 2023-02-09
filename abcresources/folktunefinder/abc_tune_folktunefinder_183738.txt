@@ -1,0 +1,27 @@
+X: 1
+T: PRESIDENT GRANT'S -- HORNPIPE
+C: Harry Carleton
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000427141046 by John Chambers jchambers:casc.com
+K: Bb
+(udc) \
+| BFDF Bcde | fgfd B2(cd) | egbg fdBd | gfdB c2(dc) |
+| BFDF Bcde | fgfd B2(cd) | egbg fdBd | c2B2B2 :|
+|: (uba) \
+| g^fga g=fde | fgfd f2(ba) | gabg fdBd | cdcB GFDC |
+| v.B,(uF=EF) kvD(uBAB) | kF(d^cd) kB(f=ef) | gabg fdBd | c2B2B2 :|
+S:https://www.folktunefinder.com/tunes/183738
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/PresidentGrantsHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/PresidentGrantsHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

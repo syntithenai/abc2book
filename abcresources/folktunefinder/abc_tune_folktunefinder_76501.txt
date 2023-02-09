@@ -1,0 +1,24 @@
+X:16
+T: VERSTOHLEN GEHT DER MOND AUF
+N: E0631
+O: Europa, Mitteleuropa, Deutschland, Bergisches Land
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: A
+E2 | A2B2=c2A2 | G2A2B4
+A4e4 | d2e2A2
+A2 | B2B2e2e2 | d2e=cB2z2
+A2GAB2z2 | A2GAB2z2
+A4e2e2 | =c2BcA2
+S:https://www.folktunefinder.com/tunes/76501
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

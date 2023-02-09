@@ -1,0 +1,27 @@
+X: 1
+T: Bridge of Banff
+N: Alexander Walker Collection p.14 (unattributed)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Am
+|: C \
+| "Am"A,2EA, AA,EC | "G"B,GDG B,G,G,B, | "Am"A,2EA, AA,ED | "E7"CAB,^G "Am"AA,A, :|
+[| E \
+| "Am"A2cA eAc2 | "G"Bgdg BGGB |  "Am"A2cA eAc2 | "E7"BE^GE "Am"A3B |
+| "Am"~A2cAeAcA | "G"~G2BGdGBd |  "Am"ec"G"dB "Am"cA"G"BG | "E7"AFED "Am"CA,A, |]
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/143393
+S:http://trillian.mit.edu/~jc/music/book/500/BridgeOfBanff_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

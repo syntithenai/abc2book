@@ -1,0 +1,23 @@
+X:1663
+T:Clark's Hornpipe
+M:2/4
+L:1/16
+B:O'Neill's 1663
+K:D
+(3ABc \
+| d2AGFDFA | BGBd cAce | fdge afed | c2e2 egfe |
+| d2AGFDFA | BGBd cAce | dbag fgec | d2f2d2 :|
+|: (3efg \
+| a2fd Adfa | g2ecAcdg | fafd Bged | cedB Agfe |
+| d2AG FDFA | BGBd cAce | dbag fgec | d2f2d2 :|
+S:https://www.folktunefinder.com/tunes/148503
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1663_nt.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/1663_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:380
+T:Bjrndans fr Ore
+A:Dalarna
+M:3/4
+O:Sweden
+R:Lngdans
+R:Polska
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000a73.html
+%%ID:00000a73
+K:D min
+A2 {A}d2 d2|d2 cB {B}c2|F2 F2 {F}G2|{G}A6::\
+F2 F2 {F}G2|A2 c=B AG|
+F2 F2 {F}G2|A2 c=B AG|\
+E2 E2 {E}F2|D6|D6|D6|D6:|
+D2{D}F2 F2|F2 ED {D}E2|\
+{G,}A,2 A,2 {A,}C2|{C}D6 ::\
+A,2 A,2 {A,}C2|{C}D2 FE DC|
+{C}D2 D2 {D}E2|{E}F2 AG FE|\
+{E}C2 C2 {C}D2|A,6|A,6|A,6|A,6:|
+S:https://www.folktunefinder.com/tunes/36155
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polska
+% Rhythm Lngdans
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

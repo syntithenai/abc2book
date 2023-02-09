@@ -1,0 +1,44 @@
+X:75
+T:Tico, Tico
+T:Brazil
+R:reel
+D:Dermot Byrne: "Dermot Byrne", 12
+M:C|
+L:1/8
+Q:1/2=60
+K:Bm
+F^EF||GzFB zF^EF|GzFc zF^EF|GFec ^AFE^D|D3^A B^A=A^G|
+GzBe zGBe|FzBd zFB^B|~c3d cB^AB|[c3f3] [c2f2] F^EF|
+[B,G]zF[B,B] zF^EF|[Ge]zF[ce] zF^EF|GFec ^AFE^D|D3^A B^A=A^G|
+GBeG BeGB|FBdF Bd (3F^Ac|fFfg fedc|[B3f3] [B2f2] F^EF|
+GF^EF BFEF|GF^EF cFEF|GFec ^AFE^D|D3B B^A=A^G|
+GBeG BeGB|FBdF BdFd|~c3d cB^AB|~c2 (3^ABc fF^EF|
+[B,G]zF[B,B] zF^EF|[Ge]zF[ce] zF^EF|GFec ^AFE^D|D3B {c} B^A=A^G|
+GFGB eGBe|FBdF Bd (3F^Ac|fFfg fedc|[B3f3] [B2f2] FG^G||
+[Af]z^G[Af] zG[Af]^A|[Bg]z[G2e2] zFG^G|ACEA CEc^B|~B2[F2A2] zddA|
+dAdA cAcA|~B2G2 G=C^CE|czGB zFG^G|Az[F2d2] z^EFG|
+ADFA DFA^A|BEGB Ed (3c^B=B)|ACEA CEA^A|BF~F2 FAdc|
+B^ABc edcd|fga^a b=agf|edcB AGFE|[D3d3]D DFA^A|
+[Af]z^G[Af] zG[Af]^A|[Bg]z[G2e2] zFG^G|ACEA CEc^B|~B2[F2A2] z[Ad][Ad]A|
+dAdA cAcA|~B2G2 G=C^CE|czGB zFG^G|Az[F2d2] z^EFG|
+ADFA Ddc^B|BEGB Ed^B=B|ACEA CEA^A|BF~F2 FAdc|
+B^ABc edcd|fga^a b=agf|edcB AGFE|D4 zB^df||
+K:B
+bBdf aBdf|gBdf gfdB|bBdf aBdf|gGce gecG|
+bGce aGce|gGce gecG|bGce aGce|gBdf gfdB|
+bBdf aBdf|gBdf gfdB|~g3=a gfed|gfed cB^A=A|
+G=A^AB cBAB|def=g ^gfed|cBAG FEDC|[B4f4] zBdf|
+bBdf aBdf|gBdf ~gfdB|bBdf aBdf|gGce gecG|
+bGce aGce|gGce gecG|bGce aGce|gBdf ~gfdB|
+bBdf aBdf|gBdf gfdB|~g3=a gfed|gfed cB^A=A|
+G=A^AB cBAB|def=g ^gfed|cBAG FEDC|B,3F BF^EF||
+S:https://www.folktunefinder.com/tunes/143102
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/20010813.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/TicoTico.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:187
+T:Capers
+C:Jerry Holland
+Z:Added by Alf Warnock
+R:Jig
+M:6/8
+L:1/8
+K:C
+GF |EDE CEG|FEF Adc|BAB a2^f|g^fa g2F|
+EDE CEG|FEF Adc|BAB a2B | c3 c :: 
+GF | G,CE Gce|ag^f g2e|cBc E2G|FEF FEF|
+DFA d2e|[1 =fef ABc|BAB a^fa|g3 g^fg:|[2 =fef A2c'|bag fed|c3 c|]
+S:https://www.folktunefinder.com/tunes/53844
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:600
+T: "Jaegerleben"
+N: Z1280
+O: Europa, Mitteleuropa, Deutschland, Rhein
+R: Jaeger - Lied
+M: 6/8
+L: 1/16
+K: A
+E2 | A4A2B2A2B2 | c2A2
+B2 | c2e2c2B2A2B2 | A4
+E2 | A4A2B2A2B2 | c2A2
+B2 | c2e2c2B2A2B2 | A4
+c2 | e4c2c2B2c2 | d2B2
+Bc | d4d2c2B2A2 | B2e2
+dB | A4A2B2A2B2 | c2A2
+B2 | c2e2c2B2A2B2 | A4
+S:https://www.folktunefinder.com/tunes/69459
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Jaeger - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

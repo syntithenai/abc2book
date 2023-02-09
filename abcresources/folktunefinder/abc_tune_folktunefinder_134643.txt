@@ -1,0 +1,30 @@
+X:40
+T:the Marquis of Harlington
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Change sides, back again, down the middle up again & Pousette
+%%Page:4
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001189.html
+%%ID:00001189
+K:Bb
+F |\
+BAB cBc | dcd Bcd | efe dcB | ABc F2F | \
+BAB cBc | d2d =e2b | agf =efg | f3- f2 ::
+d/e/ | \
+fdB Bcd | efg cde | dfe dcB | AcA FGA | \
+BFB dBd | fga bfd | cde FGA | B3- B2 ::
+%%newpage
+%%Page:5
+S:https://www.folktunefinder.com/tunes/134643
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

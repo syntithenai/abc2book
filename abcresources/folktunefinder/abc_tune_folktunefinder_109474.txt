@@ -1,0 +1,38 @@
+X: 4
+T:Glan Medd-Dod Mwyn
+T:Good Humoured and Fairly Tipsy
+M:3/4
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Minuet
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:C
+C2|E2F2G2|c2B2A2|G3AGF|E4C2|E2F2G2|A2B2c2|{e}d2c2B2|c4:||:cd|e2e2d2|
+c4B2|c2cedf|e4{de}d2|c2c>dB>c|A2A>BG>A|
+FEFAGF|EFEDC2|E2F2G2|A2B2c2|d>e c2B2|c4:||
+S:https://www.folktunefinder.com/tunes/109474
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/GlanMeddDodMwyn.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/GoodHumouredAndFairlyTipsy.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/GlanMeddDodMwyn.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EdwardJones/GoodHumouredAndFairlyTipsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/GlanMeddDodMwyn.abc
+% Rhythm Minuet
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

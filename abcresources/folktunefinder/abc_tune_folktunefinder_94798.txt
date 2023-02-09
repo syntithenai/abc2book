@@ -1,0 +1,29 @@
+X:203
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Ten Pound Float
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+"(A"[|]G2 BG ((3ABA) BA | GE (3.E.E.E cEGE "A)"| DGBG A2 BA | GEED EGGA |
+((3BcB) GB ((3ABA) BA | GE (3.E.E.E cEGE | DGBG AcBA | GEED EGGA ::
+G2 Bd ef ((3gfe) | dBBB dBBA | G2 Bd efge | dBAG EGDE |
+G2 Bd efge | dBAB dega | ((3bag) ag egde | gedB AGED :|]
+xxxx "(A" || ((3BcB) GB ((3ABA) BA | GECE G,EGE "A)" || xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Ten_Pound_Float_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Ten_Pound_Float_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

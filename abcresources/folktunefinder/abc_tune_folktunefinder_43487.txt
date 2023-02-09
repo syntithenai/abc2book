@@ -1,0 +1,31 @@
+X: 32
+T: Missing title !
+% Nottingham Music Database
+S:
+M:4/4
+L:1/4
+K:A
+P:bB3
+z/2|:"A"\
+P:pizz
+Ae\
+P:bowup
+A e \
+P:pizz
+Ae\
+P:bowup
+Ae|c/2B/2A/2F/2 E/2F/2A/2B/2|"A"
+P:pizz
+Ae\
+P:bowup
+A e c/2B/2A/2F/2|"E"E/2F/2E/2D/2 "A"C/2B,/2A,:|
+S:https://www.folktunefinder.com/tunes/43487
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

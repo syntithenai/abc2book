@@ -1,0 +1,16 @@
+X: 1852
+T: Ariel
+R: hornpipe
+M: 4/4
+K: Amajor
+A,>CE>A c2 B>A|B>EG>B d2 c>B|(3cBA c>e a>ec>A|B>cd>B A>GF>E|
+A,>CE>A c2 B>A|B>EG>B d2 c>B|c>eA>c B<EG>B|(3ABA G>B A2:|
+a>Ac>e a2 a>g|f>Ad>e (3fgf e>d|(3cBA c>e a>ec>A|B>cd>B A>GF>E|
+[1 a>ec>e a2 a>g|f>Ad>e (3fgf e>d|c>ea>e c>ed>B|(3cdc A2 A2 (3efg:|
+[2 A,>CE>A c2 B>A|B>EG>B d2 c>B|c>eA>c B<EG>B|(3ABA G>B A2||
+AcEA c2 BA|BEGB d2 cB|cAce aecA|BcdB AGFE|
+AcEA c2 BA|BEGB d2 cB|ceAc BEGB|A2 GB A2:|
+aAce a2 ag|fAde f2 ed|cAce aecA|BcdB AGFE|
+[1 aece a2 ag|fAde f2 ed|ceae cedB|c2 A2 A2 eg:|
+[2 AcEA c2 BA|BEGB d2 cB|ceAc BEGB|A2 G>B A2||
+

@@ -1,0 +1,30 @@
+X:1
+T:Reel du Brae
+C:Trad
+S:multizic <multizic:wanadoo.fr> QueTrad 2001-10-15
+R:Reel
+M:4/4
+K:Am
+A,B, CD EA, A,G, |A,B, CD EG DB, |G,A, B,C DB, B,A, |D3/4E/^F3/4 GA BG A2 |
+A,B, CD EA, A,G, |A,B, CD EG DB, |G,A, B,C DE DC |B,A, G,B, A,4 |
+A,B, CD EA, A,G, |A,B, CD EG DB, |G,A, B,C DB, B,A, |D3/4E/^F3/4 GA BG A2 |
+A,B, CD EA, A,G, |A,B, CD EG DB, |G,A, B,C D^F A^c |BA ^GB A4 |
+Aa ab ag gg |bg ag a3/4g/e3/4 de |gg eg de gd |eg ed BA AG |
+Aa ab ag gg |bg ag a3/4g/e3/4 de |ga ge dB GB |c3/4B/A3/4 BG A4 |
+Aa ab ag gg |bg ag a3/4g/e3/4 de |gg eg de gd |eg ed BA AG |
+Aa ab ag gg |bg ag a3/4g/e3/4 de |ga ge dB GB |c3/4B/A3/4 BG A4 |]
+S:https://www.folktunefinder.com/tunes/17988
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelDuBrae_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelDuBrae_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelDuBrae_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ReelDuBrae_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

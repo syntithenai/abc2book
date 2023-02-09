@@ -1,0 +1,27 @@
+X:104
+T:Buhusher Chosidl
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+A/G/ |:"A" ^F/G/ AA A|A d^c2 |^c3/2 B/A/B/^c/ d/|
+^ce/ d/^c/B/A/ G/|"A" ^F/G/A AA |Ad ^c2 |^cB/A/ "Gm" G/A/B/G/ |
+|1 "A" A3 A/G/:|2 "A" A3 A|| |:"Dm" d3/2 e/ff/ f/|fA f2 |
+f/g/f e/f/e |~d^c/d/ "A" e2  |^c3/2 d/e(e |e)A e2 |
+~fe/d/ ^c/d/e/^c/ |1 "Dm" d2 z2 :|2 "Dm" d2 zA ||  |:^c3/2 A/^c/e/d/ ^c/|
+"Gm" B/A/G/ ^F/G/A/B/ G/|A^c/ e/A^c/ e/|"Dm" f/e/d/ ^c/d/e/d |^c3/2 A/^c/e/d/ ^c/|
+"Gm" B/A/G/ ^F/G/A/B/ G/|Aa g/f/e/d/ |1 ^c/d/e/d/ ^c/B/A/G/ :|2 ^c/d/B/^c/ A3/2 G/||
+a^c/ d/B/^c/A ||
+S:https://www.folktunefinder.com/tunes/83983
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

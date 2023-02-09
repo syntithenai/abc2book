@@ -1,0 +1,27 @@
+X:1
+T:Ma Cousine Clementine
+C:Maxou Heintzen
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d/c/ |\
+BG G/F/G/B/ | AE EA/G/ | F/D/F/A/ d^c/d/ | e/d/^c/d/ B/G/d/=c/ |
+BG G/F/G/B/ | AE EA/G/ | F/D/F/A/ d^c/d/ | e/d/^c/d/ G :|
+|: d/c/ |\
+Bd dc/d/ | e2 e/d/c/B/ | AA AG/A/ | B/c/B/A/ Gd/c/ |
+Bd dc/d/ | e2 f>e | d/e/d/c/ B/c/B/A/ | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173496
+S:http://simonwascher.info/TradArchiv_polka/ma_cousine_clementine.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

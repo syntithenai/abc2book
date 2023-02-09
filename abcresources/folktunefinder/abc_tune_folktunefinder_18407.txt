@@ -1,0 +1,41 @@
+X: 1
+T: Miss Dow's Fancy [2]
+C: J.Reid
+O: Arr. Nan Main
+R: shottish, strathspey
+F: http://www.amdmac.com/margaretdow/
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: Bb
+F2 \
+| "Bb"f>e d>c "Gm"B>c d2  | "Cm"e>d c>B "F7"A2 F2 \
+| "Bb"B>c d>e "Gm"f2  b2  | "Cm"g>f e>d "F7"c4 |
+| "Bb"f>e d>c "Gm"B>c d2  | "Cm"e>d "C7"c>B "F7"A2 F2 \
+| "Bb"B>c d>e f>b f>d | "Cdim"c2 "Eb"B2 "Bb"B2 :|
+G2 \
+| "Bb"F4 "F4"G3 A | "Bb"B>d "C7"c>B "F7"A2 F2 \
+| "Bb"B>c d>e "F7"f2 e2 | "Bb"d>f "Cm"e>d "F7"c4 |
+| "Bb"F4 "F7"G3 A | "Bb"B>d "C7"c>B "F7"A>G F2 \
+| "Bb"f>e d>c B>c d2 | "Cdim"c2 "Eb"B2 "Bb"B2 ||
+| "Bb"f3 g f2 b2 | "Cm"g>f e>d "F7"c>d e2 \
+| "F7"a3 g "Bb"f2 d2 | "Bb"d>c B>d "F7"c4 |
+| "Bb"f3 g f2 b2 | "Cm"g>f e>d "F7"c>d e2 \
+| "F7"a>g f>e "Bb"d>c B>d | "F7"c2 "Bb"B2 B2 |]
+S:https://www.folktunefinder.com/tunes/18407
+S:http://www.amdmac.com/margaretdow/
+S:http://www.amdmac.com/margaretdow/
+S:http://trillian.mit.edu/~jc/music/abc/shottish/MissDowsFancy2_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MissDowsFancy2_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/MissDowsFancy2_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissDowsFancy2_Bb.abc
+% Rhythm Shottish, strathspey
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

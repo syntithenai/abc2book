@@ -1,0 +1,22 @@
+X:1
+T:Big Red
+M:C|
+L:1/8
+Q:220
+C:Philippe Varlet
+R:Reel
+K:A
+A,B, | CF~F2 {d}BAFA | ceef ecAc | B/2B/2B fB {d}cBfB |  B/2B/2B fB {d}cBAE
+| FA{d}cA {d}BAFA | cAef ecAc | B/2B/2B fB {d}cAec | {d}BAGE F2 :||:
+AB | cf~f2 defa | ec{d}cB A3 B | ceef ecAB | cB{d}BA GBEB |
+cf~f2 defa | ec{d}cB A3 B | ceag fecA | {d}BAGE F2 :||
+S:https://www.folktunefinder.com/tunes/138936
+S:http://trillian.mit.edu/~jc/music/abc/mirror/celticmusic.com/Big_Red.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

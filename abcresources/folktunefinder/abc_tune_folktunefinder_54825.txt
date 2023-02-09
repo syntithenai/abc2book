@@ -1,0 +1,33 @@
+X:12076
+T:Not a Drum was heard. CJF.171
+M:2/4
+L:1/16
+Q:100
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The pair of semiquavers marked with * are quavers in the MS. The last
+N:rest should be deleted for correct scansion. - PJH.
+Z:P J Headford 2000
+K:D
+D>D|G2G2G2 GG|A2F2G2 GA|B2BB B2BB|B2A2z2DD|!\
+G2GG G2G2|E2F2 G2GG|GcBA A2GA|
+A2G2z2A2|!A3A A ^G (=GA)|F2A2 hc2zc|G2GG G2GG|\
+hE2 FF G2GG|!GcBA (AG)(GF)|A2G2z2A2|
+A2A2 ^GA=GA|F3A c2d>c|!c2cc c2B2|B2A2z2"*"DD|\
+G2GG G2G2|AGFE D2DD|E3E F3F|!
+A2G2z2DD|G2GG G2G2|AGFG hD2 DD|E3E F3F|A2G4z2||
+S:https://www.folktunefinder.com/tunes/54825
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/n-o.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/n-o.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

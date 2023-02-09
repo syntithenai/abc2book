@@ -1,0 +1,24 @@
+X: 1
+T: The Banks Of Lough Gowna
+B: O'Neill (Music of Ireland: 1850 Melodies) 1903 #1060
+B: O'Neill (Dance Music of Ireland: 1001 Gems) 1907; #264
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|: BcB BAF | FEF DFA | BcB BAF |  d2e fed  |
+|  BcB BAF | FEF DFA | def geg |1 fdB Bdc :|2 fdB ~B3 ||
+|: def ~a3 | afb afe | dFA def |  geg fdB  |
+|  def ~a3 | afb afe | def geg |1 fdB ~B3 :|2 fdB Bdc |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/6382
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

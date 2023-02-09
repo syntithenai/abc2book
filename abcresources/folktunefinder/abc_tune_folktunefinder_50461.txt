@@ -1,0 +1,29 @@
+X:1
+T:Persian Cat
+C:Paul Rosen
+S:Copyright 2005, Paul Rosen
+M:4/4
+L:1/8
+Q:C4=120
+R:old time
+K:Am
+|:"Am"A,2A,A, A,2A,A,|"C"(CB,)A,C "G"(B,A,)G,B,|"Am"A,2A,A,
+A,2A,A,|"C"C2EG "Em"(AG)ED|
+"Am"A,2A,A, A,2A,A,|"C"(CB,)A,C "G"(B,A,)G,B,|"Em"(ED)CE
+(DC)B,G,|"Am"A,2A,A, A,2A,A,:|
+K:D
+|:"A"A2cd e2ef|(gf)eg (fe)cc|A2cd e2ee|"G"(ge)dd (ge)dd|
+"A"A2cd e2ef|gfe2 c4|[K:Am]"Am"(cd)cA "G"(BA)GG|"Am"A2AA A2AA:|
+S:https://www.folktunefinder.com/tunes/50461
+S:http://paulrosen.net/tunes/original_tunes_abc.html
+S:http://www.paulrosen.net/tunes/original_tunes_abc.html
+% Rhythm Old time
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

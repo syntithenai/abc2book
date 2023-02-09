@@ -1,0 +1,28 @@
+X:8020
+T:West Virginia Hornpipe
+O:england
+M:4/4
+L:1/8
+Q:160
+K:C
+"A"
+G2 A2 B2|:cdea gedB|cdea gede|fgfe dedc|BcBA BcdB|
+cdea gedB|cdea gede|fgfe dedc|BcdB c2 cc:||
+K:G
+"B"
+DFAB dBAc|BGBd g2 gg|Acef afeg|fefe d2 dd|
+DFAB dBAc|BGBd gd g2|Acef afeg|fefe de f2|
+gedg edBd|cBAc BAGE|DEFD FGAG|ABcA Bdef|
+gedg edBd|cBAc BAGE|DEFD FGAc|BABA G2 G2||
+S:https://www.folktunefinder.com/tunes/28472
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

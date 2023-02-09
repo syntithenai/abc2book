@@ -1,0 +1,27 @@
+X:117
+T:Proumenado de la souco
+T:(Marcho)
+O:France
+A:Provence
+C:Trad.
+R:Marche
+Z:Transcrit par Michel Bellon 2004-02-22
+S:Carnet du tambourinaire Ginas (1924)
+M:C
+L:1/8
+K:Bb
+V:Galoubet
+B2>F2 B2>F2 | B2c2d2zd | c2B2f2zF | B2>c2 A2zF | B2c2d2 zd | c2f2B2 zB | A2c2F2zF/G/ | A2G2F2 zF :|
+M:6/8
+BB/B/B/B/ BFd | cde d2G | ff/f/f/f/ fBd | fed c2G | BB/B/B/B/ BFd | cde d2G | ff/f/f/f/ fBd | fga bzz |]
+%%footer $D   Galouvielle-MBe 2008 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/575
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Marche
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

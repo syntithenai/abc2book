@@ -1,0 +1,25 @@
+X:7
+T:Three Little Drummers
+R:jig
+M:6/8
+I:speed 350
+K:ADor
+|eAA eAA|BAB GBd|eAA eAA|def gfg|\
+eAA eAA|BAB GBd|efg edB|BAG A3:|*
+|eaa aga|bab ged|eaa aga|bab g2d|\
+eaa eaa|bab ged|efg edB|BAG A3:|**
+S:https://www.folktunefinder.com/tunes/135073
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

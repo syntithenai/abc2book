@@ -1,0 +1,23 @@
+X: 1
+T:Echo, The
+R:hornpipe
+D:Kevin Crawford: D Flute Album
+Z:id:hn-hornpipe-75
+M:C|
+K:D
+(3gfe|dAFA dAFA|d2ef dcBc|A2ce (3ABA ce|faef dcBA|
+dAFA dAFA|d2ef dcBA|~g3b afdf|eABc d2:|
+|:z2|dg~g2 bg~g2|dgbg agfg|A2ce (3ABA ce|faef dcBA|
+dg~g2 bg~g2|dgbg agfa|gfgb afdf|eABc d2:|
+S:https://www.folktunefinder.com/tunes/155588
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ec/Echo_The_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ec/Echo_The_3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

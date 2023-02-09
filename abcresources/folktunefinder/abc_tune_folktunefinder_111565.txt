@@ -1,0 +1,34 @@
+X:180
+T:Mason's apron, The
+M:C|
+R:Reel
+S:O'Neill's music of Ireland
+D:asin=B0000002TT(Milestone at the Garden: Milestone At The Garden: Irish Fiddle Masters From The 78 RPM Era)
+D:anop=B000000HQD(Matt Molloy: Shadows On Stone)
+D:anop=B000005CRZ(Kevin Burke: If The Cap Fits)
+D:asin=B0000002SW(Squeeze Play-World Accordion: Squeeze Play: A World Accordion Anthology)
+D:asin=B000000618(Fairport Convention: House Full (Live 1970))
+D:asin=B000000E5R(Various Artists: Blasta! The Irish Traditional Music Special)
+D:asin=B000002L0Q(John Altman: Hear My Song (1991 Film) [SOUNDTRACK])
+D:asin=B000003F7B(The Chieftains: An Irish Evening: Live At The Grand Opera House...)
+D:asin=B000005CND(The Tannahill Weavers: Dancing Feet)
+D:asin=B000005CTF(Paddy O'Brien, Seamus Connolly: The Banks Of The Shannon)
+D:asin=B000007QX3(The Chieftains: Fire In The Kitchen)
+K:A
+af|ec (3ccc BcAF|EFAB c2BA|FB {d}(3BAB cB {d}(3BAB|cefg abaf|\
+e2cA BF {G}(3FEF|EFAB cABc|~d3e fgaf|edcB A2AB||\
+(3cBA ec fcec|(3cBA eA fcec|df {a}(3fef af {a}(3fef|df {a}(3fef afec|\
+Acec fcec|Ac (3ccc fcec|~d3e fgaf|edcB A2||
+S:https://www.folktunefinder.com/tunes/111565
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

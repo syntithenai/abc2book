@@ -1,0 +1,35 @@
+X:320
+T: Home to Mullach (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D |"D"FGA ABA |"Bm7"dcB A2 e | "D"f2 a "G"gfe | "D"ded "A"cBA |
+[V:2] z|D,2[AFD]A,,2[AFD]|B,,2[BDF]F,,2[AB,D]|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"FGA ABA | "Bm"dcB "A"Ace | "Bm"fdB "A7"AGE | "D"D3 "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|B,,2[BFD]A,,2[GEC]|D,2[AFD][D,2A,,2F2]:|
+%
+[V:1] e |"D"f2 a "G"gfe | "D"dcd A2 e | "D"fga "Em"bge | "Bm"fdf "A"efg |
+[V:2] z |D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|B,,2[BFD]A,,2[AEC]|
+%
+[V:1] "D"f2 a "G"gfe | "D"dcd Ade | "Bm"fdB "A"Ace | "D"d3"D"d2 :|
+[V:2] D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|\
+[D3A3F3][D,2A,,2F,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86949
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

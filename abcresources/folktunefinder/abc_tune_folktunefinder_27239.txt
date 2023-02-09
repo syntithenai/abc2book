@@ -1,0 +1,29 @@
+X:6787
+T:The Flowing Bowl
+O:england
+M:4/4
+C:
+S:Bacon (RD ex Blunt)
+N:
+A:Adderbury
+R:Reel
+L:1/16
+I:speed 800
+K:G
+P:A
+B3A | G4 D4 B,4 D4 | G4 G4 G6 G2   | A4 A4 A4 A4 | B8    G4 \
+B3A | G4 D4 B,4 D4 | G4 G4 G6 G2   | A4 A4 A4 A4 | B8    G4 ||\
+P:B
+z4  | B6 B2 B4  d4 | d4 c4 c8      | A6 A2 A4 c4 | c4 B4 B8 |\
+B6 B2 B4  d4 | e4 c4 e4 d2c2 | B4 G4 A4 F4 | G8    G4 ||
+S:https://www.folktunefinder.com/tunes/27239
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

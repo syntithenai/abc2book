@@ -1,0 +1,35 @@
+X: 1
+T: Abercairney House
+R: Strathspey
+C: Niel Gow
+O: Scotland
+A: Inver (Perth)
+B: (n=B01) Gow Collection of Scottish Dance Music - Oak Publications
+Z: transcription (livre) : anamnese@caramail.com
+S: Eric Forgeot <eforgeot@yahoo.fr> abcusers 2002-4-17
+N: Chords added by John Chambers
+M: C
+L: 1/8
+K: Gm
+ B/c/ \
+| "Gm"d<G B>G dG B<g | "F"c<F A>F cF Af \
+| "Gm"d<G B>G dG B<g | "F"f>d "D7"{d}cB/A/ "Gm"{A}G2 G :|
+d \
+| "Gm"g>d gb g<a f<g | "F"fa df c>F {d}c B/A/ \
+| "Gm"g>d gb g<a f<g | "D7"d>c {d}cB/A/ "Gm"{A}G2 G |]
+d \
+| "Gm"g>d gb g<a f<g | "F"fa df c>F {d}c B/A/ \
+| "Gm"d<G B>G dG B<g | "D7"d>c {d}cB/A/ "Gm"{A}G2 G |]
+S:https://www.folktunefinder.com/tunes/19167
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/AbercairneyHouse_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Niel_Gow/AbercairneyHouse_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AbercairneyHouse_Gm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

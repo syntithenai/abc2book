@@ -1,0 +1,24 @@
+X: 1
+T: Caddam Woods
+S: Nottingham Music Database
+S: Kevin Briggs, via EF
+M: 4/4
+L: 1/4
+K: G
+B/2c/2 | "G"d/2d/2d/2d/2 ^cd | "G"ed B2 | "G"D/2D/2D/2D/2 GB | "Am"ed c2 | "Am"c/2c/2c/2c/2 Bc |
+"Am"fe c2 | "D7"fe cA | "G"ed "D7"B2 | "G"d/2d/2d/2d/2 ^cd | "G"ed B2 | "G"D/2D/2D/2D/2 GB |
+"Am"ed c2 | "Am"c/2c/2c/2c/2 Bc | "Am"fe c2 | "D7"f/2e/2d/2c/2 BA | "G"G2 "D7"G/2A/2B/2c/2 |
+"G"d/2d/2d/2d/2 BB | "G"d/2d/2d/2d/2 BB | "G"d2 "C"e3/2d/2 | "Am"d_d c2 | "Am"c/2d/2c/2B/2 AA |
+"Am"c/2d/2c/2B/2 AA | "D7"f3/2e/2 f3/2e/2 | "G"ed "D7"ed | "G"dd d/2e/2d/2c/2 | "G"BB B2 |
+"G"d2 "C"e3/2d/2 | "Am"d_d c2 | "Am"cc c/2d/2c/2B/2 | "Am"AA A2 | "D7"d/2d/2d/2d/2 ef | "G"g3 ||
+S:https://www.folktunefinder.com/tunes/16873
+S:http://trillian.mit.edu/~jc/music/abc/reel/CaddamWoodsP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/CaddamWoodsP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/CaddamWoodsP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

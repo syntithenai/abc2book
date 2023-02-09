@@ -1,0 +1,41 @@
+X:70
+T:Maggie's Moving On
+C:Colin Hume, 1998
+N:For Maggie Grant of New Jersey.
+N:The tune also "moves on", going through various keys and not getting back to where it started.
+M:3/4
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=125
+K:D
+P:A
+|: "D"A3/2 F/2 A | "Bm"d2 c | "G"B3/2 c/2 d | "A7"A/2F/2- F E \
+| "Bm"D d c | "G"B3 | "Em"B e d | "A7"c2 B |
+%%vskip 20
+"D"A3/2 F/2 A | "Bm"d2 e/2f/2 | "Em"g e3/2 d/2 | "A7"d c3/2 B/2 \
+| "D"A d f | "Em"g B2 | "A7"A e3/2d/2 | "D"d3 :|
+P:B
+|: "Am"=c e c | "Dm"B A2 | "B7"A B F | "Em"A G2 \
+| "C"G A3/2 E/2 | "D7"G F G/2A/2 | "G"B d =c/2B/2 | "D"A3 |
+%%vskip 20
+"Dm"d =f d | "A7"d c2 | "F#7"c e c | "Bm"c B2 \
+| "G"B d2 | "E7/G#"B d2 | "A"c e d/2c/2 | "E7"B3 :|
+P:C
+|: "A"A3/2 B/2 c | "Bm"d B2 | "E7"B3/2 c/2 d | "A"f e2 \
+| "D"f3/2 ^g/2 a | "A"e c B | "F#m"A3/2 B/2 c | "E7"B3 |
+%%vskip 20
+"A"E3/2 C/2 E | "F#m"A2 ^G | "D"F3/2 ^G/2 A | "E7"E/2C/2- C B, \
+| "F#m"A,3/2 B,/2 C | "Bm"D/2B/2- B2 | "E7"^G,3/2 A,/2 B, | "A"A,3 :|
+S:https://www.folktunefinder.com/tunes/110117
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

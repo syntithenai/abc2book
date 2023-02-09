@@ -1,0 +1,40 @@
+X:17854
+T:Trowie Burn, The
+R:Other
+O:Shetland
+M:6/8
+C:Fredemann Stickle
+K:G
+G2A Bed|BAG A2c|\
+{Bc}(2BA (2:3:3AG/A/|{Bc}B2A (2:3:2G/E3/|\
+G2A Bed|BAG Bcd|\
+(2eE {Bc}B2A|(2:3:2G/E3/ E3:|
+g2a baf|\
+M:9/8
+g2d (2:3:2B/G3/ A2c|\
+M:6/8
+{Bc}(2BA AGA|{Bc}B2A (2:3:2G/E3/|\
+g2a baf|\
+M:9/8
+g2d (2:3:2B/G3/ Bcd|
+M:6/8
+(2eE {Bc}B2A|(2:3:2G3/E3/ E3|\
+g2a baf|\
+M:9/8
+g2d (2:3:2B3/G3/ A2c|\
+M:6/8
+(2{Bc}BA AGA|{Bc}B2A (2:3:2G/E3/|
+G2A Bed|BAG Bcd|(2eE {Bc}B2A|(2:3:2G/E3/ E3|]
+S:https://www.folktunefinder.com/tunes/39225
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

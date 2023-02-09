@@ -1,0 +1,24 @@
+X: 1
+T: Der Anf\"anger (Eb)
+C: David Schonfeld
+N: Composed for NOMAD 2004
+M: 23/44
+L: 1/8
+K: Eb
+|: "Eb"e2 b3 g | e2 B2 G2 |  "Ab"A2 c2 | "Bb7"B2 d2 \
+|  "Eb"e2 b3 g | e2 B2 G2 | "Bb7"B2 d2 | "Eb"e3   z :|
+|: "Fm"a3 g fg | a2 g2 f2 | "Bb7"d2 f2 | "Eb"e2  g2 \
+|  "Fm"a3 g fg | a2 g2 f2 | "Bb7"B2 d2 | "Eb"e2  z2 :|
+S:https://www.folktunefinder.com/tunes/152913
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Anfanger_Eb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Anfanger_Eb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/zweif/Anfanger_Eb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/zweif/Anfanger_Eb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

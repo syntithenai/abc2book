@@ -1,0 +1,23 @@
+X: 1
+T: Miss Monaghan
+M: 4/4
+L: 1/8
+R: reel
+K: D
+|: "D"D2F{E}D FAAd |  "G"B2BA "A"FABc | "D"d2dB ABde |  "D"fede "A7"fee2  |
+|  "D"D2F{E}D FAAd |  "G"~B3A "A"FABc | "D"d2dB ABdB | "A7"AFEG  "D"FDD2 :|
+|: "D"faab    afdf | "Em"gefd    edBc | "D"~d3B ABde |  "D"fede "A7"fee2  |
+|  "D"faab    afdf | "Em"g2fd    edBc | "D"d2dB ABdB | "A7"AFEG  "D"FDD2 :|
+S:https://www.folktunefinder.com/tunes/17684
+S:http://trillian.mit.edu/~jc/music/abc/reel/MissMonaghan1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MissMonaghan1_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MissMonaghan1_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

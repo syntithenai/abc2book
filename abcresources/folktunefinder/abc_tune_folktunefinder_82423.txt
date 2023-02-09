@@ -1,0 +1,27 @@
+X:63
+T: PIPKEN PIPKEN SAPE
+N: K0932
+O: Europa, Mitteleuropa, Deutschland, Elberfeld
+R: Kinder - Lied, Pflanzen
+M: 2/4
+L: 1/8
+K: G
+ | ddee | d2B
+c | ddee | d2B2
+ddde | dcBc
+ddde | dcBc
+ddde | dcB
+d | edcB | d2B
+e | d2Be | d2Bz
+S:https://www.folktunefinder.com/tunes/82423
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, pflanzen
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

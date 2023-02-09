@@ -1,0 +1,21 @@
+X: 1
+T: Stage, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:BGFG (3EFG DB,|G,B,DG cBAG|AGAB cBcB|(3ABA (3GFE (3DED (3CB,A,|
+G,B,DG cBcd|edef ga (3gfe|d<b c<a B<g A<f|1 ecAF G3A:|2 ecAF G2 (3def||
+|:ga (3gfe dgbd|ceac Bdg2|dBG2 (3gfg ag|fgef defd|
+ga (3gfe dgbd|ceac Bdg2|(3gag (3fgf egfg|1 ecAF G2 (3def:|2 ecAF G4||
+S:https://www.folktunefinder.com/tunes/150658
+S:http://www.thesession.org/tunes/display/1249
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:85
+T:Clara Polka
+R:Polka
+M:2/4
+L:1/16
+K:G
+Bcd2 Bcd2|g2B2 d4|e2A2 A4|B2G2 G4|
+Bcd2 Bcd2|g2B2 d4|e2AB c2F2|G2B2 G4:|
+K:D
+|:A2f2 fed2|A2c2 e4|A2g2 gfe2|A2d2 f4|
+A2f2 fed2|A2c2 e4|A2g2 gfe2|d2f2 d4:|
+K:G
+|:Bcd2 Bcd2|g2B2 d4|e2A2 A4|B2G2 G4|
+Bcd2 Bcd2|g2B2 d4|e2AB c2F2|G2B2 G4:|
+K:D
+|:f2fe d2f2|e2ed B4|c2cB A2c2|d2f2 A4|
+f2fe d2f2|e2ed B4|c2cB A2c2|d2f2 d4:|
+S:https://www.folktunefinder.com/tunes/105645
+S:http://www2.redhawk.org:8080/irish/warnock/abc/messer.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

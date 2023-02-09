@@ -1,0 +1,25 @@
+X: 2
+T: The Star-Spangled Banner
+C: Music: John Stafford Smith
+C: Words: Francis Scott Key
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+AF \
+| "D"D2 F2 A2 | "Bm"d4 "F7"fe | "Bm"d2 F2 "E7"^G2 | "A"A4 AA \
+| "D"f3 e d2 | "A7"c4 Bc | "D"d2 d2 A2 | F2 D2 :|
+ff \
+| "D"f2 g2 a2 | a4 gf | "A7"e2 f2 g2 | g4 g2 \
+| "D"f3 e d2 | "A7"c4 Bc | "Bm"d2 F2 "E7"^G2 | "A"A4 |]
+A2 \
+| "D"d2 d2 dc | "G"B2 B2 "B7"B2 | "Em"e2 gf ed | "D"d2 "A7"Hc2 AA \
+| "D"d3 efg | Ha4 "D"de | "D"f3 g "A7"e2 | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/13373
+S:http://trillian.mit.edu/~jc/music/abc/anthem/StarSpangledBanner.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

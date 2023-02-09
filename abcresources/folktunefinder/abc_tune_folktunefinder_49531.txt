@@ -1,0 +1,24 @@
+X:138
+T:Dingle Regatta
+R:Jig
+O:Ireland
+M:6/8
+K:G
+d^cd e2d|BAB d2B|A2A AGA|B2A G2d|\
+d^cd e2d|BAB d2B|A2A ABA|G3 G2::
+d3 def|g2g gfg|a2a aga|b2a g2e|\
+d2d def|g2g gfg|a2g f2e|def g3::
+g3 d3|BdB G3|ABA DEF|G2B def|\
+g3 d3|BdB G2d|ABA DEF|G3 G3:|
+S:https://www.folktunefinder.com/tunes/49531
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

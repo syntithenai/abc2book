@@ -1,0 +1,22 @@
+X: 3
+T:Cercle circassien
+R:Cercle circassien
+O:Irlande
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+V:1
+"G"G>A Bd|gf ed|"C"eA AB|"D"cd/2c/2 BA|"G"G>A Bd|gf ed|"C"ea "D"ef|"G"g2 g2::
+"A"ae ae|ae e2|"G"gd gd|gd d2|"A"ae ae|ae ef|"G"ge dB|"D"A2 A2:|
+%%footer $D   Galouvielle-MBe 2006 \n--- (Douteuse)
+S:https://www.folktunefinder.com/tunes/142064
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/enfants/RepertoireEnfants.abc
+% Rhythm Cercle circassien
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

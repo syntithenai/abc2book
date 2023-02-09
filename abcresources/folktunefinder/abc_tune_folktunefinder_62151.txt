@@ -1,0 +1,23 @@
+X:128
+T: SCHLAF KINDLEIN SCHLAF
+N: B0619
+O: Europa, Mitteleuropa, Deutschland
+R: Kinder -, Wiegen - Lied
+M: 2/4
+L: 1/16
+K: F
+ | A4G2G2 | F4z2
+FA | c2c2B2B2 | A4z2
+A2 | B2B2G2G2 | c2c2A2
+A2 | B2B2G2G2 | c2c2A4
+B4G2G2 | F4z4
+S:https://www.folktunefinder.com/tunes/62151
+S:http://ifdo.ca/~seymour/runabc/esac/boehme20.abc
+% Rhythm Kinder -, wiegen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

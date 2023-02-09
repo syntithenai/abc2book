@@ -1,0 +1,23 @@
+X:12
+T:Election tune
+R:Jig
+M:6/8
+L:1/8
+K:D
+A | d2f f3 | e2g g3 | fed dcd | ecA ABc | 
+d2 f f3 | e2g g2g | fed edc | d3 d2 :|
+|:B | ABA F2G | A2d d2B | ABA FGA | G2E E2B | 
+ABA F2G | A2a a2g | fed edc | d3 d2:|
+%%newpage
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127736
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

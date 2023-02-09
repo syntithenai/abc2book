@@ -1,0 +1,23 @@
+X: 1
+T: Changerais-tu
+O: Bretagne
+M: 2/4
+L: 1/8
+K: F
+C2 | "F"AB AG | A2 FG-| "C7"GA BA | G2 C2 |
+w: J'ai huit \`a neuf mou-tons dans mon* m\'e-nage en haut, j'ai
+   | "F"AB AG | A2 FG-| "C7"GF EG | F2 :|
+w: huit \`a neuf mou-tons dans mon* m\'e-nage en bas.
+F2 | "Bb"BB "C7"AG | "F"A2 F2 | "Bb"BB "C7"AG | "F"A2 "C7"kc2 |
+w: Dans mon m\'e-nage en haut, dans mon m\'e-nage en bas. H\'e!
+|: "F"A2 c2 | F2 FF | "C7"GG GG | "F"A2 "C7"G2 |
+S:https://www.folktunefinder.com/tunes/18628
+S:http://trillian.mit.edu/~jc/music/abc/song/Changerais_tu_Fw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/song/Changerais_tu_Fw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:220
+T:Ladies' Pantalette's
+T:Duke of Leinster's Wife
+S:as recorded by piper Willie Clancy, first time through
+N:transcribed by Alan Ng. A dot indicates a stop BEFORE the note. F naturals are a semitone above F natural.
+D:The Drones and The Chanters. Irish Pipering. Claddagh/Atlantic 83281-2, 2000. Track 20, tune 2.
+Z: id:ng-reels-44 transcribed by Alan Ng alan@alan-ng.net 23 May 2001
+R:reel
+M:C|
+K:GMaj
+(3Bcd cA ~G3c|A~F3 c~F3|Bd.cA Gzg{a}g|fd.c.A {B}A~G3|\
+(3Bcd .cA B~G3|{B}A~=F3 c~=F3|~A3B ~G3e|fd.c.A {B}A~G3||\
+(3dfg .af gz.g{b}g|(3efg ag fd.d.e|fg{a}gf ga{b}ag|fd.c.A B~G3|\
+(3dfg af ~g3a|~a3g fd-de|~f3g ~a3g|fd.c.A B~G3||**
+S:https://www.folktunefinder.com/tunes/96901
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ng/ng-reels.abc
+S:http://www2.redhawk.org:8080/irish/ng/ng-reels.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

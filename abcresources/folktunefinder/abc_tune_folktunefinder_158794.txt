@@ -1,0 +1,27 @@
+X: 1 
+T: Fly Me To the Moon
+C: Bart Howard
+M: 4/4
+L: 1/4
+Q: "Medium Swing" 
+K: C % ---
+"Am7"cBA/G3/ | "Dm7"F3/G/Ac | "G7"BAG<F |"CM7"E4 |
+"FM7"AGF<E | "Bm7b5"D>EFA | "E7b9"^GFE<D | "Am7"C3"A7b9"^C |
+"Dm7"D/A A/-A2- | "G9"Ac2B | "CM9"G4- | "Am7"G3"Am9"B, |
+"Dm7"C/FF/- F2- | "G7"FA2G | "Fdim7/C" F2"CM7"E2- | "Bm7..E7"E4 |
+%
+"Am7"cBA/G3/ | "Dm7"F3/G/Ac | "G7"BAG<F | "CM7"E4 |
+"FM7"AGF<E | "Bm7b5"D>EFA | "E7b9"^GFE<D | "Am7"C3"A7b9"^C |
+"Dm7"D/AA/-A2- | "G9"Ac2"G7/F"B |1 "Em7b5"G4- | "A7b9"G3^G |\
+   "Dm7"A/CC/-C2- | "Dm7/G"CC2"G7b9"D | "C6"C4 | "Bm7"z2"E7"z2 :|
+[2 "Em7b5..Bb9"e4- | "A7b9"e3c | "Dm7"d/AA/-A2- | "G7"AB2"G7b9"d | "C6..Bb6.B6"c4-|"C6/9"c3z |]
+S:https://www.folktunefinder.com/tunes/158794
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sound.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

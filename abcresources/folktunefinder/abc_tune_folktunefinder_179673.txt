@@ -1,0 +1,21 @@
+X:1
+T:Oh Be Joyful
+C:
+L:1/8
+Q:360
+M:6/8
+K:D
+|: "D"DFA BAG | F2A [d2D2]d | DFA BAG | "A"FAF E2A | "D"DCD FAF | "G"BAG "D"FAd | \
+ "A7"gfe Ace | "D"dfa d'3 :|: "D"[d'2f2A2][d'f] [a2d2D2][ad] | "G"[gBD]ag "D"[f2A2D2]d | \
+ "Bm"[BD]cd "D"AFf | "Em"[gBE]fe "A"[cE]de | "D"dcd faf | "G"[gB]fe "D"[d2F2]A | "G"GAG "A"FEC | \
+ "D"DFA [d3F3] :| \
+W:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/179673
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/ohbejoyful_fox.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

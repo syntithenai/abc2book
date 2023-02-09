@@ -1,0 +1,22 @@
+X:193
+T:The Bosun's Alphabet
+M:3/4
+L:1/8
+Q:1/4=3D120
+K:A
+A3 AAA|c2 A2 E2|F2 B2 B2|B6   |
+B3 BBB|d2 B2 GG|E2 G2 F2|E4 e2|
+c3 ccc|c2 A2 E2|F2 d2 c2|(c2 B2)z2|
+B3 BBB|d2 B2 G2|E2 F2 G2|A6|e6|
+cc c2 c2|AA A2 A2|DF F2 F2|F4 BB|
+B2 B2 B2|d2 B2 G2|E2 G2 F2|E4 e2|
+c3 cc2|c2 A2 E2|F2 d2 c2|(c2 B2)BB|
+B2 B2 B2|d2 B2 G2|E2 F2 G2|A6||
+S:https://www.folktunefinder.com/tunes/68280
+S:http://www2.redhawk.org:8080/irish/other/shanties.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

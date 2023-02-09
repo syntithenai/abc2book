@@ -1,0 +1,28 @@
+X:670
+T:the Lasses of Melross
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+N: the ^f in penultimate bar seems unnecessary, but there it is ...
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e54.html
+%%ID:00000e54
+K:G
+d |\
+B>AB GAB | Tc>Bc ABc | BAB GAB | AFD D2c |\
+BAB GAB cBc ABc | (B>cdB) cAF | G3 G2 ||
+f |\
+gbg gbg | ac'a ac'a | gbg gbg | afd d2f |\
+gbg gbg | ac'a abc' | bag ag^f | g3 g2 :|
+S:https://www.folktunefinder.com/tunes/95765
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

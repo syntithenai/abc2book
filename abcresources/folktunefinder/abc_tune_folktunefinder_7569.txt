@@ -1,0 +1,70 @@
+X:1
+T: Atoton\'ilco polka
+O: Mexico
+R: Polka
+Z: John Chambers <jc@trillian.mit.edu>
+C: Trad
+M: 4/4
+L: 1/8
+K: C
+"Intro"\
+[GE][AF][cA] \
+| "G7"[c2A2][B2G2] z[DB,][FD][AF] \
+| "C"[A2F2][G2E2] z[CG,][EC][GE] \
+| "G7"[G2E2][F2D2] z[GB,][AC][BD] \
+| "C"(3[c2E2][c2E2][c2E2] [cE] ||
+"A"\
+|: z2[GE] \
+| "C"[cA][cA][cA][cA] [cA][BG][dB][BG] \
+| "G7"[GE][F2D2][GE] [A2F2]z[GE] \
+| [BG][BG][BG][BG] [BG][AF][cA][AF] \
+| "C"[GE][E2C2][FD] [G2E2]z2 |
+| "C"[g2e2c2][e2c2G2] [g2e2c2][c'2g2e2] \
+| "G7"[b2g2d2][afc][geB] [f2d2A2]z2 \
+|1 [f2d2B2][d2B2G2] [f2d2B2][b2g2d2] \
+| "C"[a2f2c2][geB][fdA] [ecG] :|2 "G7"[bggd][a2f2c2][geB] [a2f2c2][geB][fdA] \
+| "C"[e4c4G4] z ||
+"B"\
+|: GAc \
+| "G7"c2B2 z2[c2A2] \
+| [c2A2][B2G2] zDFA \
+| "C"A2G2 z2[A2F2] \
+| [A2F2][G2E2] z[ecG][fdA][geB] |
+| "G7"[a2f2c2] [b4g4d4] [g2e2B2] \
+| [a2f2c2] [b4g4d4] [a2f2d2] \
+|1 [a2f2d2][g2e2c2] [^f2^d2B2][a2=f2=d2] \
+| "C"[g4e4c4]z :|2 "G7"[a2f2c2][b3g3d3] [afc][geB][fdA] \
+| "C"[e4c4G4] z ||
+"A'"\
+|: z2[GE] \
+| "C"[cA][cA][cA][cA] [cA][BG][dB][BG] \
+| "G7"[GE][F2D2][GE] [A2F2]z[GE] \
+| [BG][BG][BG][BG] [BG][AF][cA][AF] \
+| "C"[GE][E2C2][FD] [G2E2]z2 |
+| "C"[g2e2c2][e2c2G2] [g2e2c2][c'2g2e2] \
+| "G7"[b2g2d2][afc][geB] [f2d2A2]z2 \
+|1 [f2d2B2][d2B2G2] [f2d2B2][b2g2d2] \
+| "C"[a2f2c2][geB][fdA] [ecG] :|2 "G7"[bggd][a2f2c2][geB] [a2f2c2][geB][fdA] \
+| "C"[e4c4G4] z ||
+"B'"\
+|: [gec][afc][c'ae] \
+| "G7"[c'2a2e2] [b4g4d4] [c'2a2e2] \
+| [c'2a2e2][b2g2d2] z[dBG][fdB][afd] \
+| "C"[a2f2d2] [g4e4c4] [a2f2d2] \
+| [a2f2d2][g2e2c2] z[ecG][fdA][geB] |
+| "G7"[a2f2c2] [b4g4d4] [g2e2B2] \
+| [a2f2c2] [b4g4d4] [a2f2d2] \
+|1 [a2f2d2][g2e2c2] [^f2^d2B2][a2=f2=d2] \
+| "C"[g4e4c4]z :|2 "G7"[a2f2c2][b3g3d3] z[^gdB][aec][bfd] \
+| "C"[c'2e2c2] "G7"[g2f2d2] "C"[c'ec]c'/c'/ [c'ec]  ||
+S:https://www.folktunefinder.com/tunes/7569
+S:http://trillian.mit.edu/~jc/music/abc/Mexico/Atotonilco_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/polka/AtotonilcoP.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/polka/AtotonilcoP.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

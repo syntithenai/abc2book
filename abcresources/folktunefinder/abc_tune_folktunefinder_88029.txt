@@ -1,0 +1,30 @@
+X: 182080
+T: Rooster (The)
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: G
+A | GAB dBG | ABG EGD | GAB dBG | edB A2D |
+GAB dBG | AGE GBd | ged edB | AGE G2 :|
+A | GBd gag | edB edB | GBd edB | dBG A2B |
+GBd gag | edB deg | age dBG | AGE G2 B/A/ |
+GBd gag | edB dBA | GBd edB | dBG A2 B/A/ |
+GBd gag | bag edB | edB AGE | GDB, G,3 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88029
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

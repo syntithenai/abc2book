@@ -1,0 +1,29 @@
+X:44
+T: BIN AUS UND EIN GANGN
+N: E1041
+O: Europa, Mitteleuropa, Oesterreich, Tirol
+R: Tanz - Lied
+M: 3/4
+L: 1/16
+K: F
+C4 | F4F2G2A2B2 | c4A4
+A2c2 | c2B2G4G2B2 | A8
+C2C2 | F4F2G2A2B2 | d2c2A4
+A2c2 | c2B2G4G2A2 | F8
+c2A2 | G4G2c2=B2d2 | c2G2G4
+G2c2 | e4e2c2d2=B2 | c8
+A2c2 | d4B2F2B2d2 | d2c2A4
+A2c2 | c2B2G4G2B2 | A8
+c4 | d4d2B2f2d2 | d2c2c4
+A2c2 | c3BA4G2F2 | F8
+S:https://www.folktunefinder.com/tunes/79148
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Tanz - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

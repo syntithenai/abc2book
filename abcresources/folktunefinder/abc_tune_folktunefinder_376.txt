@@ -1,0 +1,28 @@
+X: 51
+T: Trekant nr. 5
+F: http://www.folketshus.dk/cgi-bin/visnode.cgitr-nr05
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+C \
+| "C"C2E G2E | c3- c2G | E2G c2G |    e3- e2d \
+|"G7"d2c c2B | B2A D2E | F2G A2B | "C"c3- c2 :|
+K: G
+|: z \
+| "G"g2B B2B |    Bcd efg | "D7"a2c c2B |    ABc def \
+| "G"g2d d2b | "C"a2e e2a | "D7"gfe def | "G"g3  g2 :|
+S:https://www.folktunefinder.com/tunes/376
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-nr05
+S:http://www.folketshus.dk/cgi-bin/visnode.cgitr-nr05
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/jig.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

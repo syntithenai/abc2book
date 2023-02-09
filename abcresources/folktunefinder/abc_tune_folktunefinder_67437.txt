@@ -1,0 +1,22 @@
+X:675
+T:Blackwell Court
+R:hornpipe
+Z:
+M:4/4
+K:DDor
+ED|:"C"C3 D "F"A,2 "C"G,2|A,G,"F"A,/2C3/2"C"E2 DC|"Dm"D3 E D2 EG|"F"AGA/2c3/2 "G"E2 DE|
+"Am"C3 D "G"B,2 A,G,|"F"A,G,A,/2C3/2 "C"E2 DC|"Dm"D2 d2 "Am"cAG/2E3/2|1"Dm"D4 D2 ED:|2"Dm"D4 D2 EG||
+|:"F"A4 A3 G|AGA/2c3/2 "C"E2 DC|"Dm"D3 E D2 EG|"F"AGA/2c3/2 "Em"G2 EG|
+"Dm"A4 "F"A3 G|"G"AGA/2c3/2 "Am"E2 DC|"Dm"D2 d2 "Am"cAG/2E3/2|1"Dm"D4 D2 EG:|2"Dm"D4 D2 ED:|
+S:https://www.folktunefinder.com/tunes/67437
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/BlarneyStonePub/tunebook.abc
+S:http://www2.redhawk.org:8080/irish/BlarneyStonePub/tunebook.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

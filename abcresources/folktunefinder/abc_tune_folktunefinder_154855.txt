@@ -1,0 +1,27 @@
+X:1
+T:Ducks on the Pond
+L:1/8
+R:reel
+M:C|
+K:G
+|: "Am"[E4A,4] [e4A4] | edef g4 | "G"B2Bc BAGA | BABc BAG2 |
+  "Am"[E4A,4] [e4A4] | edef gaba | "G"g2e2 d2B2 |\
+   [1 "Am"A3B A4 :|[2 "Am"A3B A2e2 ||
+|: "Am"aebe a2g2 | edef g2g2- | "G"gfga bagf | edeg age2 |
+   "Am"aebe a2g2 | edef g2ba  | "G"g2e2 d2B2 |\
+   [1 "Am"A3B A2e2 :|[2 "Am"A3B A4 |]
+N:Portland Collection, pg 67 - abc by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:a - A Major, b - A Mixolydian
+S:https://www.folktunefinder.com/tunes/154855
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DucksOnThePond.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

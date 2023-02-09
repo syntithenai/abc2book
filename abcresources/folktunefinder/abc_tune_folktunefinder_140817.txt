@@ -1,0 +1,25 @@
+X: 3
+T:Bobbing-a-Joe, Wheatley
+M:6/8
+L:1/8
+A:Wheatley
+P:A(AB)4A
+K:A
+P:A
+|:cdc e2f|edc BGE|cdc e3f|e3 BA2:|
+P:B
+|:cef B3 |cef B3 |cdc e3f|e3 BA2:|
+S:https://www.folktunefinder.com/tunes/140817
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Wheatley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/sites/default/files/music/Wheatley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

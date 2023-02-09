@@ -1,0 +1,12 @@
+X: 39690
+T: Tents
+R: hornpipe
+M: 4/4
+K: Gmajor
+(3DEF|:G2 F>A G>A B>c|(3ded ^c>e d>=c A>F|G>g d>B G>e c>A|F>d A>F D2 E>F|
+G2 F>A G>A B>c|d2 ^c>e d>=c A>F|G>g d>B G>e c>A|1 F>A d>F G2 (3DEF:|2 F>A d>F G>A B>c||
+(3ded B>d G>A B>c|d>G e>G f>G g2|A>c e>d c>B A>G|F2 A2 A>B c>^c|
+d2 B>d G>A B>=c|d>G e>G f>G g>G|A>e d>c B>A G>F|A2 G2 G>B c>^c|
+d2 B>d G>A B>=c|d>G e>G f>G g>G|A>c e>d c>B A>G|F2 A2 A2 G>F|
+G>g d>B G>e c>A|F>d A>F D2 E>F|G>c e>c B>A G>F|A2 G2 G2||
+

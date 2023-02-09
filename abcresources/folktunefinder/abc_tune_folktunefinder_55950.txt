@@ -1,0 +1,50 @@
+X:1011
+T:Baille de Panderu (CT 135)
+R:Panderu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile de pandero, transcrita en Cenera, ayuntamiento de Mieres.
+N:Casi todas las coplas que la cantadora entonaba con esta meloda comenzaban con un verso que haca referencia al pandero.
+O:Cenera (Mieres)
+A:Asturies
+Z:Cancioneru de Torner 135
+M:6/8
+L:1/8
+Q:3/8=88
+W:Esti panderu que toco (bis)
+W:tien lengua y sabe falar;
+W:slo-y falten los geyos
+W:pa'ayudame a llorar.
+W:
+W:Ole, ole, morenita,
+W:tien lengua y sabe falar.
+W:
+W:-------
+W:
+W:Esti panderu que toco,
+W:nel mediu tien un ramu,
+W:con un lletreru que diz:
+W:Viva los que tan baillando!
+W:
+W:Esti panderu ta rotu,
+W:con qu lu remendaremos
+W:Cola lengua de los homes,
+W:que son unos platiqueros.
+K:G
+G|GGG F2G|A2A- A2B|cBG A2G|
+G2F- F2F|GAA G2F|(A2G- G2)A|AAA G2G|
+F2F- F2A|AAA G2F|(A2G- G2)A|AAA G2G|
+F2F- F2A|AAA G2F|(A2G- G3-|G2)z3||
+S:https://www.folktunefinder.com/tunes/55950
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/b.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/b.abc
+% Rhythm Panderu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

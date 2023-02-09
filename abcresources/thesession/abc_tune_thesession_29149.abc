@@ -1,0 +1,27 @@
+X: 29148
+T: Never Far Away
+R: reel
+M: 4/4
+K: Gmajor
+w: A part
+GA|:"G"Bc B/A/ G|"G/B"d2 cB|"Am7"A G B/c/ d|"C"e2 de|
+"Em7"gbag|"G (Bm7)"edd g|"Am7" eddB|"D" A2GA|
+"G"Bc B/A/ G|"G/B"d2 cB|"Am7"A G B/c/ d|"C"e2 de|
+"Em7"gbag|"C"ed B/A/ G|"D"E DDE|1 "G"G2GA:|2 "G"G3ug||
+w: B part
+"C"e2dB|"G/B"d2BA|"G"B2G2|"G"G3d|
+"Em7"gbag|"G/B (Bm)"edB/c/ d|"C"e2ed|"C"e3 ub|
+"Em"geed|"C"e2e/f/g|"G"dBBA|"G/B"B2AG|
+"G"BcB/A/G|"G/B" cdB/A/G|"D"FAdD|"D"d3g/f/|
+"C"e2dB|"G/B (Bm)"d2BA|"G (Am7)"B2G2|"G"G3d|
+"Em7"gbag|"D (Bm)"edB/c/ d|"C"e2ed|"C/E"e2ga|
+"Em"abeb|"Bm"bagf|"G"g2 B/c/ d|"C"gfed|
+"G"BcB/A/G|"G/B"cdB/A/G|"D"FAdD|"D"d2 GA|
+w: C finish
+"G"Bc B/A/ G|"G/B"d2 cB|"Am7"A G B/c/ d|"C"e2 de|
+"Em7"gbag|"G (Bm7)"eddG|"Am7" eddB|"D" A2GA|
+"G"Bc B/A/ G|"Am"d2 cB|"Bm"A G B/c/ d|"C"e4-|e2de|
+w: slower
+"Em7"gbag|"D"ed B/c/ d|"C"gbag|"G/B" ed B/c/ d|
+"Em7"gbag|"C" ed "G"B/A/ G|"D"E DDE|"G"G4||
+

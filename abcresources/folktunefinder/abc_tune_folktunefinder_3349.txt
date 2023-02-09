@@ -1,0 +1,33 @@
+X: 2
+P: Little Burnt Potato
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+|: f2g \
+| "D"a^ga "A7"bag \
+| "D"afd Ade \
+| "Bm"f2f g2f \
+| "Em"e3 Bcd \
+| "A7"efe ecB |
+| "A7"Ace a3 |1 a^ga ba=g \
+| "D"f3 :|2 "A7"a^ga b2c \
+| "D"d3 |: d2e \
+| "D"f2A f2A \
+| "Bm"f3- f2e |
+| "Bm"def agf \
+| "Em"g3- gef \
+| gba gfe \
+| "A7"dcB A3 |1 a^ga ga=g \
+| "D"f3 :|2 "A7"a^ga b2c \
+| "D"d3 |]
+S:https://www.folktunefinder.com/tunes/3349
+S:http://trillian.mit.edu/~jc/music/abc/Contra/CJ85.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 2
+P: Wintergr\"un (Bb)
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/4
+L: 1/8
+K: Bb
+|: [F2D2] \
+| "Bb"[F2D2] [B2G2] [d2B2] | [g2e2] z[fd] [f2d2] \
+| [F2D2] [B2G2] [d2B2] | "F7"[f2d2] z[ec] [e2c2] \
+|[M:2/4] "Eb"[g2e2] z2 | "Bb"[f2d2] z2 |
+|[M:3/4] "F7"[dF][eG] [e2G2] [A2E2] | "Bb"[BD][AC] [BD][cF] [d2B2] \
+|[M:2/4] "Eb"[g2e2] z2 | "Bb"[f2d2] z2 \
+|[M:3/4] "F7"[dB][eA] [e2G2] [A2E2] | "Bb"[B2D2] z2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5036
+S:http://trillian.mit.edu/~jc/music/abc/Germany/ZW_Wintergruen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/ZW_Wintergruen.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

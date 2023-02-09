@@ -1,0 +1,37 @@
+X:59
+T:Le canard blanc
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n59
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=90
+K:C
+z G G G | G2 D2 E E |\ 
+M:2/4
+D G G G |\ 
+M:3/4
+G2 D2 E E |! 
+M:2/4
+D D G B |d d B G | A4 | D2 E E | D2 D D/ D/ |! 
+M:3/4
+D c B A A G |\ 
+M:2/4
+D2 E E | D2 D D/ D/ | D c B A | G4 ||
+W:Derrire chez nous y a-t-un tang, (2x)
+W:Trois beaux canards y vont nageant
+W:Moi je ferai faire un petit moulin sur la rivire
+W:et puis encore un petit bateau pour passer l'eau.
+W:
+W: /.../
+S:https://www.folktunefinder.com/tunes/119629
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

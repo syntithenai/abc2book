@@ -1,0 +1,26 @@
+X:205
+T: The Charming Fair Maid
+B: O'Neill's 241
+N: "Slow"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The second part has 9 bars.
+M: 3/4
+L: 1/8
+K: D
+z2 z2 dc \
+| A2 A2 Bc | d4 de | f4 ed | e2 d4 \
+| f4 gf | e4 a2 | d2 c2 d2 | e2 d4 ||
+|| ed d2  (cB/A/) | AB c2 z2 | ed dc BA | AG F2 ED \
+| C4 DE | F4 AG | E4 GE | D2 C2 D2 | E2 D4 ||
+S:https://www.folktunefinder.com/tunes/80419
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0201-0300_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

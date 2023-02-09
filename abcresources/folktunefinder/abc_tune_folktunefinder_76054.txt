@@ -1,0 +1,24 @@
+X:74
+T: Ach Schatz, wenn du ber die Gasse gehst (Band 1), S. 212
+N: P0849
+O: Lothringen
+S: PINCK, Louis: Verklingende Weisen, Bd 1, Metz 1928]
+R: verbotene Liebe]
+M: 3/8
+L: 1/8
+K: G
+D | DGG | GAA | G2F | F2
+D | G2G | GAB | A2
+G | ABc | d2d | dcB | A2
+c | B2B | A2A | G2
+S:https://www.folktunefinder.com/tunes/76054
+S:http://ifdo.ca/~seymour/runabc/esac/LOT.abc
+% Rhythm Verbotene liebe]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

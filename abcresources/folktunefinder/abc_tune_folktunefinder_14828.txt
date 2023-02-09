@@ -1,0 +1,28 @@
+X: 1
+T:Paddy Wack. WCl.44
+M:6/8
+L:1/8
+Q:120
+S:William Clarke MS,Lincoln,1770.
+R:Jig
+O:Lincoln
+A:England
+Z:vmp.Barry Callaghan
+K:G
+D|GBd geg|fdc BAG|GBd geg|fdd"qu"d2 e/f/|!
+geg fdB|cec dBG|GBd cAc|BGG"qu"G2::!
+"cr"c|BdB cec|dBG A2G|Bcd efg|fdd"qu"d2 e/f/|!
+geg fdB|cec dBG|GBd cAc|BGG G3:||
+S:https://www.folktunefinder.com/tunes/14828
+S:http://trillian.mit.edu/~jc/music/abc/jig/Paddy_Wack_WCl_44_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Paddy_Wack_WCl_44_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Paddy_Wack_WCl_44_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

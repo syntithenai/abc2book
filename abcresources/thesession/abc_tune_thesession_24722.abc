@@ -1,0 +1,16 @@
+X: 24721
+T: Mad
+R: jig
+M: 6/8
+K: Gmajor
+B,CD B,CD|B,CD ECE|B,CD B,CD|BAG ECE|
+B,CD B,CD|B,CD ECE|B,CD B,CD|BAG EDC|
+[B,3D3] B,CD|B,CD ECE|B,CD B,CD|BAG ECE|
+B,CD B,CD|B,CD ECE|B,CD B,CD|BAG ECE||
+K: Dmix
+|:Ddd AF[DF]|DBc ECE|Ddd ~B2B|GFG ECE|
+Ddd AF[DF]|DBc ECE|Ddd ~B2B|GFG ECE:|
+K: Dmaj
+|:Daa afd|efg gec|eaa afd|gfg efg|
+agf gfe|fed e/f/ed|cec BdB|1 ABA GE=C:|2 ABA GD=C||
+

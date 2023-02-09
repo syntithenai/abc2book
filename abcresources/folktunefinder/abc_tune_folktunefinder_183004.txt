@@ -1,0 +1,37 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Bayern 
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:nach Notenmaterial von Stefan Straubinger
+N:Tonarten der Quelle: Erster Teil:F zweiter Teil:C, Trio in B
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+D2GB d2d2 | E2Gc e2e2 | d2c2 {d}cBcF | G2(GB) D4 |
+D2GB d2d2 | E2Gc e2e2 | d2c2 {d}cBcF | G2B2G2z2 :|
+|:\
+D2D2 EFGA | B2BG D2D2 | F2FE C2C2 | E2ED B, 2B, C |
+D2D2 EFGA | B2BG D2D2 | F2FE DcBA | G2G2 ~G4 :|
+P:Trio
+K:C
+g2(ec) (GAGE) | (FB)B2 A2GE | (FB)B2 A2GF | (E2c)c G2ce |
+g2(ec) (GAGE) | (FB)B2 A2GE | (FB)B2 (AGfB) | c2e2c2z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183004
+S:http://simonwascher.info/TradArchiv_polka/polka.d2B2B2ABc2E2E4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

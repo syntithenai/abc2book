@@ -1,0 +1,25 @@
+X:306
+%%topmargin 3cm
+T:Lady Muir Mackenzie
+C:Wm. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+E | C<cc>G ECC_E | D<_BB>F DB,B,D | C<cc>G E>FG>f | ecde c/c/c c:|
+e | gece gage | fd_Bd fgfd | gece gage | fdge c/c/c ~c>e |
+gece gage | fd_Bd (fg)fd | cedf egfa | gefd c/c/c c|]
+S:https://www.folktunefinder.com/tunes/71335
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Muir_Mackenzie.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0306.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

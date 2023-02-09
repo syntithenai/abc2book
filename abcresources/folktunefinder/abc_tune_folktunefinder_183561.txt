@@ -1,0 +1,25 @@
+X: 1
+T: Port Chuilinn
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+BdB BAF |Add dBA |~B3 BAF|AFE E2A|
+BdB BAF|Add dAF|~G3 ~F3|EFE DFA|
+~B3 BAF|ABc d3|~B3 BAF|AFE E2A|
+BdB BAF|Add dAF|~G3 ~F3|~E3 D2B|
+AFA d2e|~f3 edB|~g2e fdB|AFA ~B3|
+Adf ~a3|baf afd|fge fdB|AFA ~B2g|
+fdc d2e|~f3 edB|~g2e fdB|AFA ~B3|
+Adf ~a3|baf afd|fge fdB|AFA ~B2A||
+S:https://www.folktunefinder.com/tunes/183561
+S:http://www.thesession.org/tunes/display/7600
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

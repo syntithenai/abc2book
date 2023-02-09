@@ -1,0 +1,24 @@
+X: 1
+T:the Lad's Dance
+M:6/8
+O:England
+A:North-West
+R:Jig
+K:D
+B|\
+AFD DFD| DFA B2A| Bcd AGF| GEE E2B| \
+AFD DFD| DFA B2A| Bcd edc| d3 d2::
+g|\
+faf d2g| faf d2A| Bcd AGF| GEE E2g|\
+faf d2g| faf d2A| Bcd edc| d3 d2:|
+S:https://www.folktunefinder.com/tunes/170793
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/la/Lads_Dance_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/la/Lads_Dance_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

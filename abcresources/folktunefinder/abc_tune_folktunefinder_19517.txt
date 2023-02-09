@@ -1,0 +1,35 @@
+X: 1
+T: Marquis of Huntly's Farewell
+C: W.Marshall
+N: Marshall p.14, SFT p.7, H&C p.105 popular setting), SV p.16 (variant endings),
+N: Hardie p.71, BSFC II-13 and III-18, Skye p.1
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+| A,2- {B,A,G,}A,>C (C<E) E>F | A>B {AB}c>B A2R- A>c \
+| A,2- {B,A,G,}A,>C (C<E) E>c | {Bc}B>c d/c/B/A/ F2- F<A |
+| A,2- {B,A,G,}A,>C (C<E) E>F | A>B {AB}c>B A2R- A>c \
+| d>{ed}c df ec ca | {Bc}B/A/B/c d/c/B/A/ F2- F ||
+f \
+| (f/e/)d/c/ {c}a>c b>c {c}a2 | (f/e/)d/c/ {c}ag fe dc \
+| Bf (b/a/)g/f/ {f}b2 | Bf ag {g}fe |
+| (f/e/)d/c/ {c}a>c b>c {c}a2 | (f/e/)d/c/ {c}ag fe dc \
+|1 d/e/f/g/ ag fe dc | {Bc}B>c d/c/B/A/ F2- F<A :|
+P: Common flashy ending:
+| d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/ | {Bc}B/A/B/c/ d/c/B/A/ B/A/G/F/ E/D/C/B,/ :|
+P: J.S.Skinner's ending:
+| (3def (3efg (3aed (3cBA | (3Bcd (3cBA (3GFE (3DCB, :| x8 x8 x8 x8
+S:https://www.folktunefinder.com/tunes/19517
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MarquisOfHuntlysFarewell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MarquisOfHuntlysFarewell.abc
+S:http://trillian.mit.edu/~jc/music/book/500/MarquisOfHuntlysFarewell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

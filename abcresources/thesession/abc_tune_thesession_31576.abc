@@ -1,0 +1,11 @@
+X: 31575
+T: Palisades, The
+R: jig
+M: 6/8
+K: Dminor
+def edc|dcA BAG|F3 EDC|A,B,C DFA|
+def edc|dcA BAG|^F2 d cAG|1 ^FDC D2 A:|2 ^FDC D2 G||
+Add fdd|add fdd|c3 ece|gag edc|Add fdd|
+[1 add fdd|cde gag|ed^c d2 =c:|
+[2 aba ged|cde gag|ed^c d2 A||
+

@@ -1,0 +1,23 @@
+X: 1
+T: Moran's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|:A>G|(3FAF E>F D>EF>G|A>BG>B A2 d>e|f>dg>b a>ge>f|d>=cA>F G>BA>G|
+(3FAF E>F D>EF>G|A>BG>B A2 d>e|f>dg>b a>ge>c|d2 d>c d2:|
+a>g[|f>ef>g a>fd>e|f>d (3efg a2 a>b|a>ge>c d>fe>c|d>=cA>F G2 a>g|
+f>ef>g a>fd>e|f>d (3efg a2 a>b|a>ge>f d>=cA>G|(3ABA d>c d2 a>g|
+f>ef>g a>fd>e|f>d (3efg a2 a>b|a>ge>c d>fe>c|d>=cA>F G2 a>g|
+(3FAF E>F D>EF>G|A>BG>B A2 d>e|f>dg>b a>ge>c|d2 d>c d2|]
+S:https://www.folktunefinder.com/tunes/176798
+S:http://www.thesession.org/tunes/display/3908
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

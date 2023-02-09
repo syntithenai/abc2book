@@ -1,0 +1,35 @@
+X:31
+T:Alborada (MG 71)
+R:Alborada
+C:Versin del gaiteru Jos Rendueles
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 71
+M:2/4
+L:1/8
+Q:1/4=200
+E:Comp.
+K:C
+|: ~G2 EG|c3 d|cBAB|c2 G2|~G2 EG|c3 d|cB AB|c4|
+|~G2 EG|c3 d|cBAB|c2 G2|~G2 EG|c3 d|cB AB|c4|
+|~e2 d2|c4|~e2 d2|c3 d|cdcd|c3 d|cdcd|c3 d|
+|cBAB|G3 ~G|cBAB|c3 G|cBAB|G3 G|cBAB|c3 G|
+|cBAB|G3 G|~cBAB|~cBAB|~cBAB|G3 ~G|EGEG|~D3 B,|
+|DB,DE|C3 G|EGEG|~D3 B,|DB,DE|[1 C3 E :|[2 C3 G|
+|EGEG|E3 ~G|EGEG|F3 ~G|FGFG|E3 ~G|EGEG|E3 ~G|
+|EGEG|F3 ~G|FGFG|E3 ~G|cBAB|c3 G|cBAB|G3 G|
+|cBAB|c3 G|cBAB|G3 G|~cBAB|~cBAB|~cBAB|G3 ~G|
+|EGEG|~D3 B,|DB,DE|C3 ~G|EGEG|~D3 B,|DB,DE|C3 E|
+S:https://www.folktunefinder.com/tunes/58918
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Alborada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

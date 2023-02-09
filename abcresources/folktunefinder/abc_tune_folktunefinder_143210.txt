@@ -1,0 +1,30 @@
+X: 022099
+T: Breffni Castle
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+N: Uses dotted rhythm
+L: 1/8
+M: 4/4
+R: hornpipe (set dance)
+Q: 1/4 = 160
+K: A
+cd | (3efg ec d2 ed | (3cBA Bc AGEG | ABcd edcB | A2 E2 E2 cd |
+(3efg ec d2 ed | (3cBA BG ABcd | edcB AGED | E2 A2 A2 :|
+ed | c2 cB cdec | dedB GABG | ABcd edcd | e2 a2 a2 ab |
+aged cedB | (3cBA BG EFGE | ABcd edcB | A2 E2 E2 cd |
+ea (3bag aged | (3cBc Bc EFGE | ABcd eged | c2 A2 A4 ||
+S:https://www.folktunefinder.com/tunes/143210
+S:http://www.qmcorp.net/webabc/b/022099.abc
+S:http://www.qmcorp.net/webabc/collections/liddy/breffni_castle.abc
+% Rhythm Hornpipe (set dance)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:14
+T: Ritter und Herzogstochter
+N: A0019
+O: Europa, Mitteleuropa, Deutschland, Heidelberg
+N: Heidelberger Hs. 343 Bl. 103
+R: Romanze, Ballade, Lied
+M: 3/1
+L: 1/2
+K: A
+A | =c2cd2d | e2e2
+e2 | =g2g=f2d | e2d2z
+d | e2ee2=g | =f2e2
+e2 | d2=ce2c | B2A2z
+e | d2d=c2A | B=cd2
+d2 | d2dd2e | =f2e2
+e2 | d2=ce2c | B2A2z
+S:https://www.folktunefinder.com/tunes/68560
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Text Has notes text
+% Has_accompaniment_chords No chords

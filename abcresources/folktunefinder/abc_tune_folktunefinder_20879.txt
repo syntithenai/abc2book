@@ -1,0 +1,27 @@
+X:430
+T:Barry's Favourite
+O:england
+S:Mick Peat
+M:2/2
+K:D
+A2|"D"a3/2b/2a3/2g/2 f2(3def|"Em"g3/2a/2g3/2f/2 "A"e2A2|"D"f3/2g/2f3/2e/2 d2f2\
+|"Em"B3/2c/2d3/2e/2 "A"c2A2|
+"D"a3/2b/2a3/2g/2 f2(3def|"Em"g3/2a/2g3/2f/2 "A"e2A2|\
+"D"f3/2g/2f3/2e/2 d3/2e/2f3/2A/2|"G"B3/2d/2"A"d3/2c/2 "D"d2A2:|
+"G"B3/2A/2B3/2g/2 "Dv1"d2A2|"Em"e3/2d/2e3/2f/2 "A"e2a2|\
+"G"b3/2a/2(3gab "Dv1"a3/2g/2(3fga|"E"f3/2e/2(3def "A"e2A2|
+"G"B3/2A/2B3/2g/2 "Dv1"d2A2|"Em"e3/2d/2e3/2f/2 "A"e2a2|\
+"G"b3/2a/2g3/2f/2 "A"a3/2g/2f3/2e/2|1"D"d2f2 d2||
+A2:|
+S:https://www.folktunefinder.com/tunes/20879
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

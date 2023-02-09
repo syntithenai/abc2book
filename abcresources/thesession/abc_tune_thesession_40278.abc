@@ -1,0 +1,10 @@
+X: 40277
+T: Tobin's Favourite
+R: jig
+M: 6/8
+K: Dmajor
+DFA dcd|ecA efg|fef gfg|ecA GFE|
+DFA dcd|ecA efg|faf gec|edc d3:|
+|:f3 gfg|ecA Ace|fef gfg|ecA GFE|
+DFA dcd|ecA efg|fdf gfg|edc d3:|
+

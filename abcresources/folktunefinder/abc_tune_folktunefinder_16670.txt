@@ -1,0 +1,45 @@
+X: 1
+P: Jenny's Waltz
+C: Owen Chapman
+O: Paul Smith's version
+N: Dan Crary, Owen Chapman and Jack Widner are listed as the composer by different sites.
+N: Dan Crary has a recording of his Jenny's Waltz online, and it's not this tune.
+D: Paul Smith & Friends "The Devil Eat the Groundhog" (used for this transcription)
+D: Owen Chapman's album "Walnut Gap" contains this tune.
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+(3GFE \
+| "G"D2- D>G B>e | d2- d>B G>E | "G"D2 G2 B>e | d4 GA \
+| "G"B2 B2- Bc | dB- B2 G2 | "D7"F4- FG | F4 (3EFE |
+| "D7"D2- DF Ae | d2- dc AF | "D7"D2 F2 Ae | d4 D2 \
+| "D7"d6 | d2 _d2 c2 | "G"B4- Bc | B4 (3GFE |
+| "G"D2- DG Be | d2- dB GE | "G"D2 G2 Be | d4 GA \
+| "G"B2 B2- Bc | "G7"dB- B2 G2 | "C"E4- EF | E6 |
+| "C"e2 ^d2 e2 | "A7"g2 f2 e2 | "G"d2 B2 G2 | "C"E4 F{EF}E \
+| "D7"D2 F2 AB | c2 B2 AF | "G"G6- | G4 Bd |]
+[|"G"g2- ga (3gfe | d2- de dc | B2- Bc "(D7)"AF | "G"G6 \
+| "G"G,B, DG Bd | gd- d2 g2 | "D7"f4- fg | f4 (3fg^g |
+| "D"a4- ab | a4 (3gag | "D"f4- fg | f2- fg "(A7)"e^c \
+| "D"d2- d^c dc | "D7"ed- d2 c2 | "G"B4- Bd | B4 (3def |
+| "G"g2- ga (3gfe | d2- de dc | B2- Bc "(D7)"AF | "G"G6 \
+| "G"G,B, DG Bd | gd- d2 ^d2 | "C"e6- | e2- eB cd |
+| "C"e2 ^d2 e2 | "A7"g2 f2 e2 | "G"d2 B2 G2 | "C"E4 F{EF}E \
+| "D7"D2 F2 AB | c2 B2 AF | "G"G6- | G4 |]
+S:https://www.folktunefinder.com/tunes/16670
+S:http://trillian.mit.edu/~jc/music/abc/program/Waltz_Misc01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006NOMAD/Waltz_Misc01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2007NOMAD/Waltz_Misc01.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/Waltz_Misc01
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

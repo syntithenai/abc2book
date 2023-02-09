@@ -1,0 +1,25 @@
+X:130
+T:Down the Broom
+B:Bulmer & Sharpley, Music form Ireland, 1:11
+S:Paddy Killoran (fiddle)
+Z:Juergen Gier
+M:4/4
+L:1/8
+R:reel
+K:ADor
+EA (3AAG A2 Bd|egdg egdc|BGGF G2 GE|(3DED B,D GABG|
+EAAG ABcd|eg ~g2 egdB|dg (3ggf gaba|gedB BA ~A2:|:
+a2 ea ageg|~a2 bg agef|~g2 dg egde|geaf gede|
+a2 ea ageg|agbg ageg|dg (3ggf gaba|gedB BA A2:|
+S:https://www.folktunefinder.com/tunes/114420
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mfiall.abc
+S:http://www2.redhawk.org:8080/irish/other/mfiall.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

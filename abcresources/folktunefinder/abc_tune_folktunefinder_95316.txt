@@ -1,0 +1,27 @@
+X:50
+T:Highway to Edinurgh
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:"For the German flute"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000019a.html
+%%ID:0000019a
+K:B min
+A|\
+FBB B2A| Bde f2b| afe (d/e/f).e| dBA A3|\
+FBB B2A| Bde fba| fd'b afe| dBB B2::
+f/a/|\
+"tr"b2d' afd| efa b2d'| afe (d/e/f/).e| (dB).A A2A|\
+(Bd).A (Bd).A| (Bd).e (fb).a| fd'b (af).e| dBB B2:|
+S:https://www.folktunefinder.com/tunes/95316
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

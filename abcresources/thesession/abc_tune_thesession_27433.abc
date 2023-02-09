@@ -1,0 +1,10 @@
+X: 27432
+T: Moll Roone
+R: reel
+M: 4/4
+K: Gmajor
+D|G2 (B>G) (c>A) (G>F)|(GBd>).d d2 (B>d)|(dcA).c (cBG).B|(cA)(GF) G2 zD|
+G2 (B>G) (c<A) (G>F)|(GBd>).d .d2 (Bd)|(dcA).c (cBG).B|(c<A) (.G.F) G2z||
+.d|(d>c).B.c (dgfe)|(d>c).B.c .d2 .g>.g|(g2 e).g (gf2) d|(fed^c) !fermata!d4 {ded^cd} {fed=cBdc>A}|
+G2 (B>G) (c>A) (GF)|(GBd>).d .d2 (B>d)|(dcA).c (dBG).B|(cAGF) G2z||
+

@@ -1,0 +1,25 @@
+X: 1
+T: Traditional Jig
+S: handwritten MS
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+   d/c/ \
+| BGG DGG | EGE DB,G, | CEG B,DG | EFG A2d/c/ \
+| BGG DGG | EGE DB,G, | CDE DGB | AFD  G2 :|
+|: B/c/ \
+| dgd ecA | dBG AFD | dgd eag | {fg}fef {gf}g2f/g/ \
+| afd gdB | ecA dBG | EFG Adc | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/15189
+S:http://trillian.mit.edu/~jc/music/abc/jig/Traditional_Jig_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Traditional_Jig_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

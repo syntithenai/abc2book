@@ -1,0 +1,10 @@
+X: 13782
+T: Forth Brig, The
+R: hornpipe
+M: 4/4
+K: Gmajor
+|:B>c^c>d g>fe>d|c>d^d>e a>gf>e|f>c'b>a g>fe>f|(3gba (3gfe ~d2 dc|
+B>c^c>d g>fe>d|c>d^d>e a>gf>e|f>c'b>a g>fe>f|1 (3gdb (3gdB G2 dc:|2 g2 b2 g2 B2||
+|:b>gf>e ^d>fB>c'|b>ag>f e>fg>^g|a>fe>d ^c>eA>g|f>ed>^c d>^de>f|
+g>dB>G F>G=F>G|E>Gc>e g>ed>c|B>c^c>d D>_E=E>F|1 (3GDB (3GDB, G,2 B2:|2 G2 [B2D2] [G2B,2] dc||
+

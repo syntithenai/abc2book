@@ -1,0 +1,26 @@
+X:230
+T:the London Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000307.html
+%%ID:00000307
+K:D
+D2 F2 A2 d2 fg a2 | g2 e4 B2  dcBA | dABG AFGE FDEF | A,2 D4 GF E2 D2 |
+BdBF  GBGE   FAFD | C2 E4 B,2 C2 E2| fafc dfdA GFED | A,2 D4 GF E2 D2 ||
+S:https://www.folktunefinder.com/tunes/110762
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

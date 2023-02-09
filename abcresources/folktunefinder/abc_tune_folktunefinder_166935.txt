@@ -1,0 +1,29 @@
+X:1
+T:Jack and Joan
+C:Thomas Campion
+B:'First Book of Ayres'(c. 1613)
+Z:abc transcription Taco Walstra (walstra@wins.uva.nl)
+L:1/4
+M:2/2
+K:G
+%%scale 0.65
+%%tabrhstyle modern
+%%indent 1.5cm
+%%writehistory true
+%%barnumberfont Times-Italic 10 box
+V:F clef=treble name=Voice staves=2
+V:L clef=frenchtab name=Lute
+%
+[V:F]  G1 > B A/B/c/d/|B1 A1 G1 > d | A/B/ c/B/ A1 B/c/ | d1 e1 d2 :|
+S:https://www.folktunefinder.com/tunes/166935
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Campion/Jack_and_Joan.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Campion/Jack_and_Joan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

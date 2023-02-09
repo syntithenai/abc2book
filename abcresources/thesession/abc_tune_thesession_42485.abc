@@ -1,0 +1,15 @@
+X: 42484
+T: Weylyn's
+R: jig
+M: 6/8
+K: Amajor
+|:"A" E2 B ABc|dBA e3|"D" af=g fed|BcB"G" AFD|
+"A" EFA ABA|Bcd e2 f|"D" agf edc|"E" BcA"A" AFA:|
+|:"A" ABc ecc|fec ecA|ABc ecA|"D" dcB eBA|
+"A" ABc ecc|fec def|"D" agf edc|"E" BcA"A" AFA:|
+|:"A" E2 F ABc|dBA ecA|"D" E2 F Acd|cBA"G" B2 c|
+"A" AEF ABc|dBA cef|"D" agf edc|1 "E" BcA"A" AFA:|2 "E" Bcd efg||
+|:"A" aee fee|aee f2 e|"D" daa afd|a2 b"G" af=g|
+[1 "A" aee fee|aee f2 e|"D" agf edc|"E" Bcd efg:|
+[2 "A" aee fee|aee f2 e|"D" dcB ecA|"G" BAA"A" A3||
+

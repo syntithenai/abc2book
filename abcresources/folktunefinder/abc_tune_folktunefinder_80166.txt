@@ -1,0 +1,29 @@
+X:107
+T: Spottlied auf ein vornehm thuendes Maedchen
+N: A0468
+O: Europa, Mitteleuropa, Deutschland
+N: Forster II 1540 No. 74.
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: G
+g2 | g4g2g2 | =f4e2
+d2 | e2d2d2c2 | d4z2
+g2 | g4g2g2 | =f4e2
+d2 | e2d2d2c2 | d4z2
+g2 | =f2d2c2_B2 | A2G2A2
+g2 | =f2d2c2_B2 | A2G2d2
+e2 | d2c2A2zG | c2A2G2
+S:https://www.folktunefinder.com/tunes/80166
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

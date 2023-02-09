@@ -1,0 +1,31 @@
+X:15541
+T:Skott Sara-leken
+O:Sweden
+Z:Lennart Sohlman, \"Alta, Swede
+S:efter Brekkenspelm\"an
+R:Pols
+N:R\"orospols
+Q:160
+M:3/4
+L:1/8
+K:D
+(d>c) [A3A3] (A | d>c) {c}[e3e3]z |\
+(d>e) (f>d) (g>f) | e>(d c>B) B>A |\
+A>(G F>E) F>A | (GB) [A4A4] |
+d>e ((3fdf) (ec) | (c<d) [D4d4] ::\
+(f>e) d2 f>a | (a>g) [e3e3]z |
+((3gef) {c}[d2f2] ef | (dc) A4 |\
+(f>e) d2 f>a | (a>g) e2 g/(g/b) |\
+(a>c) {c}d>e (ef) | (dc) {c}[D4d4]:|
+S:https://www.folktunefinder.com/tunes/46816
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

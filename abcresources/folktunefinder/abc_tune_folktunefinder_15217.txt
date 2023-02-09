@@ -1,0 +1,29 @@
+X: 1
+T:Unnamed Slip Jig (Kerr's Merry Melodies Bk.4, p23)
+R:slipjig
+S:Philippe Varlet  irtrad-l 2001-5-21
+B:Kerr's Merry Melodies Bk.4, p23
+N:Some similarity to "Barney Brallaghan [Brannigan]" but not the same tune.
+Z:Nigel Gatherer
+M:9/8
+K:D
+F2 A ABA B3|B2 e e2 d cBA|F2 A ABA B3|A2 d d2 A FED:|]
+faf f2 d f2 a|b2 e e2 d cBA|faf f2 d f2 a|A2 d d2 A FED|
+faf f2 d f2 a|b2 e e2 d cBA|faf efe d3|A2 d d2 A FED|]
+S:https://www.folktunefinder.com/tunes/15217
+S:http://trillian.mit.edu/~jc/music/abc/jig/UnnamedSlipJigKerrs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/slipjig/UnnamedSlipJigKerrs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/UnnamedSlipJigKerrs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/slipjig/UnnamedSlipJigKerrs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/UnnamedSlipJigKerrs_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/UnnamedSlipJigKerrs_1.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

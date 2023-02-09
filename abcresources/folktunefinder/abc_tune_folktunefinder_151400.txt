@@ -1,0 +1,27 @@
+X:1
+T:Dans sa maison un grand cerf...
+C:... regardait par le fentre, fichier abc : Bernard Loffet
+L:1/8
+Q:220
+M:2/4
+K:G
+ [DG,,][GG,] [GG,,][GG,] | [GG,,][FD,] [AD,,]D, | [DD,,][AD,] [AD,,][AD,] | [AD,,][GG,] [BG,,][BG,] | \
+ [DG,,][GG,] [GG,,][GG,] | [GG,,][FD,] [AD,,]D, | [DD,,][DD,] [ED,,][FD,] | [GG,,]G, G,,G, | \
+ [dG,,]G, [dG,,]G, | [dC,,][cC,] [eC,,]C, | [cD,,][cD,] [cD,,][cD,] | [cG,,][BG,] [dG,,]G, | \
+ [BE,,][BE,] [BE,,][BE,] | [BA,,][AA,] [cA,,]A, | [DD,,][DD,] [ED,,][FD,] | [GG,,]G, G,,G, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/151400
+S:http://diato.ifrance.com/diato/tablat/258.abc
+S:http://diato.ifrance.com/tablat/258.abc
+S:http://diato.org/tablat/258.abc
+S:http://perso.orange.fr/diato/tablat/258.abc
+S:http://perso.wanadoo.fr/diato/tablat/258.abc
+S:http://pro.wanadoo.fr/diato/tablat/258.abc
+S:http://www.diatonique.net/tablat/258.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

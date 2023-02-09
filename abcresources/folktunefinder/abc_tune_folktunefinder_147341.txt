@@ -1,0 +1,31 @@
+X: 3
+T:Sophie's Waltz
+M:3/4
+L:1/8
+Q:140
+C:Mike Moroney
+R:Waltz
+N:Written for the wedding of Sophie Barker, daughter of Margaret Barker,
+N:owner of Larnach Castle, Otago Peninsula.
+K:D
+AG |:"D" F3GA2 | f4 e2 | d4 F2 | A4 F2 | "Em"E3 FG2 | e4 d2 |"A" c4 B2 |
+ A3Bc2 | "D" F
+3GA2 | f4 e2 | d4 F2 | A4 F2 | "Em" E3 FG2 | "A" A2B2c2 | "D"d6 |1 d2 z2
+ AG :|2 d2 c
+2 d2 |:"G" B6 | g3fe2 |"D" A6 | f3ed2 | "A" c3 BA2 | G2e2G2 | "D"F4 G2 |
+ "D7" A3B=c2 | "G" B6
+| g3fe2 | "D" A6 | f3ed2 | "A" c3B A2 | "A7" G2 e2 c2 | "D" d6 |1 d2 c2
+d2 :||2 d2 z2 ||
+% Output from ABC2Win  Version 2.1 i on 22/03/2005
+S:https://www.folktunefinder.com/tunes/147341
+S:http://www.kiwifolk.com/tunes/manuka_set.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

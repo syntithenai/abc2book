@@ -1,0 +1,28 @@
+X:161
+T: ES SASS EIN KNAB UND WEINTE SEHR
+N: F0294
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Toten - Klage, Belehrung, Moral
+M: 6/8
+L: 1/16
+K: G
+G2 | G4_B2B4d2 | d4A2A4
+_BA | G6_B4G2 | d6z4
+d2 | _e4e2e4e2 | d4G2G4
+GA | _B6G4d2 | G6z4
+d2 | d4d2d4d2 | d4c2c4
+c2 | _B6G6 | A6z4
+D2 | G4A2_B4B2 | c3_Bc2d4
+=f_e | d6c6 | _B6z4
+dc | _B6A6 | _B6z4
+S:https://www.folktunefinder.com/tunes/69721
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, toten - klage, belehrung, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

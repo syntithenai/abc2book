@@ -1,0 +1,30 @@
+X:1943
+T: Rodney's Glory
+T: Gloire ui Rodnaig
+N:"collected by F.O'Neill"
+S:1784 O'Neill's Music of Ireland
+B:O'Neill's 1784
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:2/4
+L:1/16
+Q:120
+K:A
+e-d \
+| c2B-c ABcA | BGEF G2c-d | efed cdef | {a}-gfge dfed |
+| c2B-c ABcA | BGEF G2e-d | !c2B-A GABG | A4 A2 :|
+|: d2 \
+| eaab aged | efed c3A | g2fg agec | dcAF G2G2 |
+| AGAB cBcd | edee a2ab | aged cdef | gfge dfed |
+| (3cdc (3BcB ABcA | BGEF G2e-d | c2B-A GABG | A4 A2 :|
+S:https://www.folktunefinder.com/tunes/75102
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

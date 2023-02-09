@@ -1,0 +1,26 @@
+X: 13461
+T: Flop-Eared Mule, The
+R: polka
+M: 2/4
+K: Dmajor
+K:D
+M:4/4
+A2|.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>GG>E|D>EF>G A2A2|
+.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>AB>c|d2d2d2:|
+|:(cd)|{f}(e^d)ez {f}(e^d)ez|{f}(e^dec) A2A2|^G>AB>c d>cd>B|A>Bc>d e2e2|
+{f}(e^d)ez {f}(e^d)ez|{f}(e^dec) A2A2|^G>AB>c d>cd>B|A2A2A2:|
+A2|.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>GG>E|D>EF>G A2A2|
+.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>AB>c|d2d2d2||
+K:G
+|:(Bc)|d>ed>^c d>ed>c|d>bd>b (d2b2)|c>ac>a (c2a2)|B>gB>g (B2g2)|
+d>ed>^c d>ed>c|d>bd>b (d2b2)|c>ac>a (c2a2)|g2g2g2:|
+K:C
+|:G2|c2c2 (EGce)|(gag^f) (g2e2)|(e2d2) {e}d^c d2|a2g2 {a}gf e2|
+c2c2 (EGce)|(gag^f) (g2e’2)|(e’2d’2) d’c’d’c’|c’2c’2c’2:|
+K:G
+|:(Bc)|d>ed>^c d>ed>c|d>bd>b (d2b2)|c>ac>a (c2a2)|B>gB>g (B2g2)|
+d>ed>^c d>ed>c|d>bd>b (d2b2)|c>ac>a (c2a2)|g2g2g2:|
+K:D
+A2|.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>GG>E|D>EF>G A2A2|
+.f2.f2.d2.d2|(ABAF) .D2.D2|C>DE>F G>AB>c|d2d2d2:|
+

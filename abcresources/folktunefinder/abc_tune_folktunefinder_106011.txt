@@ -1,0 +1,23 @@
+X: 6
+T:Teddy O'Neill
+M:6/8
+L:1/8
+S:Rice-Walsh manuscript
+R:Air
+K:D
+"Andante"F/2G/2|Aff f2 e/2f/2|gBe dcB|Add dcd|fee e2 F/2G/2|
+Aff f2 e/2f/2|gBe dcB|Adf a2 g/2f/2|e<ac d3||
+eee e2 d/2e/2|gBe dcB|Add dcd|fee e2 F/2G/2|
+Aff f2 e/2f/2|gBe dcB|Adf a2 g/2f/2|e<ac d2||
+S:https://www.folktunefinder.com/tunes/106011
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-1.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/TeddyONeill.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0006.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

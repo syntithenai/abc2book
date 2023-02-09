@@ -1,0 +1,30 @@
+X: 1
+T: Cape Breton Wedding Reel #1
+R: reel
+Z: Robert Eckert irtrad-l 2001-02-25
+D: (BOTL)
+M: 4/4
+L: 1/8
+K: G
+AB \
+| AGEG AGEG | cdcA (3GGG Gc | A2cd edcG | ABcd e2eg \
+| abag egdB | cAGA c2cd     | edcA GEcE | EDEG A4 :|
+|: eg \
+| ageg ageb | gede g2eg | agea gbed | cAcd e2eg \
+| abag egdB | cAGA c2cd | edcA GEcE | EDEG A4 :|
+S:https://www.folktunefinder.com/tunes/16887
+S:http://trillian.mit.edu/~jc/music/abc/reel/CapeBretonWeddingReel%231.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/CapeBretonWeddingReelReelReel%231.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/CapeBretonWeddingReelReelReel%231.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CapeBretonWeddingReel%231.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/CapeBretonWeddingReelReelReel%231.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/CapeBretonWeddingReelReelReel%231.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

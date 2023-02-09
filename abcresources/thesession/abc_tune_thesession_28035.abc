@@ -1,0 +1,14 @@
+X: 28034
+T: Moving Note, The
+R: jig
+M: 6/8
+K: Gmajor
+deg !slide!b2d'|d'e'b d'2b|~a3 age|gab age|
+deg !slide!b2d'|d'e'b d'd'b|aag bba|~g3 gge|
+deg !slide!b2d'|d'e'b d'd'b|!slide!a3 age|gab age|
+deg bbd'|d'e'b d'd'b|aag bba|~g3 ggb|
+d'd'd' d'bg|d'e'g' e'd'b|!slide!a3 age|gab age|
+d'zd' d'bg|d'e'g' e'd'b|aag bba|~g3 ggb|
+d'd'd' d'bg|d'e'g' e'd'b|!slide!a3 age|gab age|
+deg !slide!b2d'|d'e'b d'd'b|aag bba|~g3 gge|
+

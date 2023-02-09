@@ -1,0 +1,24 @@
+X:22
+T:Sir John Fenwick's The Flower Amang Them All
+S:Northumbrian Minstrelsy
+M:3/4
+L:1/8
+K:G
+G3 ABc | d2e2g2 | d2e2g2 | edcBAG | A3 Bcd | 
+e2e2g2 | e2e2g2 | "tr"e4 d2 | G3 ABc | d2e2g2 | d2e2g2 | 
+edcBAG | c2 dcBA | B2 cBAG | A2B2d2 | "tr"e4 d2 ::
+g2G2B2 | g2G2B2 | g2G2g2 | edcBAG | a2A2B2 | 
+a2A2B2 | a2A2a2 | "tr"e4d2 | g2 G2 B2 | g2 G2 B2 |g2 G2 g2 | 
+edcBAG | c2 dcBA | B2 cBAG | A2B2 d2 | "tr"e4 d2 :|
+S:https://www.folktunefinder.com/tunes/105577
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

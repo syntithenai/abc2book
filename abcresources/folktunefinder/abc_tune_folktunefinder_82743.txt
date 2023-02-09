@@ -1,0 +1,38 @@
+X:9
+T:Bransle des chevaulx
+C:Arbeau
+R:Branle
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+Q:1/2=120
+K:C
+V:1
+c>d ee | fedf | edcB | A2G2 | c>dee | fedf | ecd2 | c4 |
+gf/e/ dd/e/ |  fe/d/ ce | dcBc | d2d2 | gf/e/ dd/e/ | fe/d/ ce | dccB | c4 |
+_ed/c/ ed/c/ | _Bcd2 | GA_Bc | d_edc  |_ed/c/ ed/c/ | _Bcd2 | GA_Bc | cBc2 |]
+V:2
+G2cc | c2Bc- | cBE/^F/G- | G^FG2 | G2cc | dcBc | c3B | G4 |
+_B2BB | A2Gc | _BAdG/A/ | B2B2 | _B2BB | A2G>A | _BGG2 | G4 |
+c2cc | dcBG- | GF/_E/DG/A/ | BcBG | c2cc | dcBG- | GF/_E/DG | _AGE2 |]
+V:3
+E>FGG | AGGA | GGCD | D2B,2 | C/D/E/F/ GG | _BGGA | GGG2 | G4 |
+D2GG | C>DE/F/G | GE/F/GE | G2G2 | D2GG | C>D E/F/G/E/ | FED2 | E4 |
+GF/_E/GF/_E/| D_ED2 | D2G_E | DG2_E | GF/_E/GF/_E/| D_ED2 | D2G_E | FDC2 |]
+V:4
+C2CC | F,CG,F, | CG,A,G, | D,2G,2 | C2CC | _B,CG,F, | CC,G,2 | C,4 |
+G,2G,G, | F,2CC, | G,A,G,C, | G,2G,2 | G,2G,G, | F,2CC | _B,CG,2 | C,4 |
+C2CC | G,CG,2 | G,2G,C, | G,C,G,C, | C2CC | G,CG,2 | G,2G,C, | F,G,C,2 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (Angleterre)
+S:https://www.folktunefinder.com/tunes/82743
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

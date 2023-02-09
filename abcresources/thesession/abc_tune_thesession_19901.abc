@@ -1,0 +1,14 @@
+X: 19900
+T: Jig For Jones
+R: jig
+M: 6/8
+K: Gmajor
+DEF|:~G3 BAG|BcA BAG|~G3 BAG|F2G AFD|
+~G3 BAG|Bcd efg|Gdc BAG|AFD AFD:|
+K: Em
+|:E2E BAF|GFE DEF|E2E BAG|Bcd DEF|
+E2E BAG|F2G A2c|B2A G2A|1 F2D DEF:|2 B3 Bef||
+|:~g3 fed|B2A G3|gag fed|e3 Bef|
+[1 ~g3 fed|B2A G3|FDF AGF|E3 Bef:|
+[2 gbg faf|edB AFD|EBc AFD|E3||
+

@@ -1,0 +1,27 @@
+X:11
+T:Pariserpolka
+C:Andreas Steindal
+D:Einar Heimhjellen 1985, transcr Bill Boyd
+M:2/4
+L:1/8
+%Q:1/4=120
+R:Pariser Polka
+%O:Sweden
+Z:Bob Wyttenbach  8/8/02, from Fiddles & Feet 2002 tunebook handwritten copy
+K:D  bass %clef=bass middle=D
+P:A
+F,D, F,A,|B,A, F,>A,|A,G, E,>G,|G,F,D,2|
+F,D, F,A,|B,A,F,2|A,G,/F,/ E,F,/E,/|D,2D,2:|
+P:B
+CA, CE|F2D2|CA, B,C/B,/|A,2A,2|
+CA, CE|F2D2|CA, B,C|D2D2:|
+S:https://www.folktunefinder.com/tunes/62633
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+% Rhythm Pariser polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

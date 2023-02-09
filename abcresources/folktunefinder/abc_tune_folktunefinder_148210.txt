@@ -1,0 +1,44 @@
+X: 8
+T: Chorus Jig
+S: Miller and Perron &quot;New England Fiddler's Repertoire&quot; 1983
+N: Adapted by Robert Bley-Vroman [EMAIL PROTECTED] April 1997
+R: Reel
+M: C|
+L: 1/8
+Q: 1/2=112
+%%MIDI program 1 40
+%%MIDI channel 1
+K:D
+P: A
+AG | F2 DF AB AG | FA DF A2 d2 | D3 F AB AF |
+GF EF G2 :|!
+P: B
+K:G
+[| Bc | dB cA BG FG | Ad ^cd A2 B=c |
+ dB cA BG FG | Ac BA G2 Bc |!
+        dB cA BG FG | AB  cd ef ge  |
+ dB cA BG FG | Ac BA G2 |]!
+P: C
+K:D
+|: ag | fd dd fd dd | fd fg ab ag |
+ fd dd fd dd | =cd ef g2 :|!
+P: B
+K:G
+[| Bc | dB cA BG FG | Ad ^cd A2 B=c |
+dB cA BG FG | Ac BA G2 Bc |!
+     d2 (3cdc BG FG | AB  cd ef ge  |
+dB cA BG FG | Ac BA G2 |]!
+S:https://www.folktunefinder.com/tunes/148210
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07888.html
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

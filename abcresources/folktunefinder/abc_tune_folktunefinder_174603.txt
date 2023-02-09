@@ -1,0 +1,17 @@
+X:1
+T:Mary Mack
+M:2/4
+L:1/8
+K:G
+ BB| B2 B2| E2 BB| B2 B^c| d4| d2 dd| d2 DF| AG AB| c2| dc| BB B/2 B3/2|\
+ B2 BB| BB cA| B2 BB| e2 BB| BA GF| E4| E4| BB B2| BB BB| BB B2| BB B2|\
+ d2 dd| dd A2| AG AB| c2 dc| BE EF| GF GA| BA GA| BB BB| eB BB| BA GA|\
+ BA GF| E2||
+S:https://www.folktunefinder.com/tunes/174603
+S:http://back.numachi.com:8000/dtrad/abc/MARYMACK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

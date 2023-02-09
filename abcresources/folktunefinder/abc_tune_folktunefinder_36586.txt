@@ -1,0 +1,35 @@
+X:2535
+T:Hrgalt
+A:Dalarna
+M:3/4
+O:Sweden
+Q:1/8=300
+R:Hambo
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b13.html
+%%ID:00000b13
+K:A min
+e2 e>f e>d|d>c c2 A>c|\
+c>B B>E ^G>B|A>^G A>B c>d|\
+e2 e>f e>d|d>c c2 A>c|\
+c>B B>E ^G>B|"Fine"A2 A4::
+c>d e2c2|d>ef2d2|g2g>a g>f|f>ee4|\
+c>d e2c2|d>ef2d2|g2g>a g>f|f>ee4|
+e2e>f e>d|d>cc2A>c|c>B B>E ^G>B|A>^G A>B c>d|\
+e2e>f e>d|d>c c2A>c|c>B B>E ^G>B|A2A4 :|\
+|:\
+(3ABA ^G2A2|(3BcB A2B2|c>d c>B c>d|e>f e>d c>B|\
+(3ABA ^G2A2|(3BcB A2B2|c>d c>B c>d|e2f2^f2|
+g>fd2 (3def|e>dc4| e>dB2(3Bcd|c>BA4|\
+a>fd2(3def|e>cA4|B>^G E>G B>c|A2A4:|
+S:https://www.folktunefinder.com/tunes/36586
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

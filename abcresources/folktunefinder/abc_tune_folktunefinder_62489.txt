@@ -1,0 +1,27 @@
+X:19
+T:Reinl\aender
+C:Brimi, Barthelemy, Faukstad
+%O:Norway
+R:Reinl\aender
+Z:Bob Wyttenbach 8/14/02 from NFF 2001 tunebook "SLG 1-84"
+M:2/4
+L:1/16
+%Q:1/4=80
+K:E %Transposed from D
+P:A
+"D"BAGB e2eg|"A"gfdf "D"egB2|"G"{g}a2a2 "D"g2g2|"A"fedf "D"egB2|
+"D"BAGB e2eg|"A"gfdf "D"egB2|"G"{g}a2a2 "D"g2g2|"A"fedf "D"e4:|
+P:B
+"A"fede f2fb|"D"g2ge "A"f4|"E7"fece "A"dcBd|"E7"cB^AB c2c2|
+"A"fede f2fb|"D"g2ge "A"f4|"E7"fece "A"dcBd|"E7"cB^Ac B4:|
+% %%%%%%%%%%%% Mazurka %%%%%%%%%%%%% %
+S:https://www.folktunefinder.com/tunes/62489
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003Bb.abc
+% Rhythm Reinl%C3%A6nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

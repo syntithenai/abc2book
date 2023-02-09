@@ -1,0 +1,23 @@
+X:75
+T: Der Jaeger auf koeniglicher Heide
+N: Q0150A
+O: Mitteleuropa, Deutschland (BRD) , Wuerttemberg, Laufen a.d. Eyach
+N: Spielanweisung abgedruckt. Anhaengsel an der letzten Zeile.
+R: Ballade, Verfuehrung, verlorene Ehre; Kinder - Spiel, Tanz
+M: 2/4
+L: 1/16
+K: C
+G2 | G2G2G2G2 | E2G2c2
+c2 | c2c2c2c2 | B2d2d2
+c2 | B2B2AABB | c2e2c2
+S:https://www.folktunefinder.com/tunes/153028
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre; kinder - spiel, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

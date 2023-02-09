@@ -1,0 +1,26 @@
+X: 20
+T: 18-6 Two Step
+R: jig
+M: 6/8
+K: Gmajor
+e^de age|d^cd g3|ABc B2 A|G3 z2d|
+|:d^cd edc|ded B3|d^cd edB|c3 z3|
+D^DE =F^FG|A2 B c2 ^c|d^cd ed=c|B3 z3|
+d^cd edc|ded B3|d^cd g2 f|e3 z3|
+e^de age|d^cd g3|ABc B2 A|1 G3 z2 d:|2 G3 z2 A||
+K:D
+|:d2 A e2 A|f3 d2 ^c|B^AB d2 B|A3 z2 A|
+d2 A e2 A|f3 d2 f|e2 B ^c2 d|e3 z2 A|
+d2 A e2 A|f3 d2 ^c|B2 ^d e2 f|g3 z3|
+B^AB d^cB|Adf a2 g|fed A2 ^c|1 d3 z2 A:|2 d3 z2 d||
+K:G
+d^cd edc|ded B3|d^cd edB|c3 z3|
+D^DE =F^FG|A2 B c2 ^c|d^cd ed=c|B3 z3|
+d^cd edc|ded B3|ded g2 f|e3 z3|
+e^de age|d^cd g3|ABc B2 A|G3 z2 =F||
+K:C
+E3 ^D2 E|C6|E^DE AGE|F6|
+D3 ^C2 D|B,6|G,A,B, CD^D|E6|
+E3 ^D2 E|C6|cBc d2 c|A6|
+A^GA cBA|G^FG c3|DEF E2 D|C3 d3||
+

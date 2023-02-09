@@ -1,0 +1,26 @@
+X: 3
+T: Leaving of Liverpool
+M: 2/2
+L: 1/4
+K: A
+AB | "A"c2 ce | dc BA | "D"a3  f | "A"e2 AB | ce ee |     fe dc | "E7"B4- |    B2 ||
+AB | "A"c2 ce | dc BA | "D"a3  f | "A"e2 AB | ce ec | "E7"B2 cB |"A"A2- "D"A2- | "A"A2 |]
+ga | "E7"b3 g | e2 fg | "D"a2 af | "A"e2 AB | ce ee |     fe dc | "E7"B4- |    B2 ||
+ed | "A"c2 ce | dc BA | "D"a3  f | "A"e2 AB | ce ec | "E7"B2 cB |  "A"A4- |    A2 |]
+S:https://www.folktunefinder.com/tunes/3875
+S:http://trillian.mit.edu/~jc/music/abc/England/LeavingOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/LeavingOfLiverpool_Tune.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/LeavingOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/LeavingOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/program/2006Fogg/LeavingOfLiverpool.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/LeavingOfLiverpool.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/2006CalsAnniv/LeavingOfLiverpool.txt
+S:http://trillian.mit.edu/~jc/music/abc/program/abc/LeavingOfLiverpool
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

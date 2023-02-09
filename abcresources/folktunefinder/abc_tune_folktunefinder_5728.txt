@@ -1,0 +1,59 @@
+X: 1
+T: Makedonska Sedenka
+O: Macedonia
+R: kopanica
+S: Handwritten MS by Aubrey Jaffer 7 Rob Hilliard; MS by Tom Pixton
+%%slurgraces 1
+M: 11/16
+L: 1/16
+K: Gmix
+"A"\
+|:"G".d2^fg gfa ~g2=fe | "G"dedf ~e2d ^cddG \
+| "G"^cdef  dfd ~e2ed  | "G"^cdBd "D7"~=c2B [1 "G"BGdG :|[2 "G"B2z2 |]
+"B"\
+|:"G"^cdef dfd ~e2ed | "G"^cde^f "D7"gfa "G"~g2gG \
+| "G"^cdef dfd ~e2ed | "G"^cdBd "D7"~=c2B [1 "G"BGdG :|[2 "G"B2z2 |]
+"C"\
+|:"G"^cdBd "D7"~=c2B "G"BGdG | "G"^cdBd "D7"~=c2B | "G"B^ABG \
+| "G"^cdBd "D7"~=c2B "G"BGdG | "G"^cdBd "D7"~=c2B | "G"B2"fine"z2 :|
+[K:Aphr^c] \
+"D"\
+|::: "A"AE~c2 cEB ~A2AE | "A"eEc2 cEB ~A2AE y4:::| \
+"E"\
+|::: "A"eEcE dEc eEcE | "A"dEcE "Gm"cEB "A"AEAE y4:::|
+[K:Gmix]\
+{^F}G4-G3-G4 | {^c}d4-d3-d4 \
+"F"\
+|::: "G"dGfg ~e2d dGfg | "G"dGfg ~e2d dcBG y2:::|
+"G"\
+|:"G"dGfg ~e2d dcBG  | "D7"BcAc ~B2A "G"BcdG \
+| "G"dGfg ~e2d dcBG  | "D7"BcAc ~B2A "G"G2z2 :|
+"H"\
+|:"D7"BcAc ~B2A "G"BcdG | "D7"BcAc ~B2A "G"GDGD \
+| "D7"BcAc ~B2A "G"BcdG | "D7"BcAc ~B2A "G"G2z2 :|
+[K:_B_e]\
+"I"\
+|:"F"ABc_d cBc ~A2_GF | "Ebm"BE~A2 A_GF "F"FGAC \
+| "F"ABc_d cBc ~A2_GF | "Ebm"BE~A2 A_GF "F"F2z2 :|
+"J"\
+|:"Ebm"BE~A2 _GFE "F"FGAB | "F"c_dBc "Ebm"~A2_G "F"FGAC \
+| "Ebm"BE~A2 _GFE "F"FGAB | "F"c_dBc "Ebm"~A2_G "F"F2z2 :|
+"K"\
+|:"Eb"BEGA B~c2 BAGA | "Eb"BEGE _dcB cABE \
+| "Eb"BEGA B~c2 BAGA | "Eb"BEGE _dcB [1 ABBE :|2 B2z2 |
+"L"\
+|:"Eb" ABBG "Bb7"~_A2G "Eb"GEBE | "Eb" ABBG "Bb7"~_A2G "Eb"GEGE \
+| "Eb" ABBG "Bb7"~_A2G "Eb"GEBE | "Eb" ABBG "Bb7"~_A2G "Eb"G2G2 :|
+S:https://www.folktunefinder.com/tunes/5728
+S:http://trillian.mit.edu/~jc/music/abc/Intl/KOP_MakSed.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/MakedonskaSedenka_G.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 11/16
+% Text Has source text
+% Has_accompaniment_chords Has chords

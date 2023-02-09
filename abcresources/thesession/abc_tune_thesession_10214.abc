@@ -1,0 +1,10 @@
+X: 10213
+T: Disconnect
+R: jig
+M: 6/8
+K: Dminor
+|:"Dm" D2D AD "Gm"B-|B AG ABc|"C"C2C GC "F"A-|A GF E2 F|
+"Dm/Bb"~D2-D AD "Gm"B-|B AG ABc|"C"C2C ABc|1 "Am"C2 A2 Bc:|2 "Am"~C2-C ABc||
+|:"Gm7"d2 F2 EF|"Am7"G3 GAB|"F7"c2 E2 DE|"Am7"F3 FAc|
+"Gm7/G7"d2 F2 EF|"Am7/A7"G3 GcB|"Bb"AGF EDC|1 "Dm"DEF GAc:|2 "Dm"DEF EDC||
+

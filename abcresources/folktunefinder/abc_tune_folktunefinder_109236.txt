@@ -1,0 +1,21 @@
+X: 4
+T:I Went to Pick Some Blaeberries
+% Nottingham Music Database
+S:Joy
+M:3/4
+L:1/4
+K:A
+E|"A"A2A|"F#m"c2c|"C#m"e2e|"A"c3|"C#m"e2e|"F#m"c3|"A"e3/2d/2c|"E7"B2E|
+"A"A2A|"F#m"c2c|"C#m"e2e|"A"c2E|"A"A2A|"D"B2c|"E7"B2B|"A"A2||
+S:https://www.folktunefinder.com/tunes/109236
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:260
+T: Von dem heiligen Bischof St. Martin
+N: A0616
+O: Europa, Mitteleuropa, Deutschland
+N: Corner 1631 No. 323.
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 3/2
+L: 1/2
+K: C
+G | G2G | A2B | c3 | c2
+e | d2B | cA2 | G6 | z2
+G | G2A | B2d | c3 | G2
+A | G2E | FD2 | C3 | z2
+S:https://www.folktunefinder.com/tunes/80319
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

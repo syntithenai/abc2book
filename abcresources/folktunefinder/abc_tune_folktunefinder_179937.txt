@@ -1,0 +1,22 @@
+X:1
+T:Old French
+R:reel
+C:Syracuse session setting
+L:1/8
+M:4/4
+K:D %second part Amix
+(3ABc|&quot;D&quot;d2cd BdAF|DFAd f2ed|&quot;A&quot;cdef gfec|&quot;D&quot;defd &quot;A&quot;A2Bc|
+      &quot;D&quot;d2cd BdAF|DFAd f2ed|&quot;A&quot;cdef gfec|&quot;D&quot;d2f2 d2:|
+cd|&quot;A&quot;efed cdcB|AEAc e2dc|&quot;G&quot;BGBd gfed|&quot;A&quot;cAce a2cd|
+      efed cdcB|AEAc e2dc|&quot;G&quot;BGBd gfed|&quot;A&quot;c2A2 A2:|
+</abc>
+S:https://www.folktunefinder.com/tunes/179937
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:old_french&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

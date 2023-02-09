@@ -1,0 +1,26 @@
+X:6675
+T:Waltz
+C:e. Hans W. Brimi
+M:3/4
+O:Norway
+R:Waltz
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000800.html
+%%ID:00000800
+K:G dorian
+AB|\
+D2 ^F2 A2|AB BG cA|1 B2 cB AG|^F2 D2 C2 :|2\
+B2 cB A^F|G4 ::
+GB|\
+d2 ^cd cd|B2 G2 GA|1 B2 cB AG|^F2 D2 D2:|2\
+B2 cB A^F|G4 :|
+S:https://www.folktunefinder.com/tunes/37414
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:3
+T:I'll make you be fain to follow Me
+R:jig
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:Melodic Codes 31H2H2 31H 71H (3122 3171)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:288
+K:C
+C|(E/F/G)A c2 e|dDD D2 C|(E/F/G)A cdc|B>AB cGE|
+FdF EcE|dDD D2 C|(E/F/G)A c2 G|ECC C2:|
+|:g|ega gec|f>ge Td2 c|ega gec|g(a/g/f/e/) gec|(f/e/f/g/)a gec|
+[1(e/f/g)e d2 D|(E/F/G)A c2 G|ECC C2:|[2 f(g/f/e/) dgf|e2 c (e/f/g)d ecc c2|]
+S:https://www.folktunefinder.com/tunes/129688
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

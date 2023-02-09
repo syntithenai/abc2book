@@ -1,0 +1,32 @@
+X: 1
+T: Gold Ring, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:BAG A2d|cAF ~G2 A|BAG (3BcdB |cAG FGA|
+BAG Add|cAD GBd|g3 afd|cAF G2A:|
+|:B3 Bdc|A3 dcA|G3 GBd|cAG FGA|
+B3 Bdc|A3 dAG|FDE F2d|1 cAF G2A:|
+|:fdd edd|fdd edd|fdd ed^c|d=cA GBd|
+fdd edd|fdd ed^c|dfa gfd|cAF G2z:| 
+|:d| g3 f2d|cAF GBd|g3 f2d|cAF G2d|
+g3 f2d|g3 f2d|g3 afd|cAF G3:|
+|:A|DBB DBB|DAA DAA|G3 GBd|cAG FGA|
+DBB DBB|DAA DAA|G3 GBd|cAF G2:|
+|:A| B3 D3|A3 D3|G3 GBd|cAG FGA|
+B3 D3|A3 D3|G3 GBd|cAF G2A|
+B3 D3 | D3 D3 |G3 GBd | cAG FGA|
+B3 D3 | A3 D3 |G3 GBd | cAF G2A  :|
+|:B2G A2G|d2G G2A|B2G A2G|cAG FGA|
+BAG AGF|GFD FGA|(3fgaf gfd|cAF G2A:|
+S:https://www.folktunefinder.com/tunes/161718
+S:http://www.thesession.org/tunes/display/37
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

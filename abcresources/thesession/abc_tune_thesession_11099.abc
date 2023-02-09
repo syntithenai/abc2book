@@ -1,0 +1,11 @@
+X: 11098
+T: Duet Mat Oc'h
+R: jig
+M: 6/8
+K: Bminor
+EFA|:"Bm" B3 f3|efd c2 B|"A" c2 d Bcd|efg f2 f|
+"Em" a2 g f2 f|efd cde|"G" f2 B"A" AFA|1 "Bm" B3"F#m" Bdc:|2 "Bm" B3 Bfg||
+"D" a3 f3|"A" efd cde|"Bm" f2 a fed|"F#m" c3 cAf|"G" efa ~f3|"A" efd cde|
+"Em" f2 B"F#m" AFA|"Bm" B3 Bfg|"D" a3 f3|"A" efd cde|"Bm" f2 a fed|
+"F#m" c3 cdc|"Em" ~B3 ~f3|"A" efd cde|"F#m" f2 B"A" AFA|"Bm" B3"F#m" Bdc||
+

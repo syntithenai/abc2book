@@ -1,0 +1,26 @@
+X: 1 
+T:Haste to the Wedding 
+M:6/8 
+R:jig 
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: Cole p.53
+E:9 
+K:D 
+|: A \
+| "D"A[BF]A Agf | "G"ede "A7"fdB | "D"A[BF]A "Bm"AdF | "Em"GFG "A7"EFG \
+| "D"A[BF]A Aaf | "G"ede "A7"fdB | "D"A[BF]A "A7"faf | "D"ded d2 :| 
+|: f/g/ \
+| "D"afa afa | "G"bgb "(A7)"bag | "D"fga "Bm"agf | "Em"[ge]f[ge] "A7"efg \
+| "D"az2 "Bm"~f3 | "Em"ede "A7"fdB | "D"A[BF]A "A7"faf | "D"ded d2 :|
+S:https://www.folktunefinder.com/tunes/163534
+S:http://www.firepowr.com/abc/HasteToTheWedding1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

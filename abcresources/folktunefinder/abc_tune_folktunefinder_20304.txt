@@ -1,0 +1,29 @@
+X: 1
+T: Valse du vieux moulin
+C: Raynald Ouellet
+R: waltz
+Z: 2008 John Chambers <jc:trillian.mit.edu> 
+S: Handwritten MS from Debby Knight
+M: 3/4
+L: 1/8
+K: D
+|: "F#"c4 d2 | e4 g2 | "Bm"f6 | d6 \
+| "E"B4 c2 | d4 f2 | "A"e6 | c2 (3BcB A2 |
+| "F#"c4 d2 | e4 g2 | "Bm"f6 | d6 \
+| "E"B4 c2 | d4 c2 | "A"(3AcA EA ce |1 af ec BA :|2 a3 a ag ||
+|: "D"f2 a3 f | "G"g2 b3 g | "D"a6 | f2 d2 f2 \
+| "G"g2 f2 g2 | "A7"b2 a3 g | "D"f6- | f4 f2 |
+| "G"g3 g fg | "A7"b2 a3 g | "D"f2 d2 e2 | f3 a ag \
+| "D"f2 A3 f | "A7"e2 a3 c | "(D)"dB AG FE |1 "D"D3 A BA :|2 "D"D6 |]
+S:https://www.folktunefinder.com/tunes/20304
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Valse_du_vieux_moulin_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/waltz/Valse_du_vieux_moulin_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

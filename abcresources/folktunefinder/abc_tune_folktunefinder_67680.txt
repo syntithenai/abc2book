@@ -1,0 +1,33 @@
+X: 11003
+T: ABBY'S HORNPIPE
+C: Bob McQuillen  15 Apr '01
+B: Bob's Note Book 11 #3
+N: The  McBride  family  is  large  and  far-flung,  with  relatives  living  in
+N: Massachusetts,  New  Hampshire,  Missouri,  Nebraska, and Oregon.  Music runs
+N: through the whole gang, and Abby McBride of Taunton, MA, for whom  this  tune
+N: is written, plays it easily on her penny whistle. I think that's pretty neat,
+N: don't you  I think Abby's pretty neat, too.
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+FE \
+| DEFG FEDE | FAde f2ef | gfed cABc | defd AGFE |
+| FDFG FEDE | FAde fdcB | ABcd edeg | f2d2 d2  :|
+|: de \
+| fedf edcB | ABAG FEDE | FDFA dfgf | f2e2 e2de |
+| fedf edce | defd AGFE | DFAd cBAG | F2D2 D2  :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/67680
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book11.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1827
+T:Even and Odd, Like Tom with his Hod
+O:england
+R:tune
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+H:Tom Curtin was a lame hodman whose lameness was accentuated when he was
+H:carrying his loaded hod.
+L:1/8
+M:6/8
+K:G
+"Time well marked"\
+d/c/|B2 B Bgf|e2 e efg|ded dcB|A2 A ABc|
+B2 B Bgf|e2 e efg|ded cBA|Ggg g2||g/a/|
+b2 g a2 f|gfe dcB|cde dgB|BAA A2 g/a/|
+b2 g a2 f|gfe agf|bag fge|dgf "D.C."edc||
+S:https://www.folktunefinder.com/tunes/22277
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Tune
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

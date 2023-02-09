@@ -1,0 +1,25 @@
+X:272
+%%topmargin 3cm
+T:Colonel Fraser of Knocky
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:G
+c | {/^c}d2 (B>d) G>G d>B | c>eB<d e>AA>e | {/^c}d2 (B>d) G>G d>B | c>ed>A B<GG :|
+c | B>G(B>d) c>eTd>B | c>eB>d e>AA>c | B>G(B>d) (c>e)d>B | (c>e)B>g TB>GG>c |
+B>G(B>d) {/B}(c>e)d>B | (c>e)B>d e>AA>c | TB>G ((3Bcd) ((3def) g>B | {/B}c>eTd>A TB<GG |]
+S:https://www.folktunefinder.com/tunes/71301
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Colonel_Fraser_of_Knocky.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0272.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

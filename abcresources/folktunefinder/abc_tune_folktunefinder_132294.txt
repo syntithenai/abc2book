@@ -1,0 +1,23 @@
+X:6
+T:Lndler fr Dudlsack bzw. Drehleier
+R:Lndler
+C:trad.
+S:Sammlung der Gesellschaft der Musikfreunde 1819
+A:N, Maria Taferl
+P:2
+M:3/4
+L:1/8
+K:G
+B2|d2cAc2|G2B2AD|d4Bd|edcAc2|G2BdAD|G4:|
+!G2|D2cAc2|D2BGB2|D2ADA2|d6|D2cAAc|D2BGGB|D2AcAF|G4:|
+% Output from ABC2Win  Version 2.1 h on 17.09.99
+S:https://www.folktunefinder.com/tunes/132294
+S:http://www.unet.univie.ac.at/~a7425519/tunes.abc
+% Rhythm Lndler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

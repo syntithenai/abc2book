@@ -1,0 +1,24 @@
+X:85
+T: Graf Friedrich
+N: Q0048K
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Konradsdorf
+N: Rhythmisch korrigiert: Pause am Ende der 3./5. Zeile weggelassen.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 3/8
+L: 1/16
+K: G
+D2 | GGB2d2 | A2G2z2
+c2 | Bcd2A2 | c2B2z2
+d2 | B3Bd2cc | A3cc2B
+D | GAB2d2 | AAG2z2
+d2 | B3Bd2cc | A3cc2B
+D | GAB2d2 | AAG2z2
+S:https://www.folktunefinder.com/tunes/151614
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

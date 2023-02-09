@@ -1,0 +1,22 @@
+X:5858
+T:Scottiche
+O:england
+C:Repertori 28
+M:2/4
+L:1/16
+K:C
+c2c2 B2c2|AGAB c2G2|c2c2 B2c2|AGAB G4:|\
+|:edef e2g2|a2g2 e2c2|
+g2fe dcde|fedf e2c2|cBcd e2g2|\
+a2g2 e2c2|g2fe dcde|fedB c4||
+S:https://www.folktunefinder.com/tunes/26310
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

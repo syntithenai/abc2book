@@ -1,0 +1,26 @@
+X:11
+T: Es taget in dem Osten
+N: A0016
+O: Europa, Mitteleuropa, Niederlande
+N: Melodie aus den Souterliedekens 1540
+R: Romanze, Ballade, Lied
+M: 4/2
+L: 1/4
+K: D
+G2 | D2D2=F2G2 | _B4A4
+d4 | =c4_B2G4A2 | =c3_BAGA4z2
+z2A2B2c2 | d4=c2
+d2 | _B4A4 | _B6A2 | G4z2
+A2 | D4E2=F4G2 | _B3AG=FG4
+S:https://www.folktunefinder.com/tunes/68557
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

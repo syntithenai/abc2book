@@ -1,0 +1,27 @@
+X: 31
+T:Debka Habir
+O:Israel
+I:choreographer, Moshiko 1959
+C:N. Sharabi
+Z:seymour.shlien@crc.ca
+S:from record Dance Along with Sabras (Tikva T-69)
+L:1/8
+M:2/4
+Q:1/4=160
+I:Percussion recommended for accompaniment
+%%MIDI gchord fzfz
+K:DMix
+|:"Bm"D3E|FEED|FEED|[1FEED:|[2D4|
+|:"Bm"D3E|FEED|FEED|[1FEED:|[2D4|
+|:"Gm"G3G|FED2|GEFD|[1GEF2:|[2FED2|
+|:"Gm"G3G|FED2|GEFD|[1GEF2:|[2FED2|
+S:https://www.folktunefinder.com/tunes/84436
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

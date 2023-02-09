@@ -1,0 +1,27 @@
+X: 1
+T: September 1st Jig
+C: Aram Hollman, 1984
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+"A7"FE \
+|: "D"D2D FED | A2D FED | "G"dcB "D"ABG | "(Em)"FGA "A7"ED[EC] \
+|  "D"D2D FED | A2D FED | "G"dcB "D"ABG | "A7"FGE "D"D3 :|
+FG \
+|: "A"A2A ecA | ecA gfe | "G"dBA GAB | dBA GFG \
+|  "A"A2A ecA | ecA gfe | "G"dBA "D"GFE | "Em"EFG "A"A3 :|
+S:https://www.folktunefinder.com/tunes/15053
+S:http://trillian.mit.edu/~jc/music/abc/jig/Sept1stJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/Sept1stJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Sept1stJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Sept1stJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

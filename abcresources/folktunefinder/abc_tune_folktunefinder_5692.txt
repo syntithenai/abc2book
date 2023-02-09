@@ -1,0 +1,33 @@
+X: 2
+P: Hora Spoitorilor (Bm)
+O: Romania
+M: C|
+L: 1/8
+K: Bm
+"A"\
+[| "Em"g4 f2e2 | "A"{c}d2 c3Ace | "Em"g4 f2e2 | "A"{c}d2 c6 \
+| "F#"zegf ^aggf | c'bb^a aggf |
+| "F#"feed decd |1 "Bm"BF^G^A Bcde :|2 "Bm"BF"F#"^G^A "Bm"B2z2 \
+"B"\
+|: "Bm"(3B2e2f2 (3f2f3f | "Em"gag2 {e}Tf2e2 | "Em"g2 b4 g2 |
+| "F#"feef "Bm"dcB2 | "F#"F^ABc dcd^d | "(Em)"eedc "(Bm)"dcd2 \
+| "F#"efgf ecdf |1 "F#"dcB^A "Bm"Bdf2 :|2 "Bm"dB"F#"^Ac "Bm"B2z2 ||
+"C"\
+|: "Bm"(3d2B2B2 (3B2c2d2 | (3c2B2B2 "A"(3B2A2A2 | "A"^gaaa ab=g2 | "A7"{f}e^dec "D"=d2z2 \
+| "Bm"^ab2(c' d')bb2 |
+| "Em"{a}bgg2 {f}gee2 | "F#"fd~c2 dB^Ac \
+|1 "Bm"Bcde "F#"f4 :|2 "Bm"B2"F#"F^A "Bm"B2"B"=A2 \
+"E"\
+|: "Em"g6 e2 | "A"{c}d2 c6 | "Em"g6 e2 |
+| "A"{c}d2 c6 | "Em"{^d}~e4 {f}~g4 | "Em"bag2 gfe2 \
+| "F#"~d2ce dB^Ac |1 "Bm"Bcde "F#"f2z2 :|2 "Bm"B2"F#"F^A "Bm"B2"fine"z2 |]
+S:https://www.folktunefinder.com/tunes/5692
+S:http://trillian.mit.edu/~jc/music/abc/Intl/HoraSpoitorilor.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/HoraSpoitorilor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

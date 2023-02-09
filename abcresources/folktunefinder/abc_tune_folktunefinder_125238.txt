@@ -1,0 +1,27 @@
+X: 9
+T:Cameron Highlanders
+M:2/4
+L:1/16
+C:J Scott Skinner
+R:Reel
+K:A %3 sharps
+z2|(A2-e-c A2-e-A)|{fa}(f2-e2e2-a2|(A2-e-c A2-e-A)|{A}-c2-B2B2-c2|(A2-e-
+c A2-e-A)|{fa}-f2-e2e2-a2|(f-ae-a c-aB-a)|{ce}c2A2A2:||!
+:a2|{fa}(f2ea) {ce}(c2Aa)|{ce}c2-A2A2-a2|{fa}(f2ea) {ce}(c2Aa)|{ce}c2-B2
+B2-a2|
+{fa}(f2ea) {ce}(c2Aa)| ecac e2{g}a2|(.f.a.e.a) caBa|{ce}c2a2a2:||!
+:e-c|A<Aec AecA|{fa}f2-e2e2-a2|A<Aec AecA|{ce}c2B2 B2ec|A<Aec AecA|{fa}f
+2e2.e2.a2|faea caBa|{ce}c2A2A2:||!
+a2|(faea) (caAa)|{ce}c2-A2A2-a2|(faea) (caAa)|{ce}c2-B2 B2-a2|(faea) (ca
+Aa)|.e.c.a.c .e.f.g.a|faea caBa|{ce}c2-A2A2-a2|!
+(faea) (caBa)|(AaBa) (caAa)|(faea) (caAa)|{ce}c2-B2 .B2.e.c|.A<.A.c.A .e
+.A>c.A|.e.A.f.A .g.A.a.A|faeA caBa|{ce}c2A2A2||
+S:https://www.folktunefinder.com/tunes/125238
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:338
+T:Auretti's Dutch Skipper
+N:England c.1756
+Q:1/4=120
+O:England
+M:6/8
+L:1/8
+K:C
+G| "C"cGc edc | "G"dBG f3 | "C"edc "G"B/c/dB | cGE "C"C2 G |
+"C"cBc edc | "G"dBG def | "C"edc "G"GcB | "C"c3 c2 :: G |
+"C"ceg gec | "Dm(F)"dfa a2 G | "C"ceg gec | "G"Bdd d2 G | "C"ceg gec |
+"F"dc'b c'2 f | "C"edc "G"GcB | "C"cGE C2 z :|
+S:https://www.folktunefinder.com/tunes/20787
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

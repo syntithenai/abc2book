@@ -1,0 +1,20 @@
+X:88
+T:The Shetland Fiddler
+Z:John Chambers <jc@trillian.mit.edu>
+R:reel
+M:4/4
+L:1/8
+K:D
+ d2fd A2fe | defg afdf | e2ge B2ed | cdef gece |
+d2fd A2fe | defg afdf | fafd fafd |1 Bgec d3A :|2 Bgec d2cd |:
+eAfA gAaA | faaf gfed | AaBa cada | efed cBAc |
+dAeA fAgA | faaf gfeg | fafd fafd |1 Bgec d2cd :|2 Bgec d4 |]
+S:https://www.folktunefinder.com/tunes/41165
+S:http://music.gordfisch.net/oregans/assets/abc/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

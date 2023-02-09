@@ -1,0 +1,33 @@
+X:23
+T:Miss Thompson's Hornpipe
+C:Errington Thompson
+M:4/4
+L:1/8
+K:D
+Q:100
+A2/3B2/3c2/3 |\
+"D"d2 df "A"edcB |\
+"D"A2 AB "A"AGFE |\
+"D"DFAF "G"DGBG |\
+"D"DFAF "A"GFED |\
+"D"d2 df "A"edcB |\
+"D"A2 AB "A"AGFE |\
+"D"DFAd "A"fedc |\
+"D"d2 "G"dc "D"d2 :|\
+cd |\
+"A"ecec Acec |\
+"D"fdfd Adfd |\
+"G"gege "D"fdfd |\
+"A"edcB A2 DG |\
+"G"BGBG DGBd |\
+"D"AFAF DFAd |\
+"D"FAde "A"fedc |\
+"D"d2 "A"dc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/176348
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/MissThompsonsHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T:The Cuckoo's Nest
+M:4/4
+C:
+S:Seabright
+N:as taught by Evan Shepherd (c.f. Sherborne)
+A:Adderbury
+O:English
+R:Reel
+%P:A(AB)$^5$
+P:A(AB)5
+K:EDor
+%:
+%:
+I:speed 400
+P:A
+%
+|: F2     | GAGF              E2    e2     | B2   B2      A2  B2 |
+S:https://www.folktunefinder.com/tunes/150587
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/cu/Cuckoos_Nest_10.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/cu/Cuckoos_Nest_10.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

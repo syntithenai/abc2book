@@ -1,0 +1,24 @@
+X:1
+T:Petit nuage
+R:jig
+C:Jean Banwarth
+S:Jean Banwarth
+D:CEOL "The last order" ref. EDMI 01
+M:6/8
+L:1/8
+K:D
+dcd \
+|:  "D"AFD DFA | "Em"BEE     Bcd | "Bm"fff  fgf |   "A"ecA Ace \
+|   "D"fff agf |  "C"eee     gfe |  "G"ddd  fed |1  "A"ecA dcd :|2 "A"ecA fec ||
+|: "Bm"dBB FBD | "Bm"B,DF    Bed |  "A"cAA ^GAE | "F#m"cea Ace \
+|  "Bm"dBB FBD | "Bm"B,DF "A"Bed |  "G"GBd  gfg |1  "A"ecA fec :|2 "A"ecA dcd |]
+S:https://www.folktunefinder.com/tunes/182235
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/banwarth/pnuage.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

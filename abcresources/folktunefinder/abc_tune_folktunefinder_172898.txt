@@ -1,0 +1,22 @@
+X: 1
+T: Looney's Tune
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+FG | ADD ADD | Bcd A2 A | Bcd ADD | E2 F EFG |
+ADD ADD | Bcd A2 A | Bcd ADD | EFE D2 z |
+A2 D A2 D | Bcd A2 A | Bcd ADD | EEF EFG |
+ADD ADD | Bcd A2 A | Bcd ADD | EFE D2 z
+|: Bfe g2 f | Bfe dfe | Bfe g2 a | gfe dBA |
+Bcd efg | fed c2 c| def edc |1 ded B2 z :|2 dcA B2 z ||
+S:https://www.folktunefinder.com/tunes/172898
+S:http://www.thesession.org/tunes/display/4485
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

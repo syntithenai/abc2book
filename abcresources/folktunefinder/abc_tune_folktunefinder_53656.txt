@@ -1,0 +1,25 @@
+X:1
+T:60 Bougies
+C:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:G
+|: BcB BGB | BcB cAA | cdc cAc | fed B3 |
+def gdd | cBA f2d |1 A^ce agf | gec d3 :|2 cBA f2e | cBA G3 ||
+gfe Bef | gfe cef | gfe aef | gfe fAB |
+c3 ABA | FAF EFE | DFA dcA | BcB B2d |
+gfe Bef | gfe cef | gfe aef | gfe fAB |
+cdc FGA | BcB EFG | ABA FED | [C6G6] |]
+S:https://www.folktunefinder.com/tunes/53656
+S:http://music.gordfisch.net/tradmusic/pub/cache/60_Bougies_4faa73.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

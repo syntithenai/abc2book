@@ -1,0 +1,31 @@
+X: 5
+P: Karjalan poikia (The Boys of Karelia) (L\"oyly\"a liss\"a\"a)
+R: polka
+O: trad Finland
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+|: "D"a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 | "D"e2d2 d4 :|
+A2 \
+|: "D"A2BA F2A2 | d6 e2 | f2gf e2f2 | "G"g2z2 "D"f4 \
+| "A7"e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 | "D"e2d2 d4 :|
+w: | | | |~ Hej!
+K: G
+|: "G"d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+D2 \
+|: "G"D2ED B,2D2 | G6 A2 | B2cB A2B2 | "C"c2z2 "G"B4 \
+| "D7"A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 | "G"A2G2 G4 :|
+w: | | | |~ Hej!
+S:https://www.folktunefinder.com/tunes/4533
+S:http://trillian.mit.edu/~jc/music/abc/Finland/Song05.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

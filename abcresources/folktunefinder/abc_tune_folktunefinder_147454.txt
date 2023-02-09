@@ -1,0 +1,28 @@
+X:1
+T:Ce n'est qu'un au revoir (Chant des adieux)
+C:Paroles Jacques Sevin, musique trad. Ecosse, fichier ABC par Bernard Loffet
+L:1/8
+Q:270
+M:4/4
+K:C
+ z6 D2 | [G2G,,2] G,^F [G2E,,2] [B2E,2] | [A2A,,2] A,G [A2D,,2] [B2D,2] | [G2G,,2] G,G [B2G,,2] [d2G,2] | \
+ [e2C,,2] C,2 C,,2 [e2C,2] | [d2G,,2] G,B [B2E,,2] [G2E,2] | [A2A,,2] A,G [A2D,,2] [BD,]A | \
+ [G2C,,2] C,E [E2C,,2] [D2C,2] | [G2G,,2] G,2 G,,2 [e2G,2] | [d2G,,2] G,B [B2G,,2] [G2G,2] | \
+ [A2D,,2] D,G [A2D,,2] [e2D,2] | [d2G,,2] G,B [B2G,,2] [d2G,2] | [e2C,,2] C,2 C,,2 [e2C,2] | \
+ [d2G,,2] G,B [B2E,,2] [G2E,2] | [A2A,,2] A,G [A2D,,2] [BD,]A | [G2C,,2] C,E [E2C,,2] [D2C,2] | \
+ [G2G,,2] G,2 G,,4 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/147454
+S:http://diato.ifrance.com/diato/tablat/226.abc
+S:http://diato.ifrance.com/tablat/226.abc
+S:http://diato.org/tablat/226.abc
+S:http://perso.orange.fr/diato/tablat/226.abc
+S:http://perso.wanadoo.fr/diato/tablat/226.abc
+S:http://pro.wanadoo.fr/diato/tablat/226.abc
+S:http://www.diatonique.net/tablat/226.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

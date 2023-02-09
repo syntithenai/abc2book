@@ -1,0 +1,28 @@
+X:1
+T:the Humours of Lisheen
+T:the Thrush in the Straw
+M:6/8
+L:1/8
+R:Double Jig
+Z:Rob Greenway
+S:Rob Greenway <robgreenway:yahoo.com> IrishTradAccord 2005-4-22
+K:G
+   g | efg edB | cBA BGE | ~G3 BAB | BAG A2g \
+     | efg edB | cBA BGE | ~G3 BdB | AGF G2 :|
+|: D | GBd gfg | agf g2e | fed edb | cbA BGE \
+     | GBd gfg | agf g2e | fed BdB | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/14345
+S:http://trillian.mit.edu/~jc/music/abc/jig/Humours_of_Lisheen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Humours_of_Lisheen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/Humours_of_Lisheen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Humours_of_Lisheen_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/IrishTradAccord/Humours_of_Lisheen_1.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

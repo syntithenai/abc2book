@@ -1,0 +1,33 @@
+X: 58
+T: Maple Sugar Gal - Two Step
+R: march, polka
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS
+M: 2/4
+L: 1/8
+K: G
+Bc \
+| "G"d2 d>e | dc BA \
+| B2 B>c | B2 cB \
+| "D7"BA AB | c>B BA \
+|1 BB Bc | BG \
+:|2 "G"G4- | "eind"G2 FG ||[K:D]
+|: "D"A2 A>B | AF Ad \
+| f2 f>e | dA cd \
+| "A7"e2 e>f | ec Bc \
+|1 "D"d2 cB | "A7"AF GB \
+:|2 "D"d2 d>e | "D7"d=c "c.B,."|]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7661
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Rhythm March, polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

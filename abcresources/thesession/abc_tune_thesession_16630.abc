@@ -1,0 +1,26 @@
+X: 16629
+T: Hangman's
+R: reel
+M: 4/4
+K: Amajor
+P:A
+EGAB|[M:6/4] c3 ccdcB ABcA|[M:4/4] [A,2E2] Ac BABc|dcBA cAAB|
+[M:6/4]c3 ccdcB AB c/B/A|[M:4/4]E2 Ac B2 GB|[A,2E2] [E2A2] EGAB|[M:6/4] c3 cc2 d/c/B ABcA|
+[M:4/4] [A,2E2] Ac BABc|dcBA cAAB|[M:6/4] c3 cceee cccc|AGAc B2 GB A2 [A2E2]||
+P:B
+M:4/4
+EAAG A2 Ac|cBGB c2 cc|EAAG [A2c2] cc|BBGB A2 [A2c2]|
+EAAG A2 [A2c2]|BABd c2 c2|EAAG A2 Ac|B2 GB [E2A2] [E2A2]||
+P:C
+|:e2 cA [C2E2] ce|1 ,2,3 e2 cA BA[A,E]A:|4 e2 cA BAAc||
+P:D
+B2 GB EBGB|EBGB AGAc|B2 GB EBGB|EBGB AGAc|
+B2 GE B2 GE|B2 GE AGAc|B2 GE B2 GE|B2 GB [E2A2] z2||
+P:E
+.c2 .A2 .E2 Ac|BABd cB A2|.c2.A2.E2 Ac|B2 GB A2 z2|
+.c2 .A2 .E2 Ac|BABd [A2c2][A2c2]|.c2.A2.E2 Ac|B2 GB A2 [A2c2]||
+P:F
+CECE DFDF|CECE B,EB,E|CECE DFDF|EGBGA2A2|[CE][EA][CE][EA] [DF][FA][DF][FA]|
+[CE][EA][CE][EA][B,E][EA][B,E][EA]|[CE][EA][CE][EA] [DF][FA][DF][FA]|EGBG A2 AA|A,CEC A,DFD|A,CEC A,B,DB,|
+A,CEC A,DFD|EGBG A2 AA|A,CEC A,DFD|A,CEC B,2 AF|A,CEC A,DFD|EGBG A2 A2||
+

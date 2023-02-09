@@ -1,0 +1,27 @@
+X:091
+%%topmargin 3cm
+T:The Bog of Gight
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+c | e>fe<c A>cAE | TF>EFA B/2B/2B (Bc) | e>fe<c A<cA>E | F<AE>C A,/2A,/2A, A,2 |
+(e>f)(e>c) (A>c)(A>E) | TF>EFA B/2B/2B ~B2 | (ce)(Tfe) (dc)(TBA) | (G>AB)>c A/2A/2A A ||
+g | ~a>ba>e ~a>ba>e | Tf>ef>a b/2b/2b b2 | a>ba<e f>ac<a | TB>AB<c A/2A/2A (Ag) |
+~a>ba>e ~a>ba>e | Tf>ef<a b/2b/2b b2 | a>ef<a e<fc<e | TB>AB<c A/2A/2A A|]
+S:https://www.folktunefinder.com/tunes/71121
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bog_of_Gight.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0091.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

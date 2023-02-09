@@ -1,0 +1,24 @@
+X:16
+T:Cook In the Kitchen
+M:6/8
+L:1/8
+R:jig
+K:G
+DGG GAG | FDE F3 | DGG GFG | Add cAG |
+DGG GAG | FDE =F2d | cAG FGA |1 BGF G3 :|2 BGF G2A |:
+B3 BAG | A3 AGF | G3 GFG | Add cAG |
+B3 BAG | A3 A2d | cAG FGA |1 BGF G2A :|2 BGF G3 |:
+d2e f2g | a2g fed | cAG FGA | B3 cAG |
+d2e f2g | a2g fed | cAG FGA | BGF G3 :|
+S:https://www.folktunefinder.com/tunes/53673
+S:http://music.gordfisch.net/oregans/assets/abc/jigs.abc
+S:http://music.gordfisch.net/tradmusic/pub/cache/Cook_In_the_Kitchen_c47e18.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

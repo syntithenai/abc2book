@@ -1,0 +1,28 @@
+X: 61
+T: Reel Des Jeunes Maries
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:\
+"D"D2FA FAde|fafd A2f2|"G"gfed "A"cABc|"D"dcde "A"fdAF|
+"D"D2FA FAde|fafd A2f2|"G"gfed "A7"cABc|"D"d2f2d2A2:|
+|:\
+"D"a2fd Adfa|"A"gecB Acef|"(Em)"g2ec "(F#m)"Aceg|"D(G)"fedf "A7"eAdf|
+"D"a2fd Adfa|"A"gecB Acef|"(Em)"g2ec Aceg|"A7"fdec "D"d2A2:|
+S:https://www.folktunefinder.com/tunes/113070
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

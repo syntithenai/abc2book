@@ -1,0 +1,21 @@
+X:3
+T:XX. Come heavy sleepe the image of true death;
+T:Tenor.
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+L:1/4
+M:C|
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+N:Original clef, C on third line
+K:G mix -8va
+%%MIDI transpose -12
+d6 B B A2 d > c B4 e > f g3 d e e A4
+S:https://www.folktunefinder.com/tunes/110968
+S:http://www.laymusic.org/music/dowland/heavy/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

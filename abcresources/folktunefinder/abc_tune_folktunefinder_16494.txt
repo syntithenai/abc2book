@@ -1,0 +1,22 @@
+X: 1
+T: Polska fr\aan V\"or\aa, \"Osterbotten
+S: Otto Andersson
+R: polska
+M: 3/4
+L: 1/16
+K: D
+|: (5(fgf)(ef) g2(ag)  f2(gf)  | e2(fe) (ed)fd  A4   | a3g  b2a2 a2g2 | g2(ag) (fa)fa e4 :|
+|: a2(ba)      g2(ag) (fa)(fa) | g2(ag)  f2(gf) edcB | ABcd efga b2g2 | fedc    e4    d4 :|
+S:https://www.folktunefinder.com/tunes/16494
+S:http://trillian.mit.edu/~jc/music/abc/pols/PolsFrVora.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/PolsFrVora.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

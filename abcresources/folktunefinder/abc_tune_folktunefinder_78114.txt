@@ -1,0 +1,27 @@
+X:93
+T: IN DES MEERES TIEFSTEN WUNDERHALLEN
+N: B0122
+O: Europa, Mitteleuropa, Deutschland; Schweden
+R: Ballade, Romanze
+M: 3/4
+L: 1/16
+K: C
+ | C3_EG4c4 | d3_ec2c2B2c2
+G3GE4G2F2 | D3_EC4z4
+C3EG4c4 | d3_ec2c2B2c2
+G3GE4G2F2 | D3_EC4z4
+E3EG2G2_B2G2 | F2F2GF_EFG4
+E3EG2G2_B2G2 | F2F2GF_EFG4
+E3GF4G2F2 | _E3DC4
+c4 | B2c2G4_E4 | G3FD3_EC4
+S:https://www.folktunefinder.com/tunes/78114
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+% Rhythm Ballade, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

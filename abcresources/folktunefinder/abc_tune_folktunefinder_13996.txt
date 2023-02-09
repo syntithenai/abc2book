@@ -1,0 +1,25 @@
+X:47
+T: Chelmsford Races
+M: 6/8
+N: You'll notice a similarity with  Hullichan Jig in the B part though it's
+N: not quite the same. The tune is in the  Thomas Hardy collection, though
+N: seemingly unknown in its native Chelmsford - a  fact I am trying to remedy.
+K: G %Transposed from Bb
+D|"G"G2G GFG|"D"A2A  d2d|"G"B2B G2G|"D"FGA DEF|
+"G"G2G GFG|"D"A2A d2d|"C"ced "D"cBA|"G"G2G  G2:|
+|: d|"G"dcd Bcd|"C"e2e e3|"D"fef def|"G"g2g g3|
+"G"dcd Bcd|"C"e2f  gfe|"G"ded "D7"cBA|"G"G2G G2:|
+S:https://www.folktunefinder.com/tunes/13996
+S:http://trillian.mit.edu/~jc/music/abc/jig/ChelmsfordRaces_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ChelmsfordRaces_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/ChelmsfordRaces_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/jig/ChelmsfordRaces_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/jig/ChelmsfordRaces_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

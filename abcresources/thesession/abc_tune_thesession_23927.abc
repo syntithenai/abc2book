@@ -1,0 +1,22 @@
+X: 23926
+T: Loch Ruan
+R: march
+M: 
+K: Dmajor
+V:1
+(A>B)|"D"d2 (Aa) f2 (ed)|"G"e2 (fg) B2 (e>d)|"A"c2 (BA) g2 (ec)|"D"d2 (ef) "A"A2 (A>B)|
+V:2
+F>G|F2 F2 A2 GF|G2 AB G2 GF|E2 GF E2 EG|F2 GA F2 FG|
+V:1
+"D"d2 (Aa) f2 (ed)|"Em"e2 (fg) B2 (e>d)|"A"c2 (BA) g2 (ec)|"D"d2 de d2||
+V:2
+F2 F2 A2 GF|G2 AB G2 GF|E2 GF E2 EG|F2 FG F2||
+V:1
+fg|"D"a2 (fd) Aa fg|"G"e2 (fg) B2 (e>f)|"A7"g2 (ec) Ag ec|"D"d2 (ef) "A"A2 (f>g)|
+V:2
+de|d2 AF F2 D2|G2 AB G2 GA|B2 G2 cEGG|F2 GA F2 de|
+V:1
+"D"a2 (fd) Aa fd|"Em"e2 (fg) B2 (e>d)|"A"c2 (BA) g2 (ec)|"D"d2 de d2||
+V:2
+d2 AF F2 D2|G2 AB G2 GF|E2 GF E2 EG|F2 FG F2||
+

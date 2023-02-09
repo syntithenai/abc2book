@@ -1,0 +1,41 @@
+X: 1
+T: Danny Boy
+T: The Londonderry Air
+C: Traditional
+M: 4/4
+L: 1/8
+K: G
+  FGA | B3 A Be dB | AG E3 GBc | d3  e dB GB | A4 z
+  FGA | B3 A Be dB | AG E3 FGA | B3  c BA GA | G4 z
+  def | g3 f fe de | dB G3 def | g3  f fe dB | A4 z
+  ded | b3 a ag eg | dB G3 FGA | Be dB AG EF | G4 z |]
+%
+W: 1. Oh, Danny boy, the pipes, the pipes are calling
+W:     From glen to glen, and down the mountain side.
+W:     The summer's gone, and all the flowers are dying.
+W:    'Tis you, 'tis you must go, and I must bide.
+W:     But come you back when summer's in the meadow,
+W:     Or when the valley's hushed and white with snow.
+W:    'Tis I'll be there in sunshine or in shadow
+W:     Oh, Danny boy, oh, Danny boy, I love you so.
+%
+W: 2. And if you come, when all the flowers are dying,
+W:    And I am dead, as dead I well may be,
+W:    You'll come and find the place where I am lying,
+W:    And kneel and say an "Ave" there for me.
+W:    And I shall hear, tho' soft you tread above me,
+W:    And all my dreams will warm and sweeter be,
+W:    If you'll not fail to tell me that you love me,
+W:    I simply sleep in peace until you come to me.
+W:
+S:https://www.folktunefinder.com/tunes/18646
+S:http://trillian.mit.edu/~jc/music/abc/song/DannyBoy_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/song/DannyBoy_Gw.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/song/DannyBoy_Gw.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

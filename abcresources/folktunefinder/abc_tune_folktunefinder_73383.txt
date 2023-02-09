@@ -1,0 +1,28 @@
+X:224
+T: A Place In Thy Memory
+B: O'Neill's 224
+N: "Moderate"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:G
+(DE) \
+| (G2 A2) .B2 | (d2 g2) .f2 | e2 d2 (Bc) | B4 (AG) \
+| A2 B2 G2 | E4 (DE) | G2 G2 A2 | B2 e2 (d>e) |
+| d2 B2 (c>B) | ({B}A2 G2) G2 | G6- | G4 || \
+ (de) \
+| g2">" f2 e2 | d2"<" B2 ">"^d2 | e2 E2 (GB) | d2 B2 (ef) |
+| (g2 f2) (e^d) | e4 (BA) | G2 E2 (GA) | B2 g2 e2 \
+| d2 B2 (GA) | B2 e2 (dB) |  ({B}A2 G2) G2 | G4 ||
+S:https://www.folktunefinder.com/tunes/73383
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

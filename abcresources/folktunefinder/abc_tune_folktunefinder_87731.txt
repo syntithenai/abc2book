@@ -1,0 +1,28 @@
+X: 230
+%% Copyright 1934 Cambell Connelly & Co Ltd, 11 Denmark Street, London
+T: The very thought of you
+M: 4/4
+L: 1/4
+C: Ray Noble
+Q: 1/4=80
+%%staves (chords melody)
+K: Ab
+%%text (ballad)
+%%vskip 20
+P: A
+V: chords
+x/x || "Abmaj7"x2 x2 | "Bbm7"x2 "Eb7"x2 | "Ab6"x2 x2 | "Bbm7"x2 "Eb7"x2 |
+"Ab6"x2 "Bbm7"x2 | "Bdim7"x2 "Ab/C"x2 | "Bb7"x2 x2 | x2 x2 ||
+V: melody
+C/E/C/ || E/E/E3- | E2-E/C/E/C/ | F/F/F3- | F2-F/F/A/F/ |
+S:https://www.folktunefinder.com/tunes/87731
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

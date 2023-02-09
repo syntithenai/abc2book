@@ -1,0 +1,36 @@
+X:315
+T:Pay the Piper
+A:Lancaster
+C:Andy Hornby
+M:4/4
+N:1994
+O:England
+R:Reel
+Z:Richard Robinson 
+%%Copyright:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000075e.html
+%%ID:0000075e
+K:G
+dB | \
+G2GA BGGA | BGdG edBG | A2AB cAFA | cAeA cBAF |
+G2GA BGGA | BGdG edBG | A2AB cAfe | dcAF G2 ::
+Bc| \
+dggf gBBc | dggf g2AB | cAeA cBAB | cAfe dcBA |
+Gggf gBBc | dggfg2 AB | cAfe dcAF | AGGF G2:|
+|:AG | \
+FAAB cAAG | FAAB cAdc | BGGF G2GA |  GBdB cBAG |
+FAAB cAAG | FAAB cAdc | B2dB cAFG | AGGF G2 ::
+Bd | \
+gdBd gdBd | gfed gdBd | fcAB cAfA | cBAB cdef |
+gdBd gdBd | gfed gdBd | fcAB cAfe |dcBA G2 :|
+S:https://www.folktunefinder.com/tunes/43928
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Contrib/Contrib.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:32
+T:Anthoinette
+C:Thoinot Arbeau
+B:L'Orchesographie
+R:Gaillarde
+M:6/8
+L:1/8
+Q:C8=30
+K:F
+AdG A2 A | ddc B2 A | ccB A2 A | GFF E2 E |
+DCD E2 F | AFG E2 D | DCD EFG | AFG E3 ||
+S:https://www.folktunefinder.com/tunes/121507
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/renaissance.txt
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

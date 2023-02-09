@@ -1,0 +1,46 @@
+X: 8054
+T: Connie The Soldier
+R: jig
+M: 6/8
+K: Dmajor
+EAA ABd|cAG EFD|EFG EFG|EAF GED|
+EAA ABd|cAG EAd|~c3 ABG|1 FDD D2G:|2 FDD D2e||
+|:fdd dcd|fdd d2e|fdd e2d|cAA A2e|
+fga efg|fed ded|cBc ABG|1 FDD D2e:|2 FDD D2G||
+EAA AB/c/d|cAG E2D|EFG EFG|EAF GED|
+EAA AB/c/d|cAG Ecd|cBc ABG|1 FDD D2E:|2 FDD D2e||
+|:fdd dcd|fed d2e|f2d efd|cAA A3|
+fga efg|fed fed|cBc ABG|1 FDD D2e:|2 FDD D2E||
+F2G A2d|dcd cAG|EFG EFG|~A3 GFD|
+F2G Add|dcd cAG|EFG A2G|1 FDD D2E:|2 FDD Dag||
+|:f2d edc|Add d2e|fdd e2d|cAA Afg|
+fdd edc|ded cAG|EFG A2G|1 FDD Dag:|2 FDD D2E||
+EFG ~A3|ded =cAG|EGG EGG|EAF GED|
+EFG AGA|ded =cAG|EGG EAG|1 EDD D2D:|2 EDD D2e||
+|:fdd edc|edc d2e|fdd =cAA|BAG A2g|
+fdd edc|ded =cAG|EGG EAG|1 EDD D2e:|2 EDD D2D||
+DEG A2A|AdB cAG|EGG EGG|EcA GEA|
+DE/F/G ~A3|AdB cAG|EGG EAG|1 ~E2D D2A,:|2 ~E2D Dde||
+|:fdd ede|fd^c d2e|fed ~c3|BAG A2g|
+fdd ed^c|ded cAG|EGG EAG|1 ~E2D Dde:|2 ~E2D D2A,||
+DEG ABA|AdB =cAG|~E2G EGG|EGE GED|
+DEG ABA|AdB =cAG|~E2G EAG|1 EDC D2A:|2 EDC D2e||
+|:~f2d cde|fdd d2e|fad e2d|cAA Aag|
+~f2d edc|AdB =cAG|~E2G EAG|1 EDC D2e:|2 EDC D2A||
+~A3 A2d|cAG EDD|D/E/FG D/E/FG|AGE cAG|
+~A3 D2d|cAG EDD|D/E/FG AGE|1 ~E2D DE/F/G:|2 ~E2D D2e||
+|:fed ed^c|edd d2e|fdd e2d|cAG A2e|
+fdd fed|cAB c2d|cAG EAG|1 EDD D2e:|2 EDD DE/F/G||
+~A3 A2d|cAG E2D|DGG DE/F/G|AGE cAG|
+~A2D A2d|cAG E2D|DE/F/G AGE|1 EDD DEG:|2 EDD D2e||
+|:fed ed^c|edd d2e|fed ~e2d|^cAG A2d|
+fed ~e2d|^cAB =c2d|cAG EAG|1 EDD D2e:|2 ~E2D DE/F/G||
+ABA AdB|=cBc E2D|EGG EAA|EDE GED|
+EFG A2B|=cBc g2e|fed cAG|FGE DFG|
+A3 BAB|=cBc E2D|EGG EAA|EDE GED|
+EFG A2B|=cBc g2e|fed cAG FGE D2e||
+fed edc|edd d2e|fed ~e2d|cAA A2e|
+fed ~e2d|cAB =c2d|=cAG EAG|EDD D2e|
+fed edc|edd d2e|fed ~e2d|cAA A2d|
+efg efg|bge d2c|ABG FGE|FDD DE/F/G||
+

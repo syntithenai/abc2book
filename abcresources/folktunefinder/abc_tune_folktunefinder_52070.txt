@@ -1,0 +1,27 @@
+X:1
+T:Yes
+C:Bruno Friedmann
+N:1997
+Z:Dave Holland <dave@biff.org.uk>
+R:Waltz (8-time)
+M:8/4
+L:1/4
+K:G
+DGA|:"G"B2B B2BB AG | dddB2G GA |\
+B2B "Em"B2B "A7"AG | "D"A3-A3 zz | "C"c2c c2c BA |
+"G"dddB2G GA | B2 "D"cB2BA2 |1 "G"G3-G z DGA :|2 "G"G3-G zz "Em"GF |\
+|:"Em"E2F "C"G2G "D"FA | "G"G2G B2B "Am"Ac |
+"Bm"B2AG2FGF |1 "Em"E3-E z2 GF :|2 "Em"E3-E z [dg][dg][ce]|\
+|:"G"[Bd][Bd][GB][d2g2][ce][Bd][Ac] | [Bd][Bd][GB]"Em"[G2B2][FA][GB][Ac]|
+[G2B2][FA][GB][Ac][G2B2][Ac] | "G"[B3d3]-[B3d3]-[Bd]z |\
+[dg][dg][ce][B2d2][GB]"D"[FA][Ac] |1 "G"[G3B3]-[GB]z[dg][dg][ce] :|2 "G"[G3B3]-[GB]z|]
+S:https://www.folktunefinder.com/tunes/52070
+S:http://www.cambridgefolk.org.uk/cam-french/cam-french.abc
+% Rhythm Waltz (8-time)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 8/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

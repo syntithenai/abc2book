@@ -1,0 +1,14 @@
+X: 28690
+T: My Ballingarry Lady
+R: waltz
+M: 3/4
+K: Dmajor
+F(G|"D" .A2) {e}.d2 dA|"G" .B/(B/B d2) .d/.c/(B|"D" A)(B d)f a(b|"D" .a3) d fa|
+"G"{a}gf e(g f)e|"D" (fe) d(f e)d|"Em" .B/(B/B e2){f}.e/.f/d|"A7" c(e B)(e _B)=B|
+"D" .A/A/(A d2) {e}dA|"G" .B/(B/B d2) .d/.c/(B|"D" A)(B d)f a(b|"D" .a3) d fa|
+"G" {a}gf e(g f)e|"D" (fe) d(c B)(_B|"A" .A/)A/(A f2) .f/.f/(e|1 d3) A FG:|2 "D" {e}d3 e fg||
+|:"D" a2{b}.a/.a/f d(f|"G" {g}e)(d c)(e B)_B|"D" .A/.A/A FA df|"A" e2 .e/.e/^d ef|
+"G" {a}gf e{a}g fe|"D" {g}fe df ed|"Em" .B/.B/(B e2) {f}.e/.f/d|"A" .c/.d/e ef {a}ge|
+"D" a2{b}.a/.a/f d(f|"G" {g}e)(d c)(e B)_B|"D" .A/.A/A FA dc|"G" {Bc}B3 _B A(G|
+"D" .F/).G/(A d)f af|"Em" ed ce B_B|"A" .A/.A/A f2 .g/.g/e|1 d3 e fg:|2 d4FG||
+

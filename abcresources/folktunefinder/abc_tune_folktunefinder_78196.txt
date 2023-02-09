@@ -1,0 +1,26 @@
+X:175
+T: WIE HERRLICH LEUCHTET MIR DIE NATUR
+N: B0209
+O: Europa, Mitteleuropa, Deutschland
+R: Jahreszeiten - Lied, Fruehling
+M: 2/4
+L: 1/8
+K: Eb
+B | c2Bc | BAGA | GFEG | G2F
+F | G2=A2 | B2ce | d2c2 | B2z
+B | B2GE | e2cA | cBAG | G2F
+F | F2GA | Bcde | E2F2 | AG2
+B | B2GE | e2cA | cBAG | G2F
+F | F2GA | Bcde | E2GF | E2z
+S:https://www.folktunefinder.com/tunes/78196
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Jahreszeiten - lied, fruehling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

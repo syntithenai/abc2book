@@ -1,0 +1,23 @@
+X:635
+T:Three Little Drummers, The
+M:6/8
+L:1/8
+R:jig
+D:Tola Custy and Cyril O'Donohue: Setting Free
+Z:Devin McCabe
+K:G
+A|:BAG GDG|GDG ABc|(A~B2 edc|B/2c/2d B cBA|
+!BAG GDG|GDG ABc|(A~B2 edc|1def (fg)d:|2def (fg)f|
+!:gdd gdd|gdd dcB|Acc Acc|Acc (Bc)c|
+!(A~B2) ~c3|d2d ABc|(A~B2) edc|1def (fg)f:|2def (fg)d||
+S:https://www.folktunefinder.com/tunes/48203
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/irishtunes.net/itunenet.abc
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

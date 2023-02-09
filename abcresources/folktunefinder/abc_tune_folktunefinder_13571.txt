@@ -1,0 +1,33 @@
+X:5
+T:The Harp and the Shamrock
+M:4/4
+L:1/8
+R:Hornpipe
+C:Pat Crowley
+Z:Rob Greenway
+S:Rob Greenway <robgreenway:yahoo.com> IrishTradAccord 2005-5-6
+K:G
+gf|edBe dBGB|AGEF GABd|e2ed efge|dBGB c2BA|
+   GEED E2DE|GABG A2Bd|efge dBGB|A2G2 G2:|
+|:Bd|e2ed efgf|eddB d2BA|GABd cdeg|dBGB cABA|
+    GE~E2 D2DE|GABG A2Bd|efge dBGB|A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/13571
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/hornpipe/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/hornpipe/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Harp_and_the_Shamrock_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/IrishTradAccord/Harp_and_the_Shamrock_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

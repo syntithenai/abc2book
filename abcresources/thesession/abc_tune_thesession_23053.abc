@@ -1,0 +1,14 @@
+X: 23052
+T: Last Train From Loughrea
+R: jig
+M: 6/8
+K: Dmajor
+|:DEF D3|A3 FAd|fed e2 d|fed B2 A|
+dB/c/d def|dcB A2 D|DEF AFd|1 FEA D3:|2 FEA D2 E||
+|:F3 FED|D3 FED|FDA D3|E3 EFA|
+dB/c/d def|dcB A2 D|DEF AFd|1 FEA D3:|2 FEA D2 d||
+|:fed dB/c/d|f3 def|g3 edc|dcB ABc|
+dB/c/d def|dcB A2 D|DEF AFd|1 FEA D2 d:|2 FEA D2 E||
+|:DAA dAA|D3 B2 A|D3 FAA|def ecA|
+dB/c/d def|dcB A2 D|D3 AFd|1 FEA D2 E:|2 FEA D3||
+

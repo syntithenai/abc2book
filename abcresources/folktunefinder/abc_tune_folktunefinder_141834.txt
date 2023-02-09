@@ -1,0 +1,23 @@
+X:2
+T:Both Sides the Tweed
+M:3/4
+L:1/4
+C:Dick Gaughan
+K:G  % original key = F
+E/2F/2 | G F E | G A B | e3- | e2 e/2B/2 | d/4 B3/4- B3/2 A/2 |
+G A B | D3- | D2 E/2F/2 | G F E | G A B | e3- | e2 e | d B G |
+A/2 F3/2 D | E3- | E2 B/2d/2 | e f e | e d B | d3- | d2 e/2d/2 |
+B3/2 G/2 B | (A/2G/2) (E/2D/2) B, | D3- | D2 E/2F/2 | G F E |
+G A B | e3- | e2 e | d B G | A F3/2 D/2 | E3- | E2 z |]
+S:https://www.folktunefinder.com/tunes/141834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BothSidesTheTweed.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BothSidesTheTweed.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BothSidesTheTweed.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

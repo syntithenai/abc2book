@@ -1,0 +1,29 @@
+X:7
+T:Contentment is Wealth
+B:O'Neill's Music of ireland (key A minor)
+R:Jig
+D:Brian Conway, First Through the Gate
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:6/8
+K:Eaeo
+F|GFG Eed|BAB E2 G|~F3 DdB|AFD Def|
+gfe edB|BAF d2 B|AFD DFA|GEE E2 F|
+GFG Eed|BAB ~E3|DFA d2 B|AFD Def|
+gfe edB|BAF d2 B|AFD DFA|GEE E2||
+||f|gbe gbe|gbb bag|fad fad|faa {b}agf|
+gfe edB|BAF d2 B|AFD DFA|GEE E2 f|
+gbe gbe|gbb bag|fdd Add|fdf agf|
+g2 f edB|BAF Td2 B|AFD DFA|GEE E2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/149568
+S:http://cranfordpub.com/tunes/abcs/conway.abc
+S:http://www.cranfordpub.com/tunes/abcs/conway.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 3
+P: The Female Saylor (Masters in This Hall)
+O: Playford 1706
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Playford Ball
+N: Barnes
+N: Recu\"eil de Contredances (Feuillet)
+M: 6/8
+L: 1/8
+K: Dm
+|: "Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 | "A7"A2G     F2E  | "Dm"F2E "A7"D2^C \
+|  "Dm"D2A "A7"A2G  | "Dm"F3 "Gm"G3 | "A7"A2G     F2E  | "Dm"D6 :|
+|: "Dm"f2e "A7"d2^c | "Dm"d3     A3 | "Dm"f2e "A7"d2^c | "Dm"d3 "(D7)"A2=c \
+|  "Gm"B2G "A7"A2E  | "Dm"F2D   F2G |1"A7"A2A    ^c2c  | "Dm"d3 "A7"e3 :|2 "A7"A2A F2E | "Dm"D6 |]
+S:https://www.folktunefinder.com/tunes/4020
+S:http://trillian.mit.edu/~jc/music/abc/England/RG_SudburyRose.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

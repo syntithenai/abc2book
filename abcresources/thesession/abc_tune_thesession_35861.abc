@@ -1,0 +1,33 @@
+X: 35860
+T: Sanctuary, The
+R: jig
+M: 6/8
+K: Amajor
+"first time through"
+EFA ABc|ecA gaf|ecA ABc|BB/B/B BAF|
+EFA ABc|ecA gaf|ecA ABc|BB/B/B AAF|
+EFA ABc|ecA a/a/af|ecA ABc|BB/B/B BAF|
+[A,E]FA ABc|ecA a/a/af|ecA ABc|BB/B/B Aaf||
+ecA ff/f/f|ecA ff/f/f|ecA ABc|BB/B/B Baf|
+ecA ff/f/f|ecA ff/f/f|ecA ABc|BeB Aaf|
+ecA ff/f/f|ecA ff/f/f|ecA ABc|BB/B/B BAF|
+EFA ABc|ecA a/a/af|ecA ABc|BB/B/B BAF|
+"second time through"
+[A,E]E[A,E] ABc|ecA a/a/af|ecA ABc|BB/B/B BAF|
+E/E/FA ABc|ecA gaf|ecA ABc|BB/B/B AAF|
+EAE ABc|ecA a/a/af|ecA ABc|BB/B/B BAF|
+EFA ABc|ecA a/a/af|ecA ABc|BeB Aaf||
+ecA f/f/af|ecA f/f/af|ecA ABc|BB/B/B Baf|
+ecA f/f/af|ecA f/f/af|ecA ABc|BB/B/B Aaf|
+ecA f/f/af|ecA f/f/af|ecA ABc|ABB BAF|
+EFA ABc|ecA aae|fff f=fe|c=cB AeA|
+"third time through"
+[A,E]E[A,E] ABc|ecA a/a/af|ecA ABc|BB/B/B BAF|
+EFA ABc|ecA aaf|ecA ABc|BB/B/B AAF|
+EFA ABc|ecA afe|f/f/ff fec|f/f/ff fec|
+EFA ABc|ecA gaf|ecA ABc|BB/B/B Aaf||
+ecA [f2d2][ce]|cBA [f2d2] c|[ce]BA ABc|BB/B/B Baf|
+ecA [fd]f[ce]|cBA [fd]f[ce]|cBA ABc|BB/B/B Aaf|
+ecA [fd]f[ce]|cBA [fd]f[ce]|cBA ABc|BB/B/B BAF|
+EFA ABc|ecA a2 e|ff/f/f f=fe|c=cB AFE|A,6||
+

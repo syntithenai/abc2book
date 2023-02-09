@@ -1,0 +1,26 @@
+X: 46
+T:Prussian Dance,The. JB.45
+M:6/8
+L:1/8
+Q:100
+S:James Biggins MS, Leeds, 1779.
+R:Jig
+O:England
+A:Yorkshire
+Z:vmp.Nick Barber & Chris Partington
+K:G
+def gfe|d2d dcB|cde dcB|ABG FED|!
+def gfe|d2d def|gfe AB^c|d3D3:|!
+|:dDd cDc|BAG AFD|dDd cDc|BAG AFD|!
+EFG ABc|def gdB|ecA dBF|G3G,3:|]
+S:https://www.folktunefinder.com/tunes/105946
+S:http://www.village-music-project.org.uk/abc/biggins.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:260
+T: Tipperary Hills
+S: "Irish Traditional Music - Session Tunes" ("Sully")
+Z: B.Black
+R: jig
+M: 9/8
+L: 1/8
+K: D
+F3 A2F A2F|G3 B2G B2G|F3 A2F A2F|Bcd A2G FED :|
+d3 f2d cBA|B2e e2d cBA|1 d3 f2d cBA|Bcd A2G FED :|2\
+fed edc d2B|A2B A2G FED ||
+S:https://www.folktunefinder.com/tunes/136985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

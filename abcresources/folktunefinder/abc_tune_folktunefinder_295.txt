@@ -1,0 +1,36 @@
+X: 1
+T: Dejlig er den himmel blaa [D]
+O: Trad Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/4
+K: D
+| "D"D>E F"A7"G2 \
+| "D"Ad A2 \
+| "G"B>A GF \
+|| "Em"AA "A7"E2 \
+| "A7"E>F GE \
+| "D"F>G AF |
+| "A7"E>F GE \
+| "D"F>G AF \
+|| "D"Ad AF \
+| "A7"GE "D"F2 \
+| "D"Ad "Bm"AF \
+| "Em"G2 "A7"E2 \
+| "D"D4 |]
+S:https://www.folktunefinder.com/tunes/295
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/DejligErDenHimmelBlaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DejligErDenHimmelBlaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DejligErDenHimmelBlaa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/xmas/DejligErDenHimmelBlaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/xmas/DejligErDenHimmelBlaa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/DejligErDenHimmelBlaa.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/DejligErDenHimmelBlaa_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

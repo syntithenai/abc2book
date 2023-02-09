@@ -1,0 +1,24 @@
+X: 1
+P: the Doubtful Shepherd - F
+N: 1780
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"2x"\
+|: "F"f2c2 BAGF | "C7"E2G2 G4 | "Bb"D2FD "C7"E2GE | "F"F2A2 c2f2 \
+|  "F"f2c2 BAGF | "C7"E2G2 G4 | "Bb"D2FD "C7"E2GE | "F"F2F2 F4 :|
+"3x"\
+|: "F"cAcA F2F2 | "C7"GEGE C4 | "Bb"D2FD "C7"E2GE | "Bb"B2A2 "C7"A2G2 \
+|  "F"cAcA F2F2 | "C7"GEGE C4 | "F"A2cA "Bb"B2dB | "C7"c2e2 "F"f4 :|
+S:https://www.folktunefinder.com/tunes/154058
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/DoubtfulShepherd.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/DoubtfulShepherd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

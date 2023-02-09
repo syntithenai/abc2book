@@ -1,0 +1,24 @@
+X:410
+T: "Die Waisen"
+N: Z1090
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade
+M: 3/4
+L: 1/8
+K: G
+d2 | _B2c2d2 | c2c2
+G2 | c2_B2A2 | G4
+d2 | G2A2_BB | A2A2
+G2 | F2G2A2 | G4
+S:https://www.folktunefinder.com/tunes/69269
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

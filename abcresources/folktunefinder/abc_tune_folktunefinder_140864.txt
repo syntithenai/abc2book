@@ -1,0 +1,63 @@
+X: 1
+T:Bobby Shaftoe
+M:4/4
+L:1/8
+C:
+S:Bordering on the Absurd
+N:Craven Stomp
+A:Border
+O:English
+R:Reel
+%P:
+K:G
+V:1                     nm=       stv=3
+%%MIDI channel 1
+%%MIDI program 40       % General MIDI Violin
+%%MIDI transpose 0
+V:2                     nm=
+%%MIDI channel 2
+%%MIDI program 40       % General MIDI Violin
+%%MIDI transpose 0
+%%MIDI beat 60 50 35 1  % p
+V:3     clef=bass       nm=
+%%MIDI channel 3
+%%MIDI program 42       % General MIDI Cello
+%%MIDI transpose -24
+P:A
+V:1
+|:\
+G2 G2  G2 c2|B2 d2  B2 G2|D2 D2  D2 G2|F2 A2  F2 D2|
+G2 G2  G2 c2|B2 d2  B2 G2|A2 c2  A2 F2|G4     G4:|
+V:2
+|:\
+D2 Gd  D2 A2|G2 AA  BAGF|A2 G2  F2 E2|F2 DD  d4|
+D2 Gd  D2 A2|G2 AA  BAGF|edcB   A2 Bc|B4     G4:|
+V:3
+|:\
+G2 z2  e2 z2|G2 z2  G2 z2|d2 z2  d2 z2|d2 z2  d2 z2|
+G2 z2  G2 z2|d2 z2  d2 z2|defg   a2 z2|G2 G G G2 z2:|
+P:B
+V:1
+|:\
+B2 d2  B2 G2|B2 d2  B4|A2 c2  A2 F2|A2 c2  A4|
+B2 d2  B2 G2|B2 d2  B4|A2 c2  A2 F2|G4     G4:|
+V:2
+|:\
+z2 B B z2 D D|z2 B B z2 G G|z2 E E z2 D D|z2 E E z2 D D|
+z2 B B z2 D D|z2 B B z2 G G|edcB   A2 Bc|B4     G4:|
+V:3
+|:\
+G2 z2  G2 z2|d2 z2  d2 z2|e2 z2  d2 z2|e2 z2  d2 z2|
+d2 z2  d2 z2|B2 z2  B2 z2|defg   a2 z2|G2 G G G2 z2:|
+S:https://www.folktunefinder.com/tunes/140864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bobby_Shaftoe_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

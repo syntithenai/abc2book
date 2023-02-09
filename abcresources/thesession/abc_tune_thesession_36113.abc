@@ -1,0 +1,16 @@
+X: 36112
+T: Schottische Du Stockfish
+R: barndance
+M: 4/4
+K: Aminor
+|:ABcd e3f|edce d3d|e2e2 A2A2|Bcdc B4|
+ABcd e3f|edce d3d|e2e2 A3c|BAGB A4:|
+|:e2e2 g3e|d2c2 d3d|d2e2 A2A2|Bcdc B4|
+e2e2 g3e|d2c2 d3d|d2e2 A3c|BAGB A4:|
+|:e2A2 A2Ac|B2G2 A4|ABcd e2eg|d2cd e2e2|
+e2A2 A2Ac|B2G2 A4|ABcd e2dc|B2G2 A4:|
+|:A2AA c2c2|A2AA c2c2|B2BB d2d2|cdec d4|
+A2AA c2c2|A2AA c2c2|B2BB d2B2|c2B2 A4:|
+|:"Variation"AcAc ecec|AcAc ecec|BcBc d2B2|cdec d4|
+AcAc ecec|AcAc ecec|BcBc d2B2|c2B2 A4:|
+

@@ -1,0 +1,27 @@
+X:3
+T: Hughie Shortie's Reel
+I: Hughie Shortie's ReelR-98Greel
+%%musicspace0.2cm
+C: Johnny Wilmot
+M: C|
+R: reel
+K: G
+"G"G2BG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "Am"cAAB "D"AFD2|
+"G"DGBG "D"cAFA| "G"GABd g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4 :|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"G"g2dg bgag| "C"ec c/c/c efge| "G"dB B/B/B "C"dBGB| "D"cAGF "G"G4|
+"G"g2dg bgag| "C"ec c/c/c "Am"efge| "G"dB B/B/B "Em"dBGB| "C"cAAB "D"AFD2|
+"C"G,CEC "G"B,DdB| "D"cdef "G"g2fg| "C"ecAc "G"dBGB| "D"cAFA "G"G4|]
+%%text Roaring Jelly  R-98
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/165097
+S:http://roaringjelly.org/music/reel/R098_Hughie_Shorties_Reel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R098_Hughie_Shorties_Reel.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R098_Hughie_Shorties_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

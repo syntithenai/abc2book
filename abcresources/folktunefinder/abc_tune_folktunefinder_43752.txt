@@ -1,0 +1,23 @@
+X:2
+T:A Scotsman in Mexico
+C:Andy Hornby 1994
+N: march 1994 For Frank Farmer 
+Q:1/4=160
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+A FA|d3f- fAFA|d3f- fdcd|BGBd gfed|cAca- agfe|
+d3f- fAFA|d3f- fdcd|BGBd gfec|d3d2:|
+|:f af|g2ec- cAce|g2fd- dDFA|GABG Ecec|d2fd- dfaf|
+g2ec- cAce|g2fd- dDFA||GABE- Ecec|d3d2:|
+%%vskip 2.5cm
+S:https://www.folktunefinder.com/tunes/43752
+S:http://www.andyhornby.net/Music/All%20Andys%20Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

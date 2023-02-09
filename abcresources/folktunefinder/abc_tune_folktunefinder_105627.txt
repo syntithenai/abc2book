@@ -1,0 +1,27 @@
+X:72
+T:The Hen's March
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:G
+G | c>de>f | g>fe>d | c>d c/d/e | G2 G2 | 
+c>de>f | g>fe>f | g>fe>f | g2 g>g |
+g>fe>g | f>ed>f | e>d c/d/e | G2 G | 
+c>Bc>e | efgf | edcB | c3 :: G2 |
+Gccc | cccc | cccc | cceg | 
+Gccc | cccc | cccc | cceg | 
+cceg | cceg | c/d/c/d/ c/d/c/d/ | c/d/c/d/ eg | 
+c/d/c/d/ c/d/c/d/ | c/d/c/d/ eg | c/d/c/d/ eg | c/d/c/d/ eg | 
+g>fe>g | f>ed>f | e>d c/d/e | G2 G2 | 
+c>Bcd | efgf | edcB | c3 :|
+S:https://www.folktunefinder.com/tunes/105627
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

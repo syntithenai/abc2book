@@ -1,0 +1,80 @@
+X: 3
+T: El\"am\"a juoksuhaudoissa
+O: Trad Finland, Russia
+R: waltz
+M: 3/4
+L: 1/4
+K: Dm
+| "Dm"AFG \
+| Ad>B \
+| A3- \
+| AzA/A/ \
+| AFG \
+| AGF \
+| "A7"E3- \
+| EzA/A/ \
+|| "Dm"AFG \
+| Adf \
+| "Gm"a3 \
+| g2g/g/ |
+| "Dm"f2f \
+| "Gm"edB \
+| "A7"A3- \
+| AzA/A/ \
+|| "Dm"AFG \
+| Ad>B \
+| A3- \
+| AzA/A/ \
+| Adf \
+| ag>f \
+| "A7"e3- \
+| e2e |
+|| "Gm"g2a \
+| bag \
+| "Dm"a3 \
+| f2d/d/ \
+|"A7"A^ce \
+| gfe \
+| "Dm"d3- \
+| dzA \
+|| "Dm"f3 \
+| "A7"e3 \
+| "Dm"d3- \
+| d"A7"^c>e \
+| "Dm"d3- |
+| d"D7"A>B \
+| "Gm"G3- \
+| G2G \
+|| "A7"e3 \
+| ^c3 \
+| A3- \
+| AB>A \
+| A2E- \
+| EA>G \
+| "Dm"F3- \
+| FzA \
+|| "Dm"f3 \
+| "A7"e3 |
+| "Dm"d3- \
+| d"A7"^c>e \
+| "Dm"d3- \
+| d"D7"A>B \
+| "Gm"G3- \
+| GBA \
+|| "Gm"G3 \
+| "A7"efe \
+| "Dm"d3 \
+| "D7"Ac"Gm"B \
+| "A7"A2E- \
+| EFE \
+| "Dm"D3- \
+| Dz2 |]
+S:https://www.folktunefinder.com/tunes/8692
+S:http://trillian.mit.edu/~jc/music/abc/Scand/FF_vals1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

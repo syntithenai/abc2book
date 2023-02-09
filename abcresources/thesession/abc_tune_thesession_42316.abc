@@ -1,0 +1,13 @@
+X: 42315
+T: Wedding, The
+R: jig
+M: 6/8
+K: Gmajor
+DEF|:[G2-G,2][G-B,] [G-G,][G-A,][GB,]|[G,G]EF G2F|ECE GAd|BGE DEF|
+[G2-G,2][G-B,] [G-G,][G-A,][GB,]|[G,G]EF G2E|D^CD FAd|AFD DEF:|
+|:GAG {A}GFG|ABG ABc|~B3 Bcd|dde ~g3|
+dge ~d3|{d}Bdc BAG|FGA BAG|1 AFD DEF:|2 AFD DB^c||
+K: Dmaj
+|:dce dce|dAF G2F|E=CE G2A|BGE EBc|
+dce dce|dAF G2E|DCDF2 d|1 AFD DBc:|2 AFD DEF||
+

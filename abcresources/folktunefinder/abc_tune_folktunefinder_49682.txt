@@ -1,0 +1,33 @@
+X: 127
+T:Polacco. CJF.127
+M:3/4
+L:1/8
+Q:100
+S:C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Misc.
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:There is a lead note of A in the MS -  it has been omtted to allow
+N:correct playing.  The note asterisked is f2 in the
+N:MS. The grace notes are between beamed notes in the MS. - PJH.
+Z:vmp.P J Headford 200
+K:D
+dd de/d/ c/d/e/f/|gB BABc|dd de/d/ c/d/B/c/|Aa a/b/g/a/ f/g/e/f/|!
+dd de/d/ c/d/e/f/|gB BABc|dd/{e/d/}c/ dfea|dd/{e/d/}c/ dfdz:|!
+|:ff f/g/f/e/ df|ee e/g/f/a/ gz|ee e/f/e/d/ ce|dd d/f/e/g/ "*"fz" D.C."||!
+d2Addd|e2aaaa|a2afdf|dfAd fA|d2Addd|!
+e2aaaa|a2afdf|e/f/e/d/ c/d/c/B/ A2|gg/f/ ee/d/ cc/B/|!
+A/c/B/d/ c/e/d/f/ e/g/f/a/|gg/f/ ee/d/ cc/B/|\
+A/c/B/d/ c/e/d/f/ e/g/f/" D.C."a/|]
+S:https://www.folktunefinder.com/tunes/49682
+S:http://www.village-music-project.org.uk/abc/fox_cj.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

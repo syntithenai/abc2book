@@ -1,0 +1,13 @@
+X: 40108
+T: Tickle Test
+R: jig
+M: 6/8
+K: Bminor
+|:FBB BAB|Fcc cBc|~B3 ~A3|~F3 dcA|
+~B3 BAB|Fcc cBc|~A3 cde|fed cBA:|
+|:dBB dBB|cAA cAA|~G3 EGB|BAe edc|
+dBB FBB|cAA [Ee]AA|(3E/F/G/AB Ace|dcA B2c:|
+|:dBB Bcd|cAA ABc|BGG GAB|^A3 B2c|
+[1 dBB Bcd|cAA ABc|G3 A3|^A2=A f2e:|
+[2 dBB Bcd|ecc cde|fab fed|cBA BAG||
+

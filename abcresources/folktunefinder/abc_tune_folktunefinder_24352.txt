@@ -1,0 +1,25 @@
+X:3900
+T:Maggie's Favourite
+O:england
+P:AABB
+S:Kevin Briggs, via EF
+M:6/8
+K:G
+P:A
+g|"G"dBG GBd|"C"E2E E2c|"D7"AFD DEF|"G"G2G G2g|
+"G"dBG Bcd|"C"E2E "Am"E2c|"D7"AFD DEF|"G"G3 -G2:|
+P:B
+g/2a/2|"G"bgb "D"afd|"C"efg gfe|"G"dBg dBG|"D7"AFD D2g/2a/2|
+"G"bgb "D"afd|"C"efg gfe|"D"faf "A7"ge^c|"D7"d2d "G7"de=f|
+"C"ece "G"dBd|"C"cac "G"BgB|"C"Ace "G"dBG|"Am"FAF "D7"DEF|
+"G"GAB "C"EFG|"Am"ABc "D7"def|"G"gdB "D7"cAF|"G"G2G G2:|
+S:https://www.folktunefinder.com/tunes/24352
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

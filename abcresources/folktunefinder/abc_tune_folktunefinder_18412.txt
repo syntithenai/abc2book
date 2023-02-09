@@ -1,0 +1,40 @@
+X: 1
+T: the New Scotland Strathspey
+C: Calum Bolton
+R: strathspey
+B: RSCDS __-__
+N: Also in Bb
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+   A>B \
+| "A"c>B A>B c>A a>A | g>A e>A c>A c<e \
+| "E7"B>A G>A B>G g>G | f>G d>G B>G B<d |
+| "A"c>B A>B c>A a>A | g>A e>A c>A c<e \
+| "E7"B>A G>A B>G B<d | "A"c<e "E7"A>B "A"A2 :|
+|: c>d \
+| "A"e2 c>e A>e c<e | c>A a>A g>A eB/c/ \
+| "E7"d2 B>d G>d B<d | B>G g>G f>G dc/d/ |
+| "A"e2 c>e A>e c<e | (3cBA a>A g>A eB/c/ \
+| "E7"d>B G>B d>G B<d | "A"c<e "E7"A>B "A"A2 :|
+   e2 \
+| "A"(3cBA e>A c<A e>A | a2 g>a e>a c<a \
+| "E7"(3BAG d>G B>G d>G | g2 f>g d>g B<g |
+| "A"(3cBA e>A c<A e>A | a2 g>a e>a c<a \
+| "E7"d>B G>B d>G B<d | "A"c<e "E7"A>B "A"A2 |]
+S:https://www.folktunefinder.com/tunes/18412
+S:http://trillian.mit.edu/~jc/music/abc/shottish/NewScotlandS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/NewScotlandS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/NewScotlandS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/NewScotlandS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/NewScotlandS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 33572
+T: Rakes Of Kildare, The
+R: jig
+M: 6/8
+K: Gmajor
+|:D|D2 G GFG|ABc d2 e|=fef ded|cAG F2 D|
+DGG GFG|ABc d2 e|=fed cA^F|G3 G2:|
+|:d|gfg def|gfg a2 g|=fef ded|cAG F2 d|
+gfg def|gfg a2 g|=fed cA^F|G3 G2:|
+K: GDor
+|:D|D2 G GFG|ABc d2 e|fef ded|cAG F2 D|
+DGG GFG|ABc d2 e|fed cA^F|G3 G2:|
+|:d|gfg def|gfg a2 g|fef ded|cAG F2 d|
+gfg def|gfg a2 g|fed cA^F|G3 G2:|
+K: A Dor
+|:E|E2 A AGA|Bcd e2 f|gfg efe|dBA G2 E|
+EAA AGA|Bcd e2 f|gfe dB^G|A3 A2:|
+|:e|aga efg|aga b2 a|gfg efe|dBA G2 e|
+aga efg|aga b2 a|gfe dB^G|A3 A2:|
+K: ADor
+|:G|E2 A A^GA|Bcd e2 f|gfg efe|dBA G2 D|
+EAA A^GA|BB/c/d e2 f|gfe dB^G|A3 A2:|
+|:g|a^ga ee/f/=g|a^ga b2 a|gfg ege|
+[1 dB^A B2 g|a^ga efg|a^ga b2 a|gfe dB^G|A3 A2:|
+[2 dBA GED|E2 A A^GA|Bcd e2 f|gfe dB^G|A3- A2||
+

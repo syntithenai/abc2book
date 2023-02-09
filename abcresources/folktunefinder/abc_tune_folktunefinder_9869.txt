@@ -1,0 +1,31 @@
+X: 3
+P: Pamela Rose Grant
+C: Alasdair Frazer (1995)
+R: strathspey
+M: C
+L: 1/8
+K: F
+"C7"A>B \
+| "F"c2 A>B c>B A<F | "Bb"d2 B>c d<f "C7"e<g \
+| "F"c2 A>B "Dm"c>B A<F | "Gm"D<G G>A B2 "C7"A>B |
+y4 \
+| "F"c2 A>B c>B A<F | "Bb"d2 B>c d<f "C7"e<g \
+| "F"c<a "C/E"g>e "Dm"f>d c<A | "Gm"D<G G>A "C7"B2 |]
+"C7"A>G \
+| "F"F2 f>g "Dm"a>g f<c | "Bb"d<f "F/A"c>A "Gm"A<G "C7"G>A \
+| "F"F2 f>g "Dm"a>g fg/a/ | "Bb"b>a g<f "Gm"d>c "C7"d<f |
+y4 \
+| "F"F2 f>g "Dm"a>g f<c | "Bb"d>c d<f "C7"g2 f>g \
+| "F"a>g f<d "Dm"c>d f>A | "Gm"D<G G>A "C7"B2 |]
+S:https://www.folktunefinder.com/tunes/9869
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/Alltshellach.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/program/20090112/Alltshellach.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

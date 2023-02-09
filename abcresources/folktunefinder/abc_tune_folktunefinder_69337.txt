@@ -1,0 +1,26 @@
+X:478
+T: "Erkundigung"
+N: Z1158
+O: Europa, Mitteleuropa, Deutschland, Koeln
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: G
+D2 | G2F2G2A2 | _B3AG2
+d2 | _B3BA3A | G4z2
+D2 | G3FG2A2 | _B3AG2
+d2 | _B3BA3D | G4z4
+d3AA2A2 | _B3GG2
+G2 | A3DD2D2 | G3GG2
+F2 | G2A2_B2A2 | d4z2
+d2 | G2G2A3F | G4z2
+S:https://www.folktunefinder.com/tunes/69337
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,12 @@
+X: 20593
+T: John O'Reilly The Active
+R: jig
+M: 6/8
+K: Dmajor
+A|(Ad).d (dcd)|(ge).d cz(d/e/)|(fa).f (ge).f|.d>d.d .D2 .A/.A/|
+(Ad).d (dc).d|.g2 (.e/.d/) .c z(d/e/)|(fa).f (g<e).a|(d2 {fe}d) d2||
+d|(d=c').c' c'2 c'|(=c'a).a (ge).e|(dd').d' (d'=c').d'|(e'=c').a .a2(g/f/)|
+(ga).b (c'b).c'|(bg).f !fermata!e2 (f/g/)|(a{ba}^g)a {ab}=c' z(b/a/)|(ge).d d2||
+A|(Ad).d d2 (c/d/)|(g<e).d cz(d/e/)|(f<a)f (g<e).f|(d>ed) .d2.A/.A/|
+.A(^G/A/).B/.c/ (d{ed}c).d|(g/f/a/g/).e/.d/ !fermata!c2 (.d/.e/)|(fa).f (g<e)a|(d2{fe}d) d2||
+

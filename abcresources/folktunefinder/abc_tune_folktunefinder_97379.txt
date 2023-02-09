@@ -1,0 +1,24 @@
+X:175
+T:Tobin's Favourite
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+K:D
+"D"DFA dcd|"A"ecA cde|"D"~f3 "G"~g3|"Em"ecA "A"GFE|
+"D"DFA dcd|"A"ecA cde|"D"~f3 "G"gec|"A"edc "D"d3:|
+|:"D"dfa agf|"A"efg efg|"D"~f3 "G"~g3|"Em"ecA "A"GFE|
+"D"DFA dcd|"A"ecA cde|"D"(3fga f "G"gec|"A"edc "D"d3:||
+S:https://www.folktunefinder.com/tunes/97379
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

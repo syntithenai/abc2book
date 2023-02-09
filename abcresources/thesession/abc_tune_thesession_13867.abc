@@ -1,0 +1,83 @@
+X: 13866
+T: Fox Chase, The
+R: jig
+M: 6/8
+K: Gmajor
+|:BAG B2d|BAG B2d|AFD D3|AFD D3|
+BAG B2d|BAG B2d|AFd AFd|AFD D3:|
+|:fef a2f|(3f/g/f/ef d2 f|(3f/g/f/ef afd|AFD D3|
+fef a2f|(3f/g/f/ef d2 f|(3f/g/f/ef afd|AFD D3:|
+|:BAG B2d|BAG B2d|AFD D3|AFD D3|
+BAG B2d|BAG B2d|AFd AFd|AFD D3:|
+|:fef a2f|(3f/g/f/ef d2 f|(3f/g/f/ef afd|AFD D3|
+fef a2f|(3f/g/f/ef d2 f|(3f/g/f/ef afd|AFD D3:|
+|:BGB def|gdc B3|GBd gdB|ecA AcA|
+BGB def|gdc B3|GB/c/d gdc|BGF G3:|
+|:d^cd G3|dB/^c/d G3|ece A3|ece A3|
+d2B e2B|d2B e2B|def gdc|BGF G3:|
+|:BGB def|gdc B3|GBd gdB|ecA AcA|
+BGB def|gdc B3|GB/c/d gdc|BGF G3:|
+|:d^cd G3|dB/^c/d G3|ece A3|ece A3|
+d2B e2B|d2B e2B|def gdc|BGF G3:|
+M:4/4
+D|:G2 GB d2 d2|dedB d2 BA|G2 Bd edBG|A4 G2 (3Bcd|
+g3e f2 (3gfe|dedB A2 GE|GABG AGAB|G4 G2:|
+D|:G2 GA B2 B2|c2 cA B2 B2|c2 cA BcBG|A4 G2 (3def|
+gagf gfed|edBG A2 GE|GABG AGAB|G4 G2:|
+D|:GABc d2 g2|e2 g2 d2 g2|GABc dedB|A4 G2 (3def|
+g3a gfed|edBG A2 GE|GABG AGAB|G4 G2|
+D|:GABc d2 g2|e2 g2 d2 g2|GABc dedB|A4 G2 (3GAB|
+(3cde =f4 ed|e2 dB dBgB|A2 GE GABG|AA/B/ AB G2 G2||
+BD G2 G2 G2|BD G2 G2 G2|Ad ed d2 d2|Ad ed d2 d2|
+DEFD E3F|ABcA dAFD|DEFD E3F|ABcA d2 d2|
+DEFD E3F|ABcA dAFD|DEFD E3F|ABcA d2 d2||
+fA d2 d2 d2|fA d2 d2 d2|fA d2 d2 d2|=f4 ed e2|
+dB dBgB A2|GE GABG AA/G/|AB G2 G4|gg/f/ g2 g4|
+gg/f/ g2 g4|bd g2 g4|bd g2 g4|d^c d2 d4|
+d^c d2 d4|fA d2 d4|ad f2 f4|f4 f4|
+M:6/8
+|:gdd Bdd|cdd Add|gdd Bdd|cdd Add|
+gdd Bdd|cdd Add|gdd Bdd|cdd Add|d3d3||
+M:4/4
+|:BG G2 AG G2|BG G2 AG G2|BG G2 AG G2|BG G2 AG G2|
+BG G2 AG G2|BG G2 AG G2|BG G2 AG G2|BG G2 AGGE|
+DEGA BG G2|AG G2 BG G2|AGBG cGBG|A2 A2 G2 (3def|
+gagf gfed|edBG A2 GE|GABG AGAB|G4 G2|
+a|bg g2 ag g2|bg g2 ag g2|bg g2 ag g2|bg g2 ag g2|
+bg g2 ag g2|bg g2 ag g2|bg g2 ag g2|bg g2 agge|
+dega bg g2|ag g2 bg g2|agbg c'3b|a2 a2 g4|
+gagf gfed|edBG A2 GE|GABG AGAB|G4 G2|
+A|DEGA BG G2|AG G2 BG G2|DEGA BG G2|BGcG AGEG|
+DEGA BG G2|AG G2 BG G2|DEGA BG G2|cABG AGEG|
+G3A BG G2|AG G2 BG G2|DEGA BG G2|cABG AGEG|
+DEGA BG G2|AG G2 BG G2|DEGA BG G2|cABG AGEG|
+G3A BG G2|AG G2 BG G2|GFGA Bdge|dBGB A2 GE|
+G3A BG G2|AG G2 BG G2|GFGA Bdge|dBGB A2 GE|
+G3A BG G2|AG G2 BG G2|GFGA Bdge|dBGB A2 GE|
+g3a bg g2|dg g2 bg g2|gfga gfed|edgB AG G2|
+g3a bg g2|dg g2 bg g2|gfga gfed|aged edgB|
+g3a bg g2|dg g2 bg g2|gfga gfed|edgB AG G2|
+g3a bg g2|dg g2 bg g2|gfga gfed|aged edgB|
+DEGA BG G2|bg g2 ag b2|DEGA BG G2|g3e fdcA|
+DEGA BG G2|bg g2 ag b2|DEGA BG G2|g3e fdcA|
+A4 A4|A4 A4|A4 A4|A4 A4|
+A4 A4|A4 A4|A4 A4|A4 A4|
+M:3/4
+K: Dmaj
+d4 dc|B4 BA|Bd d4|dc B4|
+=B2 A4|A2 B2 BA|GE F2 A2|A4 B2|
+=c4 B2|B2 BA GE|F2 A2 A2|d2 de f2|
+f2 fe fa|a4 af|d2 c2 B2|g4 B2|
+B2 A4|B2 BA GE|F2 A4|B2 =c4|
+B4 BA|GE F2 A2|A2 Bd d2|c2 B4|
+=B2 A4|B2 A4|B2 A4|B2 BA GE|
+F2 A4|B2 =c4|B2 BA GE|F2 A4|
+de f4|fe fa a2|a2 fd d2|c2 B2 g2|
+g2 B2 =B2|A4 B2|BA GE F2|A4 B2|
+=c4 B2|B2 BA GE|F2 A4|A4 A2||
+M:9/8
+|:FGF FED G2 E|FGF FED E2 D|FGF FED G2 B|AFD DEF E2 D:|:
+B=cB BAG FGA|B2 E E2 F G2 B|ABc dcB ABc|d2 D DEF E2 D:|:
+fgf fed g2 e|fgf fed e2 d|fgf fed g2 b|afd def e2 d:|:
+gfe dcB AGF|B2 E E2 F G2 B|ABc dcB ABc|d2 D DEF E2 D:|
+

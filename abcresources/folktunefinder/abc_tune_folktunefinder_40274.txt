@@ -1,0 +1,28 @@
+X:75
+T:La Damo de la Respelido
+O:France
+A:Provence
+R:Marche
+C:J. Ginas
+S:Carnet du tambourinaire Ginas (1924)
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-02-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bb
+V:Galoubet
+d4 | f2e2 | c3A | F4 | e4 | g2e2 | c3B | d4 | f2ff | e2dc | g2gg | g4 | G2AB | c2de | d2c2 | B4!fine! ::
+d2dd | d2dd | f2cc | d2B2 | d2dd | c2cc | d2=ec |1 f4 :|2 f3f |:
+cccc | d2Bf | cB AG | F3f | cccc | d2Bf | ccd=e | f2F/F/F/F/ | BB cc |
+d3d/f/ | ec cg | f2 F/F/F/F/ | BB cc | d3d/f/ |1 e>c d>c | B3f :|2 e>c d>[fc] | [b4B4]!D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/40274
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Provence.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

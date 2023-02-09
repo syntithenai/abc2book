@@ -1,0 +1,28 @@
+X:549
+T: "Die Spinnerin"
+N: Z1229
+O: Europa, Mitteleuropa, Deutschland, Boehmen
+R: Liebes - Lied
+M: 3/4
+L: 1/8
+K: G
+d2 | g2d2de | dcB2
+d2 | e2e2dc | B4
+GB | B2A2Ac | c2B2
+dg | ecB2A2 | G4
+B2 | A2A2B^c | d2d2
+B2 | A2A2B^c | d2d2
+e2 | d4^c2 | d4
+dg | ecB2A2 | G4
+S:https://www.folktunefinder.com/tunes/69408
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

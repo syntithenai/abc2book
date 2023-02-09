@@ -1,0 +1,26 @@
+X:750
+T:Black Velvet Band, The
+M:3/4
+L:1/4
+R:Waltz
+D:asin=B000000E0I(Tommy Makem: Songbag)
+D:asin=B000000LL3(Irish Ceili Band And Singers: The Magic Of Ireland [BOX SET])
+D:asin=B000001831(Fannigan's Isle: Orange &amp; Green)
+D:asin=B000001MV4(North Sea Gas: Caledonian Connection)
+D:asin=B000002NVV(The Irish Rovers: The Unicorn)
+D:asin=B000005ERZ(Great Irish American Singalong: Great Irish American Singalong)
+D:asin=B00000G5E6(Pat Murphy: Irish Jamboree)
+K:D
+A|"D"A2A|FGA|GF2|F2E|DEF|DCB,|"A"A,3|A,2G|\
+"D"FFF|A,B,C|"Bm"D2E|F2D|"Em"EFG|"A"CDE|"D"D3|D2z||
+S:https://www.folktunefinder.com/tunes/111679
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

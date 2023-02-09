@@ -1,0 +1,34 @@
+X: 31
+T:Julia, a Quadrile. GS.031
+M:2/4
+L:1/16
+Q:80
+S:George Spencer m/s, Leeds,1831
+R:Hornpipe
+O:England
+A:Leeds
+N: conventional pause marks are written
+N:above and below the final double ba
+H:1831
+Z:vmp.Cherri Graebe
+K:Bb
+F2 | f=efg f_ecA | "crs"B2B2B2 (Bc) | d2(dc) B2d2 | BABe cdd=e | f=efg f
+_edc
+| !
+B2B2B2 (Bc) | "crs"d2d2 cBcd | B2b2B2 :||: F2 | B2(Bc) d2(dc) | BAcA  F2
+(FA)
+| B2)Bc) d2(dB) |! 
+BAcA F4 | fede fgab | fede fgab | fdBd cBcd | B2B2"pause"B2 :||
+S:https://www.folktunefinder.com/tunes/104705
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

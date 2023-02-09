@@ -1,0 +1,33 @@
+X:853
+T:Bunker Hill
+O:england
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+N:As played
+H:The sharp 'G's in part three may or may not be a concious 'lift'
+H:into A Major. I have watched him play this and he does lift the hand
+H:up in phrases involving the high 'b'. Maybe even a 2nd position shift
+M:4/4
+K:G
+GE~E2 D4G,4 | (3.E.F.G AB {d}c2Bc | ABAG EG~G2 | ABcA (3.d.d.d cA |
+GE~E2 DCDE | FGAB (3cBc Bc | (3.A.A.B AG EG~G2 | AB{d}cA (3.d.d.d cA ||
+Gc~c2 dc~c2 | dc (3.d.c.B cBAG | Ad~d2 fd~d2 | Ad (3.d.d.c dcAG |
+(3EFG AB cedB | cedB (3cBc Bc | (3dcB (3cBA BGAG | ABcA d3D3g ||
+|: fd (3.d.d.d fdad | fddf a2g-f | {a}ge (3.e.e.e ^gebg | a^geg b2a=g |
+fd~d2 Ad~d2 | (3.d.d.c AB czAB | {d}cB (3.c.B.A BGAG |1 ABcA d3g :|2 ABcA d2cA ||
+S:https://www.folktunefinder.com/tunes/21302
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

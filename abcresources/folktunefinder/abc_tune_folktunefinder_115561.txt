@@ -1,0 +1,29 @@
+X:18323
+T:Vite, vite, vite (Arrg.)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Asturias, canciones
+M:3/8
+L:1/8
+Q:3/8=100
+K:D
+F|:"D"A2 B|"A"AGA|"D"F D2-|"D"D z A|
+"G"d2 e|"A"dcA|"D"B A2-|"D"A z F :|
+|"Em"GFE|"D"A2 F|"Em"GFE|"D"A2 A|
+|:"D"AFD|"Em"EFG|"Em"GEC|
+[1 "D"D2 A:|[2 "D"D2 z||
+S:https://www.folktunefinder.com/tunes/115561
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

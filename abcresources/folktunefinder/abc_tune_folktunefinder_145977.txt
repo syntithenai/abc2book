@@ -1,0 +1,18 @@
+X:2
+T:VII. Then sit thee downe,
+T:Second part.
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+M:C
+L:1/4
+K:G mix bass
+%%MIDI transpose -24
+g4 g6 ^f e d4 z d c B c A d2 G2 G2 d8 A B c d
+S:https://www.folktunefinder.com/tunes/145977
+S:http://www.laymusic.org/music/dowland/sit/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

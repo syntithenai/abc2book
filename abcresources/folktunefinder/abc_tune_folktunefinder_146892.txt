@@ -1,0 +1,27 @@
+X:19
+T:Meter Reader
+T:Le Releveur
+T:Dance: Rolling in the Hey
+R:reel
+N:Measures 9-12 doubled to extend B part to 20 measures
+M:4/4
+L:1/8
+K:G
+BcBG EFGA | BcBG A4 | DEFG ABAF | GABc d4 |
+BcBG EFGA | BcBG A4 | DEFG ABAF | G2 FG E4 :|
+G,2 (3B,A,G, A,B,CA, | B,DGB d2 dB | ceAc BAGB | AGFE DCB,A, |
+G,2 (3B,A,G, A,B,CA, | B,DGB d2 dB | ceAc BAGB | AGFA G4 |
+G,2 (3B,A,G, A,B,CA, | B,DGB d2 dB | ceAc BAGB | AGFE DCB,A, |
+G,2 (3B,A,G, A,B,CA, | B,DGB d2 dB | ceAc BAGB | AGFE DCB,A, |
+G,2 (3B,A,G, A,B,CA, | B,DGB d2 dB | ceAc BAGB | AGFA G4 |]
+S:https://www.folktunefinder.com/tunes/146892
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

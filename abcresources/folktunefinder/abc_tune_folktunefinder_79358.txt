@@ -1,0 +1,26 @@
+X:254
+T: ZU STRASSBURG AUF DER SCHANZ
+N: E1393
+O: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt, Dreieichenstein
+R: Staende -, Soldaten - Lied, Deserteur
+M: 4/4
+L: 1/8
+K: F
+C2 | F3CF2G2 | A4z2
+F2 | A3AG2G2 | F4z2
+FG | A2A2A2GA | B4z2
+BA | GGGGG2FG | A2
+cBA2G2 | FAGBA2
+cB | A2G2F2
+S:https://www.folktunefinder.com/tunes/79358
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende -, soldaten - lied, deserteur
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Hinche's Delight
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: BAB GFG | ADE F2 G | AFA fed | cAG FGA |
+BdB GFG | ADE F2 G | AFA fed |[1 cAF G2 :|[2 cAF GBd ||
+|: ~g3 afd | gdg a2 d | gdg b2 g | a2 g fga |
+geg fde | fed ^cde | faf ded |[1 cAF GBd :|[2 cAF G2 B ||
+|: dge dBG | B/c/dB cAF | dDd faf | def gfg | 
+agf gfe | fed ^cde | faf ded |[1 cAF G2 B :|[2 cAF G2 A |]
+S:https://www.folktunefinder.com/tunes/163878
+S:http://www.thesession.org/tunes/display/4261
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:2
+T:Saint le Seigneur - AL173
+C:P. et E. Daniel
+%%staves [(1 2) (3 4)]
+M:C|
+Q:1/2=66
+K:Gm
+V:1
+B4A4|G4F2G2|[M:3/2]D4D2G2G2F2|G8|:F4|[M:C|]B4A2G2|
+w:Saint! Saint!|Saint! le Sei-|gneur, Dieu de l'u-ni-|vers!|Le|ciel et la|
+w:**|***|*****|*|B-|ni soit ce-|
+V:2
+D4F4|E4D2C2|B,4B,2C2D2C2|B,8|D4|D2F2E4|
+V:3
+x8|x6G,2|A,4G,4A,4|x8|x4|x8|
+V:4
+G,4G,,4|C,4D,2E,2|F,4E,4D,4|G,8|B,2A,2|G,4C,4|
+V:1
+F2F2D2D2|G4F2E2|D4D4|G4A4|B4A2c2|B4A4|[M:3/2]G8:|
+w:ter-re sont rem-|plis de ta|gloi-re.|Ho-san-|na au plus|haut des|cieux.|
+w:lui qui vient au|nom du Sei-|gneur.*|Ho-san-|na au plus|haut des|cieux.|
+V:2
+A,2C2B,4|A,8|B,8|B,4C4|D4C2D2|E4F4|D8|
+V:3
+x4G,2F,2|E,6F,2|G,8|G,4F,4|E,4B,2A,2|G,4C4|B,8|
+V:4
+D,4E,2D,2|C,8|G,,8|z8|z4z2B,,2|C,4D,4|G,8|
+S:https://www.folktunefinder.com/tunes/182200
+S:http://moinejf.free.fr/messe/messeS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

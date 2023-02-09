@@ -1,0 +1,32 @@
+X:5680
+T:Skinnbracka med lucku
+L:1/8
+M:3/4
+O:Sweden
+R:Polska
+R:Hambo
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000c9f.html
+%%ID:00000c9f
+K:D
+d2F2G>A  | B2A4      | d2F2G>A   | B2A4 | \
+G2g>fg>e | f>e de f2 | e>f ed cB | A>B AG FA |
+d2F2G>A  | B2A4      | d2F2G>A   | B2A4 | \
+G2g>fg>e | f>e de f2 | e>d ce ac | d2 d4 ::
+%
+f2 f>g fe   | d2 d>e dc  | B2 G>B dB | B2 A4 |\
+e2 e>f ed   | c2 c>d cB  | A2 A>B AG | G2 F4 |
+f2 f>g fe   | d2 d>e dc  | B2 G>B dB | B2 A4 |\
+A>B c>d e>f | g2 A>c e>f | g2 A>c ec | d2 d4:|
+S:https://www.folktunefinder.com/tunes/37215
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Hambo
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

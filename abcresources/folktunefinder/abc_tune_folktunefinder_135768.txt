@@ -1,0 +1,26 @@
+X:3
+T:The Cage
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in A
+R:hornpipe
+M:4/4
+L:1/8
+K:G
+GA | BAcB AGBA | GDDD D2EF | GFAG BAcB | AGFG A2GA |
+BAcB AGBA | GEAG FEDC | B,DGD EcAF | A2 G2 G2 ::
+(3def | gGBd gfag | fegf e2 (3gfe | dDFA d^ced | cBgB A2dc |
+BAcB AGBA | GEAG FEDC | B,DGD EcAF | A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/135768
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

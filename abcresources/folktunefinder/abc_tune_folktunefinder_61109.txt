@@ -1,0 +1,39 @@
+X:9076
+T:La Soraxuana
+T:Danza Les Vieyes
+R:Danza
+C:Tradicional. Recoyo de Clemente Daz
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xos Lluis Colodrn Ardura
+O:Mieres
+A:Asturies
+G:Arrg.
+Z:Revista Asturies
+E:2 Voces
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+|z3 B|
+BBBB|c2 cc|dBAA|A2 A2|
+|z4|z4|z4|z3 B|
+BBBB|c2 cc|dBAA|A2 A2|
+|z4|z4|z4|z3 B|
+V:2
+|z4|
+z4|z4|z4|z3 B|
+|BBBB|c2 cc|dBAA|A2 A2|
+z4|z4|z4|z3 B|
+|BBBB|c2 cc|dBAA|A2 A2|
+S:https://www.folktunefinder.com/tunes/61109
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Rhythm Danza
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

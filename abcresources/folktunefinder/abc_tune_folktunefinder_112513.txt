@@ -1,0 +1,29 @@
+X:86
+T: Siji dushu ge
+N: C0108
+O: China,Hubei, Hongan
+S: I, 407]
+N: neues Volkslied. Die Melodie wurde aber schon in der Ming-Dynastie
+N: gesungen.
+N: Vereinzelt Verzierungen.
+R: Xiaodiao, Yuelang diao. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: G
+e4d2B2 | e4d2B2 | A2A2BdBA | G8
+d4E2D2 | G3ABABd | A8
+e4d2B2 | e4d2B2 | A2A2BdBA | G6
+E2 | G2G2G2E2 | d2deB2A2 | G2GABABd | A8
+B2G2A2A2 | GABdA4 | E2DEAGE2 | D8
+S:https://www.folktunefinder.com/tunes/112513
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, yuelang diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

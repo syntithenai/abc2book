@@ -1,0 +1,24 @@
+X: 1
+T: Ardeleana
+O: Romania
+Z: John Chambers <jc@trillian.mit.edu>
+N: The final 'a' should have a short mark over it.
+M: 7/16
+L: 1/16
+K: D
+|: "D"(4ABAG FG A2 |    f2e d2 c2  |  "G"B2A    GA BG | "D"(4ABAG FE D2 |
+|  "D"(4ABAG FG A2 |    f2e d4     | "A7"(4efge fd ec | "D"d3     d4 :|
+|: "D"fga    fd ef | "G"g2f ed cd  |      B2A   GA BG | "D"A2G    FE D2 |
+|  "D"(4ABAG FG A2 |    f2e dc d^d | "A7"(4efge fd ec | "D"d3     d4 :|
+S:https://www.folktunefinder.com/tunes/5291
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Ardeleana.abc
+S:http://trillian.mit.edu/~jc/music/abc/Romania/Ardeleana.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 7/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

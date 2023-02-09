@@ -1,0 +1,40 @@
+X:36
+T:Cotillon or figure dance
+S:Petrie's Collection of Strathspey Reels and Country Dances &c., 1790
+Z:Steve Wyrick , 6/4/04
+N:Petrie's First Collection, page 17
+L:1/8
+V:1 name = "violin"
+V:2 name = "bass" clef=bass middle=d transpose=-24
+M:2/4
+R:Reel
+K:E
+[V:1] ee/f/ ge|cc/d/ec|BAGF|E/F/G/F/ EE|ee/f/ge|cc/d/ec|BAGF|E2       E2:|
+[V:2] E2    e2|a2   ga|b2B2|e2       E2|E2   e2|a2   ga|b2B2|z/e/B/G/ E2:|
+[V:1] |:EE/F/ GE|BB/c/ dB|cagf|e/d/e/f/ e    e   |EE/F/ GE|BB/c/ dB|ca g/f/e/d/|e2       e2 :|
+[V:2] |:E2    e2|d2    B2|A2B2|(e2      d/)a/g/f/|g2    e2|d2    B2|Aa bB      |z/e/g/b/ e'2:|
+[V:1] |:ge/f/ ge |aff a|gb be|d/e/f/d/ B2      |ge/f/ ge |af/g/ af |g/b/g/e/ f/a/f/d/|e2E2:|
+[V:2] |:e2    e'2|b2d'2|e'2g2|bB       b/a/g/f/|e2    e'2|b2    d'2|e'  e    b   B   |zeE2:|
+[V:1] |:E/B/G/B/ E/B/G/B/|E/c/A/c/ E/c/A/c/|Fagf|e/d/e/f/ e    e   |E/B/G/B/ E/B/G/B/|\
+[V:1] E/c/A/c/ E/c/A/c/|Fa g/f/e/d/|e2       e2:||
+[V:2] |:E2       G2      |A2       c2      |afbB|(e2      e/)a/g/f/|e2       g2      |\
+[V:2] a2       c'2     |af b   B   |z/e/g/b/ e2:||
+% The above code was written using Phil Taylor's BarFly abc reader/converter/player program.
+% Other abc converters (e.g. abc2ps) may require everything after the word "bass" to be
+% deleted in the V:2 header line for correct display of notes the bass clef, or require that
+% the M: and K: fields be repeated directly under the V:1 header line to display the meter
+% and key signature on both staffs.  Some abc MIDI players (e.g. abc2midi) will not play
+% multiple-voiced abc code.  -SW
+S:https://www.folktunefinder.com/tunes/72063
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_1st_Coll_Bass.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/CotillonOrFigureDance.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Cotillon_or_figure_dance.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

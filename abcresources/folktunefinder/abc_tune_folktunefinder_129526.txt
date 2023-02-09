@@ -1,0 +1,31 @@
+X:14
+T:Mn na h-Eireann (Women of Ireland)
+R:Air
+C:Sean O Riada (words by Peadar O Doirnin 1704-1769)
+N:From James Galway's &quot;Legends&quot;
+N:CD. The {G}A is actually a slide
+N:from G to A which makes up for
+N:the missing beat in the measure.
+N:(There really isn't a good way
+N:to notate slides in ABC.)
+D:James Galway's &quot;Legends&quot; CD
+D:Joanie Madden &quot;Song of the Irish Whistle&quot;
+M:4/4
+L:1/4
+K:G
+{G}ABc | g2 a~g | fdA2 | ABc2 | BcA2 | ~A4 |
+{G}ABc | g2 b~a | gfdA-| AABc-| cBcd-| dcBd |
+G2 G g-| gaba-| ag2e | de2 d | cBAg-| ga2g |
+fd2 e | cA2G | FG3 |]
+S:https://www.folktunefinder.com/tunes/129526
+S:http://trillian.mit.edu/~jc/music/abc/mirror/personales.alcavia.net/~jmoreno/tw/repertor.htm
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

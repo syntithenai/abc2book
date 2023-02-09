@@ -1,0 +1,18 @@
+X:0
+T:Whistle O'er the Lave O't
+G:song
+M:4/4
+L:1/8
+Q:1/4=96
+K:F
+% lydian/major hexatonic
+F>C  D<F A>GA2|c>dA>f G>FD2|F>CD<F A>GA>f|F<FA>F G2F2||
+cd/e/f>c d>cA2|c>dA>f G>FD2|f>ad>f c>dA>f|F<FA>F G2F2|]
+S:https://www.folktunefinder.com/tunes/30081
+S:http://www.campin.me.uk/Music/Modes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

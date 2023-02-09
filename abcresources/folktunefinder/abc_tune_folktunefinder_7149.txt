@@ -1,0 +1,29 @@
+X: 1
+T: Keshever Shtikele
+R: bulgar, freylach
+M: 2/4
+L: 1/8
+K: Dphr^F
+"A"[|] DFA | "D"d>^c dA | F3 A | AF/A/ "Cm"(3GFE | "D"D4 \
+| "Gm"BB AG | FG AB | "D"A4 | z DFA | "D"d>^c dA |
+| F3 A | AF/A/ (3GFE | "Cm"DE C2 | (3C=B,C (3BAG | FC DE \
+| "D"D4 | z "B"|]| A_AG | "D"F>G AA | AA Ad |
+| dA AF | FE ED | "Gm"BB AG | FG AB | "D"A4 \
+| z A_AG | "D"F>G AA | AA Ad | dA AF | FE ED |
+| (3C=B,C (3BAG | FC DE | "D"D4 | z "C"|: D=EF \
+| "G"G>A =BB | =BB BB | =Bc BA | =B>A G2 | "Gm"^c d2 d |
+| "(A7)"^c_B AG | "D"A4 | z "B":| A_AG | "D"F>G AA \
+| AA Ad | dA AF | FE ED | "Gm"BB AG | FG AB |
+| "D"A4 | z A_AG | "D"F>G AA | AA Ad | dA AF \
+| FE ED | (3C=B,C (3BAG | FC DE | "D"D4 | z :|
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/7149
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/KesheverShtikele.abc
+% Rhythm Bulgar, freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

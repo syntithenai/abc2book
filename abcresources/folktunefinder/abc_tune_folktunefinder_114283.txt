@@ -1,0 +1,20 @@
+X: 26
+T:Major O'Flacherty
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:C
+G/2F/2|:"C"EGc c3|"G"dBG "Dm"F2E|"G"DFA "Dm"dfe|"D"dec "G"BAB|
+"C"EGc c3|"G"dBG "Dm"F2E|"G"DFA "Dm"dfd|[1"G"BAB "C"c3:|[2 "G" BAB "C" c2e/2f/2|
+"C"gec cBc|"G"dBG "Dm"F2E|"G"DFA "Dm"dfe|"D"dec "G"B2e/2f/2|
+"C"gec c3|"G"dBG "Dm"F2E|"G"DFA "Dm"dfd|"G"BAB "C"c3|
+S:https://www.folktunefinder.com/tunes/114283
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

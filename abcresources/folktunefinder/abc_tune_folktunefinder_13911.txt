@@ -1,0 +1,30 @@
+X: 1
+T: the Bob o' Dowally
+T: Salmond tail up the water
+T: Bainis choinich
+T: Carlin is your daughter ready
+R: strathspey
+B: RSCDS 2-10a
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Pronounced Dooley.  A village near Dunkeld.
+M: C
+L: 1/8
+K: A
+|: "A"A>e e2 e>A c<A | "E7"B>e e2 "G"d>=G B<G \
+|  "A"A>e e2 e>A c<A | "E7"E/E/E E2 "G"=G>A B<G :|
+|: "A"A>a a>e c>a c<A | "G"B>=g g>e d>g B<=G \
+|  "A"A>a a>e c>e a<e | "G"=g<b "(C)"e<g "G"d<g B<=G :|
+S:https://www.folktunefinder.com/tunes/13911
+S:http://trillian.mit.edu/~jc/music/abc/jig/BobODowallyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/BobODowallyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/BobODowallyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BobODowallyJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BobODowallyS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/BobODowallyS.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

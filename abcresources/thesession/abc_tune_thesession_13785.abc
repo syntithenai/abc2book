@@ -1,0 +1,11 @@
+X: 13784
+T: Fortune
+R: jig
+M: 6/8
+K: Dmajor
+|:DEF A2A|ABA FDA|BAA BAA|Bcd A2F|
+DEF A2A|ABA FDA|d2B A2F|1 EFE D2A:|2 EFE D3||
+K: Edor
+|:e2e edB|d3 e2B|d2d dBA|d3 c3|
+d2c BAA|FDD DFA|d3 cBA|1 FED E2B:|2 FED E2A||
+

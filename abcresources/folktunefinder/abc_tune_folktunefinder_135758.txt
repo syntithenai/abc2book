@@ -1,0 +1,23 @@
+X:7
+T:Farandole de Frjus
+T:Farandole de Saint Cassien
+O:France
+A:Provence
+C:Trad.
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Fmajor
+A3 A3|c3-cBA|GAB cde|fed c3|A3 A3|c3- cBA|GAB cde|[1 f3-f zz:|[2 f3-fzc|:
+cAc cAc|d2d d3|e2e ede|fed !breath!c2c|cAc cAc|d2d  d3|e2e ede|[1 f3-f zc :|[2 f2-fzz|]
+%%footer $D   Galouvielle-MBe 2005 \nFarandole France
+S:https://www.folktunefinder.com/tunes/135758
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Suite%2520de%2520farandoles.abc
+% Rhythm Farandole
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

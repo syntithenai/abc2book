@@ -1,0 +1,26 @@
+X: 1
+T: Tripping To The Well
+M: 2/4
+L: 1/8
+R: polka
+K: Gmaj
+|: GA BG | EG ED | GA Bd | B2 A2 |GA BG | EG ED | BG DF | A2 G2 :|
+|: dB GA | BG ED | dB GA | B2 A2 |dB GA | BG ED | BG DF | A2 G2 :|
+|: G>A BG | EG ED | G>A Bd | B2 A2 |G>A BG | EG ED | BG D>F | A2 G2 :|
+|: d>B GA | BG ED | d>B GA | B2 A2 |d>B GA | BG ED | BG D>F | A2 G2 :|
+|: G>A BA/G/ | EG ED | G>A B/c/d | Bc/B/ A2 |GG/A/ BG | EG ED | BG D/E/F/G/ | A2 G2 :|
+|: dd/B/ GG/A/ | B/c/B/G/ ED | dB G/A/B | Bc/B/ AB/c/ |d>B GA | BG ED | B/A/G/E/ D/E/F/G/ | A2 G2 :|
+|:G/F/G/A/ B/A/G | E/F/G E/F/E/D/ | GG/A/ B/c/d | B2 A/B/A/F/ |G2 BA/G/ | EG ED | Bd D/E/F/G/ |1 A2 G2 :|2 Ad GB/c/ ||
+|: d/e/d/B/ G>A | Bd Ad | d/e/d/B/ G>d | B2 AB/c/ |d/e/d/B/ Gd | Bd Ad | Bd D/E/F/G/ |1 A2 GB/c/:|2 A2 G2 ||
+|: G z/B/ z/G/ z | E z/D/ z/D/ z | G z/B/ z/d/ z | B z/ A2 z/ |G z/B/ z/G/ z | E z/D/ z/D/ z | B z/D/ z/F/ z | A z/ G2 z/ :|
+|: d>B GA | BG ED | d>B GA | BA A2 |d>B GA | BG ED | dG D/E/F/G/ | AG G2 :|
+S:https://www.folktunefinder.com/tunes/178845
+S:http://www.thesession.org/tunes/display/4158
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

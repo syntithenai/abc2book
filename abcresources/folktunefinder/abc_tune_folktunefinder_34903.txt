@@ -1,0 +1,26 @@
+X: 7686
+T:Polska fr W\"armland (\#2)
+R:Polska
+O:Sweden
+M:3/4
+K:D
+(3:2:3d2a2g2 b>g|(3:2:4a2g3e/g/ g<a|\
+(3:2:4a2d3f/a/ g>e|dc d<g e>f|\
+(3:2:3d2a2g2 b>g|(3:2:4a2g3e/g/ g<a|
+(3:2:4a2d3f/a/ g>e|1 d<c d4 :|2 d<c d2|:\
+fg|\
+(3:2:3a2a2g2 e>c|d2{c}[d2D2] e>c|
+d2 {c}[d2D2] e>c|d>c (3def d>c|\
+(3:2:3A2a2g2 e>c|d2 {c}[d2D2] e>c|\
+d2 {c}[d2D2] e>d|(3cBc d2:|
+S:https://www.folktunefinder.com/tunes/34903
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

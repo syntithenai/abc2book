@@ -1,0 +1,19 @@
+X:64
+T:siul a ruin
+R:double jig
+M:6/8
+Q:1/4=160
+K:D
+|: "D"A2E "D"FDD | "F#m"ABc "D"d2A | "D"A2E "D"FDD | "D"FEE "A"E2F    |
+|  "D"A2E "D"FDD | "F#m"ABc "D"d2A | "D"d2A "G"BAG | "D"FDD "D"D2F  :|
+|: "D"d2e  "D"fdd  | "Em"gee "D"fdd    | "Em"gee  "D"fdd   | "Bm"Bcd "F#m"A2c     |
+|  "D"d2e  "D"fdd  | "Em"gee "D"fdd    | "Bm"Bcd  "G"ABG| "D"FDD "D"D2c   :|
+S:https://www.folktunefinder.com/tunes/2162
+S:http://www.slainte.ch/abc/own.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

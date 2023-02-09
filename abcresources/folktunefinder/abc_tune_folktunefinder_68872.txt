@@ -1,0 +1,25 @@
+X:13
+T: ES IST EIN WIRTHSHAUS AN DEM RHEIN
+N: Z0014
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+R: Sagen - Lied, Romanze
+M: 2/4
+L: 1/16
+K: F
+ | C4F2A2 | c6A2 | G2A2G2 | F6
+f4e2d2 | c4c4 | B2d2c2 | c6
+C4F2A2 | c6A2 | G2A2G2 | F6
+f4e2d2 | c4c4 | B2d2c2 | c6 | z4
+c4 | A2c2cccc | f2f2d2d2
+d2d2dfed | d2c2c2
+c2 | c2c2dcBA | B4c4 | F4z4
+S:https://www.folktunefinder.com/tunes/68872
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Sagen - lied, romanze
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

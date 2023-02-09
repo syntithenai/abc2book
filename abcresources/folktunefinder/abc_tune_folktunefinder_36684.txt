@@ -1,0 +1,30 @@
+X:3025
+T:Lancaster Lasses
+A:North-West
+M:3/4
+O:England
+R:Minuet
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000630.html
+%%ID:00000630
+K:D dorian
+A2 | \
+d3 c d2 | A4 d2 | e3 d e2 | A4 e2 |\
+f3 g f2 | e4 d2 | ^c3 d e2 | A4 e2 |
+f3 e f2 | A4 f2 | g3 f g2 | e2 f2 g2 |\
+a3 g f2 | c f3 e2 |1 d6 | d6 :|2 d6 | d3
+|:e fg| \
+a3 c c2 | c3 d c2 | c6 | B4 g2 | \
+g3 _B B2 | _B3 c B2 | _B6 | A4 f2 |
+f3 g f2 | e3 f e2 | d3 e ^c2 | d3 e fg |\
+a3 g f2 | c f3 e2 |1 d6 | d3 :|2 d6 | d6 |]
+S:https://www.folktunefinder.com/tunes/36684
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

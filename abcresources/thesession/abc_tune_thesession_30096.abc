@@ -1,0 +1,12 @@
+X: 30095
+T: Okarina, The
+R: reel
+M: 4/4
+K: Dminor
+M: 7/8
+def e2d2|cde A2A2|GAB AB GA|FGE FGA^c|
+def e2d2|cde A2A2|GAB ABGA|FG_E D2 A,2:|
+M:4/4
+DFA G2 BAF|DFAF GE (3EEE|DFA G2 ABd|^cBAG FGE2|
+DFA G2 BAF|DFAF GE (3EEE|_EGB EGB AG|[M:7/8]FG_E D2 A,2:|
+

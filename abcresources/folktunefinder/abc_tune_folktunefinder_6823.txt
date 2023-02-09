@@ -1,0 +1,23 @@
+X: 2
+T: Melodica Bulgar
+T: Bender's Bulgar
+C: Brian Bender (2005)
+M: C
+L: 1/8
+K: Ephr^G
+"A"|:"E"E>G Be dcBA | "Dm"(3GAB (3AGF "E"E3 E |  "E"GA GA Bc BA | "E"B4 e4 |
+   | "E"E>G Be dcBA | "Dm"(3GAB (3AGF  ED- D2 | "(E)"EF GA "Dm"(3BAG (3AGF | "E"E6 z2 :|
+"B"|:"E"ee dc Bc de | "(Am)"(3cBA "E"BG "Am"A4 | "Am"c3 d ee dc | "E"eB- B4 z2 |
+   | "E"ee dc Bc de | "(Am)"(3cBA "E"BG "Am"A4 | "Dm"D=C DE FA GF | "E"E6 z2 :|
+"C"|:"Am"(3AEA (3cAc ec BA | "Dm"d>A de fe dc | "E"Bc ^de dc BA | "Am"^de- e4 E2 |
+   | "Am"(3AEA (3cAc ec BA | "Dm"d>A de fe dc | "E"Bc ^de dc Bc | "Am"A6 z2 :|
+S:https://www.folktunefinder.com/tunes/6823
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bulg_Melodica.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/MelodicaBulgar.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

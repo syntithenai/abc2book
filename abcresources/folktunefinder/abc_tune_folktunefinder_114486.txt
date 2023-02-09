@@ -1,0 +1,22 @@
+X:200
+T: Siege of Ennis
+M: 2/4
+L: 1/8
+Q: 300
+R: Polka
+K: D
+f2 f>e|dB B2|Ad d/2c/2d/2e/2|fe ea|
+f2 f>e|dB B2|Aa af|ed d>e :|
+fd ed|fd ed|fa af|ed e>e|
+fd ed|fd ed|fa af|ed d>e :|
+S:https://www.folktunefinder.com/tunes/114486
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

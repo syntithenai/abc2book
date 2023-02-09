@@ -1,0 +1,28 @@
+X: 19
+T: The Tatler
+C:Unknown
+R:The Tatler
+I:abc2nwc
+M:6/4
+L:1/8
+K:Cdor
+B: John Playfords, The Dancing Master,  1728
+G2 \
+| G4c2   c4e2   | e4(dc) c4G2 | G4c2   c4e2   | e4(dc) c4B2 \
+| B4e2   e4g2   | g4(fe) e4B2 | B4e2   e4g2   | g4(fe) e4g2 |
+| g2g2g2 g2e2g2 | f2f2f2 f4f2 | f2f2f2 f2d2f2 | e2e2e2 e4e2 \
+| e3dc2  d3cB2  | c2d2B2 A4d2 | e3dc2  d2f2B2 | A4 G6 :|
+|: d2 \
+| d4g2   g4b2 | b4ag   g4d2 | d4g2   g4b2    | b4ag   g4b2  \
+| b2f2f2 f4b2 | b2e2e2 e4e2 | f3gf2  f2g2_a2 | g6     f4b2  | b2f2f2 f4b2 |
+| b2e2e2 e4e2 | f3ge2  f2f4 | g6     z4g2    | g2d2d2 d4g2  \
+| g2G2G2 G4g2 | g2d2d2 d4g2 | g2G2G2 G4d2    | e3dc2  d2=B4 | c6     c4 :|
+S:https://www.folktunefinder.com/tunes/4279
+S:http://trillian.mit.edu/~jc/music/abc/England/new.abc
+% Rhythm The tatler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

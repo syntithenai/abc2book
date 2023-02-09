@@ -1,0 +1,23 @@
+X:1
+T:Carpathian Tune
+S:String Beings 11/98
+N:From a hand-scribbled MS ...
+M:C|
+L:1/8
+K:Gm
+"Gm"GABc d2d2 | "(A7)"^c2c2 "(D7)"d4| "Gm"BAG2 A2B2 | "D"A4-A4 |
+ "Gm"GABc d2d2 | "(A7)"^c2c2 "(D7)"d4 | "Gm"BAG2 A2B2 | "Gm"G4-G4 :|
+|: "Cm"(3cdcG2 (3cdcG2 | "Gm"(3BcBG2 (3BcBG2 | "Cm"(3cdcG2 c3d | "D7"BcAB "Gm"G4|
+"Cm"(3cdcG2 (3cdcG2 | "Gm"(3BcBG2 B2c2 | "D7"d6 de | d2c2 B2A2 :|
+S:https://www.folktunefinder.com/tunes/146843
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/CarpathianGm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: Heather Mixture Twostep
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+D3[|G2G G2G|AGF G2D|B,2D G2B|(d3 d3)|
+B2B BGB|ded B3|ded c2B|A3 D3|
+G2G G2G|AGF G2D|B,2D G2B|d3 def|
+g2d Bcd|e2c A2G|F2d cBA|G3|]
+K:D
+A3[|F2A ^G2A|BA^G A3|f2e dcB|(A3 A3)|
+F2A ^G2A|BA^G A3|B2E EGF|E3 A3|
+F2A ^G2A|BA^G A3|f2e dcB|(A3 A3)|
+B2G EFG|ABA F2A|G2E ABc|d3|]
+K:C
+E3[|E2A A2G|EF^F G3|CD^D EF^F|(G3 G2)E|
+E2A A2G|EF^F G3|A2D DFE|D3 G2E|
+E2A A2G|EF^F G3|CD^D EF^F|(G3 G2)e|
+fed cBA|GAG FED|G^FG ^GAB|c3|]
+S:https://www.folktunefinder.com/tunes/163751
+S:http://www.thesession.org/tunes/display/8250
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

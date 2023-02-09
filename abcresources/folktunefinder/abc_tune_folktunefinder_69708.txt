@@ -1,0 +1,25 @@
+X:148
+T: BUNT SIND SCHON DIE WAELDER
+N: F0277
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Jahreszeiten, Herbst
+M: 6/8
+L: 1/8
+K: C
+ | C2CCB,C | D3C3
+E2EEDE | F3E3
+D2DCE^F, | G,3z3
+E2DC2B, | A,3A,3
+F2EDEC | B,3B,3
+CEGG,A,B, | C3z3
+S:https://www.folktunefinder.com/tunes/69708
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, jahreszeiten, herbst
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

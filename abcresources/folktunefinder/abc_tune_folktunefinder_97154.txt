@@ -1,0 +1,31 @@
+X: 16
+T:Reel de la Casa
+C:Trad Quebecois
+M:4/4
+L:1/8
+Q:500
+R:Reel
+Z:Si Garbutt Feb 03
+K:C
+A3 B c2A2|B2 c2 B4|B2 cd e3 d|c2 B2 c2 A2|!
+A3 B c2A2|B2 c2 B4|B2 cd e3 d|c2 B2 A4:|!
+M:4/4
+e2 fg a2 a2|g2 f2 e3 f|e2 d2 c2 B2|\
+M:2/4
+c2 A2|!
+M:4/4
+e2 fg a3 a|g2 f2 e3 f|e2 d2 c2 B2|\
+M:2/4
+A4:|
+S:https://www.folktunefinder.com/tunes/97154
+S:http://www.kennaquhair.com/tunes/tradtunes4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

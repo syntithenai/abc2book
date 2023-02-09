@@ -1,0 +1,29 @@
+X: 1
+T: Test of drone notes.
+N: There are several ways to do this, none really satisfactory.
+C: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+| [DD-][ED-] [FD-][GD-] [AD-][BD-] [cD-][dD-] \
+| [dD-][cD-] [BD-][AD-] [GD-][FD-] [DD-][DD-] |]
+V: 1 merge=2 stems=up
+| DE FG AB cd | cd BA GF ED |]
+V: 2 merge=1 stems=down
+| D8- | D8 |]
+| D8- | D8 |]
+S:https://www.folktunefinder.com/tunes/2385
+S:http://trillian.mit.edu/~jc/music/abc/test/Drone.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Drone.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Drone.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Drone.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

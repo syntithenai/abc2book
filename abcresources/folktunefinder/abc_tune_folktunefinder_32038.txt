@@ -1,0 +1,35 @@
+X: 1531
+T:A Waltz For Tara Lynne
+M:3/4
+L:1/8
+C:Elizabeth Durning
+S:The Maritime Fiddler
+K:G
+DC|"G"B,2D2G2|"G9"B3 dcd|"em"e2d2BA|"G"G6|
+B3dcd|e2d2B2|"Am"c3BAB|"D7"F4FE|
+DFA|d3dcd|e2d2cA|F3GFE|
+D2F2A2|c2d2e2|"F#dim"B4_B=c|"G"B4DC|
+B,2D2G2|B3"G9"dcd|"Em"e2d2BA|"G"G6|
+d4d2|"B7"^d4d2|"C"e2c3A|"Am"E6|
+"C"G3gfg|"C#dim"A3GFE|"G"D2G2B2|"Em"d3dcd|
+"Am"e2d3B|"D7"c2F2A2|"G"G6|"D7"F4A2|
+"G"G4B,C|D4D2|B,4G2|"B7"_E4F2|
+"C"E6|"Am"C6|"G"F2G2^G2|A4F2|
+G2A2^A2|"E7"B4Bc|"A7"^c2B2A2|G2_E2=E2|
+"D"A3^GAd|"D"^A4DC|"G"B,2D2G2|"G9"B3dcd|
+"Em"e2d2BA|"G"G^|d4d2|"B7"^d4d2|
+"C"e2c3B|"Am"E6|"C"CG3GFG|"C#dim"A3BFE|
+"G"D2G2B2|"Em"d3dcd|"Am"e2d3B|"D7"c2F2A2|
+"G"G2B2d2|g4B
+S:https://www.folktunefinder.com/tunes/32038
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

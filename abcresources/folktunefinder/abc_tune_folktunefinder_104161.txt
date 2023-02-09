@@ -1,0 +1,21 @@
+X:8
+T:A Strathspey Reel
+S:Neil Stewart: A New Collection of Scots & English Tunes Adapted to the Guittar
+B:NLS MH.s.252(3)
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+M:C
+L:1/8
+K:GMix
+c>dec     d<d[d2G2]|c>dec     AA A2|c>dec     dd[d2G2]|c>dcA      GG G2||
+d>age     d>cde    |g>c'ge    d>cA2|g<ec'e    d>cde   |c>dcA  ({c}G2)G2||
+c'>d'e'c' d'd'd'2  |c'>d'e'c' d'aa2|c'>d'e'c' d'd'd'2 |c'>d'c'a   gg g2||
+g>c'e>c'  d>cde    |g<ec'>e   d>cA2|g>ac'e    d>cde   |c>ecA  ({c}G2)G2|]
+S:https://www.folktunefinder.com/tunes/104161
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:200
+T: DIE LEINEWEBER HABEN EINE SAUBERE ZUNFT
+N: Z0199
+O: Europa, Mitteleuropa, Deutschland, Greifswald
+R: Schiffer -, Handwerker - Lied
+M: 2/4
+L: 1/8
+K: C
+G, | CCCC | CCCC | C2B,A, | G,2z2
+A,2A,A, | B,2B,2 | C2C2 | C2z
+G, | CCCC | CCCC | C2B,A, | G,2z2
+A,2A,A, | B,2B,2 | C2C2 | C2z2
+G,G,G,G, | G,G,G,G, | C2C2 | C2z2
+G,G,G,G, | G,G,G,G, | C2C2 | C2z2
+E2EE | F4 | D2D2 | G4
+CCCC | DDDD | C2C2 | C2z
+S:https://www.folktunefinder.com/tunes/69059
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+% Rhythm Schiffer -, handwerker - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

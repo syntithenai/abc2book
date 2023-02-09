@@ -1,0 +1,26 @@
+X:2488
+T:Hartigan's Fancy
+O:england
+N:IrTrad, 6/99
+R:jig
+B:Jim Coogan's Session Tunes
+M:6/8
+L:1/8
+K:Bm
+A|:BeB BAF|AFE EFE|DFA def|afe dBA|
+BeB BAF|AFE EFE|DFA def|1 edB B2 A:|2 edB Bcd||
+efe edB|AFF dFF|def afa|bd'b aff|
+bff afa|baf edB|def afe|1 dBB Bcd:|2 dBB B2||
+S:https://www.folktunefinder.com/tunes/22939
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

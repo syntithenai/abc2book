@@ -1,0 +1,31 @@
+X: 1
+T: Vals i A (irregular)
+O: Trad
+R: waltz
+M: 3/4
+L: 1/8
+K: A
+E2 \
+| "A"E2 A2 c2 | e3 d c2 | E2 A2 c2 | "D"fg fe d2 \
+| "E7"B2 e2 g2 | b3 a g2 |1,3 "D"a2 fd f2 | "A"ef ed c2 :|2,4 "E7"ga fd BG | "A"A4 :|
+|: cd \
+| "A"e2 ee ee | ec' ae cd | e2 ee ee | "E7"ef d2 EG \
+| B3 B Bd | ~f2 e2 .e'2 | .e'2 e2 fg \
+|1,3 "A"ae cA :|
+|2,4 "A"a4 cd | e3 e e2 | "E7"ef ed BG | "A"A4 \
+:: e2 \
+| "A"ec AE Ac | ec AE Ac | ea ag gf | "E7"dB GE GB |
+| dB GE GB | dB GE GB | eg gf fe | "A"ec AE Ac \
+|| "A"ec AE Ac | ec AE Ac | ea ag gf |
+| "E7"dB GE GB || "E7"dB GE GB | dB GE GB | e2 f2 g2 |1 "A"a4 \
+:|2  "A"a4 cd | e3 e e2 | "E7"ef d2 BG | "A"A4 |]
+S:https://www.folktunefinder.com/tunes/20287
+S:http://trillian.mit.edu/~jc/music/abc/waltz/Vals_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/Vals_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

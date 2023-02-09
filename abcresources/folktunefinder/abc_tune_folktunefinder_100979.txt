@@ -1,0 +1,23 @@
+X:19
+T:Philadelphia Reel
+R:Reel
+C:Phillippe Varlet
+L:1/8
+Q:1/4=209
+K:F#m
+|: CF (3FEF BAFA | ceef ecAc | ~B2 fB ~B2 fB | \
+~B2 fB cBAG | FAcB BAFA | ceef ecAc | ~B2 fB ~B2 fB \
+|1 cBAG F2 A,B, :|2 cBAG FGAB |
+|: cf (3fef df (3fef | edcB AGAB | ceef ecAB | c2 BA GBEB | \
+cf (3fef df (3fef | edcB AGAB | ceag fecA |1 B2 AG FGAB \
+:|2 B2 AG F4 ||
+S:https://www.folktunefinder.com/tunes/100979
+S:http://www.slainte.ch/abc/road.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

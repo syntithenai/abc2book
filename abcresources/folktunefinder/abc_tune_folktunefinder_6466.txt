@@ -1,0 +1,28 @@
+X: 1
+T: Hora Agadati (Dm)
+O: Israel
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"{E}CD DC | DC F{A}F | CD DC | DC {A}F2 | CD DC | DE F"(*)"G | "C"EF {G}E{D}C | "Dm"{A}DE D2 :|
+|: "Gm"zG2 G | {d}GF G2 | G>A BA | G2 "F"F2 | "C"Gc BA | "Gm"{d}GF G2 |1 "F"AB A/G/F | "Gm"G3z :|
+"*Coda"|| AB A{G}F | z2 "G"G"F"[AF] | "G"Gz3 |] x4  x4  x4  x4  x4  x4 |
+S:https://www.folktunefinder.com/tunes/6466
+S:http://trillian.mit.edu/~jc/music/abc/Israel/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/HoraAgadati.abc
+S:http://trillian.mit.edu/~jc/music/abc/folk/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/folk/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/folk/HoraAgadati_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HoraAgadati_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

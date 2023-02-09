@@ -1,0 +1,26 @@
+X:114
+T:Cumberland reel
+S:Charlie Menzies
+R:Jig
+O:England
+O:Scotland
+M:6/8
+K:D
+f2e d2c | d2B A2F | GFG EFG | F2G A2A |\
+BGB dcB | AFA d2d | cde ABc | d3 d2 A:|
+fff f2A | fff f2A | fff g2f | (e3 e2)A |\
+eee e2A | eee e2A | e2f e2d | c2B ABc |
+ded cBA | B2c d2A | ded cBA | B2c d2e | \
+efe ecA | efe efg | a2A ABc | d3 d2 ||
+S:https://www.folktunefinder.com/tunes/49507
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

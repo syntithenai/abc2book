@@ -1,0 +1,54 @@
+X: 1
+T: Der Alte Tziganer
+C: Ellstein
+O: played by Dave Tarras
+S: handwritten MS labelled "SB3"
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: F
+|: "F"F4- | F4 \
+| zF TGF | TGF TGF \
+| "F"A4- | A4 \
+| zA TBA | TBA TBA \ 
+| "F"c4- | c4 \
+| zc Tdc | Tdc Tdc |
+| "F7"_e4 | zF Bc \
+| "Bbm"_d3 B- | B4 \
+| z_d cB | _dd cB \
+| "F"c3 A- | A4 \
+| zc BA | cc BA \
+| "C7"B3 G- | G4 |
+| zd cB | AF GE \
+|1 "F"F4- | F2 "C7"C2 \
+:|2 "F"F4 | zE/G/ (3FE_D ||\
+[K:Fm] \
+|: "Fm"C4- | CD =EF \
+| G A3- | A4 \
+| GA (3AGF | GA (3AGF |
+| "C7"G4 | z=E/G/ (3FED \
+| "C7"C2 D2 | =E2 F2 \
+| ^FG GG | G4 \
+| GA (3AGF | =E/F/G/A/ (3GFE \
+| "Fm"F3 c | (3c=BA (3AGF |
+| "Fm"C4- | CD =EF \
+| G A3- | A4 \
+| GA (3AGF | GA (3AGF \
+| "Bbm"B4 | zB, DF |
+| B2 FB- | BG/B/ (3AGF \
+| "Fm"A2 FA- | AA GF \
+| "C7"G2 CG- | GG F=E \
+| "Fm"F4 |1 "C7"z=E/G/ (3FED :|2 "C7"zC "d.C."=D=E |]
+S:https://www.folktunefinder.com/tunes/152910
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/DerAlteTziganer_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/DerAlteTziganer_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

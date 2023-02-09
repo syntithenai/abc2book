@@ -1,0 +1,23 @@
+X: 3
+P: Carpathian Tune (Bm)
+S: String Beings 11/98
+N: From a hand-scribbles MS ...
+M: 2/4
+L: 1/16
+K: Bm
+|: "Bm"Bcde f2f2 | "C#7"=e2e2 "F7"f4 | "Bm"dcB2 c2d2 | "F7"c8 \
+|  "Bm"Bcde f2f2 | "C#7"=e2e2 "F7"f4 | "Bm"dcB2 "F7"c2d2 | "Bm"B8 :|
+|: "Em"e2{fe}B2 e2{fe}B2 | "Bm"d2{ed}B2 d2{ed}B2 | "Em"e2{fe}B2 e3f | "F7"decd "Bm"B4 \
+|  "Em"e2{fe}B2 e2{fe}B2 | "Bm"d2{ed}B2 d2e2 | "F7"f4 f2fg | f2e2 d2c2 :|
+S:https://www.folktunefinder.com/tunes/146847
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/CarpathianTune.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/CarpathianTune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

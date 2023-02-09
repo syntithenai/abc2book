@@ -1,0 +1,23 @@
+X:19
+T: Manfrina di Camposilvano
+M: 6/8
+L: 1/8
+Q: 1/4 = 160
+K: C
+%%continueall 1
+GAB|: c2z GAB|c2z GAB|c2Gc2G|c2z GAB|!segno!c2ed2f|e2g gfe|
+def fed|e2c GAB|c2ed2f|e2g gfe |def fed|1 c3 GAB:|2 c3z ef|
+|: gz e g2e|a2fa2f|b2a g2 b|c'gez ef|g ze g2e|a2f a2f|
+b2a g2b|1 c'3zef|2 c'3 GAB !D.S.!:|c'3 z3|]
+%%newpage
+%%text $1Les ornements
+%%begintext justify
+S:https://www.folktunefinder.com/tunes/83870
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

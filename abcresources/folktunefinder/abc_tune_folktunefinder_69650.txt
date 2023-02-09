@@ -1,0 +1,28 @@
+X:90
+T: SAG MIR DAS WORT DAS DEREINST MICH HAT BETOERT
+N: F0199
+O: Europa, Mitteleuropa, Deutschland; Irland
+R: Liebes - Lied, Abschied
+M: 4/4
+L: 1/16
+K: G
+ | G4G2A2B4B2c2 | d2d2e3dB4z4
+d4c3BA4z4 | c4B3AG4z4
+G4G2A2B4B2c2 | d2d2e3dB4z4
+d4c2B2A4B2A2 | G12z4
+d4c3BA4D2D2 | c4B3AG4z4
+d4c3BA4D2D2 | c4B3AG4z4
+G4G2A2B4B2c2 | d2d2e3dB4z4
+d4c3BA4B2A2 | G8z8
+S:https://www.folktunefinder.com/tunes/69650
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Liebes - lied, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

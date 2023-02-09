@@ -1,0 +1,28 @@
+X: 2
+T: \vCifte \vCifte [C]
+O: Macedonian/Turkish
+R: ^vciftetelli
+N: Eb alto sax; original in Bb
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 9/8
+L: 1/8
+K: C
+%%indent 300
+"Intro"| G2 cc G2 ccc | G2 cc G2 ccc ||
+"D"|: c2 g2 c2 g3  | a2 _b2 a2 g3 | a2 _b2 c'2 bag | g2- gf e^d e2c :|
+"E"|: gf fe e2 fed | c2 z2 ka2 ka2g | gf fe e2 fed |1 c2 z2 c'/b/^a/b/ c'2g :|2 c2 z2 c/B/^A/B/ c2z |]
+"F"|: ed/e/ dc cd efg | ed/e/ dc c2 gfe | ed/e/ dc cd efg | ed/e/ dc cG cc2 :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/5372
+S:http://trillian.mit.edu/~jc/music/abc/Intl/CifteCifte.abc
+% Rhythm ^vciftetelli
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:284
+T: AUF IHR BRUEDER SINGET LIEDER
+N: F0498
+O: Europa, Mitteleuropa, Deutschland
+R: Studenten - Lied
+M: 4/4
+L: 1/8
+K: Eb
+ | G,3F,F,E,E,2 | B,3A,A,G,G,2
+E3DCB,A,G, | B,3G,F,B,A,F,
+G,3F,F,E,E,2 | B,3A,A,G,G,2
+E3DCB,A,G, | B,3G,F,2z2
+D3DDCB,C | D2E2FEDC
+D3DDCB,C | D2E2FED2
+E3B,C3G, | A,2B,2C2z2
+EDCB,CDEF | G2F2E2z2
+S:https://www.folktunefinder.com/tunes/69844
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+% Rhythm Studenten - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

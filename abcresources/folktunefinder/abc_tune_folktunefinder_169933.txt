@@ -1,0 +1,21 @@
+X: 1
+T: Kongen
+T: the King
+R: halling
+S: printed MS of unknown origin
+M: 2/4
+L: 1/16
+K: G
+[|"G"G2gf "C"edef | "G"g3d B2G2 | "G"G2gf "C"edef | "G"g3d B2G2 |
+| "G"G2gf "C"edef | "G"g2bg "D"afd2 | "G"d2gf "C"edef | "G"g2bg "D"afd2 |]
+|:"C"c3B c2e2 | "G"dB"D"cA "G"B2G2 | "C"c2{d}cB "D"c2e2 | "G"dB"D"cA "G"G4 :|
+S:https://www.folktunefinder.com/tunes/169933
+S:http://trillian.mit.edu/~jc/music/abc/Scand/halling/Kongen_G.abc
+% Rhythm Halling
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

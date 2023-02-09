@@ -1,0 +1,27 @@
+X: 896
+T:the Rural Thought
+H:repeats A::B||C::D::
+M:6/8
+R:Jig
+K:G
+d2g d2B| A2G A2B| c2B e2d| dcB B2A|\
+d2g d2B| A2G A2B| c2B e2d| cBA G3::
+d2d c2B| B2B A2G| F2G A2B| c2B B2A|\
+d2d c2B| B2B A2G| F2G A2B| cAF G3::
+D2E D2G| F2A G2B| A2B c2B| B3 A3|\
+D2E D2G| F2A G2B| A2B c2A| G2F G3::
+d2e d2g| e2f e2g| A2B c2d| c2B A2G| \
+d2e d2g| e2f e2g| d2g B2g| A2B G3:|
+S:https://www.folktunefinder.com/tunes/31403
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

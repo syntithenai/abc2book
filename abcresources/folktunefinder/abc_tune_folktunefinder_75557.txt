@@ -1,0 +1,37 @@
+X:74
+T:Little Wot ye Wha's coming
+C:Trad
+S:Northumbrian Minstrelsy
+M:Cl
+K:G
+ddd2 f2d2 ~g4 d2B2| ddd2 f2d2 ~e4 c2A2| ddd2 f2d2 g2e2f2d2| efg2 fga2 ~e4 c2A2::\
+M:C
+~g2 dB Bgec |~g2 dB AecA| ~g2 dB BgdB|\
+M:Cl
+efg2 fga2 ~e4 c2A2:: ddd2\
+M:C
+fd gefB|\
+M:Cl
+ddd2 \
+M:C
+fB eAcA|\
+M:Cl
+ddd2\
+M:C
+fd gefd|\
+M:Cl
+efge fgaf \
+M:C
+~e2 cA:: g2 Bg BgdB| g2 Bg BgcA| g2 Bg\
+M:Cl
+agfe f2d2| efge fgaf ~e4 e2A2:|
+S:https://www.folktunefinder.com/tunes/75557
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/north1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/north1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

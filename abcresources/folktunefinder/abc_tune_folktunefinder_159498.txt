@@ -1,0 +1,24 @@
+X: 1
+T: The Frost is All Over
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: A \
+| "D"d>ef edB | AFD "A7"E2D | "D"D>FA "Bm"AFA | "E7"Bee "A7"edB \
+| "D"d>ef edB | AFD "A7"E2D | "D"D>FA AFA | "G"Bdd "D"d2 :|
+|: g \
+| "D"f>df afd | "G"g>fg "(A7)"bag | "D"f>df "Bm"afd | "Em"g>fg "A7"e2g \
+| "D"f>df afd | "G"g>fg "(A7)"bag | "D"f>ga "A7"efg | "D"fdd d2 :|
+S:https://www.folktunefinder.com/tunes/159498
+S:http://www.firepowr.com/abc/FrostIsAllOver.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

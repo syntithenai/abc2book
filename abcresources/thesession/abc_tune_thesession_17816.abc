@@ -1,0 +1,12 @@
+X: 17815
+T: Hop Skip And Jump
+R: jig
+M: 6/8
+K: Amajor
+B|:"A"cBA "D"FAF|"A"~E3 CDE|"D"DEF "A"EAc|edc "E"~B3|
+"A/F#m"cBA FAF|"A"ECA, A,CE|"D"DEF "A"EAc|1 "E"BAG "A"A2 B:|2 "E"BAG "A"Ace||
+"D"~f3 agf|"A"ecA ABc|"D"dcB cBA|"E"GBA GFE|
+"D"DEF FED|"A"CDE ABc|"D"dcB AGF|"E"EFG "A"Ace|
+"D"fAg agf|"A"ecA ABc|"D"dcB "A"cBA|"E"GFE DCB,|
+"A"A,B,C "Bm"B,CD|"A"CDE "D"DFE|"D"DEF "A"EAc|"E"BAG "A"A2||
+

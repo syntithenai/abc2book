@@ -1,0 +1,26 @@
+X: 1
+T: Miss Nancy Frowns
+C: Thompson (18C)
+N: Originally 16 bars
+B: RSCDS 14-5
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e |  "G"dBG "D7"A2D \
+| "G"GAG "C"G2e | "G"dBG "D7"AFD |  "G"GAG "C"G2e | "D7"dAF  "G"G2 :|
+|: D \
+| "G"GAB    d2g |    dBG "D7"AFD |  "G"GAB    d2g |     dBG "D7"A2a \
+| "G"bag "D"agf | "C"egc  "G"BAG | "Am"ABA "D"FED | "D7"EAF  "G"G2 :|
+S:https://www.folktunefinder.com/tunes/14667
+S:http://trillian.mit.edu/~jc/music/abc/jig/MissNancyFrowns_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MissNancyFrowns_G32.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/MissNancyFrowns_G32.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

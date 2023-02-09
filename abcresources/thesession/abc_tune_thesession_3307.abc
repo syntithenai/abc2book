@@ -1,0 +1,15 @@
+X: 3306
+T: Bell Table
+R: waltz
+M: 3/4
+K: Dmajor
+|:"D"d3 e d2|"G"d2 c2 B2|"D"A3 B A2|"D"A2 G2 F2|
+"Em"G2 GA BG|"F#m"A2 AB cA|"G"G2 GA BG|"A7"A2 B2 c2|
+"D"d3 e d2|"G"d2 c2 B2|"D"A3 B A2|"D"A2 G2 F2|
+"Em"G2 GA BG|"A"A2 AB cA|"A7"G2 F2 E2|"D"D6:|
+|:"D"a3 b a2|"D"a4 g2|"Bm"f3 g f2|"Bm"f2 e2 f2|
+"Em"g3 a g2|"Em"g2 f2 g2|"A"a3 b a2|"A7"a2 f2 g2|
+"D"a3 b a2|"D"a4 g2|"Bm"f3 g f2|"Bm"f2 e2 d2|
+"Em"B3 d g2|"A"f a3 c2|"A7"e d3 c2|1 "D"d3 e fg:|2 "D"d4 A2||
+
+

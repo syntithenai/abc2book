@@ -1,0 +1,24 @@
+X:81
+T:Bourree languedocienne 1
+R:bourree 3 temps
+C:trad.
+A:Languedoc
+O:France
+Z:S. Piron
+M:3/8
+L:1/16
+Q:1/4=110
+K:G
+d4e2|d2d2AB|c2dcBA|B4G2|d4e2|d2d2AB|c2dcBA|G6:|
+|:c2ABAB|c2ABAB|c2dcBA|B4G2|c2ABAB|c2ABAB|c2dcBA|G6:||
+S:https://www.folktunefinder.com/tunes/106480
+S:http://www.tradfrance.com/matf04.txt
+% Rhythm Bourree 3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

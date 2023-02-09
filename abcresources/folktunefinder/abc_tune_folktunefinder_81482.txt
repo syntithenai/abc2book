@@ -1,0 +1,25 @@
+X:140
+T: Pigeon's Flight [The]
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+C: F.McCollum
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: D
+A|dcd GED|FD=C EFG|dcd efg|fec ecA|
+dcd GED|FD=C EFG|dcd AGF|GFE D2 :|
+A|dcd fga|aba a2 f|dcd fdf|gfg ecA|
+dcd fga|aba a2 f|dcd AGF|GFE D2 :|
+S:https://www.folktunefinder.com/tunes/81482
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/mulv.abc
+S:http://www2.redhawk.org:8080/irish/zouki/mulv.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

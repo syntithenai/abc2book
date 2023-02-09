@@ -1,0 +1,24 @@
+X:1
+T:Chevaliers de la Table Ronde
+M:3/4
+L:1/8
+K:D
+ A,D| D2 DF FA A2| F2 GF E2 A,E| EE D4 A,D| D2 DF FA A2| F2 GF E2 A,E|\
+ EE D4 AA|
+M:4/4
+ B2 GG G2 BB| A2 FF| F2 AA|
+M:3/4
+ G2 EA AA| F4 AA|
+M:4/4
+ B2 GG G2 BB| A2 FF F2| AA|
+M:3/4
+ G2 EE AA| D4||
+S:https://www.folktunefinder.com/tunes/147984
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/TABLROND.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

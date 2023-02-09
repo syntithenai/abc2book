@@ -1,0 +1,19 @@
+X:7
+T:Kyrie Trisagion
+M:3/4
+%%staves {1 2 3}
+K:F
+A "Fa"cA "Rem"AG "Sib"FG "La"A2||"Fa"Ac "Rem"AG "Sib"FG "La"A2||A "Fa"cA "Rem"AG "Sib"FG "La"A2||
+V:2
+A AF F2 D2 ^C2||A2 F2 D2 ^C2||A AF F2 D2 ^C2||
+V:3
+F, F,2 D,2 B,,2 A,,2||F,2 D,2 B,,2 A,,2||F, F,2 D,2 B,,2 A,,2||
+S:https://www.folktunefinder.com/tunes/170646
+S:http://moinejf.free.fr/messe/messeK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

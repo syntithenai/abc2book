@@ -1,0 +1,24 @@
+X: 21086
+T: Kafoozalum
+R: march
+M: 
+K: Dmajor
+K: GMaj
+|:d2 d>c B>c d2|A>Bc>B A>B c2|d2 d>c B>c d2|G>AB>G A2 G2:|
+|:B>GD>G B>G B2|c>AE>A c>A c2|B>GD>G B>G B2|G>AB>G A2 G2:|
+K: AMaj
+|:e2 e>d c>d e2|B>cd>c B>c d2|e2 e>d c>d e2|A>Bc>A B2 A2:|
+|:c>AE>A c>A c2|d>BF>B d>B d2|c>AE>A c>A c2|A>Bc>A B2 A2:|
+K: DMaj
+|:a2 a>g f>g a2|e>fg>f e>f g2|a2 a>g f>g a2|d>ef>d e2 d2:|
+|:f>dA>d f>d f2|g>ec>e g>e g2|f>dA>d f>d f2|d>ef>d e2 d2:|
+K: GMaj
+|:d2 dc Bc d2|ABcB AB c2|d2 dc Bc d2|GABG A2 G2:|
+|:BGDG BG B2|cAEA cA c2|BGDG BG B2|GABG A2 G2:|
+K: AMaj
+|:e2 ed cd e2|Bcdc Bc d2|e2 ed cd e2|ABcA B2 A2:|
+|:cAEA cA c2|dBFB dB d2|cAEA cA c2|ABcA B2 A2:|
+K: DMaj
+|:a2 ag fg a2|efgf ef g2|a2 ag fg a2|defd e2 d2:|
+|:fdAd fd f2|gece ge g2|fdAd fd f2|defd e2 d2:|
+

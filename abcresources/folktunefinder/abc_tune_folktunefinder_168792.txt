@@ -1,0 +1,27 @@
+X: 1
+T: Josefin's Waltz
+C: Roger Tallroth
+M: 3/4
+L: 1/4
+R: Waltz
+K: F
+&quot;F&quot;z3 | z3 | z3 | zAB | AGF | E2F | F3 | B,CB, |
+A,CF | &quot;C&quot;EDE | &quot;Bb&quot;(F3 | F3) [|: &quot;F&quot;CFG | AcB |
+AGF | C2D | &quot;Bb&quot;B,>B,B, | DFE | D3 | &quot;C&quot;C3 |
+&quot;F&quot;CFG | AcB | AGF | C2D | &quot;Bb&quot;B,>B,B, | CEF |
+&quot;C&quot;(G3 |1. G3) :||2. G)AB [|: &quot;F&quot;cAc | f2e | &quot;Bb&quot;d3 |
+&quot;F&quot;c3 | &quot;Bb&quot;Bdc | BAG | &quot;F&quot;A>BA | &quot;C&quot;GAB | &quot;F&quot;cAc |
+f2e | &quot;Bb&quot;d3 | &quot;F&quot;c3 | &quot;Bb&quot;Bdc | BAG | &quot;F&quot;A>BA |
+&quot;C&quot;GAB | &quot;dm&quot;AGF | &quot;am&quot;E2F | &quot;Bb&quot;F3 | B,CB, | &quot;F&quot;A,CF |
+&quot;C&quot;EDE | &quot;Bb&quot;(F3 |1. F)AB :||2. F3) || &quot;F&quot;HF3 |]
+S:https://www.folktunefinder.com/tunes/168792
+S:http://www.thesession.org/tunes/display/1016
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

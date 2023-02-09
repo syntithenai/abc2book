@@ -1,0 +1,27 @@
+X: 4615
+T: Bourrée
+R: barndance
+M: 4/4
+K: Eminor
+V:1
+ef|:g2 fe ^d2ef|B2^c^d e2=d=c|B2AG F2GA|BA GF E2 ef|
+g2 fe ^d2ef|B2^c^d e2=d=c|B2 AG "tr"F3G|1 G6 ef:|2 G6 BG||
+|:d2Ac B2gd|e2Bd c2BA|^G2AB c2BA|A6dA|
+B2gd e2Bd|c2ae f2^ce|d2^cB "tr"^A3 B|B6 bf|
+^g2fe a2e=g|f2ed g2d=f|e2ae f2^ce|^d2B4 eB|
+c2 dA B2cG|A2BF G2 FE|^D2EF G2 FE|1 E6 BG:|2 E6||
+V:2
+GF|:E2A2B2A2|G2F2E2F2|G2A2B2A2|G2B2 EFGF|
+E2A2B2A2|G2F2E2F2|G2c2d2D2|1 G6 GF:|2 G6G2||
+|:F2D2G2B2|c2^G2A2d2|e2A2e2E2|ABAGF2D2|
+G2B2c2^E2|A2c2d2^A2|B2e2f2F2|B^AB^c^d2B2|
+e2=d2^c2=A2|d2=c2B2G2|c2B2A2F2|B3c BA^G2|
+Aef2 =G^de2|F^c^d2 E2A2|B2A2B2B,2|1 E6 G2:|2 E6||
+V:3
+[K:clef=bass]G,F,|:E,2A,2B,2A,2|G,2F,2E,2F,2|G,2A,2B,2A,2|G,2B,2 E,F,G,F,|
+E,2A,2B,2A,2|G,2F,2E,2F,2|G,2C2D2D,2|1 G,6 G,F,:|2 G,6G,2||
+|:F,2D,2G,2B,2|C2^G,2A,2D2|E2A,2E2E,2|A,B,A,G,F,2D,2|
+G,2B,2C2^E,2|A,2C2D2^A,2|B,2E2F2F,2|B,^A,B,^C^D2B,2|
+E2=D2^C2=A,2|D2=C2B,2G,2|C2B,2A,2F,2|B,3C B,A,^G,2|
+A,EF2 =G,^DE2|F,^C^D2 E,2A,2|B,2A,2B,2B,,2|1 E,6 G,2:|2 E,6||
+

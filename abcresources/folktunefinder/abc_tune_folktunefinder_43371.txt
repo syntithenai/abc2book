@@ -1,0 +1,30 @@
+X:1
+T:The 29th of May
+M:4/4
+C:
+S:Bacon (6MDJ)
+N:c.f. Lads-a-Bunchum (Adderbury)
+A:Headington
+O:English
+R:Reel
+%P:A/2.(AB)$^4$
+P:A.(AB)4
+K:G
+I:speed 400
+P:A
+|: D>G | B2 B2 B>cd>B | c2 A2 A2 B>c | d>ed>B c>dc>A | B2 G2  G2 :|\
+P:B
+|: g>f | e2 d2 d2 G>A | B2 B2 B2 g>f | e2 d2  c2 B2  | A>GF>E D2 \
+   D>G | B2 B2 B>cd>B | c2 A2 A2 B>c | d>ed>B c>dc>A | B2 G2  G2 :|
+S:https://www.folktunefinder.com/tunes/43371
+S:http://www.ucolick.org/~sla/morris/music/Headington/may29.lb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:4
+T:La gleiso de santo
+O:France
+C:
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-07-22
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+Q:"Andante"
+K:F
+V:1
+zGFc F2G2 | A6-Az | zA/B/ cA d2 cB | A6-Az | zGFc F2G2 | A6-Az | zA/B/ cA d2cB | A4-Az zc |:
+cd cB AG FF/G/ | AA GF G4- | Gz zc cf cB | AG FF/G/  AA GG |1 F4-Fz zc :|2 F4-Fz z2 |]
+V:2
+zBAG A2 c2 | F6-Fz | zF/G/ AF F2 GG | F6-Fz | zBAG A2 c2 | F6-Fz | zF/G/ AF F2 GG | F4-F z zc |:
+AB Gc FG AB | cd =BG G4- | Gz zc FA GE | FG AB cc BB |1 A4-Az ze :|2 A4-Az z2 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (France)
+S:https://www.folktunefinder.com/tunes/463
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

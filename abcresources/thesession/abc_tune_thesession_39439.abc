@@ -1,0 +1,19 @@
+X: 39438
+T: Tarantella
+R: jig
+M: 6/8
+K: Aminor
+|:a2 a e2 e|a2 a e2 e|e^de f2 f|fgf e3|
+[1 efe d2 d|ded c2 c|cdc B2 d|c2 B A3:|
+[2 efe d3|ded c3|cdc B2 d|c2 B A3||
+|:A2 B|cBc dcB|c2 A ABc|B2 B dcB|c2 A A2 B|
+cBc dcB|c2 A A2 c|B2 d c2 B|1 A3 A2 B:|2 A3 A3||
+K: CMaj
+|:cGc ece|g2 g gag|f2 f fgf|e3 e2 d|
+cGc ece|g3 g2 a|bag fed|1 c3- c3:|2 c3||
+K: Amin
+e2 f|g^fg a2 g|f3 d2 e|fef g2 f|e3 e2 e|
+fed d2 d|edc c2 d|e2 d c2 B|A3 e2 f|
+g2 g a2 g|f3 d2 e|f2 f g2 f|e3 e^de|
+fed d^cd|edc cdc|e2 d c2 B|A3||
+

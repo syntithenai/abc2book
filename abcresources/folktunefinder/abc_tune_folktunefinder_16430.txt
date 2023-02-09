@@ -1,0 +1,28 @@
+X: 1
+T: Polska efter Bagg Lars Johansson, J\"arna
+R: hambo, masurka
+Z: 2001 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+V:1
+|: "G"B>c d>B G>B | "D7"A>B c>A  F2  |     f>e d>c B>A |1,3 "G"B>c d>B G2 :|2,4 "G"G2 G4 :|
+|: "C"g>f e3    g | "D"f>e "(G)"d3 e | "D7"f>e d>c B>A |1,3 "G"B>c d>B G2 :|2,4 "G"G2 G4 :|
+V:2
+|: "G"G>A B>G  D2 | "D7"F>G A>F D2 |     d>c B>A G>F |1,3 "G"G>A B>G D2 :|2,4 "G"D2 [D4B,4] :|
+|: "C"e>d c3    e | "D"d>c "(G)"B4 | "D7"d>c B>A G>F |1,3 "G"G>A B>G D2 :|2,4 "G"D2 [D4B,4] :|
+S:https://www.folktunefinder.com/tunes/16430
+S:http://trillian.mit.edu/~jc/music/abc/pols/P_BaggLarsJohansson_2V_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/P_BaggLarsJohansson_2V_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/P_BaggLarsJohansson_2V_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/P_BaggLarsJohansson_2V_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/pols/P_BaggLarsJohansson_2V_G.abc
+% Rhythm Hambo, masurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T:The Mouse in the Attic
+M:4/4
+L:1/8
+C:Tommy Peoples
+S:Tommy Peoples
+R:Hornpipe
+D:The Quiet Glen
+Z:Juergen.Gier@post.rwth-aachen.de
+K:G
+(3B,A,G, DG, FG,DB,|CEGE cGEG|(3FFD FA cBcA|GB ~B2~g3 a|\
+(3bge (3dcB ~c2ab|(3afd (3cBA (3Bcd ga|fc (3BAG (3FED (3CB,A,|\
+(3B,A,G, B,A, G,3 A,::DAFA cAFD|~G2(3Bcd gdBd|ecag (3fga df|\
+~g2bg d2(3cBA|fadf gbdg|ec (3gfe (3dcB ef|(3gfe (3dcB \
+(3AGF (3EDC|(3B,A,G, B,A, G,3 D::~G,2DG, B,DGB|(3eec ge ceab|\
+(3c'ba fa eada|bg (3dcB (3AGE (3DB,A,|(3G,A,G, DG, B,DGB|\
+(3eec ge ceab|(3c'ba fd d'afd|(3cAF (3DCA, G,2:|
+S:https://www.folktunefinder.com/tunes/177257
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mo/Mouse_in_the_Attic_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

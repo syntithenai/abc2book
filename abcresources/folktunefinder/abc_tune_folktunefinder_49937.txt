@@ -1,0 +1,33 @@
+X:18489
+T:Waltz. CJF.229
+M:3/4
+L:1/8
+Q:90
+C:"by Herz"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:In the title line is "by Herz". Scansion seems to require a final bar
+N:with d2z in it, which I have added. - PJH.
+Z:P J Headford 2000
+K:D
+(fg"f"f)|(f2e)(A^GA)|d2(FAdf)|(a2g).A.e.A|(f2d) (Agf)|!(f2e)(A^GA)|d2.F.
+A.
+d.f|a2"p"c>de>f|d2zh:||:!"mf"(dcd)|
+(bc'd').d.g.b|(b2a).f.d.A|(a2g).e.c.A|(f2d) (a^ga)|!(bc'd').d.g.b|(b2a).
+f
+.d.A|"D. Capo p"(a2g).e.c.A|d2z||
+S:https://www.folktunefinder.com/tunes/49937
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/w.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

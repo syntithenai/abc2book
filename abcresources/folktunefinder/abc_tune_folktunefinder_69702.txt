@@ -1,0 +1,23 @@
+X:142
+T: DU ALLER WESEN VATER
+N: F0266
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Belehrung, religioes; Morgen - Lied
+M: 4/4
+L: 1/16
+K: D
+F,4 | A,4F,4B,4B,4 | A,8F,4
+D4 | C4B,4E4^G,4 | A,8z4
+A,4 | C6E2D4F4 | E4G,4F,4
+B,4 | A,4D3EF4E4 | D8z4
+S:https://www.folktunefinder.com/tunes/69702
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, belehrung, religioes; morgen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

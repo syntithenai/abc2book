@@ -1,0 +1,33 @@
+X:20
+T:The Lettered Cave
+R:reel
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:A cave situated high on the top of the Knockmore mountain range about three miles outside the village of Derrygonnelly. The Celtic designs and indicating arrows were etched into the limestone rock during the penal times in Ireland.
+L:1/8
+Q:366
+M:C|
+K:A
+C2 EC D2 FA|GABc AFED|CE ~E2 DEFA|ECA,C B,3 D|
+C2 EC D2 FA|GABc AFED|CE ~E2 DFED|[1CEB,E A,2 AE:|[2CEB,E A,3 z||
+|:cBcd eAce|faaf ecAG|~F3 A EFAB|cedc B3 z|
+cBcd eAce|faaf ecAG|FDAF EC ~C2|[1B,A,CB, A,3 z:|[2B,A,CB, A,B,CD||
+|:E3 F E2 AG|FDDC A,DFD|EAAG ABcA|BAGF EDCD|
+E3 F E2 AG|FDDC A,DFD|EAAF GABd|[1(3(cec) Bc A2 CD:|[2cABG A3 z|]
+S:https://www.folktunefinder.com/tunes/130157
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

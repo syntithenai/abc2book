@@ -1,0 +1,26 @@
+X:185
+T: Die Passion aus den vier Evangelisten
+N: A0543B
+O: Europa, Mitteleuropa, Deutschland
+N: Dresdner Gsgb. 1593
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/2
+K: G
+G | GdBG | Aded2^c | d2z
+d | B2cd2d | c2BA2
+G | B2cd2d | c2BA2
+G | B2cd2c | BGAG2
+S:https://www.folktunefinder.com/tunes/80244
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

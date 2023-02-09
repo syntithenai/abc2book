@@ -1,0 +1,30 @@
+X: 2
+T: the Rabbi's Hornpipe
+T: Leopold Bloom's Hornpipe
+R: hornpipe, shottish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+"E7"E2 \
+| "Am"A>E (3ABc "E7"B>^G E>G | "Am"A>B c>^d "(E7)"e2 d>e \
+|  "Am"^f>e ^dc "B7"d>c B>A | "E7"e2 E2 E2 (3E^F^G |
+| "Am"A>E (3ABc "E7"B>^G E>G | "Am"A>B c>^d "(E7)"e2 d>e \
+|  "Am"^f>e ^dc "B7"d>c B>c | "E7"=d>c B>c "Am"A2 :|
+|: "E7"e2 \
+| "Am"a>e a>e "A7"a>g f>e | "Dm"f>g f>e d4 \
+| "B7"b>c' c'>b b>a a>^g | "E7"^g>f f>e e2 e2 |
+| "Am"a>e a>b c'>b a>e | "Dm"f>g f>e d2{ed}^c>d \
+| "E7"^d>e d>e (3cBA B>c | "Am"A6 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7265
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/RabbisH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/RabbisH.abc
+% Rhythm Hornpipe, shottish
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

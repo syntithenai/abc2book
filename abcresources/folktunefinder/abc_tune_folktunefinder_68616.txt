@@ -1,0 +1,28 @@
+X:70
+T: Nachtfahrt
+N: A0074
+O: Europa, Mitteleuropa, Deutschland
+N:  Melodie aus Hainhofer, Lautenbuch II.Bl.7 (Mspt. von 1603. Bibl.
+N: zu Wolfenbuettel). Die Melodie ist von Boehme aus der Lautenschrift
+N: entziffert.
+R: Romanze, Ballade, Lied
+M: 3/2
+L: 1/4
+K: D
+DE | =F3EF2 | G3=FG2 | A6- | A2z2
+A2 | G3A_B2 | A3_BG2 | =F6- | F4
+=FG | A4A2 | =c3_BA2 | G6 | E2A2
+G2 | =F3ED2 | C3DE2 | D6- | D4
+S:https://www.folktunefinder.com/tunes/68616
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu10.abc
+% Rhythm Romanze, ballade, lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

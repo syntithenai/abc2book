@@ -1,0 +1,22 @@
+X: 1
+T: BLUE MOON
+C: R.Rodgers
+M: C|
+L: 1/8
+K: Bb
+%
+[| "F7"z2f2 | "Bb"f4- "Gm"f4- | "Cm"fefg "F7"ffef- | "Bb"f4- "Gm"f4- | "Cm"fcde "F7"ddcd- |
+S:https://www.folktunefinder.com/tunes/140556
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/ballroom/BlueMoon_Bb.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/C/BlueMoon_Bb.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/T/BlueMoon_Bb.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/BlueMoon.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/ballroom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

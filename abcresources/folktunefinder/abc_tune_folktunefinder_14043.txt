@@ -1,0 +1,58 @@
+X:1
+T:Lad O'Beirne's Jig
+T:Pete Kelly's Jig
+T:The Shannonaires
+T:Burke's Jig
+T:Gallagher's Jig
+T:Connie O'Connell's Jig
+R:jig
+S:Jennikel Andersson (Nov 13, -01) who got it from a Tola Custy session tape
+Z:Jeff Lindqvist <jeff_lindqvist:SPRAY.SE> 2001-11-13
+B:Bulmer and Sharpley collection ("Burke's")
+B:Martin Mulvihill collection ("Burke's")
+B:Matt Cranitch collection ("Connie O'Connell's")
+N:From Bill Black (Zouki):
+N:The NY area fiddler/composer/teacher Pete Kelly told us that he had
+N:composed this tune years ago for his student ceili band "The Shannonaires".
+N:He was vague about the name, leading me to believe that (1) it never had
+N:one, or (2) Pete didn't remember what it was.
+N:
+N:Pete is a very respected individual who (as far as I can tell) would not have
+N:made a claim to authorship lightly. I know there are those who are skeptical
+N:about his claim, but no one has ever brought forth evidence to show that it's
+N:not correct.
+N:
+N:In the event, "Pete Kelly's" or "The Shannonaires" would probably be more
+N:accurate names than those already supplied.
+N:
+M:6/8
+L:1/8
+K:D
+d2d AGF  | d2d AGF | ~E3 GFE | A,CE GFE \
+DFA G2B  | Ace d2e | f2d g2f | edc  dfe |
+dcd AGF  | dcd AGF | ~E3 GFE | A,CE GFE \
+DFA GAB  | Ace deg | fed cBA | GFE  Dde ||
+fdf a^ga | faf dfd | ece gfg | ege  cde \
+~f3 ~g3  | ~a3 bag | fed cBA | GFE  Dde |
+fdf a^ga | faf dfd | ece gfg | ege  cde \
+fdf gBg  | aAa bag | fed cBA | GFE  D3  |]
+S:https://www.folktunefinder.com/tunes/14043
+S:http://trillian.mit.edu/~jc/music/abc/jig/ConnieOConnellsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/GallaghersJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/ConnieOConnellsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/GallaghersJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/ConnieOConnellsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/GallaghersJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/ConnieOConnellsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/GallaghersJig_1.abc
+% Rhythm Jig
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

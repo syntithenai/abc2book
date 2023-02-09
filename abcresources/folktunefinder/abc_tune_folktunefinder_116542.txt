@@ -1,0 +1,36 @@
+X:13497
+T:Poor Girl Waltz
+M:3/4
+R:waltz
+C:Andy de Jarlis
+L:1/8
+Z:added by Alf warnock@magma.ca
+K:C
+g ^fg|"C"a6|"Cmaj7"g4-g^f|"C6"a3/2g/2 e3/2c/2 A3/2c/2|"Cmaj7"G4-GE|
+"C"G3/2c/2 e3/2g/2 a3/2b/2|"Cdim"a4 g2|"Dm7"B6-|B3g ^fg|
+"Dm7"a6|"G7"g6|"Dm7"a3/2g/2 f3/2d/2 B3/2A/2|"G7"G6|
+d6|"G"g4 a2|"C"e6-|e3g ^fg|
+"C"a6|"Cmaj7"g4-g f|"C6"a3/2g/2 e3/2c/2 A3/2c/2|"Cmaj7"G4-GE|
+"C"G3/2c/2e3/2g/2 a3/2b/2|"C7"a4 e2|"F"g2 f2"A7" d2|"Dm"A6|
+"Dm"d6|"Fm"c4"Cdim" A2|"C"G3/2c/2 e3/2g/2 a3/2b/2|"A7"a2 g3e|
+"D7"d6|"G7"e4 G2|"C"c6-|c2 E2 F2||
+"C"G6|"Cdim"G2 ^F3A|"C"G6-|"C"G2 E2 F2|
+G2 A2 B2|"Adim"c2 a3g|"G7"B6-|B2D2 E2|
+"Dm7"F6-|"F"F2 E3G|"Dm"F6-|F2 D2 E2|
+F2 G3A|"G7"B2 d3c|"C"E6-|"C"E2 E2 F2|
+G6|"Cdim"G2 ^F3A|"C"G6-|G2 E2 F2|
+G2 A2 B2|"C7"c2 a3g|"F"f6-|f4 de|
+"Dm"f2 d3d|d4 cd|"C"e2 c3c|"Cdim"c4 Bc|
+"G7"d2 B3A|G2 e3d|"C"c6-|c3:|
+S:https://www.folktunefinder.com/tunes/116542
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

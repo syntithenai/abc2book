@@ -1,0 +1,30 @@
+X:0681
+T:"Planxty Corcoran"              0681
+C:Turlough  O' Carolan
+C:animated
+Q:1/4=110
+N:Transposed from F:    >>>Note the nonuplet!<<<
+N:(#019 in O'Sullivan's Collection  ):  http://www.sosyourmom.com/occ/tunes.html
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+"^vb"G|GFG E2G|GFG EBA|GFE DFA|GFE DEF|
+GFG A^GA|B^AB e2f|gg/2f/2e fed|ee/2d/2B dBA|
+BB/2A/2G AGF|GG/2F/2E FED|EB,^D EGF|E3E2||
+(E/4F/4G/4A/4)|BAG  (3(A/2G/2F/2 ED)|dDDDef|gfefe^d|eEE (9(E/4F/4G/4A/4B/4c/4^d/4e/4f/4)|
+gfe fe^d|BAG AGF|agf gfe|GFE FED|
+gg/2g/2g aa/2a/2a|bb/2b/2b c'ba|gfe fe^d|e3e2|]
+S:https://www.folktunefinder.com/tunes/182689
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/681-PlanxtyCorcoran.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

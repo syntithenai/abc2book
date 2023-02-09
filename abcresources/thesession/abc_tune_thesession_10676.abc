@@ -1,0 +1,20 @@
+X: 10675
+T: Down The Glen
+R: hornpipe
+M: 4/4
+K: Dmajor
+|:D2F>A B2d2|(3ABA F>A d2c>d|
+|:(3efe d>e f2a2|(3efe d>e f2f>d|
+|:D2F>A B>G (3Bcd|A*DF>A E2A>F|
+D2F>A B>G (3ABc|1 d>ge>c d>BA>F:|2 d>ge>c d2c>d||
+|:e>Ac>e f*dd>f|e>Ac>e d2d2|
+e>Ac>e f*dB>^G|1 A>dB>^G A2c>d:|2 A>dB>^G A>=GF>E||
+|:AF|D2FA BAGB|AGFA d2cd|efge fedf|e2A2 AGFE|
+D2FA BAGB|AGFA d2cd|efge aABc|d2f2 d2:|
+|:cd|efge fga2|efge fga2|ea^gf edcB|c2A2 AGFE|
+D2FA d2fa|gfef gbag|fafd egec|d2f2 d2:|
+|:AF|D2FA B2GB|AGFA d3d|efge f2df|edcB A2FE|
+D2FA B2GB|AGFA d3d|efed cABc|e2d2 d2:|
+|:cd|efge f2df|efge f2df|ea^gf edcB|c2A2 A2FE|
+D2FA d2ef|gfef g3g|fdef geBc|e2d2 d2:|
+

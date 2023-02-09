@@ -1,0 +1,27 @@
+X:201
+T: SEI GEGRUESST IN REINER SCHOENE
+N: B0239
+O: Europa, Mitteleuropa, Deutschland
+R: Tageszeiten - Lied, Abend
+M: 4/4
+L: 1/8
+K: C
+G,F, | E,3E,E,3E, | G,F,F,2z2
+F,E, | D,3D,G,3F, | F,2E,2z2
+G,F, | E,3E,E,3E, | G,F,F,2z2
+F,E, | D,3D,G,3F, | F,2E,2z2
+G,A, | B,3B,C3^F, | A,G,G,2z2
+G,A, | B,3B,D2CA, | G,4z2
+G,F, | E,3E,A,3E, | G,F,F,2z2
+DC | CB,A,G,G,2A,B, | C4z2
+S:https://www.folktunefinder.com/tunes/78222
+S:http://ifdo.ca/~seymour/runabc/esac/boehme10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/boehme10.abc
+% Rhythm Tageszeiten - lied, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

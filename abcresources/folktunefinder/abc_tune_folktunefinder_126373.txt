@@ -1,0 +1,31 @@
+X:7994
+T:Jim Crow Quadrilles (3). TLY.061
+T:...TLY.061
+M:6/8
+L:1/8
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Quadrille
+O:England.
+A:Lancashire.
+N:Sign at start and end of B. DC at end of C musi
+H:1860.
+Z:vmp.Taz Tarry.
+K:G
+B/2c/| d2d e2d| B2B d2c| A2A AGA| B3 G2 B/2c/2| d2d e2d| B2B d2c| A2A AG
+A| G3-G2||!
+g| fef def| g3 d2B| c2d B2c| B3 A2g| fef def| g3e3|c2 ABc| dfe dBc||!
+B| e2e g2g| fef B2B| c3A F2 B| G3 E2 B|  e2e g2g| fef B2B| c2A F2 B|EFG
+ABc||
+S:https://www.folktunefinder.com/tunes/126373
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Quadrille
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

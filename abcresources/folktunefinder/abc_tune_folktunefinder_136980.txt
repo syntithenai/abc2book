@@ -1,0 +1,24 @@
+X:235
+T: Tinker's Reel
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: Em
+G2 BG dGBG|ABcA GE (3EDE|(3Bcd ef gfed|B2 Ac BE (3EDE|
+G2 BG dGBG|ABcA GE (3EDE|(3Bcd ef gfed|B2 cA BE E2||
+gfga bgef|g2 ag fd d2|gfga bgef|gefd Beef|
+gfga bgef|g2 ag fddg|bgaf gfed|B2 cA BE E2||
+S:https://www.folktunefinder.com/tunes/136980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

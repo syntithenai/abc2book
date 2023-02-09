@@ -1,0 +1,23 @@
+X:3
+T:The Hut On Staffen Island
+M:4/4
+L:1/8
+R:strathspey
+K:D
+A,B,DE D3E | FDFA d2cd | B3c BAFD | E2FE DB,B,2 |
+A,B,DE D3E | FDFA d2cd | B3c BAFD |1 E2FE DB,B,2 :|2 E2FE D2FA ||
+d2 (3ddc dfed | cBcd ccBA |^ABBB BcdB | AFEF DB,B,A |
+DdDd Dfed | cBcd ccBA | B2BA BcdB | AFEF DEFA |
+d2 (3ddc dfed | cBcd ccBA | ^ABB=A BcdB | AFEF DB,B,D |
+A,B,DE D2 DE | (3FED FA dDcd | [D^A]BBB [DB]=A |]
+S:https://www.folktunefinder.com/tunes/165799
+S:http://music.gordfisch.net/oregans/assets/abc/strathspeys.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 137
+T:Boys of Malin
+R:Reel
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin.
+Z:id:hn-reel-45
+M:C|
+L:1/8
+Q:1/4=200
+K:A
+|:ABcd eAce|fedf edcB|ABcd eAce|[1 fdBc d2cB:|[2 fdBc defg||
+|:aA~A2 cAce|~a3g fefg|[1 aA~A2 cAce|dcBc defg:|[2 afge fdec|dfBc d2cB|
+|:Aece Aece|Aece d2cB|Aece Aece|fdBc d2cB:|
+S:https://www.folktunefinder.com/tunes/90791
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

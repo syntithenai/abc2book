@@ -1,0 +1,35 @@
+X:11
+T:Postcard from Dublin, The
+R:reel
+C:Tiennet Simonnin
+M:C|
+K:Ador
+V:1
+~A3B c~A3|BGBd ~e3f|geaf gabg|aged egdB|
+~A3B c~A3|BGBd ~e3g|
+fage fded|1 cedB AGEG:|2 cedB ~A3B||
+c~g3 ageg|aged cdef|gded ~B2AB|dege dBGB|
+^c~A3 Bdeg|a~g3 egdB|A2B/c/d edeg|agba gedB:||
+V:2
+M:C|
+K:Ador
+"Am"~A3B c~A3|"Em7"BGBd ~e3f|
+"Em7"geaf ga"Em7"bg|aged "Em7"egdB|
+"Am"~A3B c~A3|"Em"BGBd ~e3g|
+"D"fage fded|1 cedB "D"AGEG:|2 cedB "D"~A3B||
+"C"c~g3 ageg|aged "D7"cdef|
+"G"gded ~B2AB|dege "Em7"dBGB|
+"A"^c~A3 Bdeg|"G"a~g3 egdB|
+"Dm7"A2B/c/d edeg|"Em7"agba gedB:||
+S:https://www.folktunefinder.com/tunes/104627
+S:http://domren.free.fr/ABC.htm
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

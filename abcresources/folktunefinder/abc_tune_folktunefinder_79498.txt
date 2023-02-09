@@ -1,0 +1,25 @@
+X:394
+T: IHR LIEBEN CHRISTEN
+N: E1583A
+O: Europa, Mitteleuropa, Deutschland, Hessen, Taunus, Wuerges
+R: Staende - Lied, Nachtwaechter
+M: 3/8
+L: 1/16
+K: G
+D2 | G4F2 | G2A2B2 | A2G2A2 | G4
+GA | B4c2 | d4d2 | d2c2c2 | B4
+dd | d2c2c2 | c4
+c2 | B4d2 | B3AA2
+D2 | G2A2B2c2 | d2d2z2
+GA | B2d2B2G2 | A2G2z2
+S:https://www.folktunefinder.com/tunes/79498
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, nachtwaechter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

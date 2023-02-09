@@ -1,0 +1,14 @@
+X: 4598
+T: Bouncing Bobby
+R: jig
+M: 6/8
+K: Dmajor
+A,3|D3F3|Adf a2f|e^de g2e|(B3 B3)|C3 E2A|c^Bc e2c|ded c2B|ABA GFE|
+D3F3|Adf a2f|e^de g2e|(B3 B)ef|gfe dcB|dcB A2d|cBA GFE|D3||
+K:G
+d2c|B3 Bcd|G3 B2d|e^de gfe|d3 d2c|B3 Bcd|(G3 G2)B|A^GA gfe|d2d d_dc|
+B3 Bcd|G3 B2d|e^de gfe|d3 d2^d|e^de a2e|d^cd g2d|fed cBA|G3||
+K:A
+A3|e3 e2d|c3 B2A|d2f agf|(e3 e3)|e3 e2d|c3 B2A|B2c B2F|B2B Bcd|
+e3 e2d|c3 B2A|d2f agf|e3 edc|dcd fed|c^Bc edc|Bcd c2B|(A3 A3)||
+

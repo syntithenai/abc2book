@@ -1,0 +1,31 @@
+X: 1
+T: the Battle of the Boyne
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+Bd \
+| "Am"e2A2 e2g2 | "G"dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"B2A2 A2Bd \
+| "Am"e2A2 e2g2 | "G"dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"A6 :|
+B2 \
+| "G"G2g2 g3a | gage d3g | "Am"e2a2 "G"a2g/a/b | "Am"a4 e3f \
+| "C"g3a g2e2 | "G"dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"A6 |]
+B2 \
+| "G"G2g2 g3a | gage d3g | "Am"e2a2 "G"a2g/a/b | "Am"a4 e3f \
+| "C"g3a g2e2 | "G"dcBA G2AB | "Am"c2BA "E7"e2dB | "Am"A6 |]
+S:https://www.folktunefinder.com/tunes/15322
+S:http://trillian.mit.edu/~jc/music/abc/march/BattleOfTheBoyne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/BattleOfTheBoyne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/march/BattleOfTheBoyne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BattleOfTheBoyne.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/march/BattleOfTheBoyne.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

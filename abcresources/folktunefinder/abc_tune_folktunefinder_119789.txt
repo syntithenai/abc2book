@@ -1,0 +1,29 @@
+X: 51
+T:Manchester Reel
+M:4/4
+L:1/8
+R:March
+K:G
+(3 DEF|"G"GFGD B,DGB|"C"AGFE "D"D2c2|
+"G"BcdB "C"cBAG|"D"AGFE DcBA|
+"G"GFGD B,DGB|"C"AGFE "D"D2c2|
+"G"BcdB "C"ec"D"AF|"G"G2B2G2::
+Bc|"G"dBdB G2cd|"C"ecec "D"A2Bc|
+"G"dBed "C"cBAG|"D"AGFE DcBA|
+"G"GFGD B,DGB|"C"AGFE "D"D2c2|
+"G"BcdB "C"ec"D"AF|"G"G2B2G2:|
+S:https://www.folktunefinder.com/tunes/119789
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

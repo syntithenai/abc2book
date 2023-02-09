@@ -1,0 +1,70 @@
+X: 1946
+T: Arrane Y Chlean
+R: waltz
+M: 3/4
+K: Dmajor
+V:1
+K: clef=treble
+K: Dmaj
+DE|"D"F4 ED|"G"E2 F2 G2|"D"F2 E2 D2|"Am"E4 DE|
+V:2
+K: clef=alto
+K: Dmaj
+DE|"D"F4 ED|"G"E2 F2 G2|"D"F2 E2 D2|"Am"E4 DE|
+V:1
+K: clef=treble
+K: Dmaj
+"D"F4 ED|"G"E2 F2 G2|"D"F2 A2 d2|"C" e4 de|
+V:2
+K: clef=alto
+K: Dmaj
+"D"F4 ED|"G"E2 F2 G2|"D"F2 E2 D2|"C" =C4 DE|
+V:1
+K: clef=treble
+K: Dmaj
+"D"F4 ED|"G"E2 F2 G2|"D"F2 E2 D2|"Am"E4 DE|
+V:2
+K: clef=alto
+K: Dmaj
+"D"D4 ED|"G"E2 D2 B,2|"D"D2 E2 D2|"Am"E4 DE|
+V:1
+K: clef=treble
+K: Dmaj
+"D"F4 ED|"G"E2 F2 G2|"D"F2 A2 d2|"D" D3A AB|
+V:2
+K: clef=alto
+K: Dmaj
+"D"F4 ED|"G"E2 F2 G2|"D"F2 E2 D2|"D" D3A AB|
+V:1
+K: clef=treble
+K: Dmaj
+"Am"=c4 BA|"G"{B=c}B2 A2 DE|"D"F2 D2 FA|"C" =c4 AB|
+V:2
+K: clef=alto
+K: Dmaj
+"Am" A4 BA|"G" G2 A2 DE|"D"F2 D2 FD|"C" =C4 AB|
+V:1
+K: clef=treble
+K: Dmaj
+"Am"=c4 BA|"G"{B=c}B2 A2 de|"D"f3A ~=c2|d4 AB|
+V:2
+K: clef=alto
+K: Dmaj
+"Am" A4 BA|"G" G2 A2 DE|"D"F3F ~=C2|D4 A,B,|
+V:1
+K: clef=treble
+K: Dmaj
+"Am"=c4 BA|"G"{B=c}B2 A2 DE|"D"F2 D2 FA|"C" =c4 AB|
+V:2
+K: clef=alto
+K: Dmaj
+"Am" =C4 B,A,|"G" G2 A2 DE|"D"F2 D2 FD|"C" =C4 A,B,|
+V:1
+K: clef=treble
+K: Dmaj
+"Am"=c4 BA|"G"d2 B2 G2|"C"G2 D2 E2|"D" D4||
+V:2
+K: clef=alto
+K: Dmaj
+"Am" =C4 B,A,|"G"D2 B,2 G,2|"C"E2 D2 =C2|"D" D4||
+

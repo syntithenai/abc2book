@@ -1,0 +1,30 @@
+X: 1
+T: Delavaird Brig
+R: shottish, strathspey
+C: Andrew Rankine
+B:
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/abc/
+M: C
+L: 1/8
+K: Bb
+(3DE=E \
+| "Bb"F>=E Fc d<f | F>=E Fd | "F7"e>d c>B     A<F c>d | "C7"c>B A>G "F7"F2 (3DE=E |
+| "Bb"F>=E Fc d<f | F>=E Fd | "Cm"e>d c>B "F7"A<F f>e | "Bb"d2 B2 B2 ||
+d>e \
+| "Bb"f>e d>c d>c B>A | "Eb"c>B A>G "F"F2 D>E | "Bb"F>B F<d "C7"c>B A>G | "F"A2 F2 "F7"F2 d>e |
+| "Bb"f>e d>c d>c B>A | "Eb"c>B A>G "F"F2 c>d | "Cm"e>d c>B "F7"A<F f>e | "Bb"d2 "(Eb)"B2 "Bb"B2 |]
+S:https://www.folktunefinder.com/tunes/18359
+S:http://trillian.mit.edu/~jc/music/abc/shottish/Drumelzier_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/Drumelzier_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/Drumelzier_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/Drumelzier_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/Drumelzier_Bb.abc
+% Rhythm Shottish, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

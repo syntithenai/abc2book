@@ -1,0 +1,33 @@
+X:1
+T:La fille de fermier
+C:traditionell
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:Gmixo
+GAB | c>Bc | dcB | ABc |\
+d3 | ded | (c2B) | A3- |\
+A3 :|
+|:\
+ded | G2A | BAG | F2G |\
+A2d | c2A/B/ | cBA | G3- |\
+G3 :|
+K:G
+|:\
+GG/F/ G/A/ | BGD | BB/A/ B/c/ | d2B/c/ |\
+dd/e/ d/c/ | B/G/ B/d/ c/B/ | A/F/ A/c/ B/A/ |1 BGD :|\
+                                             [2 G3- | G3 ||
+S:https://www.folktunefinder.com/tunes/157766
+S:http://simonwascher.info/TradArchiv_walzer/la_fille_de_fermier.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

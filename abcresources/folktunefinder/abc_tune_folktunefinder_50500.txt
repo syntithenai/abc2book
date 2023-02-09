@@ -1,0 +1,43 @@
+X:13
+T:Tulpen uit Amsterdam
+C:                           %composer
+O:Holland                           %origin
+M:3/4                           % type of bar  4/4 or 3/4
+L:1/4                        % length of shortest note
+Q:1/4=130                           %tempo  Q:1/4=80
+K:F                           %key C  Cm
+V:1
+%text intro
+zEF|"Bb"c2B|c2B|"F"(A3|"D7"A)^GA|"Gm"ccB|"C7"A2 G |"F"F3||
+%text A
+zAA|"F"A2G|G2F|F2E|E3|"Gm"DDD|
+w:Als de | len-te |komt, dan | stuur ik| jou | tul-pen uit |
+"Gm"D2G|D3-|D GG| "C7"G2 F| F2 E|E2D|D3|
+w:Am-ster-|dam |~ als de|len-te| komt, pluk| ik voor | jou
+"F"CCC|C2 F| C3-|C cc|c2 B |B2 A|
+w:tul-pen uit| Am-ster-|dam |~ Als ik | we-der|kom dan |
+"F"A2 G | G3 |"Bb"FFF| F2 B|F3-|F DE|
+w:breng ik |jou  |tul-pen uit| Am-ster-|dam |~  Dui-zend|
+"Bb" F2 D|z DE|"F"F2 C|z EF|"C7" G2 C|z G^G|
+w:ge-le| dui-zend|rooi-e, | wen-sen |jou het |  al-ler-|
+"F" A2 F|z EF|"Bb"c2 B|"Bbm"c2 B|"F" A3-|"D7"A ^GA|
+w:mooi-ste| wat mijn |mond niet|zeg-gen | kan |~  zeg-gen|
+"Gm"ccB| "C7" A2 G|"F"F3-|F zz||
+w:tul-pen uit| Am-ster-|dam |~||
+V:2
+zCC|E2E|E2E|F3-|F FF|EEE|E2 E|C3||
+zFF|F2 E|E2 D|D2 C|C3|DDD|
+D2 D|D3-|D EE|E2 D |D2 C|C2 D| D3|
+CCC|C2 C| C3-|C FF|F2 F|F2 F|
+F2 E|E3|DDD| D2 D|D3-|D DE|
+D2D|z DE |C2 C|z CC|E2 C|z EE|
+F2 F|zCC|E2E|E2E|F3-|F FF|EEE|E2 E|C3-|Czz||
+S:https://www.folktunefinder.com/tunes/50500
+S:http://gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/purmerend.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

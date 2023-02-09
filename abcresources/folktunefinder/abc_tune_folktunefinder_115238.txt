@@ -1,0 +1,28 @@
+X:18000
+T:unknown
+M:4/4
+L:1/8
+S:Aoife O'Keeffe
+R:reel
+N:transposed from Gdor
+K:Edor
+B2 AF EDB,D | E2 AE BEAE | FBAF EDB,D | Ee (3def e3 f |
+gfed BAFe | fedB AF^DF | E2 AE BEAE | FBAF E4 :||
+||: e3 f ge ~e2 | egfe dBBc | dfec d2 Fd | Adfe dBAF |
+e3 f ge ~e2 | fdec dBAF | E2 AE BEAE |1 FBAF E4 :||
+2 FBAF E3 D ||
+||: B,E ~E2 EBAF | E2 AE BEAE | B,D ~D2 DAFE | D2 AD BDAD |
+B,E ~E2 EBAF | E2 AE BA A2 | fdec dBAF | FBAF E4 :||
+S:https://www.folktunefinder.com/tunes/115238
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

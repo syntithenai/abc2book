@@ -1,0 +1,45 @@
+X:249
+T:Danza (CT 024)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita y comunicada por D. Eugenio Garca Manso, de Navia.
+A:Asturies
+O:Navia
+Z:Cancioneru de Torner 024
+M:3/8
+L:1/8
+Q:3/8=88
+K:C
+|B2 c|ddc|dBd|dd^c|d3|B2 c|ddc|BAc|BBA|G2 z|
+B2 c|d2 c|dBd|dd^c|d3|B2 c|ddc|BAc|BBA|G2 z|
+B2 c|ddc|dBd|dd^c|d3|B2 c|ddc|BAc|BBA|G2 z||
+W:De Catalua vengo
+W:de servir al rey
+W:con licencia absoluta
+W:de mi coronel.
+W:
+W:El que no la traiga
+W:tiene de pena
+W:cuatro pares de grillos
+W:y una cadena.
+W:
+W:La cadena es de plata,
+W:los grillos de oro:
+W:morena resalada,
+W:ya tienes novio.
+W:
+S:https://www.folktunefinder.com/tunes/59136
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

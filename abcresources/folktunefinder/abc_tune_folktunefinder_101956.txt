@@ -1,0 +1,30 @@
+X:6058
+T:Gang mer nt wer mi Mttl
+R:
+O:Alsace - Elsass
+A:
+S:
+B:Chansons populaires de l'Alsace
+Z:transcription (partition) : eric.forgeot@caramail.com
+N:Weckerlin II - p. 166
+N:
+M:3/4
+L:1/8
+Q:1/4=130
+K:G
+B d c | A B c | d>e d | B d c | A B c | B2 z |
+B d B | A c A | G>A G | B d B | A c A | G2 z ||
+W:
+S:https://www.folktunefinder.com/tunes/101956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

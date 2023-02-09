@@ -1,0 +1,34 @@
+X: 14
+T:Maple Sugar
+R:Reel
+C:Ward Allen
+S:Nancy Roach book
+Z:entered by alf.warnock@nrc.ca
+M:2/4
+L:1/8
+K:A
+Acd|:"A"e2e>f|edcB|c2c>d|cAdc|
+"E7"cBBc|d2c>B|"A"dccB|cAcd|
+e2e>f|edcB|c2c>d|cAdc|
+"E7"cBBc|d2c>B|"A"A2 A>B|[1 "$"A2CD|E2E>F|
+ECEA|c2c>B|AEFE|"E7"B2B>c|
+BGFG|"A"A2GF|ECCF|E2E>F|
+ECEA|c2cB|AEFE|"E7"B2B>c|
+BGFG|"A"A2A>B|A2ce:|[2 A2 G>A|
+K:E
+"E"B2B>c|BGBe|g2g>f|eBcB|
+"B7"f2f>g|fdcd|"E"e2dc|BGAc|
+B2B>c|BGBe|g2g>f|eBcB|
+"B7"f2f>g|fdcd|"E"e2e>f|"DC al $"eAcd:|
+S:https://www.folktunefinder.com/tunes/92713
+S:http://www.alfwarnock.info/alfs/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

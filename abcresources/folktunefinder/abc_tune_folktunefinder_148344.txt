@@ -1,0 +1,25 @@
+X:0270
+T:"The Church Of Dromore"      (air)       0270
+C:after Chief  F. O'Neill
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+C:moderate
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM))
+Q:1/4=90
+I:abc2nwc
+M:6/8
+L:1/8
+K:C
+"_VB"D|(EA).A ABc|(TRBAB) (G2A)|(Be).e dBA|(TRBAB) GED|
+(EA).A ABc|(TRBAB) (G2A)|(Be).e dBG|(BA).A A2||
+d|(g^fg) (edB)|(BA).A A2d|(TRg^fg) edc|(TRBAB) GED|
+(EA).A ABc|(TRBAB) (G2A)|(Be).e dBG|BAA A2|]
+S:https://www.folktunefinder.com/tunes/148344
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0270-ChurchDromore.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0270-ChurchDromore.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

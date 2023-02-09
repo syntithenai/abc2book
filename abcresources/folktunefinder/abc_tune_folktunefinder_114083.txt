@@ -1,0 +1,25 @@
+X:17
+T:Marching Through Georgia
+C:1865 Henry C. Work
+M:2/4
+Q:1/4=100
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+z2|f>e de|fA AA|B>c de|d4|F>G AA|BA Bd|e>d ef|e4|
+dd ef|gB BB|Ad de|f3 f|e2 e>e|ee fe|d4|d2|]z f|
+a3 f|a3 f|d>e dB|d3 f|a3 f|a3 f|e>d ef|e4|
+dd ef|gB BB|Ad de|f3 f|e2 e>e|ee fe|d4|d2 z|
+S:https://www.folktunefinder.com/tunes/114083
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:5
+T:Old Hag, You Have Killed Me
+T:Oh Hag You've Killed Me
+T:Old Hag You Have Killed Me
+T:Old Hag, You've Killed Me
+T:Sheep On The Mountain, The
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+FDD cAA|ded cAG|A3 ABG|ABA A2G|
+FDD cAA|ded cAF|G3 GcA|1 GAG G2E:|2 GAG G2e||
+|:f3 gfg|afd cAG|A3 ABG|ABA A2e|
+f3 gfg|afd cAF|G3 GcA|1 GAG G2e:|2 GAG G2E||
+W:Variation from Trevor Jennings
+FDD cAA|ded cAG|~A3 ABG|ABA A2G|
+FDD cAA|ded cAF|~G3 GcA|1 GAG G2E:|2 GAG G2e||
+|:~f3 gfg|afd cAG|~A3 ABG|ABA A2e|
+~f3 gfg|afd cAF|~G3 GcA|1 GAG G2e:|2 GAG G2E||
+W:Variation from swisspiper
+FDD cAA|ded cAG|(3AcA A ABG|(3AcA)A A2G|
+F(3DDD cAA|ded cAF|(3GcG G GcA|1 GAG G2E:|2 GAG G2e||
+|:~f3 gfg|(3agf d cAG|~A3 ABG|ABA A2e|
+~f3 gfg|afd cAF|~G3 GcA|1 GAG G2e:|2 GAG G2E||
+S:https://www.folktunefinder.com/tunes/155396
+S:http://www.slainte.ch/abc/Moving.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

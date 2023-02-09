@@ -1,0 +1,27 @@
+X:28
+T: Zhi shoujin
+N: C0037
+O: China,bei Gansu, Zhangye, Nordwesten)
+S: I, 120]
+N: Handtuecher weben.
+R: Xiaodiao, Shidiao, Mengjiangn diao. Xin minge]
+M: 2/4
+L: 1/16
+K: F
+c2c2c4 | d2f2d2c2 | c2A2G2F2 | G2A2G4
+c4A2c2 | c2D2F4 | G2A2F2D2 | C2D2C4
+D3FD2F2 | G3AG4
+c4A2c2 | c2D2F4 | G2A2F2D2 | C8
+S:https://www.folktunefinder.com/tunes/112455
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, mengjiangn diao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

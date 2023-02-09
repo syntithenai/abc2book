@@ -1,0 +1,23 @@
+X:13011
+T:Moll In The Wad
+T:Moll in the Wood
+R:Jig
+C:O'Neill 1850
+O:Ireland
+M:6/8
+L:1/8
+Q:1/4=140
+K:Dmix
+c|"Em"BAB G2 F|E2 F G2 A|BAB GAB|"D"AFD D2 c|
+"Em"BAB G2 F|E2 F G2 A|"G" BGB dcB|"D" AFD D2:|
+|:c|"G" BGB d2 c|BGB d2 c|BGB dcB|"D" ecA A2 c|
+"G"BGB def|"Em" gfe dcB|"C" cec "G"BdB|"D"AFD D2:|
+S:https://www.folktunefinder.com/tunes/51014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hardy.demon.co.uk/pgh_session_tunebook.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 3
+P: La Precieuse
+C: J.Chaxelle
+R: jig
+N: Recommended tune for The Wrights of Lichfield
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: Bm
+f \
+| "Bm"f>gf "F#7"edc | "Bm"B3 d3 | "F#7"c2c f2f | edc "Bm"B2f \
+| "Bm"f>gf "F#7"edc | "Bm"Bcd "Em"efg | "Bm"fbd "F#7"c>e^A | "Bm"B3- B2 :|
+d \
+| "F#7"ceg F^Ac | e2^A "Bm"B2d | "F#7"c^Ac F>fe | "Bm"dcd B2d \
+| "F#7"ceg F>^Ac | "Bm"B2f d2B | "G"g2g "C#7"^e2e | "F#7"f3 fef |
+| "Em"g3 gec | "Bm"B3 "F#7"^Aef | "Em"g3 gec | "Bm"B3 "F#7"^A2A \
+| "Bm"B2^A "F#7"c2B | "Bm"d2c "Em"e2d | "Bm"fdB "F#7"F^G^A | "Bm"B3- B2 |]
+S:https://www.folktunefinder.com/tunes/4226
+S:http://trillian.mit.edu/~jc/music/abc/England/WrightsOfLitchfield.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

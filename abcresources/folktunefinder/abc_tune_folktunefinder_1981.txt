@@ -1,0 +1,32 @@
+X: 44
+T:Omaghs Lock. JMP.044
+M:C|
+L:1/8
+Q:180
+C:"49"
+S:John Miller MS. Perth, 1799.(for the fife)
+R:Reel
+O:Scotland
+A:Perth
+N:This is either seriously weird or not in 'C'.   E major sounds almost
+N:tolerable
+H:1799
+Z:vmp.C. Graebe
+K:C major
+F | G2 GA F2 FE | ^CEFG AGFA | BAGF E2 ^D2 | Bee^d eE E :|!
+|:d | e2 Bd e2 Bd | egfe ^dcBc | d2 Ac d2 Ac | defe dcBc |!
+ dcdB edec |egfe dcBA | G2 GA F2 FG | Bee^d eE E :|]
+S:https://www.folktunefinder.com/tunes/1981
+S:http://www.village-music-project.org.uk/abc/miller.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 7603
+T:Polka fr Finland
+R:Polka
+O:Finland
+M:2/4
+L:1/8
+K:D
+FG | A2 BG| A2 FG| AB =c/B/A/G/| A2 FA | \
+dd c/d/e/f/| gg B>B| Ag ec| d2 ::
+cd |\
+e2 e>f | gg B2| Ag fe | f2 dc |\
+BG/G/ GG | g/g/g/g/ B>B | Ag ec | d2 :|
+S:https://www.folktunefinder.com/tunes/34820
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

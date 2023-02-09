@@ -1,0 +1,27 @@
+X:395
+T: Bag of Potatoes
+S: Reavy Collection: "Music of Corktown"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+DF|: G2 dG BGdG|GABc (3dcB cA|=F2 cF AFcF|=FGAB BdcA|
+G2 dG BGdG|GABc (3dcB cA|GABc dcAB|1 cAfc AGGF :|
+|2 cAFc AGG||
+f|g2 dg gfdf|g2 (3agf gfde|=fdc_B A=FAC|=fefg afd^f|
+g2 dg gfdf|g2 (3agf gfdB|cBcd =fefd|cA=FG AGG^f|
+g2 dg gfdf|g2 (3agf gfde|=fdc_B A=FAC|fefg afd^c|
+d^cd^f gfga|(3bag af gfdB|cBcd =fefd|cA=FG ABcA ||
+S:https://www.folktunefinder.com/tunes/93578
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

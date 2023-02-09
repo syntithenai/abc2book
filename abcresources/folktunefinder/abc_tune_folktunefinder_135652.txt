@@ -1,0 +1,23 @@
+X: 5
+T: Galway Races
+M: 6/8
+L: 1/8
+Q: 125
+R: jig
+P: AA BB
+K: D
+|:  "D"  ABA D2 d| dcA BAF| ABF ABc| "G"dAB "A"cde| "D"ABA D2 d| dcA AGE
+| "G"GAB cde|1 "D"fdc d2 B:|2 "D"fdd d2 e|:  "D"fff edc|
+Add Ade| f2-f  edc| ABc def| "G"ggg age| dcA AGE|"A" GAB  cde|1"D" fdd d
+2 e:|2"D"fdd d3||
+S:https://www.folktunefinder.com/tunes/135652
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs2.html
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs2.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

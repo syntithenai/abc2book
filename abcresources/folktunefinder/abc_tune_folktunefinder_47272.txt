@@ -1,0 +1,29 @@
+X:15997
+T:Stensele polska
+R:Polska
+O:Sweden
+M:3/4
+L:1/16
+A:W\"asterbotten
+K:Gm
+D2|\
+D2B2 B2AB cBAG|F2A2 A2GA BAGF|\
+E2EF G2GA B2AG|^FGAF G2D2 B,CB,A,|
+G,2B2 B2AB cBAG|F2A2 A2GA BAGF|\
+E2EF G2GA B2AG|^FGAF G6::
+D2d2 d2^cd e2d2|D2c2 c2Bc dcBA|\
+G^FGA BABc d2d2|^c2Ac d4|
+D2d2 d2^cd e2d2|D2c2 c2Bc dcBA|\
+G^FGA BABc d^cde|d2^F2 G4:|
+S:https://www.folktunefinder.com/tunes/47272
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

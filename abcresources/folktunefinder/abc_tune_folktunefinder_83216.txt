@@ -1,0 +1,26 @@
+X:352
+T:Bourree limousine
+R:bourree 3 temps
+C:trad.
+A:Limousin
+O:France
+Z:S. Piron
+M:3/8
+L:1/16
+Q:1/4=90
+K:G
+ef|g2e2f2|d2BdBd|cBABcd|e2d2ef|g2f2e2|d2BdBd|cBABcA|1G2Bd:|2G6|
+|:A3GAB|cAB2G2|Bcd2e2|e2d4|efg2e2|d2BdBd|1c2AcAc|B2A2G2:|2cBABcA|G4 z2||
+S:https://www.folktunefinder.com/tunes/83216
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Bourree 3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

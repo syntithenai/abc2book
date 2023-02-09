@@ -1,0 +1,24 @@
+X:260
+%%topmargin 3cm
+T:Captain Byng
+C:Nath. Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:G
+g | fdgd BGGB | cAag fdef | {/a}gfgd BGGB | cAdB G2 G :| c | BGdG BGGB | cAeA cAAc |
+BGdG BGGB | cAdB G2 Gc | (BG)dG BGGB | cAeA cAAc | BGdB ecdB | cAdB G2 G |]
+S:https://www.folktunefinder.com/tunes/71289
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Captain_Byng.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0260.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

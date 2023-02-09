@@ -1,0 +1,25 @@
+X:1
+T:Scottish d'Alsace
+R:Scottish
+C:Trad.
+A:Alsace
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+D|:G/2F/2G/2A/2 B/2A/2B/2c/2|ed d>B|1dc c>A|ed dD:|2dc cB/2A/2|GBG2|
+|:gd d/2c/2B|gd d/2c/2B|1AA/2B/2 c/2B/2c/2d/2|edd2:|2F/2G/2A/2B/2 cB/2A/2|GB GG|
+|:e/2d/2c/2B/2 d/2c/2B/2A/2|G2 EG/2G/2|1=F2DA/2A/2|G2EG:|2A/2A/2G/2A/2 B/2B/2A/2B/2|cc cG/2c/2|
+|:BB B=F/2A/2|GG GG/2G/2|1A/2A/2G/2A/2 B/2B/2A/2B/2|c/2c/2B/2A/2 GG/2c/2:|2A/2A/2G/2A/2 B/2B/2A/2B/2|ce c D||
+%%footer $D   Galouvielle-MBe 2006 \nScottish (France)
+S:https://www.folktunefinder.com/tunes/45769
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Programme%25202%2520Catherine.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

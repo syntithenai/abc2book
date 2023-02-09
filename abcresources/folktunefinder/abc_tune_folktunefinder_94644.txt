@@ -1,0 +1,32 @@
+X:046
+U: ~ = !turn!
+%%topmargin 3cm
+T:Daugherty's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Jig
+L:1/8
+M:6/8
+K:EAeo
+[G,2E2] d BGE | D2 B AFD | [G,2E2] d BGE | GFE e2 f |
+gfe dcB | PA2 G FED | EFG ABc | [1 BGF E2 B :| [2 BGF E2 g |]
+|: eBe gbg | dAd faf | eBe gbg | faf gbg |
+faf gfe | fdB AGF | EFG ABc | [1 BGF E2 g :| [2 BGF E2 B :|]
+S:https://www.folktunefinder.com/tunes/94644
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Daughertys_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Daughertys_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Daughertys_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Daughertys_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:315
+T: High in the Reeks (with piano acc.)
+C: BB
+R: polka
+M: 2/4
+Q: 300
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Em
+[V:1] "Em"E>F GA|"Bm"B>c BA|"G"GE FE|"D"DE "Bm"B,2|"Em"E>F GA|"Bm"B>c BA|\
+"G"GB "D"FA | "Em"GF E2 :|
+[V:2] [B,4E,4G4]|[B,,4D4F,4]|[G,,4D,4B,4]|[D,2A,2F2][B,,2F,2D2]|[B,4E,4G4]|[B,,4D4F,4]|\
+[G,,2D,2B,2][D,2A,2F2]|[B,4E,4G4] :|
+%
+[V:1] "Bm"B>^c dB|"C"e>f gf|"Em"eB "G"dB|"D"Ad "Bm"B2|"Em"eB GB|"D"d>^c BA|\
+"G"GB "D"FA|"Em"GF E2 :|
+[V:2] [B,,4D4F,4]|[C,4E4G,4]|[B,2G2E,2][G,,2D,2B,2]|[D,2A,2F2][B,,2F,2D2]|[B,4E,4G4]|\
+[D,4A,4F4]|[G,,2D,2B,2][D,2A,2F2]|[B,4E,4G4]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86948
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

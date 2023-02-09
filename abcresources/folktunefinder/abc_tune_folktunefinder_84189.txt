@@ -1,0 +1,35 @@
+X: 48
+T:Meeting of the Waters,The
+R:march
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M:C
+L:1/8
+Q:300
+K:A
+EF \
+| "A"A2 Ac E2 A>G | "D"FA FD "A"E2 A>B | ce Ee dc BA | "E7"c4 B2 EF \
+| "A"A2 Ac E2 A>G | "D"FA FD "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+:|
+|: cd \
+| "A"e>d ce A2 cA | "D"F<A FD "A"E2 A>B | ce Ee dc BA | "E7"c4 B2 cd \
+| "A"e>d ce A2 cA | "D"F<A FD "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+ :|"Variation"
+|: EF \
+| "A"A2 A>B c2 cd | eE FA E2 e>d | cE cd ec BA | "E7"c4 B2 EF \
+| "A"A2 A>B c2 cd | "A"ec BA "D"F2 A>B "A"ce dc "E7"dE GB | "A D A"A6 :|
+|: e>d \
+| "A"c2 e>d ce cE | "D"FA dF "A"E2 A>G | "D"FD FA dc BA | "E7"c4 B2 e>d
+\
+| "A"c2 e>d ce cE | "D"FA dF "A"E2 A>B | "A"ce dc "E7"dE GB | "A D A"A6
+:|
+S:https://www.folktunefinder.com/tunes/84189
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

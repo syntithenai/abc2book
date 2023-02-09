@@ -1,0 +1,34 @@
+X:54
+T:Lord McDonalds
+R:Reel
+S:Paddy Canny, Clare (fiddle).
+D:Clare FM broadcast.
+N:As played
+P:ABCB
+M:4/4
+Z:Bernie Stocks
+K:G
+(3DEF | G2BG (3.d.d.G BG | cGBG AE~E2 | DGBG (3.d.d.G BG | DEDC B,G,G,2D2 |
+(3.D.D.G BG dGBG | cGBG AE~E2 | AcBA GFGE | DEGA BGGA ||
+Bd~d2 {e}dBGA | Bdeg aged | Bd{e}dB d2D2ge | dBAc BGGA |
+Bd~d2 {e}dBGA | Bdeg aged | Bdeg {a}gf{a}ge | dBAc BGGB ||
+dgbg agbg | dg(3bag ageg | dgbg (3agf dB | ~d3c BGGB |
+dgbg agbg | dg(3bag ageg | bgag {a}ged^c | dega bg~g2 ||
+S:https://www.folktunefinder.com/tunes/117256
+S:http://ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book4.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book4.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://www.firepowr.com/abc/Book4abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book4.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

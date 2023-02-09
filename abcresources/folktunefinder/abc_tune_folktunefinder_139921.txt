@@ -1,0 +1,41 @@
+X:1
+T:Blackthorn Set
+P:Cutting Bracken
+Q:1/4=120
+M:4/4
+L:1/8
+K:EMin
+|: "Em"E2 e2 "G"dA "A"F>E "D"D>E F<D |
+"Em"E2 e2 "G"dA F<B "Em"E2 E2 :|
+"Em"B>A F>E "D"D>E F<D | "Em"B>A "A"F<E "D"F<A A2 |
+"Em"B>A "A"F>E "D"D>E F<D | "Bm"B>A F<B "Em"E2 "C"E2 :|
+%
+P:The Road to Lisdoonvarna
+Q:1/4=130
+M:6/8
+L:1/8
+K:EDorian
+|: "Em"E2B B2A|B2c d3|"D"F2A ABA|D2E FED|
+"Em"E2B B2A|B2c d3|"A"cdc B2A|"Em"B2E E3 :|
+|: "Em"e2f gfe|"D"d2B Bcd|"A"c2A ABc|"Em"d2B B3|
+"Em"e2f gfe|"D"d2B Bcd|"A"cdc B2A|"Em"B2E E3 :|
+%
+P:The Blackthorn Stick
+Q:1/4=140
+M:6/8
+L:1/8
+K:G
+d |: "G"gfg "C"ege | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGB "D2"A2d |
+"G"gfg "C"age | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGG G3 :|
+d | "G"edd gdd | edd gdd | ede "C"gfg | "G"edB "D2"A2d |
+"G"gfg "C"age | "G"dBG "C"AGE | "G"DGG "D7"FGA | "G"BGG G3 :|
+S:https://www.folktunefinder.com/tunes/139921
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BlackthornSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BlackthornSet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BlackthornSet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

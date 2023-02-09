@@ -1,0 +1,31 @@
+X: 7
+T:Prelude by Dean(07). TBe.007
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:C Major
+"C faut natural= Cmaj.No time sig"\
+c4e4g4e4 | B4d4g4B4 | A4c4f4A4 |!
+ c2e2g2e2 a2g2f2e2 |\
+ g2f2e2c2 f2e2d2B2 |e2d2c2A2 d2c2B2G2 |!
+ agfe defd gfed cdec | fedc BcdB edcB ABcA |!
+dcBA GABG cege cege | c2C2E2G2 c8 ||
+S:https://www.folktunefinder.com/tunes/96158
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

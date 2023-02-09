@@ -1,0 +1,23 @@
+X:6800
+T:Whistle o'er the Lave o't
+M:4/4
+O:Scotland
+R:Strathspey
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000082c.html
+%%ID:0000082c
+K:G
+G>D EG B>A B2|de/f/ g>B A<G =F2|\
+G>D EG B>A B<g|G<G B>G A2 G2::
+de/f/ g>f e<d B2|de/f/ g>B A<G =F2|\
+g>b e>g d>e B>g|G<G B>G A2G2:|
+S:https://www.folktunefinder.com/tunes/37439
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

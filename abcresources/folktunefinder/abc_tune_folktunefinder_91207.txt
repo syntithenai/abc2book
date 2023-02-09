@@ -1,0 +1,19 @@
+X:350
+T:Sleep Sound in the Morning
+M:4/4
+L:1/8
+K:Am
+AB|cA ec cA ec|BcdB G2 AB|(3cBA eA cA eA|BAGB A2 :|
+AB|Aaag a2 ea gedB GBdc|Aaag a2 ea|gedB A2 :|
+AB|c2 [ec]c c2 [ec]c| d2 [fd]d d2 [fd]d|eaag agea|gecB A2 :|
+P:Variation to A part
+AB|(3cBA gA ^fAgA|edBA G2 AB|(3cBA aA gAaA|ecdB A2 :|
+S:https://www.folktunefinder.com/tunes/91207
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

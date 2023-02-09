@@ -1,0 +1,64 @@
+X: 5932
+T: Cameronian Rant, The
+R: reel
+M: 4/4
+K: Fmajor
+||g/e/{GdGc}d {e}G{g}G/{d}G/|{e}G/{g}B/{d}G/g/ {g}g/G/{g}B/{d}B/|{G}B/e/{g}d/G/ {g}G/{d}G/{gBeBG}B|G/{gdedG} dA/ {g}B/d/{gef}e/A/||
+{g}d/B/{g}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/B/{g}c/A/ {gAGAG}A{gBeBG}B|{g}B/a/{cd}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/e/{g}d/{e}d/ {G}d/c/{g}B/A/||
+{g}B/c/{GdGc}d {e}G{g}G/{d}G/|{e}G/{g}B/{d}G/g/ {g}g/G/{g}B/{d}B/|{G}B/e/{g}d/G/ {g}G/{d}G/{gBeBG}B|G/{gdedG} dA/ {g}B/d/{gef}e/A/||
+{g}d/B/{g}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/B/{g}c/A/ {gAGAG}A{gBeBG}B|{g}B/a/{cd}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/e/{g}d/{e}d/ {G}d/c/{g}B/A/||
+28||{gAGAG}A{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}e/G/{g}d/B/|{gBeBG} B{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}e/G/{g}d/B/||
+{gBeBG} B{g}G/{d}A/ {e}A/{a}g/a/A/|{g}f/g/a/g/ {a}f/d/{gef}e/d/|{g}c/A/{g}G/{d}A/ {e}A/{a}g/a/A/|{g}f/g/a/g/ {a}f/d/{gef}e/d/||
+{g}c/A/{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}f/d/e/{gde}d/|B/A/{g}G/B/ d/{g}f/g/e/|{g}f/g/{a}c/d/ {G}d/{g}d/{e}G/{d}G/||
+{a}g/e/{g}f/g/ a/e/{A}e/A/|e/{A}e/{g}e/f/ a/g/{a}f/e/|{gefeA}e{g}f/a/ {ag}a/e/{g}e/{A}e/|f/A/{gef}e/g/ {f}g/e/{g}f/e/||
+28||{g}c/e/{g}d/{e}G/ {d}G/{g}f/g/G/|{g}f/e/{g}d/G/ {g}G/{d}G/{gBeBG}B|{g}A/{d}G/{g}d/{e}G/ {d}G/{g}f/g/G/|{g}f/e/{g}d/G/ {g}G/{d}G/ {g}B
+.25c
+.25d/||
+{g}d/B/{g}c/{d}A/ {e}A/{a}g/a/A/|{a}g/f/{g}e/A/ {gAGAG}A{g}B
+.25c
+.25d/|{gef}e/d/{g}c/{d}A/ {e}A/{a}g/ a/A/|{a}g/f/{g}e/A/ {gAGAG}A{g}B
+.25c
+.25d/||
+{gef}e/B/{g}d/G/ {d}G/{g}f/ g/G/|{g}f/e/{g}d/G/ {g}G/{d}G/{gBeBG}B|{g}A/{d}G/ {gdedG} dG/ {gBeBG} BG/|{gdedG} dG/ {gBeBG} Bd/ {gef}e/A/||
+{g}d/B/{g}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/B/{g}c/ A/{gAGAG}A {gBeBG} B|{g}B/a/{cd}c/A/ {gAGAG}A{g}A/{d}A/|{G}A/e/{g}d/{e}d/ {G}d/c/{g}B/A/||
+28||{gAGAG}A{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}e/G/{a}g/e/|{gefeA}e{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}e/G/{a}g/e/||
+{gefeA}e{g}G/{d}A/ {e}A/{a}g/a/A/|{g}f/g/a/g/ {a}f/d/a/e/|{gefeA}e{g}G/{d}A/ {e}A/{a}g/a/A/|{g}f/g/a/g/ {a}f/d/a/e/||
+{gefeA}e{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/a/g/ {a}f/d/e/{gde}d/|B/A/{g}G/B/ d/{g}f/g/e/|{g}f/g/{a}c/d/ {G}d/{g}d/{e}G/{d}G/||
+{a}g/e/{g}f/g/ a/e/{A}e/A/|e/{A}e/{g}e/f/ a/g/{a}f/e/|{gefeA}e{g}f/a/ {ag}a/e/{g}e/{A}e/|{g}f/A/{gef}e/g/ {f}g/e/{g}f/e/||
+28||{g}c/e/{g}d/{e}G/ {d}G/{g}G
+.25{d}G
+.25 {e}G/{g}G/|{d}G/{e}G/{g}d/{e}G/ {d}G/d/{gBeBG}B|{g}A/{d}G/{g}d/{e}G/ {d}G/{g}G
+.25{d}G
+.25 {e}G/{g}G/|{d}G/{e}G/{g}d/{e}G/ {d}G/d/{gBeBG}B||
+{g}A/{d}G/{g}c/ {d}A/{e}A/ {gAGAG}A{d}B/|{gAGAG}A{g}A/c/ {G}c/A/{g}B/A/|{gAGAG}A{g}B/ c/{G}c/ {gAGAG}A{d}B/|{gAGAG}A{gcecG}c {g}c/A/{g}B/A/||
+{g}c/A/{g}d/{e}G/ {d}G/{g}G
+.25{d}G
+.25 {e}G/{g}G/|{d}G/{e}G/{g}d/{e}G/ {d}G/d/{gBeBG}B|{g}A/{d}G/{g}d/{e}G/ {d}G/{g}G
+.25{d}G
+.25 {e}G/{g}G/|{d}G/{e}G/ {d}G/{g}G
+.25{d}G
+.25 {e}G/{g}G/{d}G/{e}G/||
+{g}B/{d}G/{g}c/{d}A/ {e}A/{g}A
+.25{d}A
+.25 {e}A/{g}A/|{d}A/{e}A/{g}c/{d}A/ {e}A/c/{gBeBG}B|{g}B/{d}A/{g}c/{d}A/ {e}A/{g}A
+.25{d}A
+.25 {e}A/{g}A/|{d}c/A/{g}d/{e}d/ {G}d/c/{g}B/A/||
+28||{gAGAG}A{g}G/{d}G/ {e}G/{gdedG} dB/|{gBeBG} Ba/B/ {G}B/{gef}e/d/B/|{g}B/{G}B/{g}G/{d}G/ {e}G/{gdedG} dB/|{gBeBG} Ba/B/ {G}B/{gef}e/d/B/||
+{g}d/B/{g}G/{d}A/ {e}A/{gefeA}ec/|{gcecG} ca/c/ {G}c/f/{gef}e/d/|{g}c/B/{g}G/{d}A/ {e}A/{gefeA}ec/|{gcecG} ca/c/ {G}c/f/{gef}e/d/||
+{g}c/B/{g}G/{d}G/ {e}G/{gdedG} dB/|{gBeBG} Ba/B/ {G}B/{gef}e/d/B/|{g}B/{G}B/{g}G/B/ d/{g}f/g/e/|{g}f/g/{a}c/d/ {G}d/{g}d/{e}G/{d}G/||
+{a}g/e/{g}f/g/ a/e/{A}e/A/|e/{A}e/{g}e/f/ a/g/{a}f/e/|{gefeA}e{g}f/a/ {ag}a/e/{g}e/{A}e/|{g}f/A/{gef}e/g/ {f}g/e/{g}f/e/||
+28||{g}c/e/{g}d/B/ {G}B/{gBeBG} B{G}B/|{g}B/{G}B/{a}g/B/ {G}B/{gef}e/d/B/|{g}B/{G}B/{g}d/B/ {G}B/{gBeBG} B{G}B/|{g}B/{G}B/{a}g/B/ {G}B/{gef}e/d/B/||
+{g}d/B/{g}c/A/ {G}A/{gAeAG} A{G}A/|{g}A/{G}A/a/e/ {A}e/A/{g}c/A/|{gAGAG}A{g}A/{d}c/ B/{gBeBG} c{gef}e/|{A}e/A/a/e/ {A}e/A/{gcd}c/A/||
+{g}e/f/d/B/ {G}B/{gBeBG} B{G}B/|{g}B/{G}B/{a}g/B/ {G}B/{gef}e/d/B/|{g}B/{G}B/{g}d/B/ {G}B/{gBeBG} B{G}B/|{g}B/{G}B/{G}B/ {gBeBG} B{G}B/ {g}B/{G}B/||
+{g}d/B/{g}c/A/ {G}A/{gAeAG} A{G}A/|{g}A/{G}A/{g}c/A/ {G}A/{d}c/{gBeBG}B|{g}B/A/{g}c/A/ {G}A/{gAeAG} A{G}A/|{g}c/A/{g}d/{G}d/ {g}d/c/{g}B/A/||
+28||{gAGAG}A{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/{a}G {g}G
+.25{d}G
+.25{e}G/ {a}g/e/|{g}e/{A}e/{g}G/{d}G/ {e}G/{g}f/g/G/|{g}f/g/{a}G {g}G
+.25{d}G
+.25{e}G/ {a}g/e/||
+{g}e/{A}e/{g}G/{d}A/ {e}A/{a}g/a/A/|{a}g/a/G/A/ {gAGAG}Aa/e/|{g}e/{A}e/{g}A/a/ {ag}a/{gAGAG}Ag/|{gAGAG}A/a/{ag}a/ {gAGAG}Ag/{f}g/||
+{gAGAG}A/g/a/G/ {d}G/{e}G/{g}f/g/|G/{g}f/g/ {a}G{g}G
+.25{d}G
+.25 {e}G/{a}g/e/|{g}e/{A}e/{g}d/e/ {g}f/d/{gef}e/d/|{g}c/d/{gde}d/c/ {g}B/A/{g}G/{d}G/||
+{e}G/a/{ef}e/c/ e/{gdedG} dB/|{G}B/d/{g}c/{d}A/ {e}A/c/{gBeBG}B|{g}G/{d}B/{e}A/c/ e/{ag}ae/|{g}B/G/{gcd}c/e/ {ag}a{gAGAG}A||
+

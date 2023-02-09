@@ -1,0 +1,30 @@
+X: 1
+T:Polska i Dm efter Gran Lng, Haver
+A:Haver, Medelpad
+O:Sweden
+M:3/4
+L:1/8
+Q:1/4=120
+K:Dm
+a>a ga f2|"tr"f>e de/g/ f2|(f/g/)f/e/ de/g/ fe/d/|^c=B/c/ dd A2|\
+{A}a>a ga f2|(f/g/)f/e/ de/g/ f2|(f/g/)f/e/ de/g/ fe/d/|^c=B/c/ d4::\
+A>^c cd de|eg fe/d/ e2|e>a eg fe/d/|^c=B/c/ dd A2|\
+A>^c cd de|eg fe/d/ e2-|e>a eg fe/d/|^c=B/c/ d4:|
+T:Understmma
+f>f ef d2|d>^c Ac/e/ d2|(d/e/)d/^c/ Ac/e/ dc/A/|ED/E/ FF [A,2D2]|\
+f>f ef d2|(d/e/)d/^c/ Ac/e/ d2|(d/e/)d/^c/ Ac/e/ dc/A/|ED/E/ [F4A4]::\
+D>E EF FA|^ce dc/=B/ c2|A>f ^ce AG/F/|ED/E/ FF [A,2D2]|\
+D>E EF FA|^ce dc/=B/ c2-|^c>f ce AG/F/|ED/E/ [F4A4]:|\
+T:Oktav
+A>A GA F2|F>E DE/G/ F2|(F/G/)F/E/ DE/G/ FE/D/|^C=B,/C/ DD A,2|\
+{D}A>A GA F2|(F/G/)F/E/ DE/G/ F2|(F/G/)F/E/ DE/G/ FE/D/|^C=B,/C/ D4::\
+A,>^C CD DE|EG FE/D/ E2|E>A EG FE/D/|^C=B,/C/ DD A,2|\
+A,>^C CD DE|EG FE/D/ E2-|E>A EG FE/D/|^C=B,/C/ D4:|
+S:https://www.folktunefinder.com/tunes/179803
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_i_Dm_efter_G_ran_L_ng_Haver_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

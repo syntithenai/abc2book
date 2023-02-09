@@ -1,0 +1,24 @@
+X: 132
+T:Le Pont
+M:2/4
+L:1/16
+C:Frederic Paris
+R:Bourree
+K:Dm
+A3B A2A2|GAGF EDEF| A3B A2A2|GFGA BABc|A3B A2A2|GAGF EDEF| A3B A2A2|GABc
+ A4:|
+:dcde c=Bcd|=BABc A2A2|GAGF EDEF|GAGF E2D2|dcde c=Bcd|=BABc A2(3ABc|d2d2
+ cedc|d3c d4:|
+% Output from ABC2Win  Version 2.1 f on 06/02/99
+S:https://www.folktunefinder.com/tunes/49033
+S:http://freespace.virgin.net/hurdy.gurdy/hurdygurdy%20soc.html
+S:http://homepage.virgin.net/hurdy.gurdy/hurdygurdy%20soc.html
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

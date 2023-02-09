@@ -1,0 +1,26 @@
+X:335
+%%topmargin 3cm
+T:Alasdair Macalister
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D dorian
+e/d/ | {AB}c<AA>G E<AA>B | {AB}c<AA>B {/B}e2 e>d | {/B}c<AA>G EAAc | B<GG>B {/^c}d2 d:|
+B | Tc>de>f g>ag>e | Tc>de>f ~g2 g>e | {AB}c>de>f g>ag>e | BGGB {/^c}d2 d>B |
+{AB}c>de>f g>ag>e | {AB}c>de>f g2 g>a | _b>ga>f g>ef>d | B<GG>B {/^c}d2 d|]
+S:https://www.folktunefinder.com/tunes/71364
+S:http://trillian.mit.edu/~jc/music/book/skye/Skye_Collection.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Alasdair_Macalister.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0335.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

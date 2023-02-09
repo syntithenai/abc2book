@@ -1,0 +1,34 @@
+X:55
+T: Mari Geburt, S.21f
+N: L0016
+O: Luxemburg
+S: Die Luxemburger Volkslieder lterer Zeit, Luxemburg 1904 posth.]
+R: geistliches, religi\^ises Lied]
+M: 4/4
+L: 1/8
+K: G
+D2 | G3GBAGA | B2ABcB2z
+D | G3GBA2F | G4z2
+D2 | G3GBAGA | B2ABcB2z
+D | G3GBA2F | G4z2
+ | d4c2 | B3AGc | c4B2 | A4z2
+B4A2 | G3FGB | A4G2 | F4z2
+G4F2 | E4z2 | F4E2 | D4z2
+G2A2B2 | cBBA2F | G6- | G2z4
+ | d4c2 | B3AGc | c4B2 | A4z2
+B4A2 | G3FGB | A4G2 | F4z2
+G4F2 | E4z2 | F4E2 | D4z2
+G2A2B2 | cBBA2F | G6- | G2z4
+S:https://www.folktunefinder.com/tunes/70185
+S:http://ifdo.ca/~seymour/runabc/esac/LUX.abc
+% Rhythm Geistliches, religi%C3%AEses lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

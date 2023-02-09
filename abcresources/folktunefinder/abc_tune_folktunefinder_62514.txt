@@ -1,0 +1,28 @@
+X:2
+T:Karis Pers Polska (Hambo)
+R:Hambo
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook
+M:3/4
+L:1/8
+%Q:1/4=132
+K:D  bass %clef=bass middle=d
+P:A
+{F,}A,2(uA,>B,) A,>G,|(G,>F,) (F,>D,) F,>A,|D2(D>E) D>C|(C>B,)B,4|
+E2(E>F)  E>D|(D>C) (C>A,) C>E|A2(A>B) A>G|(G>F)F4|
+{F,}A,2(A,>B,) A,>G,|(G,>F,) (F,>D,) F,>A,|D2(D>E) D>C|(C>B,)B,4|
+E2(E>F)  E>D|(D>C) (C>A,) C>E|A2(A>G) F>E|[1D2D4:|[2D2D7/2||
+P:B
+(F/|G>F) (E>D) E>G|(F>E) (D>C) D>F|(E>D) (C>A,) B,>C|(D>E) (F<G) A>F|
+(G>F) (E>D) E>G|(F>E) (D>C) D>F|(E>D) (C>A,) B,>C|[1D2D7/2:|[2D2D4:|
+S:https://www.folktunefinder.com/tunes/62514
+S:http://www.nordicfiddlesandfeet.org/music/NFF2003bass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFFBass.abc
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 1
+T: Oer the Muir to Ketty
+O: trad Scotland
+M: C|
+L: 1/8
+R: Scots Measure
+B: McGlashan Collection of Scots Measures (178)
+Z: AK/Fiddlers Companion
+K: D
+FE "A"\
+| D3F A>BAF | A2d2d3A \
+| Bcde f2 ed | e2E4 {G}FE \
+| D3F A>BAF | A2 de d3A |
+| BcdB edce | d2 D4 :| \
+de "B1"\
+| fedc BAGF | B2d2d3F \
+| G3A BAGF | E2 e4 ag |
+| fedf edce | dcBA BAGF \
+| EFGE AGFE | D2 d4 |] \
+de "B2"\
+| fedc BAGF | B2de d3F |
+| GFGA BAGF | E2e4 ag \
+| fedf edce | dcBA BAGF \
+| E/D/E/F/ GB AGFE | D2 d4 |]
+S:https://www.folktunefinder.com/tunes/17790
+S:http://trillian.mit.edu/~jc/music/abc/reel/OerTheMuirToKetty_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/OerTheMuirToKetty_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/OerTheMuirToKetty_D.abc
+% Rhythm Scots measure
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 24
+T:Cuckoo's Nest, Bledington
+M:4/4
+L:1/8
+A:Bledington
+P:A(AB)2(AC)2
+K:Gm
+P:A
+|:A2|B2B2 G2f2|d2cB c2c2|BAG2 FFGA|B2G2 G2 :|
+P:B
+|:d2|g2g2 g2a2|g2d2 d2de|f2f2 f2g2|efed c2c2|
+BcBA G2f2|d2cB c2c2|BAG2 FFGA|B2G2 G2 :|
+P:C
+|:d4 g4  |g4   g4  |a2g2 f4  |d4   d4  |
+  d2e2 f4|f4   f3g |efed c2c2|
+BcBA G2f2|d2cB c2c2|BAG2 FFGA|B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/132445
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

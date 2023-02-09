@@ -1,0 +1,38 @@
+X:275
+T: Yigen sixian qianguo he
+N: C0452
+O: China,Jiangsu, Jiangdu
+S: III, 486]
+N: Lyrisch laut Kommentar. Untertitel 2 enthaelt Fuellwoerter. Am
+N: Titel erkennt man nicht das Lied, sondern an den Fuellwoertern.
+N: Vielleicht bedeutet "yangzi" ein Werkzeug, das das Maedchen
+N: niederlegt, wenn der Geliebte kommt. Genaues weiss man nicht.
+N: Beilage kopiert. - Gesang = leichte Variante, z.T. in Version
+N: einer staff-notation nachgetragen). Einige Verzierungen und Vorspiel
+N: im ESAC weggelassen. Aufnahme enthaelt auch Zwischenspiele.
+R: Shange, Tiange, Sa tangzi lao zai wai,
+M: 2/4
+L: 1/16
+K: F
+c4d2f2 | dcA2c4- | c8
+c4d2f2 | d2c2c2fd | cAAFG2G2
+c2d2c2cA | GAGFD4- | D8
+dcA2c6f2 | dcAGF2F2 | AcG2FD3
+D2GAFGFD | C8
+c4d2f2 | g2fddcA2 | c12
+c4d2f2 | d2c2c2fd | cAAFG2G2
+c2fdc2cA | GAGFD4- | D8
+dcA2c6f2 | dcAGF2F2 | AcG2FD3
+D2GAFGFD | C8- | C6z2
+S:https://www.folktunefinder.com/tunes/112702
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tiange, sa tangzi lao zai wai,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

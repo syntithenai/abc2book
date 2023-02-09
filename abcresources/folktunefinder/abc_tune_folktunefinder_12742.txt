@@ -1,0 +1,25 @@
+X: 1
+T: Jack Broke (Down) da Prison Door
+C: J.Goudie
+O: Shetland
+R: reel
+N:
+N: BSFC III-28
+N: Fiddlers 32 tape B6
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+(D2 \
+|: "G"G2)B(G "(Em)"Bd)B(G | "Am"cB)A(B "D7"dB)A(B | "G"G2)B(G "(Em)"Bd)B(G | "Am"AB)A(G "D7"E2)D2 :|
+|: "G"{D}[g2B2]g(d "(Em)"ed)B(d | g2)g(d "D7"ea)a(f | "G"g2)g(d "(Em)"ed)B(G | "Am"AB)A(G "D7"E2)D2 :|
+S:https://www.folktunefinder.com/tunes/12742
+S:http://trillian.mit.edu/~jc/music/abc/Shetland/JackBrokeDaPrisonDoor.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

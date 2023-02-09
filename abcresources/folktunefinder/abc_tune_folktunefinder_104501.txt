@@ -1,0 +1,25 @@
+X:13
+T:Garrett Barry's
+M:6/8
+Z:Seattle.  Fine piping jig. 
+R:jig
+K:DMix
+DEF ~G3|AGE c2A|dcA d2e|fed cAG|EFF GFG|AGA cde|dcA GEA|~D3 D2:|
+A|dcA d2e|fed ege|dcA c2d|ege dcA|dcA d2e|~f3 ~e3|dcA GEA|~D3 D2:|
+S:https://www.folktunefinder.com/tunes/104501
+S:http://domren.free.fr/ABC.htm
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunes.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunes.abc
+S:http://www.firepowr.com/abc/sessionTunes.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Call Of Ktulu
+C: Metallica
+Z: arae69
+M: 4/4
+L: 1/8
+Q:1/4=135
+K:F
+V:1
+D,A DF A,E AF|D,A DF A,E AF|D,B DF B,E BF|D,B DF B,E BF|
+D,c EG CE cG|D,c EG CE cG|D,A DF A,E AF|D,A DF A,E AF|
+D,A DF A,E AF|D,A DF A,E AF|D,B DF B,E BF|D,B DF B,E BF|
+D,c EG CE cG|D,c EG CE cG|D,A DF A,E AF|F8|
+C,A, CB, EB, CE,|_E,A, CB, EB, CA,|C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|
+C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|
+D,A, DF D,B, DF|D,A, DF D,C DA|D,A, DF D,B, DF|D,A, DF D,C DA|
+D,A, DF D,B, DF|D,A, DF D,C DA|D,A, DF D,B, DF|D,A, DF D,C DA|
+C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|
+C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|C,A, CB, EB, C=E,|_E,A, CB, EB, CA,|
+D,A, DF D,B, DF|D,A, DF D,C DA|D,A, DF D,B, DF|D,A, DF D,C DA|
+D,A, DF D,B, DF|D,A, DF D,C DA|D,A, DF D,B, DF|D,A, DF D,C DA|
+g/2|
+S:https://www.folktunefinder.com/tunes/39
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html
+S:http://community.codemasters.com/forum/archive/index.php/t-193662.html?pda=1
+S:http://community.codemasters.com/forum/showthread.php?t=193662
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

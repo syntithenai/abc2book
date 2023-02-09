@@ -1,0 +1,49 @@
+X:8452
+T:Keel Row,The. JMT024
+M:4/4
+L:1/8
+Q:130
+S:J.Moore,Tyneside,1841.(16&17)
+R:Misc
+O:England
+A:Northumbria
+H:184
+Z:C.G.P
+K:G
+dc|B2GBc2Ac|B2GB AFDc|B2GBc2Ac|BGAFG2:|
+|:dc|B-dd-ge2dc|!B2GB AFDc|B-dd-ge2dc|BGAFG2:|
+|:dc|B>dG>B c>eE>G|F>AD>F G>Bd>c|!B>dG>B c>eE>G|F>AD>FG2:|
+|dc|Bdgf edcB|cBAG FGAB|Bdgf edcB|!cedF GABc|
+Bdgf edcB|cBAG FAAc|"DC at end of phrase"Bd^ce dfeg|fba"play as written"
+^cd2^c2=c2:|!
+|:dc|B/G/B/d/ gB c/A/c/f/ aB|A/D/F/A/ dc B/G/B/d/ gd|B/G/B/d/ g/d/B/d/ c
+/A/c/f/ a/f/e/d/|!B/g/e/c/ B/d/c/A/G2:|
+|:dc|Bdde/f/ g/f/g/a/ bB|AA/B/ c/B/A/G/ F/G/A/B/ Ad/c/|!
+B/G/A/B/ c/d/e/f/ g/f/e/d/ c/B/A/G/|A/c/e/d/ c/B/c/A/ G2dc|
+Bdde/f/ g/f/g/a/ bB|!cA/B/ c/B/A/G/ F/G/A/B/ AA|"DC at end of phrase"Bd^
+ce dfeg|fba"play as written"^cd2^c2=c2:|!
+|:dc|Bg/f/ gb Aa/^g/ ab|Af/e/ fa Bg/f/ gb| Bg/f/ gb ca/^g/ ab|Af/e/ fag2
+:|!
+|:dc|(3Bdg (3GBd (3cea (3ABc|(3Bdg (3GBd (3FAc (3DFA|(3Bdg (3GBd (3cea (
+3ABd|(3Bed (3cBA G2:|!
+|dc|(3BGB (3dBd (3gdc (3BAG|(3FDF (3AFA (3cAG (3FED|(3BGB (3dBd (3gdc (3
+BAG|(3Eed (3cBA G>AB>c|!
+(3BGB (3dBd (3gdc (3BAG|(3FDF (3AFA (3cAG (3FED|"DC at end of phrase"(3E
+FG (3FGA (3GAB (3ABc|(3B^cd"play as written" (3cded2^c2=c2:|
+|:dc|B/G/B/d/ g/d/B/d/ c/A/c/e/ a/f/d/c/|B/G/B/d/ g/d/B/d/ c/A/F/A/ D/F/
+A/c/|!
+B/G/B/d/ g/d/B/d/ c/A/c/f/ a/f/d/c/|B/g/e/c/ B/d/c/A/ G4|]
+S:https://www.folktunefinder.com/tunes/91511
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Rhythm Misc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

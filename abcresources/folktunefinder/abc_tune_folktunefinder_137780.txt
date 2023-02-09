@@ -1,0 +1,22 @@
+X: 50
+T:Tienne de la Barret
+O:France
+A:Massif Central
+R:Scottiche
+M:2/4
+L:1/16
+K:G
+DEFD G4|AGFB A4|DEFD G2AB|AGFA G4:|
+|:dedc A2AB|cdcB A4|G2FG A2AB|1cABc d4:|2cAGF G4||
+% Output from ABC2Win  Version 2.1 f on 10/02/99
+S:https://www.folktunefinder.com/tunes/137780
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/scottish.txt
+% Rhythm Scottiche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

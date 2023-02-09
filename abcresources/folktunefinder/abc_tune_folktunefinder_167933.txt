@@ -1,0 +1,18 @@
+X:1
+T:Jim, the Carter Lad
+M:6/8
+L:1/8
+K:F
+ z4 z C| C2 A A2 A| G2 F F2 A| B2 D E2 D| C3- C2 C| D2 D D2 E| F2 F A2 A|\
+ A2 G G2 G| G3- G2 C| C2 A A2 A| G2 F F2 A| B D2 E2 D| C3- CC C| D2 E F2 A|\
+ ccc c2 B| A2 B G2 E| F3- FC C| C3 A3| G2 F F2 A| B D2 E2 D| C3- C2 C|\
+ D2 D D2 E| F2 F A2 A| A2 G G2 G| G3- G2 C| C2 A A2 A| G2 F F2 A| B2 BB B2|\
+ C3- C2 C| D2 E F2 A| ccc c2 B| A2 B G2 E| F3- F2 z|
+S:https://www.folktunefinder.com/tunes/167933
+S:http://back.numachi.com:8000/dtrad/abc/JIMCART.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

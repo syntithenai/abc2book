@@ -1,0 +1,27 @@
+X:30
+T: First Light of Day
+S: J. Cronin - J. Burke
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Edor
+B,D | E3 F EDB,D | GFGB A2 GA | Bdgf edBA |\
+GEEF D2 B,D |
+E3 F EDB,D | GFGB A2 GA | Bdgf edBA | GEED E2 :|
+Bd | efed BdBA | GABc d2 Bd | e3 d B3 A |\
+GEEF D2 B,D |
+E3 F EDB,D | GFGB A2 GA | Bdgf edBA | GEED E2 :|
+S:https://www.folktunefinder.com/tunes/89110
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

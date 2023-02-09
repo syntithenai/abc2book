@@ -1,0 +1,26 @@
+X: 13957
+T: Franc A'Phoill
+R: jig
+M: 6/8
+K: Dmajor
+A2D B2D|A2G FED|A2D B2D|GFG AFD|
+A2D B2D|A2G FED|GAB =cAF|GFG AFD|
+.ADD .BDD|A2A FED|.ADD B2G|G3 AFD|
+ADD BDD|ADD FED|GAB =cAF|GDG AFD||
+dfa afd|dcd ecA|GAB =cAF|GFG AFD|
+dfa afa|geg fdA|GAB =cAF|GFG AFD|
+dfa aff|gee fdA|G3 =c2A|G3 AFD|
+dfa a2f|g2e f2A|GAB =c2A|GDG AFD||
+d2e d2A|d2e .d.cA|d2e .d.cA|GFG AFD|
+d2e d2A|d2e .d.cA|GAB =cAF|GFG AFD|
+d.B/.c/e d2A|d.B/.c/e dcA|d.B/.c/e dcA|GDG AFD|
+d.e/.f/e d2A|d.e/.f/e dcA|G3 =cAF|GFG AFD||
+def def|def ecA|GAB =cAF|GFG AFD|
+def d2A|def ecA|GAB =cAF|GFG AFD|
+def d.f/.g/f|d.f/.g/f ecA|GAB =cAF|GBG AFD|
+def def|d.g/.f/d ecA|GAB =cAA|GBG ABc||
+.dDD =cDD|BDD ADD|dDD =cDD|GFG AFD|
+.dDD =cDD|BDD ADD|GAB =cAF|GFG ABc|
+.dDD =cDD|BDD ADD|.dDD =cDD|G2B AFD|
+.dDD =cDD|BDD ADD|GAB =cAF|G3 A.F/.G/A|D6||
+

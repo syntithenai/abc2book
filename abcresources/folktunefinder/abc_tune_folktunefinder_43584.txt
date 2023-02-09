@@ -1,0 +1,25 @@
+X:105
+T:Southwark Granadears. Trumpet March
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000616.html
+%%ID:00000616
+K:G
+A2|\
+d4 e4 | f2d2 d2(ag) | f2d2 d2A2 | d2A2 F2(ED) | \
+d4 e4 | f2d2 d2ag | fgfg g3f | (fg) a6 ::
+cd|\
+e4 f4 | e2c2 c2A2 | dede e4 | f6 ag | \
+f2a2 e2a2 | d2A2 dede | f2gf e3d | d6 :|
+S:https://www.folktunefinder.com/tunes/43584
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

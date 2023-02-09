@@ -1,0 +1,33 @@
+X:1
+T:Balance and Sing
+C:copyright 1999 Kaubells
+R:Reel
+% E:16
+M:C
+K:C
+ed|:"C"czcc e2g2|"C7"._b2 z2 z2 c'2|"F"a2 (3gag f2e2|"Dm"d^cde "F"f2d2|
+% E:10
+"G"G2GA =B2=c2|d^cde "G7"d2B2|1"...C"cBcd edce|"G7"d2G2A2B2:|2"...C"cde2 "G"d2g2|"C"c2e2.c2z2||
+% E:16
+|:"G"B2Bc d2de|"G7"fefg agfa|"C"g2ccc2g2|"B7"^f2BBB2^d2|
+% E:10
+"Em"e^de^f gfge|"B7"^f2BBB2^d2|1"...E"e^fg2 e2B2|"D7"dcAe d2z2:|2"...Em"e^fg2 e2f2|"G7"gfdB G2z2||
+T:Last time only
+% E:16
+"Em"e^de^f gfge|"B7"^f2BBB2^d2|"Em"e^fge "D7"d2f2|"G"g2z2 .[B2g2]z2|]
+% page width
+%\hsize=6.6in
+% left margin
+%\hoffset=-.3in
+%bigskip
+S:https://www.folktunefinder.com/tunes/132389
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/balance.abc
+S:http://www.cs.utexas.edu/%7Ekaufmann/kaubells/notation/kaubells/balance.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

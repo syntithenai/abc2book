@@ -1,0 +1,24 @@
+X:2023
+T:Queen of the Rushes
+O:ireland
+Z: id:dc-jig-104
+M:6/8
+L:1/8
+K:G Major
+c|B2G GFG|c2A AGA|B2G GFG|cAG FGA|!
+B2G GFG|c2A AGA|BdB cAF|AGF G2:|!
+g|fed efg|afd dcA|gfg bag|afd d2e|!
+=f2d e^fg|afd dcA|BdB cAF|AGF G2:|!
+B|d^cd gdB|d^cd gdB|cBc A^GA|=fef ABc|!
+d^cd gdB|d^cd gd=c|BdB cAF|AGF G2:|!
+S:https://www.folktunefinder.com/tunes/42575
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/ireland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/ireland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Morag Hutton's Strathspey
+C: Jimmy Shand
+B: Newcastle
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+F \
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "G"B-<G G>F \
+| "C"E>G c>E "G"D>G B>G | "A(m)"F-<A A>G "D7"(3FGA (3DEF |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B G>D | "C"(3EFG "D7"(3FGA "G"B-<G G |]
+B \
+| "Em"e>f g>f e-F G>A B>A B-<e \
+| "Em"g>e "B7"f>^d "C"e>f g>e | "G"d>B G>{A}B "Am"(3cBA "D7"A>B |
+| "G"G2 D>C B,-<G, B,-<D | "D7"G>B (3ABc "Em"B-<G G>F \
+| "C"E>G c>e "G"d>B d-<g | "D7"f>{e}d (3cBA "G"B-<G G |]
+S:https://www.folktunefinder.com/tunes/19572
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MoragHuttonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MoragHuttonsStr_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/MoragHuttonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MoragHuttonsS.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MoragHuttonsStr_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

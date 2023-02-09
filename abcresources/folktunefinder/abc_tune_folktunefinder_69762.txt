@@ -1,0 +1,27 @@
+X:202
+T: DIE WELT TUT IHRE AUGEN ZU
+N: F0348
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Lob - Lied, religioes, Tageszeiten, Abend
+M: 6/8
+L: 1/16
+K: C
+E,2 | G,4D,2E,4C2 | E4B,2C4
+E,2 | G,4D,2G,4D,2 | E,8z2
+E,2 | G,4D,2E,4C2 | E4B,2C4
+E,2 | G,4D,2G,4D,2 | C,8z2
+C,D, | E,4F,2E,4^G,2 | A,4B,2A,4
+C2 | E2B,2G,2B,2^F,2G,2 | E,8z2
+G,2 | G,4D,2E,4C2 | C4G,2A,4
+A,2 | A,4G,2A,4B,2 | C6z4
+S:https://www.folktunefinder.com/tunes/69762
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, lob - lied, religioes, tageszeiten, abend
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:13
+T:Governor King's March
+M:C
+L:1/16
+K:D
+P:1st Fife
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D2>F2|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|B2A2F2A2 A2G2G2F2|E4 E2>E2 E4 D2>F2|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|
+B2>A2F2>A2 A2>G2F2>E2|D4 d2>d2 d4::A2A2|d2AA A2A2 e2AA A2A2|d2AA e2AA f2AA A2A2|g2AA A2A2 f2AA A2A2|
+(ef)(ed) (cd)(cB) (AB)(AG) (FG)(FE)|A4 A2>A2 A4 GFED|B4 B2>B2 B2>c2d2>B2|B2>A2F2>A2 A2>G2F2>E2|D4 d2>d2 d4:|]
+P:2nd Fife
+D2>F2|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|G2F2D2F2 F2E2E2D2|C4 C2>C2 C4 D2>D2|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|
+G2>F2D2>F2 F2>E2D2>G2|F4 F2>F2 F4::A2A2|F2FF F2F2 C2CC C2C2|F2FF C2CC D2FF F2F2|E2CC C2C2 D2FF F2F2|
+(cd)(cB) (AB)(AG) (FG)(FE) (DE)(DC)|F4 F2>F2 F4 BAGF|G4 G2>G2 G2>A2B2>G2|G2>F2D2>c2 c2>B2A2>G2|F4 F2>F2 F4:|]
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90000
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

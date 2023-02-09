@@ -1,0 +1,24 @@
+X: 822
+T: Alaska
+R: reel
+M: 4/4
+K: Dminor
+V:V1
+|:"Dm"AcdA cdAc|"F"dAcd fedc|"Dm"AcdA cdAc|defg "Am" a4|
+"Dm"AcdA cdAc|dcde fefg|agfe "Dm"dcAG|1 FEDC D4:|2 FEDC "D"DE^FG||[K:Dmix]
+V:V2
+|:"Dm"FGAF GAFG|"F"ACFA cBAG|"Dm"FGAF GAFG|ABcd "Am" e4|
+"Dm"FGAF GAFG|AFGA cBAF|DEFG "Dm"DEFE|1 DCA,C A,4:|2 DCA,2 "D"A,2DE||[K:Dmix]
+V:V3
+|:"Dm"DEFD EFDE|"F"FEDC DEDC|"Dm"DEFD EFDE|FGAB "Am" c4|
+"Dm"DEFD EFDE|FEDC DEDE|"Dm"FGAE FEDC|1 A,2F2 D4:|2 A,4 "D"DE^FE||[K:Dmix]
+V:V1
+|:"D"A3A AGFG|AdcB "G"dcBG|"D"A2AA AGFD|"Em"EFGF "A"E4|"D"A3A AGFd|
+"Em"efgf edBd|1 efgf edBd|edBG "A"A4:|2 "Em" efgf edBG|"A7"A4 "Dm"DE=FG||[K:Dm]
+V:V2
+|:"D"F3F FEDE|FAGF "G"BAGG|"D"F2FF FEDA,|"Em"B,DED "A"^C4|"D"D3F AGFA|
+"Em"GABA GBGF|1 GABA GBGF|EFGD "A"E4:|2 "Em" GABA GFED|"A7"ED^CB, "Dm"A,A,DE||[K:Dm]
+V:V3
+|:"D"D2A,D D2 A,2|DFED "G"GFGD|"D"D2A,D A2A,2|"Em"G,B,B,G, "A"A,4|"D"D2A,D DEDF|
+"Em"EFGF EGEF|1 EFGF EGED|B,DED "A"^C4:|2 "Em" EFGF EFGE|"A7"^CDEC "Dm"D4||[K:Dm]
+

@@ -1,0 +1,24 @@
+X:17519
+T:Tobin's Favourite
+M:6/8
+L:1/8
+Q:1/4=190
+C:Trad
+R:jig
+K:D
+DFA dcd|ecA cde|fdf gfg|ecA GFE|!
+DFA dcd|ecA cde|faf gec|edc d2 z:|!
+dfa agf|efe efg|fdf gfg|ecA GFE|!
+DFA dcd|ecA cde|faf gec|edc d2 z:|!
+S:https://www.folktunefinder.com/tunes/38890
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

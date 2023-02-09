@@ -1,0 +1,28 @@
+X:29
+T: Gueijiang shuiji tan you wan
+N: C1528B
+O: China,Guangxi, Wuzhou
+S: II, 527]
+R: Haozi, Chuangong haozi, Guo qian diao]
+M: 2/4
+L: 1/16
+K: A
+a2b2e2e2c8 | a2baf2f6
+c8b6c2 | b4a2baf2f6
+e3ec2c2e3ec2c2 | e8c2c2 | b2e2e2c2
+c3ef2e2 | c3bb2a2f4
+f2cac2a2f2ab | c2a2c2a2b2abc2c2 | a2a2b3aa4
+b2ccb2cc | e2cba2a2 | e2cba2a2 | a3bb4
+f4e2c2 | c3ef2e2 | b3af4
+a2bba2b2 | a2c2a2b2f4 | c3af2a2 | c2c2b3aa4
+S:https://www.folktunefinder.com/tunes/92052
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi, chuangong haozi, guo qian diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

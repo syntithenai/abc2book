@@ -1,0 +1,24 @@
+X:16304
+T:Tambourine
+M:C|
+K:D
+"Moderato"\
+f2e/f/g f2e2| dfed ("tr"c2B)A| \
+d2c/d/e d2(e/f/g)| fagf e4|\
+f2e/f/g f2e2| dfed "tr"c2BA| 
+d2c/d/e d2e/f/g| fdAc d4::\
+a2g/a/b ad'fg| ab/a/ g/f/e/d/ "tr"c2BA|
+d2c/d/e d2e/f/g| fagf {f}e4|\
+f2d/e/f/g/ f2e2| dfed c2BA| d2c/d/e d2e/f/g| fdAc d4:|
+S:https://www.folktunefinder.com/tunes/37675
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

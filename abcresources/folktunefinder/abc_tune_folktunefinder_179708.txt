@@ -1,0 +1,33 @@
+X:7
+T:Oh Callar Spirlings (variation 6)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass
+M:3/4
+L:1/16
+Q:1/4=104
+N:bar 6 upper part is printed |Ff`dd' ^cc'=cc' =Bb`_Bb|
+K:D Minor
+[V:1] "^F."\
+      A2|Dd`Ff   Aa3-    ag`fe  |dd'Aa   Ff``Dd     A,A=B,B |
+[V:2] z2|D,4     z2 D,F, A,2A,,2|D,4     D,,4       z2  G,2 |
+%
+[V:1]    Cc`Ee   Gg3-    gf`ed  |cc'Gg   Ee``Cc     A,A^Cc  |
+[V:2]    C,4     z2 C,E, G,2G,,2|C,4     C,,4       z2  G,2 |
+%
+[V:1]    Dd`Ff   Dd`Ff   Aa`Gg  |Ff`dd' ^c^c'=c=c' =B=b`_B_b|
+[V:2]    F,2D,2  F,2D,2 ^C,2A,,2|D,4     z4         z4      |
+%
+[V:1]    adbg    fd`a2-  agfe   |ed^cd   A2``F2     D2     ||
+[V:2]    z2 G,2  A,4     A,,4   |D,2A,2  F,2`A,2    D,,2   ||
+S:https://www.folktunefinder.com/tunes/179708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Oh_Callar_Spirlings_variation_6_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

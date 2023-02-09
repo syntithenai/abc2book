@@ -1,0 +1,42 @@
+X:1
+T:Gavotte, tons kentan
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret (Aot 98)
+M:4/4
+L:1/8
+Q:90   
+K:F
+T:Christian Duro
+K:F
+cA FG AB GF | EF GA F2 F2 ::\
+cA FG AB G2 | (3GAB cd _ed c2 | cA FG AB GF | EF GA F2 F2 :|
+T:Le Lay
+de fg ab c'2 | ab ga f2 f2 :: de fg ab a2 | ge gf d2 d2 :|
+T:Patrick Lefvre A (S:Patrick Lefvre)
+K:C
+cBcd fe d2 | BcAB G2 G2 :: cBcd fe d2 | Bcde c2 c2 :|
+T:Patrick Lefvre B (S:Patrick Lefvre)
+K:G
+DGGE FG A2 | G (3G/2A/2G/2 FE D2D2 :: Dddc Bc B2 | AGBA G2G2 :|
+T:Patrick Lefvre C (S:Patrick Lefvre)
+K:Am
+ABce dc A2 | cdef d2 c2 :: ABce dc A2 | (3cBc dc B2A2 :|
+T:Sunfolk1 (S:Erwan)
+K:Am 
+|:Aced cd e2|(3cde fd d2::Aced cA c2|(3Bcd cB A2 A2:|
+S:https://www.folktunefinder.com/tunes/148239
+S:http://termen.free.fr/danses/cornouaille/Gavottetonskentan.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key F
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

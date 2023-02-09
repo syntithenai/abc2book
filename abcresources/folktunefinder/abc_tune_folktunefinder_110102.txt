@@ -1,0 +1,30 @@
+X:55
+T:The Imperial Measure
+C:Colin Hume, for the dance by Anne Higley
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=96
+K:G
+P:A1
+[| B/2c/2 | "G"d2 "^/"BA | "Em"G3/2A/2 "^/"BA/2B/2 | "Am"c2 "^/"AG | "D7"F2- "^/"FE/2F/2 |\
+"G"GD "D/F#"AD | "Em"BG "D7"cA | "G"dG "C"e/2d/2c/2B/2 | "D"A2- "D7"A B/2c/2 |
+%%vskip 0
+P:A2
+"G"d2 "^/"BA | "Em"G3/2A/2 "^/"BA/2B/2 | "Am"c2 "^/"AG | "D7"F2- "^/"FE/2F/2 |\
+"G"GD "D/F#"AD | "Em"BG "D7"cA | "G/B"d "C"G/2A/2 "D7"F3/2G/2 | "G"G2- "^/"G |
+K:Gm
+P:B
+|: B/2c/2 | "Gm"dd "^/"dc/2B/2 | "F"cF- "^/"FG/2A/2 | "Eb"BB "^/"BA/2G/2 | "D"A2- "^/"AG/2A/2 |\
+"Gm"BG "D7/A"cA | "Gm/B"dB "Cm"ec | "Gm/D"dc/2B/2 "D7"A3/2G/2 | "Gm"G2- "^/"G :|
+S:https://www.folktunefinder.com/tunes/110102
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

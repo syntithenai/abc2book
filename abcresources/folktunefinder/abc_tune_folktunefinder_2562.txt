@@ -1,0 +1,35 @@
+X:1
+T:Fugue in Cm
+C:J.S.Bach
+V:1 % program 1 19
+V:2 % program 1 19
+V:3 bass % program 1 19
+% Note that this file was produced with Barfly; the bass line is two octaves low.
+M:4/4
+Q:200
+K:Cm
+[V:1] z8 | z8 | zg/^f/g ce g/f/g=a | dg/^f/g=a c/d/ e2d/c/| Be/d/e GA f/e/ f=A |
+[V:2] B=ABc ^FG=AF | G2z/C/D/E/F/G/A3/ D/E/F/ | z c/=B/c GA c/B/cd | G c/=B/c dF/G/A2G/F/ | E/c/=B/=A/G/F/ E/D/ Cedc |
+[V:3] z8 | z8 | z8 | z8 | z8 |
+%
+[V:1] Bg/f/g =Bc d/e/ f2- | f e/d/c/B/ A/G/ Fagf | edef =BcdB | cg/^f/gd e2z=e |
+[V:2] G/=A/B3/ E/F/G/_A/ G/F/E/Dc/=B/ | c2z2zfed | zAGF GF/E/FD | G2z=B c/z/c/B/cG |
+[V:3] z8 | zC,/=B,,/C,G,, A,,C,/B,,/C,D, | G,,C,/=B,,/C,D, F,,/G,,/ A,,2=G,,/F,,/ | E,,/C,/=B,,/=A,,/G,,/F,,/E,,/D,,/ C,,/D,,/E,,/D,,/C,,/B,,,/A,,,/G,,,/ |
+%
+[V:1] f/z/f/=e/fc d2zd | e/z/e/d/eB ce/d/ef | Be/d/ef A/B/c2B/A/ | G/A/F/G/A/B/c/d/ e/d/c/d/e/f/g/=a/ |
+[V:2] F2z=A B/z/B/=A/BF | G2zG A/z/AGF | zA,B,C z A,/G,/A,F, | B,CB,A, B,G,F,E, |
+[V:3] F,,,/B,,/A,,/G,,/F,,/E,,/D,,/C,,/ B,,,/C,,/D,,/C,,/B,,,/A,,,/G,,,/F,,,/ | E,,,/A,,/G,,/F,,/E,,/^C,,/=C,,/B,,,/ A,,,C,,B,,A,, | G,,F,,G,,A,, D,,E,,F,,D,, | E,,A,,G,,F,, G,,E,,D,,C,, |
+%
+[V:1] b/F/G/A/B/c/d/=e/ f/e/d/e/f/g/=a/=b/ | c'=b/=a/g/f/e/d/ cedc | B=ABc ^FG=AF | G4 ||
+[V:2] F,_D=CB, CA,G,F, | G,G/^F/GC EG/=F/G=A | DG/^F/G=A C/D/E2D/C/ | B,4 ||
+[V:3] D,,B,,A,,G,, A,,F,,E,,D,, | E,, z4C,B,,=A,, | zE,D,C,,D, C,,/B,,/C,,D, | G,,4 ||
+S:https://www.folktunefinder.com/tunes/2562
+S:http://trillian.mit.edu/~jc/music/abc/test/V_FugueInCm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

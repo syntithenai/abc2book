@@ -1,0 +1,26 @@
+X:6880
+T:Wullafjord
+M:4/4
+O:Shetland
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000080d.html
+%%ID:0000080d
+K:D
+B2|\
+A2F A2D FA|B2G B2D GB|A2F A2D FA|EFGA GFED|\
+A2F A2D FA|B2G B2D GB|
+ABcd efge|f2d2 d2::\
+de|\
+f2d f2f df|geaf gfed|
+f2d f2A df|e2ce Aece|\
+f2d f2f df|gdaf gfed|ABcd efge|f2d2 d2:|
+S:https://www.folktunefinder.com/tunes/37455
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

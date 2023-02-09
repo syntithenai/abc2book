@@ -1,0 +1,28 @@
+X: 2
+P: Ungdoms Synden ((Boda Polska))
+R: polska
+C: R\"oj\aas Jonas
+Z: Bart Brashers, Apr 2000, bart.brashers@nyckelharpa.org
+N: It has a good story associated with it.  R\"oj\aas Jonas wrote it when he
+N: was young, and taught it to a friend of his.  Many many years later, the
+N: friend played it for Jonas, who said "Wow, what a cool tune, where's it
+N: from"  He had completely forgotten it.  So his friend had to re-teach
+N: the tune to its composer.  Jonas then named it Ungdomssynden, "the sin
+N: of youth".
+M: 3/4
+L: 1/8
+%Q: 1/4=100
+K: G
+c | "G"B>-A G<-B d>g | "Am"g>-f f<-a A>B | "D7"c2 c/-d/c/A/ F>A | "G"G>-A B/-A/B/c/ d>c || "G"B>-A G<-B d>g |
+| "Am"g>-f f<-a A>B | "D7"c2 c/-d/c/A/ F>A | "G"A<-G G3 :: (g | "C"g>e) e<-c c>e | "G"e<-d B3 (D|
+| "D7"D>F) A<-d f>a | "G"g2 g/-a/g/e/ d>g || "C"g>-e e<-c c>e | "G"e<-d B3 (D| "D7"D>F) A<-d f>a | "G"a<-g g3 :|
+S:https://www.folktunefinder.com/tunes/8992
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Pols_Boda2.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

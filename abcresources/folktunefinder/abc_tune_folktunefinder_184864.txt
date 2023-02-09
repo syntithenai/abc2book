@@ -1,0 +1,23 @@
+X: 1
+T: Red Gap, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+&quot;D&quot;~F3A B2dB | BAFB AFEF | &quot;D&quot;DFAd &quot;G&quot;~f3d | edfd edBA |
+&quot;D&quot;~F3A B2dB | BAFB AFEF | &quot;D&quot;DFAd &quot;G&quot;~f3e |1 &quot;A&quot;dBAF &quot;D&quot;D3E :|2 &quot;A&quot;dBAF&quot;D&quot;D3z ||
+&quot;D&quot;a3b a2fa | abaf efdA | &quot;Em&quot;Beed efab | afed Bddf |
+&quot;D&quot;a3b a2fa | bfaf efdA | &quot;Em&quot;Beed efab | &quot;A&quot;afef d3z ||
+&quot;D&quot;a3b a2fa | &quot;Bm&quot;abaf efdA | &quot;Em&quot;Beed efab | afed BddA |
+&quot;D&quot;~F3A B2dB | BAFB AFEF | &quot;D&quot;DFAd &quot;G&quot;~f3e | &quot;A&quot;dBAF &quot;D&quot;D3z :|
+S:https://www.folktunefinder.com/tunes/184864
+S:http://www.thesession.org/tunes/display/5508
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 4
+P: Tyskan lever
+Z: John Chambers <jc@trillian.mit.edu>
+R: shottish
+M: 4/4
+L: 1/8
+K: D
+|: "D"D2 FE D2 EF | "G"G2 B2 G2 B2 | "A7"A2 cB A2 Bc |1,3 "D"d2 fd "(A)"AG FE :|2,4 "D"d2 f2 d4 :|
+|: "G"~B2 AB g2 fe | "D"d2 fd A4 |1,3 "A7"Ac ec Ac ec | "D"d2 fd AG FA :|2,4 "A7"Ac ec AG FE | "D"D2 FA d4 :|
+S:https://www.folktunefinder.com/tunes/6019
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Shottish2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/Shottish02.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

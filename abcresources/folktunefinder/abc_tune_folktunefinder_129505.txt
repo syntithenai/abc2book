@@ -1,0 +1,25 @@
+X: 13
+T: Fisher's Hornpipe
+I: Fisher's HornpipeR-24DhornpipeSet 9, 24
+M: C|
+R: hornpipe
+K: D
+(3ABc| "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FDFD "G"GFGB| "D"AFDF "A"E2 (3ABc|
+       "D"dAFA "G"GBAG| "D"FDFD "G"GBAG| "D"FAdf "A"gece| "D"d2d2 d2 :|
+|:\
+cd| "A"ecAc efge| "D"fdAd fgaf| "A"ecAc efgf| "E"edcB "A"A2A2|
+    "G"BGDG BcdB| "D"AFDF ABcA| "G"BcdB "A"AGFE| "D"D2D2 D2 :|
+%%text Roaring Jelly  R-24
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/129505
+S:http://roaringjelly.org/music/sets/Set24.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set24.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set24.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

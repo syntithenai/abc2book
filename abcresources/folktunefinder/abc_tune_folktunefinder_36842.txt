@@ -1,0 +1,26 @@
+X:3815
+T:My Love is but a lassie yet
+A:North-West
+M:C|
+O:England
+R:Reel
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000050f.html
+%%ID:0000050f
+K:D
+dc|\
+d2D2 F2A2| D2D2 D2dc| d2D2 F2A2| e2E2 E2dc|\
+d2D2 F2A2| B2g2 f2e2| dcBA B2c2| d2D2 D2::
+fg|\
+a3f g3e| f2d2 d2fg| a2f2 gfga| b2e2 e2fg|\
+a3f g3e| f2d2 e2c2| dcBA B2c2| d2D2 D2:|
+S:https://www.folktunefinder.com/tunes/36842
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

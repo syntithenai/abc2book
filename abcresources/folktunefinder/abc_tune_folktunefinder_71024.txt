@@ -1,0 +1,25 @@
+X:277
+%%topmargin 3cm
+T:The Source of Spey
+C:Macpherson
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A dorian
+B | {/F}(G<E) TE2 {/F}G>AB<e | {/^c}(dA {/F}G>AB<e | {/F}(G<E) TE2 {/F}G>AB<e | {/^c}(d>B)TB>^G {cB}A2 A :|
+B | (e>f){ef}g>e {/^c}d>eB>e | {/^c}d>B{/f}g>e {/c}d>eB>g | (e>f) {ef}g>e {/^c}d<eB<g | {/^c}(d^G {cB}A2 (A>B) |
+(e>f){ef}g>e {/^c}d>eB<e | {/^c}de {/c}d>eB<g | ea) | {/f}g>e{/^c}(d>B) {cB}A2 A |]
+S:https://www.folktunefinder.com/tunes/71024
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

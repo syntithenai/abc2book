@@ -1,0 +1,32 @@
+X:390
+T:The Crossroads Dance
+R:jig
+C:Ed Reavy
+M:6/8
+L:1/8
+Z:Joe Reavy
+N:It was a popular place for holding
+N:dances in the old tradition. Ed was not
+N:much of a dancer, but he went along
+N:just the same in hopes that an
+N:"odd good player might be manning the fiddle."
+K:G
+e/2f/2|gfe dcB|A2 E E2 F|GFG DEF|G2 D D2 f|
+gfe dcB|A2 E E2 F|GFG DEF|G3 G2 f||gfe dcB|
+e2 E E2 F|GFG DEF|G2 D D2 f|gfe dcB|e2 E E2 F|
+GFG DEF|G3 G2 A||:B^cd efg|dcB A2 B|cBA a2 g|
+fdf gdB|GBd gfg|dcB A2 B|cBA a2 g|1fdf g2 A:|
+2fdf g2 f:||
+S:https://www.folktunefinder.com/tunes/120010
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/Reavy/Reavycom.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/Reavy/bak.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

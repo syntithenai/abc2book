@@ -1,0 +1,28 @@
+X:1
+T:Brudmarsch efter August Strmberg
+S:efter August Strmberg
+R:Marsch
+N:Strmbergs melodisamling, SMA/HSKOP/704
+O:Jt, Smland
+M:C
+L:1/8
+K:Bb
+|:((3DFB) [Dd]2 [Dd]>[Dd] [Dd]2|((3B,DF) [DB]2 [DB]>[DB] [DB]2|((3DFB) [Dd]2 d>c [DB]2|g>f [Ge]4 [Ge]2|
+((3FAc) [Ge]2 [Ge]>[Ge] [Ge]2|((3DFB) [Dd]2 [Dd]>[Dd] [Dd]2|((3CFA) c2 ((3Ace) g2|((3DFA) [DB]2 [DB]>[DB] [DB]2:|
+|[G,G]>^F GA  [DB]2 AG|^FG AB [G,G]2 [G,D]2| [G,G]>^F GA  (Bc) (de)|(fd) (ec) [dD]4|
+[G,G]>^F GA  [DB]2 AG|^FG AB [G,G]2 [G,D]2|[G,G]>^F GA  (Bc) (de)|(fd) (ec) [dD]4|
+|:[Af]2 {fg}fd [DB]2 cd|ed cB AF/F/ FF|B(B/A/) Bd c(c/B/) AG|[A,F]2 [A,F]>[A,F] [A,F]2 z2|
+[Af]2 {fg}fd [DB]2 cd|ed cB AF/F/ FF|B(B/A/) Bd c(c/B/) (A/F/)(A/c/)|[DB]2 [DBb]>[DBb] [DBb]2 z2:|
+S:https://www.folktunefinder.com/tunes/143840
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_efter_August_Str%f6mberg_30efbb.latin.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_efter_August_Str%F6mberg_30efbb.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_efter_August_Str%f6mberg_30efbb.abcm.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

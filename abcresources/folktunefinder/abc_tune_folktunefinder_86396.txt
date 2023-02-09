@@ -1,0 +1,25 @@
+X:1
+T:After the Ball
+M:3/4
+L:1/2
+K:C
+ E3/2| G E/2| A3/2| E3/2| G E/2| A E/2| B3/2-| B/2 z| F3/2| A F/2|\
+ B3/2| F3/2| B3/2| e d/2| E3/2-| E3/2| E3/2| G E/2| A3/2| E3/2| e3/2|\
+ f e/2| A3/2-| A/2 z| A3/2| B c/2| e3/2| G3/2| d3/2| B G/2| c3/2-|\
+ c/2 z| c3/2| e c/2| B3/2| _A3/2| A3/2| B c/2| G3/2-| G/2 z| A3/2|\
+ B c/2| G3/2| c3/2| A3/2| B c/2| d3/2-| d/2 z| E3/2| G E/2| A3/2| E3/2|\
+ e3/2| f e/2| A3/2-| A z/2| A A/2| B c/2| e3/2| G3/2| d3/2| B G/2|\
+ c3/2-| c/2 z| e/2 g3/4 e/4| c A/2| c3/2| G3/2| e/2 g3/4 e/4| c A/2|\
+ B3/2-| B/2 z| f/2 a3/4 f/4| e d/2| _d3/2| d3/2| d/2 e3/4 d/4| B G/2|\
+ g3/2-| g/2 z| e/2 g3/4 e/4| c A/2| c3/2| G3/2| _A/2 d/2 f/2| a g/2|\
+ f3/2-| f/2 z| g/2 d/2 d/2| d/2 e/2 f/2| e3/2| G3/2| A3/2| B G/2| c3/2-|\
+ c/2 z|
+S:https://www.folktunefinder.com/tunes/86396
+S:http://back.numachi.com:8000/dtrad/abc/AFTRBALL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/AFTRBALL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

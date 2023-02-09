@@ -1,0 +1,29 @@
+X: 1
+T: Bat Carmel
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+"Intro"| "Bb"B3c d2 fd | "Cm"cd cG c2 BA \
+| "Gm"BA Bc "F"A2 GA | "Dm"F2 "Gm"G2 z2 ||
+|: F2 \
+| "Gm"G3 F B3 A | "Cm"Bc "D7"AF "Gm"G2 G2 \
+| "Cm"c2 dc "F"A2 F2 | "Eb"BA G4 "Gm"G2 |
+| "Cm"c3 d e2 c2 | "Bb"de dc "Gm"B2 G2 \
+| "F"A2 AB "Dm"c2 F2 | "Gm"BA G4 G2 |
+| "Bb"d3 e f2 B2 | "Cm"e2 ed G2 c2 \
+| "Bb"d2 e2 "G7"f2 g2 | "Cm"ed c4 c2 |
+| "Bb"d2 de f2 d2 | "Cm"ed dc c2 z2 \
+| "Gm"BA Bc "F"A2 GA | "Dm"F2 "Gm"G2 z2 :|
+S:https://www.folktunefinder.com/tunes/5317
+S:http://trillian.mit.edu/~jc/music/abc/Intl/BatCarmel.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/BatCarmel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

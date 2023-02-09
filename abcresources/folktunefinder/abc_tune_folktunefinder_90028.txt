@@ -1,0 +1,22 @@
+X:41
+T:Finnegan's Wake
+M:2/4
+L:1/8
+U:H=!tenuto!
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|B>B BA|Bd ed|g/g/g/g/ ge|dB HA2|B>B BA|Bd ed|g/g/g/g/ gd|efg::
+Ld|Lg>f ga|gf ed|Lg>f ga|gf He2|Lg>f ga|gf ed|e/e/e/e/ ed|efg:|
+S:https://www.folktunefinder.com/tunes/90028
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

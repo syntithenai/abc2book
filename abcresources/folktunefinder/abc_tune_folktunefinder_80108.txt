@@ -1,0 +1,29 @@
+X:49
+T: Satyre auf das Papstthum
+N: A0403
+O: Europa, Mitteleuropa, Deutschland
+N: Forster IV. 1556 No. 28
+R: Romanze, Ballade, Lied, religioeses Lied
+M: 4/2
+L: 1/4
+K: G
+G2d2d2 | d2c2d2_B2 | A4z2
+A2 | c2c2_B2G2 | A4G4 | z2
+G2d2d2 | d2c2d2_B2 | A4z2
+A2 | c2c2_B2G2 | A4G4 | z2
+G2A2_B2 | c4z2A2 | _B2c2d4 | z2
+=f2e2d2 | c4z2_B2 | A2G2=F4 | z2
+c2A2=F2 | =f2d2c4 | _B4z2
+B2 | d2_B2cBAG | F2G2A4 | G8 | z2
+S:https://www.folktunefinder.com/tunes/80108
+S:http://ifdo.ca/~seymour/runabc/esac/altdeu20.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/altdeu20.abc
+% Rhythm Romanze, ballade, lied, religioeses lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:017
+%%topmargin 3cm
+T:Humours of Glen
+B:The Nelson Music Collection
+C:Arranged by N.F. Tolman
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:BAeo
+F | B(d/2c/2B/2^A/2) BFF | d(e/2d/2c/2B/2) dFF | B(d/2c/2B/2^A/2) BFd | EF^A B2 F |
+B(d/2c/2B/2^A/2) dFF | d(e/2d/2c/2B/2) dFF | GA/2G/2F/2E/2 FG/2F/2E/2D/2 | EF^A B2 ::
+d | A/2B/2dd d3 | (d/2c/2d/2e/2f/2g/2) afd | g(a/2g/2f/2e/2) gdA | AFA B2 d |
+A/2B/2dd d3 | (d/2c/2d/2e/2f/2g/2) afd | b(a/2g/2f/2e/2) g(e/2d/2c/2B/2) AF^A B2 :|]
+S:https://www.folktunefinder.com/tunes/91947
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Humours_of_Glen.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

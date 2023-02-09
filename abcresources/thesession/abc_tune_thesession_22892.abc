@@ -1,0 +1,16 @@
+X: 22891
+T: Lark's March, The
+R: jig
+M: 6/8
+K: Dmajor
+dB|:AFF EFE|DB,D D2B|AFF EFE|DFA BdB|
+AFF ~E3|DB,D D2f|gfe fdB|1 AFA BdB:|2 AFA ~B2A||
+|:Add fdB|AFA AFA|Add fdB|AFA ~B3|
+Add fdB|AFA A2f|gfe fdB|1 AFA ~B3:|2 AFA ~B2A||
+|:Add fdd|edd fdB|Add fdB|AFA ~B3|
+Add fdd|edd fdd|faf edB|AFA ~B3:|
+|:DFA dAF|DFA AFA|DFA dAF|DFA ~B3|
+DFA dAF|DFA def|gfe fdB|AFA ~B2A:|
+|:def def|dAF DFA|def dAF|DFA ~B2A|
+def def|~d3 def|gfe fdB|1 AFA ~B2A:|2 AFA BdB||
+

@@ -1,0 +1,26 @@
+X:1
+T:Ingonish Jig (J-71)
+%C: J-71
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+P: E Dorian
+K:Edor
+"Em"B2e efg| "D"fef "Bm"dBA| "Em"B2e efg| "D"afe "Bm"d2A|
+"Em"Bee efg| "D"fef dBA| "G"BdB "D"AFD |1 "Em"EFE E2A :|2 "Em"EFE E2e |]
+|:"Em"BEE BEE| "D"FEF DFA| "Em"BEE BEE| "D"ABc "Bm"dcd|
+"Em"BEE BEE| "D"FEF DFA| "G"ABc "D"dAF |1 "Em"EFE E2e :|2 "Em"EFE E3 |]
+S:https://www.folktunefinder.com/tunes/107210
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/jig/J071_Ingonish_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J071_Ingonish_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J071_Ingonish_Jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

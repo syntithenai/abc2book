@@ -1,0 +1,32 @@
+X:1
+T:Old Peculier
+M:6/8
+C:Peter T. Kleeman
+S:
+N:1985, as presented to Jim Morrison
+A:Bledington
+O:Virginia
+R:Jig
+%:NoTeX
+%:NoWWW
+K:G
+I:speed 500
+P:A
+A  | B>AG Bcd | e2e  d2g | d>cB AGA | Bcd  A2A  |\
+     B>AG Bcd | e2e  d2g | d>cB ABA | G3   G2 z |
+P:B
+%
+     e3   d2g | d>cB ABc | d>cB A2A | e>de d2g  |\
+     d>cB ABc | B>AG E3  | G>AB ABA | G3   G2 z |
+S:https://www.folktunefinder.com/tunes/180148
+S:http://www.ucolick.org/~sla/morris/music/Bledington/oldpec.pk.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

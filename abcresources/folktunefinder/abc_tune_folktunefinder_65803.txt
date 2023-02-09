@@ -1,0 +1,21 @@
+X:250
+T:My Love is in America
+Z: id:dc-reel-238
+M:C
+L:1/8
+K:D Mixolydian
+E|FEFG ABcB|Add2 Add2|FEFG AdcA|G2AG FDDE|!
+FEFG ABcB|Add^c defg|afge fdAF|GBAG FDD:|!
+K:D Major
+e|fdeg fdec|Add2 Adde|fdeg fdAF|GBAG FDDe|!
+f3g fedB|Addc defg|afge fdAF|GBAG FDD:|!
+S:https://www.folktunefinder.com/tunes/65803
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

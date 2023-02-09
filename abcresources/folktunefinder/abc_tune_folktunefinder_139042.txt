@@ -1,0 +1,26 @@
+X:15
+T:Tuamgrainey Castle
+R:hornpipe
+D:John Williams - Steam
+M:C|
+K:Ador
+Q:350
+cB|A2AB AGEG|AGAB cBcd|(3efg fa gedc|B2G2 G2cB|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2:|
+(3efg|agab ageg|agab a2ge|dega gedc|B2G2 G2 (3efg|
+agab ageg|agab a2ge|dega gedB|c2A2 A2 (3efg|
+agab ageg|agab a2ge|dega gedc|B2G2 G2cB|
+A2AB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2||
+S:https://www.folktunefinder.com/tunes/139042
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/williams.abc
+S:http://www2.redhawk.org:8080/irish/other/williams.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

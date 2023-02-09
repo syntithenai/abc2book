@@ -1,0 +1,27 @@
+X:1605
+T:Oyster Girl
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001257.html
+%%ID:00001257
+K:D
+a | aba f2d | e2c  A2A | ded f2d | a2g e2\
+a | aba f2d | d'2b g2b | baf age | d3-d2 ::
+f  | f2f f2f | f2(f d'2g) | eee a2g | g3 f\
+a2 | aba f2d | d2B  G2g   | baf age | d2z ::
+a2g d2d | e2c  A2A | ded f2d | a2g e2a | \
+aba f2d | d'2b g2b | baf age | d2z z2
+%%newpage
+%page 128
+S:https://www.folktunefinder.com/tunes/88478
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

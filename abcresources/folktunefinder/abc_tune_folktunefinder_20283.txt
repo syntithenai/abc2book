@@ -1,0 +1,31 @@
+X: 1
+T: Vals fr\aan J\"arna
+O: trad Sweden
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+R: waltz
+M: 3/4
+L: 1/8
+Z: Contributed 20040727182619 by John Chambers jc@trillian.mit.edu
+K: A
+e2 \
+| ea ae Ac | e2 ef e2 | ea ae Ac | e4 e2 \
+| ea ae Ac | e2 f<e f<e | ea ae Ac e4 |][K:Ador]
+|: g2 \
+| gf d2 d2 | f4 e/d/c/B/ | A2 AB cd | e>f ec AG \
+| A2 A2 AB | c>d cB AG | Bc/B/ A4 | A4 :|
+S:https://www.folktunefinder.com/tunes/20283
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValsFrJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ValsfraanJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/ValsFrJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/ValsfraanJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/waltz/ValsfraanJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/jc:trillian.mit.edu/ValsfraanJarna.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ValsfraanJarna.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

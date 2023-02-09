@@ -1,0 +1,28 @@
+X: 2
+T: Maggie Brown's Favorite
+I: Maggie Brown's FavoriteJ-27GjigSet 14
+C: J-27
+C: Irish
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+Q: 3/8=100
+K: G
+"G"dBG GAB| "C"E2E E2c| "D"AFD DEF| "G"G2G G2g|
+"G"dBG Bcd| "C"E2E E2c| "D"AFD DEF|1 "G"GBA G3:|2"G"GBA G2g/a/|]
+\
+"G"bgb "D"afd| "C"efg gfe| "G"dBg dBG| "D"AFD D ga|
+"G"bgb "D"afd| "Em"efg "D"gfe| faf "A"ge^c| "D"d3 "(G7)"de=f|
+"C"ece "G"dBd| "C"cac "G"BgB| "Am"Ace "G"dBG| "D"FAF DEF|
+"G"GAB "Am"EFG| ABc "D"def| "G"gdB "D"cAF| "G"G3 G2 g|]
+%%text 9/1/98.  Set 14
+S:https://www.folktunefinder.com/tunes/173593
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/MargrettBrownsFavorite.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/MargrettBrownsFavorite.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

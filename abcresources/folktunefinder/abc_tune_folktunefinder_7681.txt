@@ -1,0 +1,25 @@
+X: 78
+T: Waiting for the Federals
+T: Seneca Square Dance
+N: AKA "Running from the Federals"
+N: See also "Georgia Boys", "Got a Little Home to Go To", "John Hoban's Polka"
+L: 1/8
+M: C|
+K: G
+DG \
+|  B4  B2AB | d2B2 BAG2 |  B4  d3B  | ABAG E2D2 \
+|  B4  B2AB | d2B2 BAG2 | ABAG E2F2 | G3A  G2 :|
+|: Bd \
+| g4   gage | d2B2 BAG2 |  g4  gfga | be2f e3f \
+| gaba g2ge | dged BAG2 | ABAG E2F2 | G3A  G2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/7681
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:130
+T:Bobing Joan
+A:Wyresdale, Lancashire
+B:A John Winder Book, April 1789
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005fe.html
+%%ID:000005fe
+K:G
+fd Ac d2 fd | Ac eg fd Ac | d2 ec Ac eg ::
+fa ag f2 ea | ag fa ba gf | e2 ec Ac eg :|
+%%text That's what's written in the mss. It would almost certainly be happier in 3/2 :-
+%%scale .5
+[M:3/2] [L:1/4] \
+fd Ac d2 | fd Ac eg | fd Ac d2 | ec Ac eg ::
+fa ag f2 | ea ag fa | ba gf e2 | ec Ac eg :|
+S:https://www.folktunefinder.com/tunes/43589
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_1_JW/Winder_1_JW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

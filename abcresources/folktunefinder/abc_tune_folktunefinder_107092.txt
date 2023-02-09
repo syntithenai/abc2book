@@ -1,0 +1,27 @@
+X: 18
+T: Whiskey Before Breakfast
+I: Whiskey Before BreakfastR-69DreelSet 26
+M: C|
+R: reel
+K: D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+%%textfont       Times-Roman 7.0
+"D"A,B,DE D2FG| AFBF A2EF| "G"G2BG "D"F2AF|1 "A7"EDEF EDB,A, :|2 "A"EDEF "D"D4 |]
+|:"D"F2d2 d2Bc| dcdA BAFA| "Em"e4 e2ef| gfed "A7"cABc |
+"D"d2fd "A"c2ec| "G"BABd "D"BAFD| "G"G2BG "D"F2AF| "A7"EDEF "D"D2 z2 :|
+%%text Roaring Jelly  R-69
+%%text 1/20/02
+S:https://www.folktunefinder.com/tunes/107092
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

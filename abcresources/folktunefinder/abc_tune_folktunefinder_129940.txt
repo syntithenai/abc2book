@@ -1,0 +1,26 @@
+X:1
+T:Au printemps, la mre Ajasse
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:C
+%%staves [1 2 3]
+V:1
+c/c/cG | A/B/AG | c/c/cG | A/B/AG |
+c/e/ d/d/ c/e/ | d/e//d// c G |[P:Intro] c/e/ d/d/ c/e/ | d/e//d// c2 |]
+V:3
+GEE | F/E//G//EC | GEE | F/E//G//EC |
+cBA | Gc/B//A//B | cBA | G/c G/ A/B/ |]
+V:2
+G/G/GB | c/d/cB | G/G/GB | c/d/cB |
+e/g/ f/f/ e/g/ | f/g/4f/4 ec | e/g/ f/f/ e/g/ | f/g/4f/4 e2 |]
+%%footer $D   Galouvielle-MBe 2007 \nbransle (France)
+S:https://www.folktunefinder.com/tunes/129940
+S:http://michel.bellon.free.fr/Musique/abc/BalTraverse92.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:10
+T:Swinging on a gate
+M:4/4
+R:reel
+Q:1/2=120
+L:1/8
+K:G
+d2| "G"gedB G2AB|"Am"cABG "G"AGEG|"G"DGBd "C"g2g2|"D7"fgag fdef|
+"G"gedB G2AB|"Am"cABG "Em"AGEG|"C"cABG "A7"AGEG|"D7"DGGF "G"G2::
+d2|"G"gfga bagf|"Em"gfed B2AG|"Am"EAAB cBAG|"Am"EAAB "D7"cdef|
+"G"gfga bagf|"Em"gfed B2AB|"Am"cABG "G"AGEG|"D7"DGGF "G"G2:|
+%%newpage
+S:https://www.folktunefinder.com/tunes/57394
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/reels.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

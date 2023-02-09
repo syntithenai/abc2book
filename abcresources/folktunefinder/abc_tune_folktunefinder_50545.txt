@@ -1,0 +1,25 @@
+X: 37
+T:Galopede
+M:2/4
+L:1/8
+Q:240
+R:March
+K:D
+"D"FA/2A/2 Ad|fe d2|"G"BA Bd|"A7"e>f e2|
+"D"FA/2A/2 Ad|fe d2|"G"BA "A"Bc|"D"d2 d2::!
+"D"f2  "(A)"e2|"(D)"dA/2A/2 AA|
+"A7(G)"g2        "(D)"f2|"(A)"eA/2A/2 BA|
+"D"f2  "(A)"e2|"(D)"dA/2A/2 BA|
+"G"BA "A"Bc|"D"d2 d2:|
+S:https://www.folktunefinder.com/tunes/50545
+S:http://crash.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticc.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticc.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticc.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

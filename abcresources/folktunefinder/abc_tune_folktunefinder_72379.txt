@@ -1,0 +1,33 @@
+X: 130
+T:Madame Coblenie's() Minuet. HA.129
+M:3/4
+L:1/8
+Q:120
+S:Henry Atkinson's original MS,Hartburn,N'umberland,1694.
+O:England
+A:Hartburn,Northumberland
+H:1/8
+Z:vmp.Chris Partington.Jan.2004
+K:G
+z/d/e/f/|g2f2g2|d4d2|e2d2c2|B2A2G2|\
+B2A2G2|B2A2G2|B4c2|d4z/d/e/f/|!
+g2f2g2|d4d2|e2d2c2|B2A2G2|\
+BcBABG|Bcd2e2|A4G2|G4||!
+B2|c2dcBA|B2G2B2|c2dcBA|B4B2|\
+efgfed|"first strain again"cBA2a2|(gf)e4|d4||!
+B2|e3fg2|f2B2B2|A2BAGF|GFE2B2|\
+e3fg2|f2B2f2|!
+(gf)f4|e4f2|\
+e2f2g2|a2gfed|g2f2g2|a4|]
+S:https://www.folktunefinder.com/tunes/72379
+S:http://www.village-music-project.org.uk/abc/atkinson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

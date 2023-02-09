@@ -1,0 +1,23 @@
+X:94
+T:Jig of Slurs, The
+R:jig
+C:GS MacLennan
+Z:id:hn-jig-94
+M:6/8
+K:D
+Add dcd|Bdd Add|Bdd Add|Bee edB|Add dcd|Bdd Add|Bdd cde|fdd dcB:|
+|:A2f fef|aff fed|Bee ede|~f3 edB|A2f fef|aff fed|Bdd cde|1 fdd dcB:|2 fdd d3||
+K:G
+|:G2g gfg|agf gdB|G2g gfg|agf ~g3|G2g gfg|agf gdB|Bee efg|fed edB:|
+|:GBB Bdd|dee edB|GBB Bdd|dee e2d|GBB Bdd|dee edB|~e3 efg|fed edB:|
+S:https://www.folktunefinder.com/tunes/122076
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+S:http://www.norbeck.nu/abc/i/hnj0.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

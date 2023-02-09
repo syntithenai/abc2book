@@ -1,0 +1,27 @@
+X:4420
+T:Polka de Chteau Chervix
+M:C|
+O:France
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000006c9.html
+%%ID:000006c9
+K:D
+DEFG A2Bc|d2cBA4|\
+BGEF G2A2-|AFDEF2E2|\
+DEFG A2Bc|d2cBA4|BGEFG2A2|F2E2D4:|\
+|:d2cBA2Bc|d2FBA4|\
+BGEF G2A2-|AFDEF2E2|\
+DEFG A2Bc|d2cBA4|BGEFG2A2|F2E2D4:|
+S:https://www.folktunefinder.com/tunes/36963
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:665
+T:Planxty O'Reilly
+C:O'Carolan
+B:O'Neill's 665
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Animated"
+M:6/8
+L:1/8
+K:D
+d \
+| dcB ceG | (F2D) (.G2.E) | (F2A) ABA | (.F2.A) (A2f) |
+| fef (g2e) | fdB Bcd | (.e2.e) (.f2.d) | ecA ABc |
+| d>cB f2A | d2F B2F | F>ED D2d | d3 d2 ||
+G \
+| FDD F2D | GEE G2A | FAA A2A | FAA A2f |
+| fef g2e | f2d ecA | B2c d2e | d2B AFD |
+| B2E E2E | EFE E>FA | B2B edc | d3 d2 |]
+S:https://www.folktunefinder.com/tunes/182816
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0665_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

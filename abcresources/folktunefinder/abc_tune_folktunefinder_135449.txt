@@ -1,0 +1,31 @@
+X: 1598
+T: Groves Hornpipe, The
+R:hornpipe
+N:"Collected by Early"
+B:O'Neill's 1598
+Z:Transcribed by Michael Hogan
+M:2/4
+L:1/16
+K:G
+D2 | G2GF GABc | dBGB AGFD | =F2FE FGAB | cd=fe dcA^F |
+G2GF GABc | dBGB AGFD | dfeg fdcA | AG{A}GF G2 ||
+ A2 | B2BA Bcde | fdcB AF (3FEF | CF (3FEF AF (3FEF | ABcA BG (3GFG |
+B2BA Bcde | fdcA dBcA | dfeg fdcA | AG{A}GF G2 ||
+ c2 | d2g2 g2fg | abag f2af | d^cde fefg | abag f2fe |
+d2g2 g2fg | abag f2fe | d^cde fdcA | AG{A}GF G2 ||
+D2 | G>d (3Bcd G>d (3Bcd | =F>c (3ABc F2A^F | G>d (3Bcd G2(Bc) | d^cde fd=cA |
+G>d (3Bcd G>d (3Bcd | =F>c (3ABc F2(Bc) | d^cde fd=cA | AG{A}GF G2 ||
+d2 | g>d (3Bcd g>d (3Bcd | f>c (3ABc f>c (3ABc | g>d (3Bcd g>d (3Bcd | A>G (3ABc A>G (3ABc |
+dedB cdcA | (3Bcd BG AcBd | dfeg fdcA | AG{A}GF G2 :||
+S:https://www.folktunefinder.com/tunes/135449
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1556-1624_mh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

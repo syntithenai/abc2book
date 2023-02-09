@@ -1,0 +1,32 @@
+X:40
+T:Contredanse n5
+O:France
+A:Provence
+C:Imbert (vers 1825)
+R:Contredanse
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-04-02
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+P: ABA"Trio"A
+%%continueall 1
+K:Cm
+P:A
+c/=B/ | ce ce/d/ | eg eg/e/ | a/g/f/e/ df | e2 {fe}d c/=B/ | ce ce/d/ |
+eg eg/e/ | a/g/f/e/ dg | c3!fine! :: [P:B]ed | eg e{a}g/f/ | gb gg/e/ |
+a/g/f/e/ de | (f/e/)dc Be/d/ | eg e{a}g/f/ | gb gg/e/ | a/g/f/e/ dd | 
+(f2e) :| [K:C] [P:Trio] G | ee dd | (c2G) G | gg ff |
+(e2c/)e/f/g/ | a>a g>g  | ^f>f =f>f | eg fe | (e2d) G | ee dd |
+(c2G) G | gg ff | (e2c/)e/f/g/ | a>a g>g | ^f>f =f>f | =e/G/c/e/ g/f/d/B/ | (d2c) |]
+%%footer $D   Galouvielle-MBe 2008 \nContredanse (France)
+S:https://www.folktunefinder.com/tunes/499
+S:http://michel.bellon.free.fr/Musique/abc/Provence2.abc
+% Rhythm Contredanse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,71 @@
+X:17637
+T:Tonada (CT 310)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, d'Uviu, quien dice las aprendi en La Sierra de Sigenco, ayuntamiento de Cangas d'Ons.
+N:La cantaban los pastores acompandose con gaita ordinaria o algn instrumento pastoril.
+N:Estos pueden ser de varias clases y recibir distintos nombre, segn el sitio de la provincia.
+N:Entre los de viento son los ms generalizados la gaita y la xiblata.
+N:La primera la construyen con un trozo de caa de saco, al cual extraen la mdula, aplicndole una embocadura de silbato.
+N:A lo largo del tubo practican cuatro agujeros, con los cuales, y mediante la mayor o menor intensidad con que expelen el aire, consiguen los pastores hacer la escala diatnica completa.
+N:Esta gaita pastoril se diferencia de la ordinaria en que no tiene fuelle ni bordn.
+N:La xiblata la construyen con un cuerno de carnero, cortndole la parte superior y aplicndole la embocadura de silbato.
+N:No hemos visto a nuestros pastrores usar instrumentos de cuerda.
+N:Nos han hablado del rabel, que en otro tiempo se us para animar los pastoriles bailes o acompaar al cantor de romances, pero no hemos podido nunca escuchar en nuestra provincia uno de estos instrumentos.
+N:Suele cantarse con acompaamiento de gaita.
+O:La Sierra de Sigenco (Cangas d'Ons)
+A:Asturies
+Z:Cancioneru de Torner 310
+M:3/4
+L:1/8
+Q:1/4=72
+W:Nun puedo subir al puertu,
+W:que ta l.luene la cabaa
+W:y l'amor tienme prendidu
+W:nel pueblu La Soterraa.
+W:Cadena d'amor m'echaron,
+W:nun la puedo desatar;
+W:ya nun subir a L'Aramu
+W:el mio rebau a pastiar.
+W:
+W:Ai! si pudiera,
+W:conmigo la subira
+W:y pastora la fixera.
+W:
+W:Nun recuento les oveyes
+W:nin miro pa otres pastores;
+W:tengo puestu el pensamientu
+W:na prenda los mios amores.
+W:Ai! de mi, que ya nun puedo
+W:subir al puertu a curiar
+W:porque me tien prisioneru
+W:l'amor n'isti l.lugar.
+W:
+W:Ai! si pudiera,
+W:conmigo la subira
+W:y pastora la fixera.
+K:G
+|:G4 AB|(d3/2c/2) B3G|(B3/2c/4B/4) A4|FG AB (A3/4F/4) G|(A3/2B/4A/4) G4|
+G4 AB|(d3/2c/2) B3G|(B3/2c/4B/4) A4|FG AB (A3/4F/4) G|(A3/2B/4A/4) G4|
+Bd d(e3/4f/4) (e3/4d/4)c|(B/2AB/8A/8G/8F/8) G4|Ac d(e/2f/8e/8d/8c/8) 
+(d/2e/8d/8c/8B/8)(c/2d/8c/8B/8A/8|
+B6|Bd d(e3/4f/4) e3/4d/4c|(B/2AB/8A/8G/8F/8) G4|Ac cd cB|
+(A3/2B/8A/8G/8F/8 G4)|z2 z G FA|(c3/2d/8c/8B/8A/8 B4)|AB cd d3/4(e/4d)|
+(c3/2(3d/4c/4B/4 A4)|FG Ac cB|(A3/2B/8A/8G/8F/8 G4-)|G2 z4:||
+S:https://www.folktunefinder.com/tunes/39008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/t.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/t.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

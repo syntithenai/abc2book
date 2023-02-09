@@ -1,0 +1,54 @@
+X: 11812
+T: Elley's
+R: waltz
+M: 3/4
+K: Gmajor
+V:1
+BA|"Gmaj" G2 GA Bd|"Dmaj"D2 DG FG|"Cmaj"E3F GA|"D7"FD DF Ad|
+V:2
+GF|D2 DF GA|A2 AB AE|G3A GF|D2 AF FA|
+V:1
+"Gmaj"G2 GA Bd|"Dmaj"D2 DG FG|"D7"BD DF AF|"Gmaj"G2 G2 BA|
+V:2
+B2 Bd dB|A2 Ad dB|d2 dA FA|B2 BG Bd|
+V:1
+"Gmaj"G2 GA Bd|"Dmaj"D2 DG FG|"Cmaj"E3F GA|"D7"FD DF Ad|
+V:2
+d2 dF GA|A2 AB Bd|G3A GF|D2 AF FA|
+V:1
+"Gmaj"G2 GA Bd|"Dmaj"D2 DG FG|"Cmaj"Bd dc "Dmaj"AF|"Gmaj"G4||
+V:2
+B2 Bd dB|A2 Ad dB|G2 GE FA|B4||
+V:1
+FG|"Dmaj"AF D2 GA|"Gmaj"BG D3 A/B/|"Amin7"c2 cA BG|"D7"A2 AG FG|
+V:2
+DE|FD DF Ad|BG G3 B/d/|A3E GE|F3E DE|
+V:1
+"Dmaj"AF D2 GA|"Gmaj"BA Bd gf|"Cmaj" (3efg dc "D7"AF|"Gmaj"G6||
+V:2
+FD DF Ad|BG GB Bd|(3cde BA Ad|B6||
+V:1
+FA|"Dmaj"AF D2 GA|"Gmaj"BG D3 A/B/|"Amin7"c2 cA BG|"D7"A2 AG FG|
+V:2
+DE|FD DF Ad|BG G3 B/d/|A3E GE|F3E DE|
+V:1
+"Dmaj"AF D2 GA|"Gmaj"BA Bd gf|"Cmaj" (3efg dc "D7"AF|"Gmaj"G2 G2||
+V:2
+FD DF Ad|BG GB Bd|(3cde BA Ad|B6||
+V:1
+Bd|"Cmaj"e2 ef ga|"D/b"d2 dc Bd|"Amin7"cA AB "D7"cd|"Gmaj"B2 "Amin7"BA "D/b"Bd|
+V:2
+GA|c3d ed|B2 BA GB|Ac cd AF|G2 GF GA|
+V:1
+"Cmaj"ef fg ga|"D/b"d2 dc Bd|"Amin7"gd dc "D7"AF|"Gmaj"G2 GA Bd|
+V:2
+cA Ac cd|B2 BA dB|cA AF dc|B4 GA|
+V:1
+"Cmaj"e2 ef ga|"D/b"d2 dc Bd|"Amin7"cA AB "D7"cd|"Gmaj"B2 "Amin7"BA "D/b"Bd|
+V:2
+c3d ed|B2 BA GB|Ac cd AF|G2 GF GA|
+V:1
+"Cmaj"ef fg ga|"D/b"d2 dc Bd|"Amin7"gd dc AF|"Gmaj"G2 G2||
+V:2
+cA Ac cd|B2 BA dB|cA AF dc|B4||
+

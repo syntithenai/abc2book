@@ -1,0 +1,45 @@
+X:891
+T:Xiraldilla (CT 398)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Muriellos, ayuntamiento de Riosa.
+A:Asturies
+O:Muriellos (Riosa)
+Z:Cancioneru de Torner 398
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|d2 B|A3|ced|e2 e|e2 d|f2 e|edc|B2 z|
+d2 B|A3|ced|e2 e|e2 d|f2 e|edc|B2 z|
+|dcB|A2 c|eed|e3|eed|f2 e|edc|B2 z|
+dcB|A2 c|eed|e3|eed|f2 e|edc|B2 ||
+W:Isabelina mellamo
+W:y soy hija de un labrador;
+W:aunque venga y vaya al campo,
+W:a m no me quema el sol.
+W:
+W:prenda querida
+W:del corazn,
+W:mira qu juntos
+W:estamos hoy.
+W:
+W:pero maana,
+W:triste de mi!
+W:larga distancia
+W:estar de t.
+W:
+S:https://www.folktunefinder.com/tunes/59778
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 35945
+T: Sarah
+R: waltz
+M: 3/4
+K: Gmajor
+P:A
+D2|"G"G2>G2 G2|"Em"G2E2G2|"Am" A2>B2A2|"D" F2 D2 D2|"G" G2>G2 G2|"Em"G2 EGBd|"C"e2>f2e2|"D" d4 ef|
+"Em"g2>g2g2|"Bm" f2B2Bd|"C" e2>e2 e2|"G"d2 !turnx!B2A2|"Em" G2>G2G2|"C"G2>A2 B2|"D" A4A2|"G" G4:|
+P:B
+B,2|"Em" E2>E2E2|"Em" E2G2B2|"D" .A2.G2.F2|"Em" E4 GA|"Bm" B4 GA|"Em" B4 GA|"Bm"(3BcB A2 G2|"D"F4 B,2|
+"Em"E2>E2E2|"Em" E2G2B2|"D" (3FBA G2F2|"Em" E3 FGA|"G" B2>B2 B2|"Em"e2B2G2|"Bm" (3ABA G2F2|"Em" E4:|
+P:A
+D2|"G"G2>G2 G2|"Em"G2E2G2|"Am" A2>B2A2|"D" F2 D2 D2|"G" G2>G2 G2|"Em"G2 EGBd|"C"e2>f2e2|"D" d4 ef|
+"Em"g2>g2 g2|"Bm" f2 B2 Bd|"C" e2>e2 e2|"G"d2 B2A2|"Em" G2>G2G2|"C"G2>A2 B2|"D" A4A2|"G" G4||
+P:C
+AB|"Am" c2e2c2|"G" !turnx!B2A2 BA|"Em" G2B2G2|"D" F2D2B,2|"C" E2 CE CE|"D"F2 DF DF|"Em"G2 EG EG|"D"A4 AB|
+"Am" c2e2c2|"G" B2A2 BA|"Em" G2B2G2|"Bm"F2D2B,2|"C" E2 CE CE|"D"F2 DF DF|1 "Em"G2 EG EG|"D"A4:|2 "Em"G2 "^Ritardando"EG EG|"D"A2>"D7"B2|
+P:A
+D2|"G"G2>G2 G2|"Em"G2E2G2|"Am" A2>B2A2|"D" F2 D2 D2|"G" G2>G2 G2|"Em"G2 EGBd|"C"e2>f2e2|"D" d4 ef|
+"Em"g2>g2 g2|"Bm" f2 B2 Bd|"C" e2>e2 e2|"G"d2 B2A2|"Em" G2>G2G2|"C"G2>A2 B2|"D" A4A2|"G" G4 ef|
+P:Tag
+"Em"g2>g2 g2|"Bm" f2 B2 d2|"C" e2>e2 e2|"G"d2 B2A2|"Em" G2>G2G2|"C"G2>A2 B2|"D" AB cd ef|"G" g6||
+

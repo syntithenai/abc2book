@@ -1,0 +1,29 @@
+X:19
+T:Scottish
+T:Suite
+C:Traditionnel
+R:Scottish
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+"A"g2g2 a3g|f2g2 e2c2|defd e2c2|defd e2c2|
+g2g2 a3g|f2g2 e2c2|defd e2c2|d2B2 c4||
+c2BA G2G2|cBcd e2e2|fedf edce|d2g2 e2c2|
+c2BA G2G2|cBcd e2e2|fgfd efec|d2B2 c4|]
+"B"[|cdef g2g2|agfa gfed|cdef g2g2|agfe d4|
+cdef g2g2|agfa gfed|cdef g2g2|agfe d4||
+f2df e2ce|d2d2 g4|fedf edce|d2B2 c4|
+f2df e2ce|d2d2 g4|fedf edce|d2B2 c4|]
+"C"[|e2d2 cBcd|f2e2 d4|]
+%%footer $D   Galouvielle-MBe 2005 \nScottish --
+S:https://www.folktunefinder.com/tunes/140701
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Scottish
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

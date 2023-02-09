@@ -1,0 +1,38 @@
+X: 27984
+T: Mouvement De Gigue
+R: jig
+M: 6/8
+K: Gmajor
+V:1
+|:B2c|ded d2d|c2A ~c3|cdc c2 c|B2G B2c|
+V:2
+|:G2A|BcB B2B|A2F A3|ABA AGF|G2D G2A|
+V:1
+ded d2d|c2A c3|Bcd dcB|A3A2 d|
+V:2
+BcB B2B|A2 F AGF|GAB BAG|D3D2 B|
+V:1
+d2 d d2 d|e=fe d2 g|f2 e d2=c|d3 A2A|
+V:2
+B2B B2B|cdc B2=c|D2 G F2E|FEF D2 F|
+V:1
+A2A A2A|BcB A2 d|FED E3|D3:|
+V:2
+F2F F2F|GAG F2D|A2d D2=c|d3:|
+V:1
+|:A2B|BAG A2B|BAG A2 d|dcB c2c|c3 B2 g|
+V:2
+|:D2G|GFE D2G|GFE D2D|EFG FED|G2G G2B|
+V:1
+f2e d2c|B3 ABc|d3 ABc|dcB A2 d|
+V:2
+A2G G2A|G3 FGA|B3 FGA|BAG F2D|
+V:1
+c2B A2G|AGA D2F|FGF D2 G|AGA D2d|
+V:2
+EFG F2E|D3 z2d|B3 z2 d|F3 z2D|
+V:1
+c2B A2d|F2 G ABG|cdBA2G|G3:|
+V:2
+A2B c2B|A2G FGE|ABG F2G|G3:|
+

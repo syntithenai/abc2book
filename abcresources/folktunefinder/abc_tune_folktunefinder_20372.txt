@@ -1,0 +1,27 @@
+X: 1
+T: Ding Dong! Merrily on High
+C: Anonymous 16th c. French tune
+B: From Carols for Choirs, v.1, Oxford, 1960, ed. by Reginald Jacques and David Willcocks
+R: march, reel
+M:4/4
+L:1/4
+F:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc 2007-01-26 21:28:22 UT
+K:D
+|: "D"d d "Em" e/d/c/B/ | "A"A3 A | "G"B{c}d "A7"dc | "D"d2 d2 :|
+[| "D"a>g "(Bm)"f/g/a/f/ | "Em"g>f "(A7)"e/f/g/e/ | "Bm(D)"f>e "Bm"d/e/f/d/ | "A7(Em)"e>d "A7"c/d/e/c/ |
+| "G(Bm)"d>c "G" B/c/d/B/ | "A"c>B AA | "G"Bd "A7"dc | "D"d2 d2 |]
+S:https://www.folktunefinder.com/tunes/20372
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://serpent.laymusic.org/~lconrad/music/carols/dingdong/score.abc
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DingDongMerrilyOnHigh_D_16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/DingDongMerrilyOnHigh_D_16.abc
+% Rhythm March, reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

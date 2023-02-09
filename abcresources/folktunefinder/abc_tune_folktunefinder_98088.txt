@@ -1,0 +1,37 @@
+X:10306
+T:Marcha Procesional del Carmen (MG 61)
+R:Marcha
+C:Versin de Dionisio de la Riela
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Gaita 61
+E:Comp.
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+EF
+|G~A GF|G2 A2|G4|E2 c2|B2 ~AG|FG AB|G4|E2 EF|
+|G~A GF|G2 A2|G4|E2 c2|B2 ~AG|FG AB|c2 c>c|c4|
+|{B}A3 G|Ac B~A|G3 E|GB ~AG|F3 D|FB ~AG|G4|E4|
+|{B}A3 G|Ac B~A|G4|E2 FG|~AF GA|B2 G2|c4-|c2 EF|
+|G~A GF|G2 A2|G4|E2 c2|B2 ~AG|FG AB|G4|E2 EF|
+|G~A GF|G2 A2|G4|E2 c2|B2 ~AG|FG AB|c2 c>c|c4| "fin"
+|{B}A3 G|F2 A2|c4|A4|GA ~GF|E2 G2|F4|E4|
+|{B}A3 G|F2 A2|c4|A4|G4|F2 {G}F2|E4|C4|
+|{B}A3 G|F2 A2|c4|A4|GA ~GF|E2 G2|F4|E4|
+|{B}A3 G|F2 A2|c4|A4|~GA ~GF|EG FE|F2 G2|G4-|G2 EF|
+S:https://www.folktunefinder.com/tunes/98088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

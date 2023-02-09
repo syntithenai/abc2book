@@ -1,0 +1,21 @@
+X:4538
+T:My Wifes a Wanton wee thing.
+O:england
+N:presumably bar 11 gives alternates, not a chord
+M:6/8
+L:1/8
+K:D
+f/e/|d2A (B/c/d)A|d3 A2B|=cdc cGE   |=c3 E2
+f/e/|d2A  B/c/dA |d3 A2G| FGF EDE   | D3 D2:|
+A/B/|AdA  FDF    |A3 F3 | GAG E[GC]E| G3 B3
+|AdA  FDF    |A3 a2g| fdf ece   | d3 d2:|
+S:https://www.folktunefinder.com/tunes/24990
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

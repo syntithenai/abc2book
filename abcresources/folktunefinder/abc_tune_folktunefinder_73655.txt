@@ -1,0 +1,27 @@
+X:496
+T: The Light Of Other Days
+B: O'Neill's 496
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: Collected by "(Balfe)"
+N: Typo: Missing triplets in bar 14.
+M: C
+L: 1/8
+K:Bb
+F2 \
+| (F3B) (dcBA) | G4 F2 (B>c) | d2(d>e) f2(c>d) | B6 z ||
+|| B \
+| e3 B (BABc) | (d4 B3)B | B3 B c3 c | Hd6 z||
+|| F \
+| (F3B) (dcBA) | (G4 F2) (B>c) | d2(d>e) f2(c>d) | e6 (fe) |
+| d3c (BABc) | d4- d(cd efg) | g2- g/(f/A/B/) (d/c/) He2 d | B4 z2z |]
+S:https://www.folktunefinder.com/tunes/73655
+S:http://music.gordfisch.net/oregans/assets/abc/oneills.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

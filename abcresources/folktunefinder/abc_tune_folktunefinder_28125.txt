@@ -1,0 +1,23 @@
+X:7673
+T:Trip to Kilburn     %Tune name
+C:1686     %Tune composer
+N:To the tune Black and Grey     %Tune infos
+Q:1/4=120     %Tempo
+|:
+O:England
+M:C|     %Meter
+L:1/8     %
+K:Am
+"Am"A2 A2 d2 B2 |c4 A2 d2 |"G"B4 G2 g2 |B4 G4 |"Am"A2 A2 d2 B2 |c3 B A2 d2 |"G"B2 G2 BcdB |"Am"A4 e4 ::"Am"a2 e2 fedc |
+a2 e2 fedc |"G"g2 d2 BcdB |g2 d2 BcdB |"Am"a2 e2 fgag |"Am"agfe fedc |"G"B2 G2 BcdB |"Am"A4 e4 :|
+S:https://www.folktunefinder.com/tunes/28125
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

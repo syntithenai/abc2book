@@ -1,0 +1,43 @@
+X:986
+T:Matelotte
+C:anon.
+O:Belgium
+A:Soy-lez-Durbuy, Ardennes
+S:Jean Guillaume Houssa's notebook
+R:Matelotte, maclote
+Z:Christophe Declercq
+F:http://abc.musicaviva.com/tunes/belgium/matelotte-180100.abc
+%Posted Jan 18th 2000 at ABC-users by Christophe Declercq who had this to say:
+%'Belgium is not in the Balkans but, just  for the fun of it...  here
+%a "Matelotte" (as written in the notebook) or "Maclote" (as said now)
+%from the notebook of Jean Guillaume Houssa, a fiddler living in the
+%South-East of Belgium around 1850. The "maclote" is a dance (in 6/8
+%or in 2/4) from the Ardennes region, in the French speaking part of
+%Belgium (Wallonie).
+%BTW, in JG Houssa's notebook, there is also a version of the
+%Matelotte posted recently by Laura Conrad.
+M:2/4
+L:1/16
+K:D
+(DF)|(AF)DF (AF)DF|A2d2 d2(DF)|(AF)DF (AF)DF|E2E2 E2(DF)|
+(AF)DF (AF)DF|A2d2 d2(fg)|afdf gece|d2d2 d2:|
+|:g2|(fd)fa (ba)gf|(ed)ef g2fe|(de)fg (ba)gf|e2A2 A2g2|
+(fd)fa (ba)gf|(ed)ef g2fg|afdf gece|d2d2 d2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/174746
+S:http://abc.musicaviva.com/tunes/belgium/matelotte-180100.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/belgium/matelotte-180100.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/belgium/matelotte-180100.abc
+% Rhythm Matelotte, maclote
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

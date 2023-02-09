@@ -1,0 +1,24 @@
+X: 1
+T: King, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+G3 AGA | Bcd efg | GFG AGA | BGE EDE |
+G3 AGA | Bcd efg | dcB AGA |1 BGG G2 D :|2 BGG GBd ||
+|: gfg e3 | edB def | gfg aga | bge e2 f |
+gfg aga | bge efg | dcB AGA |1 BGG GBd :|2 BGF G2 E ||
+|: DGG BGG | AGG BGG | efg dcB | AGA AGE |
+DGG BGG | AGG BGG | efg dcB |1 AGE G2 E :|2 AGF G3 ||
+|: efg fBB | bag fBB | eBB fBB | gfe fdB |
+efg fBB | bag fBB | efg fdB |1 egf e2 d :|2 egf edB ||
+S:https://www.folktunefinder.com/tunes/169936
+S:http://www.thesession.org/tunes/display/7514
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

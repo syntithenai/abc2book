@@ -1,0 +1,30 @@
+X: 5816
+T: Calgary Fiddlers Welcome To Shetland
+R: reel
+M: 4/4
+K: Dmajor
+V:1
+|:de|"D"fd d2 edcd|"G"efgf edcd|"D"fd d2 edcd|"D"efgf "G"e2 de|
+V:2
+|:z2|d4 D2 D2|c4 C2 C2|d4 D2 D2|E4 A4|
+V:1
+"D"fd d2 edcd|"G"efgf edcd|"D"fd d2 edcd|"G"eAce "D"d2 dB:|
+V:2
+d4 D2 D2|c4 C2 C2|d4 D2 D2|E4 D4:|
+V:1
+|:"A"AdfA dfAf|"B,"^AdfA dfAf|"B,#"BdfB dfBf|"C"=cdfc dfcf|
+V:2
+|:A6 A2|^A6 ^A2|B6 B2|=c6 =c2|
+V:1
+"G"g2 gf g2 ag|"D"fd d2 d2 Bd|"A"e2 ed eafd|"A"e4 e2 dB|
+V:2
+e4 e4|d4 d4|c4 c4|B4 E4|
+V:1
+|:"A"AdfA dfAf|"B,"^AdfA dfAf|"B,#"BdfB dfBf|"C"=cdfc dfcf|
+V:2
+|:A6 A2|^A6 ^A2|B6 B2|=c6 =c2|
+V:1
+"G"g2 gf g2 ag|"D"fd d2 d2 Bd|"A"e2 ed eafd|"D"d5|
+V:2
+e4 d4|d4 B4|A4 C4|D5|
+

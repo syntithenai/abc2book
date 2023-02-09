@@ -1,0 +1,34 @@
+X:1327
+T:Crazy Dog
+O:England
+M:C
+L:1/8
+C:Rodney Miller
+N:Inspired by a scene in "Catcher in the Rye"
+K:A
+A,CEG A2 Ac|BAFE FAef|=gdBd fdAd|f2 e2 e4|
+A,CEG A2 Ac|BAFE FAEF|=G2 GG FEDE|F2 E2 E4:|
+W:var for A strain (with "ringing strings" A and E as appropriate):
+A,CEG A2 Ac|BAFE FAef|=g2 gg f2 ff|efec BAFE|
+W:etc...
+K:G
+[A,2A2] [A,A] [A,2A2] [A,A] [A,A][A,A]|[C2c2] [Cc] [C2c2] [Cc] [Cc][Cc]|\
+[G,2G2] [G,G] [G,2G2] [G,G] [G,G][G,G]|[G,2G2] [C2c2] [B,2B2] [_B,2_B2]|
+[A,2A2] [A,A] [A,2A2] [A,A] [A,A][A,A]|[C2c2] [Cc] [C2c2] [Cc] [Cc][Cc]|\
+[D2d2] [Dd] [D2d2] [Dd] [Dd][Dd]|[G,2G2] [G,G] [G,2G2] [G,G] [G,G][G,G]|
+[A,2A2] [A,A] [A,2A2] [A,A] [A,A][A,A]|[C2c2] [Cc] [C2c2] [Cc] [Cc][Cc]|\
+[G,2G2] [G,G] [G,2G2] [G,G] [G,G][G,G]|[G,2G2] [C2c2] [B,2B2] [_B,2_B2]|
+[A,2A2] [A,A] [A,2A2] [A,A] [A,A][A,A]|[C2c2] [Cc] [C2c2] [Cc] [Cc][Cc]|\
+[D2d2] z2 [^D2^d2] z2|[E4e4]||
+W:gliss down on last note...
+S:https://www.folktunefinder.com/tunes/21776
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/england.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/england.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

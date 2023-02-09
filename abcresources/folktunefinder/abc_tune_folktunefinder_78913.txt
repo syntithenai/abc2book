@@ -1,0 +1,26 @@
+X:472
+T: ES IST EIN SCHNEE GEFALLEN
+N: E0424
+O: Europa, Mitteleuropa, Deutschland
+R: Liebes - Lied
+M: 4/4
+L: 1/8
+K: F
+F2 | F2G2A2B2 | c4c2
+c2 | G2A2B2c2 | A3GF2
+G2 | G3GG2A2 | B2B2B2
+A2 | G2F2F2E2 | F2EDC2
+G2 | G3GG2A2 | B2B2B2
+A2 | G2F2F2E2 | F6
+S:https://www.folktunefinder.com/tunes/78913
+S:http://ifdo.ca/~seymour/runabc/esac/erk10.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk10.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

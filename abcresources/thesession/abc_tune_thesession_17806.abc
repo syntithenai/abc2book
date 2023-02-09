@@ -1,0 +1,10 @@
+X: 17805
+T: Hop And Skip
+R: hornpipe
+M: 4/4
+K: Dmajor
+defg|"D" a2 af "G" g3e|"Bm" fedf "A" e3c|"G" dedB "D" ABdf|"Em" edef "A" e4|
+"D" a2 af "G" g3e|"Bm" fedf "A" e3c|"G" dedB "D" ABdf|"A" edce "D" d4||
+"Bm" fe d2 "G" B2 d2|"D" fe d2 "A" A4|"Bm" fedf "G" gagf|"Em" edcB "A" Aceg|
+"Bm" fe d2 "G" B2 d2|"D" fe d2 "A" A4|"Bm" fedf "G" gagf|"A" ed c2 "D" d4||
+

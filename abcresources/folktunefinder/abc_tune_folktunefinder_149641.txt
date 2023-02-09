@@ -1,0 +1,23 @@
+X: 3
+P: Temperance Reel (Teetolaler's Reel)
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+| "G"G2GF GABc | dBge dBAc | "Em"BEED EFGA | "D7"BGAF GFED |
+| "G"G2GF GABc | dBge dBAc | "Em"BEED "(C)"EFGA | "D7"BGAF "G"G4 :|
+|: "Em"Beed e3f | geaf gfed | "D"Bdde d3e | fdaf gefd |
+| "Em"Beed e3f | geaf gfed |  BEED "(C)"EFGA | "D7"BGAF "G"G4 :|
+S:https://www.folktunefinder.com/tunes/149641
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Reel_Contra85.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Reel_Contra85.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

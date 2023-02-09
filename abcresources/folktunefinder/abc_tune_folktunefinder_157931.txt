@@ -1,0 +1,58 @@
+X: 1
+T: Firn di Mekhutonim
+R: horra
+O: Rob Mendel
+S: Rob Mendel
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 3/8
+L: 1/16
+K: EPhrygian
+|: "E"^G4(3FED | E6- \
+| E2c2B2 | "Am"A3A ^GB \
+| A4 (3FED | "Dm"D6 \
+| D2B2A2 | "E"^G4 (3FED \
+| E3G BA | ^G3B dc |
+| B3d fe | d3c BA \
+| ^G3A BA | "Dm"^G3F ED \
+| "E"E3e B^G | E2z2 (3EEE \
+:: "E"E2c2B2 | "Am"A3E AE \
+| A6- | A6 \
+| A2f2e2 |
+| "Dm"d3A dA | d6- \
+| d3c cB | BddccB \
+| "E"BddccB | B6- \
+| B3c BA | ^GBBAAG \
+| ^GBBAAG |
+| ^G6- | G3F "Dm"(3FED \
+| "E"E3G BA | ^G3B dc \
+| B3d fe | d3c BA \
+| ^G3A BA | "Dm"^G3F ED |
+| "E"E3e B^G | E2z2 EE \
+:: "Am"e6- | e6- \
+| e6- | e4 d2 \
+| "Am"c6- | c4 B2 \
+| "(Dm)"A6- | A4 G2 \
+| "Dm"F6- | F4 E2 \
+| D6- | D6 \
+| "E"B4 B2 | B4 (3cBA \
+| ^G4 G2 |
+| ^G4 "Dm"(3FED | "E"E3G BA \
+| ^G3B dc | B3d fe \
+| d3c BA | ^G3A BA \
+| "Dm"^G3F FE | "E"E3e B^G \
+| E2z2 z2 :|
+S:https://www.folktunefinder.com/tunes/157931
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/FirnDiMekhutonim_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/horra/FirnDiMekhutonim_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/FirnDiMekhutonim_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/Bb/FirnDiMekhutonim_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/horra/FirnDiMekhutonim_E.abc
+% Rhythm Horra
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

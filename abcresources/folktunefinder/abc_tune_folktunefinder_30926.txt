@@ -1,0 +1,36 @@
+X: 419
+T:Yanky Doodle.
+N:parts numbered in the original
+M:2/4
+L:1/8
+P:1
+K:D
+ddef|ddec| ddef|d2c2|ddef|ddec |AABc |d2d2::
+d2BG|BGB2|=c2AG|FGA2|d2BG|BG=c2|AB^cA|d2d2::
+P:2
+dfeg|fdec |dfeg|f2ed| dfeg|fdec |AABc |d2d2 ::
+d2BG|Bd=cB|ABAG|FGAB|=cdcA|Bd=cA|AB^cA|d2d>g::
+P:3
+fdec|dBAg|fdef|B2Ag|fdec|dBAF|A2Bc|d2dg::
+FAAd|BAAG|FAAd|B2AG|FAAd|BAAF|A2Bc|d2d2::
+P:4
+ fa        eg|fdec| fa        eg|f2ed |\
+ fa        eg|fdec| AA        Bc|d2d2::
+(d/c/d/e/) dA|BAAF|(d/c/d/e/) dA|B2A2 |\
+(d/c/d/e/) dA|BAAF| A2        Bc|d2d2::
+P:5
+ a2        af| gfed        | a2        ag|f2e2 |\
+ a2        af| gfef        | A2        Bc|d2d2::
+(B/A/B/c/) Bd|(A/G/A/B/) Ad|(B/A/B/c/) Bd|BAGF |\
+(B/A/B/c/) Bd|(A/G/A/B/) Ad| A2        Bc|d2d2:|
+S:https://www.folktunefinder.com/tunes/30926
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 50
+T: 4. Mickie Ainsworth
+C: Ronnie Cooper
+Z: John Chambers
+M: C|
+L: 1/8
+% Q: 440
+K: D
+|: FG |\
+"D" ABAF Adcd | "G" B2BA BdcB | "D" ABde "Bm" fedf | "E7" e2E2 "A7" E2 FG  |
+"D" ABAF Adcd | "G" Bggf gBdg | "D" fAdf "A7" eAce | "D" d2d2      d2     :|
+|: cd |\
+"A7" ea^ga e=gfe | "D" d2fd adfd | "G" gfeg "D" f2df | "Em" efed "A7" B2dB |
+"D" ABAF  Adcd  | "G" Bggf gBdg | "D" fAdf "A7" eAce | "D" d2d2      d2   :|
+%%newpage
+%%textfont Times-Roman 8
+%%text November 2005 Dance page 28 of 31
+%%textfont Times-Roman 22
+% ---------------------------------------------------------
+%%center Waltz Set
+% ---------------------------------------------------------
+%%textfont Times-Roman 10
+%%center 3x32    1 2 3 1
+S:https://www.folktunefinder.com/tunes/40153
+S:http://home.teleport.com/~syslabs/dance/Nov_2005_Dance_v2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

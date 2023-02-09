@@ -1,0 +1,14 @@
+X: 2243
+T: Aziz
+R: reel
+M: 4/4
+K: Dminor
+[V:T1] "D7" .d2 (a4b2)|(T1a2 g2) (^f2 g2)|a2 bc' (T1b2a2)|ag^fg a2|
+[V:T2] z8|z8|z8|z8|
+[V:T1] "Eb" .d2 (g4 a2)|(T1g2 ^f2) .e2 .f2|g2 ab (T1a2 g2)|g^fef g2z2:|
+[V:T2] z8|z8|z8|z8:|
+[V:T1]|:b3 a .b2 c'|z8|a3 g .a2 b2|z8:|
+[V:T2]|:z8|z2 B2 A2 G2|z8|z2 A2 G2 ^F2:|
+[V:T1] "D7"((3 g2 ^f2 g2) ((3 b2 a2 b2)|((3 b2 a2 b2) ((3 c'2 b2 c'2)|1 (d'8|d'8):|2 (d'8|d'8)||
+[V:T2] z8|z8|1 z8|z8:|2 d3 c B2 A2|G2 ^F2 E2 D2||
+

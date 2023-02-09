@@ -1,0 +1,24 @@
+X: 1
+T: Comrade Finley's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:Bc|dedB cAFA|GDB,D GBdB|cdeg fed^c|dfe^c d2 B=c|
+dedB cAFA|GDB,D GBAG|(3EFG AB cdeg|fdcA G2:|
+|:Bc|dgfa gece|dedB cAFA|DEFG ABcA|GBAF G2 Bc|
+dgfa gece|dedB cAFD|(3EFG AB cdeg|fdcA G2:|
+|:EF|GDB,D G,B,DF|GDB,D G,B,DB|cAFA DFAB|cAFA dedF|
+GDB,D G,B,DF|GBAF GEDG|(3EFG AB cdeg|fdcA G2:|
+S:https://www.folktunefinder.com/tunes/149254
+S:http://www.thesession.org/tunes/display/6586
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

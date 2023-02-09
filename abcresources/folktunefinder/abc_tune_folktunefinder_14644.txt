@@ -1,0 +1,27 @@
+X: 1
+T: Miller of Stralloch
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"A>BA AFA | "D"d2e "G"g2f | "A7"eA AGF | "Em"G3 "A7"GFG \
+| "D"A>BA AFA | "D"d2e "G"g2f | "A7"eA ABc | "D"d3- d2 :|
+|: e \
+| "D"f2f "Bm"def | "Em"g2f "A7"eag | "D"f2d A2F | "Em"G3 "A7"GFG \
+| "D"A>BA AFA | "D"d2e "G"g2f | "A7"eA ABc | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/14644
+S:http://trillian.mit.edu/~jc/music/abc/jig/MillerOfStralloch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MillerOfStralloch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/jig/MillerOfStralloch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MillerOfStralloch.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

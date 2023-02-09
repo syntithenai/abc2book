@@ -1,0 +1,19 @@
+X: 1
+T: the Harbour
+C: Bert Murray
+M: C|
+L: 1/8
+K: D
+|: A2 | "D"d2d2 fedc | d2d2 "A7"A2Bc | "D"dcde "Bm"fagf | "Em"f2e2 "A7"egfe | "D"d2d2 "A"fedc |
+| "G"dcdB "D"A2dc | "G"BGBd "A7"ceag | "D"f2"(G)"d2 "D"d2 :: fg | "D"a2af d2fa | "Em"b2bg "A7"e2fg |
+| "D"abaf "Bm"dfaf | "Em"g2e2 "A7"e2fg | "D"agfe dcBA | "G"B2dB "D"A2dc | "G"BGBd "A7"ceag | "D"f2"(G)"d2 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/17321
+S:http://trillian.mit.edu/~jc/music/abc/reel/Harbour_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/Harbour_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

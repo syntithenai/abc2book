@@ -1,0 +1,27 @@
+X:12
+% The song with calculated Accords
+T:Goudsche Pijpendans
+O:vlaanderen
+C:Trad.
+Z:Bart Vanhaverbeke 
+P: AB AB AC AC AB AB AB
+L:1/8
+M:6/8
+K:D
+P:A
+"D"f>ga a>gf | "A"e2 c d2 e | "D"f2 e d2 e | "D"f>ga d3 | "D"f>ga a>gf | "A"e>fd c>BA | "G"B>cd e>dc | "D"d3 D3 :|
+P:B
+"G"B2 B e2 e | "A"c2 e A3 | "A"e2 e a2 g | "D"f>ga d3 | "A"e2 f g2 f | "A"e2 d c2 A | "G"B>cd e>dc | "D"d3 D3 :|
+P:C
+"D"a | "D"f3 d2 a | "D"f3 d3 | "G"B>cB B>cd | "A"efd cBA | "A"ede efg | "D"aga bag | "D"fed e>dc | "D"d3 D2 :|
+S:https://www.folktunefinder.com/tunes/40597
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/vlaanderen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/vlaanderen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

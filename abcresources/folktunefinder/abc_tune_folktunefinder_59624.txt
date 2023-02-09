@@ -1,0 +1,29 @@
+X:737
+T:Villaviciosa Hermosa
+R:Saltn
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Les cuarenta principales
+M:2/4
+L:1/8
+Q:1/4=134
+K:C
+|: G2 AB|c2 cd|B3 c|A2 AB|[1 G4 :|[2 G3 A|
+|F2 FG|E4|A2 AB|G2 GA|F2 FG|E4|A2 AB|G2 GG|G2 AB|c4|
+|E>F GA|A>G EG|G>F DA|A>G G2|
+|E>F GA|A>G EG|GF DF|E4|
+|E>F GA|A>G EG|G>F DA|A>G G2|
+|E>F GA|AG EG|GG AB|c4-|c z3|
+S:https://www.folktunefinder.com/tunes/59624
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Saltn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

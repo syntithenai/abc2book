@@ -1,0 +1,23 @@
+X:65
+T:Roaring Mary
+C:Trad.
+D:"Cooley", track 9c
+M:4/4
+R:reel
+K:D
+|:D~F3 A~F3|defa ~g2fe|d3B AFAB|defd e2Bc|
+D~F3 A~F3|defa g2fe|dcdB ABdf|afeg fd d2:|
+|:abag fgfe|dedB BAFA|e~g3 b~g3|a~f3 gee2|
+D~F3 A~F3|defa ~g2fe|d3B ABdf|afeg fd d2:|
+S:https://www.folktunefinder.com/tunes/139903
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cooley/cooley_cd.abc
+S:http://www2.redhawk.org:8080/irish/cooley/cooley_cd.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 78
+T: Neun D\"orfer
+R: zwiefacher
+M: 32/44
+L: 1/8
+K: F
+|:"F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | [c2A2] [A2F2] | F2 [A2F2] |
+| "F"[c3A3] [cA] [c2A2] | [c2A2] [A2F2] [F2C2] \
+| "C7"[E2C2] [G2E2] | [c2B2] [B2E2] | [E2C2] [G2E2] \
+|  [c3E3] [cE] [c2E2] | [c2E2] [B2E2] [G2E2] \
+| "F"F2 [A2F2] | "C7"[c2E2] [E2C2] | "F"[F2] z2 z2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/5125
+S:http://trillian.mit.edu/~jc/music/abc/Germany/Zwiefach.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

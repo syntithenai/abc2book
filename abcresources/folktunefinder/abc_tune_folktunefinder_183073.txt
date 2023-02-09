@@ -1,0 +1,32 @@
+X:1
+T:Polka  Malys
+C:Composition et tablature : Bernard Loffet
+L:1/8
+Q:250
+M:2/4
+K:G
+|: [dG,,][d/G,/]d/ [eC,,]C, | [d/G,,/]e/[d/G,/]B/ [G/G,,/]A/[B/G,/]G/ | [AA,,][A/A,/]B/ [cA,,][AA,] | \
+ [d/D,,/]c/[d/D,/]e/ [dD,,]D, | [dG,,][d/G,/]d/ [eC,,]C, | [d/G,,/]e/[d/G,/]B/ [G/G,,/]A/[B/G,/]G/ | \
+ [A/A,,/]B/[c/A,/]A/ [B/A,,/]c/[d/A,/]e/ | [f/D,,/]d/[e/D,/]f/ [gG,,]G, :|: [eC,,][e/C,/]e/ [gC,,][eC,] | \
+ [d/G,,/]g/[B/G,/]d/ [GG,,]G, | [AA,,][A/A,/]B/ [cA,,][AA,] | [d/D,,/]c/[d/D,/]e/ [dD,,]D, | \
+ [eC,,][e/C,/]e/ [gC,,][eC,] | [d/G,,/]g/[B/G,/]d/ [GG,,]G, | [AA,,][A/A,/]B/ [c/A,,/]c/[d/A,/]e/ | \
+ [dD,,]D, D,,D, :| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/183073
+S:http://diato.ifrance.com/diato/tablat/77.abc
+S:http://diato.ifrance.com/tablat/77.abc
+S:http://diato.org/tablat/77.abc
+S:http://perso.orange.fr/diato/tablat/77.abc
+S:http://perso.wanadoo.fr/diato/tablat/77.abc
+S:http://pro.wanadoo.fr/diato/tablat/77.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/77.abc
+S:http://www.diatonique.net/tablat/77.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

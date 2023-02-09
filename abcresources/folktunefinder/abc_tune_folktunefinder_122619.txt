@@ -1,0 +1,27 @@
+X: 8
+T:Margaret's Waltz
+R:Waltz
+C:Pat Shaw
+N:D.C. at end.
+M:3/4
+L:1/8
+K:A
+c2|:E3 F AB|c4c2|BA F2A2|B4 c2|
+E3 F AB|c3 d e2|c4B2|1 A4c2:|2 A4 cd||
+e2 f2 g2| a2 g2 a2|fe d2f2|e3 d cB|
+A3 B cd|e4e2|cB A2c2|B4 cd|
+eA fA gA| aA gA fA|e2 d2 c2|B4 c2|
+E3 F AB|c3 d e2|c4B2|A4||
+S:https://www.folktunefinder.com/tunes/122619
+S:http://www.alfwarnock.info/alfs/abc/alfwaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gregdahms.ca/MargaretsWaltzA.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

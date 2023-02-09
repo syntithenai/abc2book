@@ -1,0 +1,26 @@
+X: 53
+T:Cart Tracks
+% Nottingham Music Database
+S:Chris Dewhurst (1979), via PR
+M:4/4
+L:1/4
+K:G
+"(D7)"Bc |"G"d2 c3/2B/2|"Am"c"D"d2c|"G"B2 d2|"G7"cB AG|"C"E2 G3/2E/2|\
+"G"DE "Em"FG|"Am"A4-|"D"AA Bc|
+"G"d2 c3/2B/2|"Am"c"D"d2c|"G"B2 d2|"G"D3/2E/2 GB|"Am"dc2B|"D"dc2A|\
+"G"G2 "C"G3/2G/2|"G"G2 Bd||
+"C"e2 "Am"e3/2e/2|"D"ef2e|"G"d2 d2|"Em"de2d|"Am"ce "D"dc|"G"B"A7"A2G|\
+"D"A2 -"Am"A2|"D"Ad ef|
+"G"g4|=f4|"C"eg G_B-|"Cm"_BA2G|"G""b"d2 "Em"c3/2B/2|"Am"c"D"d2B|\
+"G"G2 -"C"G2|"G"G2 ||
+S:https://www.folktunefinder.com/tunes/43508
+S:http://abc.sourceforge.net/NMD/nmd/reelsa-c.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

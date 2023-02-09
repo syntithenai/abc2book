@@ -1,0 +1,10 @@
+X: 23339
+T: Leipzig, The
+R: jig
+M: 6/8
+K: Dmixolydian
+|:ADD ~F2D|CA,B, CB,A,|D2A AFD|CDE GBG|
+ADD ~F2D|CA,B, CB,A,|DFA GEC|1 A,B,C Ddc:|2 A,B,C D2A||
+|:AdB {d}cBc|~E3 edc|AdB {d}cBc|edc edc|
+AdB {d}cBc|E/F/Gc BAG|A^GA DFA|1 GEC D2A:|2 GEC Ddc||
+

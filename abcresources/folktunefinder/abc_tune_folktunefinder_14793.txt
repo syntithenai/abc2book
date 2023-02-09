@@ -1,0 +1,25 @@
+X: 1
+T: OFF SHE GOES
+R: jig
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+B: "Rinnci na h-\'Eireann" Elizabeth Burchenal, ed. G.Schirmer (1925) p.42
+M: 6/8
+L: 1/8
+Q: 3/8=126
+K: D
+|: "D"F2A "G"G2B | "D"ABc d3 | "D"F2A "G"G2B | "D"AFD "A"E3 \
+   "D"F2A "G"G2B | "D"ABc d3 | "D"f2d "G"g2f | "A"edc "D"d3 :|
+|: "D"faf d2f | "Em"gbg e2g | "D"faf d2f | "A"ecA A2z \
+   "D"faf d2f | "Em"gbg e2g | "D"f2d "G"g2f | "A"edc "D"d3 :|
+S:https://www.folktunefinder.com/tunes/14793
+S:http://trillian.mit.edu/~jc/music/abc/jig/OffSheGoes_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/OffSheGoes_D.abc
+S:http://trillian.mit.edu/~jc/music/book/Rinnci_na_hEireann/OffSheGoes_D.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

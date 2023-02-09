@@ -1,0 +1,41 @@
+X:1
+T:3LF Fun Stuff Book
+T:(Happy Playing)
+W:
+W:http://www.mindspring.com/~dmilewski/ecdp/
+%%center Version 2.0
+%%center October, 2001
+K:G
+M:4/4
+| DEFG | ABcd | efga | agfe | dcBA | GFED |]
+%
+%
+%
+%
+H:Version 1.9
+H:- Finished checking additional Playford Titles
+H:- Split the tunebook apart.
+%
+%
+%%newpage
+%%topmargin 1.2 in
+%%bottommargin 1.0 in
+%%titlefont Times-Roman 24
+%%composerspace 0
+%%partsspace 0
+%%writehistory 1
+%%scale 0.7
+%%maxshrink 1
+%
+%
+S:https://www.folktunefinder.com/tunes/49280
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lffun.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

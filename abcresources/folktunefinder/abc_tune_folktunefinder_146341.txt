@@ -1,0 +1,23 @@
+X: 1
+T:Captain White
+P:AAB
+S:Kevin Briggs, via EF
+M:6/8
+K:D
+P:A
+A|"D"DFA d2f|"A"edc "G"B2d|"D"A2d F2B|"Em"AGF "A7"E2A|
+"D"DFA d2f|"A"edc "G"B2d|"D"A2d "Bm"F2B|"A7"ABc "D"d2:|
+P:B
+f|"A"e^de A2f|"A"e^de a2f|"Bm"efe "E7"dcB|"A"A2B "E7"c2f|"A"e^de A2f|
+"A"e^de a2f|"Bm"efe "E7"dcB|"A7"ABA GFE|"D"D2f fef|"D"d2A A^GA|
+"D"D2f fef|"G"gfe "A7"ecA|"D"D2f fef|"D"d2A A^GA|"Em"Bed "A7"cBc|"D"d3 -d2||
+S:https://www.folktunefinder.com/tunes/146341
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Captain_White_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Captain_White_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

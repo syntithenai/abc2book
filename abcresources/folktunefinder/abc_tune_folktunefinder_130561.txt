@@ -1,0 +1,33 @@
+X:20
+T:Derrire chez nous
+R:Bourre
+N:tagafolk.abc
+D:Voir Maluzerne
+O:France
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=140
+K:G
+A2AG | A3 B| c>BAG | A2 EF | G2GF | G3 A | B>AGF |1 E4 :|2 E3 A |:
+K:C
+c2 f2 | e3 d | B>d cB | c2 (3B/2c/2B/2 A |
+c2 f2 | e3 d | B>d cB |1 A3 A :|2 A4 |]
+W:Derrire chez nous, il y a une montagne
+W:Moi et mon amant [ma matresse] la montons bien souvent
+W:En la montant grands dieux qu'il y a de peines
+W:En descendant quel soulagement !
+S:https://www.folktunefinder.com/tunes/130561
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

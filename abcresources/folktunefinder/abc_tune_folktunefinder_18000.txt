@@ -1,0 +1,27 @@
+X:1
+T:Reel sans nom
+O:Qubec
+S:Dominique Renaudin <domren:free.fr> QueTrad 2002-11-12
+R:reel
+M:4/4
+L:1/8
+K:D
+de | fd ec dA FA | GA BG E2 ed | c2 B2 Ac ec |
+de fd A2 de | fd ec dA FA | GA BG E2 ed | c2 B2 Ac ec |
+df ec d2 :: AG | FA DA FA DF | G2 FG BB AG |
+F2 DA FF DF | E2 CE GE CE | FA DA FA DF | G2 FG BB AG |
+Fc ef ge ce | df ec d2 :|
+S:https://www.folktunefinder.com/tunes/18000
+S:http://trillian.mit.edu/~jc/music/abc/reel/ReelSansNom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/ReelSansNom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/ReelSansNom_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ReelSansNom_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

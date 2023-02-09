@@ -1,0 +1,22 @@
+X: 1
+T: Deck the Halls
+R: march, reel
+M: 4/4
+L: 1/8
+K: C
+|:  "C"g3f "(G)"e2d2 | "(Am)"c2d2   e2c2 | "G7"defd  "C"e3d   | "G7"c2B2 "C"c2 :|
+[| "G7"d3e      f2d2 |  "C"  e3f "G"g2d2 | "C"e^fg2 "Am"abc'2 | "D7"b2a2 "G"g4 ||
+||  "C"g3f "(G)"e2d2 | "(Am)"c2d2   e2c2 | "F"aaaa   "C"g3f   | "G7"e2d2 "C"c2 |]
+S:https://www.folktunefinder.com/tunes/20365
+S:http://trillian.mit.edu/~jc/music/abc/xmas/DeckTheHalls_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/DeckTheHalls_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/xmas/DeckTheHalls_C.abc
+% Rhythm March, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

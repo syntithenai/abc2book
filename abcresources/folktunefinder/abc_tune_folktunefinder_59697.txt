@@ -1,0 +1,36 @@
+X:810
+T:Xiraldilla (CT 232)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Caldones, ayuntamiento de Xixn
+A:Asturies
+O:Caldones (Xixn)
+Z:Cancioneru de Torner 232
+M:3/8
+L:1/8
+Q:3/8=88
+K:G
+|GGG|GcB|d2 c-|c3|Bdd|ccc|(B>A)G-|G3|
+GGG|GcB|d2 c-|c3|Bdd|ccc|(B>A)G|
+BBB|(A>G)F|GGG|G3|
+BBB|(A>G)F|GGG|G3||
+W:Dame la mano, morena,
+W:que me marcho pa L'Habana;
+W:ningn amor en el mundo
+W:con el mo se compara.
+W:Yo la mi mano te la dar
+W:y si me olvidas, te olvidar.
+W:
+S:https://www.folktunefinder.com/tunes/59697
+S:http://www.geocities.com/titoasturies/MusAst.txt
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

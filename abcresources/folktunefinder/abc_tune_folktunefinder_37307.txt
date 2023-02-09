@@ -1,0 +1,26 @@
+X:6140
+T:Snderhoning IV
+A:Fan
+L:1/8
+M:2/4
+O:Denmark
+Q:1/4=92
+R:Snderhoning
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b33.html
+%%ID:00000b33
+K:G
+G|\
+B>G AF| G2 GG/A/| B>G AF| GD DD|\
+BB (3AGF| G2 GG/A/| BG AF| G2 Gz||
+AB (3ccd| dc cA| (3BBB Bd| dc cA|\
+BG AF| GG G2| (3ABc [A2D2]| (3DEF [G2B,2]|]
+S:https://www.folktunefinder.com/tunes/37307
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Snderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,14 @@
+X: 15678
+T: Gold Ring, The
+R: jig
+M: 6/8
+K: Dmajor
+A,~A,2 DFA|d~d2 ecA|B~B2 AFD|EDE FDB,|
+A,~A,2 DFA|dfd ecA|(3Bcd B AFA|1 Bdc dA,B,:|2 Bdc d2 B||
+AFA dfa|bgb afd|g~g2 f~f2|ede fdB|
+A~A2 dfa|bgb afd|(3Bcd B AFA|1 Bdc d2 B:|2 Bdc dfe||
+dAF AFE|DB,A, DFA|d~d2 ede|fdB BAF|
+dAF AFE|DB,A, DFA|dcd ede|1 fdc dfe:|2 fdc d2 B||
+A~A2 d~d2|BAB dAF|DEF EDE|FDB, B, dB|
+A~A2 d~d2|BAB dAF|DEF EDE|1 FDC D2 B:|2 FDC D2B,||
+

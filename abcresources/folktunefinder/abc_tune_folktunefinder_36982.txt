@@ -1,0 +1,32 @@
+X:4515
+T:Pols
+A:Rros
+C:e. Bengt Jakobsson
+M:3/4
+N:Danish concert pianist who moved to Norway to study beavers and became
+N:a ski-jumper.  Now plays accordion, leads Rros spelmanslag
+N:In point of fact, the recording this comes from has slight, but
+N: consistent, differences of rhythm and ornament between the 1st time
+N: through the A music and the repeat, this is a combination of the 2.
+O:Norway
+R:Pols
+Z:Carol Turner
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000eea.html
+%%ID:00000eea
+K:A
+e|\
+a2 ae c>e | f2 fe d>d | d<c c>A B>B | B<c c3e |
+a2 ae c>e | f2 fe d>d | d<c c>A B>B | B/c/B A3 ::
+E|\
+EA A>G G>G | G<F FE E>C | A,<C D2 F>F | F2 E3 E |
+EA A>G G>G | GF FE E>C | A,<C D2 F>F | F2 E3 :|
+S:https://www.folktunefinder.com/tunes/36982
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

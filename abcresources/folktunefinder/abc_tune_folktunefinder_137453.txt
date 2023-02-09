@@ -1,0 +1,32 @@
+X:90
+T:Johnny Cope
+M:4/4
+L:1/8
+Q:120
+C:Traditional
+K:G
+(3EFG |A2 AB A2 Bd |efed B2 AG |EGGF GABc |
+dBGA BAGB |A2 AB A2 Bd |efed B2 d2 |(3efg fa gedB |
+BAAG A2 AB||cBcd c2 G2 |cdef gedB |cBAc e2 ed |
+cdec dBGB |cBcd c2 G2 |cdef ge d2 |eaag eged |
+(3cBA AG A2 AB ||cBcB ABAG |ABcd egdc |BG G2 dG G2 |
+cdec dBGB |cBcB ABAG |ABcd eg d2 |eaag eged |
+(3cBA AG A2 Bd |:e2 a2 a2 ga |b2 ba g3 d |eggf gaba |
+gabg aged |e2 a2 a2 ga |b3 a g3 e |d2 ef gedB |1
+BAAG A2 Bd :|2BAAG A2 cd ||e2 e2 fe d2 |eaaf fedB |
+d2 de dBAB |d2 fd edBd |e2 e2 fe d2 |eaaf fedB |
+ABdf efdB |BAAG A2 (3efg ||a2 e2 efge |a2 e2 e2 ag |
+f2 d2 dcde |f2 d2 d2 fg |a2 e2 fe d2 |eaaf gedB |
+ABdf efdB |BAAG A2 z2 ||
+%  ABC2Win Version 2.1 22/06/2002
+S:https://www.folktunefinder.com/tunes/137453
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

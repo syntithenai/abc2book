@@ -1,0 +1,26 @@
+X: 1
+T: Hogmanay Jig
+C: Andrew Rankine
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+S: Dance Leaflet
+S: handwritten MS by Barbara McOwen
+M: 6/8
+L: 1/8
+K: A
+AB \
+| "A"c2c cdc | B2A A2B | c2c "F#m"cBA | "Bm"G2F "B/D#"F3 | "E7"G2G GAG | F2E E2F |1 "E7"EGB e^de |
+| "A"=d2c c :|2 "E7"EGB dcB | "A"A3 A2B |: "A"c2c "E/G"B2B | "F#m"A2A "E"G2G | "D"F2F "B/D#"FEF | "E"G3 GEG |
+| "D"d2d "A"c2c |1 "E/G"B2B "F#m"A2A | "E"GAG "D"FGF | "A/C"E3 "E7"ECE :|2 "Bm"BcB "B7"AGF | "E7"EGB dcB | "A"A3 |]
+S:https://www.folktunefinder.com/tunes/14322
+S:http://trillian.mit.edu/~jc/music/abc/jig/HogmanayJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/jig/HogmanayJig2_A3.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Andrew_Rankine/HogmanayJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HogmanayJig2_A3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1
+T:Bouree a six de Briantes
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d3e | c2 A2 | d3/2c/2 BA | G3/2A/2 Bc |\
+d3e | c2 A2 | d3/2c/2 BA | G4 :|
+|:\
+A3/2B/2 cA | dB G2 | A3/2B/2 cA | GE FD |\
+A3/2B/2 cA | dB G2 | A3/2B/2 AF | G4 :|
+S:https://www.folktunefinder.com/tunes/142121
+S:http://simonwascher.info/TradArchiv_bourree_2/bouree_a_six_de_briantes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

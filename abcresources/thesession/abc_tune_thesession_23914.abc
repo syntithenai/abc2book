@@ -1,0 +1,19 @@
+X: 23913
+T: Loch Maree
+R: waltz
+M: 3/4
+K: Amajor
+{d}ce|A2 {B}A>c Ac|{f}e2 e2 {d}ce|{fg}f2 A>d fa|{fg}f2 e2 {d}ce|
+[1 A2 {B}A>c Ac|{f}e2 e2 {d}ce|{fg}f2 A>c({f}e>c)|c2 B3:|
+[2 {fg}f2 A2 Bc|{f}e2A2 A>B|{B}c2 A>c({f}e>c)|{Bd}B2 A2||
+|:{d}ce|{b}a2 af a>f|{f}e2e2 {d}ce|{fg}f2 {f}ec {b}a>f|{g}f2e2 {d}ce|
+[1 {b}a2 af a>f|{f}e2e2 {d}ce|{fg}f2 A>c({f}e>c)|c2B2:|
+[2 {fg}f2 A2 Bc|{f}e2A2 A>B|{d}c2 A>c({f}e>c)|B2 A2||
+P:"Seconds for Loch Maree"
+ce|A2 A>c cA|c2 c2 Ac|d2 A>B df|d2c2 ce|
+[1 A2 A>c cA|c2c2 Ac|d2c2 cA|c2 B2:|
+[2 d2c2 BA|c2e2 c>B|A2c2 c>A|B2A2||
+|:ce|f2 fd f>d|c2 c2 Ac|d2 cA f>d|d2c2 ce|
+[1 f2 fd f>d|c2 c2 Ac|d2c2 cA|c2B2:|
+[2 d2 c2 BA|c2e2 c>B|A2c2 c>A|B2A2||
+

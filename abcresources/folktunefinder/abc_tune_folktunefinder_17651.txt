@@ -1,0 +1,29 @@
+X: 1
+T: the Merry Lads of Ayr
+C: John Riddell
+B: RSCDS 1-12
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+|: f \
+| "C"edcB cGGf | edce "F"f2"G"gf | "C"edcB cGGc | "F"A/B/c "C"GE "G7"D2 D :|
+|: d \
+| "C"c2ga "(G)"gede | "C"ccga "(G)"g2ed | "C"cega gece | "F"fa"C"ge "G"d3 :|
+S:https://www.folktunefinder.com/tunes/17651
+S:http://trillian.mit.edu/~jc/music/abc/reel/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Riddell/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/MerryLadsOfAyrR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MerryLadsOfAyrR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

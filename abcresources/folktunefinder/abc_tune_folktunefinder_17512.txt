@@ -1,0 +1,39 @@
+X: 1
+T: Lady Catherine Ogle
+R: reel
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: printed MS with "Celt's New Dance" handwritten
+M: C|
+L: 1/8
+K: Gm
+G \
+| "Gm"D2G2 G3A \
+| B2G2 G3c \
+| "F"c3d cAGF \
+| F3G A3G/F/ \
+| "Gm"D2G2 G3A |
+| B2G2 G2f2 \
+| "Dm"d2cd fdcA \
+| "Gm"G4 B3 \
+:: A \
+| "Bb"Bcde fedc \
+| "C7"Bcd=e "F"f3c |
+| A2f2 cAGF \
+| F3G A3G/A/ \
+| "Gm"B2G2 G3A \
+| B2G2 f3g \
+| "F"agfd cdcA \
+| "Gm"G4 B3 :|
+S:https://www.folktunefinder.com/tunes/17512
+S:http://trillian.mit.edu/~jc/music/abc/reel/LadyCatherineOgle_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/LadyCatherineOgle_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:15
+T:Fjallnas (Hambo)
+R:polska O
+M:3/4
+L:1/8
+K:D
+P:A
+|:"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 f>d A<F| 
+"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 d4 :|
+P:B
+|: "D"A2 F>A d>c | "G"B2 B>A G2 | "A"e2 e>d (3cBc | "D"d2 f>d A<F| 
+"D"A2 F>A d>c | "G"B2 B>A G2 | "A"e2 e>d (3cBc | "D"d2 d4 :|
+P:C
+|: "D"f2 f>e d>c | "G"B2 B>A G2 | "A"e2 e>d c>B | "D"A2 A>G "A"(3FDE| 
+"D"D2 D>F E<C | D2 F>A d2 | "A"e2 e>d (3cBc | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/97225
+S:http://www.thursdaycontra.com/~spuds/tunes/couple/allother.abc
+% Rhythm Polska o
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

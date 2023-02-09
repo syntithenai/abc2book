@@ -1,0 +1,12 @@
+X: 30287
+T: Old Maids Of Galway, The
+R: reel
+M: 4/4
+K: Eminor
+V:RH clef=treble staves=2 brace=2
+V:LH clef=treble
+[V:RH]|eBdB e2 dB|A2 GA BA A2|1 eBdB e2dB|A2 GA BGG2:|2 GB~B2 GBdB|A2 GA BG G2|
+[V:LH]|EB,DB, E2 DB,|A,2 G,A, B,A, A,2|1 EB,DB, E2DB,|A,2 G,A, B,G,G,2:|2 G,B,~B,2 G,B,DB,|A,2 G,A, B,G, G,2|
+[V:RH]g2 fg egd2|g2 fg eaa2|1 g2 fg e2dB|A2 GA BG G2:|2 gbag e2dB|A2 GA BG G2|
+[V:LH]G2 FG EGD2|G2 FG EAA2|1 G2 FG E2DB,|A,2 G,A, B,G, G,2:|2 GBAG E2DB,|A,2 G,A, B,G, G,2|
+

@@ -1,0 +1,36 @@
+X:1
+T:The Baker with the Ten Pound Fiddle
+R:reel
+S:John Doherty
+S: Nigel Gatherer <gatherer@argonet.co.uk> scots-l 2002-11-4
+N:Appears to be a combination of two James Scott Skinner tunes:
+N:"The Baker" and "The Ten Pound Fiddle" (thus the silly name, for want
+N:of a better).
+Z:Larry Sanger from a tape of a tape of a tape...of John Doherty.  He
+Z:just played it twice through, so this is more or less what he played.
+Z:The second and fourth parts below are identical; it might just be a
+Z:two-part reel with the second time through being a variation, but it
+Z:sounds good as a four-part reel too.  Yes, he played the second and
+Z:fourth parts for sixteen bars, the first and third parts for eight
+Z:bars.
+M:4/4
+K:A
+[E3c3]B|:A/A/A ED CEAc|eAce fdBG|A/A/A {F}EC DFBA|
+|1 GBeg aAAE:|2 GBeg aAAg||:aAga fedc|dFBA GABg|aAga fdfa|ecdB cAAg|
+aAga fedc|dFBA GBed|cA{F}ED CEAc|1 dfBg aAAg:|2 dfBg aAAd||
+cA (3FED CEAc|dFBA GBed|cA (3FED CEAc|1 dfBg aAAd:|2 dfBg aAAg||
+|:aAga fedc|dFBA GABg|aAga fdfa|ecdB cAAg|aAga fedc|
+dFBA GBed|cA{F}ED CEAc|1 dfBg aAAg:|2 dfBg aAAd||
+S:https://www.folktunefinder.com/tunes/6276
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/BakerWithTheTenPoundFiddle_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/BakerWithTheTenPoundFiddle_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/BakerWithTheTenPoundFiddle_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

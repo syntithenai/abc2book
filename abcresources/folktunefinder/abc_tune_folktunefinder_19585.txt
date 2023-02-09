@@ -1,0 +1,31 @@
+X: 1
+T: Mrs. Colonel Sinclair of Forss
+C: D. Grant
+R: strathspey
+B: RSCDS 15-__
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+D2 \
+|:"D"A,3D F3A "Bm"dcBA F4 | "D"Ad3 d3f "G"gfed B2d2 \
+| "D/F#"Ad3 F3A "G"BABc d3B |1 "D/F#"AF3 D3F "Em"GFED "G"B,4 :|2 "Bm"AF3 F3D "A7"E4 "D"D2 |]
+A2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed B4 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "A7"e4 "D"d4 |
+y2 \
+| "D"defg a3f "G"b3f "D/F#"a3f | "Em"g3e "D"f3d "G"gfed Bd3 \
+| "D/F#"Ad3 F3A "G"BABc d3B |  "Bm"AF3 F3D "A7"E4 "D"D2 |]
+S:https://www.folktunefinder.com/tunes/19585
+S:http://trillian.mit.edu/~jc/music/abc/strathspey/MrsColonelSinclairOfForss_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/MrsColonelSinclairOfForss_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MrsColonelSinclairOfForss_D.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

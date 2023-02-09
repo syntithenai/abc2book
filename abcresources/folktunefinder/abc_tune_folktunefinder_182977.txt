@@ -1,0 +1,41 @@
+X:1
+T:Polka 33.
+C:traditionell
+R:polka
+A:Gruenbach bei Freistadt. Muehlviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:August Schwarz, Oberoesterreichisches Volkslied-Archiv MVII 2
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+A |\
+fA dF | AG G/F/G | ge cA | ed d/c/d |
+fA dF | AG G/F/G | ge cA | dd "Fine"d :|
+|: B |\
+Ac eg | ff/g/ a2 | ab/a/ ge | d/f/g/f/ dd |
+Ac eg | ff/g/ a2 | ab/a/ ge | dd "Dacapo"d :|
+K:G
+P:Trio
+|: z |\
+dB dB | dc c2 | gf fe | ed d2 |
+dB dB | dc c2 | gf ef | gb "Fine"g :|
+K:D
+|: A |\
+Ad/e/ ff | f/g/f ce | g/b/b ce | f/a/a d2 |
+Ad/e/ ff | f/g/f ce | g/b/b ce | dd' "Dacapo"d' :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182977
+S:http://simonwascher.info/TradArchiv_polka/polka_33.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

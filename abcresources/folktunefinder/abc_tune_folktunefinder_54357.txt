@@ -1,0 +1,27 @@
+X: 374
+T: Zikino Kolo
+O: Serbia
+M: 3/4
+L: 1/8
+K: G
+%%MIDI drum d2d2d2 37 35 35 70 50 50
+%%MIDI drumon
+|:GB d2 d2|de d^cd2|de d=cBA|BABA G2 :|
+K:Dm
+|:A2F2F2  |FEDEF2  |A2F2F2  |FE D4   |
+  A2F2F2  |FEDEFD  |E4A2    |E6      :|
+K:Em
+  EF G2G2 |G2F2z2  |EF G2G2 |G2F2z2  |
+  EF G2G2 |G2F2z2  |E4A2    |E6      :|
+S:https://www.folktunefinder.com/tunes/54357
+S:http://ifdo.ca/~seymour/runabc/balk2.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

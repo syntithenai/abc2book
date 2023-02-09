@@ -1,0 +1,25 @@
+X: 3984
+T: Blacksmith's, The
+R: reel
+M: 4/4
+K: Dmajor
+AF F2 AFDF|AF F2 EFGE|AF F2 AFDF|GEFD EFGE|
+AF F2 AFDF|AF F2 EFGE|AF F2 AFDF|GEFD EFGE||
+D2 FD ADFD|D2 FA GEcE|D2 FD ADFD|GEFD EFGE|
+D2 FD ADFD|D2 FA GEcE|D2 FD FADF|GEFD EFGE||
+K:Gmaj
+dB B2 dBGB|dB B2 ABcA|dB B2 dBGB|cABG ABcA|
+dB B2 dBGB|dB B2 ABcA|dB B2 dBGB|cABG ABcA||
+G2 BG DGBG|G2 Bd cAFA|G2 BG DGBG|cABG ABcA|
+G2 BG DGBG|G2 Bd cAFA|GBDG BDGB|cABG ABcA||K:
+K:Amaj
+ec c2 ecAc|ec c2 BcdB|ec c2 ecAc|dBcA BcdB|
+ec c2 ecAc|ec c2 BcdB|ec c2 ecAc|dBcA BcdB||
+A2 cA EAcA|A2 ce dBGB|A2 cA EAcA|dBcA BcdB|
+A2 cA EAcA|A2 ce dBGB|AcEA cEAc|dBcA BcdB||K:
+K:Dmaj
+af f2 afdf|af f2 efge|af f2 afdf|gefd efge|
+af f2 afdf|af f2 efge|af f2 afdf|gefd efge||
+d2 fd Adfd|d2 fa gece|d2 fd Adfd|gefd efge|
+d2 fd Adfd|d2 fa gece|dfAd fAdf|gefd efge||
+

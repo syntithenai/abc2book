@@ -1,0 +1,27 @@
+X: 1
+T: Balgeddie Mains
+C: M.Shoolbraid 1982
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A, \
+|: "D"D2A,2 "A7"FEDB, | "A7"D2E2 "D"F2D2 | "Em"G2E2 "Bm"FEDC | "E7"B,2ED "A7"C2A,2 |
+|  "D"D2A,2 "A7"FEDC | "A7"D2E2 "D"F2D2 | "G"GBAG "Bm"F2ED | "A7"CDEC "D"D2FG :|
+|| "D"A2dc d2A2 | "A7"ecAc "D"d2A2 | "G"BABc "D"dAFD | "Em"EFGA "A7"B2c2 |
+|  "D"d2A2 d2A2 | "A7"cABc "D"d2A2 | "G"BcdB "D"AFED | "A7"CDEC "D"D2FG |
+|  "D"A2dc d2A2 | "A7"ecAc "D"d2A2 | "Em"B2GE "D"A2FD | "Bm"B,CDF "A7"EA,B,C |
+|  "D"D2A,2 "A7"E2A,2 | "G"GABG "D"AFDF | "G"GBAG "A7"F2ED | "A7"CDEC "D"D4 |]
+S:https://www.folktunefinder.com/tunes/16743
+S:http://trillian.mit.edu/~jc/music/abc/reel/BalgeddieMainsR_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/BalgeddieMainsR_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

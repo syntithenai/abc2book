@@ -1,0 +1,72 @@
+X:2427
+T:Pr\'elude
+T:Op. 28 no. 4
+C:Fr\'ed\'eric Chopin
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/chopin-frederic/chopin-op28-4/chopin-op28-4.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:4/4
+L:1/8
+Q:1/4=96
+K:Em
+V:1
+B,>B|B6 c2|B6 c2|B6 c2|B6 _B2|
+V:2
+z2|[EB,G,][EB,G,][EB,G,][EB,G,] [EB,G,][EB,G,][EB,G,][EB,G,]|\
+[EA,F,][EA,F,][EA,F,][EA,F,] [_EA,F,][EA,F,][EA,F,][EA,F,]|\
+[_EA,=F,][EA,F,][EA,F,][EA,F,] [DA,F,][DA,F,][D^G,F,][DG,F,]|\
+[D^G,E,][DG,E,][DG,E,][DG,E,] [D=G,E,][DG,E,][^CG,E,][CG,E,]|
+%
+V:1
+A6 B2|A6 B2|A6 B>A|A6 ^G2-|
+V:2
+[=CG,E,][CG,E,][CG,E,][CG,E,] [C^F,E,][CF,E,][CF,E,][CF,E,]|\
+[CF,E,][CF,E,][CF,E,][CF,E,] [CF,^D,][CF,^D,][CF,^D,][CF,^D,]|\
+[CF,=D,][CF,D,][CF,D,][CF,D,] [CF,D,][CF,D,][CF,D,][CF,D,]|\
+[C=F,D,][CF,D,][CF,D,][CF,D,] [B,F,D,][B,F,D,][B,F,D,][B,F,D,]|
+%
+V:1
+^G2 AB dcEA|F6 A2|F6 {B}A2|GFCB, ^EG(3dcB|
+V:2
+[B,E,C,][B,E,C,][A,E,C,][A,E,C,] [A,E,C,][A,E,C,][A,E,C,][A,E,C,]|\
+[A,E,B,,][A,E,B,,][A,^D,B,,][A,D,B,,] [A,E,C,][A,E,C,][A,E,C,][A,E,C,]|\
+[A,^D,B,,][A,D,B,,][A,D,B,,][A,D,B,,] [A,E,C,][A,E,C,][A,E,C,][A,E,C,]|\
+[A,2^D,2B,,2] z2 z4|
+%
+V:1
+B6 c2|B6 c2|B6 c2|B>^A A2 g2 f>e|
+V:2
+[EB,G,][EB,G,][EB,G,][EB,G,] [EB,G,][EB,G,][EB,G,][EB,G,]|\
+[EA,F,][EA,F,] [EA,F,][EA,F,] [_EA,=F,][EA,F,] [EA,F,][EA,F,]|\
+[_E_A,=F,][EA,F,][EA,F,][EA,F,] [DA,E,][DA,E,][DA,E,][DA,E,]|\
+[DG,E,][DG,E,][^CG,E,][^CG,E,] [^A,E,^C,][A,E,C,][=A,E,C,][A,E,C,]|
+%
+V:1
+e^dc'd degB|=dB(3eE=A ^F3A|F6 {B}A2|F6- F>E|
+V:2
+[B,,B,,,][AFCA,][AFCA,][AFCA,] [F^DB,G,][EB,G,][EB,G,][EB,G,]|\
+[ECA,][ECA,]A,,[CF,E,] [B,E,B,,][B,E,B,,][A,E,C,][A,E,C,]|\
+[B,E,B,,][B,E,B,,][B,E,B,,][B,E,B,,] [A,E,C,][A,E,C,][A,E,C,][A,E,C,]|\
+[B,E,B,,][B,E,B,,][B,E,B,,][B,E,B,,] [B,^D,B,,][B,D,B,,][A,D,B,,][A,D,B,,]|
+%
+V:1
+E6 F2|E6 F2|E4 Hz4|[E4B,4F,4E,4] [^D4B,4F,4^D,4]|H[E8B,8G,8E,8]|]
+V:2
+[G,E,C,][G,E,C,][G,E,C,][G,E,C,] [_B,E,C,][B,E,C,][A,E,C,][A,E,C,]|\
+[A,E,B,,][A,E,B,,][^G,E,B,,][G,E,B,,] [=G,E,B,,][G,E,B,,][G,E,B,,][G,E,B,,]|[G,4C,4_B,,4] Hz4|\
+[=B,,4=B,,,4] [B,,4F,,4B,,,4]|H[E,,8E,,,8]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180503
+S:http://abc.musicaviva.com/tunes/chopin-frederic/chopin-op28-4/chopin-op28-4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/chopin-frederic/chopin-op28-4/chopin-op28-4.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

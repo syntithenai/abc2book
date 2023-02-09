@@ -1,0 +1,23 @@
+X:15091
+T:Scottish \`a Malochet
+R:Schottische
+O:France
+N:variation of 59 (A \& B reversed)
+M:C
+C:Trad.
+K:G
+B2G2A2GA|B2G2D4|DEFG ABcd|1ed^cdB2G2:|2ed^cdG4::\
+B2B2B2AB|dcBcA4|DEFG ABcd|1ed^cdB2G2:|2ed^cdG4||
+S:https://www.folktunefinder.com/tunes/46366
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/s.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/s.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

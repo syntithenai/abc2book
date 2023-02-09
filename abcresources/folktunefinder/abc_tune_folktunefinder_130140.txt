@@ -1,0 +1,35 @@
+X:3
+T:Monea Castle 
+R:slow strathspey
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+N:Performance instruction - RUBATO USED
+N:Jim extends the last emphasized note of each line!
+N:This won't playback unless the abcs are altered.
+H:This plantation castle was built in 1618 by Rev. Malcolm Hamilton on a site some six miles from Enniskillen. Although it was burnt in the 18th century, it remains in a reasonable state of preservation. This composition tries to reflect its sad and somber history.
+L:1/8
+Q:199
+M:C
+K:A
+F|E<CB,{C/B,/}A, C<EE>C|D>EF<A G>A Bc/d/|c>BA>E F<DA>F|E<CA>C B,3 F|
+E<CB,{C/B,/}A, C<EE>C|D>EF<A G>A Bc/d/|c>BA>E F<DA>F|E<CB,>A, A,3||
+||d|c2 c/B/c/d/ ecBA|d2 d/c/B/A/ GA|F<DA>F E<Ca>f|e<cd>e B2 {c/B}A>F|
+E<CB,{C/B,/}A, C<EE>C|D>EF<A G>A Bc/d/|c>BA>E F<DA>F|E<CB,>A, A,3|]
+S:https://www.folktunefinder.com/tunes/130140
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Slow strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

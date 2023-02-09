@@ -1,0 +1,23 @@
+X:23
+T:The Steamboat Hornpipe
+C:Traditional
+Q:1/4=180
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+(3(def)|g2bg d2gd|BcdB G2(AB)|c2ec A2cA|FGAB cdef|
+g2bg d2gd|BcdB G2(AB)|cedc BAGF|A2G2G2:|
+|:(Bc)|dBdB g2gd|ecec a2ae|fefd gfgb|agfe defd|
+g2bg d2gd|BcdB G2AB|cedc BAGF|A2G2G2:|
+S:https://www.folktunefinder.com/tunes/117574
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/SteamboatHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:9009
+T:La Panderetera
+C:Versin de Jos Remis Ovalle
+Z:Mtodu de Gaita
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+EG|: c3 B|c2 B~A|G3 A|c2 B~A|
+G4-|GA EF|G3 ~A|F2 ~ED|C3 D|F2 ~ED|
+C4-|[1 C2 EG :|[2 GGGG|G3 E|F~F/E/ DC|FG FE|F3 G|~ED C2:|
+|: D>EFD|E>DCE|D2 B,2|C4 :|
+|: {G}CE Gc|B2 GA|B4|AAAB|G4|{G}CE Gc|
+A2 FD|B,3 D|F2 ~ED|[1 C4 :|[2 {G}C3 E/G/|
+|: c/B/A/B/ c/B/c/B/|A/B/A/G/ FA|c/B/A/B/ c/B/c/B/|
+G/A/G/E/ CE/F/|GE/G/ A/F/E/F/|~D{ED}C B,D|
+~F2 ED|~E>D CE/F/|GE/F/ A/F/E/F/|
+D{ED}C B,D|~F2 ED|[1  C3 E/G/ :|[2 C4||
+S:https://www.folktunefinder.com/tunes/61042
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/l.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/l.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

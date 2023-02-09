@@ -1,0 +1,22 @@
+X:184
+T: ES GEHT EIN FINSTER WOLKEN HEREIN
+N: E0769A
+O: Europa, Mitteleuropa, Deutschland
+R: Abschieds - Lied
+M: 3/4
+L: 1/8
+K: G
+G2 | G4G2 | d3c_B2 | A4_BB | A4
+A2 | d4d2 | c2_B2A2 | _B4A2 | G4
+G2 | D4D2 | _B4B2 | A2d2^c2 | d6
+_B2A2G2 | G2A2F2 | G4
+S:https://www.folktunefinder.com/tunes/76669
+S:http://ifdo.ca/~seymour/runabc/esac/erk20.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:146
+T:The Way to Norwich
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+N:Original title: Hey-boys up go we.
+N:Usually played as a jig, but this is how it appears in the 7th edition of The Dancing Master, 1686.
+K:Dmaj
+P:A
+|:D | "D"D>d c>B | "D"AG F/2G/2A | "A7"G>F ED | "D"d3:|
+P:B
+|:A | "D"de fe | "Bm"d/2e/2c BA | "E7"cd ce/2d | "Em"gf e/2>d/2c | "D"d>F "A7"E>C | "D"d3 :|
+T:As a jig
+M:6/8
+L:1/8
+Q:3/8=112
+K:D
+P:A
+|:D | "D"D2d "G"c2B | "D"A2G F>GA | "G"G2F "A7"E2D | "D"d3- d2:|
+P:B
+|:A | "D"d2e fgf | "A"ecd B2A | "G"d2B B2A | "A"A3- A2e |\
+"D"a2g f>ed | "G"g2e "A7"c>Bc | "D"d2F "A7"E2c | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/110193
+S:http://www.colinhume.com/ABC.txt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

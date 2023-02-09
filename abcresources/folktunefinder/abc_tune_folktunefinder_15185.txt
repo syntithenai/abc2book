@@ -1,0 +1,27 @@
+X: 228
+T: Tossing on the Waves
+B: O'Neill's 228
+N: "Playful"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  B2B (dcB) | (c2A) (B2G) | (GBd) (GBd) | (FAd) (FAd) \
+| (GAB) (cde) | (f2e) d2c | (c2B) (c2d) | (GBA) G3 ||
+|| (ba).g (fe).^d | (egb) e3 | gfe dcB | ceg c'3 \
+| (Bcd edc) | (BAB) (GAB) | (c2B) (c2d) | (GBA) G3 ||
+S:https://www.folktunefinder.com/tunes/15185
+S:http://trillian.mit.edu/~jc/music/abc/jig/TossingOnTheWaves.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/TossingOnTheWaves.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/TossingOnTheWaves.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/TossingOnTheWaves.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 3
+P: la Belle Cath\'erine
+O: Qu\'ebec
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+|: "D"FAdf edd2 | FAdf edd2 | "A7"cdef gfga |1 ba^ga "D"fdd2 :|2 "A7"bafe "D"d2z2 :|
+|: "D"fa~a2 abag | fa~a2 "G"[b4g4] | "A"~a2^ga c'bag |1 ba^ga fdd2 :|2 "A7"bafe "D"d2z2 :|
+S:https://www.folktunefinder.com/tunes/136772
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Reel_KlezContra19_B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

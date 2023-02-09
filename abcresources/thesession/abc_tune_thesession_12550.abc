@@ -1,0 +1,10 @@
+X: 12549
+T: Farewell To Lisheen
+R: jig
+M: 6/8
+K: Dmajor
+|:DEF A2d|BAF AFE|DEF AAd|BAF ~E3|
+DEF A2d|BAF AFE|DEF AFD|1 EFE D2A,:|2 EFE DFA||
+|:dcB cBA|BdB AFD|d2B cBA|BAF ~E3|
+dcB ccA|~B3 AFD|DEF AFD|EFE D2A:|
+

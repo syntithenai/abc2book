@@ -1,0 +1,27 @@
+X: 2
+P: Judson's Logic
+C: Ann Hooper
+N: 2001-8-23
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"G2F G2B | dBG G2g | "G"d2B "Em"G2B | "D"AFD "D7"DEF \
+| "G"G2F G2B | "G"dBG "C"g2e | "D"d2D "D7"DEF | "G"G3 G2 :|
+B \
+| "D"AFD "D7"d2c | "G"BGD d2B | "D"AFD "D7"d2c | "G"B3 G2B \
+| "D"AFD "D7"d2c | "G"BGD "Em"g2e | "A"^cBA "A7"a2g | "D"fed "D7"=cBA |
+| "G"G2F G2B | dBG G2g | "G"dBG "Em"GAB | "D"A2F "D7"DEF \
+| "G"GAB "D"ABc | "G"def "C"g2e | "D"d2D "D7"DEF | "G"G3 G2 |]
+S:https://www.folktunefinder.com/tunes/9858
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/AlicesRequest.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

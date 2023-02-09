@@ -1,0 +1,31 @@
+X: 9
+T:Conset Arglwyddes Treffael
+M:3/4
+L:1/8
+Q:160
+C:Trad
+S:Blodau'r Grug Collection Vol. 2
+R:Waltz
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:Am
+E2|A4e2|c3de2|d4c2|B3A^G2|A4e2|c3de2|d2c2B2|A4:||
+ef|g4g2|g3fe2|a4a2|a2g2^f2|g4g2|g3fe2|d2e2^f2|g4g2|
+e4a2|e3dc2|d4c2|B3A^G2|A4e2|c3de2|d2c2B2|A4||
+S:https://www.folktunefinder.com/tunes/19855
+S:http://trillian.mit.edu/~jc/music/abc/waltz/ConsetArglwyddesTreffael.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/welsh_tunes_1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/Wales/waltz/ConsetArglwyddesTreffael.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/ConsetArglwyddesTreffael.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Wales/waltz/ConsetArglwyddesTreffael.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/ConsetArglwyddesTreffael.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X:2240
+T:Hamburgar
+A:Nordfjord, Davik
+C:e. Alf Rosenlund
+M:2/4
+N:Yorkshire Dales Scandy weekend, June '99; workshop tunes
+O:Norway
+R:Polka
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000b68.html
+%%ID:00000b68
+K:D
+z8 |:(uAG)|\
+FGAB A2d2 | f6 (fa) | g2f2 e2d2 | c2B2 A2G2 |\
+FGAB A2d2 | f6 (ed) | c2e2 B2e2 | A4 z2 :: A2 |
+g3f edcB | B2A2 A2G2 | F2A2 d2f2 | f2e2 e2A2 |\
+g3f edcB | B2A2 A2G2 | FAdf | a3c | d2d2 d2 :: =c2 | \
+K:G
+B3d c3e | d2g2 gf(g2 | a2)d2 d^c(d2 | b2)g2 gfg2 |\
+(uB3d) c3e | d2g2 gf(g2 | a2)a2 fed2 | g2g2 g2 :|
+[A,8D8A8e8]|: (uFE)|\
+DEFG F2A2 | d6f2 | e2d2 c2B2 | A2G2 F2E2| \
+DEFG F2A2 | d6 (cB) | E2E2 [C2E2][C2E2] | [B,6E6] :: A2|\
+ve3d cBAG| G2F2 F2E2| D2F2 A2d2 | d2c2 c2A2 | \
+e3d cBAG G2F2 F2E2 | DFAd A3G | F2F2 F2 :: A2 |\
+K:G
+vG3B A3c | B2B2 BA(B2 | c2)B2 BA(B2 |d2)B2 BAB2 |\
+(uG3B) A3c | B2B2 BA(B2 | c2)c2 cc(c2 | B2)A2 [G2B2] :|
+S:https://www.folktunefinder.com/tunes/36527
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/RRtunes/RRtunes.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

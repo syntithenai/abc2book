@@ -1,0 +1,32 @@
+X:14697
+T:Ru Verde (MQ 036)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin muy popular en toda la zona central asturiana, para bailarla se coge la gente formando un corro quedando un mozo o una moza solos en el centro de l.
+N:Los del corro danzan alrededor mientras cantan y en un momento determinado cuando la letra de la cancin lo indica, la persona que est en el centro coge a otra de distinto sexo del corro y baila con ella al mismo ritmo de la msica pero a lo "agarrao".
+N:Yo la aprend en Quirs siendo un cro.
+A:Asturies
+Z:Manolo Quirs 036
+M:3/8
+L:1/8
+Q:3/8=60
+K:C
+|E2 D|C2 C|CB,C|D3|G2 F|E2 E|DED|C3|
+E2 D|C2 C|CB,C|D3|G2 F|E2 E|DED|C2 C/C/|
+CED|C2 C/C/|CB,C|D2 D/D/|DGF|EFE|DED|C2 C/C/|
+CED|C2 C/C/|CB,C|D2 D/D/|DGF|EFE|DED|C3||
+S:https://www.folktunefinder.com/tunes/64707
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/r.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/r.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

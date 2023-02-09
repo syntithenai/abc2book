@@ -1,0 +1,28 @@
+X:1
+T:Mazurka
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+DGB |\
+d2de dc | B2d2cB | A3c BA | B2GD GB |
+d2de dc | B2d2cB | A3c BA | G3 :|
+|: zGF |\
+E3G FE | D4G2 | A3c BA | G4GF |
+E3G FE | D4G2 | A3c BA | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174892
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.d2dedc.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

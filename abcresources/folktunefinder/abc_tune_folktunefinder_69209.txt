@@ -1,0 +1,24 @@
+X:350
+T: "Der reiche Schlemmer"
+N: Z1030
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Romanze, Ballade, Tod, geistlich, Sage (Hl. Lazarus)
+M: 4/4
+L: 1/16
+K: A
+E4 | A3GA2e8d2 | e2e2d2=c2B4
+B2c2 | d4d4e4B2=c2 | d2=c2B2A2G4
+E4 | A3AA2B2=c4B2A2 | B8E8 | =c6d2e4
+d4 | e4B2=c2d4e4 | B8A4
+S:https://www.folktunefinder.com/tunes/69209
+S:http://ifdo.ca/~seymour/runabc/esac/zuccal0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/zuccal0.abc
+% Rhythm Romanze, ballade, tod, geistlich, sage (hl. lazarus)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

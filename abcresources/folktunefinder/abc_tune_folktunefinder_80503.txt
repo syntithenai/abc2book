@@ -1,0 +1,26 @@
+X: 225
+T: Young Kate of Kilcummer
+B: O'Neill's 225
+N: "Slow"
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K:Dm
+zA \
+| A2 A2 =B^c | d2 d2 ((3def) | e2 (^cA) (=Bc) | d4 (fd) \
+| c2 (BA) (GF) | G2 (GB) (AG) | F2 D2 D2 | D4 ||
+|| DE \
+| F2 G2 (AB) | AF D2 ((3def) | e2 (^cA) (=Bc) | dd3 (fd) \
+| c2 (BA) (GF) | G3 (BAG) | F2 D2 D2 | D4 ||
+S:https://www.folktunefinder.com/tunes/80503
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0201-0300_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0225_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:166
+T:Old Joe
+C:traditional
+R:Reel
+M:C
+K:C
+"Am" A,4 C4 | "F7" EA-A_E DCA,G, | "C7"A,4 "F7" C4 | "F7"_E3E "G5" DCA,G,|
+W:bass line A,G,F
+"C7" A,2 A,2 C2 D2 | "F7"EA-A_E "Ab7" DCA,C | "C" G,2 c2 cAGF | EC "G5" DB, "C"C4 :|
+W:bass line C,Bb,A,Ab
+|:"C7" [c3E3] d cAGc | "F7" A^GAB cBcd | "Cmaj7" eg-ge ge "Am" ag | eg "G5" a_b aged |
+"C" c2 cd "C7" cAGc | "F" A^GAB "Fm" cBcd | "G7" ega_b agea | "F" ge "Fm" dB "C" c4:|
+W:bass line C,Bb,A,Ab,G
+S:https://www.folktunefinder.com/tunes/55769
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/allreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

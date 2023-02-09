@@ -1,0 +1,23 @@
+X:1
+T:Greenwood
+M:6/8
+L:1/8
+R:Jig
+K:GDor
+|| f2f f2c | d2c A3 | B>cd d>ef | g2f e2d \
+ | f2f f2c | d2c A2f | e2d c>BA | B3 G3 ||
+S:https://www.folktunefinder.com/tunes/14269
+S:http://trillian.mit.edu/~jc/music/abc/jig/Greenwood.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/Greenwood.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/Greenwood.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/Greenwood.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Greenwood.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

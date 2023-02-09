@@ -1,0 +1,18 @@
+X: 28050
+T: Mozart's Favourite
+R: waltz
+M: 3/4
+K: Cmajor
+"f"(c'bc')|(e'c'gefd)|(ag)(ecec)|(ag).f(dfd)|g3.c'(bc')|
+e'(c'gefd)|(ag).ec(ec)|(ag).f(dBd)|c2z:|
+|:.G(ce)|(efd).G.B.d|(dec).G.c.e|BgGgBg|(ce)G.G.c.e|
+(efd).G(Bd)|dec.G.c.e|BgGgBg|c2z:|
+|:z2z|.e2(e3f)|(ag)g3e|(gf)f3d|(de)c3"1"d|e2e3f|
+(ag)g3e|(gf)f3d|dcc2z2:|
+"Dolce."(d'b)b2c'b|(ag)g4|(c'b)(bd')c'a|(ag)g3f|e2e3f|
+(ag)g3e|(gf)f3d|(dc).c .G(AG)|
+"Cres:".c.G.e.G(AG)|.B.G.d.G(AG)|.d.G.f.G(AG)|.c.G.e.G(AG)|
+"Dolce.".c.G.e.G(AG)|.B.G.d.G(AG)|.d.G.f.G(AG)|c3.g(ag)|
+"Cres:"(^fg)(=fg)(eg)|(dg)(cg)(ag)|(^fg)(=fg)(eg)|(dgc).G(AG)|
+.c.G.e.G(AG)|.B.G.d.G(AG)|.d.G.f.G(AG)|c2"DC.."z2||
+

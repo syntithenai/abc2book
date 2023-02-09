@@ -1,0 +1,32 @@
+X:221
+T: EIN STRAEUSSCHEN AM HUTE
+N: F0376
+O: Europa, Mitteleuropa, Deutschland
+R: Jugend - Lied, Wander - Lied, Moral
+M: 3/4
+L: 1/8
+K: A
+E2 | c3BA2 | A2E2
+E2 | E2G2A2 | B4
+E2 | d3cB2 | B2G2
+E2 | E2c3B | A2z2
+GA | B3cB2 | B3c
+B2 | B2e3d | c4
+AB | c3Bc2 | d2F2
+B2 | A2c2B2 | A4
+GA | B3cB2 | B3c
+B2 | B2e3d | c4
+AB | c3Bc2 | d2F2
+B2 | A2c2B2 | A4
+S:https://www.folktunefinder.com/tunes/69781
+S:http://ifdo.ca/~seymour/runabc/esac/fink0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/fink0.abc
+% Rhythm Jugend - lied, wander - lied, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:150
+T:Pavane
+L:1/8
+M:4/4
+Z:Andy Hornby
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000da1.html
+%%ID:00000da1
+K:G
+G2A2B3A/2G/2|F3G A2G2|FD G2-G2F2|G4-G4:|
+|:d2G2A2c2|B3A/2G/2 F2G2|A2F2G2B2|B4-B4:|
+|:c2d2e2dc|B3c d2cB|AG G2-G2F2|G4-G4:|
+S:https://www.folktunefinder.com/tunes/48834
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Medieval/Medieval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

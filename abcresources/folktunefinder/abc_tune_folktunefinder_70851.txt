@@ -1,0 +1,28 @@
+X:104
+%%topmargin 3cm
+T:Miss Oliphant
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+d | (A<F)(F>D) EDEF | (A<F)(F>A) BABd | A<FF>D EDEF | (DB,A,B,) D2 D :|
+(d/3e/3f/3g/3) a3 g<f dd | f<g f<a f<e de/2f/2 | a>baf f<e de/2f/2 | (dBAB) d2 d2 |
+(d/3e/3f/3g/3) a3 g<f dd | f<g f<a f<e de/2f/2 | dBBd AFEF | (DB,A,B,) D2 D2 |]
+W:A Favourite tune in Skye
+S:https://www.folktunefinder.com/tunes/70851
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050518.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/skye_coll_20050309.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Miss_Oliphant.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

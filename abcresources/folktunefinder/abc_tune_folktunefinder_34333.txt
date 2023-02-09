@@ -1,0 +1,29 @@
+X: 6427
+T:Irish March
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+B2 G c2 A | B2 d A3 | B2 d c2 e | B2 d A3 | B>AB c3 | B>AG A3 | B>AB e>d
+e | B>AG A2 D | G>AB c>GA | A>cd A2D | G>AB c>GA | B>cd A3 | GBG efe | G
+BG FAF | GBG cec | GBG dAD | G>AB c>de | de/2f/2g f2 d | G>AB c>de | de/
+2f/2g f2 d | GGd c e2 | d g2 f a2 | g2 d e2 c | d2 B c2 A | GAB c>dc |
+B>AG A2 D | GG/2F/2G Eec | BGg f d2 | B>cd e c2 | dBg f d2 | d>gd e c2 |
+ G>AG F D2 | G>AG>B A/2d/2ed/2c/2 | B/2A/2B/2c/2d/2e/2 f/2g/2ag/2f/2 | g
+f/2e/2d e2 d c2 | Bc/2B/2A/2G/2 F/2E/2F/2G/2A/2F/2 | G/2A/2B/2c/2d/2B/2
+c/2d/2e/2f/2g | G/2A/2B/2c/2d/2e/2 f>ga>f | g3-g3 | g3 f3 | Gg/2d/2B/2G/
+2 c/2B/2c/2d/2c/2| Aa/2g/2f/2e/2 d/2c/2d/2e/2d | gB/2=c/2d edc | Bc/2B/2
+A/2G/2 F>ED | E>FG F>EF G3 |
+S:https://www.folktunefinder.com/tunes/34333
+S:http://dasher.org.uk/dasher/download/training/training_abc_XX.txt
+S:http://www.inference.phy.cam.ac.uk/dasher/download/training/training_abc_XX.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

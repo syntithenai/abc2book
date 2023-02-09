@@ -1,0 +1,27 @@
+X:388
+T: EIN POSTKNECHT IST EIN ARMER WICHT
+N: E1579
+O: Europa, Mitteleuropa, Deutschland, Hessen, Hanau; Schluechtern
+R: Staende - Lied, Postillon
+M: 6/8
+L: 1/8
+K: G
+D | G2GG2A | B2BB2
+B | A2Bc2F | A3Gz
+D | G2GG2A | B2BB2
+B | A2Bc2F | A3Gz
+A | A2BA2G | F2AD2
+A | A2BA2G | F2AD2
+d | d3B2d | d3B2
+D | G2BdgB | dcAG2
+S:https://www.folktunefinder.com/tunes/79492
+S:http://ifdo.ca/~seymour/runabc/esac/erk30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/erk30.abc
+% Rhythm Staende - lied, postillon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

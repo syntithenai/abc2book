@@ -1,0 +1,35 @@
+X:10
+T:Hey! Johnnie Cope, Are Ye Wauken Yet
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:F2|B2B2 (Bc)de|f2B2 c2Bc|A2A2 (AB)cd|e2a2 c2BA|
+d2cd e2de|f2a2 c2BA|B2b2 (fe)dc|{c}B4 {c}B2::
+c2|d2dd dAFA|(de)fg a2fd|c2A2 e2A2|(cd)ef e2dc|
+(dc)de (fe)fb|(af)ed c2BA|(BA)Bb (fe)dc|{c}B4 {c}B2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!p!F2|B4 B4|(Bc)de f2BG|A4 A4|(AB)cd e2dc|
+(DE)FG A2F2|(de)fg e2dc|d2>e2 f2ed|{e}d4 {e}d2::
+A2|f2ff f2e2|(dc)de f2a2|e2c2 g2e2|(cB)cd e2g2|
+(BA)Bc (dc)dg|(fd)cB A2BA|d2>e2 f2fe|{e}d4 {e}d2:|
+S:https://www.folktunefinder.com/tunes/114076
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

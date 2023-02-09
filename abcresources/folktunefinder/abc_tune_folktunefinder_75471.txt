@@ -1,0 +1,17 @@
+X: 1
+T:Sandgate Lass's Lament
+M:6/8
+L:1/8
+K:F
+|F/2G/2|AAA FG A|B2G E2A|G2AF2F(|F3F2) G|A2Bcde|f2d B2 c|de f e2 d|(c3c2
+)||GA2Bcde|f2dBBc|de f e2d|(c3c2) F/2G/2|A2AFGA|B2GE2F|G2AF2F(|F3F2)||
+% Output from ABC2Win  Version 2.1 i on 3/2/2000
+S:https://www.folktunefinder.com/tunes/75471
+S:http://mysite.verizon.net/cbladey/sang/toons.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

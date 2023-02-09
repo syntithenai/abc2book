@@ -1,0 +1,23 @@
+X:3
+T:XXI. Come when I call,
+T:QUINTUS.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+%%MIDI transpose -12
+K:F major -8va
+z16 z16 B  B c c c3 c c A c c B > c d c c > B A B c G A2 G3 G F4
+z16 z16 A3 A/ A/ A A E A A2 G4 ^F2 G2 B2 c2 c2 d3 D E4
+z16 z16 F B A c c c c c
+S:https://www.folktunefinder.com/tunes/136370
+S:http://www.laymusic.org/music/dowland/call/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

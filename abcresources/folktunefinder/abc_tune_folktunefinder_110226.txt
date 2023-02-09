@@ -1,0 +1,24 @@
+X: 23
+T: Ki Tina'am
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+P:
+K: BDorian
+[| "Bm"B2B2 "G"d3e | "Bm"dcBc "A"A4 | "Bm"B2B2 "F#m"f2a2 | "E"gffe "F#m"f2df |
+| "E"e3f "Em"eBe2 | "Bm"d3e "A"cBA2 | "Bm"B2d2 "A"cBBA | "Bm"B2 "A"(3cBA "Bm"B4 |
+| "Bm"f>g fe f4 |  fage f4 | b3a aggf | "F#m"fagf "E"e2B2 |
+|: "Bm"d3f "Em"edeB | "Bm"d3f "Em"ede2 | "A"c2de cBBA | "Bm"B2 "A"(3cBA "Bm"B4 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110226
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

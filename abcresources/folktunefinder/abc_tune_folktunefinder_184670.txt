@@ -1,0 +1,36 @@
+X: 1
+T: Random
+C: James Hill ()
+O: Believed to be a Northumbrian Pipe Tune
+S: John Skelton East Durham 2002
+Z: lesl -- glauber fixed the ABC a little so it looks like a normal 3-part jig
+R: jig
+M: 6/8
+L: 1/8
+T:Rondeau
+H:The vast majority of Hill's compositions are hornpipes in flat keys.
+H:Since this tune shows up as "Rondeau" in a different manuscript,
+H:there's at least a chance that it was assimilated from some
+H:passing French saylor instead of composed by Hill.
+H:Another theory for the name is that Random is the name of a race horse.
+Z: Contributed 20030224162511 by Glauber Ribeiro theglauber@yahoo.com
+K: D
+A |: d2d fed | cea ecA | B2B efg | Bed cBA |
+      d2d fed | cea ecA | B2B efg | Bec d2A :|
+  |: DFA FAd | Adf dfa | afa geg | fdf ecA |
+     DFA FAd | Adf dfa | dcB fed | cdB A2z :|
+  |: Aaa Bbb | Ggg Aaa | Ddd efg | Bed cBA |
+     Aaa Bbb | Ggg Aaa | Ddd efg | Bec d2z :|
+S:https://www.folktunefinder.com/tunes/184670
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/Random.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/Rondeau.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Random.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Rondeau.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords
