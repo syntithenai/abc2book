@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {Button, Modal, ListGroup} from 'react-bootstrap'
+import {Button, Modal, ListGroup, Form} from 'react-bootstrap'
 
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -14,10 +14,24 @@ function GroupBySelectorModal(props) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Group By</Modal.Title>
+          <Modal.Title>List Layout</Modal.Title>
           
         </Modal.Header>
+         <Modal.Body>
+         <Form.Label>Show preview? </Form.Label>
+         <Form.Check 
+            style={{float:'right'}} 
+            type="switch"
+            id="custom-switch"
+            label=""
+            checked={props.showPreviewInList ? true : false}  
+            onClick={function() {
+                props.setShowPreviewInList(!props.showPreviewInList)
+            }}
+          />
+         </Modal.Body>
         <Modal.Footer>
+          <Modal.Title style={{width:'100%'}} >Group By</Modal.Title>
           <ListGroup  style={{clear:'both', width: '100%'}}>
           
             <ListGroup.Item  style={{fontSize:'1.5em'}} key={'first'} className='odd'  onClick={function(e) {props.onChange(''); handleClose()}} >No Grouping</ListGroup.Item>

@@ -1,0 +1,1175 @@
+%abc2ps Book3abc.txt -x -o
+
+X:1
+T:The Creel of Turf
+R:Jig
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+N:As played
+Z:Bernie Stocks
+M:6/8
+K:D
+EBB {d}BAG | FDF AGF | (3.B.B.BB-Bcd | AGF ~E2D | ~B3 {d}BAG | FDF AGF |
+EBB EBd | AGF ~E2D | EBB {d}BAG | (3.F.F.DF AGF | (3.E.E.EB EBd | AGF ~E2D |
++EB+(3.B.B.B {d}BAG | FDF AGF | EBB EBd | AGF ~E2A || Bee {f}ede | ~f3 dBA |
+~B2e ede | ~f3 d2A | +EB+(3.e.e.e ede | ~f3 dBA | ~B3 Bcd | AGF ~E2A :|
+
+X:2
+T:The Highlander Kissed His Granny
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+cg{a}ge gc{a}ge | cg{a}ge dBGB | cg{a}ge gc{a}ge | af{a}ge dBGB :|
+ce(3.A.A.A {B}ABcB | ceAe dBGB | ce(3.e.e.A ABcd | eage dBGB :||
+
+X:3
+T:The New Road
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Reel
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:G
+DFEF D2(3.d.d.B | {cd}cAGE ~E2GE | DFEF D2dB | {cd}cAGE AD(3.D.D.D |
+DFEF D2(3.d.d.B | {cd}cAGE ~E2Gc | Ad~d2 dfed | {cd}cAGE ADD2 ||
+{afe}f2fe fa{a}ge | fdge afde | ~f3e fage | ~f2ed Adde |
++f3d3+e fage | fdge afge | fage dfed | {e}dcAG EFGE ||
+
+X:4
+T:The Flowers of the Red Hill
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+eA(3.A.A.A eAgA | eA(3.A.A.A eAdA |eA(3.A.A.A ea{b}ae | {a}gedB GABd :|
+ea~a2 ba~a2 | ea{b}ae gedg | ea~a2 (3babag | eBde gdBd |
+ea~a2 ba{b}ag | ea{b}ae ~g3a | bg~g2 aged | ea{b}ag edBd ||
+
+X:5
+T:The Otter's Holt
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Reel
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:D
+fB{d}BA FEFB | (3.A.A.AFB ABde | fB{d}BA FEFA | BdcA ~B2de |
+fB{d}BA FEFB | (3.A.A.AFB ABde | fbaf ea{a}fe | dBAF ~B3c ||
+~d2(3.e.e.d adfa | bfaf efdB | (3.e.e.dfd adfa | bfaf (3efedB |
+~d2(3.e.e.d adfa | bfaf efde | fB{d}BA FEFA | BdcA ~B2de ||
+
+X:6
+T:The Arklow Mountain
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Reel
+N:As played
+C:Tony Sullivan
+Z:Bernie Stocks
+M:4/4
+K:D
+Ad~d2 AGFG | Addf g=c~c2 | Ad~d2 efge | ~a3f ~g2fg | Ad~d2 AGFG | Addf g=c~c2 |
+dB{d}=cA BGAF | GBAG {FG}FDD2 :| ~a3f ~g3e | dafd {cd}cAA2 | ~a3f ~g3e |
+dfaf df{a}ge | +A2a2+(3.a.a.f gfge | dafd {cd}cAFG | Ad{e}dB ~=c3A | GBAG FDD2 :|
+
+X:7
+T:Paddy O'Rafferty
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197?
+R:Jig
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:D
+(3.d.d.ff (3.c.c.ee | (3.d.d.ff {a}gfe | dfd cec | ~d3 dBA | dff cee |
+dff gfe | (3.f.g.af {a}gfe |1 dfe dBA :|2 dfe dcB || +F3A3+ ~B3 |
+gfe fdB | (3.A.A.FA (3BABc | dfe dcB | A3 ~B3 | efe efg |
+(3.f.g.aA gfe | dfe dcB :| {a}fAA eAA | def gfe | (3.f.a.fA (3.e.f.eA |
+dfe dBA | (3.f.f.fA (3.e.e.eA | def gfe | faf {a}gfe | dfe dBA :|
+
+X: 8
+T:Crowley's
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+K:D
+dB | (3.A.A.FdA ~B2dB | AD(3.F.F.D AD{F}ED | +A3F3+d BGBd | cdeg fddB |
+AF~F2 ~B2dB | AD{F}ED AD{F}ED | +A3F3+d BGBd | cdeg fdde || 
+~f3a ~g2fg | eA(3.c.c.A eAce | ~f3a ~g2fg | afge fdde | 
+fafa ~g2fg | eA(3.c.c.A eAce | Af~f2 g2fg | af{a}fe fdd2 ||
+
+X: 9
+T:Tom Billy's
+M:6/8
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Jig
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+K:D
+~a3 Ace | {f}edB {d}BAA | eaa Ace | edB Ace | ~a3 Ace | edB BAB | GBd (3gfge | 
+(3.f.f.dB Ace :| ~g3 ~a3 | bag fed | (3.f.f.af (3gfge | fdB def | ~g3 ~a3 | 
+bge gab | age dBe |1 ABA A3 :|2 (3.A.A.AA (3.a.a.ed || c3 ~d3 | edB dBA | 
+A3 cBA | (3.A.A.AA aed | ~c3 ~d3 | ede gab | age dBe | ABA A3 :|
+
+X: 10
+T:Jacksons
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+K:D
+A3B AFDF | (3.B.B.AFD GECE | +A3F3+d BdAG | FD(3.D.D.D EFGB |
+(3.A.A.FAB AFDF | (3.B.B.AFD GECE | +A3F3+d BdAG | FD(3.D.D.D FDEG || 
+FD(3.D.D.D FD(3.D.D.D | FD(3.D.D.D GECE | FD(3.D.D.D FDGF | EDCD EFDG | 
+FD(3.D.D.D FD(3.D.D.D | FD(3.D.D.D GECE | FD(3.D.D.D FDGF | EDCD EFGA || 
+df(3.f.f.f df{a}fe | ~d3B AFDA | ce(3.e.e.e ceec | A-B~B2 AFDA |
+df(3.f.f.f df{a}fe | ~d3B AFDA | ce(3.e.e.e faec | d-cce d3A :|
+
+X: 11
+T:The Blarney Pilgrim
+M:6/8
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Jig
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+H:All the 'A3's are unisons
+K:G
+DED DEG | A3-ABc | BAG AGE | GEA GED | +D3A,3+-DEG | (3.A.B.AG ABc |
+{c}BAG AGE | (3.G.G.ED D3-| DED DEG | (3ABAG ABc | (3.B.d.BG (3.A.A.AE |
+GEA GED | +D3A,3+-DEG | (3.A.B.AG ABc | {c}BAG AGE | GED D3 |: ~d3 dBG |
+(3.A.A.GA BGE | ~d3 dBG | AGA {GF}G3 | (3gfge dBG | AGA (3.B.B.GE |
+{BA}B2G AGE |1 GAG {GF}G3 :|2 GAG GED || (3.B.d.BD (3.A.A.AD | (3.A.A.AD ABc | 
+{c}BAG AGE | GEA GED | A3 (3.B.d.BG | (3.A.A.AG ABc | {c}BAG AGE | GED D3 | 
++AD+(3.D.D.D +BD+(3.D.D.D | ADD ABc | {c}BAG AGE | (3.G.G.EA GED | 
+(3.A.B.AA (3.B.d.BG | (3.A.B.AG ABc | {c}BAG AGE | GED +D3A,3+ ||
+
+X: 12
+T:The Man of the House
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+H:The 'E2' at the start is slid
+K:G
+E2BE GABG | (3.G.G.EBE {G}FDAD | (3.G.G.EBE GABc |1 (3.c.d.dcA BE{G}ED 
+:|2 cB{d}BA BEE2 || efge fgaf | (3.f.f.ged edBd | (3.e.e.ege fgaf | 
+gfed Bee2 | efge fgaf | (3.f.f.g-gf edBd | (3.a.a.b-ba gfed | eB{d}BA GE{G}ED ||
+
+X: 13
+T:Caher Rua
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+Z:Bernie Stocks
+H:The 'e3's is a unison. Plyed with 14.
+P:AABCABC
+K:D
++d3D3+A {d}BAFA | (3.A.A.A-AF AFEF | DEFA {d}BAFB | ABde {a}feef |
+dA(3.A.A.A BAFB | (3.A.A.FBF AF(3.E.E.F | DEFA {d}BAFB | ABde fddc ||
+dD(3.D.D.D A2FA | dcde fdef | ~g3e {a}fedf | e3f edBc |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e fcdB | AFGE D2Ac |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e- ef~f2 | dfe^d e=dBc |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e fdfa | (3.g.g.gbg ~f3e ||
+defd cdec | BcdB AFEF | DEFA {d}BAFB | ABde feef |
+dA(3.A.A.A BAFB | (3.A.A.FBF AF(3.E.E.F | DEFA {d}BAFB | ABde fddc ||
+
+X: 14
+T:The Wild Irishman
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+H:Bars 10 and 11 droned heavily (A)
+Z:Bernie Stocks
+K:D
++d2D2+fd gdfd | dfed cdec | (3.d.d.dfd gdfd | fgfe dcBc |
+(3.d.d.dfd gdfd | dfed cded | ~f3d gfge | ~c3A dcdf ||
+edcB A2cA | eA(3.A.A.A eAfA | edcB A2(3.A.A.A | fgfe dcdf |
+edcB ABcd | eA(3.A.A.A eAfA | edcB A2(3.A.A.A | fgfe (3dcd-dA ||
+
+X: 15
+T:Bean an Ti ar Lar
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+Z:Bernie Stocks
+H:The 'D2's  and 'D3's are droned (unison) as much as possible
+K:D
+B | AGFE D2FD | GEFE D3B | AGFE D2(3.F.F.D (3EDEcA BGEd | 
+AGFE D2FD | GEFE DB~B2 | AGFE D2(3.F.F.D (3EDEcA BGEd ||
+cdec +A3E3+d | cdec AGEd | cdec (3.A.A.AAG | (3.E.E.EcA BGEd |
+cdec +A3E3+d | cdec AGEd | cdeg (3.f.g.aec | A-B{d}BA BcdB || AGFE D4 ||
+
+X: 16
+T:Toss the Feathers
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+Z:Bernie Stocks
+H:'D2's, 'A2's and 'A3's are unisons
+K:G
+D2FD ADFD | AB{d}cA GECE | D2(3.F.F.D ADFD | Adde cAGE | D2FD AD(3.F.F.D | 
+AB{d}cA GE~E2 | cABG A3c |1 (3dcd (3.e.e.d cAGE :|2 (3dcd (3.e.e.d cAGc ||
+Ad(3.d.d.d Ad(3.d.d.d | Adfd edcd | ea{b}ag ~a3g | eaab aged |
+(3.e.f.e ge afge | fded cAGA | B {cdB}c2B A2Ac |1 (3.c.c.d ed cAGc :|2(3.c.c.d ed cAGE ||
+
+X: 17
+T:Langstrom's Pony
+M:6/8
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Jig
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+K:D
+{a}fed cAA | EAA cAA | fed cAA | (3.B.B.GB dcB | fed cAA | EAA efg | 
+(3.f.g.af {gf}g2e | dBG Bcd :| cee dff | cee ecA | cee dfa | dBG Bcd |
+(3.c.e.ee (3.d.f.ff | cee efg | (3.f.g.af {gf}g2e | dBG Bcd :| Ace ~a3 | 
+ecA ecA |  GBd f{agf}g2 | BAG Bcd | (3.f.g.af {gf}g2e | (3.f.a.fd ecA | 
+(3agaf {a}gfe | dBG Bcd :| (3.A.A.EA A2e | cAc ecB | AEA-AB=c |
+ (3.B.B.GB dcB | AEA +A2E2+e | cAc efg | faf (3gfge | dBG Bcd :|
+
+X: 18
+T:Sean Reid's Fancy
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+N:As played
+Z:Bernie Stocks
+K:G
+B3G ABAG | (3.F.F.D AD BDAD | DG~G2 G2ge | fd{e}dc ABcA |
+~B3G ABAG | (3.F.F.D AD BDAD | DG~G2 G2ge | fdcA BGG2 :: 
+dg{a}gf (3gfg ag | fAde fdcA | dg{a}gf (3gfg fg | a-bga bgga |
+bg{a}gf g2ag | fAde ~f3g | a2(3.b.a.g abag | fd{e}dc ABcA :|
+
+X: 19
+T:The First Month of Summer
+M:4/4
+L:1/8
+S:Des Donelly (fiddle)
+R:Reel
+D:From an ancient tape
+N:As played
+H:Played with 20 and 21 as a set
+Z:Bernie Stocks
+P:ABCB
+K:G
+BA | GE~E2 DGB,D | G,DB,D cA{d}BA | GE~E2 D2B,E | DEGA BdBA | GE~E2 DGB,D | 
+G,2B,D {d}BABA | GEEG (3.D.E.DBE | DEGA BdBA || GB~B2 dB~B2 | d2Bd ecge | 
+dB~B2 GBdB | (3.c.c.dAG ABcA | dB~B2 dB~B2 | d2Bd ^cdef | gfed eage | dedB cABA ||
+
+X: 20
+T:Gan Ainm
+M:4/4
+L:1/8
+S:Des Donelly (fiddle)
+R:Reel
+D:From an ancient tape
+N:As played
+H:Played with 17 and 18 as a set
+H:Alternate bar 4 'dcBA BAGF'
+H:The 'B3' in bar 2 is a big slide.
+H:The third part is a variation of the first part.
+Z:Bernie Stocks
+K:G
+DEGB A2GA | B3A BE~E2 | DEGB ABGB | dBAc BG~G2 | DEGB ABGA BdcA BE~E2 | 
+DEGB A2GB | dBAc BGGf || ~g3e d2d2 | (3BcdAc BEEf | g2ge dgBd | ea{b}ag agef |
+gfge dBgd (3BcdAc BE~E2 | DEGB A2GB | dBAc BGG2 || DEGB A2GA | B2BA BE~E2 | 
+DEGB cBAG | FEDC B,CA,B, | G,2BA (3ABA GA | B2BA BEEE | DEGB A2GB | dBAc BGGf ||
+
+X: 21
+T:The Templehouse (version)
+M:4/4
+L:1/8
+S:Des Donelly (fiddle)
+R:Reel
+D:From an ancient tape
+N:As played
+Z:Bernie Stocks
+K:G
+E2GE BEGB | AF~F2 DEFD | E2(3.G.G.E BEGB | cB(3cBA BEED |  EFGA BA^GB | 
+AF~F2 DEFD | E2(3.G.F.E BEGA | BdcA BE{G}ED | +E3B,3+E BE~E2 | 
+D2FD +A4D4+ | E2GE BEGA | BdcA BE{G}ED | EFGA BAGB | AF~F2 DEFD | 
+E2GE BEGA | (3Bcd cA BEEf |: gfef gfea | fd(3.d.d.d bdad | gfef gfe^d | 
+efga bgef | g2g2- gbag | fd~d2 Adfd | efge (3agf ge | dBcA BEE2 :|
+
+X: 22
+T:The Log Cabin
+M:4/4
+L:1/8
+S:Des Donelly (fiddle)
+R:Reel
+D:From an ancient tape
+H:Bar 12 is slurred into bar 13 (C-D) but macabc2ps can't do this across line breaks
+N:As played
+Z:Bernie Stocks
+K:D
+A,CDE FGAB | (3=cBcDE FAAB | (3dcd cd BdAG | FDDB, =CEDC | 
+A,CDE FGAB | (3=cBcDE FGAB | (3dcd cd BdAF | EA,CE DA,~A,2 | 
+A,CDE FGAB | (3=cBcDE FGAB | (3.d.d.d cd (3Bcd AG | FDDB, =CEDC |
+D2DE FGAB | (3=cBc DE FGAB | (3dcB (3cBA BdAF | EDCE D3d || 
+d2fd Adfd | (3.d.d.dfd eB~B2 | (3.d.d.dfd adfd |  =cAGE D2FA | 
+d2fd adfd | d-^def (3gfe fg | afge (3fgaed | (3cBA (3GFE DAFA | 
+ddfd adfd | gdfd edBA | (3.d.d.dfd adfd | =cAGE DAFA | 
+(3.d.d.dfd adfd | d-^def g2(3.g.g.g | afge fded | cAGE D=CA,C ||
+
+X: 23
+T:Contentment is Wealth
+M:4/4
+L:1/8
+S:Dianna Boullier, Bangor (fiddle)
+R:Reel
+D:Radio Na Gaeltachta
+N:As played
+H:Played with 24 and 25 as a set
+Z:Bernie Stocks
+K:D
++D3A,3+d cAAB | cded cAGE | (3.D.D.DDd cAAB | {c}BAGE {G}EDDA | 
+EAAB B-=cAB | cded cAAg | f-age dged |1 cAGE {G}EDCE :|2 cAGE {G}EDDc || 
+c-d2e fefg | af{a}fe dcAG | Ad(3.d.d.d fded | cAAG EFGE |
+c-d2e {a}fefg | af{a}fe defg | (3.a.a.fge faed |1 cAGE {G}EDDc :|2 cAGE {G}EDCE ||
+
+X: 24
+T:The Fair Haired Lass
+M:4/4
+L:1/8
+S:Dianna Boullier, Bangor (fiddle)
+R:Reel
+D:Radio Na Gaeltachta
+N:As played
+Z:Bernie Stocks
+K:D
+ea(3.a.a.a efgf | ea(3.a.a.a ABcd | ea(3.a.a.a ef{a}fe | afge +D2d2+cd ::
+eA(3.A.A.A efgf | eAA=c BGGB | ABcd ef{a}fe | afge +D2d2+cd :|
+
+X: 25
+T:The Piper on Horseback
+M:4/4
+L:1/8
+S:Dianna Boullier, Bangor (fiddle)
+R:Reel
+D:Radio Na Gaeltachta
+N:As played
+Z:Bernie Stocks
+K:D
++AE++A2F2+d cAAB | cAdB cAGE | +AE++A2F2+d cAAB | {c}BAGE {G}EDCE :|
+defg afdf | efed cAEA | defg afdB | (3.A.A.AGE {G}EDDA |
+defg g-aaf | efed cA+AE+e | azag efed | cAGE {G}EDCE ||
+
+X: 26
+T:The Fermoy Lasses
+M:4/4
+L:1/8
+S:Tommy Potts, Dublin (fiddle)
+R:Reel
+D:RTE broadcast, late 70's
+N:As played
+Z:Bernie Stocks
+K:G
+G E(3.E.E.E BE(3.E.E.E | ^cE(3.E.E.E dE(3.E.E.E | eE(3.E.E.E dE^cE | BFDF AB{d}BA |
+GE~E2 CEB,E | GE~E2 BcBA | G2G-F- GBdB |AFDF AB{d}BA |
+GE~E2 B,EGB eBdB ABFD | GE~E2 BEGE | FB,DF B,DFF |
+GE~E2 B,ECE | GE~E2 BcBA | G2G-F- GBdB | AFDF AcBA ||
+GABG dGBG | (3.G.G.GBd efgB | GABG (3.E.F.G DB, | CB,A,B, CDEF |
+~G3A ~G3A | GABd efg2 | ~g3e ~d3B | AFDF AcBA |
+GGBG dGBG | (3.G.G.GBd efgB | GABG dGBG | AF(3.F.F.F BFAF |
+G2BG dGBG | (3.G.G.GBd efge | ~g3e ~d3B | AFDF AB{d}BA ||
+
+X: 27
+T:Poll Halfpenny
+M:4/4
+L:1/8
+S:Tommy Potts, Dublin (fiddle)
+R:Reel
+D:RTE broadcast, late 70's
+H:The F naturals are very mobile, as are the 'c's
+H:The first few bars are an intro, 
+H:and are the end section of the second part.
+H:The phrase '+A2E2+ (3.A.A.A' is actually '+A2E2+ (3.+AE+.+AE+.+AE+. '
+H:but 'abc2ps' can't handle this
+N:As played
+Z:Bernie Stocks
+K:D
+(3Bcd | =f3d (3efe ed | cdec fcge | aged cAdc | +A2E2+ (3.A.A.A +A2E2+ {a}fe ||
+dcAG A2 (3ABc | dcAF G2 (3Bcd | {f}edcA dcAG | EA(3.A.A.A cA (4Bcde |
+=f3d e3d | cdef- g2(3efg |aged cAdc | +A2E2+ (3.A.A.A +A4E4+ ||~g3a gfge | 
+~a3b agef | ~g3a gedg | ed=cA dAcd | ~g3a gfge | ~a3b az(4agfe 
+|1 =f3d (3efe-ed | cdef g2(3efg | aged cAdc | +A2E2+ (3.A.A.A +A4E4+  
+:|2 =f3d (3efe ed | cdec fcge | aged cAdc | +A2E2+ (3.A.A.A +A2E2+ {a}fe ||
+ 
+X: 28
+T:Gan Ainm
+M:4/4
+L:1/8
+S:Tommy Potts, Dublin (fiddle)
+R:Reel
+D:RTE broadcast, late 70's
+H:Paddy Fahey takes a trip?
+H:Very hard to decipher this one. As I've put it down here
+H:The second part is 9 bars in length with a variation on the repeat.
+H:Also the start could shifted half a bar to the right and it would
+H:still make as much sense.
+N:As played
+Z:Bernie Stocks
+K:G
+d^c || (3.A.B.AGB ADDD | (3.E.F.GAB c2d2 | cAGB +A2F2++AF+B | cADE {G}FEFG |
+(3.A.c.AGB ADDE | (3.E.F.GAB B-c c-d | cAGB A2AB | {d}cADE {G}FEFG ||
+A^cde =fedf | ed^cA dcAG | A^c-de- ~f3g | afge fge^c | d^cAG |
+A^cde =fd(3.d.d.d | ec(3.c.c.c dcAG | A^cde ~f3g | afge fge^c | d^cAG ||
+
+X:29
+T:Gan Ainm
+S:Josie Nugent, Clare (fiddle)
+D:Private tape
+Z:Bernie Stocks
+N:As played
+H:Not too happy about airs. This does play back OK through 'playqabc'.
+K:D
+f {a}fe d2 {edc}AF GA2 | GAG F D {E}D2  D E-F A4 | f {a}fe d{edc}AF GA2 
+GAG F D {E}D2  E D4 :| A2 def g2 {ag}e dcd A4 F-G A2 def a2g 
+f {a}fe def a g{ag}f e4 | d2(3edc AF GA2 GAG F D {E}D2  E D4 ||
+
+X:30
+T:Bessy the Beauty of Rossnure Hill
+S:Gary Hastings, Belfast (flute)
+D:TV broadcast 'From Glen To Glen'
+Z:Bernie Stocks
+N:As played
+H:Not too happy about airs. This does play back OK through 'playqabc'.
+K:G
+EAe2 fd {efe}d2 ef{f}g B2 {BcB}A G2 | ABcd2 ef {gag}f2 edA-{BcB}A2GA4 :|
+(3B^cd ed2 bg {aba}g2 abbaf {gag}e2 | ^cdea2b {aba}g2 abbe2 fg2 
+(3B^cd ed2 bg {aba}g2 abbaf {gag}e2 | ABcd2 ef {gag}f2 edA-{BcB}A2GA2 ||
+
+X: 31
+T:Junior Crehan's (1)
+M:4/4
+L:1/8
+C:Junior Crehan
+S:Doug Patience, Scarriff (fiddle)
+R:Hornpipe
+Z:Bernie Stocks
+K:G
+B2GB AGEG | DGGF GABd | eg{a}ge dBGA | BAAG A2GA | B2GB AGEG | 
+DGGF GABd | eg{a}ge dBGB |1 A2G2 G3A :|2 A2G2 G2(3Bcd || edgd ed(3Bcd | 
+eg{a}ge d2(3Bcd | eg{a}ge dBGA | B2A2 A2(3Bcd | edgd ed(3Bcd | eg{a}ge d2(3Bcd |
+eg{a}ge dBAc |  B2G2 G2(3Bcd | edgd ed(3Bcd | eg{a}ge d2(3Bcd | eg{a}ge dBGA | 
+B2A2 A2GA | B2GB AGEG | DGGF GABd | eg{a}ge dBGB | A2G2 G3A ||
+
+X: 32
+T:Junior Crehan's (2)
+M:4/4
+L:1/8
+S:Doug Patience, Scarriff (fiddle)
+R:Hornpipe
+C:Junior Crehan
+Z:Bernie Stocks
+K:G
+BE{G}ED E2DE | GABG A2GA | BE{G}ED E2DE | GABG A2GA | BE{G}ED E2DE | 
+GABG A2GA | BAGE GEDE | G2GF G3A :: BA(3Bcd e3f | {a}fedf edBA | BA(3Bcd e3f | 
+{a}fedf e3f | eB~B2 dB~B2 | BAGB A2GA | BAGE GEDE | G2GF G3A :| 
+
+X: 33
+T:Gan Ainm
+M:6/8
+L:1/8
+S:Sean Donelly, Portumna (accordian)
+R:Jig
+H:Played at a session in Peppers, Feakle.
+H:Transcribed from memory, so may not be correct.
+Z:Bernie Stocks
+K:G
+GBd gdB | ded d3 | BdB BAG | FAA A3 | GBd gdB | GBd g2e | dBG AGE | GAG G3 ::
+gag gdB | ded def | gag gdB | ABA A3 | gag gdB | GBd g2e | dBG AGE | GAG G3 :|
+
+X: 34
+T:Gan Ainm
+M:6/8
+L:1/8
+S:Doug Patience, Scarriff (fiddle)
+R:Jig
+H:Very much an East Clare tune. 
+Z:Bernie Stocks
+K:G
+B2E EDE | DED D2A | B2E EDE | B-c2 B2A | B2E EDE | DED D2G | 
+EFG ABA |1 G3-G2A :|2 G3-G2D || G2A BGG | dGG BGG | G2A BAG | 
+B-c2 B2A | G2A BGG | dGG BGG | d3 ded | c3 B2A :|
+
+X:35
+T:The College Groves
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:4/4
+K:G
+D2ED AD{F}ED | E2cE dEcE | DEFA dfed | cAGE {F}EDD2 :| fd~d2 dfaf | 
+eA(3.B.c.d efge | fd~d2 dcAc | cAFE {G}EDD2 | fd~d2 fdad | ec~c2 afge | 
+d2eg fagb | agfe fdde || f2ag fd~d2 | efgf ec~c2 | fgag fddA | cAGE {G}EDD2 | 
+f2ag fd~d2 | efgf ec~c2 | d2eg fagb | agfe fdde ||  ~f2df ~f2df | e2ce e2ce | 
+~f2df ~f2df | cAGE {G}EDD2 | f2df dfdf | e2ce cece | d2eg fagb | agfe fdde ||
+
+X:36
+T:The Dairymaid
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:4/4
+K:D
+AF(3.F.F.F dFBF | AFDE FEE2 | AF(3.F.F.F BFAF | EFDE FDD2 :| 
+~d3f abag | fedf eB~B2 | ~d3f abag | faeg fd~d2 | 
+dfaf g2eg | f2df eB~B2 | dfaf gbag | faeg fd~d2 ||
+
+X:37
+T:The First House In Connaught
+H:Referred to as "Terry Moylan's" by PC. The first house in Galway after leaving 
+H:Clare by he Gort road belongs to Terry Moylan
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:4/4
+K:G
+DG(3.G.G.G AG(3.G.G.G | BGdB BGAF | DF(3.F.F.F AF(3.F.F.F | ABcA BGAF |
+DG(3.G.G.G AG(3.G.G.G | BGdB BGAF | defg agfd |1 cAFA G3E :|2 cAFA G2Bd ||
+~g3a gfdf | g2bg afde | f2de f2de | fgaf bgaf |
+~g3a gfdf | g2bg agfe | defg agfd |1 cAFA G2Bd :|2 cAFA G3E ||
+
+X:38
+T:Christmas Eve
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:4/4
+K:G
+D3E G3A | ~B2dB ABGB | ABGE DB,DE | G2BG ABGE | DB,DE ~G3A | ~B2dB ABGA | BAA2 GE~E2 
+|1 ABGE G3E :|2 ABGE G3A || BABd edeg | abge g2eg | ~a3e ~g3e | dedB ABGA | 
+BABd edeg | abge g2eg | abge d2BG | ABGE G3A :|| BG~G2 BGBd | eg~g2 egdc | BG~G2 dGBG 
+| A2(3.A.A.A ABGA | BG~G2 BGBd | eg~g2 egdg | bgag {a}gedB | ABGE G4 :||
+
+X:39
+T:The Old Bush
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Follows "Bunker Hill"
+M:4/4
+K:G
+AcGA cAA2 | d^cde fded | AcGA c3A | d2ed cAdc | AcGA cAAc | ~d3e ~f3g | 
+afge fdec |1 dged cAdc :|2 dged cAA2 || eg~g2 ec~c2 | efge c3e | efge afge | 
+dged cAA2 | eg~g2 ag~g2 | efge defg | afge fdec |1 dged cAA2 :|2 dged cAdc ||
+
+X:40
+T:The Swallowtail
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Followed by "The Congress"
+M:4/4
+K:G
+eA{c}BA eA{c}BA | (3Bcd ef gedB | G2BG DGBG | Bdef gafg | eA(3cBA EAcA | 
+(3Bcd ef g2fg | afge dBGB | cABG ABcd :| ea~a2 {b}aged | Bdef gedB | G2BG DGBG | 
+Bdef gafg | ea~a2 {b}aged | (3Bcd ef g2fa | (3gfe fe dBGB | cABG ABcd :|
+
+X:41
+T:Down The Broom
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played with "The Gatehouse Maid"
+M:4/4
+K:G
+EA(3.A.A.A A2Bd | eg~g2 egdc | BG~G2 ~G3E | {G}EDB,D GABG | EA(3.A.A.A A2Bd | 
+eg~g2 egdg | eg~g2 dgbg | {a}gedB {d}BAA2 :| a2ea {b}ageg | agbg agef | g2dg Bgdg | 
+{a}geaf gedg | a2ea {b}ageg | agbg ageg | dg~g2 dgba | gedB {d}BAA2 :|
+
+X:42
+T:The Gatehouse Maid
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:4/4
+K:G
+A2(3Bcd edBA | G3A GED2 | A2(3Bcd eB~B2 | egdB {d}BAGB | A2(3Bcd edBA | 
+GBAF GEDG | A2Bd eB~B2 | egdB {d}BAA2 || a3a {b}agef | g2dg Bgdg | a3a {b}agab | 
+gedB {d}BAA2 | ~a3b agef | ~g3e ~g3e | dega bgag | egdB {d}BAA2 ||
+
+X:43
+T:Sean Ryans (1)
+R:Jig
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:6/8
+K:G
+c2A {c}BAG | AGE DB,G, | ~A,3 EDB, | DEG AGE | c2A (3BcdB | AGE DB,G, | 
+~A,3 EDB, |1 DB,G, A,3 :|2 DB,G, A,2c ||{d}cBA ~a3 | bag edB | GBd ~g3 | 
+GBd cBA | ~c3 ~d3| ede gab | age dBG |1 EFG A2c :|2 EFG A3 ||
+
+X:44
+T:Sean Ryans (2)
+R:Jig
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+M:6/8
+K:G
+EAA A2B | cAB cAG | ~E3 ~G3 | G,B,D GFG | EAA A2B | cAB cde | gfg (3efge 
+|1 dBG A2G :|2 dBG A2a || {b}aea {b}aef | gdg gdg | aea aef | gfe deg |
+{b}aea {b}aef | gdg gdg | gfg (3efge | dBG A2a | {b}aea {b}aef | gdg gdg | 
+~a3 aef | gfe def | g2e fed | edB GBd | gfg (3efge | dBG A2G ||
+
+X:45
+T:Hornpipe Gan Ainm
+R:Hornpipe
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played after "The Rights Of Man" (but might have been a failed attempt to
+H:get into "The Plains Of Boyle".
+M:4/4
+K:D
+dB |: AFDF A2dB | (3.A.B.A FA fedc | BABd gefd | (3.e.f.e (3.d.c.B A2dB | 
+AFDF A2dB | (3.A.B.A FA fedc | BABd gefd |1 ec(3.A.B.c d2dB :|2 ec(3.A.B.c d2de ||
+|: fdcd (3.B.c.dAF | Ddcd fdcd | eA(3.A.A.A fA(3.A.A.A | (3.e.f.e (3.d.c.B A2de | 
+fdcd (3.B.c.dAF | Ddcd fdcd | eAfA gAfA |1 ec(3.A.B.c d2de :|2 ec(3.A.B.c d2dB ||
+
+X:46
+T:The Cuckoo's Nest
+R:Hornpipe
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played after "The Plains Of Boyle".
+M:4/4
+K:G
+dc |: BABA GBdg | fccB cedc | BABG FGAB | c2A2 A2dc | BABA GBdg | 
+fccB cedc | BABG FGAc |1 B2G2 G2dc :|2  B2G2 G2Bc |: dBGB dBGB | 
+dBcA G2AB | cAFA cAFA | dcBA ~G3A | BGBd gabg | afdB cedc | 
+BABG FGAc | B2G2 G2Bc :: d2g2 gabg | afd^c d3e | =f2de fgaf | 
+gfdB c2dc | BGBd gabg | afdB cedc | BABG FGAc | B2G2 G2Bc :|
+
+X:47
+T:Sherlocks
+R:Jig
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played with 48
+M:6/8
+K:G
+|: edB G2A | B2e dBd | edB G2A | BAF GFE | DB,D G2A | Bed Bcd | edB gdB | BAG ABd :|
+|: e2f gfg | eag fed | e2f gfg | efg a3 | bag agf | gfe def | gfe fdB | BAG ABd :|
+
+X:48
+T:Tell Her I Am
+R:Jig
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played with 44
+M:6/8
+K:G
+|: edB G3 | DED ~G3 | DED c2A | BGE E2d | edB G3 | DED ~G3 | AGF GBA 
+|1 GFE DBd :|2 GFE D3 |: ~B3 dBG | ~B3 dBG | A3 ABA | AGF E3 | ~B3 deg | 
+age d2B | cBA GBA | GFE D3 ::  efg efg | dBG (3.G.G.GG | eaa aga | bge e2d 
+|1 efg efg | dBG GBd | agf gba | gfe d3 :|2 def gaf | gfe d2B | cBA GBA | GFE D3 ||
+
+X:49
+T:The Repeal Of The Union
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Bar 7 is a variation every other time through, otherwise part 1 is just
+H:the first 4 bars repeated.
+H:Played with 50
+M:4/4
+K:G
+| AD{F}ED AD{F}ED | E2cE dEcE | AD{F}ED AD{F}ED | E2cE {G}EDD2 | AD{F}ED AD{F}ED | 
+E2cE dEcE | cdBc AGED | E2cE {G}EDD2 || ~d3g fdec | ABcA dBcB | Ad~d2 Ad{e}dB | 
+cAGE {G}EDD2 | ~d3g fdec | ABcd efge | afge dged | ~c3d cAGE ||
+
+X:50
+T:Toss The Feathers
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played with 49
+M:4/4
+K:G
+|: D2AD {F}EDAD | D2AD EDCE | D2AD {F}EDEG |1 AddA cAGE :|2 AcGE {F}EDD2 || 
+Ad~d2 ~d3f | ed^cd edcd | ea{b}ag ed^cd | ed(3.d.d.d Add2 |
+ea{b}ag efge | dfed cAGE | D2AD (3.E.F.GAB | ~c3d cAGE ||
+
+X:51
+T:Brodericks
+C:Vincent Broderick
+R:Jig
+S:Tony Smith, Cavan (fiddle)
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:G
+G |: {A}GED DED | GBd ege | dBA {B}AGA | BGE (3EGED | 
+{A}GED DED | GBd ege | dBA AGA | BGG +G,2G2+A :|
+|: B2d edd | gdd edB | {d}BAG GAB | AGE (3EGEA 
+|1 Bdd edd | gdd edB | {d}BAG GAB | AGE G2A :|
+|2 {A}GED DED | GBd ege | dBA AGA | BGG +G,2G2+A ||
+
+X:52
+T:The Lark On The Strand
+R:Jig
+S:Tony Smith, Cavan (fiddle)
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:G
+|: ABA {B}AGA | {d}BGE ~G3 | ABA GBd | egd edB | 
+ABA {B}AGA | {d}BGE (3.G.G.ED | GBA G2B | dBG (3.B.c.dB :|
+|: GBd ~g3 | gba gdB | GBd ~g2d | egd edB |
+GBd ~g3 | gba gfg | aba {b}age | edg edB :|
+
+X:53
+T:Master McDermott's
+R:Reel
+S:Tony Smith, Cavan (fiddle)
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:D
+DF(3.F.F.F DEFA | df{a}fe dBBd | AF(3.F.F.F DF(3.F.F.F | BFAF EGFE |
+DF(3.F.F.F DEFA | df{a}fe dBBd | AF(3.F.F.F BFAF | EGFE +D3A,3+E |
+DF(3.F.F.F DEFA | df{a}fe dBBd | AF(3.F.F.F DEFA | BdAF EA,B,C |
+DF(3.F.F.F DEFA | df{a}fe dBBd | AF(3.F.F.F BFAF | EGFE D2FA ||
+df~f2 dfaf | gabg af{a}fe | dB{d}BA Bcde | fa{b}af efde |
+fa{b}af gabg | af{a}fe dBBd | AF(3.F.F.F BFAF | EGFE D2FA |
+df~f2 dfaf | g2bg af{a}fe | dfed Bcde | fa{b}af (3efede |
+fa{b}af gabg | af{a}fe dBBd | AF(3.F.F.F BFAF | EGFE D2FE ||
+
+X:54
+T:Broderick's
+C:Vincent Brodericks
+R:Reel
+S:Tony Smith, Cavan (fiddle)
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:G
+A |: BGAG EGDG | EGDG EGDE | (3.G.G.GBd (3egedg | egdg edBA |
+G3A {d}BABd | (3egeed efga | bgag eg{a}ge | dBAc BGG2 :|
+|: b2gb (3abaga | b2gb aged | G2Bd (3egedg | (3egedg edBA |
+G3A {d}BABd | e2ed efga | bgag eg{a}ge | dBAc BGG2 :|
+
+X:55
+T:Junior Crehan's (Port An Lurga Donn?)
+C:Junior Crehan
+R:Jig
+S:Tony Smith, Cavan (fiddle)
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:D
+d |: BAF AFE | D2F EDB, | A,B,D {G}EDE | FEE E2d |
+{d}BAF AFE | (3.D.E.FD EDB, | A,B,D {G}EDE |1 FDD D2d :|2 FDD D2E ||
+|: DFA ~d3 | ede {a}fdB | def edB | ABd e2f |
+edB {d}BAF | (3.D.E.FD EDB, | A,B,D {G}EDE |1 FDD D2E :|2 FDD D3 ||
+
+X:56
+T:Gan Ainm (Ireland Green?)
+R:Reel
+S:Tulla Ceilidh Band, Clare
+D:Tulla Ceilidh Band, 'Ireland Green' (label missing)
+H:Three reels (56-58) played as a set. Very much in PJ Hayes territory.
+Z:Bernie Stocks
+M:4/4
+K:G
+cAeA cAeA | cAeA dBGB | cAeA cAef | gfge dBGB | cAeA cAeA | 
+cAeA dBGB | cBAG ABcd | efed cAAB || c2ec gcec | gcec dBGB | 
+c2ec gceg | afge dBGB | c2ec gcec | gcec dBGB | cBAG ABcd | efed cAAB ||
+
+X:57
+T:Gan Ainm 
+R:Reel
+S:Tulla Ceilidh Band, Clare
+D:Tulla Ceilidh Band, 'Ireland Green' (label missing)
+Z:Bernie Stocks
+M:4/4
+K:G
+cE~E2 cded | cE~E2 G2AB | cE~E2 cded | cABG A3B | cE~E2 cded | 
+cE~E2 G2AB | c2cd eged | cABG ABcd || eaag efed | cdef g2fg | 
+eaag eged | cABG ABcd | eaag efed | cdef g2fg | afge fded | cABG A3B ||
+
+X:58
+T:Gan Ainm 
+R:Reel
+S:Tulla Ceilidh Band, Clare
+D:Tulla Ceilidh Band, 'Ireland Green' (label missing)
+Z:Bernie Stocks
+M:4/4
+K:G
+|: c2Bc AGEF | G2BG dGed | c2Bc AGEG | AcBc A3B :| c3d eg~g2 | eaag eged | 
+c3d eg~g2 | eaag a2ed | c3d eg~g2 | eaag eged | c2Bc AGEG | AcBc A3B ||
+
+X:59
+T:The Yellow Tinker
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:'G2' in bar 13 slid heavily
+M:4/4
+K:C
+DG~G2 DF~F2 | DGdG eGdG | DG~G2 +D3G,3+E | (3FEFCF AB(3cBc |
+DGGF DE(3FEF | (3.D.G.G dG eGdG | DG~G2 +D3G,3+E | (3FEF CF AdcA ||
+G2dG eGdG | G2dG (3.e.e.d cA | G2eG dGdA | (3.c.d.c AF CFAF |
+G2(3.G.G.G e2(3.G.G.G | d2(3.G.G.G edcA | d^cde fefd | (3cdc AF CFAF ||
+
+X:60
+T:Coppers And Brass
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+H:'f2' in bar 17 slid heavily
+M:6/8
+K:G
+{d}(3BABB GBd | ~c3 Adc | ~B3 GBd | (3cBAG FGA | 
+~B3 ~G3 | (3.c.c.Bc ABc | dfd cAF | AGF G2A | 
+{d}(3BABB GBd | ~c3 Adc | ~B3 GBd | (3cBAG FGA |
+(3.B.B.GG (3.B.B.GG | AFF (3.A.B.cA | BdB {d}cAF | AGF G(5ABcde || 
+f2f {g}fed | {e}dcA AGF | GBd ~g3 | afd {e}dcA | 
+^cde fed | cAG FGA |  (3BcdB {d}cAF |1 AGF G2e :|2 AGF G2f || 
+gdB (3.g.g.dB | (3.e.e.cA ecA | gdB {d}BAB | {d}cAG FGA | 
+(3.g.g.dB (3.g.g.dB | ecA ecA | ~B3 ~G3 |  (3.c.c.AF G2f | 
+gdB (3.g.g.dB | (3efgf ecA | ~B3 ~G3 (3.c.c.AG FGA | 
+(3BcdB GEG | cec ABc | dfd (3cBAF | AGF G3 ||
+
+X: 61
+T:The Repeal of the Union
+R:Reel
+M:4/4
+S:Paddy Canny, Clare (fiddle)
+D:Private tape
+Z:Bernie Stocks
+N:As played
+K:G %i.e. D with flat 'c'
+D2(3.E.E.D ADED | BEcE dEBE | D2(3.E.E.D A2{F}ED | ~E2cE {F}EDD2 |
+dD{F}ED AD{F}ED | BEcE dEBc | dc(3.B.B.c A2{F}ED | ~E2cE {F}EDD2 ||
+~d3g fded | ABcA dBcB | Ad^cd fdcA | GEcE {F}EDD2 |
+Ad~d2 fded | ABcd ef{a}ge | f-~g2e cAdB | B-c2d cAGE ||
+
+X: 62
+T:The Cliffs of Moher
+R:Jig
+M:6/8
+S:Paddy Canny, Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+H:A major version of a usually minor tune.
+H:'c' very mobile and the 'Bb' slid, actually a slid 'B' that
+H:never quite makes it.
+K:G
+~g3 agf | d2g fdc | _B2G AGF | DGG ABc | dgg agf | dgg fdc | _B2G AGF |
+DC_B, G,3 | ~g3 agf | dgg fdc | _B2G AGF | DGG ABc | d(3.g.g.g agf |
+dgg fdc | _B2G AGF | DGF GAc || ~d3 cAG | Add cAG | FGA {d}cAG | FGA cBc |
+~d3 cAG | Add cAG | FGA {d}cAG | DGF G2A | ~d3 cAG | Add cAG |
+FGA {d}cAG | FGA ~c3 | Add edd | ^cdd Bdd | GBd AFA | GBd ~f3 ||
+
+X:63
+T:The Star of Munster
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+H:'f2' in bar 17 slid heavily, as are ALL long notes in bars 23 & 24
+H:Very similar to Tommy Potts' version
+M:4/4
+K:F
+{c}BAGB AGFD | GFDF {G}FDCF | DE(3FEF GABc | dg(3.g.g.g fdcA |
+{c}BAGB AGFD | GFDF {G}FDCF | DE(3FEF BABc | defc AGG2 |
+~B3A G3F | (3.F.F.D CF DFCF | DE~F2 GABc | dg(3.g.g.g fdcA |
+dcAd cAGc | AGFD GFD2 | G,A,B,D GABc | defc AGG2 ||
+^fg{a}g f-gd(3.d.d.d | gdad gdde | f2{g}fe fc(3.c.c.c | ^fgag fdcA |
+dg{a}g ^f-gd(3.d.d.d | gdad gdde | f4 a~g4 | ~a3g ^fdcA :|
+
+X:64
+T:The Bunch Of Green Rushes
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:G
+cAGE =F3d | czGc Ad~d2 | cAGE =Fzag | fded Ad~d2 :|
+Ad~d2 cAGE | =FGAc {d}cAGc | Ad~d2 cAGA |1 cdeg {a}gedc :|2 cdeg {a}gece ||
+d2fd adfd | (3.c.c.c ec gcec | d2fd adfd | cAGc Addc |
+d2fd adfd | c2{d}cB cd(3efg | (3agf ge fded | cAGc Ad~d2 ||
+
+X:65
+T:The Graf Spee
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:"The tune he brought back from America"
+M:4/4
+K:C
+{F}EDCD EG(3.G.G.G | AGcG AGcG | EzCD EG(3.G.G.G | EGcG EDD2 |
+{F}EDCD EG^FG | AG^FG (3.E.F.G cG | EzCD EG(3.G.G.G | EGcG EDD2 ||
+e^fed cBcA | GE~E2 GAcd | e^fed cBcA | GEcE {F}EDD2 |
+edcB cAGE | Gced cAAd | eaag (3efg ed | cAGE {F}EDD2 ||
+eg~g2 {a}gedg | ea{b}ag ~a3g | eged cBcd | eaag (3efg dg :|
+ec{d}cB cGAG | EGAc {d}cAGE | GAcd ezdc |1 AGcE {F}EDDg :|2 AGcE {F}EDD2 ||
+(3.e.^f.g c2 (3.e.f.g c2 | (3.^f.g.a d2 (3.f.g.a d2 | ecgc ecdc | ABcd edd2 |
+(3.e.e.e ae gefd | ecdB cAGE | GAcd ezdc | AGcE {F}EDD2 ||
+
+X:66
+T:The Boys Of Ballysodare
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+H:Initial 'd' and 'g' of parts 1 and 2 slid dramatically.
+M:4/4
+K:G
+dG(3.G.G.G dGeG | dG(3.G.G.G A2Bc | dG(3.G.G.G dedB | AcBA GEDG |
+dG(3.G.G.G dGeG | dG(3.G.G.G BABc | d^cdB eBdB | (3ABc BA GEDf ||
+g3a {b}ag(3agf | (3.g.g.f ga bgef | gzdg bgaf | {a}gfed ^cdef |
+(3.g.g.f ga bg(3.a.g.f | gfga bgdg | bgag {a}gedB | (3ABc BA GEDc ||
+Bd(3.d.d.d Bdad | Bdgd BAAc | Bd(3.d.d.d BcdB | (3ABc BA GEDc |
+Bd(3.d.d.d Bdad | Bdgd BAAd | eB{d}BA ~B3B | AcBA GEDE || G4
+
+X:67
+T:Trip To Athlone
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:'c's are very mobile
+M:6/8
+K:G
+|: ABA D2d | {e}dcA {B}AGE | (3ABcG ABc | dAB cde |
+ABA D3 | (3.d.d.cA {B}AGE | GFG Ade |1 fd^c dcB :|2fd^c d2e ||
+|:{g}fed edc | AdB cde | {g}fed efg| ABc def | 
+~g3 age | dcA AGE | GFG Ade |1 fd^c d2e :|2 fd^c dcB ||
+
+X:68
+T:The Boys Of Ballysodare
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:Not just a transposition of the usual 'G' version, but has a remarkable tonality
+H:of its own.
+H:The initial 'c' , the 'F' in bar 5, and the long 'f' in bar 2 of part 2 are 
+H:heavy slides
+M:4/4
+K:C %i.e. F
+cF(3.F.F.F cFdF | cF(3.F.F.F AGGA | cF(3.F.F.F edcA | GFAG  (3FED CF |
+AF~F2 F4 | (3.A.A.F cF dFcF | DEFA dcAF | GcAG (3FED FA ||
+de^fg ~a3g | ^f3g (3agf de | {a}^fefg abag | ^fded Adde |
+de^fg ~a3g | ^f3g (3agf de | a^fge fdcA | GcAG =FDDc ||
+Ac(3.c.c.c Ac^fc | Ac^fc AGGc | Ac~c2 dc{d}cA | GcAG FDDc |
+Ac~c2 Ac^fc | Ac^fc AGGc | dA(3.A.A.A AGAF | GcAG FDDA ||
+
+X:69
+T:Johnny's Wedding
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:The 'B's are slightly flat, giving the first part more than a hint of G minor.
+H:The long 'G' in bar 4 is a slide, as is the 'b' in bar 5 of part 2.
+M:4/4
+K:C %F? Bb? G?
+(3.B.B.G dG BGGB | AFcF AFFA | BGdG BGGB | A^FDF G4 |
+(3.B.B.G dG BGGB | AFcF AFFA | GBAc Bdcd | {e}dc^fa g3A |
+BGdG EGGB | AFcF DFFA | BG(3.d.d.G BGdG | A^FDF G4 |
+(3.B.B.B dG BGGB | AFcF AFFA | GBAc Bdcd | {e}dc^fa g3a ||
+|: bg{a}g^f afde | ^fdcA A=FFA | bg(3.a.a.^f {a}gfd^c | dg^fa +g3B3+a |
+b2ag {a}g^fde | ^fd(3.c.c.A A=FFD | GBAc Bdcd |1 {e}dc^fa g3a :|2 {e}dc^fa g3A ||
+
+X:70
+T:Lucy Campbell
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:Alternative part 3: afaf defg | afaf bgef | afaf defg | dBAF ADD2 ||
+M:4/4
+K:D
+B |: AD(3FED +D4A,4+ | (3.B.B.A FA BE~E2 | +A2D2+(3FED dBed |1 {e}dBAF ADDB :|2 {e}dBAF ADDc ||
+dBAB d2fe | d2cA BE~E2 | dBAB df{a}fe | dBAF ADDc |
+dBAB dzfe | dB~B2 gB~B2 | dBAB df{a}fe | dBAF ADD2 ||
+(3.a.a.^g af def=g | a^gaf b=gef | afaf df{a}fe | dBAF ADD2 |
+(3.a.a.^g af def=g | a^gaf b=gef | {a}gfge fgfe | dBAF ADDc ||
+df~f2 dfef | df~f2 afef | df(3.g.f.e fgfe | dBAF ADDc |
+df~f2 dfef | df~f2 afef | ga(3.g.g.e fgfe | dBAF ADDB ||
+
+X:71
+T:Bunker Hill
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:The sharp 'G's in part three may or may not be a concious 'lift' 
+H:into A Major. I have watched him play this and he does lift the hand 
+H:up in phrases involving the high 'b'. Maybe even a 2nd position shift?
+M:4/4
+K:G
+GE~E2 +D4G,4+ | (3.E.F.G AB {d}c2Bc | ABAG EG~G2 | ABcA (3.d.d.d cA |
+GE~E2 DCDE | FGAB (3cBc Bc | (3.A.A.B AG EG~G2 | AB{d}cA (3.d.d.d cA ||
+Gc~c2 dc~c2 | dc (3.d.c.B cBAG | Ad~d2 fd~d2 | Ad (3.d.d.c dcAG |
+(3EFG AB cedB | cedB (3cBc Bc | (3dcB (3cBA BGAG | ABcA +d3D3+g ||
+|: fd (3.d.d.d fdad | fddf a2g-f | {a}ge (3.e.e.e ^gebg | a^geg b2a=g |
+fd~d2 Ad~d2 | (3.d.d.c AB czAB | {d}cB (3.c.B.A BGAG |1 ABcA d3g :|2 ABcA d2cA ||
+
+X:72
+T:Gan Ainm (The Heather Breeze?)
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+H:Slides on long G's and F's in part one, and long 'g3's in part 2
+D:Home tape of unknown provenance
+M:4/4
+K:C
+|: G2~G2 dGBG | F2~F2 cFDF | G2~G2 dGFG | (3.F.F.G Ac fcAF |
+G2~G2 dGBG | F2~F2 cFAG | {A}GF (3.D.D.E FGAc |1 fcAF GFDF :|2 fcAF GA_Bc ||
+|: dg{a}g^f g3a | (3.b.a.g {a}g^f dcAc | df{a}fe {a}fefg | (3.a.g.^f g^f dcAc |
+dg{a}g^f g3a | ba (3.g.g.^f gfde | ~f2af g^fdc |1 (3.B.c.d A^F GA_Bc :|2 (3.B.c.d A^F G=FDF ||
+
+X:73
+T:The Pigeon On The Gate (Em)
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:D
+|: BE(3.E.E.E BEdE | cE(3.E.E.E dBAF | D2(3FED AD(3.F.F.D | EFGA BAFA |
+BE(3.E.E.E BEdE | cE(3.E.E.E dBAF | DEFA dBec | dBAF EFGA :|
+~B2-Be (3.e.e.f ed | cdef gfed | BAFA dcdB | AF~F2 DEFA |
+~B2ed efed | cdef g2fg | (3agf ge fdec | dBAF EFGA |
+~B2-Be (3.e.e.f ed | cdef gfed | BAFA dcdB | AF~F2 DEFA |
+~B2ed efed | cdef g2{a}gf | gbag fagf | egfe dcBA ||
+
+X:74
+T:The Pigeon On The Gate (Gm)
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:I can't make out the phrase 2nd half bars 2,6
+H:Long 'F' a slide
+M:4/4
+K:C
+|: dG(3.G.G.G dGeG | dG(3.G.G.G eGcG | F3d cF(3.F.F.F | FcBd cFAF |
+dG(3.G.G.G dGeG | dG(3.G.G.G eGcG | FGAc dgeg | ^fdcA GABc :|
+dg~g2 ^fgaf | gbag fagf | dc (3.A.A.c ^fcAd | cA(3.G.G.^F DcAc |
+dg~g2 ^fgaf | gbag fagf | dc (3.A.A.c ^fcAd | c^FAc G2(3.A.B.c |
+dg~g2 a2-b2 | (3.a.a.g ^fd cAdc | AF~F2 CFAF | CFAF cFAF |
+dg~g2 ag~g2 | ^fg(3.a.a.f gbag | fagf de(3.f.f.d | cFAc GABc ||
+
+X:75
+T:The Gallowglass
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+Z:Bernie Stocks
+N:As played
+D:Home tape of unknown provenance
+M:6/8
+K:F
+A |: {d}BAG dAc | BGG G2A | {d}BAG def | cAF FGA |
+~B2G dAc | BGB d2c | BAG ^FGA |1 {d}BGG G2A :|2 {d}BGG G3 ||
+{a}g^fg (3dedc | BGG G2A | {d}BAG def | cAF F2g |
+{a}g^fg d2c | BGG dcA | BAG ^FGA | BGG G2g |
+{a}g^fg (3dedc | BGG G2A | {d}BAG def | cAF F2g |
+{a}gdg fdf | ecA BGD | _EGB dAc | BGG G3 ||
+
+X:76
+T:Miss Johnston
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:G
+|: BcdB G2~G2 | DGBG DGBG | BcdB GBAG | FGAB {d}cAdc |
+BcdB G2~G2 | DGBG DGBc | (3dcB cA BG (3.A.A.F | DEFG AB{d}cA :|
+|: Bcde dB~B2 | dBgB aBgB | Bcde dBcB | A2ag fedc |
+Bcde dB~B2 | dBgB aBgB | (3.f.f.g fe defg | ~a3g fdcA :|
+
+X:77
+T:The Wexford Reel
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+H:'g2' and 'B2' in bar 1 dramatic slides
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+M:4/4
+K:C
+|: g2dc B2GF | DG~G2 DGBG | g2dc B2GF | DF~F2 (3.D.D.F FG |
+g^fdc BGAG | DFGB g3g | {a}g^f (3.g.g.e =fdec |1 dBGF DGG2 :|2 dBGF DGGA ||
+|: _B2GA Bcdc | _BGGB (3dcB GA | (3._B.B.B GA Bcdc | _BGAF DEFA |
+{c}_BAGA Bcdc | _BFGB g3g | {a}g^f (3.g.g.e =fdec |1 d_BGF DGGA :|2 d_BGF DGG2 ||
+
+
+Bernie Stocks (B.Stocks@ulst.ac.uk) 20/2/97

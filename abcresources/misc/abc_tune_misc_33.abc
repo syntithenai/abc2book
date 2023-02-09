@@ -1,0 +1,1276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% SESSION TUNES II %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+		  	Compiled and deranged by John B. Walsh
+					
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     This file contains a number of well-known Irish jigs, reels,
+hornpipes, and polkas, written out in abc notation. All of them (with
+one or two possible exceptions that I slipped in bacause I liked them)
+are reasonably common session tunes. The notation is straightforward,
+and can be read directly with a little practice, or it can be
+converted to standard music notation with Chris Walshaw's program
+abc2mtex. The notation is explained in the documentation for the program
+abc2mtex, and can be found on the ceolas archive at celtic.stanford.edu.
+
+     There may be quite different versions of some of the tunes floating
+around. A few tunes are transcribed from particular performances, but in general I have tried to give settings which are close to what I hear
+played in sessions.  
+
+     Quite a lot is left to the player. The settings are basic: the only
+decorations indicated explicitly are rolls, triplets and quadruplets;
+first and second endings are only written out when they are
+substantially different.
+
+      There are notes on the tunes in an accompanying file,
+sessionTunesII.txt. I apologize in advance for the many typos which have
+surely escaped my proof-reading. Please let me know about any obvious
+errors in either the tunes or the notes, or any settings which seem
+too much at variance with what is played in your own area. I'd also be
+interested in any more lore about the tunes.
+
+     When I knew the composer of a tune, I indicated it, but I only know
+the composers of a couple of them. If any others have known composers, I
+would appreciate hearing about it. As far as I know, all the the tunes
+are in the public domain.
+
+     To print them out, first process this file with the program
+abc2mtex, which will convert it to a Music TeX file, and then run that
+file through Music TeX. See the abc2mtex documentation to see how to
+do this. Both abc2mtex and Music TeX are available for anonymous ftp
+on the ceolas archive at celtic.stanford.edu.
+
+     Some technicalities: the tunes are set-up for printing out at eight
+bars per line (saves paper) with Music TeX's 17 point music font, with
+the music right-justified. The file header.tex, where abc2mtex looks
+up the parameters, has entries for the page length, width, margins and
+fonts: 
+
+
+				% page length
+				\vsize=9.5in
+				% page width
+				\hsize=7.7in
+				% top margin
+				\voffset=-0.25in
+				% left margin
+				\hoffset=-0.75in
+				\musicsize=17\relax
+
+     This works on 8 1/2 x 11 paper, but may not be good for A4, which
+is narrower. The output might look better at 4 bars per line with a
+larger font, (\musicsize=20) but to make it look nice one has to do
+two things: first, replace the backslashes by asterisks at the end of
+each 4-bar line (this causes the program to right-justify the lines) and
+then fool around with the "E:" field, which governs the note spacing.
+Increase the number if the lines are too cramped, (e.g. replace E:7 by
+E:10) decrease it if they overflow. The right-justification of lines
+looks good if the note spacing is right, but it can look awful if the
+note spacing is wrong. To turn it off, just remove all the asterisks
+from the end of the lines with a global search-and-replace. 
+
+
+	Enjoy!
+	John Walsh
+	walsh@math.ubc.ca
+	May 11, 1995
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  JIGS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+X:1
+T:Haste to the Wedding
+M:6/8
+R:jig
+E:9
+I:speed 350
+K:D
+A|AFA Agf|ede fdB|AFA AGF|GFG EFG|\
+AFA Agf|ede fdB|AFA faf|ded d2:|*
+a|afa afa|bgb bgb|afa afa |gfg efg|\
+a3 ~f3|ede fdB|AFA faf|ded d2:|**
+
+X:2
+T:My Darling Asleep
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+e|fdd cAA|BAG A2G|FAA def|gfg eag|\
+fdd cAA|BAG A2G|FAA def|gec d2:|*
+A|FAA ABA|FAA BAG|FAA def|gfg eag|\
+fdd cAA|BAG A2G|FAA def|gec d2:|**
+
+X:3
+T:Behind the Haystack
+T:Munster Buttermilk
+E:11
+R:jig
+I:speed 350
+M:6/8
+K:D
+A|d2e fdB|d2e fdB|AFE ~E3|AFE ~E3|\
+d2e fdB|d2e fdB|AFD ~D3|AFD D2:|*
+A|~B3 BAF|ABc d2B|AFE ~E3|AFE ~E3|\
+~B3 BAF|ABc d2B|AFD ~D3|AFD D2:|*
+f|~g3 faf|ede fdB|AFE ~E3|AFE ~E3|\
+~g3 faf|ede fdB|AFD ~D3|AFD D2:|**
+
+X:4
+T:Rambling Pitchfork, The
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+DE|~F3 AFF|=cFF AFD|~G3 ABc|ded cAG|\
+EFF AFF|=cFF AFD|GFG BGB|AFD D2:|*
+A|d2e fdf|ecA AFA|d2e fed|(4fgaf gfe|\
+d2e fdf|ecA AGF|~G3 BGB|AFD D2:|**
+
+X:5
+T:Sporting Pitchfork, The
+S:P. Glackin
+E:10
+R:jig
+I:speed 350
+M:6/8
+K:G
+AG|~F3 ~E3|~F3 DEF|GFG AGE|cAG FGA|\
+BdB BAG|ABA ABc|dcA AGF|AGF G2:|*
+B|d2e fed|fgf def|gfg bag|fdd d2c|\
+BdB BAG|ABA ABc|dcA AGF|AGF G2:|** 
+
+X:6
+T:Tatter Jack Walsh
+R:jig
+I:speed 350
+E:10
+M:6/8
+K:DMix
+de|~f3 ded|cAB c2d|cAF GFG|Ad^c d2e|\
+fef ded|cAB c2d|cAF GFG|Ad^c d2:|*
+A|dfa afd|dfa afd|ceg gfg|ceg gag|\
+fef ded|cAB c2d|cAF GFG|Ad^c d2:|**
+
+X:7
+T:Three Little Drummers
+R:jig
+M:6/8
+I:speed 350
+K:ADor
+|eAA eAA|BAB GBd|eAA eAA|def gfg|\
+eAA eAA|BAB GBd|efg edB|BAG A3:|*
+|eaa aga|bab ged|eaa aga|bab g2d|\
+eaa eaa|bab ged|efg edB|BAG A3:|**
+
+X:8
+T:Cook in the Kitchen, The
+R:jig
+M:6/8
+E:10
+I:speed 350
+K:G
+DGG GAG|FDE=F3|DGG GFG|Add cAG|\
+DGG GAG|FDE=F2d|cAG FGA|BGG G2:|*
+A|~B3 BAG|ABA AGF|~G3 FGG|Add cAG|\
+~B3 BAG|ABA ABc|dcA AGF|AGF G2:|*
+B|d2e f2g|a2g fed|cAG FGA|BGB AFD|\
+d2e f2g|a2g fed|cAG FGA|BGG G2:|**
+
+X:9
+T:Swallowtail, The
+T:Dancing Master, The
+I:speed 350
+R:jig
+M:6/8
+K:EDor
+EF|GEE BEE|GEE BAG|FDD ADD|ded =cAF|\
+GEE BEE|GEE B2c|ded =cAF|GEE E2:|*
+|Bcd e2f|e2f edc|Bcd e2f|edc d3|\
+Bcd efe|efe edc|ded =cAF|GEE E2:|**
+
+X:10
+T:Fraher's
+R:jig
+E:11
+M:6/8
+I:speed 350
+K:DMix
+A3 GED|~D3 GED|~A3 GEA|~D3 DEG|\
+A3 GED|~D3 GED|ABA GEA|~D3 D3:|*
+ABA d2A|d2A AGE|GAB c2A|BGE E3|\
+Add def|dcA AGE|ABA GEA|~D3 D3:|**
+
+X:11
+T:Trip to Sligo, The
+Z:In O'Neill's as The Lark in the Morning.
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:ADor
+D|E2e BGE|D2d AFD|E2e BGE|GFE e2f|\
+gfe dcB|ABG FED|EFG ABc|BGF E2:|*
+B|eBe gfe|dAd fed|eBe gfe|faf gfe|\
+faf gfe|dcB AFD|EFG ABc|BGF E2:|**
+
+X:12
+T:Tom Billy's \#2
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:AMix
+~a3 ece|edB ~A3|eaa ece|dcB Ace|\
+~a3 ece|edB ~A3|GBd gfe|fdB Ace:|*
+~g3 ~a3|bag fed|faf g2e|edB def|\
+~g3 ~a3|bge gab|age dBe|~A3 Ace:|**
+
+X:13
+T:Tony Rowe's
+E:10
+M:6/8
+R:jig
+I:speed 350
+K:D
+E|~F3 AFE|EDB, A,B,D|FEF GFG|ABF AFE|\
+~F3 AFE|EDB, A,B,D|FEF GFG|AFD D2:|*
+e|f2 d dcd |edc Bcd|f2d dcd|ABF Ade|\
+f2d dcd|edc Bcd|faf gec|dfe d2:|**
+
+X:14
+T:Battering Ram, The
+E:10
+M:6/8
+R:jig
+I:speed 350
+K:D
+B|dBG A2G|dBG G2B|dBG AGE|GED D2 B|\
+ded BAG|ded BAG|AGA BAB|GED D2:|*
+d|deg aga|bge edB|deg aga|bge ega|\
+b2g age|ged ege|dBG ABA|GED D2:|*
+d|B2G A2G|B2D D2B|BAG AGE|GED D2d|\
+B2G A2G|B2G BdB|AGA BAB|GED D2:|**
+
+X:15
+T:Mist on the Mountain, The
+T:Mist Covered Mountains
+C:Junior Crehan
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:ADor
+G|EAA ABd|e2 A AGE|~G3 GAB|dBA GED|\
+EAA ABd|e2A AGE|efg dBG|BAG A2:|*
+a|age a2b|age edB|AGE G2A|BAB GED|\
+age a2b|age edB|AGE G2A|BAG A3|*
+age a2b|age edB|AGE G2A|BAB GED|\
+EDE G2A|BAG ABd|efg dBG|BAG A2||**
+
+X:16
+T:Willie Coleman's
+R:jig
+E:10
+S:M. Molloy
+I:speed 350
+M:6/8
+K:G
+A|B2G AGE|GED G2d|edB dgb|age dBA|\
+B2G AGE|GED G2d|edB dBA|BGG G2:|*
+~g3 edB|dgb age|~g3 edB|GBd e3|\
+~g3 edB|dgb age|dBd gdB|AGF G3:|**
+
+
+X:17
+T:Portroe Jig, The
+T:Out on the Ocean
+E:10
+S:P. Canny and P.J. Hayes
+R:jig
+M:6/8
+I:speed 350
+K:G
+GA|B3 BAG|BdB A2B|GED G2A|BAB GED|\
+~B3 BAG|BdB A2B|GED G2A|BGF G:|*
+Bd|efe edB|efe edB|d2d dBA|ded dBA|\
+G2A B2d|efe dBA|GED G2A|BGF G:|**
+
+X:18
+T:Trip to Athlone, The
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+B|ABA ~D3|d=cA AGE|ABA ABc|dAB cde|\
+ABA ~D3|d=cA AGE|GFG Ade|fdc d2:|*
+e|fed edc|AdB cde|fed edc|ABc def|\
+~g3 age|ed=c AGE|GFG Ade|fdc d2:|**
+
+X:19
+T:Pipe on the Hob, The
+R:jig
+E:11
+I:speed 335
+M:6/8
+K:ADor
+AB|c3 edc|edc BAG|~A3 ~g3|eaa ged|\
+c3 edc|ed^c deg|age dBe|~A3 A:|*
+ef|~g3 geg|age dBe|~A3 ~g3|eaa gef|\
+g3 geg|age deg|age dBe|~A3 A2:|*
+B|c3 dcd|ecA AGE|c3 dcd|ecA A2B|\
+cBc dcd|ede gab|age dBe|~A3 A2:|**
+
+
+X:20
+T:Bride's Favorite, The
+T:O'Brien's
+E:10
+I:speed 350
+R:jig
+M:6/8
+K:G
+D|~G3 BAB|GBdgdB|AFdcAF|GBd gdB|\
+~G3 BAB|GBd gdB|AFd cAF|AGF G2:|*
+d|~g3f2a|gdB GBd|~g3 fed|(4efgf e2f|\
+~g3 fga|gdB GBd|cAd cAF|AGF G2:|*
+D|GBd ~g3|edc BcA|GBd ~g3|faf g2a|\
+bgb afa|geg fed|ed^c def|gaf g2:|**
+
+X:21
+T:Port Shean Tseain
+T:Old John's Jig
+E:10
+S:Bill Dundon
+I:speed 350
+R:jig
+M:6/8
+K:ADor
+cAA cAA|GEF GAB|cAA A2G|Add ded|\
+cAA cAA|GEF GAB|cde =fed|cAG A3:|*
+efg eaa|ged cAG|efg eaa|bag a3|\
+efg eaa|ged cAA|cde =fed|cAG A3:|**
+
+X:22
+T:Rakes of Kildare, The
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:ADor
+G|EAA AGA|Bcd e2f|~g3 ege|dBA G3|\
+EAA AGA|Bcd e2f|~g3 edB| A3 A2:|*
+a|aea aea|aga b2a|~g3 ege|dBA G2a|\
+aea aea|aga b2a|~g3 edB| A3 A2 a|*
+aea aea|aga b2a|~g3 ege|dBG BAG|\
+EAA AGA|Bcd e2f|~g3 edB| A3 A2||**
+
+X:23
+T:Bank of Turf, The
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:D
+dB|ABA DFA|BAF DFA|dcd ede|~f3 def|\
+~g3 gab|afd B3|efe e2d|cBA AdB|*
+ABA DFA|BAF DFA|dcd ede|~f3 def|\
+~g3 gab|afd B2A|ABA efe|d3 d||*
+cd|eAA efg|fdd fga|gfe fed|edB ABd|\
+eAA efg|fdd fga|gfe dcB|A3 z:|**
+
+X:24
+T:Doctor O'Neill
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:D
+A|dcd AFD|E2F G2A|~B3 Bcd|AGF EFA|\
+dcd AFD|E2F G2A|~B3 Bcd|AFD D2:|*
+A|dcd ceA|dfe dcB|AFA Bcd|AGF E2A|\
+dcd ceA|dfe dcB|AFA Bcd|AFD D2:|*
+g|fef afd|dcd fed|~g3 faf|gee e2g|\
+fef afd|dcd fed|~g3 fag|fdd d2:|*
+g|fdf ece|dcB AFd|AFd AFd|AGF E2g|\
+fdf ece|dcB AFA|~B3 Bcd|AFD D2:|*
+E|~F3 ~G3|FAF FED|FEF GFG|AFD E2D|\
+~F3 ~G3|FAF FED|~B3 Bcd|AFD D2:|**
+
+X:25
+T:Cherish the Ladies
+R:jig
+S:P. Glackin
+I:speed 350
+M:6/8
+K:D
+|dFF AFE|DFA AFA|BEE CEE|FEF ABc|\
+dFF AFE|DFA AFA|Bcd efg|fdc d3:|*
+|dfd cec|dcd AFA|BEE CEE|FEF ABc|\
+dfd cec|dcd AFA|Bcd efg|fdc d3:|*
+A|~d3 fed|afd fed|~B3 ~g3|ece gfe|\
+dcd fed|afd gbg|fdB AGF|GEF GFE|*
+|~d3 fed|afd fed|~B3 ~g3|ece gfe|\
+~a3 bgb|afa g2e|fdB AGF|GEF GFE||*
+|ADD AGF|ADD AdB|ADD AGF|GEF GFE|\
+ADD AGF|ADD AB=c|BGB AFA|GEF GFE:|*
+|DFA dAF|DFA BGE|DFA dAF|GAG GFE|\
+DFA ~d3|~c3 AB=c|BGB AFA|GEF GFE:|**
+
+X:26
+T:Frieze Britches, The
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:DMix
+|FED EFG|AdB cAG|~A3 BAG|(4FGAF GED|\
+FED EFG|AdB cAG|~F3 GEA|~D3 D3:|*
+|d2e fed|efd cAG|~A3 BAG|(4FGAF GED|\
+d2e fed|efd cAG|~F3 GEA|~D3 D3:|*
+|~D3 c3|AdB cAG|AB^c dfd|ded cAF|\
+~D3 c3|(4BcdB cAG|~F3 GEA|~D3 D3:|*
+|d2e fdd|Add fdd|^c2d eAA|fed eAA|\
+d2e fdd|add fed|faf gfe|dfe d3:|*
+e|fed ed^c|ded ^cAG|~A3 BAG|(4FGAF GED|\
+fed ed^c|ded ^cAG|~F3 GEA|~D3 D2e|*
+|fed ed^c|ded ^cAG|~A3 BAG|(4FGAF GED|\
+fef gfg|afd ^cAG|EFF GEA|~D3 D3||**
+
+\vfill
+\eject
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%  SLIPJIGS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+X:27
+T:Humors of Whiskey, The
+T:Dever the Dancer
+R:slip jig
+E:13
+I:speed 350
+M:9/8
+K:G
+BEE BEF G2A|BEE BAG FGA|BEE BEF G2A|B^cd ABG FED:|*
+d2d cAF G2B|ded def gfe|ded cAF G2A|Bcd ABG FED:|**
+
+X:28
+T:Drops of Brandy
+R:slip jig
+E:13
+I:speed 350
+M:9/8
+K:G
+ded BGB BGB|ded BGB cBA|ded BGB BGB|cBc AFA cBA:|\
+GBd gdB gdB|GBd gdB cBA|GBd gdB gdB|cBc AFA cBA|\
+GBd gdB gdB|GBd gdB cBA|GBd gba gdB|cBc AFA cBA||**
+
+X:29
+T:Boys of Ballisodare, The
+R:slip jig
+E:12.5
+I:speed 325
+M:9/8
+K:EDor
+D2G G2A B2d|ege d2e g3|D2G G2B d2B|ABA B2G E3|\
+D2G G2A B2d|ege d2e g2a|b2a g2e d2B|ABA B2G E3||\
+B2d d2c d3|ded e2f g3|B2d d2B d2B|ABA B2G E3|\
+B2d d2c d3|ded e2f g2a|b2a g2e d2B|ABA B2G E3||**
+
+X:30
+T:Phis Fliuch, An
+T:Choice Wife, The
+E:13.5
+R:slip jig
+M:9/8
+I:speed 325
+K:DMix
+FGA AFA c3|BAG (4FGAF GED|FGA AFA d2 d|d(3.g.f.e dcA GED:|*
+d^cd fge =c2A|d^cd faf ~g3|aba ged c2A|BAG (4FGAF GED:|*
+FGA AFd AFd|AFd AFd GED|FGA AFA c3|BAG (4FGAF GED:|*
+~D3 ~D3 c3|c2B c2A GED|~D3 ~D3 d3|d(3.g.f.e dcA GED:|*
+d^cd fge =c2A|d^cd faf ~g3|aba ged c2A|BAG (4FGAF GED:|**
+
+\vfill
+\eject
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  REELS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+X:31
+T:Toss the Feathers (D)
+R:reel
+E:7
+M:C|
+I:speed 350
+K:DMix
+|D2(3FED ADFD|ABcA GE~E2|D2(3FED ADFA|defd cAGE|\
+D2(3FED ADFD|ABcA GE~E2|cABG ~A3^c|d2ed cAGE:|*
+|Ad~d2 Ad~d2|Ad~d2 ed^cd|eaag ~a3g|eaag ed^cd|\
+ef(3gfe a2ge|f2ed cA~A2|cABG ~A3c|d2ed cAGE:|**
+
+X:32
+T:Toss the Feathers (Em)
+R:reel
+E:7
+M:C|
+I:speed 350
+K:EDor
+|EB~B2 dB~B2|EBBA ~F3A|BE~E2 BABd|(3efg fe dBAF|\
+EB~B2 dB~B2|EBBA FEFA|BE~E2 BABd|(3efg fe dBA2||*
+|(3Bcd ed e3 e|fede fe~e2|febe febe|fede fe~e2|\
+(3Bcd ed e3 e|fede fa~a2|bf~f2 af~f2|fgfe dBAF||**
+
+X:33
+T:Father Kelly's
+S:P. Haverty
+M:C|
+R:reel
+E:7
+I:speed 350
+K:G
+GA|B2 GB AGEG|DGGF GABd|c2AB cBAG|EAAG ABcA|\
+B2GB AGEG|DGGFGABc|d2 Bd gdBd|cAFA G2:|*
+Bc|d2Bd gdBd|d2 Bd gdBd|e2 ce agfe|defg agfe|\
+d2Bd gdBd|d2 Bd gdBd|c2Ac B2 GB|AGFA G2:|**
+
+X:34
+T:Hunter's Purse, The
+T:Sceach, An
+T:Bush, The
+M:C|
+E:7
+R:reel
+I:speed 350
+K:ADor
+eAAB AGEF|GEAF GED2|cBcd eged|cdef ged2|\
+eAAB AGEF|GEAF GED2|cBcd eged|cABG A4:|*
+eaab agef|geaf ged2|cBcd eged|cdef ged2|\
+eaab agef|geaf ged2|cBcd eged|cABG A4:|**
+
+X:35
+T:Wind That Shakes the Barley, The
+R:reel
+E:7
+I:speed 350
+M:C|
+K:D
+|A2AB AFED|B2BA BcdB|~A3 B AFED|gfed BcdB|\
+~A3B AFEF|DBBA BcdB|~A3B AFED|gfed Bcde||*
+|~f3d ~g3e|~f3d Bcde|f2df gefg|afed Bcde|\
+~f3d ~g3e|~f3d Bcd2|defg afbf|afed BcdB||**
+
+X:36
+T:Rolling in the Ryegrass
+T:Shannon Breezes, The
+E:7
+I:speed 350
+R:reel
+M:C|
+K:D
+|A2AF DFAF|G2BG dGBG|ABAF DFAF|GBAF EFDF|\
+A2AF DFAF|G2BG dGBG|~A3 F DFAF|GBAF E2D2||*
+|ABde ~f3d|~g3e fedB|ABde fefg|afdf e2d2|\
+ABde fAdf|~g3e fedB|ABde fefg|afdf e2d2||**
+
+X:37
+T:Silver Spire, The
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+D2(3FED FA~A2|dcde fdAF|~G2BG FADF|(3GFE FD ~E3F|\
+D2(3FED FA~A2|dcde fdAF|GABG FADF|EA,CE D3 z:|*
+A,B,CD EFGE|(3FED EF GABc|dcBA Bcde|fdgf e3A|\
+defd ceAc|dcdB AFDF|GABG FADF|EA,CE D3z:|**
+
+X:38
+T:Dublin Reel, The
+T:Jackson's
+R:reel
+E:7.5
+M:C|
+I:speed 350
+K:D
+dF~F2 dedc|dF~F2 AFEF|dF~F2 dfed|cABF AFEF|\
+dF~F2 dedc|dF~F2 AFEF|d3c dfed|cABF AFEF||*
+eA~A2 eAfA|eA~A2 BAFA|eA~A2 egfe|dBcA BAFA|\
+eA~A2 eAfA|eA~A2 BAFA|~e3d egfe|dBcA BAFA||*
+d3c dF~F2|dedB AFEF|d3c dfed|cABF AFEF|\
+d3c dF~F2|dedB AFEF|dcdf egfe|dABc d3z||**
+
+X:39
+T:Lucy Campbell
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+dB|AD~D2 A2 dB|ADFA BE~E2|AD~D2 fgfe|dBAF AD~D2|\
+AD~D2 A2 dB|(3ABA FA BE~E2|ADFA fgfe|dBAF AD~D2||*
+dBAB defe|d2cA BE~E2|dBAB defe|dBAF AD~D2|\
+dBAB defe|dB~B2 gB~B2|dBAB defe|dBAF AD~D2||*
+~a3f defg|afaf bgeg|faaf defe|dBAF AD~D2|\
+~a3f defg|a3f bgef|~g3e ~f3e|dBAF AD~D2||*
+df~f2 dfef|df~f2 afef|dffe ~f3e|dBAF AD~D2|\
+df~f2 dfef|df~f2 afef|~g3e ~f3e|dBAF AD~D2||**
+
+X:40
+T:Farewell to Ireland (Am)
+Z:Piper's version. Fiddlers will play the first part: 
+Z:   B,|A,3B, EDEF|GEDB, G,A,B,G,|A,G,(3A,B,D E2AF|GEDB, EA,~A,2|\
+Z:   A,G,A,C E2EF|GEDB, G,A,B,g|ed (3efg abaf|(3gfe dB BAA:|
+M:C|
+E:7
+S:Tom Creegan
+I:speed 350
+R:reel
+K:ADor
+~A3B ~e3f|(3.g.fe dB GABG|~A3B ~e3f|gedf eAAG|\
+~A3B ~e3f|(3.g.fe dB GABg|ed (3efg ~a3f|(3.g.fe dB BA ~A2:|*
+ea~a2 agea|~g3agedB|ea~a2 agef|gedB BA~A2|\
+agef ~g3e|dedB GABd|cA~A2(3.B.cd ef|gedB BA ~A2:|*
+eA~A2 eA~A2|BG~G2 (3BAG Bd|eA^ce ~a3f|(3.g.f.e dB BA ~A2|\
+eA ~A2 efe^c|dedB GABd|cA~A2 (3Bcd ef|gedB BA ~A2:|*
+ae^ce aece|gdBd gdBd|ae^ce ~a3f|(3.g.fe dB BA~A2|\
+agef ~g3 e|dedB GABd|cA~A2 (3.B.^cd ef|gedB BA~A2:|**
+
+X:41
+T:Farewell to Ireland (D)
+R:reel
+E:7
+I:speed 350
+M:C|
+K:D
+|D2(3FED FA~A2|fedf edBc|dBAF~G3B|AF~F2 EGFE|\
+D2(3FED FA~A2|fedf edBc|dBAF ~G3B|AF~F2 EGFE:|*
+|defg afdf|g2fg eA~A2|defg afdf|(3gfe fd ~e3A|\
+defg ~a3f|g2fge A~A2|dBAF ~G3B|AF~F2 EGFE:|**
+
+X:42
+T:Dunmore Lasses, The
+T:Road to Knock, The
+T:Morrison's
+R:reel
+I:speed 350
+E:7.5
+M:C|
+K:Em
+~E3F ~G3A|Be~e2 Be~e2|~E3F G2BG|A2BA GEFD|\
+~E3F ~G3A|Beed ~e3f|(3.g.f.e fd eBdB|AcBA GEFD:|*
+g2eg fedc|Be~e2 Be~e2|g2eg fedB|AcBA GE~E2|\
+g2eg fedc|Beed ~e3f|(3.g.f.e fd eBdB|AcBA GEE2:|**
+
+X:43
+T:Gravel Walk
+R:reel
+E:7
+I:speed 350
+M:C|
+K:ADor
+|:A2 eA (3cBA eA|A2 ed BAGB|A2eA (3Bcd ef|gedc BAGB:|\
+~A2aA gAfA|~A2ed BAGB|~A2 aA gAfA|gedc BAGB|\
+~A2aA gAfA|~A2ed BAGB|ABcd efga|gedc BAGB\
+|:(3cBA BG A3B|cAAd BGBd|(3cBA BG ABcd|efge dBGB:|\
+~c2 gc acgc|~c2 gc BAGB|~c2 gc acga|gedc BAGB|\
+~c2 gc acgc|~c2 gc BAGB| ABcd efga|gedc BAGB||**
+ 
+X:44
+T:Salamanca Reel, The
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+dB|AD(3FED AD(3FED|Adcd fedc|BE~E2 BE~E2|Beed cdeg|\
+fB~B2 fB~B2|fgfe dfag|fdec dBAG|FAEA D2:|*
+fg|afdg bgeg|fdcd BAFG|Addc defg|(3aba gb a2fg|\
+~a3f~g3e|~f3e dfag|fdec dBAG|FAEA D2:|**
+
+X:45
+T:Banshee, The
+T:McMahon's
+E:7
+I:speed 350
+R:reel
+M:C|
+K:G
+D|~G3D EDEG|AGAB d2Bd|efge dBGA|BAGE EDDE|\
+~G3D ~E3D|~G3B d2Bd|efge dBGA|BAGE D3||*
+B|eaag efge|dBBA B3 z|eB~B2 Bgfg|eBBA B4|\
+eaag efge|dBBA ~B3z|efge dBGA|BAGE EDD||**
+
+X:46
+T:Jolly Clamdiggers, The
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:D
+d2 FB AFEF|D2dc BABc|dF~F2 dFAF|GBAG FDFA|\
+d2 FB AFEF|D2dc BABc|dF~F2 dFAF|GBAF D2 z2||*
+d2 fd egfd|A2 (3cBA eAcA|defg ~a3 f|afeg fddc|\
+d2 fd egfd|A2 (3cBA eAcA|defg ~a3 f|afeg fd ~d2||**
+
+X:47
+T:Sunny Banks, The
+E:8
+R:reel
+I:speed 350
+M:C|
+K:D
+B|AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA|BdAG FDDB|\
+AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA| BdAF D3 ||*
+e|f2 ed cA ~A2|fdef g2 ag|f2 ed cA~A2|(3Bcd AG FD ~D2|\
+f2 ed cA ~A2|fdef g2 ag|fded cA~A2|BdAG FD ~D2||**
+
+X:48
+T:Humors of Tulla, The
+R:reel
+I:speed 350
+E:7
+M:C|
+K:D
+fe|d2cd BdAB|d2fd edBc|d2cd BdA2|(3Bcd ef ~g2fe|\
+d2cd BdAB|d2fd edBc|d2cd BdA2|(3Bcd ef ~g2fg||*
+af~f2 df~f2|af~f2 g2fg|af~f2 dfed|(3Bcd ef g2fg|\
+af~f2 df~f2|af~f2 g2fg|af~f2 dfed|(3Bcd ef g2fe||**
+
+
+
+X:49
+T:Convenience, The
+R:reel
+E:7
+S:Tom Creegan
+I:speed 350
+M:C|
+K:D
+A|:dABA dABA|GAFA EADA|dABA dABA|FAEA D3A::\
+df~f2 df~f2|ecec gece|df~f2df~f2|ecec d3A:|*
+fg|~a3f gfed|Ae~e2Ae~e2|a3f gfed|Adce d2fg|\
+aA~A2~A2~A2|gA~A2 gAgA|~f3f gfed|Addc d2:|**
+
+X:50
+T:Sporting Paddy
+M:C|
+R:reel
+E:7
+I:speed 350
+K:ADor
+|EAAB GABG|EAAB G2ED|EA~A2 GABd|edge dBAG|\
+EAAB GABG|EAAB G2ED|EA~A2 GABd|edge d2||*
+ef|ge~e2 gede|ge~e2 a2ba|ge~e2 ged2|efge d2ef|\
+ge~e2 gede|ge~e2 a2ga|bgab gabg|efge dBAG||**
+
+
+X:51
+T:Lady on the Island, The
+R:reel
+I:speed 350
+E:7
+M:C|
+K:G
+A|BAFB AFEF|D2FA BAdA|BAFB ~A3B |defd e3A|\
+BAFB AFEF|D2FA BAdA|BAFB ~A3B|defd e3||*
+A|d3 f efge|afdf eB~B2|d2fd efge|afdf ~e3A|\
+d2fd efge|afdf eB~B2|defg ~a3 b|afdf e3||**
+
+X:52
+T:Roaring Mary
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:D
+DF~F2 AF~F2|df~f2g2fe|dedB ABde|fedefe~e2|\
+DF~F2 AF~F2|df~f2g2fe|dedBABdf|afeg fd~d2:|*
+~a3g fgfe|dedA BAFA|eg~g2 bg~g2|af~f2 ge~e2|\
+DF~F2 AF~F2|df~f2 g2fe|dedB ABdf|afeg fd~d2:|**
+
+X:53
+T:Boil the Breakfast Early
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:G
+BA|G2BGAD~D2|G2BG c2BA|GABG AD ~D2|GE~E2 c2 BA|\
+~G3 B AD~D2|G2BG c2Bc|dBcA BGAF|GE~E2 c2 ||*
+K:D
+Bc|dA~A2 dAFA|dA~A2dfec|dA~A2 dAFA|GE~E2 =c2 Bc|\
+dA~A2 dAFA|dA~A2dfec|dBcA BGAF|GE~E2 =c2 BA||**
+
+X:54
+T:First House in Connaught, The
+R:reel
+S:Seamus Ennis
+E:7
+I:speed 350
+M:C|
+K:G
+DG~G2AG~G2|(3BAG .dG BGAF|DF~F2 AGFG|ABcA BGAF|\
+DG~G2AG~G2|(3BAG dc AGFA|defg agfd|cAFA G4:|*
+~g3 a gfdf|gaba gfd.g|(3.f.ga d.g .fade|fa ~a2 (3bag af|\
+~g3a gfdf|gaba gf d2|defg agfd|cAFA G4:|**
+
+X:55
+T:Craig's Pipes
+T:Kerry Huntsman, The
+R:reel
+E:7
+I:speed 350
+S:P. Keenan
+M:C|
+K:G
+B2 BA BAGA|B2GB AGED|~B3A BAGB|~A2 BG AGED|\
+B2 BA BAGA|B2GB AGED|(3.B.c.d ed BcdB|AcBG AGEG||*
+DG ~G2 DGBG|DGBG AGEG|DGGF~G3 B|dBAc BG~G2::\
+d2 Bd efge|dGBG AGEG|d2Bd efge|agbg ageg:|**
+
+X:56
+T:Carrowcastle Lasses
+T:George White's Favorite
+S:Kincora Ceili Band
+R:reel
+E:7
+I:speed 350
+M:C|
+K:G
+Bd|eB~B2 eBdB|AGAB GED2|GB~B2 dB~B2|eBdB A2Bd|\
+eB~B2 eBdB|AGAB GED2|GABd gedB|AGAB G2:|*
+de|gede gaba|gfga gedB|dega bgag|eaag a2 ga|\
+bgeg d2ef|gede gaba|~g3d egdB|AGAB G2:|**
+
+X:57
+T:Boys of Ballisodare, The
+R:reel
+I:speed 350
+E:7.5
+M:C|
+K:DMix
+dG~G2 dGeG|dG~G2 BAAB|dG~G2 dedB|AcBA GED2|\
+dG~G2 dGeG|dG~G2 BAAB|EFGB eBdB|AcBA GED2||*
+efga bc'ba|gfga be~e2|~g3a bgaf|gfed Be~e2|\
+~g3a bc'ba|gfga be~e2|bgaf gedB|AcBA GED2||*
+Bd~d2 Bdgd|Bdgd BA~A2|~B3 d e2dB|AcBA GED2|\
+Bd~d2 Bdgd|Bdgd BA~A2|eB~B2 eBdB|AcBA GED2||**
+
+X:58
+T:Maids of Mount Kisco, The
+I:speed 350
+Z:Mount Kisco is in New York state.
+R:reel
+E:8
+M:C|
+K:ADor
+G|EA~A2 BGAG|EA~A2 BGAG|EG~G2 BG~G2|EG~G2 EGDG|\
+EA~A2 BGAG|EA~A2 BABd|efg2 af(3.g.f.e |dBGB A3:|*
+G|~A3B dBAB|G2BG DGBG|~A3B dBAB|efge dBGB|\
+~A3B dBAB|G2BG DGBG|~A3B dBAB|efge d2(3Bcd||*
+ea~a2 bgag|e2 dB GABd|eaab ~a3g|edef g3b|\
+~a3f ~g3e|dedB GBd2|eA~A2 efge|dBGB A3:|**
+
+X:59
+T:Ladies' Pantalettes, The
+T:Duke of Leinster's Wife, The
+E:7
+R:reel
+I:speed 350
+M:C|
+K:G
+cA|(3.B.c.d cAG3B|AF~F2cF~F2|BdcAG2 ge|fdcA AG~G2|\
+(3.B.c.d cAG3B|AF ~F2 cF~F2| BdcA G2 ge|fdcA AG~G2||*
+|fgaf g2fg|a2ag fdd2|fgaf gbag|fdcA AG~G2|\
+fgaf g2fg|a3g fdde|fefg ~a3g|fdcA d2||**
+
+X:60
+T:Maude Millar
+S:James Keane
+R:reel
+E:7
+M:C|
+I:speed 350
+K:G
+gf|edBA GEDE|G2BG dG (3Bcd|eBdB ABGA|Beed e2gf|\
+edBA GEDE|G2BG dG (3Bcd|eBdB ABGA|Beed e2:|*
+ge|dega bg ~g2|agef gage|dega bg~g2|agef ~g3e|\
+dega bg~g2|agef gfga|b2af gfed|Beed e2:|**
+
+X:61
+T:Blackberry Blossom, The
+R:reel
+E:7
+M:C|
+I:speed 350
+K:G
+ge|dBAc BAGA|~B3A B2ge|dBAc BAG2|eaag a2 ge|\
+dBAc BAGA|~B3A B2 ge|dBAc BAG2|eaag a2||*
+ef|~g3f gaba|~g3b agef|~g3f ga~a2|ea~a2 agef\
+|~g3f gaba|~g3b a2 ga|bagf gfed|eaag a2||**
+
+X:62
+T:High Reel, The
+T:Sandy Duff
+R:reel
+E:7
+M:C|
+I:speed 350
+K:AMix
+|a2fa eA~A2|cAeA cA~A2|a2fa eA~A2|Bcdc BG~G2|\
+a2fa eA~A2|(3Bcd ef g2fg|afge fded|Bcdc BG~G2||*
+|(3cBA eA fAeA|(3cBA eA cA~A2|(3cBA eA fAeA|Bcdc BG~G2|\
+(3cBA eA fAeA|(3Bcd ef g2fg|af(3gfe fded|Bcdc BG~G2||**
+
+\vfil
+\eject
+
+X:63
+T:Drunken Landlady, The
+E:7
+R:reel
+K:D
+|BE ~E2 BAFA|BE ~E2 BAFA|ABAF DF ~F2|FA ~A2 BAFA|\
+BE ~E2 BAFA|BE ~E2 BAFA|A2 Bc dfec|dBAF E3 z:|*
+|Be ~e2 e2 de|f2 df e2 dB|ABAF DF ~F2|FA ~A2 BAFA|\
+Be ~e2 e2 de|f2 df e2 dB|A2Bc dfec|dBAF E3 z:|**
+
+
+
+X:64
+T:Fox Hunter's Reel, The
+Z:Fiddlers often play this in the key of A. 
+E:7
+I:speed 350
+R:reel
+M:C|
+K:G
+d2BG d2BG|d2BG AGEG|d2BG d2BG|AcBG AGEG::\
+~D3B BABG|DGBG AGEG|~D3B BABG|AcBG AGEG|\
+~D3B BABG|DGBG AGEG|DB~B2 DA~A2|AcBG AGEG||\
+gedB G2Bd|gdBd eA~A2|gedB G2BG|ABcd eA~A2::\
+dggf ~g3z|dg~g2 (3efg d^c|dggf ~g3d|(3efg dB AGAB::\
+G2BG dGBG|GBBG AGAB|G2BG dGBd|(3efg dB AGAB:|**
+
+X:65
+T:Bucks of Oranmore, The
+E:7
+I:speed 375
+R:reel
+M:C|
+E:6.8
+K:G
+dB|A2FA ~A2dB|(3ABA FA BE~E2|A2FA ~A2 Bd|\
+(3efg fd edBd|A2FA ~A2dB|(3ABA FA BE~E2|~D3F~A3B|defd e2||*
+dB|AD~D2 ADBD|AD~D2 BE~E2|AD~D2 A2Bd|(3efg fd e^cdB|\
+AD~D2 ADBD|AD~D2 BE~E2|~D3F ~A3B|defd ed(3efg||*
+a2fd edBd|(3fga fd edBd|fafd edef|(3.g.f.e fd edBd|\
+a2fd edBd|(3fga fd edBd|fa~a2 bfaf|defd e2||*
+dg|{fg}f2df {ef}e2dg|{fg}f2df edBg|{fg}f2df edef|(3.g.f.e fd edBg|\
+{fg}f2df {ef}e2dg|{fg}f2df edBd|fa~a2 bfaf|defd e2||*
+dB|Adfd edfd|Adfd edBd|Adfd edef|(3.g.f.e fd edBd|\
+Adfd edfd|Adfd edBd|fa~a2 bfaf|defd e2||**
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%  HORNPIPES  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+X:66
+T:Cronin's Hornpipe
+R:hornpipe
+I:speed 250
+E:7
+S:Keenan and Glackin
+M:C|
+K:G
+BA|GABc dBde|gage dega|bage dBGB|cABGA2 BA|\
+GABc dBde|gage dega|bage dBAB|G2G2G2:|*
+fg|afd^c d2ga |bged e2 ga|(3bag (3agf gedB|(3cBA AG AcBA|\
+GABc dBde|~g3 e dega|bage dBAB|G2G2G2:|**
+
+X:67
+T:Flowing Tide, The
+R:hornpipe
+I:speed 250
+E:7
+S:Boys of the Loough
+M:C|
+K:G
+D|~G3B dGBd|GBdg bgag|(3efg dg Bdge|dBAG edBA|\
+~G3B dGBd|GBdg bgag|(3efg dg Bdge|dBAB G3:|*
+D|GFGB AGED|gfge dBAG|(3cde Bd ABGB|cABG AG (3EFG|\
+DGBd B3d|cABG AG(3EFG|DGBd gdBG|DGFA G3:|**
+
+X:68
+T:Wicklow Hornpipe, The
+T:Delahunty's
+R:hornpipe
+I:speed 250
+E:7
+M:C|
+K:D
+FG|ABAF DEFG|AGAB =c2 (3AB^c|dcde fdAF|DGGF G2FG|\
+ABAF DEFG|~A3B =c2(3AB^c|dcde fdAG|F2 D2 D2:|*
+de|~f3d ecAF|Gggf g2fg|agab agec|dcAF G2FG|\
+ABAF DEFG|~A3B =c2 (3AB^c|dcde fdAG|F2D2 D2:|**
+
+X:69
+T:Little Stack of Barley, The
+R:hornpipe
+I:speed 250
+E:7
+M:C|
+K:G
+gf|eged BedB|AGEG AcBA|GFGA BA(3Bcd|eAAG A2(3Bcd|\
+efed BedB|AGEG AcBA|GFGA (3Bcd Ac|BGGF G2:|*
+A|(3Bcd ef g2fg|a2gf edBd|g2fg edBd|(3efg dB A3z|\
+agfa gfed|BAAG AcBA|GFGA (3Bcd Ac|BGGF G3:|**
+
+X:70
+T:Stack of Wheat, The
+Z:makes a good set played with the Little Stack of Barley
+R:hornpipe
+I:speed 250
+E:7
+M:C|
+K:G
+BA|GEDE GABG|(3ABA GA Bdef|gedB GABG|dBAG E2BA|\
+GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2:|*
+Bd|edBd edgd|edBd e2 (3def|gedB GABG|dBAG E2BA|\
+GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2:|**
+
+X:71
+T:Fairies' Hornpipe, The
+R:hornpipe
+S:Seamus Ennis
+I:speed 300
+E:7
+M:C|
+K:G
+DE|GFGA BdcB|AGAB G2Bc|dgfg edcB|cedB A2Bc|\
+dggf g2fe|dedc B2AG|AB(3cBA dcAF|G2GF G2:|*
+Bc|dggf g2fe|dedc B2AG|AB (3cBA edcB|Add^c d2B=c|\
+dggf g2fe|dedc B2AG|AB (3cBA dcAF|G2GF G2:|**
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%  POLKAS, MARCHES AND  OTHERS %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+X:72
+T:Dark Girl, The
+R:polka
+S:Denis Murphy and Julia Clifford
+I:speed 450
+M:2/4
+K:D
+DE|F2A2 A2d2|B2d2 A3F|G2B2 ABAF|B2E2 GFED|\
+F2A2 A2d2|BcdB ABAF|G2B2 ABAG|F2D2 D2:|*
+DE|F2A2 ABde|f2fd e3d|B2dB A2F2|B2E2 GFED|\
+F2A2 ABde|fefd e3d|B2dB ABAG|F2D2D2:|**
+
+X:73
+T:Farewell to Whiskey
+R:polka
+S:Denis Murphy and Julia Clifford
+I:speed 450
+M:2/4
+K:G
+GE|D2GA BAGA|B2E2 EFGE|D2GA BAGB|d2B2 B2d2|\
+efge d2B2|cBAG A2B2|D2GA BAGA|B2G2G2:|*
+B2|d2g2 g2fg|efge d3B|d2g2 g2fg|e2f2g4|\
+efge d2B2|cBAG A2B2|D2GA BAGA|B2G2 G2:|**
+
+X:74
+T:Jessica's
+S:Kevin Burke
+R:polka
+E:12
+I:speed 450
+M:2/4
+K:A
+e2fe c2e2|f2e2 B2c2|A3B cBA2|e2c2B4|\
+e2fe c2e2|f2e2 B2c2|A3B cBA2|F2A2 E4:|*
+F3B A2F2|c2B2 A4|e2fe c2e2|a2g2 f4|\
+e2fe c2e2|f2e2 B2c2|A3B cBA2|F2A2 E4:|**
+
+X:75
+T:Three Sea Captains, The
+R:set dance
+I:speed 300
+E:11
+M:6/8
+K:G
+D|~G3 BGB|c2A F2D|GDG BGB|d2B G3|\
+cec A3|BdB G3|A2B c2B|ABG FED|\
+GDG BGB|c2A F2D|GDG BGB|d2B G3|\
+cec A3|BdB G3|EcB AGF|~G3 G2:|\
+d|gfg dcB|ABc def|gfg dBd|e2c A2d|\
+g2a bge|f2g afd|~e3 ed^c|d3 z2 B|\
+c2d ecA|B2c dBG|A2B c2B|ABG FED|\
+GDG BGB|c2A F2D|~G3 BGB|d2B G3|\
+cec A3|BdB G3|EcB AGF|~G3 G2:|**
+
+X:76
+T:Poll Ha'penny
+T:Garden of Butterflies, The
+R:set dance
+I:speed 250
+E:7
+M:C|
+K:AMix
+AB|=cAAG A2 (3AB^c|(3dcB (3AGF G2 (3Bcd|edcA dcAG|A2AG A2de|\
+~f3d ~e3c|dA(3Bcd efge|agfd =cAGB|A2AG A2:|*
+ef|g2gf gfed|eggf gfed|eaag ~a3g|eaag ~a3g|\
+~f3d ~e3c|dA(3Bcd efge|agfd =cAGB|A2AG A2:|**
+
+X:77
+T:Rodney's Glory
+R:set dance
+E:7
+I:speed 300
+M:C|
+K:G
+ed|c2Bc ABcA|(3BAG EF G4|e=fed cde^f|gfge d=fed|\
+c2Bc ABcA|(3BAG EF G2ed|c2BA GABG|~A3B A2:|*
+|eaag abag|eged c3d|(3efg fg agec|dcAF G4|\
+AGAB cBcd|ed(3efg a4|aged cdef|gfge d=fed|\
+c2Bc ABcA|(3BAG EF G2ed|c2BA GABG|~A3B A2||**
+
+
+
+X:78
+T:Battle of Aughrim, The
+S:Martin Byrnes
+Z:The second measure in the first part is usually played  |e2d2 c2B2|.
+R:march
+E:10
+I:speed 400
+M:2/4
+K:G
+AG|E2A2 A2Bd|e2dB c3A|B2G2 G3A|B2AG E2D2|\
+E2A2 A2Bd|e2d2 eaag|eged BAGB|A4 z2:|*
+fg|a2e2 e2fg|abag e2fg|abaf g2e2|dedB G2fg|\
+a2e2 e2fg|abag e3d|B2e2 d2B2|A4 z2:|**
+
+X:79
+T:Return From Fingal, The
+Z:According to a (none-too-reliable) tradition, this tune was played
+Z:by Brian Boru's troops on the return from the Battle of Clontarf.
+R:march
+E:10
+I:speed 325
+M:2/4
+K:EDor
+B2GF EFGA|B2GF E4|AGFA d2A2|B2A2 Bcd2|\
+B2GF EFGA|B2GF E4|AGFA d2AG|F2E2 E4:|*
+f2e2 e2dc|B2A2 d2A2|B2A2 d2A2|B2A2 Bcde|\
+f2e2 e2dc|B2A2 d2A2|AGFA d2AG|F2E2 E4:|**
+
+X:80
+T:O'Sullivan Mor
+T:I Won't Be a Nun
+R:march
+E:10
+I:speed 425
+M:2/4
+K:D
+D3E|F2A2 d3e|d3e fedc|B2A2 F2E2|F4 E2D2|\
+F2A2 G2B2|A2F2 D2F2|E4E3F|E4 D3E|\
+F2A2 d3e|d3e fedc|B2A2 F2E2|F4 E2D2|\
+F2A2 d2B2|A2F2 E2F2|D4 D3E|D4:|\
+c2d2|e2A2 A3^G|A4 d2e2|f2B2 B2A2|B4 d3e|\
+f2d2e2c2|d2B2 A3F|F2E2 E3F|E4  D3E|\
+F2A2 d3e|d3e fedc|B2A2 F2E2|F4 E2D2|\
+F2A2 d2B2|A2F2 E2F2|D4 D3E|D4:|**
+
+X:81
+T:Lord Mayo
+C:David Murphy
+Z:Origianlly a harp tune. David Murphy was harper to Lord Mayo
+E:12
+I:speed 325
+R:march
+M:2/4
+K:G
+A2G2 A2B2|e4 edBd|e2A2 A2BA|GAGF E2D2|\
+A2G2 A2Bd|e3f g3f|e3f gdBG|A8:|*
+a4 gega|b4 b2ag|e2d2 deg2|G3A G2E2|\
+a4 gega|b4 b2ag|e2d2 deg2|a8|*
+a4 gega|b4 b2ag|e2d2 deg2|G3A G2E2|\
+A3B d3B|AGAB g4|e3f gdBG|A8||**
+
+X:82
+T:Si Bheag Si Mhor
+C:Turlough Carolan
+Z:Probably the first tune composed by Carolan.  Si Bheag and Si Mhor
+Z:are two hills in Co. Leitrim associated in the local folklore with two 
+Z:bands of fairies continually at war with each other. 
+R:planxty
+M:3/4
+I:speed 250
+K:D
+de|f3ed2|d3ed2|B4 A2|F4 A2|BA Bc d2|e4 de|f4 e2|d4 f2|\
+B4 e2|A4 d2|F4 E2|D4 f2|B4 e2|A4 dc|d6-|d4:|*
+de|f3 e d2|ed ef a2|b4a2|f4 ed|e4 a2|f4 e2|d4 B2|B4 BA|\
+F4 E2|D4 f2|B4 e2|A4 a2|ba gf ed|e4 dc|d6-|d4:|**
+
+X:83
+T:Planxty Irwin
+C:Turlough Carolan
+R:planxty
+I:speed 300
+M:3/4
+K:G
+d2|g4f2|e3fg2|d4c2|B3AG2|c4A2|B3cd2|F4 G2|A4 d2|\
+g4f2|e3f g2|d4 c2|B3A G2|c4A2|B3cd2|G4F2|G4:|*
+d2|g4g2|g3fg2|a3ba2|a2f2d2|b4b2|a3bg2|f3ge2|\
+d3ef2|g4f2|e3fg2|d4c2|B3AG2|c4A2|B3cd2|G4F2|G4:|**
+
+X:84
+T:Planxty Fanny Power
+C:Turlough Carolan
+R:planxty
+E:8
+I:speed 400
+M:3/4
+K:G
+D2|G4D2|G3AB2|c4B2|A4G2|F4E2|D3ED2|F4G2|A4c2|\
+B3AG2|B3cd2|e4A2|A4G2|F3ED2|D2G2F2|G6|G4:|*
+Bc|d2Bcd2|d2Bcd2|G3AG2|G2B2d2|e2cde2|e2cde2|A3BA2|A2B2c2|\
+B3cd2|e2f2g2|f2g2a2|d4c2|B3AG2|B4A2|G6|G4:|**
+
+X:85
+T:Carolan's Concerto
+T:Mrs. Power
+C:Turlough Carolan
+R:planxty
+I:speed 300
+M:C
+K:D
+d2ddd2cB|ABGA F2A2|E2A2 D2A2|Bcde dcBA|\
+d2a2 fgaf|efge fgaf|gabg fdfa|gfed dcBA|\
+(3Bcd Bd gBgB|AdAd fAfA|GBGB efed|c2Bc A3G|\
+FGAF EFGE|FGAF GABG|A2d2 fedc|d4 d3||*
+A|d2b2 agfe|d2a2 c2g2|B2e2 ABcd|ecBA d3f|\
+edcB caaa|Bggg Afff|edcB caaa|Bggg bgbg|\
+afaf edcB|cABG AFGE|DAFA DAFA|(3GFE BE (3GFE BA|\
+FAdc BAGF|EFGA BcdB|A2d2 fedc|d4||**
+

@@ -480,7 +480,7 @@ export default function Abc(props) {
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
             // for development, run a server on 4000 to access sound fonts
-            var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/' : ''
+            var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000' : ''
             //var warp =  props.warp > 0 ? props.warp : 1
             var initOptions = {
               onPlaying: function(details) {

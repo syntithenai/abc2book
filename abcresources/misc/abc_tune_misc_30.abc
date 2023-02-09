@@ -1,0 +1,894 @@
+%fonts
+
+\font\largefont=cmr10 at 36pt
+\font\medfont=cmr10 scaled \magstep4
+\font\smallfont=cmr10 scaled \magstep2
+\font\ordfont=cmr10 scaled \magstep1
+%title page
+\ {. }
+\vskip 2.5in
+\centerline{\largefont Paddy O'Brien's Sets }
+\vskip 1in
+\centerline{\medfont Tune Sets Arranged by Paddy O'Brien,}
+\vskip 20pt
+\centerline{\medfont Nenagh, Co. Tipperary}
+\vskip 1in
+\centerline{\smallfont Edited by Dave Gabol and John Walsh}
+\vskip 10pt	
+%\centerline{\smallfont Transcriptions by John Walsh}
+\footline={\hfil}
+\eject
+%table of contents
+\global\count0=0
+\headline{\hfil{Paddy O'Brien's Sets}\hfil}
+\centerline{\smallfont Table of Contents}
+\vskip 1in
+\ordfont
+\baselineskip=18pt 
+\line{The Limerick Lassies/The Old Copper Plate/Buckley's Fancy 
+\dotfill\  page 1}
+\line{Crooked Road to Dublin/College Grove/Killaghbeg House 
+\dotfill \ page 2}
+\line{Paddy's Resource/The Pipe on the Hob/Blooming Meadows 
+\dotfill \ page 3}
+\line{Kilfinane/Paddy in London/Tongs by the Fire 
+\dotfill \ page 4}
+\line{Hartigan's Fancy/Maloney's Wife/Have a Drink With Me 
+\dotfill \ page 5}
+\line{Road to Youghal/Conlan's Well/The Holly Bush 
+\dotfill \ page 6}
+\line{Boys of Ballysodare/Pat Tuohy's/Birmingham 
+\dotfill \ page 7}
+\line{Christmas Eve/Bunker Hill/The Hunter's Purse 
+\dotfill \ page 8}
+\line{Bush in Bloom/Congress/Ewe Reel 
+\dotfill \ page 9}
+\line{Paddy Reynolds'/Jer Quigley's/Hunters House 
+\dotfill \ page 10}
+\line{Follow Me Down/Milliner's Daughter/Sailor's Jacket 
+\dotfill \ page 11}
+\line{Sheehan's/Down the Broom/Kiss Me Kate 
+\dotfill \ page 12}
+\line{King of the Clans/My Love is in America/Flogging 
+\dotfill \ page 13}
+\line{Reavy's/The Providence/Peeler's Jacket 
+\dotfill \ page 14}
+\line{Magpie's Nest/Chattering Magpie/Kerry 
+\dotfill \ page 15}
+\line{The Hill on the Road/Contentment is Wealth/Tell Her I Am 
+\dotfill \ page 16}
+\line{First Night in America/Apples in Winter/The Rakes of Clonmel 
+\dotfill \ page 17}
+\line{The Bowlegged Tailor/O'Mahony's/Father Fielding's Favorite 
+\dotfill \ page 18}
+\baselineskip=12pt
+\vfil\eject
+\headline={\hfil{Paddy O'Brien's Sets}\hfil\the\count0}
+\vsize=9.8in
+\hsize=7in
+\voffset=0.0in
+% left margin
+\hoffset=-0.25in
+\raggedbottom
+\musicsize=20\relax
+\def\tune{\vbox}%
+
+%now the abc's start
+M:C| 
+X:1
+T:Limerick Lassies, The
+S:Trad, arr. Paddy O'Brien 
+Z:Set: Limerick Lassies/Old Copper Plate/Buckley's Fancy
+R:reel
+E:9
+I:speed 350
+M:C|
+K:D
+c2|dBAF DEFD|GFGA BE~E2|dBAF DFAF|GBAG FD~D2|\
+dBAF DFAF|GFGA BE~E2|~d2cd (3Bcd AF|GBAG FD~D2||\
+dcde fgfe|dcde fB~B2|dcde ~f2 bf| afeg fABc|\
+dcde fgfe|dcde fB~B2|bf~f2 afdB|ABde fdeB||\
+Adfd adfd|Adfd cdec|Adfd adfd|(3fga eg fd~d2|\
+Adfd adfd|Adfd cdeg|fgfe dBAF|ABde fd~d2||\
+(3Bcd Ad BdAd|~B2Ad BE~E2|(3Bcd Ad BAFB|ABde fd~d2|\
+(3Bcd Ad BdAd|~B2Ad BE~E2|BAFB AFEF|ABde fd d2||**
+
+
+X:2
+T:Old Copper Plate, The
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:ADor
+B2|:~A2EA cA~A2|aged cAFA|~G2 DG BGBd|gedc BG~G2|\
+~A2 EA cA~A2|aged cAG2|ABcd efge|1 aged cAGB:|2aged cA A2||\
+agea ~a2bg|aged cAA2|agef ~g2 ab|gedc BG~G2|\
+agea ~a2bg|aged cAGB|ABcd efge|aged cA A2:|**
+
+
+X:3
+T:Buckley's Fancy
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F2|~G2 BG dGBG|ABcd egdB|~G2 BG dGBG|ABAG FDEF|\
+~G2BG dGBG|ABcd efga|bgaf gedB|GBAF G2:|\
+Bd|gfga gede|gabg ageg|agab agef|gabg ~e2 de|\
+gfga gede|gabg agef|~g2fa gedB|GBAF G2:|**
+
+\vfill\eject
+
+X:4
+T:Crooked Road to Dublin
+S:Trad, arr. Paddy O'Brien
+Z: set: Crooked Road to Dublin/College Grove/Killaghbeg House
+R:reel
+E:10
+I:speed 350
+M:C|
+K:G
+F2|~G2~G2 FGAF|~G2 FG AdcA|GBAG FGAg|fdcA ~d2 cA|\
+~G2 ~G2 FGAF|~G2 FG AdcA|GBAG FGAg|fdcA ~d2cA||\
+dg~g2 fgag|dg~g2 agfe|dg~g2 fgag|fdcA ~d2cA|\
+dg ~g2fgaf|dg ~g2 ~a2ga|bgaf gbag|fdcA ~d2cA||**
+
+X:5
+T:College Grove
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+~D2 FD ADFD|~E2cE dEcE|~D2FA dfed|cAGE EDCE|\
+~D2 FD ADFD|~E2cE dEcE|~D2 FA dfed|cAGE ED D||\
+e|fd~d2 fgaf|ec ~c2 efge|fdd^c dfed|cAGE FDD2|\
+fd~d2 fgaf|ec ~c2 efge|dfeg fagb|afge fdd||\
+e|fgag fd~d2|efgf ec~c2|fgag fded|cAGE ED~D2|\
+fgag fd~d2|ef~g2 ed^ce|dfeg fagb|afge fdde||\
+~f2 df ~f2df|~e2^ce ~e2 ce|~f2df fded|cAGE ED D2|\
+~f2df dfdf|~e2^ce cece|dfeg fagb|afge fd d2||**
+
+X:6
+T:Killaghbeg House
+T:Ah, Surely
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+B|AFAc BG~G2|BGBd gedB|AFAc BGBd|egdc BG~G2|\
+AFAc BG~G2|BGBd gfga|bgag egfa|gedc BGG:|\
+a|bg~g2 agef|gfge dega|bg~g2 aged|eaag ea~a2|\
+bg ~g2 agef|gfge dega|bgag egfa|gedc BG G2:|**
+
+\vfill\eject
+
+X:7
+T:Paddy's Resource
+S:Trad, arr. Paddy O'Brien
+Z:Set: Paddy's Resource/Pipe on the Hob/Blooming Meadows
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:G
+d|GFG DB,D|GBd ~e2d|gdB BAB|cBc ~E2F|\
+GFG DB,D|GBd ~e2d|gdB BAB|cEF G2:|\
+D|GBd GBd|GBd cBA|GBd efg|fd^c def|\
+gfg fdf|ece ~d2B|cBc Adc|BGF G2:|**
+
+X:8
+T:Pipe on the Hob, The
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:DMix
+B1/2c1/2|d^cd ~A2G|~F2D DFD|EDE cGE|~E2D DFA|\
+dcB ~c2A|BAG ~A2G|EDD cGE |~E2D D2 :|\
+d1/2e1/2|~f2d d^cd|~f2d d^cd|edB ~c2d|e^de age|1 ~f2d d^cd|\
+~f2d d^cd|e^de age|~e2d d2:|2 fef gfg |\
+afa ~g2e|fed eag|~e2d d2||**
+
+X:9
+T:Blooming Meadows
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:G
+G1/2E1/2|~D2G ~G2A|~B2d cAG|~F2D DED|~F2G AGF|\
+DB,D ~G2A|BAG ABc|ded cAF|GAG G2:|\
+B1/2d1/2|~g2d def|~g2a bag|~f2d d^cd|~f2g afd|1 ~g2d def|\
+~g2a bag|fed cAF|GAG G2:|2 ~g2e fed|edB cde|fed cAF|G3 G2||\
+A|~B2G~c2A|~B2d cAG|~F2D DED|~F2G AFD|\
+~B2G ~c2A|BAG ABc|ded cAF|G3 G2:|**
+
+
+\vfill\eject
+
+X:10
+T:Kilfinane
+Z:Set:Kilfinane/Paddy In London/Tongs By the Fire
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:G
+A1/2G1/2|FDE ~F2d|cAA BAG|FDE FdB|cAF GAG|\
+FDE ~F2d|cAB cde|fef ded|cAF G2:|\
+e|fdd fed|cAB cde|fdd fed|cAF ~G2g|\
+fdd fed|cAB cde|faf ded|cAF G2:|\
+A1/2B1/2|cAA fed|cAG ~A2B|cAA fed|cAF GAB|\
+cAA fed|cAB cde|(4fgaf ded|cAF G2:|**
+
+X:11
+T:Paddy in London
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:D
+A1/2G1/2|FDF ABc|ded def|AGF ~G2A|BGE EAG|\
+FDF ABc|ded def|AGF BAG|FDD D2:|\
+e|fdf afd|gfe dBG|AGF ~G2A|1 BGE ~E2g|\
+fdf afd|gfe dBG|AGF BAG|FDD D2:|2 BGE EAG|\
+FDF ABc|ded def|AGF BAG|FDD D2||\
+c1/2d1/2|ecA Agf|edc ~d2B|AGF ~G2A|BGE Efg|agf gfe|\
+ded def|AGF BAG|FDD D2:||**
+
+
+X:12
+T:Tongs By the Fire
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:12
+I:speed 300
+M:6/8
+K:G
+E1/2F1/2|GBd cAF|dge dBG|cec BdB|ABG FED|\
+GBd cAF|Gge dBG|cec Bag|fef g2:|\
+f|gdB gdB|gfa gdB|fd^c def|gbg faf|\
+(4efge def|gdB AGA |BGF G2:|**
+
+
+\vfill\eject
+
+X:13
+T:Hartigan's Fancy
+S:Trad, arr. Paddy O'Brien
+Z:Set Hartigan's Fancy/Maloney's Wife/Have a Drink With Me
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:G
+A|BAB GBd|cBc ABc|BdB GBd|cAG FGA|\
+BAB GBd |cBc ABc|ded cAF|AGF G2:|\
+d1/2e1/2|~f2f fed|cAG FGA|gag gfg|afd ~d2e|\
+(4fgag fed|cAG FGA|BdB cAF|AGF G2:|\
+B1/2d1/2|gdB gdB |ecA ecA|(4BcdB GBd|cAG FGA|\
+gdB gdB|ecA ecA|(4BcdB GBd|cAF G2:|**
+
+X:14
+T:Maloney's Wife
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:D
+A1/2G1/2|~F2A AFA|AdB AFD|GBG FGA|BGE EAG|\
+~F2A AFA|AFA ~d2A|Bcd edB|AFD D2:|\
+c1/2d1/2|eAA Bcd|ecA ~A2F|GBG FGA|BGE Ecd|1 eAA Bcd|\
+ecA ~d2A|Bcd edB|AFD D2:|2 eAA fAA|\
+ecA ~d2A|Bcd edB|AFD D2||\
+e1/2f1/2|gfg faf|gfe def|gbg fga|bge ~e2f|\
+gbg faf|gfe ~d2A|Bcd edB|AFD D2:|**
+
+
+X:15
+T:Have a Drink With Me
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:8
+I:speed 300
+M:6/8
+K:G
+GA|BAG ~E2D|EGD E2D|BAG ~E2D|EAA ABc|\
+BAG ~E2D|EGD ~E2D|DEG AGA|BGF G2:|\
+D|GBd ~e2d|egd BAB|GBd ~e2d|eaa aga|\
+bgg age|gfe dBA|BAG ~E2D|EGF G2:|**
+
+
+\vfill\eject
+
+X:16
+T:Road to Youghal
+S:Trad, arr. Paddy O'Brien 
+Z:Set: Road to Youghal/Conlan's Well/Holly Bush
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+B|~d2 Bd ABGE|DGBG AE ~E2|GEDE GABd|gbaf gedB|\
+GB ~B2 eBdB|AcBG AGEG|gfgd (3efg dB|DEGA BGG:|\
+d|gfge ~d2BG|ABcd eAAB|dg~g2 dcBG|FGAc BcBA|\
+GB~B2 GBdB|cBcd eAAf|gfgd (3efg dB|DEGA BGG:|**
+
+X:17
+T:Conlan's Well
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:D
+E|FEDF Adfd|eB~B2 dBAF|DEFA BFAF|~E2 DF EFGE|\
+FEDF Adfd|eB~B2 dBAB|defa bfaf|~e2 ce fdd:|\
+e|:faaf defa|~a2fd efdB|BAFB ABdf|1 eB~B2 efge|\
+faaf defa|bgaf ~g2fe|dcdB ABdf|~e2 de fdd2:|2\
+eB~B2 edBA|FEDF Adfd|eB~B2 dBAB|defa bfaf|~e2 de fdd||**
+
+X:18
+T:Holly Bush, The
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:ADor
+Bd|eAAG EAcA|BG ~G2 BABd|efed BAGA|Bdef ~g2ag|\
+eAAG EAcA|BG~G2 BABd|eg~g2 aged|egdB A2:|\
+Bd|eaag ~a2ge|dg~g2 aged|efed BAGA|Bdef ~g2fg|\
+eaag ~a2 ge|dg~g2 agbg|agef gedB|egdB A2:|**
+
+
+\vfill\eject
+
+X:19
+T:Boys of Ballysodare
+S:Trad, arr. Paddy O'Brien 
+Z:Set: Boys of Balliysodare/Pat Tuohy's/Birmingham
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+c2|dG~G2 dGeG|dGGA BAAB|dG~G2 dedB|AcBA GE~D2|\
+dG~G2 dGeG|dG~G2 BA~A2|Bd~d2 eBdB|AcBA GED||\
+f|gfga bgaf|gfga bgef|~g2dg bgaf|gfed Bdef|\
+gfga bgaf|gfga bgeg|bgaf gedB|AcBA GE D2||\
+Bd~d2 Bdgd |Bdgd BAAc|Bd~d2 eBdB|AcBA GE~D2|\
+Bd~d2 Bdgd|Bdgd BABd|eB~B2 eBdB|AcBA GED2||**
+
+X:20
+T:Pat Tuohy's
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:EDor
+A2|BE~E2 BAFE|~D2FD ADFA|BE~E2 BAFA|Bdeg fded|\
+BE~E2 BAFE|~D2FD ADFA|BE~E2 BAFA|Bdeg fe e||\
+d|~e2 ge Bege|defg agfg|~e2 ge Bege|defa geed|\
+~e2 ge Bege|defg ~a2 ga|bgaf gfed|Bdeg fe e2||**
+
+X:21
+T:Birmingham
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+f2|~g2gf gdBd|gdBd eaaf|~g2fa gdBd|ecAc BGBd|\
+~g2 gf gdBd|gdBd eaaf|~g2 fa gdBd|ecAc BG G2||\
+F2|GdBd ~G2GD|GdBd eA~A2|GdBd gfge|fdcA AGFD|\
+BdBd ~G2 GD|GdBd eA~A2|~G2 Bd gfge|fdcA AGFD||\
+~G2 dG BGdG|~G2dG FDFA|~G2dG Bdeg|fdcA AGFD|\
+~G2 dG BGdG|~G2dG FDFA|~G2 dG Bdeg|fdcA BG G2||**
+
+
+X:22
+T:Christmas Eve
+C:Tommy Coen
+S:arr. Paddy O'Brien
+Z:Set: Christmas Eve/Bunker Hill/Hunter's Purse 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+GE|~D2 DE GFGA|~B2dB ABGB|ABGE DB,DE|~G2BG ABGE|\
+FB,DE GFGA|~B2 dB ABGA|*BA~A2 GEBG|ABGE ~G2:|\
+GA|BABd edeg|abae ~g2 eg|abag gfge|dedB ~A2 GA|*
+BABd edeg|abge ~g2eg|aege ~d2BG|ABGE G2:|\
+dc|BG~G2 DGBd|eg~g2 egdc|*BG ~G2 dGBG|EA~A2 DAFA|\
+BGGF ~G2Bd|eg~g2 egdg|bgag egdB|ABGE G2:|**
+
+X:23
+T:Bunker Hill
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+cA|GE~E2 ~D2DG|EGAB ~c2Bc|ABAG EF~G2|ABcA ~d2cA|\
+GE~E2 ~D2 DG|EGAB ~c2Bc|*ABAG EF~G2|ABcA d2||\
+cA|Gc ~c2 ec~c2|GccB cBAG|Ad~d2 fd~d2|AddB cBAG|*
+(3EFG AB cAdB|cAdB ~c2Bc|dBcA BG~G2|ABcAd2||\
+eg|fd~d2 fdad|fadf ~a2 gf|*ge~e2 gebe|gbeg ~b2 ag|\
+fd~d2 fdad|dcAB ~c2 Bc|dBcA BG~G2|ABcA d2||**
+
+X:24
+T:Hunter's Purse, The
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+Bd| eAAB AGEF|~G2AF GE~D2|cBcd efed|cdef gedB|\
+~A2GB AGEF|*GBAF GE~D2|cBcd efed|cABGA2:|\
+Bd|eaab agef|geaf gedB|*cBcd (3efg ed|cdef g2ed|\
+eaab aged|~g2 af gedB|cBcd efed|cABG A2:|**
+
+X:25
+T:Bush in Bloom
+S:Trad, arr. Paddy O'Brien 
+Z:Set: Bush in Bloom/Congress/Ewe Reel
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+ge|~d2 BG AGEF|~G2 Bd efge|~d2BG AGED |Eaag fde^c|\
+~d2 BG AGEF|~G2 Bd efge|dG~G2 AGEF|GBAF G2:|\
+Bd|~g2 dg bgdg|~g2bg agef|~g2 dg Bgdg|egfa ~g2ga|\
+bg~g2 agef|gfge dega| bgaf gfed|egfa g2:|**
+
+X:26
+T:Congress
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+Bd|eAAG ~A2Bd|eaaf gedg|eAcA eAcA|BG~G2 BABd|\
+eAAG ~A2Bd|eaaf gedB|cBcd (3efg ed|cABG A2:|\
+Bd|eaag ~a2 ag|eaag eg~d2|(3efg dg egdg|eaaf ge~d2|\
+eaag ~a2 ag|eaag (3efg dB|cBcd (3efg ed|cABG A2:|**
+
+
+X:27
+T:Ewe Reel
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+F|DG~G2 DGGE|~=F2 AF cFAF|DGGF ~G2 eg|fdcA BGAF|\
+DG~G2 DGGE|~=F2 AF cFAF|DGGF ~G2eg|fdcA BGG:|\
+f|~g2 bg dgbg|~f2 af dfaf|~g2bg dgbg|agfa ~g2 ga|\
+bgaf gfde|fdcA BGAF|Gggf gbag|fdcA BGG2:|**
+
+
+\vfill\eject
+
+X:28
+T:Paddy Reynolds'
+S:Trad, arr. Paddy O'Brien 
+Z:Set Paddy Reynold's/Jer Quigley's/Hunters' House
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F2|DGGF GABd|~g2 dg egdB|~A2 ^GB AcBA|GBAF GFEF|\
+DG~G2 DGBd|~g2dg egdB|GABd gedc|BcAF G2:|\
+Bc|dggf gGBd|gbaf gfed|eaag abag|eaag edBc|\
+dggf gGBd| gbaf gedB|GABd gedc|BcAF G2:|**
+
+X:29
+T:Jer Quigley's
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:EDor
+A2|Be~e2 Beed|Beed ~B2AG|EAdA EAdA|FA~A2 BAFA|\
+Be~e2 Beed|Beed ~B2 AF|~G2 FA GBdB|AGFG E2:|\
+FA|Beef edBA|(3Bcd ef gefe|~d2ce dcBA|(3Bcd ef gefd|\
+Beef edBA|(3Bcd ef gedB|~G2FA GBdB|AGFG E2:|**
+
+X:30
+T:Hunters House
+C:Ed Reavy
+S:arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+G/2A/2|Bd~d2 cAFA|~G2BG DGBG|Bd~d2 cAFA|GBAG FDCE|\
+DGBG cAFA|(3BAG AF GABc|defg agfd|cAFA G2:|\
+G/2A/2|~B2 gB aBgB|~B2gf edcB|~A2ad bdad|dfaf gfed|1\
+~B2gB aBgB|~B2 gf edcB|~c2 Ag fdBd|cAFA BG G2:|2 Bdgb afgd|\
+Bdgf edcB|~c2 Ag fg (3agf|gdBd cAFA||**
+
+\vfill\eject
+
+X:31
+T:Follow Me Down
+S:Trad, arr. Paddy O'Brien
+Z:Set: Follow Me Down/Milliner's Daughter/Sailor's Jacket 
+R:reel
+E:9
+I:speed 350
+E:9
+M:C|
+K:ADor
+G|ABAG EF~G2|AGAB ~c2ed|cABG EFGA|aged cAdc|\
+ABAG EF~G2|AGAB ~c2ed|cABG EFGA|aged cAA:|\
+d|ec~c2 ecgc|BG~G2 Bcd=f|ec~c2 eaaf|gedB cA~A2|\
+agea gedB|cBcA EF~G2|AGAB cdef|1 gedB cA A:|2 ~g2fa gedc||**
+
+X:32
+T:Milliner's Daughter
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F|~G2BG DGBG|~A2eg fdcA|~G2BG DGBd|cAFG AGGF|\
+~G2BG DGBG|~A2eg fdcA|GB~B2 FGAB | cAFG AG G:|\
+B|:dg~g2 dg~g2|df ~f2 df ~f2|dg~g2 agfe|~d2eg fdcA|\
+dg~g2 bgaf|d^cde fefg|afge fde^c|~d2eg fdcA:|** 
+
+X:33
+T:Sailor's Jacket
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+dfec ~A2AB|cdef gfge|dfec~A2AB|cBcG ED D2:|\
+c|~d2fd adfd|~c2 ec gcec|~d2 fd adfd|eaag edd^c|\
+defg afge|cdef ~g2fg|afge ~f2ed|eaag ed d2||**
+
+Sailors Jacket: O'Brien writes this in 2 sharps, with all C naturals.
+(\mulooseness FMD = 0 MD = 0 SJ = 0)
+
+\vfill\eject
+
+X:34
+T:Sheehan's
+S:Trad, arr. Paddy O'Brien 
+Z:Set: Sheehan's/Down the Broom/Kiss Me Kate
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F|:~G2 BG DGBG |ABcA BG~G2|AGAB cBcA|EAAG FDEF |\
+~G2 BG DGBd|~c2 AB cdef|gedB ~c2 Bc|dBcA BG~G2:|\
+f2|~g2bg dgbg|gbag fdde|~f2af dfaf|gbag fdef|\
+~g2 bg dgbg|gbag  fdef|gedB ~c2Bc|dBcA BG G2:|**
+
+X:35
+T:Down the Broom
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:ADor
+EAAG~A2 Bd|eg~g2 egdc|BGGF GAGE|~D2B,D GABG|\
+EAAG ~A2 Bd|eg~g2 egdg|eg~g2 dgba|gedB BAA2:|\
+~a2ea agea|agbg agef|~g2dg Bgdg|gfga gede|\
+~a2 ea agea|agbg ageg|dg~g2 dgba|gedB BA A2:|**
+
+X:36
+T:Kiss Me Kate
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F|~G2 Bd gdBG|DEGB AE~E2|GABd gdBd|ecBc AGEF|\
+~G2Bd gdBG|DEGB AE E2|GABd gdBd|ecAc BG G||\
+g|fgag fd~d2|gfga bgeg|fgag fd~d2|fdef ~g2(3def|\
+gbaf ~g2 bg|fgag fd~d2|fded fd~d2|fdef gedB||**
+
+\vfill\eject
+
+X:37
+T:King of the Clans
+S:Trad, arr. Paddy O'Brien 
+Z:Set: King of the Clan's/My Love is in America/Flogging
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+c|:~d2GA Bdge|dedB AGEG|DGBG dGBG|cege dcBc|\
+dGBd gdBd|gabg agef|gf (3gfe dBge|dBAc BG G2:|\
+f|:~g2bg (3efg de|gdBG AGEG|DGBG dGBd|cege dcBd|\
+~g2bg edge|dBGB AGEG|DGBd gece|dBAc BG G2:|**
+
+X:38
+T:My Love is in America
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+E|FEFG AB ~c2|Addc AddG|FEFG ABcA|GBAG FDDE|\
+FEFG AB~c2|Add^c defg|afge fdcA|GBAG FDD:|\
+e|:fd(3efg fdec|Addc Adde|fdeg fdcA|GBAG FD~D2|\
+fdeg fdec|Add^c defg|afge fdcA|GBAG FD D2:|**
+
+X:39
+T:Flogging
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+E:9
+M:C|
+K:G
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA|\
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA||\
+gfgd BGBd|~g2eg fgaf|gfgd BdcB|AGFG ABcA|\
+gfgd BGBd|~g2 eg fgag|bgaf gedB|AGFG ABcA||\
+Bdgd Bdgd|Bdgd BG G2|Ac=fc Acfc|Ac=fc AF~F2|\
+Bdgd Bdgd|^cdef gfga|bgaf gedB|AGFG ABcA||**
+
+\vfill\eject
+
+X:40
+T:Reavy's
+C:Ed Reavy (?)
+Z:Set: Reavy's/Providence/Peeler's Jacket
+S:arr. Paddy O'Brien 
+E:9
+I:speed 300
+M:C|
+K:G
+(3DEF|~G2BG dGBG|cBcd efge|~d2 BG dGBG|(3FED AD BDAF|\
+~G2BG dGBG|cBcd efge|dgfg ecAF|GBAF G2:|\
+Bd|~g2 fg edce|dfab afdg|bagf adBG|(3FED AD BDAD|\
+~G2BG dGBG|cBcd efge|dgfg ecAF|GBAF G2:|**
+
+X:41
+T:Providence, The
+S:Trad. arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 300
+M:C|
+K:D
+EDEF DEFA|~d2 fd gdfd|ed(3Bcd AdBA|~B2AF GFED|\
+EDEF DEFA|~d2 fd gdfd|ed (3Bcd AdBA|~B2AG FD D2:|\
+e|fd~d2 fdad|fd~d2 ecAg|fd~d2 fdad|ceag fdde|\
+fgaf gfec|dBAF GFGB|~A2 GB ABde|(3fga eg fdd:|**
+
+X:42
+T:Peeler's Jacket
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+F|:~G2 BG DGBG|FGAB ~c2Bc|dggf ~d2eg|fdcA BGAF|\
+~G2 BG DGBG|FGAB ~c2Bc|dggf ~d2eg|fdcA BG G2:|\
+gagf ~d2 ef|gfga bgaf|gagf ~d2 eg|fdcA BGG2|\
+gagf ~d2 ef|gfga bgaf|gbag fdeg|1 fdcA BGG2:|2 fdcA BcAF:|**
+
+
+\vfill\eject
+
+X:43
+T:Magpie's Nest
+S:Trad, arr. Paddy O'Brien
+Z:Set: Magpie's Nest/Chattering Magpie/Kerry 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:D
+B2|:AddA BAFA|BdAF GFED|FAAB AFEF|ABde fddB|\
+~A2 dA BAFA|BdAF GFED|FAAB AFEF|ABde fdd2:|\
+e2|:faaf ~e2 de|fdec dcBA|fa~a2 bafd|ABde fdde|\
+faaf ~e2de|fdec dcBA|~F2 AF ~G2BG|ABde fd d2:|**
+
+X:44
+T:Chattering Magpie
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+BGAF DGGA|~B2 ge fdcA|BGAF DGGE|FGAB ~c2dc|\
+BGAF DGGA|~B2 ge fdcA|BGAF DGGE|FGAB ~c2Bc||\
+dggf ~g2bg|dg~g2fgaf|dggf ~g2 ga|bgag fdcA|\
+dggf ~g2 bg|dg~g2 fgaf|dggf ~g2 ga|bgag fdcA||**
+
+X:45
+T:Kerry
+T:Green Fields of Rossbeigh, The
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:EDor
+FA|BE~E2 BAFB|ABde fded|BE~E2 BAFA|BFAF ~E2FA|\
+BABd BAFB|ABde fded|BE~E2 BAFA|BFAF E2:|\
+FA|Bdef ~g2 fe|dB~B2 dBAd|Bdef gefe|dBAF ~E2 ef|\
+gfga gfeg|~f2 eg fedB|ABde fdec|dBAF E2:|**
+
+\vfill\eject
+
+X:46
+T:Hill on The Road, The
+T:High Part of the Road, The
+S:Trad, arr. Paddy O'Brien
+Z:Set: Hill on the Road/Contentment is Wealth/Tell Her I Am
+R:jig
+E:12
+I:speed 350
+M:6/8
+K:G
+A|BAB cBc|ded cAG|~F2D DED|DGG FGA|\
+BAB cBc|dcA ~d2e|fed cAF|AGF G2:|\
+B/2d/2|gfg def|~g2 a bag|~f2d dfg|afd cAG|\
+gfg def|~g2a bag|fed cAF|AGF G2:|**
+
+X:47
+T:Contentment is Wealth
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:D
+G/2A/2|GFG Eed|BAB EAG|(4FGAF DdB|AFD Def|\
+gfe edB|BAB dcd|(4BcdB DFA|GEE E2:|\
+e/2f/2|gbe gbe|gfg bag|fdd add|fdf afd|\
+gfe edB|BAB dcd|(4BcdB DFA|GEE E2:|**
+
+X:48
+T:Tell Her I Am
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:9
+I:speed 350
+M:6/8
+K:DMix
+B/2d/2|edB GFG|DED GFG|DED ~c2A|BGE EBd|\
+edB GFG|DED GFG|AGF GBA|GFE D2:|\
+d|BAB dBG|BAB dBG|ABA ABA|AGF E2d|\
+BAB deg|age ~d2B|BAF GBA|GFE D2:|\
+d|:efg efg|dBG AGE|~A2 a aga|bag ~e2 d|1\
+efg efg|dBG AGE|agf gba|gfe d^cd:|2\
+def gba|gfe ~d2B|BAF GBA|GFE D2||**
+
+\vfill\eject
+
+X:49
+T:First Night in America
+S:Trad, arr. Paddy O'Brien
+Z:Set: First Night in America/Apples in Winter/Rakes of Clonmel
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:G
+D|GFG AFD|GFG Bcd|(4efge dBG|ABG AFD|\
+GFG AFD|GFG Bcd|(4efge dBG|AGF G2:|\
+B/2d/2|gfg bge|d^cd e=cA|Bdg gfg|abg afd|\
+gfg bge|d^cd e=cA|Bdg dBG|AGF G2:|**
+
+
+X:50
+T:Apples in Winter
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:9
+I:speed 350
+M:6/8
+K:D
+G/2A/2|BEE dEE|BAG FGE|~D2D FDF|ABc ded|\
+BEE BAB|def ~g2 e|fdB AGF|GEE E2:|\
+d|efe edB|ege fdB|dec dAF|DFA def|1\
+efe edB|def ~g2a|bgb afa|gee e2:|2\
+edB def|gba ~g2e|fdB AGF|GEE E2||**
+
+X:51
+T:Rakes of Clonmel, The
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:ADor
+A/2B/2|cBA GED|EAA ~A2B|cBc Adc|BGF GBd|\
+gfg (4efge|dBG Bcd|ecA GED|EAA ~A2:|\
+a|aea aed|cAA Aef|gfg (4efge|dBG GAB|\
+cBc d^cd|edc Bcd|ecA GED|EAA A2:|\
+B|~A2a aga|bge ~e2f|gfg bge|dBG GAB|\
+cBc d^cd|edc Bcd|ecA GED|EAA ~A2:|**
+
+\vfill\eject
+
+
+X:52
+T:Bowlegged Tailor, The
+S:Trad, arr. Paddy O'Brien
+Z:Set: The Bowlegged Tailor/O'Mahony's/Fr. Fielding's Favorite
+R:jig
+E:12
+I:speed 350
+M:6/8
+K:G
+D|GFG gfg|edc ~B2A|GFG BAG |EFG cBA|\
+GFG gfg|afd cAF|DEG Adc|BGF G2:|\
+B/2c/2|dBG dBG|ecA dBG|gba gdB|cAA ABc|\
+dBg dBG|EFG AFD|GFG Adc|BGF G2:|**
+
+X:53
+T:O'Mahony's
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:DMix
+A/2G/2|FEF DFA|dAF AFD|(4EFGE CEG|cGE CEG|\
+FEF DFA|dAF AFD|GFG EFG|AFD D2:|\
+e|~f2d d^cd|afd de=f|~e2c cBc|gec efg|1\
+~f2d d^cd|afd def|gfg efg|afd d2:|2\
+~a2 f gfe|fed cAF|GFG EFG|AFD D2||**
+
+X:54
+T:Father Fielding's Favorite
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:12
+I:speed 350
+M:6/8
+K:G
+E/2D/2|~G2A BcA|BGF GBc|dBG FAG|FDD DEF|\
+~G2A BcA|BAG fed|cAG FGA|BGF G2:|\
+B/2d/2|gfg afd|cBc dBG|~g2b afd|cBc def|\
+geg fdf|ece gfe|ded cBA|BGE G2:|**
+
+\vfill\eject
+
+
+

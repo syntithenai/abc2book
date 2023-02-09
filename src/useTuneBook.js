@@ -69,7 +69,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         //}
         if (currentSongId) {
             var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
-          console.log("NEXT aa ", useTunes)
+          //console.log("NEXT aa ", useTunes)
           useTunes.sort(function(a,b) { 
             return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
           })
@@ -529,13 +529,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         return found
     }
     
+    
+     
     function hasNotes(tune) {
         var hasNotes = false
         if (tune.voices) {
             Object.values(tune.voices).forEach(function(voice) {
                 if (Array.isArray(voice.notes)) {
                     for (var i=0 ; i < voice.notes.length; i++) {
-                        if (voice.notes[i]) {
+                        //console.log("HASNOTES",removeQuotedSections(voice.notes[i]).replace("z",""),voice.notes[i])
+                        if (utils.removeQuotedSections(voice.notes[i]).replaceAll("z","").replaceAll("|","").trim()) {
                             hasNotes = true
                             break;
                         }

@@ -1,0 +1,755 @@
+M:6/8
+
+								2/4/94
+********************* INTRODUCTION ***********************************
+
+     This file contains a number of well-known Irish jigs, reels,
+hornpipes, and polkas, written out in Chris Walshaw's abc notation. To
+print them out, first process the file with the program abc2mtex,
+which will convert it to a Music TeX file, and then run that file
+through Music TeX. See the abc2mtex documentation for an explanation
+of the notation. Both abc2mtex and Music TeX are available for anonymous
+ftp on the archive celtic.stanford.edu. 
+
+     Like any folk music, these tunes change with time. There may be
+quite different versions of some of them floating around. I have tried
+to give settings which are close to what I hear played. A few tunes
+are transcribed from particular performances, one or two others are
+taken from books--both of these are indicated on the tune notes--but the
+majority are set about as I have heard them played. 
+
+     Quite a lot is left to the player. The settings are basic: the only
+decorations indicated explicitly are rolls, triplets and quadruplets;
+first and second endings are only written out when they are
+substantially different. Apart from the fact that most players don't
+need to be told when and where to put in a grace note, a lot of gracings
+are done differently on different instruments: carefully-written-out
+fiddle decorations can be a distraction to someone playing the tune on a
+flute. Since the decorations are only indicated generically, not in
+detail, the tunes should be playable on any of the usual instruments.
+(Well..I have only checked them out on the whistle and pipes.) If some
+of the details of the settings turn out to be awkward on a particular
+instrument, just adapt the tune to fit--most players automatically
+modify a tune slightly in order to make it fit the fingers, or to take
+advantage of some particular effect on their instrument. (There are a
+couple of obvious cases, where, for instance, the range is beyond the
+range of the pipes, whistle, and flute. It is up to the individual to
+modify the setting--i.e. to fake it--if they want to play it.) 
+
+     One thing bears noting: I have written the hornpipes out in
+straight eighth notes, but they are usually played with alternating
+dotted and cut notes: i.e. what I have written as "eighth, eighth,
+eighth, eighth" is often played more like "dotted eighth, sixteenth,
+dotted eighth, sixteenth." The amount of emphasis is a matter of
+style, so some books write out the dotted notes, others don't. I opted
+for the easiest path, and wrote them out in straight eighths. 
+ 
+
+	Thanks to Dan Beimborn and Seamus Keleher for suggesting
+many of these tunes. (Cryptic notations such as Z:Boston just indicate
+that the tune is commonly played in sessions there.  But in fact, most of
+these tunes will be played in sessions all over.)
+
+     I make apologies in advance for the typos which have surely
+escaped my proof-reading. Please let me know about any obvious errors,
+or any settings which seem too much at variance with what is played in
+your own area. 
+
+     When I knew the composer of a tune, I indicated it, but I only knew
+the composers of a couple of the tunes. If any others have known
+composers, I would appreciate hearing about it. As far as I know, the
+remainder of the tunes are public domain. The copyright below does not
+cover the tunes themselves, just the arrangements and the code in this
+file. 
+	
+     Tune 35 is from Bulmer and Sharpley' book; tune 15 from Ceol
+Rince na hEireann, tune 49 from Leo Rowsome's tutor, tune 4 from
+O'Neill's. The remainder of this file is copyright by John B. Walsh,
+January, 1994. It may be freely used, copied and distributed, as long as
+this notice is included with the copy. It may not be sold, or used to
+make hard copies for sale, without express permission of the author. 
+************************* DOUBLE JIGS *********************************
+
+X:1
+T:Lark in the Morning, The
+Z:Vancouver, Boston
+M:6/8
+R:jig
+K:G
+dB|:AFA AFA|BGB BdB|AFA AFA|fed BdB|AFA AFA|BGB BAB|def afe|fed BdB:|
+def a2a|baf afe|def g2e|fed BAB|def ~a3|baf a2f|~g3  faf|edB BAB:|
+.d2 f fef|fef fef|.d2 f fef|edB BAB|.d2 f fef|feffed|~g3 faf|edB BAF:|
+Add fdd|ede fdB|Add fdd|edB BAF|Add fdd|ede fed|~g3 faf|edB BAF:|
+
+X:2
+T:Donnybrook Fair
+T:Joy of My Life, The
+Z:This is about as often found under one title as the other.
+M:6/8
+R:jig
+K:G
+D|~G3 AGA|Bee dBA|BAB GAB|AGE GED|~G3 AGA|Bee dBA|BAB GAB|AGF G2:|
+f|gfe fed|ege dBA|Bee fed|Bee e2 f|~g3 fed|ege dBA|BAB GAB|AGF G2 f|
+|gfe fed|ege dBA|Bee fed|Bee e2 f|~g3 aga|bge dBA|BAB GAB|AGF G2||
+
+X:3
+T:Cliffs of Moher, The
+M:6/8
+Z:Boston, Madison, Vancouver
+R:jig
+K:G
+eaa bag|(4efaf ged|c2 A BAG|EFG ABc|eaa bag|(4efaf ged|cAA BAG|EFG A3:|
+efe dBA|efe dBA|G2 d dBA|GAB dBd|efe dBA|efe dBA|GAB dBG|EFG A3|
+~e3 dBA|~e3 dBA|~G3 dBA|GAB dBd|efe dee|cee Bee|EFG BAG|EDB, A,3||
+
+X:4
+T:Blarney Pilgrim, The
+M:6/8
+R:jig
+K:G
+~D3 DEG|A3 z2 c|BAG AGE|GEA GED|~D3 DEG|A3 z2 c |BAG AGE|GED D2z:|
+ded dBG|AGA BGE|ded dBG|ABA GBd|g2e dBG|AGA BGD|~B3 AGE|~G3 G2 z:|
+ADD BDD|A2D ABc|BAG AGE|GEA GED|ADD BDD|A2D ABc|BAG AGE|GED D2 z:| 
+
+
+X:5
+T:Scatter the Mud
+T:Maid of Tramore, The
+M:6/8
+R:jig
+Z:Madison
+K:ADor
+eAABAA|eAA ABd|eAA BAB|dBG GBd|eAA BAA|eAA AGE|GABd2e|dBAA3:|
+abag2e|dBGGBd|abag2e|dBde3|abag2e|dBGAGE|GAB d2e|dBA A3:|
+
+X:6
+T:Tripping Up the Stairs
+Z:Madison
+M:6/8
+R:jig
+K:D
+A|FAA GBB|Add fed|cBc ABc|dfe d2A|FAA GBB|Add fed|cBc ABc|dfe d2:|
+c|dBB fBB|fgf fed|cAA eAA|efe edc|dBB fBB|fgf fed|cBc ABc|dfe d2:|
+
+X:7
+T:Kesh Jig, The
+T:Kerrigan's Jig
+M:6/8
+Z:Boston  It is _very_ widely played.
+R:jig
+K:G
+D|~G3 GAB|ABA ABd|edd gdd|edB dBA|~G3 GAB|ABA ABd|edd gdB|AGF G2:|
+A|~B3 dBd|ege dBG|~B3 dBG|ABA AGA|BAB dBd|ege dBd|gfg aga|bgf g2:|
+
+X:8
+T:Saddle the Pony
+T:Priests Leap, The
+M:6/8
+Z:Boston
+R:jig
+K:G
+D|GBA G2 B|def gdB|GBA G2B|AFD AFD|GBA G2 B|def gfg|edB dBA|BGG G2:|
+d|efe edB|def gfg|efe edB|dBA ABd|efe edB|def gfg|edB dBA|BGG G2:|
+
+X:9
+T:Whelan's Fancy
+M:6/8
+Z:Boston
+Z:A rolling version of Morrison's
+R:jig
+K:EDor
+~E3 BAF|FEB AFD|~E3 ~B3|dcB AFD|~E3 BAF|FEB AFA|BdB BAB|dAG FED:|
+~B3 ~e3|fed efe|~B3 g2 e|fed BAF|~B3 e2 g|fed e2 f|gbg faf|edB AFD:|
+
+X:10
+T:Morrison's
+M:6/8
+R:jig
+K:EDor
+|~E3 BEB|EBE AFD|~E3 BEB|dcB AFD|~E3 BEB|EBE AFD|~G3 FGA|BAG FED:|
+Bee fee|aee fed|Bee fee|fag fed|Bee fee|aee fed|gfe d2A|BAG FED|
+Bee fee|aee fed|Bee fee|faf def|~g3 gfe|def g2 d|edc d2 A|BAG FED||
+
+X:11
+T:Connaughtman's Rambles, The
+M:6/8
+Z:Seattle
+Z:From O'Neill's
+R:jig
+K:D
+AG|FAA dAA|BAB dAG|FAA dfe|dBB BAG|FAA dAA|BAB def|gfe dfe|dBB B2:|
+e|fbb faa|fef d2e|fbb faa|fed ede|fbb afe|dBc def|gfe dfe|dBB B2:|
+
+X:12
+T:Clare Jig, The
+T:Mug of Brown Ale, The
+M:6/8
+Z:Seattle
+R:jig
+K:ADor
+gf|eAA fAA|gfg age|dBA ~G3|BGB dBd|eAA fAA|gfg age|dBd gdB|ABA A2:|
+efg ~a3|aba age|dBd ~g3|bag fed|efg ~a3|aba age|dBd gdB|ABA A2 z|
+efg ~a3|aba age|dBd ~g3|gba ged|efg a2b|c'2b age|dBg dBG|EAA A2||
+
+X:13
+T:Garrett Barry's
+M:6/8
+Z:Seattle.  Fine piping jig. 
+R:jig
+K:DMix
+DEF ~G3|AGE c2A|dcA d2e|fed cAG|EFF GFG|AGA cde|dcA GEA|~D3 D2:|
+A|dcA d2e|fed ege|dcA c2d|ege dcA|dcA d2e|~f3 ~e3|dcA GEA|~D3 D2:|
+
+X:14
+T: Gold Ring, The
+M:6/8
+Z:Boston.  This is one of the "big" jigs for the uilleann pipes.
+Z:(Not so bad on a fiddle either, it's just that it goes so well 
+Z:on the pipes with all those D crans.) If it's a standard in a session, there 
+Z:are probably pipers around. Seamus Ennis used to tell the story of 
+Z:its origin: it was originally learned from the fairies. 
+R:jig
+K:G
+d|BAG A2d|cAG ~G3|BAG A2d|cDE ~F3|BAG A2d|cAG ~G3|gbg afd|cAF G2:|
+A|~B3 Bdc|~A3 dcA|~G3 GFG|AdB BAG|~B3 Bdc|~A3 A2G|FDE F2d|cAF G2:|
+g|fdd edd|fdd edd|fdd edd|cAF G2g|fdd edd|fdd edd|(4.f.gag fed|cAF G2:|
+d|~g3 f2d|cAG GBd|~g3 f2 d|cDE ~F3|~g3 fad|~g3 fad|gbg afd|cAF G2:|
+E|DBB DBB|DAA DAA|~G3 GBd|cAG FGA|DBB DBB|DAA DAA|~G3 GBd|cAF G2:|
+A|~B3 ~D3|~A3 ~D3 |~G3 GBd|cAG FGA|~B3 ~D3|~A3 ~D3|~G3 GBd|cAF G2:|
+A|B2G A2G|d2 G G2A|B2G A2G|cAG FGA|BAG AGF|GFE FGA|(4.f.gag fed|cAF G2:|
+
+X:15
+T:Fainne Oir Ort
+T:Gold Ring, The
+M:6/8
+Z:There are two unrelated tunes called the Gold Ring, so we gave the Irish
+Z:name here.  Really for a fiddle, but it can be faked quite well on other 
+Z:instruments. (Not really that widely known--introduce it to _your_
+Z:session.)  From Ceol Rince na hEireann.
+R:jig
+K:D
+DB,|DA,A, DFA|dfd edA|BdB AFD|EDE FDB,|A,G,A, DFA|dfd edA|BdB AFE|FDD D2:|
+B|AFA dfa|bgb afd|gag faf|ede fdB|AFA dfa|bgb afd|BdB AFA|Bdd d2:|
+e|dFF AFE|DFE DFA|dfd ede|fdB BAB|dFF AFE|DFE DFA|dfd ede|fdd d2:|
+B|AFA dfd|BAB dAF|DEF EDE|FDB, B,BA|AFA dfd|BAB dAF|DEF EDE|FDD D2:|
+
+X:16
+T:Top of the Cork Road, The
+T:Father O'Flynn
+Z:Another very widely known tune.
+M:6/8
+R:jig
+K:D
+A|dAF DFA|ded cBA|dcd efg|fdf ecA|dAF DFA|ded cBA|dcd efg|fdc d2:|
+g|fdf fga|ecA ABc|dcd Bed|cAA A2c|BGB Bcd|AFD DFA|dcd efg|fdc d2:|
+
+X:17
+T:Sixpenny Money
+M:6/8
+R:jig
+K:G
+fAA fAA|BAG FGE| ~D3 AFA|dfd e2d|fAA fAA|BAG FGE| ~D3 AFA|dfd e2d:|
+~f3 gfg|afd edd|fef gfg|afd e2d|~f3 ~g3|afd edB|ABA AFA|dfd e2d:|
+
+*********************** SINGLE JIGS and SLIDES ***************************
+X:18
+T:Old Hag in the Kiln, The
+T:Dinny Delaney's
+M:12/8
+Z: Note the second part is also played as the fourth part.
+E:10
+R:single jig
+K:DMix
+A2D ~D3 A2G EFG|A2D ~D3 G2A GED|A2D ~D3 c2de2d|dcA AGE G2A GED:|
+dcA AGE c3 ABc|dcA AGE G2A GED|dcA AGE c2de2d|dcA AGE G2A GED:|
+A2 D~D3 A2B G2B|A2B G2A E2G EDD|A2D~D3 c2d e2d|dcA AGE G2A GED:|
+dcA AGE c3 ABc|dcA AGE G2A GED|dcA AGE c2d e2d|dcA AGE G2A GED:|
+
+X:19
+T:Dingle Regatta, The
+M:12/8
+E:12
+Z:Boston
+R:slide
+K:G
+d^cd e2 d BAB d2 B|~A3 AGA B2A G2 z|d^cd e2 d BAB d2B|~A3 B2A G3 z2 z:|
+d2d def ~g3 gfg|~a3 aga b2a gfe|d^cd def ~g3 g2 b|a2g f2e def g3:|
+.g2 z .d2z BdB G3|~A3 DEF G2 B d2 z|.g2 z .d2z BdB G3|~A3 DEF G2 B G2 z:|
+
+\vskip .5in  Seamus Ennis doesn't play the third part, and plays the second part as follows.
+
+Bdd def g3 faf|g2e dBd e2 A AGA|Bdd def g3 faf|efe def g3 z2:| 
+
+X:20
+T:Kathleen Hehir's Slide
+Z:from the playing of de Danann
+M:12/8
+E:11
+R:slide
+K:D
+A|dcd e2d c2E EFG|~B3 BAG F2D DFA|dcd e2d c2E EFG|ABA GFE D3 z2:|
+E|F2A ded c2B G3|ABA G2E B2A F3|DFA ded c2B G3|EFG ABc d3 z2:|
+A|ded d2e f2d A3|fgf fed c2d ecA|ded d2e f2d A2F|EFG ABc d3 z2:|
+f|a2f f2d Adf agf|g2e e2c Bcd efg|a2f f2d Adf agf|gec ABc d3 z2:|
+
+X:21
+T:Denis Murphy's Slide
+M:12/8
+Z:Boston
+Z: From the playing of Padraig O'Keefe
+R:slide
+E:12
+K:D
+dB|A2 D FED F2 AA2 f|gfe fed e2d B2d|A2D FED F2 AA2 f|a2f e2f d3 d2:|
+A|d2e f2a a2f fef|g3 faf e2d BAB|d2e f2f gfe f2f|a2f e2f d3 d2A|
+d2e f2f gfe f2f|gfe fed e2d BAB|d2e f2f gfe f2f|a2f e2f d3 d2||
+
+X:22
+T:Merrily Kiss the Quaker's Wife
+T:Merrily Dance the Quaker
+Z:Boston
+R:slide
+K:G
+D|GAB D2B|c2A BGE|GAB DEG|~A3 A2D|GAB D2B|c2A BGE|GAB D2 E|G3 G2:|
+c|BGGAGG|BGG AGE|GAB DEG|A3 AGA|BGG AGG|BGG AGE|GAB D2E|G3 G2:|
+d|~g3 aga|bge dBd|~g3 gab|~a3 aba|gbg faf|ege dBA|GAB D2 E|G3 G2:|
+
+*************************** SLIP JIGS ******************************
+X:23
+T:Foxhunter's Jig, The
+Z:Madison
+R:slip jig
+M:9/8
+E:13
+K:D
+FDF F2DG2 E|FDF F2DE2 D|FDF F2D G2B|AFD DEF E2D:|
+~B3 BAG FGA|B2EE2FG2B|ABcdcB ABc|d2DD2FE2D:|
+fgf f2dg2e|fgf f2de2d|fgf f2d g2b|afd def e2 d:|
+gfe dcB AGF|B2E E2F G2B|ABc dcB ABc|d2D DEF E2 D:| 
+
+X:24
+T:Butterfly, The
+M:9/8
+C:John Potts
+E:15
+Z:Boston
+R:slip jig
+K:EDor
+B2EG2EF3|B2EG2E FED|B2EG2EF3|B2dd2B AFD:|
+B2=ce2fg3|B2d g2e dBA|B2=ce2fg2a|b2ag2e dBA:|
+B2BB2AG2A|B3 BAB dBA|~B3 B2AG2A|B2dg2e dBA:|
+
+X:25
+T:Kid on the Mountain, The
+M:9/8
+Z:O'Neill's has a sixth part that I've never heard played. 
+R:slip jig
+E:13
+K:G
+~E3 FEF  ~G3| ~E3 c2 A BGE|EDE FEF G2 A|BAG FAG FED:|
+BGB AFA G2D|GAB dge dBA|BGB AFA G2 A|BAG FAG FED:|
+egg eBB e2 f|~g3 efg afd|egg eBB ega|bag fag fed:|
+eBB e2 f ~g3| eBB efg afd|eBB e2f g2 a|bag fag fed:|
+edB dBA G2 D|GAB dge dBd|edB dBA G2 A|BAG FAG FED:|
+
+********************************** REELS *****************************
+X:26
+T:Maid Behind the Bar, The
+T:Green Mountain, The
+M:C|
+R:reel
+Z:Vancouver, Boston
+Z:In O'Neill's as the Green Mountain, with a bit different setting.
+E:7
+K:D
+AG|FAAB AFED|FAAB A2 de|fBBA Bcde|f2 gf edBA|FAAB AFED|FAAB A2 de|fBBA BcdB|AFEF D3:|
+e|fgag fdde|fdad fd d2|efga beef|gebe ge ~e2|faaf bfaf|defd e2 de|fBBA BcdB|AFEF D3:|
+
+X:27
+T:Miss McLeod's 
+T:Mrs. MacLeod of Raasay
+M:C|
+R:reel
+Z:Probably _the_ best-known reel.  Also an American fiddle 
+Z:tune (Hop High Ladies)
+Z:According to O'Neill, it was the _only_ reel known in certain parts of
+Z:Ireland around the turn of the century. 
+E:7
+K:G
+BA|:G2 BG dGBG|B2 BA BcBA|G2 BG dGBG|A2 AG AcBA|G2 BG dGBG|B2 BA ~B3 d|efed Bdef|gedB AcBA:|
+|G2 gf edeg|B2 BA BcBA|G2 gf edeg|A2 AG AcBA|G2 gf edeg|B2 BA ~B3 d|efedBdef|gedB AcBA:|
+
+X:28
+T:Merry Blacksmith, The
+M:C|
+R:reel
+Z:Vancouver
+E:7
+K:D
+AB|d2 dA BAFA|ABdA BAFA|ABde fded|Beed egfe|d2 dA BAFA|~A2 FA BAFA|ABde fedB|AFEF D2:|
+fg|a2 ag ~f3 e|dedA BAFA|ABde f2ed|Beed efge|abag fgfe|d3 A BAFA|ABde fedB|AFEF D2:|
+
+X:29
+T:Star of Munster, The
+M:C|
+R:reel
+E:6
+K:ADor
+ed|c2 Ac BAGB|AGEF GEDG|EAAG ABcd| eaaf gedB|c2 Ac BAGB|AGEF GEDG|EAAG ABcd|ecdB A2:|
+Bd|:eaab ageg|agbg agef|~g3a gfef|(3gfe af gfed|eaab ageg|agbg agef|~g3e ~a3 g|~b3 a gfed:|
+
+
+X:30
+T:Drowsy Maggie
+M:C|
+E:7
+R:reel
+K:EDor
+~E2 BE dEBE|~E2BE AFDF|~E2 BE dEBE|BABc dAFD|~E2 BE dEBE|~E2BE AFDF|~E2 BE dEBE|BABc dAFA||
+d2 fd c2 ec|defg afge|d2 fd c2 ec|BABc dAFA|d2 fd c2 ec|defg afge|afge fdec|BABc dAFD||
+
+X:31
+T:Saint Anne's Reel
+M:C|
+Z:Originally French Canadian, now firmly adopted in Ireland. Madison.
+E:7
+R:reel
+K:D
+de|fedf edcB|A2 FA DAFA|B2GB EBGB|A2 FA DAFA|fedf edcB|A2 FA DAFA|BGBd cAce|d2 dc d2:|
+ag|fdfa fdfa|aggf~g3f|edcB Acea|baa^g a3=g|fdfa fdfa|aggf~g3f|edcBAcec|dedc d2:|
+
+X:32
+T:Silver Spear, The
+M:C|
+E:7
+Z:Boston
+R:reel
+K:D
+FA ~A2 BAFA|dfed Bcd2|FA ~A2 BAFA|dfed B2 A2|FA ~A2 BAFA|dfed Bcdf|~g3 e~f3 e|dfed B2 A2:|
+faaf bfaf|gfed Bcde|faaf bfaf|gfed B2 A2|faaf bfaf|gfed Bcde|~g3 e~f3 e|dfed B2 A2:|
+
+
+
+X:33
+T:Cooley's
+M:C|
+E:7
+Z:Boston 
+R:reel
+K:EDor
+D|EBBA B2 EB|B2 AB dBAG|(3FED AD BDAG|(3FED FA dAFD|EBBAB2 EB|B2 AB defg|afec dBAF|DEFD E3:|
+gf|eB ~B2 efgf|eB ~B2 gedB|A2 FA DAFA|~A2 FA defg|eB~B2 efgf|eB ~B2 defg|afec dBAF|DEFD E2:|
+
+X:34
+T:Pigeon on the Gate, The
+M:C|
+E:6.5
+Z:Boston 
+R:reel
+K:EDor
+dc|BE ~E2 BEdE|BE ~E2 dBAF|D2 (3FED ADFE|DEFA BAFA|BE ~E2 BEdE|BE ~E2 B2 AF|D2 FA dfec|dBAF E2:|
+FA|Beed efed|(3Bcd ef gedB|Addc d3 B|A2 FE DEFA|Beed efed|(3Bcd ef g2 fg|af (3gfe fd ec|dBAF E2:|
+
+X:35
+T:Swinging on the Gate
+M:C|
+R:reel
+E:7
+Z:From Bulmer and Sharpley.  Definitely a tune for the fiddles.
+Z:Boston 
+R:reel
+K:D
+FA|d2AF D2 EF|G2FG FDB,D|A,DFA d2 cA|(3Bcd ed cABc|dBAF~D2 EF|GEFD EDB,D|GE (3FED EDB,G,|A,B,DE D2:|
+FA|~d2 de faef|dcBA F2 ED|B,E ~E2 GFED|B,DEF GABc|dcde (3fga ef|dcBA F2 EF|(3GFE FD EDB,G,|A,B,DE D2:|
+
+X:36
+T:Galway Rambler, The
+T:Walsh's Favorite
+T:Wellington's
+M:C|
+E:7
+Z:Boston.  From the playing of Paddy Canny and P.J. Hayes.   
+R:reel
+K:G
+G2 dG eGdG|G2dB AGEF|GFGA BABd|gedB AGEF|G2 dG eGdG|G2dB AGEF|GFGA BABd|gedB AGEF||
+g2 bg agab|gabg agef|g2 bg agab|gedB AGED|gabg gabg|gabg a2 ga|(3bag af gbaf|gedB AGED||
+
+X:37
+T:Sally Gardens, The
+M:C|
+E:7
+Z:Boston 
+R:reel
+K:G
+DE|~G2 DG BAGB|dBeB dBAB|d2 (3Bcd eBdB|AcBA GEDE|~G2 DG BAGB|dBeB dBAB|d2 (3Bcd efge|dBAB G2:|
+Bc|dggf g2 dg| ~g2 bg aged|ea ~a2 a2 ea|~a2 bg ageg|dggf g2 dg| ~g2 bg ageg|d2 (3Bcd efge|dBAB G2:|
+
+X:38
+T:Ships Are Sailing
+M:C|
+E:6.6
+Z:Boston 
+R:reel
+K:G
+Beed B^cdB|AD (3FED AD (3FED|~E3 F GFGA|Beef gfed|Beed B^cdB|AD (3FED AD (3FED|~E3 F GFGA|Beed e2||
+ef|gfga bgeg|fefg afdf|~g3a bgeg|~f3g e2 ef|gfga bgeg|fefg afdf|~g2 bg ~f2 af|edef g2||
+
+X:39
+T:Sheehan's
+T:Wellington's
+Z:Boston 
+M:C|
+E:7
+R:reel
+K:G
+G2 BG DGBG|ABcA BG ~G2|~A3 B cABG|EAAG FADF|G2 BG DGBG|cBAB cdef|gedB c2 Bc|dBcA BG ~G2:|
+g2 bg dgbg|gbag fade|f2 af dfaf|gbag fddf|g2 bg dgbg|gbag fdef|(3gfe dB c2 Bc|dBcA BG ~G2:|
+
+X:40
+T:Shaskeen, The
+Z:Boston 
+Z:There are several different versions of the second part
+Z:floating around.
+M:C|
+E:7
+R:reel
+K:G
+DG ~G2 ABcA|d2ed  cA ~A2|~B3 G~A3 F|GBAG FGEF|DG ~G2 ABcA|d2ed  cA ~A2|f2df edcA|AGFA G3 z:|
+dggfg2 fg|abag fdde|f3d g2 fg|abag fd d2|dggfg2 fg|abag fdde|~f3 d ~e3d|cAFA G3 z |dggfg2 fg|abag fdde|f3d g2 fg|abag fddc|~B3 G ~A3F|GBAG FD D2|f2 df edcA|AGFA G3 z||
+
+X:41
+T:Wise Maid, The
+T:Doherty's
+M:C|
+C:Johnny Doherty
+E:6.5
+R:reel
+K:D
+~F3 G FEDE|FAAB AFED|d2 (3efg fdec|dBAF BE ~E2|~F3 G FEDE|FAAB AFED|d2 (3efg fdec|dBAG FD ~D2:|
+d z AG FDFA|dfafgfeg|fAdf eAce|dfed cA~A2|BDGB ADFA|dfaf gfed|(3Bcd ce dBAG|FAEA D3 z:|
+
+X:42
+T:Bank of Ireland, The
+M:C|
+Z:Boston
+Z:You can slide into those leading C's
+E:6.5
+R:reel
+K:DMix
+AB|c2 AB cBAG|EGDG EGAB|c2 AB cBAG|Adde fded|c2 AB cBAG|EGDG EGAB|c3 d cBAG|Add^c d2:|
+K:D
+e|f2df e3 c|dfed cA ~A2|f2df gfed|eaag ed d2|fg (3agf ef (3gfe|dfed cA~A2|Addc defg|af (3gfe d3:|
+
+X:43
+T:Sligo Maid, The
+M:C|
+Z:Boston
+E:7
+R:reel
+K:AMix
+A2 BA (3Bcd ef|gedB AGEF|~G2 BG dGBG|DEGA BAdB|A2 BA (3Bcd ef|gedB AGEG|B3G A2GE|DEGA BA ~A2:|
+eaag a2ga|bgab gfed|eggf ~g3e|dega bgag|eaag a2ga|bgab gfed|eg~g2 edBc|dBgB BA ~A2:|
+
+X:44
+T:Christmas Eve
+T:Tommy Coen's
+M:C|
+E:7
+C:Tommy Coen
+Z:Boston
+R:reel
+K:G
+GE|D3 E G3 A|B2 dB ABGB|ABGE ~D3 E|G2 BG ABGE|D3 E ~G3 A|B2 dB ABGA|BA ~A2 GEBG| ABGE G3:|
+A|BA (3Bcd edeg|agge g2 eg|a2 ge gage|dedB ABGA|BA (3Bcd edeg|agge g2 eg|a2 ge d2 BG| ABGE G2:|
+dc|BG ~G2 dGBd|eg ~g2 egdc|BG ~G2 dGBG|EA ~A2 EA ~A2|BG ~G2 dGBd|eggf ~g3 a|bgag edBG|ABGE G2:|
+
+X:45
+T:Temperance Reel, The
+T:Teetotaller's Reel, The
+M:C|
+E:7
+R:reel
+K:G
+D|G2GF GABc|d2ge dBAc|BEED EFGA|BGAF GFED|~G3F GABc|dBge dBAc|BEED EFGA|BGAF G3:|
+A|Beed e3g|fgaf gfed|Bdd^c d3 e|fgafgfed|Beed ~e3 g|fgaf gfed|BEED EFGA|BGAF G3:|
+
+X:46
+T:Junior Crehan's Favorite
+T:Knotted Cord, The
+M:C|
+Z:From Liam O'Flynn
+E:7
+R:reel
+K:ADor
+~A3B AE ~E2|A2 (3Bcd edBA|~G3 A GEDE|~G2 BG dGBG|~A3 B AE ~E2|A2 (3Bcd edBA|~G2 Bd efge|dBGA BA ~A2:|
+ea~a2 eaag|eaag aged|eg~g2 eggf|~g3 a geed|ea ~a2 eaag|eaag aged|~B3 d gaba|gedB BA A2:|
+
+X:47
+T:Earl's Chair, The
+M:C|
+E:7
+R:reel
+K:D
+A|B2 dB BAFA|B2 dB BAFB|AF ~F2 DF ~F2|AFdB ADFA|B3d BAFA|~B2 dB BAFB|AFAB dcdf|edef d3:|
+f|:~e3 f d2 (3Bcd |edef dBAB|~e3f d3e|fedB ADFA|~e3 f dB~B2|gB ~B2 defg|afbf afeg|fedB ADFA:|
+
+X:48 
+T:Fermoy Lasses, The
+M:C|
+E:7
+R:reel
+K:G
+BA|:GE ~E2 BE ~E2|GE ~E2 BcBA|GE ~E2 BE ~E2|AFDF AcBA|GE ~E2 BE ~E2|GE ~E2 BcBA|~G3 F GBdB|AFDF AcBA:|
+G2 (3BAG dGBA|G2 Bd efg2|~G3B dGBG|AFDF AcBA|G2 (3BAG dGBA|G2 Bd efg2|afge dedB|AFDF AcBA:|
+
+**************************** HORNPIPES ********************************
+X:49
+T:Rights of Man, The
+Z:Leo Rowsome's setting, from his uilleann pipe tutor.
+M:4/4
+E:6.5
+R:hornpipe
+K:G
+GA|BcAB GAFG|EFGA B2ef|gfed Bgfg|(3ege dB A2GA|BcABGAFG|EFGA B2ef|gfed BA (3Bcd|e2 E2 E2:|
+ga|babg efga|babg egfe| dAFA d^cdf|afdf a2 gf|edef gfga |(3bag af g2ef|gfed BA  (3Bcd|e2 E2 E2:|
+
+\noindent The first measure is often played in triplets:
+||(3BcB (3ABA (3GAG (3FGF|EFGA B2 || 
+
+
+X:50
+T:Boys of Bluehill, The
+M:4/4
+E:7
+Z:Often followed by Harvest Home as a medley
+R:hornpipe
+K:D
+FA|BAFA D2FA|BA (3Bcd e2de|faaf egfe|dfed B2dA|BAFA DAFA|BA (3Bcd e2de| faaf egfe|d2 d2 d2:|
+fg|afdf a2gf|efga b2ag|faafegfe|dfed B2dA|BAFA D2FA|BA (3Bcd e2de| faaf egfe|d2 d2 d2:|
+
+X:51
+T:Harvest Home
+M:4/4
+E:6.5
+Z:Madison
+R:hornpipe
+K:D
+AF|DAFA DAFA|defe dcBA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|DAFA DAFA|defedcBA|eAfAgecA|d2 f2 d2:|
+cd|eA ~A2 fA ~A2|gAfA eA ~A2|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|DAFA DAFA|defe dcBA|eAfA gecA|d2 f2 d2:|
+
+X:52
+T:Off to California
+M:4/4
+R:hornpipe
+Z:Boston sessions
+E:6.5
+K:G
+(3DEF|GFGBAGED|GBdg e2 (3def|gfgd edBG|ABAG E2 (3DEF|GFGB AGED|GBdg e2 (3def|gfgd edBG|(3ABA GF G2:|
+d|gfeg fedf|edef edB2 |(3def gd edBG|ABAG E2 (3DEF|GFGB AGED|GBdg e2 (3def|gfgd edBG|(3ABA GF G3:|
+
+X:53
+T:Kitty's Wedding
+M:4/4
+R:hornpipe
+Z:Boston sessions
+R:hornpipe
+E:6.5
+K:D
+fe|d2 Bd A2 FA|BAFE DFED|B,DA,D DFBF|AFDF E2 fe|d2 Bd A2 FA|BAFA D2 ED|B,DA,D DFBF|AFEF D2:|
+fg|afed bafd|Adfd edBA|DFAd FAde|fdgf e2 fg|afed bafd|Adfd edBA|DFAd FAdf|eABc d2:|
+
+X:54
+T:Home Ruler, The
+M:4/4
+R:hornpipe
+Z:Boston sessions
+E:6.5
+K:D
+FE|D2 FA D2 FA|dfed BcdB|A3 B AFDE|FDED B,DA,B,|D2 FA D2 FA|dfed BcdB|A3 B AFDE|F2D2D2:|
+AB|d3c defg|afbf afed|efed BA (3Bcd|fded BdAB|d3c defg|afbf afed|efed BA (3dcB|AFEF D2:|
+
+X:55
+T:Plains of Boyle, The
+M:4/4
+R:hornpipe
+E:7
+K:D
+FG|AFDE FED2|(3ABA GB AFD2|fedf edce|dcAB =cABG|AFDE FED2|(3ABA GB AFD2|fedc (3ABc AG|F2D2D2:|
+fg|afdf g2 fe|dfed BAF2|(3ABA FA BAF2|(3ABA FA BAfg|afdf g2 fe|dfed BAF2|(3ABA AF GEAG|F2D2D2:|
+
+*********************************** POLKAS *****************************
+X:56
+T:Ballydesmond Polka \#1, The
+M:2/4
+Z:All three of the Ballydesmond polkas are from playing of Denis Murphy and 
+Z:Julia Clifford.  They are usually played as a set.
+Z:Boston 
+R:polka
+E:13
+K:G
+A3B A2G2|E2F2 G2E2|A3B A2G2|A2d2 dedc|A3B A2G2|E2F2 G4|A2B2 c2E2|E2D2 D4:|
+A2d2 d4|e2d2 c4|e2d2 c2d2|e2a2 abag|e2d2 c4|e2d2 c4|A3B c2d2|e2f2g3f|e2d2 c2d2|e2A2 c2d2|e3d c2d2|e2a2 abag|efg2 d3B|c2e2 d3B|A2B2 c2E2|E2D2 D4||
+
+X:57
+T:Ballydesmond Polka \#2, The
+T:Maurice Manley's
+Z:Boston
+M:2/4
+R:polka
+E:13
+K:G
+E2A2 A2B2|c2d2 e2g2|G3F G2A2|G2E2 E2D2|E2A2 A2B2|c2d2 e3f|g2e2 dedB|A4 A4:|
+a3g a2b2|a2g2 e2f2|g3f g2a2|g2e2 d2e2|a3g a2b2|a2g2 e3f|g2e2 dedB| A4 A4:|
+
+X:58
+T:Ballydesmond Polka \#3, The
+T:Tom Billy's
+M:2/4
+Z:Boston
+R:polka
+E:12
+K:G
+AB|c4 B4|A2BA G3A|B2d2e2d2|g6 z d|e2a2 gage|d2B2 G2AB|c2e2 d2B2|A6:|
+e2a2 a2ag|d2g2 g4|e2a2 a2b2|g6 z d|e2a2 gage|d2B2 G2AB|c2e2 d2B2|A4 A4:|
+
+X:59
+T:Spanish Lady
+Z:Boston
+M:2/4
+R:polka
+E:10
+K:D
+AG|:F2A2 A2Bc|d3c d2ef|g2e2 f2d2|B2A2 ABAG|F2A2 A2Bc|d3c d2ef|g2e2 f2d2|B2A2 A4:|
+f2a2 abaf|e2d2 d2e2|f2a2 a3f|e2d2 e4|f2a2 abaf|e2d2  d2ef|g2e2 f2d2|B2A2 A4:|
+
+X:60
+T:Charlie Harris' Polka
+M:2/4
+Z:From the playing of Kevin Burke.  This is a polka version of 
+Z:Charlie Harris' Reel.  Madison 
+R:polka
+K:D
+d3B|A2F2 D2F2|E2F2 D2F2|A2F2 A2B2|e4 d3B|A2F2 D2F2|E2F2 D2F2|A2F2 A2B2|d4:|
+A2|d4 f2d2|e2f2 d2B2|A2F2 A2B2|e4 d2A2|[1d4 f2d2|e2f2 d2B2|A2F2 A2B2|d6 :|[2d2f2 fefg|a2f2 f3f|a2f2 e2f2|d6||
+
+
+X:61
+T:Maggie in the Woods
+M:2/4
+Z:There are some slightly rowdy lyrics on one of the 
+Z:early Chieftains albums. Madison, Vancouver
+E:10
+R:polka
+K:G
+BA|G2D2 G2A2|B2e2 efge|d2B2 BAGA|B2A2 AcBA| G2D2 G2A2|B2e2 efge|d2B2 A2BA|G4 G2:|
+d2|g3f e2d2|e2f2 g3e| d2B2 BAGA|B2A2 A3d|g3f e2d2|e2f2 g3e|d2B2 A2B2|G4 G2:|
+
+X:62
+T:Denis Murphy's Polka
+M:2/4
+E:10
+R:polka
+K:D
+fgfe d3B|A2D2 F2A2|G2E2 e3d|c2B2 B2A2|fgfe d3B|A2D2 F2A2|G2E2 e3f|e2d2 d3:|
+B|A2f2 fef2|A2g2 gfg2|A2f2 fef2|efed B2A2 |A2f2 fef2|A2g2 g3a|b2a2 g2c2|e2d2 d3:|
+

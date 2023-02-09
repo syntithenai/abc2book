@@ -120,6 +120,7 @@ export default function MusicSingle(props) {
                //props.setTempo(tempo)
            //}
            // has words but no music
+           //console.log('SING CHECK',props.tunebook.hasLyrics(tune),props.tunebook.hasNotes(tune))
            if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
                props.setViewMode('chords')
            }

@@ -1,0 +1,1391 @@
+%abc2ps Book2abc.txt -x -o
+
+X: 1
+T:Gan Ainm
+R:Reel
+S:Gerry McCartney, Belfast (banjo-mandolin)
+M:4/4
+D:Session tape - Ballaghadereen Fleadh, 1977
+N:As played
+Z:Bernie Stocks
+K:D %ie. Em
+GEBE GEBE | FDAD FDAD |1 GEBE GEBE | FEDF E3F :|2 G2GF GBdB |
+AGFG E3F || G2GF GBdB | ABAG FDAD | BeeB e3f | gfed Beef |
+gfge dedB | ABAG FDAD | Beed BcdB | AFDF E4 ||
+
+X: 2
+T:Boys of the 25
+M:4/4
+L:1/8
+S:Gerry McCartney, Belfast (banjo-mandolin)
+R:Reel
+D:Session tape - Ballaghadereen Fleadh, 1977
+N:As played
+Z:Bernie Stocks
+K:G %ie. Am 1 #
+cBAF G2AB | cBAG AddB | cBAF G2eg | fded Add2 :: fefg a3g |
+fefg afde |1 fefg a3g | fded Adde :|2 fgaf g2ag | fded Add2 ||
+
+X: 3
+T:The Killimer
+R:Jig
+M:6/8
+D:Session tape - Ballaghadereen Fleadh, 1977
+Z:Bernie Stocks
+K:G
+DEF GAG | BAG ABc | ded fed |1 ded cAF :|2 cAF G3 ::
+GBd g3 | dgb gdB |1 GBd g3 | fed cAF :|2 GBd fed | cAF G3 :|
+
+X: 4
+T:Eel in the Sink
+M:4/4
+L:1/8
+S:Gerry O'Connor, Louth (fiddle)
+R:Reel
+N:As played
+D:Session tape - Ballaghadereen Fleadh, 1977
+Z:Bernie Stocks
+K:G %ie. Am 1 #
+(3.e.f.e AB cde^c | ~d2BG DGBG | (3.e.f.e AB cdea|1 {a}gedB cAag :|2 {a}gedB cAce ||
+(3.a.b.a ea {b}aged | cdef (3gfg ea | {b}agea {b}ageg | {a}gedB {d}BAce |
+agea {b}aged | cdef g2 (3e.f.g | afge fdeg | {a}gedB {d}BAA2 ||
+
+X: 5
+T:The Shoemakers Daughter
+R:Reel
+N:As played
+S:Gerry O'Connor, Louth (fiddle)
+M:4/4
+D:Ballaghadereen Fleadh, 1977
+H:Start of part 2 also '~g2dg'
+Z:Bernie Stocks
+K:G %ish
+G2DG Bc{d}cA | GzD=F {G}=FDCD | G3A Bcde | fdBd cABc | dg~g2 dc~c2 |
+Bcde fdBd | (3gag dg fdcA | FGAF G2 (3.E.D.C | B,DGA BcdA | G=FDF {G}=FDCA |
+G2(3.D.D.D Bcde | fdBd cABc | dg~g2 dc~c2 | Bcde fdBd | (3gag dc BcdB |
+cAFA G2Bd |: (3gag dg bgdg | (3.g.a.g dg fdBd | (3.g.a.g dg bgdg | fdcA BGBd |
+{a}gedc BG~G2 | FGAc {d}cABc | dg~g2 defd | cAFA G4 :|
+
+X: 6
+T:Gan Ainm
+R:Reel
+S:Deirdre Shannon, Belfast (fiddle)
+N:As played
+M:4/4
+D:Session tape - Ballaghadereen Fleadh, 1977
+Z:Bernie Stocks
+K:D
+d2dc dAFf | gece dBAG | (3.F.E.D AD BDAD | E2 (3.F.E.D EFGA |
+d2dc dAFf | gece dBAG | FGAB cdef |1 gece d3A :|2 (3.g.g.e ce d3e |:
+fdAG FAde | (3.f.f.d AG FAdf | ge (3.f.f.e edBd | cedB A2de |
+fdAG FAde | (3.f.f.d ge cABc | dB{d}BA BAFA |1 GEFE D2de :|2 GEFE D4 ||
+
+X: 7
+T:Miss Johnston (version)
+R:Reel
+S:Gerry O'Connor, Louth (fiddle)
+M:4/4
+D:Session tape - Ballaghadereen Fleadh, 1977
+Z:Bernie Stocks
+K:G
+GABc d2Bc | d2gd adgd |1 GABc dBcB | Aaag fdcA
+:|2 GABc defg | a3g fdcA |: BG (3.G.G.G DG (3.G.G.G | BG (3.G.G.G cAdc
+|1 BG (3.G.G.G DG (3.G.G.G | FGAB cAdc :|2 Bdgf edcB | AGFE DcBA ||
+
+X: 8
+T:John Naughton's
+R:Reel
+M:4/4
+S:Michael O'Raihillaigh (concertina)
+D:Private tape
+Z:Bernie Stocks
+K:G %i.e.Am
+EAAB cecA | BGGF (3GBcdB | AEAB cece | dBdB BAAG | EAAB cecA | dBBd gedg |
+eaab g2ba |1 gedB A3G :|2 gedB A2Bd |: e2ag edBA | BGGF (3GBcdB | ABcd e2af |
+g3a ged2 | eaa2 bgg2 | aged BedB | AEEE GABd |1 gedB A2Bd :|2 gedB A3G ||
+
+X: 9
+T:Gan Ainm
+R:Jig
+M:6/8
+D:Private tape
+S:Michael O'Raihillaigh (concertina)
+Z:Bernie Stocks
+K:D
+AFA d2A | dfa gfe |1 fdd e2d | =cAG FGA :|2 ged =cAG | Adc d3 :: ABA GFG |
+ADD FED | EDE =cBc | GEG =cAG | AGA GFG | Add efg | (3gfed =cAG | Adc de=f ::
+fdd efg | add =cde | fdd efg | agf d2e | (3fgaf gfg | add =cde | (3gfed =cAG | Adc d3 :|
+
+X: 10
+T:Gan Ainm
+R:Jig
+M:6/8
+D:Private tape
+S:Michael O'Raihillaigh (concertina)
+Z:Bernie Stocks
+K:G
+GBd G2B | dBG dBG | cBc EFG | AdG FAD | GBd gfg | dBG dBG | cBc DFA | AGF G3 ::
+BAB GBd | gfg dBG | cBc EFG | AdG FAD | (3BcdB GBd | gfa dBG | cBc DFA | AGF G3 ::
+g2g dBd | GBd gfg | a2e e^ce | A^ce afe | g2f faf | gdB GAB | cec DFA | AGF G3 :|
+
+X: 11
+T:Primrose Lass (version)
+R:Reel
+M:4/4
+D:Private tape
+S:Michael O'Raghallaigh (concertina)
+Z:Bernie Stocks
+K:G
+B3G A2GE | DEGA BA~A2 | B3A G3B | dBAc BAGA | BG~G2 BEGE | DEGA BA~A2 |
+B3A G3B | dB~B2 BAGB || dg~g2 gd~d2 | ed~d2 edBc | dg~g2 gfed |
+ea~a2 agef | g3f gd~d2 | ed~d2 edBc | dg~g2 gfed | ea~a2 aged ||
+
+X: 12
+T:St Andrews
+R:Reel
+M:4/4
+S:Vincent Blin, France (fiddle)
+D:Concert on Clare FM
+C:Sean Ryan, Offaly (fiddle)
+Z:Bernie Stocks
+K:F
+F2CF AFFG | Acde fcAF | G2DG BGGf | efge fcBG | F2CF AFFG |
+Acde fdcA | B2GB A2FA | GCEG F4 :: f2cf acfa | cfag fedc |
+g2dg bdgb | dgba gbag | f2cf acfa | cfag fedc | B2GB A2FA | GCEG F4 :|
+
+X: 13
+T:Paddy Faheys
+R:Reel
+M:4/4
+S:Vincent Blin, France (fiddle)
+C:Paddy Fahey
+D:Concert on Clare FM
+H:Actually 'G' but natural F except in 'G' runs.
+H:The intitial 'B' is hit flat second time through.
+K:C
+GA |: B2dB c2Bc | dGGF DEFG | BcdB c2Bc | dGGF DGGA | (3Bcd (3Bcd c2Bc |
+dGGF DEFG | BcdB cedc | BGAF DGG2 :: dg~g2 dgbg  | (3gab ag ^fdcA | cf~f2 cfaf |
+cfag fedc | dg~g2 dg~g2 | bgag ^fdef | gbag ^fdeg | ^fdcA G4 :|
+
+X: 14
+T:Gan Ainm
+R:Reel
+M:4/4
+S:Orla McGrory, Belfast (fiddle)
+H:From Mairead Mooney
+Z:Bernie Stocks
+K:D %i.e. Em
+EFGA B2ed | B2Ac BcdB | AF~F2 DF~F2 | AFBF AFED | EFGA B2ed | B2Ac Bcde |
+fedB AF~F2 | BFAF E4 :: Beed e2de | fedc Bcde | fede ~f3g |
+fedc BAFA | Beed e2de | fedc Bcde | fedB AF~F2 | BFAF E4 :||
+
+X: 15
+T:Napoleon Crossing the Rhine
+R:Hornpipe
+M:4/4
+N:As played
+S:Dianna Boullier, Bangor (fiddle)
+Z:Bernie Stocks
+K:Em
+E3E {G}EDB,D | {A}GFGB A2GA | (3Bcd gf edBA | GE~E2 FD+D2B,2+ | E2GE {G}EDB,D |
+GFGB A2GA | (3Bcd gf edBA |1 GE{G}ED E2B,D :|2 GE{G}ED E2Bd || eged B2{d}BA |
+G3B d2Bd | eged AB{d}BA | GE~E2 FDB,D | E2GE {G}EDB,D |
+GFGB A2GA | (3Bcd gf edBA |1 GE{G}ED E2Bd :|2 GE{G}ED E4 ||
+
+X: 16
+T:Paddy Taylors
+R:Jig
+M:6/8
+D:Session tape - Belfast '84
+Z:Bernie Stocks
+K:D
+EAB =c3 | Adc d2e | faf ded | ABG FAD | dcd afd | Bef g2e | fed cAF | GEA D3 ::
+dcd faf | gec Ace | dcd FAB | =cBc EFG | dcd faf | gec Ace | dcd DFA | GEA D3 ::
+~d3 ~a3 | ~g3 ~a3 |~d3 ~a3 | gef gfe | def ecA | GAB AFG | Adc ABA | GEA D3 :||
+
+X: 17
+T:Gan Ainm
+M:4/4
+R:Reel
+S:Paddy O'Neill, The Moy, Tyrone (fiddle)
+D:Private tape
+H:Sean McGuire does this
+N:As played
+Z:Bernie Stocks
+K:A
+AB | ce(3.e.e.e fece | aecA EAcA | Bf~f2 gfdf | bfdB GBdB | ce(3.e.e.e fece |
+aecA EAcA | dfBd ceAe | BAGB A4 :: ac'(3.c'.c'.c' ac'ea | ceAc EAce |
+fB~B2 Bcde | fagb agfe | ac'(3.c'.c'.c' ac'ea | ceAc EAce | dfBd ceAe | BAGB A4 :|
+
+X: 18
+T:Austin Tierneys
+M:4/4
+L:1/8
+S:Unknown fiddler
+R:Reel
+N:As played
+D:From a recording? 197?
+Z:Bernie Stocks
+K:D
+D3B {d}BAFB | Ad~d2 fded | D2(3FED ADFA | BdAF EB,B,2 | D3B {d}BAFB |
+Ad~d2 defg | afge fdec |1 dBAF EB,B,2 :|2 dBAF Egfe ||
+d3B AF~F2 | dFAF BFAF | d3B AFDF | (3.B.c.B AF GFEF | Dddc BcdB |
+(3.B.c.B GB ABde |1 afge fdec | dBAF EB,B,2 :|2 faec dBAF | BdAF EGFE ||
+
+X: 19
+T:John Byrnes' Favourite Cake
+R:Reel
+M:4/4
+S:Noel Hill, Clare (concertina)
+D:Tape of concert in Dublin '91
+H:Versions of Jenny's Chickens (?)
+Z:Bernie Stocks
+K:D %i.e. 2 sharps
+f2Bf fece | fBBf eAce | fB~B2 fece | fBaf eAce :: fBbB fBBe | fBbf eAce |
+fBbB fBBe | fBaf eAce :: f2fe fdde | fedf eAce | f2fe fdde | fdaf eAce :|
+
+X: 20
+T:Padraig O'Keeffes (1)
+R:Slide
+M:6/8
+S:Noel Hill, Clare (concertina)
+D:Tape of concert in Dublin '91
+Z:Bernie Stocks
+K:G
+BGA EGD | ~E3 DEG | BAG EDE | c3 B2A | BGA EGD | ~E3 D2E | GBA GBA | G3 G2A ::
+G2G B2d | ege d2B | G2G B2d | e3 g3 | G2G B2d | ege d2A | BAG EDE | c3 B2A :|
+
+X: 21
+T:Padraig O'Keeffes (2)
+R:Slide
+M:6/8
+S:Noel Hill, Clare (concertina)
+D:Tape of concert in Dublin '91
+Z:Bernie Stocks
+K:G
+GAG FED | E2F G2A | B2G c2A | BAG c2A | Bcd EFD | ABG FED | EFG AFD | G3 G2D ::
+GAG GBd | e2f g2e | dBG GBd | e2f g2e | dBG cBA | dBG FED | EFG AFD | G3 G3 :|
+
+X: 22
+T:Padraig O'Keeffes (3)
+R:Slide
+M:6/8
+S:Noel Hill, Clare (concertina)
+D:Tape of concert in Dublin '91
+Z:Bernie Stocks
+K:G
+dBA G2A | BGE E2B | dBG AGE | GED D2B | dBG G2B | dBG ege |
+dBG AGE |1 GED D2B :|2 GED D2f || gfg e2f | gfg e2f | g2e a2g |
+fef def | g2e a2f | gfe d2B | dBG AGE |1 GED D2f :|2 GED D3 ||
+
+X: 23
+T:Gan Ainm
+R:Reel
+D:Session tape, Kitchen Bar, Belfast late 80's
+M:4/4
+Z:Bernie Stocks
+K:D
+d2fd adfd | abaf edBA | d2fd adfd |1 abaf e2dB :|2 abaf e2de ||
+fBBA Bcde | fBBc d3e | fBBA Bcde |1 f2af e2de :|2 f2af e2dB ||
+
+X: 24
+T:The Lone Bush
+R:Hornpipe
+C:Ed Reavy
+N:As played
+S:Dermy Diamond, Belfast (fiddle)
+D:Session tape, Kitchen Bar, Belfast late 80's
+M:4/4
+Z:Bernie Stocks
+K:G
+(3DEF | GABd (3cBc dB | GABd c2 (3ABc| defa gfdc | (3Bcd BG =FDCD |
+GABd (3cBc dB | GABd c2 (3ABc | dgfd cAFA |1 (3GFG  (3AGF G2 (3DEF
+:|2 (3GFG  (3AGF G2 (3def || gdBd =fcAc | gd (3Bcd f2ef | gbfa gfde |
+(3fga eg fdcA | GABd (3cBc dB | GABd c2 (3ABc | dgfd cAFA
+|1 (3GFG  (3AGF G2 (3def :|2 (3GFG  (3AGF G2 (3DEF ||
+
+X: 25
+T:Gan Ainm
+R:Reel
+S:Martin and Christine Dowling, Wisconsin (fiddle,flute)
+D:Session tape, Kitchen Bar, Belfast late 80's
+H:Played after The Rainy Day
+M:4/4
+Z:Bernie Stocks
+K:G %i.e. 1 sharp
+EAAB c2Ac | BGAG EGDG | EAAB cBcd | egdg eaag | eAAB c2Ac | BGAG EGDG |
+EAAB cBcd |1 egdg edAG :|2 egdg eaag || a2ag aged | cdef g2eg | eaag a2ba |
+aged eaa2 | a2ag aged | cdef g2fg | egdg egdg |1 egdg eaag :|2 egdg edAG ||
+
+X: 26
+T:The Tailor's Choice
+R:Reel
+D:Session tape, Bangor - late 80's
+S:Nigel and Dianna Boullier, bangor (banjo,fiddle)
+M:4/4
+Z:Bernie Stocks
+K:G
+D3B BAGE | DGBG A2BA | GEDG B3B | c2Bc AGED :: dGBG dGBG | d2BG AGED |
+d2BG dGBG | c2Bc AGED | dGBG dGBG | d2BG AGED | cBcd egge | d2BG AGED ||
+
+X: 27
+T:Gan Ainm
+R:Reel
+S:Martin and Christine Dowling, Wisconsin (fiddle,flute)
+D:Session tape, Bangor - late 80's
+M:4/4
+Z:Bernie Stocks
+K:G %i.e. 1 sharp
+e2de cAAG | ABcd e3c | dcBA GABc | dcBA GABc | d2cd BGG2 | ABcd e3f |
+gG(3.G.G.G GABd | e2de cAA2 :: aged cdef | geaf g2eg | aged cdef |
+gedg eAA2 | aged cdef | geaf g3e | defg a3f | gedg eAA2 :|
+
+X: 28
+T:Paddy O'Rafferty
+R:Jig
+S:Seamus Creagh (fiddle)
+D:Session tape - Doolin, 198?
+M:6/8
+Z:Bernie Stocks
+K:A %but no 'g's anywhere
+Ecc EBB | Ecc BAF | Ecc EBB | ABA AFD | Ecc EBB | ABc d2f | ecA BAF |
+ABA AFE :: +ce++Ae++AF++E2A2+F | A2c BAB | cAF E2F | ABA AFE | cAF E2F |
+ABc d2f |  ecA BAF | ABA AFE :: AcE AcE | Ace fed | ceA ceA | ABA AFE |
+AcE AcE | Ace a2e | fec ~B3 | ABA AFE :: Ace a2e | fef aec | Ace aec |
+ABA AFE | Ace a2e | fef a2e | fec ~B3 | ABA AFE :: cEE BEE | ABc dcB |
+cEE BEE | ABA AFE | cEE BEE | ABc d2f | ecA BAF | ABA AFE :||
+
+X: 29
+T:Geogahan's
+R:Reel
+H:Learnt from Tom McGonigle, Belfast (concertina)
+N:As played
+S:Bernie Stocks, Belfast (fiddle)
+M:4/4
+Z:Bernie Stocks
+K:G
+{A}G2DG EGDE | GABG AE~E2 | G2DG EGAB |1 cedc BGAF :|2 cedc BGBd ||
+gd(3.d.d.d edBA | BdBG AE{F}ED | gd(3.d.d.d edBA | Bdgd BGGz |
+~g2fg edB2 | (3cBA BG AGED | ~c3d egfa | gedc BGAF || G4 ||
+
+
+X: 30
+T:The Foxhunters
+R:Slip Jig
+M:9/8
+S:Unknown fiddler
+D:Session tape ?
+H:Played after slow air (John O'Dwyer of the Glen)
+H:Followed by 31
+Z:Bernie Stocks
+K:G
+B3 B2A G2A | B2E E2F G2A | B3 B2A G2B | A2D DEF E2D :|
+d2f fef g2e | f3 {a}fef e2d | d2f fef g2b | a2f d2f e2d ||
+
+X: 31
+T:Gan Ainm
+R:Slip Jig
+M:9/8
+S:Unknown fiddler
+D:Session tape ?
+H:Played after 30
+Z:Bernie Stocks
+K:G
+B2E E2F G2A | Bcd e2c d2A | B2E E2F G2A | BdB A2F G2E :|
+g2e e2d e2g | f2d d2c d2f | g2e e2d e2A | B2d A2F G2E :|
+
+X: 32
+T:Gan Ainm
+R:Reel
+S:Dessie Wilkinson, Belfast (flute)??
+D:Session tape, Belfast 1982
+M:4/4
+Z:Bernie Stocks
+K:G
+FGAG FAD2 | AFDF G2AG | F2AG FAD2 | BdcA G4 :| A2AB cABG |
+AGAB dABG |1 A2AB cABG | BdcA G4 :|2 A2dA BG~G2 | Addc d4 ||
+
+X: 33
+T:Gan Ainm
+R:Reel
+S:Dermy Diamond, Belfast (fiddle)
+D:Session tape, Belfast 1982
+M:4/4
+Z:Bernie Stocks
+K:D %i.e. A modal
+A3g fded | (3Bcd ef gfge | (3Bcd eg fdfa | gedg eAA2 :| a2ef g2fg | eAcA cde2 |
+a2ea fdfa | gedg eAAa | {b}a2ea fdfg | eAcA cdeg | a2ea fdfa | gedg eAAa ||
+
+X: 34
+T:Little Black Pig
+R:Jig
+M:6/8
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:G %i.e.D modal
+ABA DFA | ded dcA | GEE cEE |1 GAB c3 :|2 DED D3 :|
+ded ecA | ded dcA | GEE cEE |1 GAB c3 :|2 DED D3 :|
+
+X: 35
+T:Gan Ainm
+R:Fling
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+H:A Shetland tune
+K:G
+BGAG EGDG | BGAG BGAG | BGAG EGDE |1 GABA G3A :|2 GABA G3g ||
+egdB AGEg | egdg egdg | egdB AGE2 | eg(3.g.g.g abgd |
+egdg edgd | egdB AGED | (3.G.G.GBG EGDE | GABA G4 ||
+
+X: 36
+T:Gan Ainm
+R:Fling
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:A
+f | eAcf eAcf | eAcA Bcdf | eAcf eAce | fdBd cA(3.A.A.A :| aece fece |
+aece fB(3.B.B.B |1 aece fece | f2ed cAA2 :|2 a2ae faec | Bcde f3a ||
+
+X: 37
+T:Yellow Tinker
+R:Reel
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+H:'Box' version of the fiddle tune
+Z:Bernie Stocks
+K:D %i.e. A modal (but no 'c' anyway)
+A3G EGDG | EA(3.A.A.A fAeA | EAAG EDEF | G2DG B,GDG :| (3.A.A.AeA fAeA |
+fAeA dBGB |1 A2eA fAeA d2BG DGBG :|2 (3.e.e.ef (3.g.g.ge | d2BG DGBG ||
+
+X: 38
+T:Gan Ainm
+R:Reel
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+M:4/4
+Z:Bernie Stocks
+K:A
+A2EA CAEA | ABcA GABG | (3.A.A.AAB cABc |1 dfed cABc :|2 dfed cAA2 ||
+e3f eA(3.A.A.A | eAce dcBf | eA(3.A.A.A fA(3.A.A.A | (3.e.e.e ed cBAf |
+e3f eAcf | eAce dcBc | d2(3.d.d.d dcBA | Gfed cABc || A4
+
+X: 39
+T:Gan Ainm
+R:Reel
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:D
+ADFD E3F | DEFD E3F | A2AB ADFA | defd efdB | AFdF E3F |
+DEFD E3F | (3.A.A.A AB ADFA |1 defe d4 :|2 defe d3e || fd(3.d.d.d BdAF |
+Af(3.f.f.f fgae |1 fd(3.d.d.d edBd | ABdf e2de :|2 bf(3.f.f.f afdB | ABdf efdB ||
+
+X: 40
+T:Paddy Canny's
+R:Reel
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:G
+G2BG DGBG | G2Bd cAFA |1 G2BG DGBG | defd cAFA :|2 GB~B2 dB~B2 |
+defd cAFA :| dggf gefg | adfd agfe | dggf gdfe | defd cAFA |
+dggf gefa | a2ab agfe | dg~g2 bg~g2 | defd cAFA :|
+
+X: 41
+T:Gan Ainm
+R:Hornpipe
+M:4/4
+S:Sharon Shannon, Clare (accordian)
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:D
+d2de dBAG | (3FED FA dAFA | GABG E2ef |1 ge(3.e.e.e gece :|2 gece d4 :|
+df~f2 ~g3a | ba(3.a.a.a baga | fdAF G2ef |1 ge(3.e.e.e gece :|2 gece d4 :|
+
+X: 42
+T:Gan Ainm
+R:Jig
+M:6/8
+D:Session tape, Doolin 1987
+H:Played with 43. Rare examples of 'true' Em tunes. Probably made up?
+Z:Bernie Stocks
+K:Em %'real' Em
+EFG ABc | B2E FGA | cBA BdB | AGE E2B | EFG A2A |
+BEF GAB | cBA BdB | AGE E3 :| Bee edB | dBA GAe |
+Bee edB | dBA A3 |1 Bee edB | dBA GAe | cBA BdB |
+AGE E3 :|2 G2g dee | dBA GAc | cBA BdB | AGE E3 ||
+
+X: 43
+T:Gan Ainm
+R:Jig
+M:6/8
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:Em %'real' Em
+B2E EFG | Bde d3 | edB BAB |1 d2e dBA :|2 AGE E3 :|
+Bee efe | dff f2e |1 dBB BAB | d2e dBA :|2 d2B BAF | AFE E3 :|
+
+X: 44
+T:Gan Ainm
+R:Reel
+M:4/4
+D:Session tape, Doolin 1987
+Z:Bernie Stocks
+K:D
+FABd B2AF | ABdf e2de |1 f2ed B3B | A2FD EFD2 :|2 f2ef bafb |
+afef d4 :| fabf a3f | defd e2de | FABd Bcdf | afde fefa |
+bf~f2 a2fe | defd edBd | FABd Bdfg | afeg fdd2 :|
+
+%Tunes 45-50 illustrate the use of the delayed or hammered roll.
+%It is impossible to notate exactly what happens, but the effect
+%can be heard in the playing of Tommy Peoples, Paddy Cronin etc.
+
+X: 45
+T:Paddy Fahey's
+R:Reel
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+H:First part only
+N:As played
+M:4/4
+Z:Bernie Stocks
+K:G
+dc || A {dBA}B2d c2dc | BGGF DE{G}FD | GABd {cB}c2dc | {dBA}B2 AF DG+G2G,2+ |
+A {dBA}B2d {cB}c2dc | BG{A}GF DE{G}=FD | GABd {cB}c2dc | {dBA}B2 AF DG+G2G,2+ ||
+
+X: 46
+T:The Star of Munster
+R:Reel
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+AB || B {dcB}c2A {d}BAGB | (3.A.A.ABA GEDG  | EAAG ABcd | eaaf {a}gedB |
+B {dcB}c2A {d}BAGB | (3.A.A.A BA GEDG | EAAG ABcd | egdB {d}BAAB |
+B {dcB}c2A {dBA}B2 GB | A2BA GEDG | E {GED}E2G ABcd | ea {bag}a2 gedB |
+B {dcB}c2d A {dBA}B2c | A2 {d}BA GEDG |E {GED}E2G ABcd | egdB {d}BAAg ||
+ea {bag}a2 {b}ageg | agbg agef | f {agf}g2a gede | {age}g2ag {a}gedg |
+ea(3.a.a.a ageg | agbg agef | f {agf}g2b a2ga | bgab gedg |
+ea(3.a.a.a {b}ageg | agbg agef | f {agf}g2g {a}gede | {age}g2ag {a}gedg |
+ea(3.a.a.a ageg | agbg agef |{age}g2 eg {bag}a2 ga | bgab gedB | A4 ||
+
+X: 47
+T:The High Part of the Road
+R:Jig
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:6/8
+K:G
+dc || A {dBA}B2 B {dcB}c2 | ded cAG | E {GFE}F2 DED | DGG FGA |
+A {dBA}B2 B {dcB}c2 | dcA d2e |1 {a}fed cAF | AGF G2A :|2 f2d cAF | AGF GBd ||
+f {agf}g2 def | {agf}g2a bag | e {afe}f2 dfa | {b}afd cAG |
+f {agf}g2 def | {agf}g2a bag | fed cAF | AGF GBd |
+f {agf}g2 d {edc}d2 | g2a bag | e {afe}f2 daa | {b}afd cAG |
+f {agf}g2 def | {agf}g2a bag | f2d cAF | AGF G3 ||
+
+X: 48
+T:The Blackbird
+R:Set Dance
+H:Learned from Mick Mulkere of Ennis
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+dc || BGBd (3cBc Bc | AGFG AB (3.c.B.A | d^cde dcAF | GAGF D2DE |
+E {GFE}F2G A2(3.g.f.e | dzde dcAF | GAGF {E}D2CE | D2dc |
+BzBd B {dcB}c2 B | AGFG AB(3.c.B.A | d^cde dcAF | GAGF D2DE |
+E {GFE}F2G A2(3.g.f.e | dzde dcAF | GAGF {E}D2CE | D2de ||
+{a}fede (3fef (3gfg  | abag fg(3.a.g.f | g2gf gbag | fg{a}fe d^cde |
+{a}fede (3fef (3gfg  | abag fa(3.a.g.f | gagf d2(3.e.d.c | defg |
+a3g fgaf | ga{a}ge e {afe}f2e | dcAG ABcd | ef(3.g.f.e aza2 |
+ABAG FGAB | B {dcB}c2e d^cAF | GAGF {E}D2CE | D3e :||
+
+X: 49
+T:Farrell O'Gara
+R:Reel
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+A,3B, DEFA | BdAF EFGA | dzcA BdAF | EGFD EB, {CB,A,}B,2 |
+A, {CA,G,}A,2B, DEFA | BdAF EFGA | d {edc}d2A {dBA}B2 AF | GBAG FDDB, |
+A,D(3.D.D.D A,DFA | BdAF EFGA | d {edc}d2A {dBA}B2 AF | GBAG FDDB, |
+A, {CA,G,}A,2B, DEFA | BdAF EFGA | dzcA BdAF | GBAG FDDe ||
+fd(3.d.d.d fdge | {a}fedf eB {dBA}B2 | d {edc}d2A Bcde | fedA cdeg |
+fd(3.d.d.d fdge | {a}fedf eB {dBA}B2 | d {edc}d2A {dBA}B2 AF | GBAG FDDe |
+fd(3.d.d.d fdge | {a}fedf eB {dBA}B2 | d {edc}d2A Bcde | f2df +e3B3+e |
+{afe}f2 af edBc | +d3D3+A {d}BAFD | A,D(3.D.D.D A,DFA | BdAF D4 ||
+
+X: 50
+T:The Killarney Boys of Pleasure
+R:Reel
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+D {GED}E2D {GED}E2 FA | BdAF DEFA | B {dBA}B2d efed | BdAF DEFD |
+E2(3.E.E.D {GED}E2 FA | {dBA}B2 AF DEFA | B {dBA}B2d efec
+|1 dBAd BE{G}ED :|2 dBAd BEFA || Beed Beed | BdAF DEFA |
+df{a}fe f {afe}f2e | dBAF DEFA | A {dBA}B2 A {dBA}B2 ed | BdAF DEFA
+|1 dzfd f {afe}f2e | dBAd BEFA :|2 f {afe}f2e {e}d2ed | {e}d2Ad BEE2 ||
+
+X: 51
+T:The Road to Cashel
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+C:Charlie Lennon
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D %i.e. Em modal
+FE{F}ED +E3B,3+E | FE~E2 BdAB | FE~E2 EdBA | FD(3.D.D.D BdAB |
+FE~E2 ~E3G | FE~E2 BdAB | FE~E2 EdBA | FD(3.D.D.D BdAd ||
+~B3g (3fgfef | defa {b}afed | Bzge {afe}f2ed | {e}dBAd BEFA |
+{dBA}B2 Bg (3.f.g.fef | defa {b}afef | bf(3.f.f.f af~f2 | bfaf edBA ||
+
+X: 52
+T:An Cailin Dubh
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+c2AB cd(3.e.f.e | d2gd BGGd | (3.c.c.B AB cdeg | faec (3.A.A.A AB |
+{d}cBAB cdec | d2gd BGBd | (3.c.e.c AB cdeg | faec (3.A.A.A AB ||
+cdef {agf}g2eg | fdfa (3.g.b.g ed | cdef gbae | faec (3.A.A.A AB |
+{d}cdef gbag | fd{e}dc defg | (3.a.g.f {a}ge faec | dgec A4 ||
+
+X: 53
+T:Farewell to Leitrim
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+H:From Johnny Doherty
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+fe || c-dAG FADF | E=c~c2 Eccd | (3.=c.c.B cA BcAG | (3.F.G.F EF DEFA |
+dcAG F-GDE | FGAB +=c2E2+AB |(3.=c.c.B cA {d}(3BAB AG | (3.F.G.F EG FDDg ||
+fd(3.d.d.d fdge | fd(3.d.d.d cdeg | fd(3.d.d.d fdad | (3.f.a.f eg fddg |
+fd(3.d.d.d ad(3.d.d.d | e=c(3.c.c.c gcef |(3.a.a.f ge fged | ceag (3.f.a.f ec ||
+
+X: 54
+T:The Broken Pledge
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+H:Up a tone from its usual 'Dm'
+Z:Bernie Stocks
+M:4/4
+N:As played
+K:D
+f || edBA BE~E2 | dBAG FDDF | EFGA Beed | (3BcB Ad Bd (3.g.g.f |
+edBA ~B3c | dBAG FDDF | EFGA Beed | (3BcBAF {G}FEE2 ::
+ed (3.B.B.A Bdef | {agf}g2 eg fdBc |{e}dAFA +d3D3+e | {afe}f2 eg fd(3.B.c.d |
+edBA {dBA}B2 ef | f-geg fdBA | +B3G3+A Beed | (3BdB AF {G}FEE2 ||
+
+X:55
+T:John Naughton's
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+N:As played
+M:4/4
+Z:Bernie Stocks
+K:G
+ABAG (3.E.G.E DE | G2BG cGBG | ABAG (3EFE D2 | egdB {d}BA (3.A.A.A |
+ABAG (3EFE DE | (3.G.G.G BG cGBG | ABAG (3EFE D2 | egdB {d}BAA2 ||
+{b}ageg (3.a.a.a ba | gede (3.g.g.g fg | {b}agea {bag}a2 ga | bg(3.g.g.g bg~g2 |
+{b}agea {b}agef | gedB {d}BAAd | ea~a2 g2ab | gedB {d}BAA2 ||
+
+X:56
+T:Jigging the Donkey
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Tape of recital, Irvingstown, Fermanagh 1993
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+DG(3.G.G.G DGBG | DGBG AGFE | DG(3.G.G.G G2ge | dBAc BG+B2G2+ :|
+Bd(3.d.d.d efg2 | Bd(3.d.d.d dBA2 | Bd(3.d.d.d efge | dBAc BG+B2G2+ |
+Bd(3.d.d.d efg2 | Bd(3.d.d.d dBA2 | c2Bc Agfg | ecAc BGG2 ||
+
+X:57
+T:Lanigan's Ball
+R:Jig
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Tape of recital, Irvingstown, Fermanagh 1993
+N:As played
+Z:Bernie Stocks
+M:6/8
+K:G
+B || {d}BAB G2B | dBG +A3D3+ | {d}BAB GzB | {d}AFD AFD |{d}BAB G2B |
+dBG +A3D3+ | +B2D2+d B-cA |1 BGE {G}FED :|2 BGE E2B || e2f {a}gfe |
+(3abag {a}fed | e2f gfe | fdB {d}Bcd | e2f {a}gfe |
+(3abag fed | edB cBA |1 BGE EDE :|2 BGE +B3E3+ ||
+
+X:58
+T:The Magho Snaps
+R:Jig
+C:Mick Hoy
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Tape of recital, Irvingstown, Fermanagh 1993
+N:As played
+H:Mick Hoy is a fiddle player from Derrygonelly. Magho is the area
+H:on the South shore of Lower Lough Erne, and the Snaps are a
+H:stretch of bumpy road there.
+Z:Bernie Stocks
+M:6/8
+K:G
+GAG GBd | gdB GAB | {d}cBc EFG | AFD +A3D3+ | GAG GBd |
+gdB GAB | {d}cAF AFD | +B3G3+ +B3G3+ :: {ABc}dBd ece | {g}fdf gfe |
+d^cd efg | fdd d3 | {ABc}dBd ece | {g}fdf {a}gfe | dcB Aaf | gGG G3 :|
+
+X:59
+T:Bonny Kate
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Tape of recital, Irvingstown, Fermanagh 1993
+N:As played
+H:Short version. He played this and then the Coleman setting
+H:to show how tunes can develop.
+Z:Bernie Stocks
+M:4/4
+K:D
+A2dA BdAF | DFAF {G}EDEB | AFAd BGBd | cABc dcdB |
+A2dA (3.B.c.dAF | DFAF ~E3B | AFAd BGBd | cABc defg ||
+a2fd fafd | fafd +e3c3+f | g2{a}gf gbag |1 (3fgfec defg :|2 fdec d4 ||
+
+X:60
+T:Gan Ainm
+R:Jig
+S:Paddy Cronin, Kerry (fiddle)
+D:Session tape
+N:As played
+H:The rolls in this tune, and in 61 are 'lifted' as discussed above.
+Z:Bernie Stocks
+M:6/8
+K:G
+~G3 ~B3 | ~d3 efg | G2B dBG | ABG AFD | ~G3 ~B3 | ~d3 efg |
+age dBA |1 BGF GzD :|2 BGF GBd || ~g3 efg | ~a3 bge | ~g3 ege |
+dBG AFD | ~g3 efg | ~a3 bge | ~g2e dBA |1 BGF GBd :|2 BGF G3 ||
+
+X: 61
+T:The Humours of Ballinahulla
+R:Jig
+S:Paddy Cronin, Kerry (fiddle)
+D:Session tape
+N:As played
+Z:Bernie Stocks
+M:6/8
+K:G
+~B3 BGD | GBd edB | ABA DFA | DFA {c}BAG | ~B3 BGD | GBd edB |
+ABA DFA | AGF G2B | dBB {d}BGD | GBd edB | ABA DFA | DFA {d}BAG |
+dBB {d}BGD | GBd edB | ABA DFA | AGF G3 || ~f3 def | ~g3 efg |
+fAA A^GA | BA^G A2e | ~f3 def | ~g3 eag | fed ^cBA |1 dfe d2e :|2 dfe d2c ||
+
+X:62
+T:The Road to Corofin
+R:Reel
+S:Deirdre Shannon, Belfast (fiddle)
+C:Jim McKillop
+D:Session tape - Crossgar, Down 1978
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+d2Ad BAFE | DB,A,B, DEFA | d2Ad fded | cAGB {d}BAFA |
+(3.d.d.dfd efag | (3.f.f.fed cAag | (3.f.f.fed cAGE | {G}EDCE D4 ::
+d2Ad fdef | gbed cAGE | {G}EDFA dfed | cAGE {G}EDFA |
+DEFA dfaf | gbed ceag | (3.f.g.fed cAGE | {G}EDCE D4 :|
+
+X:63
+T:Contentment is Wealth
+S:Mairead Mooney, Donegal (fiddle)
+D:Private tape
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+D3d {cd}cAAB | cded {cd}cAGE | (3.D.D.DDd {cd}cAAB | cAGE {G}EDDA |
+EAAB {d}=c2AB | cded {cd}cAAg | (3fga ge dfed |1 cAGE {G}EDCE
+:|2 cAGE {G}EDDA || ~d3e ~f3g | af{a}ge dcAG | Ad~d2 fded | {cd}cAAG EFGE |
+~d3e ~f3g | af{a}ge defg | (3.a.g.f ge faed |1 {cd}cAGE {G}EDDA :|2 cAGE EDCE || D4
+
+X:64
+T:Gan Ainm
+R:Barn Dance
+S:Mairead Mooney, Donegal (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+FG || A2 (3.A.A.A f2{a}fe | de{d}cB A2{d}BA | GFGA {d}(3BAB AF |
+GFGA {d}BAFA | A2 (3.A.A.A f2{a}fe | de{d}cB A2{d}BA | GFGA {d}BABc
+|1 d2f2 d2FG :|2 d2f2 d2A2 || dcde {a}(3fef A2 | dcde {a}(3fef A2 |
+eAef gece | dcde {a}(3fef A2 | dcde {a}(3fef A2 | dcde {a}(3fef A2 |
+eAef gece |1 (3.d.d.d f2 d2 A2 :|2 (3.d.d.d d2FG ||
+
+X:65
+T:Gan Ainm
+S:Mairead Mooney, Donegal (fiddle)
+D:Private tape
+R:Barn Dance
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+fg || afge ~f3e | defd ~B2ef | (3.g.g.e fd e2d2 | (3.c.d.c (3.B.c.B A2fg |
+afge ~f3e | defd ~B2ef | (3.g.g.e fd e2a2 |1 (3.A.A.A Bc defg
+:|2 (3.A.A.A  Bc d2d2 || DEFG A2A2 | ABde ~f2a2 | gefd e2dB | ABAG ~E2FE |
+DEFG A2A2 | ABde ~f2a2 | gefd e2a2 |1 (3.A.A.A Bc d2d2 :|2 (3.A.A.A Bc defg ||
+
+X:66
+T:Gan Ainm
+S:Paidraig McDonagh, Galway (banjo)
+D:Private tape
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G %=D modal
+dcAG FDDD | D-EcE dEcE | d2AG FDDG | Ad(3edc defe | dcAG FDDD |
+(3EEE cE dEcE | ddAG FDDG | AdDc ddde || ffdf ef(3gfe | afge afge |
+fAdf efge | af(3gfe fdde | ffdf efge | afge fdfg | af(3gfe fdec | Adde d4 ||
+
+X:67
+T:Gan Ainm
+S:Paidraig McDonagh, Galway (banjo)
+D:Private tape
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+(3A,B,C || D2FA CDAG | Fddc dAFA | (3GGG AG FAdF | GFED CA,B,C |
+D2FA CDAG | Fddc dAFA | GBed cAGE |1 EDCE D2 (3A,B,C :|2 EDCE Defg ||
+aafa geeg | fd(3ddc dAFA | GBeB FAde | feed e2fg |
+agfa gfeg | fd(3ddc dAFA | GBed cAGE |1 EDCE Defg :|2 EDCE D4 ||
+
+X:68
+T:Gan Ainm
+S:Paidraig McDonagh, Galway (banjo)
+D:Private tape
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D %Em modal
+BEEE d3B | ADDE FGAd | BEEF GABc | dddf eedc | BEEE d3B | ADDE FGAd |
+BGEF GABc | d2Ac BEE2 || edef ggfe | defg afdf | edef (3gagfe |
+dBAd BEE2 | edef ggfe | defg afdf | (3aag fg egfe | dBAF EFGA ||
+
+X:69
+T:Gan Ainm
+S:Paidraig McDonagh, Galway (banjo)
+D:Private tape
+R:Reel
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D %Em modal
+B2GB EBGB | A2FA A,DFA | B2GB EBGA | Bdef gfed | B2GB dBGB | A2FA dAFA |
+BEED EEEA | (3Bcd ed (3Bcd ef || g2ga gfed | d2Ad Bdef | gg(3agf gfed |
+BdAd BEE2 | gggf efed | BdBA GBFA | BEEF GFGA | Bded BdAd || E4 |
+
+X:70
+T:Humpty Dumpty
+R:Jig
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+H:Played with 71. Given the musicians these could be Fermanagh tunes.
+Z:Bernie Stocks
+M:6/8
+K:D
+DFA BGB | cAc d2B | AFA G2B | F2A ~E3 | DFA BGB | cAc def | edB BAF | AFE D3 ::
+AFA ~f3 | ece d2B | AFA ~f3 | g2f e3 | AFA ~f3 | ece def | edB BAF | AFE D3 :|
+
+X:71
+T:Gan Ainm
+R:Jig
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+H:Sounds like a Scottish pipe tune turned into a jig.
+Z:Bernie Stocks
+M:6/8
+K:D
+DFA ~B2A | Adf a2g | fef Adf | afd e2f | AFA ~B2A | Adf a2g |
+fga ecA |1 d3 dcB :|2 d3 d2g || fga d2e | fed a2f | efe ABc |
+egf e2g |1 fga d2e | fed a2g | fga ecA | d3 d2e :|2 AFA ~B2A |
+Adf a2g | fga ecA | d3 dcB || Adf fef | Adf a2g | fef Adf | e3 e2g |
+Adf fef | afd B2g | fga ecA  |1 d3 dcB :|2 d3 dfg || afd Adf |
+fed B2d | Adf afd | e3 e2f | Adf fef | afd B2g | fga ecA | d3 dcB :|
+
+X:72
+T:Gan Ainm
+R:Hornpipe
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+Z:Bernie Stocks
+M:4/4
+K:D
+dcde fdAF | GFGA BGE2 | efge ceAc | defd A2Bc | dcde fdAF | GFGA BGE2 |
+efge cABc | dfec d4 :: fefg afdf | gfga bgeg | (3faf df bagf |
+(3efe (3dcB A2ag | fefg afdf | gfga bgeg | (3faf df (3efe ce | dfaf d4 ||
+
+X:73
+T:Gan Ainm
+R:Reel
+S:James Kelly, Dublin (fiddle)
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+dc || BE~E2 ~B2AF | DF~F2 DEFA | BE~E2 BdAF | DFAF EBdc | BE~E2 BdAF |
+DF~F2 DEFA | B2~B2 {d}BAFA |1 (3BcdAF EBdc :|2 (3BcdAF EFGA ||
+ef{a}ge Be{a}ge | df~f2 afdf | e2ge Bege | dBAF EFGA |
+ef{a}ge Be{a}ge | df~f2 afdf | gf(3efg gbec | dBAF EFGA ||
+
+X:74
+T:Follow me Down
+R:Reel
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+BcBA FGAB | {dBA}BABc de{a}fe | dcdA FGAc | Bbba bB~B2 ::
+d2ad bdad | (3cBAeg fgec | d2ad bdad | bafe dB~B2 |
+bafb afec | dcdA FGAB | {dBA}BABc dfbf | afec dB~B2 ||
+
+X:75
+T:Feely Kearny's
+R:Reel
+C:Feely Kearny
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+DE{A}GA B2(3.e.e.e | dBGB {AB}AGEG | DEGA B2(3.e.e.e | gedB {AB}AGEG |
+DE{A}GA B2(3.e.e.e | dBGB {AB}AGEA | GABd gedB |1 {AB}AGAB G3E :|2 {AB}AGAB G3e ||
+dB(3.B.B.B dBgB | dBGB AGEA | GB(3.B.B.B dB(3.B.B.B | gedB (3AGAdB |
+efgf edBd | gedB {AB}AGEA | GABd gedB |1 {AB}AGAB G3e :|2 AGAB +G4B4+||
+
+X:76
+T:Charlie Harris'
+R:Fling
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+(3.A.B.c || dBAB de{f}fe | dBAB e2fe | dBAB de{a}fe | dcBc +E2A2+ (3ABc |
+d2(3ABc de{a}fe | dBAB eafe | dBAB de{a}fe | dcBc +E4A4+ ||
+~f2-fa f2~f2 | edBd +e2c2++e2c2+ | f2fa f2~f2 | dcBc +E2A2++E2A2+ |
+f2fa f2~f2 | edBd efge | defa afec | dcBc Ac(3.A.c.c || d4
+
+X:77
+T:The Hills and Dales of Cork
+R:Fling
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+H:There is an American tune with exactly the same first part.
+Z:Bernie Stocks
+M:4/4
+K:A
+af || ec(3.c.c.c ec(3.c.c.c | BABc d2af | ec(3.c.c.c ec(3.c.c.c \
+|1 BABc A2 (3.a.g.f :|2 BABc A2 {d}cB ||
+ABce a2a2 | (3fafdf +e3c3+c | de{a}fe cdec \
+|1 {Bd}BABc d2{cd}cB :|2 {Bd}BABc A2af || A4
+
+X:78
+T:Paddy Fahey's
+R:Reel
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:C
+D2{F}ED d3B | cBAG E2{d}cB | AD{F}ED dcdB | {d}cBAG EA,CE |
+DE{F}ED dcdB | cBAG E2{d}cB | ABcA Aded |1 cABG EDCE :|2 cAGE {G}EDA^c ||
+K:G\
+defg af{a}ge | cdef gece | defg azfa | ~g2eg ~f2df |
+afdf afdf | {a}gece g2{a}fe | defg afbf | afeg fddg ||
+K:D\
+~f2de {afe}f2 {a}gf | eA{d}BA ~g2ae | fede fage | {a}fdec Addg |
+~f2de {afe}f2 gf | eA{d}BA g2fg | afge fded | (3Bcd AG ED=CE || D4
+
+X:79
+T:Cathal McConnel's
+R:Jig
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+C:Cathal McConnell (reportedly)
+Z:Bernie Stocks
+N:As played
+M:6/8
+K:D
+FGA {B}ABc | ded cAG | FGA {d}BAB | =cBc A2G | FGA {B}ABc |
+dfd ecA | gfg bag |1 fdc d(3.A.A.G :|2 fdc d2g || {g}fed efg |
+afd {d}=cAG | FGA {d}BAB | =cBc A2g | {g}fed efg |
+afd {d}cBA | {a}gfg bag |1 fdc d2g :|2 fdc d2A || D3
+
+X:80
+T:The Boys of Cormacreeva
+R:Reel
+S:Andy Dickson, Belfast (fiddle)
+C:James McMahon
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+~E3B {d}BAFE | (3.D.D.DFD {F}EDAD | EB{d}BA {d}BAFE | DFAF E2{F}ED |
+EB{d}BA {d}BAFE | D2(3FED ADFD | BdBA FBAF |1 EDAF ~E2{F}ED :|2 EDAF E4 ||
+(3Bcdef afef | {baf}a2 bf afef | dB{d}BA FEFA | (3BcdBA FEFA |
+Bdef afef | {baf}a2bf afef | dB{d}BA FBAF | DEFA E4 :|
+
+X:81
+T:John Doherty's Father's Tune
+R:Reel
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+H:The last tune that John Doherty's father played.
+H:Unusual in having 2 extra bars in the second part.
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+DEGA ~B2DB | Adfd cAFA | {A}GFGA ~B2BG |1 AdcA {B}AGGE :|2 AdcA AGG2 ||
+gbag fdde | fdge {a}fdef | fedg fdcA | dgga fgfa | bgag {a}fede | =fafd cA^FA |
+{A}GFGA ~B2{d}BG | Adfd cAFA |{A}GFGA ~B2{d}B2 | AdcA {B}AGGF || G4
+
+X:82
+T:Charlie O'Neill's
+R:Highland
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+BEBE cBAc | BEBE cAFA | BEBE cBAG | FAdc BGG2 :| g2g2 B2~B2 | Azag fdef |
+g2~g2 B2~B2 | ABdc BGG2 | g2~g2 B2~B2 | Azag fdcA | GB{e}dB cdeg | {a}fdef g4 ||
+
+X:83
+T:Eddie Moloney's
+R:Reel
+S:Liam O'Flynn (pipes)
+D:Tape of concert, Belfast 1987
+Z:Bernie Stocks
+M:4/4
+K:D
+dF~F2 A2AB | df~f2 egfe | dF~F2 ABdA | BE~E2 GABc ::
+dcdf A2Bc | defd egfe | dcdf A3d | BE~E2 GABc :|
+
+X:84
+T:Junior Crehan's
+R:Hornpipe
+S:Liam O'Flynn (pipes)
+D:Tape of concert, Belfast 1987
+Z:Bernie Stocks
+M:4/4
+K:G
+G2GE GABd | edef gedg | edef gedB | A3B {d}BAGE | G2GE GABd |
+edef gedg | (3efgdc BGAF | G2GF G4 || ~g3b a2ga | bgaf gedg |
+edef gedB | BAAG A2de | ~g3b a2ga | bgaf gedg | (3efgdc BGAF | G2GF G4 ||
+
+X:85
+T:The Old Wheels of the World
+R:Reel
+S:Liam O'Flynn (pipes)
+D:Tape of concert, Belfast 1987
+Z:Bernie Stocks
+M:4/4
+K:G
+gf || eA~A2 eABA | GE~E2 G3E | A3B cBcd | efge d2gf | eA~A2 eABA |
+GE~E2 G3E | A3B cBcd | efge d2Bc || dg~g2 dg~g2 | ea~a2 ea~a2 | efge defg |
+afge d2Bc |dg~g2 dg~g2 | ea~a2 ea~a2 | efge defg | afge d2gf ||
+
+X:86
+T:Repeal Of The Union
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:G
+AD(3FED AD(3FED | E2cE dEcE | AD(3FED AD(3FED | EGcG EDD2 | AD(3FED AD(3FED |
+E2cE dEcE | (3ABAGB ADED | (3EFGcG EDD2 :: Adde fdec | ABcA dBcB |
+Adde fdec | cAGE EDD2 | ~d3e fdec | ABcd efge | afge dfed | ~c3d cAGE :|
+
+X:87
+T:The Crib Of Perches
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:G
+A3B AGED | (3EFGAB c3A | G2EC G,CEG | BAGB AGEG |
+A3B AGED | (3EFGAB c3A | dfed dcAB | cAGE EDD2 ::
+K:D\
+df~f2 af~f2 | afbf afdA | (3Bcdef gece | gecB GABc |
+df~f2 af~f2 | dfgf edcA | (3Bcdec d2AG | FDEF D4 :|
+
+X:88
+T:Gan Ainm
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:D
+FE || DF~F2 EFDF | Adfd edBA | DF~F2 EFDA | BAGF EA,CE |
+DF~F2 EFDF | Adfd edBf | abaf gfec | dBAG FGEF ::
+dfaf g2fg | afdf edcB | Ac~c2 BcAB | Ad~d2 efge |
+a2af g2ge | dfed =cAGE | Ad~d2 =cAdB | =cAGE EDD2 :|
+
+X:89
+T:Gan Ainm
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Session tape - Buncrana 1979
+H:Follows The Donegal Reel
+Z:Bernie Stocks
+M:4/4
+K:A
+ed || cA(3.A.A.A e2cd | eaga fedc | dB(3.B.B.B f2Bf | fefg afed |
+cA(3.A.A.A e2cd | eaga fedc | defg a3e | ceae cAA2 ::
+e2ce Aece | aAgA fAeA | f2df Bfdf | bBaB gBfB |
+(3efece fecd | eaga fedc | defg a3e | ceae cAA2 ||
+
+X:90
+T:Gan Ainm
+R:Hornpipe
+S:Feeley Kearny, Tyrone (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:G
+Bc || d2^cd gdBA | G2FG D2EF | G2e2 edcB | (3ABA (3GFE D2Bc |
+d2^cd g2fe | d2BG D2EF | G2Be dDEF | G2BA G4 ::
+K:D\
+A2^GA fAGA | FAEA D2FG | A2cd e2Ac | eAce d2de |
+(3fedce d2FG | A2ce d3e | (3fedec dAFE | D2FA d4 :|
+
+X:91
+T:Gan Ainm
+R:Reel
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:G
+cA || GE~E2 G2cA | GE~E2 ~G3A | GE~E2 GAcd | edce d2cA :|
+cdef g2ge | abaf gaed | (3Bcdef g2fg | afge d2cA :|
+
+X:92
+T:Andy McGann's
+R:Reel
+S:Feely Kearny, Tyrone (fiddle)
+D:Session tape - Buncrana 1979
+H:A version very much associated with Feely Kearney,
+H:especially the long 'Bb' in the first part. The second
+H:contains a few bars from The Steeplechase and is clearly
+H:intended as they all do it both times through.
+Z:Bernie Stocks
+M:4/4
+K:C
+^fg || ec~c2 Gcec | AF~F2 CFAF | BG~G2 BcdB | cBce ag^fg | ec~c2 Gcec |
+AF~F2 CFAF | BG~G2 BcdB | c2cB c2gf | ec~c2 Gcec | AF~F2 CFAF |
+BG~G2 BcdB | cBce ag^fg | ec~c2 _B3c | AF~F2 CFAF | BG~G2 BcdB |
+c2cB c2AB || c2gc acgc | c2gc BcdB | c2gc acgc | BG~G2 BcdB |
+c2gc acgc | c2gc BcdB | cg~g2 eg~g2 | ag^fa g4 | c2gc acgc | c2gc BcdB |
+c2GE CEGc | Addc dfed |c2gc acgc | c2gc BcdB | cg~g2 eg~g2 | ag^fa g4 ||
+
+X:93
+T:Gan Ainm
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
++D3d3+f efdB | {d}BAFE {G}EDB,2 | ABAF D2(3.F.F.D | ABdf eB{d}BA |
++D2d2+fd (3.f.f.edB | {d}BAFD {G}EDB,2 | ABAF DEFA |1 dBAG FDFA
+:|2 dBAG FDDe || fa~a2 afde | fa{b}ag ~a3f | {a}gfed Bbaf |
+{a}gfec dcBf | ~g3e afde |1 ~f2af bfaf | gfef g2(3.a.a.g |
+faeg {a}fede :|2 ~f3d eA{d}BA | d2(3.f.f.e dBAG | (3.F.F.FEG FDFA ||
+
+X:94
+T:Gan Ainm (Miss McLeods)
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+D3B ADFA | dAcA {d}BAFE | D3B ADFA | dA{d}BA ~E3F |D3B ADFA | +d3D3+A BAFA |
+{d}B2dB {d}BAFA |1 dBAF (3.E.E.ECE :|2 dBAF E2(3.A.B.c || d2Df-eA{d}BA |
++d3D3+A BAFA | ~d3f {a}fedf | ~a3f gefe | df~f2 eAce | d2(3.A.A.d BAFA |
+~B2dB {d}BAFA |1 dBAF E2(3.A.B.c :|2 dBAF (3.E.E.ECE || D4
+
+X:95
+T:Gan Ainm
+R:Jig
+H:Played after The Black Rogue, and followed by 96 and 97.
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:6/8
+K:A
+cAA eAA | ~f3 ecB | cAA eAA | {a}fec ~B3 | cAA eAA | ~f3 ece |
+faf {a}fec | BcB A3 :: Ace ~a3 | faf {a}fec | Ace ~a3 |
+{a}fec ~B3 | Ace ~a3 | faf {a}fec | faf {a}fec | BcB A3 :|
+
+X:96
+T:Gan Ainm
+R:Jig
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:6/8
+K:G
+BAG E2D | EGD EGA | ~B3 GED | EAA ABc | BAG E2D | EGD EGA | BAG EGD | EGG G3 ::
+GBd e2d | efg B2A | GBd egd | eaa ega | bag age | ged B2A | ~B3 GED | EGG G3 :|
+
+X:97
+T:Gan Ainm
+R:Jig
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:6/8
+K:G
+EAA ABc | BAG E2D | EGD EGD | EGD EFG |A3 ABc | BAG E2c | BAG AGE | GED D3 ::
+f2d d^cd | e^cA A2f | ge^c def | ge^c d2e |~f2d e2d | ^cAA A2B | cAG AGE | GED D3 :|
+
+X:98
+T:Gan Ainm
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+R:Reel
+Z:Bernie Stocks
+M:4/4
+K:D
+F2AF DFAG | F2AF EFDE | F2AF dFAF | BFAF E2DE | F2AF DFAG |
+F2AF EFDE | ~d3A BAFD | E2FE D4 :: f2df efdf | afdf edBd |
+f2df efdf | afdf e2de | f2af e2fe | dfed BAFA | ~B3B {d}BAFD | E2FE D4 :|
+
+X:99
+T:Gan Ainm
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:4/4
+K:D
+D2A,D B,DA,D | FAdF GFEF | DF~F2 Af~f2 | eB~B2 B2AF | D2A,D B,DA,D |
+FAdF GFEF | DFBF AF~F2 |1 EDFE D2FE :|2 EDFE D2de |: fdAG FAdf |
+eA(3.A.A.A edeg | fedB {d}BAFA | (3BcdAF {G}FEEg | fdAG FAdf |
+eA(3.A.A.A edeg | fdec dedB |1 ABde fdde :|2 ABde fddE ||
+
+X:100
+T:Gan Ainm
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+H:Played with 101 and 102, which makes a nice set.
+Z:Bernie Stocks
+M:4/4
+K:D
+B2ed BcdA | ~B2AF EFGA | B2ed BcdA | ~B2AF DEFA :| B2ec d2fd | edBc dBAd |
+B2ec d2fd | edBc d2BA | B2ec d2fd | edBc dBA2 | g3e f3e | dBAF EFGA ||
+
+X:101
+T:The Rising Sun
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:4/4
+K:D
+~d3B A2FA | ~f3d edBA | FAdB AFDF | EDEF D2FA :| d2fd Adfd | (3efgfd edBA |
+d2fd Adfd | egfe d2AB | d2fd Adfd | (3efgfd edBA | defg ~a3a | {b}afeg fdeB ||
+
+X:102
+T:Paddy Faheys
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+H:Same tune as 78, but starts on a different part
+H:(the defining part), and is more 'session friendly'.
+Z:Bernie Stocks
+M:4/4
+K:D
+e {afe}f2 e {afe}f2 gf | eAcA ~g3e |{afe}f2de {afe}f2af | gAcd edde |
+e {afe}f2 e {afe}f2 gf | eAcA ~g3e |{afe}f2de {afe}f2ed | cAGE {G}EDD2 :|
+K:G\
+DEFA d3B | {d}cAAG EFGE | DEFA dfed | cAGE {G}EDD2 |
+DEFA d3B | {d}cAAG EFGB | Ac~c2 ~d3B | cAGE {G}EDD2 :|
+K:D\
+defg afdB | cdef gece | defg ~a3f | geeg fddf |
+afdf ~a3f | gece g2fe | defa ~a3f | geag fddc :|
+
+X:103
+T:Gan Ainm
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+H:Hard to make out at times
+Z:Bernie Stocks
+M:4/4
+K:Bm
+~B3d fBdf | agfg efdc | ~B2FB dfaf | dAcA B4 :| ad(3.d.d.d Adfd | g2fg eAcA |
+ad(3.d.d.d Adfd | g2fg e2fg | a2fd Adfd | g2fg eAcA | ad(3.d.d.d Adfd | g2fg e2fg :|
+
+X:104
+T:Gan Ainm
+R:Reel
+S:Maire O'Keeffe, Kerry (fiddle)
+D:Session tape - Milltown Malbay 1991
+Z:Bernie Stocks
+M:4/4
+K:A
+c3A B2AB | c3A BAFA | c2cA B2Af | ecBA FAAB :| ~c3e f2ec | ABcA BAFA |
+~c3e fece | fa~a2 bafe | ~c3e f2af | e2cA BAFA | EFAc B2Ac | ecBA FAA2 ||
+
+Bernie Stocks (B.Stocks@ulst.ac.uk) 20/2/97
+
+

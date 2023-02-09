@@ -120,8 +120,8 @@ export default function useTextSearchIndex() {
           var collectionNumber = tuneIdParts[0]
           var fileNumber = tuneIdParts[1]
           // id in three parts [<collectionId>-<fileId>-<tuneNumberInBook>]
-          var filePaths =  ['abcresources/folktunefinder/abc_tune_folktunefinder_','abcresources/thesession/abc_tune_thesession_','abcresources/jimsroots/abc_tune_jimsroots_','abcresources/misc/abc_tune_misc_','abcresources/norbeck/abc_tune_norbeck_']
-          var fileExtensions = [".txt" , ".abc", ".abc", ".abc", ".abc"]
+          var filePaths =  ['abcresources/folktunefinder/abc_tune_folktunefinder_','abcresources/thesession/abc_tune_thesession_','abcresources/jimsroots/abc_tune_jimsroots_','abcresources/misc/abc_tune_misc_','abcresources/norbeck/abc_tune_norbeck_','abcresources/folkinfo/abc_tune_folkinfo_']
+          var fileExtensions = [".txt" , ".abc", ".abc", ".abc", ".abc", ".abc"]
           console.log(tuneIdParts, "C",filePaths.length ,collectionNumber,filePaths[collectionNumber])
           if (filePaths.length >= parseInt(collectionNumber) && filePaths[collectionNumber]) {
               var filePath = filePaths[collectionNumber]

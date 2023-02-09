@@ -7,7 +7,7 @@ import patienceDiff from '../patienceDiff'
 export default function ChordsWizard(props) {
     const [chords, setChords] = useState(props.chords)
     //const [timeSignature, setTimeSignature] = useState(props.timeSignature ? timeSignature : '4/4')
-    
+    const allowedChordSites = "site:https://tabs.ultimate-guitar.com OR site:https://www.azchords.com/ OR site:https://www.chordsbase.com/ OR site:https://www.chords-and-tabs.net/ OR site:https://akordy.kytary.cz/ OR site:https://www.guitaretab.com/"
     function getNoteLengthsPerBar() {
         return props.tunebook.abcTools.getNoteLengthsPerBar(props.tune)
         //var noteLength = getNoteLengthFraction()
@@ -73,6 +73,7 @@ export default function ChordsWizard(props) {
     }
     
 
+   
     
 
     //function diff(a, b) {
@@ -193,8 +194,12 @@ export default function ChordsWizard(props) {
     //console.log(tune)
     return <div>
         <Form.Group  controlId="chordwiz">
-            <Button variant="success" style={{float:'right', marginRight:'2em'}} onClick={function(e) {if (window.confirm('Do you really want to reset your music and regenerate from these chords? Any melody notes will be lost !!')) {generateNotesFromChords()}}} >Generate Music</Button>
-            <Button variant="warning" style={{float:'right', marginRight:'0.2em'}} onClick={function(e) {if (window.confirm('Do you really want to merge these chords into your music? This may not work as expected!!')) {mergeChordsIntoNotes()}}} >Merge</Button>
+            <Button variant="warning" style={{float:'right', marginRight:'0.2em'}} onClick={function(e) {if (window.confirm('Do you really want to merge these chords into your music? This may not work as expected!!')) {mergeChordsIntoNotes()}}} >3. Merge</Button>
+            <Button variant="success" style={{float:'right', marginRight:'0.2em'}} onClick={function(e) {if (window.confirm('Do you really want to reset your music and regenerate from these chords? Any melody notes will be lost !!')) {generateNotesFromChords()}}} >3. Generate Music</Button>
+            <Button variant="info" style={{float:'right', marginRight:'2em'}} onClick={function(e) {
+                setChords(props.tunebook.utils.cleanupChords(chords))
+            } } >2. Clean Text</Button>
+             <a style={{float:'right', marginRight:'2em'}}  target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ? '"' + tune.composer+ '"' : '')  +  " " + allowedChordSites } ><Button>1. Search Chords</Button></a>
             <Form.Label>Time Signature</Form.Label>
             <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
             <Form.Label>Repeats</Form.Label>

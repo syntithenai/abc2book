@@ -1,0 +1,206 @@
+M:C|
+     These tunes were originally published in various issues of the
+Irish Pipers' Club newsletter, Iris na bPiobairi, the Pipers' Review.
+They were published in the hope of providing a few common tunes for
+uilleann pipers, so it seems appropriate to reprint them here to give
+them a wider exposure. 
+						John Walsh
+						walsh@math.ubca.ca
+
+	From the article in the Review:
+
+     The manuscript tunes given here are lesson pieces played in
+Seattle. Many people from around the country have asked for the
+inclusion of some tunes in the Review in order that a common
+repertoire can be established. We know well how different regions have
+dissimilar bodies of tunes. This is the first step. 
+
+     The [first] two polkas were collected in Newmarket, Co. Cork in
+1975 from the playing of local musicians. The reel "The One-Horned
+Cow" (The Half-horned Cow) is after the playing of Liam Walsh, a
+Waterford piper (see IPC tape #3). The Lodge Road is a set dance tune
+after the playing of Sean Maguire, combined with some of the features of
+the air in O'Neill's 1001 Gems. Miss Monaghan and the Irish Rover are
+after the piping of Leo Rowsome. The double jig When the Cock Crows...
+is rather faithful to Seamus Ennis' version, and the Mist on the
+Valley is largely from the flute-playing of Charley Higgins, Drumkeerin,
+Co. Leitrim. 
+
+     Johnny Mickie's Slide is from the playing of Denis Brooks and is
+copied from a manuscript of his. It also goes well when transposed in G.
+Denis learned it while living in northwest Cork. 
+	
+	The final three polkas are from Denis Brooks, who associates them
+with a great session that took place at the Top of Croom in West Cork whith
+Peter Heelan, Sabra Daly and Seamus Creagh in 1988. They make a nice set.
+
+--------------------------cut here---------------------------------------
+You may need the following macros.  Add them to zmacros.tex if they are not
+already there.
+
+\def\Zubbzbb#1#2#3#4#5{\Ibu0{#1}{#5}3\qh0{#1}\qh0{#2}\enotes%
+ \grace\Zlz#3\egrace\notes\qh0{#4}\tqh0{#5}}%
+\def\Zlbbzbb#1#2#3#4#5{\Ibl0{#1}{#5}3\qb0{#1}\qb0{#2}\enotes%
+ \grace\hskip -.5\noteskip\Zuz#3\egrace\notes\qb0{#4}\tqb0{#5}}%
+\def\Zlbzbb#1#2#3#4{\Ibl0{#1}{#4}2\qb0{#1}\enotes%
+ \grace\hskip -.5\noteskip\Zuz#2\egrace\notes\qb0{#3}\tqb0{#4}}%
+\def\Zubzbb#1#2#3#4{\Ibu0{#1}{#4}2\qh0{#1}\enotes%
+ \grace\Zlz#2\egrace\notes\qh0{#3}\tqh0{#4}}%
+-----------------------------------------------------------------------
+
+M:C|
+
+X:1
+T:Newmarket Polka, The
+S:Denis Brooks
+R:polka
+I:speed 450
+M:2/4
+K:G
+A|{c}B2.d2 d2e2|d2B2 {c}BABc|d2.B2 A2.B2 |d2.B2 G3A|{c}B2.d2 d2e2|d2B2 {c}BABc|d2G2 {c}B2A2|A2G2 {c}G3:|
+B|d2g2 {a} g2.ag|f2.e2 e4|{f} e2.d2 ^c2.d2|e2.d2|B3c|d2g2 {a} g2.ag|f2.e2 e3^d|d2G2 {c}B2.A2|A2G2 {c}G3:|
+
+X:2
+T:Taur Polka, The
+S:Denis Brooks
+R:polka
+E:9
+I:speed 450
+M:2/4
+K:D
+B|{AB}A2D2 .F.GA2|d2c2 A2B2|=c3 z {d}c2G2|{EG}D2F2 {c}G2B2|{AB}A2D2 .F.GA2|d2c2 A2B2|=c3 z {d}c2E2|{GEF}E2.D2 D3:|
+e|{a}f2gf e2.d2|c2.A2 A2d2|f2d2 e2f2|{a}g4 a2.g2|{a}f2gf e2.d2c2.A2 A2B2|=c3 z {d}c2E2|{GEF}F2.D2 D3:|
+
+X:3
+T:One-Horned Cow, The
+S:Liam Walsh
+E:12
+R:reel
+I:speed 350
+M:C|
+K:D
+G|FA{c}AF GFED|FA {B}(3AGA defA|FA{c}AF GFED|defd efdA|FA{c}AF GFED|FA {B}(3AGA defd|edef {a}(3gfg bg|afdf ed d||
+f|afdf {a}(3gfg bg|afdf (3efe Bf|afdf {a}(3gfg bg|afdf (3efe df|afdf {a}(3gfg bg|afdf eB {c}(3BAB|defg afbf|afdf ecd||
+
+X:4
+T:Kitty's Gone A'Milking
+R:reel
+E:7
+I:speed 350
+M:C|
+K:G
+Bc|dG~G2 d2 Bc|dG ~G2 FABc|dG~G2 d2 eg|.fdcA {c}BG{F}GB|dG~G2 d2 Bc|dG ~G2 FABc|dG~G2 d2 eg|.fdcA{cGF}G2||
+Bc|dg~g2 ag ~g2|dg~g2 d2 Bc|dg~g2 ag ~g2|dcAB {d}c2Bc|dg~g2 ag ~g2|dg~g2 d2 Bc|defg abag|.fdcA {cGF}G2||
+
+X:5
+T:Mist on the Valley, The
+S:Charley Higgins
+R:jig
+E:7
+I:speed 350
+M:6/8
+K:G
+f|gdB {c}BAB|GBA G{c}Bd|gdB {c}BAB|GBd {aed}e2f|gdB {c}BAB|GBA G{c}Bd|gfe {a}.fdB|(4G.B.cd {aed}e2:|
+f|{a}gfg {c}bag|{fg}fef {b}afd|{a}gfg {c}bag|{b}afd {aed}e2f|{a}gfg {c}bag|{fg}fef {b}afd|{a}gfe {a}.fdB|(4G.B.cd {aed}e2:|
+
+X:6
+T:Black Robe, The
+R:jig
+E:7
+M:6/8
+I:speed 350
+K:D
+d|.cA=c {Bc}BGB|.cAA {BAG}A2d|.cA=c {Bc}BGB|{AB}AFD {A}D2d|.cA=c {Bc}BGB|.cAA {BAG}A2F|~G3 {c}BGB|{AB}AFD {A}D2:|
+e|~f3 ~g3|{b}afd {cd}cBA|~f3 ~g3|a.fd dfg|{b}agf {a}gfe|fed {ged}e2d|cA=c {Bc}BGB|{AB}AFD {A}D2:|
+
+X:7
+T:When the Cock Crows it is Day
+S:Seamus Ennis
+R:jig
+E:7
+M:6/8
+I:speed 350
+K:G
+D|{A}GAB {c}BAG|d3 {d}d2D|{A}GAB {c}BAG|{c}A3 {B}A2D|{A}GAB {c}BAG|{c}Bcd (4ef.ge|dBG {c}AFD|{A}G3 {c}G2:|
+d|g.dd g.dd |{B}c3 {d}c2d|g.dd gdB|{c}A3{B}A2d|g.dd g.dd |Bcd (4ef.ge|dBG {c}AFD| {A}G3 {c}G2:|
+
+X:8
+T:Irish Rover
+S:Leo Rowsome
+R:march
+E:7
+I:speed 270
+M:C
+K:D
+{c}AF|{A}D2 FG {d}A2de|f2 ec d2cB|{c}A2BG {c}F2 GF|{A}E6 {c}AF|{A}D2 FG {d}A2de|f2 ec d2cB|{c}A2BG {c}F2 GE|{A}D2 {G}D2 {A}D2||
+{c}A2|d3 ef2d2|e3c {d}A4|d3e f2d2|e3c {d}AG{c}FE|{A}D2 FG {d}A2de|f2 {c}AF {A}G2FE|{A}D2 FA d2f2|e4 d2||
+
+X:9
+T:Miss Monaghan
+S:Leo Rowsome
+R:reel
+E:6.5
+I:speed 350
+M:C|
+K:D
+{c}AF|{A}D2 ~D2 .FA~A2|GA{c}BG FA~A2|dedB {c}ABde|fedf ecAF|{A}D2 ~D2 .FA~A2|GA{c}BG F.AAB|dedB {c}ABdB|{c}AFEF {A}D2:|
+de|fa~a2 {b}afdf|(3.g.fe fd edBc|dedB {c}ABde|fedf ~e2 de|fa~a2 {b}afdf|(3.g.fe fd edBc|dedB {c}ABdB|{c}AFEF {A}D2:|
+
+X:10
+T:Lodge Road, The
+S:O'Neill's/Sean Maguire
+R:set dance
+E:7
+Z:slow tempo
+I:speed 220
+M:C
+K:D
+A|.d2df edcB |.A2 A2 {c}A2F2|DF{d}AF DF{d}AF (3GAG FG E3 A|.d2df edcB |.A2 A2 {c}A2F2|DF{d}AF (3GAG EF|{A}D2 {G}D2 {A}D3:|
+A|defg {b}agfe|defg .a2 af|g2 ge f2fd|e.dcB A2 de|.f2 f2.g2 g2|.e2 e2 f2 fe|.df{b}af .df{b}af (3gag fg e2 de|.f2 f2.g2 g2|.e2 e2 f2 fe|df{b}af bgec|dcde dcBA||
+ 
+X:11
+T:Johnny Mickie's Slide
+S:Denis Brooks
+R:slide
+E:7
+Z:Goes well when transposed to G
+I:speed 350
+M:6/8
+K:D
+DE|FAF {AFE}F2 E|{c}D3 {c}D2 E|FGF {AFE}F2 D|E3 {D}E2 F|GAG {c}B2 G|FGF {c}A2 F|EFE {AFE}F2 E|{A}D3 {A}D2:|
+F|ABA {cAG}A2F|{G} A3{G}A2F|ABA{cAG}A2 F|G3{AGF}G2E|GAG {c}B2G|FGF{c}A2F|EFE {AFE}F2E|{A}D3{A}D2:|
+
+X:12
+T:Gan Ainm
+S:Denis Brooks
+Z:This, together with the following two polkas, makes a nice set.
+R:polka
+E:11.5
+I:speed 450
+M:2/4
+K:D
+B|A2D2 F2A2|G2F2 E2FG|A2D2 F2A2|d4 c2B2|A2D2 F2A2|G2F2 E2d2|cBA2 B2c2|d4 d3:|
+e|f2ga g2f2|e2c2 A2d2|f2ga g2f2|e4 e2g2|f2ga g2f2|e2c2 A3A|B2A2 B2c2|d4 d3:|
+
+X:13
+T:Gan Ainm
+S:Denis Brooks
+E:11.5
+R:polka
+I:speed 450
+M:2/4
+K:G
+c|B2G2 G3A|B2G2 G2B2|A2D2 F2G2|A2B2 cBA2|B2G2 G3A|B2G2 G2B2|A2D2 F2G2|A2G2 G3:|
+A|B2d2 c2e2|d2g2 B2AB|d2c2 A2F2|e2d2 B2GA|B2d2 c2e2|d2g2 B2AB|d2c2 A2F2|G4 G3:|
+
+
+X:14
+T:Mrs. Crowley's
+S:Denis Brooks
+R:polka
+E:8
+I:speed 450
+M:2/4
+K:G
+GE|D2G2 {EF}E2GE|D2G2 {EF}E2GE|D2G2 {AB}A2GA|B2A2 A2GE|D2G2 {EF}E2GE|D2G2 {EF}E2GE|D2G2 {AB}A2GA|B2G2 G2:|
+Bc|d2B2 g2B2|d2B2 g2B2|d2B2 g2B2|B2A2 A2Bc|d2B2 g2B2|d2B2 g2B2|G2B2 {AB}A2GA|B2G2 G2:|

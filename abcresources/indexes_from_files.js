@@ -93,7 +93,7 @@ var files = []
 var count = 0
 var limit = 50000000
 var seenNotesHash = {}
-
+var duplicates = {}
 
 function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
         var parts = filename.split(".")
@@ -163,7 +163,9 @@ function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
                     }
                 })
                 pushSetting(stripText(title), tk)
-            }
+             } else {
+                 duplicates[dir+"-"+title] = duplicates[dir+"-"+title] > 0 ? duplicates[dir+"-"+title] + 1 : 1
+             }
           })
         } catch (err) {
           console.error(err)
@@ -273,4 +275,5 @@ index.settings = settings
 
 fs.writeFileSync(__dirname.split("/").slice(0,-1).join("/") + "/textsearch_index.json"  , JSON.stringify(index));
 
-console.log('index', index.tokens)
+//console.log('index', index.tokens)
+console.log("duplicates",duplicates)

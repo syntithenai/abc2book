@@ -77,6 +77,7 @@ export default function AbcEditor(props) {
      return props.tunebook.saveTune(tune)
   }
 
+
   //var abcForDisplay = []
   //abcForDisplay.push(Array.isArray(tune.notes) ? tune.notes.join("\n") : '')
   
@@ -327,6 +328,13 @@ export default function AbcEditor(props) {
                     <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ? '"' + tune.composer+ '"' : '')  +  " " + allowedChordSites} ><Button>Search Chords</Button></a>
                     <a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search YouTube</Button>
                     </a>
+                    <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
+                        var start = (Array.isArray(tune.words) ? tune.words.join("\n") : '')
+                        var clean = props.tunebook.utils.removeSquareBracketedSections(props.tunebook.utils.cleanupLyrics(start))
+                        tune.words = clean.split("\n")
+                        tune.id = params.tuneId
+                        saveTune(tune)
+                    }} >Clean</Button>
                     <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
                   </Tab>
                   
@@ -334,7 +342,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="chords" title="Chords" >
                     <b>This tool is for scaffolding. Using it to edit chords in existing notation might work or it might break your music!!</b>
                     <br/><br/>
-                    <a style={{float:'right'}}  target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ? '"' + tune.composer+ '"' : '')  +  " " + allowedChordSites } ><Button>Search Chords</Button></a>
+                   
                     
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
